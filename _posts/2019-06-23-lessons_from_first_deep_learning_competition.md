@@ -1,16 +1,12 @@
 ---
 toc: true
 layout: post
-description: Game of Deep Learning was an image recognition challenge on AnalyticsVidya
+description: Game of Deep Learning was an image recognition challenge on AnalyticsVidya. The task was to classify 5 different types of Ships (Cargo, Military, Carrier, Cruise, and Tankers)
 categories: [Deep Learning]
 title: Lessons Learned from my first Deep Learning contest
 ---
 
-# Lessons Learned from my first Deep Learning contest
-
-Game of Deep Learning was an image recognition challenge on AnalyticsVidya. The task was to classify 5 different types of Ships: Cargo, Military, Carrier, Cruise, and Tankers.
-
-![0_final_score](2019-06-23-lessons_from_first_deep_learning_competition/0_final_score.png)
+![0_final_score]({{ site.baseurl }}/images/2019-06-23-lessons_from_first_deep_learning_competition/0_final_score.png)
 
 My rank is 41 out of 441. (0.97 F1 Score).
 
@@ -121,7 +117,7 @@ Data
 
 -   I saw some images were grey scale and old. I might have got a higher score if I had taken time
 
-![1_data_augmentation](2019-06-23-lessons_from_first_deep_learning_competition/1_data_augmentation.png)
+![1_data_augmentation]({{ site.baseurl }}/images/2019-06-23-lessons_from_first_deep_learning_competition/1_data_augmentation.png)
 
 **Using good data augmentation**.
 
@@ -129,7 +125,7 @@ My model was not performing well. 93--94% accuracy was the limit.
 
 I buffed up every transformation. And it started reaching 96+. Warping helped a lot.
 
-![2_buffed_up_data_augmentationpng](2019-06-23-lessons_from_first_deep_learning_competition/2_buffed_up_data_augmentationpng.png)
+![2_buffed_up_data_augmentationpng]({{ site.baseurl }}/images/2019-06-23-lessons_from_first_deep_learning_competition/2_buffed_up_data_augmentationpng.png)
 
 **Developer Habits**
 
