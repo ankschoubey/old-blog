@@ -2,12 +2,19 @@
 layout: page
 title: About Me
 permalink: /about/
+comments: true
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Hola, I’m Ankush!
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+I am a programmer who loves everything technology: Web Development, Deep Learning, DevOps to everything that Elon Musk does.
 
+I am an extrovert, a slow thinker, curious and love finding a different point of view.
 
+I live in Navi Mumbai, India.
 
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+This blog is the way I share my thoughts.
+
+## Contact me?
+
+I love hearing from people, so please email me at ankushchoubey@outlook.com
