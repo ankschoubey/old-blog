@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-03-27T10:29:16-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Development and Deep Learning Blog</subtitle><entry><title type="html">Fastpages Notebook Blog Post</title><link href="www.ankushchoubey.com/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/jupyter/2020/02/20/test</id><content type="html" xml:base="www.ankushchoubey.com/jupyter/2020/02/20/test.html">&lt;!--
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-03-28T02:19:02-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Development and Deep Learning Blog</subtitle><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h2 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h2&gt;
+&lt;h3 id=&quot;always-use-compression-at-least-gzip&quot;&gt;Always use compression: at least gzip&lt;/h3&gt;
+
+&lt;p&gt;gzip is good enough in most cases in terms of both performance and speed.&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Always compress. The configuration is set in the webserver.&lt;br /&gt;&lt;br /&gt;gzip has a perfect balance of performance and compression.&lt;br /&gt;&lt;br /&gt;My application went from 4 MB to 800 kb. Fewer data faster speed.&lt;br /&gt;&lt;br /&gt;Enabling gzip: &lt;a href=&quot;https://t.co/kBGeXU41Ji&quot;&gt;https://t.co/kBGeXU41Ji&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;Verify gzip on Chrome: &lt;a href=&quot;https://t.co/TqAkHtoaOX&quot;&gt;https://t.co/TqAkHtoaOX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;make-less-number-of-requests&quot;&gt;Make less number of requests&lt;/h2&gt;
+&lt;h3 id=&quot;always-cache-static-content-js-css-and-static-images&quot;&gt;Always cache static content: JS, CSS and static images.&lt;/h3&gt;
+
+&lt;p&gt;This can be configured in your web server or your application. Just google “ “how to cache in &lt;your framework=&quot;&quot; or=&quot;&quot; web=&quot;&quot; server=&quot;&quot;&gt;&quot;.&lt;/your&gt;&lt;/p&gt;
+
+&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
+   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
+   &lt;span class=&quot;Toast-content&quot;&gt;Of course: be sure to not cache dynamic content.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;For JS and CSS files, make sure it has a name that is unique if the file is modified.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Example: in angular after creating a –prod build, the filename is in following format “&lt;filename&gt;.&lt;md5 checksum=&quot;&quot;&gt;.js&quot;.&lt;/md5&gt;&lt;/filename&gt;&lt;/p&gt;
+
+&lt;p&gt;This ensures that if the content of the file changes, the md5 checksum will change and a new request will be sent but if the file does not change then it will have the same checksum so it can be pulled from the cache.&lt;/p&gt;
+
+&lt;h3 id=&quot;always-load-images-lazily&quot;&gt;Always load images lazily&lt;/h3&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;lt;img loading=‘lazy’ ... /&amp;gt; is so so easy. Images are only fetched when user scrolls near it. &lt;a href=&quot;https://twitter.com/hashtag/freeSpeedUp?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#freeSpeedUp&lt;/a&gt; &lt;a href=&quot;https://t.co/nduXUy5GLm&quot;&gt;https://t.co/nduXUy5GLm&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Are there any more such tweaks that exist?&lt;/p&gt;&amp;mdash; Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1219613362239049728?ref_src=twsrc%5Etfw&quot;&gt;January 21, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Advanced tips: &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video&quot;&gt;Lazy Loading Images and Video&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;do-it-fast&quot;&gt;Do it fast&lt;/h2&gt;
+
+&lt;h3 id=&quot;fetch-js-and-css-asynchronously&quot;&gt;Fetch JS and CSS asynchronously&lt;/h3&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;When fetching js add &amp;#39;async defer&amp;#39; to script tag. This will fetch multiple js files in parallel. Keep script tag in the header for this.&lt;a href=&quot;https://t.co/o0LmIGmnWc&quot;&gt;https://t.co/o0LmIGmnWc&lt;/a&gt;&lt;a href=&quot;https://t.co/3Hx2ao1aQC&quot;&gt;https://t.co/3Hx2ao1aQC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1229793732418920449?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;are-there-more-such-easy-tips&quot;&gt;Are there more such easy tips?&lt;/h2&gt;
+
+&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;</content><author><name></name></author><summary type="html">Reduce bundle size Always use compression: at least gzip</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="www.ankushchoubey.com/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/jupyter/2020/02/20/test</id><content type="html" xml:base="www.ankushchoubey.com/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
