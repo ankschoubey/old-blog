@@ -19,4 +19,6 @@ This blog is the way I share my thoughts.
 
 I love hearing from people, so please email me at ***ankushchoubey@outlook.com*** or <a href='https://twitter.com/intent/tweet?screen_name=ankschoubey&ref_src=twsrc%5Etfw' class='twitter-mention-button' data-size='medium' data-text='Hi! I found you via your website!' data-related='ankschoubey' data-dnt='true' data-show-count='false'>Tweet to @ankschoubey</a><script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>
 
+[Resume](/documents/Ankush Choubey\ 2020\ 03\ 28.pdf)
+
 <sub><sup>Attribution: Favicon Icon made by <a href='https://www.flaticon.com/authors/flat-icons'>Flat Icon</a><sub><sup>
