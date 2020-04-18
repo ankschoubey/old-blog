@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-18T04:19:58-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Blog</subtitle><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h2 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-18T04:21:23-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Blog</subtitle><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h2 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h2&gt;
 &lt;h3 id=&quot;always-use-compression-at-least-gzip&quot;&gt;Always use compression: at least gzip&lt;/h3&gt;
 
 &lt;p&gt;gzip is good enough in most cases in terms of both performance and speed.&lt;/p&gt;
@@ -886,7 +886,92 @@ wget https://example.com/cat_photo1.png
       &lt;p&gt;This is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Example Markdown Post</summary></entry><entry><title type="html">Lessons Learned from my first Deep Learning contest</title><link href="www.ankushchoubey.com/deep%20learning/2019/06/23/lessons_from_first_deep_learning_competition.html" rel="alternate" type="text/html" title="Lessons Learned from my first Deep Learning contest" /><published>2019-06-23T00:00:00-05:00</published><updated>2019-06-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/2019/06/23/lessons_from_first_deep_learning_competition</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/2019/06/23/lessons_from_first_deep_learning_competition.html">&lt;p&gt;&lt;img src=&quot;/images/2019-06-23-lessons_from_first_deep_learning_competition/0_final_score.png&quot; alt=&quot;0_final_score&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Example Markdown Post</summary></entry><entry><title type="html">How To Download Dataset From Kaggle</title><link href="www.ankushchoubey.com/deep%20learning/2019/08/10/how-to-download-dataset-from-kaggle.html" rel="alternate" type="text/html" title="How To Download Dataset From Kaggle" /><published>2019-08-10T00:00:00-05:00</published><updated>2019-08-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/2019/08/10/how-to-download-dataset-from-kaggle</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/2019/08/10/how-to-download-dataset-from-kaggle.html">&lt;h3 id=&quot;2-sentence-pre-requisite&quot;&gt;2 Sentence Pre-requisite:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kaggle is a &lt;strong&gt;platform&lt;/strong&gt; for &lt;strong&gt;data science&lt;/strong&gt; where you can &lt;strong&gt;find&lt;/strong&gt; &lt;strong&gt;competitions&lt;/strong&gt;, &lt;strong&gt;datasets&lt;/strong&gt;, and &lt;strong&gt;other’s solutions&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Some&lt;/strong&gt; Kaggle &lt;strong&gt;datasets&lt;/strong&gt; &lt;strong&gt;cannot&lt;/strong&gt; be &lt;strong&gt;downloaded&lt;/strong&gt; &lt;strong&gt;directly&lt;/strong&gt; and can &lt;strong&gt;only&lt;/strong&gt; &lt;strong&gt;be downloaded&lt;/strong&gt; through Kaggle &lt;strong&gt;via&lt;/strong&gt; it’s &lt;strong&gt;CLI&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-setup-one-time-activity&quot;&gt;The Setup (One-time activity)&lt;/h2&gt;
+
+&lt;h2 id=&quot;1--install-kaggle-cli&quot;&gt;1 — Install Kaggle CLI&lt;/h2&gt;
+
+&lt;p&gt;To get started to Kaggle CLI you will need Python, open terminal and write&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;kaggle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;2--api-credentials&quot;&gt;2 — API credentials&lt;/h2&gt;
+
+&lt;p&gt;Once you have Kaggle installed, type &lt;strong&gt;kaggle&lt;/strong&gt; to check it is installed and you will get an output similar to this&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/1_API_credentials.png&quot; alt=&quot;1_API_credentials&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the above line, you will see the path (highlighted) of where to put your &lt;strong&gt;kaggle.json&lt;/strong&gt; file.&lt;/p&gt;
+
+&lt;p&gt;To get kaggle.json file go to:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://www.kaggle.com/&amp;lt;username&amp;gt;/account
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;In the API section, click &lt;strong&gt;Create New API Token&lt;/strong&gt;. And copy it the path mentioned in the terminal output.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/2_download_kagglejson.png&quot; alt=&quot;2_download_kagglejson&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Type &lt;strong&gt;kaggle&lt;/strong&gt; once again to check.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/3_chmod.png&quot; alt=&quot;3_chmod&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In my case, even after copying it was not working. I had the file in place but it did not have the right permissions so I had to type the exact command they gave me. And it started working.&lt;/p&gt;
+
+&lt;h2 id=&quot;downloading-dataset-via-cli&quot;&gt;Downloading Dataset via CLI&lt;/h2&gt;
+
+&lt;p&gt;You can open &lt;strong&gt;kaggle help&lt;/strong&gt; via&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;For getting info on competitions you can type&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle competitions download &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;whatever the Kaggle CLI command is, add -h to get help.&lt;/p&gt;
+
+&lt;h3 id=&quot;find-data&quot;&gt;Find Data&lt;/h3&gt;
+
+&lt;p&gt;while you can explore Competitions, Datasets, and kernels via Kaggle, here I am going to only focus on downloading of datasets.&lt;/p&gt;
+
+&lt;p&gt;What I do is I explore competitions or datasets via Kaggle website.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-entire-dataset&quot;&gt;Download Entire Dataset&lt;/h3&gt;
+
+&lt;p&gt;To download the dataset, go to &lt;strong&gt;Data&lt;/strong&gt; *subtab. *In API section you will find the exact command that you can copy to the terminal to download the entire dataset.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/4_finding_download_command_on_competition_page.png&quot; alt=&quot;4_finding_download_command_on_competition_page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/5_download_command_in_terminal.png&quot; alt=&quot;5_download_command_in_terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The syntax is like&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle competitions download &amp;lt;competition name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;download-particular-file-from-dataset&quot;&gt;Download Particular File From Dataset&lt;/h3&gt;
+
+&lt;p&gt;As you can see, the size of the data is 34 GB which is huge.&lt;/p&gt;
+
+&lt;p&gt;So instead of downloading entire dataset, you can &lt;strong&gt;select which files to download&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You cannot provide download multiple files with a single command (as of 2019/Aug/10) so you will have to download it one by one using the following command.&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle competitions download &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &amp;lt;file-name&amp;gt; &amp;lt;competition-name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/6_final_output.png&quot; alt=&quot;6_final_output&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Extract it and start using it.&lt;/p&gt;
+
+&lt;p&gt;I usually (plan to) put up a blog post every Saturday and create a YouTube video about it. My next post is a collection of Google Collab tips which will also include a way to download data from Kaggle into collab.&lt;/p&gt;
+
+&lt;p&gt;If there are any other useful tips/link/suggestion you would like to share, please put in the comment section below.&lt;/p&gt;
+
+&lt;p&gt;I respond to all my comments.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading so far. Have a good day.&lt;/p&gt;</content><author><name></name></author><summary type="html">2 Sentence Pre-requisite:</summary></entry><entry><title type="html">Lessons Learned from my first Deep Learning contest</title><link href="www.ankushchoubey.com/deep%20learning/2019/06/23/lessons_from_first_deep_learning_competition.html" rel="alternate" type="text/html" title="Lessons Learned from my first Deep Learning contest" /><published>2019-06-23T00:00:00-05:00</published><updated>2019-06-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/2019/06/23/lessons_from_first_deep_learning_competition</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/2019/06/23/lessons_from_first_deep_learning_competition.html">&lt;p&gt;&lt;img src=&quot;/images/2019-06-23-lessons_from_first_deep_learning_competition/0_final_score.png&quot; alt=&quot;0_final_score&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My rank is 41 out of 441. (0.97 F1 Score).&lt;/p&gt;
 
