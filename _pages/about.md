@@ -21,4 +21,6 @@ I love hearing from people, so please email me at ***ankushchoubey@outlook.com**
 
 [Resume](/documents/Ankush Choubey\ 2020\ 03\ 28.pdf)
 
-<sub><sup>Attribution: Favicon Icon made by <a href='https://www.flaticon.com/authors/flat-icons'>Flat Icon</a><sub><sup>
+<sub><sup>Attributions:</sup></sub><br>
+<sub><sup>Favicon Icon made by <a href='https://www.flaticon.com/authors/flat-icons'>Flat Icon</a></sup></sub><br>
+<sub><sup>Website made using <a href='https://github.com/fastai/fastpages'>fastpages</a></sup></sub>
