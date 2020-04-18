@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: 
 categories: [Medium]
 title: Clean Code 4  Make the database do the heavy lifting
@@ -20,7 +21,7 @@ Try to filter with smaller queries with a smaller number of columns before fetch
 
 For Spring (Java), ideally, use JPA method query things.**\*\*\***
 
-![Source: [JPA Repositories Spring.io](https://docs.spring.io/spring-data/jpa/docs/1.6.0.RELEASE/reference/html/jpa.repositories.html#jpa.query-methods)](https://cdn-images-1.medium.com/max/NaN/1*zFdnxfeVJjlSsMTf_w6ZFQ.png)
+![Source: [JPA Repositories Spring.io]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/1.png)
 
 _Tips: Use tools to make Entities POJO: [https://www.youtube.com/watch?v=LrbaDRcu3Y0](https://www.youtube.com/watch?v=LrbaDRcu3Y0)_
 
@@ -48,19 +49,19 @@ Note that this is a much simpler version of what you would encounter but I think
 
 There are 3 tables:
 
-![](https://cdn-images-1.medium.com/max/1764/1*NF1SHsFTe30LAcA1_E4Ihw.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/2.png)
 
-![](https://cdn-images-1.medium.com/max/2584/1*431KNZ9UVgdajXUl3CNWdA.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/3.png)
 
-![](https://cdn-images-1.medium.com/max/2580/1*T2bpZ2wOlAdAQaW6qyz8lw.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/4.png)
 
 **_Suppose you want to find who are male grandparents of children whose name start with ‘A’_**
 
 You can go for some complex query like
 
-![](https://cdn-images-1.medium.com/max/3164/1*75X7btaFCu1WIsr7kn1K0Q.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/5.png)
 
-![Output](https://cdn-images-1.medium.com/max/484/1*_77Yv8zDeWB0AGi0vJBSIg.png)
+![Output]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/6.png)
 
 These 33 lines can quickly increase in size when you have too many tables. Multiple shorter queries are always much better than one **big bang query**.
 
@@ -72,25 +73,25 @@ I’ve seen queries which go beyond 100 lines 😖
 
 You could break into something simpler queries like:
 
-![](https://cdn-images-1.medium.com/max/2380/1*O516lxu-uDib3jIf6LOWlQ.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/7.png)
 
-![](https://cdn-images-1.medium.com/max/156/1*0qxyXQX2fRscvlMnK44jqA.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/8.png)
 
-![](https://cdn-images-1.medium.com/max/2368/1*n6Apvygj0rrR_dXnmbV_3A.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/9.png)
 
-![](https://cdn-images-1.medium.com/max/292/1*DPliVI-J4CA7gwbEbjAykQ.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/10.png)
 
-![](https://cdn-images-1.medium.com/max/2364/1*p22YYkOqyTYurOKvQMymUw.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/11.png)
 
-![](https://cdn-images-1.medium.com/max/548/1*snRet2ZLeb2snOBUUyIV7Q.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/12.png)
 
-![](https://cdn-images-1.medium.com/max/2372/1*95LaDFaSAUvCKlI4W0yAsQ.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/13.png)
 
-![](https://cdn-images-1.medium.com/max/464/1*ccfP3npCRgsMweMrZUU6vQ.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/14.png)
 
 Then code the method yourself to call these in a certain sequence:
 
-![](https://cdn-images-1.medium.com/max/3372/1*NtGsnQZoQY6b6LSfmG9xuA.png)
+![]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/15.png)
 
 You will find that even though your line of code has increased, the modularity of code has also increased and these functions can be arranged in any way you like.
 

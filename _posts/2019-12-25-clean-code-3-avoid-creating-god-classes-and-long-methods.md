@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: 
 categories: [Medium]
 title: Clean Code  Avoid creating god classes and long methods

@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: 
 categories: [Medium]
 title: Clean Code  Leave it better than you found it
@@ -14,7 +15,7 @@ Knowing the benefits and tips for writing good code will take you only so far. I
 
 ---
 
-![The clean version of the image from the source: [Leave it a little better than you found it](https://around25.com/blog/leave-it-better-than-you-found-it/)](https://cdn-images-1.medium.com/max/2560/1*hm_R7pVfjtLQy0lFyUjsXQ.png)
+![The clean version of the image from the source: [Leave it a little better than you found it]({{ site.baseurl }}/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png)
 
 # Incremental Improvements
 
@@ -88,7 +89,7 @@ The support for Python 2 ended (2019) after 20 years of development. Its code is
 
 # Code Reviews
 
-![No code review discussion is relevant without mentioning this.](https://cdn-images-1.medium.com/max/968/0*WpUK01KglgQXsYqH.jpg)
+![No code review discussion is relevant without mentioning this.]({{ site.baseurl }}/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/2.png)
 
 #### Benefits of Code Review
 

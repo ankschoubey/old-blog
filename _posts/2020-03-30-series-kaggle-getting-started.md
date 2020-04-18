@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: 
 categories: [Medium]
 title: Series  Kaggle Getting Started

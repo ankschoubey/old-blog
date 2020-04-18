@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: 
 categories: [Medium]
 title: Clean Code  Exception handling
@@ -31,7 +32,7 @@ Custom Exception class also makes your logs easier to read.
 
 # Always know why you are catching an exception…
 
-![TODO: Find and Add YouTube video attribution](https://cdn-images-1.medium.com/max/NaN/1*TSxPWO8dN25_8Ene0JolFw.png)
+![TODO: Find and Add YouTube video attribution]({{ site.baseurl }}/images/2020-01-06-clean-code-exception-handling/1.png)
 
 # … or just don’t catch it (throws to the caller)
 
@@ -49,7 +50,7 @@ If something is not possible or not supported then:
 
 - raise (Python): **NotImplementedError**
 
-![](https://cdn-images-1.medium.com/max/2828/1*Q7ArGGEhErofesOMdg37BA.png)
+![]({{ site.baseurl }}/images/2020-01-06-clean-code-exception-handling/2.png)
 
 # Global exception handling
 

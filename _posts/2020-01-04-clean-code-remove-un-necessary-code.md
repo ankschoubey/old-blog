@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: 
 categories: [Medium]
 title: Clean Code  Remove un-necessary code
@@ -16,13 +17,13 @@ Local variables declared at some different place makes it harder to read the cod
 
 Below are the variations of aRandomFunction which does a bunch of operations (skipped by dots) and on completion returns “Hello” along with the date.
 
-![Bad](https://cdn-images-1.medium.com/max/2460/1*yBofrSKN3WXW_Oq6QRl75A.png)
+![Bad]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/1.png)
 
 The local variables **names** and **date** are declared on top of the functions.
 
 The first usage of the functions are somewhere between the function and the last usage is in the return statement.
 
-![Better. 2 lines saved.](https://cdn-images-1.medium.com/max/2464/1*YbM60pelUstwFe8ZCL5H0Q.png)
+![Better. 2 lines saved.]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/2.png)
 
 Here **name** and **date** variables are moved to where they are first used.
 
@@ -30,7 +31,7 @@ Let’s say after moving we realize that we do not use the variables between the
 
 So we should move it near the return statement:
 
-![Even Better](https://cdn-images-1.medium.com/max/2492/1*_g_xXB8xxDdRzR0gD9V5Ng.png)
+![Even Better]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/3.png)
 
 ---
 
@@ -42,7 +43,7 @@ Storing in a variable is un-necessary is it is never used.
 
 Rather than storing “hello” in name and a new date in date, we should just return it.
 
-![](https://cdn-images-1.medium.com/max/2360/1*wqoNb-hREM8MBHGWegcrCg.png)
+![]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/4.png)
 
 ---
 
@@ -79,7 +80,7 @@ Python and Typescript both support default function arguments.
 
 While not officially supported in Java, one can work around the builder pattern to get similar functionality.
 
-![Source: [Managing Constructor with many parameters](https://stackoverflow.com/questions/222214/managing-constructors-with-many-parameters-in-java/222295#222295).](https://cdn-images-1.medium.com/max/1976/1*65elTS-r8MhBnBzn50i8bQ.png)
+![Source: [Managing Constructor with many parameters]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/5.png)
 
 ---
 
@@ -105,7 +106,7 @@ Python 3.7+ also has **@ dataclass **annotation which auto-generates constructor
 
 #### Spring Boot (Java)
 
-![Source: [Spring Annotations Cheat Sheet](https://www.jrebel.com/blog/spring-annotations-cheat-sheet)](https://cdn-images-1.medium.com/max/7016/1*UZgaWM6WjlE6j0tzCm7Ivg.png)
+![Source: [Spring Annotations Cheat Sheet]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/6.png)
 
 #### Java: For JPA
 
@@ -165,15 +166,15 @@ Below is a very complex function. One of them works with List and other with an 
 
 The bad approach is creating the same logic to work with different data structures.
 
-![](https://cdn-images-1.medium.com/max/2848/1*RwNJk3iwPScWSw0KuWPVUg.png)
+![]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/7.png)
 
 A better approach is to have one main logic function and convert one data structure to another and then call the main one.
 
-![](https://cdn-images-1.medium.com/max/2612/1*L0wdkUD47mykqLn_0wbBcw.png)
+![]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/8.png)
 
 We can also take advantage of having the same name for both the functions which means less to remember.
 
-![](https://cdn-images-1.medium.com/max/2400/1*wC5NtBC4Io4DHBGRkF_QkA.png)
+![]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/9.png)
 
 **Probably a bad example #2 of reuse:**
 
@@ -181,13 +182,13 @@ This is similar to the above.
 
 Here suppose you already have a complex function that works on a list of integers, and now you have to make a similar one to work on a single int.
 
-![](https://cdn-images-1.medium.com/max/2408/1*qHyXmv_8rI0cFrVB3O6PGw.png)
+![]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/10.png)
 
 ---
 
 # Single line boolean evaluation
 
-![](https://cdn-images-1.medium.com/max/3008/1*xTyrFXVpPHzjkOv4yMhTIQ.png)
+![]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/11.png)
 
 ---
 
