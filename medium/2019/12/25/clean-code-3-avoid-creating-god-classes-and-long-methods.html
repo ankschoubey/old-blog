@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Clean Code Avoid creating god classes and long methods | Ankush</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Clean Code Avoid creating god classes and long methods" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Clean Code #3" />
+<meta property="og:description" content="Clean Code #3" />
+<link rel="canonical" href="www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html" />
+<meta property="og:url" content="www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html" />
+<meta property="og:site_name" content="Ankush" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-12-25T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"Clean Code #3","@type":"BlogPosting","headline":"Clean Code Avoid creating god classes and long methods","dateModified":"2019-12-25T00:00:00-06:00","datePublished":"2019-12-25T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html"},"url":"www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Clean Code Avoid creating god classes and long methods | Ankush</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Clean Code Avoid creating god classes and long methods" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Clean Code #3" />
+<meta property="og:description" content="Clean Code #3" />
+<link rel="canonical" href="www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html" />
+<meta property="og:url" content="www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html" />
+<meta property="og:site_name" content="Ankush" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-12-25T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"Clean Code #3","@type":"BlogPosting","headline":"Clean Code Avoid creating god classes and long methods","dateModified":"2019-12-25T00:00:00-06:00","datePublished":"2019-12-25T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html"},"url":"www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Ankush</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Clean Code  Avoid creating god classes and long methods</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2019-12-25T00:00:00-06:00" itemprop="datePublished">
+        Dec 25, 2019
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/categories/#Medium">Medium</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h4"><a href="#clean-code-3">Clean Code #3</a></li>
+<li class="toc-entry toc-h1"><a href="#classes">Classes</a></li>
+<li class="toc-entry toc-h1"><a href="#methods">Methods</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#name">Name</a></li>
+<li class="toc-entry toc-h4"><a href="#dont-repeat-yourself">Don’t Repeat Yourself</a></li>
+<li class="toc-entry toc-h4"><a href="#lines-of-code">Lines of Code</a></li>
+<li class="toc-entry toc-h4"><a href="#passing-variables">Passing variables</a></li>
+<li class="toc-entry toc-h4"><a href="#if-creating-an-object-requires-multiple-steps">If creating an object requires multiple steps</a></li>
+</ul>
+</li>
+</ul><h4 id="clean-code-3">
+<a class="anchor" href="#clean-code-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clean Code #3</h4>
+
+<p>As you gain <strong>experience</strong> as a developer you <strong>start to see repeating patterns</strong> that crop up over and over again in your solutions.</p>
+
+<blockquote>
+  <p>When you use <strong>chunking</strong> (design patterns, algorithms and standard functions) appropriately, it <strong>allows</strong> you to <strong>stop thinking</strong> about <strong>how the code</strong> you write does something and <strong>instead</strong> think about <strong>what it does</strong></p>
+</blockquote>
+
+<p>Source: <a href="https://www.codeproject.com/Articles/838973/Why-Your-Code-Is-So-Hard-to-Understand">Why Your Code Is So Hard to Understand</a></p>
+
+<h1 id="classes">
+<a class="anchor" href="#classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Classes</h1>
+
+<blockquote>
+  <p>One class should do one thing not everything like StatusChanger or StatusManager, not StatusGod</p>
+</blockquote>
+
+<blockquote>
+  <p>Keep classes small, a 1000 line class is a pain</p>
+</blockquote>
+
+<h1 id="methods">
+<a class="anchor" href="#methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Methods</h1>
+
+<h4 id="name">
+<a class="anchor" href="#name" aria-hidden="true"><span class="octicon octicon-link"></span></a>Name</h4>
+
+<blockquote>
+  <p>Avoid using <strong>and</strong> in method names like <strong>validateAndSave</strong>, one method needs to do one thing and one thing well</p>
+</blockquote>
+
+<h4 id="dont-repeat-yourself">
+<a class="anchor" href="#dont-repeat-yourself" aria-hidden="true"><span class="octicon octicon-link"></span></a>Don’t Repeat Yourself</h4>
+
+<blockquote>
+  <p>There should be one — and preferably only one — obvious way to do it.</p>
+</blockquote>
+
+<p>~The Zen of Python, by Tim Peters</p>
+
+<h4 id="lines-of-code">
+<a class="anchor" href="#lines-of-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lines of Code</h4>
+
+<blockquote>
+  <p>Keep methods small, a 50 line method is a problem.</p>
+</blockquote>
+
+<p>My rule of thumb is: The method should not be more than the size of my screen. (<em>Source: Jeremy Howard fast.ai</em>)</p>
+
+<h4 id="passing-variables">
+<a class="anchor" href="#passing-variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Passing variables</h4>
+
+<blockquote>
+  <p>Keep the instance variables as low. If you are passing 4,5 variables you are probably doing more than one thing</p>
+</blockquote>
+
+<p>Pass an object instead of multiple methods</p>
+
+<p>Don’t pass the variables that you don’t need.</p>
+
+<h4 id="if-creating-an-object-requires-multiple-steps">
+<a class="anchor" href="#if-creating-an-object-requires-multiple-steps" aria-hidden="true"><span class="octicon octicon-link"></span></a>If creating an object requires multiple steps</h4>
+
+<p>Convert it into a factory method</p>
+
+<p><strong>Previous</strong>: <a href="https://medium.com/@ankushchoubey/clean-code-2-leave-clues-naming-convention-89932c18abac">Leave clues (Naming convention)</a></p>
+
+<p><strong>Next</strong>: <a href="https://medium.com/@ankushchoubey/clean-code-4-make-the-database-do-the-heavy-lifting-88178a1c3a16">Make database do the heavy lifting</a></p>
+
+<p><strong>Index</strong>: <a href="https://medium.com/p/30d717f32ae4">Tips on writing Clean Code</a></p>
+
+  </div><a class="u-url" href="/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Blog</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/ankschoubey" title="ankschoubey"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/ankschoubey" title="ankschoubey"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

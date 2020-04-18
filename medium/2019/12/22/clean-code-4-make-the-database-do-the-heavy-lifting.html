@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Clean Code 4 Make the database do the heavy lifting | Ankush</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Clean Code 4 Make the database do the heavy lifting" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Clean Code #4" />
+<meta property="og:description" content="Clean Code #4" />
+<link rel="canonical" href="www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html" />
+<meta property="og:url" content="www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html" />
+<meta property="og:site_name" content="Ankush" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-12-22T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"Clean Code #4","@type":"BlogPosting","headline":"Clean Code 4 Make the database do the heavy lifting","dateModified":"2019-12-22T00:00:00-06:00","datePublished":"2019-12-22T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html"},"url":"www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Clean Code 4 Make the database do the heavy lifting | Ankush</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Clean Code 4 Make the database do the heavy lifting" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Clean Code #4" />
+<meta property="og:description" content="Clean Code #4" />
+<link rel="canonical" href="www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html" />
+<meta property="og:url" content="www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html" />
+<meta property="og:site_name" content="Ankush" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-12-22T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"Clean Code #4","@type":"BlogPosting","headline":"Clean Code 4 Make the database do the heavy lifting","dateModified":"2019-12-22T00:00:00-06:00","datePublished":"2019-12-22T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html"},"url":"www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Ankush</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Clean Code 4  Make the database do the heavy lifting</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2019-12-22T00:00:00-06:00" itemprop="datePublished">
+        Dec 22, 2019
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/categories/#Medium">Medium</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h4"><a href="#clean-code-4">Clean Code #4</a></li>
+<li class="toc-entry toc-h1"><a href="#rule-of-thumb-avoid-filtering-loops">Rule of thumb: Avoid filtering loops</a></li>
+<li class="toc-entry toc-h1"><a href="#use-orm">Use ORM</a></li>
+<li class="toc-entry toc-h1"><a href="#complex-queries">Complex queries</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#break-down-big-bang-complex-queries-into-multiple-simpler-queries">Break down big-bang (complex) queries into multiple simpler queries</a></li>
+</ul>
+</li>
+</ul><h4 id="clean-code-4">
+<a class="anchor" href="#clean-code-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clean Code #4</h4>
+
+<h1 id="rule-of-thumb-avoid-filtering-loops">
+<a class="anchor" href="#rule-of-thumb-avoid-filtering-loops" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rule of thumb: Avoid filtering loops</h1>
+
+<p>SQL/Databases are good at 2 jobs: storing data. filtering data as fast as possible. <strong>You’re for loop cannot compete with SQL.</strong></p>
+
+<p>The performance of your program will be much faster if you let SQL manage the filtering of data. Plus it will also result in a smaller line of code.</p>
+
+<p>Try to filter with smaller queries with a smaller number of columns before fetching all the columns. Smaller the data, the faster will be the data transfer. You will find a better example of this in the section of Complex Queries bellow.</p>
+
+<h1 id="use-orm">
+<a class="anchor" href="#use-orm" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Use ORM</strong>
+</h1>
+
+<p>For Spring (Java), ideally, use JPA method query things.<strong>***</strong></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/NaN/1*zFdnxfeVJjlSsMTf_w6ZFQ.png" alt="Source: [JPA Repositories Spring.io](https://docs.spring.io/spring-data/jpa/docs/1.6.0.RELEASE/reference/html/jpa.repositories.html#jpa.query-methods)"></p>
+
+<p><em>Tips: Use tools to make Entities POJO: <a href="https://www.youtube.com/watch?v=LrbaDRcu3Y0">https://www.youtube.com/watch?v=LrbaDRcu3Y0</a></em></p>
+
+<p>For Python, SQLAlchemy is popular and preferred or Django ORM for Django. (I have less experience with this)</p>
+
+<h1 id="complex-queries">
+<a class="anchor" href="#complex-queries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Complex queries</h1>
+
+<p>In the case of Java, you can also JPA specific things like Specifications or Criteria API.</p>
+
+<p>Honestly, I haven’t tried them I know they exist. I have seen them and found that the code looked really ugly</p>
+
+<p>I do find Django ORM to be easier than Spring JPA (you can pass arguments rather than always create a separate function).</p>
+
+<h4 id="break-down-big-bang-complex-queries-into-multiple-simpler-queries">
+<a class="anchor" href="#break-down-big-bang-complex-queries-into-multiple-simpler-queries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Break down big-bang (complex) queries into multiple simpler queries</h4>
+
+<p>*** This might be very controversial and I have not seen this talked about anywhere or used in other people’s code. **You are not likely to use this unless you are like me (bad at ORMs).***</p>
+
+<p>Many times you have a complex feature like search and you want to filter by multiple parameters.</p>
+
+<p>What usually ends up happening you end up with a custom query generator or Criteria API (Java) or a query which is too long. Especially if this query requires additional features like ordering and pagination.</p>
+
+<p>I think a simpler solution is to break it into smaller queries. I give a simplified example below.</p>
+
+<p>Note that this is a much simpler version of what you would encounter but I think it will make the point.</p>
+
+<p>There are 3 tables:</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1764/1*NF1SHsFTe30LAcA1_E4Ihw.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/2584/1*431KNZ9UVgdajXUl3CNWdA.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/2580/1*T2bpZ2wOlAdAQaW6qyz8lw.png" alt=""></p>
+
+<p><strong><em>Suppose you want to find who are male grandparents of children whose name start with ‘A’</em></strong></p>
+
+<p>You can go for some complex query like</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/3164/1*75X7btaFCu1WIsr7kn1K0Q.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/484/1*_77Yv8zDeWB0AGi0vJBSIg.png" alt="Output"></p>
+
+<p>These 33 lines can quickly increase in size when you have too many tables. Multiple shorter queries are always much better than one <strong>big bang query</strong>.</p>
+
+<p>I’ve seen queries which go beyond 100 lines 😖</p>
+
+<p><strong>Making changes in such large 100+ line queries is a pain.</strong></p>
+
+<p>(Even when writing the 33 line query above, I introduced bug by not writing join on lines 30 and 31. writing smaller queries helped me debug.)</p>
+
+<p>You could break into something simpler queries like:</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/2380/1*O516lxu-uDib3jIf6LOWlQ.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/156/1*0qxyXQX2fRscvlMnK44jqA.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/2368/1*n6Apvygj0rrR_dXnmbV_3A.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/292/1*DPliVI-J4CA7gwbEbjAykQ.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/2364/1*p22YYkOqyTYurOKvQMymUw.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/548/1*snRet2ZLeb2snOBUUyIV7Q.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/2372/1*95LaDFaSAUvCKlI4W0yAsQ.png" alt=""></p>
+
+<p><img src="https://cdn-images-1.medium.com/max/464/1*ccfP3npCRgsMweMrZUU6vQ.png" alt=""></p>
+
+<p>Then code the method yourself to call these in a certain sequence:</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/3372/1*NtGsnQZoQY6b6LSfmG9xuA.png" alt=""></p>
+
+<p>You will find that even though your line of code has increased, the modularity of code has also increased and these functions can be arranged in any way you like.</p>
+
+<hr>
+
+<p><strong>Previous</strong>: <a href="https://medium.com/p/f3d76b1b622a">Avoid creating god classes and long methods</a></p>
+
+<p><strong>Next</strong>: <a href="https://medium.com/p/c477707e5be1">Remove unnecessary code</a></p>
+
+<p><strong>Index</strong>: <a href="https://medium.com/p/30d717f32ae4">Tips on writing Clean Code</a></p>
+
+  </div><a class="u-url" href="/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Blog</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/ankschoubey" title="ankschoubey"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/ankschoubey" title="ankschoubey"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,4 +1,498 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-18T04:21:23-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Blog</subtitle><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h2 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-18T04:34:06-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Blog</subtitle><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html">&lt;h4 id=&quot;baby-steps-towards-competitions&quot;&gt;Baby steps towards competitions&lt;/h4&gt;
+
+&lt;h1 id=&quot;why&quot;&gt;Why?&lt;/h1&gt;
+
+&lt;h4 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Easy&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Less intimidating&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Less chance of getting stuck&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;how-we-will-do-it&quot;&gt;How we will do it?&lt;/h1&gt;
+
+&lt;h4 id=&quot;by&quot;&gt;&lt;strong&gt;By:&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;focusing on the process rather than just getting the output.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;starting with easier problems.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyTorch:&lt;a href=&quot;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&quot;&gt; A 60 Minute Blitz&lt;/a&gt;, &lt;a href=&quot;https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset&quot;&gt;Writing Custom Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;expectations-from-this-series&quot;&gt;Expectations from this series&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5–6 Hours per challenge or more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coding Style&lt;/strong&gt;:&lt;a href=&quot;https://docs.fast.ai/dev/style.html&quot;&gt; fastai coding style&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;While coding, no function takes 10 seconds.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Heavy use of %timeit%&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation Style&lt;/strong&gt;: Based on Kaggle Notebook Commits&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Notebook Commit 1&lt;/em&gt;: Will focus on getting input and output&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Next N-1 Commits&lt;/em&gt;: Will add new features/improvements. These will be linked.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Last Commit&lt;/em&gt;: Complete solution&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This way one can see get a peek behind the finished product.&lt;/p&gt;
+
+&lt;h1 id=&quot;abbreviations-used&quot;&gt;Abbreviations Used&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;X = training_data
+y = training_label
+
+ds = dataset
+dl = dataloader
+
+o = optimizer
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;index&quot;&gt;Index&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://medium.com/p/a3c37acae6e9&quot;&gt;&lt;strong&gt;Join Medium.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;small&gt;Join Medium.&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Baby steps towards competitions</summary></entry><entry><title type="html">Digit Recognition</title><link href="www.ankushchoubey.com/medium/2020/03/30/digit-recognition.html" rel="alternate" type="text/html" title="Digit Recognition" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/30/digit-recognition</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/30/digit-recognition.html">&lt;h4 id=&quot;kaggle-getting-started&quot;&gt;Kaggle Getting Started&lt;/h4&gt;
+
+&lt;p&gt;P&lt;a href=&quot;https://medium.com/p/c06251780b&quot;&gt;re-requisites&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;how-to-read-this&quot;&gt;How to read this?&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open each commit notebook then read the explanations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Just run each notebook top to bottom.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Try to understand each line.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you find yourself stuck at statements, explore the variable involved.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Still, &lt;strong&gt;stuck&lt;/strong&gt;?? &lt;strong&gt;highlight the explanation and comment&lt;/strong&gt;. I will get back to your query.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;commit-version-2-getting-input-and-generating-submission-file&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30660257&quot;&gt;Commit Version 2&lt;/a&gt;: Getting Input and Generating Submission File&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Day 1&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Score — 0.43&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Time invested — about an hour&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal for any first commit is always to get input, pass it through a NN and generate a submittable output.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Read the data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;train_df = pd.read_csv('/kaggle/input/digit-recognizer/train.csv')
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Training/testing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I needed a way to separate features and labels.&lt;/p&gt;
+
+&lt;p&gt;So the easiest way was to not select a column named ‘label’.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;test_df&lt;/em&gt; does not contain a label column&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;train_df.loc[:, train_df.columns != 'label']
+type(test_df.get('label')) == None
+#false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Dataset&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Returns features and labels if ‘train=True’. else it returns just features&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class **MnistDataset**(Dataset):
+    def __init__(self, df, train=True):
+        #convert df to self.X and self.y using above
+
+    def __len__(self):
+        return self.X.shape[0]
+
+    def __getitem__(self, i):
+        if self.train: return self.X[i], self.y[i]
+        return self.X[i]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Observation: Even if I don’t explicitly mention Tensor, NumPy is converted to tensor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Creating DataLoader&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bs = 64
+ds = MnistDataset(train_df)
+dl = DataLoader(ds, bs)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Checking if DataLoader returns the right output&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;images, labels = next(iter(dl))
+images.shape, labels.shape
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Creating a vanilla Neural Network&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I created a dumb NN just so that I can pass data through it and get output in the desired shape.&lt;/p&gt;
+
+&lt;p&gt;The details don’t matter much. This will be replaced by a CNN later.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Preparing the training loop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;epochs = 10
+loss_fn = nn.CrossEntropyLoss()
+
+import torch.optim as optim
+o = optim.Adam(net.parameters())
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Creating the training loop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are the 4 steps to create a basic training loop&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Loop epoch number of times&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for i **in** range(epochs):
+    ...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Inside the epoch loop, &lt;strong&gt;loop through data loader&lt;/strong&gt; (dl)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for images, labels **in** dl:
+    ...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Inside the data loader loop,&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;zero&lt;/strong&gt; &lt;strong&gt;grad optimizer&lt;/strong&gt; &lt;strong&gt;before passing pushing data&lt;/strong&gt; into NN.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Take an &lt;strong&gt;optimizer step after pushing data&lt;/strong&gt; through NN.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;o.zero_grad()
+...
+o.step()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Between optimizer zero_grad and optimizer step, &lt;strong&gt;pass data through the NN, compute loss and gradients.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;out = net(images.float())
+loss = loss_fn(out.float(), labels.long())
+loss.backward()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Generating output&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A similar step as above has been taken to generate test_dl and the testing loop.&lt;/p&gt;
+
+&lt;p&gt;The only difference,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;test_dl has ‘train=true’. Dataset will only return features and not labels.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;code to not calculate gradients since we are not training.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;with torch.no_grad():
+    ...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The output is in the form of numbers from 0…9.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Our output is a column &lt;strong&gt;&lt;em&gt;(dim=1)&lt;/em&gt;&lt;/strong&gt; array of length 10 with probability.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The maximum of this array is our output.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;out.argmax(dim=1)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We store these outputs in an &lt;strong&gt;outputs&lt;/strong&gt; python list.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;test_df.shape, sample_df.shape
+# Out[17]: ((28000, 784), (28000, 2))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;I realized that sample submission and output df have the same length.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I just need to add ‘Label’ column to the submission data frame and save it in CSV form.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sample_df['Label'] = outputs
+sample_df.to_csv('submission.csv', index=False)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;index=False&lt;/strong&gt; removed the default pandas index when saving&lt;/p&gt;
+
+&lt;h4 id=&quot;commit-version-3-improvements&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30753580&quot;&gt;Commit Version 3&lt;/a&gt;: Improvements&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Changes&lt;/em&gt;: Proper Accuracy, Graph, and Data Normalization&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Day 4&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Score — 0.96&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Time invested — about an hour&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;proper-accuracy&quot;&gt;Proper Accuracy&lt;/h4&gt;
+
+&lt;p&gt;Accuracy should always be calculated on the validation set.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Creating a separate validation set&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;val_len = int(len(ds)*0.01) # 0.01 percent of data
+train_len = len(ds) — val_len # all other are in training
+
+from torch.utils.data import random_split
+
+train_ds, val_ds = random_split(ds, [train_len, val_len])
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Likewise, 2 data loaders are created.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bs = 64
+train_dl = DataLoader(train_ds, bs)
+val_dl = DataLoader(val_ds, bs)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Changes in the training loop&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A separate list called accuracies in created to store the accuracy of an epoch.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+with torch.no_grad():
+        accuracy = 0
+        for images, labels in val_dl:
+            out = net(images.float())
+            accuracy+=(out.argmax(dim=1) == labels).sum().item()
+        accuracies.append(accuracy/len(val_ds) * 100)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;graph&quot;&gt;Graph&lt;/h4&gt;
+
+&lt;p&gt;Since the accuracy of each epoch was stored in a separate accuracies list, creating a graph was easy.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import matplotlib.pyplot as plt
+
+plt.plot(range(epochs), accuracies)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;data-normalization&quot;&gt;Data Normalization&lt;/h4&gt;
+
+&lt;p&gt;After plotting the graph, I realized accuracy was 43% which is the same as the score of commit 2.&lt;/p&gt;
+
+&lt;p&gt;The easiest thing to do was to normalize the data.&lt;/p&gt;
+
+&lt;p&gt;Since MNIST images are in the range of 1…250 the easiest thing to do was to divide by 250 which would result in a range of 0…1.&lt;/p&gt;
+
+&lt;p&gt;Ideally, the range should be around 0 so an even better approach would be&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;image = image/250–0.5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;this would result in a range between -0.5…+0.5.&lt;/p&gt;
+
+&lt;p&gt;Later we would use &lt;code class=&quot;highlighter-rouge&quot;&gt;torchvision.transforms.Normalize&lt;/code&gt;(&lt;em&gt;mean&lt;/em&gt;, &lt;em&gt;std&lt;/em&gt;, &lt;em&gt;inplace=False&lt;/em&gt;) which generates unique normalization value for each dataset&lt;/p&gt;
+
+&lt;h4 id=&quot;commit-6-convnet-and-gpu&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist?scriptVersionId=30896320&quot;&gt;Commit 6&lt;/a&gt;: ConvNet, and GPU&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Day 6&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Score — 0.97&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Time invested — about 2 hours (lots of googling and reading docs) + 1 hours fixes bugs&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;convnet&quot;&gt;ConvNet&lt;/h4&gt;
+
+&lt;p&gt;Convolutional Neural Networks are ideal images.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;ResNet&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ResNet 34 is my goto ConvNet but since MNIST is so easy, I went with ResNet 18.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import torchvision.models as models
+resnet18 = models.resnet18(pretrained=True)
+resnet18.fc #print fully connected network
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ResNet is designed to output 1000 classes. But our output is from 0…9 aka 10 classes.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lin_in = resnet18.fc.in_features
+
+import torch.nn as nn
+
+resnet18.fc = nn.Sequential(
+    nn.Linear(lin_in, 10),
+    nn.Softmax(dim=1)
+)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Convert Grayscale to RGB image&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ResNet expects RGB images. MNIST is grayscale.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`img = img.view(3, 28, 28).expand(3, 28, 28)`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This &lt;a href=&quot;https://discuss.pytorch.org/t/grayscale-to-rgb-transform/18315/7&quot;&gt;grayscale to the RGB&lt;/a&gt; line is added to our Dataset class.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Normalization&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When using an existing model, we need to use the same normalization values as that model. The &lt;a href=&quot;#https://pytorch.org/docs/stable/torchvision/models.html&quot;&gt;docs mention the normalization value&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import  torchvision.transforms as transforms
+normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                                 std=[0.229, 0.224, 0.225])
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;strong&gt;init&lt;/strong&gt; and &lt;strong&gt;getitem&lt;/strong&gt; dataset class have been modified to use this transformation.&lt;/p&gt;
+
+&lt;p&gt;Modifications have also been made to test_ds.&lt;/p&gt;
+
+&lt;h4 id=&quot;gpu&quot;&gt;GPU&lt;/h4&gt;
+
+&lt;p&gt;One I started the training loop, I realized it suddenly became too slow.&lt;/p&gt;
+
+&lt;p&gt;GPU is needed!&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;device = torch.device('cuda:0') if torch.cuda.is_available() else 'cpu'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If the GPU is on, the device will be &lt;em&gt;cuda&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The neural network and the data in training, validation and texting loop have been changed to run on GPU.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;net = net.to(device)
+...
+
+images, labels = images.to(device,dtype=torch.float), labels.to(device)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And since we are on GPU we can increase our batch size from 64 to much higher.&lt;/p&gt;
+
+&lt;p&gt;I experimented with a few sizes from 320…640 and kept an eye on GPU utilization and settled for 512.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/5120/1*J4X6Ob-7XrUdWitf2_zEbg.png&quot; alt=&quot;CPU and GPU Utilization. Also, see the number of tabs open.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I did the same for &lt;a href=&quot;https://discuss.pytorch.org/t/guidelines-for-assigning-num-workers-to-dataloader/813/2&quot;&gt;num_worker&lt;/a&gt; which specifies the number of threads to load a batch. This is CPU stuff.&lt;/p&gt;
+
+&lt;p&gt;Along with monitoring GPU and CPU usage, I modified training_loop to show the &lt;a href=&quot;https://stackoverflow.com/a/36423341&quot;&gt;amount of time taken to complete each epoch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bs = 512
+num_workers = 2
+train_dl = DataLoader(train_ds, bs, num_workers=num_workers)
+val_dl = DataLoader(val_ds, bs, num_workers=num_workers)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This resulted in 7 seconds per epoch.&lt;/p&gt;
+
+&lt;p&gt;For testing, the batch_size can be much higher since we don’t have to back prop.&lt;/p&gt;
+
+&lt;h4 id=&quot;commit-7-improvement&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist/output?scriptVersionId=31120757&quot;&gt;Commit 7&lt;/a&gt;: Improvement&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Day 8&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Score — 0.97&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Time invested — about 30 minutes&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I learned that you don’t need &lt;a href=&quot;https://discuss.pytorch.org/t/vgg-output-layer-no-softmax/9273&quot;&gt;nn.Softmax if you are using nn.CrossEntropyLoss&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;nn.CrossEntropyLoss has nn.Softmax built-in and the results of softmax are not used during back-prop. So it can be safely removed.&lt;/p&gt;
+
+&lt;p&gt;Now FC is this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lin_in = resnet18.fc.in_features
+
+import torch.nn as nn
+
+resnet18.fc = nn.Sequential(
+    nn.Linear(lin_in, 10)
+)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Kaggle Getting Started</summary></entry><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h2 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h2&gt;
 &lt;h3 id=&quot;always-use-compression-at-least-gzip&quot;&gt;Always use compression: at least gzip&lt;/h3&gt;
 
 &lt;p&gt;gzip is good enough in most cases in terms of both performance and speed.&lt;/p&gt;
@@ -886,249 +1380,595 @@ wget https://example.com/cat_photo1.png
       &lt;p&gt;This is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Example Markdown Post</summary></entry><entry><title type="html">How To Download Dataset From Kaggle</title><link href="www.ankushchoubey.com/deep%20learning/2019/08/10/how-to-download-dataset-from-kaggle.html" rel="alternate" type="text/html" title="How To Download Dataset From Kaggle" /><published>2019-08-10T00:00:00-05:00</published><updated>2019-08-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/2019/08/10/how-to-download-dataset-from-kaggle</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/2019/08/10/how-to-download-dataset-from-kaggle.html">&lt;h3 id=&quot;2-sentence-pre-requisite&quot;&gt;2 Sentence Pre-requisite:&lt;/h3&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Example Markdown Post</summary></entry><entry><title type="html">Clean Code Exception handling</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html" rel="alternate" type="text/html" title="Clean Code  Exception handling" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html">&lt;h4 id=&quot;clean-code-7&quot;&gt;Clean Code 7&lt;/h4&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Kaggle is a &lt;strong&gt;platform&lt;/strong&gt; for &lt;strong&gt;data science&lt;/strong&gt; where you can &lt;strong&gt;find&lt;/strong&gt; &lt;strong&gt;competitions&lt;/strong&gt;, &lt;strong&gt;datasets&lt;/strong&gt;, and &lt;strong&gt;other’s solutions&lt;/strong&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Some&lt;/strong&gt; Kaggle &lt;strong&gt;datasets&lt;/strong&gt; &lt;strong&gt;cannot&lt;/strong&gt; be &lt;strong&gt;downloaded&lt;/strong&gt; &lt;strong&gt;directly&lt;/strong&gt; and can &lt;strong&gt;only&lt;/strong&gt; &lt;strong&gt;be downloaded&lt;/strong&gt; through Kaggle &lt;strong&gt;via&lt;/strong&gt; it’s &lt;strong&gt;CLI&lt;/strong&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Errors should never pass silently.
+Unless explicitly silenced.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id=&quot;the-setup-one-time-activity&quot;&gt;The Setup (One-time activity)&lt;/h2&gt;
+&lt;p&gt;~The Zen of Python, by Tim Peters&lt;/p&gt;
 
-&lt;h2 id=&quot;1--install-kaggle-cli&quot;&gt;1 — Install Kaggle CLI&lt;/h2&gt;
+&lt;h1 id=&quot;create-custom-exception-classes&quot;&gt;Create custom exception classes&lt;/h1&gt;
 
-&lt;p&gt;To get started to Kaggle CLI you will need Python, open terminal and write&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;kaggle
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;2--api-credentials&quot;&gt;2 — API credentials&lt;/h2&gt;
+&lt;p&gt;Your exceptions should say exactly what went wrong. While those provided by programming languages are good, they are too general and are not specific to your codebase.&lt;/p&gt;
 
-&lt;p&gt;Once you have Kaggle installed, type &lt;strong&gt;kaggle&lt;/strong&gt; to check it is installed and you will get an output similar to this&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/1_API_credentials.png&quot; alt=&quot;1_API_credentials&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the above line, you will see the path (highlighted) of where to put your &lt;strong&gt;kaggle.json&lt;/strong&gt; file.&lt;/p&gt;
-
-&lt;p&gt;To get kaggle.json file go to:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://www.kaggle.com/&amp;lt;username&amp;gt;/account
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;In the API section, click &lt;strong&gt;Create New API Token&lt;/strong&gt;. And copy it the path mentioned in the terminal output.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/2_download_kagglejson.png&quot; alt=&quot;2_download_kagglejson&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Type &lt;strong&gt;kaggle&lt;/strong&gt; once again to check.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/3_chmod.png&quot; alt=&quot;3_chmod&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In my case, even after copying it was not working. I had the file in place but it did not have the right permissions so I had to type the exact command they gave me. And it started working.&lt;/p&gt;
-
-&lt;h2 id=&quot;downloading-dataset-via-cli&quot;&gt;Downloading Dataset via CLI&lt;/h2&gt;
-
-&lt;p&gt;You can open &lt;strong&gt;kaggle help&lt;/strong&gt; via&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;For getting info on competitions you can type&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle competitions download &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;whatever the Kaggle CLI command is, add -h to get help.&lt;/p&gt;
-
-&lt;h3 id=&quot;find-data&quot;&gt;Find Data&lt;/h3&gt;
-
-&lt;p&gt;while you can explore Competitions, Datasets, and kernels via Kaggle, here I am going to only focus on downloading of datasets.&lt;/p&gt;
-
-&lt;p&gt;What I do is I explore competitions or datasets via Kaggle website.&lt;/p&gt;
-
-&lt;h3 id=&quot;download-entire-dataset&quot;&gt;Download Entire Dataset&lt;/h3&gt;
-
-&lt;p&gt;To download the dataset, go to &lt;strong&gt;Data&lt;/strong&gt; *subtab. *In API section you will find the exact command that you can copy to the terminal to download the entire dataset.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/4_finding_download_command_on_competition_page.png&quot; alt=&quot;4_finding_download_command_on_competition_page&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/5_download_command_in_terminal.png&quot; alt=&quot;5_download_command_in_terminal&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The syntax is like&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle competitions download &amp;lt;competition name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;download-particular-file-from-dataset&quot;&gt;Download Particular File From Dataset&lt;/h3&gt;
-
-&lt;p&gt;As you can see, the size of the data is 34 GB which is huge.&lt;/p&gt;
-
-&lt;p&gt;So instead of downloading entire dataset, you can &lt;strong&gt;select which files to download&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;You cannot provide download multiple files with a single command (as of 2019/Aug/10) so you will have to download it one by one using the following command.&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle competitions download &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &amp;lt;file-name&amp;gt; &amp;lt;competition-name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2019-08-10-how-to-download-dataset-from-kaggle/6_final_output.png&quot; alt=&quot;6_final_output&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Extract it and start using it.&lt;/p&gt;
-
-&lt;p&gt;I usually (plan to) put up a blog post every Saturday and create a YouTube video about it. My next post is a collection of Google Collab tips which will also include a way to download data from Kaggle into collab.&lt;/p&gt;
-
-&lt;p&gt;If there are any other useful tips/link/suggestion you would like to share, please put in the comment section below.&lt;/p&gt;
-
-&lt;p&gt;I respond to all my comments.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading so far. Have a good day.&lt;/p&gt;</content><author><name></name></author><summary type="html">2 Sentence Pre-requisite:</summary></entry><entry><title type="html">Lessons Learned from my first Deep Learning contest</title><link href="www.ankushchoubey.com/deep%20learning/2019/06/23/lessons_from_first_deep_learning_competition.html" rel="alternate" type="text/html" title="Lessons Learned from my first Deep Learning contest" /><published>2019-06-23T00:00:00-05:00</published><updated>2019-06-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/2019/06/23/lessons_from_first_deep_learning_competition</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/2019/06/23/lessons_from_first_deep_learning_competition.html">&lt;p&gt;&lt;img src=&quot;/images/2019-06-23-lessons_from_first_deep_learning_competition/0_final_score.png&quot; alt=&quot;0_final_score&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My rank is 41 out of 441. (0.97 F1 Score).&lt;/p&gt;
-
-&lt;p&gt;Before this, I had only practiced 2 lessons from Fast.ai and watched the first 5 lessons.&lt;/p&gt;
-
-&lt;p&gt;After the contest, I saw other participant’s approaches and found that their approach was much clearer and cleaner than mine.&lt;/p&gt;
-
-&lt;p&gt;Therefore, I decided to complete Fast.ai’s Deep Learning for Coders.&lt;/p&gt;
-
-&lt;p&gt;The contest was a month ago from this writing. I had the time to really sit and figure out what went well and what didn’t.&lt;/p&gt;
-
-&lt;h1 id=&quot;approach&quot;&gt;Approach&lt;/h1&gt;
-
-&lt;p&gt;Here was my approach which I did in stages:&lt;/p&gt;
-
-&lt;h2 id=&quot;step-1-make-models&quot;&gt;Step 1: Make models&lt;/h2&gt;
-
-&lt;p&gt;1. &lt;strong&gt;Make a simple resnet50 model&lt;/strong&gt;. And make sure input and output submission file are correct.&lt;/p&gt;
-
-&lt;p&gt;2. &lt;strong&gt;Improve the model&lt;/strong&gt;. I found that the images were black and old. But the number of images were less and we cannot use external data so my solution was.&lt;/p&gt;
+&lt;p&gt;Oversimplified example:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Heavy data augmentation (warping, crops, rotations): lead to 5–7 percent increase in F1 score and accuracy.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Bad&lt;/strong&gt;: Exception(“number is smaller than 0”)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Progressive increase image size.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;I initially started with (50,70) images&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Trained it that then increased it. Trained it again.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Better&lt;/strong&gt;: SpeedException(“Speed should not be smaller than 0”)&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;3. &lt;strong&gt;Training approach&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The reason you want to do this is that you can handle different types of exceptions in different ways and it is much easy to know exactly what went wrong from the logs.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Freeze the model train for 4 epochs&lt;/li&gt;
-  &lt;li&gt;Unfreeze the model train for 7 epochs&lt;/li&gt;
-  &lt;li&gt;I found unfreezing was getting higher accuracy but only when done more than freeze training. 7 is what I stuck at.&lt;/li&gt;
-  &lt;li&gt;I &lt;strong&gt;replicated the kernel&lt;/strong&gt; and trained resnet18, resnet34, vgg16, vgg19 and densenet121 so that I can ensemble there outputs&lt;/li&gt;
-  &lt;li&gt;Model Making Environment: Kaggle Code at Models directory&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;In most programming languages creating exception is easy. Just inherit from the main Exception class which should be enough for most cases.&lt;/p&gt;
 
-&lt;h2 id=&quot;step-2-max-ensemble&quot;&gt;Step 2: Max Ensemble&lt;/h2&gt;
+&lt;p&gt;Custom Exception class also makes your logs easier to read.&lt;/p&gt;
 
-&lt;p&gt;After I had all the outputs from different models.&lt;/p&gt;
+&lt;h1 id=&quot;always-know-why-you-are-catching-an-exception&quot;&gt;Always know why you are catching an exception…&lt;/h1&gt;
 
-&lt;p&gt;I used the output CSVs to make a max ensemble.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/NaN/1*TSxPWO8dN25_8Ene0JolFw.png&quot; alt=&quot;TODO: Find and Add YouTube video attribution&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;(You will see that I have renamed file names to be ‘modelname’.csv in ensemble folder and the output file is ‘simple.csv’)&lt;/p&gt;
+&lt;h1 id=&quot;-or-just-dont-catch-it-throws-to-the-caller&quot;&gt;… or just don’t catch it (throws to the caller)&lt;/h1&gt;
 
-&lt;p&gt;Ensemble making environment: Local&lt;/p&gt;
+&lt;p&gt;if you are not going to do anything with the exception don’t catch it just throw it.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/ankschoubey/AnalyticsVidya_Game_Of_Deep_Learning&quot;&gt;Code: ankschoubey/AnalyticsVidya_Game_Of_Deep_Learning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Don’t add throw exception in the catch block. Use &lt;strong&gt;throws while declaring the function instead&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h1 id=&quot;lessons-and-mistakes-learned&quot;&gt;Lessons and Mistakes Learned&lt;/h1&gt;
+&lt;h1 id=&quot;for-unsupported-operations&quot;&gt;For Unsupported Operations&lt;/h1&gt;
 
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+&lt;p&gt;In if-else statements or switch cases, it is always good to have a default case which will execute if no other condition is true.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Environment&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If something is not possible or not supported then:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;I trained on Kaggle Kernel&lt;/strong&gt;. The only way to get output files was to commit.&lt;/p&gt;
+    &lt;p&gt;throw (Java): &lt;strong&gt;UnsupportedOperationException&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;I also did not load existing models because on Kaggle you have to attach it as a dataset and then load. It’s a pain so I did not bother.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;It would have been &lt;strong&gt;much easier to train on&lt;/strong&gt; Google Cloud, Collab or Clouderizer.&lt;/p&gt;
+    &lt;p&gt;raise (Python): &lt;strong&gt;NotImplementedError&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Should have used discriminative learning rate.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2828/1*Q7ArGGEhErofesOMdg37BA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;global-exception-handling&quot;&gt;Global exception handling&lt;/h1&gt;
+
+&lt;p&gt;These allow you to have the same exception handling mechanism in case you have not explicitly handled the exception.&lt;/p&gt;
+
+&lt;p&gt;The most basic thing to do here is logging the exception.&lt;/p&gt;
+
+&lt;h4 id=&quot;spring-java-controlleradvice&quot;&gt;Spring (Java): @ControllerAdvice&lt;/h4&gt;
+
+&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyIr5iNIXJjo%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyIr5iNIXJjo&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyIr5iNIXJjo%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/43dfcff10bcd&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/604c7e06235d/&quot;&gt;Leave code better than you found it.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code 7</summary></entry><entry><title type="html">Clean Code Leave it better than you found it</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html" rel="alternate" type="text/html" title="Clean Code  Leave it better than you found it" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html">&lt;h4 id=&quot;clean-code-8&quot;&gt;Clean Code #8&lt;/h4&gt;
+
+&lt;p&gt;Code is much more like a work of art/craft that people consider it.&lt;/p&gt;
+
+&lt;p&gt;Knowing the benefits and tips for writing good code will take you only so far. It requires a mindset shift. Looking at the code through an artist’s eye.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*hm_R7pVfjtLQy0lFyUjsXQ.png&quot; alt=&quot;The clean version of the image from the source: [Leave it a little better than you found it](https://around25.com/blog/leave-it-better-than-you-found-it/)&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;incremental-improvements&quot;&gt;Incremental Improvements&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot. The &lt;strong&gt;cleanup doesn’t have to be something big&lt;/strong&gt;. Change &lt;strong&gt;one variable name&lt;/strong&gt; for the &lt;strong&gt;better&lt;/strong&gt;, &lt;strong&gt;break up one function&lt;/strong&gt; that’s a little too large, &lt;strong&gt;eliminate one small bit of duplication&lt;/strong&gt;, &lt;strong&gt;clean up one composite if statement&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Can you imagine working on a project where the &lt;strong&gt;code &lt;em&gt;simply got better&lt;/em&gt; as time passed&lt;/strong&gt;?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Rober C. Martin (&lt;a href=&quot;http://www.informit.com/articles/article.aspx?p=1235624&amp;amp;seqNum=6&quot;&gt;Author of Clean Code&lt;/a&gt;)&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Transfer learning without discriminative learning rate is stupid.&lt;/li&gt;
+  &lt;li&gt;Maybe, improve one microservice.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Refactor code early before replicating the kernel&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;tip-leave-todo-as-comments-for-your-future-self-these-could-include-how-you-want-to-improve-the-code-but-dont-have-time-right-now-to-do-it-hopefully-your-future-self-will-handle-it&quot;&gt;Tip: Leave TODO as comments for your future self. These could include how you want to improve the code but don’t have time right now to do it. Hopefully your future self will handle it.&lt;/h3&gt;
+
+&lt;h1 id=&quot;upgrading-fast-get-rid-of-legacy&quot;&gt;Upgrading Fast (get rid of Legacy)&lt;/h1&gt;
+
+&lt;p&gt;Newer languages and frameworks provide many more features, provide security upgrades and are easier to use. The longer you wait to upgrade, the harder the upgrading becomes.&lt;/p&gt;
+
+&lt;p&gt;You will also find that &lt;strong&gt;clean code is much easier to upgrade&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-it-one-step-at-a-time&quot;&gt;Do it one step at a time.&lt;/h3&gt;
+
+&lt;h3 id=&quot;making-a-big-bang-change-is-never-feasible&quot;&gt;Making a big bang change is never feasible.&lt;/h3&gt;
+
+&lt;p&gt;Upgrading can come in a variety of sizes.&lt;/p&gt;
+
+&lt;h4 id=&quot;simple-upgrades-such-as--custom-sql-executors-in-code-to-using-an-orm&quot;&gt;Simple upgrades such as — Custom SQL executors in code to using an ORM.&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get rid of prepared statements and replace them with Spring Data JPA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;or-they-can-be-a-little-bigger-such-as--going-from-angularjs-to-angular&quot;&gt;Or they can be a little bigger such as — Going from AngularJs to Angular.&lt;/h4&gt;
+
+&lt;p&gt;Developers of the code to provide guides and tools to make upgrading frameworks easier&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;*Like&lt;/strong&gt;: &lt;a href=&quot;https://angular.io/guide/upgrade&quot;&gt;Official guide for upgrading from AngularJS to Angula*&lt;/a&gt;r.&lt;/p&gt;
+
+&lt;p&gt;The above guide mentions some things that are worth mentioning here:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Some&lt;/strong&gt; applications will be &lt;strong&gt;easier to upgrade&lt;/strong&gt; than others, and there are many &lt;strong&gt;ways to make it easier for yourself&lt;/strong&gt;. It is possible to &lt;strong&gt;prepare&lt;/strong&gt; and &lt;strong&gt;align&lt;/strong&gt; AngularJS &lt;strong&gt;applications&lt;/strong&gt; with Angular &lt;strong&gt;even before beginning the upgrade&lt;/strong&gt; &lt;strong&gt;process&lt;/strong&gt;. These preparation steps are all about &lt;strong&gt;making the code more decoupled&lt;/strong&gt;, more &lt;strong&gt;maintainable&lt;/strong&gt;, and &lt;strong&gt;better aligned with modern development tools&lt;/strong&gt;. That means in addition to making the upgrade easier, you &lt;strong&gt;will also improve the existing AngularJS applications&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;or-a-much-bigger-one-like--going-from-java-to-kotlin&quot;&gt;Or a much bigger one like — Going from Java to Kotlin.&lt;/h4&gt;
+
+&lt;p&gt;Choosing a programming language is a hard process.&lt;/p&gt;
+
+&lt;p&gt;Ideally, you would want to choose something which is:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;I replicated kernels so that I can train different models on different kernels and get results faster.&lt;/p&gt;
+    &lt;p&gt;Non-proprietary&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;The problem was that I had introduced a bug which got replicated. Also, making changes was a pain because I had to copy paste things multiple times.&lt;/p&gt;
+    &lt;p&gt;In-expensive or FREE&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Easy to code in&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flexible enough&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Use metrics used in the contest&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;java-to-kotlin&quot;&gt;Java to Kotlin&lt;/h4&gt;
 
-&lt;p&gt;Kind of dumb to mention this: I did not use the F1 score. Rather relied on accuracy.&lt;/p&gt;
+&lt;p&gt;Enterprises seem to have got stuck with Java 8 (released in 2017) because it is free. The newer versions of Java offer much better and easy to use features but enterprises won’t upgrade.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Save as many things as I can so that you save time later&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Kotlin might be a much better choice because:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Save results&lt;/p&gt;
+    &lt;p&gt;It is completely interoperable with Java. You can import your Java code and any other built by anyone within Kotlin.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Save model&lt;/p&gt;
+    &lt;p&gt;Spring Boot and Android officially support Kotlin.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Save data&lt;/p&gt;
+    &lt;p&gt;Kotlin is much more modern than Java offering things like default parameters and null checks.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Use Checkpoints&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A smaller way to check if Kotlin might be right for you is to migrate or create one microservice in/to Kotlin.&lt;/p&gt;
+
+&lt;h4 id=&quot;python-2-to-python-3&quot;&gt;Python 2 to Python 3&lt;/h4&gt;
+
+&lt;p&gt;The support for Python 2 ended (2019) after 20 years of development. Its code is frozen and won’t even receive security upgrades. Time to upgrade to Python 3.&lt;/p&gt;
+
+&lt;h1 id=&quot;code-reviews&quot;&gt;Code Reviews&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/968/0*WpUK01KglgQXsYqH.jpg&quot; alt=&quot;No code review discussion is relevant without mentioning this.&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;benefits-of-code-review&quot;&gt;Benefits of Code Review&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Code reviews share knowledge&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As code reviews expose developers to new ideas and technologies, they write better and better code.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Nobody wants to dive into a critical piece of code they didn’t write&lt;/strong&gt;–&lt;strong&gt;especially during a production emergency&lt;/strong&gt;. Code reviews share knowledge across the team so that any team member can take up the reins and continue steering the ship.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Code reviews make for better estimates&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Any code reviewer is also exposed to the complexity, known issues, and concerns of that area of the code base&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Keep in mind, &lt;strong&gt;code review is not just a senior team member reviewing a junior team member’s code&lt;/strong&gt;. Code review should happen across the team in every direction. Knowledge knows no bounds! Yes, code review can help newer engineers, but by no means should it be used solely as a mentoring exercise.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://www.atlassian.com/agile/software-development/code-reviews&quot;&gt;Why code reviews matter (and actually save time!)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The article also mentions ways to make code reviews much more productive.&lt;/p&gt;
+
+&lt;h3 id=&quot;when-done-right-code-reviews-actually-save-time-in-the-long-run&quot;&gt;When done right, code reviews actually save time in the long run.&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Did forget the idea of checkpoints entirely.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Share the load&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Review before merging&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use peer pressure to your advantage&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Useless Model&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/a7bca1e66d9e&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #8</summary></entry><entry><title type="html">Clean Code Remove un-necessary code</title><link href="www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code.html" rel="alternate" type="text/html" title="Clean Code  Remove un-necessary code" /><published>2020-01-04T00:00:00-06:00</published><updated>2020-01-04T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code.html">&lt;h4 id=&quot;clean-code-5-you-aint-gonna-need-it&quot;&gt;Clean Code #5: You ain’t gonna need it&lt;/h4&gt;
+
+&lt;h1 id=&quot;declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once&quot;&gt;Declare the local variable as close to where it is used and remove un-necessary once&lt;/h1&gt;
+
+&lt;p&gt;Local variables declared at some different place makes it harder to read the code.&lt;/p&gt;
+
+&lt;h4 id=&quot;example&quot;&gt;Example:&lt;/h4&gt;
+
+&lt;p&gt;Below are the variations of aRandomFunction which does a bunch of operations (skipped by dots) and on completion returns “Hello” along with the date.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2460/1*yBofrSKN3WXW_Oq6QRl75A.png&quot; alt=&quot;Bad&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The local variables &lt;strong&gt;names&lt;/strong&gt; and &lt;strong&gt;date&lt;/strong&gt; are declared on top of the functions.&lt;/p&gt;
+
+&lt;p&gt;The first usage of the functions are somewhere between the function and the last usage is in the return statement.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2464/1*YbM60pelUstwFe8ZCL5H0Q.png&quot; alt=&quot;Better. 2 lines saved.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here &lt;strong&gt;name&lt;/strong&gt; and &lt;strong&gt;date&lt;/strong&gt; variables are moved to where they are first used.&lt;/p&gt;
+
+&lt;p&gt;Let’s say after moving we realize that we do not use the variables between the code, we just use it during return.&lt;/p&gt;
+
+&lt;p&gt;So we should move it near the return statement:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2492/1*_g_xXB8xxDdRzR0gD9V5Ng.png&quot; alt=&quot;Even Better&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;just-return-it-dont-store&quot;&gt;Just return it. Don’t store&lt;/h1&gt;
+
+&lt;p&gt;Continuing from the previous example:&lt;/p&gt;
+
+&lt;p&gt;Storing in a variable is un-necessary is it is never used.&lt;/p&gt;
+
+&lt;p&gt;Rather than storing “hello” in name and a new date in date, we should just return it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2360/1*wqoNb-hREM8MBHGWegcrCg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;remove-commented-code&quot;&gt;Remove commented code&lt;/h1&gt;
+
+&lt;p&gt;In case you do need to refer to the exact code you can always check it in your version control.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;remove-functions-and-variables-which-you-do-not-use&quot;&gt;Remove functions and variables which you do not use.&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;variable-argument-lengths&quot;&gt;Variable argument lengths&lt;/h1&gt;
+
+&lt;h4 id=&quot;python-args-kwargs-more-than-just-variable-length-argument&quot;&gt;Python: *args, **kwargs (more than just variable-length argument)&lt;/h4&gt;
+
+&lt;p&gt;Java also has an implementation for &lt;a href=&quot;https://www.youtube.com/watch?v=BFL1oWnEO2k&quot;&gt;variable length arguments&lt;/a&gt; but they are not as elegant as Python implementation. Therefore, a list as an argument might be better suited.&lt;/p&gt;
+
+&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FWcTXxX3vYgY%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWcTXxX3vYgY&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FWcTXxX3vYgY%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;default-arguments&quot;&gt;Default Arguments&lt;/h1&gt;
+
+&lt;p&gt;Python and Typescript both support default function arguments.&lt;/p&gt;
+
+&lt;p&gt;While not officially supported in Java, one can work around the builder pattern to get similar functionality.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1976/1*65elTS-r8MhBnBzn50i8bQ.png&quot; alt=&quot;Source: [Managing Constructor with many parameters](https://stackoverflow.com/questions/222214/managing-constructors-with-many-parameters-in-java/222295#222295).&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;use-annotationsdecorators&quot;&gt;Use annotations/decorators&lt;/h1&gt;
+
+&lt;p&gt;Annotations extend the functionality of your function dynamically and reduce the size of the code dramatically.&lt;/p&gt;
+
+&lt;h4 id=&quot;python-decorators&quot;&gt;Python: Decorators&lt;/h4&gt;
+
+&lt;p&gt;In python, these are called decorators.&lt;/p&gt;
+
+&lt;p&gt;Python 3.7+ also has &lt;strong&gt;@ dataclass **annotation which auto-generates constructor, **str&lt;/strong&gt; and &lt;strong&gt;repr&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Relevant Links:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;I made an ensemble which sucked because it only lead to 0.05 percent improvement.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://realpython.com/primer-on-python-decorators/&quot;&gt;&lt;em&gt;Primer on Python Decorator&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;The reason was I used a lot of mediocre models.&lt;/p&gt;
+    &lt;p&gt;&lt;em&gt;Source: &lt;code class=&quot;highlighter-rouge&quot;&gt;[functools](https://docs.python.org/2/library/functools.html#module-functools)&lt;/code&gt; — Higher-order functions and operations on a callable object&lt;/em&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;1 ResNet 34/50 would have been fine.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://realpython.com/python-data-classes/&quot;&gt;&lt;em&gt;The Ultimate Guide to Data Classes in Python 3.7&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Also did not know about DenseNet very well back then.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;I believe that an ensemble of ResNet and DenseNet would have been wonderful.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PNpt7cFjGsM&quot;&gt;&lt;em&gt;Method Types in Python OOP: @classmethod, @staticmethod, and Instance Methods&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;data&quot;&gt;Data&lt;/h2&gt;
+&lt;h4 id=&quot;spring-boot-java&quot;&gt;Spring Boot (Java)&lt;/h4&gt;
 
-&lt;p&gt;&lt;strong&gt;Look at the data and use good augmentation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/7016/1*UZgaWM6WjlE6j0tzCm7Ivg.png&quot; alt=&quot;Source: [Spring Annotations Cheat Sheet](https://www.jrebel.com/blog/spring-annotations-cheat-sheet)&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;java-for-jpa&quot;&gt;Java: For JPA&lt;/h4&gt;
+
+&lt;p&gt;No need to write @Column over your entity’s variables. By default, camelCase is substituted with snake_case.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;lookupId =&amp;gt; lookup_id&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You can change these using &lt;a href=&quot;https://www.baeldung.com/hibernate-naming-strategy&quot;&gt;naming strategies&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;java-map-using-mapper-dont-create-your-own-logic&quot;&gt;Java: Map using Mapper. Don’t create your own logic.&lt;/h4&gt;
+
+&lt;p&gt;There are many &lt;a href=&quot;https://www.baeldung.com/java-performance-mapping-frameworks&quot;&gt;mapping frameworks in Java&lt;/a&gt; that can make the task of converting one object to another much much easier. This can be especially helpful when you want to convert your @Entity to a DTO object.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;java-project-lombok-to-avoid-boilerplate&quot;&gt;Java: Project Lombok to avoid boilerplate&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;I saw some images were grey scale and old. I might have got a higher score if I had taken time&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;@Getter and @Setter&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;@NonNull&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;@ToString&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;@EqualsAndHashCode&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;@Data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;@Cleanup&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;@Synchronized&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;@SneakyThrows&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/2019-06-23-lessons_from_first_deep_learning_competition/1_data_augmentation.png&quot; alt=&quot;1_data_augmentation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The good thing is that it is present is &lt;a href=&quot;https://start.spring.io/&quot;&gt;SpringInitializer&lt;/a&gt;. Just click the Project Lombok option.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Using good data augmentation&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;With this, the size of your java code will reduce dramatically.&lt;/p&gt;
 
-&lt;p&gt;My model was not performing well. 93–94% accuracy was the limit.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;I buffed up every transformation. And it started reaching 96+. Warping helped a lot.&lt;/p&gt;
+&lt;h1 id=&quot;remove-duplicates&quot;&gt;Remove duplicates&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/2019-06-23-lessons_from_first_deep_learning_competition/2_buffed_up_data_augmentationpng.png&quot; alt=&quot;2_buffed_up_data_augmentationpng&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Linters will provide you a list of duplicate codes. Shove it into a function/method.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Developer Habits&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;use-existinginbuilt-methods-rather-than-new-once&quot;&gt;Use existing/inbuilt methods rather than new once&lt;/h4&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Start submissions early in the contest&lt;/strong&gt;. And complete your work at least 3–4 days before the end.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;This goes back to not inventing new algorithms. If something is already made, don’t make it again. Reuse it. &lt;em&gt;(Link — Clean Code: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for-43dfcff10bcd&quot;&gt;Know thy complexities&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Probably a bad example #1 of reuse:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is a very complex function. One of them works with List and other with an array but that is the only difference in implementation.&lt;/p&gt;
+
+&lt;p&gt;The bad approach is creating the same logic to work with different data structures.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2848/1*RwNJk3iwPScWSw0KuWPVUg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A better approach is to have one main logic function and convert one data structure to another and then call the main one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2612/1*L0wdkUD47mykqLn_0wbBcw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can also take advantage of having the same name for both the functions which means less to remember.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2400/1*wC5NtBC4Io4DHBGRkF_QkA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Probably a bad example #2 of reuse:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is similar to the above.&lt;/p&gt;
+
+&lt;p&gt;Here suppose you already have a complex function that works on a list of integers, and now you have to make a similar one to work on a single int.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2408/1*qHyXmv_8rI0cFrVB3O6PGw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;single-line-boolean-evaluation&quot;&gt;Single line boolean evaluation&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/3008/1*xTyrFXVpPHzjkOv4yMhTIQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;think-in-terms-of-streams&quot;&gt;Think in terms of Streams&lt;/h1&gt;
+
+&lt;p&gt;Streams make your code really really tiny and give much better performance. Streams do have a learning curve but are worth it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(swap in a stream() for parallelStream() and you just went Super Saiyan 3)&lt;/em&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Ft1-YZ6bF-g0%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt1-YZ6bF-g0&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Ft1-YZ6bF-g0%2Fhqdefault.jpg&amp;amp;key=d04bfffea46d4aeda930ec88cc64b87c&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Though the implementation of Java streams and having a single line list comprehension in Python are very different, they are similar in terms of style of code.&lt;/p&gt;
+
+&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FAhSvKGTh28Q%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAhSvKGTh28Q&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FAhSvKGTh28Q%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;create-and-use-base-classes&quot;&gt;Create and use base classes&lt;/h1&gt;
+
+&lt;p&gt;Base classes are an excellent way to avoid duplications. Make them as generic as possible.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-4-make-the-database-do-the-heavy-lifting-88178a1c3a16&quot;&gt;Make database do the heavy lifting&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/43dfcff10bcd&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #5: You ain’t gonna need it</summary></entry><entry><title type="html">Clean Code Avoid creating god classes and long methods</title><link href="www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html" rel="alternate" type="text/html" title="Clean Code  Avoid creating god classes and long methods" /><published>2019-12-25T00:00:00-06:00</published><updated>2019-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods</id><content type="html" xml:base="www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html">&lt;h4 id=&quot;clean-code-3&quot;&gt;Clean Code #3&lt;/h4&gt;
+
+&lt;p&gt;As you gain &lt;strong&gt;experience&lt;/strong&gt; as a developer you &lt;strong&gt;start to see repeating patterns&lt;/strong&gt; that crop up over and over again in your solutions.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When you use &lt;strong&gt;chunking&lt;/strong&gt; (design patterns, algorithms and standard functions) appropriately, it &lt;strong&gt;allows&lt;/strong&gt; you to &lt;strong&gt;stop thinking&lt;/strong&gt; about &lt;strong&gt;how the code&lt;/strong&gt; you write does something and &lt;strong&gt;instead&lt;/strong&gt; think about &lt;strong&gt;what it does&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://www.codeproject.com/Articles/838973/Why-Your-Code-Is-So-Hard-to-Understand&quot;&gt;Why Your Code Is So Hard to Understand&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;classes&quot;&gt;Classes&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One class should do one thing not everything like StatusChanger or StatusManager, not StatusGod&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Keep classes small, a 1000 line class is a pain&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;methods&quot;&gt;Methods&lt;/h1&gt;
+
+&lt;h4 id=&quot;name&quot;&gt;Name&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Avoid using &lt;strong&gt;and&lt;/strong&gt; in method names like &lt;strong&gt;validateAndSave&lt;/strong&gt;, one method needs to do one thing and one thing well&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;dont-repeat-yourself&quot;&gt;Don’t Repeat Yourself&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There should be one — and preferably only one — obvious way to do it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~The Zen of Python, by Tim Peters&lt;/p&gt;
+
+&lt;h4 id=&quot;lines-of-code&quot;&gt;Lines of Code&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Keep methods small, a 50 line method is a problem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My rule of thumb is: The method should not be more than the size of my screen. (&lt;em&gt;Source: Jeremy Howard fast.ai&lt;/em&gt;)&lt;/p&gt;
+
+&lt;h4 id=&quot;passing-variables&quot;&gt;Passing variables&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Keep the instance variables as low. If you are passing 4,5 variables you are probably doing more than one thing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pass an object instead of multiple methods&lt;/p&gt;
+
+&lt;p&gt;Don’t pass the variables that you don’t need.&lt;/p&gt;
+
+&lt;h4 id=&quot;if-creating-an-object-requires-multiple-steps&quot;&gt;If creating an object requires multiple steps&lt;/h4&gt;
+
+&lt;p&gt;Convert it into a factory method&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-2-leave-clues-naming-convention-89932c18abac&quot;&gt;Leave clues (Naming convention)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-4-make-the-database-do-the-heavy-lifting-88178a1c3a16&quot;&gt;Make database do the heavy lifting&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #3</summary></entry><entry><title type="html">Clean Code Know thy complexities, data structures and avoid inventing algorithms (especially for…</title><link href="www.ankushchoubey.com/medium/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html" rel="alternate" type="text/html" title="Clean Code  Know thy complexities, data structures and avoid inventing algorithms (especially for…" /><published>2019-12-25T00:00:00-06:00</published><updated>2019-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for</id><content type="html" xml:base="www.ankushchoubey.com/medium/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html">&lt;h4 id=&quot;clean-code-6-especially-for-maths&quot;&gt;Clean Code #6: (especially for maths)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;If&lt;/strong&gt; you are &lt;strong&gt;inventing new algorithms&lt;/strong&gt;, you either &lt;strong&gt;don’t know&lt;/strong&gt; the right algorithm &lt;strong&gt;or&lt;/strong&gt; are working on your &lt;strong&gt;PhD&lt;/strong&gt; thesis.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Eliminating&lt;/strong&gt; as much of this **accidental complexity **as possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://www.codeproject.com/Articles/838973/Why-Your-Code-Is-So-Hard-to-Understand&quot;&gt;Why Your Code Is So Hard to Understand&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;keep-your-implementation-as-simple-as-possible&quot;&gt;Keep your implementation as simple as possible&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If the implementation is hard to explain, it’s a bad idea.
+If the implementation is easy to explain, it may be a good idea.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ The Zen of Python, by Tim Peters&lt;/p&gt;
+
+&lt;h1 id=&quot;knowing-the-basics-of-time-and-space-complexity-goes-a-long-way&quot;&gt;Knowing the basics of time and space complexity goes a long way.&lt;/h1&gt;
+
+&lt;p&gt;Going through each is beyond the scope of this. Here is a link if you want to go in-depth: &lt;a href=&quot;https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt&quot;&gt;Cracking the Coding Interview YouTube&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The concept of List, Sets, and Maps is universal though this particular post is going to look at it through the lens of Java&lt;/strong&gt;. In the case of Python map is called a dictionary.&lt;/p&gt;
+
+&lt;h1 id=&quot;additional-tip-always-use-parent-interface-for-the-type&quot;&gt;Additional Tip: Always use parent interface for the type&lt;/h1&gt;
+
+&lt;p&gt;Be as general as you can be.&lt;/p&gt;
+
+&lt;p&gt;This allows you to swap in any form of implementation of parent interface in a single line.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2808/1*M2J_YiubLnrId8k23GiNyA.png&quot; alt=&quot;[Collections in Java](https://www.javatpoint.com/collections-in-java)&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;when-trying-to-find-duplicates&quot;&gt;When trying to find duplicates&lt;/h1&gt;
+
+&lt;h4 id=&quot;use-set-instead-of-lists&quot;&gt;Use Set instead of Lists&lt;/h4&gt;
+
+&lt;p&gt;Set always contain unique values.&lt;/p&gt;
+
+&lt;p&gt;Finding an element in the set is much faster O(1) than compared to a list O(n)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2880/1*HVkmS59kcy7lkvkWSoZNhg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;java-if-you-know-the-size-of-the-list&quot;&gt;Java: If you know the size of the list&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;… if the required maximum capacity of the ArrayList is known, we can get the optimal performance (both average latency and throughput) by specifying the initial capacity to the required capacity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In doing so, we can get 24% to 34% improvement in average latency and 30% to 50% improvement in throughput.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://dzone.com/articles/performance-evaluation-of-java-arraylist&quot;&gt;Performance Evaluation of Java ArrayLists&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;always-have-your-algorithmic-logic-in-a-separate-function&quot;&gt;Always have your algorithmic logic in a separate function&lt;/h1&gt;
+
+&lt;p&gt;This just makes it much easier to debug. Your function will be doing just one this.&lt;/p&gt;
+
+&lt;p&gt;Making it general enough will be even helpful so that you can easily use it.&lt;/p&gt;
+
+&lt;p&gt;**Example: **&lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-1-flat-is-better-than-nested-leave-when-not-okay-c09ba74090ef&quot;&gt;&lt;em&gt;Separate loop and operation section: Clean Code #1&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation&quot;&gt;Rather than implementing own logic, take 5 minutes to see if your modules already provide the implementation&lt;/h1&gt;
+
+&lt;h4 id=&quot;example-sorting-in-javascripttypescript&quot;&gt;Example: Sorting in Javascript/Typescript&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2668/1*UoB_nYYPlLWGY14bNEs2IQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2704/1*BS7jYfKY4DhpY-cLuGULHw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A library in java which you can find is &lt;a href=&quot;https://www.baeldung.com/java-commons-lang-3&quot;&gt;Apache Common Lang 3&lt;/a&gt; which does provide a lot of utilities.&lt;/p&gt;
+
+&lt;p&gt;Python has much more abundance. Just google a solution for python and you will probably find a pip package.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/c477707e5be1&quot;&gt;Remove unnecessary code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/a7bca1e66d9e&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #6: (especially for maths)</summary></entry></feed>
