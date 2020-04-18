@@ -165,13 +165,13 @@ window.onload = wrap_img;
 
 <p>Below are the variations of aRandomFunction which does a bunch of operations (skipped by dots) and on completion returns “Hello” along with the date.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2460/1*yBofrSKN3WXW_Oq6QRl75A.png" alt="Bad"></p>
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/1.png" alt="Bad"></p>
 
 <p>The local variables <strong>names</strong> and <strong>date</strong> are declared on top of the functions.</p>
 
 <p>The first usage of the functions are somewhere between the function and the last usage is in the return statement.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2464/1*YbM60pelUstwFe8ZCL5H0Q.png" alt="Better. 2 lines saved."></p>
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/2.png" alt="Better. 2 lines saved."></p>
 
 <p>Here <strong>name</strong> and <strong>date</strong> variables are moved to where they are first used.</p>
 
@@ -179,7 +179,7 @@ window.onload = wrap_img;
 
 <p>So we should move it near the return statement:</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2492/1*_g_xXB8xxDdRzR0gD9V5Ng.png" alt="Even Better"></p>
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/3.png" alt="Even Better"></p>
 
 <hr>
 
@@ -192,7 +192,7 @@ window.onload = wrap_img;
 
 <p>Rather than storing “hello” in name and a new date in date, we should just return it.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2360/1*wqoNb-hREM8MBHGWegcrCg.png" alt=""></p>
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/4.png" alt=""></p>
 
 <hr>
 
@@ -227,7 +227,7 @@ window.onload = wrap_img;
 
 <p>While not officially supported in Java, one can work around the builder pattern to get similar functionality.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1976/1*65elTS-r8MhBnBzn50i8bQ.png" alt="Source: [Managing Constructor with many parameters](https://stackoverflow.com/questions/222214/managing-constructors-with-many-parameters-in-java/222295#222295)."></p>
+<p>![Source: <a href="/images/2020-01-04-clean-code-remove-un-necessary-code/5.png">Managing Constructor with many parameters</a></p>
 
 <hr>
 
@@ -263,7 +263,7 @@ window.onload = wrap_img;
 <h4 id="spring-boot-java">
 <a class="anchor" href="#spring-boot-java" aria-hidden="true"><span class="octicon octicon-link"></span></a>Spring Boot (Java)</h4>
 
-<p><img src="https://cdn-images-1.medium.com/max/7016/1*UZgaWM6WjlE6j0tzCm7Ivg.png" alt="Source: [Spring Annotations Cheat Sheet](https://www.jrebel.com/blog/spring-annotations-cheat-sheet)"></p>
+<p>![Source: <a href="/images/2020-01-04-clean-code-remove-un-necessary-code/6.png">Spring Annotations Cheat Sheet</a></p>
 
 <h4 id="java-for-jpa">
 <a class="anchor" href="#java-for-jpa" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java: For JPA</h4>
@@ -343,15 +343,15 @@ window.onload = wrap_img;
 
 <p>The bad approach is creating the same logic to work with different data structures.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2848/1*RwNJk3iwPScWSw0KuWPVUg.png" alt=""></p>
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/7.png" alt=""></p>
 
 <p>A better approach is to have one main logic function and convert one data structure to another and then call the main one.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2612/1*L0wdkUD47mykqLn_0wbBcw.png" alt=""></p>
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/8.png" alt=""></p>
 
 <p>We can also take advantage of having the same name for both the functions which means less to remember.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2400/1*wC5NtBC4Io4DHBGRkF_QkA.png" alt=""></p>
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/9.png" alt=""></p>
 
 <p><strong>Probably a bad example #2 of reuse:</strong></p>
 
@@ -359,14 +359,14 @@ window.onload = wrap_img;
 
 <p>Here suppose you already have a complex function that works on a list of integers, and now you have to make a similar one to work on a single int.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2408/1*qHyXmv_8rI0cFrVB3O6PGw.png" alt=""></p>
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/10.png" alt=""></p>
 
 <hr>
 
 <h1 id="single-line-boolean-evaluation">
 <a class="anchor" href="#single-line-boolean-evaluation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Single line boolean evaluation</h1>
 
-<p><img src="https://cdn-images-1.medium.com/max/3008/1*xTyrFXVpPHzjkOv4yMhTIQ.png" alt=""></p>
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/11.png" alt=""></p>
 
 <hr>
 
@@ -398,7 +398,15 @@ window.onload = wrap_img;
 
 <p><strong>Index</strong>: <a href="https://medium.com/p/30d717f32ae4">Tips on writing Clean Code</a></p>
 
-  </div><a class="u-url" href="/medium/2020/01/04/clean-code-remove-un-necessary-code.html" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="ankschoubey/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/medium/2020/01/04/clean-code-remove-un-necessary-code.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

@@ -508,7 +508,7 @@ images, labels = images.to(device,dtype=torch.float), labels.to(device)
 
 <p>I experimented with a few sizes from 320…640 and kept an eye on GPU utilization and settled for 512.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/5120/1*J4X6Ob-7XrUdWitf2_zEbg.png" alt="CPU and GPU Utilization. Also, see the number of tabs open."></p>
+<p><img src="/images/2020-03-30-digit-recognition/1.png" alt="CPU and GPU Utilization. Also, see the number of tabs open."></p>
 
 <p>I did the same for <a href="https://discuss.pytorch.org/t/guidelines-for-assigning-num-workers-to-dataloader/813/2">num_worker</a> which specifies the number of threads to load a batch. This is CPU stuff.</p>
 
@@ -554,7 +554,15 @@ resnet18.fc = nn.Sequential(
 )
 </code></pre></div></div>
 
-  </div><a class="u-url" href="/medium/2020/03/30/digit-recognition.html" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="ankschoubey/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/medium/2020/03/30/digit-recognition.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

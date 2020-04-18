@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-18T04:34:06-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Blog</subtitle><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html">&lt;h4 id=&quot;baby-steps-towards-competitions&quot;&gt;Baby steps towards competitions&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-18T05:07:53-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Blog</subtitle><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html">&lt;h4 id=&quot;baby-steps-towards-competitions&quot;&gt;Baby steps towards competitions&lt;/h4&gt;
 
 &lt;h1 id=&quot;why&quot;&gt;Why?&lt;/h1&gt;
 
@@ -449,7 +449,7 @@ images, labels = images.to(device,dtype=torch.float), labels.to(device)
 
 &lt;p&gt;I experimented with a few sizes from 320…640 and kept an eye on GPU utilization and settled for 512.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/5120/1*J4X6Ob-7XrUdWitf2_zEbg.png&quot; alt=&quot;CPU and GPU Utilization. Also, see the number of tabs open.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-03-30-digit-recognition/1.png&quot; alt=&quot;CPU and GPU Utilization. Also, see the number of tabs open.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I did the same for &lt;a href=&quot;https://discuss.pytorch.org/t/guidelines-for-assigning-num-workers-to-dataloader/813/2&quot;&gt;num_worker&lt;/a&gt; which specifies the number of threads to load a batch. This is CPU stuff.&lt;/p&gt;
 
@@ -492,52 +492,103 @@ import torch.nn as nn
 resnet18.fc = nn.Sequential(
     nn.Linear(lin_in, 10)
 )
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Kaggle Getting Started</summary></entry><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h2 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h2&gt;
-&lt;h3 id=&quot;always-use-compression-at-least-gzip&quot;&gt;Always use compression: at least gzip&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Kaggle Getting Started</summary></entry><entry><title type="html">Hi Harshini,</title><link href="www.ankushchoubey.com/medium/2020/03/10/hi-harshini.html" rel="alternate" type="text/html" title="Hi Harshini," /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/10/hi-harshini</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/10/hi-harshini.html">&lt;p&gt;Hi Harshini,&lt;/p&gt;
+
+&lt;p&gt;Kaggle CLI does not support downloading the entire folder or multiple files at once (except in case of downloading entire competition). Only one file can be downloaded at a time via the CLI.&lt;/p&gt;
+
+&lt;p&gt;Here is how I downloaded the entire c4 folder&lt;/p&gt;
+
+&lt;h4 id=&quot;1-created-directory-if-it-does-not-already-exist&quot;&gt;1. Created directory if it does not already exist&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;mkdir -p img/train/c4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;2-get-the-list-of-all-files-available-in-the-dataset-filtered-the-files-which-were-in-the-c4-folder-picked-file-name-repeatedly-download-each-file&quot;&gt;2. Get the list of all files available in the dataset, filtered the files which were in the c4 folder, picked file name, repeatedly download each file.&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;kaggle competitions files -c state-farm-distracted-driver-detection&lt;/td&gt;
+        &lt;td&gt;grep c4&lt;/td&gt;
+        &lt;td&gt;awk ‘{print $1}’&lt;/td&gt;
+        &lt;td&gt;while read x ; do kaggle competitions download -f $x state-farm-distracted-driver-detection -p img/train/c4 ; done&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2020-03-10-hi-harshini/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;— — — — —&lt;/p&gt;
+
+&lt;p&gt;I don’t use the command line regularly. These are the sources I looked:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/2746553/read-values-into-a-shell-variable-from-a-pipe&quot;&gt;Read values into a shell variable from a pipe&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/793858/how-to-mkdir-only-if-a-dir-does-not-already-exist&quot;&gt;How to mkdir only if a dir does not already exist?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://unix.stackexchange.com/questions/136884/how-to-use-a-shell-command-to-only-show-the-first-column-and-last-column-in-a-te&quot;&gt;How to use a shell command to only show the first column and last column in a text file?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;kaggle competitions download -h&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hope this helps! Have a good day!&lt;/p&gt;</content><author><name></name></author><summary type="html">Hi Harshini,</summary></entry><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h4 id=&quot;for-those-who-dont-require-google-level-optimization&quot;&gt;For those who don’t require Google level optimization&lt;/h4&gt;
+
+&lt;h1 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h1&gt;
+
+&lt;h4 id=&quot;always-use-compression-at-least-gzip&quot;&gt;Always use compression: at least gzip&lt;/h4&gt;
 
 &lt;p&gt;gzip is good enough in most cases in terms of both performance and speed.&lt;/p&gt;
 
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Always compress. The configuration is set in the webserver.&lt;br /&gt;&lt;br /&gt;gzip has a perfect balance of performance and compression.&lt;br /&gt;&lt;br /&gt;My application went from 4 MB to 800 kb. Fewer data faster speed.&lt;br /&gt;&lt;br /&gt;Enabling gzip: &lt;a href=&quot;https://t.co/kBGeXU41Ji&quot;&gt;https://t.co/kBGeXU41Ji&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;Verify gzip on Chrome: &lt;a href=&quot;https://t.co/TqAkHtoaOX&quot;&gt;https://t.co/TqAkHtoaOX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Always compress. The configuration is set in the webserver.&lt;br /&gt;&lt;br /&gt;gzip has a perfect balance of performance and compression.&lt;br /&gt;&lt;br /&gt;My application went from 4 MB to 800 kb. Fewer data faster speed.&lt;br /&gt;&lt;br /&gt;Enabling gzip: &lt;a href=&quot;https://t.co/kBGeXU41Ji&quot;&gt;https://t.co/kBGeXU41Ji&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;Verify gzip on Chrome: &lt;a href=&quot;https://t.co/TqAkHtoaOX&quot;&gt;https://t.co/TqAkHtoaOX&lt;/a&gt;&lt;/p&gt;— Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
 
-&lt;h2 id=&quot;make-less-number-of-requests&quot;&gt;Make less number of requests&lt;/h2&gt;
-&lt;h3 id=&quot;always-cache-static-content-js-css-and-static-images&quot;&gt;Always cache static content: JS, CSS and static images.&lt;/h3&gt;
+&lt;h1 id=&quot;make-less-number-of-requests&quot;&gt;Make less number of requests&lt;/h1&gt;
 
-&lt;p&gt;This can be configured in your web server or your application. Just google “ “how to cache in &lt;your framework=&quot;&quot; or=&quot;&quot; web=&quot;&quot; server=&quot;&quot;&gt;&quot;.&lt;/your&gt;&lt;/p&gt;
+&lt;h4 id=&quot;always-cache-static-content-js-css-and-static-images&quot;&gt;Always cache static content: JS, CSS and static images.&lt;/h4&gt;
 
-&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
-   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
-   &lt;span class=&quot;Toast-content&quot;&gt;Of course: be sure to not cache dynamic content.&lt;/span&gt;
-&lt;/div&gt;
+&lt;p&gt;This can be configured in your web server or your application. Just google “ “how to cache in &lt;your framework=&quot;&quot; or=&quot;&quot; web=&quot;&quot; server=&quot;&quot;&gt;“.&lt;/your&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course: &lt;strong&gt;&lt;em&gt;be sure to not cache dynamic content.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;For JS and CSS files, make sure it has a name that is unique if the file is modified.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Example: in angular after creating a –prod build, the filename is in following format “&lt;filename&gt;.&lt;md5 checksum=&quot;&quot;&gt;.js&quot;.&lt;/md5&gt;&lt;/filename&gt;&lt;/p&gt;
+&lt;p&gt;Example: in angular after creating a –prod build, the filename is in following format “&lt;filename&gt;.&lt;md5 checksum=&quot;&quot;&gt;.js”.&lt;/md5&gt;&lt;/filename&gt;&lt;/p&gt;
 
 &lt;p&gt;This ensures that if the content of the file changes, the md5 checksum will change and a new request will be sent but if the file does not change then it will have the same checksum so it can be pulled from the cache.&lt;/p&gt;
 
-&lt;h3 id=&quot;always-load-images-lazily&quot;&gt;Always load images lazily&lt;/h3&gt;
+&lt;h4 id=&quot;always-load-images-lazily&quot;&gt;Always load images lazily&lt;/h4&gt;
 
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;lt;img loading=‘lazy’ ... /&amp;gt; is so so easy. Images are only fetched when user scrolls near it. &lt;a href=&quot;https://twitter.com/hashtag/freeSpeedUp?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#freeSpeedUp&lt;/a&gt; &lt;a href=&quot;https://t.co/nduXUy5GLm&quot;&gt;https://t.co/nduXUy5GLm&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Are there any more such tweaks that exist?&lt;/p&gt;&amp;mdash; Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1219613362239049728?ref_src=twsrc%5Etfw&quot;&gt;January 21, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;lt;img loading=‘lazy’ ... /&amp;gt; is so so easy. Images are only fetched when user scrolls near it. &lt;a href=&quot;https://twitter.com/hashtag/freeSpeedUp?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#freeSpeedUp&lt;/a&gt; &lt;a href=&quot;https://t.co/nduXUy5GLm&quot;&gt;https://t.co/nduXUy5GLm&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Are there any more such tweaks that exist?&lt;/p&gt;— Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1219613362239049728?ref_src=twsrc%5Etfw&quot;&gt;January 21, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
 
-&lt;p&gt;Advanced tips: &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video&quot;&gt;Lazy Loading Images and Video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Advanced tips: &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video&quot;&gt;Lazy Loading Images and Video&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;do-it-fast&quot;&gt;Do it fast&lt;/h2&gt;
+&lt;h1 id=&quot;do-it-fast&quot;&gt;Do it fast&lt;/h1&gt;
 
-&lt;h3 id=&quot;fetch-js-and-css-asynchronously&quot;&gt;Fetch JS and CSS asynchronously&lt;/h3&gt;
+&lt;h4 id=&quot;fetch-js-and-css-asynchronously&quot;&gt;Fetch JS and CSS asynchronously&lt;/h4&gt;
 
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;When fetching js add &amp;#39;async defer&amp;#39; to script tag. This will fetch multiple js files in parallel. Keep script tag in the header for this.&lt;a href=&quot;https://t.co/o0LmIGmnWc&quot;&gt;https://t.co/o0LmIGmnWc&lt;/a&gt;&lt;a href=&quot;https://t.co/3Hx2ao1aQC&quot;&gt;https://t.co/3Hx2ao1aQC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1229793732418920449?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;When fetching js add &amp;#39;async defer&amp;#39; to script tag. This will fetch multiple js files in parallel. Keep script tag in the header for this.&lt;a href=&quot;https://t.co/o0LmIGmnWc&quot;&gt;https://t.co/o0LmIGmnWc&lt;/a&gt;&lt;a href=&quot;https://t.co/3Hx2ao1aQC&quot;&gt;https://t.co/3Hx2ao1aQC&lt;/a&gt;&lt;/p&gt;— Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1229793732418920449?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;are-there-more-such-easy-tips&quot;&gt;Are there more such easy tips?&lt;/h2&gt;
+&lt;h4 id=&quot;are-there-more-such-easy-tips&quot;&gt;Are there more such easy tips?&lt;/h4&gt;
 
-&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;</content><author><name></name></author><summary type="html">Reduce bundle size Always use compression: at least gzip</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="www.ankushchoubey.com/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/jupyter/2020/02/20/test</id><content type="html" xml:base="www.ankushchoubey.com/jupyter/2020/02/20/test.html">&lt;!--
+&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published at &lt;a href=&quot;https://www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html&quot;&gt;https://ankushchoubey.com&lt;/a&gt; on December 11, 2012.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">For those who don’t require Google level optimization</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="www.ankushchoubey.com/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/jupyter/2020/02/20/test</id><content type="html" xml:base="www.ankushchoubey.com/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -1412,7 +1463,7 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;h1 id=&quot;always-know-why-you-are-catching-an-exception&quot;&gt;Always know why you are catching an exception…&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/NaN/1*TSxPWO8dN25_8Ene0JolFw.png&quot; alt=&quot;TODO: Find and Add YouTube video attribution&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/1.png&quot; alt=&quot;TODO: Find and Add YouTube video attribution&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;-or-just-dont-catch-it-throws-to-the-caller&quot;&gt;… or just don’t catch it (throws to the caller)&lt;/h1&gt;
 
@@ -1435,7 +1486,7 @@ Unless explicitly silenced.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2828/1*Q7ArGGEhErofesOMdg37BA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;global-exception-handling&quot;&gt;Global exception handling&lt;/h1&gt;
 
@@ -1459,7 +1510,7 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*hm_R7pVfjtLQy0lFyUjsXQ.png&quot; alt=&quot;The clean version of the image from the source: [Leave it a little better than you found it](https://around25.com/blog/leave-it-better-than-you-found-it/)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;![The clean version of the image from the source: &lt;a href=&quot;/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png&quot;&gt;Leave it a little better than you found it&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;incremental-improvements&quot;&gt;Incremental Improvements&lt;/h1&gt;
 
@@ -1556,7 +1607,7 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;h1 id=&quot;code-reviews&quot;&gt;Code Reviews&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/968/0*WpUK01KglgQXsYqH.jpg&quot; alt=&quot;No code review discussion is relevant without mentioning this.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/2.png&quot; alt=&quot;No code review discussion is relevant without mentioning this.&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;benefits-of-code-review&quot;&gt;Benefits of Code Review&lt;/h4&gt;
 
@@ -1614,13 +1665,13 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;Below are the variations of aRandomFunction which does a bunch of operations (skipped by dots) and on completion returns “Hello” along with the date.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2460/1*yBofrSKN3WXW_Oq6QRl75A.png&quot; alt=&quot;Bad&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/1.png&quot; alt=&quot;Bad&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The local variables &lt;strong&gt;names&lt;/strong&gt; and &lt;strong&gt;date&lt;/strong&gt; are declared on top of the functions.&lt;/p&gt;
 
 &lt;p&gt;The first usage of the functions are somewhere between the function and the last usage is in the return statement.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2464/1*YbM60pelUstwFe8ZCL5H0Q.png&quot; alt=&quot;Better. 2 lines saved.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/2.png&quot; alt=&quot;Better. 2 lines saved.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here &lt;strong&gt;name&lt;/strong&gt; and &lt;strong&gt;date&lt;/strong&gt; variables are moved to where they are first used.&lt;/p&gt;
 
@@ -1628,7 +1679,7 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;So we should move it near the return statement:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2492/1*_g_xXB8xxDdRzR0gD9V5Ng.png&quot; alt=&quot;Even Better&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/3.png&quot; alt=&quot;Even Better&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1640,7 +1691,7 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;Rather than storing “hello” in name and a new date in date, we should just return it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2360/1*wqoNb-hREM8MBHGWegcrCg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1670,7 +1721,7 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;While not officially supported in Java, one can work around the builder pattern to get similar functionality.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1976/1*65elTS-r8MhBnBzn50i8bQ.png&quot; alt=&quot;Source: [Managing Constructor with many parameters](https://stackoverflow.com/questions/222214/managing-constructors-with-many-parameters-in-java/222295#222295).&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;![Source: &lt;a href=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/5.png&quot;&gt;Managing Constructor with many parameters&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1703,7 +1754,7 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;h4 id=&quot;spring-boot-java&quot;&gt;Spring Boot (Java)&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/7016/1*UZgaWM6WjlE6j0tzCm7Ivg.png&quot; alt=&quot;Source: [Spring Annotations Cheat Sheet](https://www.jrebel.com/blog/spring-annotations-cheat-sheet)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;![Source: &lt;a href=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/6.png&quot;&gt;Spring Annotations Cheat Sheet&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;java-for-jpa&quot;&gt;Java: For JPA&lt;/h4&gt;
 
@@ -1778,15 +1829,15 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;The bad approach is creating the same logic to work with different data structures.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2848/1*RwNJk3iwPScWSw0KuWPVUg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A better approach is to have one main logic function and convert one data structure to another and then call the main one.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2612/1*L0wdkUD47mykqLn_0wbBcw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We can also take advantage of having the same name for both the functions which means less to remember.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2400/1*wC5NtBC4Io4DHBGRkF_QkA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Probably a bad example #2 of reuse:&lt;/strong&gt;&lt;/p&gt;
 
@@ -1794,13 +1845,13 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;Here suppose you already have a complex function that works on a list of integers, and now you have to make a similar one to work on a single int.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2408/1*qHyXmv_8rI0cFrVB3O6PGw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h1 id=&quot;single-line-boolean-evaluation&quot;&gt;Single line boolean evaluation&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/3008/1*xTyrFXVpPHzjkOv4yMhTIQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1890,85 +1941,4 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-4-make-the-database-do-the-heavy-lifting-88178a1c3a16&quot;&gt;Make database do the heavy lifting&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #3</summary></entry><entry><title type="html">Clean Code Know thy complexities, data structures and avoid inventing algorithms (especially for…</title><link href="www.ankushchoubey.com/medium/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html" rel="alternate" type="text/html" title="Clean Code  Know thy complexities, data structures and avoid inventing algorithms (especially for…" /><published>2019-12-25T00:00:00-06:00</published><updated>2019-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for</id><content type="html" xml:base="www.ankushchoubey.com/medium/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html">&lt;h4 id=&quot;clean-code-6-especially-for-maths&quot;&gt;Clean Code #6: (especially for maths)&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;If&lt;/strong&gt; you are &lt;strong&gt;inventing new algorithms&lt;/strong&gt;, you either &lt;strong&gt;don’t know&lt;/strong&gt; the right algorithm &lt;strong&gt;or&lt;/strong&gt; are working on your &lt;strong&gt;PhD&lt;/strong&gt; thesis.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Eliminating&lt;/strong&gt; as much of this **accidental complexity **as possible.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://www.codeproject.com/Articles/838973/Why-Your-Code-Is-So-Hard-to-Understand&quot;&gt;Why Your Code Is So Hard to Understand&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;keep-your-implementation-as-simple-as-possible&quot;&gt;Keep your implementation as simple as possible&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If the implementation is hard to explain, it’s a bad idea.
-If the implementation is easy to explain, it may be a good idea.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ The Zen of Python, by Tim Peters&lt;/p&gt;
-
-&lt;h1 id=&quot;knowing-the-basics-of-time-and-space-complexity-goes-a-long-way&quot;&gt;Knowing the basics of time and space complexity goes a long way.&lt;/h1&gt;
-
-&lt;p&gt;Going through each is beyond the scope of this. Here is a link if you want to go in-depth: &lt;a href=&quot;https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt&quot;&gt;Cracking the Coding Interview YouTube&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The concept of List, Sets, and Maps is universal though this particular post is going to look at it through the lens of Java&lt;/strong&gt;. In the case of Python map is called a dictionary.&lt;/p&gt;
-
-&lt;h1 id=&quot;additional-tip-always-use-parent-interface-for-the-type&quot;&gt;Additional Tip: Always use parent interface for the type&lt;/h1&gt;
-
-&lt;p&gt;Be as general as you can be.&lt;/p&gt;
-
-&lt;p&gt;This allows you to swap in any form of implementation of parent interface in a single line.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2808/1*M2J_YiubLnrId8k23GiNyA.png&quot; alt=&quot;[Collections in Java](https://www.javatpoint.com/collections-in-java)&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;when-trying-to-find-duplicates&quot;&gt;When trying to find duplicates&lt;/h1&gt;
-
-&lt;h4 id=&quot;use-set-instead-of-lists&quot;&gt;Use Set instead of Lists&lt;/h4&gt;
-
-&lt;p&gt;Set always contain unique values.&lt;/p&gt;
-
-&lt;p&gt;Finding an element in the set is much faster O(1) than compared to a list O(n)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2880/1*HVkmS59kcy7lkvkWSoZNhg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;java-if-you-know-the-size-of-the-list&quot;&gt;Java: If you know the size of the list&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;… if the required maximum capacity of the ArrayList is known, we can get the optimal performance (both average latency and throughput) by specifying the initial capacity to the required capacity.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In doing so, we can get 24% to 34% improvement in average latency and 30% to 50% improvement in throughput.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://dzone.com/articles/performance-evaluation-of-java-arraylist&quot;&gt;Performance Evaluation of Java ArrayLists&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;always-have-your-algorithmic-logic-in-a-separate-function&quot;&gt;Always have your algorithmic logic in a separate function&lt;/h1&gt;
-
-&lt;p&gt;This just makes it much easier to debug. Your function will be doing just one this.&lt;/p&gt;
-
-&lt;p&gt;Making it general enough will be even helpful so that you can easily use it.&lt;/p&gt;
-
-&lt;p&gt;**Example: **&lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-1-flat-is-better-than-nested-leave-when-not-okay-c09ba74090ef&quot;&gt;&lt;em&gt;Separate loop and operation section: Clean Code #1&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation&quot;&gt;Rather than implementing own logic, take 5 minutes to see if your modules already provide the implementation&lt;/h1&gt;
-
-&lt;h4 id=&quot;example-sorting-in-javascripttypescript&quot;&gt;Example: Sorting in Javascript/Typescript&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2668/1*UoB_nYYPlLWGY14bNEs2IQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2704/1*BS7jYfKY4DhpY-cLuGULHw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A library in java which you can find is &lt;a href=&quot;https://www.baeldung.com/java-commons-lang-3&quot;&gt;Apache Common Lang 3&lt;/a&gt; which does provide a lot of utilities.&lt;/p&gt;
-
-&lt;p&gt;Python has much more abundance. Just google a solution for python and you will probably find a pip package.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/c477707e5be1&quot;&gt;Remove unnecessary code&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/a7bca1e66d9e&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #6: (especially for maths)</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #3</summary></entry></feed>

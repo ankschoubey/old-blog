@@ -146,7 +146,7 @@ window.onload = wrap_img;
 
 <p>For Spring (Java), ideally, use JPA method query things.<strong>***</strong></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/NaN/1*zFdnxfeVJjlSsMTf_w6ZFQ.png" alt="Source: [JPA Repositories Spring.io](https://docs.spring.io/spring-data/jpa/docs/1.6.0.RELEASE/reference/html/jpa.repositories.html#jpa.query-methods)"></p>
+<p>![Source: <a href="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/1.png">JPA Repositories Spring.io</a></p>
 
 <p><em>Tips: Use tools to make Entities POJO: <a href="https://www.youtube.com/watch?v=LrbaDRcu3Y0">https://www.youtube.com/watch?v=LrbaDRcu3Y0</a></em></p>
 
@@ -176,19 +176,19 @@ window.onload = wrap_img;
 
 <p>There are 3 tables:</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1764/1*NF1SHsFTe30LAcA1_E4Ihw.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/2.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2584/1*431KNZ9UVgdajXUl3CNWdA.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/3.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2580/1*T2bpZ2wOlAdAQaW6qyz8lw.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/4.png" alt=""></p>
 
 <p><strong><em>Suppose you want to find who are male grandparents of children whose name start with ‘A’</em></strong></p>
 
 <p>You can go for some complex query like</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/3164/1*75X7btaFCu1WIsr7kn1K0Q.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/5.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/484/1*_77Yv8zDeWB0AGi0vJBSIg.png" alt="Output"></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/6.png" alt="Output"></p>
 
 <p>These 33 lines can quickly increase in size when you have too many tables. Multiple shorter queries are always much better than one <strong>big bang query</strong>.</p>
 
@@ -200,25 +200,25 @@ window.onload = wrap_img;
 
 <p>You could break into something simpler queries like:</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2380/1*O516lxu-uDib3jIf6LOWlQ.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/7.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/156/1*0qxyXQX2fRscvlMnK44jqA.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/8.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2368/1*n6Apvygj0rrR_dXnmbV_3A.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/9.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/292/1*DPliVI-J4CA7gwbEbjAykQ.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/10.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2364/1*p22YYkOqyTYurOKvQMymUw.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/11.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/548/1*snRet2ZLeb2snOBUUyIV7Q.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/12.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2372/1*95LaDFaSAUvCKlI4W0yAsQ.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/13.png" alt=""></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/464/1*ccfP3npCRgsMweMrZUU6vQ.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/14.png" alt=""></p>
 
 <p>Then code the method yourself to call these in a certain sequence:</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/3372/1*NtGsnQZoQY6b6LSfmG9xuA.png" alt=""></p>
+<p><img src="/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/15.png" alt=""></p>
 
 <p>You will find that even though your line of code has increased, the modularity of code has also increased and these functions can be arranged in any way you like.</p>
 
@@ -230,7 +230,15 @@ window.onload = wrap_img;
 
 <p><strong>Index</strong>: <a href="https://medium.com/p/30d717f32ae4">Tips on writing Clean Code</a></p>
 
-  </div><a class="u-url" href="/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="ankschoubey/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
