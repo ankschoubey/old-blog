@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-24T07:30:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-24T07:44:37-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
 
 &lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
 
@@ -541,54 +541,56 @@ resnet18.fc = nn.Sequential(
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Hope this helps! Have a good day!&lt;/p&gt;
 
-&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://medium.com/@ankushchoubey/hi-harshini-b0e50202d15&quot;&gt;Medium reply&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Harshini on Medium asks</summary></entry><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h4 id=&quot;for-those-who-dont-require-google-level-optimization&quot;&gt;For those who don’t require Google level optimization&lt;/h4&gt;
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://medium.com/@ankushchoubey/hi-harshini-b0e50202d15&quot;&gt;Medium reply&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Harshini on Medium asks</summary></entry><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h2 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h2&gt;
 
-&lt;h1 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h1&gt;
+&lt;h5 id=&quot;always-use-compression-at-least-gzip&quot;&gt;&lt;a href=&quot;https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw&quot;&gt;Always use compression: at least &lt;code class=&quot;highlighter-rouge&quot;&gt;gzip&lt;/code&gt;&lt;/a&gt;&lt;/h5&gt;
 
-&lt;h4 id=&quot;always-use-compression-at-least-gzip&quot;&gt;Always use compression: at least gzip&lt;/h4&gt;
+&lt;p&gt;Always compress. The configuration is set in the webserver.&lt;/p&gt;
 
-&lt;p&gt;gzip is good enough in most cases in terms of both performance and speed.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gzip&lt;/code&gt; is good enough in most cases in terms of both performance and speed.&lt;/p&gt;
 
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Always compress. The configuration is set in the webserver.&lt;br /&gt;&lt;br /&gt;gzip has a perfect balance of performance and compression.&lt;br /&gt;&lt;br /&gt;My application went from 4 MB to 800 kb. Fewer data faster speed.&lt;br /&gt;&lt;br /&gt;Enabling gzip: &lt;a href=&quot;https://t.co/kBGeXU41Ji&quot;&gt;https://t.co/kBGeXU41Ji&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;Verify gzip on Chrome: &lt;a href=&quot;https://t.co/TqAkHtoaOX&quot;&gt;https://t.co/TqAkHtoaOX&lt;/a&gt;&lt;/p&gt;— Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;p&gt;My application went from 4 MB to 800 kb. Fewer data faster speed.&lt;/p&gt;
 
-&lt;h1 id=&quot;make-less-number-of-requests&quot;&gt;Make less number of requests&lt;/h1&gt;
+&lt;p&gt;&lt;sup&gt;Source 1: &lt;a href=&quot;https://varvy.com/pagespeed/enable-compression.html&quot;&gt;Enabling gzip&lt;/a&gt;&lt;/sup&gt;&lt;br /&gt;
+&lt;sup&gt;Source 2: &lt;a href=&quot;https://stackoverflow.com/a/18834602&quot;&gt;Verify gzip on Chrome&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;always-cache-static-content-js-css-and-static-images&quot;&gt;Always cache static content: JS, CSS and static images.&lt;/h4&gt;
+&lt;h2 id=&quot;make-less-number-of-requests&quot;&gt;Make less number of requests&lt;/h2&gt;
+
+&lt;h5 id=&quot;always-cache-static-content-js-css-and-static-images&quot;&gt;Always cache static content: &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt; and static images.&lt;/h5&gt;
 
 &lt;p&gt;This can be configured in your web server or your application. Just google “ “how to cache in &lt;your framework=&quot;&quot; or=&quot;&quot; web=&quot;&quot; server=&quot;&quot;&gt;“.&lt;/your&gt;&lt;/p&gt;
 
 &lt;p&gt;Of course: &lt;strong&gt;&lt;em&gt;be sure to not cache dynamic content.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;For JS and CSS files, make sure it has a name that is unique if the file is modified.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt; files, make sure it has a name that is unique if the file is modified.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Example: in angular after creating a –prod build, the filename is in following format “&lt;filename&gt;.&lt;md5 checksum=&quot;&quot;&gt;.js”.&lt;/md5&gt;&lt;/filename&gt;&lt;/p&gt;
+&lt;p&gt;Example: in angular after creating a &lt;code class=&quot;highlighter-rouge&quot;&gt;--prod&lt;/code&gt; build, the filename is in following format &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;filename&amp;gt;.&amp;lt;md5 checksum&amp;gt;.js&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;This ensures that if the content of the file changes, the md5 checksum will change and a new request will be sent but if the file does not change then it will have the same checksum so it can be pulled from the cache.&lt;/p&gt;
+&lt;p&gt;This ensures that if the content of the file changes, the &lt;code class=&quot;highlighter-rouge&quot;&gt;md5&lt;/code&gt; checksum will change and a new request will be sent but if the file does not change then it will have the same checksum so it can be pulled from the cache.&lt;/p&gt;
 
-&lt;h4 id=&quot;always-load-images-lazily&quot;&gt;Always load images lazily&lt;/h4&gt;
+&lt;h5 id=&quot;always-load-images-lazily&quot;&gt;Always load images lazily&lt;/h5&gt;
 
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;lt;img loading=‘lazy’ ... /&amp;gt; is so so easy. Images are only fetched when user scrolls near it. &lt;a href=&quot;https://twitter.com/hashtag/freeSpeedUp?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#freeSpeedUp&lt;/a&gt; &lt;a href=&quot;https://t.co/nduXUy5GLm&quot;&gt;https://t.co/nduXUy5GLm&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Are there any more such tweaks that exist?&lt;/p&gt;— Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1219613362239049728?ref_src=twsrc%5Etfw&quot;&gt;January 21, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;center&gt;
+    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;lt;img loading=‘lazy’ ... /&amp;gt; is so so easy. Images are only fetched when user scrolls near it. &lt;a href=&quot;https://twitter.com/hashtag/freeSpeedUp?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#freeSpeedUp&lt;/a&gt; &lt;a href=&quot;https://t.co/nduXUy5GLm&quot;&gt;https://t.co/nduXUy5GLm&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Are there any more such tweaks that exist?&lt;/p&gt;&amp;mdash; Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1219613362239049728?ref_src=twsrc%5Etfw&quot;&gt;January 21, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/center&gt;
 
-&lt;p&gt;Advanced tips: &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video&quot;&gt;Lazy Loading Images and Video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;Advanced tips: &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video&quot;&gt;Lazy Loading Images and Video&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;do-it-fast&quot;&gt;Do it fast&lt;/h1&gt;
+&lt;h2 id=&quot;do-it-fast&quot;&gt;Do it fast&lt;/h2&gt;
 
-&lt;h4 id=&quot;fetch-js-and-css-asynchronously&quot;&gt;Fetch JS and CSS asynchronously&lt;/h4&gt;
+&lt;h5 id=&quot;fetch-js-and-css-asynchronously-source&quot;&gt;&lt;a href=&quot;https://twitter.com/ankschoubey/status/1229793732418920449?s=20&quot;&gt;Fetch &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt; asynchronously&lt;/a&gt; &lt;sup&gt;&lt;a href=&quot;https://flaviocopes.com/javascript-async-defer/#the-position-matters&quot;&gt;&lt;em&gt;Source&lt;/em&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/h5&gt;
 
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;When fetching js add &amp;#39;async defer&amp;#39; to script tag. This will fetch multiple js files in parallel. Keep script tag in the header for this.&lt;a href=&quot;https://t.co/o0LmIGmnWc&quot;&gt;https://t.co/o0LmIGmnWc&lt;/a&gt;&lt;a href=&quot;https://t.co/3Hx2ao1aQC&quot;&gt;https://t.co/3Hx2ao1aQC&lt;/a&gt;&lt;/p&gt;— Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1229793732418920449?ref_src=twsrc%5Etfw&quot;&gt;February 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;p&gt;When fetching &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; add &lt;code class=&quot;highlighter-rouge&quot;&gt;async defer&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; tag. This will fetch multiple &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; files in parallel.&lt;/p&gt;
+
+&lt;p&gt;Keep &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; tag in the header for this.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;are-there-more-such-easy-tips&quot;&gt;Are there more such easy tips?&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Are there more such easy tips?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;Originally published at &lt;a href=&quot;https://www.ankushchoubey.com/web%20development/2020/02/22/simple-hacks-for-increasing-website-load-time.html&quot;&gt;https://ankushchoubey.com&lt;/a&gt; on December 11, 2012.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">For those who don’t require Google level optimization</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="www.ankushchoubey.com/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/jupyter/2020/02/20/test</id><content type="html" xml:base="www.ankushchoubey.com/jupyter/2020/02/20/test.html">&lt;!--
+&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;</content><author><name></name></author><summary type="html">Reduce bundle size</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="www.ankushchoubey.com/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/jupyter/2020/02/20/test</id><content type="html" xml:base="www.ankushchoubey.com/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
