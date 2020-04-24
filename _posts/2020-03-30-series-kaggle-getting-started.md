@@ -1,17 +1,15 @@
 ---
-toc: true
+toc: false
 layout: post
 comments: true
-description: 
-categories: [Medium]
+description: Baby steps towards competitions
+categories: [Deep Learning, Kaggle]
 title: Series  Kaggle Getting Started
 ---
 
-#### Baby steps towards competitions
+## Why?
 
-# Why?
-
-#### **Because Getting Started is:**
+##### **Because Getting Started is:**
 
 - Easy
 
@@ -19,19 +17,19 @@ title: Series  Kaggle Getting Started
 
 - Less chance of getting stuck
 
-# How we will do it?
+## How we will do it?
 
-#### **By:**
+##### **By:**
 
 - focusing on the process rather than just getting the output.
 
 - starting with easier problems.
 
-# Prerequisite
+## Prerequisite
 
 - PyTorch:[ A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html), [Writing Custom Datasets](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset)
 
-# Expectations from this series
+## Expectations from this series
 
 **Time**: 5–6 Hours per challenge or more.
 
@@ -51,7 +49,7 @@ title: Series  Kaggle Getting Started
 
 This way one can see get a peek behind the finished product.
 
-# Abbreviations Used
+## Abbreviations Used
 
 ```
 X = training_data
@@ -63,7 +61,7 @@ dl = dataloader
 o = optimizer
 ```
 
-# Index
+## Index
 
 > [**Join Medium.**](https://medium.com/p/a3c37acae6e9)
 >

@@ -2,16 +2,13 @@
 toc: true
 layout: post
 comments: true
-description: 
-categories: [Medium]
+description: 'MNIST: Kaggle Getting Started'
+categories: [Deep Learning, Kaggle]
 title: Digit Recognition
 ---
-
-#### Kaggle Getting Started
-
-P[re-requisites](https://medium.com/p/c06251780b)
-
-#### How to read this?
+***
+### How to read this?
+1. Skim through the [Pre-requisites](https://medium.com/p/c06251780b)
 
 1. Open each commit notebook then read the explanations.
 
@@ -23,7 +20,9 @@ P[re-requisites](https://medium.com/p/c06251780b)
 
 1. Still, **stuck**?? **highlight the explanation and comment**. I will get back to your query.
 
-#### [Commit Version 2](https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30660257): Getting Input and Generating Submission File
+***
+
+### [Commit Version 2](https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30660257): Getting Input and Generating Submission File
 
 - _Day 1_
 
@@ -33,13 +32,13 @@ P[re-requisites](https://medium.com/p/c06251780b)
 
 My goal for any first commit is always to get input, pass it through a NN and generate a submittable output.
 
-**Read the data**
+#### Read the data
 
 ```
 train_df = pd.read_csv('/kaggle/input/digit-recognizer/train.csv')
 ```
 
-**Training/testing**
+#### Training/testing
 
 I needed a way to separate features and labels.
 
@@ -53,7 +52,7 @@ type(test_df.get('label')) == None
 #false
 ```
 
-**Dataset**
+#### Dataset
 
 Returns features and labels if ‘train=True’. else it returns just features
 
@@ -72,7 +71,7 @@ class **MnistDataset**(Dataset):
 
 Observation: Even if I don’t explicitly mention Tensor, NumPy is converted to tensor.
 
-**Creating DataLoader**
+#### Creating DataLoader
 
 ```
 bs = 64
@@ -80,20 +79,20 @@ ds = MnistDataset(train_df)
 dl = DataLoader(ds, bs)
 ```
 
-**Checking if DataLoader returns the right output**
+#### Checking if DataLoader returns the right output
 
 ```
 images, labels = next(iter(dl))
 images.shape, labels.shape
 ```
 
-**Creating a vanilla Neural Network**
+#### Creating a vanilla Neural Network
 
 I created a dumb NN just so that I can pass data through it and get output in the desired shape.
 
 The details don’t matter much. This will be replaced by a CNN later.
 
-**Preparing the training loop**
+#### Preparing the training loop
 
 ```
 epochs = 10
@@ -103,7 +102,7 @@ import torch.optim as optim
 o = optim.Adam(net.parameters())
 ```
 
-**Creating the training loop**
+#### Creating the training loop
 
 Here are the 4 steps to create a basic training loop
 
@@ -141,7 +140,7 @@ loss = loss_fn(out.float(), labels.long())
 loss.backward()
 ```
 
-**Generating output**
+#### Generating output
 
 A similar step as above has been taken to generate test_dl and the testing loop.
 
@@ -184,7 +183,7 @@ sample_df.to_csv('submission.csv', index=False)
 
 **index=False** removed the default pandas index when saving
 
-#### [Commit Version 3](https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30753580): Improvements
+### [Commit Version 3](https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30753580): Improvements
 
 _Changes_: Proper Accuracy, Graph, and Data Normalization
 
@@ -259,7 +258,7 @@ this would result in a range between -0.5…+0.5.
 
 Later we would use `torchvision.transforms.Normalize`(_mean_, _std_, _inplace=False_) which generates unique normalization value for each dataset
 
-#### [Commit 6](https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist?scriptVersionId=30896320): ConvNet, and GPU
+### [Commit 6](https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist?scriptVersionId=30896320): ConvNet, and GPU
 
 - Day 6
 
@@ -360,7 +359,7 @@ This resulted in 7 seconds per epoch.
 
 For testing, the batch_size can be much higher since we don’t have to back prop.
 
-#### [Commit 7](https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist/output?scriptVersionId=31120757): Improvement
+### [Commit 7](https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist/output?scriptVersionId=31120757): Improvement
 
 - Day 8
 
