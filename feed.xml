@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-19T21:54:58-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html">&lt;h4 id=&quot;baby-steps-towards-competitions&quot;&gt;Baby steps towards competitions&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-24T07:06:59-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html">&lt;h4 id=&quot;baby-steps-towards-competitions&quot;&gt;Baby steps towards competitions&lt;/h4&gt;
 
 &lt;h1 id=&quot;why&quot;&gt;Why?&lt;/h1&gt;
 
@@ -1431,78 +1431,7 @@ wget https://example.com/cat_photo1.png
       &lt;p&gt;This is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Example Markdown Post</summary></entry><entry><title type="html">Clean Code Exception handling</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html" rel="alternate" type="text/html" title="Clean Code  Exception handling" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html">&lt;h4 id=&quot;clean-code-7&quot;&gt;Clean Code 7&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Errors should never pass silently.
-Unless explicitly silenced.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~The Zen of Python, by Tim Peters&lt;/p&gt;
-
-&lt;h1 id=&quot;create-custom-exception-classes&quot;&gt;Create custom exception classes&lt;/h1&gt;
-
-&lt;p&gt;Your exceptions should say exactly what went wrong. While those provided by programming languages are good, they are too general and are not specific to your codebase.&lt;/p&gt;
-
-&lt;p&gt;Oversimplified example:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Bad&lt;/strong&gt;: Exception(“number is smaller than 0”)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Better&lt;/strong&gt;: SpeedException(“Speed should not be smaller than 0”)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The reason you want to do this is that you can handle different types of exceptions in different ways and it is much easy to know exactly what went wrong from the logs.&lt;/p&gt;
-
-&lt;p&gt;In most programming languages creating exception is easy. Just inherit from the main Exception class which should be enough for most cases.&lt;/p&gt;
-
-&lt;p&gt;Custom Exception class also makes your logs easier to read.&lt;/p&gt;
-
-&lt;h1 id=&quot;always-know-why-you-are-catching-an-exception&quot;&gt;Always know why you are catching an exception…&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/1.png&quot; alt=&quot;TODO: Find and Add YouTube video attribution&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;-or-just-dont-catch-it-throws-to-the-caller&quot;&gt;… or just don’t catch it (throws to the caller)&lt;/h1&gt;
-
-&lt;p&gt;if you are not going to do anything with the exception don’t catch it just throw it.&lt;/p&gt;
-
-&lt;p&gt;Don’t add throw exception in the catch block. Use &lt;strong&gt;throws while declaring the function instead&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;for-unsupported-operations&quot;&gt;For Unsupported Operations&lt;/h1&gt;
-
-&lt;p&gt;In if-else statements or switch cases, it is always good to have a default case which will execute if no other condition is true.&lt;/p&gt;
-
-&lt;p&gt;If something is not possible or not supported then:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;throw (Java): &lt;strong&gt;UnsupportedOperationException&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;raise (Python): &lt;strong&gt;NotImplementedError&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;global-exception-handling&quot;&gt;Global exception handling&lt;/h1&gt;
-
-&lt;p&gt;These allow you to have the same exception handling mechanism in case you have not explicitly handled the exception.&lt;/p&gt;
-
-&lt;p&gt;The most basic thing to do here is logging the exception.&lt;/p&gt;
-
-&lt;h4 id=&quot;spring-java-controlleradvice&quot;&gt;Spring (Java): @ControllerAdvice&lt;/h4&gt;
-
-&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyIr5iNIXJjo%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyIr5iNIXJjo&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyIr5iNIXJjo%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/43dfcff10bcd&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/604c7e06235d/&quot;&gt;Leave code better than you found it.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code 7</summary></entry><entry><title type="html">Clean Code Leave it better than you found it</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html" rel="alternate" type="text/html" title="Clean Code  Leave it better than you found it" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html">&lt;h4 id=&quot;clean-code-8&quot;&gt;Clean Code #8&lt;/h4&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Example Markdown Post</summary></entry><entry><title type="html">Clean Code Leave it better than you found it</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html" rel="alternate" type="text/html" title="Clean Code  Leave it better than you found it" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html">&lt;h4 id=&quot;clean-code-8&quot;&gt;Clean Code #8&lt;/h4&gt;
 
 &lt;p&gt;Code is much more like a work of art/craft that people consider it.&lt;/p&gt;
 
@@ -1655,7 +1584,78 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/a7bca1e66d9e&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #8</summary></entry><entry><title type="html">Clean Code Remove un-necessary code</title><link href="www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code.html" rel="alternate" type="text/html" title="Clean Code  Remove un-necessary code" /><published>2020-01-04T00:00:00-06:00</published><updated>2020-01-04T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code.html">&lt;h4 id=&quot;clean-code-5-you-aint-gonna-need-it&quot;&gt;Clean Code #5: You ain’t gonna need it&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #8</summary></entry><entry><title type="html">Clean Code Exception handling</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html" rel="alternate" type="text/html" title="Clean Code  Exception handling" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html">&lt;h4 id=&quot;clean-code-7&quot;&gt;Clean Code 7&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Errors should never pass silently.
+Unless explicitly silenced.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~The Zen of Python, by Tim Peters&lt;/p&gt;
+
+&lt;h1 id=&quot;create-custom-exception-classes&quot;&gt;Create custom exception classes&lt;/h1&gt;
+
+&lt;p&gt;Your exceptions should say exactly what went wrong. While those provided by programming languages are good, they are too general and are not specific to your codebase.&lt;/p&gt;
+
+&lt;p&gt;Oversimplified example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bad&lt;/strong&gt;: Exception(“number is smaller than 0”)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Better&lt;/strong&gt;: SpeedException(“Speed should not be smaller than 0”)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The reason you want to do this is that you can handle different types of exceptions in different ways and it is much easy to know exactly what went wrong from the logs.&lt;/p&gt;
+
+&lt;p&gt;In most programming languages creating exception is easy. Just inherit from the main Exception class which should be enough for most cases.&lt;/p&gt;
+
+&lt;p&gt;Custom Exception class also makes your logs easier to read.&lt;/p&gt;
+
+&lt;h1 id=&quot;always-know-why-you-are-catching-an-exception&quot;&gt;Always know why you are catching an exception…&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/1.png&quot; alt=&quot;TODO: Find and Add YouTube video attribution&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;-or-just-dont-catch-it-throws-to-the-caller&quot;&gt;… or just don’t catch it (throws to the caller)&lt;/h1&gt;
+
+&lt;p&gt;if you are not going to do anything with the exception don’t catch it just throw it.&lt;/p&gt;
+
+&lt;p&gt;Don’t add throw exception in the catch block. Use &lt;strong&gt;throws while declaring the function instead&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;for-unsupported-operations&quot;&gt;For Unsupported Operations&lt;/h1&gt;
+
+&lt;p&gt;In if-else statements or switch cases, it is always good to have a default case which will execute if no other condition is true.&lt;/p&gt;
+
+&lt;p&gt;If something is not possible or not supported then:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;throw (Java): &lt;strong&gt;UnsupportedOperationException&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;raise (Python): &lt;strong&gt;NotImplementedError&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;global-exception-handling&quot;&gt;Global exception handling&lt;/h1&gt;
+
+&lt;p&gt;These allow you to have the same exception handling mechanism in case you have not explicitly handled the exception.&lt;/p&gt;
+
+&lt;p&gt;The most basic thing to do here is logging the exception.&lt;/p&gt;
+
+&lt;h4 id=&quot;spring-java-controlleradvice&quot;&gt;Spring (Java): @ControllerAdvice&lt;/h4&gt;
+
+&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyIr5iNIXJjo%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyIr5iNIXJjo&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyIr5iNIXJjo%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/43dfcff10bcd&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/604c7e06235d/&quot;&gt;Leave code better than you found it.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code 7</summary></entry><entry><title type="html">Clean Code Remove un-necessary code</title><link href="www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code.html" rel="alternate" type="text/html" title="Clean Code  Remove un-necessary code" /><published>2020-01-04T00:00:00-06:00</published><updated>2020-01-04T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code.html">&lt;h4 id=&quot;clean-code-5-you-aint-gonna-need-it&quot;&gt;Clean Code #5: You ain’t gonna need it&lt;/h4&gt;
 
 &lt;h1 id=&quot;declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once&quot;&gt;Declare the local variable as close to where it is used and remove un-necessary once&lt;/h1&gt;
 
@@ -1879,66 +1879,85 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/43dfcff10bcd&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #5: You ain’t gonna need it</summary></entry><entry><title type="html">Clean Code Avoid creating god classes and long methods</title><link href="www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html" rel="alternate" type="text/html" title="Clean Code  Avoid creating god classes and long methods" /><published>2019-12-25T00:00:00-06:00</published><updated>2019-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods</id><content type="html" xml:base="www.ankushchoubey.com/medium/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html">&lt;h4 id=&quot;clean-code-3&quot;&gt;Clean Code #3&lt;/h4&gt;
-
-&lt;p&gt;As you gain &lt;strong&gt;experience&lt;/strong&gt; as a developer you &lt;strong&gt;start to see repeating patterns&lt;/strong&gt; that crop up over and over again in your solutions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #5: You ain’t gonna need it</summary></entry><entry><title type="html">Clean Code Know thy complexities, data structures and avoid inventing algorithms (especially for…</title><link href="www.ankushchoubey.com/medium/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html" rel="alternate" type="text/html" title="Clean Code  Know thy complexities, data structures and avoid inventing algorithms (especially for…" /><published>2019-12-25T00:00:00-06:00</published><updated>2019-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for</id><content type="html" xml:base="www.ankushchoubey.com/medium/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html">&lt;h4 id=&quot;clean-code-6-especially-for-maths&quot;&gt;Clean Code #6: (especially for maths)&lt;/h4&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;When you use &lt;strong&gt;chunking&lt;/strong&gt; (design patterns, algorithms and standard functions) appropriately, it &lt;strong&gt;allows&lt;/strong&gt; you to &lt;strong&gt;stop thinking&lt;/strong&gt; about &lt;strong&gt;how the code&lt;/strong&gt; you write does something and &lt;strong&gt;instead&lt;/strong&gt; think about &lt;strong&gt;what it does&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;If&lt;/strong&gt; you are &lt;strong&gt;inventing new algorithms&lt;/strong&gt;, you either &lt;strong&gt;don’t know&lt;/strong&gt; the right algorithm &lt;strong&gt;or&lt;/strong&gt; are working on your &lt;strong&gt;PhD&lt;/strong&gt; thesis.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Eliminating&lt;/strong&gt; as much of this **accidental complexity **as possible.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Source: &lt;a href=&quot;https://www.codeproject.com/Articles/838973/Why-Your-Code-Is-So-Hard-to-Understand&quot;&gt;Why Your Code Is So Hard to Understand&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;classes&quot;&gt;Classes&lt;/h1&gt;
+&lt;h1 id=&quot;keep-your-implementation-as-simple-as-possible&quot;&gt;Keep your implementation as simple as possible&lt;/h1&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;One class should do one thing not everything like StatusChanger or StatusManager, not StatusGod&lt;/p&gt;
+  &lt;p&gt;If the implementation is hard to explain, it’s a bad idea.
+If the implementation is easy to explain, it may be a good idea.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ The Zen of Python, by Tim Peters&lt;/p&gt;
+
+&lt;h1 id=&quot;knowing-the-basics-of-time-and-space-complexity-goes-a-long-way&quot;&gt;Knowing the basics of time and space complexity goes a long way.&lt;/h1&gt;
+
+&lt;p&gt;Going through each is beyond the scope of this. Here is a link if you want to go in-depth: &lt;a href=&quot;https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt&quot;&gt;Cracking the Coding Interview YouTube&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The concept of List, Sets, and Maps is universal though this particular post is going to look at it through the lens of Java&lt;/strong&gt;. In the case of Python map is called a dictionary.&lt;/p&gt;
+
+&lt;h1 id=&quot;additional-tip-always-use-parent-interface-for-the-type&quot;&gt;Additional Tip: Always use parent interface for the type&lt;/h1&gt;
+
+&lt;p&gt;Be as general as you can be.&lt;/p&gt;
+
+&lt;p&gt;This allows you to swap in any form of implementation of parent interface in a single line.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2808/1*M2J_YiubLnrId8k23GiNyA.png&quot; alt=&quot;[Collections in Java](https://www.javatpoint.com/collections-in-java)&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;when-trying-to-find-duplicates&quot;&gt;When trying to find duplicates&lt;/h1&gt;
+
+&lt;h4 id=&quot;use-set-instead-of-lists&quot;&gt;Use Set instead of Lists&lt;/h4&gt;
+
+&lt;p&gt;Set always contain unique values.&lt;/p&gt;
+
+&lt;p&gt;Finding an element in the set is much faster O(1) than compared to a list O(n)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2880/1*HVkmS59kcy7lkvkWSoZNhg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;java-if-you-know-the-size-of-the-list&quot;&gt;Java: If you know the size of the list&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;… if the required maximum capacity of the ArrayList is known, we can get the optimal performance (both average latency and throughput) by specifying the initial capacity to the required capacity.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Keep classes small, a 1000 line class is a pain&lt;/p&gt;
+  &lt;p&gt;In doing so, we can get 24% to 34% improvement in average latency and 30% to 50% improvement in throughput.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h1 id=&quot;methods&quot;&gt;Methods&lt;/h1&gt;
+&lt;p&gt;Source: &lt;a href=&quot;https://dzone.com/articles/performance-evaluation-of-java-arraylist&quot;&gt;Performance Evaluation of Java ArrayLists&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;name&quot;&gt;Name&lt;/h4&gt;
+&lt;h1 id=&quot;always-have-your-algorithmic-logic-in-a-separate-function&quot;&gt;Always have your algorithmic logic in a separate function&lt;/h1&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Avoid using &lt;strong&gt;and&lt;/strong&gt; in method names like &lt;strong&gt;validateAndSave&lt;/strong&gt;, one method needs to do one thing and one thing well&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;This just makes it much easier to debug. Your function will be doing just one this.&lt;/p&gt;
 
-&lt;h4 id=&quot;dont-repeat-yourself&quot;&gt;Don’t Repeat Yourself&lt;/h4&gt;
+&lt;p&gt;Making it general enough will be even helpful so that you can easily use it.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;There should be one — and preferably only one — obvious way to do it.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;**Example: **&lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-1-flat-is-better-than-nested-leave-when-not-okay-c09ba74090ef&quot;&gt;&lt;em&gt;Separate loop and operation section: Clean Code #1&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;~The Zen of Python, by Tim Peters&lt;/p&gt;
+&lt;h1 id=&quot;rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation&quot;&gt;Rather than implementing own logic, take 5 minutes to see if your modules already provide the implementation&lt;/h1&gt;
 
-&lt;h4 id=&quot;lines-of-code&quot;&gt;Lines of Code&lt;/h4&gt;
+&lt;h4 id=&quot;example-sorting-in-javascripttypescript&quot;&gt;Example: Sorting in Javascript/Typescript&lt;/h4&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Keep methods small, a 50 line method is a problem.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2668/1*UoB_nYYPlLWGY14bNEs2IQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;My rule of thumb is: The method should not be more than the size of my screen. (&lt;em&gt;Source: Jeremy Howard fast.ai&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2704/1*BS7jYfKY4DhpY-cLuGULHw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;passing-variables&quot;&gt;Passing variables&lt;/h4&gt;
+&lt;p&gt;A library in java which you can find is &lt;a href=&quot;https://www.baeldung.com/java-commons-lang-3&quot;&gt;Apache Common Lang 3&lt;/a&gt; which does provide a lot of utilities.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Keep the instance variables as low. If you are passing 4,5 variables you are probably doing more than one thing&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Python has much more abundance. Just google a solution for python and you will probably find a pip package.&lt;/p&gt;
 
-&lt;p&gt;Pass an object instead of multiple methods&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/c477707e5be1&quot;&gt;Remove unnecessary code&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Don’t pass the variables that you don’t need.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/a7bca1e66d9e&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;if-creating-an-object-requires-multiple-steps&quot;&gt;If creating an object requires multiple steps&lt;/h4&gt;
-
-&lt;p&gt;Convert it into a factory method&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-2-leave-clues-naming-convention-89932c18abac&quot;&gt;Leave clues (Naming convention)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-4-make-the-database-do-the-heavy-lifting-88178a1c3a16&quot;&gt;Make database do the heavy lifting&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #3</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #6: (especially for maths)</summary></entry></feed>
