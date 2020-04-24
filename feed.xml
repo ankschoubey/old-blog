@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-24T07:06:59-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/30/series-kaggle-getting-started.html">&lt;h4 id=&quot;baby-steps-towards-competitions&quot;&gt;Baby steps towards competitions&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-24T07:30:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
 
-&lt;h1 id=&quot;why&quot;&gt;Why?&lt;/h1&gt;
-
-&lt;h4 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h4&gt;
+&lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -16,9 +14,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;how-we-will-do-it&quot;&gt;How we will do it?&lt;/h1&gt;
+&lt;h2 id=&quot;how-we-will-do-it&quot;&gt;How we will do it?&lt;/h2&gt;
 
-&lt;h4 id=&quot;by&quot;&gt;&lt;strong&gt;By:&lt;/strong&gt;&lt;/h4&gt;
+&lt;h5 id=&quot;by&quot;&gt;&lt;strong&gt;By:&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -29,13 +27,13 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h1&gt;
+&lt;h2 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;PyTorch:&lt;a href=&quot;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&quot;&gt; A 60 Minute Blitz&lt;/a&gt;, &lt;a href=&quot;https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset&quot;&gt;Writing Custom Datasets&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;expectations-from-this-series&quot;&gt;Expectations from this series&lt;/h1&gt;
+&lt;h2 id=&quot;expectations-from-this-series&quot;&gt;Expectations from this series&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5–6 Hours per challenge or more.&lt;/p&gt;
 
@@ -66,7 +64,7 @@
 
 &lt;p&gt;This way one can see get a peek behind the finished product.&lt;/p&gt;
 
-&lt;h1 id=&quot;abbreviations-used&quot;&gt;Abbreviations Used&lt;/h1&gt;
+&lt;h2 id=&quot;abbreviations-used&quot;&gt;Abbreviations Used&lt;/h2&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;X = training_data
 y = training_label
@@ -77,19 +75,18 @@ dl = dataloader
 o = optimizer
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h1 id=&quot;index&quot;&gt;Index&lt;/h1&gt;
+&lt;h2 id=&quot;index&quot;&gt;Index&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://medium.com/p/a3c37acae6e9&quot;&gt;&lt;strong&gt;Join Medium.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
   &lt;p&gt;&lt;small&gt;Join Medium.&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Baby steps towards competitions</summary></entry><entry><title type="html">Digit Recognition</title><link href="www.ankushchoubey.com/medium/2020/03/30/digit-recognition.html" rel="alternate" type="text/html" title="Digit Recognition" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/30/digit-recognition</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/30/digit-recognition.html">&lt;h4 id=&quot;kaggle-getting-started&quot;&gt;Kaggle Getting Started&lt;/h4&gt;
-
-&lt;p&gt;P&lt;a href=&quot;https://medium.com/p/c06251780b&quot;&gt;re-requisites&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;how-to-read-this&quot;&gt;How to read this?&lt;/h4&gt;
-
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">Digit Recognition</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/digit-recognition.html" rel="alternate" type="text/html" title="Digit Recognition" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/digit-recognition</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/digit-recognition.html">&lt;hr /&gt;
+&lt;h3 id=&quot;how-to-read-this&quot;&gt;How to read this?&lt;/h3&gt;
 &lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Skim through the &lt;a href=&quot;https://medium.com/p/c06251780b&quot;&gt;Pre-requisites&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Open each commit notebook then read the explanations.&lt;/p&gt;
   &lt;/li&gt;
@@ -107,7 +104,9 @@ o = optimizer
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id=&quot;commit-version-2-getting-input-and-generating-submission-file&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30660257&quot;&gt;Commit Version 2&lt;/a&gt;: Getting Input and Generating Submission File&lt;/h4&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;commit-version-2-getting-input-and-generating-submission-file&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30660257&quot;&gt;Commit Version 2&lt;/a&gt;: Getting Input and Generating Submission File&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -123,12 +122,12 @@ o = optimizer
 
 &lt;p&gt;My goal for any first commit is always to get input, pass it through a NN and generate a submittable output.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Read the data&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;read-the-data&quot;&gt;Read the data&lt;/h4&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;train_df = pd.read_csv('/kaggle/input/digit-recognizer/train.csv')
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Training/testing&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;trainingtesting&quot;&gt;Training/testing&lt;/h4&gt;
 
 &lt;p&gt;I needed a way to separate features and labels.&lt;/p&gt;
 
@@ -141,7 +140,7 @@ type(test_df.get('label')) == None
 #false
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Dataset&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dataset&quot;&gt;Dataset&lt;/h4&gt;
 
 &lt;p&gt;Returns features and labels if ‘train=True’. else it returns just features&lt;/p&gt;
 
@@ -159,26 +158,26 @@ type(test_df.get('label')) == None
 
 &lt;p&gt;Observation: Even if I don’t explicitly mention Tensor, NumPy is converted to tensor.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Creating DataLoader&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;creating-dataloader&quot;&gt;Creating DataLoader&lt;/h4&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bs = 64
 ds = MnistDataset(train_df)
 dl = DataLoader(ds, bs)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Checking if DataLoader returns the right output&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;checking-if-dataloader-returns-the-right-output&quot;&gt;Checking if DataLoader returns the right output&lt;/h4&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;images, labels = next(iter(dl))
 images.shape, labels.shape
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Creating a vanilla Neural Network&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;creating-a-vanilla-neural-network&quot;&gt;Creating a vanilla Neural Network&lt;/h4&gt;
 
 &lt;p&gt;I created a dumb NN just so that I can pass data through it and get output in the desired shape.&lt;/p&gt;
 
 &lt;p&gt;The details don’t matter much. This will be replaced by a CNN later.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Preparing the training loop&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;preparing-the-training-loop&quot;&gt;Preparing the training loop&lt;/h4&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;epochs = 10
 loss_fn = nn.CrossEntropyLoss()
@@ -187,7 +186,7 @@ import torch.optim as optim
 o = optim.Adam(net.parameters())
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Creating the training loop&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;creating-the-training-loop&quot;&gt;Creating the training loop&lt;/h4&gt;
 
 &lt;p&gt;Here are the 4 steps to create a basic training loop&lt;/p&gt;
 
@@ -234,7 +233,7 @@ loss = loss_fn(out.float(), labels.long())
 loss.backward()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Generating output&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;generating-output&quot;&gt;Generating output&lt;/h4&gt;
 
 &lt;p&gt;A similar step as above has been taken to generate test_dl and the testing loop.&lt;/p&gt;
 
@@ -289,7 +288,7 @@ sample_df.to_csv('submission.csv', index=False)
 
 &lt;p&gt;&lt;strong&gt;index=False&lt;/strong&gt; removed the default pandas index when saving&lt;/p&gt;
 
-&lt;h4 id=&quot;commit-version-3-improvements&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30753580&quot;&gt;Commit Version 3&lt;/a&gt;: Improvements&lt;/h4&gt;
+&lt;h3 id=&quot;commit-version-3-improvements&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30753580&quot;&gt;Commit Version 3&lt;/a&gt;: Improvements&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;Changes&lt;/em&gt;: Proper Accuracy, Graph, and Data Normalization&lt;/p&gt;
 
@@ -365,7 +364,7 @@ plt.plot(range(epochs), accuracies)
 
 &lt;p&gt;Later we would use &lt;code class=&quot;highlighter-rouge&quot;&gt;torchvision.transforms.Normalize&lt;/code&gt;(&lt;em&gt;mean&lt;/em&gt;, &lt;em&gt;std&lt;/em&gt;, &lt;em&gt;inplace=False&lt;/em&gt;) which generates unique normalization value for each dataset&lt;/p&gt;
 
-&lt;h4 id=&quot;commit-6-convnet-and-gpu&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist?scriptVersionId=30896320&quot;&gt;Commit 6&lt;/a&gt;: ConvNet, and GPU&lt;/h4&gt;
+&lt;h3 id=&quot;commit-6-convnet-and-gpu&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist?scriptVersionId=30896320&quot;&gt;Commit 6&lt;/a&gt;: ConvNet, and GPU&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -465,7 +464,7 @@ val_dl = DataLoader(val_ds, bs, num_workers=num_workers)
 
 &lt;p&gt;For testing, the batch_size can be much higher since we don’t have to back prop.&lt;/p&gt;
 
-&lt;h4 id=&quot;commit-7-improvement&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist/output?scriptVersionId=31120757&quot;&gt;Commit 7&lt;/a&gt;: Improvement&lt;/h4&gt;
+&lt;h3 id=&quot;commit-7-improvement&quot;&gt;&lt;a href=&quot;https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist/output?scriptVersionId=31120757&quot;&gt;Commit 7&lt;/a&gt;: Improvement&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -492,7 +491,21 @@ import torch.nn as nn
 resnet18.fc = nn.Sequential(
     nn.Linear(lin_in, 10)
 )
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Kaggle Getting Started</summary></entry><entry><title type="html">Hi Harshini,</title><link href="www.ankushchoubey.com/medium/2020/03/10/hi-harshini.html" rel="alternate" type="text/html" title="Hi Harshini," /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/medium/2020/03/10/hi-harshini</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/03/10/hi-harshini.html">&lt;p&gt;Hi Harshini,&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">How to read this? Skim through the Pre-requisites</summary></entry><entry><title type="html">Kaggle CLI QA: How to download a particular folder</title><link href="www.ankushchoubey.com/qa/kaggle/2020/03/10/kaggle-cli-download-a-folder.html" rel="alternate" type="text/html" title="Kaggle CLI QA: How to download a particular folder" /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/qa/kaggle/2020/03/10/kaggle-cli-download-a-folder</id><content type="html" xml:base="www.ankushchoubey.com/qa/kaggle/2020/03/10/kaggle-cli-download-a-folder.html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@harshini2898/nice-article-c1eb575b0baf&quot;&gt;Harshini on Medium asks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nice Article,&lt;/p&gt;
+
+  &lt;p&gt;But I got struck while trying to download a particular folder from kaggle competition “state-farm-distracted-driver-detection”. I want to download “img/train/c4” folder in that dataset, But when I’m trying to run the command, it’s giving an error like “404 — Not found”..&lt;/p&gt;
+
+  &lt;p&gt;But I am able to download a particular image like this “img/train/c2/img_100029.jpg”&lt;/p&gt;
+
+  &lt;p&gt;*Is there any command to download a particular folder??&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hi Harshini,&lt;/p&gt;
 
 &lt;p&gt;Kaggle CLI does not support downloading the entire folder or multiple files at once (except in case of downloading entire competition). Only one file can be downloaded at a time via the CLI.&lt;/p&gt;
 
@@ -500,25 +513,12 @@ resnet18.fc = nn.Sequential(
 
 &lt;h4 id=&quot;1-created-directory-if-it-does-not-already-exist&quot;&gt;1. Created directory if it does not already exist&lt;/h4&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;mkdir -p img/train/c4&lt;/p&gt;
-&lt;/blockquote&gt;
-
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; img/train/c4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;h4 id=&quot;2-get-the-list-of-all-files-available-in-the-dataset-filtered-the-files-which-were-in-the-c4-folder-picked-file-name-repeatedly-download-each-file&quot;&gt;2. Get the list of all files available in the dataset, filtered the files which were in the c4 folder, picked file name, repeatedly download each file.&lt;/h4&gt;
 
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;kaggle competitions files -c state-farm-distracted-driver-detection&lt;/td&gt;
-        &lt;td&gt;grep c4&lt;/td&gt;
-        &lt;td&gt;awk ‘{print $1}’&lt;/td&gt;
-        &lt;td&gt;while read x ; do kaggle competitions download -f $x state-farm-distracted-driver-detection -p img/train/c4 ; done&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle competitions files &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; state-farm-distracted-driver-detection | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;c4 | &lt;span class=&quot;nb&quot;&gt;awk&lt;/span&gt; ‘&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;print &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;’ | &lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;x &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do &lt;/span&gt;kaggle competitions download &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$x&lt;/span&gt; state-farm-distracted-driver-detection &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; img/train/c4 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;/images/2020-03-10-hi-harshini/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;— — — — —&lt;/p&gt;
@@ -537,11 +537,11 @@ resnet18.fc = nn.Sequential(
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;kaggle competitions download -h&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kaggle competitions download &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Hope this helps! Have a good day!&lt;/p&gt;
 
-&lt;p&gt;Hope this helps! Have a good day!&lt;/p&gt;</content><author><name></name></author><summary type="html">Hi Harshini,</summary></entry><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h4 id=&quot;for-those-who-dont-require-google-level-optimization&quot;&gt;For those who don’t require Google level optimization&lt;/h4&gt;
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://medium.com/@ankushchoubey/hi-harshini-b0e50202d15&quot;&gt;Medium reply&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Harshini on Medium asks</summary></entry><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time.html" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/02/22/simple-hacks-for-increasing-website-load-time.html">&lt;h4 id=&quot;for-those-who-dont-require-google-level-optimization&quot;&gt;For those who don’t require Google level optimization&lt;/h4&gt;
 
 &lt;h1 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h1&gt;
 
