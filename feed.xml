@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-25T13:23:54-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-25T13:29:23-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
 
 &lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
 
@@ -1314,9 +1314,7 @@ And another {% fn 2 %}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/chart-preview.png" /><media:content medium="image" url="www.ankushchoubey.com/images/chart-preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Clean Code Leave it better than you found it</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html" rel="alternate" type="text/html" title="Clean Code  Leave it better than you found it" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html">&lt;h4 id=&quot;clean-code-8&quot;&gt;Clean Code #8&lt;/h4&gt;
-
-&lt;p&gt;Code is much more like a work of art/craft that people consider it.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/chart-preview.png" /><media:content medium="image" url="www.ankushchoubey.com/images/chart-preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Clean Code Leave it better than you found it</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html" rel="alternate" type="text/html" title="Clean Code  Leave it better than you found it" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html">&lt;p&gt;Code is much more like a work of art/craft that people consider it.&lt;/p&gt;
 
 &lt;p&gt;Knowing the benefits and tips for writing good code will take you only so far. It requires a mindset shift. Looking at the code through an artist’s eye.&lt;/p&gt;
 
@@ -1324,7 +1322,7 @@ And another {% fn 2 %}
 
 &lt;p&gt;![The clean version of the image from the source: &lt;a href=&quot;/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png&quot;&gt;Leave it a little better than you found it&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;incremental-improvements&quot;&gt;Incremental Improvements&lt;/h1&gt;
+&lt;h2 id=&quot;incremental-improvements&quot;&gt;Incremental Improvements&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot. The &lt;strong&gt;cleanup doesn’t have to be something big&lt;/strong&gt;. Change &lt;strong&gt;one variable name&lt;/strong&gt; for the &lt;strong&gt;better&lt;/strong&gt;, &lt;strong&gt;break up one function&lt;/strong&gt; that’s a little too large, &lt;strong&gt;eliminate one small bit of duplication&lt;/strong&gt;, &lt;strong&gt;clean up one composite if statement&lt;/strong&gt;.&lt;/p&gt;
@@ -1342,7 +1340,7 @@ And another {% fn 2 %}
 
 &lt;h3 id=&quot;tip-leave-todo-as-comments-for-your-future-self-these-could-include-how-you-want-to-improve-the-code-but-dont-have-time-right-now-to-do-it-hopefully-your-future-self-will-handle-it&quot;&gt;Tip: Leave TODO as comments for your future self. These could include how you want to improve the code but don’t have time right now to do it. Hopefully your future self will handle it.&lt;/h3&gt;
 
-&lt;h1 id=&quot;upgrading-fast-get-rid-of-legacy&quot;&gt;Upgrading Fast (get rid of Legacy)&lt;/h1&gt;
+&lt;h2 id=&quot;upgrading-fast-get-rid-of-legacy&quot;&gt;Upgrading Fast (get rid of Legacy)&lt;/h2&gt;
 
 &lt;p&gt;Newer languages and frameworks provide many more features, provide security upgrades and are easier to use. The longer you wait to upgrade, the harder the upgrading becomes.&lt;/p&gt;
 
@@ -1417,7 +1415,7 @@ And another {% fn 2 %}
 
 &lt;p&gt;The support for Python 2 ended (2019) after 20 years of development. Its code is frozen and won’t even receive security upgrades. Time to upgrade to Python 3.&lt;/p&gt;
 
-&lt;h1 id=&quot;code-reviews&quot;&gt;Code Reviews&lt;/h1&gt;
+&lt;h2 id=&quot;code-reviews&quot;&gt;Code Reviews&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/2.png&quot; alt=&quot;No code review discussion is relevant without mentioning this.&quot; /&gt;&lt;/p&gt;
 
@@ -1467,7 +1465,7 @@ And another {% fn 2 %}
 
 &lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/a7bca1e66d9e&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #8</summary></entry><entry><title type="html">Clean Code Exception handling</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html" rel="alternate" type="text/html" title="Clean Code  Exception handling" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html">&lt;h4 id=&quot;clean-code-7&quot;&gt;Clean Code 7&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Code is much more like a work of art/craft that people consider it.</summary></entry><entry><title type="html">Clean Code Exception handling</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html" rel="alternate" type="text/html" title="Clean Code  Exception handling" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html">&lt;h4 id=&quot;clean-code-7&quot;&gt;Clean Code 7&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Errors should never pass silently.
