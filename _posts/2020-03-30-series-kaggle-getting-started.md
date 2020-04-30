@@ -63,6 +63,6 @@ o = optimizer
 
 ## Index
 
-> [**Join Medium.**](https://medium.com/p/a3c37acae6e9)
->
-> <small>Join Medium.</small>
+1. [Digit Recognition]({{ site.baseurl }}/deep%20learning/kaggle/2020/03/30/digit-recognition.html)
+2. Facial Keypoints Detection - *in progress*
+

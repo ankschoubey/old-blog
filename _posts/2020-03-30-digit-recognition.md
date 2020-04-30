@@ -382,3 +382,8 @@ resnet18.fc = nn.Sequential(
     nn.Linear(lin_in, 10)
 )
 ```
+***
+
+Index: [Series - Kaggle Getting Started]({{ site.baseurl }}/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html)
+
+Next Post: []
