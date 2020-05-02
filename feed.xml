@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-04-30T11:08:30-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-01T23:39:24-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><entry><title type="html">Advice for those who want to learn Deep Learning</title><link href="www.ankushchoubey.com/thoughts/deep%20learning/2020/05/02/advice-for-want-to-learn-deep-learning.html" rel="alternate" type="text/html" title="Advice for those who want to learn Deep Learning" /><published>2020-05-02T00:00:00-05:00</published><updated>2020-05-02T00:00:00-05:00</updated><id>www.ankushchoubey.com/thoughts/deep%20learning/2020/05/02/advice-for-want-to-learn-deep-learning</id><content type="html" xml:base="www.ankushchoubey.com/thoughts/deep%20learning/2020/05/02/advice-for-want-to-learn-deep-learning.html">&lt;p&gt;I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.&lt;/p&gt;
+
+&lt;p&gt;​&lt;strong&gt;I am not an expert&lt;/strong&gt;​. &lt;em&gt;Nor do I have a DL job&lt;/em&gt;. But I do know enough that I can work with a DL team and build something over a few months.&lt;/p&gt;
+
+&lt;p&gt;Hopefully, this answers all of your questions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-dont-learn-machine-learning&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Don’t learn Machine Learning&lt;/h2&gt;
+
+&lt;p&gt;You don’t need to know ML before learning DL.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It’s dumb.&lt;/li&gt;
+  &lt;li&gt;It is getting rapidly replaced by DL. Therefore, turning irrelevant.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lot of times people build a complex hand made ML solution just to get little bit higher metrics.
+In the &lt;a href=&quot;https://medium.com/modern-nlp/risk-and-counter-intuition-in-data-science-1a21a792ad95&quot;&gt;long run a simple DL model be better&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;-deep-learning-gets-easier-as-more-time-passes&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Deep Learning gets easier as more time passes.&lt;/h2&gt;
+
+&lt;p&gt;Allow your mind to adjust to the counter-intuitiveness.
+For me, it took months to adjust.&lt;/p&gt;
+
+&lt;h2 id=&quot;-get-comfortable-not-knowing-a-lot-of-stuff&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Get comfortable not knowing a lot of stuff.&lt;/h2&gt;
+
+&lt;p&gt;You might never need to do calculus but hand yourself.
+We have computers in the 21st century.&lt;/p&gt;
+
+&lt;p&gt;Knowing where to use it and what it does is enough.&lt;/p&gt;
+
+&lt;h2 id=&quot;--material-beats-the-method&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt;  Material beats the Method.&lt;/h2&gt;
+
+&lt;p&gt;Learn from the latest courses and use the latest tools.&lt;/p&gt;
+
+&lt;p&gt;This is a fast-changing field. 2-year-old stuff is mostly irrelevant.&lt;/p&gt;
+
+&lt;p&gt;Recommended Course: &lt;a href=&quot;https://www.fast.ai/&quot;&gt;https://www.fast.ai/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Recommended next read: &lt;a href=&quot;https://hackernoon.com/how-not-to-do-fast-ai-or-any-ml-mooc-3d34a7e0ab8c&quot; target=&quot;_blank&quot;&gt;How not to do Fast.ai (or any ML MOOC)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;-learn-a-framework-well&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Learn a framework well&lt;/h2&gt;
+
+&lt;p&gt;This is useful when you are not following a tutorial.&lt;/p&gt;
+
+&lt;p&gt;I learned PyTorch.&lt;/p&gt;
+
+&lt;h2 id=&quot;-be-hands-on-from-day-one&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Be hands-on from Day One&lt;/h2&gt;
+
+&lt;p&gt;Learned gradient descent today??? Nice! Open a Jupyter notebook and code the simplest gradient descent you could think of.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reading/Watching videos matters less&lt;/strong&gt;. Coding is the skill you are trying to develop.&lt;/p&gt;
+
+&lt;h2 id=&quot;-dont-get-intimidated-from-people-on-the-internet&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Don’t get intimidated from people on the internet.&lt;/h2&gt;
+
+&lt;p&gt;Most people in DL space are genuinely nice. But some you will find just crank out project after project by stealing other people’s code and never giving them credits.&lt;/p&gt;
+
+&lt;p&gt;Don’t get intimidated by them. Fame comes and bites them in the ass!&lt;/p&gt;
+
+&lt;p&gt;Know that those who are genuinely nice have spent a lot of time working on it.&lt;/p&gt;
+
+&lt;h2 id=&quot;-wait-and-develop-skills-for-a-good-job-dont-turn-into-a-beggar&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Wait and develop skills for a good job. Don’t turn into a beggar.&lt;/h2&gt;
+
+&lt;p&gt;This is a hard one. DL is something I really really loved and I wanted to do it full-time.&lt;/p&gt;
+
+&lt;p&gt;But looking at the job market here in Mumbai, India, a lot of companies which say they are doing DL and often just don’t.&lt;/p&gt;
+
+&lt;p&gt;Or they do enough to get investors and job candidates. Most don’t ship anything. I can think of none actually.&lt;/p&gt;
+
+&lt;h2 id=&quot;-finding-something-difficult&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Finding something difficult??&lt;/h2&gt;
+
+&lt;p&gt;Shoot me an email at &lt;a href=&quot;mailto:ankushchoubey@outlook.com&quot;&gt;ankushchoubey@outlook.com&lt;/a&gt; 😁&lt;/p&gt;
+
+&lt;p&gt;For questions or counter related to this post, write them in the comments below.&lt;/p&gt;</content><author><name></name></author><summary type="html">I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.</summary></entry><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
 
 &lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
 
@@ -1183,98 +1256,4 @@ If the implementation is easy to explain, it may be a good idea.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/a7bca1e66d9e&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #6: (especially for maths)</summary></entry><entry><title type="html">Clean Code 4 Make the database do the heavy lifting</title><link href="www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html" rel="alternate" type="text/html" title="Clean Code 4  Make the database do the heavy lifting" /><published>2019-12-22T00:00:00-06:00</published><updated>2019-12-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting</id><content type="html" xml:base="www.ankushchoubey.com/medium/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html">&lt;h4 id=&quot;clean-code-4&quot;&gt;Clean Code #4&lt;/h4&gt;
-
-&lt;h1 id=&quot;rule-of-thumb-avoid-filtering-loops&quot;&gt;Rule of thumb: Avoid filtering loops&lt;/h1&gt;
-
-&lt;p&gt;SQL/Databases are good at 2 jobs: storing data. filtering data as fast as possible. &lt;strong&gt;You’re for loop cannot compete with SQL.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The performance of your program will be much faster if you let SQL manage the filtering of data. Plus it will also result in a smaller line of code.&lt;/p&gt;
-
-&lt;p&gt;Try to filter with smaller queries with a smaller number of columns before fetching all the columns. Smaller the data, the faster will be the data transfer. You will find a better example of this in the section of Complex Queries bellow.&lt;/p&gt;
-
-&lt;h1 id=&quot;use-orm&quot;&gt;&lt;strong&gt;Use ORM&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;For Spring (Java), ideally, use JPA method query things.&lt;strong&gt;***&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;![Source: &lt;a href=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/1.png&quot;&gt;JPA Repositories Spring.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Tips: Use tools to make Entities POJO: &lt;a href=&quot;https://www.youtube.com/watch?v=LrbaDRcu3Y0&quot;&gt;https://www.youtube.com/watch?v=LrbaDRcu3Y0&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;For Python, SQLAlchemy is popular and preferred or Django ORM for Django. (I have less experience with this)&lt;/p&gt;
-
-&lt;h1 id=&quot;complex-queries&quot;&gt;Complex queries&lt;/h1&gt;
-
-&lt;p&gt;In the case of Java, you can also JPA specific things like Specifications or Criteria API.&lt;/p&gt;
-
-&lt;p&gt;Honestly, I haven’t tried them I know they exist. I have seen them and found that the code looked really ugly&lt;/p&gt;
-
-&lt;p&gt;I do find Django ORM to be easier than Spring JPA (you can pass arguments rather than always create a separate function).&lt;/p&gt;
-
-&lt;h4 id=&quot;break-down-big-bang-complex-queries-into-multiple-simpler-queries&quot;&gt;Break down big-bang (complex) queries into multiple simpler queries&lt;/h4&gt;
-
-&lt;p&gt;*** This might be very controversial and I have not seen this talked about anywhere or used in other people’s code. **You are not likely to use this unless you are like me (bad at ORMs).***&lt;/p&gt;
-
-&lt;p&gt;Many times you have a complex feature like search and you want to filter by multiple parameters.&lt;/p&gt;
-
-&lt;p&gt;What usually ends up happening you end up with a custom query generator or Criteria API (Java) or a query which is too long. Especially if this query requires additional features like ordering and pagination.&lt;/p&gt;
-
-&lt;p&gt;I think a simpler solution is to break it into smaller queries. I give a simplified example below.&lt;/p&gt;
-
-&lt;p&gt;Note that this is a much simpler version of what you would encounter but I think it will make the point.&lt;/p&gt;
-
-&lt;p&gt;There are 3 tables:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Suppose you want to find who are male grandparents of children whose name start with ‘A’&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You can go for some complex query like&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/6.png&quot; alt=&quot;Output&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;These 33 lines can quickly increase in size when you have too many tables. Multiple shorter queries are always much better than one &lt;strong&gt;big bang query&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;I’ve seen queries which go beyond 100 lines 😖&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Making changes in such large 100+ line queries is a pain.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;(Even when writing the 33 line query above, I introduced bug by not writing join on lines 30 and 31. writing smaller queries helped me debug.)&lt;/p&gt;
-
-&lt;p&gt;You could break into something simpler queries like:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/12.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/13.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/14.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then code the method yourself to call these in a certain sequence:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/15.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You will find that even though your line of code has increased, the modularity of code has also increased and these functions can be arranged in any way you like.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/f3d76b1b622a&quot;&gt;Avoid creating god classes and long methods&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/c477707e5be1&quot;&gt;Remove unnecessary code&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #4</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #6: (especially for maths)</summary></entry></feed>
