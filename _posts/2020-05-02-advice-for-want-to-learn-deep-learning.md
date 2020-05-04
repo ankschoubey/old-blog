@@ -1,5 +1,5 @@
 ---
-description: 
+description: or Machine Learning
 title: Advice for those who want to learn Deep Learning
 comments: true
 categories: [Thoughts, Deep Learning]
