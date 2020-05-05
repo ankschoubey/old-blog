@@ -17,13 +17,13 @@ This should be a good time to publish the list and see how things evolve.
 
 ## Maths is a language that applies to the real world
 
-### 🧮 is a human language like English because it helps to talk 💭 with each other. [^9]
+### It is a human language like English because it helps to talk 💭 with each other. [^9]
 
-### 🧮 is the language of nature. [^2]
+### It is the language of nature. [^2]
 
 Perhaps we can think, teach, and learn like it’s natural.
 
-### 🧮 is the same for everyone
+### It is the same for everyone
 
 * * *
 
@@ -37,7 +37,7 @@ Plus you can learn it from anywhere.
 
 * * *
 
-## Emphasis on 🧮 from 🏡[^1]
+## Emphasis on maths from home 🏡[^1]
 
 People in Spanish class who come from 🏡s where Spanish is spoken are going to be better from day one☝️ . 🧮 is the same.
 
@@ -45,15 +45,15 @@ People in Spanish class who come from 🏡s where Spanish is spoken are going to
 
 ## Maths is useful and fun
 
-### 🧮 makes you more popular.
+### It makes you more popular.
 
 *   It is cool when others are silently looking for their calculator and you just say the answer.
 
-### Run the numbers 🧮 ! [^3]
+### Run the numbers! [^3]
 
 *   You can verify a lot of facts by just running the calculating things in your head.
 
-### 🧮 Is a Playground [^4]
+### Maths Is a Playground [^4]
 
 if you stop✋🏽 and look 👀.
 
@@ -72,25 +72,25 @@ if you stop✋🏽 and look 👀.
 
 ## Math is reasoning not memorizing or speed
 
-### In 🧮 it doesn’t matter how you get there if your reasoning is correct. [^8]
+### It doesn’t matter how you get there if your reasoning is correct. [^8]
 
 There is no single right way to solve it.
 
-### There is nothing wrong with counting on 🖐🏽 as an aid to doing 🧮. [^7]
+### There is nothing wrong with counting on fingets 🖐🏽 as an aid to doing maths. [^7]
 
 > It actually indicates an understanding of arithmetic more than if everything were memorized.
 
-### 🧮 is boring when it is taught incompletely [^6]
+### Maths is boring when it is taught incompletely [^6]
 
 aka *we* know only a handful of processes
 
 Processes are like cookbook knowledge 👨‍🍳📖
 
-🧮 is a whole 🧰 of operations that can apply to different situations.
+Maths is a whole tool box 🧰 of operations that can apply to different situations.
 
-Knowing the processes is important but does not make you good at 🧮
+Knowing the processes is important but does not make you good at maths.
 
-### Tools of 🧮 are simple. [^6]
+### Tools of Maths are simple. [^6]
 
 1.  ​**Number**​ (In all their forms)
 2.  ​**Operations (**​Arithmetic; all others are derived from them)
@@ -109,12 +109,12 @@ If you know these ​**you can construct the process on the fly**​.
 
 ### Bring your ✍🏽 pen and 📝 paper [^5]
 
-### 🧮 becomes hard when you move away from the real 🌎 and abstract it *beyond recognition*. [^9]
+###  Maths becomes hard when you move away from the real 🌎 and abstract it *beyond recognition*. [^9]
 
-### Like any problem, you can sleep on 🧮.
+### Like any problem, you can sleep on numbers.
 Go away for a while. Rest.
 
-### Are you studying 🧮 for an exam?
+### Are you studying maths for an exam?
 
 *   Or are you exploring it because it’s fun???
 
@@ -128,7 +128,7 @@ Exploring for fun means overall you will sustain your learning for longer and be
 
 But this also means you will take much longer than need time and then wander off 💭.
 
-Balance is the key. ⚖️ 
+Balance is the key. ⚖️
 
 ### The best way to study math is to have constant exposure to it. [^5]
 
