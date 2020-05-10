@@ -97,7 +97,7 @@ You will find that even though your line of code has increased, the modularity o
 
 ---
 
-**Previous**: [Avoid creating god classes and long methods](https://medium.com/p/f3d76b1b622a)
+**Previous**: [Avoid creating god classes and long methods]({{ site.baseurl }}/clean%20code/2019/12/25/clean-code-3-avoid-creating-god-classes-and-long-methods.html)
 
 **Next**: [Remove unnecessary code](https://medium.com/p/c477707e5be1)
 
