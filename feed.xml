@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-10T12:49:33-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Math motivation</title><link href="www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation.html" rel="alternate" type="text/html" title="Math motivation" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation</id><content type="html" xml:base="www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation.html">&lt;p&gt;I have always been interested in &lt;strong&gt;🧮&lt;/strong&gt; even after failing twice at math exams during college.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-10T12:58:03-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Math motivation</title><link href="www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation.html" rel="alternate" type="text/html" title="Math motivation" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation</id><content type="html" xml:base="www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation.html">&lt;p&gt;I have always been interested in &lt;strong&gt;🧮&lt;/strong&gt; even after failing twice at math exams during college.&lt;/p&gt;
 
 &lt;p&gt;I have been collecting a lot of notes on the topic since the last 6-8 months and recently the number of notes exponentially grew. (damn recommendation systems). Some I came up on my own.&lt;/p&gt;
 
@@ -838,13 +838,11 @@ resnet18.fc = nn.Sequential(
 
 &lt;p&gt;&lt;strong&gt;Are there more such easy tips?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;</content><author><name></name></author><summary type="html">Reduce bundle size</summary></entry><entry><title type="html">Clean Code Leave it better than you found it</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html" rel="alternate" type="text/html" title="Clean Code  Leave it better than you found it" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-leave-it-better-than-you-found-it.html">&lt;p&gt;Code is much more like a work of art/craft that people consider it.&lt;/p&gt;
+&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;</content><author><name></name></author><summary type="html">Reduce bundle size</summary></entry><entry><title type="html">Leave it better than you found it</title><link href="www.ankushchoubey.com/clean%20code/2020/01/06/clean-code-leave-it-better-than-you-found-it.html" rel="alternate" type="text/html" title="Leave it better than you found it" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/clean%20code/2020/01/06/clean-code-leave-it-better-than-you-found-it</id><content type="html" xml:base="www.ankushchoubey.com/clean%20code/2020/01/06/clean-code-leave-it-better-than-you-found-it.html">&lt;p&gt;Code is much more like a work of art/craft that people consider it.&lt;/p&gt;
 
 &lt;p&gt;Knowing the benefits and tips for writing good code will take you only so far. It requires a mindset shift. Looking at the code through an artist’s eye.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;p&gt;![The clean version of the image from the source: &lt;a href=&quot;/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png&quot;&gt;Leave it a little better than you found it&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png&quot; alt=&quot;The clean version of the image from the source: Leave it a little better than you found it&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;incremental-improvements&quot;&gt;Incremental Improvements&lt;/h2&gt;
 
@@ -886,7 +884,7 @@ resnet18.fc = nn.Sequential(
 
 &lt;p&gt;Developers of the code to provide guides and tools to make upgrading frameworks easier&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;*Like&lt;/strong&gt;: &lt;a href=&quot;https://angular.io/guide/upgrade&quot;&gt;Official guide for upgrading from AngularJS to Angula*&lt;/a&gt;r.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Like&lt;/strong&gt;: &lt;a href=&quot;https://angular.io/guide/upgrade&quot;&gt;Official guide for upgrading from AngularJS to &lt;strong&gt;Angular&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The above guide mentions some things that are worth mentioning here:&lt;/p&gt;
 
@@ -987,18 +985,16 @@ resnet18.fc = nn.Sequential(
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/a7bca1e66d9e&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2020/01/06/clean-code-exception-handling.html&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Code is much more like a work of art/craft that people consider it.</summary></entry><entry><title type="html">Clean Code Exception handling</title><link href="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html" rel="alternate" type="text/html" title="Clean Code  Exception handling" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/06/clean-code-exception-handling.html">&lt;h4 id=&quot;clean-code-7&quot;&gt;Clean Code 7&lt;/h4&gt;
-
-&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Code is much more like a work of art/craft that people consider it.</summary></entry><entry><title type="html">Exception handling</title><link href="www.ankushchoubey.com/clean%20code/2020/01/06/clean-code-exception-handling.html" rel="alternate" type="text/html" title="Exception handling" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/clean%20code/2020/01/06/clean-code-exception-handling</id><content type="html" xml:base="www.ankushchoubey.com/clean%20code/2020/01/06/clean-code-exception-handling.html">&lt;blockquote&gt;
   &lt;p&gt;Errors should never pass silently.
 Unless explicitly silenced.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;~The Zen of Python, by Tim Peters&lt;/p&gt;
 
-&lt;h1 id=&quot;create-custom-exception-classes&quot;&gt;Create custom exception classes&lt;/h1&gt;
+&lt;h2 id=&quot;create-custom-exception-classes&quot;&gt;Create custom exception classes&lt;/h2&gt;
 
 &lt;p&gt;Your exceptions should say exactly what went wrong. While those provided by programming languages are good, they are too general and are not specific to your codebase.&lt;/p&gt;
 
@@ -1019,17 +1015,17 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;Custom Exception class also makes your logs easier to read.&lt;/p&gt;
 
-&lt;h1 id=&quot;always-know-why-you-are-catching-an-exception&quot;&gt;Always know why you are catching an exception…&lt;/h1&gt;
+&lt;h2 id=&quot;always-know-why-you-are-catching-an-exception&quot;&gt;Always know why you are catching an exception…&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/1.png&quot; alt=&quot;TODO: Find and Add YouTube video attribution&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;-or-just-dont-catch-it-throws-to-the-caller&quot;&gt;… or just don’t catch it (throws to the caller)&lt;/h1&gt;
+&lt;h2 id=&quot;-or-just-dont-catch-it-throws-to-the-caller&quot;&gt;… or just don’t catch it (throws to the caller)&lt;/h2&gt;
 
 &lt;p&gt;if you are not going to do anything with the exception don’t catch it just throw it.&lt;/p&gt;
 
 &lt;p&gt;Don’t add throw exception in the catch block. Use &lt;strong&gt;throws while declaring the function instead&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h1 id=&quot;for-unsupported-operations&quot;&gt;For Unsupported Operations&lt;/h1&gt;
+&lt;h2 id=&quot;for-unsupported-operations&quot;&gt;For Unsupported Operations&lt;/h2&gt;
 
 &lt;p&gt;In if-else statements or switch cases, it is always good to have a default case which will execute if no other condition is true.&lt;/p&gt;
 
@@ -1046,27 +1042,25 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;global-exception-handling&quot;&gt;Global exception handling&lt;/h1&gt;
+&lt;h2 id=&quot;global-exception-handling&quot;&gt;Global exception handling&lt;/h2&gt;
 
 &lt;p&gt;These allow you to have the same exception handling mechanism in case you have not explicitly handled the exception.&lt;/p&gt;
 
 &lt;p&gt;The most basic thing to do here is logging the exception.&lt;/p&gt;
 
-&lt;h4 id=&quot;spring-java-controlleradvice&quot;&gt;Spring (Java): @ControllerAdvice&lt;/h4&gt;
+&lt;h3 id=&quot;spring-java-controlleradvice&quot;&gt;Spring (Java): @ControllerAdvice&lt;/h3&gt;
 
 &lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyIr5iNIXJjo%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyIr5iNIXJjo&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyIr5iNIXJjo%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/43dfcff10bcd&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/604c7e06235d/&quot;&gt;Leave code better than you found it.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2020/01/06/clean-code-leave-it-better-than-you-found-it.html&quot;&gt;Leave code better than you found it.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code 7</summary></entry><entry><title type="html">Clean Code Remove un-necessary code</title><link href="www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code.html" rel="alternate" type="text/html" title="Clean Code  Remove un-necessary code" /><published>2020-01-04T00:00:00-06:00</published><updated>2020-01-04T00:00:00-06:00</updated><id>www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code</id><content type="html" xml:base="www.ankushchoubey.com/medium/2020/01/04/clean-code-remove-un-necessary-code.html">&lt;h4 id=&quot;clean-code-5-you-aint-gonna-need-it&quot;&gt;Clean Code #5: You ain’t gonna need it&lt;/h4&gt;
-
-&lt;h1 id=&quot;declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once&quot;&gt;Declare the local variable as close to where it is used and remove un-necessary once&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Errors should never pass silently. Unless explicitly silenced.</summary></entry><entry><title type="html">Remove un-necessary code</title><link href="www.ankushchoubey.com/clean%20code/2020/01/04/clean-code-remove-un-necessary-code.html" rel="alternate" type="text/html" title="Remove un-necessary code" /><published>2020-01-04T00:00:00-06:00</published><updated>2020-01-04T00:00:00-06:00</updated><id>www.ankushchoubey.com/clean%20code/2020/01/04/clean-code-remove-un-necessary-code</id><content type="html" xml:base="www.ankushchoubey.com/clean%20code/2020/01/04/clean-code-remove-un-necessary-code.html">&lt;h2 id=&quot;declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once&quot;&gt;Declare the local variable as close to where it is used and remove un-necessary once&lt;/h2&gt;
 
 &lt;p&gt;Local variables declared at some different place makes it harder to read the code.&lt;/p&gt;
 
-&lt;h4 id=&quot;example&quot;&gt;Example:&lt;/h4&gt;
+&lt;h3 id=&quot;example&quot;&gt;Example:&lt;/h3&gt;
 
 &lt;p&gt;Below are the variations of aRandomFunction which does a bunch of operations (skipped by dots) and on completion returns “Hello” along with the date.&lt;/p&gt;
 
@@ -1086,9 +1080,7 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/3.png&quot; alt=&quot;Even Better&quot; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;just-return-it-dont-store&quot;&gt;Just return it. Don’t store&lt;/h1&gt;
+&lt;h2 id=&quot;just-return-it-dont-store&quot;&gt;Just return it. Don’t store&lt;/h2&gt;
 
 &lt;p&gt;Continuing from the previous example:&lt;/p&gt;
 
@@ -1098,19 +1090,13 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;remove-commented-code&quot;&gt;Remove commented code&lt;/h1&gt;
+&lt;h2 id=&quot;remove-commented-code&quot;&gt;Remove commented code&lt;/h2&gt;
 
 &lt;p&gt;In case you do need to refer to the exact code you can always check it in your version control.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h2 id=&quot;remove-functions-and-variables-which-you-do-not-use&quot;&gt;Remove functions and variables which you do not use.&lt;/h2&gt;
 
-&lt;h1 id=&quot;remove-functions-and-variables-which-you-do-not-use&quot;&gt;Remove functions and variables which you do not use.&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;variable-argument-lengths&quot;&gt;Variable argument lengths&lt;/h1&gt;
+&lt;h2 id=&quot;variable-argument-lengths&quot;&gt;Variable argument lengths&lt;/h2&gt;
 
 &lt;h4 id=&quot;python-args-kwargs-more-than-just-variable-length-argument&quot;&gt;Python: *args, **kwargs (more than just variable-length argument)&lt;/h4&gt;
 
@@ -1120,7 +1106,7 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;default-arguments&quot;&gt;Default Arguments&lt;/h1&gt;
+&lt;h2 id=&quot;default-arguments&quot;&gt;Default Arguments&lt;/h2&gt;
 
 &lt;p&gt;Python and Typescript both support default function arguments.&lt;/p&gt;
 
@@ -1130,11 +1116,11 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;use-annotationsdecorators&quot;&gt;Use annotations/decorators&lt;/h1&gt;
+&lt;h2 id=&quot;use-annotationsdecorators&quot;&gt;Use annotations/decorators&lt;/h2&gt;
 
 &lt;p&gt;Annotations extend the functionality of your function dynamically and reduce the size of the code dramatically.&lt;/p&gt;
 
-&lt;h4 id=&quot;python-decorators&quot;&gt;Python: Decorators&lt;/h4&gt;
+&lt;h3 id=&quot;python-decorators&quot;&gt;Python: Decorators&lt;/h3&gt;
 
 &lt;p&gt;In python, these are called decorators.&lt;/p&gt;
 
@@ -1157,11 +1143,11 @@ Unless explicitly silenced.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;spring-boot-java&quot;&gt;Spring Boot (Java)&lt;/h4&gt;
+&lt;h3 id=&quot;spring-boot-java&quot;&gt;Spring Boot (Java)&lt;/h3&gt;
 
 &lt;p&gt;![Source: &lt;a href=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/6.png&quot;&gt;Spring Annotations Cheat Sheet&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;java-for-jpa&quot;&gt;Java: For JPA&lt;/h4&gt;
+&lt;h3 id=&quot;java-for-jpa&quot;&gt;Java: For JPA&lt;/h3&gt;
 
 &lt;p&gt;No need to write @Column over your entity’s variables. By default, camelCase is substituted with snake_case.&lt;/p&gt;
 
@@ -1169,15 +1155,11 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;You can change these using &lt;a href=&quot;https://www.baeldung.com/hibernate-naming-strategy&quot;&gt;naming strategies&lt;/a&gt;.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;java-map-using-mapper-dont-create-your-own-logic&quot;&gt;Java: Map using Mapper. Don’t create your own logic.&lt;/h4&gt;
+&lt;h3 id=&quot;java-map-using-mapper-dont-create-your-own-logic&quot;&gt;Java: Map using Mapper. Don’t create your own logic.&lt;/h3&gt;
 
 &lt;p&gt;There are many &lt;a href=&quot;https://www.baeldung.com/java-performance-mapping-frameworks&quot;&gt;mapping frameworks in Java&lt;/a&gt; that can make the task of converting one object to another much much easier. This can be especially helpful when you want to convert your @Entity to a DTO object.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;java-project-lombok-to-avoid-boilerplate&quot;&gt;Java: Project Lombok to avoid boilerplate&lt;/h4&gt;
+&lt;h3 id=&quot;java-project-lombok-to-avoid-boilerplate&quot;&gt;Java: Project Lombok to avoid boilerplate&lt;/h3&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.&lt;/p&gt;
@@ -1218,13 +1200,11 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;With this, the size of your java code will reduce dramatically.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;remove-duplicates&quot;&gt;Remove duplicates&lt;/h1&gt;
+&lt;h2 id=&quot;remove-duplicates&quot;&gt;Remove duplicates&lt;/h2&gt;
 
 &lt;p&gt;Linters will provide you a list of duplicate codes. Shove it into a function/method.&lt;/p&gt;
 
-&lt;h4 id=&quot;use-existinginbuilt-methods-rather-than-new-once&quot;&gt;Use existing/inbuilt methods rather than new once&lt;/h4&gt;
+&lt;h3 id=&quot;use-existinginbuilt-methods-rather-than-new-once&quot;&gt;Use existing/inbuilt methods rather than new once&lt;/h3&gt;
 
 &lt;p&gt;This goes back to not inventing new algorithms. If something is already made, don’t make it again. Reuse it. &lt;em&gt;(Link — Clean Code: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for-43dfcff10bcd&quot;&gt;Know thy complexities&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 
@@ -1252,15 +1232,11 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;single-line-boolean-evaluation&quot;&gt;Single line boolean evaluation&lt;/h1&gt;
+&lt;h2 id=&quot;single-line-boolean-evaluation&quot;&gt;Single line boolean evaluation&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;think-in-terms-of-streams&quot;&gt;Think in terms of Streams&lt;/h1&gt;
+&lt;h2 id=&quot;think-in-terms-of-streams&quot;&gt;Think in terms of Streams&lt;/h2&gt;
 
 &lt;p&gt;Streams make your code really really tiny and give much better performance. Streams do have a learning curve but are worth it.&lt;/p&gt;
 
@@ -1272,19 +1248,15 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FAhSvKGTh28Q%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAhSvKGTh28Q&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FAhSvKGTh28Q%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;create-and-use-base-classes&quot;&gt;Create and use base classes&lt;/h1&gt;
+&lt;h2 id=&quot;create-and-use-base-classes&quot;&gt;Create and use base classes&lt;/h2&gt;
 
 &lt;p&gt;Base classes are an excellent way to avoid duplications. Make them as generic as possible.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html&quot;&gt;Make database do the heavy lifting&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-4-make-the-database-do-the-heavy-lifting-88178a1c3a16&quot;&gt;Make database do the heavy lifting&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/43dfcff10bcd&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/30d717f32ae4&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Clean Code #5: You ain’t gonna need it</summary></entry><entry><title type="html">Know thy complexities, data structures and avoid inventing algorithms</title><link href="www.ankushchoubey.com/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html" rel="alternate" type="text/html" title="Know thy complexities, data structures and avoid inventing algorithms" /><published>2019-12-25T00:00:00-06:00</published><updated>2019-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for</id><content type="html" xml:base="www.ankushchoubey.com/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Declare the local variable as close to where it is used and remove un-necessary once</summary></entry><entry><title type="html">Know thy complexities, data structures and avoid inventing algorithms</title><link href="www.ankushchoubey.com/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html" rel="alternate" type="text/html" title="Know thy complexities, data structures and avoid inventing algorithms" /><published>2019-12-25T00:00:00-06:00</published><updated>2019-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for</id><content type="html" xml:base="www.ankushchoubey.com/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;If&lt;/strong&gt; you are &lt;strong&gt;inventing new algorithms&lt;/strong&gt;, you either &lt;strong&gt;don’t know&lt;/strong&gt; the right algorithm &lt;strong&gt;or&lt;/strong&gt; are working on your &lt;strong&gt;PhD&lt;/strong&gt; thesis.&lt;/p&gt;
 &lt;/blockquote&gt;
 
