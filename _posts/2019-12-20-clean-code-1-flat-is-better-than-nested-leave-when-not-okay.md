@@ -2,36 +2,34 @@
 toc: true
 layout: post
 comments: true
-description: 
-categories: [Medium]
-title: Clean Code  Flat is better than nested
+description: Leave when not okay
+categories: [Clean Code]
+title: Flat is better than nested
 ---
-
-#### Clean Code #1: Leave when not okay
 
 This might be the most important tip of all the tips covered which applies mainly to if-else statements.
 
-# Nesting clutters your code.
+## Nesting clutters your code.
 
-#### Where does the block end
+### Where does the block end
 
 It becomes hard to find where a particular block ends easily (especially if someone writes 8 or more nests 😖)
 
-#### Unnecessary horizontal scrolling
+### Unnecessary horizontal scrolling
 
 Also, you might have to scroll horizontally to see what the complete code is since it does not fit your screen.
 
-#### Nesting makes your code hard to understand.
+### Nesting makes your code hard to understand.
 
 While you are reading your nested block, you have to remember what all conditions preceded it.
 
 The below guideline should counter that:
 
-### Max indent should be 2, in case of exceptions 3
+> Max indent should be 2, in case of exceptions 3
 
-# Avoid the use of else.
+## Avoid the use of else.
 
-#### Return/throw when not okay
+### Return/throw when not okay
 
 - By returning early you make sure that in each of your functions the last line of your function returns what it is actually supposed to return. This will make your code consistent.
 
@@ -39,13 +37,13 @@ The below guideline should counter that:
 
 ![]({{ site.baseurl }}/images/2019-12-20-clean-code-1-flat-is-better-than-nested-leave-when-not-okay/1.png)
 
-#### Bubble vs Gateway
+### Bubble vs Gateway
 
 Bad (left): Bubble-Style
 
 Good (right): Gateway-Style
 
-# If deep nests exist? Separate loop and operation
+## If deep nests exist? Separate loop and operation
 
 Extract the logic to other readable methods or use streams (Java)/lambda or something equivalent in your programming language of choice.
 
@@ -59,7 +57,7 @@ I tend to create at-least** 2 functions** for this:
 
 In case if something goes wrong, it is easier to debug it since I know what function has what responsibility.
 
-#### Simplified Example: [Link to Code](https://gist.github.com/ankschoubey/c9785400ce2c1aee8271485b15dafd6d)
+### Simplified Example: [Link to Code](https://gist.github.com/ankschoubey/c9785400ce2c1aee8271485b15dafd6d)
 
 ![]({{ site.baseurl }}/images/2019-12-20-clean-code-1-flat-is-better-than-nested-leave-when-not-okay/2.png)
 
@@ -81,4 +79,4 @@ This is an example of chunking which will be explained more in the next post.
 
 **Next**: [Leave clues (Naming convention)](https://medium.com/@ankushchoubey/clean-code-2-leave-clues-naming-convention-89932c18abac)
 
-**Index**: [Tips on writing Clean Code](https://medium.com/p/30d717f32ae4)
+**Index**: [Tips on writing Clean Code]({{ site.baseurl }}/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html)
