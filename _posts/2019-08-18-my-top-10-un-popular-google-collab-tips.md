@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Medium]
+categories: [Notebook]
 title: 10 Google Collab Tips
 ---
 
@@ -21,15 +21,15 @@ Collab is my favorite place to do deep learning because:
 
 _Similar: [Code better in Jupyter Notebook](https://medium.com/r/1cc5bcf27002)_
 
-#### 1. Always Turn On Experimental Feature
+### 1. Always Turn On Experimental Feature
 
 Dynamically typed languages like Python are a pain (for me) because they do not provide good auto-complete. This is the best one I have seen so far.
 
 ![]({{ site.baseurl }}/images/2019-08-18-my-top-10-un-popular-google-collab-tips/1.png)
 
-#### 2. ️ Jump to Definition
+### 2. ️ Jump to Definition
 
-#### 3. Use GUI for exploring files and Mounting Google Drive
+### 3. Use GUI for exploring files and Mounting Google Drive
 
 Deep Learning is intimating enough.
 
@@ -37,9 +37,9 @@ You don’t want to remember everything as code. Use the GUI.
 
 ![]({{ site.baseurl }}/images/2019-08-18-my-top-10-un-popular-google-collab-tips/2.png)
 
-#### If a certain file you are looking for you can explore right click and click on copy path.
+If a certain file you are looking for you can explore right click and click on copy path.
 
-#### 4. Creating Custom Snippets
+### 4. Creating Custom Snippets
 
 You can add custom snippets by:
 
@@ -55,12 +55,13 @@ You can add custom snippets by:
 
 ![]({{ site.baseurl }}/images/2019-08-18-my-top-10-un-popular-google-collab-tips/5.png)
 
-#### 5. Get GPU Info
+### 5. Get GPU Info
 
 Type:
 
-> !nvidia-smi
-
+```shell
+!nvidia-smi
+```
 If you have GPU mounted you will get this reply.
 
 ![]({{ site.baseurl }}/images/2019-08-18-my-top-10-un-popular-google-collab-tips/6.png)
@@ -69,19 +70,19 @@ In case if you don’t know how to mount GPU:
 
 Click RunTime Menu → Change RunTime→ Hardware Accelerator → Choose GPU
 
-#### 6. Opening Notebooks from Github with ease
+### 6. Opening Notebooks from Github with ease
 
 To open a notebook from Github. Go to [https://colab.research.google.com](https://colab.research.google.com/) switch to the Github tab and enter an organization or URL.
 
 ![]({{ site.baseurl }}/images/2019-08-18-my-top-10-un-popular-google-collab-tips/7.png)
 
-A much easier way is to use [\*\*“Open in Colab” Extension](https://c**hrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo?hl=en) for Chrome
+A much easier way is to use [“Open in Colab” Extension](https://c**hrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo?hl=en) for Chrome
 
 After installation, whenever you find a Jupyter notebook in Github, click the icon of the plugin and it will open in Colab.
 
 ![]({{ site.baseurl }}/images/2019-08-18-my-top-10-un-popular-google-collab-tips/8.png)
 
-#### 7. Send email when the task is complete
+### 7. Send email when the task is complete
 
 This can be helpful when you want to leave your computer for a long time and want to just get a notification when training is completed.
 
@@ -101,13 +102,30 @@ server**.**quit()`
 
 Source: [Colab Tricks](https://rohitmidha23.github.io/Colab-Tricks/?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com) by _Rohit Midha_
 
-#### 8.️ HyperDash
+### 8.️ HyperDash
 
 This one is more of an ML/DL DevOps tips which can work anywhere, even in other Jupyter notebook envs.
+[**Hyperdash | Machine Learning Monitoring**](https://hyperdash.io/)
 
-> [**Hyperdash | Machine Learning Monitoring**](https://hyperdash.io/)
->
-> <small>hyperdash run -n "MNIST" \ python mnist.py Iter 1280, Loss= 1.576423, Acc= 0.51562 Iter 2560, Loss= 1.450179, Acc= 0.53906 Iter 3840, Loss= 1.160066, Acc= 0.64844 Iter 5120, Loss= 0.898589, Acc= 0.73438 Iter 6400, Loss= 0.685712, Acc= 0.75781 Iter 7680, Loss= 1.085666, Acc= 0.64844 \$ hyperdash run -n "MNIST RNN" python mnist.py Iter 1280, Loss= 1.576423, Accuracy= 0.51562 Iter 2560, Loss= 1.450179, Accuracy= 0.53906 Iter 3840, Loss= 1.160066, Accuracy= 0.64844 Iter 5120, Loss= 0.898589, Accuracy= 0.73438 Iter 6400, Loss= 0.685712, Accuracy= 0.75781 Iter 7680, Loss= 1.085666, Accuracy= 0.64844</small>
+```shell
+$ hyperdash run -n "MNIST" python mnist.py
+Iter 1280, Loss= 1.576423, Acc= 0.51562
+Iter 2560, Loss= 1.450179, Acc= 0.53906
+Iter 3840, Loss= 1.160066, Acc= 0.64844
+Iter 5120, Loss= 0.898589, Acc= 0.73438
+Iter 6400, Loss= 0.685712, Acc= 0.75781
+Iter 7680, Loss= 1.085666, Acc= 0.64844
+```
+
+```shell
+$ hyperdash run -n "MNIST RNN" python mnist.py
+Iter 1280, Loss= 1.576423, Accuracy= 0.51562
+Iter 2560, Loss= 1.450179, Accuracy= 0.53906
+Iter 3840, Loss= 1.160066, Accuracy= 0.64844
+Iter 5120, Loss= 0.898589, Accuracy= 0.73438
+Iter 6400, Loss= 0.685712, Accuracy= 0.75781
+Iter 7680, Loss= 1.085666, Accuracy= 0.64844
+```
 
 HyperDash allows you to monitor your model training or anything that is printed via your phone. It supports both iOS and Android and is super simple to get setup.
 
@@ -121,7 +139,9 @@ Installation Step:
 
 I used GitHub login so I added -github in the end
 
-> !pip install hyperdash && hyperdash login — github
+```shell
+pip install hyperdash && hyperdash login — github
+```
 
 3. Import module
 
@@ -129,7 +149,9 @@ I used GitHub login so I added -github in the end
 
 4. Use this magic in the cell you want to monitor. Which for most will be the training loop.
 
-> %%monitor_cell “model/experiment name”
+```python
+%%monitor_cell “model/experiment name”
+```
 
 In the app, you can see something like this. While I have included this as a tip, it is not something I have used. Because I have never trained for a very long duration.
 
@@ -137,7 +159,7 @@ In the app, you can see something like this. While I have included this as a tip
 
 As per HyperDash website, it also allows detection of the status of your training and can notify when your training completes, fails, crashes or gets disconnected.
 
-#### 9. 10. — Random Filler Tips: Dark Mode and Corgi/Kitti Mode
+### 9. 10. — Random Filler Tips: Dark Mode and Corgi/Kitti Mode
 
 This is kind of a filler tip. (Just because I wanted to round off to 10 tips 😜).
 
@@ -153,7 +175,7 @@ There is also a Corgi and Kitty mode under Miscellaneous which will add animated
 
 ![]({{ site.baseurl }}/images/2019-08-18-my-top-10-un-popular-google-collab-tips/13.png)
 
-#### Other useful tips:
+### Other useful tips:
 
 - [Colab’s New Code Editor](https://colab.research.google.com/notebooks/editor_details.ipynb)
 
@@ -161,8 +183,8 @@ There is also a Corgi and Kitty mode under Miscellaneous which will add animated
 
 - [8 Tips For Google Colab Notebooks To Take Advantage Of Their Free-of-charge 12GB-RAM GPU](https://dev.to/kriyeng/8-tips-for-google-colab-notebooks-to-take-advantage-of-their-free-of-charge-12gb-ram-gpu-be4).
 
-Previous: [Code better in Jupyter Notebook](https://medium.com/r/1cc5bcf27002)
+Previous: [Easy Jupyter Notebook Tips]({{ site.baseurl }}/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html)
 
-Next: [How to Download Dataset from Kaggle](https://medium.com/r/7f700d7f9198)
+Next: [How to Download Dataset from Kaggle]({{ site.baseurl }}/deep%20learning/kaggle/2019/08/10/how-to-download-dataset-from-kaggle.html)
 
 I respond to all my comments. ありがとう
