@@ -9,13 +9,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:" />
 <meta property="og:description" content="In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:" />
-<link rel="canonical" href="www.ankushchoubey.com/medium/2019/07/29/easy-jupyter-notebook-tips.html" />
-<meta property="og:url" content="www.ankushchoubey.com/medium/2019/07/29/easy-jupyter-notebook-tips.html" />
+<link rel="canonical" href="www.ankushchoubey.com/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html" />
+<meta property="og:url" content="www.ankushchoubey.com/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-07-29T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:","@type":"BlogPosting","headline":"Easy Jupyter Notebook Tips","url":"www.ankushchoubey.com/medium/2019/07/29/easy-jupyter-notebook-tips.html","datePublished":"2019-07-29T00:00:00-05:00","dateModified":"2019-07-29T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/medium/2019/07/29/easy-jupyter-notebook-tips.html"},"@context":"https://schema.org"}</script>
+{"description":"In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:","@type":"BlogPosting","headline":"Easy Jupyter Notebook Tips","url":"www.ankushchoubey.com/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html","datePublished":"2019-07-29T00:00:00-05:00","dateModified":"2019-07-29T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -30,13 +30,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:" />
 <meta property="og:description" content="In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:" />
-<link rel="canonical" href="www.ankushchoubey.com/medium/2019/07/29/easy-jupyter-notebook-tips.html" />
-<meta property="og:url" content="www.ankushchoubey.com/medium/2019/07/29/easy-jupyter-notebook-tips.html" />
+<link rel="canonical" href="www.ankushchoubey.com/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html" />
+<meta property="og:url" content="www.ankushchoubey.com/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-07-29T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:","@type":"BlogPosting","headline":"Easy Jupyter Notebook Tips","url":"www.ankushchoubey.com/medium/2019/07/29/easy-jupyter-notebook-tips.html","datePublished":"2019-07-29T00:00:00-05:00","dateModified":"2019-07-29T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/medium/2019/07/29/easy-jupyter-notebook-tips.html"},"@context":"https://schema.org"}</script>
+{"description":"In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:","@type":"BlogPosting","headline":"Easy Jupyter Notebook Tips","url":"www.ankushchoubey.com/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html","datePublished":"2019-07-29T00:00:00-05:00","dateModified":"2019-07-29T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <!-- <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" /> -->
@@ -126,7 +126,10 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="/categories/#Medium">Medium</a>
+        <a class="category-tags-link" href="/categories/#Python">Python</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/categories/#Notebook">Notebook</a>
         
       
       </p>
@@ -136,16 +139,18 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h4"><a href="#use-wild-card-import">Use Wild Card Import</a></li>
-<li class="toc-entry toc-h4"><a href="#types-of-notebooks">Types of Notebooks</a></li>
-<li class="toc-entry toc-h4"><a href="#split-code-into-multiple-cells-to-get-better-code-completion">Split code into multiple cells to get better code-completion</a></li>
-<li class="toc-entry toc-h4"><a href="#use-time-for-measuring-the-rough-speed-of-cells-execution">Use %time for measuring the rough speed of cell’s execution</a></li>
+<li class="toc-entry toc-h2"><a href="#use-wild-card-import">Use Wild Card Import</a></li>
+<li class="toc-entry toc-h2"><a href="#types-of-notebooks">Types of Notebooks</a></li>
+<li class="toc-entry toc-h2"><a href="#split-code-into-multiple-cells-to-get-better-code-completion">Split code into multiple cells to get better code-completion</a></li>
+<li class="toc-entry toc-h2"><a href="#use-time-for-measuring-the-rough-speed-of-cells-execution">Use %time for measuring the rough speed of cell’s execution</a></li>
 </ul><p>In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:</p>
 
-<iframe width="854" height="480" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F2eCHD6f_phE%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2eCHD6f_phE&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F2eCHD6f_phE%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<blockquote>
+  <p>youtube: https://youtu.be/2eCHD6f_phE</p>
+</blockquote>
 
-<h4 id="use-wild-card-import">
-<a class="anchor" href="#use-wild-card-import" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use Wild Card Import</h4>
+<h2 id="use-wild-card-import">
+<a class="anchor" href="#use-wild-card-import" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use Wild Card Import</h2>
 
 <p><code class="highlighter-rouge">import *</code></p>
 
@@ -165,8 +170,8 @@ window.onload = wrap_img;
   <p>~ Jeremy Howard (<a href="https://github.com/hiromis/notes/blob/master/Lesson1.md">Source: FastAI v3 Lesson 1</a>)</p>
 </blockquote>
 
-<h4 id="types-of-notebooks">
-<a class="anchor" href="#types-of-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Types of Notebooks</h4>
+<h2 id="types-of-notebooks">
+<a class="anchor" href="#types-of-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Types of Notebooks</h2>
 
 <p>It is best to consider 2 types of notebooks for your projects</p>
 
@@ -189,8 +194,8 @@ window.onload = wrap_img;
 
 <p>Source: <a href="https://www.youtube.com/watch?v=JI1HWUAyJHE">IPython Notebook best practices for data science</a> by Jonathan Whitmore (<a href="http://jonathanwhitmore.com/2015/07/jupyter-notebook-best-practices-for-data-science">Blog Post</a>)</p>
 
-<h4 id="split-code-into-multiple-cells-to-get-better-code-completion">
-<a class="anchor" href="#split-code-into-multiple-cells-to-get-better-code-completion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Split code into multiple cells to get better code-completion</h4>
+<h2 id="split-code-into-multiple-cells-to-get-better-code-completion">
+<a class="anchor" href="#split-code-into-multiple-cells-to-get-better-code-completion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Split code into multiple cells to get better code-completion</h2>
 
 <p>This is a no-brainer but I struggled with this for a long time.</p>
 
@@ -202,8 +207,8 @@ window.onload = wrap_img;
 
 <p><img src="/images/2019-07-29-easy-jupyter-notebook-tips/2.png" alt=""></p>
 
-<h4 id="use-time-for-measuring-the-rough-speed-of-cells-execution">
-<a class="anchor" href="#use-time-for-measuring-the-rough-speed-of-cells-execution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use <em>%time</em> for measuring the rough speed of cell’s execution</h4>
+<h2 id="use-time-for-measuring-the-rough-speed-of-cells-execution">
+<a class="anchor" href="#use-time-for-measuring-the-rough-speed-of-cells-execution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use <em>%time</em> for measuring the rough speed of cell’s execution</h2>
 
 <p><img src="/images/2019-07-29-easy-jupyter-notebook-tips/3.png" alt=""></p>
 
@@ -224,7 +229,9 @@ window.onload = wrap_img;
 
 <p>Edit: 01 August 2019: Video Version</p>
 
-<iframe width="640" height="480" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FwnhHz3eFNMc%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwnhHz3eFNMc&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FwnhHz3eFNMc%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<blockquote>
+  <p>youtube: https://youtu.be/wnhHz3eFNMc</p>
+</blockquote>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -234,7 +241,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/medium/2019/07/29/easy-jupyter-notebook-tips.html" hidden></a>
+</script><a class="u-url" href="/python/notebook/2019/07/29/easy-jupyter-notebook-tips.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
