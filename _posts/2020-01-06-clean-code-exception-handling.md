@@ -2,19 +2,17 @@
 toc: true
 layout: post
 comments: true
-description: 
-categories: [Medium]
-title: Clean Code  Exception handling
+description: and Logging with style
+categories: [Clean Code]
+title: Exception handling
 ---
-
-#### Clean Code 7
 
 > Errors should never pass silently.
 > Unless explicitly silenced.
 
 ~The Zen of Python, by Tim Peters
 
-# Create custom exception classes
+## Create custom exception classes
 
 Your exceptions should say exactly what went wrong. While those provided by programming languages are good, they are too general and are not specific to your codebase.
 
@@ -30,17 +28,17 @@ In most programming languages creating exception is easy. Just inherit from the 
 
 Custom Exception class also makes your logs easier to read.
 
-# Always know why you are catching an exception…
+## Always know why you are catching an exception…
 
 ![TODO: Find and Add YouTube video attribution]({{ site.baseurl }}/images/2020-01-06-clean-code-exception-handling/1.png)
 
-# … or just don’t catch it (throws to the caller)
+## … or just don’t catch it (throws to the caller)
 
 if you are not going to do anything with the exception don’t catch it just throw it.
 
 Don’t add throw exception in the catch block. Use **throws while declaring the function instead**.
 
-# For Unsupported Operations
+## For Unsupported Operations
 
 In if-else statements or switch cases, it is always good to have a default case which will execute if no other condition is true.
 
@@ -52,13 +50,13 @@ If something is not possible or not supported then:
 
 ![]({{ site.baseurl }}/images/2020-01-06-clean-code-exception-handling/2.png)
 
-# Global exception handling
+## Global exception handling
 
 These allow you to have the same exception handling mechanism in case you have not explicitly handled the exception.
 
 The most basic thing to do here is logging the exception.
 
-#### Spring (Java): @ControllerAdvice
+### Spring (Java): @ControllerAdvice
 
 <iframe
                 width="854"
@@ -69,8 +67,8 @@ The most basic thing to do here is logging the exception.
                 allowfullscreen
               ></iframe>
 
-**Previous**: [Avoid inventing algorithms and data structures](https://medium.com/p/43dfcff10bcd)
+**Previous**: [Avoid inventing algorithms and data structures]({{ site.baseurl }}/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html)
 
-**Next**: [Leave code better than you found it.](https://medium.com/p/604c7e06235d/)
+**Next**: [Leave code better than you found it.]({{ site.baseurl }}/clean%20code/2020/01/06/clean-code-leave-it-better-than-you-found-it.html)
 
-**Index**: [Tips on writing Clean Code](https://medium.com/p/30d717f32ae4)
+**Index**: [Tips on writing Clean Code]({{ site.baseurl }}/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html)

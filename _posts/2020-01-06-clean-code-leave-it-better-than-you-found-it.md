@@ -2,18 +2,16 @@
 toc: true
 layout: post
 comments: true
-description: Clean Code #8
-categories: [Medium]
-title: Clean Code  Leave it better than you found it
+description: Atomic Habits applied to code. Thanks James Clear.
+categories: [Clean Code]
+title: Leave it better than you found it
 ---
 
 Code is much more like a work of art/craft that people consider it.
 
 Knowing the benefits and tips for writing good code will take you only so far. It requires a mindset shift. Looking at the code through an artist’s eye.
 
----
-
-![The clean version of the image from the source: [Leave it a little better than you found it]({{ site.baseurl }}/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png)
+![The clean version of the image from the source: Leave it a little better than you found it]({{ site.baseurl }}/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png)
 
 ## Incremental Improvements
 
@@ -47,7 +45,7 @@ Upgrading can come in a variety of sizes.
 
 Developers of the code to provide guides and tools to make upgrading frameworks easier
 
-**\*Like**: [Official guide for upgrading from AngularJS to Angula\*](https://angular.io/guide/upgrade)r.
+**Like**: [Official guide for upgrading from AngularJS to **Angular**](https://angular.io/guide/upgrade).
 
 The above guide mentions some things that are worth mentioning here:
 
@@ -115,6 +113,6 @@ The article also mentions ways to make code reviews much more productive.
 
 - Use peer pressure to your advantage
 
-**Previous**: [Always know why you are catching an exception](https://medium.com/p/a7bca1e66d9e)
+**Previous**: [Always know why you are catching an exception]({{ site.baseurl }}/clean%20code/2020/01/06/clean-code-exception-handling.html)
 
-**Index**: [Tips on writing Clean Code](https://medium.com/p/30d717f32ae4)
+**Index**: [Tips on writing Clean Code]({{ site.baseurl }}/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html)

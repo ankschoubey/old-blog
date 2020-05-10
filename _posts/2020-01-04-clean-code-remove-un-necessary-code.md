@@ -2,18 +2,16 @@
 toc: true
 layout: post
 comments: true
-description: 
-categories: [Medium]
-title: Clean Code  Remove un-necessary code
+description: You ain’t gonna need it
+categories: [Clean Code]
+title: Remove un-necessary code
 ---
 
-#### Clean Code #5: You ain’t gonna need it
-
-# Declare the local variable as close to where it is used and remove un-necessary once
+## Declare the local variable as close to where it is used and remove un-necessary once
 
 Local variables declared at some different place makes it harder to read the code.
 
-#### Example:
+### Example:
 
 Below are the variations of aRandomFunction which does a bunch of operations (skipped by dots) and on completion returns “Hello” along with the date.
 
@@ -33,9 +31,8 @@ So we should move it near the return statement:
 
 ![Even Better]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/3.png)
 
----
 
-# Just return it. Don’t store
+## Just return it. Don’t store
 
 Continuing from the previous example:
 
@@ -45,19 +42,16 @@ Rather than storing “hello” in name and a new date in date, we should just r
 
 ![]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/4.png)
 
----
 
-# Remove commented code
+## Remove commented code
 
 In case you do need to refer to the exact code you can always check it in your version control.
 
----
 
-# Remove functions and variables which you do not use.
+## Remove functions and variables which you do not use.
 
----
 
-# Variable argument lengths
+## Variable argument lengths
 
 #### Python: \*args, \*\*kwargs (more than just variable-length argument)
 
@@ -74,7 +68,7 @@ Java also has an implementation for [variable length arguments](https://www.yout
 
 ---
 
-# Default Arguments
+## Default Arguments
 
 Python and Typescript both support default function arguments.
 
@@ -84,11 +78,11 @@ While not officially supported in Java, one can work around the builder pattern 
 
 ---
 
-# Use annotations/decorators
+## Use annotations/decorators
 
 Annotations extend the functionality of your function dynamically and reduce the size of the code dramatically.
 
-#### Python: Decorators
+### Python: Decorators
 
 In python, these are called decorators.
 
@@ -104,11 +98,11 @@ Python 3.7+ also has **@ dataclass **annotation which auto-generates constructor
 
 - [_Method Types in Python OOP: @classmethod, @staticmethod, and Instance Methods_](https://www.youtube.com/watch?v=PNpt7cFjGsM)
 
-#### Spring Boot (Java)
+### Spring Boot (Java)
 
 ![Source: [Spring Annotations Cheat Sheet]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/6.png)
 
-#### Java: For JPA
+### Java: For JPA
 
 No need to write @Column over your entity’s variables. By default, camelCase is substituted with snake_case.
 
@@ -116,15 +110,11 @@ _lookupId => lookup_id_
 
 You can change these using [naming strategies](https://www.baeldung.com/hibernate-naming-strategy).
 
----
-
-#### Java: Map using Mapper. Don’t create your own logic.
+### Java: Map using Mapper. Don’t create your own logic.
 
 There are many [mapping frameworks in Java](https://www.baeldung.com/java-performance-mapping-frameworks) that can make the task of converting one object to another much much easier. This can be especially helpful when you want to convert your @Entity to a DTO object.
 
----
-
-#### Java: Project Lombok to avoid boilerplate
+### Java: Project Lombok to avoid boilerplate
 
 > Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
 
@@ -150,13 +140,11 @@ The good thing is that it is present is [SpringInitializer](https://start.spring
 
 With this, the size of your java code will reduce dramatically.
 
----
-
-# Remove duplicates
+## Remove duplicates
 
 Linters will provide you a list of duplicate codes. Shove it into a function/method.
 
-#### Use existing/inbuilt methods rather than new once
+### Use existing/inbuilt methods rather than new once
 
 This goes back to not inventing new algorithms. If something is already made, don’t make it again. Reuse it. _(Link — Clean Code: [Know thy complexities](https://medium.com/@ankushchoubey/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for-43dfcff10bcd))_
 
@@ -184,15 +172,11 @@ Here suppose you already have a complex function that works on a list of integer
 
 ![]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/10.png)
 
----
-
-# Single line boolean evaluation
+## Single line boolean evaluation
 
 ![]({{ site.baseurl }}/images/2020-01-04-clean-code-remove-un-necessary-code/11.png)
 
----
-
-# Think in terms of Streams
+## Think in terms of Streams
 
 Streams make your code really really tiny and give much better performance. Streams do have a learning curve but are worth it.
 
@@ -218,16 +202,12 @@ Though the implementation of Java streams and having a single line list comprehe
                 allowfullscreen
               ></iframe>
 
----
-
-# Create and use base classes
+## Create and use base classes
 
 Base classes are an excellent way to avoid duplications. Make them as generic as possible.
 
----
+**Previous**: [Make database do the heavy lifting]({{ site.baseurl }}/clean%20code/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html)
 
-**Previous**: [Make database do the heavy lifting](https://medium.com/@ankushchoubey/clean-code-4-make-the-database-do-the-heavy-lifting-88178a1c3a16)
+**Next**: [Avoid inventing algorithms and data structures]({{ site.baseurl }}/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html)
 
-**Next**: [Avoid inventing algorithms and data structures](https://medium.com/p/43dfcff10bcd)
-
-**Index**: [Tips on writing Clean Code](https://medium.com/p/30d717f32ae4)
+**Index**: [Tips on writing Clean Code]({{ site.baseurl }}/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html)
