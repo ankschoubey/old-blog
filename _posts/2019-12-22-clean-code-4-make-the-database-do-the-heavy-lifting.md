@@ -2,14 +2,12 @@
 toc: true
 layout: post
 comments: true
-description: 
-categories: [Medium]
-title: Clean Code 4  Make the database do the heavy lifting
+description: You cannot compete with SQL
+categories: [Clean Code]
+title: Make the database do the heavy lifting
 ---
 
-#### Clean Code #4
-
-# Rule of thumb: Avoid filtering loops
+## Rule of thumb: Avoid filtering loops
 
 SQL/Databases are good at 2 jobs: storing data. filtering data as fast as possible. **You're for loop cannot compete with SQL.**
 
@@ -17,17 +15,19 @@ The performance of your program will be much faster if you let SQL manage the fi
 
 Try to filter with smaller queries with a smaller number of columns before fetching all the columns. Smaller the data, the faster will be the data transfer. You will find a better example of this in the section of Complex Queries bellow.
 
-# **Use ORM**
+## **Use ORM**
 
 For Spring (Java), ideally, use JPA method query things.**\*\*\***
 
-![Source: [JPA Repositories Spring.io]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/1.png)
+![Source: JPA Repositories Spring.io]({{ site.baseurl }}/images/2019-12-22-clean-code-4-make-the-database-do-the-heavy-lifting/1.png)
 
-_Tips: Use tools to make Entities POJO: [https://www.youtube.com/watch?v=LrbaDRcu3Y0](https://www.youtube.com/watch?v=LrbaDRcu3Y0)_
+_Tips: Use tools to make Entities POJO
+
+> youtube: https://www.youtube.com/watch?v=LrbaDRcu3Y0
 
 For Python, SQLAlchemy is popular and preferred or Django ORM for Django. (I have less experience with this)
 
-# Complex queries
+## Complex queries
 
 In the case of Java, you can also JPA specific things like Specifications or Criteria API.
 
@@ -35,9 +35,9 @@ Honestly, I haven’t tried them I know they exist. I have seen them and found t
 
 I do find Django ORM to be easier than Spring JPA (you can pass arguments rather than always create a separate function).
 
-#### Break down big-bang (complex) queries into multiple simpler queries
+### Break down big-bang (complex) queries into multiple simpler queries
 
-**\* This might be very controversial and I have not seen this talked about anywhere or used in other people’s code. **You are not likely to use this unless you are like me (bad at ORMs).\*\*\*
+> note: This might be very controversial and I have not seen this talked about anywhere or used in other people’s code. **You are not likely to use this unless you are like me (bad at ORMs)**.
 
 Many times you have a complex feature like search and you want to filter by multiple parameters.
 
@@ -101,4 +101,4 @@ You will find that even though your line of code has increased, the modularity o
 
 **Next**: [Remove unnecessary code](https://medium.com/p/c477707e5be1)
 
-**Index**: [Tips on writing Clean Code](https://medium.com/p/30d717f32ae4)
+**Index**: [Tips on writing Clean Code]({{ site.baseurl }}/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html)
