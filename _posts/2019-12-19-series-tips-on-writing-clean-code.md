@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Constructing the simplest possible code
-categories: [Software Development]
+categories: [Software Development, Clean Code]
 title: Series  Tips on writing Clean Code
 ---
 
