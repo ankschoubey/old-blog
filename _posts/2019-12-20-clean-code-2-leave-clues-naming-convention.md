@@ -2,12 +2,10 @@
 toc: true
 layout: post
 comments: true
-description: 
-categories: [Medium]
-title: Clean Code  Leave Clues (Naming convention)
+description: Naming conventions
+categories: [Clean Code]
+title: Leave Clues
 ---
-
-#### Clean Code #2
 
 These apply to name everything: variable, class names, methods, package, etc.
 
@@ -19,17 +17,17 @@ These apply to name everything: variable, class names, methods, package, etc.
 
 _Source: [Why your code is so hard to understand](https://medium.com/on-coding/why-your-code-is-so-hard-to-understand-83057c115a2b)_
 
-# Comments
+## Comments
 
-Comments can lie. The code does not.
+**Comments can lie**. The code does not.
 
-Ideally, your code should be so good that you do not require comments.
+Ideally, your code should be **so good that you do not require comments**.
 
-This might not be true in one case which is when you code something weird and required domain-specific explanation.
+This might not be true in one case which is when you code something weird and required **domain-specific explanation**.
 
 Like in Machine Learning, a choice of certain parameters or a certain step can be understood better by putting the link to explanation/research paper in the comment. While reading just the code, it might not be obvious for the reader to understand what to make of it. (_Source: Jeremy Howard fast.ai_).
 
-# Intent giving names
+## Intent giving names
 
 Use **pronounceable names**
 
@@ -37,7 +35,7 @@ Use **pronounceable names**
 
 > Variable names should always be **easy-to-read**, be **short yet meaningful**, mixed case with a lower-case first letter English words.
 
-> **b)**Use **plural names **for arrays/collections of **objects**.
+> **b)**Use **plural names for arrays/collections** of **objects**.
 
 > **c)** **Constant** (static final) variable names should be in **all capital letters** and **separate words** in the name with the **underscore**, i.e., PRIORITY_NORMAL,
 
@@ -85,17 +83,17 @@ _(Below examples are for method names)_
 
 In case you are trying machine learning, I guess this article is much better suited: [Jeremy’s notes on fastai coding style](https://docs.fast.ai/dev/style.html)
 
-# Magic numbers and strings
+## Magic numbers and strings
 
 > Any **number** or string in your code **that isn’t immediately obvious** to someone with very little knowledge.
 
-Source:[ StackOverflow](https://stackoverflow.com/questions/3518938/what-are-magic-numbers-in-computer-programming/3518945#3518945)
+Source: [StackOverflow](https://stackoverflow.com/questions/3518938/what-are-magic-numbers-in-computer-programming/3518945#3518945)
 
 Better to declare them in a separate constants file.
 
 Constants should be snake_case and CAPITAL.
 
-![Link: [List of HTTP status codes]({{ site.baseurl }}/images/2019-12-20-clean-code-2-leave-clues-naming-convention/4.png)
+![List of HTTP status codes]({{ site.baseurl }}/images/2019-12-20-clean-code-2-leave-clues-naming-convention/4.png)
 
 In the case of Java, enums can also be used to achieve something similar but they will contain a lot of java boilerplate.
 
@@ -107,13 +105,13 @@ There are also language-specific naming conventions involved like:
 
 1. Python and SQL prefer snake_case
 
-# For Unit test cases
+## For Unit test cases
 
 My aim is not so much about reducing the lines of code. Tests are usually small. (In case if your tests are huge and complex then you must have written a bad code)
 
 I prefer to keep the end of each method the same. Like:
 
-![Code was taken and modified from [Unit tests with Mockito — Tutorial]({{ site.baseurl }}/images/2019-12-20-clean-code-2-leave-clues-naming-convention/6.png)
+![Code was taken and modified from Unit tests with Mockito — Tutorial]({{ site.baseurl }}/images/2019-12-20-clean-code-2-leave-clues-naming-convention/6.png)
 
 I use Mockito so I skip the first line. The start of the function then is with all stub actions.
 
@@ -129,10 +127,10 @@ I find that for most tasks it is easier to make changes to expected and actual v
 
 An alternative to the above assertion is to write like below which I find to be messy.
 
-![Code was taken and modified from [Unit tests with Mockito — Tutorial]({{ site.baseurl }}/images/2019-12-20-clean-code-2-leave-clues-naming-convention/7.png)
+![Code was taken and modified from Unit tests with Mockito — Tutorial]({{ site.baseurl }}/images/2019-12-20-clean-code-2-leave-clues-naming-convention/7.png)
 
-**Previous**: [Flat is better than nested](https://medium.com/@ankushchoubey/clean-code-1-flat-is-better-than-nested-leave-when-not-okay-c09ba74090ef)
+**Previous**: [Flat is better than nested]({{ site.baseurl }}/clean%20code/2019/12/20/clean-code-1-flat-is-better-than-nested-leave-when-not-okay.html)
 
 **Next**: [Avoid creating god classes and long methods](https://medium.com/p/f3d76b1b622a) #NotEnoughChunks
 
-**Index**: [Tips on writing Clean Code](https://medium.com/p/30d717f32ae4)
+**Index**: [Tips on writing Clean Code]({{ site.baseurl }}/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html)
