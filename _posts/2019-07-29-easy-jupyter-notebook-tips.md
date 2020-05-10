@@ -3,22 +3,15 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Medium]
+categories: [Python, Notebook]
 title: Easy Jupyter Notebook Tips
 ---
 
 In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:
 
-<iframe
-                width="854"
-                height="480"
-                src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F2eCHD6f_phE%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2eCHD6f_phE&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F2eCHD6f_phE%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+> youtube: https://youtu.be/2eCHD6f_phE
 
-#### Use Wild Card Import
+## Use Wild Card Import
 
 `import *`
 
@@ -30,7 +23,7 @@ In case you are not familiar with Jupyter Notebook, I recommend watching the fol
 
 > ~ Jeremy Howard ([Source: FastAI v3 Lesson 1](https://github.com/hiromis/notes/blob/master/Lesson1.md))
 
-#### Types of Notebooks
+## Types of Notebooks
 
 It is best to consider 2 types of notebooks for your projects
 
@@ -48,7 +41,7 @@ _date_initialsOfAuthor_actualName.ipynb_
 
 Source: [IPython Notebook best practices for data science](https://www.youtube.com/watch?v=JI1HWUAyJHE) by Jonathan Whitmore ([Blog Post](http://jonathanwhitmore.com/2015/07/jupyter-notebook-best-practices-for-data-science))
 
-#### Split code into multiple cells to get better code-completion
+## Split code into multiple cells to get better code-completion
 
 This is a no-brainer but I struggled with this for a long time.
 
@@ -60,7 +53,7 @@ But when running Jupyter Notebook you can avoid this by splitting your code into
 
 ![]({{ site.baseurl }}/images/2019-07-29-easy-jupyter-notebook-tips/2.png)
 
-#### Use _%time_ for measuring the rough speed of cell’s execution
+## Use _%time_ for measuring the rough speed of cell’s execution
 
 ![]({{ site.baseurl }}/images/2019-07-29-easy-jupyter-notebook-tips/3.png)
 
@@ -76,11 +69,4 @@ If there are any other useful tips/link/suggestion you would like to share, plea
 
 Edit: 01 August 2019: Video Version
 
-<iframe
-                width="640"
-                height="480"
-                src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FwnhHz3eFNMc%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwnhHz3eFNMc&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FwnhHz3eFNMc%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+> youtube: https://youtu.be/wnhHz3eFNMc
