@@ -5,6 +5,7 @@ comments: true
 description: You cannot compete with SQL
 categories: [Clean Code]
 title: Make the database do the heavy lifting
+permalink: /sql_is_fast/
 ---
 
 ## Rule of thumb: Avoid filtering loops

@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [Python, Notebook]
 title: Easy Jupyter Notebook Tips
+permalink: /jupyter_notebook/
 ---
 
 In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:

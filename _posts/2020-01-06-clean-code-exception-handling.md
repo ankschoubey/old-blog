@@ -5,6 +5,7 @@ comments: true
 description: and Logging with style
 categories: [Clean Code]
 title: Exception handling
+permalink: /exception_handing/
 ---
 
 > Errors should never pass silently.

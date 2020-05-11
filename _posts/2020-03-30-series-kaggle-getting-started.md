@@ -5,6 +5,7 @@ comments: true
 description: Baby steps towards competitions
 categories: [Deep Learning, Kaggle]
 title: Series  Kaggle Getting Started
+permalink: /kaggle_getting_started/
 ---
 
 ## Why?

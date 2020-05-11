@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [QA, Kaggle]
 title: 'Kaggle CLI QA: How to download a particular folder'
+permalink: /kaggle_download_folder/
 ---
 
 **[Harshini on Medium asks](https://medium.com/@harshini2898/nice-article-c1eb575b0baf)**

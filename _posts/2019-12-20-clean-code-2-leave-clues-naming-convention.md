@@ -5,6 +5,7 @@ comments: true
 description: Naming conventions
 categories: [Clean Code]
 title: Leave Clues
+permalink: /naming_conventions/
 ---
 
 These apply to name everything: variable, class names, methods, package, etc.

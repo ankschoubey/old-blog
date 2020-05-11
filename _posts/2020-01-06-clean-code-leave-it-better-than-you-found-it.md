@@ -5,6 +5,7 @@ comments: true
 description: Atomic Habits applied to code. Thanks James Clear.
 categories: [Clean Code]
 title: Leave it better than you found it
+permalink: /leave_it_better/
 ---
 
 Code is much more like a work of art/craft that people consider it.

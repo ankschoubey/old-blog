@@ -5,6 +5,7 @@ comments: true
 description: You ain’t gonna need it
 categories: [Clean Code]
 title: Remove un-necessary code
+permalink: /code_cleanup/
 ---
 
 ## Declare the local variable as close to where it is used and remove un-necessary once

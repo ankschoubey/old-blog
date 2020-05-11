@@ -5,6 +5,7 @@ comments: true
 description: 'MNIST: Kaggle Getting Started'
 categories: [Deep Learning, Kaggle]
 title: Digit Recognition
+permalink: /mnist/
 ---
 ***
 ### How to read this?

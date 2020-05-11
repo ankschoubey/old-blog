@@ -5,6 +5,7 @@ comments: true
 description: For those who don’t require Google level optimization
 categories: [Web Development]
 title: Simple Hacks for increasing website load time
+permalink: /load_time/
 ---
 
 ## Reduce bundle size

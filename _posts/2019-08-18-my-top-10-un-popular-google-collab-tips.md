@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [Notebook]
 title: 10 Google Collab Tips
+permalink: /collab/
 ---
 
 Collab is my favorite place to do deep learning because:

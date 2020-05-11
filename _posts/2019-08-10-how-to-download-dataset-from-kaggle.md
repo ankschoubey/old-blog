@@ -5,6 +5,7 @@ comments: true
 description: Using Kaggle CLI
 categories: [Deep Learning, Kaggle]
 title: How To Download Dataset From Kaggle
+permalink: /download_kaggle/
 ---
 
 ### 2 Sentence Pre-requisite:

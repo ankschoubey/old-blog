@@ -5,6 +5,7 @@ comments: true
 categories: [Thoughts, Deep Learning]
 layout: post
 use_math: true
+permalink: /dl_advice/
 ---
 
 I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.

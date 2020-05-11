@@ -5,6 +5,7 @@ comments: true
 description: Leave when not okay
 categories: [Clean Code]
 title: Flat is better than nested
+permalink: /flat_is_better/
 ---
 
 This might be the most important tip of all the tips covered which applies mainly to if-else statements.

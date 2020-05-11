@@ -4,6 +4,7 @@ layout: post
 description: Steal like a programmer (especially for maths)
 categories: [Clean Code]
 title: Know thy complexities, data structures and avoid inventing algorithms
+permalink: /complexity/
 ---
 
 > **If** you are **inventing new algorithms**, you either **don’t know** the right algorithm **or** are working on your **PhD** thesis.

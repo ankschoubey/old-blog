@@ -5,6 +5,7 @@ comments: true
 description: Minimalism
 categories: [Clean Code]
 title: Avoid creating god classes and long methods
+permalink: /god_classes/
 ---
 
 As you gain **experience** as a developer you **start to see repeating patterns** that crop up over and over again in your solutions.
