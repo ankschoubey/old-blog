@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-10T13:25:32-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Math motivation</title><link href="www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation.html" rel="alternate" type="text/html" title="Math motivation" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation</id><content type="html" xml:base="www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation.html">&lt;p&gt;I have always been interested in &lt;strong&gt;🧮&lt;/strong&gt; even after failing twice at math exams during college.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-11T00:52:30-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Clean Code Resources and Tools</title><link href="www.ankushchoubey.com/clean%20code/tools/2020/05/11/resources-clean-code.html" rel="alternate" type="text/html" title="Clean Code Resources and Tools" /><published>2020-05-11T00:00:00-05:00</published><updated>2020-05-11T00:00:00-05:00</updated><id>www.ankushchoubey.com/clean%20code/tools/2020/05/11/resources-clean-code</id><content type="html" xml:base="www.ankushchoubey.com/clean%20code/tools/2020/05/11/resources-clean-code.html">&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;linters&quot;&gt;Linters&lt;/h4&gt;
+
+&lt;p&gt;SonarLint is good for most cases.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Python: &lt;strong&gt;SonarLint&lt;/strong&gt; or PyLink&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Java: &lt;strong&gt;SonarLint&lt;/strong&gt; or Sonar Cube&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Typescript: TSLint&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;domainlanguage-specific-tips&quot;&gt;Domain/Language-specific tips&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;For Deep Learning/Machine Learning: &lt;a href=&quot;https://docs.fast.ai/dev/style.html&quot;&gt;fastai coding style&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Java: &lt;a href=&quot;http://Google Java Style Guide&quot;&gt;Google Java Style Guide&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Python: &lt;a href=&quot;https://realpython.com/python-pep8/&quot;&gt;pep8&lt;/a&gt; or &lt;a href=&quot;http://google.github.io/styleguide/pyguide.html&quot;&gt;Google Python Style Guide&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://angular.io/guide/styleguide&quot;&gt;Angular official style guide&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;natural-next-steps&quot;&gt;Natural next steps:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Design patterns: &lt;a href=&quot;https://github.com/kamranahmedse/design-patterns-for-humans&quot;&gt;Design patterns for Humans&lt;/a&gt; and &lt;a href=&quot;https://www.programcreek.com/java-design-patterns-in-stories/&quot;&gt;Java Design Patterns in Stories&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://sourcemaking.com/antipatterns&quot;&gt;Anti-Patterns&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://Awesome Falsehood&quot;&gt;Falsehoods&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Clean Code Book&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cleaner REST APIs: &lt;a href=&quot;https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9&quot;&gt;RESTful API Designing guidelines — The best practices&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://microservices.io/articles/applying.html&quot;&gt;Microservices&lt;/a&gt; and Micro frontend.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Index: Tips on writing Clean Code</summary></entry><entry><title type="html">Math motivation</title><link href="www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation.html" rel="alternate" type="text/html" title="Math motivation" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation</id><content type="html" xml:base="www.ankushchoubey.com/thoughts/mathematics/2020/05/04/math-motivation.html">&lt;p&gt;I have always been interested in &lt;strong&gt;🧮&lt;/strong&gt; even after failing twice at math exams during college.&lt;/p&gt;
 
 &lt;p&gt;I have been collecting a lot of notes on the topic since the last 6-8 months and recently the number of notes exponentially grew. (damn recommendation systems). Some I came up on my own.&lt;/p&gt;
 
@@ -242,89 +298,7 @@ We have computers in the 21st century.&lt;/p&gt;
 
 &lt;p&gt;Shoot me an email at &lt;a href=&quot;mailto:ankushchoubey@outlook.com&quot;&gt;ankushchoubey@outlook.com&lt;/a&gt; 😁&lt;/p&gt;
 
-&lt;p&gt;For questions or counter related to this post, write them in the comments below.&lt;/p&gt;</content><author><name></name></author><summary type="html">I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.</summary></entry><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
-
-&lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Easy&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Less intimidating&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Less chance of getting stuck&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;how-we-will-do-it&quot;&gt;How we will do it?&lt;/h2&gt;
-
-&lt;h5 id=&quot;by&quot;&gt;&lt;strong&gt;By:&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;focusing on the process rather than just getting the output.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;starting with easier problems.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;PyTorch:&lt;a href=&quot;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&quot;&gt; A 60 Minute Blitz&lt;/a&gt;, &lt;a href=&quot;https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset&quot;&gt;Writing Custom Datasets&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;expectations-from-this-series&quot;&gt;Expectations from this series&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5–6 Hours per challenge or more.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Coding Style&lt;/strong&gt;:&lt;a href=&quot;https://docs.fast.ai/dev/style.html&quot;&gt; fastai coding style&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;While coding, no function takes 10 seconds.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Heavy use of %timeit%&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Explanation Style&lt;/strong&gt;: Based on Kaggle Notebook Commits&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Notebook Commit 1&lt;/em&gt;: Will focus on getting input and output&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Next N-1 Commits&lt;/em&gt;: Will add new features/improvements. These will be linked.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Last Commit&lt;/em&gt;: Complete solution&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This way one can see get a peek behind the finished product.&lt;/p&gt;
-
-&lt;h2 id=&quot;abbreviations-used&quot;&gt;Abbreviations Used&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;X = training_data
-y = training_label
-
-ds = dataset
-dl = dataloader
-
-o = optimizer
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;index&quot;&gt;Index&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;/deep%20learning/kaggle/2020/03/30/digit-recognition.html&quot;&gt;Digit Recognition&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Facial Keypoints Detection - &lt;em&gt;in progress&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">Digit Recognition</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/digit-recognition.html" rel="alternate" type="text/html" title="Digit Recognition" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/digit-recognition</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/digit-recognition.html">&lt;hr /&gt;
+&lt;p&gt;For questions or counter related to this post, write them in the comments below.&lt;/p&gt;</content><author><name></name></author><summary type="html">I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.</summary></entry><entry><title type="html">Digit Recognition</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/digit-recognition.html" rel="alternate" type="text/html" title="Digit Recognition" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/digit-recognition</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/digit-recognition.html">&lt;hr /&gt;
 &lt;h3 id=&quot;how-to-read-this&quot;&gt;How to read this?&lt;/h3&gt;
 &lt;ol&gt;
   &lt;li&gt;
@@ -739,7 +713,89 @@ resnet18.fc = nn.Sequential(
 
 &lt;p&gt;Index: &lt;a href=&quot;/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html&quot;&gt;Series - Kaggle Getting Started&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Next Post: []&lt;/p&gt;</content><author><name></name></author><summary type="html">How to read this? Skim through the Pre-requisites</summary></entry><entry><title type="html">Kaggle CLI QA: How to download a particular folder</title><link href="www.ankushchoubey.com/qa/kaggle/2020/03/10/kaggle-cli-download-a-folder.html" rel="alternate" type="text/html" title="Kaggle CLI QA: How to download a particular folder" /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/qa/kaggle/2020/03/10/kaggle-cli-download-a-folder</id><content type="html" xml:base="www.ankushchoubey.com/qa/kaggle/2020/03/10/kaggle-cli-download-a-folder.html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@harshini2898/nice-article-c1eb575b0baf&quot;&gt;Harshini on Medium asks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Next Post: []&lt;/p&gt;</content><author><name></name></author><summary type="html">How to read this? Skim through the Pre-requisites</summary></entry><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
+
+&lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Easy&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Less intimidating&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Less chance of getting stuck&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-we-will-do-it&quot;&gt;How we will do it?&lt;/h2&gt;
+
+&lt;h5 id=&quot;by&quot;&gt;&lt;strong&gt;By:&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;focusing on the process rather than just getting the output.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;starting with easier problems.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyTorch:&lt;a href=&quot;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&quot;&gt; A 60 Minute Blitz&lt;/a&gt;, &lt;a href=&quot;https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset&quot;&gt;Writing Custom Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;expectations-from-this-series&quot;&gt;Expectations from this series&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5–6 Hours per challenge or more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coding Style&lt;/strong&gt;:&lt;a href=&quot;https://docs.fast.ai/dev/style.html&quot;&gt; fastai coding style&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;While coding, no function takes 10 seconds.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Heavy use of %timeit%&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation Style&lt;/strong&gt;: Based on Kaggle Notebook Commits&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Notebook Commit 1&lt;/em&gt;: Will focus on getting input and output&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Next N-1 Commits&lt;/em&gt;: Will add new features/improvements. These will be linked.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Last Commit&lt;/em&gt;: Complete solution&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This way one can see get a peek behind the finished product.&lt;/p&gt;
+
+&lt;h2 id=&quot;abbreviations-used&quot;&gt;Abbreviations Used&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;X = training_data
+y = training_label
+
+ds = dataset
+dl = dataloader
+
+o = optimizer
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;index&quot;&gt;Index&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/deep%20learning/kaggle/2020/03/30/digit-recognition.html&quot;&gt;Digit Recognition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Facial Keypoints Detection - &lt;em&gt;in progress&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">Kaggle CLI QA: How to download a particular folder</title><link href="www.ankushchoubey.com/qa/kaggle/2020/03/10/kaggle-cli-download-a-folder.html" rel="alternate" type="text/html" title="Kaggle CLI QA: How to download a particular folder" /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/qa/kaggle/2020/03/10/kaggle-cli-download-a-folder</id><content type="html" xml:base="www.ankushchoubey.com/qa/kaggle/2020/03/10/kaggle-cli-download-a-folder.html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@harshini2898/nice-article-c1eb575b0baf&quot;&gt;Harshini on Medium asks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Nice Article,&lt;/p&gt;
@@ -1256,83 +1312,4 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Declare the local variable as close to where it is used and remove un-necessary once</summary></entry><entry><title type="html">Know thy complexities, data structures and avoid inventing algorithms</title><link href="www.ankushchoubey.com/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html" rel="alternate" type="text/html" title="Know thy complexities, data structures and avoid inventing algorithms" /><published>2019-12-25T00:00:00-06:00</published><updated>2019-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for</id><content type="html" xml:base="www.ankushchoubey.com/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;If&lt;/strong&gt; you are &lt;strong&gt;inventing new algorithms&lt;/strong&gt;, you either &lt;strong&gt;don’t know&lt;/strong&gt; the right algorithm &lt;strong&gt;or&lt;/strong&gt; are working on your &lt;strong&gt;PhD&lt;/strong&gt; thesis.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Eliminating&lt;/strong&gt; as much of this &lt;strong&gt;accidental complexity&lt;/strong&gt; as possible.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://www.codeproject.com/Articles/838973/Why-Your-Code-Is-So-Hard-to-Understand&quot;&gt;Why Your Code Is So Hard to Understand&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;keep-your-implementation-as-simple-as-possible&quot;&gt;Keep your implementation as simple as possible&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If the implementation is hard to explain, it’s a bad idea.
-If the implementation is easy to explain, it may be a good idea.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ The Zen of Python, by Tim Peters&lt;/p&gt;
-
-&lt;h2 id=&quot;knowing-the-basics-of-time-and-space-complexity-goes-a-long-way&quot;&gt;Knowing the basics of time and space complexity goes a long way.&lt;/h2&gt;
-
-&lt;p&gt;Going through each is beyond the scope of this. Here is a link if you want to go in-depth: &lt;a href=&quot;https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt&quot;&gt;Cracking the Coding Interview YouTube&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The concept of List, Sets, and Maps is universal though this particular post is going to look at it through the lens of Java&lt;/strong&gt;. In the case of Python map is called a dictionary.&lt;/p&gt;
-
-&lt;h2 id=&quot;additional-tip-always-use-parent-interface-for-the-type&quot;&gt;Additional Tip: Always use parent interface for the type&lt;/h2&gt;
-
-&lt;p&gt;Be as general as you can be.&lt;/p&gt;
-
-&lt;p&gt;This allows you to swap in any form of implementation of parent interface in a single line.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2808/1*M2J_YiubLnrId8k23GiNyA.png&quot; alt=&quot;[Collections in Java](https://www.javatpoint.com/collections-in-java)&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;when-trying-to-find-duplicates&quot;&gt;When trying to find duplicates&lt;/h2&gt;
-
-&lt;h3 id=&quot;use-set-instead-of-lists&quot;&gt;Use Set instead of Lists&lt;/h3&gt;
-
-&lt;p&gt;Set always contain unique values.&lt;/p&gt;
-
-&lt;p&gt;Finding an element in the set is much faster O(1) than compared to a list O(n)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2880/1*HVkmS59kcy7lkvkWSoZNhg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;java-if-you-know-the-size-of-the-list&quot;&gt;Java: If you know the size of the list&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;… if the required maximum capacity of the ArrayList is known, we can get the optimal performance (both average latency and throughput) by specifying the initial capacity to the required capacity.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In doing so, we can get 24% to 34% improvement in average latency and 30% to 50% improvement in throughput.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://dzone.com/articles/performance-evaluation-of-java-arraylist&quot;&gt;Performance Evaluation of Java ArrayLists&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;always-have-your-algorithmic-logic-in-a-separate-function&quot;&gt;Always have your algorithmic logic in a separate function&lt;/h2&gt;
-
-&lt;p&gt;This just makes it much easier to debug. Your function will be doing just one this.&lt;/p&gt;
-
-&lt;p&gt;Making it general enough will be even helpful so that you can easily use it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; &lt;a href=&quot;/clean%20code/2019/12/20/clean-code-1-flat-is-better-than-nested-leave-when-not-okay.html&quot;&gt;&lt;em&gt;Separate loop and operation section: Clean Code #1&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation&quot;&gt;Rather than implementing own logic, take 5 minutes to see if your modules already provide the implementation&lt;/h2&gt;
-
-&lt;h3 id=&quot;example-sorting-in-javascripttypescript&quot;&gt;Example: Sorting in Javascript/Typescript&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2668/1*UoB_nYYPlLWGY14bNEs2IQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2704/1*BS7jYfKY4DhpY-cLuGULHw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A library in java which you can find is &lt;a href=&quot;https://www.baeldung.com/java-commons-lang-3&quot;&gt;Apache Common Lang 3&lt;/a&gt; which does provide a lot of utilities.&lt;/p&gt;
-
-&lt;p&gt;Python has much more abundance. Just google a solution for python and you will probably find a pip package.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/c477707e5be1&quot;&gt;Remove unnecessary code&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;https://medium.com/p/a7bca1e66d9e&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">If you are inventing new algorithms, you either don’t know the right algorithm or are working on your PhD thesis.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Declare the local variable as close to where it is used and remove un-necessary once</summary></entry></feed>
