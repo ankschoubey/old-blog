@@ -5,6 +5,7 @@ comments: true
 description: constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time.
 categories: [Software Development, Clean Code]
 title: Clean Code
+permalink: /clean_code/
 ---
 
 > I’m not a great programmer; I’m just a good programmer with great habits
@@ -77,9 +78,7 @@ Constructing the simplest possible code that would solve your problem.
 
 - Pleasing to your eyes 👀.
 
----
-
-## Index
+## More posts in this series
 
 {% for post in site.categories['Clean Code'] %}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
