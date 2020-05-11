@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Remove un-necessary code | Ankush</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Remove un-necessary code" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="You ain’t gonna need it" />
+<meta property="og:description" content="You ain’t gonna need it" />
+<link rel="canonical" href="www.ankushchoubey.com/code_cleanup/" />
+<meta property="og:url" content="www.ankushchoubey.com/code_cleanup/" />
+<meta property="og:site_name" content="Ankush" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-01-04T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"You ain’t gonna need it","@type":"BlogPosting","headline":"Remove un-necessary code","url":"www.ankushchoubey.com/code_cleanup/","datePublished":"2020-01-04T00:00:00-06:00","dateModified":"2020-01-04T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/code_cleanup/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Remove un-necessary code | Ankush</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Remove un-necessary code" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="You ain’t gonna need it" />
+<meta property="og:description" content="You ain’t gonna need it" />
+<link rel="canonical" href="www.ankushchoubey.com/code_cleanup/" />
+<meta property="og:url" content="www.ankushchoubey.com/code_cleanup/" />
+<meta property="og:site_name" content="Ankush" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-01-04T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"You ain’t gonna need it","@type":"BlogPosting","headline":"Remove un-necessary code","url":"www.ankushchoubey.com/code_cleanup/","datePublished":"2020-01-04T00:00:00-06:00","dateModified":"2020-01-04T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/code_cleanup/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Ankush</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Remove un-necessary code</h1><p class="page-description">You ain’t gonna need it</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-01-04T00:00:00-06:00" itemprop="datePublished">
+        Jan 4, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/categories/#Clean Code">Clean Code</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once">Declare the local variable as close to where it is used and remove un-necessary once</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#example">Example:</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#just-return-it-dont-store">Just return it. Don’t store</a></li>
+<li class="toc-entry toc-h2"><a href="#remove-commented-code">Remove commented code</a></li>
+<li class="toc-entry toc-h2"><a href="#remove-functions-and-variables-which-you-do-not-use">Remove functions and variables which you do not use.</a></li>
+<li class="toc-entry toc-h2"><a href="#variable-argument-lengths">Variable argument lengths</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#python-args-kwargs-more-than-just-variable-length-argument">Python: *args, **kwargs (more than just variable-length argument)</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#default-arguments">Default Arguments</a></li>
+<li class="toc-entry toc-h2"><a href="#use-annotationsdecorators">Use annotations/decorators</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#python-decorators">Python: Decorators</a></li>
+<li class="toc-entry toc-h3"><a href="#spring-boot-java">Spring Boot (Java)</a></li>
+<li class="toc-entry toc-h3"><a href="#java-for-jpa">Java: For JPA</a></li>
+<li class="toc-entry toc-h3"><a href="#java-map-using-mapper-dont-create-your-own-logic">Java: Map using Mapper. Don’t create your own logic.</a></li>
+<li class="toc-entry toc-h3"><a href="#java-project-lombok-to-avoid-boilerplate">Java: Project Lombok to avoid boilerplate</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#remove-duplicates">Remove duplicates</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#use-existinginbuilt-methods-rather-than-new-once">Use existing/inbuilt methods rather than new once</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#single-line-boolean-evaluation">Single line boolean evaluation</a></li>
+<li class="toc-entry toc-h2"><a href="#think-in-terms-of-streams">Think in terms of Streams</a></li>
+<li class="toc-entry toc-h2"><a href="#create-and-use-base-classes">Create and use base classes</a></li>
+</ul><h2 id="declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once">
+<a class="anchor" href="#declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once" aria-hidden="true"><span class="octicon octicon-link"></span></a>Declare the local variable as close to where it is used and remove un-necessary once</h2>
+
+<p>Local variables declared at some different place makes it harder to read the code.</p>
+
+<h3 id="example">
+<a class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example:</h3>
+
+<p>Below are the variations of aRandomFunction which does a bunch of operations (skipped by dots) and on completion returns “Hello” along with the date.</p>
+
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/1.png" alt="Bad"></p>
+
+<p>The local variables <strong>names</strong> and <strong>date</strong> are declared on top of the functions.</p>
+
+<p>The first usage of the functions are somewhere between the function and the last usage is in the return statement.</p>
+
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/2.png" alt="Better. 2 lines saved."></p>
+
+<p>Here <strong>name</strong> and <strong>date</strong> variables are moved to where they are first used.</p>
+
+<p>Let’s say after moving we realize that we do not use the variables between the code, we just use it during return.</p>
+
+<p>So we should move it near the return statement:</p>
+
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/3.png" alt="Even Better"></p>
+
+<h2 id="just-return-it-dont-store">
+<a class="anchor" href="#just-return-it-dont-store" aria-hidden="true"><span class="octicon octicon-link"></span></a>Just return it. Don’t store</h2>
+
+<p>Continuing from the previous example:</p>
+
+<p>Storing in a variable is un-necessary is it is never used.</p>
+
+<p>Rather than storing “hello” in name and a new date in date, we should just return it.</p>
+
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/4.png" alt=""></p>
+
+<h2 id="remove-commented-code">
+<a class="anchor" href="#remove-commented-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remove commented code</h2>
+
+<p>In case you do need to refer to the exact code you can always check it in your version control.</p>
+
+<h2 id="remove-functions-and-variables-which-you-do-not-use">
+<a class="anchor" href="#remove-functions-and-variables-which-you-do-not-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remove functions and variables which you do not use.</h2>
+
+<h2 id="variable-argument-lengths">
+<a class="anchor" href="#variable-argument-lengths" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variable argument lengths</h2>
+
+<h4 id="python-args-kwargs-more-than-just-variable-length-argument">
+<a class="anchor" href="#python-args-kwargs-more-than-just-variable-length-argument" aria-hidden="true"><span class="octicon octicon-link"></span></a>Python: *args, **kwargs (more than just variable-length argument)</h4>
+
+<p>Java also has an implementation for <a href="https://www.youtube.com/watch?v=BFL1oWnEO2k">variable length arguments</a> but they are not as elegant as Python implementation. Therefore, a list as an argument might be better suited.</p>
+
+<iframe width="854" height="480" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FWcTXxX3vYgY%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWcTXxX3vYgY&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FWcTXxX3vYgY%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<hr>
+
+<h2 id="default-arguments">
+<a class="anchor" href="#default-arguments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Default Arguments</h2>
+
+<p>Python and Typescript both support default function arguments.</p>
+
+<p>While not officially supported in Java, one can work around the builder pattern to get similar functionality.</p>
+
+<p>![Source: <a href="/images/2020-01-04-clean-code-remove-un-necessary-code/5.png">Managing Constructor with many parameters</a></p>
+
+<hr>
+
+<h2 id="use-annotationsdecorators">
+<a class="anchor" href="#use-annotationsdecorators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use annotations/decorators</h2>
+
+<p>Annotations extend the functionality of your function dynamically and reduce the size of the code dramatically.</p>
+
+<h3 id="python-decorators">
+<a class="anchor" href="#python-decorators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Python: Decorators</h3>
+
+<p>In python, these are called decorators.</p>
+
+<p>Python 3.7+ also has <strong>@ dataclass **annotation which auto-generates constructor, **str</strong> and <strong>repr</strong>.</p>
+
+<p><strong><em>Relevant Links:</em></strong></p>
+
+<ul>
+  <li>
+    <p><a href="https://realpython.com/primer-on-python-decorators/"><em>Primer on Python Decorator</em></a></p>
+  </li>
+  <li>
+    <p><em>Source: <code class="highlighter-rouge">[functools](https://docs.python.org/2/library/functools.html#module-functools)</code> — Higher-order functions and operations on a callable object</em></p>
+  </li>
+  <li>
+    <p><a href="https://realpython.com/python-data-classes/"><em>The Ultimate Guide to Data Classes in Python 3.7</em></a></p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=PNpt7cFjGsM"><em>Method Types in Python OOP: @classmethod, @staticmethod, and Instance Methods</em></a></p>
+  </li>
+</ul>
+
+<h3 id="spring-boot-java">
+<a class="anchor" href="#spring-boot-java" aria-hidden="true"><span class="octicon octicon-link"></span></a>Spring Boot (Java)</h3>
+
+<p>![Source: <a href="/images/2020-01-04-clean-code-remove-un-necessary-code/6.png">Spring Annotations Cheat Sheet</a></p>
+
+<h3 id="java-for-jpa">
+<a class="anchor" href="#java-for-jpa" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java: For JPA</h3>
+
+<p>No need to write @Column over your entity’s variables. By default, camelCase is substituted with snake_case.</p>
+
+<p><em>lookupId =&gt; lookup_id</em></p>
+
+<p>You can change these using <a href="https://www.baeldung.com/hibernate-naming-strategy">naming strategies</a>.</p>
+
+<h3 id="java-map-using-mapper-dont-create-your-own-logic">
+<a class="anchor" href="#java-map-using-mapper-dont-create-your-own-logic" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java: Map using Mapper. Don’t create your own logic.</h3>
+
+<p>There are many <a href="https://www.baeldung.com/java-performance-mapping-frameworks">mapping frameworks in Java</a> that can make the task of converting one object to another much much easier. This can be especially helpful when you want to convert your @Entity to a DTO object.</p>
+
+<h3 id="java-project-lombok-to-avoid-boilerplate">
+<a class="anchor" href="#java-project-lombok-to-avoid-boilerplate" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java: Project Lombok to avoid boilerplate</h3>
+
+<blockquote>
+  <p>Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.</p>
+</blockquote>
+
+<blockquote>
+  <p>Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>@Getter and @Setter</p>
+  </li>
+  <li>
+    <p>@NonNull</p>
+  </li>
+  <li>
+    <p>@ToString</p>
+  </li>
+  <li>
+    <p>@EqualsAndHashCode</p>
+  </li>
+  <li>
+    <p>@Data</p>
+  </li>
+  <li>
+    <p>@Cleanup</p>
+  </li>
+  <li>
+    <p>@Synchronized</p>
+  </li>
+  <li>
+    <p>@SneakyThrows</p>
+  </li>
+</ul>
+
+<p>The good thing is that it is present is <a href="https://start.spring.io/">SpringInitializer</a>. Just click the Project Lombok option.</p>
+
+<p>With this, the size of your java code will reduce dramatically.</p>
+
+<h2 id="remove-duplicates">
+<a class="anchor" href="#remove-duplicates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remove duplicates</h2>
+
+<p>Linters will provide you a list of duplicate codes. Shove it into a function/method.</p>
+
+<h3 id="use-existinginbuilt-methods-rather-than-new-once">
+<a class="anchor" href="#use-existinginbuilt-methods-rather-than-new-once" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use existing/inbuilt methods rather than new once</h3>
+
+<p>This goes back to not inventing new algorithms. If something is already made, don’t make it again. Reuse it. <em>(Link — Clean Code: <a href="https://medium.com/@ankushchoubey/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for-43dfcff10bcd">Know thy complexities</a>)</em></p>
+
+<p><strong>Probably a bad example #1 of reuse:</strong></p>
+
+<p>Below is a very complex function. One of them works with List and other with an array but that is the only difference in implementation.</p>
+
+<p>The bad approach is creating the same logic to work with different data structures.</p>
+
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/7.png" alt=""></p>
+
+<p>A better approach is to have one main logic function and convert one data structure to another and then call the main one.</p>
+
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/8.png" alt=""></p>
+
+<p>We can also take advantage of having the same name for both the functions which means less to remember.</p>
+
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/9.png" alt=""></p>
+
+<p><strong>Probably a bad example #2 of reuse:</strong></p>
+
+<p>This is similar to the above.</p>
+
+<p>Here suppose you already have a complex function that works on a list of integers, and now you have to make a similar one to work on a single int.</p>
+
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/10.png" alt=""></p>
+
+<h2 id="single-line-boolean-evaluation">
+<a class="anchor" href="#single-line-boolean-evaluation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Single line boolean evaluation</h2>
+
+<p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/11.png" alt=""></p>
+
+<h2 id="think-in-terms-of-streams">
+<a class="anchor" href="#think-in-terms-of-streams" aria-hidden="true"><span class="octicon octicon-link"></span></a>Think in terms of Streams</h2>
+
+<p>Streams make your code really really tiny and give much better performance. Streams do have a learning curve but are worth it.</p>
+
+<p><em>(swap in a stream() for parallelStream() and you just went Super Saiyan 3)</em></p>
+
+<iframe width="854" height="480" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Ft1-YZ6bF-g0%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt1-YZ6bF-g0&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Ft1-YZ6bF-g0%2Fhqdefault.jpg&amp;key=d04bfffea46d4aeda930ec88cc64b87c&amp;type=text%2Fhtml&amp;schema=youtube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>Though the implementation of Java streams and having a single line list comprehension in Python are very different, they are similar in terms of style of code.</p>
+
+<iframe width="854" height="480" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FAhSvKGTh28Q%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAhSvKGTh28Q&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FAhSvKGTh28Q%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="create-and-use-base-classes">
+<a class="anchor" href="#create-and-use-base-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create and use base classes</h2>
+
+<p>Base classes are an excellent way to avoid duplications. Make them as generic as possible.</p>
+
+<p><strong>Previous</strong>: <a href="/clean%20code/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html">Make database do the heavy lifting</a></p>
+
+<p><strong>Next</strong>: <a href="/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html">Avoid inventing algorithms and data structures</a></p>
+
+<p><strong>Index</strong>: <a href="/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html">Tips on writing Clean Code</a></p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="ankschoubey/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/code_cleanup/" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Random Thoughts</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/ankschoubey" title="ankschoubey"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/ankschoubey" title="ankschoubey"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
