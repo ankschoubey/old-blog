@@ -8,6 +8,6 @@ This is where you put the contents of your *About* page. Like all your pages, it
 
 This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
 
-
+<script> window.location.href = '/' </script>
 
 [^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
