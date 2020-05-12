@@ -1,9 +1,9 @@
 ---
 toc: true
 layout: post
-description: Steal like a programmer (especially for maths)
+description: especially for maths
 categories: [Clean Code]
-title: Know thy complexities, data structures and avoid inventing algorithms
+title: Avoid inventing algorithms and data structures
 permalink: /complexity/
 ---
 
