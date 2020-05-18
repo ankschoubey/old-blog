@@ -8,7 +8,7 @@ title: Clean Code Resources and Tools
 permalink: /clean_code_tools/
 ---
 
-**Index**: [Tips on writing Clean Code]({{ site.baseurl }}/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html)
+**Index**: [Tips on writing Clean Code]({{ site.baseurl }}/clean_code/)
 
 #### Linters
 
