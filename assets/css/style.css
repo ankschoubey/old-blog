@@ -485,4 +485,6 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .site-header { border-bottom: 0px; }
 
+.site-title { color: #42424200 !important; background-image: url("/images/logo.png"); background-size: contain; background-repeat: no-repeat; background-position: center; }
+
 /*# sourceMappingURL=style.css.map */
