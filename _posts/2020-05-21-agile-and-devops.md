@@ -7,7 +7,7 @@ layout: post
 use_math: true
 permalink: /agile_devops/
 ---
-Agile and DevOps are useful and also buzz words depending on who you hear it from.
+Agile and DevOps are useful or buzz words depending on who you hear it from.
 
 The 2 can be thought of as effectiveness and efficiency respectively.
 
