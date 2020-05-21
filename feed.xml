@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-18T13:35:30-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Clean Code Resources and Tools</title><link href="www.ankushchoubey.com/clean_code_tools/" rel="alternate" type="text/html" title="Clean Code Resources and Tools" /><published>2020-05-11T00:00:00-05:00</published><updated>2020-05-11T00:00:00-05:00</updated><id>www.ankushchoubey.com/resources-clean-code</id><content type="html" xml:base="www.ankushchoubey.com/clean_code_tools/">&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/clean_code/&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-21T03:30:36-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Agile and DevOps</title><link href="www.ankushchoubey.com/agile_devops/" rel="alternate" type="text/html" title="Agile and DevOps" /><published>2020-05-21T00:00:00-05:00</published><updated>2020-05-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/agile-and-devops</id><content type="html" xml:base="www.ankushchoubey.com/agile_devops/">&lt;p&gt;Agile and DevOps are useful and also buzz words depending on who you hear it from.&lt;/p&gt;
+
+&lt;p&gt;The 2 can be thought of as effectiveness and efficiency respectively.&lt;/p&gt;
+
+&lt;p&gt;Agile: What to do.
+DevOps: How to do.&lt;/p&gt;
+
+&lt;p&gt;DevOps deals with reducing developer’s headaches by setting up processes and environment (+ mindset) to produce high quality software. It can be useful to think of DevOps as an &lt;a href=&quot;https://www.instana.com/media/ci-cd-loop-1024x456.png&quot;&gt;infinity loop&lt;/a&gt; which only developers deal with.&lt;/p&gt;
+
+&lt;p&gt;A high quality software is the once that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;get’s built faster&lt;/li&gt;
+  &lt;li&gt;allows for quicker change&lt;/li&gt;
+  &lt;li&gt;has low/no visible bugs or chances of introducing bugs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is important for organisations to deliver new features faster and keep their software up to date.  The speed of this software delivery will determine how fast the companies makes changes.&lt;/p&gt;
+
+&lt;p&gt;A feature can only be useful when it is delivered.&lt;/p&gt;
+
+&lt;p&gt;But more important that it needs to be the right feature. That’s where Agile comes in.&lt;/p&gt;
+
+&lt;p&gt;It helps in knowing and understanding requirements quickly and effectively and get user feedback.&lt;/p&gt;
+
+&lt;p&gt;Agile involves everyone. It does not matter is someone is technical or not.&lt;/p&gt;
+
+&lt;p&gt;While the names Agile and DevOps are good, it can be good to think them of as general principles and not as hard rules to follow.&lt;/p&gt;
+
+&lt;p&gt;Doing so is the opposite of what they mean. Don’t become text book expert. Text book people who do Agile or DevOps always suggest doing the opposite of what’s practical or needed.&lt;/p&gt;
+
+&lt;p&gt;You might see many versions of both: Scrum/XP - SRE 🤘🏼 but all essentials mean the same thing. It is easier to think of them abstractly.&lt;/p&gt;
+
+&lt;p&gt;And for god’s sake, DevOps is not just tools.&lt;/p&gt;</content><author><name></name></author><summary type="html">Agile and DevOps are useful and also buzz words depending on who you hear it from.</summary></entry><entry><title type="html">Clean Code Resources and Tools</title><link href="www.ankushchoubey.com/clean_code_tools/" rel="alternate" type="text/html" title="Clean Code Resources and Tools" /><published>2020-05-11T00:00:00-05:00</published><updated>2020-05-11T00:00:00-05:00</updated><id>www.ankushchoubey.com/resources-clean-code</id><content type="html" xml:base="www.ankushchoubey.com/clean_code_tools/">&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/clean_code/&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;linters&quot;&gt;Linters&lt;/h4&gt;
 
@@ -1112,204 +1144,4 @@ Unless explicitly silenced.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2020/01/06/clean-code-leave-it-better-than-you-found-it.html&quot;&gt;Leave code better than you found it.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Errors should never pass silently. Unless explicitly silenced.</summary></entry><entry><title type="html">Remove un-necessary code</title><link href="www.ankushchoubey.com/code_cleanup/" rel="alternate" type="text/html" title="Remove un-necessary code" /><published>2020-01-04T00:00:00-06:00</published><updated>2020-01-04T00:00:00-06:00</updated><id>www.ankushchoubey.com/clean-code-remove-un-necessary-code</id><content type="html" xml:base="www.ankushchoubey.com/code_cleanup/">&lt;h2 id=&quot;declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once&quot;&gt;Declare the local variable as close to where it is used and remove un-necessary once&lt;/h2&gt;
-
-&lt;p&gt;Local variables declared at some different place makes it harder to read the code.&lt;/p&gt;
-
-&lt;h3 id=&quot;example&quot;&gt;Example:&lt;/h3&gt;
-
-&lt;p&gt;Below are the variations of aRandomFunction which does a bunch of operations (skipped by dots) and on completion returns “Hello” along with the date.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/1.png&quot; alt=&quot;Bad&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The local variables &lt;strong&gt;names&lt;/strong&gt; and &lt;strong&gt;date&lt;/strong&gt; are declared on top of the functions.&lt;/p&gt;
-
-&lt;p&gt;The first usage of the functions are somewhere between the function and the last usage is in the return statement.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/2.png&quot; alt=&quot;Better. 2 lines saved.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here &lt;strong&gt;name&lt;/strong&gt; and &lt;strong&gt;date&lt;/strong&gt; variables are moved to where they are first used.&lt;/p&gt;
-
-&lt;p&gt;Let’s say after moving we realize that we do not use the variables between the code, we just use it during return.&lt;/p&gt;
-
-&lt;p&gt;So we should move it near the return statement:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/3.png&quot; alt=&quot;Even Better&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;just-return-it-dont-store&quot;&gt;Just return it. Don’t store&lt;/h2&gt;
-
-&lt;p&gt;Continuing from the previous example:&lt;/p&gt;
-
-&lt;p&gt;Storing in a variable is un-necessary is it is never used.&lt;/p&gt;
-
-&lt;p&gt;Rather than storing “hello” in name and a new date in date, we should just return it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;remove-commented-code&quot;&gt;Remove commented code&lt;/h2&gt;
-
-&lt;p&gt;In case you do need to refer to the exact code you can always check it in your version control.&lt;/p&gt;
-
-&lt;h2 id=&quot;remove-functions-and-variables-which-you-do-not-use&quot;&gt;Remove functions and variables which you do not use.&lt;/h2&gt;
-
-&lt;h2 id=&quot;variable-argument-lengths&quot;&gt;Variable argument lengths&lt;/h2&gt;
-
-&lt;h4 id=&quot;python-args-kwargs-more-than-just-variable-length-argument&quot;&gt;Python: *args, **kwargs (more than just variable-length argument)&lt;/h4&gt;
-
-&lt;p&gt;Java also has an implementation for &lt;a href=&quot;https://www.youtube.com/watch?v=BFL1oWnEO2k&quot;&gt;variable length arguments&lt;/a&gt; but they are not as elegant as Python implementation. Therefore, a list as an argument might be better suited.&lt;/p&gt;
-
-&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FWcTXxX3vYgY%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWcTXxX3vYgY&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FWcTXxX3vYgY%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;default-arguments&quot;&gt;Default Arguments&lt;/h2&gt;
-
-&lt;p&gt;Python and Typescript both support default function arguments.&lt;/p&gt;
-
-&lt;p&gt;While not officially supported in Java, one can work around the builder pattern to get similar functionality.&lt;/p&gt;
-
-&lt;p&gt;![Source: &lt;a href=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/5.png&quot;&gt;Managing Constructor with many parameters&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;use-annotationsdecorators&quot;&gt;Use annotations/decorators&lt;/h2&gt;
-
-&lt;p&gt;Annotations extend the functionality of your function dynamically and reduce the size of the code dramatically.&lt;/p&gt;
-
-&lt;h3 id=&quot;python-decorators&quot;&gt;Python: Decorators&lt;/h3&gt;
-
-&lt;p&gt;In python, these are called decorators.&lt;/p&gt;
-
-&lt;p&gt;Python 3.7+ also has &lt;strong&gt;@ dataclass **annotation which auto-generates constructor, **str&lt;/strong&gt; and &lt;strong&gt;repr&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Relevant Links:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://realpython.com/primer-on-python-decorators/&quot;&gt;&lt;em&gt;Primer on Python Decorator&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Source: &lt;code class=&quot;highlighter-rouge&quot;&gt;[functools](https://docs.python.org/2/library/functools.html#module-functools)&lt;/code&gt; — Higher-order functions and operations on a callable object&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://realpython.com/python-data-classes/&quot;&gt;&lt;em&gt;The Ultimate Guide to Data Classes in Python 3.7&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PNpt7cFjGsM&quot;&gt;&lt;em&gt;Method Types in Python OOP: @classmethod, @staticmethod, and Instance Methods&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;spring-boot-java&quot;&gt;Spring Boot (Java)&lt;/h3&gt;
-
-&lt;p&gt;![Source: &lt;a href=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/6.png&quot;&gt;Spring Annotations Cheat Sheet&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;java-for-jpa&quot;&gt;Java: For JPA&lt;/h3&gt;
-
-&lt;p&gt;No need to write @Column over your entity’s variables. By default, camelCase is substituted with snake_case.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;lookupId =&amp;gt; lookup_id&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;You can change these using &lt;a href=&quot;https://www.baeldung.com/hibernate-naming-strategy&quot;&gt;naming strategies&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;java-map-using-mapper-dont-create-your-own-logic&quot;&gt;Java: Map using Mapper. Don’t create your own logic.&lt;/h3&gt;
-
-&lt;p&gt;There are many &lt;a href=&quot;https://www.baeldung.com/java-performance-mapping-frameworks&quot;&gt;mapping frameworks in Java&lt;/a&gt; that can make the task of converting one object to another much much easier. This can be especially helpful when you want to convert your @Entity to a DTO object.&lt;/p&gt;
-
-&lt;h3 id=&quot;java-project-lombok-to-avoid-boilerplate&quot;&gt;Java: Project Lombok to avoid boilerplate&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;@Getter and @Setter&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;@NonNull&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;@ToString&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;@EqualsAndHashCode&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;@Data&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;@Cleanup&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;@Synchronized&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;@SneakyThrows&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The good thing is that it is present is &lt;a href=&quot;https://start.spring.io/&quot;&gt;SpringInitializer&lt;/a&gt;. Just click the Project Lombok option.&lt;/p&gt;
-
-&lt;p&gt;With this, the size of your java code will reduce dramatically.&lt;/p&gt;
-
-&lt;h2 id=&quot;remove-duplicates&quot;&gt;Remove duplicates&lt;/h2&gt;
-
-&lt;p&gt;Linters will provide you a list of duplicate codes. Shove it into a function/method.&lt;/p&gt;
-
-&lt;h3 id=&quot;use-existinginbuilt-methods-rather-than-new-once&quot;&gt;Use existing/inbuilt methods rather than new once&lt;/h3&gt;
-
-&lt;p&gt;This goes back to not inventing new algorithms. If something is already made, don’t make it again. Reuse it. &lt;em&gt;(Link — Clean Code: &lt;a href=&quot;https://medium.com/@ankushchoubey/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for-43dfcff10bcd&quot;&gt;Know thy complexities&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Probably a bad example #1 of reuse:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Below is a very complex function. One of them works with List and other with an array but that is the only difference in implementation.&lt;/p&gt;
-
-&lt;p&gt;The bad approach is creating the same logic to work with different data structures.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A better approach is to have one main logic function and convert one data structure to another and then call the main one.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We can also take advantage of having the same name for both the functions which means less to remember.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Probably a bad example #2 of reuse:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This is similar to the above.&lt;/p&gt;
-
-&lt;p&gt;Here suppose you already have a complex function that works on a list of integers, and now you have to make a similar one to work on a single int.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;single-line-boolean-evaluation&quot;&gt;Single line boolean evaluation&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-04-clean-code-remove-un-necessary-code/11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;think-in-terms-of-streams&quot;&gt;Think in terms of Streams&lt;/h2&gt;
-
-&lt;p&gt;Streams make your code really really tiny and give much better performance. Streams do have a learning curve but are worth it.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(swap in a stream() for parallelStream() and you just went Super Saiyan 3)&lt;/em&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Ft1-YZ6bF-g0%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt1-YZ6bF-g0&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Ft1-YZ6bF-g0%2Fhqdefault.jpg&amp;amp;key=d04bfffea46d4aeda930ec88cc64b87c&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Though the implementation of Java streams and having a single line list comprehension in Python are very different, they are similar in terms of style of code.&lt;/p&gt;
-
-&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FAhSvKGTh28Q%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAhSvKGTh28Q&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FAhSvKGTh28Q%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;create-and-use-base-classes&quot;&gt;Create and use base classes&lt;/h2&gt;
-
-&lt;p&gt;Base classes are an excellent way to avoid duplications. Make them as generic as possible.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2019/12/22/clean-code-4-make-the-database-do-the-heavy-lifting.html&quot;&gt;Make database do the heavy lifting&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Declare the local variable as close to where it is used and remove un-necessary once</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Errors should never pass silently. Unless explicitly silenced.</summary></entry></feed>
