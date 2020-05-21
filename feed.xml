@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-21T03:38:37-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Agile and DevOps</title><link href="www.ankushchoubey.com/agile_devops/" rel="alternate" type="text/html" title="Agile and DevOps" /><published>2020-05-21T00:00:00-05:00</published><updated>2020-05-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/agile-and-devops</id><content type="html" xml:base="www.ankushchoubey.com/agile_devops/">&lt;p&gt;Agile and DevOps are useful and also buzz words depending on who you hear it from.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-21T06:56:06-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Agile and DevOps</title><link href="www.ankushchoubey.com/agile_devops/" rel="alternate" type="text/html" title="Agile and DevOps" /><published>2020-05-21T00:00:00-05:00</published><updated>2020-05-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/agile-and-devops</id><content type="html" xml:base="www.ankushchoubey.com/agile_devops/">&lt;p&gt;Agile and DevOps are useful and also buzz words depending on who you hear it from.&lt;/p&gt;
 
 &lt;p&gt;The 2 can be thought of as effectiveness and efficiency respectively.&lt;/p&gt;
 
-&lt;p&gt;Agile: What to do.
-DevOps: How to do.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Agile&lt;/strong&gt;: What to do. 
+&lt;strong&gt;DevOps&lt;/strong&gt;: How to do.&lt;/p&gt;
 
-&lt;p&gt;DevOps deals with reducing the developer’s headaches by setting up processes and environments (+ mindset) to produce high-quality software. It can be useful to think of DevOps as an &lt;a href=&quot;https://www.instana.com/media/ci-cd-loop-1024x456.png&quot;&gt;infinity loop&lt;/a&gt; which only developers deal with.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;DevOps deals with reducing the developer’s headaches by setting up processes and environments (+ mindset) to produce high-quality software. It can be useful to think of DevOps as an  &lt;a href=&quot;https://www.instana.com/media/ci-cd-loop-1024x456.png&quot;&gt;infinity loop&lt;/a&gt;  which only developers deal with.&lt;/p&gt;
 
 &lt;p&gt;High-quality software is the once that:&lt;/p&gt;
 &lt;ul&gt;
@@ -14,7 +16,9 @@ DevOps: How to do.&lt;/p&gt;
   &lt;li&gt;has low/no visible bugs or chances of introducing bugs&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;It is important for organizations to deliver new features faster and keep their software up to date.  The speed of this software delivery will determine how fast the companies make changes.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;It is important for organizations to deliver new features faster and keep their software up to date. The speed of this software delivery will determine how fast the companies make changes.&lt;/p&gt;
 
 &lt;p&gt;A feature can only be useful when it is delivered.&lt;/p&gt;
 
@@ -24,7 +28,9 @@ DevOps: How to do.&lt;/p&gt;
 
 &lt;p&gt;Agile involves everyone. It does not matter is someone is technical or not.&lt;/p&gt;
 
-&lt;p&gt;While the names Agile and DevOps are good, it can be good to think them of as general principles and not as hard rules to follow.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;While Agile and DevOps are considered divine, it can be good to think them of as general principles and not as hard rules to follow.&lt;/p&gt;
 
 &lt;p&gt;Doing so is the opposite of what they mean. Don’t become a textbook expert. Textbook people who do Agile or DevOps always suggest doing the opposite of what’s practical or needed.&lt;/p&gt;
 
