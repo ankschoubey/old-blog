@@ -11,10 +11,8 @@ Agile and DevOps are useful or buzz words depending on who you hear it from.
 
 The 2 can be thought of as effectiveness and efficiency respectively.
 
-**Agile**: What to do. 
-**DevOps**: How to do.
-
 ***
+## **DevOps**: How to do.
 
 DevOps deals with reducing the developer’s headaches by setting up processes and environments (+ mindset) to produce high-quality software. It can be useful to think of DevOps as an  [infinity loop](https://www.instana.com/media/ci-cd-loop-1024x456.png)  which only developers deal with.
 
@@ -23,9 +21,12 @@ High-quality software is the once that:
 -   allows for quicker change
 -   has low/no visible bugs or chances of introducing bugs
 
-*** 
+
 
 It is important for organizations to deliver new features faster and keep their software up to date. The speed of this software delivery will determine how fast the companies make changes.
+
+***
+## **Agile**: What to do.
 
 A feature can only be useful when it is delivered.
 
@@ -36,6 +37,8 @@ It helps in knowing and understanding requirements quickly and effectively and g
 Agile involves everyone. It does not matter is someone is technical or not.
 
 ***
+
+## **Textbook**: What to not do.
 
 While Agile and DevOps are considered divine, it can be good to think them of as general principles and not as hard rules to follow.
 
