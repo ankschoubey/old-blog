@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-28T10:58:28-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Deciding to learn a \(programming) topic</title><link href="www.ankushchoubey.com/new_tech/" rel="alternate" type="text/html" title="Deciding to learn a \(programming) topic" /><published>2020-05-25T00:00:00-05:00</published><updated>2020-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/deciding-to-learn-a-new-programming-topic</id><content type="html" xml:base="www.ankushchoubey.com/new_tech/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-28T11:11:38-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Deciding to learn a \(programming) topic</title><link href="www.ankushchoubey.com/new_tech/" rel="alternate" type="text/html" title="Deciding to learn a \(programming) topic" /><published>2020-05-25T00:00:00-05:00</published><updated>2020-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/deciding-to-learn-a-new-programming-topic</id><content type="html" xml:base="www.ankushchoubey.com/new_tech/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
    &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
    &lt;span class=&quot;Toast-content&quot;&gt;I am writing this as a &lt;strong&gt;reference to my future self&lt;/strong&gt; and so &lt;strong&gt;it is highly biased&lt;/strong&gt;. &lt;br /&gt;&lt;br /&gt;May be someone else finds this helpful too.&lt;/span&gt;
 &lt;/div&gt;
@@ -49,7 +49,7 @@
   &lt;li&gt;does not add any new benefit&lt;/li&gt;
   &lt;li&gt;it’s old/outdated&lt;/li&gt;
   &lt;li&gt;if I’ll likely never use it&lt;/li&gt;
-  &lt;li&gt;not proprietary technology&lt;/li&gt;
+  &lt;li&gt;proprietary technology&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;So&lt;/strong&gt;,&lt;/p&gt;
@@ -75,11 +75,11 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;I try not to learn something just to add to resume or to list of things that just sound cool.&lt;/p&gt;
+&lt;p&gt;I try not to learn something just to add to resume or to list of things that just sound cool (sometimes I do).&lt;/p&gt;
 
 &lt;p&gt;I usually spend months deciding.&lt;/p&gt;
 
-&lt;p&gt;YouTube videos and written articles are great help when deciding.&lt;/p&gt;</content><author><name></name></author><summary type="html">I am writing this as a reference to my future self and so it is highly biased. May be someone else finds this helpful too.</summary></entry><entry><title type="html">Agile and DevOps</title><link href="www.ankushchoubey.com/agile_devops/" rel="alternate" type="text/html" title="Agile and DevOps" /><published>2020-05-21T00:00:00-05:00</published><updated>2020-05-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/agile-and-devops</id><content type="html" xml:base="www.ankushchoubey.com/agile_devops/">&lt;p&gt;Agile and DevOps are useful or buzz words depending on who you hear it from.&lt;/p&gt;
+&lt;p&gt;YouTube videos and written articles have been great help when deciding.&lt;/p&gt;</content><author><name></name></author><summary type="html">I am writing this as a reference to my future self and so it is highly biased. May be someone else finds this helpful too.</summary></entry><entry><title type="html">Agile and DevOps</title><link href="www.ankushchoubey.com/agile_devops/" rel="alternate" type="text/html" title="Agile and DevOps" /><published>2020-05-21T00:00:00-05:00</published><updated>2020-05-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/agile-and-devops</id><content type="html" xml:base="www.ankushchoubey.com/agile_devops/">&lt;p&gt;Agile and DevOps are useful or buzz words depending on who you hear it from.&lt;/p&gt;
 
 &lt;p&gt;The 2 can be thought of as effectiveness and efficiency respectively.&lt;/p&gt;
 
@@ -382,7 +382,13 @@ We have computers in the 21st century.&lt;/p&gt;
 
 &lt;p&gt;This is a fast-changing field. 2-year-old stuff is mostly irrelevant.&lt;/p&gt;
 
-&lt;p&gt;Recommended Course: &lt;a href=&quot;https://www.fast.ai/&quot;&gt;https://www.fast.ai/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It is probably good to mix your learnings from multiple sources.&lt;/p&gt;
+
+&lt;p&gt;Recommended Course:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Top Down Approach: &lt;a href=&quot;https://www.fast.ai/&quot;&gt;https://www.fast.ai/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Bottom Up Approach: &lt;a href=&quot;https://www.coursera.org/specializations/deep-learning&quot;&gt;Andrew Ng’s Coursera Course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Recommended next read: &lt;a href=&quot;https://hackernoon.com/how-not-to-do-fast-ai-or-any-ml-mooc-3d34a7e0ab8c&quot; target=&quot;_blank&quot;&gt;How not to do Fast.ai (or any ML MOOC)&lt;/a&gt;&lt;/p&gt;
 
