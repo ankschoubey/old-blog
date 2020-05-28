@@ -40,7 +40,7 @@ Like: My pandas (python) skills helped me a lot during new SQL problems.
 - does not add any new benefit
 - it's old/outdated
 - if I'll likely never use it
-- not proprietary technology
+- proprietary technology
 
 **So**,
 - no AngularJS after learning Angular.
@@ -61,8 +61,8 @@ But most exceptions occur where I either had to do it or see a benefit that is t
 
 ***
 
-I try not to learn something just to add to resume or to list of things that just sound cool.
+I try not to learn something just to add to resume or to list of things that just sound cool (sometimes I do).
 
 I usually spend months deciding.
 
-YouTube videos and written articles are great help when deciding.
+YouTube videos and written articles have been great help when deciding.
