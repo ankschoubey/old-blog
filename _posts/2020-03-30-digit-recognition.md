@@ -110,14 +110,14 @@ Here are the 4 steps to create a basic training loop
 1. **Loop epoch number of times**
 
 ```python
-for i **in** range(epochs):
+for i in range(epochs):
     ...
 ```
 
 2. Inside the epoch loop, **loop through data loader** (dl)
 
 ```python
-for images, labels **in** dl:
+for images, labels in dl:
     ...
 ```
 
