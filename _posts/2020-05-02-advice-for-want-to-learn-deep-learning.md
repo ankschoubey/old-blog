@@ -43,7 +43,7 @@ Learn from the latest courses and use the latest tools.
 
 This is a fast-changing field. 2-year-old stuff is mostly irrelevant.
 
-It is probably good to mix your learnings from multiple sources.
+It is probably good to mix your learning from multiple sources.
 
 Recommended Course:
 - Top Down Approach: [https://www.fast.ai/](https://www.fast.ai/) 
