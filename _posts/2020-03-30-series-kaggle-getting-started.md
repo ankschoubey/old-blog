@@ -64,6 +64,6 @@ o = optimizer
 
 ## Index
 
-1. [Digit Recognition]({{ site.baseurl }}/deep%20learning/kaggle/2020/03/30/digit-recognition.html)
+1. [Digit Recognition]({{ site.baseurl }}/mnist)
 2. Facial Keypoints Detection - *in progress*
 
