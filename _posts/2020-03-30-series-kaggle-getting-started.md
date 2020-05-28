@@ -52,7 +52,7 @@ This way one can see get a peek behind the finished product.
 
 ## Abbreviations Used
 
-```
+```python
 X = training_data
 y = training_label
 

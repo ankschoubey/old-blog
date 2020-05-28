@@ -35,7 +35,7 @@ My goal for any first commit is always to get input, pass it through a NN and ge
 
 #### Read the data
 
-```
+```python
 train_df = pd.read_csv('/kaggle/input/digit-recognizer/train.csv')
 ```
 
@@ -47,7 +47,7 @@ So the easiest way was to not select a column named ‘label’.
 
 _test_df_ does not contain a label column
 
-```
+```python
 train_df.loc[:, train_df.columns != 'label']
 type(test_df.get('label')) == None
 #false
@@ -57,8 +57,8 @@ type(test_df.get('label')) == None
 
 Returns features and labels if ‘train=True’. else it returns just features
 
-```
-class **MnistDataset**(Dataset):
+```python
+class MnistDataset(Dataset):
     def __init__(self, df, train=True):
         #convert df to self.X and self.y using above
 
@@ -74,7 +74,7 @@ Observation: Even if I don’t explicitly mention Tensor, NumPy is converted to 
 
 #### Creating DataLoader
 
-```
+```python
 bs = 64
 ds = MnistDataset(train_df)
 dl = DataLoader(ds, bs)
@@ -82,7 +82,7 @@ dl = DataLoader(ds, bs)
 
 #### Checking if DataLoader returns the right output
 
-```
+```python
 images, labels = next(iter(dl))
 images.shape, labels.shape
 ```
@@ -95,7 +95,7 @@ The details don’t matter much. This will be replaced by a CNN later.
 
 #### Preparing the training loop
 
-```
+```python
 epochs = 10
 loss_fn = nn.CrossEntropyLoss()
 
@@ -109,14 +109,14 @@ Here are the 4 steps to create a basic training loop
 
 1. **Loop epoch number of times**
 
-```
+```python
 for i **in** range(epochs):
     ...
 ```
 
 2. Inside the epoch loop, **loop through data loader** (dl)
 
-```
+```python
 for images, labels **in** dl:
     ...
 ```
@@ -127,7 +127,7 @@ for images, labels **in** dl:
 
 - Take an **optimizer step after pushing data** through NN.
 
-```
+```python
 o.zero_grad()
 ...
 o.step()
@@ -135,7 +135,7 @@ o.step()
 
 4. Between optimizer zero_grad and optimizer step, **pass data through the NN, compute loss and gradients.**
 
-```
+```python
 out = net(images.float())
 loss = loss_fn(out.float(), labels.long())
 loss.backward()
@@ -151,7 +151,7 @@ The only difference,
 
 - code to not calculate gradients since we are not training.
 
-```
+```python
 with torch.no_grad():
     ...
 ```
@@ -162,13 +162,13 @@ with torch.no_grad():
 
 - The maximum of this array is our output.
 
-```
+```python
 out.argmax(dim=1)
 ```
 
 We store these outputs in an **outputs** python list.
 
-```
+```python
 test_df.shape, sample_df.shape
 # Out[17]: ((28000, 784), (28000, 2))
 ```
@@ -177,7 +177,7 @@ test_df.shape, sample_df.shape
 
 - I just need to add ‘Label’ column to the submission data frame and save it in CSV form.
 
-```
+```python
 sample_df['Label'] = outputs
 sample_df.to_csv('submission.csv', index=False)
 ```
@@ -200,7 +200,7 @@ Accuracy should always be calculated on the validation set.
 
 **_Creating a separate validation set_**
 
-```
+```python
 val_len = int(len(ds)*0.01) # 0.01 percent of data
 train_len = len(ds) — val_len # all other are in training
 
@@ -211,7 +211,7 @@ train_ds, val_ds = random_split(ds, [train_len, val_len])
 
 Likewise, 2 data loaders are created.
 
-```
+```python
 bs = 64
 train_dl = DataLoader(train_ds, bs)
 val_dl = DataLoader(val_ds, bs)
@@ -221,7 +221,7 @@ val_dl = DataLoader(val_ds, bs)
 
 A separate list called accuracies in created to store the accuracy of an epoch.
 
-```
+```python
 ...
 with torch.no_grad():
         accuracy = 0
@@ -235,7 +235,7 @@ with torch.no_grad():
 
 Since the accuracy of each epoch was stored in a separate accuracies list, creating a graph was easy.
 
-```
+```python
 import matplotlib.pyplot as plt
 
 plt.plot(range(epochs), accuracies)
@@ -251,7 +251,7 @@ Since MNIST images are in the range of 1…250 the easiest thing to do was to di
 
 Ideally, the range should be around 0 so an even better approach would be
 
-```
+```python
 image = image/250–0.5
 ```
 
@@ -275,7 +275,7 @@ Convolutional Neural Networks are ideal images.
 
 ResNet 34 is my goto ConvNet but since MNIST is so easy, I went with ResNet 18.
 
-```
+```python
 import torchvision.models as models
 resnet18 = models.resnet18(pretrained=True)
 resnet18.fc #print fully connected network
@@ -283,7 +283,7 @@ resnet18.fc #print fully connected network
 
 ResNet is designed to output 1000 classes. But our output is from 0…9 aka 10 classes.
 
-```
+```python
 lin_in = resnet18.fc.in_features
 
 import torch.nn as nn
@@ -298,8 +298,8 @@ resnet18.fc = nn.Sequential(
 
 ResNet expects RGB images. MNIST is grayscale.
 
-```
-`img = img.view(3, 28, 28).expand(3, 28, 28)`
+```python
+img = img.view(3, 28, 28).expand(3, 28, 28)`
 ```
 
 This [grayscale to the RGB](https://discuss.pytorch.org/t/grayscale-to-rgb-transform/18315/7) line is added to our Dataset class.
@@ -308,7 +308,7 @@ This [grayscale to the RGB](https://discuss.pytorch.org/t/grayscale-to-rgb-trans
 
 When using an existing model, we need to use the same normalization values as that model. The [docs mention the normalization value](#https://pytorch.org/docs/stable/torchvision/models.html).
 
-```
+```python
 import  torchvision.transforms as transforms
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                  std=[0.229, 0.224, 0.225])
@@ -324,7 +324,7 @@ One I started the training loop, I realized it suddenly became too slow.
 
 GPU is needed!
 
-```
+```python
 device = torch.device('cuda:0') if torch.cuda.is_available() else 'cpu'
 ```
 
@@ -332,7 +332,7 @@ If the GPU is on, the device will be _cuda_.
 
 The neural network and the data in training, validation and texting loop have been changed to run on GPU.
 
-```
+```python
 net = net.to(device)
 ...
 
@@ -349,7 +349,7 @@ I did the same for [num_worker](https://discuss.pytorch.org/t/guidelines-for-ass
 
 Along with monitoring GPU and CPU usage, I modified training_loop to show the [amount of time taken to complete each epoch](https://stackoverflow.com/a/36423341).
 
-```
+```python
 bs = 512
 num_workers = 2
 train_dl = DataLoader(train_ds, bs, num_workers=num_workers)
@@ -374,7 +374,7 @@ nn.CrossEntropyLoss has nn.Softmax built-in and the results of softmax are not u
 
 Now FC is this:
 
-```
+```python
 lin_in = resnet18.fc.in_features
 
 import torch.nn as nn
