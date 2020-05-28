@@ -43,7 +43,11 @@ Learn from the latest courses and use the latest tools.
 
 This is a fast-changing field. 2-year-old stuff is mostly irrelevant.
 
-Recommended Course: [https://www.fast.ai/](https://www.fast.ai/)
+It is probably good to mix your learnings from multiple sources.
+
+Recommended Course:
+- Top Down Approach: [https://www.fast.ai/](https://www.fast.ai/) 
+- Bottom Up Approach: [Andrew Ng's Coursera Course](https://www.coursera.org/specializations/deep-learning)
 
 Recommended next read: <a href="https://hackernoon.com/how-not-to-do-fast-ai-or-any-ml-mooc-3d34a7e0ab8c" target="_blank">How not to do Fast.ai (or any ML MOOC)</a>
 
