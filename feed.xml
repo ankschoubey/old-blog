@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-05-28T11:25:53-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Deciding to learn a \(programming) topic</title><link href="www.ankushchoubey.com/new_tech/" rel="alternate" type="text/html" title="Deciding to learn a \(programming) topic" /><published>2020-05-25T00:00:00-05:00</published><updated>2020-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/deciding-to-learn-a-new-programming-topic</id><content type="html" xml:base="www.ankushchoubey.com/new_tech/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-06-01T14:45:33-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Writing motivation</title><link href="www.ankushchoubey.com/write/" rel="alternate" type="text/html" title="Writing motivation" /><published>2020-05-31T00:00:00-05:00</published><updated>2020-05-31T00:00:00-05:00</updated><id>www.ankushchoubey.com/writing-motivation</id><content type="html" xml:base="www.ankushchoubey.com/write/">&lt;p&gt;This is collections of posts/ideas I have come across over the years.&lt;/p&gt;
+
+&lt;p&gt;Similar to &lt;a href=&quot;/math&quot;&gt;Math motivation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;writing-is-thinking&quot;&gt;Writing is thinking&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Writing is learning how to think. Writing is a reflection of your thoughts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;to-write-better-you-dont-have-to-become-a-writer&quot;&gt;To write better, you don’t have to become a “writer”&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Grammar is very small part of writing. The most important thing is having something useful to say.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The way to have something interesting to say is to go experience the world.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Improve your writing in every opportunity you get&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-less-words&quot;&gt;Use less words&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If it can be said in a blogpost, don’t write a book. If it can be said in a tweet, don’t write a blog post.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;One big idea per post&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don’t quote make it yours and say it yourself.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">This is collections of posts/ideas I have come across over the years.</summary></entry><entry><title type="html">Deciding to learn a \(programming) topic</title><link href="www.ankushchoubey.com/new_tech/" rel="alternate" type="text/html" title="Deciding to learn a \(programming) topic" /><published>2020-05-25T00:00:00-05:00</published><updated>2020-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/deciding-to-learn-a-new-programming-topic</id><content type="html" xml:base="www.ankushchoubey.com/new_tech/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
    &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
    &lt;span class=&quot;Toast-content&quot;&gt;I am writing this as a &lt;strong&gt;reference to my future self&lt;/strong&gt; and so &lt;strong&gt;it is highly biased&lt;/strong&gt;. &lt;br /&gt;&lt;br /&gt;May be someone else finds this helpful too.&lt;/span&gt;
 &lt;/div&gt;
@@ -118,7 +156,7 @@
 
 &lt;p&gt;You might see many versions of both: Scrum/XP - SRE 🤘🏼 but all essentials mean the same thing. It is easier to think of them abstractly.&lt;/p&gt;
 
-&lt;p&gt;And for god’s sake, DevOps is not just tools.&lt;/p&gt;</content><author><name></name></author><summary type="html">Agile and DevOps are useful or buzz words depending on who you hear it from.</summary></entry><entry><title type="html">Math motivation</title><link href="www.ankushchoubey.com/math_motivation/" rel="alternate" type="text/html" title="Math motivation" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/math-motivation</id><content type="html" xml:base="www.ankushchoubey.com/math_motivation/">&lt;p&gt;I have always been interested in &lt;strong&gt;🧮&lt;/strong&gt; even after failing twice at math exams during college.&lt;/p&gt;
+&lt;p&gt;And for god’s sake, DevOps is not just tools.&lt;/p&gt;</content><author><name></name></author><summary type="html">Agile and DevOps are useful or buzz words depending on who you hear it from.</summary></entry><entry><title type="html">Math motivation</title><link href="www.ankushchoubey.com/math/" rel="alternate" type="text/html" title="Math motivation" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/math-motivation</id><content type="html" xml:base="www.ankushchoubey.com/math/">&lt;p&gt;I have always been interested in &lt;strong&gt;🧮&lt;/strong&gt; even after failing twice at math exams during college.&lt;/p&gt;
 
 &lt;p&gt;I have been collecting a lot of notes on the topic since the last 6-8 months and recently the number of notes exponentially grew. (damn recommendation systems). Some I came up on my own.&lt;/p&gt;
 
@@ -368,7 +406,89 @@ We have computers in the 21st century.&lt;/p&gt;
 
 &lt;p&gt;Shoot me an email at &lt;a href=&quot;mailto:ankushchoubey@outlook.com&quot;&gt;ankushchoubey@outlook.com&lt;/a&gt; 😁&lt;/p&gt;
 
-&lt;p&gt;For questions or counter related to this post, write them in the comments below.&lt;/p&gt;</content><author><name></name></author><summary type="html">I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.</summary></entry><entry><title type="html">Digit Recognition</title><link href="www.ankushchoubey.com/mnist/" rel="alternate" type="text/html" title="Digit Recognition" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/digit-recognition</id><content type="html" xml:base="www.ankushchoubey.com/mnist/">&lt;hr /&gt;
+&lt;p&gt;For questions or counter related to this post, write them in the comments below.&lt;/p&gt;</content><author><name></name></author><summary type="html">I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.</summary></entry><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/kaggle_getting_started/" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/kaggle_getting_started/">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
+
+&lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Easy&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Less intimidating&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Less chance of getting stuck&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-we-will-do-it&quot;&gt;How we will do it?&lt;/h2&gt;
+
+&lt;h5 id=&quot;by&quot;&gt;&lt;strong&gt;By:&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;focusing on the process rather than just getting the output.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;starting with easier problems.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyTorch:&lt;a href=&quot;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&quot;&gt; A 60 Minute Blitz&lt;/a&gt;, &lt;a href=&quot;https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset&quot;&gt;Writing Custom Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;expectations-from-this-series&quot;&gt;Expectations from this series&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5–6 Hours per challenge or more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coding Style&lt;/strong&gt;:&lt;a href=&quot;https://docs.fast.ai/dev/style.html&quot;&gt; fastai coding style&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;While coding, no function takes 10 seconds.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Heavy use of %timeit%&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation Style&lt;/strong&gt;: Based on Kaggle Notebook Commits&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Notebook Commit 1&lt;/em&gt;: Will focus on getting input and output&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Next N-1 Commits&lt;/em&gt;: Will add new features/improvements. These will be linked.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Last Commit&lt;/em&gt;: Complete solution&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This way one can see get a peek behind the finished product.&lt;/p&gt;
+
+&lt;h2 id=&quot;abbreviations-used&quot;&gt;Abbreviations Used&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;training_data&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;training_label&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;ds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataloader&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;index&quot;&gt;Index&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/mnist&quot;&gt;Digit Recognition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Facial Keypoints Detection - &lt;em&gt;in progress&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">Digit Recognition</title><link href="www.ankushchoubey.com/mnist/" rel="alternate" type="text/html" title="Digit Recognition" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/digit-recognition</id><content type="html" xml:base="www.ankushchoubey.com/mnist/">&lt;hr /&gt;
 &lt;h3 id=&quot;how-to-read-this&quot;&gt;How to read this?&lt;/h3&gt;
 &lt;ol&gt;
   &lt;li&gt;
@@ -783,89 +903,7 @@ We have computers in the 21st century.&lt;/p&gt;
 
 &lt;p&gt;Index: &lt;a href=&quot;/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html&quot;&gt;Series - Kaggle Getting Started&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Next Post: []&lt;/p&gt;</content><author><name></name></author><summary type="html">How to read this? Skim through the Pre-requisites</summary></entry><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/kaggle_getting_started/" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/kaggle_getting_started/">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
-
-&lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Easy&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Less intimidating&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Less chance of getting stuck&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;how-we-will-do-it&quot;&gt;How we will do it?&lt;/h2&gt;
-
-&lt;h5 id=&quot;by&quot;&gt;&lt;strong&gt;By:&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;focusing on the process rather than just getting the output.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;starting with easier problems.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;PyTorch:&lt;a href=&quot;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&quot;&gt; A 60 Minute Blitz&lt;/a&gt;, &lt;a href=&quot;https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset&quot;&gt;Writing Custom Datasets&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;expectations-from-this-series&quot;&gt;Expectations from this series&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5–6 Hours per challenge or more.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Coding Style&lt;/strong&gt;:&lt;a href=&quot;https://docs.fast.ai/dev/style.html&quot;&gt; fastai coding style&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;While coding, no function takes 10 seconds.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Heavy use of %timeit%&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Explanation Style&lt;/strong&gt;: Based on Kaggle Notebook Commits&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Notebook Commit 1&lt;/em&gt;: Will focus on getting input and output&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Next N-1 Commits&lt;/em&gt;: Will add new features/improvements. These will be linked.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Last Commit&lt;/em&gt;: Complete solution&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This way one can see get a peek behind the finished product.&lt;/p&gt;
-
-&lt;h2 id=&quot;abbreviations-used&quot;&gt;Abbreviations Used&lt;/h2&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;training_data&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;training_label&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;ds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;dl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataloader&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;index&quot;&gt;Index&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;/mnist&quot;&gt;Digit Recognition&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Facial Keypoints Detection - &lt;em&gt;in progress&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">Kaggle CLI QA: How to download a particular folder</title><link href="www.ankushchoubey.com/kaggle_download_folder/" rel="alternate" type="text/html" title="Kaggle CLI QA: How to download a particular folder" /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/kaggle-cli-download-a-folder</id><content type="html" xml:base="www.ankushchoubey.com/kaggle_download_folder/">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@harshini2898/nice-article-c1eb575b0baf&quot;&gt;Harshini on Medium asks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Next Post: []&lt;/p&gt;</content><author><name></name></author><summary type="html">How to read this? Skim through the Pre-requisites</summary></entry><entry><title type="html">Kaggle CLI QA: How to download a particular folder</title><link href="www.ankushchoubey.com/kaggle_download_folder/" rel="alternate" type="text/html" title="Kaggle CLI QA: How to download a particular folder" /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/kaggle-cli-download-a-folder</id><content type="html" xml:base="www.ankushchoubey.com/kaggle_download_folder/">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@harshini2898/nice-article-c1eb575b0baf&quot;&gt;Harshini on Medium asks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Nice Article,&lt;/p&gt;
@@ -1113,73 +1151,4 @@ We have computers in the 21st century.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2020/01/06/clean-code-exception-handling.html&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Code is much more like a work of art/craft that people consider it.</summary></entry><entry><title type="html">Exception handling</title><link href="www.ankushchoubey.com/exception_handing/" rel="alternate" type="text/html" title="Exception handling" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/clean-code-exception-handling</id><content type="html" xml:base="www.ankushchoubey.com/exception_handing/">&lt;blockquote&gt;
-  &lt;p&gt;Errors should never pass silently.
-Unless explicitly silenced.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~The Zen of Python, by Tim Peters&lt;/p&gt;
-
-&lt;h2 id=&quot;create-custom-exception-classes&quot;&gt;Create custom exception classes&lt;/h2&gt;
-
-&lt;p&gt;Your exceptions should say exactly what went wrong. While those provided by programming languages are good, they are too general and are not specific to your codebase.&lt;/p&gt;
-
-&lt;p&gt;Oversimplified example:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Bad&lt;/strong&gt;: Exception(“number is smaller than 0”)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Better&lt;/strong&gt;: SpeedException(“Speed should not be smaller than 0”)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The reason you want to do this is that you can handle different types of exceptions in different ways and it is much easy to know exactly what went wrong from the logs.&lt;/p&gt;
-
-&lt;p&gt;In most programming languages creating exception is easy. Just inherit from the main Exception class which should be enough for most cases.&lt;/p&gt;
-
-&lt;p&gt;Custom Exception class also makes your logs easier to read.&lt;/p&gt;
-
-&lt;h2 id=&quot;always-know-why-you-are-catching-an-exception&quot;&gt;Always know why you are catching an exception…&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/1.png&quot; alt=&quot;TODO: Find and Add YouTube video attribution&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-or-just-dont-catch-it-throws-to-the-caller&quot;&gt;… or just don’t catch it (throws to the caller)&lt;/h2&gt;
-
-&lt;p&gt;if you are not going to do anything with the exception don’t catch it just throw it.&lt;/p&gt;
-
-&lt;p&gt;Don’t add throw exception in the catch block. Use &lt;strong&gt;throws while declaring the function instead&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;for-unsupported-operations&quot;&gt;For Unsupported Operations&lt;/h2&gt;
-
-&lt;p&gt;In if-else statements or switch cases, it is always good to have a default case which will execute if no other condition is true.&lt;/p&gt;
-
-&lt;p&gt;If something is not possible or not supported then:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;throw (Java): &lt;strong&gt;UnsupportedOperationException&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;raise (Python): &lt;strong&gt;NotImplementedError&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-exception-handling/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;global-exception-handling&quot;&gt;Global exception handling&lt;/h2&gt;
-
-&lt;p&gt;These allow you to have the same exception handling mechanism in case you have not explicitly handled the exception.&lt;/p&gt;
-
-&lt;p&gt;The most basic thing to do here is logging the exception.&lt;/p&gt;
-
-&lt;h3 id=&quot;spring-java-controlleradvice&quot;&gt;Spring (Java): @ControllerAdvice&lt;/h3&gt;
-
-&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyIr5iNIXJjo%3Ffeature%3Doembed&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyIr5iNIXJjo&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyIr5iNIXJjo%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2019/12/25/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for.html&quot;&gt;Avoid inventing algorithms and data structures&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2020/01/06/clean-code-leave-it-better-than-you-found-it.html&quot;&gt;Leave code better than you found it.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Errors should never pass silently. Unless explicitly silenced.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Code is much more like a work of art/craft that people consider it.</summary></entry></feed>
