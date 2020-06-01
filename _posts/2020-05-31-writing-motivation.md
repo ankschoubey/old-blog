@@ -1,0 +1,36 @@
+---
+description: 
+title: Writing motivation
+comments: true
+categories: [Thoughts, Mathematics]
+layout: post
+use_math: true
+permalink: /write/
+---
+
+
+This is collections of posts/ideas I have come across over the years.
+
+Similar to [Math motivation](/math).
+
+***
+
+## Writing is thinking
+
+- Writing is learning how to think. Writing is a reflection of your thoughts.
+
+## To write better, you don't have to become a "writer"
+
+- Grammar is very small part of writing. The most important thing is having something useful to say.
+
+- The way to have something interesting to say is to go experience the world.
+
+- Improve your writing in every opportunity you get
+
+## Use less words
+
+- If it can be said in a blogpost, don't write a book. If it can be said in a tweet, don't write a blog post.
+
+- One big idea per post
+
+- Don't quote make it yours and say it yourself.

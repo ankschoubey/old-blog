@@ -5,7 +5,7 @@ comments: true
 categories: [Thoughts, Mathematics]
 layout: post
 use_math: true
-permalink: /math_motivation/
+permalink: /math/
 ---
 
 I have always been interested in **🧮** even after failing twice at math exams during college.

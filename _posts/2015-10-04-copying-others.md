@@ -14,7 +14,7 @@ I wanted to be like these people for reasons mention in the brackets. I would so
 
 My mind changed when I heard Tim saying more than once something which went like this --- I am no super hero. --- I don't know how it feels to be Elon Musk. But I like being Tim Ferriss.
 
-After putting some brain to use and reading[ this article](http://fourhourworkweek.com/2013/11/03/productivity-hacks/) I realised ---
+After putting some brain to use and reading [this article](http://fourhourworkweek.com/2013/11/03/productivity-hacks/) I realised ---
 
 Everyone is different. And are supposed to be different.
 
