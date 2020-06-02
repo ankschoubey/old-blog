@@ -144,3 +144,10 @@ Balance is the key. ⚖️
 [^7]: [Twelve Math Myths](https://www.uaf.edu/deved/math/help-for-math-anxiety/12-math-myths/)
 [^8]: [Richard Feynman talks about Algebra](https://www.youtube.com/watch?v=VW6LYuli7VU&feature=share)
 [^9]: [What is Mathematics?](https://www.youtube.com/watch?v=64643Op6WJo)
+***
+
+Unformed Thoughts:
+Math requires
+- concentration + focus + patience + feedback + testing
+
+Cultivate habit of looking at math and make concious effort.
