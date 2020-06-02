@@ -2,7 +2,7 @@
 description: 
 title: Writing motivation
 comments: true
-categories: [Thoughts, Mathematics]
+categories: [Thoughts, Writing]
 layout: post
 use_math: true
 permalink: /write/
@@ -14,7 +14,6 @@ This is collections of posts/ideas I have come across over the years.
 Similar to [Math motivation](/math).
 
 ***
-
 ## Writing is thinking
 
 - Writing is learning how to think. Writing is a reflection of your thoughts.
@@ -34,3 +33,8 @@ Similar to [Math motivation](/math).
 - One big idea per post
 
 - Don't quote make it yours and say it yourself.
+
+## Writing helps you to 
+
+- Form your thoughts better
+- Document and share your progress
