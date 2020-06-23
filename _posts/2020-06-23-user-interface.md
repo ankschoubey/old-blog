@@ -26,7 +26,7 @@ The area under the curve remains the same [^1] that is why it is so useful.
 
 This is not specific to UI, this is general to any design including once in the physical world.
 
-Something I had a real wonder at was the lights at the back of 🚗vehicles. They are just so simple yet I could not imagine any better alternative.
+Something I had a real wonder at was the lights at the back of vehicles. They are just so simple yet I could not imagine any better alternative.
  - left-right lights
  - red lights for brake
 
