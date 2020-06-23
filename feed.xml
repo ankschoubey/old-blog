@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-06-02T13:45:17-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Writing motivation</title><link href="www.ankushchoubey.com/write/" rel="alternate" type="text/html" title="Writing motivation" /><published>2020-05-31T00:00:00-05:00</published><updated>2020-05-31T00:00:00-05:00</updated><id>www.ankushchoubey.com/writing-motivation</id><content type="html" xml:base="www.ankushchoubey.com/write/">&lt;p&gt;This is collections of posts/ideas I have come across over the years.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-06-23T01:08:07-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">User Interfaces</title><link href="www.ankushchoubey.com/ui/" rel="alternate" type="text/html" title="User Interfaces" /><published>2020-06-23T00:00:00-05:00</published><updated>2020-06-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/user-interface</id><content type="html" xml:base="www.ankushchoubey.com/ui/">&lt;p&gt;User Interfaces are such fascinating things. I had my interest peaked after I had to work on responsive CSS (thanks 🔥 &lt;a href=&quot;https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA/videos&quot;&gt;Fireship&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&quot;the-area-under-the-curve&quot;&gt;The area under the curve&lt;/h2&gt;
+
+&lt;p&gt;A bad UI means a product is essentially useless or trying to look useless.&lt;/p&gt;
+
+&lt;p&gt;A good UI means a product is at least trying to look useful.&lt;/p&gt;
+
+&lt;p&gt;A new feature release is like solving a big problem for a small number of users.&lt;/p&gt;
+
+&lt;p&gt;An improvement to UI (especially on OS level) means solving a small problem for a vast number of users.&lt;/p&gt;
+
+&lt;p&gt;The area under the curve remains the same &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; that is why it is so useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;physical-world&quot;&gt;Physical World&lt;/h2&gt;
+
+&lt;p&gt;This is not specific to UI, this is general to any design including once in the physical world.&lt;/p&gt;
+
+&lt;p&gt;Something I had a real wonder at was the lights at the back vehicles. They are just so simple yet I could not imagine any better alternative.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;left-right lights&lt;/li&gt;
+  &lt;li&gt;red lights for brake&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is quite wonderful to know UI is a field that has not matured. It is something that keeps improving and we have new things being added.&lt;/p&gt;
+
+&lt;p&gt;Keyboard ⌨️ → Mouse 🖱 → Touch → Gestures → body motion → Speech → Neuralink 😍&lt;/p&gt;
+
+&lt;h2 id=&quot;trends&quot;&gt;Trends&lt;/h2&gt;
+
+&lt;p&gt;Some design trends are definitely weird.&lt;/p&gt;
+
+&lt;p&gt;Like Neuromorphism, I don’t know why would someone make UI harder to use and increase their workload at the same time.&lt;/p&gt;
+
+&lt;p&gt;Dear Apple, 🥺 why would you do this to Mac OS Big Sur?&lt;/p&gt;
+
+&lt;p&gt;But at the same time, this was the same reaction everyone Flat Design was introduced and in a few years, people love it.&lt;/p&gt;
+
+&lt;p&gt;Same with Cyber Truck 😍 and PS5 design.&lt;/p&gt;
+
+&lt;h2 id=&quot;designing&quot;&gt;Designing&lt;/h2&gt;
+
+&lt;p&gt;I happen to get an eye for design after getting my first apple product and watching their promotion videos. I was hooked. Jony Ive &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; and Steve Jobs paid such a high concentration to detail that it still is reflected in most Apple physical product designs.&lt;/p&gt;
+
+&lt;p&gt;The same is true when Mr. Musk decided not to put headlight buttons for Teslas &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. If it’s dark, it should just come on.&lt;/p&gt;
+
+&lt;p&gt;There is so much craftsmanship that goes into a high-quality product. It is so much fun knowing what goes behind building a great product.&lt;/p&gt;
+
+&lt;p&gt;Their way of thinking is essentially making technology invisible.&lt;/p&gt;
+
+&lt;p&gt;It feels just like Magic &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;! It just works!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Om5XuTbXP1U&quot;&gt;Elon Musk On How To Be Most Useful&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=yOcuYYw4sRs&quot;&gt;Apple’s Sir Jony Ive’s top tips for success - CBBC&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Book - Elon Musk Tesla, SpaceX, and the Quest for a Fantastic Future By Ashlee Vans &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=y0fzk6oRzPM&quot;&gt;Steve Jobs - Works like Magic&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">User Interfaces are such fascinating things. I had my interest peaked after I had to work on responsive CSS (thanks 🔥 Fireship)</summary></entry><entry><title type="html">Writing motivation</title><link href="www.ankushchoubey.com/write/" rel="alternate" type="text/html" title="Writing motivation" /><published>2020-05-31T00:00:00-05:00</published><updated>2020-05-31T00:00:00-05:00</updated><id>www.ankushchoubey.com/writing-motivation</id><content type="html" xml:base="www.ankushchoubey.com/write/">&lt;p&gt;This is collections of posts/ideas I have come across over the years.&lt;/p&gt;
 
 &lt;p&gt;Similar to &lt;a href=&quot;/math&quot;&gt;Math motivation&lt;/a&gt;.&lt;/p&gt;
 
@@ -1017,153 +1086,4 @@ We have computers in the 21st century.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Are there more such easy tips?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;</content><author><name></name></author><summary type="html">Reduce bundle size</summary></entry><entry><title type="html">Leave it better than you found it</title><link href="www.ankushchoubey.com/leave_it_better/" rel="alternate" type="text/html" title="Leave it better than you found it" /><published>2020-01-06T00:00:00-06:00</published><updated>2020-01-06T00:00:00-06:00</updated><id>www.ankushchoubey.com/clean-code-leave-it-better-than-you-found-it</id><content type="html" xml:base="www.ankushchoubey.com/leave_it_better/">&lt;p&gt;Code is much more like a work of art/craft that people consider it.&lt;/p&gt;
-
-&lt;p&gt;Knowing the benefits and tips for writing good code will take you only so far. It requires a mindset shift. Looking at the code through an artist’s eye.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png&quot; alt=&quot;The clean version of the image from the source: Leave it a little better than you found it&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;incremental-improvements&quot;&gt;Incremental Improvements&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot. The &lt;strong&gt;cleanup doesn’t have to be something big&lt;/strong&gt;. Change &lt;strong&gt;one variable name&lt;/strong&gt; for the &lt;strong&gt;better&lt;/strong&gt;, &lt;strong&gt;break up one function&lt;/strong&gt; that’s a little too large, &lt;strong&gt;eliminate one small bit of duplication&lt;/strong&gt;, &lt;strong&gt;clean up one composite if statement&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Can you imagine working on a project where the &lt;strong&gt;code &lt;em&gt;simply got better&lt;/em&gt; as time passed&lt;/strong&gt;?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ Rober C. Martin (&lt;a href=&quot;http://www.informit.com/articles/article.aspx?p=1235624&amp;amp;seqNum=6&quot;&gt;Author of Clean Code&lt;/a&gt;)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Maybe, improve one microservice.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;tip-leave-todo-as-comments-for-your-future-self-these-could-include-how-you-want-to-improve-the-code-but-dont-have-time-right-now-to-do-it-hopefully-your-future-self-will-handle-it&quot;&gt;Tip: Leave TODO as comments for your future self. These could include how you want to improve the code but don’t have time right now to do it. Hopefully your future self will handle it.&lt;/h3&gt;
-
-&lt;h2 id=&quot;upgrading-fast-get-rid-of-legacy&quot;&gt;Upgrading Fast (get rid of Legacy)&lt;/h2&gt;
-
-&lt;p&gt;Newer languages and frameworks provide many more features, provide security upgrades and are easier to use. The longer you wait to upgrade, the harder the upgrading becomes.&lt;/p&gt;
-
-&lt;p&gt;You will also find that &lt;strong&gt;clean code is much easier to upgrade&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;do-it-one-step-at-a-time&quot;&gt;Do it one step at a time.&lt;/h3&gt;
-
-&lt;h3 id=&quot;making-a-big-bang-change-is-never-feasible&quot;&gt;Making a big bang change is never feasible.&lt;/h3&gt;
-
-&lt;p&gt;Upgrading can come in a variety of sizes.&lt;/p&gt;
-
-&lt;h4 id=&quot;simple-upgrades-such-as--custom-sql-executors-in-code-to-using-an-orm&quot;&gt;Simple upgrades such as — Custom SQL executors in code to using an ORM.&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Get rid of prepared statements and replace them with Spring Data JPA&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;or-they-can-be-a-little-bigger-such-as--going-from-angularjs-to-angular&quot;&gt;Or they can be a little bigger such as — Going from AngularJs to Angular.&lt;/h4&gt;
-
-&lt;p&gt;Developers of the code to provide guides and tools to make upgrading frameworks easier&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Like&lt;/strong&gt;: &lt;a href=&quot;https://angular.io/guide/upgrade&quot;&gt;Official guide for upgrading from AngularJS to &lt;strong&gt;Angular&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The above guide mentions some things that are worth mentioning here:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Some&lt;/strong&gt; applications will be &lt;strong&gt;easier to upgrade&lt;/strong&gt; than others, and there are many &lt;strong&gt;ways to make it easier for yourself&lt;/strong&gt;. It is possible to &lt;strong&gt;prepare&lt;/strong&gt; and &lt;strong&gt;align&lt;/strong&gt; AngularJS &lt;strong&gt;applications&lt;/strong&gt; with Angular &lt;strong&gt;even before beginning the upgrade&lt;/strong&gt; &lt;strong&gt;process&lt;/strong&gt;. These preparation steps are all about &lt;strong&gt;making the code more decoupled&lt;/strong&gt;, more &lt;strong&gt;maintainable&lt;/strong&gt;, and &lt;strong&gt;better aligned with modern development tools&lt;/strong&gt;. That means in addition to making the upgrade easier, you &lt;strong&gt;will also improve the existing AngularJS applications&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;or-a-much-bigger-one-like--going-from-java-to-kotlin&quot;&gt;Or a much bigger one like — Going from Java to Kotlin.&lt;/h4&gt;
-
-&lt;p&gt;Choosing a programming language is a hard process.&lt;/p&gt;
-
-&lt;p&gt;Ideally, you would want to choose something which is:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Non-proprietary&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In-expensive or FREE&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Easy to code in&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Flexible enough&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;java-to-kotlin&quot;&gt;Java to Kotlin&lt;/h4&gt;
-
-&lt;p&gt;Enterprises seem to have got stuck with Java 8 (released in 2017) because it is free. The newer versions of Java offer much better and easy to use features but enterprises won’t upgrade.&lt;/p&gt;
-
-&lt;p&gt;Kotlin might be a much better choice because:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;It is completely interoperable with Java. You can import your Java code and any other built by anyone within Kotlin.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Spring Boot and Android officially support Kotlin.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Kotlin is much more modern than Java offering things like default parameters and null checks.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A smaller way to check if Kotlin might be right for you is to migrate or create one microservice in/to Kotlin.&lt;/p&gt;
-
-&lt;h4 id=&quot;python-2-to-python-3&quot;&gt;Python 2 to Python 3&lt;/h4&gt;
-
-&lt;p&gt;The support for Python 2 ended (2019) after 20 years of development. Its code is frozen and won’t even receive security upgrades. Time to upgrade to Python 3.&lt;/p&gt;
-
-&lt;h2 id=&quot;code-reviews&quot;&gt;Code Reviews&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/2.png&quot; alt=&quot;No code review discussion is relevant without mentioning this.&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;benefits-of-code-review&quot;&gt;Benefits of Code Review&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Code reviews share knowledge&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;As code reviews expose developers to new ideas and technologies, they write better and better code.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Nobody wants to dive into a critical piece of code they didn’t write&lt;/strong&gt;–&lt;strong&gt;especially during a production emergency&lt;/strong&gt;. Code reviews share knowledge across the team so that any team member can take up the reins and continue steering the ship.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Code reviews make for better estimates&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Any code reviewer is also exposed to the complexity, known issues, and concerns of that area of the code base&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Keep in mind, &lt;strong&gt;code review is not just a senior team member reviewing a junior team member’s code&lt;/strong&gt;. Code review should happen across the team in every direction. Knowledge knows no bounds! Yes, code review can help newer engineers, but by no means should it be used solely as a mentoring exercise.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://www.atlassian.com/agile/software-development/code-reviews&quot;&gt;Why code reviews matter (and actually save time!)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The article also mentions ways to make code reviews much more productive.&lt;/p&gt;
-
-&lt;h3 id=&quot;when-done-right-code-reviews-actually-save-time-in-the-long-run&quot;&gt;When done right, code reviews actually save time in the long run.&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Share the load&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Review before merging&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Use peer pressure to your advantage&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Previous&lt;/strong&gt;: &lt;a href=&quot;/clean%20code/2020/01/06/clean-code-exception-handling.html&quot;&gt;Always know why you are catching an exception&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Index&lt;/strong&gt;: &lt;a href=&quot;/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html&quot;&gt;Tips on writing Clean Code&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Code is much more like a work of art/craft that people consider it.</summary></entry></feed>
+&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;</content><author><name></name></author><summary type="html">Reduce bundle size</summary></entry></feed>
