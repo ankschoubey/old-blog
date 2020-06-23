@@ -10,15 +10,15 @@ permalink: /ui/
 
 User Interfaces are such fascinating things. I had my interest peaked after I had to work on responsive CSS (thanks 🔥 [Fireship](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA/videos))
 
-## The area under the curve
+## **AUC**: The area under the curve
 
 A bad UI means a product is essentially useless or trying to look useless.
 
 A good UI means a product is at least trying to look useful.
 
-A new feature release is like solving a big problem for a small number of users.
+A new feature release is like solving a big problem for a small number of users 📈.
 
-An improvement to UI (especially on OS level) means solving a small problem for a vast number of users.
+An improvement to UI (especially on OS level) means solving a small problem for a vast number of users 📊.
 
 The area under the curve remains the same [^1] that is why it is so useful.
 
@@ -26,9 +26,11 @@ The area under the curve remains the same [^1] that is why it is so useful.
 
 This is not specific to UI, this is general to any design including once in the physical world.
 
-Something I had a real wonder at was the lights at the back vehicles. They are just so simple yet I could not imagine any better alternative.
+Something I had a real wonder at was the lights at the back of 🚗vehicles. They are just so simple yet I could not imagine any better alternative.
  - left-right lights
  - red lights for brake
+
+## Interfaces
 
 It is quite wonderful to know UI is a field that has not matured. It is something that keeps improving and we have new things being added.
 
@@ -42,11 +44,11 @@ Like Neuromorphism, I don't know why would someone make UI harder to use and inc
 
 Dear Apple, 🥺 why would you do this to Mac OS Big Sur?
 
-But at the same time, this was the same reaction everyone Flat Design was introduced and in a few years, people love it.
+But at the same time, this was the same reaction everyone had when Flat Design was introduced and in a few years, people love it.
 
 Same with Cyber Truck 😍 and PS5 design.
 
-## Designing
+## Craftmanship
 
 I happen to get an eye for design after getting my first apple product and watching their promotion videos. I was hooked. Jony Ive [^2] and Steve Jobs paid such a high concentration to detail that it still is reflected in most Apple physical product designs.
 
