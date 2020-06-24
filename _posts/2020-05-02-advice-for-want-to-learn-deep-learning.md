@@ -71,7 +71,7 @@ Don't get intimidated by them. Fame comes and bites them in the ass!
 
 Know that those who are genuinely nice have spent a lot of time working on it.
 
-## <input type="checkbox"> Wait and develop skills for a good job. Don't turn into a beggar.
+## <input type="checkbox"> Jobs
 
 This is a hard one. DL is something I really really loved and I wanted to do it full-time.
 
