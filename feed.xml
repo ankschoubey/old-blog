@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-06-24T10:36:41-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">User Interfaces</title><link href="www.ankushchoubey.com/ui/" rel="alternate" type="text/html" title="User Interfaces" /><published>2020-06-23T00:00:00-05:00</published><updated>2020-06-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/user-interface</id><content type="html" xml:base="www.ankushchoubey.com/ui/">&lt;p&gt;User Interfaces are such fascinating things. I had my interest peaked after I had to work on responsive CSS (thanks 🔥 &lt;a href=&quot;https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA/videos&quot;&gt;Fireship&lt;/a&gt;)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-06-29T10:37:56-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Programming is now Configuring</title><link href="www.ankushchoubey.com/config/" rel="alternate" type="text/html" title="Programming is now Configuring" /><published>2020-06-29T00:00:00-05:00</published><updated>2020-06-29T00:00:00-05:00</updated><id>www.ankushchoubey.com/programming-configurations</id><content type="html" xml:base="www.ankushchoubey.com/config/">&lt;h2 id=&quot;what-i-learned-when-starting-out&quot;&gt;What I learned when starting out&lt;/h2&gt;
+&lt;p&gt;The programming I learned initially included these:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;variables&lt;/li&gt;
+  &lt;li&gt;operators&lt;/li&gt;
+  &lt;li&gt;conditionals&lt;/li&gt;
+  &lt;li&gt;loops&lt;/li&gt;
+  &lt;li&gt;functions&lt;/li&gt;
+  &lt;li&gt;classes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Along with these were concepts such as Algorithms and Data Structures. All these in effort to make original programs.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-i-do-mostly&quot;&gt;What I do mostly&lt;/h2&gt;
+&lt;p&gt;Increasingly I have realized that most of what I do is not create my functionality from scratch.&lt;/p&gt;
+
+&lt;p&gt;These are the kind of things I do regularly:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wanted to add zoom in zoom out on images: &lt;strong&gt;OpenSeaDragon module&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Wanted to generate PDF on the client-side: &lt;strong&gt;jsPDF module&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Wanted trailer videos: &lt;strong&gt;TheMovieDB API&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Idle session timeout alert: &lt;strong&gt;ng-idle&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Want to talk to a DB: &lt;strong&gt;Spring Data JPA&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Wanna have a table on a page: &lt;strong&gt;I don’t write my HTML tables. I use DevExpress&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Want my website to be installable on Mobile/Desktop: &lt;strong&gt;@angular/pwa&lt;/strong&gt; module&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My role for the most part is to configure other’s code/modules/APIs so that it works well along with other modules and my tiny code.&lt;/p&gt;
+
+&lt;p&gt;And whatever tiny code that I do write is rarely even unique. For the most part, it is either the same functionality as something built before or copy/pasted from StackOverflow or Github.&lt;/p&gt;
+
+&lt;p&gt;Also for a good amount of things, one can easily skip backend coding by using something like Firebase.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-generators-and-configuration-files&quot;&gt;Code Generators and Configuration Files&lt;/h2&gt;
+&lt;p&gt;I wanted to contribute to PyTorch so I read their code and understood nothing.&lt;/p&gt;
+
+&lt;p&gt;I thought I had enough Python &amp;amp; DL skills but that was not the problem.&lt;/p&gt;
+
+&lt;p&gt;The point was they have ATEN: a kind of configuration language that allows them to generate programs in their target language on the Fly.&lt;/p&gt;
+
+&lt;p&gt;A topic similar to code generators are configuration files such a .properties or .yaml&lt;/p&gt;
+
+&lt;p&gt;I love these. I can change behavior entirely by just changing up details in configuration files. For these to be most effective the entire application has to be built with configurability in mind.&lt;/p&gt;
+
+&lt;h2 id=&quot;8020-split&quot;&gt;80/20 split&lt;/h2&gt;
+&lt;p&gt;I used to despise DevOps earlier because I never wanted to leave programming behind. After all, a major part of DevOps is configuring tools. But I realize now that ROI is huge.&lt;/p&gt;
+
+&lt;p&gt;I still believe that learning the principles are more important than learning a specific technology.&lt;/p&gt;
+
+&lt;p&gt;Learning a principle such as Deep Learning means that underlying technological tools such as PyTorch, Tensorflow, or even AutoML matter very little.&lt;/p&gt;
+
+&lt;p&gt;These principles (20%) apply to a small by very important parts (80%):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;deciding what to do&lt;/li&gt;
+  &lt;li&gt;connecting different modules&lt;/li&gt;
+  &lt;li&gt;debugging&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">What I learned when starting out The programming I learned initially included these: variables operators conditionals loops functions classes</summary></entry><entry><title type="html">User Interfaces</title><link href="www.ankushchoubey.com/ui/" rel="alternate" type="text/html" title="User Interfaces" /><published>2020-06-23T00:00:00-05:00</published><updated>2020-06-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/user-interface</id><content type="html" xml:base="www.ankushchoubey.com/ui/">&lt;p&gt;User Interfaces are such fascinating things. I had my interest peaked after I had to work on responsive CSS (thanks 🔥 &lt;a href=&quot;https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA/videos&quot;&gt;Fireship&lt;/a&gt;)&lt;/p&gt;
 
 &lt;h2 id=&quot;auc-the-area-under-the-curve&quot;&gt;&lt;strong&gt;AUC&lt;/strong&gt;: The area under the curve&lt;/h2&gt;
 
@@ -492,89 +548,7 @@ We have computers in the 21st century.&lt;/p&gt;
 
 &lt;p&gt;Shoot me an email at &lt;a href=&quot;mailto:ankushchoubey@outlook.com&quot;&gt;ankushchoubey@outlook.com&lt;/a&gt; 😁&lt;/p&gt;
 
-&lt;p&gt;For questions or counter related to this post, write them in the comments below.&lt;/p&gt;</content><author><name></name></author><summary type="html">I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.</summary></entry><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/kaggle_getting_started/" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/kaggle_getting_started/">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
-
-&lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Easy&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Less intimidating&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Less chance of getting stuck&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;how-we-will-do-it&quot;&gt;How we will do it?&lt;/h2&gt;
-
-&lt;h5 id=&quot;by&quot;&gt;&lt;strong&gt;By:&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;focusing on the process rather than just getting the output.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;starting with easier problems.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;PyTorch:&lt;a href=&quot;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&quot;&gt; A 60 Minute Blitz&lt;/a&gt;, &lt;a href=&quot;https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset&quot;&gt;Writing Custom Datasets&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;expectations-from-this-series&quot;&gt;Expectations from this series&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5–6 Hours per challenge or more.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Coding Style&lt;/strong&gt;:&lt;a href=&quot;https://docs.fast.ai/dev/style.html&quot;&gt; fastai coding style&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;While coding, no function takes 10 seconds.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Heavy use of %timeit%&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Explanation Style&lt;/strong&gt;: Based on Kaggle Notebook Commits&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Notebook Commit 1&lt;/em&gt;: Will focus on getting input and output&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Next N-1 Commits&lt;/em&gt;: Will add new features/improvements. These will be linked.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;em&gt;Last Commit&lt;/em&gt;: Complete solution&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This way one can see get a peek behind the finished product.&lt;/p&gt;
-
-&lt;h2 id=&quot;abbreviations-used&quot;&gt;Abbreviations Used&lt;/h2&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;training_data&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;training_label&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;ds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;dl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataloader&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;index&quot;&gt;Index&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;/mnist&quot;&gt;Digit Recognition&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Facial Keypoints Detection - &lt;em&gt;in progress&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">Digit Recognition</title><link href="www.ankushchoubey.com/mnist/" rel="alternate" type="text/html" title="Digit Recognition" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/digit-recognition</id><content type="html" xml:base="www.ankushchoubey.com/mnist/">&lt;hr /&gt;
+&lt;p&gt;For questions or counter related to this post, write them in the comments below.&lt;/p&gt;</content><author><name></name></author><summary type="html">I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.</summary></entry><entry><title type="html">Digit Recognition</title><link href="www.ankushchoubey.com/mnist/" rel="alternate" type="text/html" title="Digit Recognition" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/digit-recognition</id><content type="html" xml:base="www.ankushchoubey.com/mnist/">&lt;hr /&gt;
 &lt;h3 id=&quot;how-to-read-this&quot;&gt;How to read this?&lt;/h3&gt;
 &lt;ol&gt;
   &lt;li&gt;
@@ -989,7 +963,89 @@ We have computers in the 21st century.&lt;/p&gt;
 
 &lt;p&gt;Index: &lt;a href=&quot;/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html&quot;&gt;Series - Kaggle Getting Started&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Next Post: []&lt;/p&gt;</content><author><name></name></author><summary type="html">How to read this? Skim through the Pre-requisites</summary></entry><entry><title type="html">Kaggle CLI QA: How to download a particular folder</title><link href="www.ankushchoubey.com/kaggle_download_folder/" rel="alternate" type="text/html" title="Kaggle CLI QA: How to download a particular folder" /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/kaggle-cli-download-a-folder</id><content type="html" xml:base="www.ankushchoubey.com/kaggle_download_folder/">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@harshini2898/nice-article-c1eb575b0baf&quot;&gt;Harshini on Medium asks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Next Post: []&lt;/p&gt;</content><author><name></name></author><summary type="html">How to read this? Skim through the Pre-requisites</summary></entry><entry><title type="html">Series Kaggle Getting Started</title><link href="www.ankushchoubey.com/kaggle_getting_started/" rel="alternate" type="text/html" title="Series  Kaggle Getting Started" /><published>2020-03-30T00:00:00-05:00</published><updated>2020-03-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/series-kaggle-getting-started</id><content type="html" xml:base="www.ankushchoubey.com/kaggle_getting_started/">&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
+
+&lt;h5 id=&quot;because-getting-started-is&quot;&gt;&lt;strong&gt;Because Getting Started is:&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Easy&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Less intimidating&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Less chance of getting stuck&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-we-will-do-it&quot;&gt;How we will do it?&lt;/h2&gt;
+
+&lt;h5 id=&quot;by&quot;&gt;&lt;strong&gt;By:&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;focusing on the process rather than just getting the output.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;starting with easier problems.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyTorch:&lt;a href=&quot;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&quot;&gt; A 60 Minute Blitz&lt;/a&gt;, &lt;a href=&quot;https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset&quot;&gt;Writing Custom Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;expectations-from-this-series&quot;&gt;Expectations from this series&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5–6 Hours per challenge or more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coding Style&lt;/strong&gt;:&lt;a href=&quot;https://docs.fast.ai/dev/style.html&quot;&gt; fastai coding style&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;While coding, no function takes 10 seconds.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Heavy use of %timeit%&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation Style&lt;/strong&gt;: Based on Kaggle Notebook Commits&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Notebook Commit 1&lt;/em&gt;: Will focus on getting input and output&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Next N-1 Commits&lt;/em&gt;: Will add new features/improvements. These will be linked.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Last Commit&lt;/em&gt;: Complete solution&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This way one can see get a peek behind the finished product.&lt;/p&gt;
+
+&lt;h2 id=&quot;abbreviations-used&quot;&gt;Abbreviations Used&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;training_data&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;training_label&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;ds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataloader&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;o&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;index&quot;&gt;Index&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/mnist&quot;&gt;Digit Recognition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Facial Keypoints Detection - &lt;em&gt;in progress&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">Kaggle CLI QA: How to download a particular folder</title><link href="www.ankushchoubey.com/kaggle_download_folder/" rel="alternate" type="text/html" title="Kaggle CLI QA: How to download a particular folder" /><published>2020-03-10T00:00:00-05:00</published><updated>2020-03-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/kaggle-cli-download-a-folder</id><content type="html" xml:base="www.ankushchoubey.com/kaggle_download_folder/">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@harshini2898/nice-article-c1eb575b0baf&quot;&gt;Harshini on Medium asks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Nice Article,&lt;/p&gt;
@@ -1039,53 +1095,4 @@ We have computers in the 21st century.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Hope this helps! Have a good day!&lt;/p&gt;
 
-&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://medium.com/@ankushchoubey/hi-harshini-b0e50202d15&quot;&gt;Medium reply&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Harshini on Medium asks</summary></entry><entry><title type="html">Simple Hacks for increasing website load time</title><link href="www.ankushchoubey.com/load_time/" rel="alternate" type="text/html" title="Simple Hacks for increasing website load time" /><published>2020-02-22T00:00:00-06:00</published><updated>2020-02-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/simple-hacks-for-increasing-website-load-time</id><content type="html" xml:base="www.ankushchoubey.com/load_time/">&lt;h2 id=&quot;reduce-bundle-size&quot;&gt;Reduce bundle size&lt;/h2&gt;
-
-&lt;h5 id=&quot;always-use-compression-at-least-gzip&quot;&gt;&lt;a href=&quot;https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw&quot;&gt;Always use compression: at least &lt;code class=&quot;highlighter-rouge&quot;&gt;gzip&lt;/code&gt;&lt;/a&gt;&lt;/h5&gt;
-
-&lt;p&gt;Always compress. The configuration is set in the webserver.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gzip&lt;/code&gt; is good enough in most cases in terms of both performance and speed.&lt;/p&gt;
-
-&lt;p&gt;My application went from 4 MB to 800 kb. Fewer data faster speed.&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;Source 1: &lt;a href=&quot;https://varvy.com/pagespeed/enable-compression.html&quot;&gt;Enabling gzip&lt;/a&gt;&lt;/sup&gt;&lt;br /&gt;
-&lt;sup&gt;Source 2: &lt;a href=&quot;https://stackoverflow.com/a/18834602&quot;&gt;Verify gzip on Chrome&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;make-less-number-of-requests&quot;&gt;Make less number of requests&lt;/h2&gt;
-
-&lt;h5 id=&quot;always-cache-static-content-js-css-and-static-images&quot;&gt;Always cache static content: &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt; and static images.&lt;/h5&gt;
-
-&lt;p&gt;This can be configured in your web server or your application. Just google “ “how to cache in &lt;your framework=&quot;&quot; or=&quot;&quot; web=&quot;&quot; server=&quot;&quot;&gt;“.&lt;/your&gt;&lt;/p&gt;
-
-&lt;p&gt;Of course: &lt;strong&gt;&lt;em&gt;be sure to not cache dynamic content.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;For &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt; files, make sure it has a name that is unique if the file is modified.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Example: in angular after creating a &lt;code class=&quot;highlighter-rouge&quot;&gt;--prod&lt;/code&gt; build, the filename is in following format &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;filename&amp;gt;.&amp;lt;md5 checksum&amp;gt;.js&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;This ensures that if the content of the file changes, the &lt;code class=&quot;highlighter-rouge&quot;&gt;md5&lt;/code&gt; checksum will change and a new request will be sent but if the file does not change then it will have the same checksum so it can be pulled from the cache.&lt;/p&gt;
-
-&lt;h5 id=&quot;always-load-images-lazily&quot;&gt;Always load images lazily&lt;/h5&gt;
-
-&lt;center&gt;
-    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;lt;img loading=‘lazy’ ... /&amp;gt; is so so easy. Images are only fetched when user scrolls near it. &lt;a href=&quot;https://twitter.com/hashtag/freeSpeedUp?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#freeSpeedUp&lt;/a&gt; &lt;a href=&quot;https://t.co/nduXUy5GLm&quot;&gt;https://t.co/nduXUy5GLm&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Are there any more such tweaks that exist?&lt;/p&gt;&amp;mdash; Ankush (@ankschoubey) &lt;a href=&quot;https://twitter.com/ankschoubey/status/1219613362239049728?ref_src=twsrc%5Etfw&quot;&gt;January 21, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
-&lt;/center&gt;
-
-&lt;p&gt;&lt;sup&gt;Advanced tips: &lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video&quot;&gt;Lazy Loading Images and Video&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;do-it-fast&quot;&gt;Do it fast&lt;/h2&gt;
-
-&lt;h5 id=&quot;fetch-js-and-css-asynchronously-source&quot;&gt;&lt;a href=&quot;https://twitter.com/ankschoubey/status/1229793732418920449?s=20&quot;&gt;Fetch &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt; asynchronously&lt;/a&gt; &lt;sup&gt;&lt;a href=&quot;https://flaviocopes.com/javascript-async-defer/#the-position-matters&quot;&gt;&lt;em&gt;Source&lt;/em&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/h5&gt;
-
-&lt;p&gt;When fetching &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; add &lt;code class=&quot;highlighter-rouge&quot;&gt;async defer&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; tag. This will fetch multiple &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; files in parallel.&lt;/p&gt;
-
-&lt;p&gt;Keep &lt;code class=&quot;highlighter-rouge&quot;&gt;script&lt;/code&gt; tag in the header for this.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Are there more such easy tips?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Please mention them in the comments and I will add the tip to the list and mention your name.&lt;/p&gt;</content><author><name></name></author><summary type="html">Reduce bundle size</summary></entry></feed>
+&lt;p&gt;&lt;sub&gt;&lt;a href=&quot;https://medium.com/@ankushchoubey/hi-harshini-b0e50202d15&quot;&gt;Medium reply&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Harshini on Medium asks</summary></entry></feed>
