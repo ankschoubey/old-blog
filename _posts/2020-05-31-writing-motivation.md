@@ -13,7 +13,10 @@ This is collections of posts/ideas I have come across over the years.
 
 Similar to [Math motivation](/math).
 
+{% include alert.html text = 'These only apply to non-fiction writing' %}
+
 ***
+
 ## Writing is thinking
 
 - Writing is learning how to think. Writing is a reflection of your thoughts.
