@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-06-30T13:23:07-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">ROI of fun</title><link href="www.ankushchoubey.com/fun/" rel="alternate" type="text/html" title="ROI of fun" /><published>2020-06-30T00:00:00-05:00</published><updated>2020-06-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/roi-of-fun</id><content type="html" xml:base="www.ankushchoubey.com/fun/">&lt;div class=&quot;flash&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-07-01T00:59:48-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">ROI of fun</title><link href="www.ankushchoubey.com/fun/" rel="alternate" type="text/html" title="ROI of fun" /><published>2020-06-30T00:00:00-05:00</published><updated>2020-06-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/roi-of-fun</id><content type="html" xml:base="www.ankushchoubey.com/fun/">&lt;div class=&quot;flash&quot;&gt;
     &lt;svg class=&quot;octicon octicon-info&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
     &lt;strong&gt;Note: &lt;/strong&gt;I am not a psychologist. So the upcoming piece is quite unscientific.
 &lt;/div&gt;
@@ -104,8 +104,8 @@
 &lt;p&gt;…writing in progress…&lt;/p&gt;
 
 &lt;h2 id=&quot;putting-ads-on-every-god-damn-blank-space&quot;&gt;Putting ads on every god damn blank space&lt;/h2&gt;
-&lt;p&gt;…writing in progress…&lt;/p&gt;</content><author><name></name></author><summary type="html">This essay is still in draft. I decided to publish it so that I feel complelled to finish it.</summary></entry><entry><title type="html">Programming is now Configuring</title><link href="www.ankushchoubey.com/config/" rel="alternate" type="text/html" title="Programming is now Configuring" /><published>2020-06-29T00:00:00-05:00</published><updated>2020-06-29T00:00:00-05:00</updated><id>www.ankushchoubey.com/programming-configurations</id><content type="html" xml:base="www.ankushchoubey.com/config/">&lt;h2 id=&quot;what-i-learned-when-starting-out&quot;&gt;What I learned when starting out&lt;/h2&gt;
-&lt;p&gt;The programming I learned initially included these:&lt;/p&gt;
+&lt;p&gt;…writing in progress…&lt;/p&gt;</content><author><name></name></author><summary type="html">This essay is still in draft. I decided to publish it so that I feel complelled to finish it.</summary></entry><entry><title type="html">Programming is now Configuring</title><link href="www.ankushchoubey.com/config/" rel="alternate" type="text/html" title="Programming is now Configuring" /><published>2020-06-29T00:00:00-05:00</published><updated>2020-06-29T00:00:00-05:00</updated><id>www.ankushchoubey.com/programming-configurations</id><content type="html" xml:base="www.ankushchoubey.com/config/">&lt;h2 id=&quot;what-we-learned-when-starting-out&quot;&gt;What we learned when starting out&lt;/h2&gt;
+&lt;p&gt;The programming initially included these:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;variables&lt;/li&gt;
   &lt;li&gt;operators&lt;/li&gt;
@@ -117,8 +117,8 @@
 
 &lt;p&gt;Along with these were concepts such as Algorithms and Data Structures. All these in effort to make original programs.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-i-do-mostly&quot;&gt;What I do mostly&lt;/h2&gt;
-&lt;p&gt;Increasingly I have realized that most of what I do is not create my functionality from scratch.&lt;/p&gt;
+&lt;h2 id=&quot;what-we-do&quot;&gt;What we do&lt;/h2&gt;
+&lt;p&gt;Increasingly I have realized that most of what we do is not creating functionality from scratch.&lt;/p&gt;
 
 &lt;p&gt;These are the kind of things I do regularly:&lt;/p&gt;
 &lt;ul&gt;
@@ -131,9 +131,9 @@
   &lt;li&gt;Want my website to be installable on Mobile/Desktop: &lt;strong&gt;@angular/pwa&lt;/strong&gt; module&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;My role for the most part is to configure other’s code/modules/APIs so that it works well along with other modules and my tiny code.&lt;/p&gt;
+&lt;p&gt;Programming role for the most part is to configure other’s code/modules/APIs so that it works well along with other modules and our tiny code.&lt;/p&gt;
 
-&lt;p&gt;And whatever tiny code that I do write is rarely even unique. For the most part, it is either the same functionality as something built before or copy/pasted from StackOverflow or Github.&lt;/p&gt;
+&lt;p&gt;And whatever tiny code that we do write is rarely even unique. For the most part, it is either the same functionality as something built before or copy/pasted from StackOverflow or Github.&lt;/p&gt;
 
 &lt;p&gt;Also for a good amount of things, one can easily skip backend coding by using something like Firebase.&lt;/p&gt;
 
@@ -146,7 +146,7 @@
 
 &lt;p&gt;A topic similar to code generators are configuration files such a .properties or .yaml&lt;/p&gt;
 
-&lt;p&gt;I love these. I can change behavior entirely by just changing up details in configuration files. For these to be most effective the entire application has to be built with configurability in mind.&lt;/p&gt;
+&lt;p&gt;I love these. The behavior of the application can be changed entirely using configuration files. For these to be most effective the entire application has to be built with configurability in mind.&lt;/p&gt;
 
 &lt;h2 id=&quot;8020-split&quot;&gt;80/20 split&lt;/h2&gt;
 &lt;p&gt;I used to despise DevOps earlier because I never wanted to leave programming behind. After all, a major part of DevOps is configuring tools. But I realize now that ROI is huge.&lt;/p&gt;
@@ -160,7 +160,7 @@
   &lt;li&gt;deciding what to do&lt;/li&gt;
   &lt;li&gt;connecting different modules&lt;/li&gt;
   &lt;li&gt;debugging&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">What I learned when starting out The programming I learned initially included these: variables operators conditionals loops functions classes</summary></entry><entry><title type="html">User Interfaces</title><link href="www.ankushchoubey.com/ui/" rel="alternate" type="text/html" title="User Interfaces" /><published>2020-06-23T00:00:00-05:00</published><updated>2020-06-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/user-interface</id><content type="html" xml:base="www.ankushchoubey.com/ui/">&lt;p&gt;User Interfaces are such fascinating things. I had my interest peaked after I had to work on responsive CSS (thanks 🔥 &lt;a href=&quot;https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA/videos&quot;&gt;Fireship&lt;/a&gt;)&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">What we learned when starting out The programming initially included these: variables operators conditionals loops functions classes</summary></entry><entry><title type="html">User Interfaces</title><link href="www.ankushchoubey.com/ui/" rel="alternate" type="text/html" title="User Interfaces" /><published>2020-06-23T00:00:00-05:00</published><updated>2020-06-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/user-interface</id><content type="html" xml:base="www.ankushchoubey.com/ui/">&lt;p&gt;User Interfaces are such fascinating things. I had my interest peaked after I had to work on responsive CSS (thanks 🔥 &lt;a href=&quot;https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA/videos&quot;&gt;Fireship&lt;/a&gt;)&lt;/p&gt;
 
 &lt;h2 id=&quot;auc-the-area-under-the-curve&quot;&gt;&lt;strong&gt;AUC&lt;/strong&gt;: The area under the curve&lt;/h2&gt;
 
