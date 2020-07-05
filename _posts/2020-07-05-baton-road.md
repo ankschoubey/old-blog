@@ -12,7 +12,7 @@ permalink: /baton/
 
 Baton Road [^2] is a feeling I had since childhood about how humanity progresses.
 
-No one individual changes the world. There is a generation of them. Making improvements big or small that effect and push all everyone else.
+No one individual changes the world. There is a generation of them. Making improvements big or small that effect and push everyone else.
 
 1. Someone made electricity
 2. Other person did maths
@@ -33,7 +33,8 @@ Mr. Musk is pushing a lot of critical areas forward. Our generation and the futu
 Every moment happens once. [^1]
 - The next Steve Jobs won't start hardware business.
 - Next Zuckerberg won't start a social network.
-- The next Elon Musk won't start an electric car company. The next one will have to deal with a new problem most relevant to that time.
+- The next Elon Musk won't start an electric car company.
+- The next one will have to deal with a new problem most relevant to that time.
 
 Someday the baton will pass on to our generation. Hopefully I'll be ready.
 
