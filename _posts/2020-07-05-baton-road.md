@@ -36,7 +36,7 @@ Every moment happens once. [^1]
 - Next Elon Musk won't start an electric car company.
 - The next one will have to deal with a new problem most relevant to that time.
 
-Someday the baton will pass on to our generation. Hopefully I'll be ready.
+Someday the 🔥 baton will pass on to our generation. Hopefully I'll be ready.
 
 #### Footnotes
 
