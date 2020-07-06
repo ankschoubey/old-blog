@@ -6,6 +6,7 @@ categories: [Thoughts]
 layout: post
 use_math: true
 permalink: /baton/
+image: https://images-na.ssl-images-amazon.com/images/I/61F6zC1EuvL._SL1024_.jpg
 ---
 
 ![](https://images-na.ssl-images-amazon.com/images/I/61F6zC1EuvL._SL1024_.jpg)
