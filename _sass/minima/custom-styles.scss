@@ -20,3 +20,27 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.search-button{
+    background: url(https://image.flaticon.com/icons/svg/882/882988.svg);
+    background-color: white;
+    color: #42424200 !important;
+    /* background-image: url(/images/logo.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tags-button{
+    background: url(https://image.flaticon.com/icons/svg/758/758658.svg);
+    background-color: white;
+    color: #42424200 !important;
+    /* background-image: url(/images/logo.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search-button:hover{
+    transform: scale(1.5);
+}
