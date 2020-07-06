@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .highlight .c { color: #998; font-style: italic; }
 
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
@@ -502,5 +503,7 @@ img.image-preview:hover { transform: scale(1.05); }
 .site-footer { border: none; }
 
 .feed-subscribe .svg-icon { padding: 0px; margin-right: 5px; }
+
+.social-links::after { content: "Made using \a FastPages by FastAI ﹘ flaticons.com ﹘ favicon.io ﹘🔥 Fireship.io \a and the special people who support me"; clear: both; display: table; color: #808080cf; font-size: xx-small; margin: auto; white-space: pre; text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
