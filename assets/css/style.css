@@ -493,4 +493,10 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .search-button:hover { transform: scale(1.5); }
 
+.Box { box-shadow: none !important; border: none !important; }
+
+img.image-preview { transition: width 0.3s, height 0.3s, transform 0.3s; }
+
+img.image-preview:hover { transform: scale(1.05); }
+
 /*# sourceMappingURL=style.css.map */
