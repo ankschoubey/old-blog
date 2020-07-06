@@ -6,6 +6,7 @@ description: Game of Deep Learning was an image recognition challenge on Analyti
 categories: [Deep Learning]
 title: Lessons Learned from my first Deep Learning contest
 permalink: /first_competition/
+image: /images/2019-06-23-lessons_from_first_deep_learning_competition/1_data_augmentation.png
 ---
 
 ![0_final_score]({{ site.baseurl }}/images/2019-06-23-lessons_from_first_deep_learning_competition/0_final_score.png)

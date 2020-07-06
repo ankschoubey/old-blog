@@ -6,6 +6,7 @@ description:
 categories: [Notebook]
 title: 10 Google Collab Tips
 permalink: /collab/
+image: /images/2019-08-18-my-top-10-un-popular-google-collab-tips/5.png
 ---
 
 Collab is my favorite place to do deep learning because:

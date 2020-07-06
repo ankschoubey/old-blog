@@ -6,6 +6,7 @@ description:
 categories: [Python, Notebook]
 title: Easy Jupyter Notebook Tips
 permalink: /jupyter_notebook/
+image: /images/2019-07-29-easy-jupyter-notebook-tips/2.png
 ---
 
 In case you are not familiar with Jupyter Notebook, I recommend watching the following videos:
