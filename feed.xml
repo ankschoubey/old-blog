@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-07-07T02:13:23-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Baton Road</title><link href="www.ankushchoubey.com/baton/" rel="alternate" type="text/html" title="Baton Road" /><published>2020-07-05T00:00:00-05:00</published><updated>2020-07-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/baton-road</id><content type="html" xml:base="www.ankushchoubey.com/baton/">&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/61F6zC1EuvL._SL1024_.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-07-08T02:59:06-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Ideas</title><link href="www.ankushchoubey.com/idea/" rel="alternate" type="text/html" title="Ideas" /><published>2020-07-08T00:00:00-05:00</published><updated>2020-07-08T00:00:00-05:00</updated><id>www.ankushchoubey.com/ideas</id><content type="html" xml:base="www.ankushchoubey.com/idea/">&lt;p&gt;Similar to &lt;a href=&quot;/math&quot;&gt;Math motivation&lt;/a&gt; and &lt;a href=&quot;/write&quot;&gt;Writing Motivation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
+   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
+   &lt;span class=&quot;Toast-content&quot;&gt;I am writing this as a &lt;strong&gt;reference to my future self&lt;/strong&gt; and so &lt;strong&gt;it is highly biased&lt;/strong&gt;. &lt;br /&gt;&lt;br /&gt;May be someone else finds this helpful too.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+   @media (min-width: 544px){
+.Toast {
+   width: -webkit-max-content;
+   width: -moz-max-content;
+   max-width: inherit;
+   margin: 16px;
+   width: auto;
+}
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
+   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
+   &lt;span class=&quot;Toast-content&quot;&gt;These apply to side projects and hyper-growth startup&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+   @media (min-width: 544px){
+.Toast {
+   width: -webkit-max-content;
+   width: -moz-max-content;
+   max-width: inherit;
+   margin: 16px;
+   width: auto;
+}
+}
+&lt;/style&gt;
+
+&lt;h3 id=&quot;importance&quot;&gt;Importance&lt;/h3&gt;
+
+&lt;p&gt;Good ideas are common and meaningless.&lt;/p&gt;
+
+&lt;p&gt;Good execution is rare and therefore valuable.&lt;/p&gt;
+
+&lt;h3 id=&quot;originality&quot;&gt;Originality&lt;/h3&gt;
+
+&lt;p&gt;No idea is truly original. Be flexible to adapt to new ones. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Most ‘unique’ ideas fail. Successful once are spinoffs of already present ideas. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;finding&quot;&gt;Finding&lt;/h3&gt;
+
+&lt;p&gt;In the case of hyper-growth startups, ideas are counter-intuitive. If it seems sensible it is likely a bad idea. &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Most hyper-grown startup ideas don’t look like startup ideas at all. &lt;sup id=&quot;fnref:3:1&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Trying to find a hyper-growth startup idea is a bad idea. &lt;sup id=&quot;fnref:3:2&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The way to find better ideas is to explore the world and know your customers. &lt;sup id=&quot;fnref:3:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Think Big &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;get-started&quot;&gt;Get started&lt;/h3&gt;
+
+&lt;p&gt;Rather than trying to find the perfect idea, start small with the one you have and iterate. &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Book: Steal Like an Artist &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Book: The Unfair Advantage &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Paul Graham: &lt;a href=&quot;https://www.youtube.com/watch?v=ii1jcLg-eIQ&quot;&gt;Before the Startup&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:3:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:3:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:3:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;Book: The Magic of Thinking Big &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Book: Anything You Work: &lt;a href=&quot;https://sivers.org/startnow&quot;&gt;Start now. No funding needed.&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Similar to Math motivation and Writing Motivation.</summary></entry><entry><title type="html">Baton Road</title><link href="www.ankushchoubey.com/baton/" rel="alternate" type="text/html" title="Baton Road" /><published>2020-07-05T00:00:00-05:00</published><updated>2020-07-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/baton-road</id><content type="html" xml:base="www.ankushchoubey.com/baton/">&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/61F6zC1EuvL._SL1024_.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Baton Road &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; is a feeling I had since childhood about how humanity progresses.&lt;/p&gt;
 
@@ -673,83 +755,4 @@ Math requires&lt;/p&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=HPsazrVSjl8&quot;&gt;How to Get Better at Math&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:5:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">I have always been interested in 🧮 even after failing twice at math exams during college.</summary></entry><entry><title type="html">Advice for those who want to learn Deep Learning</title><link href="www.ankushchoubey.com/dl_advice/" rel="alternate" type="text/html" title="Advice for those who want to learn Deep Learning" /><published>2020-05-02T00:00:00-05:00</published><updated>2020-05-02T00:00:00-05:00</updated><id>www.ankushchoubey.com/advice-for-want-to-learn-deep-learning</id><content type="html" xml:base="www.ankushchoubey.com/dl_advice/">&lt;p&gt;I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.&lt;/p&gt;
-
-&lt;p&gt;​&lt;strong&gt;I am not an expert&lt;/strong&gt;​. &lt;em&gt;Nor do I have a DL job&lt;/em&gt;. But I do know enough that I can work with a DL team and build something over a few months.&lt;/p&gt;
-
-&lt;p&gt;Hopefully, this answers all of your questions.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-dont-learn-machine-learning&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Don’t learn Machine Learning&lt;/h2&gt;
-
-&lt;p&gt;You don’t need to know ML before learning DL.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;It’s dumb.&lt;/li&gt;
-  &lt;li&gt;It is getting rapidly replaced by DL. Therefore, turning irrelevant.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lot of times people build a complex hand made ML solution just to get little bit higher metrics.
-In the &lt;a href=&quot;https://medium.com/modern-nlp/risk-and-counter-intuition-in-data-science-1a21a792ad95&quot;&gt;long run a simple DL model be better&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;-deep-learning-gets-easier-as-more-time-passes&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Deep Learning gets easier as more time passes.&lt;/h2&gt;
-
-&lt;p&gt;Allow your mind to adjust to the counter-intuitiveness.
-For me, it took months to adjust.&lt;/p&gt;
-
-&lt;h2 id=&quot;-get-comfortable-not-knowing-a-lot-of-stuff&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Get comfortable not knowing a lot of stuff.&lt;/h2&gt;
-
-&lt;p&gt;You might never need to do calculus but hand yourself.
-We have computers in the 21st century.&lt;/p&gt;
-
-&lt;p&gt;Knowing where to use it and what it does is enough.&lt;/p&gt;
-
-&lt;h2 id=&quot;--material-beats-the-method&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt;  Material beats the Method.&lt;/h2&gt;
-
-&lt;p&gt;Learn from the latest courses and use the latest tools.&lt;/p&gt;
-
-&lt;p&gt;This is a fast-changing field. 2-year-old stuff is mostly irrelevant.&lt;/p&gt;
-
-&lt;p&gt;It is probably good to mix your learning from multiple sources.&lt;/p&gt;
-
-&lt;p&gt;Recommended Course:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Top Down Approach: &lt;a href=&quot;https://www.fast.ai/&quot;&gt;https://www.fast.ai/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Bottom Up Approach: &lt;a href=&quot;https://www.coursera.org/specializations/deep-learning&quot;&gt;Andrew Ng’s Coursera Course&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Recommended next read: &lt;a href=&quot;https://hackernoon.com/how-not-to-do-fast-ai-or-any-ml-mooc-3d34a7e0ab8c&quot; target=&quot;_blank&quot;&gt;How not to do Fast.ai (or any ML MOOC)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;-learn-a-framework-well&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Learn a framework well&lt;/h2&gt;
-
-&lt;p&gt;This is useful when you are not following a tutorial.&lt;/p&gt;
-
-&lt;p&gt;I learned PyTorch.&lt;/p&gt;
-
-&lt;h2 id=&quot;-be-hands-on-from-day-one&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Be hands-on from Day One&lt;/h2&gt;
-
-&lt;p&gt;Learned gradient descent today??? Nice! Open a Jupyter notebook and code the simplest gradient descent you could think of.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Reading/Watching videos matters less&lt;/strong&gt;. Coding is the skill you are trying to develop.&lt;/p&gt;
-
-&lt;h2 id=&quot;-dont-get-intimidated-from-people-on-the-internet&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Don’t get intimidated from people on the internet.&lt;/h2&gt;
-
-&lt;p&gt;Most people in DL space are genuinely nice. But some you will find just crank out project after project by stealing other people’s code and never giving them credits.&lt;/p&gt;
-
-&lt;p&gt;Don’t get intimidated by them. Fame comes and bites them in the ass!&lt;/p&gt;
-
-&lt;p&gt;Know that those who are genuinely nice have spent a lot of time working on it.&lt;/p&gt;
-
-&lt;h2 id=&quot;-jobs&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Jobs&lt;/h2&gt;
-
-&lt;p&gt;This is a hard one. DL is something I really really loved and I wanted to do it full-time.&lt;/p&gt;
-
-&lt;p&gt;But looking at the job market here in Mumbai, India, a lot of companies which say they are doing DL and often just don’t.&lt;/p&gt;
-
-&lt;p&gt;Or they do enough to get investors and job candidates. Most don’t ship anything. I can think of none actually.&lt;/p&gt;
-
-&lt;h2 id=&quot;-finding-something-difficult&quot;&gt;&lt;input type=&quot;checkbox&quot; /&gt; Finding something difficult??&lt;/h2&gt;
-
-&lt;p&gt;Shoot me an email at &lt;a href=&quot;mailto:ankushchoubey@outlook.com&quot;&gt;ankushchoubey@outlook.com&lt;/a&gt; 😁&lt;/p&gt;
-
-&lt;p&gt;For questions or counter related to this post, write them in the comments below.&lt;/p&gt;</content><author><name></name></author><summary type="html">I do get questions once or twice a month in my friend circle of someone who is thinking of starting to learn Machine Learning or Deep Learning.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">I have always been interested in 🧮 even after failing twice at math exams during college.</summary></entry></feed>
