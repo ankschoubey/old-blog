@@ -345,6 +345,17 @@
   
 
   
+      ,"page6": {
+          "title": "Side Projects",
+          "content": "I am going to build a lot of weekend sized iterable side projects which I will deploy. . Some are definetely useless. . {% for post in site.categories[‘Side Project’] %} {%- assign date_format = site.minima.date_format | default: “%b %-d, %Y” -%} . {{post.title}} • {{ post.date | date: date_format }} . {% endfor %} . Here are few that I am planning to build: . A downloadable PDF calender for any month (using jsPDF) | A webapp that showns intersection between people’s following on twitter. Useful when seeing who to follow next. | An app to detect math symbols | An app to detect type on Mango |",
+          "url": "www.ankushchoubey.com/side_projects/",
+          "relUrl": "/side_projects/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -358,7 +369,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "www.ankushchoubey.com/robots.txt",

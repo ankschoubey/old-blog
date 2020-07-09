@@ -107,7 +107,7 @@ window.onload = wrap_img;
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+        <div class="trigger"><a class="page-link" href="/search/">Search</a><a class="page-link" href="/side_projects/">Side Projects</a><a class="page-link" href="/categories/">Tags</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -116,6 +116,7 @@ window.onload = wrap_img;
   for (const iterator of document.getElementsByClassName('page-link')) {
       if (iterator.innerHTML === 'Search'){ iterator.classList.add('search-button'); iterator.title = 'Search';}
       if (iterator.innerHTML === 'Tags'){ iterator.classList.add('tags-button'); iterator.title = 'Tags';}
+      if (iterator.innerHTML === 'Side Projects'){ iterator.classList.add('side-project-button'); iterator.title = 'Side Projects';}
   }
 </script>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
