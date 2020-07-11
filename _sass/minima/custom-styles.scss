@@ -29,7 +29,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    filter: opacity(0.7);
 }
+
 
 .side-project-button{
     background: url(https://image.flaticon.com/icons/svg/900/900813.svg);
@@ -38,6 +40,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    filter: opacity(0.7);
 }
 
 .tags-button{
@@ -48,10 +51,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    filter: opacity(0.7);
 }
 
-.search-button:hover{
-    transform: scale(1.5);
+.search-button:hover, .side-project-button:hover, .tags-button:hover{
+    filter: opacity(1);
 }
 .Box {
     box-shadow: none !important;

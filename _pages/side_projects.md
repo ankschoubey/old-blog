@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Side Projects
+title: 
 permalink: /side_projects/
 ---
 <script>
