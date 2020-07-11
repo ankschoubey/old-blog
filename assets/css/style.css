@@ -488,13 +488,13 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .site-title { color: #42424200 !important; background-image: url("/images/logo.png"); background-size: contain; background-repeat: no-repeat; background-position: center; }
 
-.search-button { background: url(https://image.flaticon.com/icons/svg/882/882988.svg); background-color: white; color: #42424200 !important; /* background-image: url(/images/logo.png); */ background-size: contain; background-repeat: no-repeat; background-position: center; }
+.search-button { background: url(https://image.flaticon.com/icons/svg/882/882988.svg); background-color: white; color: #42424200 !important; /* background-image: url(/images/logo.png); */ background-size: contain; background-repeat: no-repeat; background-position: center; filter: opacity(0.7); }
 
-.side-project-button { background: url(https://image.flaticon.com/icons/svg/900/900813.svg); background-color: white; color: #42424200 !important; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.side-project-button { background: url(https://image.flaticon.com/icons/svg/900/900813.svg); background-color: white; color: #42424200 !important; background-size: contain; background-repeat: no-repeat; background-position: center; filter: opacity(0.7); }
 
-.tags-button { background: url(https://image.flaticon.com/icons/svg/758/758658.svg); background-color: white; color: #42424200 !important; /* background-image: url(/images/logo.png); */ background-size: contain; background-repeat: no-repeat; background-position: center; }
+.tags-button { background: url(https://image.flaticon.com/icons/svg/758/758658.svg); background-color: white; color: #42424200 !important; /* background-image: url(/images/logo.png); */ background-size: contain; background-repeat: no-repeat; background-position: center; filter: opacity(0.7); }
 
-.search-button:hover { transform: scale(1.5); }
+.search-button:hover, .side-project-button:hover, .tags-button:hover { filter: opacity(1); }
 
 .Box { box-shadow: none !important; border: none !important; }
 
