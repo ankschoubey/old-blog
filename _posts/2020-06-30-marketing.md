@@ -2,7 +2,7 @@
 description: 
 title: Marketing
 comments: true
-categories: [Thoughts]
+categories: [Thoughts,Business]
 layout: post
 use_math: true
 permalink: /marketing/
