@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-07-13T12:48:43-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Ideas</title><link href="www.ankushchoubey.com/idea/" rel="alternate" type="text/html" title="Ideas" /><published>2020-07-08T00:00:00-05:00</published><updated>2020-07-08T00:00:00-05:00</updated><id>www.ankushchoubey.com/ideas</id><content type="html" xml:base="www.ankushchoubey.com/idea/">&lt;p&gt;Similar to &lt;a href=&quot;/math&quot;&gt;Math motivation&lt;/a&gt; and &lt;a href=&quot;/write&quot;&gt;Writing Motivation&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-07-18T11:10:26-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Draft: For Profit+Cause Companies vs a lot of non-profits</title><link href="www.ankushchoubey.com/for_profit/" rel="alternate" type="text/html" title="Draft: For Profit+Cause Companies vs a lot of non-profits" /><published>2020-07-18T00:00:00-05:00</published><updated>2020-07-18T00:00:00-05:00</updated><id>www.ankushchoubey.com/for-profit-vs-non-profit</id><content type="html" xml:base="www.ankushchoubey.com/for_profit/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
+   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
+   &lt;span class=&quot;Toast-content&quot;&gt;This essay is still in draft. I decided to publish it so that I feel complelled to finish it.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+   @media (min-width: 544px){
+.Toast {
+   width: -webkit-max-content;
+   width: -moz-max-content;
+   max-width: inherit;
+   margin: 16px;
+   width: auto;
+}
+}
+&lt;/style&gt;
+
+&lt;p&gt;I don’t like most non-profits. They have no reason to exist. They have sub-par performance. They don’t bring good solution to the table. They are part of cancel culture.&lt;/p&gt;
+
+&lt;p&gt;On the other hand for profit companies survive and have better performance.&lt;/p&gt;
+
+&lt;p&gt;For profit companies offer better and phisable solutions&lt;/p&gt;
+
+&lt;p&gt;Jobs&lt;/p&gt;
+
+&lt;p&gt;Some for-profit companies I really like in this space are:&lt;/p&gt;
+
+&lt;p&gt;• Tesla: Produces a lot of products related to energy consuptions. Popularly electric cars.
+• Impossible Burger: Making plant based alternative to animal meat without compresing people’s taste and quality
+• Neuralink: Trying to make human smart so that if AI and human will be able to work together.&lt;/p&gt;</content><author><name></name></author><summary type="html">This essay is still in draft. I decided to publish it so that I feel complelled to finish it.</summary></entry><entry><title type="html">Draft: Why people love Apple?</title><link href="www.ankushchoubey.com/apple/" rel="alternate" type="text/html" title="Draft: Why people love Apple?" /><published>2020-07-18T00:00:00-05:00</published><updated>2020-07-18T00:00:00-05:00</updated><id>www.ankushchoubey.com/apple</id><content type="html" xml:base="www.ankushchoubey.com/apple/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
+   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
+   &lt;span class=&quot;Toast-content&quot;&gt;This essay is still in draft. I decided to publish it so that I feel complelled to finish it.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+   @media (min-width: 544px){
+.Toast {
+   width: -webkit-max-content;
+   width: -moz-max-content;
+   max-width: inherit;
+   margin: 16px;
+   width: auto;
+}
+}
+&lt;/style&gt;
+
+&lt;p&gt;One of the fascinating things about Apple is that they control pretty much everything.&lt;/p&gt;
+
+&lt;p&gt;The control the operating system, the hardware and also very much control how to present themselves to the world.&lt;/p&gt;
+
+&lt;p&gt;Apple has always been great at product launch presentations. Their way has been simple. They don’t over explain things. And they usually gloss over the technical specs (or don’t even mention it) and focus more on
+• how it would feel to use the product.
+• how the craftsmanship behind the product went&lt;/p&gt;
+
+&lt;p&gt;If you look at their social media they don’t even allow for comments. And they don’t even try to sell you the product. What they show is the experience you will have after you will have the product.&lt;/p&gt;</content><author><name></name></author><summary type="html">This essay is still in draft. I decided to publish it so that I feel complelled to finish it.</summary></entry><entry><title type="html">Draft: Side Effect of For-Profit Businesses</title><link href="www.ankushchoubey.com/side_effect/" rel="alternate" type="text/html" title="Draft: Side Effect of For-Profit Businesses" /><published>2020-07-15T00:00:00-05:00</published><updated>2020-07-15T00:00:00-05:00</updated><id>www.ankushchoubey.com/side-effects-of-for-profit</id><content type="html" xml:base="www.ankushchoubey.com/side_effect/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
+   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
+   &lt;span class=&quot;Toast-content&quot;&gt;This essay is still in draft. I decided to publish it so that I feel complelled to finish it.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+   @media (min-width: 544px){
+.Toast {
+   width: -webkit-max-content;
+   width: -moz-max-content;
+   max-width: inherit;
+   margin: 16px;
+   width: auto;
+}
+}
+&lt;/style&gt;
+
+&lt;p&gt;I give Facebook and Google too much hate. But there are some really good things that have come out of them.&lt;/p&gt;
+
+&lt;p&gt;Facebook: Pytorch
+Google: Tensorflow
+Netflix: All their Microservices stack&lt;/p&gt;</content><author><name></name></author><summary type="html">This essay is still in draft. I decided to publish it so that I feel complelled to finish it.</summary></entry><entry><title type="html">Ideas</title><link href="www.ankushchoubey.com/idea/" rel="alternate" type="text/html" title="Ideas" /><published>2020-07-08T00:00:00-05:00</published><updated>2020-07-08T00:00:00-05:00</updated><id>www.ankushchoubey.com/ideas</id><content type="html" xml:base="www.ankushchoubey.com/idea/">&lt;p&gt;Similar to &lt;a href=&quot;/math&quot;&gt;Math motivation&lt;/a&gt; and &lt;a href=&quot;/write&quot;&gt;Writing Motivation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
    &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
@@ -455,304 +530,4 @@ And since you are someone who took the effort to read this in DOM, I am really g
 &lt;ul&gt;
   &lt;li&gt;Form your thoughts better&lt;/li&gt;
   &lt;li&gt;Document and share your progress&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">This is collections of posts/ideas I have come across over the years.</summary></entry><entry><title type="html">Deciding to learn a \(programming) topic</title><link href="www.ankushchoubey.com/new_tech/" rel="alternate" type="text/html" title="Deciding to learn a \(programming) topic" /><published>2020-05-25T00:00:00-05:00</published><updated>2020-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/deciding-to-learn-a-new-programming-topic</id><content type="html" xml:base="www.ankushchoubey.com/new_tech/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
-   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
-   &lt;span class=&quot;Toast-content&quot;&gt;I am writing this as a &lt;strong&gt;reference to my future self&lt;/strong&gt; and so &lt;strong&gt;it is highly biased&lt;/strong&gt;. &lt;br /&gt;&lt;br /&gt;May be someone else finds this helpful too.&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;style&gt;
-   @media (min-width: 544px){
-.Toast {
-   width: -webkit-max-content;
-   width: -moz-max-content;
-   max-width: inherit;
-   margin: 16px;
-   width: auto;
-}
-}
-&lt;/style&gt;
-
-&lt;p&gt;These are some things I found helpful when deciding on a new language or framework or module.&lt;/p&gt;
-
-&lt;h2 id=&quot;deciding-to-learn&quot;&gt;Deciding to learn&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;I pick something to learn only when the language/framework…&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;has been around for at-least a few year&lt;/li&gt;
-  &lt;li&gt;is under active development and is likely to stay&lt;/li&gt;
-  &lt;li&gt;has good community support/tools&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;I find it easier to learn something by category like:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Angular&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Spring Boot (Currently with Java)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Database&lt;/strong&gt;: SQL (pretty much all SQL are same)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Deep Learning&lt;/strong&gt;: PyTorch&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Containerizing&lt;/strong&gt;: Docker&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Hardware&lt;/strong&gt;: Ardruino (C++)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Game Development&lt;/strong&gt;: Yet to be decided&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The benefit of learning by category is that same skills can apply to other categories.&lt;/p&gt;
-
-&lt;p&gt;Like: My pandas (python) skills helped me a lot during new SQL problems.&lt;/p&gt;
-
-&lt;h2 id=&quot;deciding-not-to-learn&quot;&gt;Deciding not to learn&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;I hate learning “new”&lt;/strong&gt; languages/framework/technology especially &lt;strong&gt;when&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;it does the exact same thing that I can do now&lt;/li&gt;
-  &lt;li&gt;does not add any new benefit&lt;/li&gt;
-  &lt;li&gt;it’s old/outdated&lt;/li&gt;
-  &lt;li&gt;if I’ll likely never use it&lt;/li&gt;
-  &lt;li&gt;proprietary technology&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;So&lt;/strong&gt;,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;no AngularJS after learning Angular.&lt;/li&gt;
-  &lt;li&gt;nothing less than Spring Boot when doing Java.&lt;/li&gt;
-  &lt;li&gt;Typescript &amp;gt; Javascript.&lt;/li&gt;
-  &lt;li&gt;PyTorch is probably enough. Don’t need Tensorflow.&lt;/li&gt;
-  &lt;li&gt;SQL is enough. No need of NoSQL yet.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;exceptions&quot;&gt;Exceptions&lt;/h2&gt;
-
-&lt;p&gt;There have always existed exceptions and cases where I just needed to learn something.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Old but need it&lt;/strong&gt;: Had to learn excel to reverse engineering and build same feature in Spring Boot&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Learning a good framework&lt;/strong&gt;: Had learned Django before. After joining worked I learned Spring Boot and realized it much better.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Made life easy&lt;/strong&gt;: My application UI was crap. Easiest way was to learn CSS myself without using Bootstrap. It was easier than I expected. Thanks &lt;a href=&quot;https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA/featured&quot;&gt;Fireship&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;For Future&lt;/strong&gt;: I may learn a little Firebase just to see how fast I can develop applications in it. Hopefully transferring some of that knowledge to my daily coding.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But most exceptions occur where I either had to do it or see a benefit that is transferrable to what I do.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I try not to learn something just to add to resume or to list of things that just sound cool (sometimes I do).&lt;/p&gt;
-
-&lt;p&gt;I usually spend months deciding.&lt;/p&gt;
-
-&lt;p&gt;YouTube videos and written articles have been great help when deciding.&lt;/p&gt;</content><author><name></name></author><summary type="html">I am writing this as a reference to my future self and so it is highly biased. May be someone else finds this helpful too.</summary></entry><entry><title type="html">Agile and DevOps</title><link href="www.ankushchoubey.com/agile_devops/" rel="alternate" type="text/html" title="Agile and DevOps" /><published>2020-05-21T00:00:00-05:00</published><updated>2020-05-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/agile-and-devops</id><content type="html" xml:base="www.ankushchoubey.com/agile_devops/">&lt;p&gt;Agile and DevOps are useful or buzz words depending on who you hear it from.&lt;/p&gt;
-
-&lt;p&gt;The 2 can be thought of as effectiveness and efficiency respectively.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;devops-how-to-do&quot;&gt;&lt;strong&gt;DevOps&lt;/strong&gt;: How to do.&lt;/h2&gt;
-
-&lt;p&gt;DevOps deals with reducing the developer’s headaches by setting up processes and environments (+ mindset) to produce high-quality software. It can be useful to think of DevOps as an  &lt;a href=&quot;https://www.instana.com/media/ci-cd-loop-1024x456.png&quot;&gt;infinity loop&lt;/a&gt;  which only developers deal with.&lt;/p&gt;
-
-&lt;p&gt;High-quality software is the once that:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;get’s built faster&lt;/li&gt;
-  &lt;li&gt;allows for quicker change&lt;/li&gt;
-  &lt;li&gt;has low/no visible bugs or chances of introducing bugs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It is important for organizations to deliver new features faster and keep their software up to date. The speed of this software delivery will determine how fast the companies make changes.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;agile-what-to-do&quot;&gt;&lt;strong&gt;Agile&lt;/strong&gt;: What to do.&lt;/h2&gt;
-
-&lt;p&gt;A feature can only be useful when it is delivered.&lt;/p&gt;
-
-&lt;p&gt;But more importantly it needs to be the right feature. That’s where Agile comes in.&lt;/p&gt;
-
-&lt;p&gt;It helps in knowing and understanding requirements quickly and effectively and get user feedback.&lt;/p&gt;
-
-&lt;p&gt;Agile involves everyone. It does not matter is someone is technical or not.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;textbook-what-to-not-do&quot;&gt;&lt;strong&gt;Textbook&lt;/strong&gt;: What to not do.&lt;/h2&gt;
-
-&lt;p&gt;While Agile and DevOps are considered divine, it can be good to think them of as general principles and not as hard rules to follow.&lt;/p&gt;
-
-&lt;p&gt;Doing so is the opposite of what they mean. Don’t become a textbook expert. Textbook people who do Agile or DevOps always suggest doing the opposite of what’s practical or needed.&lt;/p&gt;
-
-&lt;p&gt;You might see many versions of both: Scrum/XP - SRE 🤘🏼 but all essentials mean the same thing. It is easier to think of them abstractly.&lt;/p&gt;
-
-&lt;p&gt;And for god’s sake, DevOps is not just tools.&lt;/p&gt;</content><author><name></name></author><summary type="html">Agile and DevOps are useful or buzz words depending on who you hear it from.</summary></entry><entry><title type="html">Math motivation</title><link href="www.ankushchoubey.com/math/" rel="alternate" type="text/html" title="Math motivation" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/math-motivation</id><content type="html" xml:base="www.ankushchoubey.com/math/">&lt;p&gt;I have always been interested in &lt;strong&gt;🧮&lt;/strong&gt; even after failing twice at math exams during college.&lt;/p&gt;
-
-&lt;p&gt;I have been collecting a lot of notes on the topic since the last 6-8 months and recently the number of notes exponentially grew. (damn recommendation systems). Some I came up on my own.&lt;/p&gt;
-
-&lt;p&gt;This should be a good time to publish the list and see how things evolve.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;maths-is-a-language-that-applies-to-the-real-world&quot;&gt;Maths is a language that applies to the real world&lt;/h2&gt;
-
-&lt;h3 id=&quot;it-is-a-human-language-like-english-because-it-helps-to-talk--with-each-other-&quot;&gt;It is a human language like English because it helps to talk 💭 with each other. &lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;it-is-the-language-of-nature-&quot;&gt;It is the language of nature. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;p&gt;Perhaps we can think, teach, and learn like it’s natural.&lt;/p&gt;
-
-&lt;h3 id=&quot;it-is-the-same-for-everyone&quot;&gt;It is the same for everyone&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;maths-is-everywhere-even-if-you-dont-notice&quot;&gt;Maths is everywhere. Even if you don’t notice.&lt;/h2&gt;
-
-&lt;p&gt;⏰ 🗺 🥇🥈🥉🎰🎲⚽️🍻&lt;/p&gt;
-
-&lt;p&gt;You have to learn it once and use it everywhere.&lt;/p&gt;
-
-&lt;p&gt;Plus you can learn it from anywhere.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;emphasis-on-maths-from-home-&quot;&gt;Emphasis on maths from home 🏡&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;People in Spanish class who come from 🏡s where Spanish is spoken are going to be better from day one☝️ . 🧮 is the same.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;maths-is-useful-and-fun&quot;&gt;Maths is useful and fun&lt;/h2&gt;
-
-&lt;h3 id=&quot;it-makes-you-more-popular&quot;&gt;It makes you more popular.&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;It is cool when others are silently looking for their calculator and you just say the answer.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;run-the-numbers-&quot;&gt;Run the numbers! &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You can verify a lot of facts by just running the calculating things in your head.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;maths-is-a-playground-&quot;&gt;Maths Is a Playground &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;p&gt;if you stop✋🏽 and look 👀.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You can explore the patterns on 🌊 🐚.&lt;/li&gt;
-  &lt;li&gt;Play with tiles and shapes.&lt;/li&gt;
-  &lt;li&gt;Categories objects in bizarre and creative ways.&lt;/li&gt;
-  &lt;li&gt;Do puzzles 🧩.&lt;/li&gt;
-  &lt;li&gt;Do origami.&lt;/li&gt;
-  &lt;li&gt;Study the patterns in music 🎶.&lt;/li&gt;
-  &lt;li&gt;Study the structure of trees🌳s.&lt;/li&gt;
-  &lt;li&gt;🎨. 🧶.&lt;/li&gt;
-  &lt;li&gt;Create secret codes.&lt;/li&gt;
-  &lt;li&gt;Program 🖥.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;math-is-reasoning-not-memorizing-or-speed&quot;&gt;Math is reasoning not memorizing or speed&lt;/h2&gt;
-
-&lt;h3 id=&quot;it-doesnt-matter-how-you-get-there-if-your-reasoning-is-correct-&quot;&gt;It doesn’t matter how you get there if your reasoning is correct. &lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;p&gt;There is no single right way to solve it.&lt;/p&gt;
-
-&lt;h3 id=&quot;there-is-nothing-wrong-with-counting-on-fingets--as-an-aid-to-doing-maths-&quot;&gt;There is nothing wrong with counting on fingets 🖐🏽 as an aid to doing maths. &lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It actually indicates an understanding of arithmetic more than if everything were memorized.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;maths-is-boring-when-it-is-taught-incompletely-&quot;&gt;Maths is boring when it is taught incompletely &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;p&gt;aka &lt;em&gt;we&lt;/em&gt; know only a handful of processes&lt;/p&gt;
-
-&lt;p&gt;Processes are like cookbook knowledge 👨‍🍳📖&lt;/p&gt;
-
-&lt;p&gt;Maths is a whole tool box 🧰 of operations that can apply to different situations.&lt;/p&gt;
-
-&lt;p&gt;Knowing the processes is important but does not make you good at maths.&lt;/p&gt;
-
-&lt;h3 id=&quot;tools-of-maths-are-simple-&quot;&gt;Tools of Maths are simple. &lt;sup id=&quot;fnref:6:1&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;​&lt;strong&gt;Number&lt;/strong&gt;​ (In all their forms)&lt;/li&gt;
-  &lt;li&gt;​&lt;strong&gt;Operations (&lt;/strong&gt;​Arithmetic; all others are derived from them)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Laws&lt;/strong&gt; (applies to all numbers)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Commutative&lt;/li&gt;
-  &lt;li&gt;Associative&lt;/li&gt;
-  &lt;li&gt;Distributive&lt;/li&gt;
-  &lt;li&gt;Identity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you know these ​&lt;strong&gt;you can construct the process on the fly&lt;/strong&gt;​.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;when-learning-maths&quot;&gt;When learning Maths&lt;/h2&gt;
-
-&lt;h3 id=&quot;bring-your--pen-and--paper-&quot;&gt;Bring your ✍🏽 pen and 📝 paper &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;maths-becomes-hard-when-you-move-away-from-the-real--and-abstract-it-beyond-recognition-&quot;&gt;Maths becomes hard when you move away from the real 🌎 and abstract it &lt;em&gt;beyond recognition&lt;/em&gt;. &lt;sup id=&quot;fnref:9:1&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;like-any-problem-you-can-sleep-on-numbers&quot;&gt;Like any problem, you can sleep on numbers.&lt;/h3&gt;
-&lt;p&gt;Go away for a while. Rest.&lt;/p&gt;
-
-&lt;h3 id=&quot;are-you-studying-maths-for-an-exam&quot;&gt;Are you studying maths for an exam?&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Or are you exploring it because it’s fun???&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are advantages to each.&lt;/p&gt;
-
-&lt;p&gt;Studying for an exam means you likely have a deadline and you will tent to go through the material faster.&lt;/p&gt;
-
-&lt;p&gt;The problem here is you are less likely to go deep and may forget 🧠 things as soon as an exam is over.&lt;/p&gt;
-
-&lt;p&gt;Exploring for fun means overall you will sustain your learning for longer and be less overwhelmed.&lt;/p&gt;
-
-&lt;p&gt;But this also means you will take much longer than need time and then wander off 💭.&lt;/p&gt;
-
-&lt;p&gt;Balance is the key. ⚖️&lt;/p&gt;
-
-&lt;h3 id=&quot;the-best-way-to-study-math-is-to-have-constant-exposure-to-it-&quot;&gt;The best way to study math is to have constant exposure to it. &lt;sup id=&quot;fnref:5:1&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Unformed Thoughts:
-Math requires&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;concentration + focus + patience + feedback + testing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Cultivate habit of looking at math and make concious effort.&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:9&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=64643Op6WJo&quot;&gt;What is Mathematics?&lt;/a&gt; &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:9:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://twitter.com/naval/status/924404740183805953?s=20&quot;&gt;Naval’s tweet on Math&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tg0Z--pmPog&quot;&gt;You’re Not Bad At Math, You’re Just Lazy&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nccvDyjvdps&quot;&gt;Jordan Peterson - The Cost of Procrastinating &amp;amp; Wasting Half Your Life&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.quickanddirtytips.com/education/math/why-is-it-important-to-study-math&quot;&gt;Math Dude: Why Is It Important to Study Math?&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:8&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=VW6LYuli7VU&amp;amp;feature=share&quot;&gt;Richard Feynman talks about Algebra&lt;/a&gt; &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:7&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.uaf.edu/deved/math/help-for-math-anxiety/12-math-myths/&quot;&gt;Twelve Math Myths&lt;/a&gt; &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=a19A04HMTVo&quot;&gt;Classical Conversation: Why Should You Study Math?&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:6:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=HPsazrVSjl8&quot;&gt;How to Get Better at Math&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:5:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">I have always been interested in 🧮 even after failing twice at math exams during college.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">This is collections of posts/ideas I have come across over the years.</summary></entry></feed>
