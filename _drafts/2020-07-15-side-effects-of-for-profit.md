@@ -1,6 +1,6 @@
 ---
 description: 
-title: "Draft: Side Effect of For-Profit Businesses"
+title: "Open Source from For-Profit Businesses"
 comments: true
 categories: [Thoughts,Business]
 layout: post
