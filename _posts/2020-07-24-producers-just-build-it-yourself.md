@@ -15,7 +15,7 @@ Like Suzuki which just puts in logo on Maruti Ertica which is developed by Toyot
 
 Or what a lot of indian smart phone makers did. Micromax and Lava which just bought products from Oppo and put there logo on it.
 
-A few years past and original manufactures became so good at developing and marketing that they started to sell themself and took over the market.
+A few years pass and original manufactures became so good at developing and marketing that they started to sell themself and took over the market.
 
 ---
 
@@ -29,12 +29,11 @@ Tesla builds it's own software and CPUs for auto-pilot technology which rest are
 
 SpaceX designs and builds everything on its own. While Boeing buys existing products.
 
-Apple outsources production but still designs everything by itself. 
--  While rest rely heavily on Google for phone software and on Microsoft for PC software.
+Apple outsources production but still designs everything by itself. While rest rely heavily on Google for phone software and on Microsoft for PC software.
 
 ---
 
-There are companies that took control back.
+There are companies that take control back.
 
 Apple is taking back control of it's microprocessors because it realized that it can ship better products if it designs the chips themself.
 
