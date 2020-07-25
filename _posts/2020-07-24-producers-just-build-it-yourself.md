@@ -6,6 +6,7 @@ categories: [Thoughts,Business]
 layout: post
 use_math: true
 permalink: /build_it_yourself/
+image: https://www.teslarati.com/wp-content/uploads/2019/08/tesla-gigafactory-4-europe.jpg
 ---
 
 A lot of companies make the mistake of outsourcing what they are good at or what their core business is.
