@@ -8,9 +8,17 @@
     {%- endif -%}
     <div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+          {% if post.categories contains "tweetable" %}
+            <p class="post-link" style="font-style: italic;">
+              <span class="fa fa-pencil"></span>
+              {{ post.title }}
+            </p>
+          {% else %}
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          {% endif %}
+
         </h3>
         <p class="post-meta-description">{{ post.description }}</p>
           <p class="post-meta">{{ post.date | date: date_format }}</p>
