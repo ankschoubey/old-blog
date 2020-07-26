@@ -19,7 +19,7 @@ Or what a lot of Indian smartphone makers did. Micromax and Lava which just boug
 
 A few years pass and original manufactures became so good at developing and marketing that they started to sell themself and took over the market.
 
-## Some build everthing themself
+## Some build almost everthing themself
 
 There are companies like Tesla and SpaceX which build everything themself.
 
