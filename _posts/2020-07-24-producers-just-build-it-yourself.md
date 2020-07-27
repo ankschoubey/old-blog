@@ -1,6 +1,6 @@
 ---
-description: 
-title: "Producers: If it is a core part of your business, don't outsource, build it yourself."
+description: For producers
+title: "If it is a core part of your business, don't outsource, build it yourself."
 comments: true
 categories: [Thoughts,Business]
 layout: post

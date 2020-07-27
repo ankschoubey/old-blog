@@ -1,5 +1,5 @@
 ---
-description: 
+description: Learning faster
 title: Observe other people in action
 comments: true
 categories: [Thoughts]

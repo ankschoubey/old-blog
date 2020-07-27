@@ -1,5 +1,5 @@
 ---
-description: 
+description: This post is stupid but I was asked about it once.
 title: Writing process (July 2020 Edition)
 comments: true
 categories: [Thoughts]
@@ -7,8 +7,6 @@ layout: post
 use_math: true
 permalink: /writing_process_07_2020/
 ---
-
-*This post is stupid. I am writing this because I was asked about it once.*
 
 1. Keep going through normal days
 2. **Randomly stumble** upon something via:

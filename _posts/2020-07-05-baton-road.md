@@ -1,5 +1,5 @@
 ---
-description: 
+description: How humanity progresses.
 title: Baton Road
 comments: true
 categories: [Thoughts]
@@ -39,7 +39,7 @@ Every moment happens once. [^1]
 
 Someday the 🔥 baton will pass on to our generation. Hopefully I'll be ready.
 
-#### Footnotes
+###### *Footnotes*
 
 [^1]: Zero to One by Peter Thiel
 [^2]: The title 'Baton Road' is inspired from Boruto: Naruto Next Generations Intro 1

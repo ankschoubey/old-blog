@@ -1,6 +1,6 @@
 ---
 description: 
-title: Deciding to learn a \(programming) topic
+title: Deciding to learn a {programming} topic
 comments: true
 categories: [Thoughts, For Future Me, Learning]
 layout: post

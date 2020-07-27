@@ -1,6 +1,6 @@
 ---
-description: 
-title: "Consumers: Just buy it. Don’t build it yourself."
+description: For consumers
+title: "Just buy it. Don’t build it yourself."
 comments: true
 categories: [Thoughts, Business]
 layout: post
