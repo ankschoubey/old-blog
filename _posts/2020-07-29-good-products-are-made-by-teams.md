@@ -5,7 +5,7 @@ comments: true
 categories: [Thoughts, Business]
 layout: post
 use_math: true
-permalink: /observe/
+permalink: /teams/
 ---
 
 Though it is hard to form a good team but good things are always built by teams.
