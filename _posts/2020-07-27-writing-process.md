@@ -8,6 +8,7 @@ use_math: true
 permalink: /writing_process_07_2020/
 ---
 
+
 1. Keep going through normal days
 2. **Randomly stumble** upon something via:
    1. Conversation
@@ -16,13 +17,13 @@ permalink: /writing_process_07_2020/
    4. Podcast
    5. Observation
 3. Keep thinking about it
-4. Wake up at midnight still thinking about it mixed with creativity of a sleepiness & dream.
+4. Wake up at midnight still thinking about it mixed with the creativity of sleepiness & dream.
 5. Either:
    - think about writing a blog, in which case the blog is never written.
       1. The idea is lost.
       2. *Go back to Step 1*.
    - just **write something and publish**.
-6. Next day or a few days later, wake up and see an awefully written post.
+6. The next day or a few days later, wake up and see an awfully written post.
 7. **Fear the reputation damage** inflicted by 😑:
    1. Grammar wrong
    2. Words wrong
@@ -34,9 +35,9 @@ permalink: /writing_process_07_2020/
    2. Add sections to make it easy to read and understand
    3. Add references and inspirations.
 10. A few days later,
-    1.  If someone mentions a point that can be improved upon or is ambigious, improve it.
+    1.  If someone mentions a point that can be improved upon or is ambiguous, improve it.
     2.  Finding and eliminate cliches.
 11. Get fed up of seeing the same post with no other inspiration in mind.
      1.   Think why do I even write this blog.
-     2.   Delete the local setup of blog and **decide not to write anything for atleast a month**.
+     2.   Delete the local setup of the blog and **decide not to write anything for at least a month**.
 12.  Repeat
