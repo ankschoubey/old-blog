@@ -25,10 +25,10 @@ permalink: /writing_process_07_2020/
    - just **write something and publish**.
 6. The next day or a few days later, wake up and see an awfully written post.
 7. **Fear the reputation damage** inflicted by 😑:
-   1. Grammar wrong
-   2. Words wrong
-   3. Sentences wrong
-   4. Paragraphs not ordered properly.
+   1. Wrong grammar
+   2. Wrong words
+   3. Wrong sentences
+   4. Paragraphs not ordered properly
 8. Fix it.
 9. A few days later,
    1. Do a Grammarly pass.
