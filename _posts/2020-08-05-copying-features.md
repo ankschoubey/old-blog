@@ -8,6 +8,8 @@ use_math: true
 permalink: /copying_products/
 ---
 
+{% include alert.html text = 'This essay is still in draft. I decided to publish it so that I feel complelled to finish it.' %}
+
 I understand that there are many different types of companies and not all companies are tech companies.
 
 While a company is first being build there is a shortcut which many companies takes.
