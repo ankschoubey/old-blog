@@ -39,6 +39,9 @@ Every moment happens once. [^1]
 
 Someday the 🔥 baton will pass on to our generation. Hopefully I'll be ready.
 
+{% include twitter.html content="https://twitter.com/elonmusk/status/1237595612473749504?s=20" %}
+
+
 ###### *Footnotes*
 
 [^1]: Zero to One by Peter Thiel

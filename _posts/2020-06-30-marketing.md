@@ -1,5 +1,5 @@
 ---
-description: 
+description: Draft version
 title: Marketing
 comments: true
 categories: [Thoughts,Business]
