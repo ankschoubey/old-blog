@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-08-05T10:50:04-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Copying other products</title><link href="www.ankushchoubey.com/copying_products/" rel="alternate" type="text/html" title="Copying other products" /><published>2020-08-05T00:00:00-05:00</published><updated>2020-08-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/copying-features</id><content type="html" xml:base="www.ankushchoubey.com/copying_products/">&lt;p&gt;I understand that there are many different types of companies and not all companies are tech companies.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-08-05T10:52:06-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Copying other products</title><link href="www.ankushchoubey.com/copying_products/" rel="alternate" type="text/html" title="Copying other products" /><published>2020-08-05T00:00:00-05:00</published><updated>2020-08-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/copying-features</id><content type="html" xml:base="www.ankushchoubey.com/copying_products/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
+   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
+   &lt;span class=&quot;Toast-content&quot;&gt;This essay is still in draft. I decided to publish it so that I feel complelled to finish it.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+   @media (min-width: 544px){
+.Toast {
+   width: -webkit-max-content;
+   width: -moz-max-content;
+   max-width: inherit;
+   margin: 16px;
+   width: auto;
+}
+}
+&lt;/style&gt;
+
+&lt;p&gt;I understand that there are many different types of companies and not all companies are tech companies.&lt;/p&gt;
 
 &lt;p&gt;While a company is first being build there is a shortcut which many companies takes.&lt;/p&gt;
 
@@ -36,7 +53,7 @@
 &lt;p&gt;Company which copies everything
 • Facebook and it’s products
 • Reliance Jio
-• Xiomi and other smartphone markers&lt;/p&gt;</content><author><name></name></author><summary type="html">I understand that there are many different types of companies and not all companies are tech companies.</summary></entry><entry><title type="html">Good products are built by teams not individuals</title><link href="www.ankushchoubey.com/teams/" rel="alternate" type="text/html" title="Good products are built by teams not individuals" /><published>2020-07-29T00:00:00-05:00</published><updated>2020-07-29T00:00:00-05:00</updated><id>www.ankushchoubey.com/good-products-are-made-by-teams</id><content type="html" xml:base="www.ankushchoubey.com/teams/">&lt;p&gt;Though it is hard to form a good team, good things are always built by teams.&lt;/p&gt;
+• Xiomi and other smartphone markers&lt;/p&gt;</content><author><name></name></author><summary type="html">This essay is still in draft. I decided to publish it so that I feel complelled to finish it.</summary></entry><entry><title type="html">Good products are built by teams not individuals</title><link href="www.ankushchoubey.com/teams/" rel="alternate" type="text/html" title="Good products are built by teams not individuals" /><published>2020-07-29T00:00:00-05:00</published><updated>2020-07-29T00:00:00-05:00</updated><id>www.ankushchoubey.com/good-products-are-made-by-teams</id><content type="html" xml:base="www.ankushchoubey.com/teams/">&lt;p&gt;Though it is hard to form a good team, good things are always built by teams.&lt;/p&gt;
 
 &lt;p&gt;You cannot build it alone.&lt;/p&gt;
 
