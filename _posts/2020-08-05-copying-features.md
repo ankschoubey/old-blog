@@ -17,10 +17,10 @@ While a company is first being build there is a shortcut which many companies ta
 Which is they copy features from other companies.
 
 It helps companies to:
-• Avoid R&D of Product
-• Avoid Market Research
-• They already know who to sell too.
-• They already know the mistakes to avoid.
+- Avoid R&D of Product
+- Avoid Market Research
+- They already know who to sell too.
+- They already know the mistakes to avoid.
 
 This can be because the copy they are copying from are from another geographic location or another market like they serve only premium customers.
 
@@ -33,20 +33,21 @@ Innovative companies set trends. If you are always copying them, you don't have 
 Customer start to see the company as clone of original.
 
 Company which innovates and others have to catch up
-• Apple
-• Tesla
-• Uber
-• AirBnB
-• Google
+- Apple
+- Tesla
+- Uber
+- AirBnB
+- Google
+- Snapchat
 
 Companies which has to catch up some times
-• Apple increasing size of their phones.
+- Apple increasing size of their phones.
 
 Copyed because of geographic advantage
-• Ride sharing services after
+- Ride sharing services after
 
 Company which copies everything
-• Facebook and it's products
-• Reliance Jio
-• Xiomi and other smartphone markers
+- Facebook and it's products
+- Reliance Jio
+- Xiomi and other smartphone markers
 
