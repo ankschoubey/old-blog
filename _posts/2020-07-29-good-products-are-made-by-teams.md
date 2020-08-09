@@ -1,5 +1,5 @@
 ---
-description: 
+description: Usually
 title: Good products are built by teams not individuals
 comments: true
 categories: [Thoughts, Business]
@@ -7,7 +7,7 @@ layout: post
 use_math: true
 permalink: /teams/
 ---
-Though it is hard to form a good team, good things are always built by teams.
+Though it is hard to form a good team, good things are almost always built by teams.
 
 You cannot build it alone.
 
