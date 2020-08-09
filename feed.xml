@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-08-09T03:35:03-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Copying features and products</title><link href="www.ankushchoubey.com/copying_products/" rel="alternate" type="text/html" title="Copying features and products" /><published>2020-08-05T00:00:00-05:00</published><updated>2020-08-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/copying-features</id><content type="html" xml:base="www.ankushchoubey.com/copying_products/">&lt;p&gt;While building a product there is a shortcut which many companies take which is they copy features from others.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-08-09T05:44:58-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">There is never enough automation</title><link href="www.ankushchoubey.com/automate/" rel="alternate" type="text/html" title="There is never enough automation" /><published>2020-08-09T00:00:00-05:00</published><updated>2020-08-09T00:00:00-05:00</updated><id>www.ankushchoubey.com/automation</id><content type="html" xml:base="www.ankushchoubey.com/automate/">&lt;p&gt;I see this all the time.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Automating this is enough.&lt;/p&gt;
+
+  &lt;p&gt;How much automation they are gonna do?&lt;/p&gt;
+
+  &lt;p&gt;Are they gonna take our jobs?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My view on the topic is automation is never enough. There are still things that can be done to improve.&lt;/p&gt;
+
+&lt;p&gt;Jobs will be replaced. Best new technologies remove need and trouble to do things manually. Our jobs as programmer too will someday be replaced by something easy. It is not of question of if. It is a question of when.&lt;/p&gt;
+
+&lt;p&gt;A civilization expands by doing things without thinking about them. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Though automation if not enough one could argue on the effectiveness of deciding what to automate. As with anything, a thing that should be elimitated should not be automated.&lt;/p&gt;
+
+&lt;p&gt;I find the below chart to be a useful reminder &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgs.xkcd.com/comics/is_it_worth_the_time_2x.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Those who think humans will always be superior to AI as we can “think creatively”, I think under estimate Deep Learning.&lt;/p&gt;
+
+&lt;p&gt;The technology had not have matured yet and there is possiblity that a point where we are not the decision maker.&lt;/p&gt;
+
+&lt;p&gt;I side with Mr. Musk on Neuralink: &lt;strong&gt;If you can’t fight them. Join them.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;&lt;em&gt;“Civilization advances by extending the number of important operations which we can perform without thinking of them.”&lt;/em&gt; ~ Alfred North Whitehead. Read from the book Deep Work by Cal Newport &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;xkcd comics: &lt;a href=&quot;https://xkcd.com/1205/&quot;&gt;Is It Worth the Time?&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">I see this all the time.</summary></entry><entry><title type="html">Copying features and products</title><link href="www.ankushchoubey.com/copying_products/" rel="alternate" type="text/html" title="Copying features and products" /><published>2020-08-05T00:00:00-05:00</published><updated>2020-08-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/copying-features</id><content type="html" xml:base="www.ankushchoubey.com/copying_products/">&lt;p&gt;While building a product there is a shortcut which many companies take which is they copy features from others.&lt;/p&gt;
 
 &lt;h3 id=&quot;it-helps-companies-to&quot;&gt;It helps companies to&lt;/h3&gt;
 &lt;ul&gt;
@@ -479,53 +516,4 @@ And since you are someone who took the effort to read this in DOM, I am really g
       &lt;p&gt;Tim Ferriss &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/2020-07-01-roi-of-fun/one_piece_luffy_drawing.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/2020-07-01-roi-of-fun/one_piece_luffy_drawing.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Marketing</title><link href="www.ankushchoubey.com/marketing/" rel="alternate" type="text/html" title="Marketing" /><published>2020-06-30T00:00:00-05:00</published><updated>2020-06-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/marketing</id><content type="html" xml:base="www.ankushchoubey.com/marketing/">&lt;div class=&quot;Toast Toast--warning googoo&quot;&gt;
-   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-alert octicon octicon-alert octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
-   &lt;span class=&quot;Toast-content&quot;&gt;This essay is still in draft. I decided to publish it so that I feel complelled to finish it.&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;style&gt;
-   @media (min-width: 544px){
-.Toast {
-   width: -webkit-max-content;
-   width: -moz-max-content;
-   max-width: inherit;
-   margin: 16px;
-   width: auto;
-}
-}
-&lt;/style&gt;
-
-&lt;h2 id=&quot;word-of-mouth&quot;&gt;Word of Mouth&lt;/h2&gt;
-&lt;p&gt;I understand that there are more things in the world then technology products but for a lot of technology products I don’t like ads.&lt;/p&gt;
-
-&lt;p&gt;Like cars. Tesla does it the best.&lt;/p&gt;
-
-&lt;p&gt;They make a really really good product which is much better that what is offered by the competition and thus the words spreads by word of mouth.&lt;/p&gt;
-
-&lt;p&gt;As the industry will mature I can understand that the gap between your product and the competition is very less. Thus in that state to win the market you essentially have to try everything like Advertisements.&lt;/p&gt;
-
-&lt;h2 id=&quot;marketing-money&quot;&gt;Marketing money&lt;/h2&gt;
-
-&lt;p&gt;Ever heard of Beats by Dr. Dre. The product kind of sucked before they got bought off by Apple.&lt;/p&gt;
-
-&lt;p&gt;Their product money split was something like this:&lt;/p&gt;
-
-&lt;p&gt;40 percent marketing + beautiful cover
-60 percent product&lt;/p&gt;
-
-&lt;p&gt;The reason for their survival was not that they had a good product. Bose was probably better in every way.&lt;/p&gt;
-
-&lt;p&gt;The only reason for their survival was every god damn music video used Beats in their video. Their packaging was too good.&lt;/p&gt;
-
-&lt;p&gt;On the other hand Bose was profitable just for their product.&lt;/p&gt;
-
-&lt;p&gt;Beats is not at the place it was in it’s hype years now. That is likely because Apple (it’s now parent company) has decided to focus more on product quality.&lt;/p&gt;
-
-&lt;p&gt;Over marketing a product while ignoring quality mean you get the initial sales but they as time passes you have to deal with user start disliking you.&lt;/p&gt;
-
-&lt;h2 id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
-&lt;p&gt;…writing in progress…&lt;/p&gt;
-
-&lt;h2 id=&quot;putting-ads-on-every-god-damn-blank-space&quot;&gt;Putting ads on every god damn blank space&lt;/h2&gt;
-&lt;p&gt;…writing in progress…&lt;/p&gt;</content><author><name></name></author><summary type="html">This essay is still in draft. I decided to publish it so that I feel complelled to finish it.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/2020-07-01-roi-of-fun/one_piece_luffy_drawing.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/2020-07-01-roi-of-fun/one_piece_luffy_drawing.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
