@@ -18,8 +18,10 @@ While building a product there is a shortcut which many companies take which is 
 
 ### This can be because the product they are copying from
 - is from another geographic location
-- or another market like they serve only premium customers
-- or the company is so big that they don't care if they are copying someone else. Money is all that matters.
+- or another market. Eg: they serve only premium customers
+- or the company is so big that they don't care if they are copying someone else.
+  - Money is all that matters.
+  - They have legal teams ready if something goes wrong.
 
 ### Copying sometimes is okay
 
@@ -33,7 +35,7 @@ Customers start to see the company as a clone of the original.
 
 ### Observations
 
-#### One's who innovates making others have to catch up
+#### One's who usually innovate and make others catch up
 - Apple
 - Tesla
 - Uber
