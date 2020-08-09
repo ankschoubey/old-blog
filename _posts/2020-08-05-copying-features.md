@@ -1,6 +1,6 @@
 ---
-description: Draft version
-title: Copying other products
+description: An observation of different technology companies
+title: Copying features and products
 comments: true
 categories: [Thoughts, Business]
 layout: post
@@ -8,46 +8,46 @@ use_math: true
 permalink: /copying_products/
 ---
 
-{% include alert.html text = 'This essay is still in draft. I decided to publish it so that I feel complelled to finish it.' %}
+While building a product there is a shortcut which many companies take which is they copy features from others.
 
-I understand that there are many different types of companies and not all companies are tech companies.
-
-While a company is first being build there is a shortcut which many companies takes.
-
-Which is they copy features from other companies.
-
-It helps companies to:
-- Avoid R&D of Product
+### It helps companies to
 - Avoid Market Research
-- They already know who to sell too.
-- They already know the mistakes to avoid.
+  - They already know who to sell too.
+- Avoid R&D of Product
+  - They already know the mistakes to avoid.
 
-This can be because the copy they are copying from are from another geographic location or another market like they serve only premium customers.
+### This can be because the product they are copying from
+- is from another geographic location
+- or another market like they serve only premium customers
+- or the company is so big that they don't care if they are copying someone else. Money is all that matters.
 
-I don't think it is as bad to copy once or twice. Sometimes customers demand a product to be a certain way. The company has to put down it's ego and listen to it's customer.
+### Copying sometimes is okay
 
-But I do hate companies which survive only on copying features and do not ever innovate or put their own thoughts into the product.
+I don't think it is as bad to copy once or twice. Sometimes customers demand a product to be a certain way. The company has to put down its ego and listen to its customer.
 
-Innovative companies set trends. If you are always copying them, you don't have any advantage. They do.
+But I do hate companies that survive only on copying features and do not ever innovate or put their thoughts into the product.
 
-Customer start to see the company as clone of original.
+**Innovative companies set trends**. *If you are always copying them, you don't have an advantage. They do.*
 
-Company which innovates and others have to catch up
+Customers start to see the company as a clone of the original.
+
+### Observations
+
+#### One's who innovates making others have to catch up
 - Apple
 - Tesla
 - Uber
-- AirBnB
+- Airbnb
 - Google
 - Snapchat
 
-Companies which has to catch up some times
-- Apple increasing size of their phones.
+#### One's who catch up some times
+- Apple increasing the size of their phones.
 
-Copyed because of geographic advantage
-- Ride sharing services after
+#### Copied because of geographic advantage
+- Ridesharing services after
 
-Company which copies everything
-- Facebook and it's products
+#### Copies everything
+- Facebook and its products
 - Reliance Jio
-- Xiomi and other smartphone markers
-
+- Xiaomi and other smartphone makers
