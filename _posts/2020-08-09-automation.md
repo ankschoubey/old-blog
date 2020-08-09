@@ -18,19 +18,19 @@ I see this all the time.
 
 My view on the topic is automation is never enough. There are still things that can be done to improve.
 
-Jobs will be replaced. Best new technologies remove need and trouble to do things manually. Our jobs as programmer too will someday be replaced by something easy. It is not of question of if. It is a question of when.
+Jobs will be replaced. Best new technologies remove need and trouble to do things manually. Our jobs as programmers too will someday be replaced by something easy. It is not of question of if. It is a question of when.
 
 A civilization expands by doing things without thinking about them. [^2]
 
-Though automation if not enough one could argue on the effectiveness of deciding what to automate. As with anything, a thing that should be elimitated should not be automated.
+Though automation is not enough one could argue on the effectiveness of deciding what to automate. As with anything, a thing that should be eliminated, should not be automated.
 
 I find the below chart to be a useful reminder [^1]
 
 ![](https://imgs.xkcd.com/comics/is_it_worth_the_time_2x.png)
 
-Those who think humans will always be superior to AI as we can “think creatively”, I think under estimate Deep Learning.
+Those who think humans will always be superior to AI as we can “think creatively”, I think underestimate Deep Learning.
 
-The technology had not have matured yet and there is possiblity that a point where we are not the decision maker.
+The technology had not have matured yet and there is a possibility that a point where we are not the decision-maker.
 
 I side with Mr. Musk on Neuralink: **If you can’t fight them. Join them.**
 
