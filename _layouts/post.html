@@ -58,6 +58,11 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+
+    {% if page.categories contains 'draft' %}
+      {% include draft.html %}
+    {% endif -%}
+
     {{ content | toc  }}
   </div>
   {%- if page.comments -%}

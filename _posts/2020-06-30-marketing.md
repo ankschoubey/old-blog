@@ -2,13 +2,11 @@
 description: Draft version
 title: Marketing
 comments: true
-categories: [Thoughts,Business]
+categories: [Thoughts,Business,draft]
 layout: post
 use_math: true
 permalink: /marketing/
 ---
-
-{% include alert.html text = 'This essay is still in draft. I decided to publish it so that I feel complelled to finish it.' %}
 
 ## Word of Mouth
 I understand that there are more things in the world then technology products but for a lot of technology products I don't like ads.

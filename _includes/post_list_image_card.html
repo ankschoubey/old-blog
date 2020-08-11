@@ -15,6 +15,9 @@
             </p>
           {% else %}
             <a class="post-link" href="{{ post.url | relative_url }}">
+              {% if post.categories contains "draft" %}
+                <i>DRAFT:</i> 
+              {% endif %}
               {{ post.title | escape }}
             </a>
           {% endif %}
