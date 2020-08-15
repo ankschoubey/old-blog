@@ -353,7 +353,7 @@ window.onload = wrap_img;
 </style>
 
 <div style="text-align: center; font-weight: bold; font-style: italic;" class="opacity-desired">
-        <h4>Liked the essay? Would someone else like it too?<br>Your comments and shares are valuable!</h4>
+        <h4>Liked the essay? Will someone else like it too?<br>Your comments and shares are valuable!</h4>
  </div>
  <!-- AddToAny BEGIN -->
 <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="display: flex;
@@ -375,6 +375,7 @@ align-items: center;">
         label="blogpost-comment"
         theme="github-light"
         crossorigin="anonymous"
+        onload="frameLoaded()"
         async>
 </script>
 
@@ -387,14 +388,15 @@ align-items: center;">
        Liked the essay?
 </div>
  -->
-<!-- 
+
  <script>
-        window.onload = function() {
-        let myiFrame = document.getElementById("myiFrame");
-        let doc = myiFrame.contentDocument;
-        doc.body.innerHTML = doc.body.innerHTML + '<style>.timeline-header{display: none;}</style>';
+        function frameLoaded() {
+                console.log('running frameLoaded')
+                let myiFrame = document.getElementsByClassName("utterances-frame")[0];
+                let doc = myiFrame.contentDocument;
+                doc.body.innerHTML = doc.body.innerHTML + '<style>.timeline-header{display: none;}</style>';
         }
- </script> -->
+ </script>
 <a class="u-url" href="/leave_it_better/" hidden></a>
 </article>
       </div>
