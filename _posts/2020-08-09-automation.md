@@ -8,12 +8,12 @@ use_math: true
 permalink: /automate/
 ---
 
-I see this all the time. 
+I see this all the time.
 
 > Automating this is enough.
-> 
+>
 > How much automation they are gonna do?
-> 
+>
 > Are they gonna take our jobs?
 
 My view on the topic is automation is never enough. There are still things that can be done to improve.
