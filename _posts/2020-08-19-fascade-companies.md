@@ -2,8 +2,8 @@
 toc: true
 layout: post
 comments: true
-description: 
-categories: [Business, draft]
+description: Only for-money companies
+categories: [Business]
 title: Facade companies
 permalink: /facade/
 ---

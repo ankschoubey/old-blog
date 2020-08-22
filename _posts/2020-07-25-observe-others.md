@@ -25,3 +25,5 @@ I learned more about management by watching my seniors and especially my client 
 It removed a lot of fear, myths, and makes you better by learning from other’s mistakes and methods.
 
 Biographies are also a path.
+
+*Similar but with a twist*: [When you are just starting out, don’t try to imitate the expert.](/imitating_experts/)

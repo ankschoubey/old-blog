@@ -59,3 +59,5 @@ These principles (20%) apply to a small by very important parts (80%):
 - deciding what to do
 - connecting different modules
 - debugging
+
+Similar: [Make your code configurable](/code_configurable/)

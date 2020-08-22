@@ -2,16 +2,15 @@
 description:
 title: Middleman
 comments: true
-categories: [Thoughts, Business, draft]
+categories: [Thoughts, Business]
 layout: post
 use_math: true
 permalink: /middlemen/
 ---
-Middlemen companies are weird.
 
-They provide services from one company to either another company or to consumers. 
+Middlemen companies provide services from one company to either another company or to consumers. 
 
-Some example of middlemen services are
+## Examples
 - Stripe
 - Car Dealers
 - Mobile Wallets
@@ -19,12 +18,16 @@ Some example of middlemen services are
 - Ride-Sharing Apps
 - Most online e-commerce website
 
-The reason middlemen can operate is that the source company is too complex for most normal people or companies to understand. So they make it convenient for people.
+## The Business
+The reason middlemen can operate is that the source company is too complex for most normal people or companies to understand.
 
+So they make it convenient for people.
+
+## Risk
 But this also is risky if the source company can easily provide the facility themself. Then there is no need for a middleman.
 
 Like when Tesla decided to not sell their cars through a dealership.
 
-Middleman companies sometimes act as an affiliate.
+Middleman companies in a way act as an affiliate.
 - The source company deals with creating the product.
 - The middlemen deal with selling the product.

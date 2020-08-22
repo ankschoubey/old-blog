@@ -3,8 +3,8 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Businesses, draft]
-title: On one level companies are their to make money.
+categories: [Businesses]
+title: On one level companies, are there to make money.
 permalink: /for_profit/
 ---
 
@@ -20,8 +20,8 @@ Not every company is in an industry, geographic location or stage of growth wher
 
 The most painful part is when the company drops its employees. It usually does not happen because the company is evil. But because dropping employees is the lesser evil.
 
-Either you drop employees (and resources) or let the whole boat sink.
+Either you drop employees (and resources) or let the whole boat sink (with everyone in it).
 
 Big world events like Pandemic or recession always remind us how important and valuable money is for companies and individuals.
 
-Counter Argument: [Facade Companies](/facade/)
+**Counter Argument**: [Facade Companies](/facade/)
