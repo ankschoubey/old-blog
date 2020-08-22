@@ -6,7 +6,10 @@ description:
 categories: [Business, Favorite]
 title: Businesses are for making money
 permalink: /for_profit/
+image: /images/for_profit/1.jpg
 ---
+
+![](/images/for_profit/1.jpg)
 
 I often argue on the point of companies should providing value.
 
@@ -28,3 +31,5 @@ Either you drop employees (and resources) or let the whole boat sink (with every
 Big world events like Pandemic or recession always remind us how important and valuable money is for companies and individuals.
 
 **Counter Argument**: [Facade Companies](/facade/)
+
+<sub>Photo by <a href="https://unsplash.com/@morningbrew?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Morning Brew</a> on <a href="https://unsplash.com/s/photos/business-money?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sub>

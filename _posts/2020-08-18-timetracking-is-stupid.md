@@ -6,7 +6,10 @@ description:
 categories: [Thoughts, Programming]
 title: Time tracking over programmers is counter-productive
 permalink: /time_tracking/
+image: /images/time_tracking/1.jpg
 ---
+
+![](/images/time_tracking/1.jpg)
 
 ## "Programming"
 
@@ -33,3 +36,5 @@ The reason I say time-tracking is counter-productive is:
 ## Conclusion
 
 Programming requires a lot of “research” and thinking. Things that can be done (can be done better) away from a screen.
+
+<sub>Photo by <a href="https://unsplash.com/@veri_ivanova?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Veri Ivanova</a> on <a href="https://unsplash.com/s/photos/time-tracking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sub>

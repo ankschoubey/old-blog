@@ -6,7 +6,10 @@ categories: [Thoughts, Business]
 layout: post
 use_math: true
 permalink: /teams/
+image: /images/teams/1.jpg
 ---
+![](/images/teams/1.jpg)
+
 Though it is hard to form a good team, good things are almost always built by teams.
 
 You cannot build it alone.
@@ -30,5 +33,8 @@ The advice I would give my past self when I joined work:
 
 <sup>And thinking about the teams I work and have worked with. 🙂</sup>
 
+<sup>Photo by <a href="https://unsplash.com/@marvelous?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marvin Meyer</a> on <a href="https://unsplash.com/s/photos/team?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sup>
+
 [^1]: [Steve Jobs on Managing People](https://www.youtube.com/watch?v=f60dheI4ARg)
 [^2]: Ryan Holiday
+

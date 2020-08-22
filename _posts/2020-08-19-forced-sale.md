@@ -6,9 +6,14 @@ description:
 categories: [Business]
 title: Don’t try to force a sale on people who are not your user base
 permalink: /forced_sale/
+image: /images/forced_sale/1.jpg
 ---
 
-Many companies try putting limited time offers making people decide to put money down. 
+![](/images/forced_sale/1.jpg)
+
+These apply to companies which sell "premium"/high cost products.
+
+Many companies try putting limited time offers making people decide to put money down.
 
 I have fallen victim myself. Multiple times. Especially with gyms and education sites.
 
@@ -34,3 +39,5 @@ What happens when user does not like your product?
 I have done so myself multiple times.
 
 Word of Mouth sale is quite underrated.
+
+<sub>Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/sale?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sub>
