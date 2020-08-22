@@ -3,8 +3,8 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Businesses]
-title: On one level companies, are there to make money.
+categories: [Business, Favorite]
+title: Businesses are for making money
 permalink: /for_profit/
 ---
 
@@ -12,11 +12,14 @@ I often argue on the point of companies should providing value.
 
 But on one level, maybe one of the most important thing is all companies are there to make money.
 
+## Providing "Value": Employee POV
 Providing value is often never well defined and there can be many ways to look at it.
 
 Even employees working in a company getting a steady paycheck, raising a family, having health insurance for themselves and their family is a valuable thing.
 
 Not every company is in an industry, geographic location or stage of growth where they can be good at everything.
+
+## Painful part
 
 The most painful part is when the company drops its employees. It usually does not happen because the company is evil. But because dropping employees is the lesser evil.
 

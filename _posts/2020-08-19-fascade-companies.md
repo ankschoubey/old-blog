@@ -14,4 +14,4 @@ They are here only for money, increasing valuation, getting more investors, gett
 
 Then when everything is all set, the founders will exit without hesitation. Not because the problem has been solved but because they didn’t care about solving the problem at all. It was just a facade.
 
-Counter Argument: [On one level companies are their to make money.](/for_profit/)
+**Counter Argument:** [Businesses are for making money](/for_profit/)
