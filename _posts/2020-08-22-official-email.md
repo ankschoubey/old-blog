@@ -9,6 +9,8 @@ permalink: /official_email/
 image: /images/official_email/1.jpg
 ---
 
+![](/images/official_email/1.jpg)
+
 If you are having a deal or an agreement or a negotiation of some kind. Do it via email. If you had communication offline or via another medium that is not documented, send a mail stating the minutes of the meeting and agreement. If necessary ask for a confirmation reply.
 
 I used to think this is disrespectful as I had communication with the person offline but as humans, we all of us forget. The email is for your future and the receiver's future self.
