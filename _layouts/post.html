@@ -64,6 +64,11 @@ layout: default
     {% endif -%}
 
     {{ content | toc  }}
+
+    {% if page.categories contains 'draft' %}
+      {% include draft.html %}
+    {% endif -%}
+
   </div>
   {%- if page.comments -%}
     {%- include utterances.html -%}

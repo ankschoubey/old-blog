@@ -1,5 +1,5 @@
 ---
-toc: false
+toc: true
 layout: post
 comments: true
 description: of "success"
@@ -36,14 +36,14 @@ You might have "struggled more" but someone was "lucky" enough to have resources
 
 Luck will always be there. There will always be things outside of one's control and we we cannot do anything about it. But there are some ways that we can increase the "probability" of luck being on our side.
 
-## **Work**: Discipline = Freedom
+### **Work**: Discipline = Freedom
 
 We may already be "lucky" but not prepared
 
-## **Overcoming Obstacle**
+### **Overcoming Obstacle**
 Obstacle is the way
 Persistence and Flexibility
 
-## **The Not So Unfair Luck**
+### **The Not So Unfair Luck**
 
-## **Multiplying Skills**
+### **Multiplying Skills**
