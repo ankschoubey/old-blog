@@ -512,4 +512,8 @@ img.image-preview:hover { transform: scale(1.05); }
 
 .footer-col-wrapper { display: none !important; }
 
+.home-button-tag { opacity: .4; }
+
+.home-button-tag:hover { opacity: 1; }
+
 /*# sourceMappingURL=style.css.map */
