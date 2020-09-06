@@ -27,7 +27,7 @@
           <p class="post-meta">{{ post.date | date: date_format }} － 
             <span>
             {% for category_name in post.categories %}
-              <a class="fa fa-tag home-button-tag" style="color: #353535 !important" href="/categories/#{{category_name}}"> {{category_name}}</a>
+              <a class="fa fa-tag home-button-tag" style="color: #353535 !important; padding-right: 5px;" href="/categories/#{{category_name}}"> {{category_name}}</a>
             {% endfor %}
             </span>
           </p>
