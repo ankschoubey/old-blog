@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: The illusion of perfect execution... every time.
-categories: [Thoughts]
+categories: []
 title: When you are just starting out, don’t try to imitate the expert.
 permalink: /imitating_experts/
 ---

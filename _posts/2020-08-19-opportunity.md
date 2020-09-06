@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Thoughts]
+categories: []
 title: Opportunity Cost
 permalink: /opportunity/
 ---

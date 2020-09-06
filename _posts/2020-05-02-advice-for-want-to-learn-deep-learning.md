@@ -2,7 +2,7 @@
 description: or Machine Learning
 title: Advice for those who want to learn Deep Learning
 comments: true
-categories: [Thoughts, Deep Learning]
+categories: [ Deep Learning]
 layout: post
 use_math: true
 permalink: /dl_advice/

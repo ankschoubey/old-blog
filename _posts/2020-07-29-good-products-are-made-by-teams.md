@@ -2,7 +2,7 @@
 description: Usually
 title: Good products are built by teams not individuals
 comments: true
-categories: [Thoughts, Business]
+categories: [ Business]
 layout: post
 use_math: true
 permalink: /teams/

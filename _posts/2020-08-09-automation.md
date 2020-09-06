@@ -2,7 +2,7 @@
 description: 
 title: There is never enough automation
 comments: true
-categories: [Thoughts, Business]
+categories: [ Business]
 layout: post
 use_math: true
 permalink: /automate/

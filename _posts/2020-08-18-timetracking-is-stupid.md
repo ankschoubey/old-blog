@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Thoughts, Programming]
+categories: [ Programming]
 title: Time tracking over programmers is counter-productive
 permalink: /time_tracking/
 image: /images/time_tracking/1.jpg

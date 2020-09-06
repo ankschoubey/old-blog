@@ -2,7 +2,7 @@
 description: 
 title: Agile and DevOps
 comments: true
-categories: [Thoughts, Agile, DevOps,Business]
+categories: [ Agile, DevOps,Business]
 layout: post
 use_math: true
 permalink: /agile_devops/

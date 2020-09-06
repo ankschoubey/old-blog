@@ -2,7 +2,7 @@
 description: 
 title: Math motivation
 comments: true
-categories: [Thoughts, Mathematics]
+categories: [ Mathematics]
 layout: post
 use_math: true
 permalink: /math/

@@ -24,6 +24,12 @@
 
         </h3>
         <p class="post-meta-description">{{ post.description }}</p>
-          <p class="post-meta">{{ post.date | date: date_format }}</p>
+          <p class="post-meta">{{ post.date | date: date_format }} － 
+            <span>
+            {% for category_name in post.categories %}
+              <a class="fa fa-tag home-button-tag" style="color: #353535 !important" href="/categories/#{{category_name}}"> {{category_name}}</a>
+            {% endfor %}
+            </span>
+          </p>
       </div>
   </div>

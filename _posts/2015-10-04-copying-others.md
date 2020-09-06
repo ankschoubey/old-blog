@@ -2,7 +2,7 @@
 description: 
 title: Copying Others vs Being Yourself
 comments: true
-categories: [Thoughts]
+categories: []
 layout: post
 use_math: true
 permalink: /copying/

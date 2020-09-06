@@ -2,7 +2,7 @@
 description: This post is stupid but I was asked about it once.
 title: Writing process (July 2020 Edition)
 comments: true
-categories: [Thoughts]
+categories: []
 layout: post
 use_math: true
 permalink: /writing_process_07_2020/

@@ -2,7 +2,7 @@
 description: 
 title: Writing motivation
 comments: true
-categories: [Thoughts, Writing]
+categories: [ Writing]
 layout: post
 use_math: true
 permalink: /write/

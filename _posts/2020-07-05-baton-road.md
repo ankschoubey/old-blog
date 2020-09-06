@@ -2,7 +2,7 @@
 description: How humanity progresses.
 title: Baton Road
 comments: true
-categories: [Thoughts,Favorite]
+categories: [Favorite]
 layout: post
 use_math: true
 permalink: /baton/

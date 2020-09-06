@@ -2,7 +2,7 @@
 description: and design
 title: User Interfaces
 comments: true
-categories: [Thoughts,Business]
+categories: [Business]
 layout: post
 use_math: true
 permalink: /ui/
