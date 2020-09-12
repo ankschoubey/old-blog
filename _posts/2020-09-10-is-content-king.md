@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Content farm
-categories: [draft, Businesses, Marketing]
+categories: [draft, Business, Marketing]
 title: If content still king?
 permalink: /content/
 ---
