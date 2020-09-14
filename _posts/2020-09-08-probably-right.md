@@ -6,7 +6,10 @@ description: A collection of thoughts
 categories: [For Future Me]
 title: Opinions/Events are not black and white.
 permalink: /black_white/
+image: /images/black_white.jpg
 ---
+
+![](/images/black_white.jpg)
 
 ## Lack of information
 
@@ -70,3 +73,5 @@ If you are sharing with 10 people, it is easy to not offend someone. But when yo
 
 [^1]: Naval Ravikant
 [^2]: Jordan B Peterson
+
+<sub>Photo by <a href="https://unsplash.com/@clemono?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clem Onojeghuo</a> on <a href="https://unsplash.com/s/photos/protest?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sub>
