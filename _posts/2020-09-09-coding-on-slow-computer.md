@@ -6,7 +6,10 @@ description:
 categories: [Programming]
 title: Tips for coding on a slow computer
 permalink: /slow_computer/
+image: /images/slow_computer.jpg
 ---
+
+![](/images/slow_computer.jpg)
 
 I usually code on slow computers. These things help me keep sane.
 
@@ -33,3 +36,5 @@ If one application crashes at least the other one is loaded.
 You can easily find ways to speed up your IDE. Just google it.
 
 In my case, I have made changes to `settings.ini` files for STS (A Java IDE).
+
+<sub>Photo by <a href="https://unsplash.com/@zane4004?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zane Lee</a> on <a href="https://unsplash.com/s/photos/old-computer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sub>
