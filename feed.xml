@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-09-12T11:52:47-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Different Login Form Options</title><link href="www.ankushchoubey.com/login/" rel="alternate" type="text/html" title="Different Login Form Options" /><published>2020-09-12T00:00:00-05:00</published><updated>2020-09-12T00:00:00-05:00</updated><id>www.ankushchoubey.com/different-login-options</id><content type="html" xml:base="www.ankushchoubey.com/login/">&lt;p&gt;Third Party Loggin&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-09-14T12:36:56-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Different Login Form Options</title><link href="www.ankushchoubey.com/login/" rel="alternate" type="text/html" title="Different Login Form Options" /><published>2020-09-12T00:00:00-05:00</published><updated>2020-09-12T00:00:00-05:00</updated><id>www.ankushchoubey.com/different-login-options</id><content type="html" xml:base="www.ankushchoubey.com/login/">&lt;p&gt;Third Party Loggin&lt;/p&gt;
 
 &lt;p&gt;Custom Login with Password&lt;/p&gt;
 
@@ -45,9 +45,36 @@ Like on YouTube,
 &lt;p&gt;Previously personalize results only appeared for feeds, now appear in normal search results toO. This means that everyone who searches for something get different results.
 This means that the normal search engine optimization methods no longer work as well as they use to.&lt;/p&gt;
 
-&lt;p&gt;But this also means that you are more likely to target your specific demographic as the algorithm thinks it is the right fit.&lt;/p&gt;</content><author><name></name></author><summary type="html">A few years ago there was a lot of rage for getting onto social media.</summary></entry><entry><title type="html">Coding on a slow computer</title><link href="www.ankushchoubey.com/slow_computer/" rel="alternate" type="text/html" title="Coding on a slow computer" /><published>2020-09-09T00:00:00-05:00</published><updated>2020-09-09T00:00:00-05:00</updated><id>www.ankushchoubey.com/coding-on-slow-computer</id><content type="html" xml:base="www.ankushchoubey.com/slow_computer/">&lt;p&gt;Run war files.
-Run apps seperately.
-Use as much terminal as possible.&lt;/p&gt;</content><author><name></name></author><summary type="html">Run war files. Run apps seperately. Use as much terminal as possible.</summary></entry><entry><title type="html">Whatever you decide, you’re probably right.</title><link href="www.ankushchoubey.com/black_white/" rel="alternate" type="text/html" title="Whatever you decide, you’re probably right." /><published>2020-09-08T00:00:00-05:00</published><updated>2020-09-08T00:00:00-05:00</updated><id>www.ankushchoubey.com/probably-right</id><content type="html" xml:base="www.ankushchoubey.com/black_white/">&lt;p&gt;There is always a trade-off.&lt;/p&gt;
+&lt;p&gt;But this also means that you are more likely to target your specific demographic as the algorithm thinks it is the right fit.&lt;/p&gt;</content><author><name></name></author><summary type="html">A few years ago there was a lot of rage for getting onto social media.</summary></entry><entry><title type="html">Tips for coding on a slow computer</title><link href="www.ankushchoubey.com/slow_computer/" rel="alternate" type="text/html" title="Tips for coding on a slow computer" /><published>2020-09-09T00:00:00-05:00</published><updated>2020-09-09T00:00:00-05:00</updated><id>www.ankushchoubey.com/coding-on-slow-computer</id><content type="html" xml:base="www.ankushchoubey.com/slow_computer/">&lt;p&gt;I usually code on slow computers. These things help me keep sane.&lt;/p&gt;
+
+&lt;h3 id=&quot;disable-animation-and-keep-open-apps-to-a-minimum&quot;&gt;Disable animation and keep open apps to a minimum&lt;/h3&gt;
+
+&lt;h3 id=&quot;use-as-much-terminalcmd-as-possible&quot;&gt;Use as much terminal/cmd as possible.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;npm start&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No GUI software can beat the terminal’s speed.&lt;/p&gt;
+
+&lt;div class=&quot;flash flash-success&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-checklist&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 000 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+    &lt;strong&gt;Tip: &lt;/strong&gt; To speed things up create &lt;code&gt;.sh/.bat&lt;/code&gt; files so that you can run repeated commands with a click of a button
+&lt;/div&gt;
+
+&lt;h3 id=&quot;if-your-backend-is-pretty-stable-run-the-packaged-file&quot;&gt;If your backend is pretty stable, run the packaged file.&lt;/h3&gt;
+&lt;p&gt;In my case when I am focused on angular development only, I run the &lt;code class=&quot;highlighter-rouge&quot;&gt;.war&lt;/code&gt; file in a separate terminal.&lt;/p&gt;
+
+&lt;h3 id=&quot;run-apps-separately&quot;&gt;Run apps separately&lt;/h3&gt;
+&lt;p&gt;Instead of using the terminal from VS Code, use a separate application.&lt;/p&gt;
+
+&lt;p&gt;If one application crashes at least the other one is loaded.&lt;/p&gt;
+
+&lt;h3 id=&quot;optimize-your-ides&quot;&gt;Optimize your IDEs&lt;/h3&gt;
+
+&lt;p&gt;You can easily find ways to speed up your IDE. Just google it.&lt;/p&gt;
+
+&lt;p&gt;In my case, I have made changes to &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.ini&lt;/code&gt; files for STS (A Java IDE).&lt;/p&gt;</content><author><name></name></author><summary type="html">I usually code on slow computers. These things help me keep sane.</summary></entry><entry><title type="html">Whatever you decide, you’re probably right.</title><link href="www.ankushchoubey.com/black_white/" rel="alternate" type="text/html" title="Whatever you decide, you’re probably right." /><published>2020-09-08T00:00:00-05:00</published><updated>2020-09-08T00:00:00-05:00</updated><id>www.ankushchoubey.com/probably-right</id><content type="html" xml:base="www.ankushchoubey.com/black_white/">&lt;p&gt;There is always a trade-off.&lt;/p&gt;
 
 &lt;p&gt;In every decision you make, there may be points in which you think the decision is right. And there are points where the same decisions are bad.&lt;/p&gt;
 
