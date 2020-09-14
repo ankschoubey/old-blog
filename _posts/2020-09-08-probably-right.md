@@ -50,6 +50,14 @@ You cannot convince everyone. Everyone has a different point of view. But you ca
 
 This is why we have debates and democracy. Systems where people share their opinion as try to come to a consensus.
 
+## Respecting other people's opinions
+
+You may be right. Maybe absolutely right.
+
+But still you are not them. In exactly their life circumstances.
+
+We are impacted a lot my people around us.
+
 ## Free speech
 
 Trying not to offend over important topics is not useful
