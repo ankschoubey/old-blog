@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-09-14T12:36:56-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Different Login Form Options</title><link href="www.ankushchoubey.com/login/" rel="alternate" type="text/html" title="Different Login Form Options" /><published>2020-09-12T00:00:00-05:00</published><updated>2020-09-12T00:00:00-05:00</updated><id>www.ankushchoubey.com/different-login-options</id><content type="html" xml:base="www.ankushchoubey.com/login/">&lt;p&gt;Third Party Loggin&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-09-14T12:55:22-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Different Login Form Options</title><link href="www.ankushchoubey.com/login/" rel="alternate" type="text/html" title="Different Login Form Options" /><published>2020-09-12T00:00:00-05:00</published><updated>2020-09-12T00:00:00-05:00</updated><id>www.ankushchoubey.com/different-login-options</id><content type="html" xml:base="www.ankushchoubey.com/login/">&lt;p&gt;Third Party Loggin&lt;/p&gt;
 
 &lt;p&gt;Custom Login with Password&lt;/p&gt;
 
@@ -74,21 +74,70 @@ This means that the normal search engine optimization methods no longer work as 
 
 &lt;p&gt;You can easily find ways to speed up your IDE. Just google it.&lt;/p&gt;
 
-&lt;p&gt;In my case, I have made changes to &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.ini&lt;/code&gt; files for STS (A Java IDE).&lt;/p&gt;</content><author><name></name></author><summary type="html">I usually code on slow computers. These things help me keep sane.</summary></entry><entry><title type="html">Whatever you decide, you’re probably right.</title><link href="www.ankushchoubey.com/black_white/" rel="alternate" type="text/html" title="Whatever you decide, you’re probably right." /><published>2020-09-08T00:00:00-05:00</published><updated>2020-09-08T00:00:00-05:00</updated><id>www.ankushchoubey.com/probably-right</id><content type="html" xml:base="www.ankushchoubey.com/black_white/">&lt;p&gt;There is always a trade-off.&lt;/p&gt;
+&lt;p&gt;In my case, I have made changes to &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.ini&lt;/code&gt; files for STS (A Java IDE).&lt;/p&gt;</content><author><name></name></author><summary type="html">I usually code on slow computers. These things help me keep sane.</summary></entry><entry><title type="html">Opinions/Events are not black and white.</title><link href="www.ankushchoubey.com/black_white/" rel="alternate" type="text/html" title="Opinions/Events are not black and white." /><published>2020-09-08T00:00:00-05:00</published><updated>2020-09-08T00:00:00-05:00</updated><id>www.ankushchoubey.com/probably-right</id><content type="html" xml:base="www.ankushchoubey.com/black_white/">&lt;h2 id=&quot;lack-of-information&quot;&gt;Lack of information&lt;/h2&gt;
+
+&lt;p&gt;Sometimes the decision is just a lack of information at the time.&lt;/p&gt;
+
+&lt;p&gt;Most of us would want to make optimal decisions all the time.&lt;/p&gt;
+
+&lt;p&gt;But as humans, we have our shortcomings and everyone is trying to do their best with the information they have.&lt;/p&gt;
+
+&lt;h2 id=&quot;there-is-always-a-trade-off&quot;&gt;There is always a trade-off.&lt;/h2&gt;
 
 &lt;p&gt;In every decision you make, there may be points in which you think the decision is right. And there are points where the same decisions are bad.&lt;/p&gt;
 
-&lt;p&gt;If you ask people for their opinion over something, each one of them will say slightly different thing.&lt;/p&gt;
+&lt;p&gt;If you ask people for their opinion over something, each one of them will say a slightly different thing.&lt;/p&gt;
+
+&lt;h2 id=&quot;reasoning&quot;&gt;Reasoning&lt;/h2&gt;
 
 &lt;p&gt;The opinion isn’t enough, you got to dig for reasoning.&lt;/p&gt;
 
-&lt;p&gt;Reasoning over an opinion for a lot of people is not developed. Most choose an opinion because it is popular or because their friends and family have a similar opinion.&lt;/p&gt;
+&lt;p&gt;Reasoning over opinions for many is not developed.&lt;/p&gt;
 
-&lt;p&gt;For those that you find have those own reasoning, these are interesting people.&lt;/p&gt;
+&lt;p&gt;Some choose an opinion because it is popular or because their friends and family have a similar opinion.&lt;/p&gt;
 
-&lt;p&gt;A good founder listens to everyone then does what he wants to do.&lt;/p&gt;
+&lt;p&gt;Those that have unique reasoning are interesting people.&lt;/p&gt;
 
-&lt;p&gt;Sometimes the decision is just a lack of information at the time. I would guess most of us would want to make optimal decisions all the time. But as humans we have our shortcoming and everyone is trying to do their best with information they have.&lt;/p&gt;</content><author><name></name></author><summary type="html">There is always a trade-off.</summary></entry><entry><title type="html">Probabilities</title><link href="www.ankushchoubey.com/probabilities/" rel="alternate" type="text/html" title="Probabilities" /><published>2020-08-29T00:00:00-05:00</published><updated>2020-08-29T00:00:00-05:00</updated><id>www.ankushchoubey.com/probabilities</id><content type="html" xml:base="www.ankushchoubey.com/probabilities/">&lt;p&gt;&lt;img src=&quot;/images/probabilities.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Knowing their reasoning helps you think from their point of view easier.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-opinion-is-probably-right-but-it-may-be-wrong&quot;&gt;Your opinion is probably right but it may be wrong.&lt;/h2&gt;
+
+&lt;p&gt;Any opinion you have or someone else has is probably right.&lt;/p&gt;
+
+&lt;p&gt;There are 6 billion people alive right now.&lt;/p&gt;
+
+&lt;p&gt;If you someday create a random belief, you could estimate that at least someone would have the same belief as you.&lt;/p&gt;
+
+&lt;p&gt;Therefore, you’re likely never completely wrong. (unless it is an opinion about logic 🙃)&lt;/p&gt;
+
+&lt;h2 id=&quot;sharing&quot;&gt;Sharing&lt;/h2&gt;
+
+&lt;p&gt;You cannot convince everyone. Everyone has a different point of view. But you can try to explain yours.&lt;/p&gt;
+
+&lt;p&gt;This is why we have debates and democracy. Systems where people share their opinion as try to come to a consensus.&lt;/p&gt;
+
+&lt;h2 id=&quot;free-speech&quot;&gt;Free speech&lt;/h2&gt;
+
+&lt;p&gt;Trying not to offend over important topics is not useful&lt;/p&gt;
+
+&lt;p&gt;If you are talking about something important, then you’ll likely offend someone.&lt;/p&gt;
+
+&lt;p&gt;If you are sharing with 10 people, it is easy to not offend someone. But when you are sharing with a 100 or a thousand of 10000, then just by pure randomness you may offend someone. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A good founder listens to everyone then does what he wants to do. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Jordan B Peterson &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Lack of information</summary></entry><entry><title type="html">Probabilities</title><link href="www.ankushchoubey.com/probabilities/" rel="alternate" type="text/html" title="Probabilities" /><published>2020-08-29T00:00:00-05:00</published><updated>2020-08-29T00:00:00-05:00</updated><id>www.ankushchoubey.com/probabilities</id><content type="html" xml:base="www.ankushchoubey.com/probabilities/">&lt;p&gt;&lt;img src=&quot;/images/probabilities.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Success can be defined in many ways. This article talks about achievement.&lt;/p&gt;
 
