@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-09-20T01:56:35-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Different Login Form Options</title><link href="www.ankushchoubey.com/login/" rel="alternate" type="text/html" title="Different Login Form Options" /><published>2020-09-12T00:00:00-05:00</published><updated>2020-09-12T00:00:00-05:00</updated><id>www.ankushchoubey.com/different-login-options</id><content type="html" xml:base="www.ankushchoubey.com/login/">&lt;p&gt;Third Party Loggin&lt;/p&gt;
-
-&lt;p&gt;Custom Login with Password&lt;/p&gt;
-
-&lt;p&gt;Email/Number/OTP&lt;/p&gt;
-
-&lt;p&gt;Sharing OTPs&lt;/p&gt;</content><author><name></name></author><summary type="html">Third Party Loggin</summary></entry><entry><title type="html">Just ask for it</title><link href="www.ankushchoubey.com/ask/" rel="alternate" type="text/html" title="Just ask for it" /><published>2020-09-12T00:00:00-05:00</published><updated>2020-09-12T00:00:00-05:00</updated><id>www.ankushchoubey.com/ask-for-it</id><content type="html" xml:base="www.ankushchoubey.com/ask/">&lt;p&gt;&lt;img src=&quot;/images/ask.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-09-20T02:40:42-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Just ask for it</title><link href="www.ankushchoubey.com/ask/" rel="alternate" type="text/html" title="Just ask for it" /><published>2020-09-12T00:00:00-05:00</published><updated>2020-09-12T00:00:00-05:00</updated><id>www.ankushchoubey.com/ask-for-it</id><content type="html" xml:base="www.ankushchoubey.com/ask/">&lt;p&gt;&lt;img src=&quot;/images/ask.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As I get older I realize one thing that most things you want you can just ask for it.&lt;/p&gt;
 
@@ -55,24 +49,24 @@ Similarly, even people want other people to grow and help them.&lt;/p&gt;
 
 &lt;p&gt;Since the amount of data has increased, the recommendation algorithms designed to keep people engage and make advertisers happy are getting more and choosy.&lt;/p&gt;
 
-&lt;h3 id=&quot;personalized-search-engines&quot;&gt;Personalized &lt;strong&gt;Search Engines&lt;/strong&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;personalized-search-engines&quot;&gt;Personalized &lt;strong&gt;Search Engines&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;A few years go personalize results only appeared for feeds, now appear in normal search results too. This means that everyone who searches for something gets different results.&lt;/p&gt;
 
 &lt;p&gt;But this also means that you are more likely to target your specific demographic as the algorithm thinks it is the right fit.&lt;/p&gt;
 
-&lt;h3 id=&quot;these-all-lead-to-change-in-seo-optimization&quot;&gt;These all lead to &lt;strong&gt;Change in SEO optimization&lt;/strong&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;these-all-lead-to-change-in-seo-strategy&quot;&gt;These all lead to &lt;strong&gt;change in SEO strategy&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;The basic search engine optimization (SEO) methods like keyword optimization and backlinking no longer work as well as effectively as they used to. These methods were more or less automatic and easy for people to make their websites reach people easily.&lt;/p&gt;
 
-&lt;p&gt;The newer methods which work along with are basic SEO strategies are more analog. I person has to decide how to come up with these:&lt;/p&gt;
+&lt;p&gt;The newer methods which work along with are basic SEO strategies are more analog. A person has to decide how to come up with these:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Site-specific strategies like Thumbnail and Timestamp on Youtube,&lt;/li&gt;
   &lt;li&gt;Creating a ‘brand’ account and promoting&lt;/li&gt;
   &lt;li&gt;Engaging and trying to retain users with witty and regular posts/stories&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;The newer methods of engagement are more work than what they were a few years ago.&lt;/p&gt;
 
@@ -322,20 +316,7 @@ Similarly, even people want other people to grow and help them.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Counter Argument&lt;/strong&gt;: &lt;a href=&quot;/facade/&quot;&gt;Facade Companies&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@morningbrew?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Morning Brew&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/business-money?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/for_profit/1.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/for_profit/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Opportunity Cost</title><link href="www.ankushchoubey.com/opportunity/" rel="alternate" type="text/html" title="Opportunity Cost" /><published>2020-08-19T00:00:00-05:00</published><updated>2020-08-19T00:00:00-05:00</updated><id>www.ankushchoubey.com/opportunity</id><content type="html" xml:base="www.ankushchoubey.com/opportunity/">&lt;p&gt;&lt;strong&gt;If I am a lion 🦁 should I be chasing mice 🐁 or should I be chasing a deer 🦌?&lt;/strong&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Focus — saying no to a dozen good ideas so that you can put your resources on things that matter. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Tim Ferriss &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">If I am a lion 🦁 should I be chasing mice 🐁 or should I be chasing a deer 🦌? 1 Tim Ferriss &amp;#8617;</summary></entry><entry><title type="html">Don’t try to force a sale on people who are not your user base</title><link href="www.ankushchoubey.com/forced_sale/" rel="alternate" type="text/html" title="Don’t try to force a sale on people who are not your user base" /><published>2020-08-19T00:00:00-05:00</published><updated>2020-08-19T00:00:00-05:00</updated><id>www.ankushchoubey.com/forced-sale</id><content type="html" xml:base="www.ankushchoubey.com/forced_sale/">&lt;p&gt;&lt;img src=&quot;/images/forced_sale/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@morningbrew?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Morning Brew&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/business-money?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/for_profit/1.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/for_profit/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Don’t try to force a sale on people who are not your user base</title><link href="www.ankushchoubey.com/forced_sale/" rel="alternate" type="text/html" title="Don’t try to force a sale on people who are not your user base" /><published>2020-08-19T00:00:00-05:00</published><updated>2020-08-19T00:00:00-05:00</updated><id>www.ankushchoubey.com/forced-sale</id><content type="html" xml:base="www.ankushchoubey.com/forced_sale/">&lt;p&gt;&lt;img src=&quot;/images/forced_sale/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;These apply to companies which sell “premium”/high cost products.&lt;/p&gt;
 
@@ -368,4 +349,23 @@ Similarly, even people want other people to grow and help them.&lt;/p&gt;
 
 &lt;p&gt;Word of Mouth sale is quite underrated.&lt;/p&gt;
 
-&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@markusspiske?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Markus Spiske&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/sale?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/forced_sale/1.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/forced_sale/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@markusspiske?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Markus Spiske&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/sale?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/forced_sale/1.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/forced_sale/1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Opportunity Cost</title><link href="www.ankushchoubey.com/opportunity/" rel="alternate" type="text/html" title="Opportunity Cost" /><published>2020-08-19T00:00:00-05:00</published><updated>2020-08-19T00:00:00-05:00</updated><id>www.ankushchoubey.com/opportunity</id><content type="html" xml:base="www.ankushchoubey.com/opportunity/">&lt;p&gt;&lt;strong&gt;If I am a lion 🦁 should I be chasing mice 🐁 or should I be chasing a deer 🦌?&lt;/strong&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Focus — saying no to a dozen good ideas so that you can put your resources on things that matter. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Tim Ferriss &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">If I am a lion 🦁 should I be chasing mice 🐁 or should I be chasing a deer 🦌? 1 Tim Ferriss &amp;#8617;</summary></entry><entry><title type="html">Facade companies</title><link href="www.ankushchoubey.com/facade/" rel="alternate" type="text/html" title="Facade companies" /><published>2020-08-19T00:00:00-05:00</published><updated>2020-08-19T00:00:00-05:00</updated><id>www.ankushchoubey.com/fascade-companies</id><content type="html" xml:base="www.ankushchoubey.com/facade/">&lt;p&gt;Companies that don’t actually care about solving a problem.&lt;/p&gt;
+
+&lt;p&gt;They are here only for money, increasing valuation, getting more investors, getting sales by tactics such as selling themselves (coupons), brand, and social media posts.&lt;/p&gt;
+
+&lt;p&gt;Then when everything is all set, the founders will exit without hesitation. Not because the problem has been solved but because they didn’t care about solving the problem at all. It was just a facade.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Counter Argument:&lt;/strong&gt; &lt;a href=&quot;/for_profit/&quot;&gt;Businesses are for making money&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Companies that don’t actually care about solving a problem.</summary></entry></feed>
