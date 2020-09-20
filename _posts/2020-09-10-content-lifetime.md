@@ -30,22 +30,22 @@ Bigger companies saw value in the shift in attention towards online sources and 
 
 Since the amount of data has increased, the recommendation algorithms designed to keep people engage and make advertisers happy are getting more and choosy.
 
-### Personalized **Search Engines**
+## Personalized **Search Engines**
 
 A few years go personalize results only appeared for feeds, now appear in normal search results too. This means that everyone who searches for something gets different results.
 
 But this also means that you are more likely to target your specific demographic as the algorithm thinks it is the right fit.
 
-### These all lead to **Change in SEO optimization**
+## These all lead to **change in SEO strategy**
 
 The basic search engine optimization (SEO) methods like keyword optimization and backlinking no longer work as well as effectively as they used to. These methods were more or less automatic and easy for people to make their websites reach people easily.
 
-The newer methods which work along with are basic SEO strategies are more analog. I person has to decide how to come up with these:
+The newer methods which work along with are basic SEO strategies are more analog. A person has to decide how to come up with these:
 - Site-specific strategies like Thumbnail and Timestamp on Youtube,
 - Creating a 'brand' account and promoting
 - Engaging and trying to retain users with witty and regular posts/stories
 
-***
+## **Conclusion**
 
 The newer methods of engagement are more work than what they were a few years ago.
 
