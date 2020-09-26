@@ -8,7 +8,7 @@ title: Leadership
 permalink: /leadership/
 ---
 
-I've been watching Simon Sinek videos lately.
+I've been watching Simon Sinek and Jocko Willink videos lately.
 
 Leadership can be thought of in multipe ways.
 
