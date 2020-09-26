@@ -12,11 +12,12 @@ I've been watching Simon Sinek videos lately.
 
 Leadership can be thought of in multipe ways.
 
-Totally un-cool though it is more legit:
+## The un-cool
 - He/She is a "leader" because of their position in an organization
 - Usually people who have 0 to negative skills but aged so they can't be working at the bottom
+- Pain to ideas/people around them.
 
-The cool one:
+## The cool one
 - A person who make the choice to be a leader regardless of their position in the organization.
 - He/She sees a problem and
   - proposes a solution
