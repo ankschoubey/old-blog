@@ -2,16 +2,19 @@
 description: 
 title: Writing motivation
 comments: true
-categories: [ Writing]
+categories: [Collection of Thoughts]
 layout: post
 use_math: true
 permalink: /write/
+image: /images/write.jpg
 ---
 
+![](/images/write.jpg)
+
+<sup>Photo by <a href="https://unsplash.com/@craftedbygc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Green Chameleon</a> on <a href="https://unsplash.com/s/photos/write?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sup>
 
 This is collections of posts/ideas I have come across over the years.
 
-Similar to [Math motivation](/math).
 
 {% include alert.html text = 'These only apply to non-fiction writing' %}
 

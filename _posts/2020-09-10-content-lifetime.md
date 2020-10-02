@@ -45,7 +45,7 @@ The newer methods which work along with are basic SEO strategies are more analog
 - Creating a 'brand' account and promoting
 - Engaging and trying to retain users with witty and regular posts/stories
 
-## **Conclusion**
+## Conclusion
 
 The newer methods of engagement are more work than what they were a few years ago.
 

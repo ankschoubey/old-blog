@@ -2,11 +2,16 @@
 description: 
 title: Math motivation
 comments: true
-categories: [ Mathematics]
+categories: [Collection of Thoughts]
 layout: post
 use_math: true
 permalink: /math/
+image: /images/math.jpg
 ---
+
+![](/images/math.jpg)
+
+<sup>Photo by <a href="https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">ThisisEngineering RAEng</a> on <a href="https://unsplash.com/s/photos/maths?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sup>
 
 I have always been interested in **🧮** even after failing twice at math exams during college.
 
