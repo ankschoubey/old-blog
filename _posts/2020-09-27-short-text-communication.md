@@ -1,28 +1,47 @@
 ---
-toc: true
+toc: false
 layout: post
 comments: true
 description: 
-categories: [draft]
-title: Short Text Communication
+categories: [For Future Self]
+title: Text Messaging
 permalink: /chat/
+image: /images/chat.jpg
 ---
+![](/images/chat.jpg)
 
-Online communication of any kind causes a lot of miss understandings
 
-sometimes you write something
+<sub>Photo by <a href="https://unsplash.com/@eddybllrd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eddy Billard</a> on <a href="https://unsplash.com/s/photos/texting?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sub>
 
-Typo
+## Problems
+Online communication of any kind causes a lot of miss understandings.
 
-Intent taken different
-Person’s Mood
+The reason is that you cannot know the mood of the person or what the situation is due to not being in physical proximity.
 
-This is why companies spend hell of a time crafting emails/writings.
+These things are compounded by:
+- Typos
+- Words that seem sarcastic or taunts.
+- Grammar
+- Mood/Situation of a person when he/she is reading the text
+- His/her prior knowledge regarding the topic being discusses
 
-If they write something unintended, thy’ll face a lot of customer support
+Because of these, the intent of the message is prone to be taken completely differently.
 
-At text is also totally unseless for explaining your feeling. So don’t. It’s not the person’s fault.
+Not to mention that texting is a slow process.
 
-Business 
+## Tips
 
-Lags and delays 
+### Try to pick a better medium
+In-person > Video > Voice > Snaps > Text
+`
+### Avoid long text message threads if possible.
+
+Text is also totally useless for explaining your feeling. So don’t. It’s not the person’s fault. It's just the medium.
+
+140 characters seem like a nice rule to follow. This keeps things light.
+
+## Use the right emojis 🙃
+They lighten things up even more.
+
+### Expect delay
+No one is free 100% of the time.

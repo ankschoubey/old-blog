@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [Business, Leadership]
+categories: [Business, Leadership, Favorite]
 title: Who is a leader?
 permalink: /leader/
 image: /images/leadership.jpg
