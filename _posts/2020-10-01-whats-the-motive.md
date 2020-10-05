@@ -5,7 +5,7 @@ comments: true
 description: What's the Motive?
 categories: [For Future Self, Hidden]
 title: What's the Motive?
-permalink: /chat/
+permalink: /motive/
 image: /images/chat.jpg
 ---
 ![](/images/chat.jpg)

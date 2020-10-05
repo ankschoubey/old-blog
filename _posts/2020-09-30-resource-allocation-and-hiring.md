@@ -5,7 +5,7 @@ comments: true
 description: Hiring and Allocating Assets
 categories: [For Future Self, Hidden]
 title: Hiring and Allocating Assets
-permalink: /chat/
+permalink: /resources/
 image: /images/chat.jpg
 ---
 ![](/images/chat.jpg)
