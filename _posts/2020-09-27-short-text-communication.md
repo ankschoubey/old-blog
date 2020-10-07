@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [For Future Self]
+categories: [For Future Self, Hidden]
 title: Text Messaging
 permalink: /chat/
 image: /images/chat.jpg
