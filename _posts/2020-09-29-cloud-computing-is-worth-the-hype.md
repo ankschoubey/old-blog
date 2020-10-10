@@ -6,9 +6,9 @@ description:
 categories: [Cloud Computing, Information Systems, Draft]
 title: Cloud is worth the hype
 permalink: /cloud/
-image: /images/chat.jpg
+image: https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80
 ---
-![](/images/chat.jpg)
+![](https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80)
 
 
 Cloud has recently excited me more than anything else in the world. Consider this a fanboy rant.
@@ -29,6 +29,7 @@ While for the cloud provider, it is also cheap because they provide it at scale.
 ## Cost: Pay only for what you use
 
 The cost can be optimized further by setting up things properly.
+
 ## Computational Power
 
 Specially in fields like Machine Learning you need high computation.
