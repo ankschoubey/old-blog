@@ -2,10 +2,16 @@
 toc: false
 layout: post
 comments: true
-description: Hiring and Allocating Assets
-categories: [For Future Self, Hidden]
-title: Hiring and Allocating Assets
+description: 
+categories: [Businesses, Draft]
+title: Resource allocation and Tech Costs
 permalink: /resources/
 image: /images/chat.jpg
 ---
 ![](/images/chat.jpg)
+
+# Allocating employees
+
+# Changing Products/Vendor
+
+# Machines
