@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Recognition
-categories: [Teams, Businesses, Draft, Leadership]
+categories: [Teams, Businesses, draft, Leadership]
 title: Give credit where credit is due
 permalink: /recognition/
 image: https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80

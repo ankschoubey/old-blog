@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Communication Bottleneck in Larger Companies
-categories: [Teams, Businesses, Draft]
+categories: [Teams, Businesses, draft]
 title: Communication becomes more important as company grows
 permalink: /communication_bottleneck/
 image: https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80
