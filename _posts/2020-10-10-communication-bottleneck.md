@@ -2,39 +2,67 @@
 toc: false
 layout: post
 comments: true
-description: Communication Bottleneck in Larger Companies
-categories: [Teams, Businesses, draft]
-title: Communication becomes more important as company grows
+description: Why communication policy is essential
+categories: [Businesses, Communication]
+title: Communication becomes more important as a company grows
 permalink: /communication_bottleneck/
-image: https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80
+image: /images/communication_bottleneck.jpg
 ---
-![](https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80)
 
-As a company grows bigger and bigger
+![](/images/communication_bottleneck.jpg)
 
-At first a company of 1 or 2 produces a lot of productivity.
+## Productivity increase with regards to extra hires
 
-But soon they realize they don't have enough time or expertise to build there product effectively.
+A smaller company sees an immediate boost in productivity just by the addition of a few extra employees.
 
-So they start hiring.
+As demand increases, the company keeps hiring and increasing its employees.
 
-The productivity of overall company increases. And there is less stress on each employee.
+But after a certain point, the increase is the number of employees does not increase as much as it used to.
 
-As more and more work comes, companies keep hiring and increasing their employees.
+## Overhead of having many employees
 
-But after a certain point, the increase is number of employees is not as efficient as it used to be.
+As the number of employees increases, the communication overhead increases.
 
-The reasons are:
+It becomes harder to align these increased employees to company policies.
 
-- The larger the number of employees, the harder it is to manage.
-- The larger the number of employees, the less likely they are to align with company policies, the more stringent checks are done.
-- Good communication becomes a necessasity. Messages have to be passed from one person to another. The time spent in relaying communication is the time that can be spent working on the product.
-- This is why having a good communication policy is essential.
-- The amount of message hops it takes to replay information from lower level employee to a top level executive is very high. It takes many hops.
+As a result, a separate department/role is to develop whose job is to check if employees following guidelines. (More Hiring)
 
-Most people don't need information fast. But they need clarity of when they can get a response. Setting time for when you respond helps.
+## Having a Communication Policy
 
-A good communication policy must include:
-- Documentation and Recorded training so that employees can find the answers they need by themselves.
-- Timeboxed Meeting
-- Competition/Suggestions/Feedbacks
+The amount of message hops it takes to replay information is very high, especially from lower-level employees to a top-level executive.
+
+The time spent in relaying communication is the time that can be spent working on the product.
+
+This is why having a good communication policy is essential.
+
+## Communication Policy
+
+The focus should be on reducing as many human middlemen as possible.
+
+### To reduce the number of people involved in accessing information
+
+These help employees find the information themselves first.
+- Proper Documentation
+- Recorded Lectures
+
+A simple FAQ/Wiki page is a good starting point.
+
+### Focused meeting
+
+Meetings are usually justified regardless of whether the meeting is focused or whether people involved in the meeting are related to it.
+
+Somethings that always make meetings more productive:
+- Having an Agenda
+- Timeboxing
+- Having a limited number of people
+
+### Contacting Policy
+Most people don't need information fast. Rather most expect clarity in 2 things:
+- Who to contact for what sort of information.
+- By when are they expected to get a response.
+
+### Faster lanes for getting feedbacks and suggestions
+In larger companies, it becomes difficult to find problems on an individual employee level. An employee may have a really good suggestion/idea. This type of feedbacks should reach the right people as quickly as possible.
+
+Having open to all suggestions/feedbacks forms is a kind of faster late to make this possible.
+
