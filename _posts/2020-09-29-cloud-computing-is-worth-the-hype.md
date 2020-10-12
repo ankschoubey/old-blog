@@ -39,6 +39,8 @@ Specially in fields like Machine Learning you need high computation.
 
 ## More Easy than traditional server
 
+Unless you are setting up your own cloud infrastructure... vendor cloud solutions are is easy
+
 ## The cloud powers: Special APIs
 
 Almost all cloud providers provide spcieal api for things like machine learning. One need not be a expert.

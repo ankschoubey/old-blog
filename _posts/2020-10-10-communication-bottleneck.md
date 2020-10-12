@@ -2,9 +2,9 @@
 toc: false
 layout: post
 comments: true
-description: Why communication policy is essential
+description: and why communication policy is essential
 categories: [Businesses, Communication]
-title: Communication becomes more important as a company grows
+title: Communication Bottleneck in large organizations
 permalink: /communication_bottleneck/
 image: /images/communication_bottleneck.jpg
 ---
