@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-10-12T05:56:37-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Communication Bottleneck in large organizations</title><link href="www.ankushchoubey.com/communication_bottleneck/" rel="alternate" type="text/html" title="Communication Bottleneck in large organizations" /><published>2020-10-10T00:00:00-05:00</published><updated>2020-10-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/communication-bottleneck</id><content type="html" xml:base="www.ankushchoubey.com/communication_bottleneck/">&lt;p&gt;&lt;img src=&quot;/images/communication_bottleneck.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-10-13T01:28:02-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Communication Bottleneck in large organizations</title><link href="www.ankushchoubey.com/communication_bottleneck/" rel="alternate" type="text/html" title="Communication Bottleneck in large organizations" /><published>2020-10-10T00:00:00-05:00</published><updated>2020-10-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/communication-bottleneck</id><content type="html" xml:base="www.ankushchoubey.com/communication_bottleneck/">&lt;p&gt;&lt;img src=&quot;/images/communication_bottleneck.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;productivity-increase-with-regards-to-extra-hires&quot;&gt;Productivity increase with regards to extra hires&lt;/h2&gt;
 
@@ -113,41 +113,78 @@ Imagine the topper of your class. He she get’s extra praise and attention from
 
 &lt;p&gt;I believe this can be done even for databases.&lt;/p&gt;
 
-&lt;p&gt;During&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" /><media:content medium="image" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cloud is worth the hype</title><link href="www.ankushchoubey.com/cloud/" rel="alternate" type="text/html" title="Cloud is worth the hype" /><published>2020-09-29T00:00:00-05:00</published><updated>2020-09-29T00:00:00-05:00</updated><id>www.ankushchoubey.com/cloud-computing-is-worth-the-hype</id><content type="html" xml:base="www.ankushchoubey.com/cloud/">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=2689&amp;amp;q=80&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;During&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" /><media:content medium="image" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cloud is Worth the Hype</title><link href="www.ankushchoubey.com/cloud/" rel="alternate" type="text/html" title="Cloud is Worth the Hype" /><published>2020-09-29T00:00:00-05:00</published><updated>2020-09-29T00:00:00-05:00</updated><id>www.ankushchoubey.com/cloud-computing-is-worth-the-hype</id><content type="html" xml:base="www.ankushchoubey.com/cloud/">&lt;p&gt;&lt;img src=&quot;/images/cloud.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Cloud has recently excited me more than anything else in the world. Consider this a fanboy rant.&lt;/p&gt;
 
-&lt;p&gt;I was avoiding cloud because it seemed like a buzz word. Something I was hearing since I was 12 yo.&lt;/p&gt;
+&lt;p&gt;Earlier, I was avoiding the cloud because it seemed very hard. But like every computer science buzzword, it is much much easier than expected.&lt;/p&gt;
 
-&lt;p&gt;Recently I started learning AWS. Here are some things that I find really really amazing.&lt;/p&gt;
+&lt;p&gt;Recently I started learning AWS. These are a few things that have changed my mind.&lt;/p&gt;
 
-&lt;p&gt;These are a few things that have changed my mind.&lt;/p&gt;
+&lt;h2 id=&quot;cost-pay-only-for-what-you-use&quot;&gt;&lt;strong&gt;Cost&lt;/strong&gt;: Pay only for what you use&lt;/h2&gt;
 
-&lt;h2 id=&quot;cloud-is-a-win-win&quot;&gt;Cloud is a Win-Win&lt;/h2&gt;
+&lt;p&gt;Cloud is anyway cheaper than building and maintaining your server.&lt;/p&gt;
 
-&lt;p&gt;Cloud provides a lot of consumer surplus. Traditionally, one would have to set&lt;/p&gt;
+&lt;p&gt;The cost can be optimized further by setting up things properly.&lt;/p&gt;
+
+&lt;p&gt;Cost is impacted by decisions such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pay per minute&lt;/li&gt;
+  &lt;li&gt;Different cost for different configuration&lt;/li&gt;
+  &lt;li&gt;Pay per GB of data stored&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And cloud vendors themselves provide options and encourage customers to optimize their usage to reduce cost.&lt;/p&gt;
+
+&lt;h2 id=&quot;rapid-availability&quot;&gt;&lt;strong&gt;Rapid Availability&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Resources are available to you the instant you want them and in the location, you want them at.&lt;/p&gt;
+
+&lt;p&gt;If I were to start a Deep Learning project, on my local machine, it would take a full workday to just set things upright. Plus, you’ll have to deal with upgrades and maintenance yourself.&lt;/p&gt;
+
+&lt;p&gt;The same thing I wanted to do on AWS, it took just 3 minutes.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-hardware&quot;&gt;&lt;strong&gt;Special Hardware&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;In fields like Machine Learning, you need high computation and specialized hardware.&lt;/p&gt;
+
+&lt;p&gt;A cloud provider can provide it instantly.&lt;/p&gt;
+
+&lt;p&gt;Similarly, Quantum Programming is a new field for programmers that were not available to most developers. But cloud providers are providing infrastructure for this new field.&lt;/p&gt;
+
+&lt;h2 id=&quot;choice-well-provide-infrastructure-your-code&quot;&gt;&lt;strong&gt;Choice&lt;/strong&gt;: “We’ll provide infrastructure. Your code!”&lt;/h2&gt;
+
+&lt;p&gt;Traditionally, if you buy hardware and it is not used, you cannot do much other than selling the hardware to reclaim the cost.&lt;/p&gt;
+
+&lt;p&gt;Cloud solves this problem by allowing users to change their underlying infrastructure at any moment.&lt;/p&gt;
+
+&lt;h2 id=&quot;maintainance-well-provide-support-you-code&quot;&gt;&lt;strong&gt;Maintainance&lt;/strong&gt;: “We’ll provide support. You code!”&lt;/h2&gt;
+
+&lt;p&gt;Small things like replication of the servers and databases, scaling, sharding, maintaining security, etc are automatically taken care of with a few clicks.&lt;/p&gt;
+
+&lt;p&gt;Cloud vendors provide a good set of defaults and out of the box solutions to these common problems.&lt;/p&gt;
+
+&lt;h2 id=&quot;abstraction-easier-than-traditional-setup&quot;&gt;&lt;strong&gt;Abstraction&lt;/strong&gt;: Easier than Traditional Setup&lt;/h2&gt;
+
+&lt;p&gt;Cloud vendors make it easier to use the cloud. Things are abstracted and one can choose to learn until what is required.&lt;/p&gt;
+
+&lt;p&gt;Most normal developers would not have to deal with specifics of the infrastructure.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-apis-code-less&quot;&gt;Special APIs: Code less&lt;/h2&gt;
+
+&lt;p&gt;Almost all cloud providers provide special APIs for things like text recognition, image recognition, and even blockchains.&lt;/p&gt;
+
+&lt;p&gt;One need not be an expert to use these out of the box solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion-cloud-is-a-win-win&quot;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;: Cloud is a Win-Win&lt;/h2&gt;
+
+&lt;p&gt;Cloud provides a lot of consumer surplus.&lt;/p&gt;
 
 &lt;p&gt;Cloud is such that the price of owning and maintaining for the individual user than if they would have built a server themselves.&lt;/p&gt;
 
 &lt;p&gt;While for the cloud provider, it is also cheap because they provide it at scale.&lt;/p&gt;
 
-&lt;h2 id=&quot;cost-pay-only-for-what-you-use&quot;&gt;Cost: Pay only for what you use&lt;/h2&gt;
-
-&lt;p&gt;The cost can be optimized further by setting up things properly.&lt;/p&gt;
-
-&lt;h2 id=&quot;computational-power&quot;&gt;Computational Power&lt;/h2&gt;
-
-&lt;p&gt;Specially in fields like Machine Learning you need high computation.&lt;/p&gt;
-
-&lt;h2 id=&quot;maintainance&quot;&gt;Maintainance&lt;/h2&gt;
-
-&lt;h2 id=&quot;more-easy-than-traditional-server&quot;&gt;More Easy than traditional server&lt;/h2&gt;
-
-&lt;p&gt;Unless you are setting up your own cloud infrastructure… vendor cloud solutions are is easy&lt;/p&gt;
-
-&lt;h2 id=&quot;the-cloud-powers-special-apis&quot;&gt;The cloud powers: Special APIs&lt;/h2&gt;
-
-&lt;p&gt;Almost all cloud providers provide spcieal api for things like machine learning. One need not be a expert.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" /><media:content medium="image" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Text Messaging</title><link href="www.ankushchoubey.com/chat/" rel="alternate" type="text/html" title="Text Messaging" /><published>2020-09-27T00:00:00-05:00</published><updated>2020-09-27T00:00:00-05:00</updated><id>www.ankushchoubey.com/short-text-communication</id><content type="html" xml:base="www.ankushchoubey.com/chat/">&lt;p&gt;&lt;img src=&quot;/images/chat.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Not to mentions, they are easier to use and provide the flexibility of choice.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/cloud.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/cloud.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Text Messaging</title><link href="www.ankushchoubey.com/chat/" rel="alternate" type="text/html" title="Text Messaging" /><published>2020-09-27T00:00:00-05:00</published><updated>2020-09-27T00:00:00-05:00</updated><id>www.ankushchoubey.com/short-text-communication</id><content type="html" xml:base="www.ankushchoubey.com/chat/">&lt;p&gt;&lt;img src=&quot;/images/chat.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@eddybllrd?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Eddy Billard&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/texting?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
 
