@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-10-13T01:29:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Cloud is Worth the Hype</title><link href="www.ankushchoubey.com/cloud/" rel="alternate" type="text/html" title="Cloud is Worth the Hype" /><published>2020-10-13T00:00:00-05:00</published><updated>2020-10-13T00:00:00-05:00</updated><id>www.ankushchoubey.com/cloud-computing-is-worth-the-hype</id><content type="html" xml:base="www.ankushchoubey.com/cloud/">&lt;p&gt;&lt;img src=&quot;/images/cloud.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-10-14T02:24:44-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Correlation between Deep Learning Concepts and Philosophy</title><link href="www.ankushchoubey.com/dl_lessons/" rel="alternate" type="text/html" title="Correlation between Deep Learning Concepts and Philosophy" /><published>2020-10-14T00:00:00-05:00</published><updated>2020-10-14T00:00:00-05:00</updated><id>www.ankushchoubey.com/life-lessons-learned-from-deep-learning</id><content type="html" xml:base="www.ankushchoubey.com/dl_lessons/">&lt;p&gt;DL = Deep Learning
+NN = Neural Network
+P = Phisolophy&lt;/p&gt;
+
+&lt;h2 id=&quot;gradient-descent&quot;&gt;Gradient descent&lt;/h2&gt;
+&lt;p&gt;DL: Optimization algorithm used for training NN.
+P: You can reach the place you want one step, in the right direction, at a time.&lt;/p&gt;
+
+&lt;h2 id=&quot;keep-weights-small&quot;&gt;Keep weights small&lt;/h2&gt;
+&lt;p&gt;DL: Helps NN learn new data faster
+P: Keep your identity small so that you can adjust easily.&lt;/p&gt;
+
+&lt;h2 id=&quot;local-and-global-minima&quot;&gt;Local and Global Minima&lt;/h2&gt;
+&lt;p&gt;DL: Local Minima means your NN has learned something but it is not optimal. We always aim for Global Minima.
+P: Your views and opinions are not perfect. They are probably just your perspective.&lt;/p&gt;
+
+&lt;h2 id=&quot;randomize-weights&quot;&gt;Randomize Weights&lt;/h2&gt;
+&lt;p&gt;DL: Helps you explore the landscape and avoids getting stuck in local minima.
+P: Put yourself in random situations to learn from it.&lt;/p&gt;
+
+&lt;h2 id=&quot;exponentially-weighted-average&quot;&gt;Exponentially Weighted Average&lt;/h2&gt;
+&lt;p&gt;DL: A type of average where more weightage is given to past numbers than latest number.
+P: Do you change your path completely if one outcome goes wrong? What about the last n outcomes that were right.&lt;/p&gt;
+
+&lt;h2 id=&quot;metrics&quot;&gt;Metrics&lt;/h2&gt;
+&lt;p&gt;DL: Used to check how well a NN has trained. Further training will be adjusted accordingly.
+P: Use metrics to see what’s working and not working. Adjust plans accordingly.&lt;/p&gt;
+
+&lt;h2 id=&quot;test-data-and-testing&quot;&gt;Test Data and Testing&lt;/h2&gt;
+&lt;p&gt;DL: Tests NN on unseen data.
+P: Test assumption/beliefs to see if they are true or not&lt;/p&gt;
+
+&lt;h2 id=&quot;overfitting&quot;&gt;Overfitting&lt;/h2&gt;
+&lt;p&gt;DL: NN memorized only certain things completely and cannot variations of unseen things.
+P: What you don’t yet know is more important that what you already know.&lt;/p&gt;</content><author><name></name></author><summary type="html">DL = Deep Learning NN = Neural Network P = Phisolophy</summary></entry><entry><title type="html">Cloud is Worth the Hype</title><link href="www.ankushchoubey.com/cloud/" rel="alternate" type="text/html" title="Cloud is Worth the Hype" /><published>2020-10-13T00:00:00-05:00</published><updated>2020-10-13T00:00:00-05:00</updated><id>www.ankushchoubey.com/cloud-computing-is-worth-the-hype</id><content type="html" xml:base="www.ankushchoubey.com/cloud/">&lt;p&gt;&lt;img src=&quot;/images/cloud.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Cloud has recently excited me more than anything else in the world. Consider this a fanboy rant.&lt;/p&gt;
 
@@ -130,61 +164,7 @@
 &lt;h3 id=&quot;faster-lanes-for-getting-feedbacks-and-suggestions&quot;&gt;Faster lanes for getting feedbacks and suggestions&lt;/h3&gt;
 &lt;p&gt;In larger companies, it becomes difficult to find problems on an individual employee level. An employee may have a really good suggestion/idea. This type of feedbacks should reach the right people as quickly as possible.&lt;/p&gt;
 
-&lt;p&gt;Having open to all suggestions/feedbacks forms is a kind of faster late to make this possible.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Give credit where credit is due</title><link href="www.ankushchoubey.com/recognition/" rel="alternate" type="text/html" title="Give credit where credit is due" /><published>2020-10-08T00:00:00-05:00</published><updated>2020-10-08T00:00:00-05:00</updated><id>www.ankushchoubey.com/recognition</id><content type="html" xml:base="www.ankushchoubey.com/recognition/">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=2689&amp;amp;q=80&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Praised should be distributed .&lt;/p&gt;
-
-&lt;p&gt;There are many types of employees.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Some are bad at work they do. Just bad.&lt;/li&gt;
-  &lt;li&gt;Some who are bad at work they do. But listen to feedback and try to improve themselves.&lt;/li&gt;
-  &lt;li&gt;Some who have been working hard behind the scenes but aren’t popular.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Usually, behind every popular team, there are faces in that team who aren’t as popular.&lt;/p&gt;
-
-&lt;p&gt;Sometimes they choose not to be popular. Or sometimes in cases their work is ignored. They might have been the hardest worker of all but usually due to some or the other human bias people ignore to praise them.&lt;/p&gt;
-
-&lt;p&gt;With some employees it is fine. While for others, they start to see opportunities and grown missing.&lt;/p&gt;
-
-&lt;p&gt;They become resentful.&lt;/p&gt;
-
-&lt;p&gt;Which is not a good thing. No one resentful in a team wants to work towards the same goal.&lt;/p&gt;
-
-&lt;p&gt;Flattery&lt;/p&gt;
-
-&lt;p&gt;Maybe the education insitutes I had been during younger days were like this.
-Imagine the topper of your class. He she get’s extra praise and attention from the teacher. His problems are being solved.&lt;/p&gt;
-
-&lt;p&gt;Sometimes they even get praise for things they do not do. They get unfair advantage for things they don’t deserve.&lt;/p&gt;
-
-&lt;p&gt;While those working hard in the background may not get any attention. They don’t get praises plus they don’t get any special care. They turn resentful.&lt;/p&gt;
-
-&lt;p&gt;Some people recieve flattery for their work. Their contribution might be little or none. They haven’t even worked hard and they even know it. But when they recieve such flattery, there are a few ways they’ll take it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" /><media:content medium="image" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What’s the Motive?</title><link href="www.ankushchoubey.com/motive/" rel="alternate" type="text/html" title="What's the Motive?" /><published>2020-10-01T00:00:00-05:00</published><updated>2020-10-01T00:00:00-05:00</updated><id>www.ankushchoubey.com/whats-the-motive</id><content type="html" xml:base="www.ankushchoubey.com/motive/">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=2689&amp;amp;q=80&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I kind of hate sales people and businessy meetup type events.&lt;/p&gt;
-
-&lt;p&gt;LinkedIn&lt;/p&gt;
-
-&lt;p&gt;Events&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" /><media:content medium="image" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Support your front line with proper tool</title><link href="www.ankushchoubey.com/tools/" rel="alternate" type="text/html" title="Support your front line with proper tool" /><published>2020-09-30T00:00:00-05:00</published><updated>2020-09-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/support-your-front-line-with-proper-tool%20copy</id><content type="html" xml:base="www.ankushchoubey.com/tools/">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=2689&amp;amp;q=80&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The main tool the programmer uses is his/her development machine.&lt;/p&gt;
-
-&lt;h2 id=&quot;machines&quot;&gt;Machines&lt;/h2&gt;
-
-&lt;h2 id=&quot;training&quot;&gt;Training&lt;/h2&gt;
-
-&lt;h2 id=&quot;more-resources&quot;&gt;More resources&lt;/h2&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" /><media:content medium="image" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Resource allocation and Tech Costs</title><link href="www.ankushchoubey.com/resources/" rel="alternate" type="text/html" title="Resource allocation and Tech Costs" /><published>2020-09-30T00:00:00-05:00</published><updated>2020-09-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/resource-allocation-and-hiring</id><content type="html" xml:base="www.ankushchoubey.com/resources/">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=2689&amp;amp;q=80&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;allocating-employees&quot;&gt;Allocating employees&lt;/h1&gt;
-
-&lt;h1 id=&quot;changing-productsvendor&quot;&gt;Changing Products/Vendor&lt;/h1&gt;
-
-&lt;h1 id=&quot;machines&quot;&gt;Machines&lt;/h1&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" /><media:content medium="image" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Connecting to an external API from within an organization</title><link href="www.ankushchoubey.com/api/" rel="alternate" type="text/html" title="Connecting to an external API from within an organization" /><published>2020-09-30T00:00:00-05:00</published><updated>2020-09-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/connecting-external-api-within-organization</id><content type="html" xml:base="www.ankushchoubey.com/api/">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=2689&amp;amp;q=80&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I believe this can be done even for databases.&lt;/p&gt;
-
-&lt;p&gt;During&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" /><media:content medium="image" url="https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2689&amp;q=80" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Text Messaging</title><link href="www.ankushchoubey.com/chat/" rel="alternate" type="text/html" title="Text Messaging" /><published>2020-09-27T00:00:00-05:00</published><updated>2020-09-27T00:00:00-05:00</updated><id>www.ankushchoubey.com/short-text-communication</id><content type="html" xml:base="www.ankushchoubey.com/chat/">&lt;p&gt;&lt;img src=&quot;/images/chat.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Having open to all suggestions/feedbacks forms is a kind of faster late to make this possible.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Text Messaging</title><link href="www.ankushchoubey.com/chat/" rel="alternate" type="text/html" title="Text Messaging" /><published>2020-09-27T00:00:00-05:00</published><updated>2020-09-27T00:00:00-05:00</updated><id>www.ankushchoubey.com/short-text-communication</id><content type="html" xml:base="www.ankushchoubey.com/chat/">&lt;p&gt;&lt;img src=&quot;/images/chat.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@eddybllrd?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Eddy Billard&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/texting?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
 
@@ -326,4 +306,187 @@ Draft-&amp;gt;Editors-&amp;gt;Reviews-&amp;gt;Publisher.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;It is fun to see people’s behavior around you and think about what type of leader they are.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/leadership.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/leadership.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;em&gt;It is fun to see people’s behavior around you and think about what type of leader they are.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/leadership.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/leadership.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Just ask for it</title><link href="www.ankushchoubey.com/ask/" rel="alternate" type="text/html" title="Just ask for it" /><published>2020-09-12T00:00:00-05:00</published><updated>2020-09-12T00:00:00-05:00</updated><id>www.ankushchoubey.com/ask-for-it</id><content type="html" xml:base="www.ankushchoubey.com/ask/">&lt;p&gt;&lt;img src=&quot;/images/ask.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As I get older I realize one thing that most things you want you can just ask for it.&lt;/p&gt;
+
+&lt;h4 id=&quot;do-you-want-an-opportunity&quot;&gt;&lt;strong&gt;Do you want an opportunity?&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Ask the person in charge.&lt;/p&gt;
+
+&lt;h4 id=&quot;do-you-want-to-get-a-refund-or-have-a-customer-complain&quot;&gt;&lt;strong&gt;Do you want to get a refund or have a customer complain?&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Say it. Don’t hide.&lt;/p&gt;
+
+&lt;h4 id=&quot;want-a-bit-of-specific-advice-from-someone-celebrity-figure-you-admire&quot;&gt;&lt;strong&gt;Want a bit of specific advice from someone celebrity figure you admire?&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Text/Tweet at them (Keep it short at quick)&lt;/p&gt;
+
+&lt;h4 id=&quot;everyone-is-there-to-help&quot;&gt;Everyone is there to help.&lt;/h4&gt;
+
+&lt;p&gt;But no will know when to help if you don’t say that you need it.&lt;/p&gt;
+
+&lt;p&gt;Companies want to keep their customers happy.
+Similarly, even people want other people to grow and help them.&lt;/p&gt;
+
+&lt;p&gt;This also allows them to ask you for help when they need it. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@theunsteady5?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Edwin Andrade&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/question?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Jordan Peterson &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/ask.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/ask.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The lifetime of “Content” is getting smaller</title><link href="www.ankushchoubey.com/content/" rel="alternate" type="text/html" title="The lifetime of &quot;Content&quot; is getting smaller" /><published>2020-09-10T00:00:00-05:00</published><updated>2020-09-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/content-lifetime</id><content type="html" xml:base="www.ankushchoubey.com/content/">&lt;p&gt;&lt;img src=&quot;/images/content.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A few years ago there was a lot of rage for getting onto social media.&lt;/p&gt;
+
+&lt;p&gt;The argument was that once you upload something, your content stays on the internet forever. Therefore earning you money/opportunities forever.&lt;/p&gt;
+
+&lt;p&gt;A few years ago you could easily see people Monopolize a category just within a few months of uploading.&lt;/p&gt;
+
+&lt;p&gt;A few changes happened between 2013 to 2020 (now) that seem to have effected this notion.&lt;/p&gt;
+
+&lt;h2 id=&quot;competition-and-similar-content&quot;&gt;Competition and Similar Content&lt;/h2&gt;
+&lt;p&gt;The amount of people uploading and watching “content” has exploded.&lt;/p&gt;
+
+&lt;p&gt;If a few years ago the same content would have less competition. But now not just the content has to compete with other similar content but also over factors like freshness.&lt;/p&gt;
+
+&lt;h2 id=&quot;reducing-attention-span&quot;&gt;Reducing attention span&lt;/h2&gt;
+
+&lt;h2 id=&quot;personalized-recommendation-engines&quot;&gt;Personalized &lt;strong&gt;Recommendation Engines&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Bigger companies saw value in the shift in attention towards online sources and exploding data.&lt;/p&gt;
+
+&lt;p&gt;Since the amount of data has increased, the recommendation algorithms designed to keep people engage and make advertisers happy are getting more and choosy.&lt;/p&gt;
+
+&lt;h2 id=&quot;personalized-search-engines&quot;&gt;Personalized &lt;strong&gt;Search Engines&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;A few years go personalize results only appeared for feeds, now appear in normal search results too. This means that everyone who searches for something gets different results.&lt;/p&gt;
+
+&lt;p&gt;But this also means that you are more likely to target your specific demographic as the algorithm thinks it is the right fit.&lt;/p&gt;
+
+&lt;h2 id=&quot;these-all-lead-to-change-in-seo-strategy&quot;&gt;These all lead to &lt;strong&gt;change in SEO strategy&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;The basic search engine optimization (SEO) methods like keyword optimization and backlinking no longer work as well as effectively as they used to. These methods were more or less automatic and easy for people to make their websites reach people easily.&lt;/p&gt;
+
+&lt;p&gt;The newer methods which work along with are basic SEO strategies are more analog. A person has to decide how to come up with these:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Site-specific strategies like Thumbnail and Timestamp on Youtube,&lt;/li&gt;
+  &lt;li&gt;Creating a ‘brand’ account and promoting&lt;/li&gt;
+  &lt;li&gt;Engaging and trying to retain users with witty and regular posts/stories&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The newer methods of engagement are more work than what they were a few years ago.&lt;/p&gt;
+
+&lt;p&gt;At the same time, the result of these efforts is more shorten as the same strategy is applied by every other content generator.&lt;/p&gt;
+
+&lt;p&gt;The role of automation in content marketing is getting smaller while that of strategy is getting larger.&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@hostreviews?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Stephen Phillips - Hostreviews.co.uk&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/seo?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/content.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/content.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tips for coding on a slow computer</title><link href="www.ankushchoubey.com/slow_computer/" rel="alternate" type="text/html" title="Tips for coding on a slow computer" /><published>2020-09-09T00:00:00-05:00</published><updated>2020-09-09T00:00:00-05:00</updated><id>www.ankushchoubey.com/coding-on-slow-computer</id><content type="html" xml:base="www.ankushchoubey.com/slow_computer/">&lt;p&gt;&lt;img src=&quot;/images/slow_computer.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I usually code on slow computers. These things help me keep sane.&lt;/p&gt;
+
+&lt;h3 id=&quot;disable-animation-and-keep-open-apps-to-a-minimum&quot;&gt;Disable animation and keep open apps to a minimum&lt;/h3&gt;
+
+&lt;h3 id=&quot;use-as-much-terminalcmd-as-possible&quot;&gt;Use as much terminal/cmd as possible.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;npm start&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No GUI software can beat the terminal’s speed.&lt;/p&gt;
+
+&lt;div class=&quot;flash flash-success&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-checklist&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 000 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+    &lt;strong&gt;Tip: &lt;/strong&gt; To speed things up create &lt;code&gt;.sh/.bat&lt;/code&gt; files so that you can run repeated commands with a click of a button
+&lt;/div&gt;
+
+&lt;h3 id=&quot;if-your-backend-is-pretty-stable-run-the-packaged-file&quot;&gt;If your backend is pretty stable, run the packaged file.&lt;/h3&gt;
+&lt;p&gt;In my case when I am focused on angular development only, I run the &lt;code class=&quot;highlighter-rouge&quot;&gt;.war&lt;/code&gt; file in a separate terminal.&lt;/p&gt;
+
+&lt;h3 id=&quot;run-apps-separately&quot;&gt;Run apps separately&lt;/h3&gt;
+&lt;p&gt;Instead of using the terminal from VS Code, use a separate application.&lt;/p&gt;
+
+&lt;p&gt;If one application crashes at least the other one is loaded.&lt;/p&gt;
+
+&lt;h3 id=&quot;optimize-your-ides&quot;&gt;Optimize your IDEs&lt;/h3&gt;
+
+&lt;p&gt;You can easily find ways to speed up your IDE. Just google it.&lt;/p&gt;
+
+&lt;p&gt;In my case, I have made changes to &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.ini&lt;/code&gt; files for STS (A Java IDE).&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@zane4004?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Zane Lee&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/old-computer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/slow_computer.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/slow_computer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Opinions/Events are not black and white.</title><link href="www.ankushchoubey.com/black_white/" rel="alternate" type="text/html" title="Opinions/Events are not black and white." /><published>2020-09-08T00:00:00-05:00</published><updated>2020-09-08T00:00:00-05:00</updated><id>www.ankushchoubey.com/probably-right</id><content type="html" xml:base="www.ankushchoubey.com/black_white/">&lt;p&gt;&lt;img src=&quot;/images/black_white.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lack-of-information&quot;&gt;Lack of information&lt;/h2&gt;
+
+&lt;p&gt;Sometimes the decision is just a lack of information at the time.&lt;/p&gt;
+
+&lt;p&gt;Most of us would want to make optimal decisions all the time.&lt;/p&gt;
+
+&lt;p&gt;But as humans, we have our shortcomings and everyone is trying to do their best with the information they have.&lt;/p&gt;
+
+&lt;h2 id=&quot;there-is-always-a-trade-off&quot;&gt;There is always a trade-off.&lt;/h2&gt;
+
+&lt;p&gt;In every decision you make, there may be points in which you think the decision is right. And there are points where the same decisions are bad.&lt;/p&gt;
+
+&lt;p&gt;If you ask people for their opinion over something, each one of them will say a slightly different thing.&lt;/p&gt;
+
+&lt;h2 id=&quot;reasoning&quot;&gt;Reasoning&lt;/h2&gt;
+
+&lt;p&gt;The opinion isn’t enough, you got to dig for reasoning.&lt;/p&gt;
+
+&lt;p&gt;Reasoning over opinions for many is not developed.&lt;/p&gt;
+
+&lt;p&gt;Some choose an opinion because it is popular or because their friends and family have a similar opinion.&lt;/p&gt;
+
+&lt;p&gt;Those that have unique reasoning are interesting people.&lt;/p&gt;
+
+&lt;p&gt;Knowing their reasoning helps you think from their point of view easier.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-opinion-is-probably-right-but-it-may-be-wrong&quot;&gt;Your opinion is probably right but it may be wrong.&lt;/h2&gt;
+
+&lt;p&gt;Any opinion you have or someone else has is probably right.&lt;/p&gt;
+
+&lt;p&gt;There are 6 billion people alive right now.&lt;/p&gt;
+
+&lt;p&gt;If you someday create a random belief, you could estimate that at least someone would have the same belief as you.&lt;/p&gt;
+
+&lt;p&gt;Therefore, you’re likely never completely wrong. (unless it is an opinion about logic 🙃)&lt;/p&gt;
+
+&lt;h2 id=&quot;sharing&quot;&gt;Sharing&lt;/h2&gt;
+
+&lt;p&gt;You cannot convince everyone. Everyone has a different point of view. But you can try to explain yours.&lt;/p&gt;
+
+&lt;p&gt;This is why we have debates and democracy. Systems where people share their opinion as try to come to a consensus.&lt;/p&gt;
+
+&lt;h2 id=&quot;respecting-other-peoples-opinions&quot;&gt;Respecting other people’s opinions&lt;/h2&gt;
+
+&lt;p&gt;You may be right. Maybe absolutely right.&lt;/p&gt;
+
+&lt;p&gt;But still you are not them. In exactly their life circumstances.&lt;/p&gt;
+
+&lt;p&gt;We are impacted a lot my people around us.&lt;/p&gt;
+
+&lt;h2 id=&quot;free-speech&quot;&gt;Free speech&lt;/h2&gt;
+
+&lt;p&gt;Trying not to offend over important topics is not useful&lt;/p&gt;
+
+&lt;p&gt;If you are talking about something important, then you’ll likely offend someone.&lt;/p&gt;
+
+&lt;p&gt;If you are sharing with 10 people, it is easy to not offend someone. But when you are sharing with a 100 or a thousand of 10000, then just by pure randomness you may offend someone. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A good founder listens to everyone then does what he wants to do. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@clemono?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Clem Onojeghuo&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/protest?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Jordan B Peterson &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/black_white.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/black_white.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
