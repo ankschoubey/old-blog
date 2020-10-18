@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: A collection of thoughts
-categories: [For Future Me]
+categories: [For Future Me,Bias]
 title: Opinions/Events are not black and white.
 permalink: /black_white/
 image: /images/black_white.jpg
