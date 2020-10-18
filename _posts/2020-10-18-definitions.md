@@ -2,39 +2,39 @@
 toc: false
 layout: post
 comments: true
-description: Same word is different for different people
-categories: [draft, Bias]
-title: Definations
+description: The same word is different for different people
+categories: [Bias, Communication]
+title: Definitions
 permalink: /definition/
 ---
 
+There are many terms that are not hardcore logic.
 
-Maybe this is an ENTP specific problem .
+These terms get biased by people’s past and their current thought processes.
 
-When talking to someone there are terms which are not hard core logic which get biased by people’s past and their current thought process.
+You can think of these as levels but it’s always hierarchical. 
 
-You can think of these as levels but it’s always hyrarchical. 
-
-For example:
+For instance
 - Rich for someone is being able to afford a house.
 - Rich for someone else is being a billionaire.
 
-The questions like: How to are very different for both of those paths.
+The questions like "How to be rich?" are very different for both of those paths.
 
-Similarly for word like Happiness:
+Likewise, Happiness can mean just having basic needs fulfilled or can mean pure excitement.
 
-- For some happiness is just having basic needs fullfullized
-- For some happiness is pure excitement.
-
-I have noticed really a quality of good speakers explain term
-- They listen
-- Then try to understand exactly at. what the level the person is talking
-- If they have to convey, they convey the exact information.
-
-Some Other things than get defined differently by different people:
-- Love
+## Some other things than getting defined vaguely are
 - Success
+- Love
 - Modernity
 - Secularism
 - Suffering
+- Good/Bad
 
+## Good Communicators
+
+I have noticed a quality of good communicators when they explain a term
+- They listen.
+- Then try to understand exactly what the person is trying to say. They'll ask questions if they have not understood properly.
+- If they have to convey, they convey the exact information at the level that the person can understand.
+
+One of the ways they do it is by using the right vocabulary words while keeping things understandable.
