@@ -14,7 +14,7 @@ Software products is hard to wrap head around when compared to physical products
 
 A physical product occupies physical space which of course a software does not.
 
-Once a physical product is made, 
+Once a physical product is made,
 
 ## Always something to do
 
