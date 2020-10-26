@@ -39,7 +39,7 @@ layout: default
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      {%- if post.categories contains "Hidden" -%}
+      {%- if post.categories contains "Draft" -%}
       {% else %}
       <li>
           {%- if site.show_image -%}

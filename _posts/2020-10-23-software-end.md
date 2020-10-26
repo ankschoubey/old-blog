@@ -4,8 +4,8 @@ layout: post
 comments: true
 description: Unless you stop
 categories: [draft, Information Systems, Businesses]
-title: Software development project never ends
-permalink: /software end/
+title: Software project never ends
+permalink: /software_end/
 ---
 
 ## Software vs Physical Products
