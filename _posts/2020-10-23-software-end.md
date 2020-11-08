@@ -22,12 +22,11 @@ The software can be modified and improved at any time.
 ## There is always something to do
 
 When you look for problems to solve, you're sure to find something.
-Either optimize code.
-Clean code up and make ready for the future.
-Fix bugs.
+- Optimize code.
+- Clean code up and make ready for the future.
+- Fix bugs.
 
 And it can be hard at times to stop.
-
 
 ## Over Engineering
 
