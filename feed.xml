@@ -1,24 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-11-08T01:41:11-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Software project never ends</title><link href="www.ankushchoubey.com/software_end/" rel="alternate" type="text/html" title="Software project never ends" /><published>2020-10-23T00:00:00-05:00</published><updated>2020-10-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/software-end</id><content type="html" xml:base="www.ankushchoubey.com/software_end/">&lt;h2 id=&quot;software-vs-physical-products&quot;&gt;Software vs Physical Products&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-11-08T01:49:45-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Software project never ends</title><link href="www.ankushchoubey.com/software_end/" rel="alternate" type="text/html" title="Software project never ends" /><published>2020-10-23T00:00:00-05:00</published><updated>2020-10-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/software-end</id><content type="html" xml:base="www.ankushchoubey.com/software_end/">&lt;p&gt;Building software is having no fixed deadline. Below are some reasons why.&lt;/p&gt;
 
-&lt;p&gt;Software products is hard to wrap head around when compared to physical products.&lt;/p&gt;
+&lt;h2 id=&quot;software-vs-physical-products&quot;&gt;Software vs Physical Products&lt;/h2&gt;
 
-&lt;p&gt;A physical product occupies physical space which of course a software does not.&lt;/p&gt;
+&lt;p&gt;Software products are hard to wrap the head around when compared to physical products.&lt;/p&gt;
 
-&lt;p&gt;Once a physical product is made,&lt;/p&gt;
+&lt;p&gt;A physical product occupies physical space which of course software does not.&lt;/p&gt;
 
-&lt;h2 id=&quot;always-something-to-do&quot;&gt;Always something to do&lt;/h2&gt;
+&lt;p&gt;Once a physical product is made, unless it is designed for modification, it cannot be modified.&lt;/p&gt;
 
-&lt;p&gt;There is always something to do. Either optimize code and run it better.&lt;/p&gt;
+&lt;p&gt;The software can be modified and improved at any time.&lt;/p&gt;
 
-&lt;p&gt;Clean code up and make it available for future.&lt;/p&gt;
+&lt;h2 id=&quot;there-is-always-something-to-do&quot;&gt;There is always something to do&lt;/h2&gt;
 
-&lt;p&gt;Fix bugs.&lt;/p&gt;
+&lt;p&gt;When you look for problems to solve, you’re sure to find something.
+Either optimize code.
+Clean code up and make ready for the future.
+Fix bugs.&lt;/p&gt;
 
 &lt;p&gt;And it can be hard at times to stop.&lt;/p&gt;
 
 &lt;h2 id=&quot;over-engineering&quot;&gt;Over Engineering&lt;/h2&gt;
 
-&lt;p&gt;Something can be built easily but we spend a lot of time deciding what the future thing might be and then we over engineer.&lt;/p&gt;
+&lt;p&gt;Something can be built easily but we spend a lot of time deciding what the future thing might be and then we over-engineer.&lt;/p&gt;
 
 &lt;p&gt;I have been guilty too.&lt;/p&gt;
 
@@ -28,13 +31,13 @@
 
 &lt;p&gt;Many software themselves are not used.&lt;/p&gt;
 
-&lt;p&gt;Time spent fixing this trivial non-existent problem can be spend fixing some other big problems.&lt;/p&gt;
+&lt;p&gt;Time spent fixing this trivial non-existent problem can be spent fixing some other big problems.&lt;/p&gt;
 
-&lt;h2 id=&quot;human-intuitions&quot;&gt;Human Intuitions&lt;/h2&gt;
+&lt;h2 id=&quot;human-intuitions-and-definition-of-done&quot;&gt;Human Intuitions and Definition of Done&lt;/h2&gt;
 
-&lt;p&gt;Humans can find ways to improve in everything. Our judgement is not objective. We need something objective&lt;/p&gt;
+&lt;p&gt;Humans can find ways to improve everything. Our judgment is not objective. We need something objective.&lt;/p&gt;
 
-&lt;h2 id=&quot;definition-of-done&quot;&gt;Definition of Done?&lt;/h2&gt;</content><author><name></name></author><summary type="html">Software vs Physical Products</summary></entry><entry><title type="html">Office is just school for adults</title><link href="www.ankushchoubey.com/the_office/" rel="alternate" type="text/html" title="Office is just school for adults" /><published>2020-10-21T00:00:00-05:00</published><updated>2020-10-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/office</id><content type="html" xml:base="www.ankushchoubey.com/the_office/">&lt;p&gt;For many, working 9-5 often is considered non-ideal. Instead, wishing to work for themselves or not to work at all.&lt;/p&gt;
+&lt;p&gt;Having a strong definition of done can help be objective.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building software is having no fixed deadline. Below are some reasons why.</summary></entry><entry><title type="html">Office is just school for adults</title><link href="www.ankushchoubey.com/the_office/" rel="alternate" type="text/html" title="Office is just school for adults" /><published>2020-10-21T00:00:00-05:00</published><updated>2020-10-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/office</id><content type="html" xml:base="www.ankushchoubey.com/the_office/">&lt;p&gt;For many, working 9-5 often is considered non-ideal. Instead, wishing to work for themselves or not to work at all.&lt;/p&gt;
 
 &lt;p&gt;Some benefits of working at an office that are hard to replicate otherwise.&lt;/p&gt;
 
