@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-11-15T06:39:41-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Importance of different devops activities</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="Importance of different devops activities" /><published>2020-11-08T00:00:00-06:00</published><updated>2020-11-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/importance-devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;p&gt;https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-11-15T07:05:24-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Importance of different devops activities</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="Importance of different devops activities" /><published>2020-11-08T00:00:00-06:00</published><updated>2020-11-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/importance-devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;p&gt;https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52&lt;/p&gt;
 
 &lt;p&gt;CICD&lt;/p&gt;
 
@@ -8,7 +8,24 @@
 
 &lt;p&gt;Monitoring&lt;/p&gt;
 
-&lt;p&gt;Clean Code&lt;/p&gt;</content><author><name></name></author><summary type="html">https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52</summary></entry><entry><title type="html">First Hackathon</title><link href="www.ankushchoubey.com/first_hackethon/" rel="alternate" type="text/html" title="First Hackathon" /><published>2020-10-30T00:00:00-05:00</published><updated>2020-10-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/first-hackethon</id><content type="html" xml:base="www.ankushchoubey.com/first_hackethon/">&lt;p&gt;I always wanted to participate in one but I was afraid that my skills are not enough.&lt;/p&gt;
+&lt;p&gt;Clean Code&lt;/p&gt;</content><author><name></name></author><summary type="html">https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52</summary></entry><entry><title type="html">Plan quickly. Move fast.</title><link href="www.ankushchoubey.com/move/" rel="alternate" type="text/html" title="Plan quickly. Move fast." /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/move</id><content type="html" xml:base="www.ankushchoubey.com/move/">&lt;p&gt;&lt;img src=&quot;/images/move.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@chaseelliottclark?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Chase Clark&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/move?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;
+I have made this mistake a lot.&lt;/p&gt;
+
+&lt;p&gt;I spent too much time planning and too much time deciding the perfect strategy which often took months to come up and then either never implemented it.&lt;/p&gt;
+
+&lt;p&gt;Later I found out that the hard way was much shorter and would often take me just a few hours or at max a week.&lt;/p&gt;
+
+&lt;p&gt;There is an analogy in programming which says that a programmer will spend six hours automating something that takes six minutes.&lt;/p&gt;
+
+&lt;p&gt;If something is repeated so every frequently then the six minutes saving in time is justified.&lt;/p&gt;
+
+&lt;p&gt;But for most things, it is better to move on fast and break things.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/move.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/move.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">First Hackathon</title><link href="www.ankushchoubey.com/first_hackethon/" rel="alternate" type="text/html" title="First Hackathon" /><published>2020-10-30T00:00:00-05:00</published><updated>2020-10-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/first-hackethon</id><content type="html" xml:base="www.ankushchoubey.com/first_hackethon/">&lt;p&gt;&lt;img src=&quot;/images/first_hackethon.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@synkevych?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Roman Synkevych&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/code?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I always wanted to participate in one but I was afraid that my skills are not enough.&lt;/p&gt;
 
 &lt;p&gt;But FTER working as a programmer for the last two years,  I realized that almost everyone starts with no skill and figure out a solution eventually.&lt;/p&gt;
 
@@ -30,7 +47,7 @@
 &lt;h2 id=&quot;experimentation&quot;&gt;Experimentation&lt;/h2&gt;
 &lt;p&gt;Many teams played it safe. They stuck to what they already knew.&lt;/p&gt;
 
-&lt;p&gt;We experimented. We tried things we did not know before. Though we did not win the challenge, this experimentation increased our learning and the likeliness that we’ll be better prepared for the next one.&lt;/p&gt;</content><author><name></name></author><summary type="html">I always wanted to participate in one but I was afraid that my skills are not enough.</summary></entry><entry><title type="html">Software project never ends</title><link href="www.ankushchoubey.com/software_end/" rel="alternate" type="text/html" title="Software project never ends" /><published>2020-10-23T00:00:00-05:00</published><updated>2020-10-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/software-end</id><content type="html" xml:base="www.ankushchoubey.com/software_end/">&lt;p&gt;Building software is having no fixed deadline. Below are some reasons why.&lt;/p&gt;
+&lt;p&gt;We experimented. We tried things we did not know before. Though we did not win the challenge, this experimentation increased our learning and the likeliness that we’ll be better prepared for the next one.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/first_hackethon.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/first_hackethon.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Software project never ends</title><link href="www.ankushchoubey.com/software_end/" rel="alternate" type="text/html" title="Software project never ends" /><published>2020-10-23T00:00:00-05:00</published><updated>2020-10-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/software-end</id><content type="html" xml:base="www.ankushchoubey.com/software_end/">&lt;p&gt;Building software is having no fixed deadline. Below are some reasons why.&lt;/p&gt;
 
 &lt;h2 id=&quot;software-vs-physical-products&quot;&gt;Software vs Physical Products&lt;/h2&gt;
 
@@ -296,65 +313,4 @@
 
 &lt;p&gt;While for the cloud provider, it is also cheap because they provide it at scale.&lt;/p&gt;
 
-&lt;p&gt;Not to mentions, they are easier to use and provide the flexibility of choice.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/cloud.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/cloud.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Communication Bottleneck in large organizations</title><link href="www.ankushchoubey.com/communication_bottleneck/" rel="alternate" type="text/html" title="Communication Bottleneck in large organizations" /><published>2020-10-10T00:00:00-05:00</published><updated>2020-10-10T00:00:00-05:00</updated><id>www.ankushchoubey.com/communication-bottleneck</id><content type="html" xml:base="www.ankushchoubey.com/communication_bottleneck/">&lt;p&gt;&lt;img src=&quot;/images/communication_bottleneck.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;productivity-increase-with-regards-to-extra-hires&quot;&gt;Productivity increase with regards to extra hires&lt;/h2&gt;
-
-&lt;p&gt;A smaller company sees an immediate boost in productivity just by the addition of a few extra employees.&lt;/p&gt;
-
-&lt;p&gt;As demand increases, the company keeps hiring and increasing its employees.&lt;/p&gt;
-
-&lt;p&gt;But after a certain point, the increase is the number of employees does not increase as much as it used to.&lt;/p&gt;
-
-&lt;h2 id=&quot;overhead-of-having-many-employees&quot;&gt;Overhead of having many employees&lt;/h2&gt;
-
-&lt;p&gt;As the number of employees increases, the communication overhead increases.&lt;/p&gt;
-
-&lt;p&gt;It becomes harder to align these increased employees to company policies.&lt;/p&gt;
-
-&lt;p&gt;As a result, a separate department/role is to develop whose job is to check if employees following guidelines. (More Hiring)&lt;/p&gt;
-
-&lt;h2 id=&quot;having-a-communication-policy&quot;&gt;Having a Communication Policy&lt;/h2&gt;
-
-&lt;p&gt;The amount of message hops it takes to replay information is very high, especially from lower-level employees to a top-level executive.&lt;/p&gt;
-
-&lt;p&gt;The time spent in relaying communication is the time that can be spent working on the product.&lt;/p&gt;
-
-&lt;p&gt;This is why having a good communication policy is essential.&lt;/p&gt;
-
-&lt;h2 id=&quot;communication-policy&quot;&gt;Communication Policy&lt;/h2&gt;
-
-&lt;p&gt;The focus should be on reducing as many human middlemen as possible.&lt;/p&gt;
-
-&lt;h3 id=&quot;to-reduce-the-number-of-people-involved-in-accessing-information&quot;&gt;To reduce the number of people involved in accessing information&lt;/h3&gt;
-
-&lt;p&gt;These help employees find the information themselves first.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Proper Documentation&lt;/li&gt;
-  &lt;li&gt;Recorded Lectures&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A simple FAQ/Wiki page is a good starting point.&lt;/p&gt;
-
-&lt;h3 id=&quot;focused-meeting&quot;&gt;Focused meeting&lt;/h3&gt;
-
-&lt;p&gt;Meetings are usually justified regardless of whether the meeting is focused or whether people involved in the meeting are related to it.&lt;/p&gt;
-
-&lt;p&gt;Somethings that always make meetings more productive:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Having an Agenda&lt;/li&gt;
-  &lt;li&gt;Timeboxing&lt;/li&gt;
-  &lt;li&gt;Having a limited number of people&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;contacting-policy&quot;&gt;Contacting Policy&lt;/h3&gt;
-&lt;p&gt;Most people don’t need information fast. Rather most expect clarity in 2 things:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Who to contact for what sort of information.&lt;/li&gt;
-  &lt;li&gt;By when are they expected to get a response.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;faster-lanes-for-getting-feedbacks-and-suggestions&quot;&gt;Faster lanes for getting feedbacks and suggestions&lt;/h3&gt;
-&lt;p&gt;In larger companies, it becomes difficult to find problems on an individual employee level. An employee may have a really good suggestion/idea. This type of feedbacks should reach the right people as quickly as possible.&lt;/p&gt;
-
-&lt;p&gt;Having open to all suggestions/feedbacks forms is a kind of faster late to make this possible.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Not to mentions, they are easier to use and provide the flexibility of choice.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/cloud.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/cloud.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
