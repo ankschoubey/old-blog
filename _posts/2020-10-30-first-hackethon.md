@@ -5,10 +5,10 @@ comments: true
 description:
 categories: [Information Systems, Experience]
 title: First Hackathon
-permalink: /first_hackethon/
-image: /images/first_hackethon.jpg
+permalink: /first_hackathon/
+image: /images/first_hackathon.jpg
 ---
-![](/images/first_hackethon.jpg)
+![](/images/first_hackathon.jpg)
 
 <sup>Photo by <a href="https://unsplash.com/@synkevych?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Roman Synkevych</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sup>
 
