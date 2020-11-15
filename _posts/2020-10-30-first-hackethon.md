@@ -3,31 +3,31 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [draft, Information Systems, Experience]
-title: First Hackethon
+categories: [Information Systems, Experience]
+title: First Hackathon
 permalink: /first_hackethon/
 ---
 
-Always wanted to participate in one but I was afraid that my skills are not enough. 
+I always wanted to participate in one but I was afraid that my skills are not enough.
 
-But as I have worked as a programmer for the last two years I realize that almost everyone start with no school and figure out a solution eventually.
+But FTER working as a programmer for the last two years,  I realized that almost everyone starts with no skill and figure out a solution eventually.
 
-So my goals for joining was to learn as much as I can. I knew I could do atleast something even if not levels expected.
+So my goal for joining was to learn as much as I can. I knew I could do at least something even if not at a level I would expect.
 
 These are some lessons I learned
 
 ## Goal is not working software
-The goal for the organizers was not a complete working software. The goal was to see how the problem can be tackled from different point of views.
+The goal for the organizers was not complete working software. The goal was to see how the problem can be tackled from different points of view.
 
 ## Team
-Our team could have been better organized. We almost wasted 2 weeks out of 5. In the second week I tried taking up leadership, arranging meeting and talking to people. But the by 3rd week my "leadership"  declined.
+Our team could have been better organized. We almost wasted 2 weeks out of 5. In the second week, I tried taking up leadership, arranging meetings, and talking to people. But the by 3rd week my "leadership"  declined.
 
-The reason for decline was that I was managing another full time project.
+The reason for the decline was that I was managing another full-time project.
 
 ## Support
-Organizers were supportive. Plus we had access to AWS Experts.
+The organizers were supportive. Plus we had access to AWS Experts. So we could ask them questions on specific issues we were facing with AWS.
 
-Experimentation
-Owners 
-Learning
-Trying something you were otherwise unable to do
+## Experimentation
+Many teams played it safe. They stuck to what they already knew.
+
+We experimented. We tried things we did not know before. Though we did not win the challenge, this experimentation increased our learning and the likeliness that we'll be better prepared for the next one.
