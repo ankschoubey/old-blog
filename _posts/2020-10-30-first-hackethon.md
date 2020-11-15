@@ -6,7 +6,11 @@ description:
 categories: [Information Systems, Experience]
 title: First Hackathon
 permalink: /first_hackethon/
+image: /images/first_hackethon.jpg
 ---
+![](/images/first_hackethon.jpg)
+
+<sup>Photo by <a href="https://unsplash.com/@synkevych?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Roman Synkevych</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sup>
 
 I always wanted to participate in one but I was afraid that my skills are not enough.
 
