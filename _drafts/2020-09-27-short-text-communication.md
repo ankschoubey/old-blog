@@ -3,8 +3,8 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [For Future Self, draft, Communication]
-title: Text Messaging
+categories: [For Future Self, Businesses, Communication]
+title: Online communication
 permalink: /chat/
 image: /images/chat.jpg
 ---
