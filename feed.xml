@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-11-08T02:10:32-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Software project never ends</title><link href="www.ankushchoubey.com/software_end/" rel="alternate" type="text/html" title="Software project never ends" /><published>2020-10-23T00:00:00-05:00</published><updated>2020-10-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/software-end</id><content type="html" xml:base="www.ankushchoubey.com/software_end/">&lt;p&gt;Building software is having no fixed deadline. Below are some reasons why.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-11-15T06:39:41-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Importance of different devops activities</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="Importance of different devops activities" /><published>2020-11-08T00:00:00-06:00</published><updated>2020-11-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/importance-devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;p&gt;https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52&lt;/p&gt;
+
+&lt;p&gt;CICD&lt;/p&gt;
+
+&lt;p&gt;Testing&lt;/p&gt;
+
+&lt;p&gt;DB Deployment&lt;/p&gt;
+
+&lt;p&gt;Monitoring&lt;/p&gt;
+
+&lt;p&gt;Clean Code&lt;/p&gt;</content><author><name></name></author><summary type="html">https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52</summary></entry><entry><title type="html">First Hackathon</title><link href="www.ankushchoubey.com/first_hackethon/" rel="alternate" type="text/html" title="First Hackathon" /><published>2020-10-30T00:00:00-05:00</published><updated>2020-10-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/first-hackethon</id><content type="html" xml:base="www.ankushchoubey.com/first_hackethon/">&lt;p&gt;I always wanted to participate in one but I was afraid that my skills are not enough.&lt;/p&gt;
+
+&lt;p&gt;But FTER working as a programmer for the last two years,  I realized that almost everyone starts with no skill and figure out a solution eventually.&lt;/p&gt;
+
+&lt;p&gt;So my goal for joining was to learn as much as I can. I knew I could do at least something even if not at a level I would expect.&lt;/p&gt;
+
+&lt;p&gt;These are some lessons I learned&lt;/p&gt;
+
+&lt;h2 id=&quot;goal-is-not-working-software&quot;&gt;Goal is not working software&lt;/h2&gt;
+&lt;p&gt;The goal for the organizers was not complete working software. The goal was to see how the problem can be tackled from different points of view.&lt;/p&gt;
+
+&lt;h2 id=&quot;team&quot;&gt;Team&lt;/h2&gt;
+&lt;p&gt;Our team could have been better organized. We almost wasted 2 weeks out of 5. In the second week, I tried taking up leadership, arranging meetings, and talking to people. But the by 3rd week my “leadership”  declined.&lt;/p&gt;
+
+&lt;p&gt;The reason for the decline was that I was managing another full-time project.&lt;/p&gt;
+
+&lt;h2 id=&quot;support&quot;&gt;Support&lt;/h2&gt;
+&lt;p&gt;The organizers were supportive. Plus we had access to AWS Experts. So we could ask them questions on specific issues we were facing with AWS.&lt;/p&gt;
+
+&lt;h2 id=&quot;experimentation&quot;&gt;Experimentation&lt;/h2&gt;
+&lt;p&gt;Many teams played it safe. They stuck to what they already knew.&lt;/p&gt;
+
+&lt;p&gt;We experimented. We tried things we did not know before. Though we did not win the challenge, this experimentation increased our learning and the likeliness that we’ll be better prepared for the next one.&lt;/p&gt;</content><author><name></name></author><summary type="html">I always wanted to participate in one but I was afraid that my skills are not enough.</summary></entry><entry><title type="html">Software project never ends</title><link href="www.ankushchoubey.com/software_end/" rel="alternate" type="text/html" title="Software project never ends" /><published>2020-10-23T00:00:00-05:00</published><updated>2020-10-23T00:00:00-05:00</updated><id>www.ankushchoubey.com/software-end</id><content type="html" xml:base="www.ankushchoubey.com/software_end/">&lt;p&gt;Building software is having no fixed deadline. Below are some reasons why.&lt;/p&gt;
 
 &lt;h2 id=&quot;software-vs-physical-products&quot;&gt;Software vs Physical Products&lt;/h2&gt;
 
@@ -39,11 +71,9 @@
 
 &lt;p&gt;Humans can find ways to improve everything. Our judgment is not objective. We need something objective.&lt;/p&gt;
 
-&lt;p&gt;Having a strong definition of done can help be objective.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building software is having no fixed deadline. Below are some reasons why.</summary></entry><entry><title type="html">Office is just school for adults</title><link href="www.ankushchoubey.com/the_office/" rel="alternate" type="text/html" title="Office is just school for adults" /><published>2020-10-21T00:00:00-05:00</published><updated>2020-10-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/office</id><content type="html" xml:base="www.ankushchoubey.com/the_office/">&lt;p&gt;&lt;img src=&quot;https://i.insider.com/5bf31ce448eb12128b2734f5?width=1100&amp;amp;format=jpeg&amp;amp;auto=webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Having a strong definition of done can help be objective.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building software is having no fixed deadline. Below are some reasons why.</summary></entry><entry><title type="html">Office is just school for adults</title><link href="www.ankushchoubey.com/the_office/" rel="alternate" type="text/html" title="Office is just school for adults" /><published>2020-10-21T00:00:00-05:00</published><updated>2020-10-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/office</id><content type="html" xml:base="www.ankushchoubey.com/the_office/">&lt;p&gt;For many, working 9-5 often is considered non-ideal. Instead, wishing to work for themselves or not to work at all.&lt;/p&gt;
 
-&lt;p&gt;For many, working 9-5 often is considered non-ideal. Instead, wishing to work for themselves or not to work at all.&lt;/p&gt;
-
-&lt;p&gt;Some benefits of working at an office that are hard to replicate otherwise.&lt;/p&gt;
+&lt;p&gt;Some benefits of working at an office that are hard to replicate otherwise are:&lt;/p&gt;
 
 &lt;h2 id=&quot;social-circle&quot;&gt;Social Circle&lt;/h2&gt;
 &lt;p&gt;We tend to keep office friendships shallow.&lt;/p&gt;
@@ -79,7 +109,7 @@
 &lt;h2 id=&quot;meaning&quot;&gt;Meaning&lt;/h2&gt;
 &lt;p&gt;Work provides meaning.&lt;/p&gt;
 
-&lt;p&gt;There is nothing that gives more satisfaction than knowing that customers like your product.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.insider.com/5bf31ce448eb12128b2734f5?width=1100&amp;format=jpeg&amp;auto=webp" /><media:content medium="image" url="https://i.insider.com/5bf31ce448eb12128b2734f5?width=1100&amp;format=jpeg&amp;auto=webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Empowerment/Enabling</title><link href="www.ankushchoubey.com/giving_help/" rel="alternate" type="text/html" title="Empowerment/Enabling" /><published>2020-10-20T00:00:00-05:00</published><updated>2020-10-20T00:00:00-05:00</updated><id>www.ankushchoubey.com/giving-help</id><content type="html" xml:base="www.ankushchoubey.com/giving_help/">&lt;p&gt;The answers by themselves are not that important.&lt;/p&gt;
+&lt;p&gt;There is nothing that gives more satisfaction than knowing that customers like your product.&lt;/p&gt;</content><author><name></name></author><summary type="html">For many, working 9-5 often is considered non-ideal. Instead, wishing to work for themselves or not to work at all.</summary></entry><entry><title type="html">Empowerment/Enabling</title><link href="www.ankushchoubey.com/giving_help/" rel="alternate" type="text/html" title="Empowerment/Enabling" /><published>2020-10-20T00:00:00-05:00</published><updated>2020-10-20T00:00:00-05:00</updated><id>www.ankushchoubey.com/giving-help</id><content type="html" xml:base="www.ankushchoubey.com/giving_help/">&lt;p&gt;The answers by themselves are not that important.&lt;/p&gt;
 
 &lt;p&gt;The process for finding the answer is more important so that they can replicate the process later.&lt;/p&gt;
 
@@ -327,103 +357,4 @@
 &lt;h3 id=&quot;faster-lanes-for-getting-feedbacks-and-suggestions&quot;&gt;Faster lanes for getting feedbacks and suggestions&lt;/h3&gt;
 &lt;p&gt;In larger companies, it becomes difficult to find problems on an individual employee level. An employee may have a really good suggestion/idea. This type of feedbacks should reach the right people as quickly as possible.&lt;/p&gt;
 
-&lt;p&gt;Having open to all suggestions/feedbacks forms is a kind of faster late to make this possible.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Text Messaging</title><link href="www.ankushchoubey.com/chat/" rel="alternate" type="text/html" title="Text Messaging" /><published>2020-09-27T00:00:00-05:00</published><updated>2020-09-27T00:00:00-05:00</updated><id>www.ankushchoubey.com/short-text-communication</id><content type="html" xml:base="www.ankushchoubey.com/chat/">&lt;p&gt;&lt;img src=&quot;/images/chat.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@eddybllrd?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Eddy Billard&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/texting?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;problems&quot;&gt;Problems&lt;/h2&gt;
-&lt;p&gt;Online communication of any kind causes a lot of miss understandings.&lt;/p&gt;
-
-&lt;p&gt;The reason is that you cannot know the mood of the person or what the situation is due to not being in physical proximity.&lt;/p&gt;
-
-&lt;p&gt;These things are compounded by:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Typos&lt;/li&gt;
-  &lt;li&gt;Words that seem sarcastic or taunts.&lt;/li&gt;
-  &lt;li&gt;Grammar&lt;/li&gt;
-  &lt;li&gt;Mood/Situation of a person when he/she is reading the text&lt;/li&gt;
-  &lt;li&gt;His/her prior knowledge regarding the topic being discusses&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Because of these, the intent of the message is prone to be taken completely differently.&lt;/p&gt;
-
-&lt;p&gt;Not to mention that texting is a slow process.&lt;/p&gt;
-
-&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
-
-&lt;h3 id=&quot;try-to-pick-a-better-medium&quot;&gt;Try to pick a better medium&lt;/h3&gt;
-&lt;p&gt;In-person &amp;gt; Video &amp;gt; Voice &amp;gt; Snaps &amp;gt; Text
-`&lt;/p&gt;
-&lt;h3 id=&quot;avoid-long-text-message-threads-if-possible&quot;&gt;Avoid long text message threads if possible.&lt;/h3&gt;
-
-&lt;p&gt;Text is also totally useless for explaining your feeling. So don’t. It’s not the person’s fault. It’s just the medium.&lt;/p&gt;
-
-&lt;p&gt;140 characters seem like a nice rule to follow. This keeps things light.&lt;/p&gt;
-
-&lt;h2 id=&quot;use-the-right-emojis-&quot;&gt;Use the right emojis 🙃&lt;/h2&gt;
-&lt;p&gt;They lighten things up even more.&lt;/p&gt;
-
-&lt;h3 id=&quot;expect-delay&quot;&gt;Expect delay&lt;/h3&gt;
-&lt;p&gt;No one is free 100% of the time.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/chat.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/chat.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Reading Books</title><link href="www.ankushchoubey.com/read/" rel="alternate" type="text/html" title="Reading Books" /><published>2020-09-26T00:00:00-05:00</published><updated>2020-09-26T00:00:00-05:00</updated><id>www.ankushchoubey.com/reading</id><content type="html" xml:base="www.ankushchoubey.com/read/">&lt;p&gt;&lt;img src=&quot;/images/read.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@roadtripwithraj?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Road Trip with Raj&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/read?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;Reading is the nourishment that lets you do think in interesting ways. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;In some sense, you are downloading dense information into your brain fast.&lt;/p&gt;
-
-&lt;p&gt;And it is fun! More fun than many TV shows after a certain point.&lt;/p&gt;
-
-&lt;p&gt;Books are of higher quality because they go through a lot of “processes”. Other mediums do not.
-Draft-&amp;gt;Editors-&amp;gt;Reviews-&amp;gt;Publisher.&lt;/p&gt;
-
-&lt;h2 id=&quot;habit&quot;&gt;Habit&lt;/h2&gt;
-&lt;p&gt;Keeping distractions away while reading helps.&lt;/p&gt;
-
-&lt;p&gt;To start, read anything. Even a page better than no page.&lt;/p&gt;
-
-&lt;p&gt;Reading slowly is okay. You may finish the book in 3 months. Not a big deal.&lt;/p&gt;
-
-&lt;h2 id=&quot;new-words&quot;&gt;New words&lt;/h2&gt;
-
-&lt;p&gt;If you don’t know a word in the book. Learn it right there and there. If you don’t you are just approximating what the author says.&lt;/p&gt;
-
-&lt;p&gt;If you are going to read a series of 📚 then learn each new word. The same word will be used later.&lt;/p&gt;
-
-&lt;h2 id=&quot;selecting-books-to-read&quot;&gt;Selecting books to read&lt;/h2&gt;
-&lt;p&gt;Reading from different categories is an easy way to broaden your perspective.&lt;/p&gt;
-
-&lt;p&gt;Always be reading at least 2 books, fiction, and non-fiction.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Non-fiction: Make your more informed and put things into action.&lt;/li&gt;
-  &lt;li&gt;Fiction: Makes you less boring and counteracts the overthinking created by non-fiction.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Don’t buy non-fiction books that have just been released. Let the reviews come in.&lt;/p&gt;
-
-&lt;p&gt;If the right book is selected, it is worth paying the price.&lt;/p&gt;
-
-&lt;h2 id=&quot;reasoning&quot;&gt;Reasoning&lt;/h2&gt;
-
-&lt;p&gt;Don’t agree with everything you read. Authors are humans too. &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Put yourself in the shoes of the author and try to reason through his conclusions.&lt;/p&gt;
-
-&lt;p&gt;You want to internalize the author’s thinking so that you can see the problem from his point of view. &lt;sup id=&quot;fnref:1:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Reading books which provide a counter-argument to your thought or to a book you have read is also interesting.&lt;/p&gt;
-
-&lt;h2 id=&quot;speed-reading&quot;&gt;Speed Reading&lt;/h2&gt;
-&lt;p&gt;If you are speed reading, it is probably not worth reading. &lt;sup id=&quot;fnref:1:2&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Reading speed increases naturally as you get into a habit of reading regularly.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Naval &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;James Clear &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Photo by Road Trip with Raj on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/read.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/read.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Having open to all suggestions/feedbacks forms is a kind of faster late to make this possible.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/communication_bottleneck.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
