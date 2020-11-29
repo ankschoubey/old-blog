@@ -14,7 +14,7 @@ image: /images/first_hackathon.jpg
 
 I always wanted to participate in one but I was afraid that my skills are not enough.
 
-But FTER working as a programmer for the last two years,  I realized that almost everyone starts with no skill and figure out a solution eventually.
+But after working as a programmer for the last two years,  I realized that almost everyone starts with no skill and figure out a solution eventually.
 
 So my goal for joining was to learn as much as I can. I knew I could do at least something even if not at a level I would expect.
 
