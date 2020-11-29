@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-11-28T23:12:20-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Write Tests after Cleaning Code.</title><link href="www.ankushchoubey.com/writing_test/" rel="alternate" type="text/html" title="Write Tests after Cleaning Code." /><published>2020-11-20T00:00:00-06:00</published><updated>2020-11-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/test-coverage-after-cleaning-code</id><content type="html" xml:base="www.ankushchoubey.com/writing_test/">&lt;p&gt;Quality of code determines the quality of the test.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-11-28T23:15:27-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Write Tests after Cleaning Code.</title><link href="www.ankushchoubey.com/writing_test/" rel="alternate" type="text/html" title="Write Tests after Cleaning Code." /><published>2020-11-20T00:00:00-06:00</published><updated>2020-11-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/test-coverage-after-cleaning-code</id><content type="html" xml:base="www.ankushchoubey.com/writing_test/">&lt;p&gt;Quality of code determines the quality of the test.&lt;/p&gt;
 
 &lt;p&gt;An unclean code will lead to an unclean test.&lt;/p&gt;
 
@@ -8,7 +8,7 @@
 
 &lt;p&gt;Overall the workload will be about thrice more work than it needs to be.&lt;/p&gt;
 
-&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry><entry><title type="html">Plan quickly. Move fast.</title><link href="www.ankushchoubey.com/move/" rel="alternate" type="text/html" title="Plan quickly. Move fast." /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/move</id><content type="html" xml:base="www.ankushchoubey.com/move/">&lt;p&gt;&lt;img src=&quot;/images/move.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry><entry><title type="html">Plan quickly. Move fast. Break things.</title><link href="www.ankushchoubey.com/move/" rel="alternate" type="text/html" title="Plan quickly. Move fast. Break things." /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/move</id><content type="html" xml:base="www.ankushchoubey.com/move/">&lt;p&gt;&lt;img src=&quot;/images/move.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@chaseelliottclark?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Chase Clark&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/move?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 
 &lt;p&gt;I always wanted to participate in one but I was afraid that my skills are not enough.&lt;/p&gt;
 
-&lt;p&gt;But FTER working as a programmer for the last two years,  I realized that almost everyone starts with no skill and figure out a solution eventually.&lt;/p&gt;
+&lt;p&gt;But after working as a programmer for the last two years,  I realized that almost everyone starts with no skill and figure out a solution eventually.&lt;/p&gt;
 
 &lt;p&gt;So my goal for joining was to learn as much as I can. I knew I could do at least something even if not at a level I would expect.&lt;/p&gt;
 
