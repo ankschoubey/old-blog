@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-11-28T23:15:27-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Write Tests after Cleaning Code.</title><link href="www.ankushchoubey.com/writing_test/" rel="alternate" type="text/html" title="Write Tests after Cleaning Code." /><published>2020-11-20T00:00:00-06:00</published><updated>2020-11-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/test-coverage-after-cleaning-code</id><content type="html" xml:base="www.ankushchoubey.com/writing_test/">&lt;p&gt;Quality of code determines the quality of the test.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-11T21:55:32-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Eventually perfect feature</title><link href="www.ankushchoubey.com/eventually_perfect/" rel="alternate" type="text/html" title="Eventually perfect feature" /><published>2020-12-08T00:00:00-06:00</published><updated>2020-12-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/eventually-perfect</id><content type="html" xml:base="www.ankushchoubey.com/eventually_perfect/">&lt;p&gt;While developing software there are 2 ways to develop.&lt;/p&gt;
+
+&lt;p&gt;One is pack the release with all features.&lt;/p&gt;
+
+&lt;p&gt;For example: If a feature which processes different to supports&lt;/p&gt;
+
+&lt;p&gt;Pack it to support all file types on Day One.&lt;/p&gt;
+
+&lt;p&gt;This works well well when.&lt;/p&gt;
+
+&lt;p&gt;Better way to do this is to release with the minimum required feature and then add small releases overtime.&lt;/p&gt;
+
+&lt;p&gt;Most software features never get used. Unless you are a FANG company or even if you are, you should save your resources to focus on the area that matters most.&lt;/p&gt;
+
+&lt;p&gt;That you only understand after the feature is in the wild for a while.&lt;/p&gt;
+
+&lt;p&gt;Though this approach cannot be used if the feature needs to be a secret. In which case allowing beta tests will be helpful.&lt;/p&gt;</content><author><name></name></author><summary type="html">While developing software there are 2 ways to develop.</summary></entry><entry><title type="html">Write Tests after Cleaning Code.</title><link href="www.ankushchoubey.com/writing_test/" rel="alternate" type="text/html" title="Write Tests after Cleaning Code." /><published>2020-11-20T00:00:00-06:00</published><updated>2020-11-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/test-coverage-after-cleaning-code</id><content type="html" xml:base="www.ankushchoubey.com/writing_test/">&lt;p&gt;Quality of code determines the quality of the test.&lt;/p&gt;
 
 &lt;p&gt;An unclean code will lead to an unclean test.&lt;/p&gt;
 
@@ -8,7 +24,17 @@
 
 &lt;p&gt;Overall the workload will be about thrice more work than it needs to be.&lt;/p&gt;
 
-&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry><entry><title type="html">Plan quickly. Move fast. Break things.</title><link href="www.ankushchoubey.com/move/" rel="alternate" type="text/html" title="Plan quickly. Move fast. Break things." /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/move</id><content type="html" xml:base="www.ankushchoubey.com/move/">&lt;p&gt;&lt;img src=&quot;/images/move.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry><entry><title type="html">Importance of different devops activities</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="Importance of different devops activities" /><published>2020-11-08T00:00:00-06:00</published><updated>2020-11-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/importance-devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;p&gt;https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52&lt;/p&gt;
+
+&lt;p&gt;CICD&lt;/p&gt;
+
+&lt;p&gt;Testing&lt;/p&gt;
+
+&lt;p&gt;DB Deployment&lt;/p&gt;
+
+&lt;p&gt;Monitoring&lt;/p&gt;
+
+&lt;p&gt;Clean Code&lt;/p&gt;</content><author><name></name></author><summary type="html">https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52</summary></entry><entry><title type="html">Plan quickly. Move fast. Break things.</title><link href="www.ankushchoubey.com/move/" rel="alternate" type="text/html" title="Plan quickly. Move fast. Break things." /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/move</id><content type="html" xml:base="www.ankushchoubey.com/move/">&lt;p&gt;&lt;img src=&quot;/images/move.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@chaseelliottclark?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Chase Clark&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/move?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
@@ -22,7 +48,31 @@
 
 &lt;p&gt;If something is repeated so every frequently then the six minutes saving in time is justified.&lt;/p&gt;
 
-&lt;p&gt;But for most things, it is better to move on fast and break things.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/move.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/move.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">First Hackathon</title><link href="www.ankushchoubey.com/first_hackathon/" rel="alternate" type="text/html" title="First Hackathon" /><published>2020-10-30T00:00:00-05:00</published><updated>2020-10-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/first-hackethon</id><content type="html" xml:base="www.ankushchoubey.com/first_hackathon/">&lt;p&gt;&lt;img src=&quot;/images/first_hackathon.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;But for most things, it is better to move on fast and break things.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/move.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/move.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Comparison in evaluation</title><link href="www.ankushchoubey.com/comparison/" rel="alternate" type="text/html" title="Comparison in evaluation" /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/comparison</id><content type="html" xml:base="www.ankushchoubey.com/comparison/">&lt;p&gt;While evaluation performance don’t compare one person to another&lt;/p&gt;
+
+&lt;p&gt;I see managers make this mistake a lot they compare one persons performance to another persons performance.&lt;/p&gt;
+
+&lt;p&gt;Though this may seem good for some things like giving an award to the best performer a better approach would be compare the person with his whole past performance&lt;/p&gt;
+
+&lt;p&gt;This not just gives everyone a fair chance but also is more accurate Level of judging improvement.&lt;/p&gt;
+
+&lt;p&gt;So in math system it would be like change in percentage rather than change in value. I’ll percentage growth instead of growth in value.&lt;/p&gt;
+
+&lt;p&gt;That’s almost cannot be used as a way for new hires sense the person in charge know so little about them.&lt;/p&gt;</content><author><name></name></author><summary type="html">While evaluation performance don’t compare one person to another</summary></entry><entry><title type="html">Age is not a perfect measure of experience</title><link href="www.ankushchoubey.com/age/" rel="alternate" type="text/html" title="Age is not a perfect measure of experience" /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/age</id><content type="html" xml:base="www.ankushchoubey.com/age/">&lt;p&gt;There are many kids who at a very young age learn a relatively hard skill like piano. They often get the title of being a child prodigy.&lt;/p&gt;
+
+&lt;p&gt;This categorization means that the child&lt;/p&gt;
+
+&lt;p&gt;er so couldn’t hear what to do but this often ignores the this this is on the premise that the child was born with some special abilities skill to learn or a mindset that that can only be genetically available in some cases it mind before you there are unfair advantages&lt;/p&gt;
+
+&lt;p&gt;Life isn’t fair for everyone there are always on fair advantages but this often undermines the amount of effort that the child has put in to something hard to learn if you take a look at&lt;/p&gt;
+
+&lt;p&gt;most child prodigies they started really on the event four years of five years old old started learning the craft&lt;/p&gt;
+
+&lt;p&gt;one more man I am and where is the age of 10 and 12 they were already 5-6 years experience so no doubt they were better at this scale&lt;/p&gt;
+
+&lt;p&gt;because they spend daily five years crafting it&lt;/p&gt;
+
+&lt;p&gt;this thing is kind of hard and a corporate environment where The years of experience is what is given favour more than the ability of the person to get the job done&lt;/p&gt;</content><author><name></name></author><summary type="html">There are many kids who at a very young age learn a relatively hard skill like piano. They often get the title of being a child prodigy.</summary></entry><entry><title type="html">First Hackathon</title><link href="www.ankushchoubey.com/first_hackathon/" rel="alternate" type="text/html" title="First Hackathon" /><published>2020-10-30T00:00:00-05:00</published><updated>2020-10-30T00:00:00-05:00</updated><id>www.ankushchoubey.com/first-hackethon</id><content type="html" xml:base="www.ankushchoubey.com/first_hackathon/">&lt;p&gt;&lt;img src=&quot;/images/first_hackathon.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@synkevych?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Roman Synkevych&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/code?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
@@ -145,173 +195,4 @@
       &lt;p&gt;Extreme Ownership by Jocko Willink &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">The answers by themselves are not that important.</summary></entry><entry><title type="html">Definitions</title><link href="www.ankushchoubey.com/definition/" rel="alternate" type="text/html" title="Definitions" /><published>2020-10-18T00:00:00-05:00</published><updated>2020-10-18T00:00:00-05:00</updated><id>www.ankushchoubey.com/definitions</id><content type="html" xml:base="www.ankushchoubey.com/definition/">&lt;p&gt;There are many terms that are not hardcore logic.&lt;/p&gt;
-
-&lt;p&gt;These terms get biased by people’s past and their current thought processes.&lt;/p&gt;
-
-&lt;p&gt;You can think of these as levels but it’s always hierarchical.&lt;/p&gt;
-
-&lt;p&gt;For instance&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Rich for someone is being able to afford a house.&lt;/li&gt;
-  &lt;li&gt;Rich for someone else is being a billionaire.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The questions like “How to be rich?” are very different for both of those paths.&lt;/p&gt;
-
-&lt;p&gt;Likewise, Happiness can mean just having basic needs fulfilled or can mean pure excitement.&lt;/p&gt;
-
-&lt;h2 id=&quot;some-other-things-than-getting-defined-vaguely-are&quot;&gt;Some other things than getting defined vaguely are&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Success&lt;/li&gt;
-  &lt;li&gt;Love&lt;/li&gt;
-  &lt;li&gt;Modernity&lt;/li&gt;
-  &lt;li&gt;Secularism&lt;/li&gt;
-  &lt;li&gt;Suffering&lt;/li&gt;
-  &lt;li&gt;Good/Bad&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;good-communicators&quot;&gt;Good Communicators&lt;/h2&gt;
-
-&lt;p&gt;I have noticed a quality of good communicators when they explain a term&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;They listen.&lt;/li&gt;
-  &lt;li&gt;Then try to understand exactly what the person is trying to say. They’ll ask questions if they have not understood properly.&lt;/li&gt;
-  &lt;li&gt;If they have to convey, they convey the exact information at the level that the person can understand.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;One of the ways they do it is by using the right vocabulary words while keeping things understandable.&lt;/p&gt;</content><author><name></name></author><summary type="html">There are many terms that are not hardcore logic.</summary></entry><entry><title type="html">Who is your audience?</title><link href="www.ankushchoubey.com/audience/" rel="alternate" type="text/html" title="Who is your audience?" /><published>2020-10-16T00:00:00-05:00</published><updated>2020-10-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/audience</id><content type="html" xml:base="www.ankushchoubey.com/audience/">&lt;p&gt;&lt;img src=&quot;/images/audience.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@wansan_99?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Wan San Yip&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/performance?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;I once was a participant in the Dance group at my school.&lt;/p&gt;
-
-&lt;p&gt;We were performing on for Children’s Day.&lt;/p&gt;
-
-&lt;p&gt;We started our performance with LMFAO Party Anthem (English). It was a tough dance which we had practiced many times. We had also casually added Chamak Chalo (Hindi) to increase our performance length.&lt;/p&gt;
-
-&lt;p&gt;When LMFAO ended, we were all tired but there was no applause or appreciation from the audience.&lt;/p&gt;
-
-&lt;p&gt;Then a tune rang and everyone started cheering. Chamak Chalo was starting and the audience when bonkers.&lt;/p&gt;
-
-&lt;p&gt;The students at the school listened to Hindi songs. We were forcing English songs on a different demographic.&lt;/p&gt;
-
-&lt;p&gt;Now when “performing”, I try to keep this in mind.&lt;/p&gt;
-
-&lt;p&gt;I recently had an opportunity to play Piano at an office event. I had decided to play classical as that would best show my skills. But my audience had probably never given much thought to Vivaldi or Beethoven. So I picked a Perfect by Ed Sheeran. It was an easy song. But the audience loved more than I had expected.&lt;/p&gt;</content><author><name></name></author><summary type="html">Photo by Wan San Yip on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/audience.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/audience.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Correlation between Deep Learning Concepts and Philosophy</title><link href="www.ankushchoubey.com/dl_lessons/" rel="alternate" type="text/html" title="Correlation between Deep Learning Concepts and Philosophy" /><published>2020-10-14T00:00:00-05:00</published><updated>2020-10-14T00:00:00-05:00</updated><id>www.ankushchoubey.com/life-lessons-learned-from-deep-learning</id><content type="html" xml:base="www.ankushchoubey.com/dl_lessons/">&lt;p&gt;DL = Deep Learning&lt;/p&gt;
-
-&lt;p&gt;NN = Neural Network&lt;/p&gt;
-
-&lt;p&gt;P = Phisolophy&lt;/p&gt;
-
-&lt;h3 id=&quot;gradient-descent&quot;&gt;Gradient descent&lt;/h3&gt;
-&lt;p&gt;DL: Optimization algorithm used for training NN.&lt;/p&gt;
-
-&lt;p&gt;P: You can reach the place you want one step, in the right direction, at a time.&lt;/p&gt;
-
-&lt;h3 id=&quot;keep-weights-small&quot;&gt;Keep weights small&lt;/h3&gt;
-&lt;p&gt;DL: Helps NN learn new data faster&lt;/p&gt;
-
-&lt;p&gt;P: Keep your identity small so that you can adjust easily.&lt;/p&gt;
-
-&lt;h3 id=&quot;local-and-global-minima&quot;&gt;Local and Global Minima&lt;/h3&gt;
-&lt;p&gt;DL: Local Minima means your NN has learned something but it is not optimal. We always aim for Global Minima.&lt;/p&gt;
-
-&lt;p&gt;P: Your views and opinions are not perfect. They are probably just your perspective.&lt;/p&gt;
-
-&lt;h3 id=&quot;randomize-weights&quot;&gt;Randomize Weights&lt;/h3&gt;
-&lt;p&gt;DL: Helps you explore the landscape and avoids getting stuck in local minima.&lt;/p&gt;
-
-&lt;p&gt;P: Put yourself in random situations to learn from it.&lt;/p&gt;
-
-&lt;h3 id=&quot;exponentially-weighted-average&quot;&gt;Exponentially Weighted Average&lt;/h3&gt;
-&lt;p&gt;DL: A type of average where more weightage is given to past numbers than latest number.&lt;/p&gt;
-
-&lt;p&gt;P: Do you change your path completely if one outcome goes wrong? What about the last n outcomes that were right.&lt;/p&gt;
-
-&lt;h3 id=&quot;metrics&quot;&gt;Metrics&lt;/h3&gt;
-&lt;p&gt;DL: Used to check how well a NN has trained. Further training will be adjusted accordingly.&lt;/p&gt;
-
-&lt;p&gt;P: Use metrics to see what’s working and not working. Adjust plans accordingly.&lt;/p&gt;
-
-&lt;h3 id=&quot;test-data-and-testing&quot;&gt;Test Data and Testing&lt;/h3&gt;
-&lt;p&gt;DL: Tests NN on unseen data.&lt;/p&gt;
-
-&lt;p&gt;P: Test assumption/beliefs to see if they are true or not&lt;/p&gt;
-
-&lt;h3 id=&quot;overfitting&quot;&gt;Overfitting&lt;/h3&gt;
-&lt;p&gt;DL: NN memorized only certain things completely and cannot variations of unseen things.&lt;/p&gt;
-
-&lt;p&gt;P: What you don’t yet know is more important that what you already know.&lt;/p&gt;</content><author><name></name></author><summary type="html">DL = Deep Learning</summary></entry><entry><title type="html">Cloud is Worth the Hype</title><link href="www.ankushchoubey.com/cloud/" rel="alternate" type="text/html" title="Cloud is Worth the Hype" /><published>2020-10-13T00:00:00-05:00</published><updated>2020-10-13T00:00:00-05:00</updated><id>www.ankushchoubey.com/cloud-computing-is-worth-the-hype</id><content type="html" xml:base="www.ankushchoubey.com/cloud/">&lt;p&gt;&lt;img src=&quot;/images/cloud.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@tvick?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Taylor Vick&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/server?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;Cloud has recently excited me more than anything else in the world. Consider this a fanboy rant.&lt;/p&gt;
-
-&lt;p&gt;Earlier, I was avoiding the cloud because it seemed very hard. But like every computer science buzzword, it is much much easier than expected.&lt;/p&gt;
-
-&lt;p&gt;Recently I started learning AWS. These are a few things that have changed my mind.&lt;/p&gt;
-
-&lt;h2 id=&quot;cost-pay-only-for-what-you-use&quot;&gt;&lt;strong&gt;Cost&lt;/strong&gt;: Pay only for what you use&lt;/h2&gt;
-
-&lt;p&gt;Cloud is anyway cheaper than building and maintaining your server.&lt;/p&gt;
-
-&lt;p&gt;The cost can be optimized further by setting up things properly.&lt;/p&gt;
-
-&lt;p&gt;Cost is impacted by decisions such as:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Pay per minute&lt;/li&gt;
-  &lt;li&gt;Different cost for different configuration&lt;/li&gt;
-  &lt;li&gt;Pay per GB of data stored&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And cloud vendors themselves provide options and encourage customers to optimize their usage to reduce cost.&lt;/p&gt;
-
-&lt;h2 id=&quot;rapid-availability&quot;&gt;&lt;strong&gt;Rapid Availability&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Resources are available to you the instant you want them and in the location, you want them at.&lt;/p&gt;
-
-&lt;p&gt;If I were to start a Deep Learning project, on my local machine, it would take a full workday to just set things upright. Plus, you’ll have to deal with upgrades and maintenance yourself.&lt;/p&gt;
-
-&lt;p&gt;The same thing I wanted to do on AWS, it took just 3 minutes.&lt;/p&gt;
-
-&lt;h2 id=&quot;special-hardware&quot;&gt;&lt;strong&gt;Special Hardware&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;In fields like Machine Learning, you need high computation and specialized hardware.&lt;/p&gt;
-
-&lt;p&gt;A cloud provider can provide it instantly.&lt;/p&gt;
-
-&lt;p&gt;Similarly, Quantum Programming is a new field for programmers that were not available to most developers. But cloud providers are providing infrastructure for this new field.&lt;/p&gt;
-
-&lt;h2 id=&quot;choice-well-provide-infrastructure-your-code&quot;&gt;&lt;strong&gt;Choice&lt;/strong&gt;: “We’ll provide infrastructure. Your code!”&lt;/h2&gt;
-
-&lt;p&gt;Traditionally, if you buy hardware and it is not used, you cannot do much other than selling the hardware to reclaim the cost.&lt;/p&gt;
-
-&lt;p&gt;Cloud solves this problem by allowing users to change their underlying infrastructure at any moment.&lt;/p&gt;
-
-&lt;h2 id=&quot;maintainance-well-provide-support-you-code&quot;&gt;&lt;strong&gt;Maintainance&lt;/strong&gt;: “We’ll provide support. You code!”&lt;/h2&gt;
-
-&lt;p&gt;Small things like replication of the servers and databases, scaling, sharding, maintaining security, etc are automatically taken care of with a few clicks.&lt;/p&gt;
-
-&lt;p&gt;Cloud vendors provide a good set of defaults and out of the box solutions to these common problems.&lt;/p&gt;
-
-&lt;h2 id=&quot;abstraction-easier-than-traditional-setup&quot;&gt;&lt;strong&gt;Abstraction&lt;/strong&gt;: Easier than Traditional Setup&lt;/h2&gt;
-
-&lt;p&gt;Cloud vendors make it easier to use the cloud. Things are abstracted and one can choose to learn until what is required.&lt;/p&gt;
-
-&lt;p&gt;Most normal developers would not have to deal with specifics of the infrastructure.&lt;/p&gt;
-
-&lt;h2 id=&quot;special-apis-code-less&quot;&gt;Special APIs: Code less&lt;/h2&gt;
-
-&lt;p&gt;Almost all cloud providers provide special APIs for things like text recognition, image recognition, and even blockchains.&lt;/p&gt;
-
-&lt;p&gt;One need not be an expert to use these out of the box solutions.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion-cloud-is-a-win-win&quot;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;: Cloud is a Win-Win&lt;/h2&gt;
-
-&lt;p&gt;Cloud provides a lot of consumer surplus.&lt;/p&gt;
-
-&lt;p&gt;Cloud is such that the price of owning and maintaining for the individual user than if they would have built a server themselves.&lt;/p&gt;
-
-&lt;p&gt;While for the cloud provider, it is also cheap because they provide it at scale.&lt;/p&gt;
-
-&lt;p&gt;Not to mentions, they are easier to use and provide the flexibility of choice.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/cloud.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/cloud.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The answers by themselves are not that important.</summary></entry></feed>
