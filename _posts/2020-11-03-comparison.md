@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Experience]
+categories: [Experience, draft]
 title: Comparison in evaluation
 permalink: /comparison/
 ---
