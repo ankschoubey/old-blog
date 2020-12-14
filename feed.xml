@@ -1,36 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-13T21:59:20-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Why Engineers should get into other field.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Engineers should get into other field." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;computer-engineers-solve-problems-by-building-software-solutions-&quot;&gt;Computer Engineers solve problems by building software solutions.-&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-13T22:27:00-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Why Software Engineers should get into other fields.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Software Engineers should get into other fields." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;software-engineers&quot;&gt;Software Engineers&lt;/h2&gt;
 
-&lt;p&gt;We then take those solutions and make it more efficient.&lt;/p&gt;
+&lt;p&gt;Software Engineers solve problems by building solutions.&lt;/p&gt;
 
-&lt;p&gt;We also create alternative solutions that replaces the original solutions.&lt;/p&gt;
+&lt;p&gt;We keep iterating on the solutions, make it better and eventually replace the solution with something completely different.&lt;/p&gt;
 
-&lt;p&gt;All of these is done fast, every fast.&lt;/p&gt;
+&lt;p&gt;We have efficient processes for managing projects and handling productivity. Even if a deadline is near, the solution is shipped.&lt;/p&gt;
 
-&lt;p&gt;We hypothesis, test on small scale. test on big scale, fast and then test in real workd.&lt;/p&gt;
+&lt;p&gt;Software developers ability to get so much done is because of the nature of software and focus on efficiency.&lt;/p&gt;
 
-&lt;p&gt;If a demand is unreasonable, we still get it done.&lt;/p&gt;
+&lt;h2 id=&quot;what-problem-to-solve&quot;&gt;What problem to solve&lt;/h2&gt;
 
-&lt;p&gt;If the deadline is really near, we get it done.&lt;/p&gt;
+&lt;p&gt;A non-technical person does not know the problem that can be solved using technology.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-other-field-can-benefit&quot;&gt;How other field can benefit&lt;/h2&gt;
+&lt;p&gt;A technical person does not know what problems to solve. The result is that time is solved solving problems on trivial issues like social media instead of more important fields.&lt;/p&gt;
 
-&lt;p&gt;This is because of the nature of software and the core of engineering is to solve problem as easily as possible and in the best way as possible.&lt;/p&gt;
+&lt;h2 id=&quot;how-other-fields-can-benefit&quot;&gt;How other fields can benefit&lt;/h2&gt;
 
-&lt;p&gt;Any software enginner talking to business users/consumer the people, the who actually use our product, realizes quickly a that they are not using the product to it’s fullest or they don’t know that the problems they are facing can be easily solved with help of computer technology.&lt;/p&gt;
+&lt;p&gt;Some fields have slow progress rate. There is a long delay in medical research getting to production (Approx 20 year &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;). There hasn’t been much innovation in the field even in engineering fields like Civil engineer or biotechnology.&lt;/p&gt;
 
-&lt;h2 id=&quot;some-field-are-getting-stagnated&quot;&gt;Some field are getting stagnated.&lt;/h2&gt;
+&lt;p&gt;The reason is likely because these fields require physical products and take longer to build and test. A technology solution can help speed up some of their processes.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Graphics Modelling and Simulations to speed to testing&lt;/li&gt;
+  &lt;li&gt;Data Organization and Retrieval Systems to make sure the right information is accessed.&lt;/li&gt;
+  &lt;li&gt;Deep Learning Models to help search for replacing overdependence of specialized hardware.&lt;/li&gt;
+  &lt;li&gt;Automation of manual tasks&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;There is a long delay in medical research getting to production. (Approx 20 year) &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The best way to ensure these fields get benefits of innovations in computer technology is to work closely with experts in the field or to get into it ourselves.&lt;/p&gt;
 
-&lt;p&gt;There hasn’t been much innovation in field like health care, ivil engineer or biotechnology&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/engineer.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@nci?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;National Cancer Institute&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/cells?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;4 Hour Body &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Tim Ferriss - 4 Hour Body &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Computer Engineers solve problems by building software solutions.-</summary></entry><entry><title type="html">Non=profit</title><link href="www.ankushchoubey.com/non_profit/" rel="alternate" type="text/html" title="Non=profit" /><published>2020-12-11T00:00:00-06:00</published><updated>2020-12-11T00:00:00-06:00</updated><id>www.ankushchoubey.com/non-profit</id><content type="html" xml:base="www.ankushchoubey.com/non_profit/">&lt;p&gt;It’s difficult for non=profits to do good at scale.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Software Engineers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/engineer.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/engineer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Non=profit</title><link href="www.ankushchoubey.com/non_profit/" rel="alternate" type="text/html" title="Non=profit" /><published>2020-12-11T00:00:00-06:00</published><updated>2020-12-11T00:00:00-06:00</updated><id>www.ankushchoubey.com/non-profit</id><content type="html" xml:base="www.ankushchoubey.com/non_profit/">&lt;p&gt;It’s difficult for non=profits to do good at scale.&lt;/p&gt;
 
 &lt;p&gt;Software non-profits are exception to this because their distribution and infrastructure is cheap.&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s difficult for non=profits to do good at scale.</summary></entry><entry><title type="html">Eventually Perfect Feature</title><link href="www.ankushchoubey.com/eventually_perfect/" rel="alternate" type="text/html" title="Eventually Perfect Feature" /><published>2020-12-08T00:00:00-06:00</published><updated>2020-12-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/eventually-perfect</id><content type="html" xml:base="www.ankushchoubey.com/eventually_perfect/">&lt;p&gt;There are two approaches to building a new feature to existing software.&lt;/p&gt;
 
