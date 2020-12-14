@@ -2,25 +2,22 @@
 toc: false
 layout: post
 comments: true
-description:
-categories: [Information Systems, draft]
-title: Eventually perfect feature
+description: 
+categories: [Information Systems]
+title: Eventually Perfect Feature
 permalink: /eventually_perfect/
 ---
-While developing software there are 2 ways to develop.
 
-One is pack the release with all features.
+There are two approaches to building a new feature to existing software.
 
-For example: If a feature which processes different to supports
+### Approach 1: Ship with all sub-features on the first release
 
-Pack it to support all file types on Day One.
+This approach works well when the feature is small or needs to be secret to gain a competitive advantage.
 
-This works well well when.
+### Approach 2: Ship with minimum sub-features. Then iterate.
 
-Better way to do this is to release with the minimum required feature and then add small releases overtime.
+This approach works better because most software features never get used.
 
-Most software features never get used. Unless you are a FANG company or even if you are, you should save your resources to focus on the area that matters most.
+Unless you are a FANG company or even if you are, you should save your resources to focus on the area that matters most. Which you only understand after the feature is in the wild for a while. 
 
-That you only understand after the feature is in the wild for a while. 
-
-Though this approach cannot be used if the feature needs to be a secret. In which case allowing beta tests will be helpful.
+If the feature is secret, allowing beta of minimum required feature is helpful.
