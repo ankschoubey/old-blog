@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-12T23:07:59-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Why Engineers should get into other field.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Engineers should get into other field." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;computer-engineers-solve-problems-by-building-software-solutions-&quot;&gt;Computer Engineers solve problems by building software solutions.-&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-13T21:59:20-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Why Engineers should get into other field.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Engineers should get into other field." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;computer-engineers-solve-problems-by-building-software-solutions-&quot;&gt;Computer Engineers solve problems by building software solutions.-&lt;/h2&gt;
 
 &lt;p&gt;We then take those solutions and make it more efficient.&lt;/p&gt;
 
@@ -32,23 +32,19 @@
   &lt;/ol&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html">Computer Engineers solve problems by building software solutions.-</summary></entry><entry><title type="html">Non=profit</title><link href="www.ankushchoubey.com/non_profit/" rel="alternate" type="text/html" title="Non=profit" /><published>2020-12-11T00:00:00-06:00</published><updated>2020-12-11T00:00:00-06:00</updated><id>www.ankushchoubey.com/non-profit</id><content type="html" xml:base="www.ankushchoubey.com/non_profit/">&lt;p&gt;It’s difficult for non=profits to do good at scale.&lt;/p&gt;
 
-&lt;p&gt;Software non-profits are exception to this because their distribution and infrastructure is cheap.&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s difficult for non=profits to do good at scale.</summary></entry><entry><title type="html">Eventually perfect feature</title><link href="www.ankushchoubey.com/eventually_perfect/" rel="alternate" type="text/html" title="Eventually perfect feature" /><published>2020-12-08T00:00:00-06:00</published><updated>2020-12-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/eventually-perfect</id><content type="html" xml:base="www.ankushchoubey.com/eventually_perfect/">&lt;p&gt;While developing software there are 2 ways to develop.&lt;/p&gt;
+&lt;p&gt;Software non-profits are exception to this because their distribution and infrastructure is cheap.&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s difficult for non=profits to do good at scale.</summary></entry><entry><title type="html">Eventually Perfect Feature</title><link href="www.ankushchoubey.com/eventually_perfect/" rel="alternate" type="text/html" title="Eventually Perfect Feature" /><published>2020-12-08T00:00:00-06:00</published><updated>2020-12-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/eventually-perfect</id><content type="html" xml:base="www.ankushchoubey.com/eventually_perfect/">&lt;p&gt;There are two approaches to building a new feature to existing software.&lt;/p&gt;
 
-&lt;p&gt;One is pack the release with all features.&lt;/p&gt;
+&lt;h3 id=&quot;approach-1-ship-with-all-sub-features-on-the-first-release&quot;&gt;Approach 1: Ship with all sub-features on the first release&lt;/h3&gt;
 
-&lt;p&gt;For example: If a feature which processes different to supports&lt;/p&gt;
+&lt;p&gt;This approach works well when the feature is small or needs to be secret to gain a competitive advantage.&lt;/p&gt;
 
-&lt;p&gt;Pack it to support all file types on Day One.&lt;/p&gt;
+&lt;h3 id=&quot;approach-2-ship-with-minimum-sub-features-then-iterate&quot;&gt;Approach 2: Ship with minimum sub-features. Then iterate.&lt;/h3&gt;
 
-&lt;p&gt;This works well well when.&lt;/p&gt;
+&lt;p&gt;This approach works better because most software features never get used.&lt;/p&gt;
 
-&lt;p&gt;Better way to do this is to release with the minimum required feature and then add small releases overtime.&lt;/p&gt;
+&lt;p&gt;Unless you are a FANG company or even if you are, you should save your resources to focus on the area that matters most. Which you only understand after the feature is in the wild for a while.&lt;/p&gt;
 
-&lt;p&gt;Most software features never get used. Unless you are a FANG company or even if you are, you should save your resources to focus on the area that matters most.&lt;/p&gt;
-
-&lt;p&gt;That you only understand after the feature is in the wild for a while.&lt;/p&gt;
-
-&lt;p&gt;Though this approach cannot be used if the feature needs to be a secret. In which case allowing beta tests will be helpful.&lt;/p&gt;</content><author><name></name></author><summary type="html">While developing software there are 2 ways to develop.</summary></entry><entry><title type="html">Write Tests after Cleaning Code.</title><link href="www.ankushchoubey.com/writing_test/" rel="alternate" type="text/html" title="Write Tests after Cleaning Code." /><published>2020-11-20T00:00:00-06:00</published><updated>2020-11-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/test-coverage-after-cleaning-code</id><content type="html" xml:base="www.ankushchoubey.com/writing_test/">&lt;p&gt;Quality of code determines the quality of the test.&lt;/p&gt;
+&lt;p&gt;If the feature is secret, allowing beta of minimum required feature is helpful.&lt;/p&gt;</content><author><name></name></author><summary type="html">There are two approaches to building a new feature to existing software.</summary></entry><entry><title type="html">Write Tests after Cleaning Code.</title><link href="www.ankushchoubey.com/writing_test/" rel="alternate" type="text/html" title="Write Tests after Cleaning Code." /><published>2020-11-20T00:00:00-06:00</published><updated>2020-11-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/test-coverage-after-cleaning-code</id><content type="html" xml:base="www.ankushchoubey.com/writing_test/">&lt;p&gt;Quality of code determines the quality of the test.&lt;/p&gt;
 
 &lt;p&gt;An unclean code will lead to an unclean test.&lt;/p&gt;
 
