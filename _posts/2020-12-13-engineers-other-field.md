@@ -4,7 +4,7 @@ layout: post
 comments: true
 description:
 categories: [Information Systems]
-title: Why Software Engineers should get into other fields.
+title: Why Software Engineers Should Enter Other Fields.
 permalink: /engineer/
 image: /images/engineer.jpg
 ---
