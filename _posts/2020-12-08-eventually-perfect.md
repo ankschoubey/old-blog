@@ -6,7 +6,12 @@ description:
 categories: [Information Systems]
 title: Eventually Perfect Feature
 permalink: /eventually_perfect/
+image: /images/eventually_perfect.jpg
 ---
+![](/images/eventually_perfect.jpg)
+
+
+<sup>Photo by <a href="https://unsplash.com/@hostreviews?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Stephen Phillips - Hostreviews.co.uk</a> on <a href="https://unsplash.com/s/photos/gmail?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sup>
 
 There are two approaches to building a new feature to existing software.
 
