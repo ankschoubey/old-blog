@@ -3,8 +3,8 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Experience, draft]
-title: Comparison in evaluation
+categories: [Businesses]
+title: Comparison in Performance Evaluation
 permalink: /comparison/
 ---
 

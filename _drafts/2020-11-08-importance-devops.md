@@ -14,7 +14,6 @@ CICD
 
 Testing
 
-
 DB Deployment
 
 Monitoring

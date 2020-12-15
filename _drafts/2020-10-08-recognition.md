@@ -3,14 +3,14 @@ toc: false
 layout: post
 comments: true
 description: Recognition
-categories: [Teams, Businesses, draft, Leadership]
+categories: [Teams, Businesses, Leadership]
 title: Give credit where credit is due
 permalink: /recognition/
 image: https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80
 ---
 ![](https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80)
 
-Praised should be distributed .
+Praised should be distributed well.
 
 There are many types of employees.
 - Some are bad at work they do. Just bad.
@@ -21,14 +21,13 @@ Usually, behind every popular team, there are faces in that team who aren't as p
 
 Sometimes they choose not to be popular. Or sometimes in cases their work is ignored. They might have been the hardest worker of all but usually due to some or the other human bias people ignore to praise them.
 
-With some employees it is fine. While for others, they start to see opportunities and grown missing.
+With some employees it is fine. While for others, they start to see opportunities and growth missing.
 
 They become resentful.
 
 Which is not a good thing. No one resentful in a team wants to work towards the same goal.
 
-Flattery
-
+## Flattery
 
 Maybe the education insitutes I had been during younger days were like this.
 Imagine the topper of your class. He she get's extra praise and attention from the teacher. His problems are being solved.
