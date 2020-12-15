@@ -5,8 +5,8 @@ comments: true
 categories: [Business, Non-Profit]
 layout: post
 use_math: true
-permalink: /for_profit/
-image: /images/for_profit.jpg
+permalink: /environment/
+image: /images/environment.jpg
 ---
 ![](/images/for_profit.jpg)
 <sub>Photo by <a href="https://unsplash.com/@charliedeets?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charlie Deets</a> on <a href="https://unsplash.com/s/photos/tesla?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sub>
