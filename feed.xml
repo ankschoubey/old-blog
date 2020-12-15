@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-15T06:29:54-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Why Software Engineers Should Enter Other Fields.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Software Engineers Should Enter Other Fields." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;software-engineers&quot;&gt;Software Engineers&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-15T11:59:58-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Why Software Engineers Should Enter Other Fields.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Software Engineers Should Enter Other Fields." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;software-engineers&quot;&gt;Software Engineers&lt;/h2&gt;
 
 &lt;p&gt;Software Engineers solve problems by building solutions.&lt;/p&gt;
 
@@ -37,9 +37,7 @@
       &lt;p&gt;Tim Ferriss - 4 Hour Body &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Software Engineers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/engineer.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/engineer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Non=profit</title><link href="www.ankushchoubey.com/non_profit/" rel="alternate" type="text/html" title="Non=profit" /><published>2020-12-11T00:00:00-06:00</published><updated>2020-12-11T00:00:00-06:00</updated><id>www.ankushchoubey.com/non-profit</id><content type="html" xml:base="www.ankushchoubey.com/non_profit/">&lt;p&gt;It’s difficult for non=profits to do good at scale.&lt;/p&gt;
-
-&lt;p&gt;Software non-profits are exception to this because their distribution and infrastructure is cheap.&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s difficult for non=profits to do good at scale.</summary></entry><entry><title type="html">Eventually Perfect Feature</title><link href="www.ankushchoubey.com/eventually_perfect/" rel="alternate" type="text/html" title="Eventually Perfect Feature" /><published>2020-12-08T00:00:00-06:00</published><updated>2020-12-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/eventually-perfect</id><content type="html" xml:base="www.ankushchoubey.com/eventually_perfect/">&lt;p&gt;&lt;img src=&quot;/images/eventually_perfect.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Software Engineers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/engineer.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/engineer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Eventually Perfect Feature</title><link href="www.ankushchoubey.com/eventually_perfect/" rel="alternate" type="text/html" title="Eventually Perfect Feature" /><published>2020-12-08T00:00:00-06:00</published><updated>2020-12-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/eventually-perfect</id><content type="html" xml:base="www.ankushchoubey.com/eventually_perfect/">&lt;p&gt;&lt;img src=&quot;/images/eventually_perfect.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@hostreviews?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Stephen Phillips - Hostreviews.co.uk&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/gmail?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
@@ -65,17 +63,7 @@
 
 &lt;p&gt;Overall the workload will be about thrice more work than it needs to be.&lt;/p&gt;
 
-&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry><entry><title type="html">Importance of different devops activities</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="Importance of different devops activities" /><published>2020-11-08T00:00:00-06:00</published><updated>2020-11-08T00:00:00-06:00</updated><id>www.ankushchoubey.com/importance-devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;p&gt;https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52&lt;/p&gt;
-
-&lt;p&gt;CICD&lt;/p&gt;
-
-&lt;p&gt;Testing&lt;/p&gt;
-
-&lt;p&gt;DB Deployment&lt;/p&gt;
-
-&lt;p&gt;Monitoring&lt;/p&gt;
-
-&lt;p&gt;Clean Code&lt;/p&gt;</content><author><name></name></author><summary type="html">https://medium.com/swlh/how-to-become-an-devops-engineer-in-2020-80b8740d5a52</summary></entry><entry><title type="html">Plan quickly. Move fast. Break things.</title><link href="www.ankushchoubey.com/move/" rel="alternate" type="text/html" title="Plan quickly. Move fast. Break things." /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/move</id><content type="html" xml:base="www.ankushchoubey.com/move/">&lt;p&gt;&lt;img src=&quot;/images/move.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry><entry><title type="html">Plan quickly. Move fast. Break things.</title><link href="www.ankushchoubey.com/move/" rel="alternate" type="text/html" title="Plan quickly. Move fast. Break things." /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/move</id><content type="html" xml:base="www.ankushchoubey.com/move/">&lt;p&gt;&lt;img src=&quot;/images/move.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@chaseelliottclark?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Chase Clark&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/move?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
@@ -89,17 +77,7 @@
 
 &lt;p&gt;If something is repeated so every frequently then the six minutes saving in time is justified.&lt;/p&gt;
 
-&lt;p&gt;But for most things, it is better to move on fast and break things.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/move.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/move.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Comparison in evaluation</title><link href="www.ankushchoubey.com/comparison/" rel="alternate" type="text/html" title="Comparison in evaluation" /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/comparison</id><content type="html" xml:base="www.ankushchoubey.com/comparison/">&lt;p&gt;While evaluation performance don’t compare one person to another&lt;/p&gt;
-
-&lt;p&gt;I see managers make this mistake a lot they compare one persons performance to another persons performance.&lt;/p&gt;
-
-&lt;p&gt;Though this may seem good for some things like giving an award to the best performer a better approach would be compare the person with his whole past performance&lt;/p&gt;
-
-&lt;p&gt;This not just gives everyone a fair chance but also is more accurate Level of judging improvement.&lt;/p&gt;
-
-&lt;p&gt;So in math system it would be like change in percentage rather than change in value. I’ll percentage growth instead of growth in value.&lt;/p&gt;
-
-&lt;p&gt;That’s almost cannot be used as a way for new hires sense the person in charge know so little about them.&lt;/p&gt;</content><author><name></name></author><summary type="html">While evaluation performance don’t compare one person to another</summary></entry><entry><title type="html">Age is not a perfect measure of experience</title><link href="www.ankushchoubey.com/age/" rel="alternate" type="text/html" title="Age is not a perfect measure of experience" /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/age</id><content type="html" xml:base="www.ankushchoubey.com/age/">&lt;p&gt;&lt;img src=&quot;/images/age.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;But for most things, it is better to move on fast and break things.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/move.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/move.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Age is not a perfect measure of experience</title><link href="www.ankushchoubey.com/age/" rel="alternate" type="text/html" title="Age is not a perfect measure of experience" /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/age</id><content type="html" xml:base="www.ankushchoubey.com/age/">&lt;p&gt;&lt;img src=&quot;/images/age.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@paige_cody?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Paige Cody&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/kids-piano?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
 
@@ -189,4 +167,95 @@
 
 &lt;p&gt;Humans can find ways to improve everything. Our judgment is not objective. We need something objective.&lt;/p&gt;
 
-&lt;p&gt;Having a strong definition of done can help be objective.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building software is having no fixed deadline. Below are some reasons why.</summary></entry></feed>
+&lt;p&gt;Having a strong definition of done can help be objective.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building software is having no fixed deadline. Below are some reasons why.</summary></entry><entry><title type="html">Office is just school for adults</title><link href="www.ankushchoubey.com/the_office/" rel="alternate" type="text/html" title="Office is just school for adults" /><published>2020-10-21T00:00:00-05:00</published><updated>2020-10-21T00:00:00-05:00</updated><id>www.ankushchoubey.com/office</id><content type="html" xml:base="www.ankushchoubey.com/the_office/">&lt;p&gt;For many, working 9-5 often is considered non-ideal. Instead, wishing to work for themselves or not to work at all.&lt;/p&gt;
+
+&lt;p&gt;Some benefits of working at an office that are hard to replicate otherwise are:&lt;/p&gt;
+
+&lt;h2 id=&quot;social-circle&quot;&gt;Social Circle&lt;/h2&gt;
+&lt;p&gt;We tend to keep office friendships shallow.&lt;/p&gt;
+
+&lt;p&gt;But in a lifetime, we make more friends at the office than from school and college combined.&lt;/p&gt;
+
+&lt;p&gt;These include people from many different backgrounds and age groups.&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-opportunities&quot;&gt;Learning opportunities&lt;/h2&gt;
+&lt;p&gt;Higher-ups in the office want people to take up more responsibility.&lt;/p&gt;
+
+&lt;p&gt;A win-win is when there is something you want to do or learn that can help solve a business problem.&lt;/p&gt;
+
+&lt;p&gt;All you have to do is ask!&lt;/p&gt;
+
+&lt;p&gt;Unlike school, you can pick and choose a lot of things.&lt;/p&gt;
+&lt;h2 id=&quot;experimentation&quot;&gt;Experimentation&lt;/h2&gt;
+&lt;p&gt;Office also provides opportunities to experiment. Try new things out.&lt;/p&gt;
+
+&lt;p&gt;Of course, these things are planned within a team and for the benefit of all.&lt;/p&gt;
+
+&lt;p&gt;Example: Proposing a new product idea.&lt;/p&gt;
+&lt;h2 id=&quot;hierarchy&quot;&gt;Hierarchy&lt;/h2&gt;
+&lt;p&gt;Schools have a hierarchy of authority organized by age: Teachers over the students.&lt;/p&gt;
+
+&lt;p&gt;Most offices resist age-wise authority. They tend to favor ideas and a person’s past deliveries.&lt;/p&gt;
+
+&lt;h2 id=&quot;time&quot;&gt;Time&lt;/h2&gt;
+&lt;p&gt;Unstructured time is hard to manage.&lt;/p&gt;
+
+&lt;p&gt;The office provides a well-balanced structure for most.&lt;/p&gt;
+
+&lt;h2 id=&quot;meaning&quot;&gt;Meaning&lt;/h2&gt;
+&lt;p&gt;Work provides meaning.&lt;/p&gt;
+
+&lt;p&gt;There is nothing that gives more satisfaction than knowing that customers like your product.&lt;/p&gt;</content><author><name></name></author><summary type="html">For many, working 9-5 often is considered non-ideal. Instead, wishing to work for themselves or not to work at all.</summary></entry><entry><title type="html">Empowerment/Enabling</title><link href="www.ankushchoubey.com/giving_help/" rel="alternate" type="text/html" title="Empowerment/Enabling" /><published>2020-10-20T00:00:00-05:00</published><updated>2020-10-20T00:00:00-05:00</updated><id>www.ankushchoubey.com/giving-help</id><content type="html" xml:base="www.ankushchoubey.com/giving_help/">&lt;p&gt;The answers by themselves are not that important.&lt;/p&gt;
+
+&lt;p&gt;The process for finding the answer is more important so that they can replicate the process later.&lt;/p&gt;
+
+&lt;p&gt;Over-dependence is a  bottleneck. Always providing ready-made solutions seems to turn people weak and dependent.&lt;/p&gt;
+
+&lt;p&gt;And it is your responsibility &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; to make them capable of themselves finding the answers and making informed decisions.&lt;/p&gt;
+
+&lt;p&gt;So, everyone is free to work on problems that truly matter to them. The once that only they can solve. Allowing people to work in parallel.&lt;/p&gt;
+
+&lt;p&gt;Great companies are structured such that the star entrepreneur/performer can leave the company at any moment. The company will still run just fine.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Extreme Ownership by Jocko Willink &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The answers by themselves are not that important.</summary></entry><entry><title type="html">Definitions</title><link href="www.ankushchoubey.com/definition/" rel="alternate" type="text/html" title="Definitions" /><published>2020-10-18T00:00:00-05:00</published><updated>2020-10-18T00:00:00-05:00</updated><id>www.ankushchoubey.com/definitions</id><content type="html" xml:base="www.ankushchoubey.com/definition/">&lt;p&gt;There are many terms that are not hardcore logic.&lt;/p&gt;
+
+&lt;p&gt;These terms get biased by people’s past and their current thought processes.&lt;/p&gt;
+
+&lt;p&gt;You can think of these as levels but it’s always hierarchical.&lt;/p&gt;
+
+&lt;p&gt;For instance&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rich for someone is being able to afford a house.&lt;/li&gt;
+  &lt;li&gt;Rich for someone else is being a billionaire.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The questions like “How to be rich?” are very different for both of those paths.&lt;/p&gt;
+
+&lt;p&gt;Likewise, Happiness can mean just having basic needs fulfilled or can mean pure excitement.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-other-things-than-getting-defined-vaguely-are&quot;&gt;Some other things than getting defined vaguely are&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Success&lt;/li&gt;
+  &lt;li&gt;Love&lt;/li&gt;
+  &lt;li&gt;Modernity&lt;/li&gt;
+  &lt;li&gt;Secularism&lt;/li&gt;
+  &lt;li&gt;Suffering&lt;/li&gt;
+  &lt;li&gt;Good/Bad&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;good-communicators&quot;&gt;Good Communicators&lt;/h2&gt;
+
+&lt;p&gt;I have noticed a quality of good communicators when they explain a term&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;They listen.&lt;/li&gt;
+  &lt;li&gt;Then try to understand exactly what the person is trying to say. They’ll ask questions if they have not understood properly.&lt;/li&gt;
+  &lt;li&gt;If they have to convey, they convey the exact information at the level that the person can understand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of the ways they do it is by using the right vocabulary words while keeping things understandable.&lt;/p&gt;</content><author><name></name></author><summary type="html">There are many terms that are not hardcore logic.</summary></entry></feed>
