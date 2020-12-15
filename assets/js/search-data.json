@@ -25,7 +25,7 @@
     
         ,"post2": {
             "title": "Eventually Perfect Feature",
-            "content": "There are two approaches to building a new feature to existing software. . Approach 1: Ship with all sub-features on the first release . This approach works well when the feature is small or needs to be secret to gain a competitive advantage. . Approach 2: Ship with minimum sub-features. Then iterate. . This approach works better because most software features never get used. . Unless you are a FANG company or even if you are, you should save your resources to focus on the area that matters most. Which you only understand after the feature is in the wild for a while. . If the feature is secret, allowing beta of minimum required feature is helpful. .",
+            "content": ". Photo by Stephen Phillips - Hostreviews.co.uk on Unsplash . There are two approaches to building a new feature to existing software. . Approach 1: Ship with all sub-features on the first release . This approach works well when the feature is small or needs to be secret to gain a competitive advantage. . Approach 2: Ship with minimum sub-features. Then iterate. . This approach works better because most software features never get used. . Unless you are a FANG company or even if you are, you should save your resources to focus on the area that matters most. Which you only understand after the feature is in the wild for a while. . If the feature is secret, allowing beta of minimum required feature is helpful. .",
             "url": "www.ankushchoubey.com/eventually_perfect/",
             "relUrl": "/eventually_perfect/",
             "date": " • Dec 8, 2020"
