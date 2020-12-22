@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-22T08:33:41-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Developer Productivity</title><link href="www.ankushchoubey.com/dev_productivity/" rel="alternate" type="text/html" title="Developer Productivity" /><published>2020-12-22T00:00:00-06:00</published><updated>2020-12-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/developer-productivity</id><content type="html" xml:base="www.ankushchoubey.com/dev_productivity/">&lt;p&gt;&lt;img src=&quot;/images/dev_productivity.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@ymoran?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;MORAN&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-22T08:37:48-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Developer Productivity</title><link href="www.ankushchoubey.com/dev_productivity/" rel="alternate" type="text/html" title="Developer Productivity" /><published>2020-12-22T00:00:00-06:00</published><updated>2020-12-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/developer-productivity</id><content type="html" xml:base="www.ankushchoubey.com/dev_productivity/">&lt;p&gt;&lt;img src=&quot;/images/dev_productivity.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@ymoran?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;MORAN&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;These are things that affect improves developer productivity significantly:&lt;/p&gt;
 
@@ -44,15 +45,80 @@
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zzMLg3Ys5vI&amp;amp;t=499s&quot;&gt;The Problem With Microservices&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Photo by MORAN on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev_productivity.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev_productivity.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Using Maths/Algorithms in Daily Life</title><link href="www.ankushchoubey.com/math_algorithms/" rel="alternate" type="text/html" title="Using Maths/Algorithms in Daily Life" /><published>2020-12-20T00:00:00-06:00</published><updated>2020-12-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/ads-keep-product-free</id><content type="html" xml:base="www.ankushchoubey.com/math_algorithms/">&lt;p&gt;https://www.youtube.com/watch?v=2Hpw5ZIhnMY&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev_productivity.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev_productivity.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I learned programming.</title><link href="www.ankushchoubey.com/math_algorithms/" rel="alternate" type="text/html" title="How I learned programming." /><published>2020-12-21T00:00:00-06:00</published><updated>2020-12-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/dont-attach-significant-meaning-to-simple-words</id><content type="html" xml:base="www.ankushchoubey.com/math_algorithms/">&lt;p&gt;I was dumb programmer for the most part.&lt;/p&gt;
+
+&lt;p&gt;I knew syntax and understood solutions to problems but could not solve them myself.&lt;/p&gt;
+
+&lt;p&gt;Syntax
+Algorithm
+Competitions
+Think like a programmar
+Cracking the coding interview
+Automating the boring stuff&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=2Hpw5ZIhnMY&lt;/p&gt;
 
 &lt;p&gt;No one likes ads. But ads keep product free and running.&lt;/p&gt;
 
 &lt;p&gt;On a personal level ads often create artificial need. Anti minimalist.&lt;/p&gt;
 
-&lt;p&gt;Attention seeking&lt;/p&gt;</content><author><name></name></author><summary type="html">https://www.youtube.com/watch?v=2Hpw5ZIhnMY</summary></entry><entry><title type="html">Using Maths/Algorithms in Daily Life</title><link href="www.ankushchoubey.com/math_algorithms/" rel="alternate" type="text/html" title="Using Maths/Algorithms in Daily Life" /><published>2020-12-19T00:00:00-06:00</published><updated>2020-12-19T00:00:00-06:00</updated><id>www.ankushchoubey.com/using-math-algorithm-in-daily-life%20copy</id><content type="html" xml:base="www.ankushchoubey.com/math_algorithms/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Harder problems are usually smaller problems put together</title><link href="www.ankushchoubey.com/hard_problems/" rel="alternate" type="text/html" title="Harder problems are usually smaller problems put together" /><published>2020-12-18T00:00:00-06:00</published><updated>2020-12-18T00:00:00-06:00</updated><id>www.ankushchoubey.com/problems-of-choosing-theoritical-fields%20copy</id><content type="html" xml:base="www.ankushchoubey.com/hard_problems/">&lt;p&gt;there are many field where the reward of discovering a new things are a long time before there is implementation.&lt;/p&gt;
+&lt;p&gt;Attention seeking&lt;/p&gt;</content><author><name></name></author><summary type="html">I was dumb programmer for the most part.</summary></entry><entry><title type="html">Don’t attach significant meaning to simple words</title><link href="www.ankushchoubey.com/math_algorithms/" rel="alternate" type="text/html" title="Don't attach significant meaning to simple words" /><published>2020-12-21T00:00:00-06:00</published><updated>2020-12-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/dont-attach-significant-meaning-to-simple-words%20copy</id><content type="html" xml:base="www.ankushchoubey.com/math_algorithms/">&lt;p&gt;https://www.youtube.com/watch?v=2Hpw5ZIhnMY&lt;/p&gt;
 
-&lt;p&gt;things like pure maths, theoritical physics, etc.&lt;/p&gt;</content><author><name></name></author><summary type="html">there are many field where the reward of discovering a new things are a long time before there is implementation.</summary></entry><entry><title type="html">Adding a Translate Button</title><link href="www.ankushchoubey.com/translate_button/" rel="alternate" type="text/html" title="Adding a Translate Button" /><published>2020-12-18T00:00:00-06:00</published><updated>2020-12-18T00:00:00-06:00</updated><id>www.ankushchoubey.com/add-translate-button</id><content type="html" xml:base="www.ankushchoubey.com/translate_button/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Hurrying does not help.</title><link href="www.ankushchoubey.com/hurrying/" rel="alternate" type="text/html" title="Hurrying does not help." /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hurrying</id><content type="html" xml:base="www.ankushchoubey.com/hurrying/">&lt;p&gt;Hurring is similar to stock market investing.&lt;/p&gt;
+&lt;p&gt;No one likes ads. But ads keep product free and running.&lt;/p&gt;
+
+&lt;p&gt;On a personal level ads often create artificial need. Anti minimalist.&lt;/p&gt;
+
+&lt;p&gt;Attention seeking&lt;/p&gt;</content><author><name></name></author><summary type="html">https://www.youtube.com/watch?v=2Hpw5ZIhnMY</summary></entry><entry><title type="html">Advertisements</title><link href="www.ankushchoubey.com/ads/" rel="alternate" type="text/html" title="Advertisements" /><published>2020-12-20T00:00:00-06:00</published><updated>2020-12-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/ads-keep-product-free%20copy</id><content type="html" xml:base="www.ankushchoubey.com/ads/">&lt;p&gt;No one likes ads. But ads keep product free and running.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;On a personal level ads often create artificial need. Anti minimalist.&lt;/p&gt;
+
+&lt;p&gt;Attention seeking&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=2Hpw5ZIhnMY&quot;&gt;📱 The Biggest Problem for Indie App Developers&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">No one likes ads. But ads keep product free and running.1 📱 The Biggest Problem for Indie App Developers &amp;#8617;</summary></entry><entry><title type="html">Thoughts of Research</title><link href="www.ankushchoubey.com/hard_problems/" rel="alternate" type="text/html" title="Thoughts of Research" /><published>2020-12-18T00:00:00-06:00</published><updated>2020-12-18T00:00:00-06:00</updated><id>www.ankushchoubey.com/problems-of-choosing-theoritical-fields%20copy</id><content type="html" xml:base="www.ankushchoubey.com/hard_problems/">&lt;p&gt;there are many field where the reward of discovering a new things are a long time before there is implementation.&lt;/p&gt;
+
+&lt;p&gt;things like pure maths, theoritical physics, etc.&lt;/p&gt;
+
+&lt;p&gt;Europeans gained significant advantage over other civilazation during the colonial area because of their willingness to accept they don’t know things and to find the ways to understand the world better. [^1]&lt;/p&gt;
+
+&lt;p&gt;The question of scientific progress was as important as anything polical.&lt;/p&gt;
+
+&lt;p&gt;Though today we live in a era were a lot of scientific progress is made. The increase is because a large number of people are working on the problem even if the problems they are trying to solve are trivial (like social media).&lt;/p&gt;
+
+&lt;p&gt;The amount of effort required to research in pre-colonial and colonial era was far greater. This should increase the the productivity and it does in some sense. But it also reduces the effort on human part and therefore the end result is same.&lt;/p&gt;
+
+&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
+
+&lt;p&gt;Research get a entitement. People think it is hard.&lt;/p&gt;
+
+&lt;p&gt;It’s not. You just have to work at something. And if you work on it you may discover things that you don’t even know to be true.&lt;/p&gt;
+
+&lt;p&gt;The reason research get’s a bad entitelemnt of because of ready made solutions and the things that are already been discovered/made.&lt;/p&gt;
+
+&lt;p&gt;We miss the point that all the polished discoveries we see today had humble beginings.&lt;/p&gt;
+
+&lt;p&gt;I would argue that if the discovered you made or a solution you made even is it already exist and you didn’t know about is is still an act of research. Though not super fruitful.&lt;/p&gt;
+
+&lt;p&gt;Re&lt;/p&gt;
+
+&lt;h2 id=&quot;renaisanse&quot;&gt;Renaisanse&lt;/h2&gt;
+
+&lt;h2 id=&quot;ready-made-solutions&quot;&gt;Ready made solutions&lt;/h2&gt;
+
+&lt;p&gt;Counter Argument: Globalisation&lt;/p&gt;
+
+&lt;p&gt;Globalisation has allowed us to take fruits of someone elses research.&lt;/p&gt;
+
+&lt;p&gt;As of 2020, China and USA dominate technology. We Indians (and many from other countries) are more of a witness to this domination.&lt;/p&gt;
+
+&lt;p&gt;There are also different issues to solve. The social issues in India and different than those in developed nations. And therefore globalisation has a faster positive impact compared to research activities.&lt;/p&gt;
+
+&lt;p&gt;^1: Sapiens&lt;/p&gt;</content><author><name></name></author><summary type="html">there are many field where the reward of discovering a new things are a long time before there is implementation.</summary></entry><entry><title type="html">Hurrying does not help.</title><link href="www.ankushchoubey.com/hurrying/" rel="alternate" type="text/html" title="Hurrying does not help." /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hurrying</id><content type="html" xml:base="www.ankushchoubey.com/hurrying/">&lt;p&gt;Hurring is similar to stock market investing.&lt;/p&gt;
 
 &lt;p&gt;If you rush, you make a profit some times and you losses some times. In the end, you are in the same place.&lt;/p&gt;
 
@@ -84,11 +150,7 @@ If you go below MED the speed will be slow and progress will be slow.&lt;/p&gt;
       &lt;p&gt;Tim Ferriss &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Hurring is similar to stock market investing.</summary></entry><entry><title type="html">Harder problems are usually smaller problems put together</title><link href="www.ankushchoubey.com/hard_problems/" rel="alternate" type="text/html" title="Harder problems are usually smaller problems put together" /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hard-problems</id><content type="html" xml:base="www.ankushchoubey.com/hard_problems/">&lt;p&gt;Like in maths&lt;/p&gt;
-
-&lt;p&gt;How do you eat an elephant? One byte at a time.&lt;/p&gt;
-
-&lt;p&gt;Thanks and Regards,&lt;/p&gt;</content><author><name></name></author><summary type="html">Like in maths</summary></entry><entry><title type="html">Why Software Engineers Should Enter Other Fields.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Software Engineers Should Enter Other Fields." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;software-engineers&quot;&gt;Software Engineers&lt;/h2&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Hurring is similar to stock market investing.</summary></entry><entry><title type="html">Why Software Engineers Should Enter Other Fields.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Software Engineers Should Enter Other Fields." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;software-engineers&quot;&gt;Software Engineers&lt;/h2&gt;
 
 &lt;p&gt;Software Engineers solve problems by building solutions.&lt;/p&gt;
 
@@ -153,4 +215,18 @@ If you go below MED the speed will be slow and progress will be slow.&lt;/p&gt;
 
 &lt;p&gt;Overall the workload will be about thrice more work than it needs to be.&lt;/p&gt;
 
-&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry></feed>
+&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry><entry><title type="html">Plan quickly. Move fast. Break things.</title><link href="www.ankushchoubey.com/move/" rel="alternate" type="text/html" title="Plan quickly. Move fast. Break things." /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/move</id><content type="html" xml:base="www.ankushchoubey.com/move/">&lt;p&gt;&lt;img src=&quot;/images/move.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@chaseelliottclark?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Chase Clark&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/move?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I have made this mistake a lot.&lt;/p&gt;
+
+&lt;p&gt;I spent too much time planning and too much time deciding the perfect strategy which often took months to come up and then either never implemented it.&lt;/p&gt;
+
+&lt;p&gt;Later I found out that the hard way was much shorter and would often take me just a few hours or at max a week.&lt;/p&gt;
+
+&lt;p&gt;There is an analogy in programming which says that a programmer will spend six hours automating something that takes six minutes.&lt;/p&gt;
+
+&lt;p&gt;If something is repeated so every frequently then the six minutes saving in time is justified.&lt;/p&gt;
+
+&lt;p&gt;But for most things, it is better to move on fast and break things.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/move.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/move.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
