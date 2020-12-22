@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-20T19:29:43-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Using Maths/Algorithms in Daily Life</title><link href="www.ankushchoubey.com/math_algorithms/" rel="alternate" type="text/html" title="Using Maths/Algorithms in Daily Life" /><published>2020-12-20T00:00:00-06:00</published><updated>2020-12-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/ads-keep-product-free</id><content type="html" xml:base="www.ankushchoubey.com/math_algorithms/">&lt;p&gt;https://www.youtube.com/watch?v=2Hpw5ZIhnMY&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-22T08:12:42-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Developer Productivity</title><link href="www.ankushchoubey.com/dev_productivity/" rel="alternate" type="text/html" title="Developer Productivity" /><published>2020-12-22T00:00:00-06:00</published><updated>2020-12-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/developer-productivity</id><content type="html" xml:base="www.ankushchoubey.com/dev_productivity/">&lt;p&gt;&lt;img src=&quot;/images/dev_productivity.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@ymoran?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;MORAN&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;These are things that affect improves developer productivity significantly:&lt;/p&gt;
+
+&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A Fast Computer&lt;/li&gt;
+  &lt;li&gt;Bigger Display&lt;/li&gt;
+  &lt;li&gt;Multiple Monitors
+    &lt;ul&gt;
+      &lt;li&gt;You can preview the application on one screen and keep the IDE or DB open on the next.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A Good IDE&lt;/li&gt;
+  &lt;li&gt;Plugins to automate things&lt;/li&gt;
+  &lt;li&gt;A modern programming language&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;dev-himself&quot;&gt;Dev Himself&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Typing without looking at the keyboard&lt;/li&gt;
+  &lt;li&gt;Creating tiny scripts (.bat/.sh) to automate repeated actions.&lt;/li&gt;
+  &lt;li&gt;Understanding the requirement properly.&lt;/li&gt;
+  &lt;li&gt;Prototyping the User Interface to avoid confusion. Paper prototyping is enough of many cases.&lt;/li&gt;
+  &lt;li&gt;Thinking and having the thoughts organized before writing the code instead of thinking while coding.&lt;/li&gt;
+  &lt;li&gt;Knowing if the algorithm needed is common that an open-source solution is readily available.&lt;/li&gt;
+  &lt;li&gt;Googling the right thing while debugging.&lt;/li&gt;
+  &lt;li&gt;Not over-engineering. Example: Don’t use microservices if your application isn’t big. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Keeping code clean&lt;/li&gt;
+  &lt;li&gt;Single tasking&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zzMLg3Ys5vI&amp;amp;t=499s&quot;&gt;The Problem With Microservices&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Photo by MORAN on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev_productivity.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev_productivity.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Using Maths/Algorithms in Daily Life</title><link href="www.ankushchoubey.com/math_algorithms/" rel="alternate" type="text/html" title="Using Maths/Algorithms in Daily Life" /><published>2020-12-20T00:00:00-06:00</published><updated>2020-12-20T00:00:00-06:00</updated><id>www.ankushchoubey.com/ads-keep-product-free</id><content type="html" xml:base="www.ankushchoubey.com/math_algorithms/">&lt;p&gt;https://www.youtube.com/watch?v=2Hpw5ZIhnMY&lt;/p&gt;
 
 &lt;p&gt;No one likes ads. But ads keep product free and running.&lt;/p&gt;
 
@@ -87,18 +133,4 @@
 
 &lt;p&gt;Overall the workload will be about thrice more work than it needs to be.&lt;/p&gt;
 
-&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry><entry><title type="html">Plan quickly. Move fast. Break things.</title><link href="www.ankushchoubey.com/move/" rel="alternate" type="text/html" title="Plan quickly. Move fast. Break things." /><published>2020-11-03T00:00:00-06:00</published><updated>2020-11-03T00:00:00-06:00</updated><id>www.ankushchoubey.com/move</id><content type="html" xml:base="www.ankushchoubey.com/move/">&lt;p&gt;&lt;img src=&quot;/images/move.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@chaseelliottclark?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Chase Clark&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/move?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;I have made this mistake a lot.&lt;/p&gt;
-
-&lt;p&gt;I spent too much time planning and too much time deciding the perfect strategy which often took months to come up and then either never implemented it.&lt;/p&gt;
-
-&lt;p&gt;Later I found out that the hard way was much shorter and would often take me just a few hours or at max a week.&lt;/p&gt;
-
-&lt;p&gt;There is an analogy in programming which says that a programmer will spend six hours automating something that takes six minutes.&lt;/p&gt;
-
-&lt;p&gt;If something is repeated so every frequently then the six minutes saving in time is justified.&lt;/p&gt;
-
-&lt;p&gt;But for most things, it is better to move on fast and break things.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/move.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/move.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;A better alternative is to write code, clean it, and write tests.&lt;/p&gt;</content><author><name></name></author><summary type="html">Quality of code determines the quality of the test.</summary></entry></feed>
