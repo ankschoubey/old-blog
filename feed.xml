@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-22T08:12:42-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Developer Productivity</title><link href="www.ankushchoubey.com/dev_productivity/" rel="alternate" type="text/html" title="Developer Productivity" /><published>2020-12-22T00:00:00-06:00</published><updated>2020-12-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/developer-productivity</id><content type="html" xml:base="www.ankushchoubey.com/dev_productivity/">&lt;p&gt;&lt;img src=&quot;/images/dev_productivity.jpg&quot; alt=&quot;&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-22T08:21:28-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Developer Productivity</title><link href="www.ankushchoubey.com/dev_productivity/" rel="alternate" type="text/html" title="Developer Productivity" /><published>2020-12-22T00:00:00-06:00</published><updated>2020-12-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/developer-productivity</id><content type="html" xml:base="www.ankushchoubey.com/dev_productivity/">&lt;p&gt;&lt;img src=&quot;/images/dev_productivity.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@ymoran?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;MORAN&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;These are things that affect improves developer productivity significantly:&lt;/p&gt;
@@ -52,19 +52,39 @@
 
 &lt;p&gt;Attention seeking&lt;/p&gt;</content><author><name></name></author><summary type="html">https://www.youtube.com/watch?v=2Hpw5ZIhnMY</summary></entry><entry><title type="html">Using Maths/Algorithms in Daily Life</title><link href="www.ankushchoubey.com/math_algorithms/" rel="alternate" type="text/html" title="Using Maths/Algorithms in Daily Life" /><published>2020-12-19T00:00:00-06:00</published><updated>2020-12-19T00:00:00-06:00</updated><id>www.ankushchoubey.com/using-math-algorithm-in-daily-life%20copy</id><content type="html" xml:base="www.ankushchoubey.com/math_algorithms/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Harder problems are usually smaller problems put together</title><link href="www.ankushchoubey.com/hard_problems/" rel="alternate" type="text/html" title="Harder problems are usually smaller problems put together" /><published>2020-12-18T00:00:00-06:00</published><updated>2020-12-18T00:00:00-06:00</updated><id>www.ankushchoubey.com/problems-of-choosing-theoritical-fields%20copy</id><content type="html" xml:base="www.ankushchoubey.com/hard_problems/">&lt;p&gt;there are many field where the reward of discovering a new things are a long time before there is implementation.&lt;/p&gt;
 
-&lt;p&gt;things like pure maths, theoritical physics, etc.&lt;/p&gt;</content><author><name></name></author><summary type="html">there are many field where the reward of discovering a new things are a long time before there is implementation.</summary></entry><entry><title type="html">Adding a Translate Button</title><link href="www.ankushchoubey.com/translate_button/" rel="alternate" type="text/html" title="Adding a Translate Button" /><published>2020-12-18T00:00:00-06:00</published><updated>2020-12-18T00:00:00-06:00</updated><id>www.ankushchoubey.com/add-translate-button</id><content type="html" xml:base="www.ankushchoubey.com/translate_button/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Hurrying does not help.</title><link href="www.ankushchoubey.com/hurrying/" rel="alternate" type="text/html" title="Hurrying does not help." /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hurrying</id><content type="html" xml:base="www.ankushchoubey.com/hurrying/">&lt;p&gt;The time it takes to hurry is&lt;/p&gt;
+&lt;p&gt;things like pure maths, theoritical physics, etc.&lt;/p&gt;</content><author><name></name></author><summary type="html">there are many field where the reward of discovering a new things are a long time before there is implementation.</summary></entry><entry><title type="html">Adding a Translate Button</title><link href="www.ankushchoubey.com/translate_button/" rel="alternate" type="text/html" title="Adding a Translate Button" /><published>2020-12-18T00:00:00-06:00</published><updated>2020-12-18T00:00:00-06:00</updated><id>www.ankushchoubey.com/add-translate-button</id><content type="html" xml:base="www.ankushchoubey.com/translate_button/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Hurrying does not help.</title><link href="www.ankushchoubey.com/hurrying/" rel="alternate" type="text/html" title="Hurrying does not help." /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hurrying</id><content type="html" xml:base="www.ankushchoubey.com/hurrying/">&lt;p&gt;Hurring is similar to stock market investing.&lt;/p&gt;
 
-&lt;p&gt;Hurring is similar to stock market investing.&lt;/p&gt;
+&lt;p&gt;If you rush, you make a profit some times and you losses some times. In the end, you are in the same place.&lt;/p&gt;
 
-&lt;p&gt;If you hurry you make profit some times and you losses some times. In the end you are in the same place.&lt;/p&gt;
+&lt;p&gt;Watching YouTube videos at 2x speed won’t help. Especially if it is a field you are not familiar with.&lt;/p&gt;
 
-&lt;p&gt;Watching YouTube videos at 2x speed won’t help. Specially if it is a field you are not familiar with.&lt;/p&gt;
+&lt;p&gt;If you write super fast, you’ll not be able to understand what you wrote.&lt;/p&gt;
 
-&lt;p&gt;If you write super fast thinking you’ll not be able to understand what you wrote.&lt;/p&gt;
+&lt;p&gt;If you read too fast, you won’t have enough comprehension.&lt;/p&gt;
 
-&lt;p&gt;If you read too fast. You won’t have enough comprehention.&lt;/p&gt;
+&lt;p&gt;If you push yourself to work, you’ll burn out.&lt;/p&gt;
 
-&lt;p&gt;There is a point before you rush. The minimum effective dose.&lt;/p&gt;</content><author><name></name></author><summary type="html">The time it takes to hurry is</summary></entry><entry><title type="html">Harder problems are usually smaller problems put together</title><link href="www.ankushchoubey.com/hard_problems/" rel="alternate" type="text/html" title="Harder problems are usually smaller problems put together" /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hard-problems</id><content type="html" xml:base="www.ankushchoubey.com/hard_problems/">&lt;p&gt;Like in maths&lt;/p&gt;
+&lt;p&gt;There is a point before you rush called the minimum effective dose (MED) &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you go beyond MED the speed will fast but progress will be slow.
+If you go below MED the speed will be slow and progress will be slow.&lt;/p&gt;
+
+&lt;p&gt;If you are the MED, your speed will be optimum and progress will be optimum. The tricky thing is MED for any task changes in moments.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No rush. No pause. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;4 Hour Body &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Tim Ferriss &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Hurring is similar to stock market investing.</summary></entry><entry><title type="html">Harder problems are usually smaller problems put together</title><link href="www.ankushchoubey.com/hard_problems/" rel="alternate" type="text/html" title="Harder problems are usually smaller problems put together" /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hard-problems</id><content type="html" xml:base="www.ankushchoubey.com/hard_problems/">&lt;p&gt;Like in maths&lt;/p&gt;
 
 &lt;p&gt;How do you eat an elephant? One byte at a time.&lt;/p&gt;
 
