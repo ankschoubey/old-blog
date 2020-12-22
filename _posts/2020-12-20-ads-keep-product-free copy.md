@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Business, Marketing]
+categories: [Business, Marketing, draft]
 title: Advertisements
 permalink: /ads/
 #image: /images/engineer.jpg
