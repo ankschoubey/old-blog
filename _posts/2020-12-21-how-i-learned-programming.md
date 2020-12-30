@@ -9,7 +9,6 @@ permalink: /math_algorithms/
 #image: /images/engineer.jpg
 ---
 
-
 I was dumb programmer for the most part.
 
 I knew syntax and understood solutions to problems but could not solve them myself.
