@@ -4,15 +4,36 @@ layout: post
 comments: true
 description:
 categories: [Business, Marketing, draft]
-title: Advertisements
+title: Ethics and Advertisements
 permalink: /ads/
 #image: /images/engineer.jpg
 ---
 
 No one likes ads. But ads keep product free and running.[^1]
 
+If you have a good product, you should show it to many potential users. Advertisement is a fast way to reach the audience.
+
+If marketers get the opportunity they'll fill up every blank space with advertisement.
+
+## Ethics
+
+### Privacy Envasion
+I don't like Social media companies. Their entire business model revolves around showing ads. They engineer their products to be more addictive. People highly underestimate how much engineering goes behind making sure you are hooked.
+
+Not only to they addict, but they also invade privacy and gather data about you. And even have "experts" read through you private data to make their algorithms better.
+
+Some regulation should be kept.
+
+### FOMO
+Ads are based around fear of missing out. A promise that the product solves a problem.
+
+But sometimes they tend to solve problems that don't even exists.
+
 On a personal level ads often create artificial need. Anti minimalist.
 
-Attention seeking 
+### Misleading
+Insp
+
+### Keeping people poor
 
 [^1]: [📱 The Biggest Problem for Indie App Developers](https://www.youtube.com/watch?v=2Hpw5ZIhnMY)
