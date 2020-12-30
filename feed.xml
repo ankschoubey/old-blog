@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-29T22:09:42-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Sapiens Book Summary</title><link href="www.ankushchoubey.com/sapiens/" rel="alternate" type="text/html" title="Sapiens Book Summary" /><published>2020-12-29T00:00:00-06:00</published><updated>2020-12-29T00:00:00-06:00</updated><id>www.ankushchoubey.com/sapiens</id><content type="html" xml:base="www.ankushchoubey.com/sapiens/">&lt;p&gt;&lt;img src=&quot;/images/dev_productivity.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2020-12-29T22:15:42-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Sapiens Book Summary</title><link href="www.ankushchoubey.com/sapiens/" rel="alternate" type="text/html" title="Sapiens Book Summary" /><published>2020-12-29T00:00:00-06:00</published><updated>2020-12-29T00:00:00-06:00</updated><id>www.ankushchoubey.com/sapiens</id><content type="html" xml:base="www.ankushchoubey.com/sapiens/">&lt;p&gt;&lt;img src=&quot;/images/dev_productivity.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@ymoran?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;MORAN&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
 
@@ -170,7 +170,7 @@ Automating the boring stuff&lt;/p&gt;
 
 &lt;p&gt;There are many fields where the reward of discovering new things are a long time before there is implementation. (Like pure maths, theoretical physics, etc.)&lt;/p&gt;
 
-&lt;p&gt;During the colonial era, Europeans gained a significant advantage over other civilizations. One reason was their willingness to accept things that they don’t know and to find ways to understand the world better. [^1]&lt;/p&gt;
+&lt;p&gt;During the colonial era, Europeans gained a significant advantage over other civilizations. One reason was their willingness to accept things that they don’t know and to find ways to understand the world better. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;The question of scientific progress was as important as anything political.&lt;/p&gt;
 
@@ -200,7 +200,13 @@ Automating the boring stuff&lt;/p&gt;
 
 &lt;p&gt;There are also different issues to solve. The social issues in India and different than those in developed nations. And therefore globalisation has a faster positive impact compared to research activities.&lt;/p&gt;
 
-&lt;p&gt;^1: Sapiens&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/research.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/research.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hurrying does not help.</title><link href="www.ankushchoubey.com/hurrying/" rel="alternate" type="text/html" title="Hurrying does not help." /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hurrying</id><content type="html" xml:base="www.ankushchoubey.com/hurrying/">&lt;p&gt;Hurring is similar to stock market investing.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Sapiens by Yuval Harari &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/research.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/research.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hurrying does not help.</title><link href="www.ankushchoubey.com/hurrying/" rel="alternate" type="text/html" title="Hurrying does not help." /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hurrying</id><content type="html" xml:base="www.ankushchoubey.com/hurrying/">&lt;p&gt;Hurring is similar to stock market investing.&lt;/p&gt;
 
 &lt;p&gt;If you rush, you make a profit some times and you losses some times. In the end, you are in the same place.&lt;/p&gt;
 
