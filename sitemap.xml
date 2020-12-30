@@ -281,7 +281,7 @@
 <lastmod>2020-12-17T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>www.ankushchoubey.com/hard_problems/</loc>
+<loc>www.ankushchoubey.com/research/</loc>
 <lastmod>2020-12-18T00:00:00-06:00</lastmod>
 </url>
 <url>
@@ -299,6 +299,10 @@
 <url>
 <loc>www.ankushchoubey.com/dev_productivity/</loc>
 <lastmod>2020-12-22T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>www.ankushchoubey.com/sapiens/</loc>
+<lastmod>2020-12-29T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>www.ankushchoubey.com/about/</loc>
@@ -329,5 +333,8 @@
 </url>
 <url>
 <loc>www.ankushchoubey.com/page5/</loc>
+</url>
+<url>
+<loc>www.ankushchoubey.com/page6/</loc>
 </url>
 </urlset>
