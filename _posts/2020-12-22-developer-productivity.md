@@ -32,7 +32,7 @@ These are things that affect improves developer productivity significantly:
 1. Typing without looking at the keyboard
 2. Creating tiny scripts (.bat/.sh) to automate repeated actions.
 3. Understanding the requirement properly.
-4. Prototyping the User Interface to avoid confusion. Paper prototyping is enough of many cases.
+4. Prototyping the User Interface to avoid confusion. Paper prototyping is enough for many cases.
 5. Thinking and having the thoughts organized before writing the code instead of thinking while coding.
 6. Knowing if the algorithm needed is common that an open-source solution is readily available.
 7. Googling the right thing while debugging.
