@@ -14,7 +14,10 @@ search_exclude: true
   {% endfor %}
   {% assign categories = categories | sort_natural %}
 
-  <ul>
+  <ul style="    display: flex;
+  gap: 26px;
+  flex-wrap: wrap;
+">
   {% for category in categories %}
     <li><a href="#{{ category }}">{{ category }}</a></li>
   {% endfor %}
