@@ -18,16 +18,21 @@ If marketers get the opportunity they'll fill up every blank space with advertis
 ## Ethics
 
 ### Privacy Envasion
-I don't like Social media companies. Their entire business model revolves around showing ads. They engineer their products to be more addictive. People highly underestimate how much engineering goes behind making sure you are hooked.
 
-Not only to they addict, but they also invade privacy and gather data about you. And even have "experts" read through you private data to make their algorithms better.
+Ad companies try to collect as much information as possible so that they can target the right demographics.
 
-Some regulation should be kept.
+This has become easier than ever since everyone is hooked to their technology.
+
+In particular Social media companies have entire business model revolves around showing ads. They engineer their products to be more addictive. Not only to they addict, but they also invade privacy and gather data about you. And even have "experts" read through you private data to make their algorithms better.
+
+People highly underestimate how much engineering goes behind making sure you are hooked.
 
 ### FOMO
 Ads are based around fear of missing out. A promise that the product solves a problem.
 
 But sometimes they tend to solve problems that don't even exists.
+
+Like the fake ads that were run a now popular Indian Kids Coding ca
 
 On a personal level ads often create artificial need. Anti minimalist.
 
