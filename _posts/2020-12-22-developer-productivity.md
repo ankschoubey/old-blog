@@ -30,14 +30,15 @@ These are things that affect improves developer productivity significantly:
 ## Dev Himself
 
 1. Typing without looking at the keyboard
-2. Creating tiny scripts (.bat/.sh) to automate repeated actions.
+1. Initially: Use GUI tools instead of command 
+2. Later: Skip both GUI and Manual Command Line: Creating tiny scripts (.bat/.sh) to automate repeated actions.
 3. Understanding the requirement properly.
 4. Prototyping the User Interface to avoid confusion. Paper prototyping is enough for many cases.
 5. Thinking and having the thoughts organized before writing the code instead of thinking while coding.
 6. Knowing if the algorithm needed is common that an open-source solution is readily available.
 7. Googling the right thing while debugging.
 8. Not over-engineering. Example: Don't use microservices if your application isn't big. [^1]
-9. Keeping code clean
+9.  Keeping code clean
 10. Single tasking
 
 [^1]: [The Problem With Microservices](https://www.youtube.com/watch?v=zzMLg3Ys5vI&t=499s)
