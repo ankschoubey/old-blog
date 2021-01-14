@@ -53,6 +53,10 @@ The hallmark of any compounding process is short term pain for long term reward.
 
 Being ethical allows you to tell the truth almost always and not be afraid of the consequences. 
 
+## Node in a network
+
+Your actions and decisions are more than yours. They are a node in a network [^3]. If you can affect 1000 people whom you positively meet in your life, they might do that same to other people and positive things branch out like a tree.
+
 ## Meaning
 Ethics provide life more meaning.
 
@@ -60,9 +64,6 @@ A meaningful life is more exciting and fulfilling compared to the other.
 
 ## Ethics is something you practice and not just something you learn [^2]
 
-## Node in a network
-
-Your actions and decisions are more than yours. They are a node in a network [^3]. If you can affect 1000 people whom you positively meet in your life, they might do that same to other people and positive things branch out like a tree.
 
 [^1]: Atomic Habits
 [^2]: Naval Ravikant
