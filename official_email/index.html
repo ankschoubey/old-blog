@@ -147,16 +147,10 @@ window.onload = wrap_img;
 <script>
 a = document.getElementById('translate-btn');
 a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a="+window.location.href);
-</script><a id='speech-btn' class="page-link fa fa-language">Listen</a>
+</script><a id='speech-btn' class="page-link fa fa-play">Listen</a>
 
 
 <script>
-    if ('speechSynthesis' in window) {
-        document.getElementById("speech-btn").addEventListener("click", speakPost);
-    }else{
-        document.getElementById('speech-btn').style.display = 'none';
-    }
-
     speakPost = ()=> {
         var msg = new SpeechSynthesisUtterance();
         const title = document.querySelector("h1.post-title.p-name").innerText;
@@ -164,6 +158,13 @@ a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=
         msg.text = title + '.'+ post;
         window.speechSynthesis.speak(msg);
     }
+    if ('speechSynthesis' in window) {
+        document.getElementById("speech-btn").addEventListener("click", speakPost);
+    }else{
+        document.getElementById('speech-btn').style.display = 'none';
+    }
+
+
 
 </script>
 
