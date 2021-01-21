@@ -49,6 +49,8 @@ The hallmark of any compounding process is short term pain for long term reward.
 
 For example: If people know you are ethical, they trust you more. They'll be more likely to do deals through you. [^2]
 
+Example 2: If you are ethical, you are surrounded by ethical people. [^2]
+
 Being ethical includes a lot of short term pain for a future reward.
 
 ## Having nothing to hide. [^2] [^3]
