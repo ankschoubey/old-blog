@@ -36,6 +36,15 @@ Princple-Agent Problem:
 - The Principle wants agents to act liek the principle
 - The agent who do act like principle get rewarded
 
+
+## If 
+
+If someday you are head of a company. And you seem to have a monopoly or you are big enough and a smaller company does something innovative. Don't copy them. Let them grow.
+
+Maybe you offer to buy them a little (not more. Little). But if they don't want you that's fine. But don't copy their product.
+
+Free market create a lot of value. In the end their product may even revolutionize your life in the long run.
+
 ## A Thought Experiment:
 
 What if you were only ethical in your business. Ie. You'll only sell what other people truely want at a price that is reasonable.

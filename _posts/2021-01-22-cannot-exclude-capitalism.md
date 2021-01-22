@@ -4,8 +4,8 @@ layout: post
 comments: true
 description:
 categories: [draft, Business]
-title: World is run by Open Source Software
-permalink: /open_source/
+title: Cannot Exclude Capitalism
+permalink: /capitalism/
 ---
 
 If you take a lot of notes you'll likely not remember a lot of things in the moment.
