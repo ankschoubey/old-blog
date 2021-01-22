@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-22T09:21:02-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Business Ethics</title><link href="www.ankushchoubey.com/business_ethics/" rel="alternate" type="text/html" title="Business Ethics" /><published>2021-01-21T00:00:00-06:00</published><updated>2021-01-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/business-ethics</id><content type="html" xml:base="www.ankushchoubey.com/business_ethics/">&lt;p&gt;I have been gathering a lot of points recently.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-22T09:50:06-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">World is run by Open Source Software</title><link href="www.ankushchoubey.com/open_source/" rel="alternate" type="text/html" title="World is run by Open Source Software" /><published>2021-01-22T00:00:00-06:00</published><updated>2021-01-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/open-source</id><content type="html" xml:base="www.ankushchoubey.com/open_source/">&lt;p&gt;If you take a lot of notes you’ll likely not remember a lot of things in the moment.
+The goal is to internalize. Not write a bunch of things.&lt;/p&gt;
+
+&lt;p&gt;Quality over Quantity: The goal is to scrutize your thoughts enough.&lt;/p&gt;</content><author><name></name></author><summary type="html">If you take a lot of notes you’ll likely not remember a lot of things in the moment. The goal is to internalize. Not write a bunch of things.</summary></entry><entry><title type="html">Note Taking</title><link href="www.ankushchoubey.com/note_taking/" rel="alternate" type="text/html" title="Note Taking" /><published>2021-01-22T00:00:00-06:00</published><updated>2021-01-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/note-taking</id><content type="html" xml:base="www.ankushchoubey.com/note_taking/">&lt;p&gt;If you take a lot of notes you’ll likely not remember a lot of things in the moment.
+The goal is to internalize. Not write a bunch of things.&lt;/p&gt;
+
+&lt;p&gt;Quality over Quantity: The goal is to scrutize your thoughts enough.&lt;/p&gt;</content><author><name></name></author><summary type="html">If you take a lot of notes you’ll likely not remember a lot of things in the moment. The goal is to internalize. Not write a bunch of things.</summary></entry><entry><title type="html">Business Ethics</title><link href="www.ankushchoubey.com/business_ethics/" rel="alternate" type="text/html" title="Business Ethics" /><published>2021-01-21T00:00:00-06:00</published><updated>2021-01-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/business-ethics</id><content type="html" xml:base="www.ankushchoubey.com/business_ethics/">&lt;p&gt;I have been gathering a lot of points recently.&lt;/p&gt;
 
 &lt;p&gt;Revenue is not profit. Be profitable to be ethical long term.&lt;/p&gt;
 
@@ -27,6 +33,19 @@
   &lt;li&gt;The Principle wants agents to act liek the principle&lt;/li&gt;
   &lt;li&gt;The agent who do act like principle get rewarded&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;a-thought-experiment&quot;&gt;A Thought Experiment:&lt;/h2&gt;
+
+&lt;p&gt;What if you were only ethical in your business. Ie. You’ll only sell what other people truely want at a price that is reasonable.&lt;/p&gt;
+
+&lt;p&gt;A few things will happen:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;At least initially you’ll be happy. Or atleast you’ll be happy in terms of ethics.&lt;/li&gt;
+  &lt;li&gt;The world will seem to go ahead of you. Since almost everyone is cheating. Manipulating people to buy unnecessary things that they don’t need.&lt;/li&gt;
+  &lt;li&gt;Your product line will be very small. Detergents, Clothes, Food, Medical.&lt;/li&gt;
+  &lt;li&gt;Your company size will be likely small since you don’t make a lot of profit. and you don’t have venture funding since you are not a quote ponzi scheme startup.&lt;/li&gt;
+  &lt;li&gt;You’ll suffer. Unnecessarily. Your family will suffer from income loss.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;https://nav.al/finally-wealthy
 [^8]: Peter Theil&lt;/p&gt;
@@ -328,38 +347,4 @@ There are no shortcuts. Shortcuts are usually lies to distract you from achievin
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;nature&quot;&gt;Nature&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Biology is always changing&lt;/strong&gt;. It is never constant or fixed. If you go by this line of thinking, more than human 2 genders are possible and biology won’t have any problem with it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://vialogue.files.wordpress.com/2017/04/sapiens.jpg" /><media:content medium="image" url="https://vialogue.files.wordpress.com/2017/04/sapiens.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Upfront work in software development</title><link href="www.ankushchoubey.com/learning-stratergies/" rel="alternate" type="text/html" title="Upfront work in software development" /><published>2020-12-25T00:00:00-06:00</published><updated>2020-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/upfront-work-in-swd</id><content type="html" xml:base="www.ankushchoubey.com/learning-stratergies/">&lt;p&gt;DevOps beginner things&lt;/p&gt;
-
-&lt;p&gt;Teams and culture&lt;/p&gt;
-
-&lt;p&gt;Best practices&lt;/p&gt;
-
-&lt;p&gt;Tools&lt;/p&gt;
-
-&lt;p&gt;Metrics for productivity&lt;/p&gt;</content><author><name></name></author><summary type="html">DevOps beginner things</summary></entry><entry><title type="html">Setting up a replicable local environment with Docker + VS Code</title><link href="www.ankushchoubey.com/more_research/" rel="alternate" type="text/html" title="Setting up a replicable local environment with Docker + VS Code" /><published>2020-12-25T00:00:00-06:00</published><updated>2020-12-25T00:00:00-06:00</updated><id>www.ankushchoubey.com/hardest-dev-problem</id><content type="html" xml:base="www.ankushchoubey.com/more_research/">&lt;p&gt;Setting up a local development environment is one of the, if not the most discouraging part of software development. Coding is easier.&lt;/p&gt;
-
-&lt;p&gt;Typically it takes me over a day of effort just putting all tools together ready to be used.&lt;/p&gt;
-
-&lt;p&gt;Also typically software updates sometimes break a setup and lead to more changed to be done.&lt;/p&gt;
-
-&lt;p&gt;Here is a way this effort can be minimized.&lt;/p&gt;
-
-&lt;h2 id=&quot;use-docker-to-create-your-dev-environment&quot;&gt;Use Docker to create your Dev Environment&lt;/h2&gt;
-
-&lt;p&gt;In case you don’t know about docker, it’s is like a virtual machine which is much faster than a typical virtual machine.&lt;/p&gt;
-
-&lt;p&gt;Since it is fast enough, you can replicate all your non-gui setup very easily on it.&lt;/p&gt;
-
-&lt;h2 id=&quot;vs-code&quot;&gt;VS Code&lt;/h2&gt;
-
-&lt;p&gt;I have been using Spring Tool Suit and VS Code together. The problem is STS is very slow.&lt;/p&gt;
-
-&lt;p&gt;VS Code not only has all the main tools I need it has better extension support.&lt;/p&gt;
-
-&lt;p&gt;I have switch to VS Code completely&lt;/p&gt;
-
-&lt;h2 id=&quot;vs-code-docker-remote-extension&quot;&gt;VS Code Docker Remote Extension&lt;/h2&gt;
-
-&lt;p&gt;Specially if you are using multiple 3rd party things&lt;/p&gt;
-
-&lt;p&gt;One can solve this problem by using docker&lt;/p&gt;</content><author><name></name></author><summary type="html">Setting up a local development environment is one of the, if not the most discouraging part of software development. Coding is easier.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Biology is always changing&lt;/strong&gt;. It is never constant or fixed. If you go by this line of thinking, more than human 2 genders are possible and biology won’t have any problem with it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://vialogue.files.wordpress.com/2017/04/sapiens.jpg" /><media:content medium="image" url="https://vialogue.files.wordpress.com/2017/04/sapiens.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
