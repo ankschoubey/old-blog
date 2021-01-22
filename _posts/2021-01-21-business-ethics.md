@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [personal]
+categories: [draft]
 title: Business Ethics
 permalink: /business_ethics/
 ---
@@ -35,6 +35,17 @@ If you let your customers have a good life and good health, they'll return you b
 Princple-Agent Problem:
 - The Principle wants agents to act liek the principle
 - The agent who do act like principle get rewarded
+
+## A Thought Experiment:
+
+What if you were only ethical in your business. Ie. You'll only sell what other people truely want at a price that is reasonable.
+
+A few things will happen:
+1. At least initially you'll be happy. Or atleast you'll be happy in terms of ethics.
+2. The world will seem to go ahead of you. Since almost everyone is cheating. Manipulating people to buy unnecessary things that they don't need.
+3. Your product line will be very small. Detergents, Clothes, Food, Medical.
+4. Your company size will be likely small since you don't make a lot of profit. and you don't have venture funding since you are not a quote ponzi scheme startup.
+5. You'll suffer. Unnecessarily. Your family will suffer from income loss.
 
 [^1]: Simon Sinek
 [^2]: Mark Manson
