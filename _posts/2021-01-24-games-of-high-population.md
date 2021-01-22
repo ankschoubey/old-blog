@@ -39,3 +39,7 @@ If we assume really profitable top teir business they must be a 50% of the marke
 So atleast these facade companies provide people salaries.
 
 ## It is hard to be profitable.
+
+Many facade companies do bring in innovation. Since billions of dollars are put into the facade company.
+
+Many times ever founders and VCs do not know if the company is facade.

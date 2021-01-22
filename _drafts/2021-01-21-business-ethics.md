@@ -45,6 +45,10 @@ Maybe you offer to buy them a little (not more. Little). But if they don't want 
 
 Free market create a lot of value. In the end their product may even revolutionize your life in the long run.
 
+## Rights and Responsibilities
+
+Employee Rights and Responsibility
+
 ## A Thought Experiment:
 
 What if you were only ethical in your business. Ie. You'll only sell what other people truely want at a price that is reasonable.
