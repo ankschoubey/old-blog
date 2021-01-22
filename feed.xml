@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-21T11:54:22-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Empire</title><link href="www.ankushchoubey.com/empire/" rel="alternate" type="text/html" title="Empire" /><published>2021-01-19T00:00:00-06:00</published><updated>2021-01-19T00:00:00-06:00</updated><id>www.ankushchoubey.com/empire</id><content type="html" xml:base="www.ankushchoubey.com/empire/">&lt;p&gt;Building an empire takes years…
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-22T09:21:02-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Business Ethics</title><link href="www.ankushchoubey.com/business_ethics/" rel="alternate" type="text/html" title="Business Ethics" /><published>2021-01-21T00:00:00-06:00</published><updated>2021-01-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/business-ethics</id><content type="html" xml:base="www.ankushchoubey.com/business_ethics/">&lt;p&gt;I have been gathering a lot of points recently.&lt;/p&gt;
+
+&lt;p&gt;Revenue is not profit. Be profitable to be ethical long term.&lt;/p&gt;
+
+&lt;p&gt;All top companies create monopoly. [^8]&lt;/p&gt;
+
+&lt;p&gt;Don’t be anti-competitive like Amazon. Competition is the long term is good for innovation.&lt;/p&gt;
+
+&lt;p&gt;Ethical capitalism is a game you need to win if you want good leverage.&lt;/p&gt;
+
+&lt;p&gt;Be the kind of business whose customer want you to successeed. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Take care of employees. Employees are assets. Treat them as such.&lt;/p&gt;
+
+&lt;p&gt;If your business isn’t neccessary. Pivot and move to something else.&lt;/p&gt;
+
+&lt;p&gt;Protect customer data by providing 100% encryption. Even you should not be able to read it.&lt;/p&gt;
+
+&lt;p&gt;Treat your customers and employees the way you want to be treated.&lt;/p&gt;
+
+&lt;p&gt;If you let your employees have a good life and good health, they’ll return you back 1000x more.&lt;/p&gt;
+
+&lt;p&gt;If you let your customers have a good life and good health, they’ll return you back 1000x more.&lt;/p&gt;
+
+&lt;p&gt;Princple-Agent Problem:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Principle wants agents to act liek the principle&lt;/li&gt;
+  &lt;li&gt;The agent who do act like principle get rewarded&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;https://nav.al/finally-wealthy
+[^8]: Peter Theil&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Simon Sinek &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">I have been gathering a lot of points recently.</summary></entry><entry><title type="html">Empire</title><link href="www.ankushchoubey.com/empire/" rel="alternate" type="text/html" title="Empire" /><published>2021-01-19T00:00:00-06:00</published><updated>2021-01-19T00:00:00-06:00</updated><id>www.ankushchoubey.com/empire</id><content type="html" xml:base="www.ankushchoubey.com/empire/">&lt;p&gt;Building an empire takes years…
 There are no shortcuts. Shortcuts are usually lies to distract you from achieving your goal. They’ll lead you to a different path.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building an empire takes years… There are no shortcuts. Shortcuts are usually lies to distract you from achieving your goal. They’ll lead you to a different path.</summary></entry><entry><title type="html">Accountability And Fame</title><link href="www.ankushchoubey.com/accountability-and-fame/" rel="alternate" type="text/html" title="Accountability And Fame" /><published>2021-01-19T00:00:00-06:00</published><updated>2021-01-19T00:00:00-06:00</updated><id>www.ankushchoubey.com/accountability-and-fame</id><content type="html" xml:base="www.ankushchoubey.com/accountability-and-fame/">&lt;p&gt;I really want to be rich and not famous. There are downsides to being to famous.&lt;/p&gt;
 
 &lt;p&gt;But I recently realize more and more that it is better to be at least do things in public yourself.&lt;/p&gt;
@@ -324,52 +362,4 @@ There are no shortcuts. Shortcuts are usually lies to distract you from achievin
 
 &lt;p&gt;Specially if you are using multiple 3rd party things&lt;/p&gt;
 
-&lt;p&gt;One can solve this problem by using docker&lt;/p&gt;</content><author><name></name></author><summary type="html">Setting up a local development environment is one of the, if not the most discouraging part of software development. Coding is easier.</summary></entry><entry><title type="html">Developer Productivity</title><link href="www.ankushchoubey.com/dev_productivity/" rel="alternate" type="text/html" title="Developer Productivity" /><published>2020-12-22T00:00:00-06:00</published><updated>2020-12-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/developer-productivity</id><content type="html" xml:base="www.ankushchoubey.com/dev_productivity/">&lt;p&gt;&lt;img src=&quot;/images/dev_productivity.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@ymoran?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;MORAN&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;These are things that affect improves developer productivity significantly:&lt;/p&gt;
-
-&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;A Fast Computer&lt;/li&gt;
-  &lt;li&gt;Bigger Display&lt;/li&gt;
-  &lt;li&gt;Multiple Monitors
-    &lt;ul&gt;
-      &lt;li&gt;You can preview the application on one screen and keep the IDE or DB open on the next.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;A Good IDE&lt;/li&gt;
-  &lt;li&gt;Plugins to automate things&lt;/li&gt;
-  &lt;li&gt;A modern programming language&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;dev-himself&quot;&gt;Dev Himself&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Typing without looking at the keyboard&lt;/li&gt;
-  &lt;li&gt;Initially: Use GUI tools instead of command&lt;/li&gt;
-  &lt;li&gt;Later: Skip both GUI and Manual Command Line: Creating tiny scripts (.bat/.sh) to automate repeated actions.&lt;/li&gt;
-  &lt;li&gt;Understanding the requirement properly.&lt;/li&gt;
-  &lt;li&gt;Prototyping the User Interface to avoid confusion. Paper prototyping is enough for many cases.&lt;/li&gt;
-  &lt;li&gt;Thinking and having the thoughts organized before writing the code instead of thinking while coding.&lt;/li&gt;
-  &lt;li&gt;Knowing if the algorithm needed is common that an open-source solution is readily available.&lt;/li&gt;
-  &lt;li&gt;Googling the right thing while debugging.&lt;/li&gt;
-  &lt;li&gt;Not over-engineering. Example: Don’t use microservices if your application isn’t big. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Keeping code clean&lt;/li&gt;
-  &lt;li&gt;Single tasking&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zzMLg3Ys5vI&amp;amp;t=499s&quot;&gt;The Problem With Microservices&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev_productivity.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev_productivity.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;One can solve this problem by using docker&lt;/p&gt;</content><author><name></name></author><summary type="html">Setting up a local development environment is one of the, if not the most discouraging part of software development. Coding is easier.</summary></entry></feed>
