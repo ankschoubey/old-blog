@@ -5,7 +5,7 @@ comments: true
 description:
 categories: [draft, Business]
 title: More on Facade Companies
-permalink: /faang/
+permalink: /more_facade/
 ---
 
 I have started noticing trends after reading Sapiens.

@@ -70,6 +70,8 @@ A meaningful life is more exciting and fulfilling.
 
 ## Ethics is something you practice and not just something you learn [^2]
 
+## Rights and Responsibilities
+
 [^1]: Atomic Habits
 [^2]: Naval Ravikant
 [^3]: Jordan Peterson
