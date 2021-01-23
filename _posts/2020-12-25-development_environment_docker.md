@@ -12,7 +12,7 @@ permalink: /development_environment_docker/
 ## The pain
 The most discouraging part of software development is setting up a local development environment. Coding is relatively easy.
 
-Typically it takes me over a day of effort for putting all tools setup.
+Typically it takes me over a day of effort for setting up all tools.
 
 Also typically software updates sometimes break a setup and lead to more changes.
 
