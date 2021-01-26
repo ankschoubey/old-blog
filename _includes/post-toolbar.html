@@ -31,14 +31,7 @@
     </style>
     
     <div class="post-tool-bar">
-        {% if page.categories.size > 0 and site.show_tags %}
-        <div class="left-section">
-            {% for category in  page.categories  %}
-            <a class="tag fa fa-hashtag web-development" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-            {% endfor %}
-        </div>
-      {% endif %}
-
+        {%- include tags-list.html categories=page.categories -%}
       
      <div class="right-section">
        {%- include translate-btn.html -%}

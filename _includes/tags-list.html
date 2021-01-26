@@ -1,0 +1,29 @@
+<style>
+    .tag-list{
+        display: flex;
+    }
+    .tag{
+        background-color:red;
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    .tag:hover{
+        filter: alpha 
+    }
+    .web-development{
+        background-color: #ff577f
+    }
+    .devops{
+        background-color: #ff884b
+    }
+
+</style>
+
+{% if include.categories.size > 0 and site.show_tags %}
+    <div class="tag-list">
+        {% for category in  include.categories  %}
+        <a class="tag fa fa-hashtag {{category}}" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+        {% endfor %}
+    </div>
+  {% endif %}
