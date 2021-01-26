@@ -14,7 +14,7 @@ search_exclude: true
   {% endfor %}
   {% assign categories = categories | sort_natural %}
 
-  <ul style="    display: flex;
+  <ul style="    display: none;
   gap: 26px;
   flex-wrap: wrap;
 ">
@@ -23,6 +23,9 @@ search_exclude: true
     <li><a href="#{{ category }}">{{ category }}</a></li>
   {% endfor %}
   </ul>
+
+  {%- include tags-list.html categories=categories -%}
+
 
   {% for category in categories %}
       <h3 id ="{{ category }}"><i class="fas fa-tags category-tags-icon"></i></i> {{ category }}</h3>
