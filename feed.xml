@@ -1,87 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-26T02:48:56-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">User Experience</title><link href="www.ankushchoubey.com/ux/" rel="alternate" type="text/html" title="User Experience" /><published>2021-01-24T00:00:00-06:00</published><updated>2021-01-24T00:00:00-06:00</updated><id>www.ankushchoubey.com/user-experience</id><content type="html" xml:base="www.ankushchoubey.com/ux/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">More on Facade Companies</title><link href="www.ankushchoubey.com/more_facade/" rel="alternate" type="text/html" title="More on Facade Companies" /><published>2021-01-23T00:00:00-06:00</published><updated>2021-01-23T00:00:00-06:00</updated><id>www.ankushchoubey.com/more_facade</id><content type="html" xml:base="www.ankushchoubey.com/more_facade/">&lt;p&gt;I have started noticing trends after reading Sapiens.&lt;/p&gt;
-
-&lt;h2 id=&quot;on-paper-companies&quot;&gt;On Paper Companies&lt;/h2&gt;
-
-&lt;p&gt;I am realized a weird Ponzi Scheme recently. One that is totally legit. That is valuation of companies.&lt;/p&gt;
-
-&lt;p&gt;Many companies don’t actually make profit. And if we look at their market valuations, it will be huge.&lt;/p&gt;
-
-&lt;p&gt;Like whatsapp, it was a free product for the most part but it’s valuation was 16 billion when it was sold.&lt;/p&gt;
-
-&lt;p&gt;The likely reason for their customer base was because they offered free product.&lt;/p&gt;
-
-&lt;p&gt;Changing such a model would cause people to flee.&lt;/p&gt;
-
-&lt;p&gt;It’s similar to WeWork a startup that got a lot of funding but got bankrupt. It never had a good business model.&lt;/p&gt;
-
-&lt;h2 id=&quot;innovating-is-hard&quot;&gt;Innovating is hard.&lt;/h2&gt;
-
-&lt;p&gt;The effect of globalization, internet and software have been such that distribution has become cheap and fast.&lt;/p&gt;
-
-&lt;p&gt;It has probably never been easier to start a company and reach millions of people.&lt;/p&gt;
-
-&lt;p&gt;In such a scenario, finding new profitable business ideas are hard.&lt;/p&gt;
-
-&lt;p&gt;People need work. They need busineeses to provide for their family.&lt;/p&gt;
-
-&lt;p&gt;If we assume really profitable top teir business they must be a 50% of the market.&lt;/p&gt;
-
-&lt;p&gt;So atleast these facade companies provide people salaries.&lt;/p&gt;
-
-&lt;h2 id=&quot;it-is-hard-to-be-profitable&quot;&gt;It is hard to be profitable.&lt;/h2&gt;
-
-&lt;p&gt;Many facade companies do bring in innovation. Since billions of dollars are put into the facade company.&lt;/p&gt;
-
-&lt;p&gt;Many times ever founders and VCs do not know if the company is facade.&lt;/p&gt;</content><author><name></name></author><summary type="html">I have started noticing trends after reading Sapiens.</summary></entry><entry><title type="html">DL for Developers</title><link href="www.ankushchoubey.com/ml/" rel="alternate" type="text/html" title="DL for Developers" /><published>2021-01-23T00:00:00-06:00</published><updated>2021-01-23T00:00:00-06:00</updated><id>www.ankushchoubey.com/machine-learning-for-developers</id><content type="html" xml:base="www.ankushchoubey.com/ml/">&lt;p&gt;Develop Iteratively&lt;/p&gt;
-
-&lt;p&gt;Focus on Applied Machine Learning and Not on Research&lt;/p&gt;
-
-&lt;p&gt;Experiment with existing Model Zoos&lt;/p&gt;</content><author><name></name></author><summary type="html">Develop Iteratively</summary></entry><entry><title type="html">Influence of FAANG Companies</title><link href="www.ankushchoubey.com/faang/" rel="alternate" type="text/html" title="Influence of FAANG Companies" /><published>2021-01-23T00:00:00-06:00</published><updated>2021-01-23T00:00:00-06:00</updated><id>www.ankushchoubey.com/influence-of-faang</id><content type="html" xml:base="www.ankushchoubey.com/faang/">&lt;p&gt;A companies valuations can be seen as hour influencial the company is.&lt;/p&gt;
-
-&lt;p&gt;As of Jan 2021, FAANG companies are most influencial companies with a very high market cap.&lt;/p&gt;
-
-&lt;p&gt;FAANG stands for 
-Facebook
-Apple
-Amazon
-Netflix
-Google&lt;/p&gt;
-
-&lt;p&gt;These companies are hailed by software engineers and the competition to get is tough.&lt;/p&gt;
-
-&lt;p&gt;For the below details I am excluding Netflix as it not as big as the other 4.&lt;/p&gt;
-
-&lt;p&gt;Here is how much they influence other aspects of the world including us:&lt;/p&gt;
-
-&lt;p&gt;Attention&lt;/p&gt;
-
-&lt;p&gt;Data&lt;/p&gt;
-
-&lt;p&gt;Money and Small Businesses&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Out of every dollar a VC invests into a startup, 40 cents goes to Facebook, Amazon and Google. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Power&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Amazon Web Services, the most profitable of Amazon’s companies, control nearly half of Global Cloud Infrastructure.&lt;/li&gt;
-  &lt;li&gt;A few years ago, a single code bug caused a lot of we known websites to crash. Websites like Netflix, Tinder, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Chamath Palihapitiya &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">A companies valuations can be seen as hour influencial the company is.</summary></entry><entry><title type="html">World is run by Open Source Software</title><link href="www.ankushchoubey.com/open_source/" rel="alternate" type="text/html" title="World is run by Open Source Software" /><published>2021-01-22T00:00:00-06:00</published><updated>2021-01-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/open-source</id><content type="html" xml:base="www.ankushchoubey.com/open_source/">&lt;p&gt;If you take a lot of notes you’ll likely not remember a lot of things in the moment.
-The goal is to internalize. Not write a bunch of things.&lt;/p&gt;
-
-&lt;p&gt;Quality over Quantity: The goal is to scrutize your thoughts enough.&lt;/p&gt;
-
-&lt;p&gt;Open Source projects are similar to Non-Profit&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=bjAinwgvQqc&lt;/p&gt;</content><author><name></name></author><summary type="html">If you take a lot of notes you’ll likely not remember a lot of things in the moment. The goal is to internalize. Not write a bunch of things.</summary></entry><entry><title type="html">Piano</title><link href="www.ankushchoubey.com/piano/" rel="alternate" type="text/html" title="Piano" /><published>2021-01-16T00:00:00-06:00</published><updated>2021-01-16T00:00:00-06:00</updated><id>www.ankushchoubey.com/learning-piano</id><content type="html" xml:base="www.ankushchoubey.com/piano/">&lt;p&gt;Piano is just a speaker which is manual and more satisfying.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-26T13:35:54-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Piano</title><link href="www.ankushchoubey.com/piano/" rel="alternate" type="text/html" title="Piano" /><published>2021-01-16T00:00:00-06:00</published><updated>2021-01-16T00:00:00-06:00</updated><id>www.ankushchoubey.com/learning-piano</id><content type="html" xml:base="www.ankushchoubey.com/piano/">&lt;p&gt;Piano is just a speaker which is manual and more satisfying.&lt;/p&gt;
 
 &lt;p&gt;Learning Piano is the most important thing I have learned in a long term.&lt;/p&gt;
 
@@ -387,4 +304,218 @@ The goal is to internalize. Not write a bunch of things.&lt;/p&gt;
 
 &lt;center&gt;
     &lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mi8kpAgHYFo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/center&gt;</content><author><name></name></author><summary type="html">The pain The most discouraging part of software development is setting up a local development environment. Coding is relatively easy.</summary></entry></feed>
+&lt;/center&gt;</content><author><name></name></author><summary type="html">The pain The most discouraging part of software development is setting up a local development environment. Coding is relatively easy.</summary></entry><entry><title type="html">Developer Productivity</title><link href="www.ankushchoubey.com/dev_productivity/" rel="alternate" type="text/html" title="Developer Productivity" /><published>2020-12-22T00:00:00-06:00</published><updated>2020-12-22T00:00:00-06:00</updated><id>www.ankushchoubey.com/developer-productivity</id><content type="html" xml:base="www.ankushchoubey.com/dev_productivity/">&lt;p&gt;&lt;img src=&quot;/images/dev_productivity.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@ymoran?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;MORAN&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;These are things that affect improves developer productivity significantly:&lt;/p&gt;
+
+&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A Fast Computer&lt;/li&gt;
+  &lt;li&gt;Bigger Display&lt;/li&gt;
+  &lt;li&gt;Multiple Monitors
+    &lt;ul&gt;
+      &lt;li&gt;You can preview the application on one screen and keep the IDE or DB open on the next.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A Good IDE&lt;/li&gt;
+  &lt;li&gt;Plugins to automate things&lt;/li&gt;
+  &lt;li&gt;A modern programming language&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;dev-himself&quot;&gt;Dev Himself&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Typing without looking at the keyboard&lt;/li&gt;
+  &lt;li&gt;Initially: Use GUI tools instead of command&lt;/li&gt;
+  &lt;li&gt;Later: Skip both GUI and Manual Command Line: Creating tiny scripts (.bat/.sh) to automate repeated actions.&lt;/li&gt;
+  &lt;li&gt;Understanding the requirement properly.&lt;/li&gt;
+  &lt;li&gt;Prototyping the User Interface to avoid confusion. Paper prototyping is enough for many cases.&lt;/li&gt;
+  &lt;li&gt;Thinking and having the thoughts organized before writing the code instead of thinking while coding.&lt;/li&gt;
+  &lt;li&gt;Knowing if the algorithm needed is common that an open-source solution is readily available.&lt;/li&gt;
+  &lt;li&gt;Googling the right thing while debugging.&lt;/li&gt;
+  &lt;li&gt;Not over-engineering. Example: Don’t use microservices if your application isn’t big. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Keeping code clean&lt;/li&gt;
+  &lt;li&gt;Single tasking&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zzMLg3Ys5vI&amp;amp;t=499s&quot;&gt;The Problem With Microservices&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev_productivity.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev_productivity.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How I learned basics of programming.</title><link href="www.ankushchoubey.com/learn_programming/" rel="alternate" type="text/html" title="How I learned basics of programming." /><published>2020-12-21T00:00:00-06:00</published><updated>2020-12-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/how-i-learned-programming</id><content type="html" xml:base="www.ankushchoubey.com/learn_programming/">&lt;p&gt;The following is a beginner-focused essay.&lt;/p&gt;
+
+&lt;p&gt;I was a dumb programmer for the most part. I knew syntax and understood solutions to problems but could not solve them myself.&lt;/p&gt;
+
+&lt;p&gt;The speed of my progress was slow because there was no need for me to code well. My academic assignments were relatively easy.&lt;/p&gt;
+
+&lt;h2 id=&quot;syntax&quot;&gt;Syntax&lt;/h2&gt;
+
+&lt;p&gt;For my first programming language (C), I watched YouTube while writing all syntaxes by hand. The video taught me the importance of indentations.&lt;/p&gt;
+
+&lt;h2 id=&quot;algorithm-and-competitions&quot;&gt;Algorithm and Competitions&lt;/h2&gt;
+
+&lt;p&gt;I had to prepare for a job interview and coding competitions. So I started practising on HackerRank.&lt;/p&gt;
+
+&lt;h3 id=&quot;book-think-like-a-programmer&quot;&gt;Book: Think Like A Programmer&lt;/h3&gt;
+
+&lt;p&gt;I knew syntax pretty well but could not write code myself. I always needed a tutorial.&lt;/p&gt;
+
+&lt;p&gt;I came across a YouTube series and book of the same name:  &lt;a href=&quot;https://www.youtube.com/playlist?list=PLKQ5LYb497AZIZe9dBWy8GwLluVaMQVj0&quot;&gt;Think Like A Programmer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I watched all the videos, read books and tried applying them. I was not good initially thought I had learned some ways to estimate what end program would look.&lt;/p&gt;
+
+&lt;p&gt;My thoughts were getting structured.&lt;/p&gt;
+
+&lt;h3 id=&quot;book-automate-the-boring-stuff-with-python&quot;&gt;Book: Automate the Boring Stuff with Python&lt;/h3&gt;
+
+&lt;p&gt;I knew beginner level Java. I wanted to automate some parts of my computer but found it very difficult to do.&lt;/p&gt;
+
+&lt;p&gt;I had learned the syntax of Ruby. Ruby was huge at that time.&lt;/p&gt;
+
+&lt;p&gt;I have hesitated to learn Python. I did not want to revisit the same things with different syntax. But the Automate The Boring Stuff book was compelling.&lt;/p&gt;
+
+&lt;p&gt;I started reading the book and would often read and try out cheatsheets. I even had cheat sheets printed out.&lt;/p&gt;
+
+&lt;p&gt;Python reduced the complexity of development. I was able to focus less on syntax and more on what the code does.&lt;/p&gt;
+
+&lt;h3 id=&quot;book-cracking-the-coding-interview&quot;&gt;Book: Cracking the Coding Interview&lt;/h3&gt;
+
+&lt;p&gt;I was getting better. This book improved it further.&lt;/p&gt;
+
+&lt;p&gt;I did not solve all the problems. I had read through the theory.&lt;/p&gt;
+
+&lt;h2 id=&quot;practicing&quot;&gt;Practicing&lt;/h2&gt;
+
+&lt;p&gt;I build all my academic projects myself without asking for help. That helped me a lot.&lt;/p&gt;
+
+&lt;p&gt;I was trying to build things for myself. Like&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a python script that would automatically empty desktop.&lt;/li&gt;
+  &lt;li&gt;A python selenium script that would log in to Facebook and wish Happy Birthday to people.&lt;/li&gt;
+  &lt;li&gt;A script to download Anime.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It took around four years. I wasted the first three years and got focused on the last one.&lt;/p&gt;</content><author><name></name></author><summary type="html">The following is a beginner-focused essay.</summary></entry><entry><title type="html">Research</title><link href="www.ankushchoubey.com/research/" rel="alternate" type="text/html" title="Research" /><published>2020-12-18T00:00:00-06:00</published><updated>2020-12-18T00:00:00-06:00</updated><id>www.ankushchoubey.com/research</id><content type="html" xml:base="www.ankushchoubey.com/research/">&lt;p&gt;&lt;img src=&quot;/images/research.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;plateau-of-progress&quot;&gt;Plateau of progress&lt;/h2&gt;
+
+&lt;p&gt;There are many fields where the reward of discovering new things are a long time before there is implementation. (Like pure maths, theoretical physics, etc.)&lt;/p&gt;
+
+&lt;p&gt;During the colonial era, Europeans gained a significant advantage over other civilizations. One reason was their willingness to accept things that they don’t know and to find ways to understand the world better. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The question of scientific progress was as important as anything political.&lt;/p&gt;
+
+&lt;p&gt;Though today we live in an era were a lot of scientific progress is made. The increase is because a large number of people are working on the problem. Even if the problems they are trying to solve are trivial (like social media).&lt;/p&gt;
+
+&lt;p&gt;The amount of effort required to research in the pre-colonial and colonial era was far greater. This should increase productivity and it does in some sense. But it has lead to a reduction of effort on the human part and therefore the result is the same.&lt;/p&gt;
+
+&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
+
+&lt;p&gt;Research gets an entitlement. People think it is hard.&lt;/p&gt;
+
+&lt;p&gt;It’s likely how people define it. You just have to work at something. And if you work on it you may discover things that you don’t even know are new.&lt;/p&gt;
+
+&lt;p&gt;The reason research gets a bad entitlement of because of ready-made solutions and the things that are already been discovered/made.&lt;/p&gt;
+
+&lt;p&gt;We miss the point that all the polished discoveries we see today had humble beginnings.&lt;/p&gt;
+
+&lt;p&gt;I would argue that if the discovery you made or a solution you made even is it already exist and you didn’t know about it is still an act of research. You may even find some improvements.&lt;/p&gt;
+
+&lt;p&gt;The act of research does not have to be big.&lt;/p&gt;
+
+&lt;h2 id=&quot;ready-made-solutions---globalisation&quot;&gt;Ready-made solutions - Globalisation&lt;/h2&gt;
+
+&lt;p&gt;Globalisation has allowed us to take fruits of someone else’s research.&lt;/p&gt;
+
+&lt;p&gt;As of 2020, China and the USA dominate technology. We Indians (and many from other countries) are more of a witness to this domination.&lt;/p&gt;
+
+&lt;p&gt;There are also different issues to solve. The social issues in India and different than those in developed nations. And therefore globalisation has a faster positive impact compared to research activities.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Sapiens by Yuval Harari &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/research.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/research.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hurrying does not help.</title><link href="www.ankushchoubey.com/hurrying/" rel="alternate" type="text/html" title="Hurrying does not help." /><published>2020-12-17T00:00:00-06:00</published><updated>2020-12-17T00:00:00-06:00</updated><id>www.ankushchoubey.com/hurrying</id><content type="html" xml:base="www.ankushchoubey.com/hurrying/">&lt;p&gt;Hurring is similar to stock market investing.&lt;/p&gt;
+
+&lt;p&gt;If you rush, you make a profit some times and you losses some times. In the end, you are in the same place.&lt;/p&gt;
+
+&lt;p&gt;Watching YouTube videos at 2x speed won’t help. Especially if it is a field you are not familiar with.&lt;/p&gt;
+
+&lt;p&gt;If you write super fast, you’ll not be able to understand what you wrote.&lt;/p&gt;
+
+&lt;p&gt;If you read too fast, you won’t have enough comprehension.&lt;/p&gt;
+
+&lt;p&gt;If you push yourself to work, you’ll burn out.&lt;/p&gt;
+
+&lt;p&gt;There is a point before you rush called the minimum effective dose (MED) &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you go beyond MED the speed will fast but progress will be slow.
+If you go below MED the speed will be slow and progress will be slow.&lt;/p&gt;
+
+&lt;p&gt;If you are the MED, your speed will be optimum and progress will be optimum. The tricky thing is MED for any task changes in moments.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No rush. No pause. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;4 Hour Body &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Tim Ferriss &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Hurring is similar to stock market investing.</summary></entry><entry><title type="html">Why Software Engineers Should Enter Other Fields.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Software Engineers Should Enter Other Fields." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;software-engineers&quot;&gt;Software Engineers&lt;/h2&gt;
+
+&lt;p&gt;Software Engineers solve problems by building solutions.&lt;/p&gt;
+
+&lt;p&gt;We keep iterating on the solutions, make it better and eventually replace the solution with something completely different.&lt;/p&gt;
+
+&lt;p&gt;We have efficient processes for managing projects and handling productivity. Even if a deadline is near, the solution is shipped.&lt;/p&gt;
+
+&lt;p&gt;Software developers ability to get so much done is because of the nature of software and focus on efficiency.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-problem-to-solve&quot;&gt;What problem to solve&lt;/h2&gt;
+
+&lt;p&gt;A non-technical person does not know the problem that can be solved using technology.&lt;/p&gt;
+
+&lt;p&gt;A technical person does not know what problems to solve. The result is that time is solved solving problems on trivial issues like social media instead of more important fields.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-other-fields-can-benefit&quot;&gt;How other fields can benefit&lt;/h2&gt;
+
+&lt;p&gt;Some fields have slow progress rate. There is a long delay in medical research getting to production (Approx 20 year &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;). There hasn’t been much innovation in the field even in engineering fields like Civil engineer or biotechnology.&lt;/p&gt;
+
+&lt;p&gt;The reason is likely because these fields require physical products and take longer to build and test. A technology solution can help speed up some of their processes.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Graphics Modelling and Simulations to speed to testing&lt;/li&gt;
+  &lt;li&gt;Data Organization and Retrieval Systems to make sure the right information is accessed.&lt;/li&gt;
+  &lt;li&gt;Deep Learning Models to help search for replacing overdependence of specialized hardware.&lt;/li&gt;
+  &lt;li&gt;Automation of manual tasks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The best way to ensure these fields get benefits of innovations in computer technology is to work closely with experts in the field or to get into it ourselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/engineer.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@nci?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;National Cancer Institute&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/cells?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Tim Ferriss - 4 Hour Body &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Software Engineers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/engineer.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/engineer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
