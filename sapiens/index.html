@@ -144,34 +144,106 @@ window.onload = wrap_img;
         
       
       </p>
-    <a id='translate-btn' style="" class=" page-link fa fa-language" href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F"> Translate</a>
+    <a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
+    <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
+</a>
 
 
 <script>
-a = document.getElementById('translate-btn');
-a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a="+window.location.href);
-</script><a id='speech-btn' class="page-link fa fa-play">Listen</a>
-
+    a = document.getElementById('translate-btn');
+    a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=" + window.location.href);
+</script><a id='speech-btn'>
+    <img src="/images/icons/ear.svg" alt="listen" style="width:35px">
+</a>
 
 <script>
-    speakPost = ()=> {
+    speakPost = () => {
         var msg = new SpeechSynthesisUtterance();
         const title = document.querySelector("h1.post-title.p-name").innerText;
         const post = document.querySelector("div.post-content.e-content").innerText
-        msg.text = title + '.'+ post;
+        msg.text = title + '.' + post;
         window.speechSynthesis.speak(msg);
     }
     if ('speechSynthesis' in window) {
         document.getElementById("speech-btn").addEventListener("click", speakPost);
-    }else{
+    } else {
         document.getElementById('speech-btn').style.display = 'none';
     }
-
-
-
 </script>
 
-<!-- https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html --></header>
+<!-- https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html -->    <style>
+        .post-tool-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px 10px 0px;
+            border: solid rgb(83, 83, 83, 200);
+            border-width: 1px 0px 1px 0px;
+        }
+        .tag{
+            background-color:red;
+            padding: 5px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        .tag:hover{
+            filter: alpha 
+        }
+        .web-development{
+            background-color: #ff577f
+        }
+        .devops{
+            background-color: #ff884b
+        }
+
+    </style>
+    
+    <div class="post-tool-bar">
+        
+        <div class="left-section">
+            
+            <a class="tag fa fa-hashtag web-development" href="/categories/#Books">Books</a>
+            
+            <a class="tag fa fa-hashtag web-development" href="/categories/#Baton">Baton</a>
+            
+        </div>
+      
+
+      
+     <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
+    <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
+</a>
+
+
+<script>
+    a = document.getElementById('translate-btn');
+    a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=" + window.location.href);
+</script><a id='speech-btn'>
+    <img src="/images/icons/ear.svg" alt="listen" style="width:35px">
+</a>
+
+<script>
+    speakPost = () => {
+        var msg = new SpeechSynthesisUtterance();
+        const title = document.querySelector("h1.post-title.p-name").innerText;
+        const post = document.querySelector("div.post-content.e-content").innerText
+        msg.text = title + '.' + post;
+        window.speechSynthesis.speak(msg);
+    }
+    if ('speechSynthesis' in window) {
+        document.getElementById("speech-btn").addEventListener("click", speakPost);
+    } else {
+        document.getElementById('speech-btn').style.display = 'none';
+    }
+</script>
+
+<!-- https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html --></div>
+      
+          
+    </div>
+    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    
+</header>
 
   <div class="post-content e-content" itemprop="articleBody">
 
