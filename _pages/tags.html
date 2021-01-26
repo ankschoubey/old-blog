@@ -28,7 +28,7 @@ search_exclude: true
 
 
   {% for category in categories %}
-      <h3 id ="{{ category }}"><i class="fas fa-tags category-tags-icon"></i></i> {{ category }}</h3>
+      <h3 id ="{{ category }}"><i class="fas fa-hash-tag {{category}}"></i></i> {{ category }}</h3>
       <a name="{{ category | slugize }}"></a>
       {% for post in site.categories[category] %}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
