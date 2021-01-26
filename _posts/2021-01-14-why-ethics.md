@@ -7,6 +7,7 @@ categories: [philosophical, collection-of-thoughts]
 title: Why Ethics? 
 permalink: /why_ethics/
 image: /images/why_ethics.jpg
+description: "Long term impacts"
 ---
 ![](/images/why_ethics.jpg)
 

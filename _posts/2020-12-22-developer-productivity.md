@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [information-system, for-future-me]
+categories: [information-system, for-future-me, tools]
 title: Developer Productivity
 permalink: /dev_productivity/
 image: /images/dev_productivity.jpg

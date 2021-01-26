@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [devops]
+categories: [devops, tools]
 title: A replicable Development Environment with Docker + VS Code
 permalink: /development_environment_docker/
 # image: https://vialogue.files.wordpress.com/2017/04/sapiens.jpg
