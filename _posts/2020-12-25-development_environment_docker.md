@@ -2,11 +2,11 @@
 toc: false
 layout: post
 comments: true
-description: 
+description: Mitigating the most discoraging part of software development
 categories: [devops, tools]
 title: A replicable Development Environment with Docker + VS Code
 permalink: /development_environment_docker/
-# image: https://vialogue.files.wordpress.com/2017/04/sapiens.jpg
+image: https://www.simplilearn.com/ice9/free_resources_article_thumb/docker_tutorial_basic_concepts_verview.jpg
 ---
 
 ## The pain
