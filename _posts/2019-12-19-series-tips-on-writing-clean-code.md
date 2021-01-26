@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time.
-categories: [Software Development, Clean Code]
+categories: [software-development, Clean Code]
 title: Clean Code
 permalink: /clean_code/
 image: /images/2019-12-19-series-tips-on-writing-clean-code/1.png

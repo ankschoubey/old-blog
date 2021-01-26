@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: 'MNIST: Kaggle Getting Started'
-categories: [Deep Learning, Kaggle]
+categories: [deep-learning, Kaggle]
 title: Digit Recognition
 permalink: /mnist/
 image: https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png

@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Baby steps towards competitions
-categories: [Deep Learning, Kaggle]
+categories: [deep-learning, Kaggle]
 title: Series  Kaggle Getting Started
 permalink: /kaggle_getting_started/
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kaggle_logo.png/400px-Kaggle_logo.png

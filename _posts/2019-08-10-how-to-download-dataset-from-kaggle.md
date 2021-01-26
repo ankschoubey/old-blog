@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Using Kaggle CLI
-categories: [Deep Learning, Kaggle]
+categories: [deep-learning, Kaggle]
 title: How To Download Dataset From Kaggle
 permalink: /download_kaggle/
 ---

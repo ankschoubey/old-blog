@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Decision Making, For Future Me, draft]
+categories: [Decision-making, for-future-me, draft]
 title: Harder problems are usually smaller problems put together
 permalink: /hard_problems/
 #image: /images/engineer.jpg
