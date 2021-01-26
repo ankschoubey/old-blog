@@ -2,7 +2,7 @@
 description: Draft version
 title: Marketing
 comments: true
-categories: [Business,draft]
+categories: [business,draft]
 layout: post
 use_math: true
 permalink: /marketing/

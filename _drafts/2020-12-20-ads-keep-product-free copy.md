@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Business, Marketing, draft]
+categories: [business, marketing, draft]
 title: Ethics and Advertisements
 permalink: /ads/
 #image: /images/engineer.jpg

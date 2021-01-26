@@ -2,7 +2,7 @@
 description: 
 title: Good technologies make themselves irrelevant
 comments: true
-categories: [ Business, Tweetable]
+categories: [ business, Tweetable]
 layout: post
 use_math: true
 permalink: /make_irrelevant/
