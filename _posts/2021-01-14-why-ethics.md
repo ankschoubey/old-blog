@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Philosophical, Collection of Thoughts]
+categories: [philosophical, collection-of-thoughts]
 title: Why Ethics? 
 permalink: /why_ethics/
 image: /images/why_ethics.jpg
