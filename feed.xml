@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-26T13:48:23-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Piano</title><link href="www.ankushchoubey.com/piano/" rel="alternate" type="text/html" title="Piano" /><published>2021-01-16T00:00:00-06:00</published><updated>2021-01-16T00:00:00-06:00</updated><id>www.ankushchoubey.com/learning-piano</id><content type="html" xml:base="www.ankushchoubey.com/piano/">&lt;p&gt;Piano is just a speaker which is manual and more satisfying.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-26T14:33:42-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Business Ethics</title><link href="www.ankushchoubey.com/business_ethics/" rel="alternate" type="text/html" title="Business Ethics" /><published>2021-01-21T00:00:00-06:00</published><updated>2021-01-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/business-ethics</id><content type="html" xml:base="www.ankushchoubey.com/business_ethics/">&lt;p&gt;In the &lt;a href=&quot;/why_ethics/&quot;&gt;previous post&lt;/a&gt;, I discussed the reasons to be ethical. In short, ethics provides leverage. This post addresses points specific to businesses.&lt;/p&gt;
+
+&lt;h2 id=&quot;competition-and-revenues&quot;&gt;Competition and Revenues&lt;/h2&gt;
+
+&lt;p&gt;Most profitable companies create a monopoly. &lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Example: Google, Facebook, Amazon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Monopolies are bad for innovation long term. Competition is good for innovation.&lt;/p&gt;
+
+&lt;p&gt;Often publically traded companies listening to shareholders focus on short term gains while neglecting ethics.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Example: Slave Trading Companies during the Colonial Era. &lt;sup id=&quot;fnref:10&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Recent Example: Facebook. Amazon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some companies choose to stay private. So that they can avoid being influenced by shareholders.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Example: SpaceX&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If your business is no longer needed, pivot and move to something else.&lt;/p&gt;
+
+&lt;h2 id=&quot;customer&quot;&gt;Customer&lt;/h2&gt;
+
+&lt;p&gt;Your goal as a company is to help your customers. &lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;If you cheat, you’ll create a bad word of mouth about your brand. Word of mouth is the most powerful marketing strategy.&lt;/p&gt;
+
+&lt;p&gt;Be the kind of business whose customer wants you to succeed. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Protect customer data by providing 100% encryption. Even you should not be able to read it.&lt;/p&gt;
+
+&lt;h2 id=&quot;employee&quot;&gt;Employee&lt;/h2&gt;
+
+&lt;p&gt;The more you take care of your employees. The more employees take care of you. &lt;sup id=&quot;fnref:1:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Companies should run on ideas, not hierarchy. You have to let the best ideas win. Which means that people at Leadership position should listen to their employees and sort out solutions. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:8&quot;&gt;
+      &lt;p&gt;Peter Thiel &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:10&quot;&gt;
+      &lt;p&gt;Sapiens by Yuval Noah Harari &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:9&quot;&gt;
+      &lt;p&gt;Mark Cuban &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Simon Sinek &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">In the previous post, I discussed the reasons to be ethical. In short, ethics provides leverage. This post addresses points specific to businesses.</summary></entry><entry><title type="html">Piano</title><link href="www.ankushchoubey.com/piano/" rel="alternate" type="text/html" title="Piano" /><published>2021-01-16T00:00:00-06:00</published><updated>2021-01-16T00:00:00-06:00</updated><id>www.ankushchoubey.com/learning-piano</id><content type="html" xml:base="www.ankushchoubey.com/piano/">&lt;p&gt;Piano is just a speaker which is manual and more satisfying.&lt;/p&gt;
 
 &lt;p&gt;Learning Piano is the most important thing I have learned in a long term.&lt;/p&gt;
 
@@ -153,9 +211,13 @@
 
 &lt;p&gt;A meaningful life is more exciting and fulfilling.&lt;/p&gt;
 
-&lt;h2 id=&quot;ethics-is-something-you-practice-and-not-just-something-you-learn-&quot;&gt;Ethics is something you practice and not just something you learn &lt;sup id=&quot;fnref:2:4&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
 &lt;h2 id=&quot;rights-and-responsibilities&quot;&gt;Rights and Responsibilities&lt;/h2&gt;
+
+&lt;p&gt;Rights and responsibilties is how you create trust and have a fare trade.&lt;/p&gt;
+
+&lt;p&gt;If you want rights, you have to take responsibilities. &lt;sup id=&quot;fnref:3:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ethics-is-something-you-practice-and-not-just-something-you-learn-&quot;&gt;Ethics is something you practice and not just something you learn &lt;sup id=&quot;fnref:2:4&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -163,7 +225,7 @@
       &lt;p&gt;Sapiens by Yuval Harari &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Jordan Peterson &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:3:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:3:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Jordan Peterson &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:3:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:3:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:3:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;Atomic Habits &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
@@ -479,43 +541,4 @@ If you go below MED the speed will be slow and progress will be slow.&lt;/p&gt;
       &lt;p&gt;Tim Ferriss &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Hurring is similar to stock market investing.</summary></entry><entry><title type="html">Why Software Engineers Should Enter Other Fields.</title><link href="www.ankushchoubey.com/engineer/" rel="alternate" type="text/html" title="Why Software Engineers Should Enter Other Fields." /><published>2020-12-13T00:00:00-06:00</published><updated>2020-12-13T00:00:00-06:00</updated><id>www.ankushchoubey.com/engineers-other-field</id><content type="html" xml:base="www.ankushchoubey.com/engineer/">&lt;h2 id=&quot;software-engineers&quot;&gt;Software Engineers&lt;/h2&gt;
-
-&lt;p&gt;Software Engineers solve problems by building solutions.&lt;/p&gt;
-
-&lt;p&gt;We keep iterating on the solutions, make it better and eventually replace the solution with something completely different.&lt;/p&gt;
-
-&lt;p&gt;We have efficient processes for managing projects and handling productivity. Even if a deadline is near, the solution is shipped.&lt;/p&gt;
-
-&lt;p&gt;Software developers ability to get so much done is because of the nature of software and focus on efficiency.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-problem-to-solve&quot;&gt;What problem to solve&lt;/h2&gt;
-
-&lt;p&gt;A non-technical person does not know the problem that can be solved using technology.&lt;/p&gt;
-
-&lt;p&gt;A technical person does not know what problems to solve. The result is that time is solved solving problems on trivial issues like social media instead of more important fields.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-other-fields-can-benefit&quot;&gt;How other fields can benefit&lt;/h2&gt;
-
-&lt;p&gt;Some fields have slow progress rate. There is a long delay in medical research getting to production (Approx 20 year &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;). There hasn’t been much innovation in the field even in engineering fields like Civil engineer or biotechnology.&lt;/p&gt;
-
-&lt;p&gt;The reason is likely because these fields require physical products and take longer to build and test. A technology solution can help speed up some of their processes.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Graphics Modelling and Simulations to speed to testing&lt;/li&gt;
-  &lt;li&gt;Data Organization and Retrieval Systems to make sure the right information is accessed.&lt;/li&gt;
-  &lt;li&gt;Deep Learning Models to help search for replacing overdependence of specialized hardware.&lt;/li&gt;
-  &lt;li&gt;Automation of manual tasks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The best way to ensure these fields get benefits of innovations in computer technology is to work closely with experts in the field or to get into it ourselves.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/engineer.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@nci?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;National Cancer Institute&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/cells?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Tim Ferriss - 4 Hour Body &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Software Engineers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/engineer.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/engineer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Hurring is similar to stock market investing.</summary></entry></feed>
