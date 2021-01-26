@@ -1,22 +1,20 @@
-<a id='speech-btn' class="page-link fa fa-play">Listen</a>
-
+<a id='speech-btn'>
+    <img src="/images/icons/ear.svg" alt="listen" style="width:35px">
+</a>
 
 <script>
-    speakPost = ()=> {
+    speakPost = () => {
         var msg = new SpeechSynthesisUtterance();
         const title = document.querySelector("h1.post-title.p-name").innerText;
         const post = document.querySelector("div.post-content.e-content").innerText
-        msg.text = title + '.'+ post;
+        msg.text = title + '.' + post;
         window.speechSynthesis.speak(msg);
     }
     if ('speechSynthesis' in window) {
         document.getElementById("speech-btn").addEventListener("click", speakPost);
-    }else{
+    } else {
         document.getElementById('speech-btn').style.display = 'none';
     }
-
-
-
 </script>
 
 <!-- https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html -->

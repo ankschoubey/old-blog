@@ -1,0 +1,46 @@
+    <style>
+        .post-tool-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px 10px 0px;
+            border: solid rgb(83, 83, 83, 200);
+            border-width: 1px 0px 1px 0px;
+        }
+        .tag{
+            background-color:red;
+            padding: 5px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        .tag:hover{
+            filter: alpha 
+        }
+        .web-development{
+            background-color: #ff577f
+        }
+        .devops{
+            background-color: #ff884b
+        }
+
+    </style>
+    
+    <div class="post-tool-bar">
+        {% if page.categories.size > 0 and site.show_tags %}
+        <div class="left-section">
+            {% for category in  page.categories  %}
+            <a class="tag fa fa-hashtag web-development" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+            {% endfor %}
+        </div>
+      {% endif %}
+
+      
+     <div class="right-section">
+       {%- include translate-btn.html -%}
+       {%- include speech-btn.html -%}
+      </div>
+      
+          
+    </div>
+    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    
