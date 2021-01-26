@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [QA, Kaggle]
+categories: [qa, deep-learning]
 title: 'Kaggle CLI QA: How to download a particular folder'
 permalink: /kaggle_download_folder/
 ---

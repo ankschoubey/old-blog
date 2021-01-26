@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Python, Notebook]
+categories: [deep-learning]
 title: Easy Jupyter Notebook Tips
 permalink: /jupyter_notebook/
 image: /images/2019-07-29-easy-jupyter-notebook-tips/2.png

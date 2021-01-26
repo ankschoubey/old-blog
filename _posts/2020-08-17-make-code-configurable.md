@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Things that should take 0 coding effort
-categories: [ Programming]
+categories: [programming]
 title: Make your code configurable.
 permalink: /code_configurable/
 ---

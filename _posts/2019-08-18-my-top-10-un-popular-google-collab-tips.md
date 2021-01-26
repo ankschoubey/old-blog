@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Notebook]
+categories: [deep-learning]
 title: 10 Google Collab Tips
 permalink: /collab/
 image: /images/2019-08-18-my-top-10-un-popular-google-collab-tips/5.png

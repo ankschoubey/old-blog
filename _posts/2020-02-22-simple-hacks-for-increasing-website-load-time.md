@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: For those who don’t require Google level optimization
-categories: [Web-development]
+categories: [web-development]
 title: Simple Hacks for increasing website load time
 permalink: /load_time/
 ---

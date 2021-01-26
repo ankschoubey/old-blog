@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: "'Probably Right'"
-categories: [for-future-me,Bias]
+categories: [for-future-me, decision-making]
 title: Opinions/Events are not black and white.
 permalink: /black_white/
 image: /images/black_white.jpg
