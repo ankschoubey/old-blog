@@ -5,8 +5,12 @@ comments: true
 description:
 categories: [business, philosophical]
 title: Business Ethics
-permalink: /business_ethics/
+permalink: /business-ethics/
+image: /images/business-ethics.jpg
 ---
+![](/images/business-ethics.jpg)
+
+<sub style="user-select: auto;">Photo by <a href="https://unsplash.com/@charles_forerunner?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Charles Forerunner</a> on <a href="https://unsplash.com/s/photos/business?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Unsplash</a></sub>
 
 In the [previous post](/why_ethics/), I discussed the reasons to be ethical. In short, ethics provides leverage. This post addresses points specific to businesses.
 
