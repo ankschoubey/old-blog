@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [Leadership, Philosophical, Businesses]
+categories: [leadership, philosophical, business]
 title: Empowerment/Enabling
 permalink: /giving_help/
 ---

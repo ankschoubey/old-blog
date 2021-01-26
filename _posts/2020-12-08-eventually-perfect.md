@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [Information Systems]
+categories: [information-systems]
 title: Eventually Perfect Feature
 permalink: /eventually_perfect/
 image: /images/eventually_perfect.jpg

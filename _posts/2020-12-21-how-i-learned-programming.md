@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Programming]
+categories: [programming]
 title: How I learned basics of programming.
 permalink: /learn_programming/
 #image: /images/engineer.jpg

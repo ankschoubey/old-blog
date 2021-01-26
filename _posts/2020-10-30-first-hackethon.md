@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Information Systems, Experience]
+categories: [information-system, experience]
 title: First Hackathon
 permalink: /first_hackathon/
 image: /images/first_hackathon.jpg

@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: The same word is different for different people
-categories: [Bias, Communication]
+categories: [decision-making, communication]
 title: Definitions
 permalink: /definition/
 ---

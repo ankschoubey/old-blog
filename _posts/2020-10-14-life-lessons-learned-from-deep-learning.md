@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [Philosophical]
+categories: [philosophical]
 title: Correlation between Deep Learning Concepts and Philosophy
 permalink: /dl_lessons/
 ---

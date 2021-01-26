@@ -2,7 +2,7 @@
 toc: true
 layout: post
 comments: true
-description: A collection of thoughts
+description: "'Probably Right'"
 categories: [For Future Me,Bias]
 title: Opinions/Events are not black and white.
 permalink: /black_white/

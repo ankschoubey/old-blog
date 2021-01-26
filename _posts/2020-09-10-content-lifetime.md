@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description:
-categories: [Business, Marketing]
+categories: [business, marketing]
 title: The lifetime of "Content" is getting smaller
 permalink: /content/
 image: /images/content.jpg

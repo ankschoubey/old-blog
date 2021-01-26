@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: of "success"
-categories: [Baton, For Future Me]
+categories: [baton, for-future-me]
 title: Probabilities
 permalink: /probabilities/
 image: /images/probabilities.png

@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Unless you stop
-categories: [Information Systems, Businesses]
+categories: [information-systems, business]
 title: Software project never ends
 permalink: /software_end/
 ---

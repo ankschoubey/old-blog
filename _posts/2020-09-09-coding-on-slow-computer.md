@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [Programming]
+categories: [programming]
 title: Tips for coding on a slow computer
 permalink: /slow_computer/
 image: /images/slow_computer.jpg

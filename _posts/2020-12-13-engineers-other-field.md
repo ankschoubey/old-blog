@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Information Systems, Baton]
+categories: [information-systems, baton]
 title: Why Software Engineers Should Enter Other Fields.
 permalink: /engineer/
 image: /images/engineer.jpg

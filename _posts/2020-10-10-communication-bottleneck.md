@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: and why communication policy is essential
-categories: [Businesses, Communication]
+categories: [business, communication]
 title: Communication Bottleneck in large organizations
 permalink: /communication_bottleneck/
 image: /images/communication_bottleneck.jpg
