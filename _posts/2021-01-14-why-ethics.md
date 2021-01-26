@@ -2,7 +2,7 @@
 toc: false
 layout: post
 comments: true
-description:
+description: A under-utilized leverage
 categories: [philosophical, collection-of-thoughts]
 title: Why Ethics? 
 permalink: /why_ethics/
@@ -69,9 +69,13 @@ Ethics provide life more meaning.
 
 A meaningful life is more exciting and fulfilling.
 
-## Ethics is something you practice and not just something you learn [^2]
-
 ## Rights and Responsibilities
+
+Rights and responsibilties is how you create trust and have a fare trade.
+
+If you want rights, you have to take responsibilities. [^3]
+
+## Ethics is something you practice and not just something you learn [^2]
 
 [^1]: Atomic Habits
 [^2]: Naval Ravikant
