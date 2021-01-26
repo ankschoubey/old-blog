@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [draft, Business]
+categories: [draft, business]
 title: Cannot Exclude Capitalism
 permalink: /capitalism/
 ---

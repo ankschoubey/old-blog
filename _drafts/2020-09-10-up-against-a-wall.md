@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Zero to One
-categories: [draft, Business]
+categories: [draft, business]
 title: You are essentially running against a wall.
 permalink: /wall/
 ---

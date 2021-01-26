@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Constructing the simplest possible code
-categories: [Clean Code, Tools]
+categories: [clean-code, tools]
 title: Clean Code Resources and Tools
 permalink: /clean_code_tools/
 ---

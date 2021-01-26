@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: and Logging with style
-categories: [Clean Code]
+categories: [clean-code]
 title: Exception handling
 permalink: /exception_handing/
 ---

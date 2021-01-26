@@ -2,7 +2,7 @@
 description: An observation of different technology companies
 title: Copying features and products
 comments: true
-categories: [ Business]
+categories: [ business]
 layout: post
 use_math: true
 permalink: /copying_products/

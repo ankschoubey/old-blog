@@ -2,7 +2,7 @@
 description: For consumers
 title: "Just buy it. Don’t build it yourself."
 comments: true
-categories: [ Business]
+categories: [ business]
 layout: post
 use_math: true
 permalink: /just_buy/

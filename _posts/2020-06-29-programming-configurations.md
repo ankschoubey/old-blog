@@ -2,7 +2,7 @@
 description: beyond algorithms and data structures
 title: Programming is now Configuring
 comments: true
-categories: [Favorite]
+categories: [favorite]
 layout: post
 use_math: true
 permalink: /config/

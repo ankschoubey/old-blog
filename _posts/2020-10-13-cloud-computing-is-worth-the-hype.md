@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Your robot on the internet
-categories: [cloud-computing, information-systems]
+categories: [cloud-computing, information-system]
 title: Cloud is Worth the Hype
 permalink: /cloud/
 image: /images/cloud.jpg

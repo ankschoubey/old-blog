@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time.
-categories: [software-development, Clean Code]
+categories: [software-development, clean-code]
 title: Clean Code
 permalink: /clean_code/
 image: /images/2019-12-19-series-tips-on-writing-clean-code/1.png
@@ -81,7 +81,7 @@ Constructing the simplest possible code that would solve your problem.
 
 ## More posts in this series
 
-{% for post in site.categories['Clean Code'] %}
+{% for post in site.categories['clean-code'] %}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <article class="archive-item">
     <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.date | date: date_format }}</p>

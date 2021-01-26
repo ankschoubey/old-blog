@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Non-repudiation
-categories: [Business]
+categories: [business]
 title: If it's official, communicate via email
 permalink: /official_email/
 image: /images/official_email/1.jpg

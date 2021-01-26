@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Leave when not okay
-categories: [Clean Code]
+categories: [clean-code]
 title: Flat is better than nested
 permalink: /flat_is_better/
 ---

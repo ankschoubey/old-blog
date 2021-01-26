@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [information-systems]
+categories: [information-system]
 title: Write Tests after Cleaning Code.
 permalink: /writing_test/
 ---

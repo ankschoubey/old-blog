@@ -2,7 +2,7 @@
 description:
 title: Middleman
 comments: true
-categories: [ Business]
+categories: [ business]
 layout: post
 use_math: true
 permalink: /middlemen/

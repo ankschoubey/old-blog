@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Atomic Habits applied to code. Thanks James Clear.
-categories: [Clean Code, Business]
+categories: [clean-code, business]
 title: Leave it better than you found it
 permalink: /leave_it_better/
 ---

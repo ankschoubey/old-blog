@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Minimalism
-categories: [Clean Code]
+categories: [clean-code]
 title: Avoid creating god classes and long methods
 permalink: /god_classes/
 ---

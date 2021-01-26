@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Business]
+categories: [business]
 title: Don’t try to force a sale on people who are not your user base
 permalink: /forced_sale/
 image: /images/forced_sale/1.jpg

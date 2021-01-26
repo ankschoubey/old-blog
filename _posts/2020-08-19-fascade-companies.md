@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Only for-money companies
-categories: [Business]
+categories: [business]
 title: Facade companies
 permalink: /facade/
 ---

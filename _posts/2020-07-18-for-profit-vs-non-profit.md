@@ -2,7 +2,7 @@
 description: 
 title: "Environment Focused: For-Profit vs Non-Profits"
 comments: true
-categories: [business, Non-Profit]
+categories: [business, non-profit]
 layout: post
 use_math: true
 permalink: /environment/

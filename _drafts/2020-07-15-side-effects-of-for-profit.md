@@ -2,7 +2,7 @@
 description: 
 title: "Open Source from For-Profit Businesses"
 comments: true
-categories: [Business]
+categories: [business]
 layout: post
 use_math: true
 permalink: /side_effect/

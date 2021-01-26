@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: You cannot compete with SQL
-categories: [Clean Code]
+categories: [clean-code]
 title: Make the database do the heavy lifting
 permalink: /sql_is_fast/
 ---

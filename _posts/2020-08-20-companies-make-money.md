@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: [Business]
+categories: [business]
 title: Businesses are for making money
 permalink: /for_profit/
 image: /images/for_profit/1.jpg

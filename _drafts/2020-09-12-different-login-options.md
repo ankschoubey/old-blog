@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Comparison
-categories: [draft, Business]
+categories: [draft, business]
 title: Different Login Form Options
 permalink: /login/
 ---

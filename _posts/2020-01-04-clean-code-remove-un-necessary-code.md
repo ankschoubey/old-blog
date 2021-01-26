@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: You ain’t gonna need it
-categories: [Clean Code]
+categories: [clean-code]
 title: Remove un-necessary code
 permalink: /code_cleanup/
 ---

@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Naming conventions
-categories: [Clean Code]
+categories: [clean-code]
 title: Leave Clues
 permalink: /naming_conventions/
 ---

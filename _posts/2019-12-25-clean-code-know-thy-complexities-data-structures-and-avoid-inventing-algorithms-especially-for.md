@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: especially for maths
-categories: [Clean Code]
+categories: [clean-code]
 title: Avoid inventing algorithms and data structures
 permalink: /complexity/
 ---
