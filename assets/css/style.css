@@ -532,7 +532,7 @@ li .post-meta-description { color: rgba(255, 255, 255, 0.69) !important; }
 
 .tags-button { background: url(https://image.flaticon.com/icons/svg/758/758658.svg); background-color: #ffdead00; color: #ffdead00 !important; /* background-image: url(/images/logo.png); */ background-size: contain; background-repeat: no-repeat; background-position: center; filter: opacity(0.7); }
 
-.search-button:hover, .side-project-button:hover, .tags-button:hover { filter: opacity(1); }
+.search-button:hover, .side-project-button:hover, .tags-button:hover { filter: opacity(1); color: #ffdead00 !important; }
 
 .Box { box-shadow: none !important; border: none !important; }
 
