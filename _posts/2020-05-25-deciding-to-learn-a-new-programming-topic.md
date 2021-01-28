@@ -2,7 +2,7 @@
 description: 
 title: Deciding to learn a {programming} topic
 comments: true
-categories: [ for-future-me, Learning,favorite]
+categories: [ for-future-me, learning,favorite]
 layout: post
 toc: true
 use_math: true
