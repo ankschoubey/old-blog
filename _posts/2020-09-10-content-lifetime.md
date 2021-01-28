@@ -4,7 +4,7 @@ layout: post
 comments: true
 description:
 categories: [business, marketing]
-title: The lifetime of "Content" is getting smaller
+title: The lifetime of 'Content' is getting smaller
 permalink: /content/
 image: /images/content.jpg
 ---
