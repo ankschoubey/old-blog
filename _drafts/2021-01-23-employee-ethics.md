@@ -8,17 +8,12 @@ title: Employee Ethics
 permalink: /employee_ethics/
 ---
 
-
 Organization need to foster an environment for employees to be more ethical. Though there are some things the sole hand of employee.
 
 Princple-Agent Problem:
 - The Principle wants agents to act liek the principle
 - The agent who do act like principle get rewarded
 
-
-## Rights and Responsibilities [^4]
-
-Employee Rights and Responsibility
 
 [^1]: Simon Sinek
 [^2]: Mark Manson
