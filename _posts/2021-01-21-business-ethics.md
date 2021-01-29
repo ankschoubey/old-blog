@@ -23,9 +23,13 @@ Monopolies are bad for innovation long term. Competition is good for innovation.
 
 Often publically traded companies listening to shareholders focus on short term gains while neglecting ethics. 
 - Example: Slave Trading Companies during the Colonial Era. [^10]
-- Recent Example: Facebook. Amazon
+- Recent Example:
+  - Facebook is known for copying features from smaller competitors then purchasing them
+  - Amazon is known for bankrupting competitors by:
+    - Investing in companies then launching their copy of cheaper product under Amazon brand [^3].
+    - Forcing business to be sold to Amazon by selling the same product at a massive loss and waiting for a competitor to go bankrupt before restoring price. [^3]
 
-Some companies choose to stay private. So that they can avoid being influenced by shareholders.
+Some companies choose to stay private, avoiding being influenced by shareholders.
 - Example: SpaceX
 
 If your business is no longer needed, pivot and move to something else.
@@ -48,6 +52,7 @@ Companies should run on ideas, not hierarchy. You have to let the best ideas win
 
 [^1]: Simon Sinek
 [^2]: Steve Jobs
+[^3]: [The Amazon monopoly and the problem with Jeff Bezos' business model](https://www.youtube.com/watch?v=pBffKzWECUQ)
 [^4]: Jordan B Peterson
 [^8]: Peter Thiel
 [^9]: Mark Cuban
