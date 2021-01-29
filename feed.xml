@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-28T21:38:15-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Business Ethics</title><link href="www.ankushchoubey.com/business-ethics/" rel="alternate" type="text/html" title="Business Ethics" /><published>2021-01-21T00:00:00-06:00</published><updated>2021-01-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/business-ethics</id><content type="html" xml:base="www.ankushchoubey.com/business-ethics/">&lt;p&gt;&lt;img src=&quot;/images/business-ethics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-01-29T07:54:49-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Business Ethics</title><link href="www.ankushchoubey.com/business-ethics/" rel="alternate" type="text/html" title="Business Ethics" /><published>2021-01-21T00:00:00-06:00</published><updated>2021-01-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/business-ethics</id><content type="html" xml:base="www.ankushchoubey.com/business-ethics/">&lt;p&gt;&lt;img src=&quot;/images/business-ethics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sub style=&quot;user-select: auto;&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@charles_forerunner?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Charles Forerunner&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/business?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
 
@@ -16,10 +16,20 @@
 &lt;p&gt;Often publically traded companies listening to shareholders focus on short term gains while neglecting ethics.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Example: Slave Trading Companies during the Colonial Era. &lt;sup id=&quot;fnref:10&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Recent Example: Facebook. Amazon&lt;/li&gt;
+  &lt;li&gt;Recent Example:
+    &lt;ul&gt;
+      &lt;li&gt;Facebook is known for copying features from smaller competitors then purchasing them&lt;/li&gt;
+      &lt;li&gt;Amazon is known for bankrupting competitors by:
+        &lt;ul&gt;
+          &lt;li&gt;Investing in companies then launching their copy of cheaper product under Amazon brand &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+          &lt;li&gt;Forcing business to be sold to Amazon by selling the same product at a massive loss and waiting for a competitor to go bankrupt before restoring price. &lt;sup id=&quot;fnref:3:1&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Some companies choose to stay private. So that they can avoid being influenced by shareholders.&lt;/p&gt;
+&lt;p&gt;Some companies choose to stay private, avoiding being influenced by shareholders.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Example: SpaceX&lt;/li&gt;
 &lt;/ul&gt;
@@ -28,19 +38,19 @@
 
 &lt;h2 id=&quot;customer&quot;&gt;Customer&lt;/h2&gt;
 
-&lt;p&gt;Your goal as a company is to help your customers. &lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Your goal as a company is to help your customers. &lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;If you cheat, you’ll create a bad word of mouth about your brand. Word of mouth is the most powerful marketing strategy.&lt;/p&gt;
 
-&lt;p&gt;Be the kind of business whose customer wants you to succeed. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Be the kind of business whose customer wants you to succeed. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Protect customer data by providing 100% encryption. Even you should not be able to read it.&lt;/p&gt;
 
 &lt;h2 id=&quot;employee&quot;&gt;Employee&lt;/h2&gt;
 
-&lt;p&gt;The more you take care of your employees. The more employees take care of you. &lt;sup id=&quot;fnref:1:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The more you take care of your employees. The more employees take care of you. &lt;sup id=&quot;fnref:1:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;Companies should run on ideas, not hierarchy. You have to let the best ideas win. Which means that people at Leadership position should listen to their employees and sort out solutions. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Companies should run on ideas, not hierarchy. You have to let the best ideas win. Which means that people at Leadership position should listen to their employees and sort out solutions. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -49,6 +59,9 @@
     &lt;/li&gt;
     &lt;li id=&quot;fn:10&quot;&gt;
       &lt;p&gt;Sapiens by Yuval Noah Harari &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=pBffKzWECUQ&quot;&gt;The Amazon monopoly and the problem with Jeff Bezos’ business model&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:3:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:9&quot;&gt;
       &lt;p&gt;Mark Cuban &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
