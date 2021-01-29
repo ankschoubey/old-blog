@@ -27,3 +27,31 @@ Here are few that I am planning to build:
 2. A webapp that showns intersection between people's following on twitter. Useful when seeing who to follow next.
 3. An app to detect math symbols
 4. An app to detect type on Mango
+
+
+Side Projects by Category
+
+DL
+- ONNX
+
+Data Science: Visualization
+
+React
+
+App with Payment
+
+A simple useful open source app
+
+UX specific app with Tailwind
+
+An App with No Code Tools
+
+An App Designed for Social Media People
+
+An App For Fitness
+
+An App for Money
+
+An App/Service for Music
+
+An app/service for learning
