@@ -6,11 +6,14 @@ description:
 categories: [personal]
 title: Piano
 permalink: /piano/
+images: /images/piano.jpg
 ---
+![](/images/piano.jpg)
+<sub style="user-select: auto;">Photo by <a href="https://unsplash.com/@dolodol?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Dolo Iglesias</a> on <a href="https://unsplash.com/s/photos/piano?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Unsplash</a></sub>
 
-Piano is just a speaker which is manual and more satisfying.
+Piano is the most important thing I have learned in a long time. I am still learning and far from being good.
 
-Learning Piano is the most important thing I have learned in a long term.
+In some sense, it is just a speaker which is manual and more satisfying.
 
 Here are some thinking I learned while playing Piano:
 
@@ -18,7 +21,15 @@ Here are some thinking I learned while playing Piano:
 - Break the problem into chunks.
 - Progress is not linear. Or atleast it does not seem linear
 
-Little things add up.
+## Material Beats Method
+
+I had a keyboard since childhood but I was never able to learn it. Random tutorials did not seem to help. Purchasing SimplyPiano was a good thing.
+
+## Upfront work
+
+Many try taking shortcut of avoiding sheet music and go directly to the song. 
+
+## Little things add up.
 
 I realized that a lot of times I was skipping parts of the practice. Skipping chords, going through the lessons too fast, Not practising enough before the next lesson. Not learning left hand properly.
 
@@ -38,7 +49,7 @@ Initially I was playing about 3 times a week for 15 minutes each. ROI of early p
 
 Later practising everyday for 15 minutes became a hobbie. Some days by hand would pain.
 
-## calm
+## Calm
 Being calm is one of the most importatn things piano taught me. If I am not calm it will be hard for me to concentrate and I will not only make mistakes but I will not know why I am sucking at tis piece.
 
 ## Increased Concentration
@@ -69,7 +80,7 @@ Initially I kept the piano on a pillow. But a YouTube video suggested getting a 
 
 Later I got sustain pedal while practicing fur-elise
 
-## Humiliyu
+## Humility
 
 Piano tought be to be patient and humble. Often watching kids on YouTube play better than me makes me cry.
 
@@ -79,4 +90,4 @@ Often if I suck as a new lesson, if I work on it for 15 days, i'll get it.
 
 Learning Piano is a rabbit hole. I have seen YouTuber learning after 10-12 year. I don't wish to be only associated with a piano. So after SimplyPiano. I'll stop. I'll try to focus on other things.
 
-I'll probably take up something else artistic. I hope to find something as step by step as SimplyPiano
+I'll probably take up something else. I hope to find something as step by step as SimplyPiano

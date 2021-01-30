@@ -14,7 +14,7 @@ These companies are hailed by software engineers and the competition to get is t
 
 For the below details I am excluding Netflix as it not as big as the other 4.
 
-The aim of the post is not to say that FAANG are good or bad. This post initially started as analysis but the post was getting too large so to keep things short details by providing examples.
+The aim of the post is not to say that FAANG are good or bad. This post initially started as analysis but the post was getting too large so to keep things short analysis is replaced by  examples.
 
 These are some examples of how much influence FAANG influence us:
 
