@@ -59,7 +59,6 @@ This blog is the way I process and share my 🎲 thoughts. If you read any, try 
     <!-- <a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.ankushchoubey.com%2F&ref_src=twsrc%5Etfw&related=ankschoubey%2Cankschoubey&screen_name=ankschoubey&text=Hi!%20I%20found%20you%20via%20your%20website!&tw_p=tweetbutton" class="page-link fa fa-twitter"> ankschoubey</a> -->
     <a class=" page-link fa fa-envelope" href="mailto:ankushchoubey@outlook.com" style="left: -10px; position: relative;"> ankushchoubey@outlook.com</a>  
 
-<!-- {%- include translate-btn.html -%} -->
 
 
 ## Start Here
@@ -72,7 +71,10 @@ These are the best posts I have written
     <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.date | date: date_format }}</p>
 
 </article>
+
 {% endfor %}
+
+or read a {%- include random-btn.html -%}
 
 <div style="display: none;">
 {% if site.categories['draft'].size > 0 %}
