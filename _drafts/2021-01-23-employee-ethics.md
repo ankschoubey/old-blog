@@ -20,6 +20,8 @@ Not engaging in Office Politics and maintaining a good company culture.
 
 Focusing on efficiency and conflict resolution. This often means assuming we are wrong and then working together to find a solution.
 
+Take on accountability and responsibility
+
 [^1]: Simon Sinek
 [^2]: Mark Manson
 [^3]: Shwetabh Gangwar
