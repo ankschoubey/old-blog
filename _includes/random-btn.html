@@ -6,7 +6,7 @@
 <script>
     openRandomLink = () => {
         var links = [
-        {% for post in side.posts %}
+        {% for post in site.posts %}
             {% if post.hide != true %}
                 '{{ site.baseurl }}{{ post.url }}',
             {% endif %}
