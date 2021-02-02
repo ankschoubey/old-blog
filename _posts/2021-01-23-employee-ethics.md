@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [business, philosophical, collection-of-thoughts, decision-making]
+categories: [business, collection-of-thoughts, decision-making]
 title: Employee Ethics
 permalink: /employee-ethics/
 images: /images/employee-ethics.jpg
