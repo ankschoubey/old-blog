@@ -6,7 +6,7 @@ description:
 categories: [personal]
 title: Piano
 permalink: /piano/
-images: /images/piano.jpg
+image: /images/piano.jpg
 ---
 ![](/images/piano.jpg)
 <sub style="user-select: auto;">Photo by <a href="https://unsplash.com/@dolodol?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Dolo Iglesias</a> on <a href="https://unsplash.com/s/photos/piano?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Unsplash</a></sub>
