@@ -6,7 +6,7 @@ description:
 categories: [business, philosophical, collection-of-thoughts, decision-making]
 title: Business Ethics
 permalink: /business-ethics/
-image: /images/business-ethics.jpg
+images: /images/business-ethics.jpg
 ---
 ![](/images/business-ethics.jpg)
 
