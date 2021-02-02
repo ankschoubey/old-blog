@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [business, philosophical]
+categories: [business, philosophical, collection-of-thoughts, decision-making]
 title: Business Ethics
 permalink: /business-ethics/
 image: /images/business-ethics.jpg
