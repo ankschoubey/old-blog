@@ -6,7 +6,7 @@ description:
 categories: [business, collection-of-thoughts, decision-making]
 title: Employee Ethics
 permalink: /employee-ethics/
-images: /images/employee-ethics.jpg
+image: /images/employee-ethics.jpg
 ---
 ![](/images/employee-ethics.jpg)
 
