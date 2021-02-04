@@ -43,4 +43,5 @@ This is collections of posts/ideas I have come across over the years.
 ## Writing helps you to 
 
 - Form your thoughts better
+  
 - Document and share your progress

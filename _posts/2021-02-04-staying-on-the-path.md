@@ -16,7 +16,7 @@ The path is trying to be the best version of yourself.
 
 ## Why 
 
-If you are not the best you can be, you create or neglect problems. These problems accumelate and they make you suffer. And it's not just you who will suffer, it will engulf all the people around you.
+If you are not the best you can be, you create or neglect problems. These problems accumulate and they make you suffer. And it's not just you who will suffer, it will engulf all the people around you.
 
 Therefore, it's an ethical crime to not be the best version of yourself.
 
@@ -25,16 +25,16 @@ Therefore, it's an ethical crime to not be the best version of yourself.
 
 ### The Dark Side
 
-The dark side is easy path. It's a path devoid of responsibility. Blame. complaining, and general disinterest is the dark side. 
+The dark side is the easy path. It's a path devoid of responsibility. Blame. complaining, and general disinterest in the dark side. 
 
 ### Humility
 
 One is tempted to go to the dark side when he/she is not humble.
 
-if not one over estimated himself.
+if not one overestimated himself.
 
-One should try fixing problems around him starting from the smallest. Smallest problems like making your bed make man humble.
+One should try fixing problems around him starting from the smallest. Smallest problems like making your bed make a man humble.
 
 ### Taking on the burden
 
-There is a difference between being handed something and taking it on volentarily. One should take on the burden volentarity because what is neglected is rushes in when things go bad.
+There is a difference between being handed something and taking it on voluntarily. One should take on the burden voluntarily because what is neglected is rushes in when things go bad.
