@@ -22,6 +22,9 @@ Therefore, it's an ethical crime to not be the best version of yourself.
 
 ## Staying on the Path
 
+## Taking on Responsibility
+
+The boy shall die and the man will live.
 
 ### The Dark Side
 
@@ -38,3 +41,15 @@ One should try fixing problems around him starting from the smallest. Smallest p
 ### Taking on the burden
 
 There is a difference between being handed something and taking it on voluntarily. One should take on the burden voluntarily because what is neglected is rushes in when things go bad.
+
+## Are you on the path?
+
+> Fast, lift, sprint, stretch, and meditate.
+> Build, sell, write, create, invest, and own.
+> Read, reflect, love, seek truth, and ignore society.
+> Make these habits. Say no to everything else.
+> Avoid debt, jail, addiction, disgrace, shortcuts, and media.
+> Relax. Victory is assured. [^1]
+
+
+[^1]: Naval Ravikant

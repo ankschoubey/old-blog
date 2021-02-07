@@ -23,13 +23,17 @@ Here is some thinking I learned while playing the Piano:
 
 ## Material Beats Method
 
-I had a keyboard since childhood but I was never able to learn it. Random tutorials did not seem to help. Purchasing SimplyPiano was a good thing.
+I had a keyboard since childhood though I never learned it. Random tutorials did not seem to help. 
+
+What changed was purchasing SimplyPiano and free time (lockdown).
 
 ## Upfront work
 
-Many try taking the shortcut of avoiding sheet music and go directly to the song. 
+Many try taking the shortcut of avoiding sheet music and go directly to the song. It is much easier to get started with Sheet Music.
 
-## Little things add up.
+Learning sheet music seems to be a boon. I did not memorize most of my songs until Fur-Elise. I can play almost all Begineer level songs from SimplyPiano directly from the sheet music.
+
+## Part of A Whole
 
 I realized that a lot of times I was skipping parts of the practice. Skipping chords, going through the lessons too fast, Not practising enough before the next lesson. Not learning left hand properly.
 
@@ -37,46 +41,46 @@ Though all of these things were small in the beginning they started to slow me d
 
 ## Isolation
 
-If I was having trouble with a specific piece, I can isolate the piece and practice it.
+A specific section of pieces can be practised in isolation.
 
-If while playing I found my left hand to be not playing properly, I can practice left hand in isolation.
+## Playing regularly
 
-In the end, all the little things add up.
+Initially, I was playing about thrice a week for 15 minutes each. ROI of early progress high.
 
-## Playing every day
+Later practising every day for 15 minutes became a hobby. 
 
-Initially, I was playing about thrice a week for 15 minutes each. ROI of early progress was huge.
+## Concentration
 
-Later practising every day for 15 minutes became a hobby. Some days by hand would pain.
+Sometimes playing Piano requires concentration like reading a good book. Often time my brain would be on full throttle flow mode.
 
 ## Calm
-Being calm is one of the most important things piano taught me. If I am not calm it will be hard for me to concentrate and I will not only make mistakes but I will not know why I am sucking at this piece.
-
-## Increased Concentration
-
-Playing the piano allowed me to increase my concentration time beyond the intensity I was used to. Often time my brain would be on full throttle but my hand would start paining and I would have to stop.
+If I am not calm it will be hard for me to concentrate and I will not only make mistakes but I will not know why I am sucking at this piece.
 
 ## Being gentle
-
 Banging your fingers on the piano is a sure way to suffer. I made this mistake a lot earlier.
 
 Initially, my hands were stiff. Over the months they have got lighter. 
 
-## Joy of playing thanks to sheet music
+## Joy of playing sheet music
 
-I am not sure how many others learned piano. Learning sheet music seems to be a boon. I did not memorize most of my songs until Fur-Elise and I could play almost all Begineer level songs from SimplyPiano directly from the sheet music.
+I am not sure how many others learned Piano. 
 
 ## Searching for Information 
 
-Almost always after playing for a while, I'll have questions regarding Piano. I would search on YouTube and find lessons from YouTUbe teacher.
+Almost always after playing for a while, I'll have questions. I would search and find answers on YouTube. The reason was that SimplyPiano did not include a lot of details.
 
-I would search for things like How do I play with my left hand better. Hand coordination, D Position, Proper Posture, etc. 
-
-This helped a lot as SimplyPiano did not include a lot of details.
+These are some things I had trouble with where YouTube helped:
+Playing with a left hand
+Hand Coordination
+D Position
+Proper Posture
+Hand Injury
 
 ## Gearing up
 
-Initially, I kept the piano on a pillow. But a YouTube video suggested getting a proper stand so I got it.
+Initially, I kept my keyboard over a pillow. A YouTube video suggested getting a proper stand so I got one.
+
+The stand instantly improved my playing by 30%.
 
 Later I got sustain pedal while practising fur-elise
 
@@ -84,10 +88,10 @@ Later I got sustain pedal while practising fur-elise
 
 Piano taught me to be patient and humble. Often watching kids on YouTube play better than me makes me cry.
 
-Often if I suck as a new lesson, if I work on it for 15 days, I'll get it.
+Often if I suck as a new lesson, I'll get it after 15 days.
 
 ## Rabbit Hole
 
 Learning Piano is a rabbit hole. I have seen YouTuber learning after 10-12 year. I don't wish to be only associated with a piano. So after SimplyPiano. I'll stop. I'll try to focus on other things.
 
-I'll probably take up something else. I hope to find something as step by step as SimplyPiano
+I'll probably take up something else. I hope to find something as step by step as SimplyPiano.

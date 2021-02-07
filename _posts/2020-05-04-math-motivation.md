@@ -156,3 +156,11 @@ Math requires
 - concentration + focus + patience + feedback + testing
 
 Cultivate habit of looking at math and make concious effort.
+
+Concepts from Clean Code apply to maths to create clean maths. THe cleaner your maths is the easier it will be.
+
+Simplify formulas. Most formulas are intitive and they are not as big when you break it up into their separate formulas.
+
+Force yourself to calculate mentally first.
+
+If you fear maths, all the fear you have you'll feel in the first 30 seconds of encountarinng the problem. Close your eyes then a deep breath and read it with full concertration without concert for if you'll be able to solve the problem or not.
