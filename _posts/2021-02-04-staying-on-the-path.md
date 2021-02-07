@@ -5,10 +5,11 @@ comments: true
 description:
 categories: [personal]
 title: The Path
-permalink: /the-path/
-image: /images/employee-ethics.jpg
+permalink: /path/
+image: /images/path.jpg
 ---
-![](/images/employee-ethics.jpg)
+![](/images/path.jpg)
+<sub style="user-select: auto;">Photo by <a href="https://unsplash.com/@jakeblucker?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Jake Blucker</a> on <a href="https://unsplash.com/s/photos/road?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Unsplash</a></sub>
 
 ## The Path
 
