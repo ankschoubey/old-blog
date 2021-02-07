@@ -17,19 +17,21 @@ The path is trying to be the best version of yourself.
 
 ## Why 
 
-If you are not the best you can be, you create or neglect problems. These problems accumulate and they make you suffer. And it's not just you who will suffer, it will engulf all the people around you.
+If you are not the best you can be, you create or neglect problems. These problems accumulate and will make you suffer. And it's not just you who will suffer. It will engulf all the people around you.
 
 Therefore, it's an ethical crime to not be the best version of yourself.
 
 ## Staying on the Path
 
-## Taking on Responsibility
+## Sacrifice
 
-The boy shall die and the man will live.
+You have to give up who you are to be who you want to be.
+
+> The boy shall die and the man will live.  [^2]
 
 ### The Dark Side
 
-The dark side is the easy path. It's a path devoid of responsibility. Blame. complaining, and general disinterest in the dark side. 
+The dark side is the easy path. It's a path devoid of responsibility. Blame, complain and general disinterest is forms of the dark side. 
 
 ### Humility
 
@@ -40,8 +42,9 @@ if not one overestimated himself.
 One should try fixing problems around him starting from the smallest. Smallest problems like making your bed make a man humble.
 
 ### Taking on the burden
+There is a difference between being handed something and taking it on voluntarily. 
 
-There is a difference between being handed something and taking it on voluntarily. One should take on the burden voluntarily because what is neglected is rushes in when things go bad.
+One should take on the burden voluntarily because what is neglected is rushes in when things go bad. [^3]
 
 ## Are you on the path?
 
@@ -59,3 +62,5 @@ There is a difference between being handed something and taking it on voluntaril
 
 
 [^1]: Naval Ravikant
+[^2]: Game of Thrones
+[^3]: Jordan Peterson
