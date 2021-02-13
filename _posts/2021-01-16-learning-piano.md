@@ -49,11 +49,13 @@ Initially, I was playing about thrice a week for 15 minutes each. ROI of early p
 
 Later practising every day for 15 minutes became a hobby. 
 
-## Concentration
+## Concentration and Being Calm
 
 Sometimes playing Piano requires concentration like reading a good book. Often time my brain would be on full throttle flow mode.
 
 ## Calm
+
+Not being calm makes it hard to concentrate. 
 If I am not calm it will be hard for me to concentrate and I will not only make mistakes but I will not know why I am sucking at this piece.
 
 ## Being gentle

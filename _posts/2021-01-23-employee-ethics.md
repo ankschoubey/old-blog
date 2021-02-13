@@ -28,5 +28,6 @@ Organization need to foster an environment for employees to be more ethical. Tho
   - This means working together to find a solution.
 - Take on accountability and responsibility
 - Getting work done
+- If you don't feel like part of the company, move on.
 
 [^1]: Naval Ravikant 

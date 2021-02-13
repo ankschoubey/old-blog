@@ -16,3 +16,11 @@ BEM
 
 CSS is better when you write less of it
 
+Don't be specific like 
+
+.red
+
+be general like
+
+.primary
+.secondary

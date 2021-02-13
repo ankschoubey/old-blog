@@ -3,8 +3,8 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [personal]
-title: The Path
+categories: [personal, baton]
+title: The Path / Ethics
 permalink: /path/
 image: /images/path.jpg
 ---
@@ -19,7 +19,7 @@ The path is trying to be the best version of yourself.
 
 If you are not the best you can be, you create or neglect problems. These problems accumulate and will make you suffer. And it's not just you who will suffer. It will engulf all the people around you.
 
-Therefore, it's an ethical crime to not be the best version of yourself.
+Therefore, it's an ethical crime to be weak[^3] and not be the best version of yourself.
 
 ## Staying on the Path
 
@@ -59,7 +59,6 @@ One should take on the burden voluntarily because what is neglected is rushes in
 > Avoid debt, jail, addiction, disgrace, shortcuts, and media.
 > 
 > Relax. Victory is assured. [^1]
-
 
 [^1]: Naval Ravikant
 [^2]: Game of Thrones
