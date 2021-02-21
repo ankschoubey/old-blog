@@ -20,7 +20,7 @@ The overall impact of OSS has been high. If there was no OSS, we would either ha
 
 Most of the libraries I use daily are open source.
 
-## What types of software are best for OSS
+## Types
 Most OSS are libraries for developers to use.
 
 Some exceptions are Signal, VLC and Chrome.
