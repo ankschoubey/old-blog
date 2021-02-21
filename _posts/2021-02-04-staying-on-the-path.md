@@ -21,6 +21,16 @@ If you are not the best you can be, you create or neglect problems. These proble
 
 Therefore, it's an ethical crime to be weak[^3] and not be the best version of yourself.
 
+## Consistency
+
+dThe reason to be consistent is that you experience compount effect. Small changes overtime can significantly change things.
+
+Look at yourself from 5 years ago. Any habit that was small would have been really small for the first 2 years. then suddently it started growing significantly.
+
+Things that at first don't seem significant become significant when you compound them over a few years.
+
+So if you are cleaning your room, planning the day, meditating, etc. You are on the path! Their is light at the end of the tunnel.
+
 ## Staying on the Path
 
 ## Sacrifice
@@ -45,6 +55,10 @@ One should try fixing problems around him starting from the smallest. Smallest p
 There is a difference between being handed something and taking it on voluntarily. 
 
 One should take on the burden voluntarily because what is neglected is rushes in when things go bad. [^3]
+
+## Default Aggresive
+
+Be the one who does things. Who solves the problems. Not the one who just reacts to the the situations.
 
 ## Are you on the path?
 
