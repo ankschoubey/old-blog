@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Impact, Revenue and Deceptions.
-categories: [Business]
+categories: [business,information-system]
 title: Open Source Software (OSS)
 permalink: /open-source/
 image: /images/open-source.jpg
