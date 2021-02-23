@@ -11,6 +11,7 @@ search_exclude: true
   {% assign categories = "" | split:"" %}
   {% for c in site.categories %}
     {% if site.categories['draft'].size > 0 or site.categories['personal'].size > 0 or site.categories['family'].size > 0 or site.categories['underground'].size > 0 %}
+    {% else %}
       {% assign categories = categories | push: c[0] %}
     {% endif %}
   {% endfor %}
