@@ -10,22 +10,13 @@ search_exclude: true
 
   {% assign categories = "" | split:"" %}
   {% for c in site.categories %}
-    {% assign categories = categories | push: c[0] %}
+    {% if site.categories['draft'].size > 0 or site.categories['personal'].size > 0 or site.categories['family'].size > 0 or site.categories['underground'].size > 0 %}
+      {% assign categories = categories | push: c[0] %}
+    {% endif %}
   {% endfor %}
   {% assign categories = categories | sort_natural %}
 
-  <ul style="    display: none;
-  gap: 26px;
-  flex-wrap: wrap;
-">
-
-  {% for category in categories %}
-    <li><a href="#{{ category }}">{{ category }}</a></li>
-  {% endfor %}
-  </ul>
-
   {%- include tags-list.html categories=categories -%}
-
 
   {% for category in categories %}
       <h3 id ="{{ category }}"><i class="tag fas fa-hash-tag {{category}}"></i></i> {{ category }}</h3>
