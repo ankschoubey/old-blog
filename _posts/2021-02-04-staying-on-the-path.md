@@ -74,6 +74,13 @@ Be the one who does things. Who solves the problems. Not the one who just reacts
 > 
 > Relax. Victory is assured. [^1]
 
+How do you know if you are on the path?
+
+- Foundations are build and maintained
+- You are optimally between order and chaos
+- You are default aggressive. You fix problems before they occur.
+- You can choose the short term pleasure, but you choose not to. in favor of long term.
+
 [^1]: Naval Ravikant
 [^2]: Game of Thrones
 [^3]: Jordan Peterson

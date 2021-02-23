@@ -51,7 +51,7 @@ Later practising every day for 15 minutes became a hobby.
 
 ## Concentration and Being Calm
 
-Sometimes playing Piano requires concentration like reading a good book. Often time my brain would be on full throttle flow mode.
+Sometimes playing the Piano requires concentration like reading a good book. Often time my brain would be on full throttle flow mode.
 
 ## Calm
 
@@ -84,7 +84,7 @@ Initially, I kept my keyboard over a pillow. A YouTube video suggested getting a
 
 The stand instantly improved my playing by 30%.
 
-Later I got sustain pedal while practising fur-elise
+Later I got sustain pedal while practising Fur-Elise.
 
 ## Humility
 

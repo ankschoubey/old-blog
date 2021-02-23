@@ -149,6 +149,7 @@ Balance is the key. ⚖️
 [^7]: [Twelve Math Myths](https://www.uaf.edu/deved/math/help-for-math-anxiety/12-math-myths/)
 [^8]: [Richard Feynman talks about Algebra](https://www.youtube.com/watch?v=VW6LYuli7VU&feature=share)
 [^9]: [What is Mathematics?](https://www.youtube.com/watch?v=64643Op6WJo)
+[^10]: [Why Math is Important](https://www.youtube.com/watch?v=KX608C2RZek)
 ***
 
 Unformed Thoughts:
@@ -159,8 +160,14 @@ Cultivate habit of looking at math and make concious effort.
 
 Concepts from Clean Code apply to maths to create clean maths. THe cleaner your maths is the easier it will be.
 
-Simplify formulas. Most formulas are intitive and they are not as big when you break it up into their separate formulas.
+Simplify formulas. Most formulas are intitive and they are not as big when you break it up into their separate formulas. 
 
-Force yourself to calculate mentally first.
+Know numbers in all it's forms. Vairbales. Functions.
+
+Force yourself to calculate mentally first. Doing maths mentally is very fast and it requires less time. It is a good exercise to do. Plus it is better to have the answer and write the steps down rather than try writing step my step and try to solve it. You know the answer already, you just have to write the reasons for it.
 
 If you fear maths, all the fear you have you'll feel in the first 30 seconds of encountarinng the problem. Close your eyes then a deep breath and read it with full concertration without concert for if you'll be able to solve the problem or not.
+
+Most people won't use maths beyond basic arithmetic. But the reason to learn advance maths is the same reason you learn to write, It makes you a better thinker. You'll have better reasoning skills, more common knowledge and make better decisions if you do maths. [^10]
+
+Programming is Maths. You just have the computer do the work.
