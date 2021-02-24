@@ -14,9 +14,9 @@ image: /images/ethical-capitalism.jpg
 
 ## Capitalism is Pure Genius
 
-Capitalism involves pushing oneself to help others. That is what capitalists do.
+Capitalism involves pushing oneself to help others.
 
-They find a problem, solve it, and earn money as a reward.
+Entrepreneurs find a problem, solve it, and earn money as a reward.
 
 In capitalism terms, money is proof that you are adding value to the world. [^1]
 
@@ -24,19 +24,17 @@ Those who don't own a business, help others by becoming an employee, thus adding
 
 ## The Path To High Impact through Capitalism
 
-It is efficient to adapt ourselves to the world than to do the opposite. Money is an important form of trust.
+It is efficient to adapt ourselves to the world than to do the opposite. Money is a form of trust.
 
-To have the impact of any form and at any level, you are going to need money. The best way to do it is to be a capitalist, add values to people's lives, and be rewarded in the form of money.
-
-In some sense, you are a capitalist if you are earning i.e you have a job or a business. And you are a really good capitalist if you are earning more.
+You're going to need money to have the effect of any kind and at any stage. Being a capitalist, providing value, and being compensated with cash is the best way to do it.
 
 ## Capitalism + Ethics
 
 Capitalism is not perfect. If not kept in check, it can turn evil (Example: East India Company). There are ways to earn money without adding value to people's life.
 
-Ethics is not intrinsic to capitalism. And it probably never be as it is hard to be laid out concretely. A combination of the two leads to more results than one or the other.
+Ethics is not intrinsic to capitalism. And it probably never be as it is hard to map out. A combination of the two leads to more results than one or the other.
 
-Ethics allows you to play long-term games and be trustworthy but unlike money, it helps you earn social trust.
+Ethics enables you to play long-term games, be trustworthy and win social trust.
 
 The mix of the two is probably why companies like Apple and Tata Group are so successful and trusted for so long. They provide high value while not compromising on ethics.
 
