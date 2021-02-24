@@ -984,31 +984,9 @@
   
 
   
-      ,"page1": {
-          "title": "",
-          "content": "This is where you put the contents of your About page. Like all your pages, it’s in Markdown format. . This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
-          "url": "www.ankushchoubey.com/about/",
-          "relUrl": "/about/",
-          "date": ""
-      }
-      
-  
 
   
       ,"page2": {
-          "title": "",
-          "content": "Send",
-          "url": "www.ankushchoubey.com/contact/",
-          "relUrl": "/contact/",
-          "date": ""
-      }
-      
-  
-
-  
-
-  
-      ,"page4": {
           "title": "",
           "content": "How to recover from injuries faster • Feb 23, 2021 . Ethical Capitalism • Feb 18, 2021 . The Path / Ethics • Feb 4, 2021 . You need time to think • Jan 23, 2021 . More on Facade Companies • Jan 23, 2021 . Influence of Giant Tech Companies • Jan 23, 2021 . Piano • Jan 16, 2021 .",
           "url": "www.ankushchoubey.com/personal/",
@@ -1019,24 +997,11 @@
   
 
   
-
-  
   
 
   
 
   
-  
-
-  
-      ,"page9": {
-          "title": "",
-          "content": "I am going to build a lot of weekend sized iterable side projects which I will deploy. . Some are definetely useless. . {% for post in site.categories[‘Side Project’] %} {%- assign date_format = site.minima.date_format | default: “%b %-d, %Y” -%} . {{post.title}} • {{ post.date | date: date_format }} . {% endfor %} . Here are few that I am planning to build: . A downloadable PDF calender for any month (using jsPDF) | A webapp that showns intersection between people’s following on twitter. Useful when seeing who to follow next. | An app to detect math symbols | An app to detect type on Mango | Side Projects by Category . DL . ONNX | . Data Science: Visualization . React . App with Payment . A simple useful open source app . UX specific app with Tailwind . An App with No Code Tools . An App Designed for Social Media People . An App For Fitness . An App for Money . An App/Service for Music . An app/service for learning .",
-          "url": "www.ankushchoubey.com/side_projects/",
-          "relUrl": "/side_projects/",
-          "date": ""
-      }
-      
   
 
   
@@ -1061,7 +1026,7 @@
   
 
   
-      ,"page19": {
+      ,"page15": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "www.ankushchoubey.com/robots.txt",
