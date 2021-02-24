@@ -26,22 +26,24 @@ Those who don't have a business help others by becoming an employee. They too ad
 
 Capitalism is not perfect but it is better than anything other economic systems.
 
-## The path is through money.
+## The path is through Capitalism.
 
 It is efficient to adapt ourselves to the world than to do the opposite. In the current world, we live in [^2] money is an important form of trust.
 
-To have the impact of any form and at any level, you are going to need money. The best way to do it is to be a capitalist to add values to people's life.
+To have the impact of any form and at any level, you are going to need money. The best way to do it is to be a capitalist, add values to people's lives, and be rewarded in the form of money.
 
-In some sense, you are a capitalist if you are earning i.e you have a job or a business.
+In some sense, you are a capitalist if you are earning i.e you have a job or a business. You are a really good capitalist if you are earning more.
 
 ## Capitalism + Ethics
 
-Ethics is not intrinsic to capitalism. And it probably never be as it is hard to be laid out concretely. A combination of the two leads to more results than one or the other.
+Capitalism if not kept in check can turn evil (Example: East India Company). There are ways to earn money without adding value to people's life.
 
-Capitalism if not kept in check can turn evil. There are ways to earn money without adding value to people's life.
+Ethics is not intrinsic to capitalism. And it probably never be as it is hard to be laid out concretely. A combination of the two leads to more results than one or the other.
 
 Ethics allows you to play long-term games and be trustworthy but unlike money, it helps you earn social trust.
 
-This combination of capitalism and ethics seems to be the reason that companies like Apple and Tata Group are so successful and trusted. They are capitalists aka they provide high value and they don't compromise on ethics.
+The combination of capitalism and ethics seems to be the reason that companies like Apple and Tata Group are so successful and trusted for so long. They are capitalists aka they provide high value and they don't compromise on ethics.
+
+It seems better to think in terms of adding value than to think in terms of money.
 
 [^1]: Naval Ravikant
