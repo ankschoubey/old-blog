@@ -22,7 +22,7 @@ In capitalism terms, money is proof that you are adding value to the world. [^1]
 
 Those who don't own a business, help others by becoming an employee, thus adding value.
 
-## The Path To High Impact through Capitalism
+## The Path To High Impact Is Through Capitalism
 
 It is efficient to adapt ourselves to the world than to do the opposite. Money is a form of trust.
 
