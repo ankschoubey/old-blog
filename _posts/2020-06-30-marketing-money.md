@@ -1,17 +1,17 @@
 ---
 description: Draft version
-title: Marketing
+title: Marketing Money
 comments: true
-categories: [business,draft]
+categories: [business, marketing]
 layout: post
 use_math: true
-permalink: /marketing/
+permalink: /marketing-money/
 ---
 
 ## Word of Mouth
 I understand that there are more things in the world then technology products but for a lot of technology products I don't like ads.
 
-Like cars. Tesla does it the best.
+Tesla does it the best.
 
 They make a really really good product which is much better that what is offered by the competition and thus the words spreads by word of mouth.
 
@@ -35,9 +35,3 @@ On the other hand Bose was profitable just for their product.
 Beats is not at the place it was in it's hype years now. That is likely because Apple (it's now parent company) has decided to focus more on product quality.
 
 Over marketing a product while ignoring quality mean you get the initial sales but they as time passes you have to deal with user start disliking you.
-
-## Privacy
-...writing in progress...
-
-## Putting ads on every god damn blank space
-...writing in progress...

@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [Businesses]
+categories: [business]
 title: Comparison in Performance Evaluation
 permalink: /comparison/
 ---

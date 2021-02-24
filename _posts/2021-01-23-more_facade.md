@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [draft, business]
+categories: [business, personal]
 title: More on Facade Companies
 permalink: /more_facade/
 ---
