@@ -3,43 +3,45 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [personal]
-title: Ethical Capitalism
+categories: [business, philosophical]
+title: Ethical Capitalism Is A Game Everyone Needs To Win At
 permalink: /ethical-capitalism/
+image: /images/ethical-capitalism.jpg
 ---
+![](/images/ethical-capitalism.jpg)
 
-ethical capitalism is a game everyone needs to win at.
+<sub>Photo by <a href="https://unsplash.com/@billow926?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">billow926</a> on <a href="https://unsplash.com/s/photos/market?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sub>
 
-The more you read about it the more you relize that these economic systems are designed to help people. And capitalism is a pure genius.
+Our economic systems are designed to help people. And capitalism is a pure genius.
 
+## Capitalism
 
-There are some issues where my brain in not he best fit. So I am trying to explore this area.
+Capitalism involves pushing oneself to help others. That is what capitalists do.
 
+They find a problem and solve it. The reward is in form of money. 
 
-Capitalism involves pushing onewself to help others. That is what capitalist do.
+In capitalism terms, money is proof that you are adding value to the world. [^1]
 
- They build businesses that help other people.
+Those who don't have a business help others by becoming an employee. They too add value.
 
-They find a problem and solve it. How do you get rewarded. You get rewarded in from of money.
+Capitalism is not perfect but it is better than anything other economic systems.
 
-THouse who don't have their own business help others by becoming employee. They too add value.
+## The path is through money.
 
-Money is a proof that you are adding value to the world.
+It is efficient to adapt ourselves to the world than to do the opposite. In the current world, we live in [^2] money is an important form of trust.
 
-Capitalism is not perfect but it is better than anything other economic system.
+To have the impact of any form and at any level, you are going to need money. The best way to do it is to be a capitalist to add values to people's life.
 
-Capitalism if not kept check can turn evil. Though ethics is not something that is intristic in capitalism.
+In some sense, you are a capitalist if you are earning i.e you have a job or a business.
 
-And it amy probably never be included as it is hard to be laid out perfectly.
+## Capitalism + Ethics
 
-Ethics allows you to play long term game and be trust worth. Money is also a metric of trust.
+Ethics is not intrinsic to capitalism. And it probably never be as it is hard to be laid out concretely. A combination of the two leads to more results than one or the other.
 
-A combination of the two leads to more result that one or the other.
+Capitalism if not kept in check can turn evil. There are ways to earn money without adding value to people's life.
 
-Bezos vs Elon Musk.
+Ethics allows you to play long-term games and be trustworthy but unlike money, it helps you earn social trust.
 
+This combination of capitalism and ethics seems to be the reason that companies like Apple and Tata Group are so successful and trusted. They are capitalists aka they provide high value and they don't compromise on ethics.
 
-The path is through money.
-
-What are you going to do not earn?
-
+[^1]: Naval Ravikant
