@@ -30,7 +30,7 @@ You're going to need money to have the effect of any kind and at any stage. Bein
 
 ## Capitalism + Ethics
 
-Capitalism is not perfect. If not kept in check, it can turn evil (Example: East India Company). There are ways to earn money without adding value to people's life.
+Capitalism is not perfect. If not kept in check, it can turn evil (Example: East India Company) and provide no value.
 
 Ethics is not intrinsic to capitalism. And it probably never be as it is hard to map out. A combination of the two leads to more results than one or the other.
 
