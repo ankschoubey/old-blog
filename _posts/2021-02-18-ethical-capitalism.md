@@ -26,7 +26,7 @@ Those who don't own a business, help others by becoming an employee, thus adding
 
 It is efficient to adapt ourselves to the world than to do the opposite. Money is a form of trust.
 
-You're going to need money to have the effect of any kind and at any stage. Being a capitalist, providing value, and being compensated with cash is the best way to do it.
+You're going to need money to have the effect of any kind and at any stage. Being a capitalist (employee or entrepreneur), providing value, and being compensated with cash is the best way to do it.
 
 ## Capitalism + Ethics
 
