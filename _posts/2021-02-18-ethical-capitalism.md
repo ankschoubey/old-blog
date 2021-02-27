@@ -2,7 +2,7 @@
 toc: false
 layout: post
 comments: true
-description: The Game Everyone Needs To Win
+description: The Game Which Everyone Needs To Win
 categories: [business, philosophical]
 title: Ethical Capitalism
 permalink: /ethical-capitalism/
