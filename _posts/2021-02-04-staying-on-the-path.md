@@ -80,6 +80,9 @@ How do you know if you are on the path?
 - You are optimally between order and chaos
 - You are default aggressive. You fix problems before they occur.
 - You can choose the short term pleasure, but you choose not to. in favor of long term.
+- You always tell the truth. And are not afraid of the consiquences/
+- Your productivity level is high.
+- You are always calm.
 
 [^1]: Naval Ravikant
 [^2]: Game of Thrones
