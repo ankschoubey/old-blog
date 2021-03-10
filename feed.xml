@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-03-06T01:05:21-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Testing</title><link href="www.ankushchoubey.com/testing/" rel="alternate" type="text/html" title="Testing" /><published>2021-02-28T00:00:00-06:00</published><updated>2021-02-28T00:00:00-06:00</updated><id>www.ankushchoubey.com/testing</id><content type="html" xml:base="www.ankushchoubey.com/testing/">&lt;p&gt;&lt;img src=&quot;/images/testing.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-03-10T12:46:20-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">User Interface</title><link href="www.ankushchoubey.com/ux/" rel="alternate" type="text/html" title="User Interface" /><published>2021-03-10T00:00:00-06:00</published><updated>2021-03-10T00:00:00-06:00</updated><id>www.ankushchoubey.com/ux</id><content type="html" xml:base="www.ankushchoubey.com/ux/">&lt;p&gt;I started learning about UX a few months ago and this post is a summarizes of things I have learned far.&lt;/p&gt;
+
+&lt;h2 id=&quot;user-experience&quot;&gt;User Experience&lt;/h2&gt;
+
+&lt;p&gt;User Experience (UX) is about making a product or service in a way that is useful, easy and delightful for end users.&lt;/p&gt;
+
+&lt;p&gt;UX is something that has to be actively focused on.&lt;/p&gt;
+
+&lt;p&gt;Because if UX is not good,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;User will get frustrated using the product&lt;/li&gt;
+  &lt;li&gt;User not find product attractive to use.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And therefore they won’t use your product.&lt;/p&gt;
+
+&lt;h2 id=&quot;emphatise-with-the-user&quot;&gt;Emphatise with the user.&lt;/h2&gt;
+
+&lt;p&gt;The way to understand what the users what is by emphatising with struggles that user’s face.&lt;/p&gt;
+
+&lt;h2 id=&quot;test-fast&quot;&gt;Test fast&lt;/h2&gt;
+
+&lt;p&gt;The earlier you can get feedback from the user, the shorter your product development cycle will be.&lt;/p&gt;
+
+&lt;p&gt;The user can only know what he/she likes when he/she can experience the product. But since product development takes resources, prototyping helps to make the process faster.&lt;/p&gt;
+
+&lt;p&gt;The fastest way to do it is use paper prototypes. Paper is inexpensive, quick and has zero learning curve.&lt;/p&gt;
+
+&lt;p&gt;You can prototype not just User Interface but also physical products.&lt;/p&gt;
+
+&lt;p&gt;It’s best to involve the end users as much as possible in the design process.&lt;/p&gt;
+
+&lt;h2 id=&quot;ui-is-part-of-ux-not-the-other-way-around&quot;&gt;UI is part of UX not the other way around.&lt;/h2&gt;
+
+&lt;p&gt;Center justification is bad if there are too many things center justified.&lt;/p&gt;</content><author><name></name></author><summary type="html">I started learning about UX a few months ago and this post is a summarizes of things I have learned far.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/testing.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/testing.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Testing</title><link href="www.ankushchoubey.com/testing/" rel="alternate" type="text/html" title="Testing" /><published>2021-02-28T00:00:00-06:00</published><updated>2021-02-28T00:00:00-06:00</updated><id>www.ankushchoubey.com/testing</id><content type="html" xml:base="www.ankushchoubey.com/testing/">&lt;p&gt;&lt;img src=&quot;/images/testing.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup style=&quot;user-select: auto;&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@mykjohnson?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Mykenzie Johnson&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/testing?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
@@ -502,117 +536,4 @@
       &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:2:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:2:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:2:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:2:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/why_ethics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/why_ethics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Sapiens Book Summary</title><link href="www.ankushchoubey.com/sapiens/" rel="alternate" type="text/html" title="Sapiens Book Summary" /><published>2020-12-29T00:00:00-06:00</published><updated>2020-12-29T00:00:00-06:00</updated><id>www.ankushchoubey.com/sapiens</id><content type="html" xml:base="www.ankushchoubey.com/sapiens/">&lt;p&gt;&lt;img src=&quot;https://vialogue.files.wordpress.com/2017/04/sapiens.jpg&quot; alt=&quot;&quot; style=&quot; width: 250px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;why-this-summary&quot;&gt;Why this summary&lt;/h2&gt;
-&lt;p&gt;The book took around two months to complete. I am a slow reader. I am trying to write this as a way to better process what I understood.&lt;/p&gt;
-
-&lt;p&gt;This summary may spoil your reading experience if you have not read the book yourself.&lt;/p&gt;
-
-&lt;p&gt;The order of points is random.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-book&quot;&gt;The book&lt;/h2&gt;
-
-&lt;p&gt;The book is a brief history. It transitions fast and beautifully from one topic to another.&lt;/p&gt;
-
-&lt;p&gt;It also presents arguments and counter-arguments in a way that tries to explain the whole thing from maximum points of view. This kind of writing and thinking is something I aspire.&lt;/p&gt;
-
-&lt;h2 id=&quot;lessons&quot;&gt;Lessons&lt;/h2&gt;
-
-&lt;h3 id=&quot;cousins&quot;&gt;Cousins&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;We had a lot of cousin humans. Once upon a time, Around &lt;strong&gt;six species of humans&lt;/strong&gt; roamed the earth at the once.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;We are not unique&lt;/strong&gt;. 3 billion years ago our universe was born. It will stay for billions. We are not even the human species that has survived the longest (as of yet).&lt;/li&gt;
-  &lt;li&gt;There are countless species. We are just specie that got lucky thanks to our intellect and imagined realities.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;imagined-realities&quot;&gt;Imagined Realities&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;History is random&lt;/strong&gt;. There are cause and effect to certain events but there is no reason why history could not have turned in some other way.&lt;/li&gt;
-  &lt;li&gt;Religion is a recent thing. (10,000 years ago).&lt;/li&gt;
-  &lt;li&gt;The way we interact and work together with stranger and form groups larger than 150 is by imaging things.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Societal constructs&lt;/strong&gt; like nation, company, ethics, etc are imagined realities shared by billions. It’s so strong that we act according to them in the real world.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;There is no justice in history&lt;/strong&gt;. Even a human right is an imagined construct. There is nothing in biology that suggest it to be a truth. These constructs do help keep people sane.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;destroyer-of-species&quot;&gt;Destroyer of Species&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Huntergathers were healthier&lt;/strong&gt; than us but they did not live for that long.&lt;/li&gt;
-  &lt;li&gt;There is no going back once the Agriculture Revolution started. Why would someone want to go back to hunting?&lt;/li&gt;
-  &lt;li&gt;We are &lt;strong&gt;Thanos&lt;/strong&gt; for other species. Our species has captured and killed and effected almost all animals on earth.&lt;/li&gt;
-  &lt;li&gt;We don’t look at animals with the same view as we look at other humans. We abolished human slavery but are okay with animal slavery.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;capitalism&quot;&gt;Capitalism&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Science is largely a product of Capitalism and politics&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Capitalism allowed us to progress fast.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Capitalist if not checked can do anything for money&lt;/strong&gt;. Slave trading companies were listed in the London Stock Exchange. This seems kind of similar to current privacy breaching companies or how we farm animals.&lt;/li&gt;
-  &lt;li&gt;The stock investor would not care what happens in the company. he is just interacted in making a return.&lt;/li&gt;
-  &lt;li&gt;Government and legal checks are necessary to keep Capitalists in check.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;accepting-ignorance&quot;&gt;Accepting Ignorance&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;The &lt;strong&gt;scientific revolution was a result of Europeans accepting that they are ignorant&lt;/strong&gt;. That they don’t know things.&lt;/li&gt;
-  &lt;li&gt;The reason the Scientific revolution took place in Europe instead of India or China (even if Asia controlled 80% of world GDP) is because of social constructs.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Asians did not accept their ignorance&lt;/strong&gt; and did not venture out to find answers to things they did not know.&lt;/li&gt;
-  &lt;li&gt;New material discovered increase progress rapidly.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unification&quot;&gt;Unification&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;The 3 things that brought humankind together; &lt;strong&gt;Empired, Religion, Money&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Money crossed lines which religion could not&lt;/strong&gt;. Everybody loves money.&lt;/li&gt;
-  &lt;li&gt;There have been many types of money and does not include just a coin.&lt;/li&gt;
-  &lt;li&gt;We are all influenced by European culture. No country has an original culture. It’s a mix.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;math&quot;&gt;Math&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Maths allowed us to predict the future&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Time and timetable tracking is recent. Though it is very efficient.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;buddhism&quot;&gt;Buddhism&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Western liberals mix their view with the Buddhist view.&lt;/li&gt;
-  &lt;li&gt;The Buddhist view is not that the happiness in individual and it must be protected.&lt;/li&gt;
-  &lt;li&gt;The main part is the &lt;strong&gt;internal states are fleeting&lt;/strong&gt; and they change every moment. &lt;strong&gt;There is no point in chasing after it&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;credit&quot;&gt;Credit&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Banks and the whole financial system are built on credit&lt;/strong&gt;. They provide more money than they have hoped for a future return. This is a large contributor to human progress.&lt;/p&gt;
-
-&lt;h3 id=&quot;lone-individual&quot;&gt;Lone Individual&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Individual needs are now satisfied by state&lt;/strong&gt; and organizations instead of family and community.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;If you want money, you can take a loan.&lt;/li&gt;
-  &lt;li&gt;if you want an education you go to school.&lt;/li&gt;
-  &lt;li&gt;if you are unemployed there are un-employment schemes.&lt;/li&gt;
-  &lt;li&gt;if you are old, there are retirement schemes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;transendance&quot;&gt;Transendance&lt;/h3&gt;
-&lt;p&gt;Humans have &lt;strong&gt;transcended genetic boundaries&lt;/strong&gt;.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;We learn faster and adapt quicker. Unlike other animals whose genes dictate what they do.&lt;/li&gt;
-  &lt;li&gt;We have created medicines and technologies that far exceed and extend our natural limitations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;communication&quot;&gt;Communication&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;A band of good communication sapiens of 500 could beat Neanderthals with a pack of 5 times more.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Gossip is natural to us&lt;/strong&gt;. Gossip conveys important information like who to avoid, what to do, what not to do, etc which helps us be safe.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;peace-in-our-time&quot;&gt;Peace in our time&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Humans have been safer than ever&lt;/strong&gt;. And we seem to be moving towards more peace.&lt;/li&gt;
-  &lt;li&gt;Compared to history, the decolonization of colonies has been relatively peaceful. &lt;strong&gt;Everyone seems to be tired of war&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;nature&quot;&gt;Nature&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Biology is always changing&lt;/strong&gt;. It is never constant or fixed. If you go by this line of thinking, more than human 2 genders are possible and biology won’t have any problem with it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://vialogue.files.wordpress.com/2017/04/sapiens.jpg" /><media:content medium="image" url="https://vialogue.files.wordpress.com/2017/04/sapiens.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/why_ethics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/why_ethics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
