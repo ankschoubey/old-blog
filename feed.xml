@@ -1,22 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-03-10T12:46:20-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">User Interface</title><link href="www.ankushchoubey.com/ux/" rel="alternate" type="text/html" title="User Interface" /><published>2021-03-10T00:00:00-06:00</published><updated>2021-03-10T00:00:00-06:00</updated><id>www.ankushchoubey.com/ux</id><content type="html" xml:base="www.ankushchoubey.com/ux/">&lt;p&gt;I started learning about UX a few months ago and this post is a summarizes of things I have learned far.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-03-12T22:06:02-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">User Experience</title><link href="www.ankushchoubey.com/ux/" rel="alternate" type="text/html" title="User Experience" /><published>2021-03-10T00:00:00-06:00</published><updated>2021-03-10T00:00:00-06:00</updated><id>www.ankushchoubey.com/ux</id><content type="html" xml:base="www.ankushchoubey.com/ux/">&lt;p&gt;&lt;img src=&quot;/images/ux.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@alvarordesign?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Alvaro Reyes&lt;/a&gt; on &lt;a href=&quot;/s/photos/ux?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I started learning about UX a few months ago. This post summarizes things I have learned far.&lt;/p&gt;
 
 &lt;h2 id=&quot;user-experience&quot;&gt;User Experience&lt;/h2&gt;
 
 &lt;p&gt;User Experience (UX) is about making a product or service in a way that is useful, easy and delightful for end users.&lt;/p&gt;
 
-&lt;p&gt;UX is something that has to be actively focused on.&lt;/p&gt;
+&lt;p&gt;UX is something that has to be actively worked on. It won’t happen automatically.&lt;/p&gt;
 
 &lt;p&gt;Because if UX is not good,&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;User will get frustrated using the product&lt;/li&gt;
-  &lt;li&gt;User not find product attractive to use.&lt;/li&gt;
+  &lt;li&gt;User will not find the product attractive to use.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;And therefore they won’t use your product.&lt;/p&gt;
 
-&lt;h2 id=&quot;emphatise-with-the-user&quot;&gt;Emphatise with the user.&lt;/h2&gt;
+&lt;h2 id=&quot;sympathize-with-the-user&quot;&gt;Sympathize with the user.&lt;/h2&gt;
 
-&lt;p&gt;The way to understand what the users what is by emphatising with struggles that user’s face.&lt;/p&gt;
+&lt;p&gt;The way to understand what the users want is by sympathizing with the struggles that user’s face.&lt;/p&gt;
 
 &lt;h2 id=&quot;test-fast&quot;&gt;Test fast&lt;/h2&gt;
 
@@ -24,15 +28,40 @@
 
 &lt;p&gt;The user can only know what he/she likes when he/she can experience the product. But since product development takes resources, prototyping helps to make the process faster.&lt;/p&gt;
 
-&lt;p&gt;The fastest way to do it is use paper prototypes. Paper is inexpensive, quick and has zero learning curve.&lt;/p&gt;
+&lt;p&gt;The fastest way to do it is to create paper prototypes. Paper is inexpensive, quick and has zero learning curve.&lt;/p&gt;
 
 &lt;p&gt;You can prototype not just User Interface but also physical products.&lt;/p&gt;
 
-&lt;p&gt;It’s best to involve the end users as much as possible in the design process.&lt;/p&gt;
+&lt;p&gt;Once the paper prototype is created, you can increase the fidelity of the prototypes.&lt;/p&gt;
 
-&lt;h2 id=&quot;ui-is-part-of-ux-not-the-other-way-around&quot;&gt;UI is part of UX not the other way around.&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;If a picture can say a thousand words, a prototype can save a thousand meetings.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Center justification is bad if there are too many things center justified.&lt;/p&gt;</content><author><name></name></author><summary type="html">I started learning about UX a few months ago and this post is a summarizes of things I have learned far.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/testing.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/testing.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Testing</title><link href="www.ankushchoubey.com/testing/" rel="alternate" type="text/html" title="Testing" /><published>2021-02-28T00:00:00-06:00</published><updated>2021-02-28T00:00:00-06:00</updated><id>www.ankushchoubey.com/testing</id><content type="html" xml:base="www.ankushchoubey.com/testing/">&lt;p&gt;&lt;img src=&quot;/images/testing.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It’s best to involve the end-users as much as possible in the design process.&lt;/p&gt;
+
+&lt;p&gt;The prototype also helps engineers to build exactly what the end-users want and reduces overall development time.&lt;/p&gt;
+
+&lt;h2 id=&quot;ui-is-part-of-ux-not-the-other-way-around&quot;&gt;UI is part of UX, not the other way around.&lt;/h2&gt;
+
+&lt;p&gt;UX includes more than the User Interface. It includes every interaction the user has with the product or the company.&lt;/p&gt;
+
+&lt;p&gt;UX is concerned with how the user feels when using the product and not just how it looks.&lt;/p&gt;
+
+&lt;p&gt;Such things can include reducing the number of steps needed to perform a task.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-checklist-for-beauty-of-user-interface&quot;&gt;A Checklist for “beauty” of User Interface&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;a class=&quot;no_icon&quot; target=&quot;_blank&quot; href=&quot;/images/ux/1.jpg&quot;&gt;
+    &lt;img class=&quot;docimage&quot; src=&quot;&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+    
+      &lt;figcaption&gt;As a developer how can I become a better designer.&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://www.youtube.com/watch?v=Ha_ooKAWAJI&quot;&gt;“As a developer how can I become a better designer?” ANSWERED!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/ux.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/ux.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Testing</title><link href="www.ankushchoubey.com/testing/" rel="alternate" type="text/html" title="Testing" /><published>2021-02-28T00:00:00-06:00</published><updated>2021-02-28T00:00:00-06:00</updated><id>www.ankushchoubey.com/testing</id><content type="html" xml:base="www.ankushchoubey.com/testing/">&lt;p&gt;&lt;img src=&quot;/images/testing.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup style=&quot;user-select: auto;&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@mykjohnson?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Mykenzie Johnson&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/testing?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
