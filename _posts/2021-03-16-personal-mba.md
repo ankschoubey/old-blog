@@ -336,6 +336,8 @@ You can use other methods to set baseline but Value comparison is usually the op
 
 ### Price Transition Shock
 
+
+
 ### Value Based Selling
 
 ### Education Based Selling
