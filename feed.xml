@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-03-28T02:20:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">The Personal MBA</title><link href="www.ankushchoubey.com/mba/" rel="alternate" type="text/html" title="The Personal MBA" /><published>2021-03-16T00:00:00-05:00</published><updated>2021-03-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/personal-mba</id><content type="html" xml:base="www.ankushchoubey.com/mba/">&lt;p&gt;&lt;img src=&quot;/images/mba.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-04-01T10:41:10-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Keeping Web Dev code proper</title><link href="www.ankushchoubey.com/web-dev-clean/" rel="alternate" type="text/html" title="Keeping Web Dev code proper" /><published>2021-04-01T00:00:00-05:00</published><updated>2021-04-01T00:00:00-05:00</updated><id>www.ankushchoubey.com/keeping-web-dev-clean</id><content type="html" xml:base="www.ankushchoubey.com/web-dev-clean/">&lt;p&gt;&lt;img src=&quot;/images/web-dev-clean.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@markusspiske?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Markus Spiske&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/web-development?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;choose-a-framework-which-is-stable&quot;&gt;Choose a framework which is stable.&lt;/h2&gt;
+
+&lt;p&gt;I belive Angular is more stable long term that React which requires too much learning. Less is modified therefore your code will last longer. Atleast it seems that way right now.&lt;/p&gt;
+
+&lt;h2 id=&quot;make-very-small-modular-pieces&quot;&gt;Make very small modular pieces.&lt;/h2&gt;
+
+&lt;p&gt;In angular, create components even for small things like img or video tag. You’ll find that there are certain attributes you assign to every img tag that can be taken care of from one place&lt;/p&gt;
+
+&lt;p&gt;Seperate app such codes from business logic. You should be able to copy laste these modules into another code base and use it without changes&lt;/p&gt;
+
+&lt;h2 id=&quot;make-layout-components&quot;&gt;Make layout components&lt;/h2&gt;
+
+&lt;p&gt;These are common layouts you use throughtout the application.  Coding them in once place reduces unnecessary duplications.&lt;/p&gt;
+
+&lt;h2 id=&quot;best-way-to-deal-with-css-is-to-write-very-less-of-it&quot;&gt;Best way to deal with CSS is to write very less of it.&lt;/h2&gt;
+
+&lt;p&gt;CSS gets messy fast. By keeping your components small. You are half way there to a good css.&lt;/p&gt;
+
+&lt;p&gt;Also make good use of &lt;code class=&quot;highlighter-rouge&quot;&gt;display: flex&lt;/code&gt;. It gets most of the job done.&lt;/p&gt;
+
+&lt;h2 id=&quot;best-way-to-keep-html-clutter-free-is-to-not-write-javascripttypecript-logic-in-it&quot;&gt;Best way to keep HTML clutter free is to not write javascript/typecript logic in it&lt;/h2&gt;
+
+&lt;p&gt;Angular provides a Ts use it for everything good. Even for ngStyle or ngClass.&lt;/p&gt;
+
+&lt;p&gt;This will keep your html very clean.&lt;/p&gt;
+
+&lt;p&gt;Create a &lt;code class=&quot;highlighter-rouge&quot;&gt;get&lt;/code&gt; method to keep things clean.&lt;/p&gt;
+
+&lt;h2 id=&quot;have-very-few-utility-classes&quot;&gt;Have very few utility classes.&lt;/h2&gt;
+
+&lt;p&gt;It’s stupid to have too many utility classes spread throughout your codebase. Have only a few at a single place.&lt;/p&gt;
+
+&lt;p&gt;Only keep a utility class or method if it is used. Remove unneccesary code.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/web-dev-clean.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/web-dev-clean.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Personal MBA</title><link href="www.ankushchoubey.com/mba/" rel="alternate" type="text/html" title="The Personal MBA" /><published>2021-03-16T00:00:00-05:00</published><updated>2021-03-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/personal-mba</id><content type="html" xml:base="www.ankushchoubey.com/mba/">&lt;p&gt;&lt;img src=&quot;/images/mba.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I had been thinking and writing a lot of article but the amount of time it was taking me was huge.&lt;/p&gt;
 
@@ -814,66 +850,4 @@ CTA should be simple, single and obvious.&lt;/p&gt;
       &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/business-ethics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/business-ethics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Piano</title><link href="www.ankushchoubey.com/piano/" rel="alternate" type="text/html" title="Piano" /><published>2021-01-16T00:00:00-06:00</published><updated>2021-01-16T00:00:00-06:00</updated><id>www.ankushchoubey.com/piano</id><content type="html" xml:base="www.ankushchoubey.com/piano/">&lt;p&gt;&lt;img src=&quot;/images/piano.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;sub style=&quot;user-select: auto;&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@dolodol?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Dolo Iglesias&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/piano?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;In some sense, the Piano is just a speaker that is manual and more satisfying.&lt;/p&gt;
-
-&lt;h2 id=&quot;learn-sheet-music&quot;&gt;Learn sheet music&lt;/h2&gt;
-&lt;p&gt;You don’t need to memorize songs if you can read sheet music.&lt;/p&gt;
-
-&lt;p&gt;It’s much faster to progress in the long run.&lt;/p&gt;
-
-&lt;p&gt;It is joyful to open any random song and play it without having to watch a YouTube tutorial for each song.&lt;/p&gt;
-
-&lt;p&gt;The more sheet music you see, the easier it is to read.&lt;/p&gt;
-
-&lt;figure&gt;
-  
-    &lt;img class=&quot;docimage&quot; src=&quot;/images/piano/sharps-flats.png&quot; alt=&quot;&quot; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;practice&quot;&gt;Practice&lt;/h2&gt;
-
-&lt;p&gt;Every new technique (like chords, scales) learned will make you a better pianist. Thou should not skip anything.&lt;/p&gt;
-
-&lt;p&gt;Isolate parts of pieces to practice better.&lt;/p&gt;
-
-&lt;p&gt;Practice regularly. 10-15 minutes daily is better than an hour once a week.&lt;/p&gt;
-
-&lt;p&gt;Initially learning a piece, play slowly. Increase speed gradually. Once you are at the desired pace, always play at that pace. Not fast. Not slow.&lt;/p&gt;
-
-&lt;p&gt;If you suck as a new technique, continue practising it in the upcoming days. You’ll get it in 15 days.&lt;/p&gt;
-
-&lt;p&gt;Learn techniques from many sources.&lt;/p&gt;
-
-&lt;h2 id=&quot;being-calm&quot;&gt;Being Calm&lt;/h2&gt;
-&lt;p&gt;You’ll make mistakes if you are not calm. So always keep calm and check your breath.&lt;/p&gt;
-
-&lt;p&gt;Banging your fingers is a sure way to suffer. Stiff hands will become loose as you practice more.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-proper-tools&quot;&gt;Get proper tools&lt;/h2&gt;
-&lt;p&gt;Get a proper stand and seat. You’ll find you play instantly 50% better.&lt;/p&gt;
-
-&lt;h2 id=&quot;humility&quot;&gt;Humility&lt;/h2&gt;
-
-&lt;p&gt;If you think you play well, you’ll likely cry seeing Kids on YouTube play better than you.&lt;/p&gt;
-
-&lt;p&gt;Learning Piano is a rabbit hole. You might probably not learn everything.&lt;/p&gt;
-
-&lt;figure&gt;
-  
-    &lt;img class=&quot;docimage&quot; src=&quot;/images/piano/messed-solo.png&quot; alt=&quot;&quot; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;how-i-am-learning&quot;&gt;How I am learning?&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SimplyPiano App.&lt;/li&gt;
-  &lt;li&gt;YouTube Tutorial for Piano Techniques.&lt;/li&gt;
-  &lt;li&gt;Alfred’s Adult Guide for Piano&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Photo by Dolo Iglesias on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/piano.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/piano.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/business-ethics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/business-ethics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
