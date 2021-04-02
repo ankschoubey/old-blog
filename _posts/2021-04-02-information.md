@@ -22,6 +22,8 @@ Why information should be applied?
 
 By appling information faster, you will solve your problems faster or atleast move towards solving your problems faster.
 
+The information that is not learned will be forgotten.
+
 Planning.
 
 Asking Questions.
