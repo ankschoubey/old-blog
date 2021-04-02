@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: DRAFT
-categories: [information systems]
+categories: [information system]
 title: Keeping Web Dev code proper
 permalink: /web-dev-clean/
 image: /images/web-dev-clean.jpg
