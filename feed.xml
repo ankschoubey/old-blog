@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-04-01T10:41:10-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Keeping Web Dev code proper</title><link href="www.ankushchoubey.com/web-dev-clean/" rel="alternate" type="text/html" title="Keeping Web Dev code proper" /><published>2021-04-01T00:00:00-05:00</published><updated>2021-04-01T00:00:00-05:00</updated><id>www.ankushchoubey.com/keeping-web-dev-clean</id><content type="html" xml:base="www.ankushchoubey.com/web-dev-clean/">&lt;p&gt;&lt;img src=&quot;/images/web-dev-clean.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-04-02T02:52:40-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">DRAFT: Applied Information/Knowledge</title><link href="www.ankushchoubey.com/applied-info/" rel="alternate" type="text/html" title="DRAFT: Applied Information/Knowledge" /><published>2021-04-02T00:00:00-05:00</published><updated>2021-04-02T00:00:00-05:00</updated><id>www.ankushchoubey.com/information</id><content type="html" xml:base="www.ankushchoubey.com/applied-info/">&lt;p&gt;&lt;img src=&quot;/images/applied-info.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pro321?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;prottoy hassan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/thinking?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finding Applicable Information&lt;/p&gt;
+
+&lt;p&gt;I don’t know how to write this and how to present. I’ll also change the blogpost title later.&lt;/p&gt;
+
+&lt;p&gt;Why information should be applied?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Information if not applied is meaningless unless it is your profession to find and document new information.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By appling information faster, you will solve your problems faster or atleast move towards solving your problems faster.&lt;/p&gt;
+
+&lt;p&gt;Planning.&lt;/p&gt;
+
+&lt;p&gt;Asking Questions.&lt;/p&gt;
+
+&lt;p&gt;Knowing People who can answer.&lt;/p&gt;
+
+&lt;p&gt;Searching and Googling&lt;/p&gt;
+
+&lt;p&gt;Reading Books&lt;/p&gt;
+
+&lt;p&gt;I have yet to understand the structure of many types of books so I haven’t practices this yet: skip pages liberay. Read only chapters that are applicable then close the book and live your life.&lt;/p&gt;
+
+&lt;p&gt;Being multidisciplinary.&lt;/p&gt;
+
+&lt;p&gt;Mental Models and Heuristics.&lt;/p&gt;
+
+&lt;p&gt;Segregation of Duties / Friends who what the best for you.&lt;/p&gt;
+
+&lt;p&gt;Thinking&lt;/p&gt;
+
+&lt;p&gt;Knowledge vs Thinking&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/applied-info.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/applied-info.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keeping Web Dev code proper</title><link href="www.ankushchoubey.com/web-dev-clean/" rel="alternate" type="text/html" title="Keeping Web Dev code proper" /><published>2021-04-01T00:00:00-05:00</published><updated>2021-04-01T00:00:00-05:00</updated><id>www.ankushchoubey.com/keeping-web-dev-clean</id><content type="html" xml:base="www.ankushchoubey.com/web-dev-clean/">&lt;p&gt;&lt;img src=&quot;/images/web-dev-clean.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@markusspiske?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Markus Spiske&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/web-development?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -775,79 +810,4 @@ CTA should be simple, single and obvious.&lt;/p&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=L3iqmyoogfA&amp;amp;list=WL&amp;amp;index=21&quot;&gt;Flutter EXPOSED: Extreme JANKY animations. “A nightmare framework”&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/open-source.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/open-source.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Business Ethics</title><link href="www.ankushchoubey.com/business-ethics/" rel="alternate" type="text/html" title="Business Ethics" /><published>2021-01-21T00:00:00-06:00</published><updated>2021-01-21T00:00:00-06:00</updated><id>www.ankushchoubey.com/business-ethics</id><content type="html" xml:base="www.ankushchoubey.com/business-ethics/">&lt;p&gt;&lt;img src=&quot;/images/business-ethics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sub style=&quot;user-select: auto;&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@charles_forerunner?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Charles Forerunner&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/business?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;In the &lt;a href=&quot;/why_ethics/&quot;&gt;previous post&lt;/a&gt;, I discussed the reasons to be ethical. In short, ethics provides leverage. This post addresses points specific to businesses.&lt;/p&gt;
-
-&lt;h2 id=&quot;competition-and-revenues&quot;&gt;Competition and Revenues&lt;/h2&gt;
-
-&lt;p&gt;Most profitable companies create a monopoly. &lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Example: Google, Facebook, Amazon&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Monopolies are bad for innovation long term. Competition is good for innovation.&lt;/p&gt;
-
-&lt;p&gt;Often publically traded companies listening to shareholders focus on short term gains while neglecting ethics.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Example: Slave Trading Companies during the Colonial Era. &lt;sup id=&quot;fnref:10&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Recent Example:
-    &lt;ul&gt;
-      &lt;li&gt;Facebook is known for copying features from smaller competitors then purchasing them&lt;/li&gt;
-      &lt;li&gt;Amazon is known for bankrupting competitors by:
-        &lt;ul&gt;
-          &lt;li&gt;Investing in companies then launching their copy of cheaper product under Amazon brand &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-          &lt;li&gt;Forcing business to be sold to Amazon by selling the same product at a massive loss and waiting for a competitor to go bankrupt before restoring price. &lt;sup id=&quot;fnref:3:1&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some companies choose to stay private, avoiding being influenced by shareholders.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Example: SpaceX&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If your business is no longer needed, pivot and move to something else.&lt;/p&gt;
-
-&lt;h2 id=&quot;customer&quot;&gt;Customer&lt;/h2&gt;
-
-&lt;p&gt;Your goal as a company is to help your customers. &lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;If you cheat, you’ll create a bad word of mouth about your brand. Word of mouth is the most powerful marketing strategy.&lt;/p&gt;
-
-&lt;p&gt;Be the kind of business whose customer wants you to succeed. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Protect customer data by providing 100% encryption. Even you should not be able to read it.&lt;/p&gt;
-
-&lt;h2 id=&quot;employee&quot;&gt;Employee&lt;/h2&gt;
-
-&lt;p&gt;The more you take care of your employees. The more employees take care of you. &lt;sup id=&quot;fnref:1:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Companies should run on ideas, not hierarchy. You have to let the best ideas win. Which means that people at Leadership position should listen to their employees and sort out solutions. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:8&quot;&gt;
-      &lt;p&gt;Peter Thiel &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:10&quot;&gt;
-      &lt;p&gt;Sapiens by Yuval Noah Harari &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=pBffKzWECUQ&quot;&gt;The Amazon monopoly and the problem with Jeff Bezos’ business model&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:3:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:9&quot;&gt;
-      &lt;p&gt;Mark Cuban &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Simon Sinek &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/business-ethics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/business-ethics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/open-source.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/open-source.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
