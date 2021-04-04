@@ -17,9 +17,21 @@ Photo by <a href="https://unsplash.com/@brunovdkraan?utm_source=unsplash&utm_med
 - You won't have to rememember everything.
 - You can be free to express yourself the way you are.
 
+If you always tell the truth, you won't lie to yourself. Wishful thinking is a trap which will have an easier time avoiding if you always tell the truth.
+
 ### You'll have to believe the assumption that:
 
 By telling the truth, the best possible scenario that can happen will happen.
+
+While speking the truth, don't be afraid to think you are alone. Others exists, they are just as afraid as you.
+
+If you are overwhelmed, see if you are telling the truth. 
+
+Telling the truth unhides the fog.
+
+Truth always shines.
+
+Not telling the truth is bad for self estime.
 
 ## Why you should speak up
 
@@ -43,6 +55,12 @@ Therefore, we have to make sure we be as precise as possible without taking fore
 
 ## How to speak up and tell the truth?
 
+## Tell the truth or atleast not lie.
+
+Philosophy is not mathematics. There are no hard rules let's assume their is.
+
+You have have to hide facts from let's say kids, that is okay. But don't lie.
+
 ### Speak your mind and always tell the truth
 ### Tell it fast
 Be precise in your speech.
@@ -50,6 +68,8 @@ Be precise in your speech.
 ### Tell it fully
 ### Do not do things that you hate
 ### Act so that you can tell the truth about how you act
+
+Live by the truth. Listen to your consons.
 ### Express your intend properly.
 
 Be polite.
@@ -58,4 +78,4 @@ Don't try to humilate.
 
 By framing make sure your express the intend of solving the problem else your speaking truth will backfire.
 
-
+If you are good at articulations, you should articulate for someone else specially with the person you are having the argument. The goal is to read truth and understanding and not to win.
