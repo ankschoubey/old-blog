@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-04-02T02:52:40-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">DRAFT: Applied Information/Knowledge</title><link href="www.ankushchoubey.com/applied-info/" rel="alternate" type="text/html" title="DRAFT: Applied Information/Knowledge" /><published>2021-04-02T00:00:00-05:00</published><updated>2021-04-02T00:00:00-05:00</updated><id>www.ankushchoubey.com/information</id><content type="html" xml:base="www.ankushchoubey.com/applied-info/">&lt;p&gt;&lt;img src=&quot;/images/applied-info.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-04-04T02:07:10-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">DRAFT: Applied Information/Knowledge</title><link href="www.ankushchoubey.com/applied-info/" rel="alternate" type="text/html" title="DRAFT: Applied Information/Knowledge" /><published>2021-04-02T00:00:00-05:00</published><updated>2021-04-02T00:00:00-05:00</updated><id>www.ankushchoubey.com/information</id><content type="html" xml:base="www.ankushchoubey.com/applied-info/">&lt;p&gt;&lt;img src=&quot;/images/applied-info.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pro321?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;prottoy hassan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/thinking?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -12,6 +12,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;By appling information faster, you will solve your problems faster or atleast move towards solving your problems faster.&lt;/p&gt;
+
+&lt;p&gt;The information that is not learned will be forgotten.&lt;/p&gt;
 
 &lt;p&gt;Planning.&lt;/p&gt;
 
@@ -33,35 +35,40 @@
 
 &lt;p&gt;Thinking&lt;/p&gt;
 
-&lt;p&gt;Knowledge vs Thinking&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/applied-info.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/applied-info.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keeping Web Dev code proper</title><link href="www.ankushchoubey.com/web-dev-clean/" rel="alternate" type="text/html" title="Keeping Web Dev code proper" /><published>2021-04-01T00:00:00-05:00</published><updated>2021-04-01T00:00:00-05:00</updated><id>www.ankushchoubey.com/keeping-web-dev-clean</id><content type="html" xml:base="www.ankushchoubey.com/web-dev-clean/">&lt;p&gt;&lt;img src=&quot;/images/web-dev-clean.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Knowledge vs Thinking&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/applied-info.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/applied-info.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keeping Web Dev Code proper</title><link href="www.ankushchoubey.com/web-dev-clean/" rel="alternate" type="text/html" title="Keeping Web Dev Code proper" /><published>2021-04-01T00:00:00-05:00</published><updated>2021-04-01T00:00:00-05:00</updated><id>www.ankushchoubey.com/keeping-web-dev-clean</id><content type="html" xml:base="www.ankushchoubey.com/web-dev-clean/">&lt;p&gt;&lt;img src=&quot;/images/web-dev-clean.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@markusspiske?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Markus Spiske&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/web-development?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;choose-a-framework-which-is-stable&quot;&gt;Choose a framework which is stable.&lt;/h2&gt;
+&lt;h2 id=&quot;choose-a-stable-framework&quot;&gt;Choose a stable framework.&lt;/h2&gt;
 
-&lt;p&gt;I belive Angular is more stable long term that React which requires too much learning. Less is modified therefore your code will last longer. Atleast it seems that way right now.&lt;/p&gt;
+&lt;p&gt;I believe Angular is a more stable long term solution than React which requires too much learning. Less modification is required therefore your code will last longer. At least it seems that way right now.&lt;/p&gt;
 
 &lt;h2 id=&quot;make-very-small-modular-pieces&quot;&gt;Make very small modular pieces.&lt;/h2&gt;
+&lt;p&gt;In Angular, create components even for small things like &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;video&lt;/code&gt; tag. You’ll find that there are certain attributes you assign to every &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; tag that can be taken care of from one place&lt;/p&gt;
 
-&lt;p&gt;In angular, create components even for small things like img or video tag. You’ll find that there are certain attributes you assign to every img tag that can be taken care of from one place&lt;/p&gt;
+&lt;p&gt;Separate app logic from business logic. You should be able to copy-paste these modules into another code base and use it without changes.&lt;/p&gt;
 
-&lt;p&gt;Seperate app such codes from business logic. You should be able to copy laste these modules into another code base and use it without changes&lt;/p&gt;
+&lt;p&gt;In angular, make use of everything: components, service, directives, pipes, interceptors, etc/&lt;/p&gt;
 
 &lt;h2 id=&quot;make-layout-components&quot;&gt;Make layout components&lt;/h2&gt;
 
-&lt;p&gt;These are common layouts you use throughtout the application.  Coding them in once place reduces unnecessary duplications.&lt;/p&gt;
+&lt;p&gt;These are common layouts you use throughout the application. Coding them in one place reduces unnecessary duplications.&lt;/p&gt;
 
-&lt;h2 id=&quot;best-way-to-deal-with-css-is-to-write-very-less-of-it&quot;&gt;Best way to deal with CSS is to write very less of it.&lt;/h2&gt;
+&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
 
-&lt;p&gt;CSS gets messy fast. By keeping your components small. You are half way there to a good css.&lt;/p&gt;
+&lt;p&gt;The best way to deal with CSS is to write less of it.&lt;/p&gt;
+
+&lt;p&gt;CSS gets messy fast. By keeping your components small. You are halfway there to a good CSS.&lt;/p&gt;
 
 &lt;p&gt;Also make good use of &lt;code class=&quot;highlighter-rouge&quot;&gt;display: flex&lt;/code&gt;. It gets most of the job done.&lt;/p&gt;
 
-&lt;h2 id=&quot;best-way-to-keep-html-clutter-free-is-to-not-write-javascripttypecript-logic-in-it&quot;&gt;Best way to keep HTML clutter free is to not write javascript/typecript logic in it&lt;/h2&gt;
+&lt;h2 id=&quot;html&quot;&gt;HTML&lt;/h2&gt;
 
-&lt;p&gt;Angular provides a Ts use it for everything good. Even for ngStyle or ngClass.&lt;/p&gt;
+&lt;p&gt;The best way to keep HTML clutter-free is to not write javascript/typescript logic in it&lt;/p&gt;
 
-&lt;p&gt;This will keep your html very clean.&lt;/p&gt;
+&lt;p&gt;Angular provides a &lt;code class=&quot;highlighter-rouge&quot;&gt;ts&lt;/code&gt; file, use it for everything. Even for ngStyle or ngClass.&lt;/p&gt;
+
+&lt;p&gt;This will keep your HTML very clean&lt;/p&gt;
 
 &lt;p&gt;Create a &lt;code class=&quot;highlighter-rouge&quot;&gt;get&lt;/code&gt; method to keep things clean.&lt;/p&gt;
 
@@ -69,7 +76,14 @@
 
 &lt;p&gt;It’s stupid to have too many utility classes spread throughout your codebase. Have only a few at a single place.&lt;/p&gt;
 
-&lt;p&gt;Only keep a utility class or method if it is used. Remove unneccesary code.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/web-dev-clean.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/web-dev-clean.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Personal MBA</title><link href="www.ankushchoubey.com/mba/" rel="alternate" type="text/html" title="The Personal MBA" /><published>2021-03-16T00:00:00-05:00</published><updated>2021-03-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/personal-mba</id><content type="html" xml:base="www.ankushchoubey.com/mba/">&lt;p&gt;&lt;img src=&quot;/images/mba.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Only keep a utility class or method if it is used. Remove unnecessary code.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA&quot;&gt;YouTube channel: Fireship&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WA95EJGhbLc&quot;&gt;How to Properly Structure Angular Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/web-dev-clean.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/web-dev-clean.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DRAFT The Personal MBA</title><link href="www.ankushchoubey.com/mba/" rel="alternate" type="text/html" title="DRAFT The Personal MBA" /><published>2021-03-16T00:00:00-05:00</published><updated>2021-03-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/personal-mba</id><content type="html" xml:base="www.ankushchoubey.com/mba/">&lt;p&gt;&lt;img src=&quot;/images/mba.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I had been thinking and writing a lot of article but the amount of time it was taking me was huge.&lt;/p&gt;
 
