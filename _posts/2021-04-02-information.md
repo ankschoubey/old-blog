@@ -13,36 +13,44 @@ image: /images/applied-info.jpg
 Photo by <a href="https://unsplash.com/@pro321?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">prottoy hassan</a> on <a href="https://unsplash.com/s/photos/thinking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
-Finding Applicable Information
+Information is clutter. Finding applicable information is power.
 
-I don't know how to write this and how to present. I'll also change the blogpost title later.
+The more applicable information you can find, the more you can apply them and make better decisions.
 
-Why information should be applied?
+## Why information should be applied?
 - Information if not applied is meaningless unless it is your profession to find and document new information.
+- By appling information faster, you will solve your problems faster or atleast move towards solving your problems faster.
+- The information that is not learned will be forgotten.
 
-By appling information faster, you will solve your problems faster or atleast move towards solving your problems faster.
+## Finding applicable information
 
-The information that is not learned will be forgotten.
+There are many ways to find applicable information, these are a few that come to mind.
 
-Planning.
+### Planning
+A plan may or may not be used, but planning is useful because it uncovers many aspects of the problem. It is easier to discovers paths to avoid.
 
-Asking Questions.
+## Asking Questions
 
-Knowing People who can answer.
+Knowing People who can answer
 
 Searching and Googling
 
-Reading Books
+## Reading Books
 
 I have yet to understand the structure of many types of books so I haven't practices this yet: skip pages liberay. Read only chapters that are applicable then close the book and live your life.
 
 Being multidisciplinary.
 
-Mental Models and Heuristics.
+## Mental Models and Heuristics.
 
-Segregation of Duties / Friends who what the best for you.
+## Segregation of Duties / Friends who what the best for you.
 
 Thinking
 
 Knowledge vs Thinking
+
+You need time to think
+
+Having knowledge is not enough. You need time to think. Absorb the information and make it your own.
+
 
