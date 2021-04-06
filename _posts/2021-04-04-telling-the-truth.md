@@ -12,24 +12,22 @@ image: /images/truth.jpg
 
 Photo by <a href="https://unsplash.com/@brunovdkraan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bruno van der Kraan</a> on <a href="https://unsplash.com/s/photos/truth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-## The reasons you should tell the truth is
+## Why?
 
-- You won't have to rememember everything.
-- You can be free to express yourself the way you are.
+By telling the truth, you won't have to remember much. You won't have to remember who you lied to and what. And so you can express yourself without second guessing.
 
 If you always tell the truth, you won't lie to yourself. Wishful thinking is a trap which will have an easier time avoiding if you always tell the truth.
 
-### You'll have to believe the assumption that:
+### Foundation
 
-By telling the truth, the best possible scenario that can happen will happen.
+Telling the truth is easier when you believe certain assumptions:
 
-While speking the truth, don't be afraid to think you are alone. Others exists, they are just as afraid as you.
+1. By telling the truth, the best possible scenario that can happen will happen.
+2. While speking the truth even if you are afraid to think you are alone know that others exists. they are just as afraid as you.
 
 If you are overwhelmed, see if you are telling the truth. 
 
-Telling the truth unhides the fog.
-
-Truth always shines.
+## Telling the truth unhides the fog. Truth always shines.
 
 Not telling the truth is bad for self estime.
 
@@ -62,6 +60,7 @@ Philosophy is not mathematics. There are no hard rules let's assume their is.
 You have have to hide facts from let's say kids, that is okay. But don't lie.
 
 ### Speak your mind and always tell the truth
+
 ### Tell it fast
 Be precise in your speech.
 
@@ -72,10 +71,8 @@ Be precise in your speech.
 Live by the truth. Listen to your consons.
 ### Express your intend properly.
 
-Be polite.
-
-Don't try to humilate. 
+Be polite. Don't try to humilate. 
 
 By framing make sure your express the intend of solving the problem else your speaking truth will backfire.
 
-If you are good at articulations, you should articulate for someone else specially with the person you are having the argument. The goal is to read truth and understanding and not to win.
+If you are good at articulations, you should articulate for someone else specially with the person you are having the argument. The goal is to get to the truth and understanding, and not to win.
