@@ -16,9 +16,9 @@ There is a difference between acquiring knowledge and thinking.
 
 Our gadgets are such that they remove any need for thinking. We can find all information in minutes.
 
-The problem this leads to is that we always search for a ready made answer instead of thinking ourself.
+The problem this leads to is that we always search for a ready-made answer instead of thinking ourselves.
 
-I have seen this during development a lot where some developers would search open source solutions or paid solution when in reality creating solution was easier.
+I have seen this during development a lot where some developers would search open-source solutions or paid solutions when in reality creating solutions was easier.
 
 This happens because of not thinking.
 
@@ -26,7 +26,7 @@ Thinking means you’ll question things from the first principles. To see if the
 
 Then you scrutinize it.
 
-Individuals search for truth. Groups search for concensor. By always finding information rather than thinking, you increase chances of being same as others. Of course logical facts are undeniable.
+Individuals search for truth. Groups search for consensus. By always finding information rather than thinking, you increase your chances of being the same as others. Of course, logical facts are undeniable.
 
 If you can think and articulate, you are powerful. You can influence people. People give you money. Ask for your advice. 
 
@@ -36,9 +36,9 @@ Your problems get solved when you think.
 
 Clear thinking also allows you to explain easily.
 
-What you dont use you lose you lose. So make time to think.
+What you don't use you lose. So make time to think.
 
-Note talking is also probablatic. One should only write what they think about a topic if something is new and carefully thought through.
+Note-taking is also problematic. One should only write what they think about a topic if something is new and carefully thought through.
 
 The greatest obstacle to thinking is we resist boredom. Boredom is important as it sparks creativity. 
 
