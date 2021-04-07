@@ -36,11 +36,11 @@ Individuals search for truth. Groups search for consensus. By always finding inf
 
 If you can think and articulate, you are powerful. You can influence people. People give you money. Ask for your advice. 
 
-Learning happens when you compare and contrast. Compare and contrast require time to think.
-
-Your problems get solved when you think.
+Learning happens when you compare and contrast. Compare and contrast requires time to think.
 
 Clear thinking also allows you to explain easily.
+
+Your problems get solved when you think.
 
 What you don't use you lose. So make time to think.
 
