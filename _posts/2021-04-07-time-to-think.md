@@ -1,0 +1,44 @@
+---
+toc: false
+layout: post
+comments: true
+description:
+categories: [philosophical]
+title: You need time to think
+permalink: /think/
+image: /images/think.jpg
+---
+![](/images/think.jpg)
+
+Photo by <a href="https://unsplash.com/@elijahdhiett?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Elijah Hiett</a> on <a href="https://unsplash.com/s/photos/think?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+There is a difference between acquiring knowledge and thinking.
+
+Our gadgets are such that they remove any need for thinking. We can find all information in minutes.
+
+The problem this leads to is that we always search for a ready made answer instead of thinking ourself.
+
+I have seen this during development a lot where some developers would search open source solutions or paid solution when in reality creating solution was easier.
+
+This happens because of not thinking.
+
+Thinking means you’ll question things from the first principles. To see if they are valid or not. 
+
+Then you scrutinize it.
+
+Individuals search for truth. Groups search for concensor. By always finding information rather than thinking, you increase chances of being same as others. Of course logical facts are undeniable.
+
+If you can think and articulate, you are powerful. You can influence people. People give you money. Ask for your advice. 
+
+Learning happens when you compare and contrast. Compare and contrast require time to think.
+
+Your problems get solved when you think.
+
+Clear thinking also allows you to explain easily.
+
+What you dont use you lose you lose. So make time to think.
+
+Note talking is also probablatic. One should only write what they think about a topic if something is new and carefully thought through.
+
+The greatest obstacle to thinking is we resist boredom. Boredom is important as it sparks creativity. 
+
