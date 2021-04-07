@@ -15,7 +15,7 @@ image: /images/math.jpg
 
 I have always been interested in **🧮** even after failing twice at math exams during college.
 
-I have been collecting a lot of notes on the topic since the last 6-8 months and recently the number of notes exponentially grew. (damn recommendation systems). Some I came up on my own.
+I have been collecting a lot of notes on the topic for the last 6-8 months and recently the number of notes exponentially grew. (damn recommendation systems). Some I came up on my own.
 
 This should be a good time to publish the list and see how things evolve.
 
@@ -82,7 +82,7 @@ if you stop✋🏽 and look 👀.
 
 There is no single right way to solve it.
 
-### There is nothing wrong with counting on fingets 🖐🏽 as an aid to doing maths. [^7]
+### There is nothing wrong with counting on fingers 🖐🏽 as an aid to doing maths. [^7]
 
 > It actually indicates an understanding of arithmetic more than if everything were memorized.
 
@@ -92,7 +92,7 @@ aka *we* know only a handful of processes
 
 Processes are like cookbook knowledge 👨‍🍳📖
 
-Maths is a whole tool box 🧰 of operations that can apply to different situations.
+Maths is a whole toolbox 🧰 of operations that can apply to different situations.
 
 Knowing the processes is important but does not make you good at maths.
 
@@ -126,7 +126,7 @@ Go away for a while. Rest.
 
 There are advantages to each.
 
-Studying for an exam means you likely have a deadline and you will tent to go through the material faster.
+Studying for an exam means you likely have a deadline and you will tend to go through the material faster.
 
 The problem here is you are less likely to go deep and may forget 🧠 things as soon as an exam is over.
 
@@ -156,18 +156,20 @@ Unformed Thoughts:
 Math requires
 - concentration + focus + patience + feedback + testing
 
-Cultivate habit of looking at math and make concious effort.
+Cultivate a habit of looking at math and make a conscious effort.
 
-Concepts from Clean Code apply to maths to create clean maths. THe cleaner your maths is the easier it will be.
+Concepts from Clean Code apply to maths to create clean maths. The cleaner your maths is the easier it will be.
 
-Simplify formulas. Most formulas are intitive and they are not as big when you break it up into their separate formulas. 
+Simplify formulas. Most formulas are intuitive and they are not as big when you break them up into their separate formulas. 
 
-Know numbers in all it's forms. Vairbales. Functions.
+Know numbers in all their forms. Variables. Functions.
 
-Force yourself to calculate mentally first. Doing maths mentally is very fast and it requires less time. It is a good exercise to do. Plus it is better to have the answer and write the steps down rather than try writing step my step and try to solve it. You know the answer already, you just have to write the reasons for it.
+Force yourself to calculate mentally first. Doing maths mentally is very fast and it requires less time. It is a good exercise to do. Plus it is better to have the answer and write the steps down rather than try writing a step-by-step and try to solve it. You know the answer already, you just have to write the reasons for it.
 
-If you fear maths, all the fear you have you'll feel in the first 30 seconds of encountarinng the problem. Close your eyes then a deep breath and read it with full concertration without concert for if you'll be able to solve the problem or not.
+If you fear maths, all the fear you have you'll feel in the first 30 seconds of encountering the problem. Close your eyes then a deep breath and read it with full concentration without concert for if you'll be able to solve the problem or not.
 
-Most people won't use maths beyond basic arithmetic. But the reason to learn advance maths is the same reason you learn to write, It makes you a better thinker. You'll have better reasoning skills, more common knowledge and make better decisions if you do maths. [^10]
+Most people won't use maths beyond basic arithmetic and aptitude tests. But the reason to learn advanced maths is the same reason you learn to write, It makes you a better thinker. You'll have better reasoning skills, more common knowledge and make better decisions if you do maths. [^10]
 
 Programming is Maths. You just have the computer do the work.
+
+The kind of maths you are likely to use in daily life is arithmetic and once asked in aptitude tests.
