@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: DRAFT
-categories: [business, books]
+categories: [business, books, draft]
 title: DRAFT The Personal MBA
 permalink: /mba/
 image: /images/mba.jpg

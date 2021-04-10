@@ -3,8 +3,8 @@ toc: false
 layout: post
 comments: true
 description: This blog post is not complete
-categories: [philosophical]
-title: "DRAFT: Applied Information/Knowledge"
+categories: [philosophical, draft]
+title: "Applied Information/Knowledge"
 permalink: /applied-info/
 image: /images/applied-info.jpg
 ---
