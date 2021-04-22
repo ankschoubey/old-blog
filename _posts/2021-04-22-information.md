@@ -2,9 +2,9 @@
 toc: false
 layout: post
 comments: true
-description:
+description: 
 categories: [philosophical]
-title: Apply Information/Knowledge
+title: Finding Applicable Information
 permalink: /applied-info/
 image: /images/applied-info.jpg
 ---
@@ -30,7 +30,7 @@ There are many ways to find applicable information, these are a few that come to
 ### Planning
 A plan may or may not be used, but planning is useful because it uncovers many aspects of the problem. Also, it is easier to discovers paths to avoid.
 
-## Asking Questions
+### Asking Questions
 
 Frame your questions accurately.
 
@@ -40,7 +40,7 @@ Specially having friends and collegues you can reply on helps in avoiding pitfal
 
 Googling the right way is also a key skill.
 
-## Reading Books
+### Reading Books
 
 Some non-fiction books are made in a way where you can skip chapters liberally. Do so, close the book and live your life. 
 
@@ -52,7 +52,7 @@ Aspects from one discipline apply to other. Learn something random and you'll fi
 
 It seens better to learn by categorizing. Like: A music instrument, a physical activity, a social activity, etc.
 
-## Mental Models and Heuristics.
+### Mental Models and Heuristics.
 
 These can help you find out more infomation about a topic faster by making good guesses.
 
@@ -64,10 +64,10 @@ Some of my favorite mental models are:
 - Circle of Competence
 - Pareto Principle
 
-## Make Time To Think
+### [Make Time and Think](/think/)
 
-All that knowledge is useless until not applied. So think and apply them.
+Thinking means you’ll question things from the first principles. To see if they are valid or not. 
 
-
+Then you scrutinize it. By thinking you find the solutions yourself and reply less on other sources.
 
 
