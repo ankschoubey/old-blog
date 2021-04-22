@@ -3,8 +3,8 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, draft]
-title: DRAFT On telling the truth and speaking up
+categories: [philosophical]
+title: On telling the truth and speaking up
 permalink: /truth/
 image: /images/truth.jpg
 ---
