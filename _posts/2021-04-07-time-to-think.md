@@ -20,7 +20,7 @@ Our gadgets are such that they remove any need for thinking. We can find all inf
 
 The problem this leads to is that we always search for a ready-made answer instead of thinking ourselves.
 
-I have seen this during development a lot where some developers would search open-source solutions or paid solutions when in reality creating solutions was easier.
+I have seen this during development a lot where some developers would search open-source solutions or paid solutions when in reality creating solutions was a just a few lines of code.
 
 This happens because of not thinking.
 

@@ -19,9 +19,9 @@ The more applicable information you can find, the more you can apply them and ma
 ## Why information should be applied?
 Information if not applied is meaningless unless it is your profession to find and document new information.
 
-By appling information faster, you will solve your problems faster or atleast move towards solving your problems faster.
+By applying information faster, you will solve your problems faster or atleast move towards solving your problems faster.
   
-The information that is not learned will be forgotten.
+The information that is not applied will be forgotten.
 
 ## Finding applicable information
 
@@ -30,13 +30,13 @@ There are many ways to find applicable information, these are a few that come to
 ### Planning
 A plan may or may not be used, but planning is useful because it uncovers many aspects of the problem. Also, it is easier to discovers paths to avoid.
 
-### Asking Questions
+### Questions
 
 Frame your questions accurately.
 
 Know the right people who can answer your question. Internet also allows us to connect to "experts" who are happy to answer you.
 
-Specially having friends and collegues you can reply on helps in avoiding pitfalls.
+Specially having friends and collegues you can rely on helps in avoiding pitfalls.
 
 Googling the right way is also a key skill.
 
@@ -68,6 +68,6 @@ Some of my favorite mental models are:
 
 Thinking means you’ll question things from the first principles. To see if they are valid or not. 
 
-Then you scrutinize it. By thinking you find the solutions yourself and reply less on other sources.
+Then you scrutinize it. By thinking you find the solutions yourself and rely less on other sources.
 
 
