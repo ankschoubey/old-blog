@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [philosophical, collection-of-thoughts]
+categories: [collection-of-thoughts]
 title: Finding Applicable Information
 permalink: /applied-info/
 image: /images/applied-info.jpg
