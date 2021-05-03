@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, decision-making]
+categories: [decision-making, collection-of-thoughts]
 title: Decision Making Heuristics
 permalink: /decision-making-heuristics/
 image: /images/decision-making-heuristics.jpg

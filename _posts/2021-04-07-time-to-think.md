@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical]
+categories: [philosophical, decision-making]
 title: You need time to think
 permalink: /think/
 image: /images/think.jpg
