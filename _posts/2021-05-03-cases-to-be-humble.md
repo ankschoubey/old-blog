@@ -6,8 +6,12 @@ description:
 categories: [philosophical, draft]
 title: Cases To Be Humble
 permalink: /humble/
-image: /images/truth.jpg
+image: /images/humble.jpg
 ---
+![](/images/humble.jpg)
+
+Photo by <a href="https://unsplash.com/@billjelen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bill Jelen</a> on <a href="https://unsplash.com/s/photos/rocket?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 You know very little. Collective human knowledge is much larger.
 

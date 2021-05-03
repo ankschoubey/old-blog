@@ -6,8 +6,12 @@ description:
 categories: [philosophical, decision-making, draft]
 title: Decision Making Heuristics
 permalink: /decision-making-heuristics/
-image: /images/truth.jpg
+image: /images/decision-making-heuristics.jpg
 ---
+![](/images/decision-making-heuristics.jpg)
+
+Photo by <a href="https://unsplash.com/@timgraf99?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Graf</a> on <a href="https://unsplash.com/s/photos/compass?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 ## Tell the Truth [^3]
 
