@@ -19,3 +19,4 @@ People on YouTube have a “perfect execution” and they usually don’t show h
 For programmers, it can be helpful to look at GitHub commits too.
 
 *Similar but with a twist*: [Observe other people in action](/observe/)
+
