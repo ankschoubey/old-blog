@@ -12,16 +12,19 @@ image: /images/crypto.jpg
 
 Photo by <a href="https://unsplash.com/@nick604?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Chong</a> on <a href="https://unsplash.com/s/photos/crypto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+## Money
+
 Money 💰 is a form of value. 
 
 A money is valid only if enough people are willing to enchange it for goods/services.
 
 Once upon a time, sea shells 🐚 were used as value/money. Later coins, then cash and now money also includes numbers in a computer.
 
+## Value of Money
+
 Money is only valuable when it is limited. If there is infinite money, the value of each individual unit will reduce and you need more money in exchange of same value.
 
-*** 
-### Simplified example
+#### Simplified example
 
 Imagine there if there is 1000 unit of a currency in circulation. 
 
@@ -33,7 +36,7 @@ Now, the same house will hypothetically require 2 units of currency.
 
 The value of single unit was reduced by half.
 
-***
+## Cryptocurrencies
 
 To avoid this, previously gold was used to set an upper limit. But around 1960s gold was removed because governments could not simply print money to pay of their debts.
 
