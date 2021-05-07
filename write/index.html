@@ -403,7 +403,12 @@ window.onload = wrap_img;
 </ul>
 
 
-  </div><!-- from https://github.com/utterance/utterances -->
+  </div><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+<!-- from https://github.com/utterance/utterances -->
 <style>
         .opacity-desired, .a2a_kit a{
                 opacity: 70%;
@@ -419,11 +424,11 @@ window.onload = wrap_img;
         }
 </style>
 
-<div style="text-align: center; font-weight: bold; font-style: italic;" class="opacity-desired">
+<div  data-aos="fade-up" style="text-align: center; font-weight: bold; font-style: italic;" class="opacity-desired">
         <h4>Liked the essay? Will someone else like it too?<br>Your comments and shares are valuable!</h4>
  </div>
  <!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="display: flex;
+<div  data-aos="fade-up" class="a2a_kit a2a_kit_size_32 a2a_default_style" style="display: flex;
 justify-content: center;
 align-items: center;">
         <a class="a2a_button_linkedin opacity-desired"></a>
