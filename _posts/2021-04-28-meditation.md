@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, draft]
+categories: [philosophical]
 title: Meditation
 permalink: /meditation/
 image: /images/meditation.jpg
