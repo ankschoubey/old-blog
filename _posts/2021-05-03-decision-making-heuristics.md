@@ -22,7 +22,7 @@ By telling and articulating the truth, you remove clutter/garbage and focus on w
 
 World if filled with scam artists.
 
-#### Do/Try/Invest in many things. You have any decision making capacity unless you have an offer.
+#### Do/Try/Invest in many things. You don't have any decision making capacity unless you have an offer.
 
 You don’t have any decision making capacity unless you have an offer on the table.
 
