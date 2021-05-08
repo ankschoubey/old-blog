@@ -138,12 +138,19 @@
     .draft{
         display: none;
     }
+    .blockchain{
+        background-color: #c0ad03
+    }
 </style>
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
 {% if include.categories.size > 0 and site.show_tags %}
 <div class="tag-list">
     {% for category in include.categories %}
-    <a class="tag fa fa-hashtag {{category}}" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag {{category}}" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
     {% endfor %}
 </div>
 {% endif %}
