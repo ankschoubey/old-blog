@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-08T01:28:34-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-08T01:43:07-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@nick604?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Nick Chong&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/crypto?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -71,23 +71,29 @@ Refactoring is easier with Injectables. Just create a new class.&lt;/p&gt;
 
 &lt;p&gt;Continuously Integrate your code&lt;/p&gt;
 
-&lt;p&gt;Refactor one functionality at once instea dof everything at once.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">There is no one size fits all</title><link href="www.ankushchoubey.com/one-size/" rel="alternate" type="text/html" title="There is no one size fits all" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/one-size</id><content type="html" xml:base="www.ankushchoubey.com/one-size/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Refactor one functionality at once instea dof everything at once.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">There is no one size fits all</title><link href="www.ankushchoubey.com/one-size/" rel="alternate" type="text/html" title="There is no one size fits all" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/one-size</id><content type="html" xml:base="www.ankushchoubey.com/one-size/">&lt;p&gt;There is no programming language that fits every case. Python is not the best programming language. At least not for web development.&lt;/p&gt;
 
-&lt;h1 id=&quot;there-is-no-one-size-fits-all&quot;&gt;There is no one size fits all&lt;/h1&gt;
+&lt;p&gt;There is no perfect framework that is best for every case. React may be cool. But Angular is stable for bigger projects.&lt;/p&gt;
 
-&lt;p&gt;There is no programming language that fits every case.&lt;/p&gt;
+&lt;p&gt;There is no stock/mutual fund that works for everyone. Some are more stable. Some are made for those who can afford to take risks.&lt;/p&gt;
 
-&lt;p&gt;There is no perfect framework that is best for every case.&lt;/p&gt;
-
-&lt;p&gt;There is no stock/mutual fund that works for everyone.&lt;/p&gt;
-
-&lt;p&gt;There is no career choice which brings out the best for everyone.&lt;/p&gt;
+&lt;p&gt;There is no career choice which brings out the best for everyone. Not every Software Engineer codes well (most suck).&lt;/p&gt;
 
 &lt;p&gt;There is no fixed routine/process that fits every case.&lt;/p&gt;
 
 &lt;p&gt;And even if you find a thing that fits, changes in environment/time will make it unfit again and you’ll have to find a new one.&lt;/p&gt;
 
-&lt;p&gt;Abandon Ideology. Abandon being totalitarian i’e to believe things should be done a certain way always. There is no one size fits all.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Personal Freedom</title><link href="www.ankushchoubey.com/p-freedom/" rel="alternate" type="text/html" title="Personal Freedom" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/freedom</id><content type="html" xml:base="www.ankushchoubey.com/p-freedom/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If you think you think something is as simple as &lt;a href=&quot;/black_white&quot;&gt;black and white&lt;/a&gt;, the probability you’re wrong is high.&lt;/p&gt;
+
+&lt;p&gt;Abandon Ideology &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Abandon being totalitarian i.e to believe things should be done a certain way always. There is no one size fits all.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Beyond Order: 12 More Rules for Life &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">There is no programming language that fits every case. Python is not the best programming language. At least not for web development.</summary></entry><entry><title type="html">Personal Freedom</title><link href="www.ankushchoubey.com/p-freedom/" rel="alternate" type="text/html" title="Personal Freedom" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/freedom</id><content type="html" xml:base="www.ankushchoubey.com/p-freedom/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;freedom&quot;&gt;Freedom&lt;/h1&gt;
 &lt;p&gt;Freedom may bot be what one is seeking.&lt;/p&gt;
