@@ -3,8 +3,8 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, draft]
-title: On telling the truth and speaking up
+categories: [philosophical, for-future-me]
+title: Tell the Trush. Speak your mind.
 permalink: /truth/
 image: /images/truth.jpg
 ---
@@ -18,6 +18,8 @@ By telling the truth, you won't have to remember much. You won't have to remembe
 
 If you always tell the truth, you won't lie to yourself. Wishful thinking is a trap which will have an easier time avoiding if you always tell the truth.
 
+You'll see the words as clearly as possible.
+
 ### Foundation
 
 Telling the truth is easier when you believe certain assumptions:
@@ -29,7 +31,7 @@ If you are overwhelmed, see if you are telling the truth.
 
 ## Telling the truth unhides the fog. Truth always shines.
 
-Not telling the truth is bad for self estime.
+Not telling the truth is bad for self esteem.
 
 ## Why you should speak up
 
@@ -53,26 +55,25 @@ Therefore, we have to make sure we be as precise as possible without taking fore
 
 ## How to speak up and tell the truth?
 
-## Tell the truth or atleast not lie.
+### Tell the truth or atleast not lie.
 
 Philosophy is not mathematics. There are no hard rules let's assume their is.
 
 You have have to hide facts from let's say kids, that is okay. But don't lie.
 
-### Speak your mind and always tell the truth
-
-### Tell it fast
+### Tell it fast and Tell it fully
 Be precise in your speech.
 
-### Tell it fully
+If you are good at articulations, you should articulate for someone else specially with the person you are having the argument. The goal is to get to the truth and understanding, and not to win.
+
 ### Do not do things that you hate
 ### Act so that you can tell the truth about how you act
 
 Live by the truth. Listen to your consons.
+
 ### Express your intend properly.
 
 Be polite. Don't try to humilate. 
 
 By framing make sure your express the intend of solving the problem else your speaking truth will backfire.
 
-If you are good at articulations, you should articulate for someone else specially with the person you are having the argument. The goal is to get to the truth and understanding, and not to win.
