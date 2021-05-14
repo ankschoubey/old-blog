@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-13T08:11:20-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-13T22:16:34-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@nick604?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Nick Chong&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/crypto?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -52,11 +52,7 @@
   &lt;li&gt;Pushing through a mental limit break&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;There is immense upside to doing hard things even if they are not directly use. Indirectly doing hard things changes us for the better.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Refactoring Tips</title><link href="www.ankushchoubey.com/refactoring/" rel="alternate" type="text/html" title="Refactoring Tips" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/refactoring-tips</id><content type="html" xml:base="www.ankushchoubey.com/refactoring/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;refactoring-code-effective&quot;&gt;Refactoring Code Effective&lt;/h1&gt;
-
-&lt;p&gt;It may be good to have unit test cases&lt;/p&gt;
+&lt;p&gt;There is immense upside to doing hard things even if they are not directly use. Indirectly doing hard things changes us for the better.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Quick Refactoring Tips</title><link href="www.ankushchoubey.com/refactoring/" rel="alternate" type="text/html" title="Quick Refactoring Tips" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/refactoring-tips</id><content type="html" xml:base="www.ankushchoubey.com/refactoring/">&lt;p&gt;It may be good to have unit test cases&lt;/p&gt;
 
 &lt;p&gt;Study the code layout.&lt;/p&gt;
 
@@ -64,14 +60,15 @@
 
 &lt;p&gt;Create your own library&lt;/p&gt;
 
-&lt;p&gt;Make Copy of Classes. 
-Refactoring is easier with Injectables. Just create a new class.&lt;/p&gt;
+&lt;p&gt;Make Copy of Class files before modifying.&lt;/p&gt;
+
+&lt;p&gt;Refactoring is easier with Injectables. Just create a new class.&lt;/p&gt;
 
 &lt;p&gt;Commit in small increments.&lt;/p&gt;
 
 &lt;p&gt;Continuously Integrate your code&lt;/p&gt;
 
-&lt;p&gt;Refactor one functionality at once instea dof everything at once.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">There is no one size fits all</title><link href="www.ankushchoubey.com/one-size/" rel="alternate" type="text/html" title="There is no one size fits all" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/one-size</id><content type="html" xml:base="www.ankushchoubey.com/one-size/">&lt;p&gt;There is no programming language that fits every case. Python is not the best programming language. At least not for web development.&lt;/p&gt;
+&lt;p&gt;Refactor one functionality at a time instead of everything at once.&lt;/p&gt;</content><author><name></name></author><summary type="html">It may be good to have unit test cases</summary></entry><entry><title type="html">There is no one size fits all</title><link href="www.ankushchoubey.com/one-size/" rel="alternate" type="text/html" title="There is no one size fits all" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/one-size</id><content type="html" xml:base="www.ankushchoubey.com/one-size/">&lt;p&gt;There is no programming language that fits every case. Python is not the best programming language. At least not for web development.&lt;/p&gt;
 
 &lt;p&gt;There is no perfect framework that is best for every case. React may be cool. But Angular is stable for bigger projects.&lt;/p&gt;
 
@@ -154,19 +151,13 @@ Refactoring is easier with Injectables. Just create a new class.&lt;/p&gt;
 
 &lt;p&gt;Plan things out in advanced.&lt;/p&gt;
 
-&lt;p&gt;Work on 80% of your capacity. You don’t want to get so sore that you cannot do anything the next day.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Have your own opinions and reasonings</title><link href="www.ankushchoubey.com/original-opinion/" rel="alternate" type="text/html" title="Have your own opinions and reasonings" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/own-opinion</id><content type="html" xml:base="www.ankushchoubey.com/original-opinion/">&lt;p&gt;Authors/Experts are no different to us. They are human too.&lt;/p&gt;
+&lt;p&gt;Work on 80% of your capacity. You don’t want to get so sore that you cannot do anything the next day.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Develop your own opinions and reasonings</title><link href="www.ankushchoubey.com/original-opinion/" rel="alternate" type="text/html" title="Develop your own opinions and reasonings" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/own-opinion</id><content type="html" xml:base="www.ankushchoubey.com/original-opinion/">&lt;p&gt;Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it.&lt;/p&gt;
 
-&lt;p&gt;Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2.&lt;/p&gt;
+&lt;p&gt;While coding many try to follow “best practices” without giving them a thought. Many follow Agile “practices” without knowing or reasoning why.&lt;/p&gt;
 
-&lt;p&gt;But for other things there is always a room for introspection and finding flaws and fixing it.&lt;/p&gt;
+&lt;p&gt;Not having your own reasoning makes you susceptible to ideological thinking along with it’s upsides and down sides.&lt;/p&gt;
 
-&lt;p&gt;While coding many try to follow “best practices” without giving them a thought.&lt;/p&gt;
-
-&lt;p&gt;Many follow Agile “practices” without knowing or reasoning why.&lt;/p&gt;
-
-&lt;p&gt;Not having your own reasoning makes you susuptable to Ideological thinking along with it’s upsides and down sides.&lt;/p&gt;
-
-&lt;p&gt;By not reasoning yourself, you are not being unique, you are just a replicate pf someone else’s thinking.&lt;/p&gt;</content><author><name></name></author><summary type="html">Authors/Experts are no different to us. They are human too.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/truth.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/truth.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decision Making Heuristics</title><link href="www.ankushchoubey.com/decision-making-heuristics/" rel="alternate" type="text/html" title="Decision Making Heuristics" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/decision-making-heuristics</id><content type="html" xml:base="www.ankushchoubey.com/decision-making-heuristics/">&lt;p&gt;&lt;img src=&quot;/images/decision-making-heuristics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;By not reasoning yourself, you are not being unique, you are just a replicate of someone else’s thinking.&lt;/p&gt;</content><author><name></name></author><summary type="html">Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it.</summary></entry><entry><title type="html">Decision Making Heuristics</title><link href="www.ankushchoubey.com/decision-making-heuristics/" rel="alternate" type="text/html" title="Decision Making Heuristics" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/decision-making-heuristics</id><content type="html" xml:base="www.ankushchoubey.com/decision-making-heuristics/">&lt;p&gt;&lt;img src=&quot;/images/decision-making-heuristics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@timgraf99?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Tim Graf&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/compass?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
