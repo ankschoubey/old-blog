@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, for-future-me, draft]
+categories: [for-future-me]
 title: Physical Exercise
 permalink: /exercise/
 image: /images/exercise.jpg
@@ -13,7 +13,6 @@ image: /images/exercise.jpg
 Photo by <a href="https://unsplash.com/@kirillz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kirill</a> on <a href="https://unsplash.com/s/photos/pull-up?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 # Benefits of Exercising
-> He who has a why can bear any how.
 
 You’ll look good. You’ll develop good posture. And therefore attract beautiful potential mates.
 
