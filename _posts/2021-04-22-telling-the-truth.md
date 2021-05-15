@@ -4,7 +4,7 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me]
-title: Tell the Trush. Speak your mind.
+title: Tell the Truth. Speak your mind.
 permalink: /truth/
 image: /images/truth.jpg
 ---

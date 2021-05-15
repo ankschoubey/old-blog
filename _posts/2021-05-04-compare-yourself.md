@@ -4,13 +4,11 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, draft]
-title: Physical Exercise
+title: Compare yourself with who you were yesterday, not who someone else is today 
 permalink: /compare/
 image: /images/exercise.jpg
 ---
 ![](/images/exercise.jpg)
-
-# Compare yourself with who you were yesterday, not who someone else is today
 
 Escape competition through authenticity
 
