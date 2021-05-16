@@ -2,22 +2,39 @@
 toc: false
 layout: post
 comments: true
-description:
-categories: [philosophical, for-future-me, draft]
-title: Compare yourself with who you were yesterday, not who someone else is today 
+description: , not who someone else is today s
+categories: [philosophical, for-future-me]
+title: Compare yourself with who you were yesterday
 permalink: /compare/
-image: /images/exercise.jpg
 ---
-![](/images/exercise.jpg)
 
-Escape competition through authenticity
+## Infinite Games
+
+I realized this when I was playing an iOS game called Mini Motorways.
+
+The game is an infinite game, meaning there is no final goal where the game ends.
+
+So each time, I would play the game, I would leave feeling unsatisfied. Looking back, I had a good enough score. But without any baseline to compare it too, I don't know if I was doing well.
+
+By comparing with yourself, you have a fair and proper baseline. [^3]
+
+## Escape competition through authenticity [^2]
 
 If you are playing someone else’s game, you’ll be worst at it. 
 
-If they are entering your game, they’ll be worst at it.
+If they are entering your game, they’ll be worst at it. No one can compete you for being you [^2].
 
-Plateau of Lattent Potential. May he making you unaware of how good you have become since you started.
+Plateau of Latent Potential[^1] may be making you unaware of how good you have become since you started.
 
-If often takes months (years in you are young) to do something significant like to get an job offer in a specific field.
+If often takes months (years in you are young) to do something significant like to get an job offer in a specific field. You'll likely neglect this if you are always comparing.
 
-If you want to see, see the real them, live coding
+## Rate of Change vs Actual Change
+
+By comparing with yourself, you focus on rate of improvement. Though the actual improvement is what will determine your present, rate of improvement which is much easier to manage will let you win in long term.
+
+#### Footnotes:
+##### The title is taken from 12 Rules For Life by Jordan Peterson
+
+[^1]: Atomic Habits
+[^2]: Naval Ravikant
+[^3]: Jordan B Peterson
