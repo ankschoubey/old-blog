@@ -18,14 +18,16 @@ By telling the truth, you won't have to remember much. You won't have to remembe
 
 If you always tell the truth, you won't lie to yourself. Wishful thinking is a trap which will have an easier time avoiding if you always tell the truth.
 
-You'll see the words as clearly as possible.
+Truth leads to clarity. Truth will set you free. If you are not free, see if you are speaking the truth or don't know it completely.
+
+Telling the truth is adventurous.
 
 ### Foundation
 
 Telling the truth is easier when you believe certain assumptions:
 
 1. By telling the truth, the best possible scenario that can happen will happen.
-2. While speking the truth even if you are afraid to think you are alone know that others exists. they are just as afraid as you.
+2. While speaking the truth even if you are afraid to think you are alone know that others exists. they are just as afraid as you.
 
 If you are overwhelmed, see if you are telling the truth. 
 
