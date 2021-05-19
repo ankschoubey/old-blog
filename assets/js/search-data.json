@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Applications of Recommender Systems",
+            "content": "Photo by Charles Deluvio on Unsplash . Recommender systems are easiest and probably most lucritive ML Application. . The whole of social media, content sites and E-Commerce Companies are built around it. . The goal is said to be to provide right information at the right time and avoiding information overload. The statement seems ideal and a recommender system can be made to work such a way. . Most often for consumer facing products, the real reason is the opposite. Keep people hooked to using the product for longer. . In social media, it would be used to recommended content/people similar to once you are viewing or something you might like. . For E-Commerce companies, the focus is on recommended you the product you’ll likely purchase. . Recommender systems are also used at a smaller scale like Keyboard Suggestions on your phone. . For Enterprise, recommender systems can help improve productivity by a lot. . By having documents/data grouped, the right information can be searched faster. | By having similar documents groups/recommended, comparing between documents can be made simpler. | . Recommender Systems often require much less data to operate. .",
+            "url": "www.ankushchoubey.com/recommender-systems/",
+            "relUrl": "/recommender-systems/",
+            "date": " • May 16, 2021"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Gist of Cryptocurrencies",
             "content": ". Photo by Nick Chong on Unsplash . Money . Money 💰 is a form of value. . A money is valid only if enough people are willing to enchange it for goods/services. . Once upon a time, sea shells 🐚 were used as value/money. Later coins, then cash and now money also includes numbers in a computer. . Value of Money . Money is only valuable when it is limited. If there is infinite money, the value of each individual unit will reduce and you need more money in exchange of same value. . Simplified example . Imagine there if there is 1000 unit of a currency in circulation. . At this place, 1 unit buys you a house. . Let’s suppose, the government decided to print more money and now 1000 more printed units are being added. . Now, the same house will hypothetically require 2 units of currency. . The value of single unit was reduced by half. . Cryptocurrencies . To avoid this, previously gold was used to set an upper limit. But around 1960s gold was removed because governments could not simply print money to pay of their debts. . This got called as Fiat currency. The current which has no backing. Enough people believe in the value of the fiat currency, therefore it is used ad money. . Essentially with fiat currency like dollar, government make life easier for them but at the same time make life difficult for normal people holding the money. . Cryptocurrencies remove this power from the government and decentralize it amoung individuals. . They can only be valid as long as enough people believe it is valid. .",
             "url": "www.ankushchoubey.com/crypto/",
@@ -12,9 +23,9 @@
     
   
     
-        ,"post1": {
-            "title": "Tough",
-            "content": ". Do tough things because they are tough . I used to love Deep Learning and wanted it to be my career option. . I learned it for many about 2 years. After work, sitting for an hour or two. There were often weeks when I understood nothing. I was early in my career then and things would likely be different of I try things out now. . Though I never used Deep Learning as a job, there are a few skills I learned that have persisted. . Watching Videos at 2x Speed | Understanding many technological field | Grasping hard technological concepts much faster | Pushing through a mental limit break | . There is immense upside to doing hard things even if they are not directly use. Indirectly doing hard things changes us for the better. .",
+        ,"post2": {
+            "title": "Do tough things because they are tough",
+            "content": "I used to love Deep Learning and wanted it to be my career option. . I learned it for many about 2 years. After work, sitting for an hour or two. There were often weeks when I understood nothing. I was early in my career then and things would likely be different of I try things out now. . Though I never used Deep Learning as a job, there are a few skills I learned that have persisted. . Watching Videos at 2x Speed | Understanding many technological field | Grasping hard technological concepts much faster | Pushing through a mental limit break | . There is immense upside to doing hard things even if they are not directly use. . Indirectly doing hard things changes us for the better. .",
             "url": "www.ankushchoubey.com/tough/",
             "relUrl": "/tough/",
             "date": " • May 4, 2021"
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "Quick Refactoring Tips",
             "content": "It may be good to have unit test cases . Study the code layout. . Create base classes, Interfaces etc . Create your own library . Make Copy of Class files before modifying. . Refactoring is easier with Injectables. Just create a new class. . Commit in small increments. . Continuously Integrate your code . Refactor one functionality at a time instead of everything at once. .",
             "url": "www.ankushchoubey.com/refactoring/",
@@ -34,7 +45,7 @@
     
   
     
-        ,"post3": {
+        ,"post4": {
             "title": "There is no one size fits all",
             "content": "There is no programming language that fits every case. Python is not the best programming language. At least not for web development. . There is no perfect framework that is best for every case. React may be cool. But Angular is stable for bigger projects. . There is no stock/mutual fund that works for everyone. Some are more stable. Some are made for those who can afford to take risks. . There is no career choice which brings out the best for everyone. Not every Software Engineer codes well (most suck). . There is no fixed routine/process that fits every case. . And even if you find a thing that fits, changes in environment/time will make it unfit again and you’ll have to find a new one. . If you think you think something is as simple as black and white, the probability you’re wrong is high. . Abandon Ideology 1. Abandon being totalitarian i.e to believe things should be done a certain way always. There is no one size fits all. . Beyond Order: 12 More Rules for Life &#8617; . |",
             "url": "www.ankushchoubey.com/one-size/",
@@ -45,7 +56,7 @@
     
   
     
-        ,"post4": {
+        ,"post5": {
             "title": "Personal Freedom",
             "content": ". Freedom . Freedom may bot be what one is seeking. . Suffering is optional. . You want to be mentally free of suffering. Things falling apart around you shouldn’t effect your state of mind. . If things fail, you should realize that it’s not you who failed. It’s the system/process you set that failed. . Tell the truth. . Information frees you up. . You want to be free so that you are not doing things that you hate. Instead do things that you love . Discipline is the path to freedom. . Freedom from Laziness, Random Motivation, etc . Free from not checking your phone all day or not doing stupid things just to get through. .",
             "url": "www.ankushchoubey.com/p-freedom/",
@@ -56,9 +67,9 @@
     
   
     
-        ,"post5": {
-            "title": "Compare yourself with who you were yesterday, not who someone else is today",
-            "content": ". Escape competition through authenticity . If you are playing someone else’s game, you’ll be worst at it. . If they are entering your game, they’ll be worst at it. . Plateau of Lattent Potential. May he making you unaware of how good you have become since you started. . If often takes months (years in you are young) to do something significant like to get an job offer in a specific field. . If you want to see, see the real them, live coding .",
+        ,"post6": {
+            "title": "Compare yourself with who you were yesterday",
+            "content": "Infinite Games . I realized this when I was playing an iOS game called Mini Motorways. . The game is an infinite game, meaning there is no final goal where the game ends. . So each time, I would play the game, I would leave feeling unsatisfied. Looking back, I had a good enough score. But without any baseline to compare it too, I don’t know if I was doing well. . By comparing with yourself, you have a fair and proper baseline. 1 . Escape competition through authenticity 2 . If you are playing someone else’s game, you’ll be worst at it. . If they are entering your game, they’ll be worst at it. No one can compete you for being you 2. . Plateau of Latent Potential3 may be making you unaware of how good you have become since you started. . If often takes months (years in you are young) to do something significant like to get an job offer in a specific field. You’ll likely neglect this if you are always comparing. . Rate of Change vs Actual Change . By comparing with yourself, you focus on rate of improvement. Though the actual improvement is what will determine your present, rate of improvement which is much easier to manage will let you win in long term. . Footnotes: . The title is taken from 12 Rules For Life by Jordan Peterson . Jordan B Peterson &#8617; . | Naval Ravikant &#8617; &#8617;2 . | Atomic Habits &#8617; . |",
             "url": "www.ankushchoubey.com/compare/",
             "relUrl": "/compare/",
             "date": " • May 4, 2021"
@@ -67,7 +78,7 @@
     
   
     
-        ,"post6": {
+        ,"post7": {
             "title": "Physical Exercise",
             "content": ". Photo by Kirill on Unsplash . Benefits of Exercising . You’ll look good. You’ll develop good posture. And therefore attract beautiful potential mates. . You’ll feel good. You’ll feel confident. Your chest will be pumped out. . You’ll be smarter and more disciplined. Laziness will be gone. Brain will be pumped with blood. You’ll be much more productive in less time. . You’ll fall sick less. Your body with fight those diseases like never before. . You’ll pick up heavy things with easy. You’ll be the man who gets relied on by others. . You’ll be able to do more things for longer. You’ll be able to swim, run up mountains, run for longer, jump, climb 🧗‍♀️ walls, do a back flip, rock in the dance floor. A lot of great experiences are to be had by moving . Get Started . Do anything that you can do. . Plan things out in advanced. . Work on 80% of your capacity. You don’t want to get so sore that you cannot do anything the next day. .",
             "url": "www.ankushchoubey.com/exercise/",
@@ -78,7 +89,7 @@
     
   
     
-        ,"post7": {
+        ,"post8": {
             "title": "Develop your own opinions and reasonings",
             "content": "Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it. . While coding many try to follow “best practices” without giving them a thought. Many follow Agile “practices” without knowing or reasoning why. . Not having your own reasoning makes you susceptible to ideological thinking along with it’s upsides and down sides. . By not reasoning yourself, you are not being unique, you are just a replicate of someone else’s thinking. .",
             "url": "www.ankushchoubey.com/original-opinion/",
@@ -89,7 +100,7 @@
     
   
     
-        ,"post8": {
+        ,"post9": {
             "title": "Decision Making Heuristics",
             "content": ". Photo by Tim Graf on Unsplash . These heuristics can serve as a useful guide only if one trusts the reasoning behind each. . Tell the Truth 1 . By telling and articulating the truth, you remove clutter/garbage and focus on what really matters. . If it sounds too good to be true, it probably is. . World if filled with scam artists. . Do/Try/Invest in many things. You don’t have any decision making capacity unless you have an offer. . You don’t have any decision making capacity unless you have an offer on the table. . So apply for multiple jobs, learn multiple skills, meet multiple people, try multiple options; you don’t know which ones will stick at first. . If downside is negligible, reversible or it can be capped and upside is very high, do it. 2 . If you can gain 2x, 10x from the decision and the loss in negligible or reversible, the potential upside is much much higher. . If you need to make a big decision and you can’t decided, say No. 3 . Modern world is abundant with opportunities. You’ll find another one. . If there are multiple similar options and each seem similar, take the path that seems the hardest in the short term. 3 . Your brain is likely compensating short term hard right path for an easy path. Easy paths also have a higher chance of being too good to be true. . If you can’t decide, pick the decision that will lead you to more peace of mind. 3 . You can only continue to make good decisions if you have a peace of mind. If it voilates your consons, say no. . Metrics . Say no to many things . The goal of a decision to do something is to have high ROI than from doing other things. . Jordan Peterson &#8617; . | Tim Ferriss &#8617; . | Naval Ravikant &#8617; &#8617;2 &#8617;3 . |",
             "url": "www.ankushchoubey.com/decision-making-heuristics/",
@@ -100,7 +111,7 @@
     
   
     
-        ,"post9": {
+        ,"post10": {
             "title": "Cases To Be Humble",
             "content": ". Photo by Bill Jelen on Unsplash . You know very little. Collective human knowledge is much larger. . There are people much better than you who believe they don’t know everything. Listen to Elon Musk once and you’ll know. . There may even be kids much better than you are. . Everything you see around you was made by group of humans working together. Many sacrificed themselves to their work to make these things a reality. . You live in a country where you have basic facilities: Internet, House, Food, Water. Hopefully you have a family and a few good friends. There are many who aren’t as lucky who live in a poor 3rd world country and or war zones. . Universe has been here for billions of years and will be around for billions. Like every one human being, you’ll die one day. What you leave behind is your knowledge and your work. .",
             "url": "www.ankushchoubey.com/humble/",
@@ -111,7 +122,7 @@
     
   
     
-        ,"post10": {
+        ,"post11": {
             "title": "Meditation",
             "content": ". Photo by John Mark Arnold on Unsplash . You can be mindful and disciplined at the same time. . The best time to meditate is when you feel discomfort. Detach become mindful of your thoughts and the you’ll realize the thought cycle is stupid and will go on forever with one thing after another. . If you don’t have 10 minute to meditate 🧘🏽‍♂️, you should meditate for an hour. . Give yourself 10 minutes, other things can wait, . The progress of meditating is seen when you are not formally meditating. It includes a calmness if things you do. . Your goal while meditating is not be become a meditator. Your goals is to investigate your mind truthfully. . When you meditate with open eyes 👀, it’s okay to look here and there. Recognize the intention to look. Where is the intention coming from. . One you have learned how to truly meditate, You’ll have to tune it up from time to time. . There is no one perfect meditation. Different forms/formats of meditation will make you better at every form of meditation. . Meditation can be practiced anywhere and at any time. While eating, brushing, talking to someone, using your phone or laptop. While this is great, it is not a replacement for formal sitting. . Meditation (investigation of mind) can be separated from religious concepts. You need not believe something to meditate. . There is nothing in meditation that will give you insights about physical universe/galaxy. . Meditating at the same time and place is useful. . Have formal sitting practice in the morning before you do any major task. . Don’t be rigid while meditating. Let yourself flow. .",
             "url": "www.ankushchoubey.com/meditation/",
@@ -122,20 +133,9 @@
     
   
     
-        ,"post11": {
-            "title": "Bitcoin",
-            "content": "Macrofinance is way out of my league right now. Thoughts on this post may change in upcoming days. . This post is similar to the one on Open Source Software. . Public Blockchain allows ultimate trust between parties involved. . Parties can . Exploring the Hype . I am not sure why bitcoin gets so much attention . Country Bans . Bitcoin is the new gold . Crypto Companies . Types of Coins . Value .",
-            "url": "www.ankushchoubey.com/bitcoin/",
-            "relUrl": "/bitcoin/",
-            "date": " • Apr 28, 2021"
-        }
-        
-    
-  
-    
         ,"post12": {
             "title": "Tell the Truth. Speak your mind.",
-            "content": ". Photo by Bruno van der Kraan on Unsplash . Why? . By telling the truth, you won’t have to remember much. You won’t have to remember who you lied to and what. And so you can express yourself without second guessing. . If you always tell the truth, you won’t lie to yourself. Wishful thinking is a trap which will have an easier time avoiding if you always tell the truth. . You’ll see the words as clearly as possible. . Foundation . Telling the truth is easier when you believe certain assumptions: . By telling the truth, the best possible scenario that can happen will happen. | While speking the truth even if you are afraid to think you are alone know that others exists. they are just as afraid as you. | If you are overwhelmed, see if you are telling the truth. . Telling the truth unhides the fog. Truth always shines. . Not telling the truth is bad for self esteem. . Why you should speak up . At meetings, everybody does not understand. By speaking up and asking questions, giving suggestion everyone benifits. . By speaking up, likeminded people will come to you. . By speaking up, you increase trust. . By speaking up, you never have the regret of being silent. . By speaking up, if someday you are on a wrong track others will speak up and tell you. . Framing . Framing is something we use all the time. . Every information has to be compressed in some way else it will take forever to speak. . Therefore, we have to make sure we be as precise as possible without taking forever to convey. . How to speak up and tell the truth? . Tell the truth or atleast not lie. . Philosophy is not mathematics. There are no hard rules let’s assume their is. . You have have to hide facts from let’s say kids, that is okay. But don’t lie. . Tell it fast and Tell it fully . Be precise in your speech. . If you are good at articulations, you should articulate for someone else specially with the person you are having the argument. The goal is to get to the truth and understanding, and not to win. . Do not do things that you hate . Act so that you can tell the truth about how you act . Live by the truth. Listen to your consons. . Express your intend properly. . Be polite. Don’t try to humilate. . By framing make sure your express the intend of solving the problem else your speaking truth will backfire. .",
+            "content": ". Photo by Bruno van der Kraan on Unsplash . Why? . By telling the truth, you won’t have to remember much. You won’t have to remember who you lied to and what. And so you can express yourself without second guessing. . If you always tell the truth, you won’t lie to yourself. Wishful thinking is a trap which will have an easier time avoiding if you always tell the truth. . Truth leads to clarity. Truth will set you free. If you are not free, see if you are speaking the truth or don’t know it completely. . Telling the truth is adventurous. . Foundation . Telling the truth is easier when you believe certain assumptions: . By telling the truth, the best possible scenario that can happen will happen. | While speaking the truth even if you are afraid to think you are alone know that others exists. they are just as afraid as you. | If you are overwhelmed, see if you are telling the truth. . Telling the truth unhides the fog. Truth always shines. . Not telling the truth is bad for self esteem. . Why you should speak up . At meetings, everybody does not understand. By speaking up and asking questions, giving suggestion everyone benifits. . By speaking up, likeminded people will come to you. . By speaking up, you increase trust. . By speaking up, you never have the regret of being silent. . By speaking up, if someday you are on a wrong track others will speak up and tell you. . Framing . Framing is something we use all the time. . Every information has to be compressed in some way else it will take forever to speak. . Therefore, we have to make sure we be as precise as possible without taking forever to convey. . How to speak up and tell the truth? . Tell the truth or atleast not lie. . Philosophy is not mathematics. There are no hard rules let’s assume their is. . You have have to hide facts from let’s say kids, that is okay. But don’t lie. . Tell it fast and Tell it fully . Be precise in your speech. . If you are good at articulations, you should articulate for someone else specially with the person you are having the argument. The goal is to get to the truth and understanding, and not to win. . Do not do things that you hate . Act so that you can tell the truth about how you act . Live by the truth. Listen to your consons. . Express your intend properly. . Be polite. Don’t try to humilate. . By framing make sure your express the intend of solving the problem else your speaking truth will backfire. .",
             "url": "www.ankushchoubey.com/truth/",
             "relUrl": "/truth/",
             "date": " • Apr 22, 2021"

@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-15T00:23:26-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-19T12:28:29-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Applications of Recommender Systems</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Applications of Recommender Systems" /><published>2021-05-16T00:00:00-05:00</published><updated>2021-05-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/recommender-systems</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;
+Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Charles Deluvio&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/suggestion?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Recommender systems are easiest and probably most lucritive ML Application.&lt;/p&gt;
+
+&lt;p&gt;The whole of social media, content sites and E-Commerce Companies are built around it.&lt;/p&gt;
+
+&lt;p&gt;The goal is said to be to provide right information at the right time and avoiding information overload. The statement seems ideal and a recommender system can be made to work such a way.&lt;/p&gt;
+
+&lt;p&gt;Most often for consumer facing products, the real reason is the opposite. Keep people hooked to using the product for longer.&lt;/p&gt;
+
+&lt;p&gt;In social media, it would be used to recommended content/people similar to once you are viewing or something you might like.&lt;/p&gt;
+
+&lt;p&gt;For E-Commerce companies, the focus is on recommended you the product you’ll likely purchase.&lt;/p&gt;
+
+&lt;p&gt;Recommender systems are also used at a smaller scale like Keyboard Suggestions on your phone.&lt;/p&gt;
+
+&lt;p&gt;For Enterprise, recommender systems can help improve productivity by a lot.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;By having documents/data grouped, the right information can be searched faster.&lt;/li&gt;
+  &lt;li&gt;By having similar documents groups/recommended, comparing between documents can be made simpler.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Recommender Systems often require much less data to operate.&lt;/p&gt;</content><author><name></name></author><summary type="html">Photo by Charles Deluvio on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@nick604?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Nick Chong&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/crypto?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -36,11 +59,7 @@
 
 &lt;p&gt;Cryptocurrencies remove this power from the government and decentralize it amoung individuals.&lt;/p&gt;
 
-&lt;p&gt;They can only be valid as long as enough people believe it is valid.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/crypto.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/crypto.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tough</title><link href="www.ankushchoubey.com/tough/" rel="alternate" type="text/html" title="Tough" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/tough</id><content type="html" xml:base="www.ankushchoubey.com/tough/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;do-tough-things-because-they-are-tough&quot;&gt;Do tough things because they are tough&lt;/h1&gt;
-
-&lt;p&gt;I used to love Deep Learning and wanted it to be my career option.&lt;/p&gt;
+&lt;p&gt;They can only be valid as long as enough people believe it is valid.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/crypto.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/crypto.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Do tough things because they are tough</title><link href="www.ankushchoubey.com/tough/" rel="alternate" type="text/html" title="Do tough things because they are tough" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/tough</id><content type="html" xml:base="www.ankushchoubey.com/tough/">&lt;p&gt;I used to love Deep Learning and wanted it to be my career option.&lt;/p&gt;
 
 &lt;p&gt;I learned it for many about 2 years. After work, sitting for an hour or two. There were often weeks when I understood nothing. I was early in my career then and things would likely be different of I try things out now.&lt;/p&gt;
 
@@ -52,7 +71,9 @@
   &lt;li&gt;Pushing through a mental limit break&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;There is immense upside to doing hard things even if they are not directly use. Indirectly doing hard things changes us for the better.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Quick Refactoring Tips</title><link href="www.ankushchoubey.com/refactoring/" rel="alternate" type="text/html" title="Quick Refactoring Tips" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/refactoring-tips</id><content type="html" xml:base="www.ankushchoubey.com/refactoring/">&lt;p&gt;It may be good to have unit test cases&lt;/p&gt;
+&lt;p&gt;There is immense upside to doing hard things even if they are not directly use.&lt;/p&gt;
+
+&lt;p&gt;Indirectly doing hard things changes us for the better.&lt;/p&gt;</content><author><name></name></author><summary type="html">I used to love Deep Learning and wanted it to be my career option.</summary></entry><entry><title type="html">Quick Refactoring Tips</title><link href="www.ankushchoubey.com/refactoring/" rel="alternate" type="text/html" title="Quick Refactoring Tips" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/refactoring-tips</id><content type="html" xml:base="www.ankushchoubey.com/refactoring/">&lt;p&gt;It may be good to have unit test cases&lt;/p&gt;
 
 &lt;p&gt;Study the code layout.&lt;/p&gt;
 
@@ -111,19 +132,46 @@
 
 &lt;p&gt;Freedom from Laziness, Random Motivation, etc&lt;/p&gt;
 
-&lt;p&gt;Free from not checking your phone all day or not doing stupid things just to get through.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Compare yourself with who you were yesterday, not who someone else is today</title><link href="www.ankushchoubey.com/compare/" rel="alternate" type="text/html" title="Compare yourself with who you were yesterday, not who someone else is today" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/compare-yourself</id><content type="html" xml:base="www.ankushchoubey.com/compare/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Free from not checking your phone all day or not doing stupid things just to get through.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Compare yourself with who you were yesterday</title><link href="www.ankushchoubey.com/compare/" rel="alternate" type="text/html" title="Compare yourself with who you were yesterday" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/compare-yourself</id><content type="html" xml:base="www.ankushchoubey.com/compare/">&lt;h2 id=&quot;infinite-games&quot;&gt;Infinite Games&lt;/h2&gt;
 
-&lt;p&gt;Escape competition through authenticity&lt;/p&gt;
+&lt;p&gt;I realized this when I was playing an iOS game called Mini Motorways.&lt;/p&gt;
+
+&lt;p&gt;The game is an infinite game, meaning there is no final goal where the game ends.&lt;/p&gt;
+
+&lt;p&gt;So each time, I would play the game, I would leave feeling unsatisfied. Looking back, I had a good enough score. But without any baseline to compare it too, I don’t know if I was doing well.&lt;/p&gt;
+
+&lt;p&gt;By comparing with yourself, you have a fair and proper baseline. &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;escape-competition-through-authenticity-&quot;&gt;Escape competition through authenticity &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;If you are playing someone else’s game, you’ll be worst at it.&lt;/p&gt;
 
-&lt;p&gt;If they are entering your game, they’ll be worst at it.&lt;/p&gt;
+&lt;p&gt;If they are entering your game, they’ll be worst at it. No one can compete you for being you &lt;sup id=&quot;fnref:2:1&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p&gt;Plateau of Lattent Potential. May he making you unaware of how good you have become since you started.&lt;/p&gt;
+&lt;p&gt;Plateau of Latent Potential&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; may be making you unaware of how good you have become since you started.&lt;/p&gt;
 
-&lt;p&gt;If often takes months (years in you are young) to do something significant like to get an job offer in a specific field.&lt;/p&gt;
+&lt;p&gt;If often takes months (years in you are young) to do something significant like to get an job offer in a specific field. You’ll likely neglect this if you are always comparing.&lt;/p&gt;
 
-&lt;p&gt;If you want to see, see the real them, live coding&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Physical Exercise</title><link href="www.ankushchoubey.com/exercise/" rel="alternate" type="text/html" title="Physical Exercise" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/physical-exercise</id><content type="html" xml:base="www.ankushchoubey.com/exercise/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;rate-of-change-vs-actual-change&quot;&gt;Rate of Change vs Actual Change&lt;/h2&gt;
+
+&lt;p&gt;By comparing with yourself, you focus on rate of improvement. Though the actual improvement is what will determine your present, rate of improvement which is much easier to manage will let you win in long term.&lt;/p&gt;
+
+&lt;h4 id=&quot;footnotes&quot;&gt;Footnotes:&lt;/h4&gt;
+&lt;h5 id=&quot;the-title-is-taken-from-12-rules-for-life-by-jordan-peterson&quot;&gt;The title is taken from 12 Rules For Life by Jordan Peterson&lt;/h5&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Jordan B Peterson &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:2:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Atomic Habits &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Infinite Games</summary></entry><entry><title type="html">Physical Exercise</title><link href="www.ankushchoubey.com/exercise/" rel="alternate" type="text/html" title="Physical Exercise" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/physical-exercise</id><content type="html" xml:base="www.ankushchoubey.com/exercise/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@kirillz?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Kirill&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/pull-up?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -203,18 +251,4 @@
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3tnOc32k7Ac&quot;&gt;Naval Ravikant&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cases To Be Humble</title><link href="www.ankushchoubey.com/humble/" rel="alternate" type="text/html" title="Cases To Be Humble" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/cases-to-be-humble</id><content type="html" xml:base="www.ankushchoubey.com/humble/">&lt;p&gt;&lt;img src=&quot;/images/humble.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@billjelen?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Bill Jelen&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/rocket?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You know very little. Collective human knowledge is much larger.&lt;/p&gt;
-
-&lt;p&gt;There are people much better than you who believe they don’t know everything. Listen to Elon Musk once and you’ll know.&lt;/p&gt;
-
-&lt;p&gt;There may even be kids much better than you are.&lt;/p&gt;
-
-&lt;p&gt;Everything you see around you was made by group of humans working together. Many sacrificed themselves to their work to make these things a reality.&lt;/p&gt;
-
-&lt;p&gt;You live in a country where you have basic facilities: Internet, House, Food, Water. Hopefully you have a family and a few good friends. There are many who aren’t as lucky who live in a poor 3rd world country and or war zones.&lt;/p&gt;
-
-&lt;p&gt;Universe has been here for billions of years and will be around for billions. Like every one human being, you’ll die one day. What you leave behind is your knowledge and your work.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/humble.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/humble.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
