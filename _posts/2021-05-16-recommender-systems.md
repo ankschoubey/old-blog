@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [applications-of-ml, information-system]
+categories: [applications-of-ml, information-system, draft]
 title: Applications of Recommender Systems
 permalink: /recommender-systems/
 image: /images/recommender-systems.jpg
