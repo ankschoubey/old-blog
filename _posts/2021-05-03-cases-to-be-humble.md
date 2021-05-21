@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical]
+categories: [philosophical, personal]
 title: Cases To Be Humble
 permalink: /humble/
 image: /images/humble.jpg

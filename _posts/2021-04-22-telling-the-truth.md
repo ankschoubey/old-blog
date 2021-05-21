@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, for-future-me]
+categories: [philosophical, for-future-me, personal]
 title: Tell the Truth. Speak your mind.
 permalink: /truth/
 image: /images/truth.jpg

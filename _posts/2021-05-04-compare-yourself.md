@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Compare yourself to who you were yesterday
-categories: [philosophical, for-future-me]
+categories: [philosophical, for-future-me, personal]
 title: Compare yourself with who you were yesterday
 permalink: /compare/
 ---
