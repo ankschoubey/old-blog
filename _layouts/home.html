@@ -1,18 +1,7 @@
 ---
 layout: default
 ---
-<script>
-  for (const iterator of document.getElementsByClassName('page-link')) {
-      if (iterator.innerHTML === 'Search'){ iterator.classList.add('search-button'); iterator.title = 'Search';}
-      if (iterator.innerHTML === 'Tags'){ iterator.classList.add('tags-button'); iterator.title = 'Tags';}
-      if (iterator.innerHTML === 'Side Projects'){ iterator.classList.add('side-project-button'); iterator.title = 'Side Projects';}
-  }
-</script>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -35,7 +24,23 @@ layout: default
     {% endif %}
   {% endfor %}
 
-  {% assign posts = posts | sort: "sticky_rank", "last" %}
+  <!-- Sort posts by rank, then date -->
+  {% assign grouped_posts = posts | group_by: "sticky_rank" | sort: "name", "last" %}
+  {% assign sticky_posts = ''|split:'' %}
+  {% assign non_sticky_posts = '' | split:'' %}
+
+ 
+  {% for gp in grouped_posts %}
+    {%- if gp.name == "" -%}
+      {% assign non_sticky_posts = gp.items | sort: "date" | reverse %}
+    {%- else %}
+      {% assign sticky_posts = sticky_posts | concat: gp.items %}
+    {%- endif -%}
+  {% endfor %}
+
+   <!-- Assemble final sorted posts array -->
+  {% assign sticky_posts = sticky_posts | sort: "sticky_rank", "last" %}
+  {% assign posts = sticky_posts | concat: non_sticky_posts %}
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
@@ -44,18 +49,13 @@ layout: default
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-        {% if post.categories contains "draft" or post.categories contains "personal" %}
+      <li>
+        {%- if site.show_image -%}
+            {%- include post_list_image_card.html -%}
         {% else %}
-        <li>
-          {%- if site.show_image -%}
-              {%- include post_list_image_card.html -%}
-          {% else %}
-              {%- include post_list.html -%}
-          {%- endif -%}
-        </li>
-        {% endif %}
-    
-
+            {%- include post_list.html -%}
+        {%- endif -%}
+      </li>
       {%- endfor -%}
     </ul>
 

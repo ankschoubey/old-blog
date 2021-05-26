@@ -1,19 +1,16 @@
 ---
 layout: default
 ---
-<script>
-  for (const iterator of document.getElementsByClassName('page-link')) {
-      if (iterator.innerHTML === 'Search'){ iterator.classList.add('search-button'); iterator.title = 'Search';}
-      if (iterator.innerHTML === 'Tags'){ iterator.classList.add('tags-button'); iterator.title = 'Tags';}
-      if (iterator.innerHTML === 'Side Projects'){ iterator.classList.add('side-project-button'); iterator.title = 'Side Projects';}
-  }
-</script>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     {%- if page.description -%}
-    <p class="page-description">{{ page.description | escape }}</p>
+      {%- if site.html_escape.description -%}
+        <p class="page-description">{{ page.description | escape }}</p>
+      {%- else -%}
+        <p class="page-description">{{ page.description }}</p>
+      {%- endif -%}
     {%- endif -%}
     <p class="post-meta post-meta-title">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -37,9 +34,14 @@ layout: default
        • {% include reading_time.html -%}
     </p>
 
-    {%- include post-toolbar.html -%}
-
-
+    {% if page.categories.size > 0 and site.show_tags %}
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      {% for category in  page.categories  %}
+        <a class="category-tags-link" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+      </p>
+    {% endif %}
 
     {% if page.layout == 'notebook' %}
       {% if page.badges or page.badges == nil %}
@@ -53,9 +55,7 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-
     {{ content | toc  }}
-
   </div>
   {%- if page.comments -%}
     {%- include utterances.html -%}

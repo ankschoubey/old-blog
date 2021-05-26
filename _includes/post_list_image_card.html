@@ -1,33 +1,16 @@
-<div class="Box rounded-1 col-12" data-aos="flip-up">
+<div class="Box box-shadow-medium rounded-1 col-12">
     {%- if post.image -%}
     <div class="col-4 d-table-cell p-3 v-align-middle">
-        <a href="{{ post.url | relative_url }}">
-        <img class="image-preview " src="{{ post.image | relative_url }}"  href="{{ post.url | relative_url }}"/>
-        </a>
+        <img class="image-preview " src="{{ post.image | relative_url }}" />
       </div>
     {%- endif -%}
     <div class="col-8 d-table-cell p-3">
         <h3>
-          {% if post.categories contains "tweetable" %}
-            <p class="post-link" style="font-style: italic;">
-              <span class="fa fa-pencil"></span>
-              {{ post.title }}
-            </p>
-          {% else %}
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {% if post.categories contains "draft" %}
-              DRAFT: 
-              {% endif %}
-
-              {{ post.title | escape }}
-            </a>
-          {% endif %}
-
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
         </h3>
-        
         <p class="post-meta-description">{{ post.description }}</p>
-          <p class="post-meta">{{ post.date | date: date_format }} </p>
-          {%- include tags-list.html categories=post.categories -%}
-
+          <p class="post-meta">{{ post.date | date: date_format }}</p>
       </div>
   </div>
