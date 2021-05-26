@@ -6,6 +6,7 @@ categories: [favorite]
 layout: post
 use_math: true
 permalink: /config/
+sticky_rank: 3
 ---
 
 ## What we learned when starting out
