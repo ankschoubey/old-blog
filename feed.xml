@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-27T05:45:11-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Applications of Recommender Systems</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Applications of Recommender Systems" /><published>2021-05-16T00:00:00-05:00</published><updated>2021-05-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/recommender-systems</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;
-Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Charles Deluvio&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/suggestion?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Recommender systems are easiest and probably most lucritive ML Application.&lt;/p&gt;
-
-&lt;p&gt;The whole of social media, content sites and E-Commerce Companies are built around it.&lt;/p&gt;
-
-&lt;p&gt;The goal is said to be to provide right information at the right time and avoiding information overload. The statement seems ideal and a recommender system can be made to work such a way.&lt;/p&gt;
-
-&lt;p&gt;Most often for consumer facing products, the real reason is the opposite. Keep people hooked to using the product for longer.&lt;/p&gt;
-
-&lt;p&gt;In social media, it would be used to recommended content/people similar to once you are viewing or something you might like.&lt;/p&gt;
-
-&lt;p&gt;For E-Commerce companies, the focus is on recommended you the product you’ll likely purchase.&lt;/p&gt;
-
-&lt;p&gt;Recommender systems are also used at a smaller scale like Keyboard Suggestions on your phone.&lt;/p&gt;
-
-&lt;p&gt;For Enterprise, recommender systems can help improve productivity by a lot.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;By having documents/data grouped, the right information can be searched faster.&lt;/li&gt;
-  &lt;li&gt;By having similar documents groups/recommended, comparing between documents can be made simpler.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Recommender Systems often require much less data to operate.&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="draft" /><summary type="html">Photo by Charles Deluvio on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-27T06:02:38-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@nick604?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Nick Chong&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/crypto?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -97,30 +74,7 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
       &lt;p&gt;Beyond Order: 12 More Rules for Life &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><summary type="html">There is no programming language that fits every case. Python is not the best programming language. At least not for web development.</summary></entry><entry><title type="html">Physical Exercise</title><link href="www.ankushchoubey.com/exercise/" rel="alternate" type="text/html" title="Physical Exercise" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/physical-exercise</id><content type="html" xml:base="www.ankushchoubey.com/exercise/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@kirillz?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Kirill&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/pull-up?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;benefits-of-exercising&quot;&gt;Benefits of Exercising&lt;/h1&gt;
-
-&lt;p&gt;You’ll look good. You’ll develop good posture. And therefore attract beautiful potential mates.&lt;/p&gt;
-
-&lt;p&gt;You’ll feel good. You’ll feel confident. Your chest will be pumped out.&lt;/p&gt;
-
-&lt;p&gt;You’ll be smarter and more disciplined. Laziness will be gone. Brain will be pumped with blood. You’ll be much more productive in less time.&lt;/p&gt;
-
-&lt;p&gt;You’ll fall sick less. Your body with fight those diseases like never before.&lt;/p&gt;
-
-&lt;p&gt;You’ll pick up heavy things with easy. You’ll be the man who gets relied on by others.&lt;/p&gt;
-
-&lt;p&gt;You’ll be able to do more things for longer. You’ll be able to swim, run up mountains, run for longer, jump, climb 🧗‍♀️ walls, do a back flip, rock in the dance floor. A lot of great experiences are to be had by moving&lt;/p&gt;
-
-&lt;h1 id=&quot;get-started&quot;&gt;Get Started&lt;/h1&gt;
-&lt;p&gt;Do anything that you can do.&lt;/p&gt;
-
-&lt;p&gt;Plan things out in advanced.&lt;/p&gt;
-
-&lt;p&gt;Work on 80% of your capacity. You don’t want to get so sore that you cannot do anything the next day.&lt;/p&gt;</content><author><name></name></author><category term="for-future-me" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decision Making Heuristics</title><link href="www.ankushchoubey.com/decision-making-heuristics/" rel="alternate" type="text/html" title="Decision Making Heuristics" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/decision-making-heuristics</id><content type="html" xml:base="www.ankushchoubey.com/decision-making-heuristics/">&lt;p&gt;&lt;img src=&quot;/images/decision-making-heuristics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><summary type="html">There is no programming language that fits every case. Python is not the best programming language. At least not for web development.</summary></entry><entry><title type="html">Decision Making Heuristics</title><link href="www.ankushchoubey.com/decision-making-heuristics/" rel="alternate" type="text/html" title="Decision Making Heuristics" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/decision-making-heuristics</id><content type="html" xml:base="www.ankushchoubey.com/decision-making-heuristics/">&lt;p&gt;&lt;img src=&quot;/images/decision-making-heuristics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@timgraf99?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Tim Graf&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/compass?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -171,110 +125,7 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3tnOc32k7Ac&quot;&gt;Naval Ravikant&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="decision-making" /><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Meditation</title><link href="www.ankushchoubey.com/meditation/" rel="alternate" type="text/html" title="Meditation" /><published>2021-04-28T00:00:00-05:00</published><updated>2021-04-28T00:00:00-05:00</updated><id>www.ankushchoubey.com/meditation</id><content type="html" xml:base="www.ankushchoubey.com/meditation/">&lt;p&gt;&lt;img src=&quot;/images/meditation.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@johnmarkarnold?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;John Mark Arnold&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/calm?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You can be mindful and disciplined at the same time.&lt;/p&gt;
-
-&lt;p&gt;The best time to meditate is when you feel discomfort. Detach become mindful of your thoughts and the you’ll realize the thought cycle is stupid and will go on forever with one thing after another.&lt;/p&gt;
-
-&lt;p&gt;If you don’t have 10 minute to meditate 🧘🏽‍♂️, you should meditate for an hour.&lt;/p&gt;
-
-&lt;p&gt;Give yourself 10 minutes, other things can wait,&lt;/p&gt;
-
-&lt;p&gt;The progress of meditating is seen when you are not formally meditating. It includes a calmness if things you do.&lt;/p&gt;
-
-&lt;p&gt;Your goal while meditating is not be become a meditator. Your goals is to investigate your mind truthfully.&lt;/p&gt;
-
-&lt;p&gt;When you meditate with open eyes 👀, it’s okay to look here and there. Recognize the intention to look. Where is the intention coming from.&lt;/p&gt;
-
-&lt;p&gt;One you have learned how to truly meditate, You’ll have to tune it up from time to time.&lt;/p&gt;
-
-&lt;p&gt;There is no one perfect meditation. Different forms/formats of meditation will make you better at every form of meditation.&lt;/p&gt;
-
-&lt;p&gt;Meditation can be practiced anywhere and at any time. While eating, brushing, talking to someone, using your phone or laptop. While this is great, it is not a replacement for formal sitting.&lt;/p&gt;
-
-&lt;p&gt;Meditation (investigation of mind) can be separated from religious concepts. You need not believe something to meditate.&lt;/p&gt;
-
-&lt;p&gt;There is nothing in meditation that will give you insights about physical universe/galaxy.&lt;/p&gt;
-
-&lt;p&gt;Meditating at the same time and place is useful.&lt;/p&gt;
-
-&lt;p&gt;Have formal sitting practice in the morning before you do any major task.&lt;/p&gt;
-
-&lt;p&gt;Don’t be rigid while meditating. Let yourself flow.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/meditation.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/meditation.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tell the Truth. Speak your mind.</title><link href="www.ankushchoubey.com/truth/" rel="alternate" type="text/html" title="Tell the Truth. Speak your mind." /><published>2021-04-22T00:00:00-05:00</published><updated>2021-04-22T00:00:00-05:00</updated><id>www.ankushchoubey.com/telling-the-truth</id><content type="html" xml:base="www.ankushchoubey.com/truth/">&lt;p&gt;&lt;img src=&quot;/images/truth.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@brunovdkraan?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Bruno van der Kraan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/truth?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;why&quot;&gt;Why?&lt;/h2&gt;
-
-&lt;p&gt;By telling the truth, you won’t have to remember much. You won’t have to remember who you lied to and what. And so you can express yourself without second guessing.&lt;/p&gt;
-
-&lt;p&gt;If you always tell the truth, you won’t lie to yourself. Wishful thinking is a trap which will have an easier time avoiding if you always tell the truth.&lt;/p&gt;
-
-&lt;p&gt;Truth leads to clarity. Truth will set you free. If you are not free, see if you are speaking the truth or don’t know it completely.&lt;/p&gt;
-
-&lt;p&gt;Telling the truth is adventurous.&lt;/p&gt;
-
-&lt;h3 id=&quot;foundation&quot;&gt;Foundation&lt;/h3&gt;
-
-&lt;p&gt;Telling the truth is easier when you believe certain assumptions:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;By telling the truth, the best possible scenario that can happen will happen.&lt;/li&gt;
-  &lt;li&gt;While speaking the truth even if you are afraid to think you are alone know that others exists. they are just as afraid as you.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;If you are overwhelmed, see if you are telling the truth.&lt;/p&gt;
-
-&lt;h2 id=&quot;telling-the-truth-unhides-the-fog-truth-always-shines&quot;&gt;Telling the truth unhides the fog. Truth always shines.&lt;/h2&gt;
-
-&lt;p&gt;Not telling the truth is bad for self esteem.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-you-should-speak-up&quot;&gt;Why you should speak up&lt;/h2&gt;
-
-&lt;p&gt;At meetings, everybody does not understand. By speaking up and asking questions, giving suggestion everyone benifits.&lt;/p&gt;
-
-&lt;p&gt;By speaking up, likeminded people will come to you.&lt;/p&gt;
-
-&lt;p&gt;By speaking up, you increase trust.&lt;/p&gt;
-
-&lt;p&gt;By speaking up, you never have the regret of being silent.&lt;/p&gt;
-
-&lt;p&gt;By speaking up, if someday you are on a wrong track others will speak up and tell you.&lt;/p&gt;
-
-&lt;h2 id=&quot;framing&quot;&gt;Framing&lt;/h2&gt;
-
-&lt;p&gt;Framing is something we use all the time.&lt;/p&gt;
-
-&lt;p&gt;Every information has to be compressed in some way else it will take forever to speak.&lt;/p&gt;
-
-&lt;p&gt;Therefore, we have to make sure we be as precise as possible without taking forever to convey.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to-speak-up-and-tell-the-truth&quot;&gt;How to speak up and tell the truth?&lt;/h2&gt;
-
-&lt;h3 id=&quot;tell-the-truth-or-atleast-not-lie&quot;&gt;Tell the truth or atleast not lie.&lt;/h3&gt;
-
-&lt;p&gt;Philosophy is not mathematics. There are no hard rules let’s assume their is.&lt;/p&gt;
-
-&lt;p&gt;You have have to hide facts from let’s say kids, that is okay. But don’t lie.&lt;/p&gt;
-
-&lt;h3 id=&quot;tell-it-fast-and-tell-it-fully&quot;&gt;Tell it fast and Tell it fully&lt;/h3&gt;
-&lt;p&gt;Be precise in your speech.&lt;/p&gt;
-
-&lt;p&gt;If you are good at articulations, you should articulate for someone else specially with the person you are having the argument. The goal is to get to the truth and understanding, and not to win.&lt;/p&gt;
-
-&lt;h3 id=&quot;do-not-do-things-that-you-hate&quot;&gt;Do not do things that you hate&lt;/h3&gt;
-&lt;h3 id=&quot;act-so-that-you-can-tell-the-truth-about-how-you-act&quot;&gt;Act so that you can tell the truth about how you act&lt;/h3&gt;
-
-&lt;p&gt;Live by the truth. Listen to your consons.&lt;/p&gt;
-
-&lt;h3 id=&quot;express-your-intend-properly&quot;&gt;Express your intend properly.&lt;/h3&gt;
-
-&lt;p&gt;Be polite. Don’t try to humilate.&lt;/p&gt;
-
-&lt;p&gt;By framing make sure your express the intend of solving the problem else your speaking truth will backfire.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/truth.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/truth.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Finding Applicable Information</title><link href="www.ankushchoubey.com/applied-info/" rel="alternate" type="text/html" title="Finding Applicable Information" /><published>2021-04-22T00:00:00-05:00</published><updated>2021-04-22T00:00:00-05:00</updated><id>www.ankushchoubey.com/applied-info</id><content type="html" xml:base="www.ankushchoubey.com/applied-info/">&lt;p&gt;&lt;img src=&quot;/images/applied-info.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="decision-making" /><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Finding Applicable Information</title><link href="www.ankushchoubey.com/applied-info/" rel="alternate" type="text/html" title="Finding Applicable Information" /><published>2021-04-22T00:00:00-05:00</published><updated>2021-04-22T00:00:00-05:00</updated><id>www.ankushchoubey.com/applied-info</id><content type="html" xml:base="www.ankushchoubey.com/applied-info/">&lt;p&gt;&lt;img src=&quot;/images/applied-info.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pro321?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;prottoy hassan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/thinking?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -376,4 +227,204 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
 
 &lt;p&gt;Note-taking is problematic. By externalizing everything, you won’t think through well. One should only write what they think about a topic if something is new and carefully thought through.&lt;/p&gt;
 
-&lt;p&gt;The greatest obstacle to thinking is we resist boredom. Boredom is important as it sparks creativity.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/think.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/think.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;The greatest obstacle to thinking is we resist boredom. Boredom is important as it sparks creativity.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/think.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/think.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keeping Web Dev Code proper</title><link href="www.ankushchoubey.com/web-dev-clean/" rel="alternate" type="text/html" title="Keeping Web Dev Code proper" /><published>2021-04-01T00:00:00-05:00</published><updated>2021-04-01T00:00:00-05:00</updated><id>www.ankushchoubey.com/keeping-web-dev-clean</id><content type="html" xml:base="www.ankushchoubey.com/web-dev-clean/">&lt;p&gt;&lt;img src=&quot;/images/web-dev-clean.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@markusspiske?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Markus Spiske&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/web-development?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;choose-a-stable-framework&quot;&gt;Choose a stable framework.&lt;/h2&gt;
+
+&lt;p&gt;I believe Angular is a more stable long term solution than React which requires too much learning. Less modification is required therefore your code will last longer. At least it seems that way right now.&lt;/p&gt;
+
+&lt;h2 id=&quot;make-very-small-modular-pieces&quot;&gt;Make very small modular pieces.&lt;/h2&gt;
+&lt;p&gt;In Angular, create components even for small things like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;video&lt;/code&gt; tag. You’ll find that there are certain attributes you assign to every &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img&lt;/code&gt; tag that can be taken care of from one place&lt;/p&gt;
+
+&lt;p&gt;Separate app logic from business logic. You should be able to copy-paste these modules into another code base and use it without changes.&lt;/p&gt;
+
+&lt;p&gt;In angular, make use of everything: components, service, directives, pipes, interceptors, etc/&lt;/p&gt;
+
+&lt;h2 id=&quot;make-layout-components&quot;&gt;Make layout components&lt;/h2&gt;
+
+&lt;p&gt;These are common layouts you use throughout the application. Coding them in one place reduces unnecessary duplications.&lt;/p&gt;
+
+&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
+
+&lt;p&gt;The best way to deal with CSS is to write less of it.&lt;/p&gt;
+
+&lt;p&gt;CSS gets messy fast. By keeping your components small. You are halfway there to a good CSS.&lt;/p&gt;
+
+&lt;p&gt;Also make good use of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;display: flex&lt;/code&gt;. It gets most of the job done.&lt;/p&gt;
+
+&lt;h2 id=&quot;html&quot;&gt;HTML&lt;/h2&gt;
+
+&lt;p&gt;The best way to keep HTML clutter-free is to not write javascript/typescript logic in it&lt;/p&gt;
+
+&lt;p&gt;Angular provides a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ts&lt;/code&gt; file, use it for everything. Even for ngStyle or ngClass.&lt;/p&gt;
+
+&lt;p&gt;This will keep your HTML very clean&lt;/p&gt;
+
+&lt;p&gt;Create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get&lt;/code&gt; method to keep things clean.&lt;/p&gt;
+
+&lt;h2 id=&quot;have-very-few-utility-classes&quot;&gt;Have very few utility classes.&lt;/h2&gt;
+
+&lt;p&gt;It’s stupid to have too many utility classes spread throughout your codebase. Have only a few at a single place.&lt;/p&gt;
+
+&lt;p&gt;Only keep a utility class or method if it is used. Remove unnecessary code.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA&quot;&gt;YouTube channel: Fireship&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WA95EJGhbLc&quot;&gt;How to Properly Structure Angular Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="information-system" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/web-dev-clean.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/web-dev-clean.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">User Experience</title><link href="www.ankushchoubey.com/ux/" rel="alternate" type="text/html" title="User Experience" /><published>2021-03-10T00:00:00-06:00</published><updated>2021-03-10T00:00:00-06:00</updated><id>www.ankushchoubey.com/ux</id><content type="html" xml:base="www.ankushchoubey.com/ux/">&lt;p&gt;&lt;img src=&quot;/images/ux.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@alvarordesign?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Alvaro Reyes&lt;/a&gt; on &lt;a href=&quot;/s/photos/ux?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I started learning about UX a few months ago. This post summarizes things I have learned far.&lt;/p&gt;
+
+&lt;h2 id=&quot;user-experience&quot;&gt;User Experience&lt;/h2&gt;
+
+&lt;p&gt;User Experience (UX) is about making a product or service in a way that is useful, easy and delightful for end users.&lt;/p&gt;
+
+&lt;p&gt;UX is something that has to be actively worked on. It won’t happen automatically.&lt;/p&gt;
+
+&lt;p&gt;Because if UX is not good,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;User will get frustrated using the product&lt;/li&gt;
+  &lt;li&gt;User will not find the product attractive to use.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And therefore they won’t use your product.&lt;/p&gt;
+
+&lt;h2 id=&quot;sympathize-with-the-user&quot;&gt;Sympathize with the user.&lt;/h2&gt;
+
+&lt;p&gt;The way to understand what the users want is by sympathizing with the struggles that user’s face.&lt;/p&gt;
+
+&lt;video src=&quot;/images/ux/meme.mp4&quot; width=&quot;150&quot; height=&quot;300&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
+
+&lt;h2 id=&quot;test-fast&quot;&gt;Test fast&lt;/h2&gt;
+
+&lt;p&gt;The earlier you can get feedback from the user, the shorter your product development cycle will be.&lt;/p&gt;
+
+&lt;p&gt;The user can only know what he/she likes when he/she can experience the product. But since product development takes resources, prototyping helps to make the process faster.&lt;/p&gt;
+
+&lt;p&gt;The fastest way to do it is to create paper prototypes. Paper is inexpensive, quick and has zero learning curve.&lt;/p&gt;
+
+&lt;p&gt;You can prototype not just User Interface but also physical products.&lt;/p&gt;
+
+&lt;p&gt;Once the paper prototype is created, you can increase the fidelity of the prototypes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If a picture can say a thousand words, a prototype can save a thousand meetings.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s best to involve the end-users as much as possible in the design process.&lt;/p&gt;
+
+&lt;p&gt;The prototype also helps engineers to build exactly what the end-users want and reduces overall development time.&lt;/p&gt;
+
+&lt;h2 id=&quot;ui-is-part-of-ux-not-the-other-way-around&quot;&gt;UI is part of UX, not the other way around.&lt;/h2&gt;
+
+&lt;p&gt;UX includes more than the User Interface. It includes every interaction the user has with the product or the company.&lt;/p&gt;
+
+&lt;p&gt;UX is concerned with how the user feels when using the product and not just how it looks.&lt;/p&gt;
+
+&lt;p&gt;Such things can include reducing the number of steps needed to perform a task.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-checklist-for-beauty-of-user-interface&quot;&gt;A Checklist for “beauty” of User Interface&lt;/h2&gt;
+
+&lt;figure&gt;
+  
+    &lt;img class=&quot;docimage&quot; src=&quot;/images/ux/1.png&quot; alt=&quot;&quot; /&gt;
+    
+    
+      &lt;figcaption&gt;As a developer how can I become a better designer.&lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://www.youtube.com/watch?v=Ha_ooKAWAJI&quot;&gt;“As a developer how can I become a better designer?” ANSWERED!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="business" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/ux.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/ux.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Testing</title><link href="www.ankushchoubey.com/testing/" rel="alternate" type="text/html" title="Testing" /><published>2021-02-28T00:00:00-06:00</published><updated>2021-02-28T00:00:00-06:00</updated><id>www.ankushchoubey.com/testing</id><content type="html" xml:base="www.ankushchoubey.com/testing/">&lt;p&gt;&lt;img src=&quot;/images/testing.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup style=&quot;user-select: auto;&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@mykjohnson?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Mykenzie Johnson&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/testing?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Testing is like double-entry bookkeeping.&lt;/p&gt;
+
+&lt;h2 id=&quot;thinking&quot;&gt;Thinking&lt;/h2&gt;
+&lt;p&gt;You should not make assumptions. Always test.&lt;/p&gt;
+
+&lt;h2 id=&quot;productivity&quot;&gt;Productivity&lt;/h2&gt;
+&lt;p&gt;Testing makes it certain that you are moving in the right direction.&lt;/p&gt;
+
+&lt;p&gt;Test small, test often, and test fast.&lt;/p&gt;
+
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;It is cheaper to fix things earlier.&lt;/p&gt;
+
+&lt;p&gt;Keep your test coverage 100%. A good way to do that is that every new line of commits should have test coverage 100%.&lt;/p&gt;
+
+&lt;p&gt;Test isolated pieces (Unit Test) before testing with other components (Integration Test).&lt;/p&gt;
+
+&lt;p&gt;TDD is 50% more efficient in the long term.&lt;/p&gt;
+
+&lt;p&gt;Testing is insurance. It may not find anything but when it does it saved big time.&lt;/p&gt;
+
+&lt;p&gt;The cleaner your code, the cleaner the tests. A good code is testable.&lt;/p&gt;
+
+&lt;p&gt;Writing unit tests first only works well when you know exactly what you want to write. If you are experimenting. It may be useless.&lt;/p&gt;
+
+&lt;p&gt;Every new bug should get a new test written first. (adopted from Facebook Engineering)&lt;/p&gt;
+
+&lt;p&gt;Keep your overall QC process as automated as possible.&lt;/p&gt;
+
+&lt;p&gt;Like SpaceX, push beyond failure during testing/development. So you can ensure everything goes well in prod.&lt;/p&gt;
+
+&lt;h2 id=&quot;medical-field&quot;&gt;Medical Field&lt;/h2&gt;
+&lt;p&gt;The more you test, the more data points you have. The easy it will be to isolate the infected and avoid disease spread.&lt;/p&gt;
+
+&lt;p&gt;Test the most critical things often.&lt;/p&gt;
+
+&lt;h2 id=&quot;maths&quot;&gt;Maths&lt;/h2&gt;
+
+&lt;p&gt;You never accept the alternative hypothesis. You always reject it. You would rarely know if a hypothesis is 100% current. Unless it is a logical statement.&lt;/p&gt;
+
+&lt;p&gt;To test, you can plug the numbers right in and see if the equation holds.&lt;/p&gt;
+
+&lt;h2 id=&quot;learning&quot;&gt;Learning&lt;/h2&gt;
+
+&lt;p&gt;If you are learning, you can only know if you have learned right by testing yourself.&lt;/p&gt;</content><author><name></name></author><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/testing.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/testing.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ethical Capitalism</title><link href="www.ankushchoubey.com/ethical-capitalism/" rel="alternate" type="text/html" title="Ethical Capitalism" /><published>2021-02-18T00:00:00-06:00</published><updated>2021-02-18T00:00:00-06:00</updated><id>www.ankushchoubey.com/ethical-capitalism</id><content type="html" xml:base="www.ankushchoubey.com/ethical-capitalism/">&lt;p&gt;&lt;img src=&quot;/images/ethical-capitalism.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@billow926?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;billow926&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/market?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;capitalism-is-pure-genius&quot;&gt;Capitalism is Pure Genius&lt;/h2&gt;
+
+&lt;p&gt;Capitalism involves pushing oneself to help others.&lt;/p&gt;
+
+&lt;p&gt;Entrepreneurs find a problem, solve it, and earn money as a reward.&lt;/p&gt;
+
+&lt;p&gt;In capitalism terms, money is proof that you are adding value to the world. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Those who don’t own a business, help others by becoming an employee, thus adding value.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-path-to-high-impact-is-through-capitalism&quot;&gt;The Path To High Impact Is Through Capitalism&lt;/h2&gt;
+
+&lt;p&gt;It is efficient to adapt ourselves to the world than to do the opposite. Money is a form of trust.&lt;/p&gt;
+
+&lt;p&gt;You’re going to need money to have the effect of any kind and at any stage. Being a capitalist (employee or entrepreneur), providing value, and being compensated with cash is the best way to do it.&lt;/p&gt;
+
+&lt;h2 id=&quot;capitalism--ethics&quot;&gt;Capitalism + Ethics&lt;/h2&gt;
+
+&lt;p&gt;Capitalism is not perfect. If not kept in check, it can turn evil (Example: East India Company) and provide no value.&lt;/p&gt;
+
+&lt;p&gt;Ethics is not intrinsic to capitalism. And it probably never be as it is hard to map out. A combination of the two leads to more results than one or the other.&lt;/p&gt;
+
+&lt;p&gt;Ethics enables you to play long-term games, be trustworthy and win social trust.&lt;/p&gt;
+
+&lt;p&gt;The mix of the two is probably why companies like Apple and Tata Group are so successful and trusted for so long. They provide high value while not compromising on ethics.&lt;/p&gt;
+
+&lt;p&gt;It seems better to think in terms of adding value than to think in terms of money.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="business" /><category term="philosophical" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/ethical-capitalism.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/ethical-capitalism.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
