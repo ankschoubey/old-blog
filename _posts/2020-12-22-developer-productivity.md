@@ -1,4 +1,5 @@
 ---
+sticky_rank: 5
 toc: false
 layout: post
 comments: true
@@ -7,7 +8,6 @@ categories: [information-system, for-future-me, tools]
 title: Developer Productivity
 permalink: /dev_productivity/
 image: /images/dev_productivity.jpg
-sticky_rank: 4
 ---
 ![](/images/dev_productivity.jpg)
 

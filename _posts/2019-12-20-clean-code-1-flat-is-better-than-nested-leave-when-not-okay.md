@@ -1,4 +1,5 @@
 ---
+sticky_rank: 2
 toc: true
 layout: post
 comments: true
@@ -6,7 +7,6 @@ description: Leave when not okay
 categories: [clean-code]
 title: Flat is better than nested
 permalink: /flat_is_better/
-sticky_rank: 2
 ---
 
 This might be the most important tip of all the tips covered which applies mainly to if-else statements.

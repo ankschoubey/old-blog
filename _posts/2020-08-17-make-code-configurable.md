@@ -1,4 +1,5 @@
 ---
+sticky_rank: 4
 toc: true
 layout: post
 comments: true
@@ -6,7 +7,6 @@ description: Things that should take 0 coding effort
 categories: [programming]
 title: Make your code configurable.
 permalink: /code_configurable/
-sticky_rank: 4
 ---
 
 In one of the posts, I wrote previously I explain how [programming has become configuration](/config/).

@@ -1,4 +1,5 @@
 ---
+sticky_rank: 1
 toc: true
 layout: post
 comments: true
@@ -7,7 +8,6 @@ categories: [clean-code]
 title: Clean Code
 permalink: /clean_code/
 image: /images/2019-12-19-series-tips-on-writing-clean-code/1.png
-sticky_rank: 1
 ---
 
 > I’m not a great programmer; I’m just a good programmer with great habits
