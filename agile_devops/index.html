@@ -99,7 +99,15 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        <script>
+  for (const iterator of document.getElementsByClassName('page-link')) {
+      if (iterator.innerHTML === 'Search'){ iterator.classList.add('search-button'); iterator.title = 'Search';}
+      if (iterator.innerHTML === 'Tags'){ iterator.classList.add('tags-button'); iterator.title = 'Tags';}
+      if (iterator.innerHTML === 'Side Projects'){ iterator.classList.add('side-project-button'); iterator.title = 'Side Projects';}
+  }
+</script>
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Agile and DevOps</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-05-21T00:00:00-05:00" itemprop="datePublished">
@@ -110,24 +118,214 @@ window.onload = wrap_img;
     
       1 min read
     
-</span></p>
+</span></p>    <style>
+        .post-tool-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px 10px 0px;
+            /* border: 1px solid #e8e8e8; */
+            border-width: 0px 0px 1px 0px;
+        }
+        .left-section , .right-section{
+            display: flex;
+            gap: 8px;
+        }
 
+    </style>
     
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
-      
-        <a class="category-tags-link" href="/categories/#agile">agile</a>
-        &nbsp;
-      
-        <a class="category-tags-link" href="/categories/#devops">devops</a>
-        &nbsp;
-      
-        <a class="category-tags-link" href="/categories/#business">business</a>
-        
-      
-      </p>
-    
+    <div class="post-tool-bar"><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
 
-    </header>
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag agile" href="/categories/#agile">agile</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag devops" href="/categories/#devops">devops</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag business" href="/categories/#business">business</a>
+    
+</div>
+<div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
+    <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
+</a>
+
+
+<script>
+    a = document.getElementById('translate-btn');
+    a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=" + window.location.href);
+</script><a id='speech-btn' >
+    <img src="/images/icons/ear.svg" alt="listen" style="width:35px; cursor: pointer;">
+</a>
+
+<script>
+    speakPost = () => {
+        var msg = new SpeechSynthesisUtterance();
+        const title = document.querySelector("h1.post-title.p-name").innerText;
+        const post = document.querySelector("div.post-content.e-content").innerText
+        msg.text = title + '.' + post;
+        window.speechSynthesis.speak(msg);
+    }
+    if ('speechSynthesis' in window) {
+        document.getElementById("speech-btn").addEventListener("click", speakPost);
+    } else {
+        document.getElementById('speech-btn').style.display = 'none';
+    }
+</script>
+
+<!-- https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html --></div>
+      
+          
+    </div>
+    
+</header>
 
   <div class="post-content e-content" itemprop="articleBody">
     <p>Agile and DevOps are useful or buzz words depending on who you hear it from.</p>

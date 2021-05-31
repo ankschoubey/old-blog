@@ -97,69 +97,224 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <script>
+  for (const iterator of document.getElementsByClassName('page-link')) {
+      if (iterator.innerHTML === 'Search'){ iterator.classList.add('search-button'); iterator.title = 'Search';}
+      if (iterator.innerHTML === 'Tags'){ iterator.classList.add('tags-button'); iterator.title = 'Tags';}
+      if (iterator.innerHTML === 'Side Projects'){ iterator.classList.add('side-project-button'); iterator.title = 'Side Projects';}
+  }
+</script>
+
+<div class="home">
 
 
 <h2>Contents</h2>
 
   
   
-  
+  <style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
 
-  <ul>
-  
-    <li><a href="#agile">agile</a></li>
-  
-    <li><a href="#baton">baton</a></li>
-  
-    <li><a href="#blockchain">blockchain</a></li>
-  
-    <li><a href="#books">books</a></li>
-  
-    <li><a href="#business">business</a></li>
-  
-    <li><a href="#clean-code">clean-code</a></li>
-  
-    <li><a href="#cloud-computing">cloud-computing</a></li>
-  
-    <li><a href="#collection-of-thoughts">collection-of-thoughts</a></li>
-  
-    <li><a href="#communication">communication</a></li>
-  
-    <li><a href="#decision-making">decision-making</a></li>
-  
-    <li><a href="#deep-learning">deep-learning</a></li>
-  
-    <li><a href="#devops">devops</a></li>
-  
-    <li><a href="#experience">experience</a></li>
-  
-    <li><a href="#favorite">favorite</a></li>
-  
-    <li><a href="#for-future-me">for-future-me</a></li>
-  
-    <li><a href="#information-system">information-system</a></li>
-  
-    <li><a href="#leadership">leadership</a></li>
-  
-    <li><a href="#learning">learning</a></li>
-  
-    <li><a href="#marketing">marketing</a></li>
-  
-    <li><a href="#non-profit">non-profit</a></li>
-  
-    <li><a href="#philosophical">philosophical</a></li>
-  
-    <li><a href="#programming">programming</a></li>
-  
-    <li><a href="#tools">tools</a></li>
-  
-    <li><a href="#web-development">web-development</a></li>
-  
-  </ul>
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
 
-  
-      <h3 id ="agile"><i class="fas fa-tags category-tags-icon"></i></i> agile</h3>
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag agile" href="/categories/#agile">agile</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag baton" href="/categories/#baton">baton</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag blockchain" href="/categories/#blockchain">blockchain</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag books" href="/categories/#books">books</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag business" href="/categories/#business">business</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag cloud-computing" href="/categories/#cloud-computing">cloud-computing</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag collection-of-thoughts" href="/categories/#collection-of-thoughts">collection-of-thoughts</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag communication" href="/categories/#communication">communication</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag decision-making" href="/categories/#decision-making">decision-making</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag deep-learning" href="/categories/#deep-learning">deep-learning</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag devops" href="/categories/#devops">devops</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag experience" href="/categories/#experience">experience</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag favorite" href="/categories/#favorite">favorite</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag for-future-me" href="/categories/#for-future-me">for-future-me</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag information-system" href="/categories/#information-system">information-system</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag leadership" href="/categories/#leadership">leadership</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag learning" href="/categories/#learning">learning</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag marketing" href="/categories/#marketing">marketing</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag non-profit" href="/categories/#non-profit">non-profit</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag philosophical" href="/categories/#philosophical">philosophical</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag programming" href="/categories/#programming">programming</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag tools" href="/categories/#tools">tools</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag web-development" href="/categories/#web-development">web-development</a>
+    
+</div>
+
+      <h3 id ="agile"><i class="tag fas fa-hash-tag agile"></i></i> agile</h3>
       <a name="agile"></a>
       
         <article class="archive-item">
@@ -168,7 +323,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="baton"><i class="fas fa-tags category-tags-icon"></i></i> baton</h3>
+      <h3 id ="baton"><i class="tag fas fa-hash-tag baton"></i></i> baton</h3>
       <a name="baton"></a>
       
         <article class="archive-item">
@@ -192,7 +347,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="blockchain"><i class="fas fa-tags category-tags-icon"></i></i> blockchain</h3>
+      <h3 id ="blockchain"><i class="tag fas fa-hash-tag blockchain"></i></i> blockchain</h3>
       <a name="blockchain"></a>
       
         <article class="archive-item">
@@ -201,7 +356,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="books"><i class="fas fa-tags category-tags-icon"></i></i> books</h3>
+      <h3 id ="books"><i class="tag fas fa-hash-tag books"></i></i> books</h3>
       <a name="books"></a>
       
         <article class="archive-item">
@@ -210,7 +365,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="business"><i class="fas fa-tags category-tags-icon"></i></i> business</h3>
+      <h3 id ="business"><i class="tag fas fa-hash-tag business"></i></i> business</h3>
       <a name="business"></a>
       
         <article class="archive-item">
@@ -349,7 +504,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="clean-code"><i class="fas fa-tags category-tags-icon"></i></i> clean-code</h3>
+      <h3 id ="clean-code"><i class="tag fas fa-hash-tag clean-code"></i></i> clean-code</h3>
       <a name="clean-code"></a>
       
         <article class="archive-item">
@@ -403,7 +558,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="cloud-computing"><i class="fas fa-tags category-tags-icon"></i></i> cloud-computing</h3>
+      <h3 id ="cloud-computing"><i class="tag fas fa-hash-tag cloud-computing"></i></i> cloud-computing</h3>
       <a name="cloud-computing"></a>
       
         <article class="archive-item">
@@ -412,7 +567,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="collection-of-thoughts"><i class="fas fa-tags category-tags-icon"></i></i> collection-of-thoughts</h3>
+      <h3 id ="collection-of-thoughts"><i class="tag fas fa-hash-tag collection-of-thoughts"></i></i> collection-of-thoughts</h3>
       <a name="collection-of-thoughts"></a>
       
         <article class="archive-item">
@@ -461,7 +616,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="communication"><i class="fas fa-tags category-tags-icon"></i></i> communication</h3>
+      <h3 id ="communication"><i class="tag fas fa-hash-tag communication"></i></i> communication</h3>
       <a name="communication"></a>
       
         <article class="archive-item">
@@ -480,7 +635,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="decision-making"><i class="fas fa-tags category-tags-icon"></i></i> decision-making</h3>
+      <h3 id ="decision-making"><i class="tag fas fa-hash-tag decision-making"></i></i> decision-making</h3>
       <a name="decision-making"></a>
       
         <article class="archive-item">
@@ -534,7 +689,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="deep-learning"><i class="fas fa-tags category-tags-icon"></i></i> deep-learning</h3>
+      <h3 id ="deep-learning"><i class="tag fas fa-hash-tag deep-learning"></i></i> deep-learning</h3>
       <a name="deep-learning"></a>
       
         <article class="archive-item">
@@ -578,7 +733,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="devops"><i class="fas fa-tags category-tags-icon"></i></i> devops</h3>
+      <h3 id ="devops"><i class="tag fas fa-hash-tag devops"></i></i> devops</h3>
       <a name="devops"></a>
       
         <article class="archive-item">
@@ -592,7 +747,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="experience"><i class="fas fa-tags category-tags-icon"></i></i> experience</h3>
+      <h3 id ="experience"><i class="tag fas fa-hash-tag experience"></i></i> experience</h3>
       <a name="experience"></a>
       
         <article class="archive-item">
@@ -601,7 +756,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="favorite"><i class="fas fa-tags category-tags-icon"></i></i> favorite</h3>
+      <h3 id ="favorite"><i class="tag fas fa-hash-tag favorite"></i></i> favorite</h3>
       <a name="favorite"></a>
       
         <article class="archive-item">
@@ -625,7 +780,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="for-future-me"><i class="fas fa-tags category-tags-icon"></i></i> for-future-me</h3>
+      <h3 id ="for-future-me"><i class="tag fas fa-hash-tag for-future-me"></i></i> for-future-me</h3>
       <a name="for-future-me"></a>
       
         <article class="archive-item">
@@ -669,7 +824,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="information-system"><i class="fas fa-tags category-tags-icon"></i></i> information-system</h3>
+      <h3 id ="information-system"><i class="tag fas fa-hash-tag information-system"></i></i> information-system</h3>
       <a name="information-system"></a>
       
         <article class="archive-item">
@@ -728,7 +883,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="leadership"><i class="fas fa-tags category-tags-icon"></i></i> leadership</h3>
+      <h3 id ="leadership"><i class="tag fas fa-hash-tag leadership"></i></i> leadership</h3>
       <a name="leadership"></a>
       
         <article class="archive-item">
@@ -747,7 +902,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="learning"><i class="fas fa-tags category-tags-icon"></i></i> learning</h3>
+      <h3 id ="learning"><i class="tag fas fa-hash-tag learning"></i></i> learning</h3>
       <a name="learning"></a>
       
         <article class="archive-item">
@@ -756,7 +911,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="marketing"><i class="fas fa-tags category-tags-icon"></i></i> marketing</h3>
+      <h3 id ="marketing"><i class="tag fas fa-hash-tag marketing"></i></i> marketing</h3>
       <a name="marketing"></a>
       
         <article class="archive-item">
@@ -775,7 +930,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="non-profit"><i class="fas fa-tags category-tags-icon"></i></i> non-profit</h3>
+      <h3 id ="non-profit"><i class="tag fas fa-hash-tag non-profit"></i></i> non-profit</h3>
       <a name="non-profit"></a>
       
         <article class="archive-item">
@@ -784,7 +939,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="philosophical"><i class="fas fa-tags category-tags-icon"></i></i> philosophical</h3>
+      <h3 id ="philosophical"><i class="tag fas fa-hash-tag philosophical"></i></i> philosophical</h3>
       <a name="philosophical"></a>
       
         <article class="archive-item">
@@ -823,7 +978,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="programming"><i class="fas fa-tags category-tags-icon"></i></i> programming</h3>
+      <h3 id ="programming"><i class="tag fas fa-hash-tag programming"></i></i> programming</h3>
       <a name="programming"></a>
       
         <article class="archive-item">
@@ -847,7 +1002,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="tools"><i class="fas fa-tags category-tags-icon"></i></i> tools</h3>
+      <h3 id ="tools"><i class="tag fas fa-hash-tag tools"></i></i> tools</h3>
       <a name="tools"></a>
       
         <article class="archive-item">
@@ -866,7 +1021,7 @@ window.onload = wrap_img;
         
       
   
-      <h3 id ="web-development"><i class="fas fa-tags category-tags-icon"></i></i> web-development</h3>
+      <h3 id ="web-development"><i class="tag fas fa-hash-tag web-development"></i></i> web-development</h3>
       <a name="web-development"></a>
       
         <article class="archive-item">

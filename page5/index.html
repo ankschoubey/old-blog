@@ -99,7 +99,15 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><style>
+        <script>
+  for (const iterator of document.getElementsByClassName('page-link')) {
+      if (iterator.innerHTML === 'Search'){ iterator.classList.add('search-button'); iterator.title = 'Search';}
+      if (iterator.innerHTML === 'Tags'){ iterator.classList.add('tags-button'); iterator.title = 'Tags';}
+      if (iterator.innerHTML === 'Side Projects'){ iterator.classList.add('side-project-button'); iterator.title = 'Side Projects';}
+  }
+</script>
+
+<div class="home"><style>
     .site-title{ display: none;}
     .contact-links{
         display: flex;
@@ -588,157 +596,2579 @@ window.onload = wrap_img;
 
    <!-- Assemble final sorted posts array -->
   
-  <ul class="post-list"><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+  <ul class="post-list"><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/config/">
-            Programming is now Configuring
-          </a>
+          
+            <a class="post-link" href="/config/">
+              
+
+              Programming is now Configuring
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description">beyond algorithms and data structures</p>
-          <p class="post-meta">Jun 29, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
-        <img class="image-preview " src="https://i2.wp.com/farm6.static.flickr.com/5101/5580291860_748652b4d8_o.gif" />
+          <p class="post-meta">Jun 29, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag favorite" href="/categories/#favorite">favorite</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <a href="/idea/">
+        <img class="image-preview " src="https://i2.wp.com/farm6.static.flickr.com/5101/5580291860_748652b4d8_o.gif"  href="/idea/"/>
+        </a>
       </div><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/idea/">
-            Ideas
-          </a>
+          
+            <a class="post-link" href="/idea/">
+              
+
+              Ideas
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description"></p>
-          <p class="post-meta">Jul 8, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
-        <img class="image-preview " src="https://images-na.ssl-images-amazon.com/images/I/61F6zC1EuvL._SL1024_.jpg" />
+          <p class="post-meta">Jul 8, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag collection-of-thoughts" href="/categories/#collection-of-thoughts">collection-of-thoughts</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <a href="/baton/">
+        <img class="image-preview " src="https://images-na.ssl-images-amazon.com/images/I/61F6zC1EuvL._SL1024_.jpg"  href="/baton/"/>
+        </a>
       </div><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/baton/">
-            Baton Road
-          </a>
+          
+            <a class="post-link" href="/baton/">
+              
+
+              Baton Road
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description">How humanity progresses.</p>
-          <p class="post-meta">Jul 5, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
-        <img class="image-preview " src="/images/2020-07-01-roi-of-fun/one_piece_luffy_drawing.jpg" />
+          <p class="post-meta">Jul 5, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag favorite" href="/categories/#favorite">favorite</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <a href="/fun/">
+        <img class="image-preview " src="/images/2020-07-01-roi-of-fun/one_piece_luffy_drawing.jpg"  href="/fun/"/>
+        </a>
       </div><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/fun/">
-            ROI of Fun
-          </a>
+          
+            <a class="post-link" href="/fun/">
+              
+
+              ROI of Fun
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description"></p>
-          <p class="post-meta">Jul 1, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+          <p class="post-meta">Jul 1, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/marketing-money/">
-            Marketing Money
-          </a>
+          
+            <a class="post-link" href="/marketing-money/">
+              
+
+              Marketing Money
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description">Draft version</p>
-          <p class="post-meta">Jun 30, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+          <p class="post-meta">Jun 30, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag business" href="/categories/#business">business</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag marketing" href="/categories/#marketing">marketing</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/ui/">
-            User Interfaces
-          </a>
+          
+            <a class="post-link" href="/ui/">
+              
+
+              User Interfaces
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description">and design</p>
-          <p class="post-meta">Jun 23, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
-        <img class="image-preview " src="/images/write.jpg" />
+          <p class="post-meta">Jun 23, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag business" href="/categories/#business">business</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <a href="/write/">
+        <img class="image-preview " src="/images/write.jpg"  href="/write/"/>
+        </a>
       </div><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/write/">
-            Writing motivation
-          </a>
+          
+            <a class="post-link" href="/write/">
+              
+
+              Writing motivation
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description"></p>
-          <p class="post-meta">May 31, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
-        <img class="image-preview " src="/images/new_tech/1.jpg" />
+          <p class="post-meta">May 31, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag collection-of-thoughts" href="/categories/#collection-of-thoughts">collection-of-thoughts</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <a href="/new_tech/">
+        <img class="image-preview " src="/images/new_tech/1.jpg"  href="/new_tech/"/>
+        </a>
       </div><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/new_tech/">
-            Deciding to learn a {programming} topic
-          </a>
+          
+            <a class="post-link" href="/new_tech/">
+              
+
+              Deciding to learn a {programming} topic
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description"></p>
-          <p class="post-meta">May 25, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+          <p class="post-meta">May 25, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag for-future-me" href="/categories/#for-future-me">for-future-me</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag learning" href="/categories/#learning">learning</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag favorite" href="/categories/#favorite">favorite</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/agile_devops/">
-            Agile and DevOps
-          </a>
+          
+            <a class="post-link" href="/agile_devops/">
+              
+
+              Agile and DevOps
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description"></p>
-          <p class="post-meta">May 21, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+          <p class="post-meta">May 21, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag agile" href="/categories/#agile">agile</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag devops" href="/categories/#devops">devops</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag business" href="/categories/#business">business</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/clean_code_tools/">
-            Clean Code Resources and Tools
-          </a>
+          
+            <a class="post-link" href="/clean_code_tools/">
+              
+
+              Clean Code Resources and Tools
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description">Constructing the simplest possible code</p>
-          <p class="post-meta">May 11, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
-        <img class="image-preview " src="/images/math.jpg" />
+          <p class="post-meta">May 11, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag tools" href="/categories/#tools">tools</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <a href="/math/">
+        <img class="image-preview " src="/images/math.jpg"  href="/math/"/>
+        </a>
       </div><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/math/">
-            Math motivation
-          </a>
+          
+            <a class="post-link" href="/math/">
+              
+
+              Math motivation
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description"></p>
-          <p class="post-meta">May 4, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+          <p class="post-meta">May 4, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag collection-of-thoughts" href="/categories/#collection-of-thoughts">collection-of-thoughts</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/dl_advice/">
-            Advice for those who want to learn Deep Learning
-          </a>
+          
+            <a class="post-link" href="/dl_advice/">
+              
+
+              Advice for those who want to learn Deep Learning
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description">or Machine Learning</p>
-          <p class="post-meta">May 2, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
-        <img class="image-preview " src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kaggle_logo.png/400px-Kaggle_logo.png" />
+          <p class="post-meta">May 2, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag deep-learning" href="/categories/#deep-learning">deep-learning</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <a href="/kaggle_getting_started/">
+        <img class="image-preview " src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kaggle_logo.png/400px-Kaggle_logo.png"  href="/kaggle_getting_started/"/>
+        </a>
       </div><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/kaggle_getting_started/">
-            Series  Kaggle Getting Started
-          </a>
+          
+            <a class="post-link" href="/kaggle_getting_started/">
+              
+
+              Series  Kaggle Getting Started
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description">Baby steps towards competitions</p>
-          <p class="post-meta">Mar 30, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
-        <img class="image-preview " src="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png" />
+          <p class="post-meta">Mar 30, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag deep-learning" href="/categories/#deep-learning">deep-learning</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <a href="/mnist/">
+        <img class="image-preview " src="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png"  href="/mnist/"/>
+        </a>
       </div><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/mnist/">
-            Digit Recognition
-          </a>
+          
+            <a class="post-link" href="/mnist/">
+              
+
+              Digit Recognition
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description">MNIST: Kaggle Getting Started</p>
-          <p class="post-meta">Mar 30, 2020</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+          <p class="post-meta">Mar 30, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag deep-learning" href="/categories/#deep-learning">deep-learning</a>
+    
+</div>
+</div>
+  </div></li><li><div class="Box rounded-1 col-12" data-aos="flip-up"><div class="col-8 d-table-cell p-3">
         <h3>
-          <a class="post-link" href="/kaggle_download_folder/">
-            Kaggle CLI QA: How to download a particular folder
-          </a>
+          
+            <a class="post-link" href="/kaggle_download_folder/">
+              
+
+              Kaggle CLI QA: How to download a particular folder
+            </a>
+          
+
         </h3>
+        
         <p class="post-meta-description"></p>
-          <p class="post-meta">Mar 10, 2020</p>
-      </div>
+          <p class="post-meta">Mar 10, 2020 </p><style>
+    .tag-list {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        background-color: rgb(181 181 181);
+        padding: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black !important;
+    }
+
+    .tag:hover {
+        filter: alpha
+    }
+
+    .agile {
+        background-color: #ff577f
+    }
+
+    .baton {
+        background-color: #BE8294
+    }
+
+    .books {
+        background-color: #2A93D5
+    }
+
+    .business {
+        background-color: #ffd400
+    }
+
+    .clean-code {
+        background-color: #874E4C
+    }
+
+    .cloud-computing {
+        background-color: #726A95
+    }
+
+    .collection-of-thoughts {
+        background-color: #9f48af
+    }
+
+    .communication {
+        background-color: #7fd648
+    }
+
+    .decision-making {
+        background-color: #6c77bb
+    }
+
+    .deep-learning {
+        background-color: #6CBF84
+    }
+
+    .devops {
+        background-color: #849974
+    }
+
+    .draft {
+        background-color: #ff884b
+    }
+
+    .experience {
+        background-color: #4C586F
+    }
+
+    .favorite {
+        background-color: pink
+    }
+
+    .for-future-me {
+        background-color: #F26968
+    }
+
+    .information-system {
+        background-color: #2A93D5
+    }
+
+    .kaggle {
+        background-color: #FBAA7D
+    }
+
+    .leadership {
+        background-color: #FFDA93
+    }
+
+    .learning {
+        background-color: #DEBF89
+    }
+
+    .marketing {
+        background-color: #7E988D
+    }
+
+    .non-profit {
+        background-color: #909A74
+    }
+
+
+    .personal {
+        background-color: #425E80
+    }
+
+    .philosophical {
+        background-color: #E39EB6;
+    }
+
+    .programming {
+        background-color: #e25146
+    }
+
+    .qa {
+        background-color: #E8DDCD
+    }
+
+    .software-development {
+        background-color: #87AEA6
+    }
+
+    .tools {
+        background-color: #C1867F
+    }
+
+    .web-development {
+        background-color: #887790
+    }
+    .personal{
+        display: none;
+    }
+    .family{
+        display: none;
+    }
+    .draft{
+        display: none;
+    }
+    .blockchain{
+        background-color: #c0ad03
+    }
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script>
+
+<div class="tag-list">
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag deep-learning" href="/categories/#deep-learning">deep-learning</a>
+    
+</div>
+</div>
   </div></li></ul>
 
     
