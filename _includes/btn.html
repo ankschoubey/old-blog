@@ -1,5 +1,5 @@
 {% if include.download contains "true" or "t" %}
-<a class="btn {{include.icon}}" href="{{include.href}}" style="left: -10px; position: relative;" download={{include.download_name}}>
+<a class="btn {{include.icon}}" href="{{include.href}}" style="left: -10px; position: relative;" download="{{include.download_name}}">
     {{include.text}}
 </a>
 {% else %}
