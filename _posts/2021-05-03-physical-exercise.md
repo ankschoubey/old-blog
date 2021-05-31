@@ -7,6 +7,7 @@ categories: [for-future-me]
 title: Physical Exercise
 permalink: /exercise/
 image: /images/exercise.jpg
+hide: true
 ---
 ![](/images/exercise.jpg)
 

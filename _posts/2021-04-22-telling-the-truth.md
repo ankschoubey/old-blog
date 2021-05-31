@@ -7,6 +7,7 @@ categories: [philosophical, for-future-me, personal]
 title: Tell the Truth. Speak your mind.
 permalink: /truth/
 image: /images/truth.jpg
+hide: true
 ---
 ![](/images/truth.jpg)
 

@@ -7,6 +7,7 @@ categories: [business, books, draft]
 title: DRAFT The Personal MBA
 permalink: /mba/
 image: /images/mba.jpg
+hide: true
 ---
 ![](/images/mba.jpg)
 

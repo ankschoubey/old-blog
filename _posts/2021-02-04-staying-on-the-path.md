@@ -7,6 +7,7 @@ categories: [personal, baton]
 title: The Path / Ethics
 permalink: /path/
 image: /images/path.jpg
+hide: true
 ---
 ![](/images/path.jpg)
 <sub style="user-select: auto;">Photo by <a href="https://unsplash.com/@jakeblucker?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Jake Blucker</a> on <a href="https://unsplash.com/s/photos/road?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Unsplash</a></sub>

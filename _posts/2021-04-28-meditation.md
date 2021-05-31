@@ -7,6 +7,7 @@ categories: [philosophical, collection-of-thoughts]
 title: Meditation
 permalink: /meditation/
 image: /images/meditation.jpg
+hide: true
 ---
 ![](/images/meditation.jpg)
 
