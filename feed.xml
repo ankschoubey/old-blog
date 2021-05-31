@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-31T06:27:20-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Applications of Recommender Systems</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Applications of Recommender Systems" /><published>2021-05-16T00:00:00-05:00</published><updated>2021-05-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/recommender-systems</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-31T06:37:36-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Always be ready to switch companies</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Always be ready to switch companies" /><published>2021-05-26T00:00:00-05:00</published><updated>2021-05-26T00:00:00-05:00</updated><id>www.ankushchoubey.com/switch</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;always-be-ready-to-switch-companies&quot;&gt;Always be ready to switch companies&lt;/h1&gt;
+
+&lt;p&gt;Capitalism&lt;/p&gt;
+
+&lt;p&gt;Learning new things&lt;/p&gt;
+
+&lt;p&gt;Learning new domains&lt;/p&gt;
+
+&lt;p&gt;Interviews keep you sharp&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevOps for my younger self</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="DevOps for my younger self" /><published>2021-05-25T00:00:00-05:00</published><updated>2021-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;#&lt;/p&gt;
+
+&lt;p&gt;My dear younger self,&lt;/p&gt;
+
+&lt;p&gt;You believed DevOps is bs and a buzzword. It kind of is. But it is highly valuable and important too.&lt;/p&gt;
+
+&lt;p&gt;Though you won’t always build something awesome from scratch and instead configure an existing tool to do the job, without DevOps you won’t be free to code.&lt;/p&gt;
+
+&lt;p&gt;You’ll spend all your time maintaining and deploying your code manually.&lt;/p&gt;
+
+&lt;p&gt;In this post, I’ll try to convince you why upper management likes DevOps so much.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-devops&quot;&gt;What is DevOps?&lt;/h2&gt;
+&lt;p&gt;DevOps is a mixture if tools and practices that make it efficient to build and maintain code.&lt;/p&gt;
+
+&lt;p&gt;Agile is what to do. DevOps is how to do.&lt;/p&gt;
+
+&lt;p&gt;DevOps practices occupies different stages of product development and beyond.&lt;/p&gt;
+
+&lt;p&gt;DevOps is such a broad term with loose definition that many other concepts are plugged into DevOps as a “best practice”.&lt;/p&gt;
+
+&lt;p&gt;DevOps also get’s merged with security and called DevSecOps.&lt;/p&gt;
+
+&lt;p&gt;For example: Pair Programming.&lt;/p&gt;
+
+&lt;p&gt;You cannot copy another organizations DevOps structure as it is. Your organization and products are unique. Make your own style. Don’t copy google or facebook,&lt;/p&gt;
+
+&lt;p&gt;Since DevOps relies so much on automation tools, some things can be achieved faster.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Increase compliance&lt;/li&gt;
+  &lt;li&gt;Streamlining of processes&lt;/li&gt;
+  &lt;li&gt;Automating repeatable tasks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some DevOps practices that are very helpful are.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Build Automation: Jenkins&lt;/li&gt;
+  &lt;li&gt;DB Automation: Liquibase, Flyway&lt;/li&gt;
+  &lt;li&gt;Code Linting: Sonar, CAST&lt;/li&gt;
+  &lt;li&gt;Continuous Integration: CI&lt;/li&gt;
+  &lt;li&gt;Continuous Delivery: CD&lt;/li&gt;
+  &lt;li&gt;Continuous Deployment: CD&lt;/li&gt;
+  &lt;li&gt;Continuous Monitoring: ELK, Databriks&lt;/li&gt;
+  &lt;li&gt;API Management?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While Developing:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Test Driven Development: TDD&lt;/li&gt;
+  &lt;li&gt;Behavious Driven Development: BDD&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="draft" /><summary type="html">#</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Applications of Recommender Systems</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Applications of Recommender Systems" /><published>2021-05-16T00:00:00-05:00</published><updated>2021-05-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/recommender-systems</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;
 Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Charles Deluvio&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/suggestion?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Recommender systems are easiest and probably most lucritive ML Application.&lt;/p&gt;
@@ -59,7 +118,7 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
 
 &lt;p&gt;Cryptocurrencies remove this power from the government and decentralize it amoung individuals.&lt;/p&gt;
 
-&lt;p&gt;They can only be valid as long as enough people believe it is valid.&lt;/p&gt;</content><author><name></name></author><category term="blockchain" /><category term="information-system" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/crypto.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/crypto.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Do tough things because they are tough</title><link href="www.ankushchoubey.com/tough/" rel="alternate" type="text/html" title="Do tough things because they are tough" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/tough</id><content type="html" xml:base="www.ankushchoubey.com/tough/">&lt;p&gt;I used to love Deep Learning and wanted it to be my career option.&lt;/p&gt;
+&lt;p&gt;They can only be valid as long as enough people believe it is valid.&lt;/p&gt;</content><author><name></name></author><category term="blockchain" /><category term="information-system" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/crypto.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/crypto.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tough</title><link href="www.ankushchoubey.com/tough/" rel="alternate" type="text/html" title="Tough" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/tough</id><content type="html" xml:base="www.ankushchoubey.com/tough/">&lt;p&gt;I used to love Deep Learning and wanted it to be my career option.&lt;/p&gt;
 
 &lt;p&gt;I learned it for many about 2 years. After work, sitting for an hour or two. There were often weeks when I understood nothing. I was early in my career then and things would likely be different of I try things out now.&lt;/p&gt;
 
@@ -194,61 +253,4 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
 
 &lt;p&gt;Plan things out in advanced.&lt;/p&gt;
 
-&lt;p&gt;Work on 80% of your capacity. You don’t want to get so sore that you cannot do anything the next day.&lt;/p&gt;</content><author><name></name></author><category term="for-future-me" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Develop your own opinions and reasonings</title><link href="www.ankushchoubey.com/original-opinion/" rel="alternate" type="text/html" title="Develop your own opinions and reasonings" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/own-opinion</id><content type="html" xml:base="www.ankushchoubey.com/original-opinion/">&lt;p&gt;Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it.&lt;/p&gt;
-
-&lt;p&gt;While coding many try to follow “best practices” without giving them a thought. Many follow Agile “practices” without knowing or reasoning why.&lt;/p&gt;
-
-&lt;p&gt;Not having your own reasoning makes you susceptible to ideological thinking along with it’s upsides and down sides.&lt;/p&gt;
-
-&lt;p&gt;By not reasoning yourself, you are not being unique, you are just a replicate of someone else’s thinking.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="30-seconds-reads" /><summary type="html">Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it.</summary></entry><entry><title type="html">Decision Making Heuristics</title><link href="www.ankushchoubey.com/decision-making-heuristics/" rel="alternate" type="text/html" title="Decision Making Heuristics" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/decision-making-heuristics</id><content type="html" xml:base="www.ankushchoubey.com/decision-making-heuristics/">&lt;p&gt;&lt;img src=&quot;/images/decision-making-heuristics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@timgraf99?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Tim Graf&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/compass?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;These heuristics can serve as a useful guide only if one trusts the reasoning behind each.&lt;/p&gt;
-
-&lt;h2 id=&quot;tell-the-truth-&quot;&gt;Tell the Truth &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;By telling and articulating the truth, you remove clutter/garbage and focus on what really matters.&lt;/p&gt;
-
-&lt;h2 id=&quot;if-it-sounds-too-good-to-be-true-it-probably-is&quot;&gt;If it sounds too good to be true, it probably is.&lt;/h2&gt;
-
-&lt;p&gt;World if filled with scam artists.&lt;/p&gt;
-
-&lt;h2 id=&quot;dotryinvest-in-many-things-you-dont-have-any-decision-making-capacity-unless-you-have-an-offer&quot;&gt;Do/Try/Invest in many things. You don’t have any decision making capacity unless you have an offer.&lt;/h2&gt;
-
-&lt;p&gt;You don’t have any decision making capacity unless you have an offer on the table.&lt;/p&gt;
-
-&lt;p&gt;So apply for multiple jobs, learn multiple skills, meet multiple people, try multiple options; you don’t know which ones will stick at first.&lt;/p&gt;
-
-&lt;h2 id=&quot;if-downside-is-negligible-reversible-or-it-can-be-capped-and-upside-is-very-high-do-it-&quot;&gt;If downside is negligible, reversible or it can be capped and upside is very high, do it. &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;If you can gain 2x, 10x from the decision and the loss in negligible or reversible, the potential upside is much much higher.&lt;/p&gt;
-
-&lt;h2 id=&quot;if-you-need-to-make-a-big-decision-and-you-cant-decided-say-no-&quot;&gt;If you need to make a big decision and you can’t decided, say No. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-&lt;p&gt;Modern world is abundant with opportunities. You’ll find another one.&lt;/p&gt;
-
-&lt;h2 id=&quot;if-there-are-multiple-similar-options-and-each-seem-similar-take-the-path-that-seems-the-hardest-in-the-short-term-&quot;&gt;If there are multiple similar options and each seem similar, take the path that seems the hardest in the short term. &lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;Your brain is likely compensating short term hard right path for an easy path. Easy paths also have a higher chance of being too good to be true.&lt;/p&gt;
-
-&lt;h2 id=&quot;if-you-cant-decide-pick-the-decision-that-will-lead-you-to-more-peace-of-mind-&quot;&gt;If you can’t decide, pick the decision that will lead you to more peace of mind. &lt;sup id=&quot;fnref:1:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;You can only continue to make good decisions if you have a peace of mind. If it voilates your consons, say no.&lt;/p&gt;
-
-&lt;h2 id=&quot;metrics&quot;&gt;Metrics&lt;/h2&gt;
-&lt;h2 id=&quot;say-no-to-many-things&quot;&gt;Say no to many things&lt;/h2&gt;
-&lt;p&gt;The goal of a decision to do something is to have high ROI than from doing other things.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Jordan Peterson &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vjZH7nmsHpk&quot;&gt;Tim Ferriss&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3tnOc32k7Ac&quot;&gt;Naval Ravikant&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="decision-making" /><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Work on 80% of your capacity. You don’t want to get so sore that you cannot do anything the next day.&lt;/p&gt;</content><author><name></name></author><category term="for-future-me" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
