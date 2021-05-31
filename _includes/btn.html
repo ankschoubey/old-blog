@@ -1,0 +1,28 @@
+{% if include.download contains "true" or "t" %}
+<a class="btn {{include.icon}}" href="{{include.href}}" style="left: -10px; position: relative;" download={{include.download_name}}>
+    {{include.text}}
+</a>
+{% else %}
+<a class="btn {{include.icon}}" href="{{include.href}}" style="left: -10px; position: relative;" target="_blank">
+    {{include.text}}
+</a>
+{% endif %}
+
+
+<style>
+    .btn{
+        padding: 10px;
+        border-radius: 6px;
+        text-align: center;
+        text-decoration: none;
+        transition: width 0.1s, height 0.1s, transform 0.1s;
+        color: gray;
+    }
+    .a:visited.btn{
+        color: gray;
+    }
+    .btn:hover {
+        background: black;
+        color: white !important;
+    }
+</style>
