@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-31T06:09:08-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-31T06:25:41-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Applications of Recommender Systems</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Applications of Recommender Systems" /><published>2021-05-16T00:00:00-05:00</published><updated>2021-05-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/recommender-systems</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;
+Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Charles Deluvio&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/suggestion?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Recommender systems are easiest and probably most lucritive ML Application.&lt;/p&gt;
+
+&lt;p&gt;The whole of social media, content sites and E-Commerce Companies are built around it.&lt;/p&gt;
+
+&lt;p&gt;The goal is said to be to provide right information at the right time and avoiding information overload. The statement seems ideal and a recommender system can be made to work such a way.&lt;/p&gt;
+
+&lt;p&gt;Most often for consumer facing products, the real reason is the opposite. Keep people hooked to using the product for longer.&lt;/p&gt;
+
+&lt;p&gt;In social media, it would be used to recommended content/people similar to once you are viewing or something you might like.&lt;/p&gt;
+
+&lt;p&gt;For E-Commerce companies, the focus is on recommended you the product you’ll likely purchase.&lt;/p&gt;
+
+&lt;p&gt;Recommender systems are also used at a smaller scale like Keyboard Suggestions on your phone.&lt;/p&gt;
+
+&lt;p&gt;For Enterprise, recommender systems can help improve productivity by a lot.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;By having documents/data grouped, the right information can be searched faster.&lt;/li&gt;
+  &lt;li&gt;By having similar documents groups/recommended, comparing between documents can be made simpler.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Recommender Systems often require much less data to operate.&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="draft" /><summary type="html">Photo by Charles Deluvio on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@nick604?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Nick Chong&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/crypto?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -36,7 +59,21 @@
 
 &lt;p&gt;Cryptocurrencies remove this power from the government and decentralize it amoung individuals.&lt;/p&gt;
 
-&lt;p&gt;They can only be valid as long as enough people believe it is valid.&lt;/p&gt;</content><author><name></name></author><category term="blockchain" /><category term="information-system" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/crypto.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/crypto.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Quick Refactoring Tips</title><link href="www.ankushchoubey.com/refactoring/" rel="alternate" type="text/html" title="Quick Refactoring Tips" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/refactoring-tips</id><content type="html" xml:base="www.ankushchoubey.com/refactoring/">&lt;p&gt;It may be good to have unit test cases&lt;/p&gt;
+&lt;p&gt;They can only be valid as long as enough people believe it is valid.&lt;/p&gt;</content><author><name></name></author><category term="blockchain" /><category term="information-system" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/crypto.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/crypto.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Do tough things because they are tough</title><link href="www.ankushchoubey.com/tough/" rel="alternate" type="text/html" title="Do tough things because they are tough" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/tough</id><content type="html" xml:base="www.ankushchoubey.com/tough/">&lt;p&gt;I used to love Deep Learning and wanted it to be my career option.&lt;/p&gt;
+
+&lt;p&gt;I learned it for many about 2 years. After work, sitting for an hour or two. There were often weeks when I understood nothing. I was early in my career then and things would likely be different of I try things out now.&lt;/p&gt;
+
+&lt;p&gt;Though I never used Deep Learning as a job, there are a few skills I learned that have persisted.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Watching Videos at 2x Speed&lt;/li&gt;
+  &lt;li&gt;Understanding many technological field&lt;/li&gt;
+  &lt;li&gt;Grasping hard technological concepts much faster&lt;/li&gt;
+  &lt;li&gt;Pushing through a mental limit break&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is immense upside to doing hard things even if they are not directly use.&lt;/p&gt;
+
+&lt;p&gt;Indirectly doing hard things changes us for the better.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><category term="draft" /><summary type="html">I used to love Deep Learning and wanted it to be my career option.</summary></entry><entry><title type="html">Quick Refactoring Tips</title><link href="www.ankushchoubey.com/refactoring/" rel="alternate" type="text/html" title="Quick Refactoring Tips" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/refactoring-tips</id><content type="html" xml:base="www.ankushchoubey.com/refactoring/">&lt;p&gt;It may be good to have unit test cases&lt;/p&gt;
 
 &lt;p&gt;Study the code layout.&lt;/p&gt;
 
@@ -52,7 +89,118 @@
 
 &lt;p&gt;Continuously Integrate your code&lt;/p&gt;
 
-&lt;p&gt;Refactor one functionality at a time instead of everything at once.&lt;/p&gt;</content><author><name></name></author><category term="information-system" /><category term="for-future-me" /><summary type="html">It may be good to have unit test cases</summary></entry><entry><title type="html">Decision Making Heuristics</title><link href="www.ankushchoubey.com/decision-making-heuristics/" rel="alternate" type="text/html" title="Decision Making Heuristics" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/decision-making-heuristics</id><content type="html" xml:base="www.ankushchoubey.com/decision-making-heuristics/">&lt;p&gt;&lt;img src=&quot;/images/decision-making-heuristics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Refactor one functionality at a time instead of everything at once.&lt;/p&gt;</content><author><name></name></author><category term="information-system" /><category term="for-future-me" /><summary type="html">It may be good to have unit test cases</summary></entry><entry><title type="html">There is no one size fits all</title><link href="www.ankushchoubey.com/one-size/" rel="alternate" type="text/html" title="There is no one size fits all" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/one-size</id><content type="html" xml:base="www.ankushchoubey.com/one-size/">&lt;p&gt;There is no programming language that fits every case. Python is not the best programming language. At least not for web development.&lt;/p&gt;
+
+&lt;p&gt;There is no perfect framework that is best for every case. React may be cool. But Angular is probably more stable for bigger projects.&lt;/p&gt;
+
+&lt;p&gt;There is no stock/mutual fund that works for everyone. Some are more stable. Some are made for those who can afford to take risks.&lt;/p&gt;
+
+&lt;p&gt;There is no career choice which brings out the best for everyone. Not every Software Engineer codes well (most suck).&lt;/p&gt;
+
+&lt;p&gt;There is no fixed routine/process that fits every case.&lt;/p&gt;
+
+&lt;p&gt;And even if you find a thing that fits, changes in environment/time will make it unfit again and you’ll have to find a new one.&lt;/p&gt;
+
+&lt;p&gt;If you think you think something is as simple as &lt;a href=&quot;/black_white&quot;&gt;black and white&lt;/a&gt;, the probability you’re wrong is high.&lt;/p&gt;
+
+&lt;p&gt;Abandon Ideology &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Abandon being totalitarian i.e to believe things should be done a certain way always. There is no one size fits all.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Beyond Order: 12 More Rules for Life &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><summary type="html">There is no programming language that fits every case. Python is not the best programming language. At least not for web development.</summary></entry><entry><title type="html">Personal Freedom</title><link href="www.ankushchoubey.com/p-freedom/" rel="alternate" type="text/html" title="Personal Freedom" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/freedom</id><content type="html" xml:base="www.ankushchoubey.com/p-freedom/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;freedom&quot;&gt;Freedom&lt;/h1&gt;
+&lt;p&gt;Freedom may bot be what one is seeking.&lt;/p&gt;
+
+&lt;p&gt;Suffering is optional.&lt;/p&gt;
+
+&lt;p&gt;You want to be mentally free of suffering. Things falling apart around you shouldn’t effect your state of mind.&lt;/p&gt;
+
+&lt;p&gt;If things fail, you should realize that it’s not you who failed. It’s the system/process you set that failed.&lt;/p&gt;
+
+&lt;p&gt;Tell the truth.&lt;/p&gt;
+
+&lt;p&gt;Information frees you up.&lt;/p&gt;
+
+&lt;p&gt;You want to be free so that you are not doing things that you hate. Instead do things that you love&lt;/p&gt;
+
+&lt;p&gt;Discipline is the path to freedom.&lt;/p&gt;
+
+&lt;p&gt;Freedom from Laziness, Random Motivation, etc&lt;/p&gt;
+
+&lt;p&gt;Free from not checking your phone all day or not doing stupid things just to get through.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Compare yourself with who you were yesterday</title><link href="www.ankushchoubey.com/compare/" rel="alternate" type="text/html" title="Compare yourself with who you were yesterday" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/compare-yourself</id><content type="html" xml:base="www.ankushchoubey.com/compare/">&lt;h2 id=&quot;infinite-games&quot;&gt;Infinite Games&lt;/h2&gt;
+
+&lt;p&gt;I realized this when I was playing an iOS game called Mini Motorways.&lt;/p&gt;
+
+&lt;p&gt;The game is an infinite game, meaning there is no final goal where the game ends.&lt;/p&gt;
+
+&lt;p&gt;So each time, I would play the game, I would leave feeling unsatisfied. Looking back, I had a good enough score. But without any baseline to compare it too, I don’t know if I was doing well.&lt;/p&gt;
+
+&lt;p&gt;By comparing with yourself, you have a fair and proper baseline. &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;escape-competition-through-authenticity-&quot;&gt;Escape competition through authenticity &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;If you are playing someone else’s game, you’ll be worst at it.&lt;/p&gt;
+
+&lt;p&gt;If they are entering your game, they’ll be worst at it. No one can compete you for being you &lt;sup id=&quot;fnref:2:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Plateau of Latent Potential&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; may be making you unaware of how good you have become since you started.&lt;/p&gt;
+
+&lt;p&gt;If often takes months (years in you are young) to do something significant like to get an job offer in a specific field. You’ll likely neglect this if you are always comparing.&lt;/p&gt;
+
+&lt;h2 id=&quot;rate-of-change-vs-actual-change&quot;&gt;Rate of Change vs Actual Change&lt;/h2&gt;
+
+&lt;p&gt;By comparing with yourself, you focus on rate of improvement. Though the actual improvement is what will determine your present, rate of improvement which is much easier to manage will let you win in long term.&lt;/p&gt;
+
+&lt;h4 id=&quot;footnotes&quot;&gt;Footnotes:&lt;/h4&gt;
+&lt;h5 id=&quot;the-title-is-taken-from-12-rules-for-life-by-jordan-peterson&quot;&gt;The title is taken from 12 Rules For Life by Jordan Peterson&lt;/h5&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Jordan B Peterson &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:2:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Atomic Habits &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><category term="draft" /><summary type="html">Infinite Games</summary></entry><entry><title type="html">Physical Exercise</title><link href="www.ankushchoubey.com/exercise/" rel="alternate" type="text/html" title="Physical Exercise" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/physical-exercise</id><content type="html" xml:base="www.ankushchoubey.com/exercise/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@kirillz?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Kirill&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/pull-up?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;benefits-of-exercising&quot;&gt;Benefits of Exercising&lt;/h1&gt;
+
+&lt;p&gt;You’ll look good. You’ll develop good posture. And therefore attract beautiful potential mates.&lt;/p&gt;
+
+&lt;p&gt;You’ll feel good. You’ll feel confident. Your chest will be pumped out.&lt;/p&gt;
+
+&lt;p&gt;You’ll be smarter and more disciplined. Laziness will be gone. Brain will be pumped with blood. You’ll be much more productive in less time.&lt;/p&gt;
+
+&lt;p&gt;You’ll fall sick less. Your body with fight those diseases like never before.&lt;/p&gt;
+
+&lt;p&gt;You’ll pick up heavy things with easy. You’ll be the man who gets relied on by others.&lt;/p&gt;
+
+&lt;p&gt;You’ll be able to do more things for longer. You’ll be able to swim, run up mountains, run for longer, jump, climb 🧗‍♀️ walls, do a back flip, rock in the dance floor. A lot of great experiences are to be had by moving&lt;/p&gt;
+
+&lt;h1 id=&quot;get-started&quot;&gt;Get Started&lt;/h1&gt;
+&lt;p&gt;Do anything that you can do.&lt;/p&gt;
+
+&lt;p&gt;Plan things out in advanced.&lt;/p&gt;
+
+&lt;p&gt;Work on 80% of your capacity. You don’t want to get so sore that you cannot do anything the next day.&lt;/p&gt;</content><author><name></name></author><category term="for-future-me" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Develop your own opinions and reasonings</title><link href="www.ankushchoubey.com/original-opinion/" rel="alternate" type="text/html" title="Develop your own opinions and reasonings" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/own-opinion</id><content type="html" xml:base="www.ankushchoubey.com/original-opinion/">&lt;p&gt;Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it.&lt;/p&gt;
+
+&lt;p&gt;While coding many try to follow “best practices” without giving them a thought. Many follow Agile “practices” without knowing or reasoning why.&lt;/p&gt;
+
+&lt;p&gt;Not having your own reasoning makes you susceptible to ideological thinking along with it’s upsides and down sides.&lt;/p&gt;
+
+&lt;p&gt;By not reasoning yourself, you are not being unique, you are just a replicate of someone else’s thinking.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="30-seconds-reads" /><summary type="html">Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it.</summary></entry><entry><title type="html">Decision Making Heuristics</title><link href="www.ankushchoubey.com/decision-making-heuristics/" rel="alternate" type="text/html" title="Decision Making Heuristics" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/decision-making-heuristics</id><content type="html" xml:base="www.ankushchoubey.com/decision-making-heuristics/">&lt;p&gt;&lt;img src=&quot;/images/decision-making-heuristics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@timgraf99?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Tim Graf&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/compass?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -103,341 +251,4 @@
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3tnOc32k7Ac&quot;&gt;Naval Ravikant&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="decision-making" /><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Finding Applicable Information</title><link href="www.ankushchoubey.com/applied-info/" rel="alternate" type="text/html" title="Finding Applicable Information" /><published>2021-04-22T00:00:00-05:00</published><updated>2021-04-22T00:00:00-05:00</updated><id>www.ankushchoubey.com/applied-info</id><content type="html" xml:base="www.ankushchoubey.com/applied-info/">&lt;p&gt;&lt;img src=&quot;/images/applied-info.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pro321?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;prottoy hassan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/thinking?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Information is clutter. Applying information is power.&lt;/p&gt;
-
-&lt;p&gt;The more applicable information you can find, the more you can apply them and make better decisions.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-information-should-be-applied&quot;&gt;Why information should be applied?&lt;/h2&gt;
-&lt;p&gt;Information if not applied is meaningless unless it is your profession to find and document new information.&lt;/p&gt;
-
-&lt;p&gt;By applying information faster, you will solve your problems faster or atleast move towards solving your problems faster.&lt;/p&gt;
-
-&lt;p&gt;The information that is not applied will be forgotten.&lt;/p&gt;
-
-&lt;h2 id=&quot;finding-applicable-information&quot;&gt;Finding applicable information&lt;/h2&gt;
-
-&lt;p&gt;There are many ways to find applicable information, these are a few that come to mind.&lt;/p&gt;
-
-&lt;h3 id=&quot;planning&quot;&gt;Planning&lt;/h3&gt;
-&lt;p&gt;A plan may or may not be used, but planning is useful because it uncovers many aspects of the problem. Also, it is easier to discovers paths to avoid.&lt;/p&gt;
-
-&lt;h3 id=&quot;questions&quot;&gt;Questions&lt;/h3&gt;
-
-&lt;p&gt;Frame your questions accurately.&lt;/p&gt;
-
-&lt;p&gt;Know the right people who can answer your question. Internet also allows us to connect to “experts” who are happy to answer you.&lt;/p&gt;
-
-&lt;p&gt;Specially having friends and collegues you can rely on helps in avoiding pitfalls.&lt;/p&gt;
-
-&lt;p&gt;Googling the right way is also a key skill.&lt;/p&gt;
-
-&lt;h3 id=&quot;reading-books&quot;&gt;Reading Books&lt;/h3&gt;
-
-&lt;p&gt;Some non-fiction books are made in a way where you can skip chapters liberally. Do so, close the book and live your life.&lt;/p&gt;
-
-&lt;p&gt;For other non-fiction books, you can do the same if you understand the topic enough. If you don’t, don’t skip because you’ll risk learning false information.&lt;/p&gt;
-
-&lt;h2 id=&quot;being-multidisciplinary&quot;&gt;Being Multidisciplinary&lt;/h2&gt;
-
-&lt;p&gt;Aspects from one discipline apply to other. Learn something random and you’ll find you apply the same principle in other field.&lt;/p&gt;
-
-&lt;p&gt;It seens better to learn by categorizing. Like: A music instrument, a physical activity, a social activity, etc.&lt;/p&gt;
-
-&lt;h3 id=&quot;mental-models-and-heuristics&quot;&gt;Mental Models and Heuristics.&lt;/h3&gt;
-
-&lt;p&gt;These can help you find out more infomation about a topic faster by making good guesses.&lt;/p&gt;
-
-&lt;p&gt;Some of my favorite mental models are:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Inversion (Most Useful)&lt;/li&gt;
-  &lt;li&gt;Occam’s razor&lt;/li&gt;
-  &lt;li&gt;Map is not a territory&lt;/li&gt;
-  &lt;li&gt;Confirmation Bias&lt;/li&gt;
-  &lt;li&gt;Circle of Competence&lt;/li&gt;
-  &lt;li&gt;Pareto Principle&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;make-time-and-think&quot;&gt;&lt;a href=&quot;/think/&quot;&gt;Make Time and Think&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Thinking means you’ll question things from the first principles. To see if they are valid or not.&lt;/p&gt;
-
-&lt;p&gt;Then you scrutinize it. By thinking you find the solutions yourself and rely less on other sources.&lt;/p&gt;</content><author><name></name></author><category term="decision-making" /><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/applied-info.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/applied-info.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">You need time to think</title><link href="www.ankushchoubey.com/think/" rel="alternate" type="text/html" title="You need time to think" /><published>2021-04-07T00:00:00-05:00</published><updated>2021-04-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/time-to-think</id><content type="html" xml:base="www.ankushchoubey.com/think/">&lt;p&gt;&lt;img src=&quot;/images/think.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@elijahdhiett?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Elijah Hiett&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/think?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;difference-between-thinking-and-knowledge&quot;&gt;Difference between thinking and knowledge&lt;/h2&gt;
-
-&lt;p&gt;There is a difference between acquiring knowledge and thinking.&lt;/p&gt;
-
-&lt;p&gt;Our gadgets are such that they remove any need for thinking. We can find all information in minutes.&lt;/p&gt;
-
-&lt;p&gt;The problem this leads to is that we always search for a ready-made answer instead of thinking ourselves.&lt;/p&gt;
-
-&lt;p&gt;I have seen this during development a lot where some developers would search open-source solutions or paid solutions when in reality creating solutions was a just a few lines of code.&lt;/p&gt;
-
-&lt;p&gt;This happens because of not thinking.&lt;/p&gt;
-
-&lt;h2 id=&quot;thinking&quot;&gt;Thinking&lt;/h2&gt;
-
-&lt;p&gt;Thinking means you’ll question things from the first principles. To see if they are valid or not.&lt;/p&gt;
-
-&lt;p&gt;Then you scrutinize it.&lt;/p&gt;
-
-&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
-
-&lt;p&gt;Individuals search for truth. Groups search for consensus. By always finding information rather than thinking, you increase your chances of being the same as others. Of course, logical facts are undeniable.&lt;/p&gt;
-
-&lt;p&gt;If you can think and articulate, you are powerful. You can influence people. People give you money. Ask for your advice.&lt;/p&gt;
-
-&lt;p&gt;Learning happens when you compare and contrast. Compare and contrast requires time to think.&lt;/p&gt;
-
-&lt;p&gt;Clear thinking also allows you to explain easily.&lt;/p&gt;
-
-&lt;p&gt;Your problems get solved when you think.&lt;/p&gt;
-
-&lt;p&gt;What you don’t use you lose. So make time to think.&lt;/p&gt;
-
-&lt;h2 id=&quot;obstacles&quot;&gt;Obstacles&lt;/h2&gt;
-
-&lt;p&gt;Note-taking is problematic. By externalizing everything, you won’t think through well. One should only write what they think about a topic if something is new and carefully thought through.&lt;/p&gt;
-
-&lt;p&gt;The greatest obstacle to thinking is we resist boredom. Boredom is important as it sparks creativity.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/think.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/think.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keeping Web Dev Code proper</title><link href="www.ankushchoubey.com/web-dev-clean/" rel="alternate" type="text/html" title="Keeping Web Dev Code proper" /><published>2021-04-01T00:00:00-05:00</published><updated>2021-04-01T00:00:00-05:00</updated><id>www.ankushchoubey.com/keeping-web-dev-clean</id><content type="html" xml:base="www.ankushchoubey.com/web-dev-clean/">&lt;p&gt;&lt;img src=&quot;/images/web-dev-clean.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@markusspiske?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Markus Spiske&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/web-development?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;choose-a-stable-framework&quot;&gt;Choose a stable framework.&lt;/h2&gt;
-
-&lt;p&gt;I believe Angular is a more stable long term solution than React which requires too much learning. Less modification is required therefore your code will last longer. At least it seems that way right now.&lt;/p&gt;
-
-&lt;h2 id=&quot;make-very-small-modular-pieces&quot;&gt;Make very small modular pieces.&lt;/h2&gt;
-&lt;p&gt;In Angular, create components even for small things like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;video&lt;/code&gt; tag. You’ll find that there are certain attributes you assign to every &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img&lt;/code&gt; tag that can be taken care of from one place&lt;/p&gt;
-
-&lt;p&gt;Separate app logic from business logic. You should be able to copy-paste these modules into another code base and use it without changes.&lt;/p&gt;
-
-&lt;p&gt;In angular, make use of everything: components, service, directives, pipes, interceptors, etc/&lt;/p&gt;
-
-&lt;h2 id=&quot;make-layout-components&quot;&gt;Make layout components&lt;/h2&gt;
-
-&lt;p&gt;These are common layouts you use throughout the application. Coding them in one place reduces unnecessary duplications.&lt;/p&gt;
-
-&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
-
-&lt;p&gt;The best way to deal with CSS is to write less of it.&lt;/p&gt;
-
-&lt;p&gt;CSS gets messy fast. By keeping your components small. You are halfway there to a good CSS.&lt;/p&gt;
-
-&lt;p&gt;Also make good use of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;display: flex&lt;/code&gt;. It gets most of the job done.&lt;/p&gt;
-
-&lt;h2 id=&quot;html&quot;&gt;HTML&lt;/h2&gt;
-
-&lt;p&gt;The best way to keep HTML clutter-free is to not write javascript/typescript logic in it&lt;/p&gt;
-
-&lt;p&gt;Angular provides a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ts&lt;/code&gt; file, use it for everything. Even for ngStyle or ngClass.&lt;/p&gt;
-
-&lt;p&gt;This will keep your HTML very clean&lt;/p&gt;
-
-&lt;p&gt;Create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get&lt;/code&gt; method to keep things clean.&lt;/p&gt;
-
-&lt;h2 id=&quot;have-very-few-utility-classes&quot;&gt;Have very few utility classes.&lt;/h2&gt;
-
-&lt;p&gt;It’s stupid to have too many utility classes spread throughout your codebase. Have only a few at a single place.&lt;/p&gt;
-
-&lt;p&gt;Only keep a utility class or method if it is used. Remove unnecessary code.&lt;/p&gt;
-
-&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA&quot;&gt;YouTube channel: Fireship&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WA95EJGhbLc&quot;&gt;How to Properly Structure Angular Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="information-system" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/web-dev-clean.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/web-dev-clean.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">User Experience</title><link href="www.ankushchoubey.com/ux/" rel="alternate" type="text/html" title="User Experience" /><published>2021-03-10T00:00:00-06:00</published><updated>2021-03-10T00:00:00-06:00</updated><id>www.ankushchoubey.com/ux</id><content type="html" xml:base="www.ankushchoubey.com/ux/">&lt;p&gt;&lt;img src=&quot;/images/ux.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@alvarordesign?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Alvaro Reyes&lt;/a&gt; on &lt;a href=&quot;/s/photos/ux?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;I started learning about UX a few months ago. This post summarizes things I have learned far.&lt;/p&gt;
-
-&lt;h2 id=&quot;user-experience&quot;&gt;User Experience&lt;/h2&gt;
-
-&lt;p&gt;User Experience (UX) is about making a product or service in a way that is useful, easy and delightful for end users.&lt;/p&gt;
-
-&lt;p&gt;UX is something that has to be actively worked on. It won’t happen automatically.&lt;/p&gt;
-
-&lt;p&gt;Because if UX is not good,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;User will get frustrated using the product&lt;/li&gt;
-  &lt;li&gt;User will not find the product attractive to use.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And therefore they won’t use your product.&lt;/p&gt;
-
-&lt;h2 id=&quot;sympathize-with-the-user&quot;&gt;Sympathize with the user.&lt;/h2&gt;
-
-&lt;p&gt;The way to understand what the users want is by sympathizing with the struggles that user’s face.&lt;/p&gt;
-
-&lt;video src=&quot;/images/ux/meme.mp4&quot; width=&quot;150&quot; height=&quot;300&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
-
-&lt;h2 id=&quot;test-fast&quot;&gt;Test fast&lt;/h2&gt;
-
-&lt;p&gt;The earlier you can get feedback from the user, the shorter your product development cycle will be.&lt;/p&gt;
-
-&lt;p&gt;The user can only know what he/she likes when he/she can experience the product. But since product development takes resources, prototyping helps to make the process faster.&lt;/p&gt;
-
-&lt;p&gt;The fastest way to do it is to create paper prototypes. Paper is inexpensive, quick and has zero learning curve.&lt;/p&gt;
-
-&lt;p&gt;You can prototype not just User Interface but also physical products.&lt;/p&gt;
-
-&lt;p&gt;Once the paper prototype is created, you can increase the fidelity of the prototypes.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If a picture can say a thousand words, a prototype can save a thousand meetings.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s best to involve the end-users as much as possible in the design process.&lt;/p&gt;
-
-&lt;p&gt;The prototype also helps engineers to build exactly what the end-users want and reduces overall development time.&lt;/p&gt;
-
-&lt;h2 id=&quot;ui-is-part-of-ux-not-the-other-way-around&quot;&gt;UI is part of UX, not the other way around.&lt;/h2&gt;
-
-&lt;p&gt;UX includes more than the User Interface. It includes every interaction the user has with the product or the company.&lt;/p&gt;
-
-&lt;p&gt;UX is concerned with how the user feels when using the product and not just how it looks.&lt;/p&gt;
-
-&lt;p&gt;Such things can include reducing the number of steps needed to perform a task.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-checklist-for-beauty-of-user-interface&quot;&gt;A Checklist for “beauty” of User Interface&lt;/h2&gt;
-
-&lt;figure&gt;
-  
-    &lt;img class=&quot;docimage&quot; src=&quot;/images/ux/1.png&quot; alt=&quot;&quot; /&gt;
-    
-    
-      &lt;figcaption&gt;As a developer how can I become a better designer.&lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://www.youtube.com/watch?v=Ha_ooKAWAJI&quot;&gt;“As a developer how can I become a better designer?” ANSWERED!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="business" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/ux.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/ux.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Testing</title><link href="www.ankushchoubey.com/testing/" rel="alternate" type="text/html" title="Testing" /><published>2021-02-28T00:00:00-06:00</published><updated>2021-02-28T00:00:00-06:00</updated><id>www.ankushchoubey.com/testing</id><content type="html" xml:base="www.ankushchoubey.com/testing/">&lt;p&gt;&lt;img src=&quot;/images/testing.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup style=&quot;user-select: auto;&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@mykjohnson?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Mykenzie Johnson&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/testing?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Testing is like double-entry bookkeeping.&lt;/p&gt;
-
-&lt;h2 id=&quot;thinking&quot;&gt;Thinking&lt;/h2&gt;
-&lt;p&gt;You should not make assumptions. Always test.&lt;/p&gt;
-
-&lt;h2 id=&quot;productivity&quot;&gt;Productivity&lt;/h2&gt;
-&lt;p&gt;Testing makes it certain that you are moving in the right direction.&lt;/p&gt;
-
-&lt;p&gt;Test small, test often, and test fast.&lt;/p&gt;
-
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;It is cheaper to fix things earlier.&lt;/p&gt;
-
-&lt;p&gt;Keep your test coverage 100%. A good way to do that is that every new line of commits should have test coverage 100%.&lt;/p&gt;
-
-&lt;p&gt;Test isolated pieces (Unit Test) before testing with other components (Integration Test).&lt;/p&gt;
-
-&lt;p&gt;TDD is 50% more efficient in the long term.&lt;/p&gt;
-
-&lt;p&gt;Testing is insurance. It may not find anything but when it does it saved big time.&lt;/p&gt;
-
-&lt;p&gt;The cleaner your code, the cleaner the tests. A good code is testable.&lt;/p&gt;
-
-&lt;p&gt;Writing unit tests first only works well when you know exactly what you want to write. If you are experimenting. It may be useless.&lt;/p&gt;
-
-&lt;p&gt;Every new bug should get a new test written first. (adopted from Facebook Engineering)&lt;/p&gt;
-
-&lt;p&gt;Keep your overall QC process as automated as possible.&lt;/p&gt;
-
-&lt;p&gt;Like SpaceX, push beyond failure during testing/development. So you can ensure everything goes well in prod.&lt;/p&gt;
-
-&lt;h2 id=&quot;medical-field&quot;&gt;Medical Field&lt;/h2&gt;
-&lt;p&gt;The more you test, the more data points you have. The easy it will be to isolate the infected and avoid disease spread.&lt;/p&gt;
-
-&lt;p&gt;Test the most critical things often.&lt;/p&gt;
-
-&lt;h2 id=&quot;maths&quot;&gt;Maths&lt;/h2&gt;
-
-&lt;p&gt;You never accept the alternative hypothesis. You always reject it. You would rarely know if a hypothesis is 100% current. Unless it is a logical statement.&lt;/p&gt;
-
-&lt;p&gt;To test, you can plug the numbers right in and see if the equation holds.&lt;/p&gt;
-
-&lt;h2 id=&quot;learning&quot;&gt;Learning&lt;/h2&gt;
-
-&lt;p&gt;If you are learning, you can only know if you have learned right by testing yourself.&lt;/p&gt;</content><author><name></name></author><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/testing.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/testing.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ethical Capitalism</title><link href="www.ankushchoubey.com/ethical-capitalism/" rel="alternate" type="text/html" title="Ethical Capitalism" /><published>2021-02-18T00:00:00-06:00</published><updated>2021-02-18T00:00:00-06:00</updated><id>www.ankushchoubey.com/ethical-capitalism</id><content type="html" xml:base="www.ankushchoubey.com/ethical-capitalism/">&lt;p&gt;&lt;img src=&quot;/images/ethical-capitalism.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@billow926?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;billow926&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/market?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;capitalism-is-pure-genius&quot;&gt;Capitalism is Pure Genius&lt;/h2&gt;
-
-&lt;p&gt;Capitalism involves pushing oneself to help others.&lt;/p&gt;
-
-&lt;p&gt;Entrepreneurs find a problem, solve it, and earn money as a reward.&lt;/p&gt;
-
-&lt;p&gt;In capitalism terms, money is proof that you are adding value to the world. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Those who don’t own a business, help others by becoming an employee, thus adding value.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-path-to-high-impact-is-through-capitalism&quot;&gt;The Path To High Impact Is Through Capitalism&lt;/h2&gt;
-
-&lt;p&gt;It is efficient to adapt ourselves to the world than to do the opposite. Money is a form of trust.&lt;/p&gt;
-
-&lt;p&gt;You’re going to need money to have the effect of any kind and at any stage. Being a capitalist (employee or entrepreneur), providing value, and being compensated with cash is the best way to do it.&lt;/p&gt;
-
-&lt;h2 id=&quot;capitalism--ethics&quot;&gt;Capitalism + Ethics&lt;/h2&gt;
-
-&lt;p&gt;Capitalism is not perfect. If not kept in check, it can turn evil (Example: East India Company) and provide no value.&lt;/p&gt;
-
-&lt;p&gt;Ethics is not intrinsic to capitalism. And it probably never be as it is hard to map out. A combination of the two leads to more results than one or the other.&lt;/p&gt;
-
-&lt;p&gt;Ethics enables you to play long-term games, be trustworthy and win social trust.&lt;/p&gt;
-
-&lt;p&gt;The mix of the two is probably why companies like Apple and Tata Group are so successful and trusted for so long. They provide high value while not compromising on ethics.&lt;/p&gt;
-
-&lt;p&gt;It seems better to think in terms of adding value than to think in terms of money.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="business" /><category term="philosophical" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/ethical-capitalism.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/ethical-capitalism.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Employee Ethics</title><link href="www.ankushchoubey.com/employee-ethics/" rel="alternate" type="text/html" title="Employee Ethics" /><published>2021-01-23T00:00:00-06:00</published><updated>2021-01-23T00:00:00-06:00</updated><id>www.ankushchoubey.com/employee-ethics</id><content type="html" xml:base="www.ankushchoubey.com/employee-ethics/">&lt;p&gt;&lt;img src=&quot;/images/employee-ethics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup style=&quot;user-select: auto;&quot;&gt;Photo by &lt;a href=&quot;https://unsplash.com/@shridhar?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Shridhar Gupta&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/employee?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot; style=&quot;user-select: auto;&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;In previous posts, I discussed the &lt;a href=&quot;/why_ethics/&quot;&gt;reasons to be ethical&lt;/a&gt; and &lt;a href=&quot;/business-ethics/&quot;&gt;how it related to businesses&lt;/a&gt;. For employees, ethics can be summarised with the Principal-Agent Problem.&lt;/p&gt;
-
-&lt;h3 id=&quot;principal-agent-problem-&quot;&gt;Principal-Agent Problem &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;The Principal wants agents to act like in the best interest of the agent.&lt;/li&gt;
-  &lt;li&gt;The agent who does act like Principal get rewarded.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;organization-structure&quot;&gt;Organization Structure&lt;/h2&gt;
-&lt;p&gt;Organization need to foster an environment for employees to be more ethical. Though there are some things the sole hand of employee.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-ethics&quot;&gt;The Ethics&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Not accepting bribes and not stealing.&lt;/li&gt;
-  &lt;li&gt;Not engaging in office politics and maintaining good company culture.&lt;/li&gt;
-  &lt;li&gt;Focusing on efficiency and conflict resolution.
-    &lt;ul&gt;
-      &lt;li&gt;This means working together to find a solution.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Take on accountability and responsibility&lt;/li&gt;
-  &lt;li&gt;Getting work done&lt;/li&gt;
-  &lt;li&gt;If you don’t feel like part of the company, move on.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="business" /><category term="collection-of-thoughts" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/employee-ethics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/employee-ethics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="decision-making" /><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
