@@ -6,4 +6,6 @@ search_exclude: false
 ---
 {% include replace_nav_with_icons.html %}
 
+# Resume 
+
 {% include pdf.html url="/assets/resume.pdf" name="Ankush Choubey" %}
