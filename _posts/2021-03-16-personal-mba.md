@@ -4,7 +4,7 @@ layout: post
 comments: true
 description: DRAFT
 categories: [business, books, draft]
-title: DRAFT The Personal MBA
+title: The Personal MBA
 permalink: /mba/
 image: /images/mba.jpg
 hide: true

@@ -173,3 +173,6 @@ Most people won't use maths beyond basic arithmetic and aptitude tests. But the 
 Programming is Maths. You just have the computer do the work.
 
 The kind of maths you are likely to use in daily life is arithmetic and once asked in aptitude tests.
+
+
+Learn as you go but study the maths angle early

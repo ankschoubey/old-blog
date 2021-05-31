@@ -7,6 +7,7 @@ categories: [applications-of-ml, information-system, draft]
 title: Applications of Recommender Systems
 permalink: /recommender-systems/
 image: /images/recommender-systems.jpg
+hide: true
 ---
 ![](/images/recommender-systems.jpg)
 Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Charles Deluvio</a> on <a href="https://unsplash.com/s/photos/suggestion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
