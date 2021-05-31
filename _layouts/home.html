@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include replace_nav_with_icons.html %}
 
 <div class="home">
   {%- if page.title -%}
@@ -51,7 +52,7 @@ layout: default
       {%- for post in posts -%}
       <li>
         {%- if site.show_image -%}
-            {%- include post_list_image_card.html -%}
+            {%- include custom_post_list_image_card.html -%}
         {% else %}
             {%- include post_list.html -%}
         {%- endif -%}

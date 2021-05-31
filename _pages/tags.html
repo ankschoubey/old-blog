@@ -14,14 +14,10 @@ search_exclude: true
   {% endfor %}
   {% assign categories = categories | sort_natural %}
 
-  <ul>
-  {% for category in categories %}
-    <li><a href="#{{ category }}">{{ category }}</a></li>
-  {% endfor %}
-  </ul>
+  {%- include tags-list.html categories=categories -%}
 
   {% for category in categories %}
-      <h3 id ="{{ category }}"><i class="fas fa-tags category-tags-icon"></i></i> {{ category }}</h3>
+      <h3 id ="{{ category }}"><i class="tag fas fa-hash-tag {{category}}"></i></i> {{ category }}</h3>
       <a name="{{ category | slugize }}"></a>
       {% for post in site.categories[category] %}
         {% if post.hide != true %}
