@@ -114,31 +114,16 @@ window.onload = wrap_img;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .page-link{padding: 10px;}
     .docimage{margin: auto; display: table;    width: 70%;}
     .page-content{padding: 0px;}
-    .page-link.fa, .page-link.fab {
-        border-radius: 6px;
-        text-align: center;
-        text-decoration: none;
-        transition: width 0.1s, height 0.1s, transform 0.1s;
-    }
     .page-link.fa:hover {
         color: white; 
         text-decoration: none;
     }
-    a:visited.page-link.fa{
-        color: gray;
-    }
-    .page-link.fa-twitter {
-        color: gray;
-    }
+    
     .page-link.fa-twitter:hover {
         background: #55ACEE;
         color: white !important;
-    }
-    .page-link.fa-envelope{
-        color: gray;
     }
     .page-link.fa-envelope:hover {
         background: black;
@@ -168,10 +153,51 @@ window.onload = wrap_img;
 
 <p>This blog is the way I process and share my 🎲 thoughts. If you read any, try scrutinizing them and see if they hold.</p>
 
-<p><br />
-    <!-- <a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.ankushchoubey.com%2F&ref_src=twsrc%5Etfw&related=ankschoubey%2Cankschoubey&screen_name=ankschoubey&text=Hi!%20I%20found%20you%20via%20your%20website!&tw_p=tweetbutton" class="page-link fa fa-twitter"> ankschoubey</a> -->
-    <a class=" page-link fa fa-envelope" href="mailto:ankushchoubey@outlook.com" style="left: -10px; position: relative;"> ankushchoubey@outlook.com</a><br />
-    <a class=" page-link fab fa-youtube" href="https://www.youtube.com/channel/UC8hWULzz8LyyuFz9zP_Y12g" style="left: -10px; position: relative;" target="_blank"> Piano Videos</a></p>
+<p><br /></p>
+
+<p>&lt;a class=”btn fa fa-envelope” href=”mailto:ankushchoubey@outlook.com” style=”left: -10px; position: relative;” download=&gt;
+    ankushchoubey@outlook
+&lt;/a&gt;</p>
+
+<style>
+    .btn{
+        padding: 10px;
+        border-radius: 6px;
+        text-align: center;
+        text-decoration: none;
+        transition: width 0.1s, height 0.1s, transform 0.1s;
+        color: gray;
+    }
+    .a:visited.btn{
+        color: gray;
+    }
+    .btn:hover {
+        background: black;
+        color: white !important;
+    }
+</style>
+
+<p>&lt;a class=”btn fab fa-youtube” href=”https://www.youtube.com/channel/UC8hWULzz8LyyuFz9zP_Y12g” style=”left: -10px; position: relative;” download=&gt;
+    Piano Videos
+&lt;/a&gt;</p>
+
+<style>
+    .btn{
+        padding: 10px;
+        border-radius: 6px;
+        text-align: center;
+        text-decoration: none;
+        transition: width 0.1s, height 0.1s, transform 0.1s;
+        color: gray;
+    }
+    .a:visited.btn{
+        color: gray;
+    }
+    .btn:hover {
+        background: black;
+        color: white !important;
+    }
+</style>
 
 <h2 id="start-here">Start Here</h2>
 
