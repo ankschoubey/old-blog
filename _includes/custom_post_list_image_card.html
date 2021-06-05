@@ -22,8 +22,8 @@
         </h3>
         
         <p class="post-meta-description">{{ post.description }}</p>
-          <p class="post-meta">{{ post.date | date: date_format }} </p>
+          <p class="post-meta">Written on  : {{ post.date | date: date_format }} </p>
+          <p class="post-meta">Last Updated: {{ post.last_modified_at | date: date_format }} </p>
           {%- include tags-list.html categories=post.categories -%}
-
       </div>
   </div>
