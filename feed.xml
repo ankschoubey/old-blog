@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-06-05T02:51:43-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">80%</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="80%" /><published>2021-06-05T00:00:00-05:00</published><updated>2021-06-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/80-percent-right</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-06-05T02:53:46-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">80%</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="80%" /><published>2021-06-05T00:00:00-05:00</published><updated>2021-06-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/80-percent-right</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;always-be-ready-to-switch-companies&quot;&gt;Always be ready to switch companies&lt;/h1&gt;
 
@@ -34,9 +34,11 @@ In this post, I’ll try to convince you why upper management likes DevOps so mu
 
 &lt;h2 id=&quot;where-did-devops-come-from&quot;&gt;Where did DevOps come from?&lt;/h2&gt;
 
-&lt;p&gt;There are 2 separate engineers. 
-One who made the product -&amp;gt; Developer
-The other who made sure the product is running properly -&amp;gt; Operations Engineer&lt;/p&gt;
+&lt;p&gt;There are 2 separate engineers.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;One who made the product -&amp;gt; Developer&lt;/li&gt;
+  &lt;li&gt;The other who made sure the product is running properly -&amp;gt; Operations Engineer&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Operations Engineer’s role included:&lt;/p&gt;
 &lt;ul&gt;
