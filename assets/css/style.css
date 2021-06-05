@@ -515,7 +515,7 @@ img.image-preview:hover { transform: scale(1.05); }
 
 .home-button-tag:hover { opacity: 1; }
 
-.post-meta-holder { position: absolute; right: 8px; bottom: 8px; transition: all 1s ease-out; }
+.post-meta-holder { position: absolute; right: 8px; bottom: -16px; transition: all 1s ease-out; }
 
 .post-meta-created-date { font-size: .875rem; color: #fff; clear: both; background: rgba(23, 39, 53, 0.7); padding: 2px 4px; }
 
