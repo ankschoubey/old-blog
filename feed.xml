@@ -1,24 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-06-05T02:53:46-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">80%</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="80%" /><published>2021-06-05T00:00:00-05:00</published><updated>2021-06-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/80-percent-right</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;always-be-ready-to-switch-companies&quot;&gt;Always be ready to switch companies&lt;/h1&gt;
-
-&lt;p&gt;Capitalism&lt;/p&gt;
-
-&lt;p&gt;Learning new things&lt;/p&gt;
-
-&lt;p&gt;Learning new domains&lt;/p&gt;
-
-&lt;p&gt;Interviews keep you sharp&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Always be ready to switch companies</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Always be ready to switch companies" /><published>2021-05-26T00:00:00-05:00</published><updated>2021-05-26T00:00:00-05:00</updated><id>www.ankushchoubey.com/switch</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;always-be-ready-to-switch-companies&quot;&gt;Always be ready to switch companies&lt;/h1&gt;
-
-&lt;p&gt;Capitalism&lt;/p&gt;
-
-&lt;p&gt;Learning new things&lt;/p&gt;
-
-&lt;p&gt;Learning new domains&lt;/p&gt;
-
-&lt;p&gt;Interviews keep you sharp&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gist of DevOps</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="Gist of DevOps" /><published>2021-05-25T00:00:00-05:00</published><updated>2021-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;div style=&quot;display: none&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-06-05T05:22:19-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Gist of DevOps</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="Gist of DevOps" /><published>2021-05-25T00:00:00-05:00</published><updated>2021-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;div style=&quot;display: none&quot;&gt;
 
 My dear younger self, 
 
@@ -124,11 +104,11 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
 
 &lt;p&gt;For Enterprise, recommender systems can help improve productivity by a lot.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;By having documents/data grouped, the right information can be searched faster.&lt;/li&gt;
+  &lt;li&gt;By having documents/data grouped, the right information can found faster.&lt;/li&gt;
   &lt;li&gt;By having similar documents groups/recommended, comparing between documents can be made simpler.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Recommender Systems often require much less data to operate.&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="draft" /><summary type="html">Photo by Charles Deluvio on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Recommender Systems often require much less data to operate than other Machine/Deep Learning problems.&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><summary type="html">Photo by Charles Deluvio on Unsplash</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gist of Cryptocurrencies</title><link href="www.ankushchoubey.com/crypto/" rel="alternate" type="text/html" title="Gist of Cryptocurrencies" /><published>2021-05-07T00:00:00-05:00</published><updated>2021-05-07T00:00:00-05:00</updated><id>www.ankushchoubey.com/gist-of-cryptocurrency</id><content type="html" xml:base="www.ankushchoubey.com/crypto/">&lt;p&gt;&lt;img src=&quot;/images/crypto.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@nick604?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Nick Chong&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/crypto?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -197,7 +177,7 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
 
 &lt;p&gt;There is immense upside to doing hard things even if they are not directly use.&lt;/p&gt;
 
-&lt;p&gt;Indirectly doing hard things changes us for the better.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><category term="draft" /><summary type="html">I used to love Deep Learning and wanted it to be my career option.</summary></entry><entry><title type="html">Quick Refactoring Tips</title><link href="www.ankushchoubey.com/refactoring/" rel="alternate" type="text/html" title="Quick Refactoring Tips" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/refactoring-tips</id><content type="html" xml:base="www.ankushchoubey.com/refactoring/">&lt;p&gt;It may be good to have unit test cases&lt;/p&gt;
+&lt;p&gt;Indirectly doing hard things changes us for the better.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><summary type="html">I used to love Deep Learning and wanted it to be my career option.</summary></entry><entry><title type="html">Quick Refactoring Tips</title><link href="www.ankushchoubey.com/refactoring/" rel="alternate" type="text/html" title="Quick Refactoring Tips" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/refactoring-tips</id><content type="html" xml:base="www.ankushchoubey.com/refactoring/">&lt;p&gt;It may be good to have unit test cases&lt;/p&gt;
 
 &lt;p&gt;Study the code layout.&lt;/p&gt;
 
@@ -213,7 +193,11 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
 
 &lt;p&gt;Continuously Integrate your code&lt;/p&gt;
 
-&lt;p&gt;Refactor one functionality at a time instead of everything at once.&lt;/p&gt;</content><author><name></name></author><category term="information-system" /><category term="for-future-me" /><summary type="html">It may be good to have unit test cases</summary></entry><entry><title type="html">There is no one size fits all</title><link href="www.ankushchoubey.com/one-size/" rel="alternate" type="text/html" title="There is no one size fits all" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/one-size</id><content type="html" xml:base="www.ankushchoubey.com/one-size/">&lt;p&gt;There is no programming language that fits every case. Python is not the best programming language. At least not for web development.&lt;/p&gt;
+&lt;p&gt;Refactor one functionality at a time instead of everything at once.&lt;/p&gt;</content><author><name></name></author><category term="information-system" /><category term="for-future-me" /><summary type="html">It may be good to have unit test cases</summary></entry><entry><title type="html">There is no one size fits all</title><link href="www.ankushchoubey.com/one-size/" rel="alternate" type="text/html" title="There is no one size fits all" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/one-size</id><content type="html" xml:base="www.ankushchoubey.com/one-size/">&lt;p&gt;&lt;img src=&quot;/images/one-size.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@toddquackenbush?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Todd Quackenbush&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/tools?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no programming language that fits every case. Python is not the best programming language. At least not for web development.&lt;/p&gt;
 
 &lt;p&gt;There is no perfect framework that is best for every case. React may be cool. But Angular is probably more stable for bigger projects.&lt;/p&gt;
 
@@ -227,7 +211,9 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
 
 &lt;p&gt;If you think you think something is as simple as &lt;a href=&quot;/black_white&quot;&gt;black and white&lt;/a&gt;, the probability you’re wrong is high.&lt;/p&gt;
 
-&lt;p&gt;Abandon Ideology &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Abandon being totalitarian i.e to believe things should be done a certain way always. There is no one size fits all.&lt;/p&gt;
+&lt;p&gt;Abandon Ideology &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Abandon being totalitarian i.e to believe things should be done a certain way always.&lt;/p&gt;
+
+&lt;p&gt;There is no one size fits all. Choose the right tool for the job.&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
@@ -235,28 +221,7 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
       &lt;p&gt;Beyond Order: 12 More Rules for Life &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><summary type="html">There is no programming language that fits every case. Python is not the best programming language. At least not for web development.</summary></entry><entry><title type="html">Personal Freedom</title><link href="www.ankushchoubey.com/p-freedom/" rel="alternate" type="text/html" title="Personal Freedom" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/freedom</id><content type="html" xml:base="www.ankushchoubey.com/p-freedom/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;freedom&quot;&gt;Freedom&lt;/h1&gt;
-&lt;p&gt;Freedom may bot be what one is seeking.&lt;/p&gt;
-
-&lt;p&gt;Suffering is optional.&lt;/p&gt;
-
-&lt;p&gt;You want to be mentally free of suffering. Things falling apart around you shouldn’t effect your state of mind.&lt;/p&gt;
-
-&lt;p&gt;If things fail, you should realize that it’s not you who failed. It’s the system/process you set that failed.&lt;/p&gt;
-
-&lt;p&gt;Tell the truth.&lt;/p&gt;
-
-&lt;p&gt;Information frees you up.&lt;/p&gt;
-
-&lt;p&gt;You want to be free so that you are not doing things that you hate. Instead do things that you love&lt;/p&gt;
-
-&lt;p&gt;Discipline is the path to freedom.&lt;/p&gt;
-
-&lt;p&gt;Freedom from Laziness, Random Motivation, etc&lt;/p&gt;
-
-&lt;p&gt;Free from not checking your phone all day or not doing stupid things just to get through.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Compare yourself with who you were yesterday</title><link href="www.ankushchoubey.com/compare/" rel="alternate" type="text/html" title="Compare yourself with who you were yesterday" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/compare-yourself</id><content type="html" xml:base="www.ankushchoubey.com/compare/">&lt;h2 id=&quot;infinite-games&quot;&gt;Infinite Games&lt;/h2&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="for-future-me" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/one-size.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/one-size.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Compare yourself with who you were yesterday</title><link href="www.ankushchoubey.com/compare/" rel="alternate" type="text/html" title="Compare yourself with who you were yesterday" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-05-04T00:00:00-05:00</updated><id>www.ankushchoubey.com/compare-yourself</id><content type="html" xml:base="www.ankushchoubey.com/compare/">&lt;h2 id=&quot;games-with-no-end-goal&quot;&gt;Games with no end goal&lt;/h2&gt;
 
 &lt;p&gt;I realized this when I was playing an iOS game called Mini Motorways.&lt;/p&gt;
 
@@ -295,4 +260,84 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
       &lt;p&gt;Atomic Habits &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><category term="draft" /><summary type="html">Infinite Games</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><summary type="html">Games with no end goal</summary></entry><entry><title type="html">Physical Exercise</title><link href="www.ankushchoubey.com/exercise/" rel="alternate" type="text/html" title="Physical Exercise" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/physical-exercise</id><content type="html" xml:base="www.ankushchoubey.com/exercise/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@kirillz?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Kirill&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/pull-up?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;benefits-of-exercising&quot;&gt;Benefits of Exercising&lt;/h1&gt;
+
+&lt;p&gt;You’ll look good. You’ll develop good posture. And therefore attract beautiful potential mates.&lt;/p&gt;
+
+&lt;p&gt;You’ll feel good. You’ll feel confident. Your chest will be pumped out.&lt;/p&gt;
+
+&lt;p&gt;You’ll be smarter and more disciplined. Laziness will be gone. Brain will be pumped with blood. You’ll be much more productive in less time.&lt;/p&gt;
+
+&lt;p&gt;You’ll fall sick less. Your body with fight those diseases like never before.&lt;/p&gt;
+
+&lt;p&gt;You’ll pick up heavy things with easy. You’ll be the man who gets relied on by others.&lt;/p&gt;
+
+&lt;p&gt;You’ll be able to do more things for longer. You’ll be able to swim, run up mountains, run for longer, jump, climb 🧗‍♀️ walls, do a back flip, rock in the dance floor. A lot of great experiences are to be had by moving&lt;/p&gt;
+
+&lt;h1 id=&quot;get-started&quot;&gt;Get Started&lt;/h1&gt;
+&lt;p&gt;Do anything that you can do.&lt;/p&gt;
+
+&lt;p&gt;Plan things out in advanced.&lt;/p&gt;
+
+&lt;p&gt;Work on 80% of your capacity. You don’t want to get so sore that you cannot do anything the next day.&lt;/p&gt;</content><author><name></name></author><category term="for-future-me" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Develop your own opinions and reasonings</title><link href="www.ankushchoubey.com/original-opinion/" rel="alternate" type="text/html" title="Develop your own opinions and reasonings" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/own-opinion</id><content type="html" xml:base="www.ankushchoubey.com/original-opinion/">&lt;p&gt;Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it.&lt;/p&gt;
+
+&lt;p&gt;While coding many try to follow “best practices” without giving them a thought. Many follow Agile “practices” without knowing or reasoning why.&lt;/p&gt;
+
+&lt;p&gt;Not having your own reasoning makes you susceptible to ideological thinking along with it’s upsides and down sides.&lt;/p&gt;
+
+&lt;p&gt;By not reasoning yourself, you are not being unique, you are just a replicate of someone else’s thinking.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="30-seconds-reads" /><summary type="html">Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it.</summary></entry><entry><title type="html">Decision Making Heuristics</title><link href="www.ankushchoubey.com/decision-making-heuristics/" rel="alternate" type="text/html" title="Decision Making Heuristics" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/decision-making-heuristics</id><content type="html" xml:base="www.ankushchoubey.com/decision-making-heuristics/">&lt;p&gt;&lt;img src=&quot;/images/decision-making-heuristics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@timgraf99?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Tim Graf&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/compass?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These heuristics can serve as a useful guide only if one trusts the reasoning behind each.&lt;/p&gt;
+
+&lt;h2 id=&quot;tell-the-truth-&quot;&gt;Tell the Truth &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;By telling and articulating the truth, you remove clutter/garbage and focus on what really matters.&lt;/p&gt;
+
+&lt;h2 id=&quot;if-it-sounds-too-good-to-be-true-it-probably-is&quot;&gt;If it sounds too good to be true, it probably is.&lt;/h2&gt;
+
+&lt;p&gt;World if filled with scam artists.&lt;/p&gt;
+
+&lt;h2 id=&quot;dotryinvest-in-many-things-you-dont-have-any-decision-making-capacity-unless-you-have-an-offer&quot;&gt;Do/Try/Invest in many things. You don’t have any decision making capacity unless you have an offer.&lt;/h2&gt;
+
+&lt;p&gt;You don’t have any decision making capacity unless you have an offer on the table.&lt;/p&gt;
+
+&lt;p&gt;So apply for multiple jobs, learn multiple skills, meet multiple people, try multiple options; you don’t know which ones will stick at first.&lt;/p&gt;
+
+&lt;h2 id=&quot;if-downside-is-negligible-reversible-or-it-can-be-capped-and-upside-is-very-high-do-it-&quot;&gt;If downside is negligible, reversible or it can be capped and upside is very high, do it. &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;If you can gain 2x, 10x from the decision and the loss in negligible or reversible, the potential upside is much much higher.&lt;/p&gt;
+
+&lt;h2 id=&quot;if-you-need-to-make-a-big-decision-and-you-cant-decided-say-no-&quot;&gt;If you need to make a big decision and you can’t decided, say No. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;Modern world is abundant with opportunities. You’ll find another one.&lt;/p&gt;
+
+&lt;h2 id=&quot;if-there-are-multiple-similar-options-and-each-seem-similar-take-the-path-that-seems-the-hardest-in-the-short-term-&quot;&gt;If there are multiple similar options and each seem similar, take the path that seems the hardest in the short term. &lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;Your brain is likely compensating short term hard right path for an easy path. Easy paths also have a higher chance of being too good to be true.&lt;/p&gt;
+
+&lt;h2 id=&quot;if-you-cant-decide-pick-the-decision-that-will-lead-you-to-more-peace-of-mind-&quot;&gt;If you can’t decide, pick the decision that will lead you to more peace of mind. &lt;sup id=&quot;fnref:1:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can only continue to make good decisions if you have a peace of mind. If it voilates your consons, say no.&lt;/p&gt;
+
+&lt;h2 id=&quot;metrics&quot;&gt;Metrics&lt;/h2&gt;
+&lt;h2 id=&quot;say-no-to-many-things&quot;&gt;Say no to many things&lt;/h2&gt;
+&lt;p&gt;The goal of a decision to do something is to have high ROI than from doing other things.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Jordan Peterson &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vjZH7nmsHpk&quot;&gt;Tim Ferriss&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3tnOc32k7Ac&quot;&gt;Naval Ravikant&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="decision-making" /><category term="collection-of-thoughts" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decision-making-heuristics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
