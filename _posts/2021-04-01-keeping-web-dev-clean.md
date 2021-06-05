@@ -14,10 +14,10 @@ Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_med
   
 ## Choose a stable framework. 
 
-I believe Angular is a more stable long term solution than React which requires too much learning. Less modification is required therefore your code will last longer. At least it seems that way right now. 
+If less modification is required, your code will last longer.
 
 ## Make very small modular pieces.
-In Angular, create components even for small things like `img` or `video` tag. You’ll find that there are certain attributes you assign to every `img` tag that can be taken care of from one place
+In Angular/React, create components even for small things like `img` or `video` tag. You’ll find that there are certain attributes you assign to every `img` tag that can be taken care of from one place
 
 Separate app logic from business logic. You should be able to copy-paste these modules into another code base and use it without changes.
 

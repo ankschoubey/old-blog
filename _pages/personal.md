@@ -6,10 +6,11 @@ permalink: /personal/
 
 {% include replace_nav_with_icons.html %}
 
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<ul class="post-list">
 {% for post in site.categories['personal'] %}
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.date | date: date_format }}</p>
-
-</article>
+      <li>
+    {%- include custom_post_list_image_card.html -%}
+    </li>
 {% endfor %}
+</ul>

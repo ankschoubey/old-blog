@@ -2,7 +2,7 @@
 description: Learning faster
 title: Observe other people in action
 comments: true
-categories: []
+categories: [favorite]
 layout: post
 use_math: true
 permalink: /observe/

@@ -3,11 +3,10 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [applications-of-ml, information-system, draft]
+categories: [applications-of-ml, information-system]
 title: Applications of Recommender Systems
 permalink: /recommender-systems/
 image: /images/recommender-systems.jpg
-hide: true
 ---
 ![](/images/recommender-systems.jpg)
 Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Charles Deluvio</a> on <a href="https://unsplash.com/s/photos/suggestion?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -27,7 +26,7 @@ For E-Commerce companies, the focus is on recommended you the product you'll lik
 Recommender systems are also used at a smaller scale like Keyboard Suggestions on your phone. 
 
 For Enterprise, recommender systems can help improve productivity by a lot.
-- By having documents/data grouped, the right information can be searched faster.
+- By having documents/data grouped, the right information can found faster.
 - By having similar documents groups/recommended, comparing between documents can be made simpler.
 
-Recommender Systems often require much less data to operate.
+Recommender Systems often require much less data to operate than other Machine/Deep Learning problems.

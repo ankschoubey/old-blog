@@ -4,11 +4,13 @@ layout: post
 comments: true
 description:
 categories: [personal, family]
-title: How to recover from injuries faster
-permalink: /time-think/
-image: /images/employee-ethics.jpg
+title: How to recover from physical injuries faster
+permalink: /physical-injury/
+image: /images/physical-injury.jpg
 hide: true
 ---
+Photo by <a href="https://unsplash.com/@yangmiao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">yang miao</a> on <a href="https://unsplash.com/s/photos/injury?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 To recover from physical injuries faster like tightness and muscle soreness, your blood should be flowing well. 
 
