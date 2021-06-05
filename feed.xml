@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-05-31T11:41:13-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Always be ready to switch companies</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Always be ready to switch companies" /><published>2021-05-26T00:00:00-05:00</published><updated>2021-05-26T00:00:00-05:00</updated><id>www.ankushchoubey.com/switch</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-06-05T02:36:23-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">80%</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="80%" /><published>2021-06-05T00:00:00-05:00</published><updated>2021-06-05T00:00:00-05:00</updated><id>www.ankushchoubey.com/80-percent-right</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;always-be-ready-to-switch-companies&quot;&gt;Always be ready to switch companies&lt;/h1&gt;
 
@@ -8,31 +8,59 @@
 
 &lt;p&gt;Learning new domains&lt;/p&gt;
 
-&lt;p&gt;Interviews keep you sharp&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevOps for my younger self</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="DevOps for my younger self" /><published>2021-05-25T00:00:00-05:00</published><updated>2021-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;#&lt;/p&gt;
+&lt;p&gt;Interviews keep you sharp&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Always be ready to switch companies</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Always be ready to switch companies" /><published>2021-05-26T00:00:00-05:00</published><updated>2021-05-26T00:00:00-05:00</updated><id>www.ankushchoubey.com/switch</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;My dear younger self,&lt;/p&gt;
+&lt;h1 id=&quot;always-be-ready-to-switch-companies&quot;&gt;Always be ready to switch companies&lt;/h1&gt;
 
-&lt;p&gt;You believed DevOps is bs and a buzzword. It kind of is. But it is highly valuable and important too.&lt;/p&gt;
+&lt;p&gt;Capitalism&lt;/p&gt;
 
-&lt;p&gt;Though you won’t always build something awesome from scratch and instead configure an existing tool to do the job, without DevOps you won’t be free to code.&lt;/p&gt;
+&lt;p&gt;Learning new things&lt;/p&gt;
 
-&lt;p&gt;You’ll spend all your time maintaining and deploying your code manually.&lt;/p&gt;
+&lt;p&gt;Learning new domains&lt;/p&gt;
 
-&lt;p&gt;In this post, I’ll try to convince you why upper management likes DevOps so much.&lt;/p&gt;
+&lt;p&gt;Interviews keep you sharp&lt;/p&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gist of DevOps</title><link href="www.ankushchoubey.com/devops/" rel="alternate" type="text/html" title="Gist of DevOps" /><published>2021-05-25T00:00:00-05:00</published><updated>2021-05-25T00:00:00-05:00</updated><id>www.ankushchoubey.com/devops</id><content type="html" xml:base="www.ankushchoubey.com/devops/">&lt;div style=&quot;display: none&quot;&gt;
+
+My dear younger self, 
+
+You believed DevOps is bs and a buzzword. It kind of is. But it is highly valuable and important too.
+
+Though you won’t always build something awesome from scratch and instead configure an existing tool to do the job, without DevOps you won’t be free to code.
+
+You’ll spend all your time maintaining and deploying your code manually.
+
+In this post, I’ll try to convince you why upper management likes DevOps so much.
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;where-did-devops-come-from&quot;&gt;Where did DevOps come from?&lt;/h2&gt;
+
+&lt;p&gt;There are 2 separate engineers. 
+One who made the product -&amp;gt; Developer
+The other who made sure the product is running properly -&amp;gt; Operations Engineer&lt;/p&gt;
+
+&lt;p&gt;Operations Engineer’s role included:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deploying application to server&lt;/li&gt;
+  &lt;li&gt;Making sure it is operating properly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Increasingly, some of the roles of Operation Engineers became so repeatable that it could be automated. Also, certain problems that operation engineer might face was much more easily handles if softwares were developed a certain way.&lt;/p&gt;
+
+&lt;p&gt;These gave rise to DevOps.&lt;/p&gt;
+
 &lt;h2 id=&quot;what-is-devops&quot;&gt;What is DevOps?&lt;/h2&gt;
+
 &lt;p&gt;DevOps is a mixture if tools and practices that make it efficient to build and maintain code.&lt;/p&gt;
 
 &lt;p&gt;Agile is what to do. DevOps is how to do.&lt;/p&gt;
 
 &lt;p&gt;DevOps practices occupies different stages of product development and beyond.&lt;/p&gt;
 
-&lt;p&gt;DevOps is such a broad term with loose definition that many other concepts are plugged into DevOps as a “best practice”.&lt;/p&gt;
+&lt;p&gt;DevOps is such a broad term with loose definition that many other concepts are plugged into DevOps as a “best practice”. For example: Pair Programming.&lt;/p&gt;
 
-&lt;p&gt;DevOps also get’s merged with security and called DevSecOps.&lt;/p&gt;
+&lt;p&gt;DevOps also get’s merged with security and called DevSecOps. Security is usually an afterthought. But DevSecOps aims to fix security problems in the phase that created it making it much less costly to fix it.&lt;/p&gt;
 
-&lt;p&gt;For example: Pair Programming.&lt;/p&gt;
-
-&lt;p&gt;You cannot copy another organizations DevOps structure as it is. Your organization and products are unique. Make your own style. Don’t copy google or facebook,&lt;/p&gt;
+&lt;p&gt;You cannot copy another organizations DevOps structure as it is. Your organization and products are unique. Make your own style. Don’t copy everything that google or facebook do, though you can learn a lot from them.&lt;/p&gt;
 
 &lt;p&gt;Since DevOps relies so much on automation tools, some things can be achieved faster.&lt;/p&gt;
 &lt;ul&gt;
@@ -41,23 +69,41 @@
   &lt;li&gt;Automating repeatable tasks&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Some DevOps practices that are very helpful are.&lt;/p&gt;
+&lt;p&gt;All the tools and practices results to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Increasing speed of deployments
+    &lt;ul&gt;
+      &lt;li&gt;Very important to stay ahead of competition even if core of business is not software.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Increasing quality of software
+    &lt;ul&gt;
+      &lt;li&gt;Allowing making changes easily and reducing bugs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Reducing cost of discovery and fixing issues
+    &lt;ul&gt;
+      &lt;li&gt;Bugs discovered faster can be fixed early&lt;/li&gt;
+      &lt;li&gt;All this reduces downtime.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some DevOps practices and accompanying tool that are very helpful are.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Build Automation: Jenkins&lt;/li&gt;
   &lt;li&gt;DB Automation: Liquibase, Flyway&lt;/li&gt;
   &lt;li&gt;Code Linting: Sonar, CAST&lt;/li&gt;
-  &lt;li&gt;Continuous Integration: CI&lt;/li&gt;
-  &lt;li&gt;Continuous Delivery: CD&lt;/li&gt;
-  &lt;li&gt;Continuous Deployment: CD&lt;/li&gt;
+  &lt;li&gt;Continuous Integration (CI)&lt;/li&gt;
+  &lt;li&gt;Continuous Delivery (CD)&lt;/li&gt;
+  &lt;li&gt;Continuous Deployment (CD)&lt;/li&gt;
   &lt;li&gt;Continuous Monitoring: ELK, Databriks&lt;/li&gt;
-  &lt;li&gt;API Management?&lt;/li&gt;
+  &lt;li&gt;API Management: Mulesoft&lt;/li&gt;
+  &lt;li&gt;Test Driven Development (TDD)&lt;/li&gt;
+  &lt;li&gt;Behavious Driven Development (BDD)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;While Developing:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Test Driven Development: TDD&lt;/li&gt;
-  &lt;li&gt;Behavious Driven Development: BDD&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="applications-of-ml" /><category term="information-system" /><category term="draft" /><summary type="html">#</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/recommender-systems.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/recommender-systems.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Applications of Recommender Systems</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Applications of Recommender Systems" /><published>2021-05-16T00:00:00-05:00</published><updated>2021-05-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/recommender-systems</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;I’ll be writing posts on these when I have enough experience working with each.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="information-system" /><summary type="html"></summary></entry><entry><title type="html">Applications of Recommender Systems</title><link href="www.ankushchoubey.com/recommender-systems/" rel="alternate" type="text/html" title="Applications of Recommender Systems" /><published>2021-05-16T00:00:00-05:00</published><updated>2021-05-16T00:00:00-05:00</updated><id>www.ankushchoubey.com/recommender-systems</id><content type="html" xml:base="www.ankushchoubey.com/recommender-systems/">&lt;p&gt;&lt;img src=&quot;/images/recommender-systems.jpg&quot; alt=&quot;&quot; /&gt;
 Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Charles Deluvio&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/suggestion?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Recommender systems are easiest and probably most lucritive ML Application.&lt;/p&gt;
@@ -230,27 +276,4 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
       &lt;p&gt;Atomic Habits &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><category term="draft" /><summary type="html">Infinite Games</summary></entry><entry><title type="html">Physical Exercise</title><link href="www.ankushchoubey.com/exercise/" rel="alternate" type="text/html" title="Physical Exercise" /><published>2021-05-03T00:00:00-05:00</published><updated>2021-05-03T00:00:00-05:00</updated><id>www.ankushchoubey.com/physical-exercise</id><content type="html" xml:base="www.ankushchoubey.com/exercise/">&lt;p&gt;&lt;img src=&quot;/images/exercise.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@kirillz?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Kirill&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/pull-up?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;benefits-of-exercising&quot;&gt;Benefits of Exercising&lt;/h1&gt;
-
-&lt;p&gt;You’ll look good. You’ll develop good posture. And therefore attract beautiful potential mates.&lt;/p&gt;
-
-&lt;p&gt;You’ll feel good. You’ll feel confident. Your chest will be pumped out.&lt;/p&gt;
-
-&lt;p&gt;You’ll be smarter and more disciplined. Laziness will be gone. Brain will be pumped with blood. You’ll be much more productive in less time.&lt;/p&gt;
-
-&lt;p&gt;You’ll fall sick less. Your body with fight those diseases like never before.&lt;/p&gt;
-
-&lt;p&gt;You’ll pick up heavy things with easy. You’ll be the man who gets relied on by others.&lt;/p&gt;
-
-&lt;p&gt;You’ll be able to do more things for longer. You’ll be able to swim, run up mountains, run for longer, jump, climb 🧗‍♀️ walls, do a back flip, rock in the dance floor. A lot of great experiences are to be had by moving&lt;/p&gt;
-
-&lt;h1 id=&quot;get-started&quot;&gt;Get Started&lt;/h1&gt;
-&lt;p&gt;Do anything that you can do.&lt;/p&gt;
-
-&lt;p&gt;Plan things out in advanced.&lt;/p&gt;
-
-&lt;p&gt;Work on 80% of your capacity. You don’t want to get so sore that you cannot do anything the next day.&lt;/p&gt;</content><author><name></name></author><category term="for-future-me" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/exercise.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/exercise.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><category term="draft" /><summary type="html">Infinite Games</summary></entry></feed>
