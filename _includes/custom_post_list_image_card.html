@@ -28,10 +28,10 @@
             {% if createddate == updateddate %}
               <div class="post-meta-created-date">Written on  : {{ post.date | date: date_format }} </div>
             {% else %}
-              <div class="post-meta-last-modified-date">Updated: {{ post.last_modified_at | date: date_format }} </div>
+              <div class="post-meta-last-modified-date">Updated: {{ post.last_modified_at | date: '%d-%b-%y' }} </div>
               <div class="post-meta-created-date-hover">Written: {{ post.date | date: date_format }} </div>
 
-            {% endif %}
+            {% endif %} 
           </div>
           {%- include tags-list.html categories=post.categories -%}
       </div>
