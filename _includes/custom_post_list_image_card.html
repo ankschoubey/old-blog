@@ -22,8 +22,17 @@
         </h3>
         
         <p class="post-meta-description">{{ post.description }}</p>
-          <p class="post-meta">Written on  : {{ post.date | date: date_format }} </p>
-          <p class="post-meta">Last Updated: {{ post.last_modified_at | date: date_format }} </p>
+          <div class='post-meta-holder'>
+            {% capture createddate %}{{ post.date | date: date_format }}{% endcapture %}
+            {% capture updateddate %}{{ post.last_modified_at | date: date_format }}{% endcapture %}
+            {% if createddate == updateddate %}
+              <div class="post-meta-created-date">Written on  : {{ post.date | date: date_format }} </div>
+            {% else %}
+              <div class="post-meta-last-modified-date">Updated: {{ post.last_modified_at | date: date_format }} </div>
+              <div class="post-meta-created-date-hover">Written: {{ post.date | date: date_format }} </div>
+
+            {% endif %}
+          </div>
           {%- include tags-list.html categories=post.categories -%}
       </div>
   </div>
