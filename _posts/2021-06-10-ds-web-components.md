@@ -6,6 +6,7 @@ description:
 categories: [draft, devops, information-system]
 title: Machine Learning UI Component Library
 permalink: /ml-ui-lib/
+hide: true
 ---
 
 <div style='display: none'>

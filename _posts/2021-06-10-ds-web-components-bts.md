@@ -6,6 +6,7 @@ description:
 categories: [draft, devops, information-system]
 title: "Design Doc: Machine Learning UI Component Library"
 permalink: /ml-ui-lib-bts/
+hide: true
 ---
 I'm making a web component library using React to make it easier to interface Machine Learning style things. 
 

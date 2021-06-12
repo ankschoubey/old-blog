@@ -6,11 +6,13 @@ description:
 categories: [draft, database, information-system]
 title: Keeping SQL DB Simple
 permalink: /simple-sql-db/
+hide: true
 ---
 
 Around 2 years ago, I wrote a blogpost detailing how to keep backend DB Quering code simple but it missed a very critical piece which is having a simpler DB.
 
 This post highlights some of my DB preferences. A Database design is highly dependent on the application so there may not apply to every DB.
+
 
 
 You're DB for the most part should be such that the only operation you to CRUD and simple lookups.
@@ -28,6 +30,18 @@ Therefore now, I prefer DB which has no DB side functions or procedures, or if p
 There shouldn't be multiple tables doing the same job.
 
 ## Simple and Resuable Tables
+
+## Column Names
+
+For primary key `id` is enough. 
+
+Many prefer using `<table_name>_id` as primary key but adding `table_name` is unneccesary. We already know what table it is.
+
+In case of joins between, `<table_name>_id` will be same length as selecting column with dot `<table_name>.id`. 
+
+Also, if you have just `id` you can quickly identify a forignkey which has column in this format `<table_name>_id`. 
+
+For forign key
 
 ## Indexing
 
