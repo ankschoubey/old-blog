@@ -4,20 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Keeping Web Dev Code proper | Ankush</title>
+<title>Keeping SQL DB Simple | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Keeping Web Dev Code proper" />
+<meta property="og:title" content="Keeping SQL DB Simple" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Random Thoughts" />
-<meta property="og:description" content="Random Thoughts" />
-<link rel="canonical" href="www.ankushchoubey.com/web-dev-clean/" />
-<meta property="og:url" content="www.ankushchoubey.com/web-dev-clean/" />
+<meta name="description" content="Around 2 years ago, I wrote a blogpost detailing how to keep backend DB Quering code simple but it missed a very critical piece which is having a simpler DB." />
+<meta property="og:description" content="Around 2 years ago, I wrote a blogpost detailing how to keep backend DB Quering code simple but it missed a very critical piece which is having a simpler DB." />
+<link rel="canonical" href="www.ankushchoubey.com/simple-sql-db/" />
+<meta property="og:url" content="www.ankushchoubey.com/simple-sql-db/" />
 <meta property="og:site_name" content="Ankush" />
-<meta property="og:image" content="www.ankushchoubey.com/images/web-dev-clean.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-04-01T00:00:00-05:00" />
+<meta property="article:published_time" content="2021-06-05T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/web-dev-clean/","@type":"BlogPosting","headline":"Keeping Web Dev Code proper","dateModified":"2021-06-12T09:47:52-05:00","datePublished":"2021-04-01T00:00:00-05:00","image":"www.ankushchoubey.com/images/web-dev-clean.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/web-dev-clean/"},"description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/simple-sql-db/","@type":"BlogPosting","headline":"Keeping SQL DB Simple","dateModified":"2021-06-12T09:47:52-05:00","datePublished":"2021-06-05T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/simple-sql-db/"},"description":"Around 2 years ago, I wrote a blogpost detailing how to keep backend DB Quering code simple but it missed a very critical piece which is having a simpler DB.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -111,8 +110,8 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Keeping Web Dev Code proper</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-04-01T00:00:00-05:00" itemprop="datePublished">
-        Written: Apr 1, 2021
+    <h1 class="post-title p-name" itemprop="name headline">Keeping SQL DB Simple</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-06-05T00:00:00-05:00" itemprop="datePublished">
+        Written: Jun 5, 2021
       </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-06-12T09:47:52-05:00" itemprop="dateModified">
           Updated: Jun 12, 2021
         </time>
@@ -289,6 +288,10 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag draft" href="/categories/#draft">draft</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag database" href="/categories/#database">database</a>
+    
     <a  data-aos="zoom-in-right" class="tag fa fa-hashtag information-system" href="/categories/#information-system">information-system</a>
     
 </div>
@@ -327,55 +330,53 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/web-dev-clean.jpg" alt="" /></p>
+    <p>Around 2 years ago, I wrote a blogpost detailing how to keep backend DB Quering code simple but it missed a very critical piece which is having a simpler DB.</p>
 
-<p>Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/web-development?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<p>This post highlights some of my DB preferences. A Database design is highly dependent on the application so there may not apply to every DB.</p>
 
-<h2 id="choose-a-stable-framework">Choose a stable framework.</h2>
+<p>You’re DB for the most part should be such that the only operation you to CRUD and simple lookups.</p>
 
-<p>If less modification is required, your code will last longer.</p>
+<p>Therefore a lot of effort should be taken to designing extremely resuable and simple tables.</p>
 
-<h2 id="make-very-small-modular-pieces">Make very small modular pieces.</h2>
-<p>In Angular/React, create components even for small things like <code class="language-plaintext highlighter-rouge">img</code> or <code class="language-plaintext highlighter-rouge">video</code> tag. You’ll find that there are certain attributes you assign to every <code class="language-plaintext highlighter-rouge">img</code> tag that can be taken care of from one place</p>
+<p>In one of my projects, I had created an extremely efficient data pipeline.</p>
 
-<p>Separate app logic from business logic. You should be able to copy-paste these modules into another code base and use it without changes.</p>
+<p>Their were multiple views in a heirarchical tree calling one another. If you looked up on root view and applied some filters, you would get the data you want. This data needed to be inserted into a separate table so I created stored procedure to do it.</p>
 
-<p>In angular, make use of everything: components, service, directives, pipes, interceptors, etc/</p>
+<p>In coming months, new things were added the stored procedure and it became so complex that it is now to risky to tinker with.</p>
 
-<h2 id="make-layout-components">Make layout components</h2>
+<p>Therefore now, I prefer DB which has no DB side functions or procedures, or if possible without views. If there is a complex query I every much prefer storing and triggering the queries from on the backend server.</p>
 
-<p>These are common layouts you use throughout the application. Coding them in one place reduces unnecessary duplications.</p>
+<p>There shouldn’t be multiple tables doing the same job.</p>
 
-<h2 id="css">CSS</h2>
+<h2 id="simple-and-resuable-tables">Simple and Resuable Tables</h2>
 
-<p>The best way to deal with CSS is to write less of it.</p>
+<h2 id="indexing">Indexing</h2>
 
-<p>CSS gets messy fast. By keeping your components small. You are halfway there to a good CSS.</p>
+<p>I identify the columns which require joins or search.</p>
 
-<p>Also make good use of <code class="language-plaintext highlighter-rouge">display: flex</code>. It gets most of the job done.</p>
+<p>And then index in the order in ehich they are called most.</p>
 
-<h2 id="html">HTML</h2>
+<h2 id="sequences">Sequences</h2>
 
-<p>The best way to keep HTML clutter-free is to not write javascript/typescript logic in it</p>
+<h2 id="table-with-no-stored-procedures-functions-or-views">Table with No Stored Procedures, Functions or Views</h2>
 
-<p>Angular provides a <code class="language-plaintext highlighter-rouge">ts</code> file, use it for everything. Even for ngStyle or ngClass.</p>
+<h2 id="liquibase-xml-format">Liquibase XML Format</h2>
 
-<p>This will keep your HTML very clean</p>
-
-<p>Create a <code class="language-plaintext highlighter-rouge">get</code> method to keep things clean.</p>
-
-<h2 id="have-very-few-utility-classes">Have very few utility classes.</h2>
-
-<p>It’s stupid to have too many utility classes spread throughout your codebase. Have only a few at a single place.</p>
-
-<p>Only keep a utility class or method if it is used. Remove unnecessary code.</p>
-
-<h2 id="resources">Resources</h2>
+<h2 id="concepts-that-i-have-heard-of-not-used-yet">Concepts that I have heard of not used yet</h2>
 
 <ul>
-  <li><a href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">YouTube channel: Fireship</a></li>
-  <li><a href="https://www.youtube.com/watch?v=WA95EJGhbLc">How to Properly Structure Angular Code</a></li>
+  <li>For complex things that use DB processing. use cron jobs to store data in separate table.</li>
+  <li>Make use of redis/memcache to cache things <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
+  <li>Database Sharding</li>
 </ul>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>TechLead <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -385,7 +386,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/web-dev-clean/" hidden></a>
+</script><a class="u-url" href="/simple-sql-db/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
