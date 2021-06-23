@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [personal, family]
+categories: [personal]
 title: How to recover from physical injuries faster
 permalink: /physical-injury/
 image: /images/physical-injury.jpg
