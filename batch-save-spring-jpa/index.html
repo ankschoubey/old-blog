@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Machine Learning UI Component Library | Ankush</title>
+<title>Faster SQL Batch Save in Spring Data JPA | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Machine Learning UI Component Library" />
+<meta property="og:title" content="Faster SQL Batch Save in Spring Data JPA" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Random Thoughts" />
-<meta property="og:description" content="Random Thoughts" />
-<link rel="canonical" href="www.ankushchoubey.com/ml-ui-lib/" />
-<meta property="og:url" content="www.ankushchoubey.com/ml-ui-lib/" />
+<meta name="description" content="By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time." />
+<meta property="og:description" content="By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time." />
+<link rel="canonical" href="www.ankushchoubey.com/batch-save-spring-jpa/" />
+<meta property="og:url" content="www.ankushchoubey.com/batch-save-spring-jpa/" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-06-10T00:00:00-05:00" />
+<meta property="article:published_time" content="2021-06-12T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/ml-ui-lib/","@type":"BlogPosting","headline":"Machine Learning UI Component Library","dateModified":"2021-06-18T13:03:29-05:00","datePublished":"2021-06-10T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/ml-ui-lib/"},"description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/batch-save-spring-jpa/","@type":"BlogPosting","headline":"Faster SQL Batch Save in Spring Data JPA","dateModified":"2021-06-23T09:20:23-05:00","datePublished":"2021-06-12T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/batch-save-spring-jpa/"},"description":"By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -110,10 +110,10 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Machine Learning UI Component Library</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-06-10T00:00:00-05:00" itemprop="datePublished">
-        Written: Jun 10, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-06-18T13:03:29-05:00" itemprop="dateModified">
-          Updated: Jun 18, 2021
+    <h1 class="post-title p-name" itemprop="name headline">Faster SQL Batch Save in Spring Data JPA</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-06-12T00:00:00-05:00" itemprop="datePublished">
+        Written: Jun 12, 2021
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-06-23T09:20:23-05:00" itemprop="dateModified">
+          Updated: Jun 23, 2021
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -290,7 +290,9 @@ window.onload = wrap_img;
     
     <a  data-aos="zoom-in-right" class="tag fa fa-hashtag draft" href="/categories/#draft">draft</a>
     
-    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag devops" href="/categories/#devops">devops</a>
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag spring-boot" href="/categories/#spring-boot">spring-boot</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag database" href="/categories/#database">database</a>
     
     <a  data-aos="zoom-in-right" class="tag fa fa-hashtag information-system" href="/categories/#information-system">information-system</a>
     
@@ -330,21 +332,28 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <div style="display: none">
+    <p>By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time.</p>
 
-My dear younger self, 
+<p>This would take a lot of time to execute. If <code class="language-plaintext highlighter-rouge">sequence_generator</code> is used for <code class="language-plaintext highlighter-rouge">@Id</code> then it would take even longer as the <code class="language-plaintext highlighter-rouge">sequence_generator.next_value</code> needs to be assigned to the <code class="language-plaintext highlighter-rouge">@Entity</code> before saving.</p>
 
-You believed DevOps is bs and a buzzword. It kind of is. But it is highly valuable and important too.
+<p>You can check this behavior by using the following <code class="language-plaintext highlighter-rouge">application.properties</code> and then checking logs.</p>
 
-Though you won’t always build something awesome from scratch and instead configure an existing tool to do the job, without DevOps you won’t be free to code.
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.use_sql_comments=true
+spring.jpa.properties.hibernate.format_sql=true
+</code></pre></div></div>
 
-You’ll spend all your time maintaining and deploying your code manually.
+<h2 id="speeding-writes">Speeding Writes</h2>
 
-In this post, I’ll try to convince you why upper management likes DevOps so much.
+<p>Spring Data JPA allows for storing multiple records at once but multiple things need to be managed first.</p>
 
-</div>
+<h3 id="sequence-generator-allocation-size">Sequence Generator Allocation Size</h3>
 
-<p>I’m making a web component library using React to make it easier to interface Machine Learning style things.</p>
+<h4 id="within-db">Within DB</h4>
+
+<h4 id="within-code">Within Code</h4>
+
+<h3 id="jpa-property">JPA Property</h3>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -354,7 +363,7 @@ In this post, I’ll try to convince you why upper management likes DevOps so mu
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/ml-ui-lib/" hidden></a>
+</script><a class="u-url" href="/batch-save-spring-jpa/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
