@@ -527,4 +527,74 @@ img.image-preview:hover { transform: scale(1.05); }
 
 .post-meta-holder:hover .post-meta-created-date-hover { display: block !important; }
 
+.tag-list { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.tag { background-color: #b5b5b5; padding: 5px; border-radius: 20px; text-decoration: none; color: black !important; }
+
+.tag:hover { filter: alpha; }
+
+.agile { background-color: #ff577f; }
+
+.baton { background-color: #BE8294; }
+
+.books { background-color: #2A93D5; }
+
+.business { background-color: #ffd400; }
+
+.clean-code { background-color: #874E4C; }
+
+.cloud-computing { background-color: #726A95; }
+
+.collection-of-thoughts { background-color: #9f48af; }
+
+.communication { background-color: #7fd648; }
+
+.decision-making { background-color: #6c77bb; }
+
+.deep-learning { background-color: #6CBF84; }
+
+.devops { background-color: #849974; }
+
+.draft { background-color: #ff884b; }
+
+.experience { background-color: #4C586F; }
+
+.favorite { background-color: pink; }
+
+.for-future-me { background-color: #F26968; }
+
+.information-system { background-color: #2A93D5; }
+
+.kaggle { background-color: #FBAA7D; }
+
+.leadership { background-color: #FFDA93; }
+
+.learning { background-color: #DEBF89; }
+
+.marketing { background-color: #7E988D; }
+
+.non-profit { background-color: #909A74; }
+
+.personal { background-color: #425E80; }
+
+.philosophical { background-color: #E39EB6; }
+
+.programming { background-color: #e25146; }
+
+.qa { background-color: #E8DDCD; }
+
+.software-development { background-color: #87AEA6; }
+
+.tools { background-color: #C1867F; }
+
+.web-development { background-color: #887790; }
+
+.personal { display: none; }
+
+.family { display: none; }
+
+.draft { display: none; }
+
+.blockchain { background-color: #c0ad03; }
+
 /*# sourceMappingURL=style.css.map */
