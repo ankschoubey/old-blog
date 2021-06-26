@@ -1,0 +1,12 @@
+{
+    "Cracking the Coding Interview": {
+        "date": "26-06-2021",
+        "url": "https://www.crackingthecodinginterview.com/",
+        "image": "https://images.squarespace-cdn.com/content/v1/5e0129c5956b7a5624566864/1583017332400-07GWWZZNYMO5OPENHR65/cracking-the-code-interview-article-hero.jpg",
+        "type": "book"
+    },
+    "Python": {
+        "date": "26-06-2021",
+        "type": "book"
+    }
+}
