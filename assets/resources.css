@@ -1,0 +1,28 @@
+#resource-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.resource-item{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.resource-name{
+    font-size: 1.5rem;
+}
+
+.resource-img{
+    max-width: 301px;
+    margin: 0px !important;
+    object-fit: contain;
+    max-height: 300px;
+}
+
+.resource-date::before {
+    content: "Added on ";
+}

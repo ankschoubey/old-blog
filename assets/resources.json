@@ -2,11 +2,44 @@
     "Cracking the Coding Interview": {
         "date": "26-06-2021",
         "url": "https://www.crackingthecodinginterview.com/",
-        "image": "https://images.squarespace-cdn.com/content/v1/5e0129c5956b7a5624566864/1583017332400-07GWWZZNYMO5OPENHR65/cracking-the-code-interview-article-hero.jpg",
-        "type": "book"
+        "image": "https://miro.medium.com/max/952/1*P7pTGa-PMfCq1VWuNJioig.png",
+        "type": "books",
+        "detail": "Read this first in 2018. Will be reading this again soon.",
+        "hidden": "yes"
     },
-    "Python": {
+    "Fireship.io": {
         "date": "26-06-2021",
-        "type": "book"
+        "url": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
+        "image": "https://yt3.ggpht.com/ytc/AKedOLTcIl6kKt3lEPJEySUf_hpHiKDKiFeo9eWPReLysQ=s88-c-k-c0x00ffffff-no-rj",
+        "type": "youtube-channel",
+        "detail": "Everything cool I know about front-end development I first learned from this channel."
+    },
+    "Continuous Delivery": {
+        "date": "26-06-2021",
+        "url": "https://www.youtube.com/channel/UCCfqyGl3nq_V0bo64CjZh8g",
+        "image": "https://yt3.ggpht.com/ytc/AKedOLTaTa15riM58dTUuON1ZZY3dt6DByTpnmQtLlU-=s88-c-k-c0x00ffffff-no-rj",
+        "type": "youtube-channel",
+        "detail": "For DevOps and Engineering"
+    },
+    "Deep Work by Cal Newport": {
+        "date": "26-06-2021",
+        "url": "https://www.calnewport.com/books/deep-work/",
+        "image": "https://www.calnewport.com/wp-content/uploads/2015/11/deep-work-cal-newport.jpg",
+        "type": "books",
+        "detail": ""
+    },
+    "The Personal MBA by Josh Kaufman": {
+        "date": "26-06-2021",
+        "url": "https://personalmba.com/",
+        "image": "https://www.ankushchoubey.com/images/mba.jpg",
+        "type": "books",
+        "detail": ""
+    },
+    "Sapiens by Yuval Noah Harari": {
+        "date": "26-06-2021",
+        "url": "https://www.ynharari.com/book/sapiens-2/",
+        "image": "https://vialogue.files.wordpress.com/2017/04/sapiens.jpg",
+        "type": "books",
+        "detail": ""
     }
 }
