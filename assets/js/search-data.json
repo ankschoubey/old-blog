@@ -1208,7 +1208,7 @@
   
       ,"page2": {
           "title": "",
-          "content": "First Program . . Updated: 24-Jun-21 Written: Jun 16, 2021 personal | Tough . . Updated: 24-Jun-21 Written: May 4, 2021 philosophical for-future-me personal | Compare yourself with who you were yesterday . . Updated: 24-Jun-21 Written: May 4, 2021 philosophical for-future-me personal | Cases To Be Humble . . Updated: 24-Jun-21 Written: May 3, 2021 philosophical personal | Tell the Truth. Speak your mind. . Tell the truth. See the truth. Listen to the truth. Test the truth. . Updated: 24-Jun-21 Written: Apr 22, 2021 philosophical for-future-me personal | How to recover from physical injuries faster . . Updated: 24-Jun-21 Written: Feb 23, 2021 personal | The Path / Ethics . . Updated: 24-Jun-21 Written: Feb 4, 2021 personal baton | .",
+          "content": "First Program . . Updated: 26-Jun-21 Written: Jun 16, 2021 personal | Tough . . Updated: 26-Jun-21 Written: May 4, 2021 philosophical for-future-me personal | Compare yourself with who you were yesterday . . Updated: 26-Jun-21 Written: May 4, 2021 philosophical for-future-me personal | Cases To Be Humble . . Updated: 26-Jun-21 Written: May 3, 2021 philosophical personal | Tell the Truth. Speak your mind. . Tell the truth. See the truth. Listen to the truth. Test the truth. . Updated: 26-Jun-21 Written: Apr 22, 2021 philosophical for-future-me personal | How to recover from physical injuries faster . . Updated: 26-Jun-21 Written: Feb 23, 2021 personal | The Path / Ethics . . Updated: 26-Jun-21 Written: Feb 4, 2021 personal baton | .",
           "url": "https://www.ankushchoubey.com/personal/",
           "relUrl": "/personal/",
           "date": ""
@@ -1218,6 +1218,17 @@
 
   
       ,"page3": {
+          "title": "",
+          "content": "I read/consume many resources and I thought this would be a good way to link to up and thus avoid writing blogposts on these topics. .",
+          "url": "https://www.ankushchoubey.com/resources/",
+          "relUrl": "/resources/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page4": {
           "title": "Resume",
           "content": "Download Resume Download Resume",
           "url": "https://www.ankushchoubey.com/resume/",
@@ -1238,7 +1249,7 @@
   
 
   
-      ,"page8": {
+      ,"page9": {
           "title": "",
           "content": "{% include replace_nav_with_icons.html %} . {% for post in site.categories[‘personal’] %} {%- assign date_format = site.minima.date_format | default: “%b %-d, %Y” -%} . {{post.title}} • {{ post.date | date: date_format }} . {% endfor %} .",
           "url": "https://www.ankushchoubey.com/underground/",
@@ -1272,7 +1283,7 @@
   
 
   
-      ,"page19": {
+      ,"page20": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://www.ankushchoubey.com/robots.txt",
