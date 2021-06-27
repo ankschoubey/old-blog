@@ -4,7 +4,7 @@
         "url": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
         "image": "https://yt3.ggpht.com/ytc/AKedOLTcIl6kKt3lEPJEySUf_hpHiKDKiFeo9eWPReLysQ=s88-c-k-c0x00ffffff-no-rj",
         "type": "youtube-channel",
-        "detail": "Everything cool I know about front-end development I first learned from this channel."
+        "detail": "Everything cool I know about front-end development, I learned from this channel."
     },
     "Continuous Delivery": {
         "date": "26-06-2021",
@@ -13,12 +13,40 @@
         "type": "youtube-channel",
         "detail": "For DevOps and Engineering"
     },
+    "Hussein Nasser": {
+        "date": "27-06-2021",
+        "url": "https://www.youtube.com/c/HusseinNasser-software-engineering",
+        "image": "https://yt3.ggpht.com/ytc/AKedOLQBFiy-urLmvQpjRxsZNutt53btgsu-JMTpMdojQQ=s88-c-k-c0x00ffffff-no-rj",
+        "type": "youtube-channel",
+        "detail": "Software engineering (especially the backend), Databases and System Design"
+    },
     "Deep Work by Cal Newport": {
         "date": "26-06-2021",
         "url": "https://www.calnewport.com/books/deep-work/",
         "image": "https://www.calnewport.com/wp-content/uploads/2015/11/deep-work-cal-newport.jpg",
         "type": "books",
         "detail": ""
+    },
+    "FastAI": {
+        "date": "27-06-2021",
+        "url": "https://www.fast.ai",
+        "image": "https://course.fast.ai/images/company_logo.png",
+        "type": "course",
+        "detail": "Probably the best deep learning course I have come across"
+    },
+    "Codecademy": {
+        "date": "27-06-2021",
+        "url": "https://www.codecademy.com/",
+        "image": "https://www.codecademy.com/resources/blog/content/images/2021/05/blog-logo-3.svg",
+        "type": "website",
+        "detail": "Interatice coding for developers. I first came across it during college. Currently using it to learn React."
+    },
+    "Python Tricks by Dan Bader": {
+        "date": "27-06-2021",
+        "url": "https://www.amazon.in/Python-Tricks-Buffet-Awesome-Features/dp/1775093301",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41Jia8+RIuL._SX331_BO1,204,203,200_.jpg",
+        "type": "books",
+        "detail": "A fun read. I must have read it in 2019."
     },
     "The Personal MBA by Josh Kaufman": {
         "date": "26-06-2021",
