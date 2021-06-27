@@ -41,5 +41,19 @@
         "image": "https://vialogue.files.wordpress.com/2017/04/sapiens.jpg",
         "type": "books",
         "detail": ""
+    },
+    "Waking Up": {
+        "date": "27-06-2021",
+        "url": "https://wakingup.com/",
+        "image": "https://wakingup.com/static/pure-home-cta-waking-up-2x-0ad1c1297b71b17961029c30aa1361aa.webp",
+        "type": "app",
+        "detail": ""
+    },
+    "Simply Piano": {
+        "date": "27-06-2021",
+        "url": "https://www.joytunes.com/simply-piano",
+        "image": "https://www.joytunes.com/images/company/masked3.jpg",
+        "type": "app",
+        "detail": ""
     }
 }
