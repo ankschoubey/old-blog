@@ -1,12 +1,4 @@
 {
-    "Cracking the Coding Interview": {
-        "date": "26-06-2021",
-        "url": "https://www.crackingthecodinginterview.com/",
-        "image": "https://miro.medium.com/max/952/1*P7pTGa-PMfCq1VWuNJioig.png",
-        "type": "books",
-        "detail": "Read this first in 2018. Will be reading this again soon.",
-        "hidden": "yes"
-    },
     "Fireship.io": {
         "date": "26-06-2021",
         "url": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
@@ -41,6 +33,13 @@
         "image": "https://vialogue.files.wordpress.com/2017/04/sapiens.jpg",
         "type": "books",
         "detail": ""
+    },
+    "Cracking the Coding Interview": {
+        "date": "26-06-2021",
+        "url": "https://www.crackingthecodinginterview.com/",
+        "image": "https://miro.medium.com/max/952/1*P7pTGa-PMfCq1VWuNJioig.png",
+        "type": "books",
+        "detail": "Read this first in 2018. Will be reading this again soon."
     },
     "Waking Up": {
         "date": "27-06-2021",
