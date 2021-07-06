@@ -3,10 +3,9 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [draft, spring-boot, database, information-system]
+categories: [spring-boot, database, information-system]
 title: Faster SQL Batch Save in Spring Data JPA
 permalink: /batch-save-spring-jpa/
-hide: true
 ---
 
 By default in Spring Data JPA, when you save a list of entities a for...loop runs storing each record one at a time.
