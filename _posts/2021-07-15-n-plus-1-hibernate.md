@@ -6,7 +6,7 @@ description:
 categories: [spring-boot, database]
 title: Solving N+1 Problem in Hibernate
 permalink: /n-plus-one-hibernate/
-images: /images/n-plus-1.jpg
+image: /images/n-plus-one.svg
 ---
 
 ## N+1 Problem
@@ -27,7 +27,7 @@ So if you have 2 records for parent and 4 corresponding child records.
 
 A total of 2*8 separate queries wil be run.
 
-![](/images/n-plus-1.jpg)
+![](/images/n-plus-one.svg)
 
 | Query Number | Purpose                                       |
 |--------------|-----------------------------------------------|
