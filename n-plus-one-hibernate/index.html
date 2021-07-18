@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Write Tests after Cleaning Code. | Ankush</title>
+<title>Solving N+1 Problem in Hibernate | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Write Tests after Cleaning Code." />
+<meta property="og:title" content="Solving N+1 Problem in Hibernate" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Quality of code determines the quality of the test." />
-<meta property="og:description" content="Quality of code determines the quality of the test." />
-<link rel="canonical" href="www.ankushchoubey.com/writing_test/" />
-<meta property="og:url" content="www.ankushchoubey.com/writing_test/" />
+<meta name="description" content="N+1 Problem" />
+<meta property="og:description" content="N+1 Problem" />
+<link rel="canonical" href="www.ankushchoubey.com/n-plus-one-hibernate/" />
+<meta property="og:url" content="www.ankushchoubey.com/n-plus-one-hibernate/" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-11-20T00:00:00-06:00" />
+<meta property="article:published_time" content="2021-07-15T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/writing_test/","@type":"BlogPosting","headline":"Write Tests after Cleaning Code.","dateModified":"2021-07-18T08:43:24-05:00","datePublished":"2020-11-20T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/writing_test/"},"description":"Quality of code determines the quality of the test.","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/n-plus-one-hibernate/","@type":"BlogPosting","headline":"Solving N+1 Problem in Hibernate","dateModified":"2021-07-18T08:43:24-05:00","datePublished":"2021-07-15T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/n-plus-one-hibernate/"},"description":"N+1 Problem","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -110,15 +110,15 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Write Tests after Cleaning Code.</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2020-11-20T00:00:00-06:00" itemprop="datePublished">
-        Written: Nov 20, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Solving N+1 Problem in Hibernate</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-07-15T00:00:00-05:00" itemprop="datePublished">
+        Written: Jul 15, 2021
       </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-07-18T08:43:24-05:00" itemprop="dateModified">
           Updated: Jul 18, 2021
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -144,7 +144,9 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag information-system" href="/categories/#information-system">information-system</a>
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag spring-boot" href="/categories/#spring-boot">spring-boot</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag database" href="/categories/#database">database</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -182,17 +184,105 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Quality of code determines the quality of the test.</p>
+    <h2 id="n1-problem">N+1 Problem</h2>
 
-<p>An unclean code will lead to an unclean test.</p>
+<p>If you are working with JPA entities and you have joins. Then you might have faced this problem.</p>
 
-<p>Hence, the tests will be as hard to understand and modify as the code.</p>
+<p>If you have something like <code class="language-plaintext highlighter-rouge">@OneToMany</code> mapping between a parent and a child and fetch parent. All the child entities will be fetch one by one is a kind of a loop.</p>
 
-<p>If one decides to improve code quality, then all of the tests to be refactored too.</p>
+<p>You can check this behavior by using the following <code class="language-plaintext highlighter-rouge">application.properties</code> and then checking logs.</p>
 
-<p>Overall the workload will be about thrice more work than it needs to be.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.use_sql_comments=true
+spring.jpa.properties.hibernate.format_sql=true
+</code></pre></div></div>
 
-<p>A better alternative is to write code, clean it, and write tests.</p>
+<p>So if you have 2 records for parent and 4 corresponding child records.</p>
+
+<p>A total of 2*8 separate queries wil be run.</p>
+
+<p><img src="/images/n-plus-1.jpg" alt="" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Number</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Fetch Parent Entity: id_1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Fetch Child Associated with parent id_1: id_a</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Fetch Child Associated with parent id_1: id_b</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Fetch Child Associated with parent id_1: id_c</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Fetch Parent Entity: id_2</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Fetch Child Associated with parent id_1: id_d</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Fetch Child Associated with parent id_1: id_e</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Fetch Child Associated with parent id_1: id_f</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If similarly you have a 1000 records and 10 corresponding child records.</p>
+
+<p>Then 1000*10 = 10,000 queries will be run.</p>
+
+<p>This is inefficient.</p>
+
+<p>We need some way to reduce the number of query calls. Even if the amount of data is the same, the cost of running more queries is much higher that getting the same amout of work done with less number of queries.</p>
+
+<h2 id="fetchmodes">FetchModes</h2>
+
+<p>FetchModes allow you to say to Hibernate to fetch all childrens at once instead of fetching them one at the time.</p>
+
+<p>FetchMode is different from FetchType.EAGER or LAZY. The former is used to decides where to fetch children along with parent or later when needed.</p>
+
+<h3 id="fetchmodejoin">FetchMode.JOIN</h3>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nd">@Fetch</span><span class="o">(</span><span class="nc">FetchMode</span><span class="o">.</span><span class="na">JOIN</span><span class="o">)</span>
+    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">EntityType</span><span class="o">&gt;</span> <span class="n">entityName</span><span class="o">;</span>
+</code></pre></div></div>
+
+<p>One a single query will be run.</p>
+
+<p>If you are using this, all data will be fetch at once using join but the payload size will be huge.</p>
+
+<h3 id="fetchmodesubselect">FetchMode.SUBSELECT</h3>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nd">@Fetch</span><span class="o">(</span><span class="nc">FetchMode</span><span class="o">.</span><span class="na">SUBSELECT</span><span class="o">)</span>
+    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">EntityType</span><span class="o">&gt;</span> <span class="n">entityName</span><span class="o">;</span>
+</code></pre></div></div>
+
+<p>If used a minimum of 2 queries will be run.</p>
+<ul>
+  <li>One for parent @Entity</li>
+  <li>One for for each child @Entity type will be run. After the query is run all chilren of particular type will be fetched.</li>
+</ul>
+
+<p>FetchMode.SUBSELECT is also seems to better when used to FetchType.LAZY. Here, all parent entities will be fetched first. When child entities are needed, all child entities will be fetched at once instead of multiple queries.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -202,7 +292,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/writing_test/" hidden></a>
+</script><a class="u-url" href="/n-plus-one-hibernate/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
