@@ -6,7 +6,6 @@ description:
 categories: [spring-boot, database]
 title: Solving N+1 Problem in Hibernate
 permalink: /n-plus-one-hibernate/
-hide: true
 images: /images/n-plus-1.jpg
 ---
 
