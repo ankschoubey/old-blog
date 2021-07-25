@@ -29,7 +29,7 @@
               <div style="display: none;" class="post-meta-created-date">Written on  : {{ post.date | date: date_format }} </div>
             {% else %}
               <div style='display:none' class="post-meta-last-modified-date">Updated: {{ post.last_modified_at | date: '%d-%b-%y' }} </div>
-              <div style='display:none' class="post-meta-created-date-hover">Written: {{ post.date | date: date_format }} </div>
+              <div style='display:none !important;' class="post-meta-created-date-hover">Written: {{ post.date | date: date_format }} </div>
               <div class="post-meta-created-date">Written: {{ post.date | date: date_format }} </div>
               {% endif %} 
           </div>
