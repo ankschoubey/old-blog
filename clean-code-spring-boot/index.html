@@ -4,20 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Lessons Learned from my first Deep Learning contest | Ankush</title>
+<title>Art of Reducing Lines of Code in Java/Spring Boot | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Lessons Learned from my first Deep Learning contest" />
+<meta property="og:title" content="Art of Reducing Lines of Code in Java/Spring Boot" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Game of Deep Learning was an image recognition challenge on AnalyticsVidya. The task was to classify 5 different types of Ships (Cargo, Military, Carrier, Cruise, and Tankers)" />
-<meta property="og:description" content="Game of Deep Learning was an image recognition challenge on AnalyticsVidya. The task was to classify 5 different types of Ships (Cargo, Military, Carrier, Cruise, and Tankers)" />
-<link rel="canonical" href="www.ankushchoubey.com/first_competition/" />
-<meta property="og:url" content="www.ankushchoubey.com/first_competition/" />
+<meta name="description" content="While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot." />
+<meta property="og:description" content="While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot." />
+<link rel="canonical" href="www.ankushchoubey.com/clean-code-spring-boot/" />
+<meta property="og:url" content="www.ankushchoubey.com/clean-code-spring-boot/" />
 <meta property="og:site_name" content="Ankush" />
-<meta property="og:image" content="www.ankushchoubey.com/images/2019-06-23-lessons_from_first_deep_learning_competition/1_data_augmentation.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-06-23T00:00:00-05:00" />
+<meta property="article:published_time" content="2021-06-12T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/first_competition/","@type":"BlogPosting","headline":"Lessons Learned from my first Deep Learning contest","dateModified":"2021-07-25T05:28:30-05:00","datePublished":"2019-06-23T00:00:00-05:00","image":"www.ankushchoubey.com/images/2019-06-23-lessons_from_first_deep_learning_competition/1_data_augmentation.png","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/first_competition/"},"description":"Game of Deep Learning was an image recognition challenge on AnalyticsVidya. The task was to classify 5 different types of Ships (Cargo, Military, Carrier, Cruise, and Tankers)","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/clean-code-spring-boot/","@type":"BlogPosting","headline":"Art of Reducing Lines of Code in Java/Spring Boot","dateModified":"2021-07-25T05:28:30-05:00","datePublished":"2021-06-12T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/clean-code-spring-boot/"},"description":"While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -111,15 +110,15 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Lessons Learned from my first Deep Learning contest</h1><p class="page-description">Game of Deep Learning was an image recognition challenge on AnalyticsVidya. The task was to classify 5 different types of Ships (Cargo, Military, Carrier, Cruise, and Tankers)</p><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2019-06-23T00:00:00-05:00" itemprop="datePublished">
-        Written: Jun 23, 2019
+    <h1 class="post-title p-name" itemprop="name headline">Art of Reducing Lines of Code in Java/Spring Boot</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-06-12T00:00:00-05:00" itemprop="datePublished">
+        Written: Jun 12, 2021
       </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-07-25T05:28:30-05:00" itemprop="dateModified">
           Updated: Jul 25, 2021
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      1 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -145,7 +144,11 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag deep-learning" href="/categories/#deep-learning">deep-learning</a>
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag spring-boot" href="/categories/#spring-boot">spring-boot</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag database" href="/categories/#database">database</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -183,187 +186,37 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <ul class="section-nav">
-<li class="toc-entry toc-h1"><a href="#approach">Approach</a>
+    <p>While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot.</p>
+
+<h1 id="project-lombok"><a href="https://projectlombok.org/features/all">Project Lombok</a></h1>
+
+<p>Use this if you don’t use Spring Boot with Kotlin. This will module will reduce side of code by around 15-25%.</p>
+
+<p>Lombok allows you to generate java boilerplate at runtime by using Annotations such as: @ToString, @EqualsAndHashCode, @Getter/@Setter, etc.</p>
+
+<p>My favorite onces are</p>
 <ul>
-<li class="toc-entry toc-h2"><a href="#step-1-make-models">Step 1: Make models</a></li>
-<li class="toc-entry toc-h2"><a href="#step-2-max-ensemble">Step 2: Max Ensemble</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#lessons-and-mistakes-learned">Lessons and Mistakes Learned</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#code">Code</a></li>
-<li class="toc-entry toc-h2"><a href="#data">Data</a></li>
-</ul>
-</li>
-</ul><p><img src="/images/2019-06-23-lessons_from_first_deep_learning_competition/0_final_score.png" alt="0_final_score"></p>
-
-<p>My rank is 41 out of 441. (0.97 F1 Score).</p>
-
-<p>Before this, I had only practiced 2 lessons from Fast.ai and watched the first 5 lessons.</p>
-
-<p>After the contest, I saw other participant’s approaches and found that their approach was much clearer and cleaner than mine.</p>
-
-<p>Therefore, I decided to complete Fast.ai’s Deep Learning for Coders.</p>
-
-<p>The contest was a month ago from this writing. I had the time to really sit and figure out what went well and what didn’t.</p>
-
-<h1 id="approach">
-<a class="anchor" href="#approach" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approach</h1>
-
-<p>Here was my approach which I did in stages:</p>
-
-<h2 id="step-1-make-models">
-<a class="anchor" href="#step-1-make-models" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 1: Make models</h2>
-
-<p>1. <strong>Make a simple resnet50 model</strong>. And make sure input and output submission file are correct.</p>
-
-<p>2. <strong>Improve the model</strong>. I found that the images were black and old. But the number of images were less and we cannot use external data so my solution was.</p>
-
-<ul>
-  <li>
-    <p>Heavy data augmentation (warping, crops, rotations): lead to 5–7 percent increase in F1 score and accuracy.</p>
-  </li>
-  <li>
-    <p>Progressive increase image size.</p>
-  </li>
-  <li>
-    <p>I initially started with (50,70) images</p>
-  </li>
-  <li>
-    <p>Trained it that then increased it. Trained it again.</p>
-  </li>
+  <li><strong>@Data</strong>: A shortcut for @ToString, @EqualsAndHashCode, @Getter on all fields, and @Setter on all non-final fields, and @RequiredArgsConstructor.</li>
+  <li><strong>@Cleanup</strong>: Automatically calls close() method in case of Streams and Connections.</li>
 </ul>
 
-<p>3. <strong>Training approach</strong>.</p>
+<h1 id="requestparam-without-arguments">@RequestParam without Arguments</h1>
 
-<ul>
-  <li>Freeze the model train for 4 epochs</li>
-  <li>Unfreeze the model train for 7 epochs</li>
-  <li>I found unfreezing was getting higher accuracy but only when done more than freeze training. 7 is what I stuck at.</li>
-  <li>I <strong>replicated the kernel</strong> and trained resnet18, resnet34, vgg16, vgg19 and densenet121 so that I can ensemble there outputs</li>
-  <li>Model Making Environment: Kaggle Code at Models directory</li>
-</ul>
+<p>If the name of variable is same as value in @RequestParam, remove @Request Param.</p>
 
-<h2 id="step-2-max-ensemble">
-<a class="anchor" href="#step-2-max-ensemble" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 2: Max Ensemble</h2>
+<h1 id="remove-column-on-entity">Remove @Column on @Entity</h1>
 
-<p>After I had all the outputs from different models.</p>
+<p>In a @Entity, if the name of variable is same name of column writing @Column is unnecessary.</p>
 
-<p>I used the output CSVs to make a max ensemble.</p>
+<p>By doing this, not only remove a line from every variable, the quality of code is better as there is naming is consistent between DB and backend.</p>
 
-<p>(You will see that I have renamed file names to be ‘modelname’.csv in ensemble folder and the output file is ‘simple.csv’)</p>
+<h1 id="use-jpa-repository-methods-instead-of-hibernate-entitymanagerjdbctemplate">Use JPA @Repository Methods instead of Hibernate EntityManager/JdbcTemplate</h1>
 
-<p>Ensemble making environment: Local</p>
+<p>Ideally your queries should be so simple such that the only type of read operation you do is simple CRUD.</p>
 
-<p><a href="https://github.com/ankschoubey/AnalyticsVidya_Game_Of_Deep_Learning">Code: ankschoubey/AnalyticsVidya_Game_Of_Deep_Learning</a></p>
+<p>Such simple queries are easier to understand and are a good sign of a well designed database.</p>
 
-<h1 id="lessons-and-mistakes-learned">
-<a class="anchor" href="#lessons-and-mistakes-learned" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lessons and Mistakes Learned</h1>
-
-<h2 id="code">
-<a class="anchor" href="#code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code</h2>
-
-<p><strong>Environment</strong></p>
-
-<ul>
-  <li>
-    <p><strong>I trained on Kaggle Kernel</strong>. The only way to get output files was to commit.</p>
-  </li>
-  <li>
-    <p>I also did not load existing models because on Kaggle you have to attach it as a dataset and then load. It’s a pain so I did not bother.</p>
-  </li>
-  <li>
-    <p>It would have been <strong>much easier to train on</strong> Google Cloud, Collab or Clouderizer.</p>
-  </li>
-</ul>
-
-<p><strong>Should have used discriminative learning rate.</strong></p>
-
-<ul>
-  <li>Transfer learning without discriminative learning rate is stupid.</li>
-</ul>
-
-<p><strong>Refactor code early before replicating the kernel</strong></p>
-
-<ul>
-  <li>
-    <p>I replicated kernels so that I can train different models on different kernels and get results faster.</p>
-  </li>
-  <li>
-    <p>The problem was that I had introduced a bug which got replicated. Also, making changes was a pain because I had to copy paste things multiple times.</p>
-  </li>
-</ul>
-
-<p><strong>Use metrics used in the contest</strong></p>
-
-<p>Kind of dumb to mention this: I did not use the F1 score. Rather relied on accuracy.</p>
-
-<p><strong>Save as many things as I can so that you save time later</strong></p>
-
-<ul>
-  <li>
-    <p>Save results</p>
-  </li>
-  <li>
-    <p>Save model</p>
-  </li>
-  <li>
-    <p>Save data</p>
-  </li>
-</ul>
-
-<p><strong>Use Checkpoints</strong></p>
-
-<ul>
-  <li>Did forget the idea of checkpoints entirely.</li>
-</ul>
-
-<p><strong>Useless Model</strong></p>
-
-<ul>
-  <li>
-    <p>I made an ensemble which sucked because it only lead to 0.05 percent improvement.</p>
-  </li>
-  <li>
-    <p>The reason was I used a lot of mediocre models.</p>
-  </li>
-  <li>
-    <p>1 ResNet 34/50 would have been fine.</p>
-  </li>
-  <li>
-    <p>Also did not know about DenseNet very well back then.</p>
-  </li>
-  <li>
-    <p>I believe that an ensemble of ResNet and DenseNet would have been wonderful.</p>
-  </li>
-</ul>
-
-<h2 id="data">
-<a class="anchor" href="#data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data</h2>
-
-<p><strong>Look at the data and use good augmentation</strong></p>
-
-<ul>
-  <li>I saw some images were grey scale and old. I might have got a higher score if I had taken time</li>
-</ul>
-
-<p><img src="/images/2019-06-23-lessons_from_first_deep_learning_competition/1_data_augmentation.png" alt="1_data_augmentation"></p>
-
-<p><strong>Using good data augmentation</strong>.</p>
-
-<p>My model was not performing well. 93–94% accuracy was the limit.</p>
-
-<p>I buffed up every transformation. And it started reaching 96+. Warping helped a lot.</p>
-
-<p><img src="/images/2019-06-23-lessons_from_first_deep_learning_competition/2_buffed_up_data_augmentationpng.png" alt="2_buffed_up_data_augmentationpng"></p>
-
-<p><strong>Developer Habits</strong></p>
-
-<ul>
-  <li>
-<strong>Start submissions early in the contest</strong>. And complete your work at least 3–4 days before the end.</li>
-</ul>
+<p>Such operations are available out of the box with @Repository.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -373,7 +226,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/first_competition/" hidden></a>
+</script><a class="u-url" href="/clean-code-spring-boot/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
