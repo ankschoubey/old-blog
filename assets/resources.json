@@ -71,8 +71,8 @@
     },
     "Animal Farm by George Orwell": {
         "date": "26-06-2021",
-        "url": "https://www.ankushchoubey.com/images/resources/animal_farm_george_orwell.jpg",
-        "image": "",
+        "image": "https://www.ankushchoubey.com/images/resources/animal_farm_george_orwell.jpg",
+        "url": "https://en.wikipedia.org/wiki/Animal_Farm",
         "type": "books",
         "detail": "Favorite NonFiction"
     },
