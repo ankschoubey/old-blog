@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [programming]
 title: Tips for coding on a slow computer
+last_modified_at: 2021-08-01T20:42:15.412890
 permalink: /slow_computer/
 image: /images/slow_computer.jpg
 ---

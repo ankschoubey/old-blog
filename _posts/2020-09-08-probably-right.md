@@ -5,6 +5,7 @@ comments: true
 description: "'Probably Right'"
 categories: [for-future-me, decision-making]
 title: Opinions/Events are not black and white.
+last_modified_at: 2021-08-01T20:42:15.410545
 permalink: /black_white/
 image: /images/black_white.jpg
 ---

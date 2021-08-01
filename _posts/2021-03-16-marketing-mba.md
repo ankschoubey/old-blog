@@ -6,6 +6,7 @@ description:
 categories: [business, books, marketing]
 title: Summary of Marketing Section from The Personal MBA
 permalink: /marketing-mba/
+last_modified_at: 2021-08-01T20:42:15.580800
 image: /images/mba.jpg
 hide: true
 ---

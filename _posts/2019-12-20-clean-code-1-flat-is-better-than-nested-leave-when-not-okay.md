@@ -5,6 +5,7 @@ layout: post
 comments: true
 description: Leave when not okay
 categories: [clean-code]
+last_modified_at: 2021-08-01T20:42:15.088154
 title: Flat is better than nested
 permalink: /flat_is_better/
 ---

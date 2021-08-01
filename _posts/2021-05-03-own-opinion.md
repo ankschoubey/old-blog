@@ -5,6 +5,7 @@ comments: true
 description:
 categories: [philosophical, 30-seconds-reads]
 title: Develop your own opinions and reasonings
+last_modified_at: 2021-08-01T20:42:15.650028
 permalink: /original-opinion/
 hide: true
 ---

@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [information-system]
 title: Eventually Perfect Feature
+last_modified_at: 2021-08-01T20:42:15.503351
 permalink: /eventually_perfect/
 image: /images/eventually_perfect.jpg
 ---

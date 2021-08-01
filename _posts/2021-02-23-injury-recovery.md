@@ -6,6 +6,7 @@ description:
 categories: [personal]
 title: How to recover from physical injuries faster
 permalink: /physical-injury/
+last_modified_at: 2021-08-01T20:42:15.557734
 image: /images/physical-injury.jpg
 hide: true
 ---

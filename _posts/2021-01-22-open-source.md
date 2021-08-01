@@ -5,6 +5,7 @@ comments: true
 description: Impact, Revenue and Deceptions.
 categories: [business,information-system]
 title: Open Source Software (OSS)
+last_modified_at: 2021-08-01T20:42:15.547885
 permalink: /open-source/
 image: /images/open-source.jpg
 ---

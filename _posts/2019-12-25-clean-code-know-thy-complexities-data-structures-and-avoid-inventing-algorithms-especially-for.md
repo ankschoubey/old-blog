@@ -3,6 +3,7 @@ toc: true
 layout: post
 description: especially for maths
 categories: [clean-code]
+last_modified_at: 2021-08-01T20:42:15.097026
 title: Avoid inventing algorithms and data structures
 permalink: /complexity/
 ---

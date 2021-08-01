@@ -5,6 +5,7 @@ comments: true
 description:
 categories: [programming]
 title: How I learned basics of programming.
+last_modified_at: 2021-08-01T20:42:15.515422
 permalink: /learn_programming/
 #image: /images/engineer.jpg
 ---

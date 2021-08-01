@@ -5,6 +5,7 @@ comments: true
 description: Your robot on the internet
 categories: [cloud-computing, information-system]
 title: Cloud is Worth the Hype
+last_modified_at: 2021-08-01T20:42:15.430842
 permalink: /cloud/
 image: /images/cloud.jpg
 ---

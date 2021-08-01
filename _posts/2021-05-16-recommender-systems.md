@@ -5,6 +5,7 @@ comments: true
 description:
 categories: [applications-of-ml, information-system]
 title: Applications of Recommender Systems
+last_modified_at: 2021-08-01T20:42:15.669474
 permalink: /recommender-systems/
 image: /images/recommender-systems.jpg
 ---

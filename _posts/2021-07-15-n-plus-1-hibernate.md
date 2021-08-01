@@ -5,6 +5,7 @@ comments: true
 description: Speed up fetching of child entities
 categories: [spring-boot, database]
 title: Solving N+1 Problem in Hibernate
+last_modified_at: 2021-08-01T20:52:08.052481
 permalink: /n-plus-one-hibernate/
 image: /images/n-plus-one.svg
 ---

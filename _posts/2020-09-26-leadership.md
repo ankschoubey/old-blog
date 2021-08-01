@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [business, leadership]
 title: Who is a leader?
+last_modified_at: 2021-08-01T20:42:15.419969
 permalink: /leader/
 image: /images/leadership.jpg
 ---

@@ -4,6 +4,7 @@ layout: post
 comments: true
 description:
 categories: [information-system]
+last_modified_at: 2021-08-01T20:42:15.500315
 title: Write Tests after Cleaning Code.
 permalink: /writing_test/
 ---

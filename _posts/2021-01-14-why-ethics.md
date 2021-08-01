@@ -6,6 +6,7 @@ description: A under-utilized leverage
 categories: [philosophical, collection-of-thoughts, decision-making]
 title: Why Ethics? 
 permalink: /why_ethics/
+last_modified_at: 2021-08-01T20:42:15.540962
 image: /images/why_ethics.jpg
 description: "Long term impacts"
 ---

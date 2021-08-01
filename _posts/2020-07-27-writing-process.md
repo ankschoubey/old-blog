@@ -4,6 +4,7 @@ title: Writing process (July 2020 Edition)
 comments: true
 categories: []
 layout: post
+last_modified_at: 2021-08-01T20:42:15.321162
 use_math: true
 permalink: /writing_process_07_2020/
 ---

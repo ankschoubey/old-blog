@@ -6,6 +6,7 @@ description:
 categories: [for-future-me]
 title: Physical Exercise
 permalink: /exercise/
+last_modified_at: 2021-08-01T20:42:15.652723
 image: /images/exercise.jpg
 hide: true
 ---

@@ -4,6 +4,7 @@ title: Marketing Money
 comments: true
 categories: [business, marketing]
 layout: post
+last_modified_at: 2021-08-01T20:42:15.236602
 use_math: true
 permalink: /marketing-money/
 ---

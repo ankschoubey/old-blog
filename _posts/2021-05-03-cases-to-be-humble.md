@@ -6,6 +6,7 @@ description:
 categories: [philosophical, personal]
 title: Cases To Be Humble
 permalink: /humble/
+last_modified_at: 2021-08-01T20:42:15.643388
 image: /images/humble.jpg
 hide: true
 ---

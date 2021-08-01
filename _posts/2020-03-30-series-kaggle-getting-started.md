@@ -5,6 +5,7 @@ comments: true
 description: Baby steps towards competitions
 categories: [deep-learning]
 title: Series  Kaggle Getting Started
+last_modified_at: 2021-08-01T20:42:15.164522
 permalink: /kaggle_getting_started/
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kaggle_logo.png/400px-Kaggle_logo.png
 ---

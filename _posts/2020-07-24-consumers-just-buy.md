@@ -5,6 +5,7 @@ comments: true
 categories: [ business]
 layout: post
 use_math: true
+last_modified_at: 2021-08-01T20:42:15.292983
 permalink: /just_buy/
 image: /images/2020-07-24-consumers-just-buy/1_switch.jpg
 ---

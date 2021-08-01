@@ -5,6 +5,7 @@ comments: true
 categories: [business]
 layout: post
 use_math: true
+last_modified_at: 2021-08-01T20:42:15.296625
 permalink: /build_it_yourself/
 image: https://www.teslarati.com/wp-content/uploads/2019/08/tesla-gigafactory-4-europe.jpg
 ---

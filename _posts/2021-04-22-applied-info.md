@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [decision-making,collection-of-thoughts]
 title: Finding Applicable Information
+last_modified_at: 2021-08-01T20:42:15.598510
 permalink: /applied-info/
 image: /images/applied-info.jpg
 ---

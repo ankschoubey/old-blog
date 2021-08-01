@@ -6,6 +6,7 @@ description:
 categories: [personal, baton]
 title: The Path / Ethics
 permalink: /path/
+last_modified_at: 2021-08-01T20:42:15.552524
 image: /images/path.jpg
 hide: true
 ---

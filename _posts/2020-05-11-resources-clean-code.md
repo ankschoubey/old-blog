@@ -4,6 +4,7 @@ layout: post
 comments: true
 description: Constructing the simplest possible code
 categories: [clean-code, tools]
+last_modified_at: 2021-08-01T20:42:15.210883
 title: Clean Code Resources and Tools
 permalink: /clean_code_tools/
 ---

@@ -4,6 +4,7 @@ layout: post
 comments: true
 description: Only for-money companies
 categories: [business]
+last_modified_at: 2021-08-01T20:42:15.366196
 title: Facade companies
 permalink: /facade/
 ---

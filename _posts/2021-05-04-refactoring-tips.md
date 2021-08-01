@@ -4,6 +4,7 @@ layout: post
 comments: true
 description:
 categories: [information-system, for-future-me]
+last_modified_at: 2021-08-01T20:42:15.662278
 title: Quick Refactoring Tips
 permalink: /refactoring/
 ---

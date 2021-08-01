@@ -5,6 +5,7 @@ comments: true
 description:
 categories: [philosophical, decision-making]
 title: You need time to think
+last_modified_at: 2021-08-01T20:42:15.596505
 permalink: /think/
 image: /images/think.jpg
 ---

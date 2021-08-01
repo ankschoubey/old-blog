@@ -5,6 +5,7 @@ comments: true
 description: The Game Which Everyone Needs To Win
 categories: [business, philosophical]
 title: Ethical Capitalism
+last_modified_at: 2021-08-01T20:42:15.554981
 permalink: /ethical-capitalism/
 image: /images/ethical-capitalism.jpg
 ---

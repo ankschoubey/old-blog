@@ -4,6 +4,7 @@ layout: post
 comments: true
 description: The same word is different for different people
 categories: [decision-making, communication]
+last_modified_at: 2021-08-01T20:42:15.451427
 title: Definitions
 permalink: /definition/
 ---

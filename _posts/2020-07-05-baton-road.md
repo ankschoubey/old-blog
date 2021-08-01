@@ -5,6 +5,7 @@ comments: true
 categories: [favorite]
 layout: post
 use_math: true
+last_modified_at: 2021-08-01T20:42:15.242622
 permalink: /baton/
 image: https://images-na.ssl-images-amazon.com/images/I/61F6zC1EuvL._SL1024_.jpg
 ---

@@ -4,6 +4,7 @@ layout: post
 comments: true
 categories: [philosophical, for-future-me, personal]
 title: Compare yourself with who you were yesterday
+last_modified_at: 2021-08-01T20:42:15.654723
 permalink: /compare/
 hide: true
 ---

@@ -4,6 +4,7 @@ layout: post
 comments: true
 description: You cannot compete with SQL
 categories: [clean-code]
+last_modified_at: 2021-08-01T20:42:15.091119
 title: Make the database do the heavy lifting
 permalink: /sql_is_fast/
 ---

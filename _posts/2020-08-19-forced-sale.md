@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [business]
 title: Don’t try to force a sale on people who are not your user base
+last_modified_at: 2021-08-01T20:42:15.368425
 permalink: /forced_sale/
 image: /images/forced_sale/1.jpg
 ---

@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [draft, database, information-system]
 title: Keeping SQL DB Simple
+last_modified_at: 2021-08-01T20:42:15.673574
 permalink: /simple-sql-db/
 hide: true
 ---

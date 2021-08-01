@@ -4,6 +4,7 @@ layout: post
 comments: true
 description: Minimalism
 categories: [clean-code]
+last_modified_at: 2021-08-01T20:42:15.093981
 title: Avoid creating god classes and long methods
 permalink: /god_classes/
 ---

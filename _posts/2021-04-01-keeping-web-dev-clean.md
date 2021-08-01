@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [information-system]
 title: Keeping Web Dev Code proper
+last_modified_at: 2021-08-01T20:42:15.593554
 permalink: /web-dev-clean/
 image: /images/web-dev-clean.jpg
 ---

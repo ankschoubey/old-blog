@@ -4,6 +4,7 @@ title: Advice for those who want to learn Deep Learning
 comments: true
 categories: [ deep-learning]
 layout: post
+last_modified_at: 2021-08-01T20:42:15.185834
 use_math: true
 permalink: /dl_advice/
 ---

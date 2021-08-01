@@ -5,6 +5,7 @@ comments: true
 description: 
 categories: [business]
 title: Businesses are for making money
+last_modified_at: 2021-08-01T20:42:15.385051
 permalink: /for_profit/
 image: /images/for_profit/1.jpg
 ---

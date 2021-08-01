@@ -5,6 +5,7 @@ comments: true
 description:
 categories: [information-system, experience]
 title: First Hackathon
+last_modified_at: 2021-08-01T20:42:15.491429
 permalink: /first_hackathon/
 image: /images/first_hackathon.jpg
 ---

@@ -5,6 +5,7 @@ comments: true
 description: Recognition
 categories: [business]
 title: Give credit where credit is due
+last_modified_at: 2021-08-01T20:42:15.426183
 permalink: /recognition/
 image: https://images.unsplash.com/photo-1593505681742-8cbb6f44de25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80
 ---

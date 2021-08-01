@@ -5,6 +5,7 @@ comments: true
 description:
 categories: [decision-making, collection-of-thoughts]
 title: Decision Making Heuristics
+last_modified_at: 2021-08-01T20:42:15.644388
 permalink: /decision-making-heuristics/
 image: /images/decision-making-heuristics.jpg
 ---

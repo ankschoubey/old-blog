@@ -4,6 +4,7 @@ title: There is never enough automation
 comments: true
 categories: [ business]
 layout: post
+last_modified_at: 2021-08-01T20:42:15.333866
 use_math: true
 permalink: /automate/
 ---

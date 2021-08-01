@@ -4,6 +4,7 @@ title: Copying features and products
 comments: true
 categories: [ business]
 layout: post
+last_modified_at: 2021-08-01T20:42:15.329202
 use_math: true
 permalink: /copying_products/
 ---

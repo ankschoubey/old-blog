@@ -4,6 +4,7 @@ layout: post
 comments: true
 description: For those who don’t require Google level optimization
 categories: [web-development]
+last_modified_at: 2021-08-01T20:42:15.140795
 title: Simple Hacks for increasing website load time
 permalink: /load_time/
 ---

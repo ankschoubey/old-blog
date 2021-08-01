@@ -5,6 +5,7 @@ layout: post
 comments: true
 description: Things that should take 0 coding effort
 categories: [programming]
+last_modified_at: 2021-08-01T20:42:15.360789
 title: Make your code configurable.
 permalink: /code_configurable/
 ---

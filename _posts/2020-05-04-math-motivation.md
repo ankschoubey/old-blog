@@ -5,6 +5,7 @@ comments: true
 categories: [collection-of-thoughts]
 layout: post
 use_math: true
+last_modified_at: 2021-08-01T20:42:15.193139
 permalink: /math/
 image: /images/math.jpg
 ---

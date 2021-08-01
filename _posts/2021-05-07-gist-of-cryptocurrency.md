@@ -5,6 +5,7 @@ comments: true
 description:
 categories: [blockchain, information-system]
 title: Gist of Cryptocurrencies
+last_modified_at: 2021-08-01T20:42:15.666464
 permalink: /crypto/
 image: /images/crypto.jpg
 ---

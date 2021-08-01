@@ -5,6 +5,7 @@ comments: true
 description:
 categories: [business, marketing]
 title: The lifetime of 'Content' is getting smaller
+last_modified_at: 2021-08-01T20:42:15.415292
 permalink: /content/
 image: /images/content.jpg
 ---

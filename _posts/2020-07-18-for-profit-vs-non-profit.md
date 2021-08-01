@@ -5,6 +5,7 @@ comments: true
 categories: [business, non-profit]
 layout: post
 use_math: true
+last_modified_at: 2021-08-01T20:42:15.260601
 permalink: /environment/
 image: /images/environment.jpg
 ---

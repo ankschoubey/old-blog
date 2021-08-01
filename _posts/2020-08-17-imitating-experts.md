@@ -4,6 +4,7 @@ layout: post
 comments: true
 description: The illusion of perfect execution... every time.
 categories: []
+last_modified_at: 2021-08-01T20:42:15.357716
 title: When you are just starting out, don’t try to imitate the expert.
 permalink: /imitating_experts/
 ---

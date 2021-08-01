@@ -4,6 +4,7 @@ title: Agile and DevOps
 comments: true
 categories: [ agile, devops,business]
 layout: post
+last_modified_at: 2021-08-01T20:42:15.219855
 use_math: true
 permalink: /agile_devops/
 ---

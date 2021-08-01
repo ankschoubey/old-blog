@@ -6,6 +6,7 @@ comments: true
 description:
 categories: [information-system, for-future-me, tools, favorite]
 title: Developer Productivity
+last_modified_at: 2021-08-01T20:42:15.532481
 permalink: /dev_productivity/
 image: /images/dev_productivity.jpg
 ---

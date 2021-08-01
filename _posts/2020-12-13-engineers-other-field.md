@@ -5,6 +5,7 @@ comments: true
 description:
 categories: [information-system, baton]
 title: Why Software Engineers Should Enter Other Fields.
+last_modified_at: 2021-08-01T20:42:15.506448
 permalink: /engineer/
 image: /images/engineer.jpg
 ---

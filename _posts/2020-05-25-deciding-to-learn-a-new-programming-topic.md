@@ -6,6 +6,7 @@ categories: [ for-future-me, learning,favorite]
 layout: post
 toc: true
 use_math: true
+last_modified_at: 2021-08-01T20:42:15.220865
 permalink: /new_tech/
 image: /images/new_tech/1.jpg
 ---
