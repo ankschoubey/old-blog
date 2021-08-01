@@ -69,6 +69,13 @@
         "type": "books",
         "detail": "Read this first in 2018. Will be reading this again soon."
     },
+    "Animal Farm by George Orwell": {
+        "date": "26-06-2021",
+        "url": "https://www.ankushchoubey.com/images/resources/animal_farm_george_orwell.jpg",
+        "image": "",
+        "type": "books",
+        "detail": "Favorite NonFiction"
+    },
     "Waking Up": {
         "date": "27-06-2021",
         "url": "https://wakingup.com/",
