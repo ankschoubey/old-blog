@@ -541,7 +541,7 @@ img.image-preview:hover { transform: scale(1.05); }
 
 .business { background-color: #ffd400; }
 
-.clean-code { background-color: #874E4C; }
+.clean-code { background-color: #b68a88; }
 
 .cloud-computing { background-color: #726A95; }
 
@@ -596,5 +596,9 @@ img.image-preview:hover { transform: scale(1.05); }
 .draft { display: none; }
 
 .blockchain { background-color: #c0ad03; }
+
+.spring-boot { background-color: #66aa3b; }
+
+.database { background-color: #4282aa; }
 
 /*# sourceMappingURL=style.css.map */
