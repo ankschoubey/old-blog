@@ -2,7 +2,7 @@
 toc: false
 layout: post
 comments: true
-description: 
+description: Speed up fetching of child entities
 categories: [spring-boot, database]
 title: Solving N+1 Problem in Hibernate
 permalink: /n-plus-one-hibernate/
