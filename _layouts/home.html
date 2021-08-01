@@ -33,7 +33,7 @@ layout: default
  
   {% for gp in grouped_posts %}
     {%- if gp.name == "" -%}
-      {% assign non_sticky_posts = gp.items | sort: "date" | reverse %}
+      {% assign non_sticky_posts = gp.items | sort: "last_modified_at" | reverse %}
     {%- else %}
       {% assign sticky_posts = sticky_posts | concat: gp.items %}
     {%- endif -%}
