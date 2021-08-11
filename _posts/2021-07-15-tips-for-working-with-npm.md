@@ -4,11 +4,9 @@ layout: post
 comments: true
 description: 
 categories: [web-development]
-last_modified_at: 2021-08-11T19:32:32.994509
 last_modified_at: 2021-08-01T20:52:08.052481
-last_modified_at: 2021-08-11T19:32:32.994509
-permalink: /n-plus-one-hibernate/
-image: /images/n-plus-one.svg
+permalink: /package-json/
+title: Tips for working with `package.json`
 ---
 
 ## Create and use scripts
