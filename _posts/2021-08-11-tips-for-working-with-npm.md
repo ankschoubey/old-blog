@@ -4,7 +4,7 @@ layout: post
 comments: true
 description: 
 categories: [web-development]
-last_modified_at: 2021-08-01T20:52:08.052481
+last_modified_at: 2021-08-11T20:52:08.052481
 permalink: /package-json/
 title: Tips for working with `package.json`
 ---
