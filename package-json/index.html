@@ -4,20 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Solving N+1 Problem in Hibernate | Ankush</title>
+<title>Tips for working with package.json | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Solving N+1 Problem in Hibernate" />
+<meta property="og:title" content="Tips for working with package.json" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Speed up fetching of child entities" />
-<meta property="og:description" content="Speed up fetching of child entities" />
-<link rel="canonical" href="www.ankushchoubey.com/n-plus-one-hibernate/" />
-<meta property="og:url" content="www.ankushchoubey.com/n-plus-one-hibernate/" />
+<meta name="description" content="Create and use scripts" />
+<meta property="og:description" content="Create and use scripts" />
+<link rel="canonical" href="www.ankushchoubey.com/package-json/" />
+<meta property="og:url" content="www.ankushchoubey.com/package-json/" />
 <meta property="og:site_name" content="Ankush" />
-<meta property="og:image" content="www.ankushchoubey.com/images/n-plus-one.svg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-07-15T00:00:00-05:00" />
 <script type="application/ld+json">
-{"image":"www.ankushchoubey.com/images/n-plus-one.svg","url":"www.ankushchoubey.com/n-plus-one-hibernate/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/n-plus-one-hibernate/"},"headline":"Solving N+1 Problem in Hibernate","dateModified":"2021-08-01T15:52:08-05:00","datePublished":"2021-07-15T00:00:00-05:00","description":"Speed up fetching of child entities","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/package-json/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/package-json/"},"headline":"Tips for working with package.json","dateModified":"2021-08-01T15:52:08-05:00","datePublished":"2021-07-15T00:00:00-05:00","description":"Create and use scripts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -111,7 +110,7 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Solving N+1 Problem in Hibernate</h1><p class="page-description">Speed up fetching of child entities</p><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-07-15T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Tips for working with `package.json`</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-07-15T00:00:00-05:00" itemprop="datePublished">
         Written: Jul 15, 2021
       </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-08-01T15:52:08-05:00" itemprop="dateModified">
           Updated: Aug 1, 2021
@@ -119,7 +118,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -145,9 +144,7 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag spring-boot" href="/categories/#spring-boot">spring-boot</a>
-    
-    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag database" href="/categories/#database">database</a>
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag web-development" href="/categories/#web-development">web-development</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -185,105 +182,55 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="n1-problem">N+1 Problem</h2>
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#create-and-use-scripts">Create and use scripts</a></li>
+<li class="toc-entry toc-h2"><a href="#npm-outdated">npm outdated</a></li>
+<li class="toc-entry toc-h2"><a href="#clear-cache-before-npm-install-on-every-environment">Clear cache before npm install on every environment</a></li>
+<li class="toc-entry toc-h2"><a href="#use---registry-on-local">Use --registry on local</a></li>
+<li class="toc-entry toc-h2"><a href="#use-yarn-instead-of-npm">use yarn instead of NPM</a></li>
+</ul><h2 id="create-and-use-scripts">
+<a class="anchor" href="#create-and-use-scripts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create and use scripts</h2>
 
-<p>If you are working with JPA entities and you have joins. Then you might have faced this problem.</p>
+<p>There are some common names of scripts you can create like postinstall start, etc.</p>
 
-<p>If you have something like <code class="language-plaintext highlighter-rouge">@OneToMany</code> mapping between a parent and a child and fetch parent. All the child entities will be fetch one by one is a kind of a loop.</p>
+<p>For example: for Ivy enabled Angular versions, one can avoid repetitive recompilation by running <code class="language-plaintext highlighter-rouge">ngcc</code>. We can add a script in package.json to run ngcc after every <code class="language-plaintext highlighter-rouge">npm install</code></p>
 
-<p>You can check this behavior by using the following <code class="language-plaintext highlighter-rouge">application.properties</code> and then checking logs.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spring.jpa.properties.hibernate.show_sql=true
-spring.jpa.properties.hibernate.use_sql_comments=true
-spring.jpa.properties.hibernate.format_sql=true
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    "scripts" : {
+        "postinstall" : "ngcc"
+    }
 </code></pre></div></div>
 
-<p>So if you have 2 records for parent and 4 corresponding child records.</p>
+<p>It’s better to manage npm related activities using package.json than manage it using something like Jenkins.</p>
 
-<p>A total of 2*8 separate queries wil be run.</p>
+<h2 id="npm-outdated">
+<a class="anchor" href="#npm-outdated" aria-hidden="true"><span class="octicon octicon-link"></span></a>npm outdated</h2>
 
-<p><img src="/images/n-plus-one.svg" alt="" /></p>
+<p>This shows you all the packages which are not latest.</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Query Number</th>
-      <th>Purpose</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Fetch Parent Entity: id_1</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Fetch Child Associated with parent id_1: id_a</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Fetch Child Associated with parent id_1: id_b</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Fetch Child Associated with parent id_1: id_c</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Fetch Parent Entity: id_2</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Fetch Child Associated with parent id_1: id_d</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Fetch Child Associated with parent id_1: id_e</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>Fetch Child Associated with parent id_1: id_f</td>
-    </tr>
-  </tbody>
-</table>
+<h2 id="clear-cache-before-npm-install-on-every-environment">
+<a class="anchor" href="#clear-cache-before-npm-install-on-every-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clear cache before <code class="language-plaintext highlighter-rouge">npm install</code> on every environment</h2>
 
-<p>If similarly you have a 1000 records and 10 corresponding child records.</p>
+<p>Cache can be cleared by using</p>
 
-<p>Then 1000*10 = 10,000 queries will be run.</p>
+<p><code class="language-plaintext highlighter-rouge">npm cache clear</code></p>
 
-<p>This is inefficient.</p>
+<p>Clearing cache before installation on your dev/qa/prod env will ensure it will run the same on any environment.</p>
 
-<p>We need some way to reduce the number of query calls. Even if the amount of data is the same, the cost of running more queries is much higher that getting the same amout of work done with less number of queries.</p>
+<h2 id="use---registry-on-local">
+<a class="anchor" href="#use---registry-on-local" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use <code class="language-plaintext highlighter-rouge">--registry</code> on local</h2>
 
-<h2 id="fetchmodes">FetchModes</h2>
+<p><code class="language-plaintext highlighter-rouge">npm install --registry &lt;link-to-repository&gt;</code></p>
 
-<p>FetchModes allow you to say to Hibernate to fetch all childrens at once instead of fetching them one at the time.</p>
+<p>If you are going to use something a registry like Nexus to manage packages, it makes sense to use the same registry for installation on local. The closer you are able to replicate your prod on local, the less bugs you are going to face.</p>
 
-<p>FetchMode is different from FetchType.EAGER or LAZY. The former is used to decides where to fetch children along with parent or later when needed.</p>
+<h2 id="use-yarn-instead-of-npm">
+<a class="anchor" href="#use-yarn-instead-of-npm" aria-hidden="true"><span class="octicon octicon-link"></span></a>use yarn instead of NPM</h2>
 
-<h3 id="fetchmodejoin">FetchMode.JOIN</h3>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nd">@Fetch</span><span class="o">(</span><span class="nc">FetchMode</span><span class="o">.</span><span class="na">JOIN</span><span class="o">)</span>
-    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">EntityType</span><span class="o">&gt;</span> <span class="n">entityName</span><span class="o">;</span>
-</code></pre></div></div>
-
-<p>One a single query will be run.</p>
-
-<p>If you are using this, all data will be fetch at once using join but the payload size will be huge.</p>
-
-<h3 id="fetchmodesubselect">FetchMode.SUBSELECT</h3>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nd">@Fetch</span><span class="o">(</span><span class="nc">FetchMode</span><span class="o">.</span><span class="na">SUBSELECT</span><span class="o">)</span>
-    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">EntityType</span><span class="o">&gt;</span> <span class="n">entityName</span><span class="o">;</span>
-</code></pre></div></div>
-
-<p>If used a minimum of 2 queries will be run.</p>
+<p>yarn is a package manager just like npm but it provides a few features that make it better.</p>
 <ul>
-  <li>One for parent @Entity</li>
-  <li>One for for each child @Entity type will be run. After the query is run all chilren of particular type will be fetched.</li>
+  <li>multi-threaded download. This makes yarn much faster than npm which only supports single threaded download.</li>
+  <li>offline mode. Once a package is downloaded, it can won’t be downloaded again. even if node_modules folder is deleted. This is because yarn stores a backup of everything.</li>
 </ul>
-
-<p>FetchMode.SUBSELECT is also seems to better when used to FetchType.LAZY. Here, all parent entities will be fetched first. When child entities are needed, all child entities will be fetched at once instead of multiple queries.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -293,7 +240,7 @@ spring.jpa.properties.hibernate.format_sql=true
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/n-plus-one-hibernate/" hidden></a>
+</script><a class="u-url" href="/package-json/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
