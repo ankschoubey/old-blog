@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-08-11T09:07:38-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Tips for working with `package.json`</title><link href="www.ankushchoubey.com/package-json/" rel="alternate" type="text/html" title="Tips for working with `package.json`" /><published>2021-07-15T00:00:00-05:00</published><updated>2021-08-01T15:52:08-05:00</updated><id>www.ankushchoubey.com/tips-for-working-with-npm</id><content type="html" xml:base="www.ankushchoubey.com/package-json/">&lt;h2 id=&quot;create-and-use-scripts&quot;&gt;Create and use scripts&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-08-11T09:10:41-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Tips for working with `package.json`</title><link href="www.ankushchoubey.com/package-json/" rel="alternate" type="text/html" title="Tips for working with `package.json`" /><published>2021-07-15T00:00:00-05:00</published><updated>2021-08-01T15:52:08-05:00</updated><id>www.ankushchoubey.com/tips-for-working-with-npm</id><content type="html" xml:base="www.ankushchoubey.com/package-json/">&lt;h2 id=&quot;create-and-use-scripts&quot;&gt;Create and use scripts&lt;/h2&gt;
 
 &lt;p&gt;There are some common names of scripts you can create like postinstall start, etc.&lt;/p&gt;
 
@@ -13,7 +13,7 @@
 
 &lt;h2 id=&quot;npm-outdated&quot;&gt;npm outdated&lt;/h2&gt;
 
-&lt;p&gt;This shows you all the packages which are not latest.&lt;/p&gt;
+&lt;p&gt;This shows you all the packages which are not the latest.&lt;/p&gt;
 
 &lt;h2 id=&quot;clear-cache-before-npm-install-on-every-environment&quot;&gt;Clear cache before &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install&lt;/code&gt; on every environment&lt;/h2&gt;
 
@@ -21,20 +21,20 @@
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm cache clear&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Clearing cache before installation on your dev/qa/prod env will ensure it will run the same on any environment.&lt;/p&gt;
+&lt;p&gt;Clearing cache before installation on your dev/QA/prod env will ensure it will run the same on any environment.&lt;/p&gt;
 
 &lt;h2 id=&quot;use---registry-on-local&quot;&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--registry&lt;/code&gt; on local&lt;/h2&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install --registry &amp;lt;link-to-repository&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;If you are going to use something a registry like Nexus to manage packages, it makes sense to use the same registry for installation on local. The closer you are able to replicate your prod on local, the less bugs you are going to face.&lt;/p&gt;
+&lt;p&gt;If you are going to use a registry like Nexus to manage packages, it makes sense to use the same registry for installation local. The closer you can replicate your prod on local, the fewer bugs you are going to face.&lt;/p&gt;
 
 &lt;h2 id=&quot;use-yarn-instead-of-npm&quot;&gt;use yarn instead of NPM&lt;/h2&gt;
 
 &lt;p&gt;yarn is a package manager just like npm but it provides a few features that make it better.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;multi-threaded download. This makes yarn much faster than npm which only supports single threaded download.&lt;/li&gt;
-  &lt;li&gt;offline mode. Once a package is downloaded, it can won’t be downloaded again. even if node_modules folder is deleted. This is because yarn stores a backup of everything.&lt;/li&gt;
+  &lt;li&gt;multi-threaded download. This makes yarn much faster than npm which only supports single-threaded downloads.&lt;/li&gt;
+  &lt;li&gt;offline mode. Once a package is downloaded, it can be downloaded again. even if the node_modules folder is deleted. This is because yarn stores a backup of everything.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Create and use scripts</summary></entry><entry><title type="html">Solving N+1 Problem in Hibernate</title><link href="www.ankushchoubey.com/n-plus-one-hibernate/" rel="alternate" type="text/html" title="Solving N+1 Problem in Hibernate" /><published>2021-07-15T00:00:00-05:00</published><updated>2021-08-01T15:52:08-05:00</updated><id>www.ankushchoubey.com/n-plus-1-hibernate</id><content type="html" xml:base="www.ankushchoubey.com/n-plus-one-hibernate/">&lt;h2 id=&quot;n1-problem&quot;&gt;N+1 Problem&lt;/h2&gt;
 
 &lt;p&gt;If you are working with JPA entities and you have joins. Then you might have faced this problem.&lt;/p&gt;
