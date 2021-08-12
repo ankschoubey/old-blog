@@ -27,6 +27,8 @@ It's better to manage npm related activities using package.json than manage it u
 
 This shows you all the packages which are not the latest.
 
+`npm outdated` can be also used in your deployment pipeline. This can service as an important monitoring metric for maintainance of the application and ensuring longer life.
+
 ## Clear cache before `npm install` on every environment
 
 Cache can be cleared by using
@@ -46,3 +48,9 @@ If you are going to use a registry like Nexus to manage packages, it makes sense
 yarn is a package manager just like npm but it provides a few features that make it better.
 - multi-threaded download. This makes yarn much faster than npm which only supports single-threaded downloads.
 - offline mode. Once a package is downloaded, it can be downloaded again. even if the node_modules folder is deleted. This is because yarn stores a backup of everything.
+
+## If you are not using yarn, zip `node_modules` before making dependency upgrades.
+
+Often things don't go smoothly when upgrading changes dependencies. Since, node_modules are ignore in git, the only way to revert or switch between branches with dependencies is a clean npm install. 
+
+Yarn supports offline line mode which means nothing is downloaded if dependencies had been updated once. If you are not using yarn, zip `node_modules` before making dependency upgrades. You can unzip it easily if you need to revert.
