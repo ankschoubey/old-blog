@@ -188,6 +188,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#clear-cache-before-npm-install-on-every-environment">Clear cache before npm install on every environment</a></li>
 <li class="toc-entry toc-h2"><a href="#use---registry-on-local">Use --registry on local</a></li>
 <li class="toc-entry toc-h2"><a href="#use-yarn-instead-of-npm">use yarn instead of NPM</a></li>
+<li class="toc-entry toc-h2"><a href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades">If you are not using yarn, zip node_modules before making dependency upgrades.</a></li>
 </ul><h2 id="create-and-use-scripts">
 <a class="anchor" href="#create-and-use-scripts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create and use scripts</h2>
 
@@ -206,6 +207,8 @@ window.onload = wrap_img;
 <a class="anchor" href="#npm-outdated" aria-hidden="true"><span class="octicon octicon-link"></span></a>npm outdated</h2>
 
 <p>This shows you all the packages which are not the latest.</p>
+
+<p><code class="language-plaintext highlighter-rouge">npm outdated</code> can be also used in your deployment pipeline. This can service as an important monitoring metric for maintainance of the application and ensuring longer life.</p>
 
 <h2 id="clear-cache-before-npm-install-on-every-environment">
 <a class="anchor" href="#clear-cache-before-npm-install-on-every-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clear cache before <code class="language-plaintext highlighter-rouge">npm install</code> on every environment</h2>
@@ -231,6 +234,13 @@ window.onload = wrap_img;
   <li>multi-threaded download. This makes yarn much faster than npm which only supports single-threaded downloads.</li>
   <li>offline mode. Once a package is downloaded, it can be downloaded again. even if the node_modules folder is deleted. This is because yarn stores a backup of everything.</li>
 </ul>
+
+<h2 id="if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades">
+<a class="anchor" href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades" aria-hidden="true"><span class="octicon octicon-link"></span></a>If you are not using yarn, zip <code class="language-plaintext highlighter-rouge">node_modules</code> before making dependency upgrades.</h2>
+
+<p>Often things don’t go smoothly when upgrading changes dependencies. Since, node_modules are ignore in git, the only way to revert or switch between branches with dependencies is a clean npm install.</p>
+
+<p>Yarn supports offline line mode which means nothing is downloaded if dependencies had been updated once. If you are not using yarn, zip <code class="language-plaintext highlighter-rouge">node_modules</code> before making dependency upgrades. You can unzip it easily if you need to revert.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
