@@ -5,7 +5,7 @@ comments: true
 description:
 categories: [decision-making, collection-of-thoughts]
 title: Decision Making Heuristics
-last_modified_at: 2021-08-01T20:42:15.644388
+last_modified_at: 2021-08-14T20:42:15.644388
 permalink: /decision-making-heuristics/
 image: /images/decision-making-heuristics.jpg
 ---
@@ -42,9 +42,13 @@ Your brain is likely compensating short term hard right path for an easy path. E
 
 ## If you can’t decide, pick the decision that will lead you to more peace of mind. [^1]
 
-You can only continue to make good decisions if you have a peace of mind. If it voilates your consons, say no.
+You can only continue to make good decisions if you have a peace of mind. If it violates your consens, say no.
 
 ## Metrics
+
+# Extreme decision are rarely good.
+Even if you think mathematically, extreme decisions would lie on the edge of all the possible decisions you can make. In almost any case, you have more number of non-extreme decisions you can make during any decisions. So probabilistically since number of extreme decisions are low, chances that they must he good is low. On one level this analysis is dumb too.
+
 ## Say no to many things
 The goal of a decision to do something is to have high ROI than from doing other things.
 

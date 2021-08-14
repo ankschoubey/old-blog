@@ -5,7 +5,7 @@ comments: true
 description:
 categories: [philosophical, decision-making]
 title: You need time to think
-last_modified_at: 2021-08-01T20:42:15.596505
+last_modified_at: 2021-08-14T20:42:15.596505
 permalink: /think/
 image: /images/think.jpg
 ---
@@ -45,8 +45,31 @@ Your problems get solved when you think.
 
 What you don't use you lose. So make time to think.
 
+# Unprocessed thoughts
+
+Unprocessed thoughts come out as garbage. 
+
+Unprocessed thoughts are not well articulated and come out as garbage. [^1]
+
+If you have unprocessed thoughts you fumble through life. [^1]
+
+# About an hour a day should be good.
+
+But if you haven’t processed your thoughts for long, it may take longer than a hour a day for a few days.
+
+But it is important to remember unless this is absolutely a pain point to not let this be the only thing that’s on your plate. You have things to do and responsibilities to fulfil.
+
+# As you grow, the less manual work you have to do. And more decisions you have to make. 
+
+It’s better to spend 6 hours sharpening the ace and just spending an hour chopping down a tree than to do the opposite
+
+So you’ll spend more time strategizing and learning rather than doing
+
 ## Obstacles
 
 Note-taking is problematic. By externalizing everything, you won't think through well. One should only write what they think about a topic if something is new and carefully thought through.
 
 The greatest obstacle to thinking is we resist boredom. Boredom is important as it sparks creativity.
+
+
+[^1]: Jordan Peterson
