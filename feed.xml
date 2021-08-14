@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-08-12T09:44:38-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Tips for working with `package.json`</title><link href="www.ankushchoubey.com/package-json/" rel="alternate" type="text/html" title="Tips for working with `package.json`" /><published>2021-08-11T00:00:00-05:00</published><updated>2021-08-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/tips-for-working-with-npm</id><content type="html" xml:base="www.ankushchoubey.com/package-json/">&lt;h2 id=&quot;create-and-use-scripts&quot;&gt;Create and use scripts&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-08-14T08:07:56-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Inversion</title><link href="www.ankushchoubey.com/inversion/" rel="alternate" type="text/html" title="Inversion" /><published>2021-08-14T00:00:00-05:00</published><updated>2021-08-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/inversion</id><content type="html" xml:base="www.ankushchoubey.com/inversion/">&lt;p&gt;Mental models are heuristics that help in conceptualizing common occurring themes and help in better decision making.&lt;/p&gt;
+
+&lt;p&gt;Clarity is power. If you know something well enough, the decisions you make around that information will have a higher chance of being accurate.&lt;/p&gt;
+
+&lt;p&gt;One way to gain more clarity, which I have written about extensively, is being truthful.&lt;/p&gt;
+
+&lt;p&gt;Being truthful assumes that what you know to be true may not be 100% truth but you’ll speak, act and convey in a way in which you know it is as true ads possible.&lt;/p&gt;
+
+&lt;p&gt;To gain more clarity, the other size of telling the truth is exploring the unknown, what you do not yet know or understand.&lt;/p&gt;
+
+&lt;p&gt;Thinking is effective ways to explore what you don’t yet know.&lt;/p&gt;
+
+&lt;p&gt;Inversion is a technique that helps understand the other side in a much more structured manner.&lt;/p&gt;
+
+&lt;p&gt;In inversion, you invert the argument or statement.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;If you want to plan to do X.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Straight Way of Thinking: How will I achieve X&lt;/li&gt;
+  &lt;li&gt;Inversion: How will I fail at achieving C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you know how you would fail, you can take steps to avoid failing. Inversion can be applied recursively. Aka you can try to find arguments against your arguments.&lt;/p&gt;
+
+&lt;p&gt;One can also treat inversion can a healthy debate&lt;/p&gt;
+
+&lt;p&gt;Inversion forces you to think from the other side. And it helps increase the probability of actually achieving the task you set out to achieve.&lt;/p&gt;</content><author><name></name></author><category term="decision-making" /><summary type="html">Mental models are heuristics that help in conceptualizing common occurring themes and help in better decision making.</summary></entry><entry><title type="html">Tips for working with `package.json`</title><link href="www.ankushchoubey.com/package-json/" rel="alternate" type="text/html" title="Tips for working with `package.json`" /><published>2021-08-11T00:00:00-05:00</published><updated>2021-08-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/tips-for-working-with-npm</id><content type="html" xml:base="www.ankushchoubey.com/package-json/">&lt;h2 id=&quot;create-and-use-scripts&quot;&gt;Create and use scripts&lt;/h2&gt;
 
 &lt;p&gt;There are some common names of scripts you can create like postinstall start, etc.&lt;/p&gt;
 
@@ -502,18 +530,4 @@ Photo by &lt;a href=&quot;https://unsplash.com/@charlesdeluvio?utm_source=unspla
 
 &lt;p&gt;Money for most of history was believed and regulated by the free market. It is only in recent history that it became highly regulated and centralized by governments.&lt;/p&gt;
 
-&lt;p&gt;Cryptocurrencies can only succeed as long as enough people believe it is valid.&lt;/p&gt;</content><author><name></name></author><category term="blockchain" /><category term="information-system" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/crypto.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/crypto.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tough</title><link href="www.ankushchoubey.com/tough/" rel="alternate" type="text/html" title="Tough" /><published>2021-05-04T00:00:00-05:00</published><updated>2021-08-01T15:42:15-05:00</updated><id>www.ankushchoubey.com/tough</id><content type="html" xml:base="www.ankushchoubey.com/tough/">&lt;p&gt;I used to love Deep Learning and wanted it to be my career option.&lt;/p&gt;
-
-&lt;p&gt;I learned it for many about 2 years. After work, sitting for an hour or two. There were often weeks when I understood nothing. I was early in my career then and things would likely be different of I try things out now.&lt;/p&gt;
-
-&lt;p&gt;Though I never used Deep Learning as a job, there are a few skills I learned that have persisted.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Watching Videos at 2x Speed&lt;/li&gt;
-  &lt;li&gt;Understanding many technological field&lt;/li&gt;
-  &lt;li&gt;Grasping hard technological concepts much faster&lt;/li&gt;
-  &lt;li&gt;Pushing through a mental limit break&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There is immense upside to doing hard things even if they are not directly use.&lt;/p&gt;
-
-&lt;p&gt;Indirectly doing hard things changes us for the better.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="personal" /><summary type="html">I used to love Deep Learning and wanted it to be my career option.</summary></entry></feed>
+&lt;p&gt;Cryptocurrencies can only succeed as long as enough people believe it is valid.&lt;/p&gt;</content><author><name></name></author><category term="blockchain" /><category term="information-system" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/crypto.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/crypto.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
