@@ -5,7 +5,7 @@ comments: true
 description: 
 categories: [decision-making,collection-of-thoughts]
 title: Finding Applicable Information
-last_modified_at: 2021-08-01T20:42:15.598510
+last_modified_at: 2021-08-17T20:42:15.598510
 permalink: /applied-info/
 image: /images/applied-info.jpg
 ---
@@ -20,9 +20,15 @@ The more applicable information you can find, the more you can apply them and ma
 ## Why information should be applied?
 Information if not applied is meaningless unless it is your profession to find and document new information.
 
-By applying information faster, you will solve your problems faster or atleast move towards solving your problems faster.
+By applying information faster, you will solve your problems faster or at-least move towards solving your problems faster.
   
 The information that is not applied will be forgotten.
+
+## Just in Case vs Just in Time
+
+We fall into trap of consuming "just in case" information which we believe will be useful someday. Unless we are learning for fun, we should ideally focus on "just in time" information.
+
+For example: While job searching, it is better to prepare while actively giving interviews than by waiting months before starting applying for jobs. The probability that you'll have to relearn everything is high.
 
 ## Finding applicable information
 
@@ -37,7 +43,7 @@ Frame your questions accurately.
 
 Know the right people who can answer your question. Internet also allows us to connect to "experts" who are happy to answer you.
 
-Specially having friends and collegues you can rely on helps in avoiding pitfalls.
+Specially having friends and colleagues you can rely on helps in avoiding pitfalls.
 
 Googling the right way is also a key skill.
 
@@ -51,11 +57,12 @@ For other non-fiction books, you can do the same if you understand the topic eno
 
 Aspects from one discipline apply to other. Learn something random and you'll find you apply the same principle in other field.
 
-It seens better to learn by categorizing. Like: A music instrument, a physical activity, a social activity, etc.
+It see,s better to learn by categorizing. Like: A music instrument, a physical activity, a social activity, etc.
+
 
 ### Mental Models and Heuristics.
 
-These can help you find out more infomation about a topic faster by making good guesses.
+These can help you find out more information about a topic faster by making good guesses.
 
 Some of my favorite mental models are:
 - Inversion (Most Useful)
@@ -70,5 +77,3 @@ Some of my favorite mental models are:
 Thinking means you’ll question things from the first principles. To see if they are valid or not. 
 
 Then you scrutinize it. By thinking you find the solutions yourself and rely less on other sources.
-
-

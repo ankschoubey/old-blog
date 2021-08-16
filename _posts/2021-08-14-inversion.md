@@ -4,7 +4,7 @@ layout: post
 comments: true
 description: Probably the most powerful mental model
 categories: [decision-making]
-last_modified_at: 2021-08-11T20:52:08.052481
+last_modified_at: 2021-08-14T20:52:08.052481
 permalink: /inversion/
 title: Inversion
 ---
