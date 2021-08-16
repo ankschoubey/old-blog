@@ -21,7 +21,7 @@ One of the patterns that has been repeated over and over is that every problem i
 
 ## All Questions are False
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nj8E9Sgs8F4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="315" src="https://www.youtube.com/embed/nj8E9Sgs8F4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > All questions are false, unreal, nonessential, because **life is not a problem to be solved; it is a mystery to be lived**. 
 > Only the fools go on questioning and go on thinking that some answers will help them. 
