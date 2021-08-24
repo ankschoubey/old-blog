@@ -50,6 +50,10 @@ When asked about meaning of life, Sam Harris would say something like:
 - By becoming aware of the present moment we enjoy what life really is in the present. 
 - And we have this power at any time of the day.
 
+## You don't have to have an opinion
+
+You don't have to have a personal opinion about everything.
+
 ## Not exhaustive 
 
 Apart from Osho, Sadhguru and Sam would have a similar belief:

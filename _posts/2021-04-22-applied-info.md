@@ -30,6 +30,16 @@ We fall into trap of consuming "just in case" information which we believe will 
 
 For example: While job searching, it is better to prepare while actively giving interviews than by waiting months before starting applying for jobs. The probability that you'll have to relearn everything is high.
 
+## Catchup when need be [^1]
+
+It's better to wait for a good amount of information to accumulate before consuming it rather than consume a constant stream of data.
+
+A good way to follow this is to avoid all feeds and recommender systems.
+
+Example:
+
+Rather than consuming breaking news every few minutes, it's better to let things accumulate for a day or so before consumption. Most breaking news is often low quality and is rarely important longterm.
+
 ## Finding applicable information
 
 There are many ways to find applicable information, these are a few that come to mind.
@@ -59,7 +69,6 @@ Aspects from one discipline apply to other. Learn something random and you'll fi
 
 It see,s better to learn by categorizing. Like: A music instrument, a physical activity, a social activity, etc.
 
-
 ### Mental Models and Heuristics.
 
 These can help you find out more information about a topic faster by making good guesses.
@@ -77,3 +86,5 @@ Some of my favorite mental models are:
 Thinking means you’ll question things from the first principles. To see if they are valid or not. 
 
 Then you scrutinize it. By thinking you find the solutions yourself and rely less on other sources.
+
+[^1]: Tim Ferriss
