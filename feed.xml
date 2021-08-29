@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-08-24T12:46:48-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">VS Code</title><link href="www.ankushchoubey.com/vs-code/" rel="alternate" type="text/html" title="VS Code" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/vs-code</id><content type="html" xml:base="www.ankushchoubey.com/vs-code/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-08-29T03:40:39-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Every sufficiently advanced technology is indistinguishable from magic.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; But as more and more people understand and use the technology, the magic fades and it becomes an everyday affair.&lt;/p&gt;
+
+&lt;p&gt;There are 3 interconnected factors that influence this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Abstraction and Field Maturity&lt;/li&gt;
+  &lt;li&gt;Demand and Cost&lt;/li&gt;
+  &lt;li&gt;Education&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;abstraction-and-field-maturity&quot;&gt;Abstraction and Field Maturity&lt;/h2&gt;
+
+&lt;p&gt;Abstraction makes it easy for programmers to learn new things. Open Source projects are best at these.&lt;/p&gt;
+
+&lt;p&gt;Every advanced technology eventually comes to a point where simple statements get the job done without need to understand details.&lt;/p&gt;
+
+&lt;p&gt;It takes long time for things to get polished. Open Source projects spend years perfecting things.&lt;/p&gt;
+
+&lt;p&gt;Web Technologies is probably in it’s most mature state. Like with Spring Boot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You have integrations to include things like Batch Processing, Database Connectivity, Micro Services, Security, etc.&lt;/li&gt;
+  &lt;li&gt;Each of which at one point in time were totally a big subject to learn and implement. Now most are a few hours of configuration.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Like with Arduino:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arduino has different environment, chips and hardware that make it easy for anyone to quickly prototype and test hardware products.&lt;/li&gt;
+  &lt;li&gt;There are modules available for camera, microphones, sensors, etc.&lt;/li&gt;
+  &lt;li&gt;All of which are abstracted and the only things connecting them are arduino and programming.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deep Learning:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deep Learning is also getting to a state of maturity where things that required special knowledge are replaced with easy abstractions.&lt;/li&gt;
+  &lt;li&gt;Frameworks like Tensorflow are providing out if the box solution for common activities like Recommender Systems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Research eventually give rise to applied applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;demand-and-cost&quot;&gt;Demand and Cost&lt;/h2&gt;
+
+&lt;p&gt;More a product is needed, the more innovative solutions are made to make it cheaper and available to as many people as possible. #capitalism&lt;/p&gt;
+
+&lt;p&gt;Once it is available to more people, more innovative uses come out of it.&lt;/p&gt;
+
+&lt;p&gt;Software is cheaper to replicated therefore pace of innovation is much faster.&lt;/p&gt;
+
+&lt;p&gt;Hardware costs are variable in different countries. China has had a lot of hardware innovations because the cost of hardware is much lower due to high supply.&lt;/p&gt;
+
+&lt;h2 id=&quot;role-of-education&quot;&gt;Role of Education&lt;/h2&gt;
+
+&lt;p&gt;YouTube and online video in general has been a revolutionary technology. A man is limited to opportunities he/she gets. Online video allows for opportunity for everyone to learn the same thing.&lt;/p&gt;
+
+&lt;p&gt;Books are boring for most folks.&lt;/p&gt;
+
+&lt;h2 id=&quot;space&quot;&gt;Space?&lt;/h2&gt;
+
+&lt;p&gt;I believe once SpaceX reaches Mars, we’ll go through a similar cycle for space technology too. Where some things become so abstracted and spread of education increases that more people can start ticketing with things.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@forestkatsch?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Forest Katsch&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/starship?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">1 Photo by Forest Katsch on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">VS Code</title><link href="www.ankushchoubey.com/vs-code/" rel="alternate" type="text/html" title="VS Code" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/vs-code</id><content type="html" xml:base="www.ankushchoubey.com/vs-code/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Mastery of tools is very important for us programmers.&lt;/p&gt;
 
@@ -296,41 +369,4 @@ spring.jpa.properties.hibernate.format_sql=true
   &lt;li&gt;One for for each child @Entity type will be run. After the query is run all chilren of particular type will be fetched.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;FetchMode.SUBSELECT is also seems to better when used to FetchType.LAZY. Here, all parent entities will be fetched first. When child entities are needed, all child entities will be fetched at once instead of multiple queries.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><category term="database" /><summary type="html">N+1 Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My First Program</title><link href="www.ankushchoubey.com/first-program/" rel="alternate" type="text/html" title="My First Program" /><published>2021-06-16T00:00:00-05:00</published><updated>2021-08-01T15:42:15-05:00</updated><id>www.ankushchoubey.com/first-program</id><content type="html" xml:base="www.ankushchoubey.com/first-program/">&lt;p&gt;My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.&lt;/p&gt;
-
-&lt;p&gt;Then after a year or so, in Mumbai Mirrors Newspaper’s Sci-Tech section there was a piece on a kids programming languge called Scratch.edu.&lt;/p&gt;
-
-&lt;p&gt;I went out playing that morning and told my friend that I’ll be building my own GTA Vice City.&lt;/p&gt;
-
-&lt;p&gt;These are the few things I published on Scratch.&lt;/p&gt;
-
-&lt;h1 id=&quot;mad-shark&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/226045&quot;&gt;MAD Shark&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id=&quot;jul-27-2008&quot;&gt;Jul 27, 2008&lt;/h2&gt;
-
-&lt;iframe src=&quot;https://scratch.mit.edu/projects/226045/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;exploring-the-heavens&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/281470/&quot;&gt;Exploring the Heavens&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id=&quot;oct-03-2008&quot;&gt;Oct 03, 2008&lt;/h2&gt;
-
-&lt;p&gt;Frames taken from Britannica Encyclopedia.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://scratch.mit.edu/projects/281470/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;great-american-speeches&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/281482/&quot;&gt;Great AMERICAN SPEECHES&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id=&quot;oct-03-2008-1&quot;&gt;Oct 03, 2008&lt;/h2&gt;
-
-&lt;p&gt;Frames taken from Britannica Encyclopedia.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://scratch.mit.edu/projects/281482/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;3d-project&quot;&gt;3D Project&lt;/h1&gt;
-
-&lt;p&gt;I did not post this but I remember it well.&lt;/p&gt;
-
-&lt;p&gt;I created a room layout. A rectangular box in middle and 3 lines from corner of image to corner of rectangle.&lt;/p&gt;
-
-&lt;p&gt;When I pressed up key, the image zoomed in. I hoped to make more changes such that it would looked like that old Wolf Dom Game.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;My first real taste of programming was first year of Diploma (11th Grade) in C language.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.</summary></entry></feed>
+&lt;p&gt;FetchMode.SUBSELECT is also seems to better when used to FetchType.LAZY. Here, all parent entities will be fetched first. When child entities are needed, all child entities will be fetched at once instead of multiple queries.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><category term="database" /><summary type="html">N+1 Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
