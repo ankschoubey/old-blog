@@ -1,5 +1,4 @@
 ---
-toc: true
 layout: post
 comments: true
 description: How abstraction, cost and education convert research fields to applied.
