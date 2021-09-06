@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-06T09:02:21-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-06T09:03:03-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Every sufficiently advanced technology is indistinguishable from magic.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; But as more and more people understand and use the technology, the magic fades and it becomes an everyday affair.&lt;/p&gt;
 
@@ -85,23 +85,7 @@
 Backend
 Database
 Data Science
-Infra&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">System Requirements - How Big is X?</title><link href="www.ankushchoubey.com/vs-code/" rel="alternate" type="text/html" title="System Requirements - How Big is X?" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/system-requirements</id><content type="html" xml:base="www.ankushchoubey.com/vs-code/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Complexity of a piece of software can be judged by what all it does.&lt;/p&gt;
-
-&lt;p&gt;Kafka:
-Performance
-Memory Requirements
-Processor Requirements&lt;/p&gt;
-
-&lt;p&gt;Docker
-Memory Requirement&lt;/p&gt;
-
-&lt;p&gt;Spring Boot Server&lt;/p&gt;
-
-&lt;p&gt;Database Server&lt;/p&gt;
-
-&lt;p&gt;Load Balancer&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Apache Kafka</title><link href="www.ankushchoubey.com/kafka/" rel="alternate" type="text/html" title="Apache Kafka" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/kafka</id><content type="html" xml:base="www.ankushchoubey.com/kafka/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+Infra&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Apache Kafka</title><link href="www.ankushchoubey.com/kafka/" rel="alternate" type="text/html" title="Apache Kafka" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/kafka</id><content type="html" xml:base="www.ankushchoubey.com/kafka/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Kafa is&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making Internet Less Distracting</title><link href="www.ankushchoubey.com/internet-distractions/" rel="alternate" type="text/html" title="Making Internet Less Distracting" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-09-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/internet-distraction</id><content type="html" xml:base="www.ankushchoubey.com/internet-distractions/">&lt;p&gt;&lt;img src=&quot;/images/internet-distractions.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
@@ -399,4 +383,41 @@ spring.jpa.properties.hibernate.format_sql=true
   &lt;li&gt;One for for each child @Entity type will be run. After the query is run all chilren of particular type will be fetched.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;FetchMode.SUBSELECT is also seems to better when used to FetchType.LAZY. Here, all parent entities will be fetched first. When child entities are needed, all child entities will be fetched at once instead of multiple queries.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><category term="database" /><summary type="html">N+1 Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;FetchMode.SUBSELECT is also seems to better when used to FetchType.LAZY. Here, all parent entities will be fetched first. When child entities are needed, all child entities will be fetched at once instead of multiple queries.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><category term="database" /><summary type="html">N+1 Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My First Program</title><link href="www.ankushchoubey.com/first-program/" rel="alternate" type="text/html" title="My First Program" /><published>2021-06-16T00:00:00-05:00</published><updated>2021-08-01T15:42:15-05:00</updated><id>www.ankushchoubey.com/first-program</id><content type="html" xml:base="www.ankushchoubey.com/first-program/">&lt;p&gt;My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.&lt;/p&gt;
+
+&lt;p&gt;Then after a year or so, in Mumbai Mirrors Newspaper’s Sci-Tech section there was a piece on a kids programming languge called Scratch.edu.&lt;/p&gt;
+
+&lt;p&gt;I went out playing that morning and told my friend that I’ll be building my own GTA Vice City.&lt;/p&gt;
+
+&lt;p&gt;These are the few things I published on Scratch.&lt;/p&gt;
+
+&lt;h1 id=&quot;mad-shark&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/226045&quot;&gt;MAD Shark&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;jul-27-2008&quot;&gt;Jul 27, 2008&lt;/h2&gt;
+
+&lt;iframe src=&quot;https://scratch.mit.edu/projects/226045/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;exploring-the-heavens&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/281470/&quot;&gt;Exploring the Heavens&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;oct-03-2008&quot;&gt;Oct 03, 2008&lt;/h2&gt;
+
+&lt;p&gt;Frames taken from Britannica Encyclopedia.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://scratch.mit.edu/projects/281470/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;great-american-speeches&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/281482/&quot;&gt;Great AMERICAN SPEECHES&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;oct-03-2008-1&quot;&gt;Oct 03, 2008&lt;/h2&gt;
+
+&lt;p&gt;Frames taken from Britannica Encyclopedia.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://scratch.mit.edu/projects/281482/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;3d-project&quot;&gt;3D Project&lt;/h1&gt;
+
+&lt;p&gt;I did not post this but I remember it well.&lt;/p&gt;
+
+&lt;p&gt;I created a room layout. A rectangular box in middle and 3 lines from corner of image to corner of rectangle.&lt;/p&gt;
+
+&lt;p&gt;When I pressed up key, the image zoomed in. I hoped to make more changes such that it would looked like that old Wolf Dom Game.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;My first real taste of programming was first year of Diploma (11th Grade) in C language.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.</summary></entry></feed>
