@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-08-29T03:42:33-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-06T09:02:21-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Every sufficiently advanced technology is indistinguishable from magic.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; But as more and more people understand and use the technology, the magic fades and it becomes an everyday affair.&lt;/p&gt;
 
@@ -103,36 +103,66 @@ Memory Requirement&lt;/p&gt;
 
 &lt;p&gt;Load Balancer&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Apache Kafka</title><link href="www.ankushchoubey.com/kafka/" rel="alternate" type="text/html" title="Apache Kafka" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/kafka</id><content type="html" xml:base="www.ankushchoubey.com/kafka/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Kafa is&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making Internet Less Distracting</title><link href="www.ankushchoubey.com/privacy-settings/" rel="alternate" type="text/html" title="Making Internet Less Distracting" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/internet-distraction</id><content type="html" xml:base="www.ankushchoubey.com/privacy-settings/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Kafa is&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making Internet Less Distracting</title><link href="www.ankushchoubey.com/internet-distractions/" rel="alternate" type="text/html" title="Making Internet Less Distracting" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-09-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/internet-distraction</id><content type="html" xml:base="www.ankushchoubey.com/internet-distractions/">&lt;p&gt;&lt;img src=&quot;/images/internet-distractions.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;A recommender system can only work with data we provide.&lt;/p&gt;
+&lt;p&gt;The following should reduce influence of recommender systems significantly. Making internet less distracting and help improve privacy.&lt;/p&gt;
 
-&lt;p&gt;Often internet s&lt;/p&gt;
+&lt;h2 id=&quot;least-access-principle&quot;&gt;Least Access Principle&lt;/h2&gt;
 
-&lt;p&gt;Least Access Principle&lt;/p&gt;
+&lt;p&gt;This is a security principle.&lt;/p&gt;
 
-&lt;p&gt;Reduce Data Points&lt;/p&gt;
+&lt;p&gt;By default, the number of accesses granted to a user/role/application should be least needed to run that application.&lt;/p&gt;
 
-&lt;p&gt;YouTube:&lt;/p&gt;
+&lt;p&gt;The more access someone/something has, the more will be probability of a security risk.&lt;/p&gt;
+
+&lt;h2 id=&quot;reduce-data-points&quot;&gt;Reduce Data Points&lt;/h2&gt;
+
+&lt;p&gt;A recommender system can only work with data we provide. If data is reduced, it will have hard time figuring out what to recommend therefore making things less distracting.&lt;/p&gt;
+
+&lt;h2 id=&quot;specifics&quot;&gt;Specifics&lt;/h2&gt;
+
+&lt;h3 id=&quot;phone&quot;&gt;Phone&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do not allow notifications&lt;/li&gt;
+  &lt;li&gt;Do not give any permission for the application if it is not necessary.&lt;/li&gt;
+  &lt;li&gt;For iOS 14.5+: Turn off app tracking for all apps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;for-services&quot;&gt;For Services&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Turn off personalized ads&lt;/li&gt;
+  &lt;li&gt;Do not store unnecessary data. Even after deleting, most services will take 6 months to delete it from all their servers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For Example: In YouTube you can,&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Delete all playlists&lt;/li&gt;
   &lt;li&gt;Unsubscribe from all channels&lt;/li&gt;
   &lt;li&gt;Change locations to some other country (I Choose Japan)&lt;/li&gt;
   &lt;li&gt;Turn off Personalized Ads&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Complex Technologies are extension of Simple Ones</title><link href="www.ankushchoubey.com/complex/" rel="alternate" type="text/html" title="Complex Technologies are extension of Simple Ones" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/complex-ideas</id><content type="html" xml:base="www.ankushchoubey.com/complex/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Complex Ideas are often extension of simple ones.&lt;/p&gt;
+&lt;p&gt;I found that Google services are good at providing these kind of features and changing these settings have an immediate effect. Facebook Products and Amazon hide a lot of details.&lt;/p&gt;
 
-&lt;p&gt;I have been learning System Design lately. And one of the thing I notice time and time again is how useful Algorithms, Data Structures and Design Patterns are.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@flyd2069?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;FLY:D&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/data-security?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="recommender-systems" /><summary type="html">1 Photo by FLY:D on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/internet-distractions.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/internet-distractions.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Complex Technologies are extension of Simple Ones</title><link href="www.ankushchoubey.com/complex/" rel="alternate" type="text/html" title="Complex Technologies are extension of Simple Ones" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/complex-ideas</id><content type="html" xml:base="www.ankushchoubey.com/complex/">&lt;p&gt;I have been learning System Design lately. And one of the thing I notice time and time again is how useful Algorithms, Data Structures and Design Patterns are.&lt;/p&gt;
 
 &lt;p&gt;For example:
 A message queue like Kafka is not only simple conceptually but scales to handle much large data.&lt;/p&gt;
 
+&lt;p&gt;This is not to say that once can go an build some things advanced by themselves.&lt;/p&gt;
+
 &lt;p&gt;There goes a lot into making a software. Every tiny improvement. Edge case and it’s bugfixes are a contribution of years of research.&lt;/p&gt;
 
-&lt;p&gt;But to know that something is an extension of simple concepts like Queue and Pub/Sub is humblings. That the tools that are built are just a combination of ideas that were arranged and executed well.&lt;/p&gt;
-
-&lt;p&gt;This is not to say that once can go an build some things advanced by themselves.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">All Questions are False</title><link href="www.ankushchoubey.com/questions-false/" rel="alternate" type="text/html" title="All Questions are False" /><published>2021-08-16T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/questions-are-false</id><content type="html" xml:base="www.ankushchoubey.com/questions-false/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;But to know that something is an extension of simple concepts like Queue and Pub/Sub is humblings. That the tools that are built are just a combination of ideas that were arranged and executed well.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="baton" /><summary type="html">I have been learning System Design lately. And one of the thing I notice time and time again is how useful Algorithms, Data Structures and Design Patterns are.</summary></entry><entry><title type="html">All Questions are False</title><link href="www.ankushchoubey.com/questions-false/" rel="alternate" type="text/html" title="All Questions are False" /><published>2021-08-16T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/questions-are-false</id><content type="html" xml:base="www.ankushchoubey.com/questions-false/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@shotbycerqueira?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Shot by Cerqueira&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/meditation?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
