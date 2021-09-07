@@ -8,15 +8,15 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Keeping SQL DB Simple" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Around 2 years ago, I wrote a blogpost detailing how to keep backend DB Quering code simple but it missed a very critical piece which is having a simpler DB." />
-<meta property="og:description" content="Around 2 years ago, I wrote a blogpost detailing how to keep backend DB Quering code simple but it missed a very critical piece which is having a simpler DB." />
+<meta name="description" content="Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB." />
+<meta property="og:description" content="Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB." />
 <link rel="canonical" href="www.ankushchoubey.com/simple-sql-db/" />
 <meta property="og:url" content="www.ankushchoubey.com/simple-sql-db/" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-06-05T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/simple-sql-db/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/simple-sql-db/"},"headline":"Keeping SQL DB Simple","dateModified":"2021-08-01T15:42:15-05:00","datePublished":"2021-06-05T00:00:00-05:00","description":"Around 2 years ago, I wrote a blogpost detailing how to keep backend DB Quering code simple but it missed a very critical piece which is having a simpler DB.","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/simple-sql-db/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/simple-sql-db/"},"headline":"Keeping SQL DB Simple","dateModified":"2021-09-07T15:42:15-05:00","datePublished":"2021-06-05T00:00:00-05:00","description":"Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -112,13 +112,13 @@ window.onload = wrap_img;
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Keeping SQL DB Simple</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-06-05T00:00:00-05:00" itemprop="datePublished">
         Written: Jun 5, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-08-01T15:42:15-05:00" itemprop="dateModified">
-          Updated: Aug 1, 2021
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-09-07T15:42:15-05:00" itemprop="dateModified">
+          Updated: Sep 7, 2021
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -143,8 +143,6 @@ window.onload = wrap_img;
 </script>
 
 <div class="tag-list">
-    
-    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag draft" href="/categories/#draft">draft</a>
     
     <a  data-aos="zoom-in-right" class="tag fa fa-hashtag database" href="/categories/#database">database</a>
     
@@ -186,17 +184,19 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Around 2 years ago, I wrote a blogpost detailing how to keep backend DB Quering code simple but it missed a very critical piece which is having a simpler DB.</p>
+    <p>Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB.</p>
 
 <p>This post highlights some of my DB preferences. A Database design is highly dependent on the application so there may not apply to every DB.</p>
 
-<p>You’re DB for the most part should be such that the only operation you to CRUD and simple lookups.</p>
+<h2 id="aim-for-db-with-only-tables-no-stored-procedures-functions-or-views">Aim for DB with Only Tables. No Stored Procedures, Functions or Views</h2>
 
-<p>Therefore a lot of effort should be taken to designing extremely resuable and simple tables.</p>
+<p>Your DB for the most part should be such that the only operation you to CRUD and simple lookups.</p>
+
+<p>Therefore a lot of effort should be taken to designing extremely reusable and simple tables.</p>
 
 <p>In one of my projects, I had created an extremely efficient data pipeline.</p>
 
-<p>Their were multiple views in a heirarchical tree calling one another. If you looked up on root view and applied some filters, you would get the data you want. This data needed to be inserted into a separate table so I created stored procedure to do it.</p>
+<p>Their were multiple views in a hierarchical tree calling one another. If you looked up on root view and applied some filters, you would get the data you want. This data needed to be inserted into a separate table so I created stored procedure to do it.</p>
 
 <p>In coming months, new things were added the stored procedure and it became so complex that it is now to risky to tinker with.</p>
 
@@ -204,44 +204,43 @@ window.onload = wrap_img;
 
 <p>There shouldn’t be multiple tables doing the same job.</p>
 
-<h2 id="simple-and-resuable-tables">Simple and Resuable Tables</h2>
+<h2 id="simple-and-reusable-tables">Simple and Reusable Tables</h2>
+
+<p>If you have a social media type feature, it is best to have a single table to track likes than have multiple like tables for each type of data.</p>
 
 <h2 id="column-names">Column Names</h2>
 
 <p>For primary key <code class="language-plaintext highlighter-rouge">id</code> is enough.</p>
 
-<p>Many prefer using <code class="language-plaintext highlighter-rouge">&lt;table_name&gt;_id</code> as primary key but adding <code class="language-plaintext highlighter-rouge">table_name</code> is unneccesary. We already know what table it is.</p>
+<p>Many prefer using <code class="language-plaintext highlighter-rouge">&lt;table_name&gt;_id</code> as primary key but adding <code class="language-plaintext highlighter-rouge">table_name</code> is unnecessary. We already know what table it is.</p>
 
 <p>In case of joins between, <code class="language-plaintext highlighter-rouge">&lt;table_name&gt;_id</code> will be same length as selecting column with dot <code class="language-plaintext highlighter-rouge">&lt;table_name&gt;.id</code>.</p>
 
-<p>Also, if you have just <code class="language-plaintext highlighter-rouge">id</code> you can quickly identify a forignkey which has column in this format <code class="language-plaintext highlighter-rouge">&lt;table_name&gt;_id</code>.</p>
-
-<p>For forign key</p>
+<p>Also, if you have just <code class="language-plaintext highlighter-rouge">id</code> you can quickly identify a foreign key which has column in this format <code class="language-plaintext highlighter-rouge">&lt;table_name&gt;_id</code>.</p>
 
 <h2 id="indexing">Indexing</h2>
 
 <p>I identify the columns which require joins or search.</p>
 
-<p>And then index in the order in ehich they are called most.</p>
-
-<h2 id="sequences">Sequences</h2>
-
-<h2 id="table-with-no-stored-procedures-functions-or-views">Table with No Stored Procedures, Functions or Views</h2>
+<p>And then index in the order in which they are called most.</p>
 
 <h2 id="liquibase-xml-format">Liquibase XML Format</h2>
 
-<h2 id="concepts-that-i-have-heard-of-not-used-yet">Concepts that I have heard of not used yet</h2>
+<p>Liquibase is a tool for managing DB Deployments.</p>
 
-<ul>
-  <li>For complex things that use DB processing. use cron jobs to store data in separate table.</li>
-  <li>Make use of redis/memcache to cache things <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
-  <li>Database Sharding</li>
-</ul>
+<p>Using something like Liquibase XML format allows you to be DB independent and makes migration easy.</p>
+
+<h2 id="for-complex-analytics-operations">For Complex Analytics Operations</h2>
+
+<p>For complex analytics use cron jobs to store data in separate table <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> or use Materialized Views <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
       <p>TechLead <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Designing Data Intensive Applications by Martin Kleppmann <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>

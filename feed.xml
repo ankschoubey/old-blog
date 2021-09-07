@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-06T09:03:03-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-07T10:17:09-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Every sufficiently advanced technology is indistinguishable from magic.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; But as more and more people understand and use the technology, the magic fades and it becomes an everyday affair.&lt;/p&gt;
 
@@ -71,23 +71,7 @@
       &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">1 Photo by Forest Katsch on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">VS Code</title><link href="www.ankushchoubey.com/vs-code/" rel="alternate" type="text/html" title="VS Code" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/vs-code</id><content type="html" xml:base="www.ankushchoubey.com/vs-code/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Mastery of tools is very important for us programmers.&lt;/p&gt;
-
-&lt;p&gt;VS Code is such a tools that can be usefor everything.&lt;/p&gt;
-
-&lt;p&gt;VS Code is lightweight. Has excellent extensions support.&lt;/p&gt;
-
-&lt;p&gt;Debugging.&lt;/p&gt;
-
-&lt;p&gt;FrontEnd
-Backend
-Database
-Data Science
-Infra&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Apache Kafka</title><link href="www.ankushchoubey.com/kafka/" rel="alternate" type="text/html" title="Apache Kafka" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/kafka</id><content type="html" xml:base="www.ankushchoubey.com/kafka/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Kafa is&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making Internet Less Distracting</title><link href="www.ankushchoubey.com/internet-distractions/" rel="alternate" type="text/html" title="Making Internet Less Distracting" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-09-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/internet-distraction</id><content type="html" xml:base="www.ankushchoubey.com/internet-distractions/">&lt;p&gt;&lt;img src=&quot;/images/internet-distractions.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">1 Photo by Forest Katsch on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making Internet Less Distracting</title><link href="www.ankushchoubey.com/internet-distractions/" rel="alternate" type="text/html" title="Making Internet Less Distracting" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-09-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/internet-distraction</id><content type="html" xml:base="www.ankushchoubey.com/internet-distractions/">&lt;p&gt;&lt;img src=&quot;/images/internet-distractions.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;The following should reduce influence of recommender systems significantly. Making internet less distracting and help improve privacy.&lt;/p&gt;
 
@@ -420,4 +404,105 @@ spring.jpa.properties.hibernate.format_sql=true
 
 &lt;hr /&gt;
 
-&lt;p&gt;My first real taste of programming was first year of Diploma (11th Grade) in C language.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.</summary></entry></feed>
+&lt;p&gt;My first real taste of programming was first year of Diploma (11th Grade) in C language.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.</summary></entry><entry><title type="html">Art of Reducing Lines of Code in Java/Spring Boot</title><link href="www.ankushchoubey.com/clean-code-spring-boot/" rel="alternate" type="text/html" title="Art of Reducing Lines of Code in Java/Spring Boot" /><published>2021-06-12T00:00:00-05:00</published><updated>2021-08-01T15:42:15-05:00</updated><id>www.ankushchoubey.com/spring-boot-tips</id><content type="html" xml:base="www.ankushchoubey.com/clean-code-spring-boot/">&lt;p&gt;While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot.&lt;/p&gt;
+
+&lt;h1 id=&quot;project-lombok&quot;&gt;&lt;a href=&quot;https://projectlombok.org/features/all&quot;&gt;Project Lombok&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Use this if you don’t use Spring Boot with Kotlin. This will module will reduce side of code by around 15-25%.&lt;/p&gt;
+
+&lt;p&gt;Lombok allows you to generate java boilerplate at runtime by using Annotations such as: @ToString, @EqualsAndHashCode, @Getter/@Setter, etc.&lt;/p&gt;
+
+&lt;p&gt;My favorite onces are&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;@Data&lt;/strong&gt;: A shortcut for @ToString, @EqualsAndHashCode, @Getter on all fields, and @Setter on all non-final fields, and @RequiredArgsConstructor.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;@Cleanup&lt;/strong&gt;: Automatically calls close() method in case of Streams and Connections.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;requestparam-without-arguments&quot;&gt;@RequestParam without Arguments&lt;/h1&gt;
+
+&lt;p&gt;If the name of variable is same as value in @RequestParam, remove @Request Param.&lt;/p&gt;
+
+&lt;h1 id=&quot;remove-column-on-entity&quot;&gt;Remove @Column on @Entity&lt;/h1&gt;
+
+&lt;p&gt;In a @Entity, if the name of variable is same name of column writing @Column is unnecessary.&lt;/p&gt;
+
+&lt;p&gt;By doing this, not only remove a line from every variable, the quality of code is better as there is naming is consistent between DB and backend.&lt;/p&gt;
+
+&lt;h1 id=&quot;use-jpa-repository-methods-instead-of-hibernate-entitymanagerjdbctemplate&quot;&gt;Use JPA @Repository Methods instead of Hibernate EntityManager/JdbcTemplate&lt;/h1&gt;
+
+&lt;p&gt;Ideally your queries should be so simple such that the only type of read operation you do is simple CRUD.&lt;/p&gt;
+
+&lt;p&gt;Such simple queries are easier to understand and are a good sign of a well designed database.&lt;/p&gt;
+
+&lt;p&gt;Such operations are available out of the box with @Repository.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="spring-boot" /><category term="database" /><summary type="html">While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot.</summary></entry><entry><title type="html">Faster SQL Batch Save in Spring Data JPA</title><link href="www.ankushchoubey.com/batch-save-spring-jpa/" rel="alternate" type="text/html" title="Faster SQL Batch Save in Spring Data JPA" /><published>2021-06-12T00:00:00-05:00</published><updated>2021-08-01T15:42:15-05:00</updated><id>www.ankushchoubey.com/faster-write-spring-data-jpa</id><content type="html" xml:base="www.ankushchoubey.com/batch-save-spring-jpa/">&lt;p&gt;By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time.&lt;/p&gt;
+
+&lt;p&gt;This would take a lot of time to execute. This is because the value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; often needs to be fetched from database and set to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Entity&lt;/code&gt; before save. Therefore multiple transactions need to me made.&lt;/p&gt;
+
+&lt;p&gt;You can check this behavior by using the following &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;application.properties&lt;/code&gt; and then checking logs.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.use_sql_comments=true
+spring.jpa.properties.hibernate.format_sql=true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;speeding-up-writes&quot;&gt;Speeding Up Writes&lt;/h2&gt;
+
+&lt;p&gt;Spring Data JPA allows for storing multiple records at once but multiple things have to be set first.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-switch-to-sequence-generator-for-primary-key&quot;&gt;1. Switch to Sequence Generator for primary key&lt;/h3&gt;
+&lt;p&gt;Batch writes does not work with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GenerationType.IDENTITY&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Make using sequence_generator&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nd&quot;&gt;@Id&lt;/span&gt;
+  &lt;span class=&quot;nd&quot;&gt;@SequenceGenerator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;seqName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sequenceName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;seqName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;allocationSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;allocationSize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The {allocationSize} is how many writes you wish to do at once in case of a large list of entities.&lt;/p&gt;
+
+&lt;h4 id=&quot;2-create-the-sequence-in-your-database&quot;&gt;2. Create the sequence in your database&lt;/h4&gt;
+
+&lt;p&gt;Make sure that increment size is equal to {allocatedSize} used in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@GenerateValue&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3-add-jpa-property&quot;&gt;3. Add JPA Property&lt;/h4&gt;
+
+&lt;p&gt;Add the following property&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;spring.jpa.properties.hibernate.jdbc.batch_size={allocatedSize}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;within-code&quot;&gt;Within Code&lt;/h4&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;saveAll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listOfEntities&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;how-things-work-under-the-hood&quot;&gt;How things work under the hood?&lt;/h2&gt;
+
+&lt;p&gt;Once a list of entities need to be saved, JPA will make request to database for getting the next value of sequence generator.&lt;/p&gt;
+
+&lt;p&gt;This value will be set to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; of the first &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Entity&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Since we already have already provided {allocationSize}, JPA knows can automatically fill in values exist between the current value of sequence generator and the next.&lt;/p&gt;
+
+&lt;p&gt;Therefore JPA does not need to ask DB each time for the value to be set as primary key.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example:&lt;/h2&gt;
+
+&lt;p&gt;There is a sequence which increments by 1000.&lt;/p&gt;
+
+&lt;p&gt;We want to save a list of 500 entities to the database.&lt;/p&gt;
+
+&lt;p&gt;JPA asks database for value of sequence.&lt;/p&gt;
+
+&lt;p&gt;Database return value of 1.&lt;/p&gt;
+
+&lt;p&gt;JPA knows that the next increment is at 1000 so, it can fill in values between 1 and 1000.&lt;/p&gt;
+
+&lt;p&gt;JPA sets 1 to 500 to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; field to entities. All the entities are together sent to the DB as a single transaction.&lt;/p&gt;
+
+&lt;p&gt;Suppose we get around want to save another 100 new entities.&lt;/p&gt;
+
+&lt;p&gt;JPA knows the last &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; it set was 500 and it was 499 more &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; values it can use.&lt;/p&gt;
+
+&lt;p&gt;So it for the new 100 entities, it set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; values between 500-600 without asking Database for sequence value.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><category term="database" /><category term="information-system" /><summary type="html">By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time.</summary></entry></feed>
