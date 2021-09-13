@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-07T10:17:09-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-13T04:57:56-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">CSS Tips</title><link href="www.ankushchoubey.com/css-tips/" rel="alternate" type="text/html" title="CSS Tips" /><published>2021-09-13T00:00:00-05:00</published><updated>2021-09-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/css-tips</id><content type="html" xml:base="www.ankushchoubey.com/css-tips/">&lt;h2 id=&quot;keep-css-and-html-to-a-minimum&quot;&gt;Keep CSS and HTML to a minimum&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CSS and HTML are every dependent. Remove unnecessary tags and CSS classes.&lt;/li&gt;
+  &lt;li&gt;Lesser the CSS and HTML, easier it is to modify.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-flex-and-grid-for-adjusting-positions&quot;&gt;Use flex and grid for adjusting positions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;These are much more dynamic than using position absolute.&lt;/li&gt;
+  &lt;li&gt;Resource:
+    &lt;ul&gt;
+      &lt;li&gt;Flex: &lt;a href=&quot;https://www.youtube.com/watch?v=K74l26pE4YA&quot;&gt;https://www.youtube.com/watch?v=K74l26pE4YA&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Grid: &lt;a href=&quot;https://www.youtube.com/watch?v=uuOXPWCh-6o&quot;&gt;https://www.youtube.com/watch?v=uuOXPWCh-6o&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dont-use-absolute-lengths-use-relative-lengths&quot;&gt;Don’t use absolute lengths, use relative lengths&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;absolute lengths include cm, px, etc. relative lengths include em, cm, rem etc.&lt;/li&gt;
+  &lt;li&gt;if a width or height need to be a certain character length use “ch”. This cannot be used for font-size&lt;/li&gt;
+  &lt;li&gt;“vh” and “vw” can also be used but they are not perfect. instead use em or rem. rem is more preferred.&lt;/li&gt;
+  &lt;li&gt;Resource: &lt;a href=&quot;https://www.w3schools.com/CSSref/css_units.asp&quot;&gt;https://www.w3schools.com/CSSref/css_units.asp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-css-variables&quot;&gt;Use CSS variables&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CSS variables allow for easily changing CSS on the fly.&lt;/li&gt;
+  &lt;li&gt;Resource: &lt;a href=&quot;https://www.youtube.com/watch?v=NtRmIp4eMjs&quot;&gt;https://www.youtube.com/watch?v=NtRmIp4eMjs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;for-devexpress-modify-dx-widget-property&quot;&gt;For DevExpress, modify dx-widget property&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;.dx-widget class is applied to all DevExpress component so modifying it for changing something like font-size will effect every dx component.&lt;/li&gt;
+  &lt;li&gt;For responsiveness, rely on CSS not JS.&lt;/li&gt;
+  &lt;li&gt;Unless absolutely needed, JS should not be used to re-enforce responsiveness.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;media-queries&quot;&gt;Media Queries&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Assuming you are used most of the tips above, your CSS should be fairly small.&lt;/li&gt;
+  &lt;li&gt;Now you can use media queries for hiding elements.&lt;/li&gt;
+  &lt;li&gt;Before using media queries decide on the size of displays you want to support. This will make sure media query parameters is same across application.&lt;/li&gt;
+  &lt;li&gt;Resource: &lt;a href=&quot;https://www.youtube.com/watch?v=yU7jJ3NbPdA&quot;&gt;https://www.youtube.com/watch?v=yU7jJ3NbPdA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">Keep CSS and HTML to a minimum</summary></entry><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Every sufficiently advanced technology is indistinguishable from magic.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; But as more and more people understand and use the technology, the magic fades and it becomes an everyday affair.&lt;/p&gt;
 
@@ -434,75 +484,4 @@ spring.jpa.properties.hibernate.format_sql=true
 
 &lt;p&gt;Such simple queries are easier to understand and are a good sign of a well designed database.&lt;/p&gt;
 
-&lt;p&gt;Such operations are available out of the box with @Repository.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="spring-boot" /><category term="database" /><summary type="html">While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot.</summary></entry><entry><title type="html">Faster SQL Batch Save in Spring Data JPA</title><link href="www.ankushchoubey.com/batch-save-spring-jpa/" rel="alternate" type="text/html" title="Faster SQL Batch Save in Spring Data JPA" /><published>2021-06-12T00:00:00-05:00</published><updated>2021-08-01T15:42:15-05:00</updated><id>www.ankushchoubey.com/faster-write-spring-data-jpa</id><content type="html" xml:base="www.ankushchoubey.com/batch-save-spring-jpa/">&lt;p&gt;By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time.&lt;/p&gt;
-
-&lt;p&gt;This would take a lot of time to execute. This is because the value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; often needs to be fetched from database and set to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Entity&lt;/code&gt; before save. Therefore multiple transactions need to me made.&lt;/p&gt;
-
-&lt;p&gt;You can check this behavior by using the following &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;application.properties&lt;/code&gt; and then checking logs.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;spring.jpa.properties.hibernate.show_sql=true
-spring.jpa.properties.hibernate.use_sql_comments=true
-spring.jpa.properties.hibernate.format_sql=true
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;speeding-up-writes&quot;&gt;Speeding Up Writes&lt;/h2&gt;
-
-&lt;p&gt;Spring Data JPA allows for storing multiple records at once but multiple things have to be set first.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-switch-to-sequence-generator-for-primary-key&quot;&gt;1. Switch to Sequence Generator for primary key&lt;/h3&gt;
-&lt;p&gt;Batch writes does not work with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GenerationType.IDENTITY&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Make using sequence_generator&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nd&quot;&gt;@Id&lt;/span&gt;
-  &lt;span class=&quot;nd&quot;&gt;@SequenceGenerator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;seqName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sequenceName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;seqName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;allocationSize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;allocationSize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The {allocationSize} is how many writes you wish to do at once in case of a large list of entities.&lt;/p&gt;
-
-&lt;h4 id=&quot;2-create-the-sequence-in-your-database&quot;&gt;2. Create the sequence in your database&lt;/h4&gt;
-
-&lt;p&gt;Make sure that increment size is equal to {allocatedSize} used in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@GenerateValue&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;3-add-jpa-property&quot;&gt;3. Add JPA Property&lt;/h4&gt;
-
-&lt;p&gt;Add the following property&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;spring.jpa.properties.hibernate.jdbc.batch_size={allocatedSize}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;within-code&quot;&gt;Within Code&lt;/h4&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;saveAll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listOfEntities&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;how-things-work-under-the-hood&quot;&gt;How things work under the hood?&lt;/h2&gt;
-
-&lt;p&gt;Once a list of entities need to be saved, JPA will make request to database for getting the next value of sequence generator.&lt;/p&gt;
-
-&lt;p&gt;This value will be set to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; of the first &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Entity&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Since we already have already provided {allocationSize}, JPA knows can automatically fill in values exist between the current value of sequence generator and the next.&lt;/p&gt;
-
-&lt;p&gt;Therefore JPA does not need to ask DB each time for the value to be set as primary key.&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example:&lt;/h2&gt;
-
-&lt;p&gt;There is a sequence which increments by 1000.&lt;/p&gt;
-
-&lt;p&gt;We want to save a list of 500 entities to the database.&lt;/p&gt;
-
-&lt;p&gt;JPA asks database for value of sequence.&lt;/p&gt;
-
-&lt;p&gt;Database return value of 1.&lt;/p&gt;
-
-&lt;p&gt;JPA knows that the next increment is at 1000 so, it can fill in values between 1 and 1000.&lt;/p&gt;
-
-&lt;p&gt;JPA sets 1 to 500 to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; field to entities. All the entities are together sent to the DB as a single transaction.&lt;/p&gt;
-
-&lt;p&gt;Suppose we get around want to save another 100 new entities.&lt;/p&gt;
-
-&lt;p&gt;JPA knows the last &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; it set was 500 and it was 499 more &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; values it can use.&lt;/p&gt;
-
-&lt;p&gt;So it for the new 100 entities, it set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Id&lt;/code&gt; values between 500-600 without asking Database for sequence value.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><category term="database" /><category term="information-system" /><summary type="html">By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time.</summary></entry></feed>
+&lt;p&gt;Such operations are available out of the box with @Repository.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="spring-boot" /><category term="database" /><summary type="html">While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot.</summary></entry></feed>
