@@ -5,7 +5,7 @@ description:
 categories: [web-development]
 last_modified_at: 2021-09-23T20:52:08.052481
 permalink: /custom-ui-library/
-title: Always make a custom UI Library for every new application
+title: Always make a custom component library for every new application
 ---
 
 ## Need of Custom UI Library
