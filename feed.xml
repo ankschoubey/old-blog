@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-13T08:11:43-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">CSS Tips</title><link href="www.ankushchoubey.com/css-tips/" rel="alternate" type="text/html" title="CSS Tips" /><published>2021-09-13T00:00:00-05:00</published><updated>2021-09-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/css-tips</id><content type="html" xml:base="www.ankushchoubey.com/css-tips/">&lt;h2 id=&quot;keep-css-and-html-to-a-minimum&quot;&gt;Keep CSS and HTML to a minimum&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-23T09:36:55-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Always make a custom UI Library for every new application</title><link href="www.ankushchoubey.com/custom-ui-library/" rel="alternate" type="text/html" title="Always make a custom UI Library for every new application" /><published>2021-09-23T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/custom-ui-library</id><content type="html" xml:base="www.ankushchoubey.com/custom-ui-library/">&lt;h2 id=&quot;need-of-custom-ui-library&quot;&gt;Need of Custom UI Library&lt;/h2&gt;
+
+&lt;p&gt;To be most productive with any front end technology, I am convinced that a custom component library should be created.&lt;/p&gt;
+
+&lt;p&gt;This custom component library should be used for everything. Any new kind of table, any new time of image viewer, etc.&lt;/p&gt;
+
+&lt;p&gt;The component library should be completely decoupled from main application data. Instead it should have it’s own namings.&lt;/p&gt;
+
+&lt;p&gt;Even if you already use a UI library like DevExpress, using them from within a custom component library will allow re-enforcing rules and make it easy to change the code later.&lt;/p&gt;
+
+&lt;p&gt;This custom UI library can have following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Common UI Elements&lt;/li&gt;
+  &lt;li&gt;Common UI Layouts&lt;/li&gt;
+  &lt;li&gt;Reusable scripts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;some-common-ui-library-elements&quot;&gt;Some Common UI Library Elements&lt;/h2&gt;
+
+&lt;p&gt;These are some UI elements that I believe are perfect for including in a custom UI Library. I have compiled this list by looking at third part UI libraries.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tables&lt;/li&gt;
+  &lt;li&gt;Forms
+    &lt;ul&gt;
+      &lt;li&gt;Input&lt;/li&gt;
+      &lt;li&gt;Checkbox&lt;/li&gt;
+      &lt;li&gt;HTML Editor&lt;/li&gt;
+      &lt;li&gt;Buttons&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Charts&lt;/li&gt;
+  &lt;li&gt;Maps&lt;/li&gt;
+  &lt;li&gt;Toast&lt;/li&gt;
+  &lt;li&gt;Progress Bars&lt;/li&gt;
+  &lt;li&gt;Tooltip&lt;/li&gt;
+  &lt;li&gt;Popovers&lt;/li&gt;
+  &lt;li&gt;Popups&lt;/li&gt;
+  &lt;li&gt;Gallery&lt;/li&gt;
+  &lt;li&gt;Menus&lt;/li&gt;
+  &lt;li&gt;Accordion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;in-general-the-rule-is&quot;&gt;In general the rule is&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;if you are using a UI Element twice, wrap it in a custom component.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Need of Custom UI Library</summary></entry><entry><title type="html">CSS Tips</title><link href="www.ankushchoubey.com/css-tips/" rel="alternate" type="text/html" title="CSS Tips" /><published>2021-09-13T00:00:00-05:00</published><updated>2021-09-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/css-tips</id><content type="html" xml:base="www.ankushchoubey.com/css-tips/">&lt;h2 id=&quot;keep-css-and-html-to-a-minimum&quot;&gt;Keep CSS and HTML to a minimum&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;CSS and HTML are every dependent. Remove unnecessary tags and CSS classes.&lt;/li&gt;
@@ -454,34 +502,4 @@ spring.jpa.properties.hibernate.format_sql=true
 
 &lt;hr /&gt;
 
-&lt;p&gt;My first real taste of programming was first year of Diploma (11th Grade) in C language.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.</summary></entry><entry><title type="html">Art of Reducing Lines of Code in Java/Spring Boot</title><link href="www.ankushchoubey.com/clean-code-spring-boot/" rel="alternate" type="text/html" title="Art of Reducing Lines of Code in Java/Spring Boot" /><published>2021-06-12T00:00:00-05:00</published><updated>2021-08-01T15:42:15-05:00</updated><id>www.ankushchoubey.com/spring-boot-tips</id><content type="html" xml:base="www.ankushchoubey.com/clean-code-spring-boot/">&lt;p&gt;While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot.&lt;/p&gt;
-
-&lt;h1 id=&quot;project-lombok&quot;&gt;&lt;a href=&quot;https://projectlombok.org/features/all&quot;&gt;Project Lombok&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Use this if you don’t use Spring Boot with Kotlin. This will module will reduce side of code by around 15-25%.&lt;/p&gt;
-
-&lt;p&gt;Lombok allows you to generate java boilerplate at runtime by using Annotations such as: @ToString, @EqualsAndHashCode, @Getter/@Setter, etc.&lt;/p&gt;
-
-&lt;p&gt;My favorite onces are&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;@Data&lt;/strong&gt;: A shortcut for @ToString, @EqualsAndHashCode, @Getter on all fields, and @Setter on all non-final fields, and @RequiredArgsConstructor.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;@Cleanup&lt;/strong&gt;: Automatically calls close() method in case of Streams and Connections.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;requestparam-without-arguments&quot;&gt;@RequestParam without Arguments&lt;/h1&gt;
-
-&lt;p&gt;If the name of variable is same as value in @RequestParam, remove @Request Param.&lt;/p&gt;
-
-&lt;h1 id=&quot;remove-column-on-entity&quot;&gt;Remove @Column on @Entity&lt;/h1&gt;
-
-&lt;p&gt;In a @Entity, if the name of variable is same name of column writing @Column is unnecessary.&lt;/p&gt;
-
-&lt;p&gt;By doing this, not only remove a line from every variable, the quality of code is better as there is naming is consistent between DB and backend.&lt;/p&gt;
-
-&lt;h1 id=&quot;use-jpa-repository-methods-instead-of-hibernate-entitymanagerjdbctemplate&quot;&gt;Use JPA @Repository Methods instead of Hibernate EntityManager/JdbcTemplate&lt;/h1&gt;
-
-&lt;p&gt;Ideally your queries should be so simple such that the only type of read operation you do is simple CRUD.&lt;/p&gt;
-
-&lt;p&gt;Such simple queries are easier to understand and are a good sign of a well designed database.&lt;/p&gt;
-
-&lt;p&gt;Such operations are available out of the box with @Repository.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="spring-boot" /><category term="database" /><summary type="html">While there are many techniques which are language agnostic, these are some of my favorites with Spring Boot.</summary></entry></feed>
+&lt;p&gt;My first real taste of programming was first year of Diploma (11th Grade) in C language.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.</summary></entry></feed>
