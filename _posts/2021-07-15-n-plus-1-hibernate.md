@@ -73,7 +73,8 @@ If you are using this, all data will be fetch at once using join but the payload
     List<EntityType> entityName;
 ```
 
-If used a minimum of 2 queries will be run. 
+If used a minimum of 2 queries will be run.
+
 - One for parent @Entity
 - One for for each child @Entity type will be run. After the query is run all chilren of particular type will be fetched.
 

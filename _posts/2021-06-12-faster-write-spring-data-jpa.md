@@ -4,7 +4,7 @@ layout: post
 comments: true
 description: 
 categories: [spring-boot, database, information-system]
-last_modified_at: 2021-08-01T20:42:15.674574
+last_modified_at: 2021-06-12T20:42:15.674574
 title: Faster SQL Batch Save in Spring Data JPA
 permalink: /batch-save-spring-jpa/
 ---
