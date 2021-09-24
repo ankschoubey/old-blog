@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-23T09:37:28-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Always make a custom component library for every new application</title><link href="www.ankushchoubey.com/custom-ui-library/" rel="alternate" type="text/html" title="Always make a custom component library for every new application" /><published>2021-09-23T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/custom-ui-library</id><content type="html" xml:base="www.ankushchoubey.com/custom-ui-library/">&lt;h2 id=&quot;need-of-custom-ui-library&quot;&gt;Need of Custom UI Library&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-24T08:55:30-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Always make a custom component library for every new application</title><link href="www.ankushchoubey.com/custom-ui-library/" rel="alternate" type="text/html" title="Always make a custom component library for every new application" /><published>2021-09-23T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/custom-ui-library</id><content type="html" xml:base="www.ankushchoubey.com/custom-ui-library/">&lt;h2 id=&quot;need-of-custom-ui-library&quot;&gt;Need of Custom UI Library&lt;/h2&gt;
 
 &lt;p&gt;To be most productive with any front end technology, I am convinced that a custom component library should be created.&lt;/p&gt;
 
@@ -349,25 +349,51 @@ No answer is going to help you; every answer will create more questions.&lt;/p&g
 
 &lt;p&gt;Clearing cache before installation on your dev/QA/prod env will ensure it will run the same on any environment.&lt;/p&gt;
 
-&lt;h2 id=&quot;use---registry-on-local&quot;&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--registry&lt;/code&gt; on local&lt;/h2&gt;
+&lt;h2 id=&quot;use-custom-registry&quot;&gt;Use custom registry&lt;/h2&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install --registry &amp;lt;link-to-repository&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Even when installing on local, make sure to use custom registry.&lt;/p&gt;
 
 &lt;p&gt;If you are going to use a registry like Nexus to manage packages, it makes sense to use the same registry for installation local. The closer you can replicate your prod on local, the fewer bugs you are going to face.&lt;/p&gt;
 
-&lt;h2 id=&quot;use-yarn-instead-of-npm&quot;&gt;use yarn instead of NPM&lt;/h2&gt;
+&lt;p&gt;This can be done in 2 ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--registry&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install --registry &amp;lt;link-to-repository&amp;gt;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Creating a project level &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Inside the file write:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;registry=&amp;lt;link-to-repository&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;managing-node_modules&quot;&gt;Managing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;use-yarn-instead-of-npm&quot;&gt;use yarn instead of NPM&lt;/h3&gt;
 
 &lt;p&gt;yarn is a package manager just like npm but it provides a few features that make it better.&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;multi-threaded download. This makes yarn much faster than npm which only supports single-threaded downloads.&lt;/li&gt;
   &lt;li&gt;offline mode. Once a package is downloaded, it can be downloaded again. even if the node_modules folder is deleted. This is because yarn stores a backup of everything.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades&quot;&gt;If you are not using yarn, zip &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; before making dependency upgrades.&lt;/h2&gt;
+&lt;h3 id=&quot;if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades&quot;&gt;If you are not using yarn, zip &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; before making dependency upgrades&lt;/h3&gt;
 
 &lt;p&gt;Often things don’t go smoothly when upgrading changes dependencies. Since, node_modules are ignore in git, the only way to revert or switch between branches with dependencies is a clean npm install.&lt;/p&gt;
 
-&lt;p&gt;Yarn supports offline line mode which means nothing is downloaded if dependencies had been updated once. If you are not using yarn, zip &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; before making dependency upgrades. You can unzip it easily if you need to revert.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Create and use scripts</summary></entry><entry><title type="html">Solving N+1 Problem in Hibernate</title><link href="www.ankushchoubey.com/n-plus-one-hibernate/" rel="alternate" type="text/html" title="Solving N+1 Problem in Hibernate" /><published>2021-07-15T00:00:00-05:00</published><updated>2021-08-01T15:52:08-05:00</updated><id>www.ankushchoubey.com/n-plus-1-hibernate</id><content type="html" xml:base="www.ankushchoubey.com/n-plus-one-hibernate/">&lt;h2 id=&quot;n1-problem&quot;&gt;N+1 Problem&lt;/h2&gt;
+&lt;p&gt;Yarn supports offline line mode which means nothing is downloaded if dependencies had been updated once. If you are not using yarn, zip &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; before making dependency upgrades. You can unzip it easily if you need to revert.&lt;/p&gt;
+
+&lt;h3 id=&quot;skip-above-node_modules-tips-and-use-pnpm&quot;&gt;Skip above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; tips and use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;Installations: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm i -g pnpm&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Usage: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm install&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt; is a disk efficient package manager which stored all node_module packages in one place and used  sim links for installing within projects. If you have a same package in multiple project, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt; will make sure to download and store it only once.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Create and use scripts</summary></entry><entry><title type="html">Solving N+1 Problem in Hibernate</title><link href="www.ankushchoubey.com/n-plus-one-hibernate/" rel="alternate" type="text/html" title="Solving N+1 Problem in Hibernate" /><published>2021-07-15T00:00:00-05:00</published><updated>2021-08-01T15:52:08-05:00</updated><id>www.ankushchoubey.com/n-plus-1-hibernate</id><content type="html" xml:base="www.ankushchoubey.com/n-plus-one-hibernate/">&lt;h2 id=&quot;n1-problem&quot;&gt;N+1 Problem&lt;/h2&gt;
 
 &lt;p&gt;If you are working with JPA entities and you have joins. Then you might have faced this problem.&lt;/p&gt;
 
@@ -460,6 +486,7 @@ spring.jpa.properties.hibernate.format_sql=true
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;If used a minimum of 2 queries will be run.&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;One for parent @Entity&lt;/li&gt;
   &lt;li&gt;One for for each child @Entity type will be run. After the query is run all chilren of particular type will be fetched.&lt;/li&gt;
@@ -467,18 +494,20 @@ spring.jpa.properties.hibernate.format_sql=true
 
 &lt;p&gt;FetchMode.SUBSELECT is also seems to better when used to FetchType.LAZY. Here, all parent entities will be fetched first. When child entities are needed, all child entities will be fetched at once instead of multiple queries.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><category term="database" /><summary type="html">N+1 Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My First Program</title><link href="www.ankushchoubey.com/first-program/" rel="alternate" type="text/html" title="My First Program" /><published>2021-06-16T00:00:00-05:00</published><updated>2021-08-01T15:42:15-05:00</updated><id>www.ankushchoubey.com/first-program</id><content type="html" xml:base="www.ankushchoubey.com/first-program/">&lt;p&gt;My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.&lt;/p&gt;
 
-&lt;p&gt;Then after a year or so, in Mumbai Mirrors Newspaper’s Sci-Tech section there was a piece on a kids programming languge called Scratch.edu.&lt;/p&gt;
+&lt;p&gt;Then after a year or so, in Mumbai Mirrors Newspaper’s Sci-Tech section there was a piece on a kids programming language called Scratch.edu.&lt;/p&gt;
 
 &lt;p&gt;I went out playing that morning and told my friend that I’ll be building my own GTA Vice City.&lt;/p&gt;
 
 &lt;p&gt;These are the few things I published on Scratch.&lt;/p&gt;
 
 &lt;h1 id=&quot;mad-shark&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/226045&quot;&gt;MAD Shark&lt;/a&gt;&lt;/h1&gt;
+
 &lt;h2 id=&quot;jul-27-2008&quot;&gt;Jul 27, 2008&lt;/h2&gt;
 
 &lt;iframe src=&quot;https://scratch.mit.edu/projects/226045/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;h1 id=&quot;exploring-the-heavens&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/281470/&quot;&gt;Exploring the Heavens&lt;/a&gt;&lt;/h1&gt;
+
 &lt;h2 id=&quot;oct-03-2008&quot;&gt;Oct 03, 2008&lt;/h2&gt;
 
 &lt;p&gt;Frames taken from Britannica Encyclopedia.&lt;/p&gt;
@@ -486,6 +515,7 @@ spring.jpa.properties.hibernate.format_sql=true
 &lt;iframe src=&quot;https://scratch.mit.edu/projects/281470/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;h1 id=&quot;great-american-speeches&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/281482/&quot;&gt;Great AMERICAN SPEECHES&lt;/a&gt;&lt;/h1&gt;
+
 &lt;h2 id=&quot;oct-03-2008-1&quot;&gt;Oct 03, 2008&lt;/h2&gt;
 
 &lt;p&gt;Frames taken from Britannica Encyclopedia.&lt;/p&gt;

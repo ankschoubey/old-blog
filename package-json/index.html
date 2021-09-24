@@ -118,7 +118,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -186,9 +186,14 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#create-and-use-scripts">Create and use scripts</a></li>
 <li class="toc-entry toc-h2"><a href="#npm-outdated">npm outdated</a></li>
 <li class="toc-entry toc-h2"><a href="#clear-cache-before-npm-install-on-every-environment">Clear cache before npm install on every environment</a></li>
-<li class="toc-entry toc-h2"><a href="#use---registry-on-local">Use --registry on local</a></li>
-<li class="toc-entry toc-h2"><a href="#use-yarn-instead-of-npm">use yarn instead of NPM</a></li>
-<li class="toc-entry toc-h2"><a href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades">If you are not using yarn, zip node_modules before making dependency upgrades.</a></li>
+<li class="toc-entry toc-h2"><a href="#use-custom-registry">Use custom registry</a></li>
+<li class="toc-entry toc-h2"><a href="#managing-node_modules">Managing node_modules</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#use-yarn-instead-of-npm">use yarn instead of NPM</a></li>
+<li class="toc-entry toc-h3"><a href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades">If you are not using yarn, zip node_modules before making dependency upgrades</a></li>
+<li class="toc-entry toc-h3"><a href="#skip-above-node_modules-tips-and-use-pnpm">Skip above node_modules tips and use pnpm</a></li>
+</ul>
+</li>
 </ul><h2 id="create-and-use-scripts">
 <a class="anchor" href="#create-and-use-scripts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create and use scripts</h2>
 
@@ -219,28 +224,58 @@ window.onload = wrap_img;
 
 <p>Clearing cache before installation on your dev/QA/prod env will ensure it will run the same on any environment.</p>
 
-<h2 id="use---registry-on-local">
-<a class="anchor" href="#use---registry-on-local" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use <code class="language-plaintext highlighter-rouge">--registry</code> on local</h2>
+<h2 id="use-custom-registry">
+<a class="anchor" href="#use-custom-registry" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use custom registry</h2>
 
-<p><code class="language-plaintext highlighter-rouge">npm install --registry &lt;link-to-repository&gt;</code></p>
+<p>Even when installing on local, make sure to use custom registry.</p>
 
 <p>If you are going to use a registry like Nexus to manage packages, it makes sense to use the same registry for installation local. The closer you can replicate your prod on local, the fewer bugs you are going to face.</p>
 
-<h2 id="use-yarn-instead-of-npm">
-<a class="anchor" href="#use-yarn-instead-of-npm" aria-hidden="true"><span class="octicon octicon-link"></span></a>use yarn instead of NPM</h2>
+<p>This can be done in 2 ways:</p>
+
+<ul>
+  <li>
+    <p>Using <code class="language-plaintext highlighter-rouge">--registry</code>
+<code class="language-plaintext highlighter-rouge">npm install --registry &lt;link-to-repository&gt;</code></p>
+  </li>
+  <li>
+    <p>Creating a project level <code class="language-plaintext highlighter-rouge">.npmrc</code> file</p>
+  </li>
+</ul>
+
+<p>Inside the file write:
+<code class="language-plaintext highlighter-rouge">registry=&lt;link-to-repository&gt;</code></p>
+
+<h2 id="managing-node_modules">
+<a class="anchor" href="#managing-node_modules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Managing <code class="language-plaintext highlighter-rouge">node_modules</code>
+</h2>
+
+<h3 id="use-yarn-instead-of-npm">
+<a class="anchor" href="#use-yarn-instead-of-npm" aria-hidden="true"><span class="octicon octicon-link"></span></a>use yarn instead of NPM</h3>
 
 <p>yarn is a package manager just like npm but it provides a few features that make it better.</p>
+
 <ul>
   <li>multi-threaded download. This makes yarn much faster than npm which only supports single-threaded downloads.</li>
   <li>offline mode. Once a package is downloaded, it can be downloaded again. even if the node_modules folder is deleted. This is because yarn stores a backup of everything.</li>
 </ul>
 
-<h2 id="if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades">
-<a class="anchor" href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades" aria-hidden="true"><span class="octicon octicon-link"></span></a>If you are not using yarn, zip <code class="language-plaintext highlighter-rouge">node_modules</code> before making dependency upgrades.</h2>
+<h3 id="if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades">
+<a class="anchor" href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades" aria-hidden="true"><span class="octicon octicon-link"></span></a>If you are not using yarn, zip <code class="language-plaintext highlighter-rouge">node_modules</code> before making dependency upgrades</h3>
 
 <p>Often things don’t go smoothly when upgrading changes dependencies. Since, node_modules are ignore in git, the only way to revert or switch between branches with dependencies is a clean npm install.</p>
 
 <p>Yarn supports offline line mode which means nothing is downloaded if dependencies had been updated once. If you are not using yarn, zip <code class="language-plaintext highlighter-rouge">node_modules</code> before making dependency upgrades. You can unzip it easily if you need to revert.</p>
+
+<h3 id="skip-above-node_modules-tips-and-use-pnpm">
+<a class="anchor" href="#skip-above-node_modules-tips-and-use-pnpm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Skip above <code class="language-plaintext highlighter-rouge">node_modules</code> tips and use <code class="language-plaintext highlighter-rouge">pnpm</code>
+</h3>
+
+<p>Installations: <code class="language-plaintext highlighter-rouge">npm i -g pnpm</code></p>
+
+<p>Usage: <code class="language-plaintext highlighter-rouge">pnpm install</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">pnpm</code> is a disk efficient package manager which stored all node_module packages in one place and used  sim links for installing within projects. If you have a same package in multiple project, <code class="language-plaintext highlighter-rouge">pnpm</code> will make sure to download and store it only once.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
