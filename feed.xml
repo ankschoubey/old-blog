@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-24T08:55:30-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Always make a custom component library for every new application</title><link href="www.ankushchoubey.com/custom-ui-library/" rel="alternate" type="text/html" title="Always make a custom component library for every new application" /><published>2021-09-23T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/custom-ui-library</id><content type="html" xml:base="www.ankushchoubey.com/custom-ui-library/">&lt;h2 id=&quot;need-of-custom-ui-library&quot;&gt;Need of Custom UI Library&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-26T02:15:20-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Values</title><link href="www.ankushchoubey.com/values/" rel="alternate" type="text/html" title="Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/values/">&lt;p&gt;Values simplify decision making.&lt;/p&gt;
+
+&lt;p&gt;It’s important to define your values first and then make decision of those. Doing the reverse does not work.&lt;/p&gt;
+
+&lt;p&gt;Every individual is different, therefore it is important to build your own set of values to follow.&lt;/p&gt;
+
+&lt;p&gt;Keep things to a minimum and keep them abstract.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="draft" /><summary type="html">Values simplify decision making.</summary></entry><entry><title type="html">Learning Strategy</title><link href="www.ankushchoubey.com/learning-strategy/" rel="alternate" type="text/html" title="Learning Strategy" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-i-learn-x</id><content type="html" xml:base="www.ankushchoubey.com/learning-strategy/">&lt;p&gt;These are some strategies I use to learn any new thing including programming languages.&lt;/p&gt;
+
+&lt;p&gt;These are probably very influenced by Tim Ferriss’s 4 Hour Chef which I had read around 2016.&lt;/p&gt;
+
+&lt;h2 id=&quot;material-beats-method-&quot;&gt;Material beats Method &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;Usually, it’s not fault of the student, it’s fault of the teacher.&lt;/p&gt;
+
+&lt;p&gt;How a teacher teaches determines a lot.&lt;/p&gt;
+
+&lt;p&gt;I don’t like live teachings. It sometimes gets to fast sometimes too slow. I prefer learning on my own.&lt;/p&gt;
+
+&lt;p&gt;I pick resources that are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Step by step&lt;/li&gt;
+  &lt;li&gt;Have a clear road to some kind of implementation&lt;/li&gt;
+  &lt;li&gt;As real world as possible.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;For Music:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I tried learning Piano by reading book but it was no boring and vage. So I purchased SimplyPiano.&lt;/li&gt;
+  &lt;li&gt;Similarly for guitar I got SimplyGuitar.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For Programming Topics,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I prefer platform allow trying out code online without any local installation.
+    &lt;ul&gt;
+      &lt;li&gt;Codecademy is a good one. I used it for many things.&lt;/li&gt;
+      &lt;li&gt;Recently I started learning&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;role-of-books&quot;&gt;Role of Books&lt;/h2&gt;
+
+&lt;p&gt;I don’t use books for learning everything.&lt;/p&gt;
+
+&lt;p&gt;But certain concepts are such that they require an entire book.&lt;/p&gt;
+
+&lt;p&gt;I don’t go out to but book instantly. I wait a few days to see if I really need to.&lt;/p&gt;
+
+&lt;p&gt;Sometimes YouTube videos are enough to cure curiosity or find the answer.&lt;/p&gt;
+
+&lt;p&gt;Books are great for deep topics have a lot of details in it.&lt;/p&gt;
+
+&lt;h2 id=&quot;learn-in-chunks&quot;&gt;Learn in chunks&lt;/h2&gt;
+
+&lt;p&gt;I cannot learn something at one. If I try to do it I will have to recollection of the concepts. So I prefer doing a little every day or regularly.&lt;/p&gt;
+
+&lt;p&gt;This also forces me to recall what I had previously learned.&lt;/p&gt;
+
+&lt;p&gt;So for,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Piano and Guitar: 10 Min a Day&lt;/li&gt;
+  &lt;li&gt;Technical Topics: Max 2 Pomodoros (25 min timers twice with 5-10 min break in middle)&lt;/li&gt;
+  &lt;li&gt;Books: 10-20 minutes max&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;clear-doubts-along-the-way&quot;&gt;Clear Doubts along the way&lt;/h2&gt;
+
+&lt;p&gt;If you are stuck, search for the solution.&lt;/p&gt;
+
+&lt;p&gt;Usually learning from different sources helps.&lt;/p&gt;
+
+&lt;h2 id=&quot;have-cheat-sheets&quot;&gt;Have Cheat Sheets&lt;/h2&gt;
+
+&lt;p&gt;Cheat sheets allow recalling what you have learned instantly!&lt;/p&gt;
+
+&lt;p&gt;Often googling cheatsheets is sufficient.&lt;/p&gt;
+
+&lt;h2 id=&quot;put-into-practice-fast&quot;&gt;Put into Practice Fast&lt;/h2&gt;
+
+&lt;p&gt;Deployable.&lt;/p&gt;
+
+&lt;p&gt;Record yourself.&lt;/p&gt;
+
+&lt;p&gt;Talk to other people/&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;4 Hour Chef &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="draft" /><summary type="html">These are some strategies I use to learn any new thing including programming languages.</summary></entry><entry><title type="html">Always make a custom component library for every new application</title><link href="www.ankushchoubey.com/custom-ui-library/" rel="alternate" type="text/html" title="Always make a custom component library for every new application" /><published>2021-09-23T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/custom-ui-library</id><content type="html" xml:base="www.ankushchoubey.com/custom-ui-library/">&lt;h2 id=&quot;need-of-custom-ui-library&quot;&gt;Need of Custom UI Library&lt;/h2&gt;
 
 &lt;p&gt;To be most productive with any front end technology, I am convinced that a custom component library should be created.&lt;/p&gt;
 
@@ -393,143 +491,4 @@ No answer is going to help you; every answer will create more questions.&lt;/p&g
 
 &lt;p&gt;Usage: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm install&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt; is a disk efficient package manager which stored all node_module packages in one place and used  sim links for installing within projects. If you have a same package in multiple project, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt; will make sure to download and store it only once.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Create and use scripts</summary></entry><entry><title type="html">Solving N+1 Problem in Hibernate</title><link href="www.ankushchoubey.com/n-plus-one-hibernate/" rel="alternate" type="text/html" title="Solving N+1 Problem in Hibernate" /><published>2021-07-15T00:00:00-05:00</published><updated>2021-08-01T15:52:08-05:00</updated><id>www.ankushchoubey.com/n-plus-1-hibernate</id><content type="html" xml:base="www.ankushchoubey.com/n-plus-one-hibernate/">&lt;h2 id=&quot;n1-problem&quot;&gt;N+1 Problem&lt;/h2&gt;
-
-&lt;p&gt;If you are working with JPA entities and you have joins. Then you might have faced this problem.&lt;/p&gt;
-
-&lt;p&gt;If you have something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@OneToMany&lt;/code&gt; mapping between a parent and a child and fetch parent. All the child entities will be fetch one by one is a kind of a loop.&lt;/p&gt;
-
-&lt;p&gt;You can check this behavior by using the following &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;application.properties&lt;/code&gt; and then checking logs.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;spring.jpa.properties.hibernate.show_sql=true
-spring.jpa.properties.hibernate.use_sql_comments=true
-spring.jpa.properties.hibernate.format_sql=true
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;So if you have 2 records for parent and 4 corresponding child records.&lt;/p&gt;
-
-&lt;p&gt;A total of 2*8 separate queries wil be run.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/n-plus-one.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Query Number&lt;/th&gt;
-      &lt;th&gt;Purpose&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Fetch Parent Entity: id_1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;Fetch Child Associated with parent id_1: id_a&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;Fetch Child Associated with parent id_1: id_b&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;Fetch Child Associated with parent id_1: id_c&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;Fetch Parent Entity: id_2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;6&lt;/td&gt;
-      &lt;td&gt;Fetch Child Associated with parent id_1: id_d&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;Fetch Child Associated with parent id_1: id_e&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;8&lt;/td&gt;
-      &lt;td&gt;Fetch Child Associated with parent id_1: id_f&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;If similarly you have a 1000 records and 10 corresponding child records.&lt;/p&gt;
-
-&lt;p&gt;Then 1000*10 = 10,000 queries will be run.&lt;/p&gt;
-
-&lt;p&gt;This is inefficient.&lt;/p&gt;
-
-&lt;p&gt;We need some way to reduce the number of query calls. Even if the amount of data is the same, the cost of running more queries is much higher that getting the same amout of work done with less number of queries.&lt;/p&gt;
-
-&lt;h2 id=&quot;fetchmodes&quot;&gt;FetchModes&lt;/h2&gt;
-
-&lt;p&gt;FetchModes allow you to say to Hibernate to fetch all childrens at once instead of fetching them one at the time.&lt;/p&gt;
-
-&lt;p&gt;FetchMode is different from FetchType.EAGER or LAZY. The former is used to decides where to fetch children along with parent or later when needed.&lt;/p&gt;
-
-&lt;h3 id=&quot;fetchmodejoin&quot;&gt;FetchMode.JOIN&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nd&quot;&gt;@Fetch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;FetchMode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;JOIN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;EntityType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entityName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;One a single query will be run.&lt;/p&gt;
-
-&lt;p&gt;If you are using this, all data will be fetch at once using join but the payload size will be huge.&lt;/p&gt;
-
-&lt;h3 id=&quot;fetchmodesubselect&quot;&gt;FetchMode.SUBSELECT&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nd&quot;&gt;@Fetch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;FetchMode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SUBSELECT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;EntityType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entityName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If used a minimum of 2 queries will be run.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;One for parent @Entity&lt;/li&gt;
-  &lt;li&gt;One for for each child @Entity type will be run. After the query is run all chilren of particular type will be fetched.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;FetchMode.SUBSELECT is also seems to better when used to FetchType.LAZY. Here, all parent entities will be fetched first. When child entities are needed, all child entities will be fetched at once instead of multiple queries.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><category term="database" /><summary type="html">N+1 Problem</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My First Program</title><link href="www.ankushchoubey.com/first-program/" rel="alternate" type="text/html" title="My First Program" /><published>2021-06-16T00:00:00-05:00</published><updated>2021-08-01T15:42:15-05:00</updated><id>www.ankushchoubey.com/first-program</id><content type="html" xml:base="www.ankushchoubey.com/first-program/">&lt;p&gt;My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.&lt;/p&gt;
-
-&lt;p&gt;Then after a year or so, in Mumbai Mirrors Newspaper’s Sci-Tech section there was a piece on a kids programming language called Scratch.edu.&lt;/p&gt;
-
-&lt;p&gt;I went out playing that morning and told my friend that I’ll be building my own GTA Vice City.&lt;/p&gt;
-
-&lt;p&gt;These are the few things I published on Scratch.&lt;/p&gt;
-
-&lt;h1 id=&quot;mad-shark&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/226045&quot;&gt;MAD Shark&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h2 id=&quot;jul-27-2008&quot;&gt;Jul 27, 2008&lt;/h2&gt;
-
-&lt;iframe src=&quot;https://scratch.mit.edu/projects/226045/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;exploring-the-heavens&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/281470/&quot;&gt;Exploring the Heavens&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h2 id=&quot;oct-03-2008&quot;&gt;Oct 03, 2008&lt;/h2&gt;
-
-&lt;p&gt;Frames taken from Britannica Encyclopedia.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://scratch.mit.edu/projects/281470/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;great-american-speeches&quot;&gt;&lt;a href=&quot;https://scratch.mit.edu/projects/281482/&quot;&gt;Great AMERICAN SPEECHES&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h2 id=&quot;oct-03-2008-1&quot;&gt;Oct 03, 2008&lt;/h2&gt;
-
-&lt;p&gt;Frames taken from Britannica Encyclopedia.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://scratch.mit.edu/projects/281482/embed&quot; allowtransparency=&quot;true&quot; width=&quot;485&quot; height=&quot;402&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h1 id=&quot;3d-project&quot;&gt;3D Project&lt;/h1&gt;
-
-&lt;p&gt;I did not post this but I remember it well.&lt;/p&gt;
-
-&lt;p&gt;I created a room layout. A rectangular box in middle and 3 lines from corner of image to corner of rectangle.&lt;/p&gt;
-
-&lt;p&gt;When I pressed up key, the image zoomed in. I hoped to make more changes such that it would looked like that old Wolf Dom Game.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;My first real taste of programming was first year of Diploma (11th Grade) in C language.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.</summary></entry></feed>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt; is a disk efficient package manager which stored all node_module packages in one place and used  sim links for installing within projects. If you have a same package in multiple project, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt; will make sure to download and store it only once.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Create and use scripts</summary></entry></feed>
