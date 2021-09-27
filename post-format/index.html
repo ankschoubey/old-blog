@@ -4,19 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Avoid inventing algorithms and data structures | Ankush</title>
+<title>Post Format | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Avoid inventing algorithms and data structures" />
+<meta property="og:title" content="Post Format" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="especially for maths" />
-<meta property="og:description" content="especially for maths" />
-<link rel="canonical" href="www.ankushchoubey.com/complexity/" />
-<meta property="og:url" content="www.ankushchoubey.com/complexity/" />
+<meta name="description" content="Random Thoughts" />
+<meta property="og:description" content="Random Thoughts" />
+<link rel="canonical" href="www.ankushchoubey.com/post-format/" />
+<meta property="og:url" content="www.ankushchoubey.com/post-format/" />
 <meta property="og:site_name" content="Ankush" />
+<meta property="og:image" content="www.ankushchoubey.com/images/n-plus-one.svg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-12-25T00:00:00-06:00" />
+<meta property="article:published_time" content="2050-09-26T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/complexity/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/complexity/"},"headline":"Avoid inventing algorithms and data structures","dateModified":"2021-08-01T15:42:15-05:00","datePublished":"2019-12-25T00:00:00-06:00","description":"especially for maths","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/post-format/","@type":"BlogPosting","image":"www.ankushchoubey.com/images/n-plus-one.svg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/post-format/"},"headline":"Post Format","dateModified":"2021-09-23T15:52:08-05:00","datePublished":"2050-09-26T00:00:00-05:00","description":"Random Thoughts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -113,15 +114,15 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Avoid inventing algorithms and data structures</h1><p class="page-description">especially for maths</p><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2019-12-25T00:00:00-06:00" itemprop="datePublished">
-        Written: Dec 25, 2019
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-08-01T15:42:15-05:00" itemprop="dateModified">
-          Updated: Aug 1, 2021
+    <h1 class="post-title p-name" itemprop="name headline">Post Format</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2050-09-26T00:00:00-05:00" itemprop="datePublished">
+        Written: Sep 26, 2050
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-09-23T15:52:08-05:00" itemprop="dateModified">
+          Updated: Sep 23, 2021
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -147,7 +148,9 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag draft" href="/categories/#draft">draft</a>
+    
+    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -185,113 +188,83 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#keep-your-implementation-as-simple-as-possible">Keep your implementation as simple as possible</a></li>
-<li class="toc-entry toc-h2"><a href="#knowing-the-basics-of-time-and-space-complexity-goes-a-long-way">Knowing the basics of time and space complexity goes a long way.</a></li>
-<li class="toc-entry toc-h2"><a href="#additional-tip-always-use-parent-interface-for-the-type">Additional Tip: Always use parent interface for the type</a></li>
-<li class="toc-entry toc-h2"><a href="#when-trying-to-find-duplicates">When trying to find duplicates</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#use-set-instead-of-lists">Use Set instead of Lists</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h2"><a href="#java-if-you-know-the-size-of-the-list">Java: If you know the size of the list</a></li>
-<li class="toc-entry toc-h2"><a href="#always-have-your-algorithmic-logic-in-a-separate-function">Always have your algorithmic logic in a separate function</a></li>
-<li class="toc-entry toc-h2"><a href="#rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation">Rather than implementing own logic, take 5 minutes to see if your modules already provide the implementation</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#example-sorting-in-javascripttypescript">Example: Sorting in Javascript/Typescript</a></li>
-</ul>
-</li>
-</ul><blockquote>
-  <p><strong>If</strong> you are <strong>inventing new algorithms</strong>, you either <strong>don’t know</strong> the right algorithm <strong>or</strong> are working on your <strong>PhD</strong> thesis.</p>
-</blockquote>
+    <p><img src="/images/switch-jobs.jpg" alt="" /></p>
 
-<blockquote>
-  <p><strong>Eliminating</strong> as much of this <strong>accidental complexity</strong> as possible.</p>
-</blockquote>
+<h2 id="writting-steps">Writting Steps</h2>
 
-<p>Source: <a href="https://www.codeproject.com/Articles/838973/Why-Your-Code-Is-So-Hard-to-Understand">Why Your Code Is So Hard to Understand</a></p>
+<table>
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Done</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Structure Done</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Thoughts Written</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Thoughts Edited</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Grammar Check Done</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Perfect Grammarly Score:</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Image Added</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Links to Other Posts if Any</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Tags Added</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Released Publically</td>
+      <td>N</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2 id="keep-your-implementation-as-simple-as-possible">
-<a class="anchor" href="#keep-your-implementation-as-simple-as-possible" aria-hidden="true"><span class="octicon octicon-link"></span></a>Keep your implementation as simple as possible</h2>
+<p><button class="accordion">Writing Steps</button></p>
+<div class="panel">
 
-<blockquote>
-  <p>If the implementation is hard to explain, it’s a bad idea.
-If the implementation is easy to explain, it may be a good idea.</p>
-</blockquote>
+| Task                        | Done |
+|-----------------------------|------|
+| Structure Done              | N    |
+| Thoughts Written            | N    |
+| Thoughts Edited             | N    |
+| Grammar Check Done          | N    |
+| Perfect Grammarly Score:    | N    |
+| Image Added                 | N    |
+| Links to Other Posts if Any | N    |
+| Tags Added                  | N    |
+| Released Publically         | N    |
 
-<p>~ The Zen of Python, by Tim Peters</p>
+</div>
 
-<h2 id="knowing-the-basics-of-time-and-space-complexity-goes-a-long-way">
-<a class="anchor" href="#knowing-the-basics-of-time-and-space-complexity-goes-a-long-way" aria-hidden="true"><span class="octicon octicon-link"></span></a>Knowing the basics of time and space complexity goes a long way.</h2>
-
-<p>Going through each is beyond the scope of this. Here is a link if you want to go in-depth: <a href="https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt">Cracking the Coding Interview YouTube</a></p>
-
-<p><strong>The concept of List, Sets, and Maps is universal though this particular post is going to look at it through the lens of Java</strong>. In the case of Python map is called a dictionary.</p>
-
-<h2 id="additional-tip-always-use-parent-interface-for-the-type">
-<a class="anchor" href="#additional-tip-always-use-parent-interface-for-the-type" aria-hidden="true"><span class="octicon octicon-link"></span></a>Additional Tip: Always use parent interface for the type</h2>
-
-<p>Be as general as you can be.</p>
-
-<p>This allows you to swap in any form of implementation of parent interface in a single line.</p>
-
-<p><img src="https://cdn-images-1.medium.com/max/2808/1*M2J_YiubLnrId8k23GiNyA.png" alt="[Collections in Java](https://www.javatpoint.com/collections-in-java)"></p>
-
-<h2 id="when-trying-to-find-duplicates">
-<a class="anchor" href="#when-trying-to-find-duplicates" aria-hidden="true"><span class="octicon octicon-link"></span></a>When trying to find duplicates</h2>
-
-<h3 id="use-set-instead-of-lists">
-<a class="anchor" href="#use-set-instead-of-lists" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use Set instead of Lists</h3>
-
-<p>Set always contain unique values.</p>
-
-<p>Finding an element in the set is much faster O(1) than compared to a list O(n)</p>
-
-<p><img src="https://cdn-images-1.medium.com/max/2880/1*HVkmS59kcy7lkvkWSoZNhg.png" alt=""></p>
-
-<h2 id="java-if-you-know-the-size-of-the-list">
-<a class="anchor" href="#java-if-you-know-the-size-of-the-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java: If you know the size of the list</h2>
-
-<blockquote>
-  <p>… if the required maximum capacity of the ArrayList is known, we can get the optimal performance (both average latency and throughput) by specifying the initial capacity to the required capacity.</p>
-</blockquote>
-
-<blockquote>
-  <p>In doing so, we can get 24% to 34% improvement in average latency and 30% to 50% improvement in throughput.</p>
-</blockquote>
-
-<p>Source: <a href="https://dzone.com/articles/performance-evaluation-of-java-arraylist">Performance Evaluation of Java ArrayLists</a></p>
-
-<h2 id="always-have-your-algorithmic-logic-in-a-separate-function">
-<a class="anchor" href="#always-have-your-algorithmic-logic-in-a-separate-function" aria-hidden="true"><span class="octicon octicon-link"></span></a>Always have your algorithmic logic in a separate function</h2>
-
-<p>This just makes it much easier to debug. Your function will be doing just one this.</p>
-
-<p>Making it general enough will be even helpful so that you can easily use it.</p>
-
-<p><strong>Example:</strong> <a href="/clean%20code/2019/12/20/clean-code-1-flat-is-better-than-nested-leave-when-not-okay.html"><em>Separate loop and operation section: Clean Code #1</em></a></p>
-
-<h2 id="rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation">
-<a class="anchor" href="#rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather than implementing own logic, take 5 minutes to see if your modules already provide the implementation</h2>
-
-<h3 id="example-sorting-in-javascripttypescript">
-<a class="anchor" href="#example-sorting-in-javascripttypescript" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example: Sorting in Javascript/Typescript</h3>
-
-<p><img src="https://cdn-images-1.medium.com/max/2668/1*UoB_nYYPlLWGY14bNEs2IQ.png" alt=""></p>
-
-<p><img src="https://cdn-images-1.medium.com/max/2704/1*BS7jYfKY4DhpY-cLuGULHw.png" alt=""></p>
-
-<p>A library in java which you can find is <a href="https://www.baeldung.com/java-commons-lang-3">Apache Common Lang 3</a> which does provide a lot of utilities.</p>
-
-<p>Python has much more abundance. Just google a solution for python and you will probably find a pip package.</p>
-
-<p><strong>Previous</strong>: <a href="https://medium.com/p/c477707e5be1">Remove unnecessary code</a></p>
-
-<p><strong>Next</strong>: <a href="https://medium.com/p/a7bca1e66d9e">Always know why you are catching an exception</a></p>
-
-<p><strong>Index</strong>: <a href="/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html">Tips on writing Clean Code</a></p>
-
-  </div><a class="u-url" href="/complexity/" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="ankschoubey/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/post-format/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

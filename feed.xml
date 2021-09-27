@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-27T01:12:47-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Values</title><link href="www.ankushchoubey.com/values/" rel="alternate" type="text/html" title="Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/values/">&lt;p&gt;Values simplify decision making.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-27T03:20:22-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;button class=&quot;accordion&quot;&gt;Writing Steps&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;panel&quot;&gt;
+
+| Task                        | Done |
+|-----------------------------|------|
+| Structure Done              | N    |
+| Thoughts Written            | N    |
+| Thoughts Edited             | N    |
+| Grammar Check Done          | N    |
+| Perfect Grammarly Score:    | N    |
+| Image Added                 | N    |
+| Links to Other Posts if Any | N    |
+| Tags Added                  | N    |
+| Released Publically         | N    |
+
+&lt;/div&gt;</content><author><name></name></author><category term="draft" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Values</title><link href="www.ankushchoubey.com/values/" rel="alternate" type="text/html" title="Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/values/">&lt;p&gt;Values simplify decision making.&lt;/p&gt;
 
 &lt;p&gt;It’s important to define your values first and then make decision of those. Doing the reverse does not work.&lt;/p&gt;
 
@@ -422,75 +488,4 @@ No answer is going to help you; every answer will create more questions.&lt;/p&g
 
 &lt;p&gt;One can also treat inversion can a healthy debate&lt;/p&gt;
 
-&lt;p&gt;Inversion forces you to think from the other side. And it helps increase the probability of actually achieving the task you set out to achieve.&lt;/p&gt;</content><author><name></name></author><category term="decision-making" /><summary type="html">Mental models are heuristics that help in conceptualizing common occurring themes and help in better decision making.</summary></entry><entry><title type="html">Tips for working with `package.json`</title><link href="www.ankushchoubey.com/package-json/" rel="alternate" type="text/html" title="Tips for working with `package.json`" /><published>2021-08-11T00:00:00-05:00</published><updated>2021-08-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/tips-for-working-with-npm</id><content type="html" xml:base="www.ankushchoubey.com/package-json/">&lt;h2 id=&quot;create-and-use-scripts&quot;&gt;Create and use scripts&lt;/h2&gt;
-
-&lt;p&gt;There are some common names of scripts you can create like postinstall start, etc.&lt;/p&gt;
-
-&lt;p&gt;For example: for Ivy enabled Angular versions, one can avoid repetitive recompilation by running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ngcc&lt;/code&gt;. We can add a script in package.json to run ngcc after every &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &quot;scripts&quot; : {
-        &quot;postinstall&quot; : &quot;ngcc&quot;
-    }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;It’s better to manage npm related activities using package.json than manage it using something like Jenkins.&lt;/p&gt;
-
-&lt;h2 id=&quot;npm-outdated&quot;&gt;npm outdated&lt;/h2&gt;
-
-&lt;p&gt;This shows you all the packages which are not the latest.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm outdated&lt;/code&gt; can be also used in your deployment pipeline. This can service as an important monitoring metric for maintainance of the application and ensuring longer life.&lt;/p&gt;
-
-&lt;h2 id=&quot;clear-cache-before-npm-install-on-every-environment&quot;&gt;Clear cache before &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install&lt;/code&gt; on every environment&lt;/h2&gt;
-
-&lt;p&gt;Cache can be cleared by using&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm cache clear&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Clearing cache before installation on your dev/QA/prod env will ensure it will run the same on any environment.&lt;/p&gt;
-
-&lt;h2 id=&quot;use-custom-registry&quot;&gt;Use custom registry&lt;/h2&gt;
-
-&lt;p&gt;Even when installing on local, make sure to use custom registry.&lt;/p&gt;
-
-&lt;p&gt;If you are going to use a registry like Nexus to manage packages, it makes sense to use the same registry for installation local. The closer you can replicate your prod on local, the fewer bugs you are going to face.&lt;/p&gt;
-
-&lt;p&gt;This can be done in 2 ways:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--registry&lt;/code&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install --registry &amp;lt;link-to-repository&amp;gt;&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Creating a project level &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Inside the file write:
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;registry=&amp;lt;link-to-repository&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;managing-node_modules&quot;&gt;Managing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;use-yarn-instead-of-npm&quot;&gt;use yarn instead of NPM&lt;/h3&gt;
-
-&lt;p&gt;yarn is a package manager just like npm but it provides a few features that make it better.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;multi-threaded download. This makes yarn much faster than npm which only supports single-threaded downloads.&lt;/li&gt;
-  &lt;li&gt;offline mode. Once a package is downloaded, it can be downloaded again. even if the node_modules folder is deleted. This is because yarn stores a backup of everything.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades&quot;&gt;If you are not using yarn, zip &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; before making dependency upgrades&lt;/h3&gt;
-
-&lt;p&gt;Often things don’t go smoothly when upgrading changes dependencies. Since, node_modules are ignore in git, the only way to revert or switch between branches with dependencies is a clean npm install.&lt;/p&gt;
-
-&lt;p&gt;Yarn supports offline line mode which means nothing is downloaded if dependencies had been updated once. If you are not using yarn, zip &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; before making dependency upgrades. You can unzip it easily if you need to revert.&lt;/p&gt;
-
-&lt;h3 id=&quot;skip-above-node_modules-tips-and-use-pnpm&quot;&gt;Skip above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; tips and use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Installations: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm i -g pnpm&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Usage: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm install&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt; is a disk efficient package manager which stored all node_module packages in one place and used  sim links for installing within projects. If you have a same package in multiple project, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pnpm&lt;/code&gt; will make sure to download and store it only once.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Create and use scripts</summary></entry></feed>
+&lt;p&gt;Inversion forces you to think from the other side. And it helps increase the probability of actually achieving the task you set out to achieve.&lt;/p&gt;</content><author><name></name></author><category term="decision-making" /><summary type="html">Mental models are heuristics that help in conceptualizing common occurring themes and help in better decision making.</summary></entry></feed>
