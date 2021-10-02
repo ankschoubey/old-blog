@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-09-27T03:20:22-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-10-02T05:38:07-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -64,7 +64,81 @@
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-&lt;/div&gt;</content><author><name></name></author><category term="draft" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Values</title><link href="www.ankushchoubey.com/values/" rel="alternate" type="text/html" title="Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/values/">&lt;p&gt;Values simplify decision making.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="draft" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep most of your configuration within application not Jenkins</title><link href="www.ankushchoubey.com/configuration-within-application/" rel="alternate" type="text/html" title="Keep most of your configuration within application not Jenkins" /><published>2021-09-27T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/application-not-jenkins</id><content type="html" xml:base="www.ankushchoubey.com/configuration-within-application/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;If you haave a separate DevOps teams, Jenkins will usually be configured by them.&lt;/p&gt;
+
+&lt;p&gt;Developer will have an easier life if they have as less dependency on external team as possible.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, Jenkinsfile includes every minor detail. For example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In a node project, Jenkinsfile could include things like running an application in production mode along with certain parameters.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This can be okay if the paramaters are configured via Jenkins UI. But if same configuration is going to be used, it is easier to maintain and adapt by keeping them inside application and using Jenkins to only trigger script within application.&lt;/p&gt;
+
+&lt;p&gt;In node applications, you can use following to configure default behaviors.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;scripts in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file for npm&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tsconfig.json&lt;/code&gt; for Typescript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In Maven projects, you can have operations such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ignoring File during build&lt;/li&gt;
+  &lt;li&gt;Coping certain files&lt;/li&gt;
+  &lt;li&gt;To disable test cases for certain builds etc.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="draft" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Values</title><link href="www.ankushchoubey.com/values/" rel="alternate" type="text/html" title="Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/values/">&lt;p&gt;Values simplify decision making.&lt;/p&gt;
 
 &lt;p&gt;It’s important to define your values first and then make decision of those. Doing the reverse does not work.&lt;/p&gt;
 
@@ -460,32 +534,4 @@ No answer is going to help you; every answer will create more questions.&lt;/p&g
 
 &lt;p&gt;When talking about mindfulness, Sam Harris recommends following approach apart from a formal sitting practice: “Punctuate your day with moments of awareness.”.&lt;/p&gt;
 
-&lt;p&gt;That one can experience Nirvana for moments at a time by just being aware of the present moment fully and realizing that on one level there aren’t many things that important for humans that our present experience.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Inversion</title><link href="www.ankushchoubey.com/inversion/" rel="alternate" type="text/html" title="Inversion" /><published>2021-08-14T00:00:00-05:00</published><updated>2021-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/inversion</id><content type="html" xml:base="www.ankushchoubey.com/inversion/">&lt;p&gt;Mental models are heuristics that help in conceptualizing common occurring themes and help in better decision making.&lt;/p&gt;
-
-&lt;p&gt;Clarity is power. If you know something well enough, the decisions you make around that information will have a higher chance of being accurate.&lt;/p&gt;
-
-&lt;p&gt;One way to gain more clarity, which I have written about extensively, is being truthful.&lt;/p&gt;
-
-&lt;p&gt;Being truthful assumes that what you know to be true may not be 100% truth but you’ll speak, act and convey in a way in which you know it is as true ads possible.&lt;/p&gt;
-
-&lt;p&gt;To gain more clarity, the other size of telling the truth is exploring the unknown, what you do not yet know or understand.&lt;/p&gt;
-
-&lt;p&gt;Thinking is effective ways to explore what you don’t yet know.&lt;/p&gt;
-
-&lt;p&gt;Inversion is a technique that helps understand the other side in a much more structured manner.&lt;/p&gt;
-
-&lt;p&gt;In inversion, you invert the argument or statement.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;If you want to plan to do X.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Straight Way of Thinking: How will I achieve X&lt;/li&gt;
-  &lt;li&gt;Inversion: How will I fail at achieving C&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once you know how you would fail, you can take steps to avoid failing. Inversion can be applied recursively. Aka you can try to find arguments against your arguments.&lt;/p&gt;
-
-&lt;p&gt;One can also treat inversion can a healthy debate&lt;/p&gt;
-
-&lt;p&gt;Inversion forces you to think from the other side. And it helps increase the probability of actually achieving the task you set out to achieve.&lt;/p&gt;</content><author><name></name></author><category term="decision-making" /><summary type="html">Mental models are heuristics that help in conceptualizing common occurring themes and help in better decision making.</summary></entry></feed>
+&lt;p&gt;That one can experience Nirvana for moments at a time by just being aware of the present moment fully and realizing that on one level there aren’t many things that important for humans that our present experience.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
