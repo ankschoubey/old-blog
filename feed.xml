@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-10-02T05:38:07-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-10-15T11:00:41-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -138,15 +138,68 @@
   &lt;li&gt;Ignoring File during build&lt;/li&gt;
   &lt;li&gt;Coping certain files&lt;/li&gt;
   &lt;li&gt;To disable test cases for certain builds etc.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="draft" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Values</title><link href="www.ankushchoubey.com/values/" rel="alternate" type="text/html" title="Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/values/">&lt;p&gt;Values simplify decision making.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="draft" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Values</title><link href="www.ankushchoubey.com/core-values/" rel="alternate" type="text/html" title="Core Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-26T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/core-values/">&lt;p&gt;This is something I have been developing for a few months &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p&gt;It’s important to define your values first and then make decision of those. Doing the reverse does not work.&lt;/p&gt;
+&lt;h2 id=&quot;values-simplify-decision-making&quot;&gt;Values simplify decision making&lt;/h2&gt;
 
-&lt;p&gt;Every individual is different, therefore it is important to build your own set of values to follow.&lt;/p&gt;
+&lt;p&gt;Values are things that you regard highly and that you don’t compromise on. They can act as rough guidelines for making decisions.&lt;/p&gt;
 
-&lt;p&gt;Keep things to a minimum and keep them abstract.&lt;/p&gt;
+&lt;p&gt;Every individual is different, therefore it is important to build your own set of values to follow. Don’t borrow someone’s values. Define your own.&lt;/p&gt;
 
-&lt;p&gt;Don’t borrow someone’s values. Define your own.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="draft" /><summary type="html">Values simplify decision making.</summary></entry><entry><title type="html">Learning Strategy</title><link href="www.ankushchoubey.com/learning-strategy/" rel="alternate" type="text/html" title="Learning Strategy" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-i-learn-x</id><content type="html" xml:base="www.ankushchoubey.com/learning-strategy/">&lt;p&gt;These are some strategies I use to learn any new thing including programming languages.&lt;/p&gt;
+&lt;p&gt;To have your values articulated, means you can use them much more easily into making decisions.&lt;/p&gt;
+
+&lt;p&gt;While this post talks about personal values, same can be applied to businesses.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-use-cases-for-values&quot;&gt;Some use cases for values&lt;/h2&gt;
+
+&lt;p&gt;You can compare your core values with someone to see how aligned you are. Usually of you are aligned things to smoothly. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;You can usually pick up other’s value if you listen to them cuz most people essentially speak the same things over and over again.&lt;/p&gt;
+
+&lt;p&gt;If you have a particularly bad event, you can verify your actions on your values. You may find that you might not have lived up to your values fully. Or it maybe time to tweak your value a bit.&lt;/p&gt;
+
+&lt;h2 id=&quot;tips-for-finding-and-picking-values&quot;&gt;Tips for Finding and Picking Values&lt;/h2&gt;
+
+&lt;p&gt;These are some of my tips for picking values:&lt;/p&gt;
+
+&lt;h3 id=&quot;pick-only-a-few-values-at-first&quot;&gt;Pick only a few values at first&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I would recommend 3-4 at first and then adding a few overtime as need arises.&lt;/li&gt;
+  &lt;li&gt;To pick the most personalized values, look at your past events. What motivated you make certain decisions?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Shorter the length of each value the easier you can remember. Lesser the number of values, more you can remember.&lt;/p&gt;
+
+&lt;h3 id=&quot;reframe-your-values-to-fit-perfectly&quot;&gt;Reframe your values to fit perfectly&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Test and modify for your values. Maybe adding a few words would solidify a value which was previously too vague.&lt;/li&gt;
+  &lt;li&gt;I have renamed my values multiple times where they essentially mean the same thing but with words that make more sense.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;keep-them-as-abstract-as-possible&quot;&gt;Keep them as abstract as possible&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The more abstract your values, the more decisions you can slot in to them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;compress-dont-add-a-new-value-unless-you-absolutely-need-it&quot;&gt;Compress. Don’t add a new value unless you absolutely need it&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Value discovery is like finding new elements. You don’t want to add a new element if a value already exists.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The inspiration for this post of Digital Minimalism by Cal Newport &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html">This is something I have been developing for a few months 1. The inspiration for this post of Digital Minimalism by Cal Newport &amp;#8617;</summary></entry><entry><title type="html">Learning Strategy</title><link href="www.ankushchoubey.com/learning-strategy/" rel="alternate" type="text/html" title="Learning Strategy" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-i-learn-x</id><content type="html" xml:base="www.ankushchoubey.com/learning-strategy/">&lt;p&gt;These are some strategies I use to learn any new thing including programming languages.&lt;/p&gt;
 
 &lt;p&gt;These are probably very influenced by Tim Ferriss’s 4 Hour Chef which I had read around 2016.&lt;/p&gt;
 
