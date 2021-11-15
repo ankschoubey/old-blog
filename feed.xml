@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-11-15T09:11:04-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-11-15T09:29:13-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -122,7 +122,70 @@
 &lt;p&gt;Let’s suppose your time is worth minimum wage.
 Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That’s 600Rs per day. 1,80,000 lakh rs per month. 21,60,000 rs per year. Over 10 years it’s 2 crore rs.&lt;/p&gt;
 
-&lt;p&gt;Plus this calculation 🧮 excludes compounding. Time spent early will compound.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Broad ways we waste time</title><link href="www.ankushchoubey.com/how-we-waste-time/" rel="alternate" type="text/html" title="Broad ways we waste time" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-we-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/how-we-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Plus this calculation 🧮 excludes compounding. Time spent early will compound.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Typescript</title><link href="www.ankushchoubey.com/typescript/" rel="alternate" type="text/html" title="Typescript" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/typescript</id><content type="html" xml:base="www.ankushchoubey.com/typescript/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Typescript is probably my favorite programming language.&lt;/p&gt;
+
+&lt;p&gt;There are many reasons for it.&lt;/p&gt;
+
+&lt;p&gt;Typeaheads&lt;/p&gt;
+
+&lt;p&gt;VS Code Support&lt;/p&gt;
+
+&lt;p&gt;Everything is configurable.&lt;/p&gt;
+
+&lt;p&gt;You can control how strict the language is.&lt;/p&gt;
+
+&lt;p&gt;“For love of god: Please use react with typescript”&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Broad ways we waste time</title><link href="www.ankushchoubey.com/how-we-waste-time/" rel="alternate" type="text/html" title="Broad ways we waste time" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-we-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/how-we-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -564,77 +627,4 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
   &lt;li&gt;Now you can use media queries for modifying elements on specific screen sizes.&lt;/li&gt;
   &lt;li&gt;Before using media queries decide on the size of displays you want to support. This will make sure media query parameters is same across application.&lt;/li&gt;
   &lt;li&gt;Resource: &lt;a href=&quot;https://www.youtube.com/watch?v=yU7jJ3NbPdA&quot;&gt;https://www.youtube.com/watch?v=yU7jJ3NbPdA&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Keep CSS and HTML to a minimum</summary></entry><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Every sufficiently advanced technology is indistinguishable from magic.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; But as more and more people understand and use the technology, the magic fades and it becomes an everyday affair.&lt;/p&gt;
-
-&lt;p&gt;There are 3 interconnected factors that influence this:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Abstraction and Field Maturity&lt;/li&gt;
-  &lt;li&gt;Demand and Cost&lt;/li&gt;
-  &lt;li&gt;Education&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;abstraction-and-field-maturity&quot;&gt;Abstraction and Field Maturity&lt;/h2&gt;
-
-&lt;p&gt;Abstraction makes it easy for programmers to learn new things. Open Source projects are best at these.&lt;/p&gt;
-
-&lt;p&gt;Every advanced technology eventually comes to a point where simple statements get the job done without need to understand details.&lt;/p&gt;
-
-&lt;p&gt;It takes long time for things to get polished. Open Source projects spend years perfecting things.&lt;/p&gt;
-
-&lt;p&gt;Web Technologies is probably in it’s most mature state. Like with Spring Boot:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You have integrations to include things like Batch Processing, Database Connectivity, Micro Services, Security, etc.&lt;/li&gt;
-  &lt;li&gt;Each of which at one point in time were totally a big subject to learn and implement. Now most are a few hours of configuration.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Like with Arduino:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Arduino has different environment, chips and hardware that make it easy for anyone to quickly prototype and test hardware products.&lt;/li&gt;
-  &lt;li&gt;There are modules available for camera, microphones, sensors, etc.&lt;/li&gt;
-  &lt;li&gt;All of which are abstracted and the only things connecting them are arduino and programming.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Deep Learning:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Deep Learning is also getting to a state of maturity where things that required special knowledge are replaced with easy abstractions.&lt;/li&gt;
-  &lt;li&gt;Frameworks like Tensorflow are providing out if the box solution for common activities like Recommender Systems.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Research eventually give rise to applied applications.&lt;/p&gt;
-
-&lt;h2 id=&quot;demand-and-cost&quot;&gt;Demand and Cost&lt;/h2&gt;
-
-&lt;p&gt;More a product is needed, the more innovative solutions are made to make it cheaper and available to as many people as possible. #capitalism&lt;/p&gt;
-
-&lt;p&gt;Once it is available to more people, more innovative uses come out of it.&lt;/p&gt;
-
-&lt;p&gt;Software is cheaper to replicated therefore pace of innovation is much faster.&lt;/p&gt;
-
-&lt;p&gt;Hardware costs are variable in different countries. China has had a lot of hardware innovations because the cost of hardware is much lower due to high supply.&lt;/p&gt;
-
-&lt;h2 id=&quot;role-of-education&quot;&gt;Role of Education&lt;/h2&gt;
-
-&lt;p&gt;YouTube and online video in general has been a revolutionary technology. A man is limited to opportunities he/she gets. Online video allows for opportunity for everyone to learn the same thing.&lt;/p&gt;
-
-&lt;p&gt;Books are boring for most folks.&lt;/p&gt;
-
-&lt;h2 id=&quot;space&quot;&gt;Space?&lt;/h2&gt;
-
-&lt;p&gt;I believe once SpaceX reaches Mars, we’ll go through a similar cycle for space technology too. Where some things become so abstracted and spread of education increases that more people can start ticketing with things.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@forestkatsch?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Forest Katsch&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/starship?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">1 Photo by Forest Katsch on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Keep CSS and HTML to a minimum</summary></entry></feed>
