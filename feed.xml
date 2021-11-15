@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-10-15T11:15:19-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-11-15T09:11:04-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -64,7 +64,180 @@
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-&lt;/div&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep most of your configuration within application not Jenkins</title><link href="www.ankushchoubey.com/configuration-within-application/" rel="alternate" type="text/html" title="Keep most of your configuration within application not Jenkins" /><published>2021-09-27T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/application-not-jenkins</id><content type="html" xml:base="www.ankushchoubey.com/configuration-within-application/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why should you not waste time?</title><link href="www.ankushchoubey.com/why-not-waste-time/" rel="alternate" type="text/html" title="Why should you not waste time?" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/why-not-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/why-not-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;We have a finite life. Though it is long enough to get important things done.&lt;/p&gt;
+
+&lt;p&gt;Your habits are reenforced. If you waste time regularly, you’ll continue to waste time.&lt;/p&gt;
+
+&lt;p&gt;Let’s suppose your time is worth minimum wage.
+Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That’s 600Rs per day. 1,80,000 lakh rs per month. 21,60,000 rs per year. Over 10 years it’s 2 crore rs.&lt;/p&gt;
+
+&lt;p&gt;Plus this calculation 🧮 excludes compounding. Time spent early will compound.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Broad ways we waste time</title><link href="www.ankushchoubey.com/how-we-waste-time/" rel="alternate" type="text/html" title="Broad ways we waste time" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-we-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/how-we-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Waiting for circumstances to be right before taking action.
+• The best time to take action was yesterday, the second best time is today.&lt;/p&gt;
+
+&lt;p&gt;Over-caring what other people think.&lt;/p&gt;
+
+&lt;p&gt;Being too emotional&lt;/p&gt;
+
+&lt;p&gt;Constantly changing direction completely for no apparent reason&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Everyone is flawed</title><link href="www.ankushchoubey.com/everyone-flawed/" rel="alternate" type="text/html" title="Everyone is flawed" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/everyone-is-flawed</id><content type="html" xml:base="www.ankushchoubey.com/everyone-flawed/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Everyone is stupid. Everyone is genius. Everyone is flawed.&lt;/p&gt;
+
+&lt;p&gt;There is no perfect being. If you think someone is perfect, you probably don’t know them enough or you’re probably still a child&lt;/p&gt;
+
+&lt;p&gt;Everyone is dealing the cards they have been given the best way then can.&lt;/p&gt;
+
+&lt;p&gt;Social media is fake&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep most of your configuration within application not Jenkins</title><link href="www.ankushchoubey.com/configuration-within-application/" rel="alternate" type="text/html" title="Keep most of your configuration within application not Jenkins" /><published>2021-09-27T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/application-not-jenkins</id><content type="html" xml:base="www.ankushchoubey.com/configuration-within-application/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -464,129 +637,4 @@
       &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">1 Photo by Forest Katsch on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making Internet Less Distracting</title><link href="www.ankushchoubey.com/internet-distractions/" rel="alternate" type="text/html" title="Making Internet Less Distracting" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-09-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/internet-distraction</id><content type="html" xml:base="www.ankushchoubey.com/internet-distractions/">&lt;p&gt;&lt;img src=&quot;/images/internet-distractions.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;The following should reduce influence of recommender systems significantly. Making internet less distracting and help improve privacy.&lt;/p&gt;
-
-&lt;h2 id=&quot;least-access-principle&quot;&gt;Least Access Principle&lt;/h2&gt;
-
-&lt;p&gt;This is a security principle.&lt;/p&gt;
-
-&lt;p&gt;By default, the number of accesses granted to a user/role/application should be least needed to run that application.&lt;/p&gt;
-
-&lt;p&gt;The more access someone/something has, the more will be probability of a security risk.&lt;/p&gt;
-
-&lt;h2 id=&quot;reduce-data-points&quot;&gt;Reduce Data Points&lt;/h2&gt;
-
-&lt;p&gt;A recommender system can only work with data we provide. If data is reduced, it will have hard time figuring out what to recommend therefore making things less distracting.&lt;/p&gt;
-
-&lt;h2 id=&quot;specifics&quot;&gt;Specifics&lt;/h2&gt;
-
-&lt;h3 id=&quot;phone&quot;&gt;Phone&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Do not allow notifications&lt;/li&gt;
-  &lt;li&gt;Do not give any permission for the application if it is not necessary.&lt;/li&gt;
-  &lt;li&gt;For iOS 14.5+: Turn off app tracking for all apps&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;for-services&quot;&gt;For Services&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Turn off personalized ads&lt;/li&gt;
-  &lt;li&gt;Do not store unnecessary data. Even after deleting, most services will take 6 months to delete it from all their servers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For Example: In YouTube you can,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Delete all playlists&lt;/li&gt;
-  &lt;li&gt;Unsubscribe from all channels&lt;/li&gt;
-  &lt;li&gt;Change locations to some other country (I Choose Japan)&lt;/li&gt;
-  &lt;li&gt;Turn off Personalized Ads&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I found that Google services are good at providing these kind of features and changing these settings have an immediate effect. Facebook Products and Amazon hide a lot of details.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@flyd2069?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;FLY:D&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/data-security?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="recommender-systems" /><summary type="html">1 Photo by FLY:D on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/internet-distractions.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/internet-distractions.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Complex Technologies are extension of Simple Ones</title><link href="www.ankushchoubey.com/complex/" rel="alternate" type="text/html" title="Complex Technologies are extension of Simple Ones" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/complex-ideas</id><content type="html" xml:base="www.ankushchoubey.com/complex/">&lt;p&gt;I have been learning System Design lately. And one of the thing I notice time and time again is how useful Algorithms, Data Structures and Design Patterns are.&lt;/p&gt;
-
-&lt;p&gt;For example:
-A message queue like Kafka is not only simple conceptually but scales to handle much large data.&lt;/p&gt;
-
-&lt;p&gt;This is not to say that once can go an build some things advanced by themselves.&lt;/p&gt;
-
-&lt;p&gt;There goes a lot into making a software. Every tiny improvement. Edge case and it’s bugfixes are a contribution of years of research.&lt;/p&gt;
-
-&lt;p&gt;But to know that something is an extension of simple concepts like Queue and Pub/Sub is humblings. That the tools that are built are just a combination of ideas that were arranged and executed well.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="baton" /><summary type="html">I have been learning System Design lately. And one of the thing I notice time and time again is how useful Algorithms, Data Structures and Design Patterns are.</summary></entry><entry><title type="html">All Questions are False</title><link href="www.ankushchoubey.com/questions-false/" rel="alternate" type="text/html" title="All Questions are False" /><published>2021-08-16T00:00:00-05:00</published><updated>2021-08-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/questions-are-false</id><content type="html" xml:base="www.ankushchoubey.com/questions-false/">&lt;p&gt;&lt;img src=&quot;/images/questions-false.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@shotbycerqueira?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Shot by Cerqueira&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/meditation?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Habits, routines and our way of thinking protects us from a certain group of problems. The more broad they are, the more number of problems they can take care. Therefore, it become important to explore un-explored ideas.&lt;/p&gt;
-
-&lt;p&gt;This has been a reason why I have been trying to get gist of Indian philosophers to the degree that does not include metaphysical claims.&lt;/p&gt;
-
-&lt;p&gt;One of the patterns that has been repeated over and over is that every problem is mind made.&lt;/p&gt;
-
-&lt;h2 id=&quot;all-questions-are-false&quot;&gt;All Questions are False&lt;/h2&gt;
-
-&lt;iframe width=&quot;300&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nj8E9Sgs8F4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;All questions are false, unreal, nonessential, because &lt;strong&gt;life is not a problem to be solved; it is a mystery to be lived&lt;/strong&gt;. 
-Only the fools go on questioning and go on thinking that some answers will help them. 
-No answer is going to help you; every answer will create more questions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ Osho&lt;/p&gt;
-
-&lt;h2 id=&quot;2-features-of-being-a-human-that-lead-to-questions&quot;&gt;2 Features of Being a Human that Lead to Questions&lt;/h2&gt;
-
-&lt;p&gt;Sadhguru would say something like:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;All problems and suffering come from 2 features of being a human being: Extremely vivid memory and fantastic imagination.&lt;/li&gt;
-  &lt;li&gt;You are suffering your capabilities.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;style&gt;
-    .instagram-media {
-        width: 300px !important;
-    }
-&lt;/style&gt;
-
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/CSj1FHdFDuz/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;13&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/CSj1FHdFDuz/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/CSj1FHdFDuz/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by 𝚂𝚊𝚗𝚍𝚒𝚙 𝚁𝚊𝚔𝚜𝚑𝚒𝚝 (@global_human_beings)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;question-of-meaning-of-life&quot;&gt;Question of Meaning of Life&lt;/h2&gt;
-
-&lt;p&gt;When asked about meaning of life, Sam Harris would say something like:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;One is only concerned with questions like the meaning of life if what they are doing in the present moment is not good enough to demand their full attention.&lt;/li&gt;
-  &lt;li&gt;By becoming aware of the present moment we enjoy what life really is in the present.&lt;/li&gt;
-  &lt;li&gt;And we have this power at any time of the day.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;you-dont-have-to-have-an-opinion&quot;&gt;You don’t have to have an opinion&lt;/h2&gt;
-
-&lt;p&gt;You don’t have to have a personal opinion about everything.&lt;/p&gt;
-
-&lt;h2 id=&quot;not-exhaustive&quot;&gt;Not exhaustive&lt;/h2&gt;
-
-&lt;p&gt;Apart from Osho, Sadhguru and Sam would have a similar belief:&lt;/p&gt;
-
-&lt;p&gt;One of level, these concepts that the mind is the one that creates problems make sense. But I believe they shouldn’t be treated as exhaustive.&lt;/p&gt;
-
-&lt;p&gt;I have always wondered why buddhism advocates for both control of your mind and control of your actions.&lt;/p&gt;
-
-&lt;p&gt;This is probably because, just being control of your mind and letting the world fall apart is not only hard to achieve but it is stupid in some sense. We benefit a lot from facing and solving problems not only for ourselves but for the people around us.&lt;/p&gt;
-
-&lt;h2 id=&quot;punctuate-your-day-with-moments&quot;&gt;Punctuate your day with moments&lt;/h2&gt;
-
-&lt;p&gt;When talking about mindfulness, Sam Harris recommends following approach apart from a formal sitting practice: “Punctuate your day with moments of awareness.”.&lt;/p&gt;
-
-&lt;p&gt;That one can experience Nirvana for moments at a time by just being aware of the present moment fully and realizing that on one level there aren’t many things that important for humans that our present experience.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/questions-false.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/questions-false.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">1 Photo by Forest Katsch on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
