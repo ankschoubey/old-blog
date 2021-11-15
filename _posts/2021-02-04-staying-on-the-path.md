@@ -3,12 +3,11 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [personal, baton]
+categories: [philosophical, for-future-me]
 title: The Path / Ethics
 permalink: /path/
 last_modified_at: 2021-08-01T20:42:15.552524
 image: /images/path.jpg
-hide: true
 ---
 ![](/images/path.jpg)
 <sub style="user-select: auto;">Photo by <a href="https://unsplash.com/@jakeblucker?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Jake Blucker</a> on <a href="https://unsplash.com/s/photos/road?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="user-select: auto;">Unsplash</a></sub>

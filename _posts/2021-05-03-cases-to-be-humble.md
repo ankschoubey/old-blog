@@ -3,12 +3,11 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, personal]
+categories: [philosophical]
 title: Cases To Be Humble
 permalink: /humble/
 last_modified_at: 2021-08-01T20:42:15.643388
 image: /images/humble.jpg
-hide: true
 ---
 ![](/images/humble.jpg)
 

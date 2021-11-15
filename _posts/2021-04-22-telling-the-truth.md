@@ -3,12 +3,11 @@ toc: false
 layout: post
 comments: true
 description: Tell the truth. See the truth. Listen to the truth. Test the truth.
-categories: [philosophical, for-future-me, personal]
+categories: [philosophical, for-future-me, personal, draft]
 title: Tell the Truth. Speak your mind.
 permalink: /truth/
 last_modified_at: 2021-08-01T20:42:15.616720
 image: /images/truth.jpg
-hide: true
 ---
 ![](/images/truth.jpg)
 
