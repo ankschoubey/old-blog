@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-11-15T09:29:13-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-11-25T11:58:39-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -64,7 +64,87 @@
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-&lt;/div&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why should you not waste time?</title><link href="www.ankushchoubey.com/why-not-waste-time/" rel="alternate" type="text/html" title="Why should you not waste time?" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/why-not-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/why-not-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/my-core-values/" rel="alternate" type="text/html" title="Post Format" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-values/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In a previous blogpost, I tried to explain why defining your core values are essential. These are some of my core values.&lt;/p&gt;
+
+&lt;p&gt;I want things to be as “sorted” as possible without being super involved. Hopefully in this post, you’ll find some ways to have things sorted.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Responsibility&lt;/li&gt;
+  &lt;li&gt;Nirwana/Peace&lt;/li&gt;
+  &lt;li&gt;Telling the Truth and being hyper realistic.&lt;/li&gt;
+  &lt;li&gt;Systems Thinking&lt;/li&gt;
+  &lt;li&gt;Inputs Matter&lt;/li&gt;
+  &lt;li&gt;Time Matter&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;responsibility&quot;&gt;Responsibility&lt;/h1&gt;
+
+&lt;p&gt;Responsibility provides meaning. By taking on responsibilities volentarily and facing your fears, you’ll avoid being nihilistic.&lt;/p&gt;
+
+&lt;p&gt;So, pick the heaviest weight you can take on and push it towards the best aim you can find. Then atleast when you are about the despare you can think “Dumb as I am, I can atleast push a thing from point A to point B”. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Taking on responsibility volentarity/facing the heaviest fear you can face is how you’ll have your life sorted.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Jordan B Peterson &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="for-future-me" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why should you not waste time?</title><link href="www.ankushchoubey.com/why-not-waste-time/" rel="alternate" type="text/html" title="Why should you not waste time?" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/why-not-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/why-not-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -388,6 +468,8 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
 
 &lt;p&gt;While this post talks about personal values, same can be applied to businesses.&lt;/p&gt;
 
+&lt;p&gt;“Core values are choices you make”&lt;/p&gt;
+
 &lt;h2 id=&quot;some-use-cases-for-values&quot;&gt;Some use cases for values&lt;/h2&gt;
 
 &lt;p&gt;You can compare your core values with someone to see how aligned you are. Usually of you are aligned things to smoothly. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -577,54 +659,4 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
 
 &lt;blockquote&gt;
   &lt;p&gt;if you are using a UI Element twice, wrap it in a custom component.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Need of Custom UI Library</summary></entry><entry><title type="html">CSS Tips</title><link href="www.ankushchoubey.com/css-tips/" rel="alternate" type="text/html" title="CSS Tips" /><published>2021-09-13T00:00:00-05:00</published><updated>2021-09-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/css-tips</id><content type="html" xml:base="www.ankushchoubey.com/css-tips/">&lt;h2 id=&quot;keep-css-and-html-to-a-minimum&quot;&gt;Keep CSS and HTML to a minimum&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CSS and HTML are every dependent. Remove unnecessary tags and CSS classes.&lt;/li&gt;
-  &lt;li&gt;Lesser the CSS and HTML, easier it is to modify.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-flex-and-grid-for-adjusting-positions&quot;&gt;Use flex and grid for adjusting positions&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;These are much more dynamic than using position absolute.&lt;/li&gt;
-  &lt;li&gt;Resource:
-    &lt;ul&gt;
-      &lt;li&gt;Flex: &lt;a href=&quot;https://www.youtube.com/watch?v=K74l26pE4YA&quot;&gt;https://www.youtube.com/watch?v=K74l26pE4YA&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Grid: &lt;a href=&quot;https://www.youtube.com/watch?v=uuOXPWCh-6o&quot;&gt;https://www.youtube.com/watch?v=uuOXPWCh-6o&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dont-use-absolute-lengths-use-relative-lengths&quot;&gt;Don’t use absolute lengths, use relative lengths&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;absolute lengths include cm, px, etc. relative lengths include em, cm, rem etc.&lt;/li&gt;
-  &lt;li&gt;if a width or height need to be a certain character length use “ch”. This cannot be used for font-size&lt;/li&gt;
-  &lt;li&gt;“vh” and “vw” can also be used but they are not perfect. instead use em or rem. rem is more preferred.&lt;/li&gt;
-  &lt;li&gt;Resource: &lt;a href=&quot;https://www.w3schools.com/CSSref/css_units.asp&quot;&gt;https://www.w3schools.com/CSSref/css_units.asp&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-css-variables&quot;&gt;Use CSS variables&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CSS variables allow for easily changing CSS on the fly.&lt;/li&gt;
-  &lt;li&gt;Resource: &lt;a href=&quot;https://www.youtube.com/watch?v=NtRmIp4eMjs&quot;&gt;https://www.youtube.com/watch?v=NtRmIp4eMjs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;for-devexpress-modify-dx-widget-property&quot;&gt;For DevExpress, modify dx-widget property&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;.dx-widget class is applied to all DevExpress component so modifying it for changing something like font-size will effect every dx component.&lt;/li&gt;
-  &lt;li&gt;For responsiveness, rely on CSS not JS.&lt;/li&gt;
-  &lt;li&gt;Unless absolutely needed, JS should not be used to re-enforce responsiveness.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;media-queries&quot;&gt;Media Queries&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Assuming you are used most of the tips above, your CSS should be fairly small.&lt;/li&gt;
-  &lt;li&gt;Now you can use media queries for modifying elements on specific screen sizes.&lt;/li&gt;
-  &lt;li&gt;Before using media queries decide on the size of displays you want to support. This will make sure media query parameters is same across application.&lt;/li&gt;
-  &lt;li&gt;Resource: &lt;a href=&quot;https://www.youtube.com/watch?v=yU7jJ3NbPdA&quot;&gt;https://www.youtube.com/watch?v=yU7jJ3NbPdA&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Keep CSS and HTML to a minimum</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Need of Custom UI Library</summary></entry></feed>
