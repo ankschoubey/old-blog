@@ -60,7 +60,32 @@ Lying/Not telling the truth is the quickist way to hell. You base your decisions
 
 If your estimate of the world is wrong, you'll make wrong decisions.
 
-The only way to 
+The only way to tell the truth and to be hyper realistic is to let go of the outcome and to assume that whatever happens in truth is the best thing that can happen.
+
+## Systems Thinking
+
+Aisms are good for setting up initial direction. But systems/processes is how you work towards them and beyond them.
+
+Systems allows you to free up your mental RAM. Systems breaks problems down and assures that as long at the systems are working right, the direction is right.
+
+Systems can include by are not limited to: trained habits, routines, frameworks, automations, etc.
+
+## Inputs Matter
+
+You are what you feed yourself. Inputs matter because not only do they encourage certain behaviors, but they impact your everyday experience.
+
+Over the long term you want "inputs" in your life to push yourself in a certain direction.
+
+Some things that can be considered in this are:
+- Information you consume.
+- People you interact with.
+- Where and how you live. (#cleanYourRoom)
+
+## Time Matters
+
+Life is short. Speed of implementation matters a lot. Being impatient can be a good thing.
+
+Be impatient with yourself and a bit patient with others.
 
 [^1]: Jordan B Peterson
 [^2]: Naval Ravikant
