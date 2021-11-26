@@ -6,6 +6,7 @@ categories: [personal, philosophical, for-future-me, decision-making]
 last_modified_at: 2021-09-23T20:52:08.052481
 permalink: /my-core-values/
 title: Post Format
+hide: true
 image: /images/n-plus-one.svg
 ---
 ![](/images/switch-jobs.jpg)
