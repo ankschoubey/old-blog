@@ -10,20 +10,6 @@ image: /images/my-core-values.svg
 ---
 ![](/images/my-core-values.jpg)
 
-## Writing Steps
-
-| Task                        | Done |
-|-----------------------------|------|
-| Structure Done              | Y   |
-| Thoughts Written            | Y    |
-| Thoughts Edited             | Y    |
-| Grammar Check Done          | N    |
-| Perfect Grammarly Score:    | N    |
-| Image Added                 | N    |
-| Links to Other Posts if Any | N    |
-| Tags Added                  | N    |
-| Released Publically         | N    |
-
 In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.
 
 I want things to be as "sorted" as possible without being super involved. In this post, you'll find some ways to have things sorted.
