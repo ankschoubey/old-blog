@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-11-26T10:48:14-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-11-28T11:17:52-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -64,9 +64,9 @@
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-&lt;/div&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/my-core-values/" rel="alternate" type="text/html" title="Post Format" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-values/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Values</title><link href="www.ankushchoubey.com/my-core-values/" rel="alternate" type="text/html" title="My Core Values" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-values/">&lt;p&gt;&lt;img src=&quot;/images/my-core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -78,15 +78,15 @@
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Grammar Check Done&lt;/td&gt;
@@ -115,14 +115,14 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;In a previous blogpost, I tried to explain why defining your core values are essential. These are some of my core values.&lt;/p&gt;
+&lt;p&gt;In a &lt;a href=&quot;/core-values&quot;&gt;previous blog post&lt;/a&gt;, I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.&lt;/p&gt;
 
-&lt;p&gt;I want things to be as “sorted” as possible without being super involved. Hopefully in this post, you’ll find some ways to have things sorted.&lt;/p&gt;
+&lt;p&gt;I want things to be as “sorted” as possible without being super involved. In this post, you’ll find some ways to have things sorted.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Responsibility&lt;/li&gt;
   &lt;li&gt;Nirwana/Peace&lt;/li&gt;
-  &lt;li&gt;Telling the Truth and being hyper realistic.&lt;/li&gt;
+  &lt;li&gt;Telling the Truth and being hyper-realistic.&lt;/li&gt;
   &lt;li&gt;Systems Thinking&lt;/li&gt;
   &lt;li&gt;Inputs Matter&lt;/li&gt;
   &lt;li&gt;Time Matter&lt;/li&gt;
@@ -132,46 +132,48 @@
 
 &lt;h2 id=&quot;responsibility&quot;&gt;Responsibility&lt;/h2&gt;
 
-&lt;p&gt;Responsibility provides meaning. By taking on responsibilities volentarily and facing your fears, you’ll avoid being nihilistic.&lt;/p&gt;
+&lt;p&gt;Responsibility provides meaning. By taking on responsibilities voluntarily and facing your fears, you’ll avoid being nihilistic.&lt;/p&gt;
 
-&lt;p&gt;So, pick the heaviest weight you can take on and push it towards the best aim you can find. Then atleast when you are about the despare you can think “Dumb as I am, I can atleast push a thing from point A to point B”. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;So, pick the heaviest weight you can take and push it towards the best aim you can find. Then at least you can know, “Dumb as I am, I can at least push a thing from point A to point B” &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;Taking on responsibility volentarity/facing the heaviest fear you can face is how you’ll have your life sorted.&lt;/p&gt;
+&lt;p&gt;Taking on responsibility voluntarily/facing the heaviest fear you can face is how you’ll have your life sorted.&lt;/p&gt;
 
 &lt;h2 id=&quot;nirwanapeace&quot;&gt;Nirwana/Peace&lt;/h2&gt;
 
-&lt;p&gt;Happiness/Peace is a skill that you develop and a choice that you make &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. You can choose to live certain way that will lead to peace.&lt;/p&gt;
+&lt;p&gt;Happiness/Peace is a skill that you develop and a choice that you make &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. You can choose to live a certain way that will lead to peace.&lt;/p&gt;
 
-&lt;p&gt;You need to be peaceful if you want things to be good long term. Useful skills to develop here are detachment aka not wanting and being less judgemental. Aiming for peace, requires a lot of rethinking and flipping almost everything.&lt;/p&gt;
+&lt;p&gt;You need to be peaceful if you want things to be good long term. Develop detachment (not wanting) and be less judgemental. Aiming for peace requires a lot of rethinking and flipping almost everything.&lt;/p&gt;
 
-&lt;p&gt;If you don’t believe that you can achieve ultimate peace “Nirwana”, you’ll have a heard time finding it.&lt;/p&gt;
+&lt;p&gt;If you don’t believe that you can achieve ultimate peace (Nirwana), you’ll have a hard time finding it.&lt;/p&gt;
 
-&lt;h2 id=&quot;telling-the-truth-and-being-hyper-realistic&quot;&gt;Telling the truth and being hyper realistic&lt;/h2&gt;
+&lt;h2 id=&quot;telling-the-truth-and-being-hyper-realistic&quot;&gt;Telling the truth and being hyper-realistic&lt;/h2&gt;
 
-&lt;p&gt;Lying/Not telling the truth is the quickist way to hell. You base your decisions on what you persive reality to be.&lt;/p&gt;
+&lt;p&gt;Lying/Not telling the truth is the quickest way to hell. You base your decisions on what you perceive reality to be.&lt;/p&gt;
 
-&lt;p&gt;If your estimate of the world is wrong, you’ll make wrong decisions.&lt;/p&gt;
+&lt;p&gt;If your estimate of the world is wrong, you’ll make bad decisions.&lt;/p&gt;
 
-&lt;p&gt;The only way to tell the truth and to be hyper realistic is to let go of the outcome and to assume that whatever happens in truth is the best thing that can happen.&lt;/p&gt;
+&lt;p&gt;The only way is to let go of the outcome and to assume that whatever happens in truth is the best thing that can happen.&lt;/p&gt;
+
+&lt;p&gt;While dealing with people, you have to ask people multiple times to make sure they tell you everything because often humans tell white lies to not hurt your feelings.&lt;/p&gt;
 
 &lt;h2 id=&quot;systems-thinking&quot;&gt;Systems Thinking&lt;/h2&gt;
 
-&lt;p&gt;Aisms are good for setting up initial direction. But systems/processes is how you work towards them and beyond them.&lt;/p&gt;
+&lt;p&gt;Aims are good for setting up initial direction. But systems/processes are how you work towards them and beyond them.&lt;/p&gt;
 
-&lt;p&gt;Systems allows you to free up your mental RAM. Systems breaks problems down and assures that as long at the systems are working right, the direction is right.&lt;/p&gt;
+&lt;p&gt;Systems allow you to free up your mental RAM. Systems break problems down. They assure that as long as the systems are working right, the direction is right.&lt;/p&gt;
 
-&lt;p&gt;Systems can include by are not limited to: trained habits, routines, frameworks, automations, etc.&lt;/p&gt;
+&lt;p&gt;Systems can include by are not limited to: trained habits, routines, frameworks, automation, etc.&lt;/p&gt;
 
 &lt;h2 id=&quot;inputs-matter&quot;&gt;Inputs Matter&lt;/h2&gt;
 
 &lt;p&gt;You are what you feed yourself. Inputs matter because not only do they encourage certain behaviors, but they impact your everyday experience.&lt;/p&gt;
 
-&lt;p&gt;Over the long term you want “inputs” in your life to push yourself in a certain direction.&lt;/p&gt;
+&lt;p&gt;Over the long term, you want “inputs” in your life to push yourself in the desired direction.&lt;/p&gt;
 
-&lt;p&gt;Some things that can be considered in this are:&lt;/p&gt;
+&lt;p&gt;Some things to consider:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Information you consume.&lt;/li&gt;
-  &lt;li&gt;People you interact with.&lt;/li&gt;
+  &lt;li&gt;People you interact with regularly.&lt;/li&gt;
   &lt;li&gt;Where and how you live. (#cleanYourRoom)&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -190,7 +192,7 @@
       &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why should you not waste time?</title><link href="www.ankushchoubey.com/why-not-waste-time/" rel="alternate" type="text/html" title="Why should you not waste time?" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/why-not-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/why-not-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/my-core-values.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/my-core-values.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why should you not waste time?</title><link href="www.ankushchoubey.com/why-not-waste-time/" rel="alternate" type="text/html" title="Why should you not waste time?" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/why-not-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/why-not-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
