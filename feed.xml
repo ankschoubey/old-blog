@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-01T08:30:19-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-01T08:33:01-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -379,58 +379,7 @@ Assume that to be 100Rs per hour. Letâ€™s suppose you waste 6 hours a day. Thatâ
 
 &lt;p&gt;Everyone is dealing the cards they have been given the best way then can.&lt;/p&gt;
 
-&lt;p&gt;Social media is fake&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep most of your configuration within application not Jenkins</title><link href="www.ankushchoubey.com/configuration-within-application/" rel="alternate" type="text/html" title="Keep most of your configuration within application not Jenkins" /><published>2021-09-27T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/application-not-jenkins</id><content type="html" xml:base="www.ankushchoubey.com/configuration-within-application/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;If you haave a separate DevOps teams, Jenkins will usually be configured by them.&lt;/p&gt;
+&lt;p&gt;Social media is fake&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep most of your configuration within application not Jenkins</title><link href="www.ankushchoubey.com/configuration-within-application/" rel="alternate" type="text/html" title="Keep most of your configuration within application not Jenkins" /><published>2021-09-27T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/application-not-jenkins</id><content type="html" xml:base="www.ankushchoubey.com/configuration-within-application/">&lt;p&gt;If you haave a separate DevOps teams, Jenkins will usually be configured by them.&lt;/p&gt;
 
 &lt;p&gt;Developer will have an easier life if they have as less dependency on external team as possible.&lt;/p&gt;
 
@@ -453,7 +402,7 @@ Assume that to be 100Rs per hour. Letâ€™s suppose you waste 6 hours a day. Thatâ
   &lt;li&gt;Ignoring File during build&lt;/li&gt;
   &lt;li&gt;Coping certain files&lt;/li&gt;
   &lt;li&gt;To disable test cases for certain builds etc.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="draft" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Values</title><link href="www.ankushchoubey.com/core-values/" rel="alternate" type="text/html" title="Core Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-26T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/core-values/">&lt;p&gt;&lt;img src=&quot;/images/core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="devops" /><summary type="html">If you haave a separate DevOps teams, Jenkins will usually be configured by them.</summary></entry><entry><title type="html">Core Values</title><link href="www.ankushchoubey.com/core-values/" rel="alternate" type="text/html" title="Core Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-26T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/core-values/">&lt;p&gt;&lt;img src=&quot;/images/core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is something I have been developing for a few months &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
@@ -518,7 +467,7 @@ Assume that to be 100Rs per hour. Letâ€™s suppose you waste 6 hours a day. Thatâ
       &lt;p&gt;Naval RavikantÂ &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/core-values.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/core-values.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Learning Strategy</title><link href="www.ankushchoubey.com/learning-strategy/" rel="alternate" type="text/html" title="Learning Strategy" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-i-learn-x</id><content type="html" xml:base="www.ankushchoubey.com/learning-strategy/">&lt;p&gt;These are some strategies I use to learn any new thing including programming languages.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/core-values.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/core-values.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Learning Strategies</title><link href="www.ankushchoubey.com/learning-strategy/" rel="alternate" type="text/html" title="Learning Strategies" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-i-learn-x</id><content type="html" xml:base="www.ankushchoubey.com/learning-strategy/">&lt;p&gt;These are some strategies I use to learn any new thing including programming languages.&lt;/p&gt;
 
 &lt;p&gt;These are probably very influenced by Tim Ferrissâ€™s 4 Hour Chef which I had read around 2016.&lt;/p&gt;
 
@@ -610,7 +559,7 @@ Assume that to be 100Rs per hour. Letâ€™s suppose you waste 6 hours a day. Thatâ
       &lt;p&gt;4 Hour ChefÂ &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="draft" /><summary type="html">These are some strategies I use to learn any new thing including programming languages.</summary></entry><entry><title type="html">Always make a custom component library for every new application</title><link href="www.ankushchoubey.com/custom-ui-library/" rel="alternate" type="text/html" title="Always make a custom component library for every new application" /><published>2021-09-23T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/custom-ui-library</id><content type="html" xml:base="www.ankushchoubey.com/custom-ui-library/">&lt;h2 id=&quot;need-of-custom-ui-library&quot;&gt;Need of Custom UI Library&lt;/h2&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">These are some strategies I use to learn any new thing including programming languages.</summary></entry><entry><title type="html">Always make a custom component library for every new application</title><link href="www.ankushchoubey.com/custom-ui-library/" rel="alternate" type="text/html" title="Always make a custom component library for every new application" /><published>2021-09-23T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/custom-ui-library</id><content type="html" xml:base="www.ankushchoubey.com/custom-ui-library/">&lt;h2 id=&quot;need-of-custom-ui-library&quot;&gt;Need of Custom UI Library&lt;/h2&gt;
 
 &lt;p&gt;To be most productive with any front end technology, I am convinced that a custom component library should be created.&lt;/p&gt;
 
