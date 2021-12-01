@@ -6,7 +6,7 @@ categories: [philosophical, for-future-me, decision-making]
 last_modified_at: 2021-11-25T20:52:08.052481
 permalink: /my-core-vaues/
 title: My Core Values
-image: /images/my-core-values.png
+image: /images/my-core-values.jpg
 ---
 ![](/images/my-core-values.jpg)
 
