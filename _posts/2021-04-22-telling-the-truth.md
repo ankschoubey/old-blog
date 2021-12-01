@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Tell the truth. See the truth. Listen to the truth. Test the truth.
-categories: [philosophical, for-future-me, personal, draft]
+categories: [philosophical, for-future-me]
 title: Tell the Truth. Speak your mind.
 permalink: /truth/
 last_modified_at: 2021-08-01T20:42:15.616720
@@ -80,8 +80,6 @@ Be polite. Don't try to humilate.
 
 By framing make sure your express the intend of solving the problem else your speaking truth will backfire.
 
-
-// TODO
 # Tell the truth. See the truth. Listen to the truth. Test the truth.
 
 Speak out the truth. See the truth. ....

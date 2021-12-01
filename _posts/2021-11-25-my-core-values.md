@@ -3,10 +3,10 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2021-09-23T20:52:08.052481
-permalink: /my-core-values/
+last_modified_at: 2021-11-25T20:52:08.052481
+permalink: /my-core-vaues/
 title: My Core Values
-image: /images/my-core-values.svg
+image: /images/my-core-values.png
 ---
 ![](/images/my-core-values.jpg)
 
