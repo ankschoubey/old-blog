@@ -3,7 +3,7 @@ layout: post
 comments: true
 description: A much better alternative to Javascript
 categories: [web-development]
-last_modified_at: 2021-11-15T20:52:08.052481
+last_modified_at: 2021-12-01T20:52:08.052481
 permalink: /typescript
 title: Typescript
 ---
