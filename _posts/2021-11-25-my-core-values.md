@@ -70,9 +70,19 @@ Some things to consider:
 
 ## Time Matters
 
+We have a finite life. Though it is long enough to get important things done.
+
+Your habits are reenforced. If you waste time regularly, you’ll continue to waste time.
+
+Let’s suppose your time is worth minimum wage.
+Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That’s 600Rs per day. 1,80,000 lakh rs per month. 21,60,000 rs per year. Over 10 years it’s 2 crore rs.
+
+Plus this calculation 🧮 excludes compounding. Time spent early will compound.
+
 Life is short. Speed of implementation matters a lot. Being impatient can be a good thing.
 
 Be impatient with yourself and a bit patient with others.
+
 
 [^1]: Jordan B Peterson
 [^2]: Naval Ravikant
