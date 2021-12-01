@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-01T08:34:16-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-01T08:43:31-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -201,70 +201,46 @@
 &lt;p&gt;Let’s suppose your time is worth minimum wage.
 Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That’s 600Rs per day. 1,80,000 lakh rs per month. 21,60,000 rs per year. Over 10 years it’s 2 crore rs.&lt;/p&gt;
 
-&lt;p&gt;Plus this calculation 🧮 excludes compounding. Time spent early will compound.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Typescript</title><link href="www.ankushchoubey.com/typescript/" rel="alternate" type="text/html" title="Typescript" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/typescript</id><content type="html" xml:base="www.ankushchoubey.com/typescript/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Typescript is probably my favorite programming language.&lt;/p&gt;
+&lt;p&gt;Plus this calculation 🧮 excludes compounding. Time spent early will compound.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Typescript</title><link href="www.ankushchoubey.com/typescript" rel="alternate" type="text/html" title="Typescript" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-11-15T14:52:08-06:00</updated><id>www.ankushchoubey.com/typescript</id><content type="html" xml:base="www.ankushchoubey.com/typescript">&lt;p&gt;Typescript is probably my favorite programming language. Switching from typescript to javascript should save around 60% of a developers time.&lt;/p&gt;
 
 &lt;p&gt;There are many reasons for it.&lt;/p&gt;
 
-&lt;p&gt;Typeaheads&lt;/p&gt;
+&lt;h2 id=&quot;typechecks&quot;&gt;Typechecks&lt;/h2&gt;
 
-&lt;p&gt;VS Code Support&lt;/p&gt;
+&lt;p&gt;Probably the main reason to use typescript is this.&lt;/p&gt;
 
-&lt;p&gt;Everything is configurable.&lt;/p&gt;
+&lt;p&gt;Having typechecks remove unneccesary errors. Types makes code more predictable.&lt;/p&gt;
 
-&lt;p&gt;You can control how strict the language is.&lt;/p&gt;
+&lt;p&gt;Dynamically typed programming language have bad IDE support.&lt;/p&gt;
 
-&lt;p&gt;“For love of god: Please use react with typescript”&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Broad ways we waste time</title><link href="www.ankushchoubey.com/how-we-waste-time/" rel="alternate" type="text/html" title="Broad ways we waste time" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-we-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/how-we-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;VS Code has fantastic support for Typescript with typeaheads which are and will probably always be missing with Javascript.&lt;/p&gt;
+
+&lt;h2 id=&quot;everything-is-configurable&quot;&gt;Everything is configurable.&lt;/h2&gt;
+
+&lt;p&gt;Every typescript project has a “tsconfig.json” file which can be used to control everything typescript can do.&lt;/p&gt;
+
+&lt;p&gt;These include but are not limited to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Where to put the final output&lt;/li&gt;
+  &lt;li&gt;Ability to choose how strict the language is aka enable/disable following
+    &lt;ul&gt;
+      &lt;li&gt;null checks&lt;/li&gt;
+      &lt;li&gt;any assignments&lt;/li&gt;
+      &lt;li&gt;etc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Shortcut paths&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;typescript-compiles-to-js&quot;&gt;Typescript compiles to JS&lt;/h2&gt;
+
+&lt;p&gt;You don’t miss anything with typescript because in the end it compiles down to javascript.&lt;/p&gt;
+
+&lt;p&gt;You can choose which version of javascript to compile into from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tsconfig.json&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;h2 id=&quot;typescript-works-fantastically-with-many-libraries-are-framework&quot;&gt;Typescript works fantastically with many libraries are framework.&lt;/h2&gt;
+
+&lt;p&gt;Both major web libraries (React and Angular) support typescript.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Typescript is probably my favorite programming language. Switching from typescript to javascript should save around 60% of a developers time.</summary></entry><entry><title type="html">Broad ways we waste time</title><link href="www.ankushchoubey.com/how-we-waste-time/" rel="alternate" type="text/html" title="Broad ways we waste time" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-we-waste-time</id><content type="html" xml:base="www.ankushchoubey.com/how-we-waste-time/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
