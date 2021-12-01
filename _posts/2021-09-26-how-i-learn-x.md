@@ -2,11 +2,10 @@
 layout: post
 comments: true
 description:
-categories: [draft]
+categories: []
 last_modified_at: 2021-09-23T20:52:08.052481
 permalink: /learning-strategy/
-hide: true
-title: Learning Strategy
+title: Learning Strategies
 ---
 
 These are some strategies I use to learn any new thing including programming languages.

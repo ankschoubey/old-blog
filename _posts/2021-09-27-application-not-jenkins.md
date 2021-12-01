@@ -2,29 +2,11 @@
 layout: post
 comments: true
 description:
-categories: [draft, personal]
+categories: [devops]
 last_modified_at: 2021-09-23T20:52:08.052481
 permalink: /configuration-within-application/
 title: Keep most of your configuration within application not Jenkins
-hide: true
-image: /images/n-plus-one.svg
 ---
-![](/images/switch-jobs.jpg)
-
-## Writting Steps
-
-| Task                        | Done |
-|-----------------------------|------|
-| Structure Done              | N    |
-| Thoughts Written            | N    |
-| Thoughts Edited             | N    |
-| Grammar Check Done          | N    |
-| Perfect Grammarly Score:    | N    |
-| Image Added                 | N    |
-| Links to Other Posts if Any | N    |
-| Tags Added                  | N    |
-| Released Publically         | N    |
-
 
 If you haave a separate DevOps teams, Jenkins will usually be configured by them.
 
