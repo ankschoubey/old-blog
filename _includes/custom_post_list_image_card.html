@@ -27,7 +27,7 @@
         {% if createddate == updateddate %}
           <div class="post-meta-created-date">Written on  : {{ post.date | date: date_format }} </div>
         {% else %}
-          <div class="post-meta-last-modified-date">Updated: {{ post.last_modified_at | date: '%d-%b-%y' }} - {{ post.last-modified-purpose }}</div>
+          <div class="post-meta-last-modified-date">Updated : {{ post.last_modified_at | date: '%d-%b-%y' }} {%- if post.last-modified-purpose -%}: {{ post.last-modified-purpose }}{%- endif -%}</div>
           <div class="post-meta-created-date-hover">Written: {{ post.date | date: date_format }} </div>
         {% endif %} 
 
