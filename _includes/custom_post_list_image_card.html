@@ -22,6 +22,10 @@
         </h3>
         
         <p class="post-meta-description">{{ post.description }}</p>
+        {%- if post.last-modified-purpose -%}
+          <p class="post-last-modified-purpose">{{ post.last-modified-purpose }}</p>
+        {%- endif -%}
+
           <div class='post-meta-holder'>
             {% capture createddate %}{{ post.date | date: date_format }}{% endcapture %}
             {% capture updateddate %}{{ post.last_modified_at | date: date_format }}{% endcapture %}
