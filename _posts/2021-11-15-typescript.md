@@ -7,6 +7,7 @@ last_modified_at: 2021-12-01T20:52:08.052481
 permalink: /typescript
 title: Typescript
 image: /images/typescript.svg
+last-modified-purpose: More details added
 ---
 ![](/images/typescript.svg)
 
