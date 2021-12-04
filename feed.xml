@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-01T09:00:31-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-04T02:28:29-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -31,7 +31,7 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Image Added&lt;/td&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -47,24 +47,41 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Angular and React Comparison</title><link href="www.ankushchoubey.com/angular-react-comparison/" rel="alternate" type="text/html" title="Angular and React Comparison" /><published>2021-12-04T00:00:00-06:00</published><updated>2021-12-04T14:52:08-06:00</updated><id>www.ankushchoubey.com/angular-react-comparison</id><content type="html" xml:base="www.ankushchoubey.com/angular-react-comparison/">&lt;p&gt;&lt;img src=&quot;/images/angular-react-comparison.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;button class=&quot;accordion&quot;&gt;Writing Steps&lt;/button&gt;&lt;/p&gt;
-&lt;div class=&quot;panel&quot;&gt;
+&lt;p&gt;Angular and React though they are competitors aren’t in a completely fair league. This is because one is a full-fledged framework and one is not. It may be better to compare Angular with a React framework like Next.js.&lt;/p&gt;
 
-| Task                        | Done |
-|-----------------------------|------|
-| Structure Done              | N    |
-| Thoughts Written            | N    |
-| Thoughts Edited             | N    |
-| Grammar Check Done          | N    |
-| Perfect Grammarly Score:    | N    |
-| Image Added                 | N    |
-| Links to Other Posts if Any | N    |
-| Tags Added                  | N    |
-| Released Publically         | N    |
+&lt;p&gt;There are things I like about both.&lt;/p&gt;
 
-&lt;/div&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Values</title><link href="www.ankushchoubey.com/my-core-vaues/" rel="alternate" type="text/html" title="My Core Values" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-11-25T14:52:08-06:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-vaues/">&lt;p&gt;&lt;img src=&quot;/images/my-core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;language&quot;&gt;Language&lt;/h2&gt;
+
+&lt;p&gt;Angular comes with typescript by default. Typescript is much more superior to JS. React can be used with typescript too but it’s a developer’s choice.&lt;/p&gt;
+
+&lt;h2 id=&quot;react-is-easy-to-get-started&quot;&gt;React is easy to get started&lt;/h2&gt;
+
+&lt;p&gt;Especially with functional components, getting started with react is too easy.&lt;/p&gt;
+
+&lt;h2 id=&quot;react-has-too-many-little-things-to-take-care-of&quot;&gt;React has too many little things to take care of.&lt;/h2&gt;
+
+&lt;p&gt;Strength can be a weakness or one could say React isn’t a full framework.&lt;/p&gt;
+
+&lt;p&gt;React has too much to learn. And every project is essentially different.&lt;/p&gt;
+
+&lt;p&gt;Angular comes with preferred ways of doing things which I like more than base React. Angular has everything important built-in. So you’ll find every Angular project uses the same set of libraries for common tasks like rest call (HttpClient). There is less to learn and remember.&lt;/p&gt;
+
+&lt;p&gt;You essentially want to reduce knowing a lot of things so that you can focus on getting stuff done.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-cleanliness&quot;&gt;Code Cleanliness&lt;/h2&gt;
+
+&lt;p&gt;Assuming React is used with Typescript, functional react with hooks is a much better way of creating components than class-based React and Angular.&lt;/p&gt;
+
+&lt;p&gt;Plus I like JSX (React) than HTML templating(Angular), it’s concise and there is less to remember. HTML templating in angular requires remembering an additional set of code (ngFor, ngIf, etc). In JSX, it’s the same language used while creating components.&lt;/p&gt;
+
+&lt;p&gt;The code structure is much better in angular projects.&lt;/p&gt;
+
+&lt;p&gt;Every angular project is structured similarly.&lt;/p&gt;
+
+&lt;p&gt;CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep)&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Values</title><link href="www.ankushchoubey.com/my-core-vaues/" rel="alternate" type="text/html" title="My Core Values" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-11-25T14:52:08-06:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-vaues/">&lt;p&gt;&lt;img src=&quot;/images/my-core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In a &lt;a href=&quot;/core-values&quot;&gt;previous blog post&lt;/a&gt;, I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.&lt;/p&gt;
 
@@ -490,77 +507,4 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
   &lt;li&gt;Now you can use media queries for modifying elements on specific screen sizes.&lt;/li&gt;
   &lt;li&gt;Before using media queries decide on the size of displays you want to support. This will make sure media query parameters is same across application.&lt;/li&gt;
   &lt;li&gt;Resource: &lt;a href=&quot;https://www.youtube.com/watch?v=yU7jJ3NbPdA&quot;&gt;https://www.youtube.com/watch?v=yU7jJ3NbPdA&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Keep CSS and HTML to a minimum</summary></entry><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Every sufficiently advanced technology is indistinguishable from magic.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; But as more and more people understand and use the technology, the magic fades and it becomes an everyday affair.&lt;/p&gt;
-
-&lt;p&gt;There are 3 interconnected factors that influence this:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Abstraction and Field Maturity&lt;/li&gt;
-  &lt;li&gt;Demand and Cost&lt;/li&gt;
-  &lt;li&gt;Education&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;abstraction-and-field-maturity&quot;&gt;Abstraction and Field Maturity&lt;/h2&gt;
-
-&lt;p&gt;Abstraction makes it easy for programmers to learn new things. Open Source projects are best at these.&lt;/p&gt;
-
-&lt;p&gt;Every advanced technology eventually comes to a point where simple statements get the job done without need to understand details.&lt;/p&gt;
-
-&lt;p&gt;It takes long time for things to get polished. Open Source projects spend years perfecting things.&lt;/p&gt;
-
-&lt;p&gt;Web Technologies is probably in it’s most mature state. Like with Spring Boot:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You have integrations to include things like Batch Processing, Database Connectivity, Micro Services, Security, etc.&lt;/li&gt;
-  &lt;li&gt;Each of which at one point in time were totally a big subject to learn and implement. Now most are a few hours of configuration.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Like with Arduino:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Arduino has different environment, chips and hardware that make it easy for anyone to quickly prototype and test hardware products.&lt;/li&gt;
-  &lt;li&gt;There are modules available for camera, microphones, sensors, etc.&lt;/li&gt;
-  &lt;li&gt;All of which are abstracted and the only things connecting them are arduino and programming.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Deep Learning:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Deep Learning is also getting to a state of maturity where things that required special knowledge are replaced with easy abstractions.&lt;/li&gt;
-  &lt;li&gt;Frameworks like Tensorflow are providing out if the box solution for common activities like Recommender Systems.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Research eventually give rise to applied applications.&lt;/p&gt;
-
-&lt;h2 id=&quot;demand-and-cost&quot;&gt;Demand and Cost&lt;/h2&gt;
-
-&lt;p&gt;More a product is needed, the more innovative solutions are made to make it cheaper and available to as many people as possible. #capitalism&lt;/p&gt;
-
-&lt;p&gt;Once it is available to more people, more innovative uses come out of it.&lt;/p&gt;
-
-&lt;p&gt;Software is cheaper to replicated therefore pace of innovation is much faster.&lt;/p&gt;
-
-&lt;p&gt;Hardware costs are variable in different countries. China has had a lot of hardware innovations because the cost of hardware is much lower due to high supply.&lt;/p&gt;
-
-&lt;h2 id=&quot;role-of-education&quot;&gt;Role of Education&lt;/h2&gt;
-
-&lt;p&gt;YouTube and online video in general has been a revolutionary technology. A man is limited to opportunities he/she gets. Online video allows for opportunity for everyone to learn the same thing.&lt;/p&gt;
-
-&lt;p&gt;Books are boring for most folks.&lt;/p&gt;
-
-&lt;h2 id=&quot;space&quot;&gt;Space?&lt;/h2&gt;
-
-&lt;p&gt;I believe once SpaceX reaches Mars, we’ll go through a similar cycle for space technology too. Where some things become so abstracted and spread of education increases that more people can start ticketing with things.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@forestkatsch?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Forest Katsch&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/starship?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">1 Photo by Forest Katsch on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Keep CSS and HTML to a minimum</summary></entry></feed>
