@@ -4,10 +4,10 @@ comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
 last_modified_at: 2021-11-25T20:52:08.052481
+last-modified-purpose: Added details in time matters section
 permalink: /my-core-vaues/
 title: My Core Values
 image: /images/my-core-values.jpg
-last-modified-purpose: Added details in time matters section
 ---
 ![](/images/my-core-values.jpg)
 

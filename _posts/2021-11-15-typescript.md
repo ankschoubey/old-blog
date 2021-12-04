@@ -6,7 +6,9 @@ categories: [web-development]
 last_modified_at: 2021-12-01T20:52:08.052481
 permalink: /typescript
 title: Typescript
+image: /images/typescript.svg
 ---
+![](/images/typescript.svg)
 
 Typescript is probably my favorite programming language. Switching from typescript to javascript should save around 60% of a developers time.
 
