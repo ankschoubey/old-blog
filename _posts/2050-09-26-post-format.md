@@ -20,24 +20,7 @@ image: /images/n-plus-one.svg
 | Thoughts Edited             | N    |
 | Grammar Check Done          | N    |
 | Perfect Grammarly Score:    | N    |
-| Image Added                 | N    |
+| Image Added  https://www.canva.com/                | N    |
 | Links to Other Posts if Any | N    |
 | Tags Added                  | N    |
 | Released Publically         | N    |
-
-<button class="accordion">Writing Steps</button>
-<div class="panel">
-
-| Task                        | Done |
-|-----------------------------|------|
-| Structure Done              | N    |
-| Thoughts Written            | N    |
-| Thoughts Edited             | N    |
-| Grammar Check Done          | N    |
-| Perfect Grammarly Score:    | N    |
-| Image Added                 | N    |
-| Links to Other Posts if Any | N    |
-| Tags Added                  | N    |
-| Released Publically         | N    |
-
-</div>
