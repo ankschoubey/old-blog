@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-04T03:20:01-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-12T05:29:17-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -81,11 +81,11 @@
 
 &lt;p&gt;Every angular project is structured similarly.&lt;/p&gt;
 
-&lt;p&gt;CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep)&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.png" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Values</title><link href="www.ankushchoubey.com/my-core-vaues/" rel="alternate" type="text/html" title="My Core Values" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-11-25T14:52:08-06:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-vaues/">&lt;p&gt;&lt;img src=&quot;/images/my-core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep)&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.png" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Values</title><link href="www.ankushchoubey.com/my-core-vaues/" rel="alternate" type="text/html" title="My Core Values" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-12-12T14:52:08-06:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-vaues/">&lt;p&gt;&lt;img src=&quot;/images/my-core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In a &lt;a href=&quot;/core-values&quot;&gt;previous blog post&lt;/a&gt;, I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.&lt;/p&gt;
 
-&lt;p&gt;I want things to be as “sorted” as possible without being super involved. In this post, you’ll find some ways to have things sorted.&lt;/p&gt;
+&lt;p&gt;I want things to be as “sorted” as possible without being super involved. In this post, you’ll find some ways to have things sorted. These there are habits associated witch each of them which are not mentioned in the post yet.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Responsibility&lt;/li&gt;
@@ -94,6 +94,7 @@
   &lt;li&gt;Systems Thinking&lt;/li&gt;
   &lt;li&gt;Inputs Matter&lt;/li&gt;
   &lt;li&gt;Time Matter&lt;/li&gt;
+  &lt;li&gt;Courage is calling&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;hr /&gt;
@@ -173,6 +174,12 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
   &lt;li&gt;Constantly changing direction completely for no apparent reason&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;courage-is-calling-&quot;&gt;Courage is calling &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;This is probably the most important value that supports all others. It takes courage to tell the truth, act responsibly, detach yourself to be peaceful, build and trusting long term systems, and break the spell of wasting time. And the courage of following the plan and push yourself when time comes.&lt;/p&gt;
+
+&lt;p&gt;Everything worth while is an act of courage.&lt;/p&gt;
+
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
@@ -180,6 +187,9 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The phrase “Courage is calling” is from Ryan Holiday’s book of the same name. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/my-core-values.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/my-core-values.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Typescript</title><link href="www.ankushchoubey.com/typescript" rel="alternate" type="text/html" title="Typescript" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-12-01T14:52:08-06:00</updated><id>www.ankushchoubey.com/typescript</id><content type="html" xml:base="www.ankushchoubey.com/typescript">&lt;p&gt;&lt;img src=&quot;/images/typescript.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -309,6 +319,10 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
 &lt;ul&gt;
   &lt;li&gt;Value discovery is like finding new elements. You don’t want to add a new element if a value already exists.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&quot;build-habits-around-them&quot;&gt;Build habits around them&lt;/h3&gt;
+
+&lt;p&gt;You want your core values to be second nature. Build habits around each of them so that they stick long term. Habits need not be long, they need to be second nature.&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
