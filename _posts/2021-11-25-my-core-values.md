@@ -3,8 +3,8 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2021-11-25T20:52:08.052481
-last-modified-purpose: Added details in time matters section
+last_modified_at: 2021-12-12T20:52:08.052481
+last-modified-purpose: Added "Courage is calling"
 permalink: /my-core-vaues/
 title: My Core Values
 image: /images/my-core-values.jpg
@@ -13,7 +13,7 @@ image: /images/my-core-values.jpg
 
 In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.
 
-I want things to be as "sorted" as possible without being super involved. In this post, you'll find some ways to have things sorted.
+I want things to be as "sorted" as possible without being super involved. In this post, you'll find some ways to have things sorted. These there are habits associated witch each of them which are not mentioned in the post yet.
 
 1. Responsibility
 2. Nirwana/Peace
@@ -21,6 +21,7 @@ I want things to be as "sorted" as possible without being super involved. In thi
 4. Systems Thinking
 5. Inputs Matter
 6. Time Matter
+7. Courage is calling
 
 ***
 
@@ -92,6 +93,12 @@ I waste time mostly in these ways:
 - Being too emotional
 - Constantly changing direction completely for no apparent reason
 
+## Courage is calling [^3]
+
+This is probably the most important value that supports all others. It takes courage to tell the truth, act responsibly, detach yourself to be peaceful, build and trusting long term systems, and break the spell of wasting time. And the courage of following the plan and push yourself when time comes. 
+
+Everything worth while is an act of courage.
 
 [^1]: Jordan B Peterson
 [^2]: Naval Ravikant
+[^3]: The phrase "Courage is calling" is from Ryan Holiday's book of the same name.
