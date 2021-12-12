@@ -13,7 +13,7 @@ image: /images/my-core-values.jpg
 
 In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.
 
-I want things to be as "sorted" as possible without being super involved. In this post, you'll find some ways to have things sorted. These there are habits associated witch each of them which are not mentioned in the post yet.
+I want things to be as "sorted" as possible without being super involved. In this post, you'll find some ways to have things sorted. There are habits associated with each of them which are not mentioned in the post yet.
 
 1. Responsibility
 2. Nirwana/Peace
