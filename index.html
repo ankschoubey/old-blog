@@ -61,8 +61,7 @@ These are the best posts I have written
 {% for post in site.categories['favorite'] %}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.date | date: date_format }}</p>
-
+    <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.last_modified_at | date: date_format }}</p>
 </article>
 
 {% endfor %}
@@ -79,4 +78,4 @@ or read a {%- include random-btn.html -%}
 {% endfor %}
 {% endif %}
 
-## Latest Essays
+## Essays (sorted by last updated)
