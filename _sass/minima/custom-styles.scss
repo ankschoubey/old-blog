@@ -298,3 +298,9 @@ img.image-preview:hover {
     .database{
         background-color: #4282aa;
     }
+
+.post-list > li  {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 200px;
+
+}
