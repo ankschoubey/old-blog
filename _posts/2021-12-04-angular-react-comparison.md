@@ -42,4 +42,6 @@ The code structure is much better in angular projects.
 
 Every angular project is structured similarly.
 
-CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep)
+By default, CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep). 
+
+React can also do this by using css modules.
