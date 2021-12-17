@@ -1,12 +1,12 @@
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
         AOS.init();
-</script>
+</script> -->
 {% if include.categories.size > 0 and site.show_tags %}
 <div class="tag-list">
     {% for category in include.categories %}
-    <a  data-aos="zoom-in-right" class="tag fa fa-hashtag {{category}}" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+    <a class="tag fa fa-hashtag {{category}}" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
     {% endfor %}
 </div>
 {% endif %}
