@@ -651,4 +651,6 @@ img.image-preview:hover { transform: scale(1.05); }
 
 .database { background-color: #4282aa; }
 
+.post-list > li { content-visibility: auto; contain-intrinsic-size: 0 200px; }
+
 /*# sourceMappingURL=style.css.map */
