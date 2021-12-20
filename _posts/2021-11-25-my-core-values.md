@@ -35,6 +35,8 @@ Taking on responsibility voluntarily/facing the heaviest fear you can face is ho
 
 ## Nirwana/Peace
 
+Being unhappy is inefficient.
+
 Happiness/Peace is a skill that you develop and a choice that you make [^2]. You can choose to live a certain way that will lead to peace.
 
 You need to be peaceful if you want things to be good long term. Develop detachment (not wanting) and be less judgemental. Aiming for peace requires a lot of rethinking and flipping almost everything.
