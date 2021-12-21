@@ -56,3 +56,5 @@ So +1 |-1 aim for 0 is for such conditions.
 Pick a time period, let's say a week or a month, start from 0 and add 1 each time you put and effort, add -1 if the partner does. If the number is too away from 0, try to make it 0. If it's too positive, reduce your efforts. If it's more negative, put more effort.
 
 In case it's positive, wait, reduce your efforts, spend time during something else.
+
+If it's too high in positive, reduce your effort even more. It's the only way to make sure things are okay.
