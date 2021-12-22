@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-22T08:44:24-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-22T09:05:59-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -566,7 +566,37 @@ Assume that to be 100Rs per hour. Letâ€™s suppose you waste 6 hours a day. Thatâ
 
 &lt;p&gt;Both major web libraries (React and Angular) support typescript.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-to-transition-from-js-to-ts&quot;&gt;How to transition from js to ts.&lt;/h2&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/typescript.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/typescript.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Everyone is flawed</title><link href="www.ankushchoubey.com/everyone-flawed/" rel="alternate" type="text/html" title="Everyone is flawed" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-11-15T14:52:08-06:00</updated><id>www.ankushchoubey.com/everyone-is-flawed</id><content type="html" xml:base="www.ankushchoubey.com/everyone-flawed/">&lt;p&gt;This is rewording of &lt;a href=&quot;h/black_white/&quot;&gt;Opinions/Events are not black and white.&lt;/a&gt; applied to people,&lt;/p&gt;
+&lt;h2 id=&quot;how-to-transition-from-js-to-ts&quot;&gt;How to transition from js to ts.&lt;/h2&gt;
+
+&lt;p&gt;When you have a large application with lots of connected pieces, it makes sense to have connections between them standard.&lt;/p&gt;
+
+&lt;p&gt;So that as the application grows, the connections stay strong. And if parameters in a connection changes, it can be detected and changed at all places that use the connection.&lt;/p&gt;
+
+&lt;p&gt;This is missing in Dynamically typed languages like Javascript. But is available with a static checker like typescript.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Typescript does only a few things:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Applies types and checks them&lt;/li&gt;
+  &lt;li&gt;Checks code quality to a level desired&lt;/li&gt;
+  &lt;li&gt;Compiles to JS version of your choice.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;
+
+&lt;p&gt;There are tools available that allow migration like ts-migrate https://github.com/airbnb/ts-migrate
+but ts can be used along with existing js code too.&lt;/p&gt;
+
+&lt;p&gt;My recommendation is always, if you try to create a new project, use typescript.&lt;/p&gt;
+
+&lt;p&gt;https://www.reddit.com/r/typescript/comments/n0w2k7/how_to_go_about_convincing_team_to_buy_into_ts/
+https://news.ycombinator.com/item?id=18591424
+https://dev.to/andyrewlee/how-to-convince-team-to-adopt-typescript-323a
+https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/typescript.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/typescript.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Everyone is flawed</title><link href="www.ankushchoubey.com/everyone-flawed/" rel="alternate" type="text/html" title="Everyone is flawed" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-11-15T14:52:08-06:00</updated><id>www.ankushchoubey.com/everyone-is-flawed</id><content type="html" xml:base="www.ankushchoubey.com/everyone-flawed/">&lt;p&gt;This is rewording of &lt;a href=&quot;h/black_white/&quot;&gt;Opinions/Events are not black and white.&lt;/a&gt; applied to people,&lt;/p&gt;
 
 &lt;p&gt;Everyone is stupid. Everyone is genius. Everyone is flawed. #World is random.&lt;/p&gt;
 
