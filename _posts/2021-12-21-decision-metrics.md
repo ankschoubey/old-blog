@@ -66,3 +66,5 @@ and have to courage to move on.
 If you are in grey area, you may have already lost. You'll try to rationalize and do things.
 
 move on
+
+## Figure out what does not need a decision and skip it
