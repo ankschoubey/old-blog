@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-22T09:14:10-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-22T12:34:41-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -370,7 +370,128 @@ It’s not right for yourself and for the other person to have this kind of skew
   &lt;li&gt;A few core habits surrounding a value.&lt;/li&gt;
   &lt;li&gt;People to look up to who best seem to be support these values.&lt;/li&gt;
   &lt;li&gt;Checks to see if value is being held or not.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="personal" /><category term="core-values" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Angular and React Comparison</title><link href="www.ankushchoubey.com/angular-react-comparison/" rel="alternate" type="text/html" title="Angular and React Comparison" /><published>2021-12-04T00:00:00-06:00</published><updated>2021-12-04T14:52:08-06:00</updated><id>www.ankushchoubey.com/angular-react-comparison</id><content type="html" xml:base="www.ankushchoubey.com/angular-react-comparison/">&lt;p&gt;&lt;img src=&quot;/images/angular-react-comparison.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="personal" /><category term="core-values" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Habits</title><link href="www.ankushchoubey.com/core-habits/" rel="alternate" type="text/html" title="My Core Habits" /><published>2021-12-16T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/my-core-habits</id><content type="html" xml:base="www.ankushchoubey.com/core-habits/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;These are habits that have or I am trying to develop to make my core values second nature. I want these to be intuitive without hard and extremely strict rules.&lt;/p&gt;
+
+&lt;h2 id=&quot;responsibility&quot;&gt;Responsibility&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Take care of yourself like someone you take care of: Ultimate Responsibility.&lt;/li&gt;
+  &lt;li&gt;Define what’s not your responsibility
+    &lt;ul&gt;
+      &lt;li&gt;Over worrting/trying to solve other people problem/forcing them to change is not your responsibility. Though you can serve as an example.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Listen to your conscience (the critic), what’s the things in front of you (however small) that you haven’t fix? Fix them. Fix the smallest first.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;peace&quot;&gt;Peace&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Judge Less&lt;/li&gt;
+  &lt;li&gt;Empty your mind&lt;/li&gt;
+  &lt;li&gt;Reframe Everything
+    &lt;ul&gt;
+      &lt;li&gt;Choose your damn limitation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Rely of decision making frameworks&lt;/li&gt;
+  &lt;li&gt;Detach and prioritize&lt;/li&gt;
+  &lt;li&gt;Love everything that happens (Amor Fati)&lt;/li&gt;
+  &lt;li&gt;Is this worth your time and mental strain&lt;/li&gt;
+  &lt;li&gt;Have activites be complete in themselves. You do it not because you want to gain something else from it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;systems&quot;&gt;Systems&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Break down everything into small chunks. What’s the smallest thing I can do to move a step forward. 1% Better&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;telling-the-truth-and-being-hyper-realistic&quot;&gt;Telling the truth and being hyper realistic&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tell the truth&lt;/li&gt;
+  &lt;li&gt;Speak up&lt;/li&gt;
+  &lt;li&gt;Read diffucult books&lt;/li&gt;
+  &lt;li&gt;Talk to different people&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;courage-is-calling&quot;&gt;Courage is Calling&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exercise&lt;/li&gt;
+  &lt;li&gt;Cold Shower&lt;/li&gt;
+  &lt;li&gt;Work on most important task and push yourself.&lt;/li&gt;
+  &lt;li&gt;Avoid slipups and stand back up quickly after one.&lt;/li&gt;
+  &lt;li&gt;Do the right thing because it is the right thing. Let go of the outcome.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;time-matters&quot;&gt;Time Matters&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Remember you can’t live forever&lt;/li&gt;
+  &lt;li&gt;Complete things on a daily bases&lt;/li&gt;
+  &lt;li&gt;Don’t wait for more than 5 minutes if you texted and not available. 3 min is better.&lt;/li&gt;
+  &lt;li&gt;Ask yourself is this essential&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I waste time mostly in these ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Waiting for circumstances to be right before taking action.
+    &lt;ul&gt;
+      &lt;li&gt;The best time to take action was yesterday, the second best time is today.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Over-caring what other people think.&lt;/li&gt;
+  &lt;li&gt;Being too emotional&lt;/li&gt;
+  &lt;li&gt;Constantly changing direction completely for no apparent reason&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Angular and React Comparison</title><link href="www.ankushchoubey.com/angular-react-comparison/" rel="alternate" type="text/html" title="Angular and React Comparison" /><published>2021-12-04T00:00:00-06:00</published><updated>2021-12-04T14:52:08-06:00</updated><id>www.ankushchoubey.com/angular-react-comparison</id><content type="html" xml:base="www.ankushchoubey.com/angular-react-comparison/">&lt;p&gt;&lt;img src=&quot;/images/angular-react-comparison.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Angular and React though they are competitors aren’t in a completely fair league. This is because one is a full-fledged framework and one is not. It may be better to compare Angular with a React framework like Next.js.&lt;/p&gt;
 
@@ -488,19 +609,6 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
 
 &lt;p&gt;Be impatient with yourself and a bit patient with others.&lt;/p&gt;
 
-&lt;p&gt;I waste time mostly in these ways:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Waiting for circumstances to be right before taking action.
-    &lt;ul&gt;
-      &lt;li&gt;The best time to take action was yesterday, the second best time is today.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Over-caring what other people think.&lt;/li&gt;
-  &lt;li&gt;Being too emotional&lt;/li&gt;
-  &lt;li&gt;Constantly changing direction completely for no apparent reason&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&quot;courage-is-calling-&quot;&gt;Courage is calling &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;This is probably the most important value that supports all others. It takes courage to tell the truth, act responsibly, detach yourself to be peaceful, build and trusting long term systems, and break the spell of wasting time. And the courage of following the plan and push yourself when time comes.&lt;/p&gt;
@@ -606,27 +714,4 @@ https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;</content><author>
 
 &lt;p&gt;Everyone is dealing the cards they have been given the best way then can.&lt;/p&gt;
 
-&lt;p&gt;And social media is mostly fake.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="short" /><summary type="html">This is rewording of Opinions/Events are not black and white. applied to people,</summary></entry><entry><title type="html">Keep most of your configuration within application not Jenkins</title><link href="www.ankushchoubey.com/configuration-within-application/" rel="alternate" type="text/html" title="Keep most of your configuration within application not Jenkins" /><published>2021-09-27T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/application-not-jenkins</id><content type="html" xml:base="www.ankushchoubey.com/configuration-within-application/">&lt;p&gt;If you haave a separate DevOps teams, Jenkins will usually be configured by them.&lt;/p&gt;
-
-&lt;p&gt;Developer will have an easier life if they have as less dependency on external team as possible.&lt;/p&gt;
-
-&lt;p&gt;Sometimes, Jenkinsfile includes every minor detail. For example:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;In a node project, Jenkinsfile could include things like running an application in production mode along with certain parameters.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This can be okay if the paramaters are configured via Jenkins UI. But if same configuration is going to be used, it is easier to maintain and adapt by keeping them inside application and using Jenkins to only trigger script within application.&lt;/p&gt;
-
-&lt;p&gt;In node applications, you can use following to configure default behaviors.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;scripts in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file for npm&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tsconfig.json&lt;/code&gt; for Typescript&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In Maven projects, you can have operations such as:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ignoring File during build&lt;/li&gt;
-  &lt;li&gt;Coping certain files&lt;/li&gt;
-  &lt;li&gt;To disable test cases for certain builds etc.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="devops" /><summary type="html">If you haave a separate DevOps teams, Jenkins will usually be configured by them.</summary></entry></feed>
+&lt;p&gt;And social media is mostly fake.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="short" /><summary type="html">This is rewording of Opinions/Events are not black and white. applied to people,</summary></entry></feed>
