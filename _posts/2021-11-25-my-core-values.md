@@ -87,14 +87,6 @@ Life is short. Speed of implementation matters a lot. Being impatient can be a g
 
 Be impatient with yourself and a bit patient with others.
 
-I waste time mostly in these ways:
-
-- Waiting for circumstances to be right before taking action.
-    - The best time to take action was yesterday, the second best time is today.
-- Over-caring what other people think.
-- Being too emotional
-- Constantly changing direction completely for no apparent reason
-
 ## Courage is calling [^3]
 
 This is probably the most important value that supports all others. It takes courage to tell the truth, act responsibly, detach yourself to be peaceful, build and trusting long term systems, and break the spell of wasting time. And the courage of following the plan and push yourself when time comes. 
