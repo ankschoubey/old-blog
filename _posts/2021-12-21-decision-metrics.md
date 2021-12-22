@@ -58,3 +58,11 @@ Pick a time period, let's say a week or a month, start from 0 and add 1 each tim
 In case it's positive, wait, reduce your efforts, spend time during something else.
 
 If it's too high in positive, reduce your effort even more. It's the only way to make sure things are okay.
+
+## Avoid grey area
+
+and have to courage to move on.
+
+If you are in grey area, you may have already lost. You'll try to rationalize and do things.
+
+move on
