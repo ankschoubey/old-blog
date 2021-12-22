@@ -4,20 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Clean Code | Ankush</title>
+<title>Typescript tip: Typed API Interfaces/classes | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Clean Code" />
+<meta property="og:title" content="Typescript tip: Typed API Interfaces/classes" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time." />
-<meta property="og:description" content="constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time." />
-<link rel="canonical" href="www.ankushchoubey.com/clean_code/" />
-<meta property="og:url" content="www.ankushchoubey.com/clean_code/" />
+<meta name="description" content="Random Thoughts" />
+<meta property="og:description" content="Random Thoughts" />
+<link rel="canonical" href="www.ankushchoubey.com/typescript-typed-interfaces/" />
+<meta property="og:url" content="www.ankushchoubey.com/typescript-typed-interfaces/" />
 <meta property="og:site_name" content="Ankush" />
-<meta property="og:image" content="www.ankushchoubey.com/images/2019-12-19-series-tips-on-writing-clean-code/1.png" />
+<meta property="og:image" content="www.ankushchoubey.com/images/n-plus-one.svg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-12-19T00:00:00-06:00" />
+<meta property="article:published_time" content="2021-12-21T00:00:00-06:00" />
 <script type="application/ld+json">
-{"headline":"Clean Code","url":"www.ankushchoubey.com/clean_code/","dateModified":"2021-08-01T15:42:15-05:00","datePublished":"2019-12-19T00:00:00-06:00","@type":"BlogPosting","image":"www.ankushchoubey.com/images/2019-12-19-series-tips-on-writing-clean-code/1.png","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/clean_code/"},"description":"constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time.","@context":"https://schema.org"}</script>
+{"headline":"Typescript tip: Typed API Interfaces/classes","url":"www.ankushchoubey.com/typescript-typed-interfaces/","dateModified":"2021-09-23T15:52:08-05:00","datePublished":"2021-12-21T00:00:00-06:00","@type":"BlogPosting","image":"www.ankushchoubey.com/images/n-plus-one.svg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/typescript-typed-interfaces/"},"description":"Random Thoughts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -114,15 +114,15 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Clean Code</h1><p class="page-description">constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time.</p><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2019-12-19T00:00:00-06:00" itemprop="datePublished">
-        Written: Dec 19, 2019
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-08-01T15:42:15-05:00" itemprop="dateModified">
-          Updated: Aug 1, 2021
+    <h1 class="post-title p-name" itemprop="name headline">Typescript tip: Typed API Interfaces/classes </h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-12-21T00:00:00-06:00" itemprop="datePublished">
+        Written: Dec 21, 2021
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-09-23T15:52:08-05:00" itemprop="dateModified">
+          Updated: Sep 23, 2021
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -148,9 +148,9 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    <a class="tag fa fa-hashtag web-development" href="/categories/#web-development">web-development</a>
     
-    <a class="tag fa fa-hashtag favorite" href="/categories/#favorite">favorite</a>
+    <a class="tag fa fa-hashtag draft" href="/categories/#draft">draft</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -188,154 +188,72 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#usually-building-a-software-looks-like-this">Usually building a software looks like this</a></li>
-<li class="toc-entry toc-h2"><a href="#reading-vs-writing-code">Reading vs Writing Code</a></li>
-<li class="toc-entry toc-h2"><a href="#why-do-we-write-bad-code">Why do we write bad code?</a>
-<ul>
-<li class="toc-entry toc-h4"><a href="#work-for-now-will-clean-up-later">Work, for now, will clean up later</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h2"><a href="#what-is-clean-code">What is Clean code?</a>
-<ul>
-<li class="toc-entry toc-h5"><a href="#benefits">Benefits</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h2"><a href="#more-posts-in-this-series">More posts in this series</a></li>
-</ul><blockquote>
-  <p>I’m not a great programmer; I’m just a good programmer with great habits</p>
-</blockquote>
+    <p><img src="/images/switch-jobs.jpg" alt="" /></p>
 
-<p>~Kent Beck (Creator of Extreme Programming)</p>
+<h2 id="writting-steps">Writting Steps</h2>
 
-<p>I started writing this as a single post but the number of paragraphs much so like any good programmer I decided to release in chunks.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Done</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Structure Done</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Thoughts Written</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Thoughts Edited</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Grammar Check Done</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Perfect Grammarly Score:</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Image Added  https://www.canva.com/</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Links to Other Posts if Any</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Tags Added</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>Released Publically</td>
+      <td>N</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>These come from a series of notes I took since I was in college.</p>
+<p>Types in typescript are optional by default. I am a advocate for allows having strict mode enabled in typescipt but even if you don’t use strict mode, there is one place where having types is most useful.</p>
 
-<p>The attributions are lose. I did not think about writing a post while taking notes.</p>
+<p>When using typescript frontend with a backend, there a useful default behaviour that is very useful.</p>
 
-<p>I will do by best to find the authors and link to their work when I find them any time in the future. Most of these came for searching for keywords like “clean code {language}”.</p>
+<p>Create types entities in typescript for all APIs and connectors.</p>
 
-<p>Some ideas I found while experimenting on my own.</p>
+<p>This shoud be exact replica or what the response format is.</p>
 
-<hr>
+<p>Have it is a same folder.</p>
 
-<h2 id="usually-building-a-software-looks-like-this">
-<a class="anchor" href="#usually-building-a-software-looks-like-this" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usually building a software looks like this</h2>
+<p>The reason to this. Connectors are most important part for the application. It’s better to have stricky types interfaces doing the heavy load so that no one can change it for fun.</p>
 
-<p>You start small. But by the time you reach halfway, it becomes chaotic.</p>
+<p>So if you are sending a ResponseDTO from Spring Boot backend, make sure you have the same structure class/interface in typescript to catch that response in.</p>
 
-<p><img src="/images/2019-12-19-series-tips-on-writing-clean-code/1.png" alt="https://bonkersworld.net/img/2011.11.15_building_software.png"></p>
-
-<h2 id="reading-vs-writing-code">
-<a class="anchor" href="#reading-vs-writing-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reading vs Writing Code</h2>
-
-<p>While coding we spend more time reading the existing code than writing the code. We can estimate the ratio to be something like <strong>10:1</strong>.</p>
-
-<p>Most of the time you are more likely to modify and improve your code than to produce a new functionality.</p>
-
-<p><img src="/images/2019-12-19-series-tips-on-writing-clean-code/2.png" alt="https://sizovs.net/2019/05/29/quality-is-not-negotiable"></p>
-
-<p>For something we spend the most time on, it is very important that we make the process of reading and understanding our code easier for ourselves and other developers.</p>
-
-<h2 id="why-do-we-write-bad-code">
-<a class="anchor" href="#why-do-we-write-bad-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why do we write bad code?</h2>
-
-<ol>
-  <li>
-    <p>Work needed to be done fast</p>
-  </li>
-  <li>
-    <p>Tired of project/work</p>
-  </li>
-  <li>
-    <p>Requirement changed</p>
-  </li>
-  <li>
-    <p>Managers</p>
-  </li>
-  <li>
-    <p>WE — Developers</p>
-  </li>
-</ol>
-
-<h4 id="work-for-now-will-clean-up-later">
-<a class="anchor" href="#work-for-now-will-clean-up-later" aria-hidden="true"><span class="octicon octicon-link"></span></a>Work, for now, will clean up later</h4>
-
-<p>If we don’t follow good coding guidelines, we risk initial coding speed for long term code quality and productivity.</p>
-
-<p>Usually, once you start on a path you are more likely to continue on the same path.</p>
-
-<p><img src="/images/2019-12-19-series-tips-on-writing-clean-code/3.png" alt="Some YouTube attribution #FA. Also need to find a sharper image"></p>
-
-<h2 id="what-is-clean-code">
-<a class="anchor" href="#what-is-clean-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Clean code?</h2>
-
-<p>Constructing the simplest possible code that would solve your problem.</p>
-
-<h5 id="benefits">
-<a class="anchor" href="#benefits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Benefits</h5>
-
-<ul>
-  <li>
-    <p>Problems become easier to solve since code is modular.</p>
-  </li>
-  <li>
-    <p>Less time is wasted on maintenance since lines of code are less.</p>
-  </li>
-  <li>
-    <p>Ideas are more clearly communicated.</p>
-  </li>
-  <li>
-    <p>Unit Test cases are much smaller and easier to write.</p>
-  </li>
-  <li>
-    <p>Making changes is much faster.</p>
-  </li>
-  <li>
-    <p>Pleasing to your eyes 👀.</p>
-  </li>
-</ul>
-
-<h2 id="more-posts-in-this-series">
-<a class="anchor" href="#more-posts-in-this-series" aria-hidden="true"><span class="octicon octicon-link"></span></a>More posts in this series</h2>
-
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/organize-test-casest/">Post Format</a>  • Dec 22, 2021</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/clean-code-spring-boot/">Art of Reducing Lines of Code in Java/Spring Boot</a>  • Jun 12, 2021</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/clean_code_tools/">Clean Code Resources and Tools</a>  • May 11, 2020</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/leave_it_better/">Leave it better than you found it</a>  • Jan 6, 2020</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/exception_handing/">Exception handling</a>  • Jan 6, 2020</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/code_cleanup/">Remove un-necessary code</a>  • Jan 4, 2020</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/complexity/">Avoid inventing algorithms and data structures</a>  • Dec 25, 2019</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/god_classes/">Avoid creating god classes and long methods</a>  • Dec 25, 2019</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/sql_is_fast/">Make the database do the heavy lifting</a>  • Dec 22, 2019</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/naming_conventions/">Leave Clues</a>  • Dec 20, 2019</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/flat_is_better/">Flat is better than nested</a>  • Dec 20, 2019</p>
-</article>
-<article class="archive-item">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="/clean_code/">Clean Code</a>  • Dec 19, 2019</p>
-</article>
+<p>If you have a typescript backend with something like Next.js, this task would be easier since you can just reuse classes/interface.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -345,7 +263,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/clean_code/" hidden></a>
+</script><a class="u-url" href="/typescript-typed-interfaces/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

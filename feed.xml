@@ -1,4 +1,213 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-21T12:02:43-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Decision Metrics</title><link href="www.ankushchoubey.com/decision-metrics/" rel="alternate" type="text/html" title="Decision Metrics" /><published>2050-12-21T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/decision-metrics</id><content type="html" xml:base="www.ankushchoubey.com/decision-metrics/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-22T08:44:24-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/organize-test-casest/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/organize-test-cases</id><content type="html" xml:base="www.ankushchoubey.com/organize-test-casest/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Organising tests&lt;/p&gt;
+
+&lt;p&gt;Clean tests are as important as clean code. Same kind of principles apply here.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Test only what is neccessary&lt;/li&gt;
+  &lt;li&gt;Keep code clean&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;while TDD, is shown to keep test cases to a minimum, this post explains some other ways tests can be organize&lt;/p&gt;
+
+&lt;p&gt;Group tests on a method together&lt;/p&gt;
+
+&lt;p&gt;In JUnit 5 you can use @NestClasses
+In Jest you can use describe&lt;/p&gt;
+
+&lt;p&gt;This would make it easier to find your tests&lt;/p&gt;
+
+&lt;p&gt;Have a global stub objects&lt;/p&gt;
+
+&lt;p&gt;Rather than create objects in every test method,
+create a dummy stub and use it in all subsiqueny tests&lt;/p&gt;
+
+&lt;p&gt;Example in spring boot&lt;/p&gt;
+
+&lt;p&gt;class RandomTest{&lt;/p&gt;
+
+&lt;p&gt;final static String stub = “Used throughout”&lt;/p&gt;
+
+&lt;p&gt;@Nested
+@DisplayName(“Display Name”)
+class IntegerRandom{&lt;/p&gt;
+
+&lt;p&gt;}
+}&lt;/p&gt;
+
+&lt;p&gt;Use @BeforeEach/@Before all&lt;/p&gt;
+
+&lt;p&gt;Size of tests should be less than size of your display&lt;/p&gt;
+
+&lt;p&gt;This is a useful guideline which applies to a method too.&lt;/p&gt;
+
+&lt;p&gt;Have good variable names&lt;/p&gt;
+
+&lt;p&gt;if it is a variable which is bad, prefix it with bad&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Typescript tip: Typed API Interfaces/classes</title><link href="www.ankushchoubey.com/typescript-typed-interfaces/" rel="alternate" type="text/html" title="Typescript tip: Typed API Interfaces/classes" /><published>2021-12-21T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/typescript-with-backend</id><content type="html" xml:base="www.ankushchoubey.com/typescript-typed-interfaces/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Types in typescript are optional by default. I am a advocate for allows having strict mode enabled in typescipt but even if you don’t use strict mode, there is one place where having types is most useful.&lt;/p&gt;
+
+&lt;p&gt;When using typescript frontend with a backend, there a useful default behaviour that is very useful.&lt;/p&gt;
+
+&lt;p&gt;Create types entities in typescript for all APIs and connectors.&lt;/p&gt;
+
+&lt;p&gt;This shoud be exact replica or what the response format is.&lt;/p&gt;
+
+&lt;p&gt;Have it is a same folder.&lt;/p&gt;
+
+&lt;p&gt;The reason to this. Connectors are most important part for the application. It’s better to have stricky types interfaces doing the heavy load so that no one can change it for fun.&lt;/p&gt;
+
+&lt;p&gt;So if you are sending a ResponseDTO from Spring Boot backend, make sure you have the same structure class/interface in typescript to catch that response in.&lt;/p&gt;
+
+&lt;p&gt;If you have a typescript backend with something like Next.js, this task would be easier since you can just reuse classes/interface.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decision Metrics</title><link href="www.ankushchoubey.com/decision-metrics/" rel="alternate" type="text/html" title="Decision Metrics" /><published>2021-12-21T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/decision-metrics</id><content type="html" xml:base="www.ankushchoubey.com/decision-metrics/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -86,56 +295,17 @@ It’s not right for yourself and for the other person to have this kind of skew
 
 &lt;p&gt;Pick a time period, let’s say a week or a month, start from 0 and add 1 each time you put and effort, add -1 if the partner does. If the number is too away from 0, try to make it 0. If it’s too positive, reduce your efforts. If it’s more negative, put more effort.&lt;/p&gt;
 
-&lt;p&gt;In case it’s positive, wait, reduce your efforts, spend time during something else.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In case it’s positive, wait, reduce your efforts, spend time during something else.&lt;/p&gt;
 
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+&lt;p&gt;If it’s too high in positive, reduce your effort even more. It’s the only way to make sure things are okay.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Responsibility</title><link href="www.ankushchoubey.com/responsibility/" rel="alternate" type="text/html" title="Responsibility" /><published>2021-12-17T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/responsibility</id><content type="html" xml:base="www.ankushchoubey.com/responsibility/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;avoid-grey-area&quot;&gt;Avoid grey area&lt;/h2&gt;
+
+&lt;p&gt;and have to courage to move on.&lt;/p&gt;
+
+&lt;p&gt;If you are in grey area, you may have already lost. You’ll try to rationalize and do things.&lt;/p&gt;
+
+&lt;p&gt;move on&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Responsibility</title><link href="www.ankushchoubey.com/responsibility/" rel="alternate" type="text/html" title="Responsibility" /><published>2021-12-17T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/responsibility</id><content type="html" xml:base="www.ankushchoubey.com/responsibility/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -427,165 +597,4 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
   &lt;li&gt;Ignoring File during build&lt;/li&gt;
   &lt;li&gt;Coping certain files&lt;/li&gt;
   &lt;li&gt;To disable test cases for certain builds etc.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="devops" /><summary type="html">If you haave a separate DevOps teams, Jenkins will usually be configured by them.</summary></entry><entry><title type="html">Core Values</title><link href="www.ankushchoubey.com/core-values/" rel="alternate" type="text/html" title="Core Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-26T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/core-values/">&lt;p&gt;&lt;img src=&quot;/images/core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is something I have been developing for a few months &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;values-simplify-decision-making&quot;&gt;Values simplify decision making&lt;/h2&gt;
-
-&lt;p&gt;Values are things that you regard highly and that you don’t compromise on. They can act as rough guidelines for making decisions.&lt;/p&gt;
-
-&lt;p&gt;Every individual is different, therefore it is important to build your own set of values to follow. Don’t borrow someone’s values. Define your own.&lt;/p&gt;
-
-&lt;p&gt;To have your values articulated, means you can use them much more easily into making decisions.&lt;/p&gt;
-
-&lt;p&gt;While this post talks about personal values, same can be applied to businesses.&lt;/p&gt;
-
-&lt;p&gt;“Core values are choices you make”&lt;/p&gt;
-
-&lt;h2 id=&quot;some-use-cases-for-values&quot;&gt;Some use cases for values&lt;/h2&gt;
-
-&lt;p&gt;You can compare your core values with someone to see how aligned you are. Usually of you are aligned things to smoothly. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;You can usually pick up other’s value if you listen to them cuz most people essentially speak the same things over and over again.&lt;/p&gt;
-
-&lt;p&gt;If you have a particularly bad event, you can verify your actions on your values. You may find that you might not have lived up to your values fully. Or it maybe time to tweak your value a bit.&lt;/p&gt;
-
-&lt;h2 id=&quot;tips-for-finding-and-picking-values&quot;&gt;Tips for Finding and Picking Values&lt;/h2&gt;
-
-&lt;p&gt;These are some of my tips for picking values:&lt;/p&gt;
-
-&lt;h3 id=&quot;pick-only-a-few-values-at-first&quot;&gt;Pick only a few values at first&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I would recommend 3-4 at first and then adding a few overtime as need arises.&lt;/li&gt;
-  &lt;li&gt;To pick the most personalized values, look at your past events. What motivated you make certain decisions?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Shorter the length of each value the easier you can remember. Lesser the number of values, more you can remember.&lt;/p&gt;
-
-&lt;h3 id=&quot;reframe-your-values-to-fit-perfectly&quot;&gt;Reframe your values to fit perfectly&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Test and modify for your values. Maybe adding a few words would solidify a value which was previously too vague.&lt;/li&gt;
-  &lt;li&gt;I have renamed my values multiple times where they essentially mean the same thing but with words that make more sense.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;keep-them-as-abstract-as-possible&quot;&gt;Keep them as abstract as possible&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The more abstract your values, the more decisions you can slot in to them.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;compress-dont-add-a-new-value-unless-you-absolutely-need-it&quot;&gt;Compress. Don’t add a new value unless you absolutely need it&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Value discovery is like finding new elements. You don’t want to add a new element if a value already exists.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;build-habits-around-them&quot;&gt;Build habits around them&lt;/h3&gt;
-
-&lt;p&gt;You want your core values to be second nature. Build habits around each of them so that they stick long term. Habits need not be long, they need to be second nature.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;The inspiration for this post of Digital Minimalism by Cal Newport &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/core-values.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/core-values.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Learning Strategies</title><link href="www.ankushchoubey.com/learning-strategy/" rel="alternate" type="text/html" title="Learning Strategies" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-i-learn-x</id><content type="html" xml:base="www.ankushchoubey.com/learning-strategy/">&lt;p&gt;These are some strategies I use to learn any new thing including programming languages.&lt;/p&gt;
-
-&lt;p&gt;These are probably very influenced by Tim Ferriss’s 4 Hour Chef which I had read around 2016.&lt;/p&gt;
-
-&lt;h2 id=&quot;material-beats-method-&quot;&gt;Material beats Method &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;Usually, it’s not fault of the student, it’s fault of the teacher.&lt;/p&gt;
-
-&lt;p&gt;How a teacher teaches determines a lot.&lt;/p&gt;
-
-&lt;p&gt;I don’t like live teachings. It sometimes gets to fast sometimes too slow. I prefer learning on my own.&lt;/p&gt;
-
-&lt;p&gt;I pick resources that are:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Step by step&lt;/li&gt;
-  &lt;li&gt;Have a clear road to some kind of implementation&lt;/li&gt;
-  &lt;li&gt;As real world as possible.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;For Music:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I tried learning Piano by reading book but it was no boring and vage. So I purchased SimplyPiano.&lt;/li&gt;
-  &lt;li&gt;Similarly for guitar I got SimplyGuitar.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For Programming Topics,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I prefer platform allow trying out code online without any local installation.
-    &lt;ul&gt;
-      &lt;li&gt;Codecademy is a good one. I used it for many things.&lt;/li&gt;
-      &lt;li&gt;Recently I started learning&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;role-of-books&quot;&gt;Role of Books&lt;/h2&gt;
-
-&lt;p&gt;I don’t use books for learning everything.&lt;/p&gt;
-
-&lt;p&gt;But certain concepts are such that they require an entire book.&lt;/p&gt;
-
-&lt;p&gt;I don’t go out to but book instantly. I wait a few days to see if I really need to.&lt;/p&gt;
-
-&lt;p&gt;Sometimes YouTube videos are enough to cure curiosity or find the answer.&lt;/p&gt;
-
-&lt;p&gt;Books are great for deep topics have a lot of details in it.&lt;/p&gt;
-
-&lt;h2 id=&quot;learn-in-chunks&quot;&gt;Learn in chunks&lt;/h2&gt;
-
-&lt;p&gt;I cannot learn something at one. If I try to do it I will have to recollection of the concepts. So I prefer doing a little every day or regularly.&lt;/p&gt;
-
-&lt;p&gt;This also forces me to recall what I had previously learned.&lt;/p&gt;
-
-&lt;p&gt;So for,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Piano and Guitar: 10 Min a Day&lt;/li&gt;
-  &lt;li&gt;Technical Topics: Max 2 Pomodoros (25 min timers twice with 5-10 min break in middle)&lt;/li&gt;
-  &lt;li&gt;Books: 10-20 minutes max&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;clear-doubts-along-the-way&quot;&gt;Clear Doubts along the way&lt;/h2&gt;
-
-&lt;p&gt;If you are stuck, search for the solution.&lt;/p&gt;
-
-&lt;p&gt;Usually learning from different sources helps.&lt;/p&gt;
-
-&lt;h2 id=&quot;have-cheat-sheets&quot;&gt;Have Cheat Sheets&lt;/h2&gt;
-
-&lt;p&gt;Cheat sheets allow recalling what you have learned instantly!&lt;/p&gt;
-
-&lt;p&gt;Often googling cheatsheets is sufficient.&lt;/p&gt;
-
-&lt;h2 id=&quot;put-into-practice-fast&quot;&gt;Put into Practice Fast&lt;/h2&gt;
-
-&lt;p&gt;Deployable.&lt;/p&gt;
-
-&lt;p&gt;Record yourself.&lt;/p&gt;
-
-&lt;p&gt;Talk to other people/&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;4 Hour Chef &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">These are some strategies I use to learn any new thing including programming languages.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="devops" /><summary type="html">If you haave a separate DevOps teams, Jenkins will usually be configured by them.</summary></entry></feed>
