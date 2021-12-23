@@ -3,8 +3,8 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2021-12-12T20:52:08.052481
-last-modified-purpose: Added "Courage is calling"
+last_modified_at: 2021-12-24T20:52:08.052481
+last-modified-purpose: Paragons Added
 permalink: /my-core-vaues/
 title: My Core Values
 image: /images/my-core-values.jpg
@@ -33,7 +33,7 @@ So, pick the heaviest weight you can take and push it towards the best aim you c
 
 Taking on responsibility voluntarily/facing the heaviest fear you can face is how you'll have your life sorted.
 
-Paragons: Peter Parker (Andrew Garfield)
+Paragons: Peter Parker (Andrew Garfield), Jordan Peterson
 
 ## Nirwana/Peace
 
@@ -57,7 +57,7 @@ The only way is to let go of the outcome and to assume that whatever happens in 
 
 While dealing with people, you have to ask people multiple times to make sure they tell you everything because often humans tell white lies to not hurt your feelings.
 
-Paragons: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta
+Paragons: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 
 ## Systems Thinking
 
@@ -67,7 +67,7 @@ Systems allow you to free up your mental RAM. Systems break problems down. They 
 
 Systems can include by are not limited to: trained habits, routines, frameworks, automation, etc.
 
-Paragons: Elon Musk, Jordan Peterson
+Paragons: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman
 
 ## Inputs Matter
 
@@ -97,7 +97,7 @@ Life is short. Speed of implementation matters a lot. Being impatient can be a g
 
 Be impatient with yourself and a bit patient with others.
 
-Paragons: Elon Musk, Jordan Peterson
+Paragons: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport
 
 ## Courage is calling [^3]
 
