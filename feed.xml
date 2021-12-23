@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-23T13:15:54-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-23T13:22:56-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -527,7 +527,7 @@ It’s not right for yourself and for the other person to have this kind of skew
 
 &lt;p&gt;By default, CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep).&lt;/p&gt;
 
-&lt;p&gt;React can also do this by using css modules.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.png" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Values</title><link href="www.ankushchoubey.com/my-core-vaues/" rel="alternate" type="text/html" title="My Core Values" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-12-12T14:52:08-06:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-vaues/">&lt;p&gt;&lt;img src=&quot;/images/my-core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;React can also do this by using css modules.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.png" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Values</title><link href="www.ankushchoubey.com/my-core-vaues/" rel="alternate" type="text/html" title="My Core Values" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-12-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-vaues/">&lt;p&gt;&lt;img src=&quot;/images/my-core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In a &lt;a href=&quot;/core-values&quot;&gt;previous blog post&lt;/a&gt;, I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.&lt;/p&gt;
 
@@ -553,7 +553,7 @@ It’s not right for yourself and for the other person to have this kind of skew
 
 &lt;p&gt;Taking on responsibility voluntarily/facing the heaviest fear you can face is how you’ll have your life sorted.&lt;/p&gt;
 
-&lt;p&gt;Paragons: Peter Parker (Andrew Garfield)&lt;/p&gt;
+&lt;p&gt;Paragons: Peter Parker (Andrew Garfield), Jordan Peterson&lt;/p&gt;
 
 &lt;h2 id=&quot;nirwanapeace&quot;&gt;Nirwana/Peace&lt;/h2&gt;
 
@@ -577,7 +577,7 @@ It’s not right for yourself and for the other person to have this kind of skew
 
 &lt;p&gt;While dealing with people, you have to ask people multiple times to make sure they tell you everything because often humans tell white lies to not hurt your feelings.&lt;/p&gt;
 
-&lt;p&gt;Paragons: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta&lt;/p&gt;
+&lt;p&gt;Paragons: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson&lt;/p&gt;
 
 &lt;h2 id=&quot;systems-thinking&quot;&gt;Systems Thinking&lt;/h2&gt;
 
@@ -587,7 +587,7 @@ It’s not right for yourself and for the other person to have this kind of skew
 
 &lt;p&gt;Systems can include by are not limited to: trained habits, routines, frameworks, automation, etc.&lt;/p&gt;
 
-&lt;p&gt;Paragons: Elon Musk, Jordan Peterson&lt;/p&gt;
+&lt;p&gt;Paragons: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman&lt;/p&gt;
 
 &lt;h2 id=&quot;inputs-matter&quot;&gt;Inputs Matter&lt;/h2&gt;
 
@@ -619,7 +619,7 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
 
 &lt;p&gt;Be impatient with yourself and a bit patient with others.&lt;/p&gt;
 
-&lt;p&gt;Paragons: Elon Musk, Jordan Peterson&lt;/p&gt;
+&lt;p&gt;Paragons: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport&lt;/p&gt;
 
 &lt;h2 id=&quot;courage-is-calling-&quot;&gt;Courage is calling &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
