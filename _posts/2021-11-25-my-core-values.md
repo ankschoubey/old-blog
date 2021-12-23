@@ -33,6 +33,8 @@ So, pick the heaviest weight you can take and push it towards the best aim you c
 
 Taking on responsibility voluntarily/facing the heaviest fear you can face is how you'll have your life sorted.
 
+Paragons: Peter Parker (Andrew Garfield)
+
 ## Nirwana/Peace
 
 Being unhappy is inefficient.
@@ -42,6 +44,8 @@ Happiness/Peace is a skill that you develop and a choice that you make [^2]. You
 You need to be peaceful if you want things to be good long term. Develop detachment (not wanting) and be less judgemental. Aiming for peace requires a lot of rethinking and flipping almost everything.
 
 If you don't believe that you can achieve ultimate peace (Nirwana), you'll have a hard time finding it.
+
+Paragons: Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru
 
 ## Telling the truth and being hyper-realistic
 
@@ -53,6 +57,8 @@ The only way is to let go of the outcome and to assume that whatever happens in 
 
 While dealing with people, you have to ask people multiple times to make sure they tell you everything because often humans tell white lies to not hurt your feelings.
 
+Paragons: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta
+
 ## Systems Thinking
 
 Aims are good for setting up initial direction. But systems/processes are how you work towards them and beyond them.
@@ -60,6 +66,8 @@ Aims are good for setting up initial direction. But systems/processes are how yo
 Systems allow you to free up your mental RAM. Systems break problems down. They assure that as long as the systems are working right, the direction is right.
 
 Systems can include by are not limited to: trained habits, routines, frameworks, automation, etc.
+
+Paragons: Elon Musk, Jordan Peterson
 
 ## Inputs Matter
 
@@ -71,6 +79,8 @@ Some things to consider:
 - Information you consume.
 - People you interact with regularly.
 - Where and how you live. (#cleanYourRoom)
+
+Paragons: Ryan Holiday
 
 ## Time Matters
 
@@ -87,11 +97,15 @@ Life is short. Speed of implementation matters a lot. Being impatient can be a g
 
 Be impatient with yourself and a bit patient with others.
 
+Paragons: Elon Musk, Jordan Peterson
+
 ## Courage is calling [^3]
 
 This is probably the most important value that supports all others. It takes courage to tell the truth, act responsibly, detach yourself to be peaceful, build and trusting long term systems, and break the spell of wasting time. And the courage of following the plan and push yourself when time comes. 
 
 Everything worth while is an act of courage.
+
+Paragons: Jocko Willink, Son Goku, Monkey D Luffy, Naruto, Batman
 
 [^1]: Jordan B Peterson
 [^2]: Naval Ravikant
