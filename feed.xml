@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-24T06:34:24-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-24T06:37:23-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -125,7 +125,99 @@ Search for libraries that make easier to test&lt;/p&gt;
 
 &lt;p&gt;What to test&lt;/p&gt;
 
-&lt;p&gt;Fix the inputs and chekc the output&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/organize-test-casest/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/organize-test-cases</id><content type="html" xml:base="www.ankushchoubey.com/organize-test-casest/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Fix the inputs and chekc the output&lt;/p&gt;
+
+&lt;p&gt;Assume that the test is working
+fix compilation error&lt;/p&gt;
+
+&lt;p&gt;The Three Laws of TDD&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;You are not allowed to write any production code unless it is to make a failing unit test pass.&lt;/li&gt;
+  &lt;li&gt;You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.&lt;/li&gt;
+  &lt;li&gt;You are not allowed to write any more production code than is sufficient to pass the one failing unit test.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;given when then&lt;/p&gt;
+
+&lt;p&gt;In intellij press Ctrl + Shift + T
+for vs code : https://marketplace.visualstudio.com/items?itemName=Acino.jump-source&lt;/p&gt;
+
+&lt;p&gt;https://spring.io/guides
+https://daveceddia.com/what-to-test-in-react-app/
+https://daveceddia.com/getting-started-with-tdd-in-react/&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/dev-checklist/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/development-checklist</id><content type="html" xml:base="www.ankushchoubey.com/dev-checklist/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;ui-checklist&quot;&gt;UI Checklist&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Write Jest test cases.&lt;/li&gt;
+  &lt;li&gt;these need not be complete but write something&lt;/li&gt;
+  &lt;li&gt;test if all the props are doing right behavior&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;don’t test anything that does not belong to the file&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Write UI and Pass Test Cases&lt;/li&gt;
+  &lt;li&gt;Verify/Update CSS to be exactly like that in VDI (Zeplin)&lt;/li&gt;
+  &lt;li&gt;rebase/push&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;backend-checklist&quot;&gt;Backend Checklist&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Write Test Cases&lt;/li&gt;
+  &lt;li&gt;Make changes&lt;/li&gt;
+  &lt;li&gt;Update documentation/swagger things&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/organize-test-casest/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/organize-test-cases</id><content type="html" xml:base="www.ankushchoubey.com/organize-test-casest/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -722,83 +814,4 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
       &lt;p&gt;The phrase “Courage is calling” is from Ryan Holiday’s book of the same name. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/my-core-values.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/my-core-values.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Typescript</title><link href="www.ankushchoubey.com/typescript" rel="alternate" type="text/html" title="Typescript" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-12-01T14:52:08-06:00</updated><id>www.ankushchoubey.com/typescript</id><content type="html" xml:base="www.ankushchoubey.com/typescript">&lt;p&gt;&lt;img src=&quot;/images/typescript.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Typescript is probably my favorite programming language. Switching from typescript to javascript should save around 60% of a developers time.&lt;/p&gt;
-
-&lt;p&gt;There are many reasons for it which I’ll try to present in this post.&lt;/p&gt;
-
-&lt;h2 id=&quot;typescript&quot;&gt;Typescript&lt;/h2&gt;
-
-&lt;p&gt;Typescript is a super set of Javascript which means everything which is available in Javascript is automatically available in Typescript.&lt;/p&gt;
-
-&lt;p&gt;Typescript only adds a few extra features which are convenient for developers.&lt;/p&gt;
-
-&lt;h2 id=&quot;typechecks&quot;&gt;Typechecks&lt;/h2&gt;
-
-&lt;p&gt;Probably the main reason to use typescript is this.&lt;/p&gt;
-
-&lt;p&gt;Having typechecks remove unneccesary errors. Types makes code more predictable.&lt;/p&gt;
-
-&lt;p&gt;Dynamically typed programming language have bad IDE support.&lt;/p&gt;
-
-&lt;p&gt;VS Code has fantastic support for Typescript with typeaheads which are and will probably always be missing with Javascript.&lt;/p&gt;
-
-&lt;h2 id=&quot;everything-is-configurable&quot;&gt;Everything is configurable.&lt;/h2&gt;
-
-&lt;p&gt;Every typescript project has a “tsconfig.json” file which can be used to control everything typescript can do.&lt;/p&gt;
-
-&lt;p&gt;These include but are not limited to:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Where to put the final output&lt;/li&gt;
-  &lt;li&gt;Ability to choose how strict the language is aka enable/disable following
-    &lt;ul&gt;
-      &lt;li&gt;null checks&lt;/li&gt;
-      &lt;li&gt;any assignments&lt;/li&gt;
-      &lt;li&gt;etc&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Shortcut paths&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;typescript-compiles-to-js&quot;&gt;Typescript compiles to JS&lt;/h2&gt;
-
-&lt;p&gt;You don’t miss anything with typescript because in the end it compiles down to javascript.&lt;/p&gt;
-
-&lt;p&gt;You can choose which version of javascript to compile into from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tsconfig.json&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;h2 id=&quot;typescript-works-fantastically-with-many-libraries-are-framework&quot;&gt;Typescript works fantastically with many libraries are framework.&lt;/h2&gt;
-
-&lt;p&gt;Both major web libraries (React and Angular) support typescript.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to-transition-from-js-to-ts&quot;&gt;How to transition from js to ts.&lt;/h2&gt;
-
-&lt;p&gt;When you have a large application with lots of connected pieces, it makes sense to have connections between them standard.&lt;/p&gt;
-
-&lt;p&gt;So that as the application grows, the connections stay strong. And if parameters in a connection changes, it can be detected and changed at all places that use the connection.&lt;/p&gt;
-
-&lt;p&gt;This is missing in Dynamically typed languages like Javascript. But is available with a static checker like typescript.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Typescript does only a few things:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Applies types and checks them&lt;/li&gt;
-  &lt;li&gt;Checks code quality to a level desired&lt;/li&gt;
-  &lt;li&gt;Compiles to JS version of your choice.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;
-
-&lt;p&gt;There are tools available that allow migration like ts-migrate https://github.com/airbnb/ts-migrate
-but ts can be used along with existing js code too.&lt;/p&gt;
-
-&lt;p&gt;My recommendation is always, if you try to create a new project, use typescript.&lt;/p&gt;
-
-&lt;p&gt;https://www.reddit.com/r/typescript/comments/n0w2k7/how_to_go_about_convincing_team_to_buy_into_ts/
-https://news.ycombinator.com/item?id=18591424
-https://dev.to/andyrewlee/how-to-convince-team-to-adopt-typescript-323a
-https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/typescript.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/typescript.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/my-core-values.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/my-core-values.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
