@@ -66,6 +66,7 @@ These are habits that have or I am trying to develop to make my core values seco
 - Work on most important task and push yourself.
 - Avoid slipups and stand back up quickly after one.
 - Do the right thing because it is the right thing. Let go of the outcome.
+- Requires attitude of being a monster
 
 ## Time Matters
 - Remember you can't live forever
