@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-24T06:02:19-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-24T06:34:24-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -47,7 +47,85 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/organize-test-casest/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/organize-test-cases</id><content type="html" xml:base="www.ankushchoubey.com/organize-test-casest/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Software engineering isn’t only about code. It’s engineering&lt;/p&gt;
+
+&lt;p&gt;TDD need not be a big deal. It can seem cubersome but there are mindsets and tools that can make transition smoother.&lt;/p&gt;
+
+&lt;p&gt;TDD is shown to reduce defectsby a large margin. Tests will save you time in the long run.&lt;/p&gt;
+
+&lt;p&gt;There are my initial thoughts on test driven development.&lt;/p&gt;
+
+&lt;p&gt;Using testing first development as a todo list of things to do. (Verify testing is better)&lt;/p&gt;
+
+&lt;p&gt;Usually testing is cumbersome because:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Testing is extra code
+You have to switch between current code and tests
+    &lt;ul&gt;
+      &lt;li&gt;you have to rerun tests&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;On local: have tests run automatically after each save&lt;/p&gt;
+
+&lt;p&gt;Given when tehn
+Search for libraries that make easier to test&lt;/p&gt;
+
+&lt;p&gt;What to test&lt;/p&gt;
+
+&lt;p&gt;Fix the inputs and chekc the output&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/organize-test-casest/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/organize-test-cases</id><content type="html" xml:base="www.ankushchoubey.com/organize-test-casest/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -628,7 +706,7 @@ Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That�
 
 &lt;p&gt;Everything worth while is an act of courage.&lt;/p&gt;
 
-&lt;p&gt;Courage is exciting. It pushes to act beyond what one believes is possible.&lt;/p&gt;
+&lt;p&gt;Courage is exciting. It pushes to act beyond what one believes is possible. So get excited by the challenge and push yourself beyond what you think is possible.&lt;/p&gt;
 
 &lt;p&gt;Paragons: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman&lt;/p&gt;
 
@@ -723,12 +801,4 @@ but ts can be used along with existing js code too.&lt;/p&gt;
 &lt;p&gt;https://www.reddit.com/r/typescript/comments/n0w2k7/how_to_go_about_convincing_team_to_buy_into_ts/
 https://news.ycombinator.com/item?id=18591424
 https://dev.to/andyrewlee/how-to-convince-team-to-adopt-typescript-323a
-https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/typescript.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/typescript.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Everyone is flawed</title><link href="www.ankushchoubey.com/everyone-flawed/" rel="alternate" type="text/html" title="Everyone is flawed" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-11-15T14:52:08-06:00</updated><id>www.ankushchoubey.com/everyone-is-flawed</id><content type="html" xml:base="www.ankushchoubey.com/everyone-flawed/">&lt;p&gt;This is rewording of &lt;a href=&quot;h/black_white/&quot;&gt;Opinions/Events are not black and white.&lt;/a&gt; applied to people,&lt;/p&gt;
-
-&lt;p&gt;Everyone is stupid. Everyone is genius. Everyone is flawed. #World is random.&lt;/p&gt;
-
-&lt;p&gt;There is no perfect being. If you think someone is perfect, you probably don’t know them enough or you’re probably still a child.&lt;/p&gt;
-
-&lt;p&gt;Everyone is dealing the cards they have been given the best way then can.&lt;/p&gt;
-
-&lt;p&gt;And social media is mostly fake.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="short" /><summary type="html">This is rewording of Opinions/Events are not black and white. applied to people,</summary></entry></feed>
+https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/typescript.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/typescript.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
