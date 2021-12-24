@@ -84,6 +84,13 @@ https://dev.to/andyrewlee/how-to-convince-team-to-adopt-typescript-323a
 https://www.typescriptlang.org/why-create-typescript
 
 
+we need typescript because specially as project gets
+- gets bigger
+- get older
+- Lots of people work
+- has more developers working on it
+
+
 [^1]: Fireship.io
 [^2]: Typescript.com
 [^3]: Guide of transitioning
