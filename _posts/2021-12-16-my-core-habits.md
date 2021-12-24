@@ -60,7 +60,7 @@ These are habits that have or I am trying to develop to make my core values seco
 - Talk to different people
 
 
-## Courage is Calling
+## Courage is Calling (Courage is exciting)
 - Exercise
 - Cold Shower
 - Work on most important task and push yourself.

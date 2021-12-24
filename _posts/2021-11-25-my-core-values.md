@@ -105,7 +105,9 @@ This is probably the most important value that supports all others. It takes cou
 
 Everything worth while is an act of courage.
 
-Paragons: Jocko Willink, Son Goku, Monkey D Luffy, Naruto, Batman
+Courage is exciting. It pushes to act beyond what one believes is possible. 
+
+Paragons: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
 
 [^1]: Jordan B Peterson
 [^2]: Naval Ravikant
