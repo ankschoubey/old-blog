@@ -105,7 +105,7 @@ This is probably the most important value that supports all others. It takes cou
 
 Everything worth while is an act of courage.
 
-Courage is exciting. It pushes to act beyond what one believes is possible. 
+Courage is exciting. It pushes to act beyond what one believes is possible. So get excited by the challenge and push yourself beyond what you think is possible.
 
 Paragons: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
 
