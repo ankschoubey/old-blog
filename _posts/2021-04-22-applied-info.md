@@ -24,6 +24,8 @@ By applying information faster, you will solve your problems faster or at-least 
   
 The information that is not applied will be forgotten.
 
+You don't always have time to sit and learn/consume something end to end. There is a high need for having on site learning mindset. Because it is the most optimal in terms of learning, applying and time.
+
 ## Just in Case vs Just in Time
 
 We fall into trap of consuming "just in case" information which we believe will be useful someday. Unless we are learning for fun, we should ideally focus on "just in time" information.
