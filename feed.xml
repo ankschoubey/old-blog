@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-25T04:40:45-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Blank Screen Problem</title><link href="www.ankushchoubey.com/blank-screen-problem/" rel="alternate" type="text/html" title="Blank Screen Problem" /><published>2050-12-25T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/blank-screen-problem</id><content type="html" xml:base="www.ankushchoubey.com/blank-screen-problem/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-26T12:00:47-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
+
+&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blank Screen Problem</title><link href="www.ankushchoubey.com/blank-screen-problem/" rel="alternate" type="text/html" title="Blank Screen Problem" /><published>2021-12-25T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/blank-screen-problem</id><content type="html" xml:base="www.ankushchoubey.com/blank-screen-problem/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -54,56 +105,7 @@
 &lt;p&gt;Solving Blank screen problem
 Design Document
 Todo List
-Test First Development&lt;/p&gt;</content><author><name></name></author><category term="programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+Test First Development&lt;/p&gt;</content><author><name></name></author><category term="programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -670,23 +672,36 @@ It’s not right for yourself and for the other person to have this kind of skew
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Rely of decision making frameworks&lt;/li&gt;
-  &lt;li&gt;Detach and prioritize&lt;/li&gt;
+  &lt;li&gt;Detach and prioritize
+    &lt;ul&gt;
+      &lt;li&gt;Detach specially if you are feeling impulsive/irritated/too high emotion.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;Love everything that happens (Amor Fati)&lt;/li&gt;
   &lt;li&gt;Is this worth your time and mental strain&lt;/li&gt;
   &lt;li&gt;Have activites be complete in themselves. You do it not because you want to gain something else from it.&lt;/li&gt;
+  &lt;li&gt;Don’t treat anything/anyone as priced possession&lt;/li&gt;
+  &lt;li&gt;have a gratitude practice (like 5 minute journal)&lt;/li&gt;
+  &lt;li&gt;Hard choices easy life. Easy choices hard life.&lt;/li&gt;
+  &lt;li&gt;Compare yourself to who you were yesterday not to who someone else is today.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;systems&quot;&gt;Systems&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Break down everything into small chunks. What’s the smallest thing I can do to move a step forward. 1% Better&lt;/li&gt;
+  &lt;li&gt;Break down everything into small chunks. What’s the smallest thing I can do to move a step forward. 1% Better
+    &lt;ul&gt;
+      &lt;li&gt;Rule of thumb: if you are stuck. break task into steps recursively.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;telling-the-truth-and-being-hyper-realistic&quot;&gt;Telling the truth and being hyper realistic&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Tell the truth&lt;/li&gt;
-  &lt;li&gt;Speak up&lt;/li&gt;
+  &lt;li&gt;Tell the truth. Speak up&lt;/li&gt;
+  &lt;li&gt;Ask the truth. (some people use different words to hint. yeah it’s weird)&lt;/li&gt;
   &lt;li&gt;Read diffucult books&lt;/li&gt;
   &lt;li&gt;Talk to different people&lt;/li&gt;
+  &lt;li&gt;Act so that you can tell the truth about how you act.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;courage-is-calling-courage-is-exciting&quot;&gt;Courage is Calling (Courage is exciting)&lt;/h2&gt;
@@ -697,6 +712,7 @@ It’s not right for yourself and for the other person to have this kind of skew
   &lt;li&gt;Avoid slipups and stand back up quickly after one.&lt;/li&gt;
   &lt;li&gt;Do the right thing because it is the right thing. Let go of the outcome.&lt;/li&gt;
   &lt;li&gt;Requires attitude of being a monster&lt;/li&gt;
+  &lt;li&gt;Do what’s toughest in the short term.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;time-matters&quot;&gt;Time Matters&lt;/h2&gt;
