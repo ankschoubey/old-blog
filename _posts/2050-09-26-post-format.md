@@ -12,7 +12,9 @@ image: /images/n-plus-one.svg
 ---
 ![](/images/switch-jobs.jpg)
 
-## Writting Steps
+## Writing Steps
+
+If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I'll always have the right words to write.
 
 | Task                        | Done |
 |-----------------------------|------|

@@ -44,20 +44,26 @@ These are habits that have or I am trying to develop to make my core values seco
     - Choose your damn limitation
 - Rely of decision making frameworks
 - Detach and prioritize
+    - Detach specially if you are feeling impulsive/irritated/too high emotion.
 - Love everything that happens (Amor Fati)
 - Is this worth your time and mental strain
 - Have activites be complete in themselves. You do it not because you want to gain something else from it.
-
+- Don't treat anything/anyone as priced possession
+- have a gratitude practice (like 5 minute journal)
+- Hard choices easy life. Easy choices hard life.
+- Compare yourself to who you were yesterday not to who someone else is today.
 
 ## Systems
 - Break down everything into small chunks. What's the smallest thing I can do to move a step forward. 1% Better
+    - Rule of thumb: if you are stuck. break task into steps recursively.
 
 
 ## Telling the truth and being hyper realistic
-- Tell the truth
-- Speak up
+- Tell the truth. Speak up
+- Ask the truth. (some people use different words to hint. yeah it's weird)
 - Read diffucult books
 - Talk to different people
+- Act so that you can tell the truth about how you act.
 
 
 ## Courage is Calling (Courage is exciting)
@@ -67,6 +73,7 @@ These are habits that have or I am trying to develop to make my core values seco
 - Avoid slipups and stand back up quickly after one.
 - Do the right thing because it is the right thing. Let go of the outcome.
 - Requires attitude of being a monster
+- Do what's toughest in the short term.
 
 ## Time Matters
 - Remember you can't live forever

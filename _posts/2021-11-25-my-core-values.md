@@ -13,7 +13,7 @@ image: /images/my-core-values.jpg
 
 In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.
 
-I want things to be as "sorted" as possible without being super involved. In this post, you'll find some ways to have things sorted. 
+I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values. They are my best bet. In this post, you'll find some ways to have things sorted. 
 
 1. Responsibility
 2. Nirwana/Peace
@@ -109,6 +109,11 @@ Courage is exciting. It pushes to act beyond what one believes is possible. So g
 
 Paragons: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
 
+***
+
+I am trying make these values my second nature by forming habits. The ideal goal is identity level change [^4] but it will take time which is why I haven't published my post on it. You can read the draft version though: [My core habits](/core-habits).
+
 [^1]: Jordan B Peterson
 [^2]: Naval Ravikant
 [^3]: The phrase "Courage is calling" is from Ryan Holiday's book of the same name.
+[^4]: Atomic Habits
