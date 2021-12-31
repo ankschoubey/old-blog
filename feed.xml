@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-26T12:00:47-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2021-12-31T12:07:59-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -102,10 +102,15 @@
 
 &lt;p&gt;The blank screen problem is when you don’t know where to start writing.&lt;/p&gt;
 
+&lt;p&gt;Plan
+Features&lt;/p&gt;
+
 &lt;p&gt;Solving Blank screen problem
 Design Document
 Todo List
-Test First Development&lt;/p&gt;</content><author><name></name></author><category term="programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+Test First Development&lt;/p&gt;
+
+&lt;p&gt;Documentation/Wiki&lt;/p&gt;</content><author><name></name></author><category term="programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -275,7 +280,58 @@ https://daveceddia.com/getting-started-with-tdd-in-react/&lt;/p&gt;</content><au
   &lt;li&gt;Write Test Cases&lt;/li&gt;
   &lt;li&gt;Make changes&lt;/li&gt;
   &lt;li&gt;Update documentation/swagger things&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/organize-test-casest/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/organize-test-cases</id><content type="html" xml:base="www.ankushchoubey.com/organize-test-casest/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Developer Habit: User wiki</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Core Developer Habit: User wiki" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/use-wiki</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
+
+&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/organize-test-casest/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/organize-test-cases</id><content type="html" xml:base="www.ankushchoubey.com/organize-test-casest/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -370,7 +426,58 @@ class IntegerRandom{&lt;/p&gt;
 
 &lt;p&gt;Have good variable names&lt;/p&gt;
 
-&lt;p&gt;if it is a variable which is bad, prefix it with bad&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Typescript tip: Typed API Interfaces/classes</title><link href="www.ankushchoubey.com/typescript-typed-interfaces/" rel="alternate" type="text/html" title="Typescript tip: Typed API Interfaces/classes" /><published>2021-12-21T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/typescript-with-backend</id><content type="html" xml:base="www.ankushchoubey.com/typescript-typed-interfaces/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;if it is a variable which is bad, prefix it with bad&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Web Development Tip - Look at DOM</title><link href="www.ankushchoubey.com/look-at-dom/" rel="alternate" type="text/html" title="Web Development Tip - Look at DOM" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/look-at-dom</id><content type="html" xml:base="www.ankushchoubey.com/look-at-dom/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
+
+&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Typescript tip: Typed API Interfaces/classes</title><link href="www.ankushchoubey.com/typescript-typed-interfaces/" rel="alternate" type="text/html" title="Typescript tip: Typed API Interfaces/classes" /><published>2021-12-21T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/typescript-with-backend</id><content type="html" xml:base="www.ankushchoubey.com/typescript-typed-interfaces/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -527,6 +634,14 @@ It’s not right for yourself and for the other person to have this kind of skew
 
 &lt;p&gt;If it’s too high in positive, reduce your effort even more. It’s the only way to make sure things are okay.&lt;/p&gt;
 
+&lt;p&gt;Example 2:&lt;/p&gt;
+
+&lt;p&gt;Can be using for production/consuption of technology/content.&lt;/p&gt;
+
+&lt;p&gt;Ideally you don’t want to waste all your time just consuming information/or just enjoying. You have to put in the work.&lt;/p&gt;
+
+&lt;p&gt;+1 each time you consume. -1 each time you produce something aim for 0. reset every week or two weeks or month.&lt;/p&gt;
+
 &lt;h2 id=&quot;avoid-grey-area&quot;&gt;Avoid grey area&lt;/h2&gt;
 
 &lt;p&gt;and have to courage to move on.&lt;/p&gt;
@@ -535,7 +650,31 @@ It’s not right for yourself and for the other person to have this kind of skew
 
 &lt;p&gt;move on&lt;/p&gt;
 
-&lt;h2 id=&quot;figure-out-what-does-not-need-a-decision-and-skip-it&quot;&gt;Figure out what does not need a decision and skip it&lt;/h2&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Responsibility</title><link href="www.ankushchoubey.com/responsibility/" rel="alternate" type="text/html" title="Responsibility" /><published>2021-12-17T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/responsibility</id><content type="html" xml:base="www.ankushchoubey.com/responsibility/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;figure-out-what-does-not-need-a-decision-and-skip-it&quot;&gt;Figure out what does not need a decision and skip it&lt;/h2&gt;
+
+&lt;h2 id=&quot;as-long-as-x-nothing-matters&quot;&gt;As long as X, nothing matters,&lt;/h2&gt;
+
+&lt;p&gt;as long as code is clearer, deleting/refactoring code does not matter,&lt;/p&gt;
+
+&lt;p&gt;as long as truth is found/told, nothing else matters.&lt;/p&gt;
+
+&lt;p&gt;as long as I am peaceful, nothing matters.&lt;/p&gt;
+
+&lt;h2 id=&quot;listen-to-your-conscience&quot;&gt;Listen to your conscience&lt;/h2&gt;
+
+&lt;p&gt;Whole body yes. You are the same space of making decisions. You want things to be intuitive. if you are doing something and you feel it in you or your conscience says to do something, listen to it. The critic.&lt;/p&gt;
+
+&lt;h2 id=&quot;take-decision-at-80-confidence&quot;&gt;Take decision at 80% confidence.&lt;/h2&gt;
+
+&lt;p&gt;Mindset.&lt;/p&gt;
+
+&lt;p&gt;What are you trying to not say. What are you trying to not do.&lt;/p&gt;
+
+&lt;p&gt;What are you not speaking up againt rules over you.&lt;/p&gt;
+
+&lt;p&gt;Failure is success over long run as long as it is reversable. It bad to not take risks. It;s only okay is you take rists.&lt;/p&gt;
+
+&lt;p&gt;If you make progress 80% of the time. that good enough. You don’t need perfect streak.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Responsibility</title><link href="www.ankushchoubey.com/responsibility/" rel="alternate" type="text/html" title="Responsibility" /><published>2021-12-17T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/responsibility</id><content type="html" xml:base="www.ankushchoubey.com/responsibility/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -598,176 +737,4 @@ It’s not right for yourself and for the other person to have this kind of skew
   &lt;li&gt;A few core habits surrounding a value.&lt;/li&gt;
   &lt;li&gt;People to look up to who best seem to be support these values.&lt;/li&gt;
   &lt;li&gt;Checks to see if value is being held or not.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="personal" /><category term="core-values" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Habits</title><link href="www.ankushchoubey.com/core-habits/" rel="alternate" type="text/html" title="My Core Habits" /><published>2021-12-16T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/my-core-habits</id><content type="html" xml:base="www.ankushchoubey.com/core-habits/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;These are habits that have or I am trying to develop to make my core values second nature. I want these to be intuitive without hard and extremely strict rules.&lt;/p&gt;
-
-&lt;h2 id=&quot;responsibility&quot;&gt;Responsibility&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Take care of yourself like someone you take care of: Ultimate Responsibility.&lt;/li&gt;
-  &lt;li&gt;Define what’s not your responsibility
-    &lt;ul&gt;
-      &lt;li&gt;Over worrting/trying to solve other people problem/forcing them to change is not your responsibility. Though you can serve as an example.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Listen to your conscience (the critic), what’s the things in front of you (however small) that you haven’t fix? Fix them. Fix the smallest first.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;peace&quot;&gt;Peace&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Judge Less&lt;/li&gt;
-  &lt;li&gt;Empty your mind&lt;/li&gt;
-  &lt;li&gt;Reframe Everything
-    &lt;ul&gt;
-      &lt;li&gt;Choose your damn limitation&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Rely of decision making frameworks&lt;/li&gt;
-  &lt;li&gt;Detach and prioritize
-    &lt;ul&gt;
-      &lt;li&gt;Detach specially if you are feeling impulsive/irritated/too high emotion.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Love everything that happens (Amor Fati)&lt;/li&gt;
-  &lt;li&gt;Is this worth your time and mental strain&lt;/li&gt;
-  &lt;li&gt;Have activites be complete in themselves. You do it not because you want to gain something else from it.&lt;/li&gt;
-  &lt;li&gt;Don’t treat anything/anyone as priced possession&lt;/li&gt;
-  &lt;li&gt;have a gratitude practice (like 5 minute journal)&lt;/li&gt;
-  &lt;li&gt;Hard choices easy life. Easy choices hard life.&lt;/li&gt;
-  &lt;li&gt;Compare yourself to who you were yesterday not to who someone else is today.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;systems&quot;&gt;Systems&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Break down everything into small chunks. What’s the smallest thing I can do to move a step forward. 1% Better
-    &lt;ul&gt;
-      &lt;li&gt;Rule of thumb: if you are stuck. break task into steps recursively.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;telling-the-truth-and-being-hyper-realistic&quot;&gt;Telling the truth and being hyper realistic&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Tell the truth. Speak up&lt;/li&gt;
-  &lt;li&gt;Ask the truth. (some people use different words to hint. yeah it’s weird)&lt;/li&gt;
-  &lt;li&gt;Read diffucult books&lt;/li&gt;
-  &lt;li&gt;Talk to different people&lt;/li&gt;
-  &lt;li&gt;Act so that you can tell the truth about how you act.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;courage-is-calling-courage-is-exciting&quot;&gt;Courage is Calling (Courage is exciting)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Exercise&lt;/li&gt;
-  &lt;li&gt;Cold Shower&lt;/li&gt;
-  &lt;li&gt;Work on most important task and push yourself.&lt;/li&gt;
-  &lt;li&gt;Avoid slipups and stand back up quickly after one.&lt;/li&gt;
-  &lt;li&gt;Do the right thing because it is the right thing. Let go of the outcome.&lt;/li&gt;
-  &lt;li&gt;Requires attitude of being a monster&lt;/li&gt;
-  &lt;li&gt;Do what’s toughest in the short term.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;time-matters&quot;&gt;Time Matters&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Remember you can’t live forever&lt;/li&gt;
-  &lt;li&gt;Complete things on a daily bases&lt;/li&gt;
-  &lt;li&gt;Don’t wait for more than 5 minutes if you texted and not available. 3 min is better.&lt;/li&gt;
-  &lt;li&gt;Ask yourself is this essential&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I waste time mostly in these ways:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Waiting for circumstances to be right before taking action.
-    &lt;ul&gt;
-      &lt;li&gt;The best time to take action was yesterday, the second best time is today.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Over-caring what other people think.&lt;/li&gt;
-  &lt;li&gt;Being too emotional&lt;/li&gt;
-  &lt;li&gt;Constantly changing direction completely for no apparent reason&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Angular and React Comparison</title><link href="www.ankushchoubey.com/angular-react-comparison/" rel="alternate" type="text/html" title="Angular and React Comparison" /><published>2021-12-04T00:00:00-06:00</published><updated>2021-12-04T14:52:08-06:00</updated><id>www.ankushchoubey.com/angular-react-comparison</id><content type="html" xml:base="www.ankushchoubey.com/angular-react-comparison/">&lt;p&gt;&lt;img src=&quot;/images/angular-react-comparison.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Angular and React though they are competitors aren’t in a completely fair league. This is because one is a full-fledged framework and one is not. It may be better to compare Angular with a React framework like Next.js.&lt;/p&gt;
-
-&lt;p&gt;There are things I like about both.&lt;/p&gt;
-
-&lt;h2 id=&quot;language&quot;&gt;Language&lt;/h2&gt;
-
-&lt;p&gt;Angular comes with typescript by default. Typescript is much more superior to JS. React can be used with typescript too but it’s a developer’s choice.&lt;/p&gt;
-
-&lt;h2 id=&quot;react-is-easy-to-get-started&quot;&gt;React is easy to get started&lt;/h2&gt;
-
-&lt;p&gt;Especially with functional components, getting started with react is too easy.&lt;/p&gt;
-
-&lt;h2 id=&quot;react-has-too-many-little-things-to-take-care-of&quot;&gt;React has too many little things to take care of.&lt;/h2&gt;
-
-&lt;p&gt;Strength can be a weakness or one could say React isn’t a full framework.&lt;/p&gt;
-
-&lt;p&gt;React has too much to learn. And every project is essentially different.&lt;/p&gt;
-
-&lt;p&gt;Angular comes with preferred ways of doing things which I like more than base React. Angular has everything important built-in. So you’ll find every Angular project uses the same set of libraries for common tasks like rest call (HttpClient). There is less to learn and remember.&lt;/p&gt;
-
-&lt;p&gt;You essentially want to reduce knowing a lot of things so that you can focus on getting stuff done.&lt;/p&gt;
-
-&lt;h2 id=&quot;code-cleanliness&quot;&gt;Code Cleanliness&lt;/h2&gt;
-
-&lt;p&gt;Assuming React is used with Typescript, functional react with hooks is a much better way of creating components than class-based React and Angular.&lt;/p&gt;
-
-&lt;p&gt;Plus I like JSX (React) than HTML templating(Angular), it’s concise and there is less to remember. HTML templating in angular requires remembering an additional set of code (ngFor, ngIf, etc). In JSX, it’s the same language used while creating components.&lt;/p&gt;
-
-&lt;p&gt;The code structure is much better in angular projects.&lt;/p&gt;
-
-&lt;p&gt;Every angular project is structured similarly.&lt;/p&gt;
-
-&lt;p&gt;By default, CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep).&lt;/p&gt;
-
-&lt;p&gt;React can also do this by using css modules.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.png" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="personal" /><category term="core-values" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
