@@ -59,6 +59,14 @@ In case it's positive, wait, reduce your efforts, spend time during something el
 
 If it's too high in positive, reduce your effort even more. It's the only way to make sure things are okay.
 
+Example 2:
+
+Can be using for production/consuption of technology/content.
+
+Ideally you don't want to waste all your time just consuming information/or just enjoying. You have to put in the work. 
+
++1 each time you consume. -1 each time you produce something aim for 0. reset every week or two weeks or month.
+
 ## Avoid grey area
 
 and have to courage to move on.
@@ -68,3 +76,28 @@ If you are in grey area, you may have already lost. You'll try to rationalize an
 move on
 
 ## Figure out what does not need a decision and skip it
+
+
+## As long as X, nothing matters,
+
+as long as code is clearer, deleting/refactoring code does not matter,
+
+as long as truth is found/told, nothing else matters.
+
+as long as I am peaceful, nothing matters.
+
+## Listen to your conscience
+
+Whole body yes. You are the same space of making decisions. You want things to be intuitive. if you are doing something and you feel it in you or your conscience says to do something, listen to it. The critic. 
+
+## Take decision at 80% confidence.
+
+Mindset.
+
+What are you trying to not say. What are you trying to not do.
+
+What are you not speaking up againt rules over you.
+
+Failure is success over long run as long as it is reversable. It bad to not take risks. It;s only okay is you take rists.
+
+If you make progress 80% of the time. that good enough. You don't need perfect streak.

@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Tell the truth. See the truth. Listen to the truth. Test the truth.
-categories: [philosophical, for-future-me]
+categories: [philosophical, for-future-me, draft]
 title: Tell the Truth. Speak your mind.
 permalink: /truth/
 last_modified_at: 2021-08-01T20:42:15.616720
@@ -83,3 +83,17 @@ By framing make sure your express the intend of solving the problem else your sp
 # Tell the truth. See the truth. Listen to the truth. Test the truth.
 
 Speak out the truth. See the truth. ....
+
+# Looking at Truth
+
+Reduce ego to see and accept what's true
+
+Don't just look at works. Look at actions and patterns overtime. With yourself and in others. Action is the only truth in yourself and in others. You can ask questions to yoruself and others to gain clarity or tell them what you are thinking based on their actions.
+
+Without thinnking anything/adding biases. Try to think like another person wood.
+
+Thinking in questions: TDD
+
+Simplest explaination?
+
+Further Reading Naval Ravikant

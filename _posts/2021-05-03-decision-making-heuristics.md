@@ -44,6 +44,20 @@ Your brain is likely compensating short term hard right path for an easy path. E
 
 You can only continue to make good decisions if you have a peace of mind. If it violates your consens, say no.
 
+## Let others make there own decisions
+
+Mind your own decisions
+
+## Delay the impulsive decision by 30 minutes or an hour or a day
+
+Don't be implulsive
+
+## Be decisive
+
+Every decision is choosing one thing over other things.  You won't always have 100% information.
+
+Be decisive: Temporary fix to a temporary problem becomes a permanent problem.
+
 ## Metrics
 
 # Extreme decision are rarely good.

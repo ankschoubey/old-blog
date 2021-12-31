@@ -1,18 +1,20 @@
 ---
 layout: post
 comments: true
-description: Need for designing document
-categories: [programming]
+description:
+categories: [draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /blank-screen-problem/
-title: Blank Screen Problem
+permalink: /look-at-dom/
+title: Web Development Tip - Look at DOM
 hide: true
 image: /images/n-plus-one.svg
 ---
 ![](/images/switch-jobs.jpg)
 
-## Writting Steps
+## Writing Steps
+
+If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I'll always have the right words to write.
 
 | Task                        | Done |
 |-----------------------------|------|
@@ -25,15 +27,3 @@ image: /images/n-plus-one.svg
 | Links to Other Posts if Any | N    |
 | Tags Added                  | N    |
 | Released Publically         | N    |
-
-The blank screen problem is when you don't know where to start writing.
-
-Plan
-Features
-
-Solving Blank screen problem
-Design Document
-Todo List
-Test First Development
-
-Documentation/Wiki

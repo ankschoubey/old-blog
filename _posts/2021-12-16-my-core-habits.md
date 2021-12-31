@@ -53,6 +53,12 @@ These are habits that have or I am trying to develop to make my core values seco
 - Hard choices easy life. Easy choices hard life.
 - Compare yourself to who you were yesterday not to who someone else is today.
 
+
+Questions:
+
+How much of your brain is in your controll?
+How much of your decision is completely under your controll?
+
 ## Systems
 - Break down everything into small chunks. What's the smallest thing I can do to move a step forward. 1% Better
     - Rule of thumb: if you are stuck. break task into steps recursively.
