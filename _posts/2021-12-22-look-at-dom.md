@@ -2,28 +2,17 @@
 layout: post
 comments: true
 description:
-categories: [draft]
+categories: [web-development]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
 permalink: /look-at-dom/
-title: Web Development Tip - Look at DOM
-hide: true
-image: /images/n-plus-one.svg
+title: Web Development Tip - Reverse Engineer by looking at DOM
 ---
-![](/images/switch-jobs.jpg)
 
-## Writing Steps
+This is probably the most simple web development tip. I discovered this while trying to custom build a PDF annotation component.
 
-If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I'll always have the right words to write.
+I looked at Box.com and it's DOM through Chrome's developer tool.
 
-| Task                        | Done |
-|-----------------------------|------|
-| Structure Done              | N    |
-| Thoughts Written            | N    |
-| Thoughts Edited             | N    |
-| Grammar Check Done          | N    |
-| Perfect Grammarly Score:    | N    |
-| Image Added  https://www.canva.com/                | N    |
-| Links to Other Posts if Any | N    |
-| Tags Added                  | N    |
-| Released Publically         | N    |
+That gave me a idea of how it might have been done.
+
+That allowed to reverse engineer and build the annotation feature which worked when zooming in, out and adding new annotations.
