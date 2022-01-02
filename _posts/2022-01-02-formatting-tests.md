@@ -108,10 +108,9 @@ Assert Responses -> then
 
 This is a useful guideline which applies to a normal clean code too.
 
-
 ## Assertions
 
-Best Practice: One logical assertion per method. [^4]
+Best Practice: One logical assertion per test method. [^4]
 
 Have clear error messages [^5]
 
