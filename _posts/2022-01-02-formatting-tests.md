@@ -64,7 +64,9 @@ Your tests should be as small as possible. Rather than create objects in every t
 
 In Junit you can have @BeforeEach and @BeforeAll annotations to have methods run before each test case or test class.
 
-# Mock object names
+# Mock object
+
+## Naming
 
 In case I am testing a positive response, I usually name variable as such.
 
@@ -81,11 +83,13 @@ Example:
 - badHttpHeaderWithoutContentType
 - badFuture
 
-# Start with `method_should_<>_when/with_<>()`
+## Never generate random inputs. Always use fixed values. [^5]
+
+# Start with `method_should_<>_when/with_<>()` or `itShould_<>_When_<>`
 
 This makes you focus on exactly what you are testing
 
-Example: 
+Example:
 - GroupName: Add function
 - TestName: Should work with negative values: add_shouldWork_withNegativeValues
 - TestName: Should work with positive values: add_shouldWork_withPositiveValues
@@ -104,6 +108,13 @@ Assert Responses -> then
 
 This is a useful guideline which applies to a normal clean code too.
 
+
+## Assertions
+
+Best Practice: One logical assertion per method. [^4]
+
+Have clear error messages [^5]
+
 # Writing tests that run fast
 
 ## Time complexity of tests shoud be O(1) [^1]
@@ -121,3 +132,5 @@ Using `@ContextConfiguration` won't start the whole spring infrastructure. This 
 [^1]: [YouTube: Continous Delivery: The 3 Types of Unit Test in TDD](https://www.youtube.com/watch?v=W40mpZP9xQQ)
 [^2]: [Stack Overflow: Unit Test Best Practices](https://stackoverflow.com/a/7398606)
 [^3]: [YouTube: Defog Tech: Spring Boot - Testing basics](https://www.youtube.com/watch?v=Ekr4jxOIf4c)
+[^4]: [Unit Testing Best Practices: 9 to Ensure You Do It Right](https://www.testim.io/blog/unit-testing-best-practices/)
+[^5]: [YouTube: DevOxx: Effective Unit Testing by Eliotte Rusty Harold](https://www.youtube.com/watch?v=fr1E9aVnBxw) (This includes tips on debugging and refactoring)
