@@ -2,16 +2,28 @@
 layout: post
 comments: true
 description:
-categories: [clean-code]
+categories: [clean-code, testing]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /formattig-test-cases/
-title: Formatting Test Cases
+permalink: /organize-test-cases/
+title: Organize Test Cases
 ---
+
+Clean tests are as important as clean code. Same kind of principles apply here.
+
+1. Test only what is neccessary
+2. Keep code clean
+
+while TDD, is shown to keep test cases to a minimum, this post explains some other ways tests can be organize
 
 # Group Tests Together
 
-You should group your tests together. Junit and Jest both allow for grouping of tests.
+You should group your tests together. This would make it easier to find your tests
+
+Junit and Jest both allow for grouping of tests.
+- In JUnit 5 you can use @NestClasses
+- In Jest you can use describe 
+
 
 Example:
 
@@ -46,15 +58,17 @@ describe("Group of tests", ()=>{
 
 ```
 
-# Create mock objects globally
+# Have global mocks/stub object
 
-Your tests should be as small as possible. So create mock objects which are used in every tests globably.
+Your tests should be as small as possible. Rather than create objects in every test method, Create a dummy stub and use it in all subsiqueny tests
 
 In Junit you can have @BeforeEach and @BeforeAll annotations to have methods run before each test case or test class.
 
 # Mock object names
 
 In case I am testing a positive response, I usually name variable as such.
+
+If it is a variable which is bad, prefix it with bad
 
 example:
 - idealHttpHeader
@@ -91,5 +105,9 @@ Assert Responses -> then
 Cyclomatic time complexity of your tests should be O(1).
 - No loops
 - No if statements
+
+# Size of tests should be less than size of your display
+
+This is a useful guideline which applies to a normal clean code too.
 
 [^1]: [The 3 Types of Unit Test in TDD](https://www.youtube.com/watch?v=W40mpZP9xQQ)
