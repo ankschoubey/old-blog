@@ -299,9 +299,11 @@ Assert Responses -&gt; then</p>
 
 <p>Have clear error messages <sup id="fnref:5:1" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">1</a></sup></p>
 
+<p>Aim for asserting behavior and not implementation detail. More coupled your tests are with implementation, harder the refactoring would be.<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">3</a></sup></p>
+
 <h1 id="writing-tests-that-run-fast">Writing tests that run fast</h1>
 
-<h2 id="time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">3</a></sup></h2>
+<h2 id="time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">4</a></sup></h2>
 
 <p>Cyclomatic time complexity of your tests should be O(1).</p>
 <ul>
@@ -311,7 +313,7 @@ Assert Responses -&gt; then</p>
 
 <h2 id="for-spring-boot">For Spring Boot</h2>
 
-<h3 id="initialize-only-beans-you-need-using-contextconfiguration-">Initialize only beans you need using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">4</a></sup></h3>
+<h3 id="initialize-only-beans-you-need-using-contextconfiguration-">Initialize only beans you need using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">5</a></sup></h3>
 
 <p>Using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> won’t start the whole spring infrastructure. This making your tests faster.</p>
 
@@ -322,6 +324,9 @@ Assert Responses -&gt; then</p>
     </li>
     <li id="fn:4" role="doc-endnote">
       <p><a href="https://www.testim.io/blog/unit-testing-best-practices/">Unit Testing Best Practices: 9 to Ensure You Do It Right</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6" role="doc-endnote">
+      <p><a href="https://cucumber.io/blog/bdd/getting-started-with-bdd-part-1/">Cucumber: Blog: Getting Started with BDD (Part 1)</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:1" role="doc-endnote">
       <p><a href="https://www.youtube.com/watch?v=W40mpZP9xQQ">YouTube: Continous Delivery: The 3 Types of Unit Test in TDD</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>

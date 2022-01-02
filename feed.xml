@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-02T10:00:51-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-02T10:46:17-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -161,9 +161,11 @@ Assert Responses -&amp;gt; then&lt;/p&gt;
 
 &lt;p&gt;Have clear error messages &lt;sup id=&quot;fnref:5:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
+&lt;p&gt;Aim for asserting behavior and not implementation detail. More coupled your tests are with implementation, harder the refactoring would be.&lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;writing-tests-that-run-fast&quot;&gt;Writing tests that run fast&lt;/h1&gt;
 
-&lt;h2 id=&quot;time-complexity-of-tests-shoud-be-o1-&quot;&gt;Time complexity of tests shoud be O(1) &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;time-complexity-of-tests-shoud-be-o1-&quot;&gt;Time complexity of tests shoud be O(1) &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
 
 &lt;p&gt;Cyclomatic time complexity of your tests should be O(1).&lt;/p&gt;
 &lt;ul&gt;
@@ -173,7 +175,7 @@ Assert Responses -&amp;gt; then&lt;/p&gt;
 
 &lt;h2 id=&quot;for-spring-boot&quot;&gt;For Spring Boot&lt;/h2&gt;
 
-&lt;h3 id=&quot;initialize-only-beans-you-need-using-contextconfiguration-&quot;&gt;Initialize only beans you need using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@ContextConfiguration&lt;/code&gt; &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;initialize-only-beans-you-need-using-contextconfiguration-&quot;&gt;Initialize only beans you need using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@ContextConfiguration&lt;/code&gt; &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
 
 &lt;p&gt;Using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@ContextConfiguration&lt;/code&gt; won’t start the whole spring infrastructure. This making your tests faster.&lt;/p&gt;
 
@@ -184,6 +186,9 @@ Assert Responses -&amp;gt; then&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.testim.io/blog/unit-testing-best-practices/&quot;&gt;Unit Testing Best Practices: 9 to Ensure You Do It Right&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://cucumber.io/blog/bdd/getting-started-with-bdd-part-1/&quot;&gt;Cucumber: Blog: Getting Started with BDD (Part 1)&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=W40mpZP9xQQ&quot;&gt;YouTube: Continous Delivery: The 3 Types of Unit Test in TDD&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
