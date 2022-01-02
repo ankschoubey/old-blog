@@ -1,5 +1,4 @@
 ---
-sticky_rank: 3
 description: beyond algorithms and data structures
 title: Programming is now Configuring
 comments: true

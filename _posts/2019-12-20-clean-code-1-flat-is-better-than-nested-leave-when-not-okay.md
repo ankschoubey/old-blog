@@ -1,5 +1,4 @@
 ---
-sticky_rank: 2
 toc: true
 layout: post
 comments: true
