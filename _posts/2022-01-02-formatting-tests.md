@@ -81,16 +81,16 @@ Example:
 - badHttpHeaderWithoutContentType
 - badFuture
 
-# Display Names: Start with "should"
+# Start with `method_should_<>_when/with_<>()`
 
 This makes you focus on exactly what you are testing
 
 Example: 
 - GroupName: Add function
-- TestName: Should work with negative values
-- TestName: Should work with positive values
-- TestName: Should work with floating point values
-- TestName: Should raise exception if input null
+- TestName: Should work with negative values: add_shouldWork_withNegativeValues
+- TestName: Should work with positive values: add_shouldWork_withPositiveValues
+- TestName: Should work with floating point values: add_shouldWork_withFloatingPoint
+- TestName: Should raise exception when input is null: add_shouldRaiseException_whenInputisNull
 
 # Given When Then
 
@@ -110,4 +110,5 @@ Cyclomatic time complexity of your tests should be O(1).
 
 This is a useful guideline which applies to a normal clean code too.
 
-[^1]: [The 3 Types of Unit Test in TDD](https://www.youtube.com/watch?v=W40mpZP9xQQ)
+[^1]: [Continous Delivery: The 3 Types of Unit Test in TDD](https://www.youtube.com/watch?v=W40mpZP9xQQ)
+[^2]: [Stack Overflow: Unit Test Best Practices](https://stackoverflow.com/a/7398606)

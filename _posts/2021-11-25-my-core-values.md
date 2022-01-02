@@ -41,9 +41,9 @@ Being unhappy is inefficient.
 
 Happiness/Peace is a skill that you develop and a choice that you make [^2]. You can choose to live a certain way that will lead to peace.
 
-To have peace, your brain should be in controll in every situation. You have to be mentally tough.
+To have peace, your brain should be in controll in every situation. You have to be mentally tough. 
 
-You need to be peaceful if you want things to be good long term. Develop detachment (not wanting) and be less judgemental. Aiming for peace requires a lot of rethinking and flipping almost everything.
+You need to be peaceful if you want things to be good long term. Develop detachment (not wanting), be less judgemental and optimism. Aiming for peace requires a lot of recognizing, rethinking and flipping/unlearing almost everything.
 
 If you don't believe that you can achieve ultimate peace (Nirwana), you'll have a hard time finding it.
 
