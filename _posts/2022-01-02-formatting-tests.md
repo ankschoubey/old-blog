@@ -114,6 +114,8 @@ Best Practice: One logical assertion per test method. [^4]
 
 Have clear error messages [^5]
 
+Aim for asserting behavior and not implementation detail. More coupled your tests are with implementation, harder the refactoring would be.[^6]
+
 # Writing tests that run fast
 
 ## Time complexity of tests shoud be O(1) [^1]
@@ -133,3 +135,4 @@ Using `@ContextConfiguration` won't start the whole spring infrastructure. This 
 [^3]: [YouTube: Defog Tech: Spring Boot - Testing basics](https://www.youtube.com/watch?v=Ekr4jxOIf4c)
 [^4]: [Unit Testing Best Practices: 9 to Ensure You Do It Right](https://www.testim.io/blog/unit-testing-best-practices/)
 [^5]: [YouTube: DevOxx: Effective Unit Testing by Eliotte Rusty Harold](https://www.youtube.com/watch?v=fr1E9aVnBxw) (This includes tips on debugging and refactoring)
+[^6]: [Cucumber: Blog: Getting Started with BDD (Part 1)](https://cucumber.io/blog/bdd/getting-started-with-bdd-part-1/)
