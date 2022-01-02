@@ -60,6 +60,7 @@ How much of your brain is in your controll?
 How much of your decision is completely under your controll?
 
 ## Systems
+- Assume you are no exception and that you need training and systems
 - Break down everything into small chunks. What's the smallest thing I can do to move a step forward. 1% Better
     - Rule of thumb: if you are stuck. break task into steps recursively.
 
