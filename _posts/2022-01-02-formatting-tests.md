@@ -24,10 +24,9 @@ Junit and Jest both allow for grouping of tests.
 - In JUnit 5 you can use @NestClasses
 - In Jest you can use describe 
 
+## Example:
 
-Example:
-
-JUnit:
+### JUnit:
 
 ```java
 class MainTestClass
@@ -44,7 +43,7 @@ class MainTestClass
     }
 ```
 
-Jest:
+### Jest:
 
 ```js
 
@@ -87,7 +86,9 @@ Example:
 
 # Start with `method_should_<>_when/with_<>()` or `itShould_<>_When_<>`
 
-This makes you focus on exactly what you are testing
+This makes you focus on exactly what you are testing.
+
+Though you can remove the should part too.
 
 Example:
 - GroupName: Add function
