@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Organize Test Cases | Ankush</title>
+<title>Writing Clean and Fast Unit Tests | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Organize Test Cases" />
+<meta property="og:title" content="Writing Clean and Fast Unit Tests" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Clean tests are as important as clean code. Same kind of principles apply here." />
 <meta property="og:description" content="Clean tests are as important as clean code. Same kind of principles apply here." />
-<link rel="canonical" href="www.ankushchoubey.com/organize-test-cases/" />
-<meta property="og:url" content="www.ankushchoubey.com/organize-test-cases/" />
+<link rel="canonical" href="www.ankushchoubey.com/clean-fast-unit-tests/" />
+<meta property="og:url" content="www.ankushchoubey.com/clean-fast-unit-tests/" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-01-02T00:00:00-06:00" />
 <script type="application/ld+json">
-{"headline":"Organize Test Cases","url":"www.ankushchoubey.com/organize-test-cases/","dateModified":"2022-01-02T14:52:08-06:00","datePublished":"2022-01-02T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/organize-test-cases/"},"description":"Clean tests are as important as clean code. Same kind of principles apply here.","@context":"https://schema.org"}</script>
+{"headline":"Writing Clean and Fast Unit Tests","url":"www.ankushchoubey.com/clean-fast-unit-tests/","dateModified":"2022-01-02T14:52:08-06:00","datePublished":"2022-01-02T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/clean-fast-unit-tests/"},"description":"Clean tests are as important as clean code. Same kind of principles apply here.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -113,7 +113,7 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Organize Test Cases</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-01-02T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Writing Clean and Fast Unit Tests</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-01-02T00:00:00-06:00" itemprop="datePublished">
         Written: Jan 2, 2022
       </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-01-02T14:52:08-06:00" itemprop="dateModified">
           Updated: Jan 2, 2022
@@ -121,7 +121,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -285,7 +285,13 @@ window.onload = wrap_img;
 Call the function in test -&gt; when
 Assert Responses -&gt; then</p>
 
-<h1 id="time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h1>
+<h1 id="size-of-tests-should-be-less-than-size-of-your-display">Size of tests should be less than size of your display</h1>
+
+<p>This is a useful guideline which applies to a normal clean code too.</p>
+
+<h1 id="writing-tests-that-run-fast">Writing tests that run fast</h1>
+
+<h2 id="time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
 
 <p>Cyclomatic time complexity of your tests should be O(1).</p>
 <ul>
@@ -293,14 +299,19 @@ Assert Responses -&gt; then</p>
   <li>No if statements</li>
 </ul>
 
-<h1 id="size-of-tests-should-be-less-than-size-of-your-display">Size of tests should be less than size of your display</h1>
+<h2 id="for-spring-boot">For Spring Boot</h2>
 
-<p>This is a useful guideline which applies to a normal clean code too.</p>
+<h3 id="initialize-only-beans-you-need-using-contextconfiguration-">Initialize only beans you need using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">2</a></sup></h3>
+
+<p>Using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> won’t start the whole spring infrastructure. This making your tests faster.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p><a href="https://www.youtube.com/watch?v=W40mpZP9xQQ">Continous Delivery: The 3 Types of Unit Test in TDD</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><a href="https://www.youtube.com/watch?v=W40mpZP9xQQ">YouTube: Continous Delivery: The 3 Types of Unit Test in TDD</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p><a href="https://www.youtube.com/watch?v=Ekr4jxOIf4c">YouTube: Defog Tech: Spring Boot - Testing basics</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -313,7 +324,7 @@ Assert Responses -&gt; then</p>
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/organize-test-cases/" hidden></a>
+</script><a class="u-url" href="/clean-fast-unit-tests/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
