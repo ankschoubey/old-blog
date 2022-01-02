@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-02T04:34:12-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-02T06:14:28-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,102 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving Blank screen problem</title><link href="www.ankushchoubey.com/blank-screen-problem/" rel="alternate" type="text/html" title="Solving Blank screen problem" /><published>2021-12-25T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/blank-screen-problem</id><content type="html" xml:base="www.ankushchoubey.com/blank-screen-problem/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Formatting Test Cases</title><link href="www.ankushchoubey.com/formattig-test-cases/" rel="alternate" type="text/html" title="Formatting Test Cases" /><published>2022-01-02T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/formatting-tests</id><content type="html" xml:base="www.ankushchoubey.com/formattig-test-cases/">&lt;h1 id=&quot;group-tests-together&quot;&gt;Group Tests Together&lt;/h1&gt;
+
+&lt;p&gt;You should group your tests together. Junit and Jest both allow for grouping of tests.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;p&gt;JUnit:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MainTestClass&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Group of tests&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;MethodNameTests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+
+        &lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt;
+        &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Test Name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;tests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Jest:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nx&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Group of tests&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;nx&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;test name&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+
+    &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;create-mock-objects-globally&quot;&gt;Create mock objects globally&lt;/h1&gt;
+
+&lt;p&gt;Your tests should be as small as possible. So create mock objects which are used in every tests globably.&lt;/p&gt;
+
+&lt;p&gt;In Junit you can have @BeforeEach and @BeforeAll annotations to have methods run before each test case or test class.&lt;/p&gt;
+
+&lt;h1 id=&quot;mock-object-names&quot;&gt;Mock object names&lt;/h1&gt;
+
+&lt;p&gt;In case I am testing a positive response, I usually name variable as such.&lt;/p&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;idealHttpHeader&lt;/li&gt;
+  &lt;li&gt;goodFuture&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If it’s a bad response,&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;badHttpHeader&lt;/li&gt;
+  &lt;li&gt;badHttpHeaderWithoutContentType&lt;/li&gt;
+  &lt;li&gt;badFuture&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;display-names-start-with-should&quot;&gt;Display Names: Start with “should”&lt;/h1&gt;
+
+&lt;p&gt;This makes you focus on exactly what you are testing&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;GroupName: Add function&lt;/li&gt;
+  &lt;li&gt;TestName: Should work with negative values&lt;/li&gt;
+  &lt;li&gt;TestName: Should work with positive values&lt;/li&gt;
+  &lt;li&gt;TestName: Should work with floating point values&lt;/li&gt;
+  &lt;li&gt;TestName: Should raise exception if input null&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;given-when-then&quot;&gt;Given When Then&lt;/h1&gt;
+
+&lt;p&gt;Given When then is how most tests are written.&lt;/p&gt;
+
+&lt;p&gt;Start the tests which fixing the input values and mocking -&amp;gt; Given
+Call the function in test -&amp;gt; when
+Assert Responses -&amp;gt; then&lt;/p&gt;
+
+&lt;h1 id=&quot;time-complexity-of-tests-shoud-be-o1-&quot;&gt;Time complexity of tests shoud be O(1) &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h1&gt;
+
+&lt;p&gt;Cyclomatic time complexity of your tests should be O(1).&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;No loops&lt;/li&gt;
+  &lt;li&gt;No if statements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=W40mpZP9xQQ&quot;&gt;The 3 Types of Unit Test in TDD&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Group Tests Together</summary></entry><entry><title type="html">Solving Blank screen problem</title><link href="www.ankushchoubey.com/blank-screen-problem/" rel="alternate" type="text/html" title="Solving Blank screen problem" /><published>2021-12-25T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/blank-screen-problem</id><content type="html" xml:base="www.ankushchoubey.com/blank-screen-problem/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -111,58 +206,7 @@ Features&lt;/p&gt;
 Design Document
 Todo List
 Test First Development
-Documentation/Wiki&lt;/p&gt;</content><author><name></name></author><category term="programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Software engineering isn’t only about code. It’s engineering&lt;/p&gt;
+Documentation/Wiki&lt;/p&gt;</content><author><name></name></author><category term="programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thoughts on Test Driven Development</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Thoughts on Test Driven Development" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;Software engineering isn’t only about code. It’s engineering&lt;/p&gt;
 
 &lt;p&gt;TDD need not be a big deal. It can seem cubersome but there are mindsets and tools that can make transition smoother.&lt;/p&gt;
 
@@ -170,45 +214,61 @@ Documentation/Wiki&lt;/p&gt;</content><author><name></name></author><category te
 
 &lt;p&gt;There are my initial thoughts on test driven development.&lt;/p&gt;
 
-&lt;p&gt;Using testing first development as a todo list of things to do. (Verify testing is better)&lt;/p&gt;
-
-&lt;p&gt;Usually testing is cumbersome because:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Testing is extra code
-You have to switch between current code and tests
-    &lt;ul&gt;
-      &lt;li&gt;you have to rerun tests&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;On local: have tests run automatically after each save&lt;/p&gt;
-
-&lt;p&gt;Given when tehn
-Search for libraries that make easier to test&lt;/p&gt;
-
-&lt;p&gt;What to test&lt;/p&gt;
-
-&lt;p&gt;Fix the inputs and chekc the output&lt;/p&gt;
-
-&lt;p&gt;Assume that the test is working
-fix compilation error&lt;/p&gt;
-
-&lt;p&gt;The Three Laws of TDD&lt;/p&gt;
+&lt;h2 id=&quot;the-three-laws-of-tdd&quot;&gt;The Three Laws of TDD&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;You are not allowed to write any production code unless it is to make a failing unit test pass.&lt;/li&gt;
   &lt;li&gt;You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.&lt;/li&gt;
   &lt;li&gt;You are not allowed to write any more production code than is sufficient to pass the one failing unit test.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;given when then&lt;/p&gt;
+&lt;h2 id=&quot;how-to-tdd&quot;&gt;How to TDD?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Assume the test will work properly, what is the minimum test? Write that test.&lt;/li&gt;
+  &lt;li&gt;Fix compilation errors if any. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Write minimum code required to pass the test.&lt;/li&gt;
+  &lt;li&gt;Iterate&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;making-tdd-easier&quot;&gt;Making TDD easier&lt;/h1&gt;
+
+&lt;h2 id=&quot;usually-tdd-can-be-cumbersome-because&quot;&gt;Usually TDD can be cumbersome because:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Testing is extra code&lt;/li&gt;
+  &lt;li&gt;You have to switch between current code and tests&lt;/li&gt;
+  &lt;li&gt;you have to rerun tests&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;mitigrations&quot;&gt;Mitigrations&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-tdd-is-a-todo-list-of-feature-to-do&quot;&gt;1. TDD is a todo list of feature to do&lt;/h3&gt;
+
+&lt;p&gt;By writing test first, you get clear on what you want to implement. This leads to better design.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-switch-between-testing-and-code-easily&quot;&gt;2. Switch between testing and code easily&lt;/h3&gt;
 
 &lt;p&gt;In intellij press Ctrl + Shift + T
 for vs code : https://marketplace.visualstudio.com/items?itemName=Acino.jump-source&lt;/p&gt;
 
+&lt;h3 id=&quot;3-rerun-tests-automatically&quot;&gt;3. Rerun tests automatically&lt;/h3&gt;
+
+&lt;p&gt;On local: have tests run automatically after each save&lt;/p&gt;
+
+&lt;p&gt;Given when tehn
+Search for libraries that make easier to test&lt;/p&gt;
+
 &lt;p&gt;https://spring.io/guides
 https://daveceddia.com/what-to-test-in-react-app/
-https://daveceddia.com/getting-started-with-tdd-in-react/&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/dev-checklist/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/development-checklist</id><content type="html" xml:base="www.ankushchoubey.com/dev-checklist/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+https://daveceddia.com/getting-started-with-tdd-in-react/&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/ACoAAAGmNOsBErk1_7cbjUHllOPVUE5M-NvcOKc/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bd5ZjyftfQoKiUju1OpMyEA%3D%3D&quot;&gt;Anadi Misra&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Software engineering isn’t only about code. It’s engineering</summary></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/dev-checklist/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/development-checklist</id><content type="html" xml:base="www.ankushchoubey.com/dev-checklist/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -630,67 +690,4 @@ It’s not right for yourself and for the other person to have this kind of skew
 
 &lt;p&gt;Failure is success over long run as long as it is reversable. It bad to not take risks. It;s only okay is you take rists.&lt;/p&gt;
 
-&lt;p&gt;If you make progress 80% of the time. that good enough. You don’t need perfect streak.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Responsibility</title><link href="www.ankushchoubey.com/responsibility/" rel="alternate" type="text/html" title="Responsibility" /><published>2021-12-17T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/responsibility</id><content type="html" xml:base="www.ankushchoubey.com/responsibility/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Responsibility&lt;/p&gt;
-
-&lt;p&gt;Structure of this post:&lt;/p&gt;
-
-&lt;p&gt;In each value described below, a few elements are common:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Description of the value&lt;/li&gt;
-  &lt;li&gt;What’s the best thing that would happen if the value is followed?&lt;/li&gt;
-  &lt;li&gt;What’s thing that would happen if the value is not followed?&lt;/li&gt;
-  &lt;li&gt;A few core habits surrounding a value.&lt;/li&gt;
-  &lt;li&gt;People to look up to who best seem to be support these values.&lt;/li&gt;
-  &lt;li&gt;Checks to see if value is being held or not.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="personal" /><category term="core-values" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;If you make progress 80% of the time. that good enough. You don’t need perfect streak.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

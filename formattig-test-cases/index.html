@@ -4,20 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Always keep yourself ready to switch companies | Ankush</title>
+<title>Formatting Test Cases | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Always keep yourself ready to switch companies" />
+<meta property="og:title" content="Formatting Test Cases" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Random Thoughts" />
-<meta property="og:description" content="Random Thoughts" />
-<link rel="canonical" href="www.ankushchoubey.com/switch-jobs/" />
-<meta property="og:url" content="www.ankushchoubey.com/switch-jobs/" />
+<meta name="description" content="Group Tests Together" />
+<meta property="og:description" content="Group Tests Together" />
+<link rel="canonical" href="www.ankushchoubey.com/formattig-test-cases/" />
+<meta property="og:url" content="www.ankushchoubey.com/formattig-test-cases/" />
 <meta property="og:site_name" content="Ankush" />
-<meta property="og:image" content="www.ankushchoubey.com/images/switch-jobs.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00" />
+<meta property="article:published_time" content="2022-01-02T00:00:00-06:00" />
 <script type="application/ld+json">
-{"headline":"Always keep yourself ready to switch companies","url":"www.ankushchoubey.com/switch-jobs/","dateModified":"2022-01-02T06:12:56-06:00","datePublished":"2021-05-26T00:00:00-05:00","@type":"BlogPosting","image":"www.ankushchoubey.com/images/switch-jobs.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/switch-jobs/"},"description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"headline":"Formatting Test Cases","url":"www.ankushchoubey.com/formattig-test-cases/","dateModified":"2021-09-23T15:52:08-05:00","datePublished":"2022-01-02T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/formattig-test-cases/"},"description":"Group Tests Together","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -114,10 +113,10 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-01-02T06:12:56-06:00" itemprop="dateModified">
-          Updated: Jan 2, 2022
+    <h1 class="post-title p-name" itemprop="name headline">Formatting Test Cases</h1><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-01-02T00:00:00-06:00" itemprop="datePublished">
+        Written: Jan 2, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-09-23T15:52:08-05:00" itemprop="dateModified">
+          Updated: Sep 23, 2021
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -148,7 +147,7 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
+    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -186,36 +185,99 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt="" /></p>
+    <h1 id="group-tests-together">Group Tests Together</h1>
 
-<h2 id="capitalism">Capitalism</h2>
+<p>You should group your tests together. Junit and Jest both allow for grouping of tests.</p>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>Example:</p>
 
-<p>The more you earn, the better it is for everyone.</p>
+<p>JUnit:</p>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">MainTestClass</span>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+    <span class="nd">@Nested</span>
+    <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"Group of tests"</span><span class="o">)</span>
+    <span class="kd">class</span> <span class="nf">MethodNameTests</span><span class="o">(){</span>
 
-<p>New environments and people give you new perspectives.</p>
+        <span class="nd">@Test</span>
+        <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"Test Name"</span><span class="o">)</span>
+        <span class="kd">class</span> <span class="nc">tests</span><span class="o">{</span>
+            <span class="o">...</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+</code></pre></div></div>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<p>Jest:</p>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nx">describe</span><span class="p">(</span><span class="dl">"</span><span class="s2">Group of tests</span><span class="dl">"</span><span class="p">,</span> <span class="p">()</span><span class="o">=&gt;</span><span class="p">{</span>
 
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
+    <span class="nx">it</span><span class="p">(</span><span class="dl">"</span><span class="s2">test name</span><span class="dl">"</span><span class="p">,</span> <span class="p">()</span><span class="o">=&gt;</span><span class="p">{</span>
 
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
 
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
+    <span class="p">})</span>
+<span class="p">})</span>
 
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
+</code></pre></div></div>
+
+<h1 id="create-mock-objects-globally">Create mock objects globally</h1>
+
+<p>Your tests should be as small as possible. So create mock objects which are used in every tests globably.</p>
+
+<p>In Junit you can have @BeforeEach and @BeforeAll annotations to have methods run before each test case or test class.</p>
+
+<h1 id="mock-object-names">Mock object names</h1>
+
+<p>In case I am testing a positive response, I usually name variable as such.</p>
+
+<p>example:</p>
+<ul>
+  <li>idealHttpHeader</li>
+  <li>goodFuture</li>
+</ul>
+
+<p>If it’s a bad response,</p>
+
+<p>Example:</p>
+<ul>
+  <li>badHttpHeader</li>
+  <li>badHttpHeaderWithoutContentType</li>
+  <li>badFuture</li>
+</ul>
+
+<h1 id="display-names-start-with-should">Display Names: Start with “should”</h1>
+
+<p>This makes you focus on exactly what you are testing</p>
+
+<p>Example:</p>
+<ul>
+  <li>GroupName: Add function</li>
+  <li>TestName: Should work with negative values</li>
+  <li>TestName: Should work with positive values</li>
+  <li>TestName: Should work with floating point values</li>
+  <li>TestName: Should raise exception if input null</li>
+</ul>
+
+<h1 id="given-when-then">Given When Then</h1>
+
+<p>Given When then is how most tests are written.</p>
+
+<p>Start the tests which fixing the input values and mocking -&gt; Given
+Call the function in test -&gt; when
+Assert Responses -&gt; then</p>
+
+<h1 id="time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h1>
+
+<p>Cyclomatic time complexity of your tests should be O(1).</p>
+<ul>
+  <li>No loops</li>
+  <li>No if statements</li>
+</ul>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><a href="https://www.youtube.com/watch?v=W40mpZP9xQQ">The 3 Types of Unit Test in TDD</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -228,7 +290,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/switch-jobs/" hidden></a>
+</script><a class="u-url" href="/formattig-test-cases/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
