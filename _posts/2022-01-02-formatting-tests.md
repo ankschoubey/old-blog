@@ -5,8 +5,8 @@ description:
 categories: [clean-code, testing]
 last_modified_at: 2022-01-02T20:52:08.052481
 last-modified-purpose:
-permalink: /organize-test-cases/
-title: Organize Test Cases
+permalink: /clean-fast-unit-tests/
+title: Writing Clean and Fast Unit Tests
 ---
 
 Clean tests are as important as clean code. Same kind of principles apply here.
@@ -100,15 +100,24 @@ Start the tests which fixing the input values and mocking -> Given
 Call the function in test -> when
 Assert Responses -> then
 
-# Time complexity of tests shoud be O(1) [^1]
+# Size of tests should be less than size of your display
+
+This is a useful guideline which applies to a normal clean code too.
+
+# Writing tests that run fast
+
+## Time complexity of tests shoud be O(1) [^1]
 
 Cyclomatic time complexity of your tests should be O(1).
 - No loops
 - No if statements
 
-# Size of tests should be less than size of your display
+## For Spring Boot
 
-This is a useful guideline which applies to a normal clean code too.
+### Initialize only beans you need using `@ContextConfiguration` [^3]
 
-[^1]: [Continous Delivery: The 3 Types of Unit Test in TDD](https://www.youtube.com/watch?v=W40mpZP9xQQ)
+Using `@ContextConfiguration` won't start the whole spring infrastructure. This making your tests faster.
+
+[^1]: [YouTube: Continous Delivery: The 3 Types of Unit Test in TDD](https://www.youtube.com/watch?v=W40mpZP9xQQ)
 [^2]: [Stack Overflow: Unit Test Best Practices](https://stackoverflow.com/a/7398606)
+[^3]: [YouTube: Defog Tech: Spring Boot - Testing basics](https://www.youtube.com/watch?v=Ekr4jxOIf4c)
