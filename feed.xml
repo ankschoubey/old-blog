@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-02T23:42:04-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-04T12:12:49-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,96 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing Clean and Fast Unit Tests</title><link href="www.ankushchoubey.com/clean-fast-unit-tests/" rel="alternate" type="text/html" title="Writing Clean and Fast Unit Tests" /><published>2022-01-02T00:00:00-06:00</published><updated>2022-01-02T14:52:08-06:00</updated><id>www.ankushchoubey.com/formatting-tests</id><content type="html" xml:base="www.ankushchoubey.com/clean-fast-unit-tests/">&lt;p&gt;Clean tests are as important as clean code. Same kind of principles apply here.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Git Commit Message Format</title><link href="www.ankushchoubey.com/git-commit-message-format/" rel="alternate" type="text/html" title="Git Commit Message Format" /><published>2022-01-04T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/git-commit-message-format</id><content type="html" xml:base="www.ankushchoubey.com/git-commit-message-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
+
+&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I want to make sure that commit messages are easy to read and understand.&lt;/p&gt;
+
+&lt;p&gt;So I want to have a structure to them. I found a gem of an article which compares initial commits in spring to latest ones. -&amp;gt; https://cbea.ms/git-commit/&lt;/p&gt;
+
+&lt;p&gt;There must be many structures which I would later update in the post. Right now I am sticking to these.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Prepend with story tag/identified&lt;/li&gt;
+  &lt;li&gt;commit message format:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Limit the subject line to 50 characters. 72 chars max&lt;/p&gt;
+
+&lt;p&gt;Capitalize the subject line
+Imperative mood just means “spoken or written as if giving a command or instruction”. A few examples:&lt;/p&gt;
+
+&lt;p&gt;A properly formed Git commit subject line should always be able to complete the following sentence:&lt;/p&gt;
+
+&lt;p&gt;If applied, this commit will your subject line here&lt;/p&gt;
+
+&lt;p&gt;feat: The new feature you’re adding to a particular application
+fix: A bug fix
+style: Feature and updates related to styling
+refactor: Refactoring a specific section of the codebase
+test: Everything related to testing
+docs: Everything related to documentation
+chore: Regular code maintenance.[ You can also use emojis to represent commit types]&lt;/p&gt;
+
+&lt;p&gt;feat: The new feature you’re adding to a particular application
+fix: A bug fix
+style: Feature and updates related to styling
+refactor: Refactoring a specific section of the codebase
+test: Everything related to testing
+docs: Everything related to documentation
+chore: Regular code maintenance.[ You can also use emojis to represent commit types]&lt;/p&gt;
+
+&lt;p&gt;https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing Clean and Fast Unit Tests</title><link href="www.ankushchoubey.com/clean-fast-unit-tests/" rel="alternate" type="text/html" title="Writing Clean and Fast Unit Tests" /><published>2022-01-02T00:00:00-06:00</published><updated>2022-01-02T14:52:08-06:00</updated><id>www.ankushchoubey.com/formatting-tests</id><content type="html" xml:base="www.ankushchoubey.com/clean-fast-unit-tests/">&lt;p&gt;Clean tests are as important as clean code. Same kind of principles apply here.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Test only what is neccessary&lt;/li&gt;
@@ -592,136 +681,4 @@ https://daveceddia.com/getting-started-with-tdd-in-react/&lt;/p&gt;
 
 &lt;p&gt;So if you are sending a ResponseDTO from Spring Boot backend, make sure you have the same structure class/interface in typescript to catch that response in.&lt;/p&gt;
 
-&lt;p&gt;If you have a typescript backend with something like Next.js, this task would be easier since you can just reuse classes/interface.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decision Metrics</title><link href="www.ankushchoubey.com/decision-metrics/" rel="alternate" type="text/html" title="Decision Metrics" /><published>2021-12-21T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/decision-metrics</id><content type="html" xml:base="www.ankushchoubey.com/decision-metrics/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Percentage Change&lt;/p&gt;
-
-&lt;h2 id=&quot;percentage-of-plan-followed&quot;&gt;Percentage Of Plan Followed&lt;/h2&gt;
-
-&lt;p&gt;It often happens with habits that we aim for a perfect streak. Aiming for a perfect streak is not ideal because once a streak breaks we get demotivated.&lt;/p&gt;
-
-&lt;p&gt;Aiming for a streak undermines the progress made on other days.&lt;/p&gt;
-
-&lt;p&gt;A better alternative is to aim for percent of times/days we followed the plan within a specific time period.&lt;/p&gt;
-
-&lt;p&gt;Example:
-Suppose you want to not slip into a habit, a useful thing would be:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Within a month, I would make sure to have a 80/85% success rate.&lt;/li&gt;
-  &lt;li&gt;So if you follow slip up 4 days in a month, it’s still 86.66% which is success!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;effort-taken-1---1-aim-for-0&quot;&gt;Effort taken: +1 | -1 aim for 0&lt;/h2&gt;
-
-&lt;p&gt;This may sound evil at first but I’ll justify it later.&lt;/p&gt;
-
-&lt;p&gt;Ideally, in a relationship, you want to aim for a roughly 50% partnership.&lt;/p&gt;
-
-&lt;p&gt;If you are putting too much effort or putting too little, efforts are not equal and relationship fails.
-It’s not right for yourself and for the other person to have this kind of skewness. The person who is putting more effort, would start feeling bad eventually.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;So +1&lt;/td&gt;
-      &lt;td&gt;-1 aim for 0 is for such conditions.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Pick a time period, let’s say a week or a month, start from 0 and add 1 each time you put and effort, add -1 if the partner does. If the number is too away from 0, try to make it 0. If it’s too positive, reduce your efforts. If it’s more negative, put more effort.&lt;/p&gt;
-
-&lt;p&gt;In case it’s positive, wait, reduce your efforts, spend time during something else.&lt;/p&gt;
-
-&lt;p&gt;If it’s too high in positive, reduce your effort even more. It’s the only way to make sure things are okay.&lt;/p&gt;
-
-&lt;p&gt;Example 2:&lt;/p&gt;
-
-&lt;p&gt;Can be using for production/consuption of technology/content.&lt;/p&gt;
-
-&lt;p&gt;Ideally you don’t want to waste all your time just consuming information/or just enjoying. You have to put in the work.&lt;/p&gt;
-
-&lt;p&gt;+1 each time you consume. -1 each time you produce something aim for 0. reset every week or two weeks or month.&lt;/p&gt;
-
-&lt;h2 id=&quot;avoid-grey-area&quot;&gt;Avoid grey area&lt;/h2&gt;
-
-&lt;p&gt;and have to courage to move on.&lt;/p&gt;
-
-&lt;p&gt;If you are in grey area, you may have already lost. You’ll try to rationalize and do things.&lt;/p&gt;
-
-&lt;p&gt;move on&lt;/p&gt;
-
-&lt;h2 id=&quot;figure-out-what-does-not-need-a-decision-and-skip-it&quot;&gt;Figure out what does not need a decision and skip it&lt;/h2&gt;
-
-&lt;h2 id=&quot;as-long-as-x-nothing-matters&quot;&gt;As long as X, nothing matters,&lt;/h2&gt;
-
-&lt;p&gt;as long as code is clearer, deleting/refactoring code does not matter,&lt;/p&gt;
-
-&lt;p&gt;as long as truth is found/told, nothing else matters.&lt;/p&gt;
-
-&lt;p&gt;as long as I am peaceful, nothing matters.&lt;/p&gt;
-
-&lt;h2 id=&quot;listen-to-your-conscience&quot;&gt;Listen to your conscience&lt;/h2&gt;
-
-&lt;p&gt;Whole body yes. You are the same space of making decisions. You want things to be intuitive. if you are doing something and you feel it in you or your conscience says to do something, listen to it. The critic.&lt;/p&gt;
-
-&lt;h2 id=&quot;take-decision-at-80-confidence&quot;&gt;Take decision at 80% confidence.&lt;/h2&gt;
-
-&lt;p&gt;Mindset.&lt;/p&gt;
-
-&lt;p&gt;What are you trying to not say. What are you trying to not do.&lt;/p&gt;
-
-&lt;p&gt;What are you not speaking up againt rules over you.&lt;/p&gt;
-
-&lt;p&gt;Failure is success over long run as long as it is reversable. It bad to not take risks. It;s only okay is you take rists.&lt;/p&gt;
-
-&lt;p&gt;If you make progress 80% of the time. that good enough. You don’t need perfect streak.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;If you have a typescript backend with something like Next.js, this task would be easier since you can just reuse classes/interface.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
