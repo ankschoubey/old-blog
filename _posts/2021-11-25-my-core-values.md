@@ -107,7 +107,10 @@ This is probably the most important value that supports all others. It takes cou
 
 Everything worth while is an act of courage.
 
+No one is invincible. It's good and courageous to be vulnerable. To admit to faults and take steps to improve it but it's not okay to be weak.
+
 Courage is exciting. It pushes to act beyond what one believes is possible. So get excited by the challenge and push yourself beyond what you think is possible.
+
 
 Paragons: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
 
