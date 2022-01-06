@@ -59,6 +59,8 @@ In case it's positive, wait, reduce your efforts, spend time during something el
 
 If it's too high in positive, reduce your effort even more. It's the only way to make sure things are okay.
 
++ 1 | -1 is relationships means you are not forcing anyone.
+
 Example 2:
 
 Can be using for production/consuption of technology/content.

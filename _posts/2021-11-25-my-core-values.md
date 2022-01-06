@@ -118,6 +118,9 @@ Paragons: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luf
 
 I am trying make these values my second nature by forming habits. The ideal goal is identity level change [^4] but it will take time which is why I haven't published my post on it. You can read the draft version though: [My core habits](/core-habits).
 
+
+Edit Jan 6 2022: Maybe Team Work is a my new core value.
+
 [^1]: Jordan B Peterson
 [^2]: Naval Ravikant
 [^3]: The phrase "Courage is calling" is from Ryan Holiday's book of the same name.
