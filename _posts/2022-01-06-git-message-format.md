@@ -34,3 +34,5 @@ https://cbea.ms/git-commit/
 https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
 
 If applied, this commit will your subject line here
+
+attomic commits
