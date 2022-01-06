@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-06T11:24:03-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-06T11:38:43-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,116 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing Better Git Commit Messages</title><link href="www.ankushchoubey.com/git-commit-messages/" rel="alternate" type="text/html" title="Writing Better Git Commit Messages" /><published>2022-12-06T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/git-message-format</id><content type="html" xml:base="www.ankushchoubey.com/git-commit-messages/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Time Matters</title><link href="www.ankushchoubey.com/time-matters/" rel="alternate" type="text/html" title="Time Matters" /><published>2022-01-06T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/time-matters</id><content type="html" xml:base="www.ankushchoubey.com/time-matters/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
+
+&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Time Matters&lt;/p&gt;
+
+&lt;p&gt;Why say no?
+What to say no to? -&amp;gt; Establishing boundaries
+How to say no?
+You have to be a monster to be good at saying know&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Technology Rules</title><link href="www.ankushchoubey.com/technology-rules/" rel="alternate" type="text/html" title="Technology Rules" /><published>2022-01-06T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/technology-rules</id><content type="html" xml:base="www.ankushchoubey.com/technology-rules/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
+
+&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing Better Git Commit Messages</title><link href="www.ankushchoubey.com/git-commit-messages/" rel="alternate" type="text/html" title="Writing Better Git Commit Messages" /><published>2022-01-06T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/git-message-format</id><content type="html" xml:base="www.ankushchoubey.com/git-commit-messages/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -412,7 +521,133 @@ Assert Responses -&amp;gt; then&lt;/p&gt;
       &lt;p&gt;Anadi Misra &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><category term="clean-code" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving Blank screen problem</title><link href="www.ankushchoubey.com/blank-screen-problem/" rel="alternate" type="text/html" title="Solving Blank screen problem" /><published>2021-12-25T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/blank-screen-problem</id><content type="html" xml:base="www.ankushchoubey.com/blank-screen-problem/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><category term="clean-code" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Spring Webflux - Router Funciton vs Rest Controlller</title><link href="www.ankushchoubey.com/spring-webflux-routerfunction-vs-restcontroller/" rel="alternate" type="text/html" title="Spring Webflux - Router Funciton vs Rest Controlller" /><published>2021-12-31T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/spring-webflux-routerfunction-vs-restcontroller</id><content type="html" xml:base="www.ankushchoubey.com/spring-webflux-routerfunction-vs-restcontroller/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
+
+&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Functional does not require starting up whole spring boot infrastructure&lt;/p&gt;
+
+&lt;p&gt;Rest controller is overall best supported.
+It provides essential boilerplate.&lt;/p&gt;
+
+&lt;p&gt;Better Hateos support.&lt;/p&gt;
+
+&lt;p&gt;I have observerd that functional has high code duplication
+Funcitonal may have&lt;/p&gt;
+
+&lt;p&gt;Manually adding swagger thingies.&lt;/p&gt;
+
+&lt;p&gt;Functional may be better for smaller apis. 1/2 endpoints nonmore&lt;/p&gt;
+
+&lt;p&gt;https://stackoverflow.com/a/62010641&lt;/p&gt;</content><author><name></name></author><category term="draft" /><category term="spring-boot" /><category term="backend" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Handover your work properly before leaving</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Handover your work properly before leaving" /><published>2021-12-30T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/handover</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
+
+&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Task&lt;/th&gt;
+      &lt;th&gt;Done&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Structure Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Written&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thoughts Edited&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grammar Check Done&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tags Added&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Released Publically&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Wiki&lt;/p&gt;
+
+&lt;p&gt;Training Videos&lt;/p&gt;
+
+&lt;p&gt;avoid knowledge silos!! from the start. No dependancy. Don’t depend on others. Don’t let others depend on you. Everyone should be empowerd.&lt;/p&gt;
+
+&lt;p&gt;Spend time teaching. So that they’ll be able to solve problems themselves.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving Blank screen problem</title><link href="www.ankushchoubey.com/blank-screen-problem/" rel="alternate" type="text/html" title="Solving Blank screen problem" /><published>2021-12-25T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/blank-screen-problem</id><content type="html" xml:base="www.ankushchoubey.com/blank-screen-problem/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
 
@@ -474,208 +709,4 @@ Features&lt;/p&gt;
 Design Document
 Todo List
 Test First Development
-Documentation/Wiki&lt;/p&gt;</content><author><name></name></author><category term="programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thoughts on Test Driven Development</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Thoughts on Test Driven Development" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-12-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;Software engineering isn’t only about code. It’s engineering&lt;/p&gt;
-
-&lt;p&gt;TDD need not be a big deal. It can seem cubersome but there are mindsets and tools that can make transition smoother.&lt;/p&gt;
-
-&lt;p&gt;TDD is shown to reduce defectsby a large margin. Tests will save you time in the long run.&lt;/p&gt;
-
-&lt;p&gt;There are my initial thoughts on test driven development.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-tdd&quot;&gt;Why TDD?&lt;/h2&gt;
-
-&lt;p&gt;If you are doing TDD, you do not need to setup and interact external systems before implementation.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; You can use their mocks.&lt;/p&gt;
-
-&lt;p&gt;Both tests and code is cleaner and precise.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-three-laws-of-tdd&quot;&gt;The Three Laws of TDD&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;You are not allowed to write any production code unless it is to make a failing unit test pass.&lt;/li&gt;
-  &lt;li&gt;You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.&lt;/li&gt;
-  &lt;li&gt;You are not allowed to write any more production code than is sufficient to pass the one failing unit test.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;how-to-tdd&quot;&gt;How to TDD?&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Assume the test will work properly, what is the minimum test? Write that test.&lt;/li&gt;
-  &lt;li&gt;Fix compilation errors if any. &lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Write minimum code required to pass the test.&lt;/li&gt;
-  &lt;li&gt;Run all the tests&lt;/li&gt;
-  &lt;li&gt;Iterate&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;making-tdd-easier&quot;&gt;Making TDD easier&lt;/h1&gt;
-
-&lt;h2 id=&quot;usually-tdd-can-be-cumbersome-because&quot;&gt;Usually TDD can be cumbersome because:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Testing is extra code&lt;/li&gt;
-  &lt;li&gt;You have to switch between current code and tests&lt;/li&gt;
-  &lt;li&gt;you have to rerun tests&lt;/li&gt;
-  &lt;li&gt;No one does it&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;mitigrations&quot;&gt;Mitigrations&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-tdd-is-a-todo-list-of-feature-to-do&quot;&gt;1. TDD is a todo list of feature to do&lt;/h3&gt;
-
-&lt;p&gt;By writing test first, you get clear on what you want to implement. This leads to better design.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-switch-between-testing-and-code-easily&quot;&gt;2. Switch between testing and code easily&lt;/h3&gt;
-
-&lt;p&gt;In intellij press Ctrl + Shift + T
-for vs code : https://marketplace.visualstudio.com/items?itemName=Acino.jump-source&lt;/p&gt;
-
-&lt;h3 id=&quot;3-rerun-tests-automatically&quot;&gt;3. Rerun tests automatically&lt;/h3&gt;
-
-&lt;p&gt;On local: have tests run automatically after each save&lt;/p&gt;
-
-&lt;p&gt;Given when tehn
-Search for libraries that make easier to test&lt;/p&gt;
-
-&lt;h3 id=&quot;4-no-one-does-it&quot;&gt;4. No one does it&lt;/h3&gt;
-
-&lt;p&gt;Yeah. It takes times to learn. TDD/any development practice is easier when whole company is aiming at it or enforcing it.&lt;/p&gt;
-
-&lt;p&gt;https://spring.io/guides
-https://daveceddia.com/what-to-test-in-react-app/
-https://daveceddia.com/getting-started-with-tdd-in-react/&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/ACoAAAGmNOsBErk1_7cbjUHllOPVUE5M-NvcOKc/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bd5ZjyftfQoKiUju1OpMyEA%3D%3D&quot;&gt;Anadi Misra&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Software engineering isn’t only about code. It’s engineering</summary></entry><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/dev-checklist/" rel="alternate" type="text/html" title="Post Format" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/development-checklist</id><content type="html" xml:base="www.ankushchoubey.com/dev-checklist/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writting-steps&quot;&gt;Writting Steps&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h1 id=&quot;ui-checklist&quot;&gt;UI Checklist&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Write Jest test cases.&lt;/li&gt;
-  &lt;li&gt;these need not be complete but write something&lt;/li&gt;
-  &lt;li&gt;test if all the props are doing right behavior&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;don’t test anything that does not belong to the file&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Write UI and Pass Test Cases&lt;/li&gt;
-  &lt;li&gt;Verify/Update CSS to be exactly like that in VDI (Zeplin)&lt;/li&gt;
-  &lt;li&gt;rebase/push&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;backend-checklist&quot;&gt;Backend Checklist&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Write Test Cases&lt;/li&gt;
-  &lt;li&gt;Make changes&lt;/li&gt;
-  &lt;li&gt;Update documentation/swagger things&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Developer Habit: User wiki</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Core Developer Habit: User wiki" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/use-wiki</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Web Development Tip - Reverse Engineer by looking at DOM</title><link href="www.ankushchoubey.com/look-at-dom/" rel="alternate" type="text/html" title="Web Development Tip - Reverse Engineer by looking at DOM" /><published>2021-12-22T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/look-at-dom</id><content type="html" xml:base="www.ankushchoubey.com/look-at-dom/">&lt;p&gt;This is probably the most simple web development tip. I discovered this while trying to custom build a PDF annotation component.&lt;/p&gt;
-
-&lt;p&gt;I looked at Box.com and it’s DOM through Chrome’s developer tool.&lt;/p&gt;
-
-&lt;p&gt;That gave me a idea of how it might have been done.&lt;/p&gt;
-
-&lt;p&gt;That allowed to reverse engineer and build the annotation feature which worked when zooming in, out and adding new annotations.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">This is probably the most simple web development tip. I discovered this while trying to custom build a PDF annotation component.</summary></entry></feed>
+Documentation/Wiki&lt;/p&gt;</content><author><name></name></author><category term="programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
