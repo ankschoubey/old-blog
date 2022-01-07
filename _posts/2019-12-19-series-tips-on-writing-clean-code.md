@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time.
-categories: [clean-code, favorite]
+categories: [clean-code, favorite, draft]
 title: Clean Code
 last_modified_at: 2021-08-01T20:42:15.086538
 permalink: /clean_code/
@@ -88,3 +88,8 @@ Constructing the simplest possible code that would solve your problem.
     <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.date | date: date_format }}</p>
 </article>
 {% endfor %}
+
+---
+DRAFT
+
+self document code

@@ -37,3 +37,16 @@ I side with Mr. Musk on Neuralink: **If you can’t fight them. Join them.**
 
 [^1]: xkcd comics: [Is It Worth the Time?](https://xkcd.com/1205/)
 [^2]: *"Civilization advances by extending the number of important operations which we can perform without thinking of them."* ~ Alfred North Whitehead. Read from the book Deep Work by Cal Newport
+
+----
+
+DRAFT
+
+//automation post
+
+programming is having an army of minions that never get tired.
+
+don't forget you are developers.
+
+write programms for yourself
+----

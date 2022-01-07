@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-description: avoid knowledge silos!!
-categories: [personal]
+description:
+categories: [personal, drafts]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /post-format/
-title: Handover your work properly before leaving
+permalink: /code-reviews/
+title: Code Reviews and Pair Programming
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -28,27 +28,17 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-avoid knowledge silos!!
 
-Wiki
+Code reviews
 
-Training Videos
+10 lines of code: 10 isues
+500 lines of code: no issues "looks fine"
 
-avoid knowledge silos!! from the start. No dependancy. Don't depend on others. Don't let others depend on you. Everyone should be empowerd.
+small and early code review: continuos code reviews - is this pair programming?
+---
+pair programming ai?
+---
 
-Spend time teaching. So that they'll be able to solve problems themselves.
+pair programing
 
-
-
-how to write a good user story
-
-
-Meeting structures
-
-What did I work on yesterday?
-What am I working on today?
-Any impediments I am facing?
-
-
-
-automate ourselves out of your job
+partner will show you more efficient ways of doing things including how to use ide

@@ -31,6 +31,8 @@ For Python, SQLAlchemy is popular and preferred or Django ORM for Django. (I hav
 
 ## Complex queries
 
+Native queries are faster than usual ones but use the sparingly.
+
 In the case of Java, you can also JPA specific things like Specifications or Criteria API.
 
 Honestly, I haven’t tried them I know they exist. I have seen them and found that the code looked really ugly

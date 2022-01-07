@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-description: avoid knowledge silos!!
-categories: [personal]
+description:
+categories: [personal, debugging]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
 permalink: /post-format/
-title: Handover your work properly before leaving
+title: Debugging
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -28,27 +28,10 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-avoid knowledge silos!!
+Write tests for what you are debugging so that you know you can replicate it.
 
-Wiki
+Specially if it is a production bug.
 
-Training Videos
+Plus automating this test will save you time.
 
-avoid knowledge silos!! from the start. No dependancy. Don't depend on others. Don't let others depend on you. Everyone should be empowerd.
-
-Spend time teaching. So that they'll be able to solve problems themselves.
-
-
-
-how to write a good user story
-
-
-Meeting structures
-
-What did I work on yesterday?
-What am I working on today?
-Any impediments I am facing?
-
-
-
-automate ourselves out of your job
+debugging: Look at the bug and read it. Know exactly what it is?

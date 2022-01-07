@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-description: avoid knowledge silos!!
-categories: [personal]
+description:
+categories: [personal, draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
 permalink: /post-format/
-title: Handover your work properly before leaving
+title: Release Versioning
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -27,28 +27,3 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 | Links to Other Posts if Any | N    |
 | Tags Added                  | N    |
 | Released Publically         | N    |
-
-avoid knowledge silos!!
-
-Wiki
-
-Training Videos
-
-avoid knowledge silos!! from the start. No dependancy. Don't depend on others. Don't let others depend on you. Everyone should be empowerd.
-
-Spend time teaching. So that they'll be able to solve problems themselves.
-
-
-
-how to write a good user story
-
-
-Meeting structures
-
-What did I work on yesterday?
-What am I working on today?
-Any impediments I am facing?
-
-
-
-automate ourselves out of your job
