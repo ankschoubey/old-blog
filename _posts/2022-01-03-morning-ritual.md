@@ -2,11 +2,11 @@
 layout: post
 comments: true
 description:
-categories: [personal]
+categories: [draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /post-format/
-title: Post Format
+permalink: /morning-ritual/
+title: Morning Ritual
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -36,8 +36,17 @@ Wake up around the same tiem everyone else does. 7 Am
 
 Sunlight exposure
 
+meditate
+
 Get most important things done
+
+Make progress on most important goal in the morning
 
 If you are short on time, you can spend just 2 minutes on each of your set activity. But don't let this become a routine.
 
 Throw yourself out of bed the moment alarm goies off. Don't waste any time.
+
+Making sleep go away and waking up refreshed.
+- Drink water
+- Wash your face. or take a shower. /Cold water preffered for both
+- exercise
