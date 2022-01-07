@@ -43,4 +43,9 @@
           </div>
           {%- include tags-list.html categories=post.categories -%}
       </div>
+      <div>
+        {% include simple_toc.html html=post.content base_url=post.url	 %}
+      </div>
+
+
   </div>
