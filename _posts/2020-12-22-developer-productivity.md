@@ -41,5 +41,6 @@ These are things that affect improves developer productivity significantly:
 8. Not over-engineering. Example: Don't use microservices if your application isn't big. [^1]
 9.  Keeping code clean
 10. Single tasking
+11. Automated tests and TDD
 
 [^1]: [The Problem With Microservices](https://www.youtube.com/watch?v=zzMLg3Ys5vI&t=499s)

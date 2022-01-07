@@ -2,7 +2,7 @@
 description: 
 title: Writing motivation
 comments: true
-categories: [collection-of-thoughts]
+categories: [collection-of-thoughts, draft]
 layout: post
 use_math: true
 last_modified_at: 2021-08-01T20:42:15.226335
@@ -46,3 +46,17 @@ This is collections of posts/ideas I have come across over the years.
 - Form your thoughts better
   
 - Document and share your progress
+
+
+---
+
+DRAFT
+
+writing
+writing is thinking
+the best thing about writing on a computer is that you can edit things later which is the same as editing your thoughts
+best things about writing by hand is no distraction. no pressure. clean slate
+combine both
+writing tip: read a sentence. remove all the useless words. 
+forget attributions. it makes you slow. Plus you want it to be your own thoughts. So make those thoughts your own. Don't care about attributions. 
+You won't remember it if it's not your thought. Stop quoting.

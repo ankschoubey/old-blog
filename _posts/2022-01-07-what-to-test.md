@@ -2,11 +2,11 @@
 layout: post
 comments: true
 description:
-categories: [draft]
+categories: [personal, draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /morning-ritual/
-title: Morning Ritual
+permalink: /what-to-test/
+title: What to Test
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -28,25 +28,22 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-Boot up sequence
 
-Wake up on time most days. Victory
+// whenever you have a bug. write a test so that you can reproduce your bug.
 
-Wake up around the same tiem everyone else does. 7 Am
 
-Sunlight exposure
+only 3 types of tests
+- return value
+- state
+- interaction with other systems
 
-meditate
 
-Get most important things done
+Unut testing
 
-Make progress on most important goal in the morning
+integration testing
 
-If you are short on time, you can spend just 2 minutes on each of your set activity. But don't let this become a routine.
+end to end testing peramit
 
-Throw yourself out of bed the moment alarm goies off. Don't waste any time.
 
-Making sleep go away and waking up refreshed.
-- Drink water
-- Wash your face. or take a shower. /Cold water preffered for both
-- move your body exercise a bit
+Article on react testing
+Dave Farely on testing 3 
