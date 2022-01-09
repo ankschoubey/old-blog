@@ -5,8 +5,8 @@ description:
 categories: [draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /morning-ritual/
-title: Morning Ritual
+permalink: /morning-night-ritual/
+title: Morning and Night Ritual
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -50,3 +50,17 @@ Making sleep go away and waking up refreshed.
 - Drink water
 - Wash your face. or take a shower. /Cold water preffered for both
 - move your body exercise a bit
+
+
+## Night Ritual
+
+As important as morning
+
+Clean up
+Organize for tommorow
+Keep all tech away
+Relax
+Sleep
+Sleep hack sleep while meditating [^1]
+
+[^1]: Naval Ravikant
