@@ -304,3 +304,15 @@ img.image-preview:hover {
     contain-intrinsic-size: 0 200px;
 
 }
+
+.custom-post-card-toc{
+    background: #00000036;
+    margin: 10px;
+    font-size: medium;
+}
+.custom-post-card-toc:before {
+    content: "Table of Contents";
+    font-weight: bold;
+    padding: 13px;
+    font-size: larger;
+}

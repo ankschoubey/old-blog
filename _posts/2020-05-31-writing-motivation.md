@@ -60,3 +60,6 @@ combine both
 writing tip: read a sentence. remove all the useless words. 
 forget attributions. it makes you slow. Plus you want it to be your own thoughts. So make those thoughts your own. Don't care about attributions. 
 You won't remember it if it's not your thought. Stop quoting.
+
+
+shorter heading names
