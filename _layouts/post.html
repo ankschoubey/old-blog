@@ -10,6 +10,11 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+
+    {% if post.categories contains "health" %}
+            {% include info.html text="I am not a doctor or any kind of medical professional. Please verify yourself before using below advices."%}
+    {% endif %}
+
     {%- if page.description -%}
       {%- if site.html_escape.description -%}
         <p class="page-description">{{ page.description | escape }}</p>
