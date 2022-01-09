@@ -3,8 +3,8 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2021-12-24T20:52:08.052481
-last-modified-purpose: Paragons Added
+last_modified_at: 2021-01-09T20:52:08.052481
+last-modified-purpose: Added "Team Work"
 permalink: /my-core-vaues/
 title: My Core Values
 image: /images/my-core-values.jpg
@@ -22,6 +22,7 @@ I want things to be as "sorted" in the long term as possible without being super
 5. Inputs Matter
 6. Time Matter
 7. Courage is calling
+8. Team Work
 
 ***
 
@@ -33,7 +34,7 @@ So, pick the heaviest weight you can take and push it towards the best aim you c
 
 Taking on responsibility voluntarily/facing the heaviest fear you can face is how you'll have your life sorted.
 
-Paragons: Peter Parker (Andrew Garfield), Jordan Peterson
+**Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
 ## Nirwana/Peace
 
@@ -47,7 +48,7 @@ You need to be peaceful if you want things to be good long term. Develop detachm
 
 If you don't believe that you can achieve ultimate peace (Nirwana), you'll have a hard time finding it.
 
-Paragons: Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru
+**Role Models**:  Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru
 
 ## Telling the truth and being hyper-realistic
 
@@ -59,7 +60,7 @@ The only way is to let go of the outcome and to assume that whatever happens in 
 
 While dealing with people, you have to ask people multiple times to make sure they tell you everything because often humans tell white lies to not hurt your feelings.
 
-Paragons: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
+**Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 
 ## Systems Thinking
 
@@ -69,7 +70,7 @@ Systems allow you to free up your mental RAM. Systems break problems down. They 
 
 Systems can include by are not limited to: trained habits, routines, frameworks, automation, etc.
 
-Paragons: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman
+**Role Models**: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman
 
 ## Inputs Matter
 
@@ -82,7 +83,7 @@ Some things to consider:
 - People you interact with regularly.
 - Where and how you live. (#cleanYourRoom)
 
-Paragons: Ryan Holiday
+**Role Models**: Ryan Holiday
 
 ## Time Matters
 
@@ -99,7 +100,7 @@ Life is short. Speed of implementation matters a lot. Being impatient can be a g
 
 Be impatient with yourself and a bit patient with others.
 
-Paragons: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport
+**Role Models**: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport
 
 ## Courage is calling [^3]
 
@@ -111,15 +112,30 @@ No one is invincible. It's good and courageous to be vulnerable. To admit to fau
 
 Courage is exciting. It pushes to act beyond what one believes is possible. So get excited by the challenge and push yourself beyond what you think is possible.
 
+**Role Models**: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
 
-Paragons: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
+## Team Work
+
+Humans are a social animal. We are node in a network[^1]. The way we act and interact in the network determines the life of everyone. 
+
+We stand on the shoulders of all those who came before us. And we are building a foundation for all those who will come after.
+
+Plus who are we doing all this "core-values" for if we can't even help and be there people around us. One cannot do it alone and it is worthless doing it alone.
+
+There are multiple levels of "team work" and each requires a different approach.
+- Everyone else
+- Close Friends
+- Family and Partner
+
+This also requires a level of self awareness and knowing how your interaction/quality of relationships can be improved. 
+
+One can be strict with himself but has to be patient with others. And remember that you are probably not right so listen to people carefully -> Openness.
+
+**Role Models**: Avengers, Straw Hat Crew (One Piece), Jura Tempest Federation (That Time I Got Reincarnated as a Slime), Some family related parts of Peaky Blinders
 
 ***
 
 I am trying make these values my second nature by forming habits. The ideal goal is identity level change [^4] but it will take time which is why I haven't published my post on it. You can read the draft version though: [My core habits](/core-habits).
-
-
-Edit Jan 6 2022: Maybe Team Work is a my new core value.
 
 [^1]: Jordan B Peterson
 [^2]: Naval Ravikant
