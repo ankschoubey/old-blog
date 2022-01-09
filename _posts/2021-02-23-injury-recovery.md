@@ -6,8 +6,9 @@ description:
 categories: [health, draft]
 title: How to recover from physical injuries faster
 permalink: /physical-injury/
-last_modified_at: 2021-08-01T20:42:15.557734
+last_modified_at: 2022-01-09T20:42:15.557734
 image: /images/physical-injury.jpg
+last-modified-purpose: Added "Massage Tips"
 ---
 Photo by <a href="https://unsplash.com/@yangmiao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">yang miao</a> on <a href="https://unsplash.com/s/photos/injury?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
