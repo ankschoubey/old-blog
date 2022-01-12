@@ -95,3 +95,7 @@ we need typescript because specially as project gets
 [^2]: Typescript.com
 [^3]: Guide of transitioning
 
+
+Draft:
+
+https://tsh.io/blog/why-use-typescript/

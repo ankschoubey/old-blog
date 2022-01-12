@@ -5,8 +5,8 @@ description:
 categories: [personal, draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /peace/
-title: Peace
+permalink: /design-patterns/
+title: Design Patterns
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -28,13 +28,4 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-
-## Managing Chaos. Let the universe do it's thing.
-
-You should be a monster. and know in your gut
-Learn to enjoy uncertainty.
-
-
-## Learn to think clearly
-
-if you are not able to do pomodoro-> it means you aren't clear on what to do. 
+how to name different design patterns
