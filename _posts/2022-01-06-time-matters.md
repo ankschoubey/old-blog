@@ -34,3 +34,10 @@ Why say no?
 What to say no to? -> Establishing boundaries
 How to say no?
 You have to be a monster to be good at saying know
+
+
+We will die
+
+Good habits make time your ally. Bad habits make time your enemy. [^1]
+
+[^1]: James CLear

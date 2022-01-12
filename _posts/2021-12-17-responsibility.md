@@ -39,3 +39,16 @@ In each value described below, a few elements are common:
 5. People to look up to who best seem to be support these values.
 6. Checks to see if value is being held or not.
 
+
+
+Extreme Ownership:
+
+Nothing outside your own power is effecting your life.
+
+Your life. You choose.
+
+Do
+
+Don't just think DOn't just talk or dream. None of that matter. The only thing that matters is do. [^1]
+
+[^1]: Jocko
