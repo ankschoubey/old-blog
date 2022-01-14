@@ -104,8 +104,10 @@ Some of the most impactful time-aseets and liabilities are:
 | **Planning**: Even a little bit of planning, something like 10 minutes alone creating a written plan could save hours, days or even years. Planning allows course correction. | **Rushing**: Though it may seem you are making progress. The probability is higher that you are moving in the wrong direction. It's better to fix a plan |
 | **Meditation**:                                                                                                                                                               | **Instagram**                                                                                                                                            |
 | **5 Min Rule**: Don't allow yourself to be down or procrastinate for more than 5 minutes. During such time ask yourself: Is this worth the return on my time?                 | Forever Rule: **The opposite of 5 min rule**: Letting fear/laziness/indecision stop you.                                                                 |
-| **WIP Limit**: Focus on a few things. If your WIP limit is reached. Don't add work on newer tasks unless older ones are complete.                                             |                                                                                                                                                          |
+| **WIP Limit**: Focus on a few things. If your WIP limit is reached. Don't add work on newer tasks unless older ones are complete.                                             | **Trying to change people**: You cannot change people. You can suggest but cannot force. Leading by example. It's the best option you have.              |
 | **Pomodoro**: Working in Pomodoros keeps you focused. If you can't work with pomodoro, you haven't planned carefully enough.                                                  |                                                                                                                                                          |
+
+During normal decision making, one can calculate ROI of their actions: think about how much time you'll invest and how much return you'll get back.
 
 ### Time Liabilities
 
