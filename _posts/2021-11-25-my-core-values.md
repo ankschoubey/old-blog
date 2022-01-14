@@ -95,7 +95,7 @@ Like any resource, one can think of time in numeric terms. This allows us to cat
 
 So essentially, by carefully observing, choosing and forming our habits would lead to more **time-assets** and less **time-liabilities**. Usually, time-assets and time-liabilities are opposites of each other.
 
-Most time-liabilities snap our attention and lead us to doing wrong things. Therefore, time-assets help us course correct:
+Most time-liabilities snap our attention and lead us to doing wrong things. Therefore, time-assets help us course correct. Therefore, time management is essentially attention management.
 
 Some of the most impactful time-aseets and liabilities are:
 
@@ -103,7 +103,9 @@ Some of the most impactful time-aseets and liabilities are:
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Planning**: Even a little bit of planning, something like 10 minutes alone creating a written plan could save hours, days or even years. Planning allows course correction. | **Rushing**: Though it may seem you are making progress. The probability is higher that you are moving in the wrong direction. It's better to fix a plan |
 | **Meditation**:                                                                                                                                                               | **Instagram**                                                                                                                                            |
-| **5 Min Rule**: Don't allow yourself to be down or procrastinate for more than 5 minutes. During such time ask yourself: Is this worth the return on my time?                 | **The opposite of 5 min rule**: Letting fear/laziness/indecision stop you.                                                                               |
+| **5 Min Rule**: Don't allow yourself to be down or procrastinate for more than 5 minutes. During such time ask yourself: Is this worth the return on my time?                 | Forever Rule: **The opposite of 5 min rule**: Letting fear/laziness/indecision stop you.                                                                 |
+| **WIP Limit**: Focus on a few things. If your WIP limit is reached. Don't add work on newer tasks unless older ones are complete.                                             |                                                                                                                                                          |
+| **Pomodoro**: Working in Pomodoros keeps you focused. If you can't work with pomodoro, you haven't planned carefully enough.                                                  |                                                                                                                                                          |
 
 ### Time Liabilities
 
