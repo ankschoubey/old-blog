@@ -3,8 +3,8 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2021-01-09T20:52:08.052481
-last-modified-purpose: Added "Team Work"
+last_modified_at: 2022-01-14T20:52:08.052481
+last-modified-purpose: Improved Time Matters by adding time-assets and time-liabilities
 permalink: /my-core-vaues/
 title: My Core Values
 image: /images/my-core-values.jpg
@@ -87,18 +87,42 @@ Some things to consider:
 
 ## Time Matters
 
-We have a finite life. Though it is long enough to get important things done.
+Time is the most precious finite resource we have. We should make good use of it.
 
-Your habits are reenforced. If you waste time regularly, you’ll continue to waste time.
+Like any resource, one can think of time in numeric terms. This allows us to categorize activities as assets which add back time or liabilities, which take time away. Our goal essentially then is to create more time-assets with high time-ROI.
 
-Let’s suppose your time is worth minimum wage.
-Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That’s 600Rs per day. 1,80,000 lakh rs per month. 21,60,000 rs per year. Over 10 years it’s 2 crore rs.
+80% of more of our activities during a given day is not new. They are merely habits that have been repeated.
 
-Plus this calculation 🧮 excludes compounding. Time spent early will compound.
+So essentially, by carefully observing, choosing and forming our habits would lead to more **time-assets** and less **time-liabilities**. Usually, time-assets and time-liabilities are opposites of each other.
 
-Life is short. Speed of implementation matters a lot. Being impatient can be a good thing.
+Most time-liabilities snap our attention and lead us to doing wrong things. Therefore, time-assets help us course correct:
 
-Be impatient with yourself and a bit patient with others.
+Some of the most impactful time-aseets and liabilities are:
+
+| Time-Assets                                                                                                                                                                   | Time Liabilities                                                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Planning**: Even a little bit of planning, something like 10 minutes alone creating a written plan could save hours, days or even years. Planning allows course correction. | **Rushing**: Though it may seem you are making progress. The probability is higher that you are moving in the wrong direction. It's better to fix a plan |
+| **Meditation**:                                                                                                                                                               |                                                                                                                                                          |
+
+### Time Liabilities
+
+Caring about the wrong things. 
+
+### Attention
+
+If you have time, but you do not have attention, time has no practical value.
+
+It's not that we merely waste time, we regret what we care about. Year after year when life is normal.
+
+### Makie time your ally
+
+Good habits make time your ally. Bad habits make time your enemy. [^1]
+
+There are activities which add back time and lead to serious compounding:
+- Planning/Careful Thinking - Lead to course correction
+- Self-Care - Is recoverly
+    - Meditation   
+- Courage to say "no" to yourself and to others.
 
 **Role Models**: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport
 
@@ -126,6 +150,7 @@ There are multiple levels of "team work" and each requires a different approach.
 - Everyone else
 - Close Friends
 - Family and Partner
+- Children
 
 This also requires a level of self awareness and knowing how your interaction/quality of relationships can be improved. 
 
