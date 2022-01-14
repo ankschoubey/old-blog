@@ -109,6 +109,7 @@ Some of the most impactful time-aseets and liabilities are:
 
 During normal decision making, one can calculate ROI of their actions: think about how much time you'll invest and how much return you'll get back.
 
+**Books**: Seneca on Shortness of Life.
 **Role Models**: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport
 
 ## Courage is calling [^3]
