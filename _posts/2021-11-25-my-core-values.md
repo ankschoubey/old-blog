@@ -87,7 +87,7 @@ Some things to consider:
 
 ## Time Matters
 
-Time is the most precious finite resource we have. We should make good use of it.
+Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.
 
 Like any resource, one can think of time in numeric terms. This allows us to categorize activities as assets which add back time or liabilities, which take time away. Our goal essentially then is to create more time-assets with high time-ROI.
 
@@ -95,7 +95,7 @@ Like any resource, one can think of time in numeric terms. This allows us to cat
 
 So essentially, by carefully observing, choosing and forming our habits would lead to more **time-assets** and less **time-liabilities**. Usually, time-assets and time-liabilities are opposites of each other.
 
-Most time-liabilities snap our attention and lead us to doing wrong things. Therefore, time-assets help us course correct. Therefore, time management is essentially attention management.
+Most time-liabilities snap our attention and lead us to caring about wrong things. Therefore, time-assets help us course correct. Therefore, time management is essentially attention management.
 
 Some of the most impactful time-aseets and liabilities are:
 
@@ -108,26 +108,6 @@ Some of the most impactful time-aseets and liabilities are:
 | **Pomodoro**: Working in Pomodoros keeps you focused. If you can't work with pomodoro, you haven't planned carefully enough.                                                  |                                                                                                                                                          |
 
 During normal decision making, one can calculate ROI of their actions: think about how much time you'll invest and how much return you'll get back.
-
-### Time Liabilities
-
-Caring about the wrong things. 
-
-### Attention
-
-If you have time, but you do not have attention, time has no practical value.
-
-It's not that we merely waste time, we regret what we care about. Year after year when life is normal.
-
-### Makie time your ally
-
-Good habits make time your ally. Bad habits make time your enemy. [^1]
-
-There are activities which add back time and lead to serious compounding:
-- Planning/Careful Thinking - Lead to course correction
-- Self-Care - Is recoverly
-    - Meditation   
-- Courage to say "no" to yourself and to others.
 
 **Role Models**: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport
 
