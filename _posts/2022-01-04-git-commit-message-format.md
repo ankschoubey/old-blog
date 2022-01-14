@@ -5,8 +5,8 @@ description:
 categories: [clean-code, draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /git-commit-message-format/
-title: Git Commit Message Format
+permalink: /git-commit/
+title: Having Better Git Commits
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -27,6 +27,14 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 | Links to Other Posts if Any | N    |
 | Tags Added                  | N    |
 | Released Publically         | N    |
+
+Git is the defacto standard of version control in 2021. By having good git practices, we make it easy for:
+- Understanding and sharing knowledge
+- Code reviews
+- Easily reverting changes
+
+
+
 
 I want to make sure that commit messages are easy to read and understand.
 
