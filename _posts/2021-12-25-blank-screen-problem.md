@@ -40,3 +40,6 @@ Design Document
 Todo List
 Test First Development
 Documentation/Wiki
+
+perform a go no go
+- something to learn

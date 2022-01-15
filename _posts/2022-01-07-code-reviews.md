@@ -42,3 +42,6 @@ pair programming ai?
 pair programing
 
 partner will show you more efficient ways of doing things including how to use ide
+
+
+core review: with gitlab

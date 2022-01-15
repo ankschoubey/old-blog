@@ -52,3 +52,18 @@ Do
 Don't just think DOn't just talk or dream. None of that matter. The only thing that matters is do. [^1]
 
 [^1]: Jocko
+
+
+There is nothing more important than taking care of yourself like someone you can for.
+
+Because if you don't you become burden on others
+
+
+My physical health
+My mental health
+My family's physical health
+My family mental health
+Friends
+Work
+Money: buys you freedom
+Time outside of work
