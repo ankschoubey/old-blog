@@ -41,3 +41,6 @@ The reason to this. Connectors are most important part for the application. It's
 So if you are sending a ResponseDTO from Spring Boot backend, make sure you have the same structure class/interface in typescript to catch that response in.
 
 If you have a typescript backend with something like Next.js, this task would be easier since you can just reuse classes/interface.
+
+
+https://github.com/vaadin/fusion
