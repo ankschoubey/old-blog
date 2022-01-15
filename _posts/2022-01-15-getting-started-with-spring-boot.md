@@ -36,10 +36,12 @@ https://www.baeldung.com/docker-test-containers
 TestContainers is officially in Spring Boot starter test
 
 Java Brains tutorials
-Read through DOcumentation
+Read through DOcumentation https://docs.spring.io/spring-boot/docs/current/reference/html/index.html
 
 Read through https://start.spring.io/
 
 https://www.youtube.com/watch?v=bB-xAYpeVL8
 
 https://baeldung.com/
+
+https://www.youtube.com/watch?v=j7rQstg94Hk
