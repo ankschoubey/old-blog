@@ -56,3 +56,6 @@ Have truely random inputs during explore. But for a short duration only.
 
 
 Judge quality of information quickly: Is it a reputed source? If it's a book, has it stood test of time?
+
+
+Don't subscribe to any feeds. catchup if need be.
