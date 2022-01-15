@@ -103,6 +103,17 @@ Some things to consider:
 - People you interact with regularly.
 - Where and how you live. (#cleanYourRoom)
 
+Track inputs:
+
+WIP limit: 2
+
+| seq | Category (Learning/Entertainment) | Name and Link             | Planned Start Date | Planned End Date | Importance (H/M/L) |
+|-----|-----------------------------------|---------------------------|--------------------|------------------|--------------------|
+| 1.  | Entertainment                     | Hawkeye - Disney Plus     | -                  | 16th Jan 2021    | H                  |
+| 2.  | Learning                          | MongoDB                   | -                  | -                | M                  |
+| 3.  | Learning                          | Gang of 4 Book            | -                  | -                | Long Term H        |
+| 4.  | Learning                          | Spring Boot Documentation | -                  | -                |                    |
+
 **Role Models**: Ryan Holiday
 
 ## Time Matters

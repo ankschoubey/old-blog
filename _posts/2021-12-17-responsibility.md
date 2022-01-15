@@ -80,3 +80,6 @@ With great power comes create respo.
 it is good for you to become a person you can admire.
 
 To push beyond what's typical
+
+
+Do it for yourself.
