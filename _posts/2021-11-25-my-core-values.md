@@ -70,6 +70,26 @@ Systems allow you to free up your mental RAM. Systems break problems down. They 
 
 Systems can include by are not limited to: trained habits, routines, frameworks, automation, etc.
 
+The goal with systems is to keep them up most of the time. Perfect streak may not be possible unless human component is removed.
+
+Most important systems are habits because they impact our day to day. These are most impactful systems one can have.
+
+|                | seq | Night Ritual                                            | Morning Ritual                                                                                                                                                                                         |   |
+|----------------|-----|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+|                |     | is a Boot Down Sequence                                 | is a Boot Up Sequence                                                                                                                                                                                  |   |
+|                |     | around an hour                                          | around an hour                                                                                                                                                                                         |   |
+| Start time     |     | should start around 10 hours before morning-ritual time | Starts with waking up. Wake up time should be around when everyone else wakes up (7 AM) or within an hour of Sun rise. [Andrew Hyberman] or around 1.5 hours before you are obligated to be somewhere. |   |
+| Start          |     | Stop doing what you are doing. And start night ritual.  | Throw yourself out of bed the moment alarm goies off                                                                                                                                                   |   |
+| Distractions   | 1.  | Keep phone away                                         | Keep Phone Away                                                                                                                                                                                        |   |
+| Control Lights | 2.  | Dim Lights                                              | Sunlight exposure for some time. Ideally: 15 min                                                                                                                                                       |   |
+| Prepare        |     | Prepare clothes for tomorrow. Clean the room.           | Hydrate. Exercise. Cold & Hot Shower.                                                                                                                                                                  |   |
+| Goals          | 3.  | Prime your brain for tommorow plan activities to do.    | Work on long term goals                                                                                                                                                                                |   |
+| Journal        |     | 5 Minute Journal PM                                     | 5 Minute Journal AM                                                                                                                                                                                    |   |
+| Meditate       | 5.  | Meditate while sleeping                                 | Meditate                                                                                                                                                                                               |   |
+| Optional:      |     | Wind down by reading books                              | Get motivated by listening to podcast.                                                                                                                                                                 |   |
+
+**Books**: Atomic Habit by James Clear, Chapter on Original Solutions in "The Magic of Thinking Big" by David Swatch, The Personal MBA by Josh Kaufman, 4 Hour Work Week by Tim Ferris, I will teach you to be rich by Ramit Sethi.
+
 **Role Models**: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman
 
 ## Inputs Matter

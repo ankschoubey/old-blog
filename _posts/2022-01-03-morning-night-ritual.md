@@ -32,10 +32,6 @@ Boot up sequence
 
 Wake up on time most days. Victory
 
-Wake up around the same tiem everyone else does. 7 Am
-
-Sunlight exposure
-
 meditate
 
 Get most important things done
@@ -51,16 +47,6 @@ Making sleep go away and waking up refreshed.
 - Wash your face. or take a shower. /Cold water preffered for both
 - move your body exercise a bit
 
-
-## Night Ritual
-
-As important as morning
-
-Clean up
-Organize for tommorow
-Keep all tech away
-Relax
-Sleep
-Sleep hack sleep while meditating [^1]
+ [^1]
 
 [^1]: Naval Ravikant
