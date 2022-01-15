@@ -43,3 +43,10 @@ Consume when it's the right time.
 Jordan Peterson can be too serious and lack optimism sometimes. Take notice.
 
 Consume optimism.
+
+
+Don't be afraid to remove an information if it's low quality. The marginal gain you think you'll get does not add up over time.
+
+Remove 
+
+Judge quality of information quickly: Is it a reputed source? If it's a book, has it stood test of time?
