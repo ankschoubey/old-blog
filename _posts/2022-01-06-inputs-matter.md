@@ -59,3 +59,14 @@ Judge quality of information quickly: Is it a reputed source? If it's a book, ha
 
 
 Don't subscribe to any feeds. catchup if need be.
+
+You cannot have too many inputs. If you want to make massive progress. You have to limit inputs and work on them one set at a time.
+
+My limiting input you are not consuming content and doing nothing.
+
+Have your inputs documented and fixed:
+
+My current inputs are 
+
+Category (Learning/Entertainment) Name Link Inserted Planned Start Date Planned End Date
+

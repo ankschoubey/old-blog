@@ -57,6 +57,7 @@ A properly formed Git commit subject line should always be able to complete the 
 If applied, this commit will your subject line here
 
 
+action ___ to/in/while/from ___
 
 
 
