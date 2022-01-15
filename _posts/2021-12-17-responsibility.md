@@ -70,3 +70,13 @@ Time outside of work
 
 
 Take on more responsibility and everyone/universe will reward you more.
+
+When people come to you with respo. You should accept it.
+
+With great power comes create respo.
+
+----
+
+it is good for you to become a person you can admire.
+
+To push beyond what's typical

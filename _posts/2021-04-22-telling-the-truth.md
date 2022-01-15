@@ -101,3 +101,28 @@ Further Reading Naval Ravikant
 First Principles Thinking
 
 Assuming you are wrong : quantify with probability
+
+
+To be as truthful as possible, always think beforre saying.
+Deliver truth to yourself first fully. And form it well
+- If you are talking about events think and recall the event and recall what happened then exactly
+
+You are what you do not what you say you are going to do.
+
+It's not like you can hide the truth or your intentions. So don't even try. your intent always shows
+therefore Be authentic 100%
+
+The most terrifying thing is to accept oneself completely.
+
+---
+
+What's your truth?
+
+Also courage: What do you do when no one is watching? When only you watch? 
+
+
+To be honest, speak without identity.
+
+Truth and courage: A man is worth how much truth he can handle/tolerate. 
+
+You need to be mentally tough enough to listen to the truth without getting emotional. Toughness is measured by how much you can take, not by how aggressive you can be.

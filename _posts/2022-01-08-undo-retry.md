@@ -2,11 +2,11 @@
 layout: post
 comments: true
 description:
-categories: [personal, draft]
+categories: [draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /systems/
-title: Creating and Building Systems
+permalink: /undo-retry/
+title: Implementing Undo and Retry on UI
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -28,22 +28,4 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-Consistency is the key
-
-Outcomes are lagging measure of your habits. You get what you repeat. 
-
-systems
-
-Life isn't fair. You have what you have. So work with it.
-
-Create customized solutions for yourself.
-
-inputs: prefer to use high quality sources: blogposts are better than Youtueb videos. people make shitty youtube videos
-
-
-System:
-Trusting the system. Astronauts trustt heir rockets. 
-
-
-
-Do not stop a compounding process.
+Implementing Undo and retry is easier with Redux

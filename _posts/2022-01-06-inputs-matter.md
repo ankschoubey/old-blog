@@ -70,3 +70,7 @@ My current inputs are
 
 Category (Learning/Entertainment) Name Link Inserted Planned Start Date Planned End Date
 
+
+
+Be open minded
+

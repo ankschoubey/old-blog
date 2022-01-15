@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [personal]
+categories: [draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
 permalink: /post-format/
