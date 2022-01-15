@@ -30,3 +30,5 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 
 https://gatheca-george.medium.com/5-spring-webflux-tips-tricks-common-mistakes-123cb1bbf2fe
 https://gatheca-george.medium.com/6-spring-webflux-load-testing-using-jmeter-b0875b09fc25
+
+https://projectreactor.io/docs/core/release/reference/index.html#which-operator
