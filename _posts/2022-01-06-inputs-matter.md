@@ -49,4 +49,10 @@ Don't be afraid to remove an information if it's low quality. The marginal gain 
 
 Remove 
 
+
+Switch between explore and exploit.
+Reduce your inputs during exploit.
+Have truely random inputs during explore. But for a short duration only.
+
+
 Judge quality of information quickly: Is it a reputed source? If it's a book, has it stood test of time?

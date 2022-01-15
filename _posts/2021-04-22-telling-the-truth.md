@@ -97,3 +97,7 @@ Thinking in questions: TDD
 Simplest explaination?
 
 Further Reading Naval Ravikant
+
+First Principles Thinking
+
+Assuming you are wrong : quantify with probability
