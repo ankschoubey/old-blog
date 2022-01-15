@@ -5,8 +5,8 @@ description:
 categories: [personal, draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /effective-logs/
-title: Effective Logs
+permalink: /spring-webflux/
+title: Spring Webflux
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -28,12 +28,5 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-https://www.freecodecamp.org/news/how-to-use-logs-effectively-in-your-code/
-https://www.sentinelone.com/blog/the-10-commandments-of-logging/
-
-https://stackify.com/java-logging-best-practices/
-https://medium.com/unomaly/logging-wisdom-how-to-log-5a19145e35ec
-
-https://blog.devgenius.io/art-of-clean-code-logging-d760b0918603p
-
-https://betterprogramming.pub/application-logging-best-practices-a-support-engineers-perspective-b17d0ef1c5df   
+https://gatheca-george.medium.com/5-spring-webflux-tips-tricks-common-mistakes-123cb1bbf2fe
+https://gatheca-george.medium.com/6-spring-webflux-load-testing-using-jmeter-b0875b09fc25

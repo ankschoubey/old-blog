@@ -5,8 +5,8 @@ description:
 categories: [personal, draft]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
-permalink: /effective-logs/
-title: Effective Logs
+permalink: /sqll-injections/
+title: Security and SQL Injections
 hide: true
 image: /images/n-plus-one.svg
 ---
@@ -28,12 +28,14 @@ If I write from POV that how I got the this idea and how I thought about it, rea
 | Tags Added                  | N    |
 | Released Publically         | N    |
 
-https://www.freecodecamp.org/news/how-to-use-logs-effectively-in-your-code/
-https://www.sentinelone.com/blog/the-10-commandments-of-logging/
+o summarize the MongoDB documentation
 
-https://stackify.com/java-logging-best-practices/
-https://medium.com/unomaly/logging-wisdom-how-to-log-5a19145e35ec
+BSON
 
-https://blog.devgenius.io/art-of-clean-code-logging-d760b0918603p
+As a client program assembles a query in MongoDB, it builds a BSON object, not a string. Thus traditional SQL injection attacks are not a problem.
 
-https://betterprogramming.pub/application-logging-best-practices-a-support-engineers-perspective-b17d0ef1c5df   
+However, MongoDB is not immune from injection attacks. As noted in the same documentation, injection attacks are still possible as MongoDB operations allow arbitrary JavaScript expressions to be executed directly on the server. The documentation goes into this in detail:
+
+http://docs.mongodb.org/manual/faq/developers/#javascript
+
+https://stackoverflow.com/a/5021531
