@@ -67,3 +67,6 @@ Friends
 Work
 Money: buys you freedom
 Time outside of work
+
+
+Take on more responsibility and everyone/universe will reward you more.
