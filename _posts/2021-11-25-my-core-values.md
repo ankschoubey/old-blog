@@ -84,10 +84,10 @@ Most important systems are habits because they impact our day to day. These are 
 | Control Lights | 2. | Dim Lights | Sunlight exposure for some time. Ideally: 15 min |  |
 | Clean | 3. | Clean the room. | Make your bed |  |
 | Prepare | 4. | Prepare clothes for tomorrow. | Hydrate. Exercise. Cold & Hot Shower. |  |
-| Goals | 5. | Prime your brain for tommorow. plan activities to do. | Work on long term goals |  |
+| Goals | 5. | Prime your brain for tommorow. plan activities to do. | Work on long term goals.Push yourself to limits. |  |
 | Journal | 6. | 5 Minute Journal PM | 5 Minute Journal AM |  |
 | Meditate | 7. | Meditate while sleeping | Meditate |  |
-| Optional: | 8 | Wind down by reading books | Get motivated by listening to podcast. |  |
+| Optional: | 8 | Wind down by reading books in care you are not able to sleep or wake in middle of night | Get motivated by listening to podcast. |  |
 
 **Books**: Atomic Habit by James Clear, Chapter on Original Solutions in "The Magic of Thinking Big" by David Swatch, The Personal MBA by Josh Kaufman, 4 Hour Work Week by Tim Ferris, I will teach you to be rich by Ramit Sethi.
 

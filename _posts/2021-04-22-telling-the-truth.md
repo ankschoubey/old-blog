@@ -110,7 +110,9 @@ Deliver truth to yourself first fully. And form it well
 You are what you do not what you say you are going to do.
 
 It's not like you can hide the truth or your intentions. So don't even try. your intent always shows
-therefore Be authentic 100%
+therefore 
+
+Peace/Truth: Be authentic 100%
 
 The most terrifying thing is to accept oneself completely.
 
@@ -126,3 +128,13 @@ To be honest, speak without identity.
 Truth and courage: A man is worth how much truth he can handle/tolerate. 
 
 You need to be mentally tough enough to listen to the truth without getting emotional. Toughness is measured by how much you can take, not by how aggressive you can be.
+
+
+Share uncerstaininty. (Phrases like: Mixed feeling are appropriate )
+Share your interntions
+
+All extremely good things happen in truth.
+
+Make sure each time you speak your words have wright. Sometimes silence have higher weight.
+
+Team: be a very good explainer.

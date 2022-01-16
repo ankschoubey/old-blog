@@ -83,3 +83,12 @@ To push beyond what's typical
 
 
 Do it for yourself.
+
+
+Respo:Systems
+
+You don't have to worry about the results. you just have to worry about inputs.
+Karm karo. Fal ki chinta karne ki zarurat nahi.
+
+Respo:team
+You responsibility is more towares people who make time for you than people who don't
