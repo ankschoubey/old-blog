@@ -133,7 +133,7 @@ You need to be mentally tough enough to listen to the truth without getting emot
 Share uncerstaininty. (Phrases like: Mixed feeling are appropriate )
 Share your interntions
 
-All extremely good things happen in truth.
+All extremely good things happen in truth. So your identity should not matter.
 
 Make sure each time you speak your words have wright. Sometimes silence have higher weight.
 
@@ -142,3 +142,7 @@ Team: be a very good explainer.
 
 Live in reality
 Movies/TV Shows/Anime/Most works of friction aren't real.
+
+Learn to talk slowly. Rushing increases probability of not being truthful.
+
+Activities that increase probability of being truthful: truth-booster, truth-rival

@@ -92,3 +92,9 @@ Karm karo. Fal ki chinta karne ki zarurat nahi.
 
 Respo:team
 You responsibility is more towares people who make time for you than people who don't
+
+
+Respo and Courage:
+
+Imagine who you would be if you didn't stop.
+
