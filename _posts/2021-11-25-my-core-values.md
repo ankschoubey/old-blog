@@ -26,6 +26,14 @@ Each and every opportunity to practice these values aren't just options, it's tw
 7. Courage is calling
 8. Team Work
 
+## How this post is structured?
+
+In each of the value I try to:
+1. Explain the goal of having the value
+2. Some 80/20 rules that surround the value
+3. Systems that can make forming habit around the value second nature.
+3. Resources, Books and Role Models 
+
 ***
 
 ## Responsibility
@@ -129,7 +137,7 @@ Track inputs:
 
 Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.
 
-Like any resource, one can think of time in numeric terms. This allows us to categorize activities as assets which add back time or liabilities, which take time away. Our goal essentially then is to create more time-assets with high time-ROI.
+Like any resource, one can think of ==time in numeric terms==. This allows us to categorize activities as assets which add back time or liabilities, which take time away. Our goal essentially then is to create more time-assets with high time-ROI.
 
 80% of more of our activities during a given day is not new. They are merely habits that have been repeated.
 
