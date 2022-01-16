@@ -103,3 +103,12 @@ What are you not speaking up againt rules over you.
 Failure is success over long run as long as it is reversable. It bad to not take risks. It;s only okay is you take rists.
 
 If you make progress 80% of the time. that good enough. You don't need perfect streak.
+
+
+## WIP Limits
+
+Have it for everything. How much can I get done/ How much context switch can I have?
+
+## Be decisive
+
+Pick a decision and stick to it for a while. Some decision is better than indecision/unable to decision. You skipping the decision is also a decision.

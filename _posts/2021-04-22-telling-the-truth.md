@@ -146,3 +146,17 @@ Movies/TV Shows/Anime/Most works of friction aren't real.
 Learn to talk slowly. Rushing increases probability of not being truthful.
 
 Activities that increase probability of being truthful: truth-booster, truth-rival
+
+
+Truth is a sword. An insult may hirt you if it is trye. It won't hurth if it is false. Carefully analysis and validate an insult or critic.
+
+Truth/Courage: means you won't agree with certain things and certain people.
+
+
+Look at truth that resonates.
+
+Learn about yourself. Learn so much that you can communicate. Record yourself doing it
+
+Disect truth one step at a time. Isolate variables and then disect.
+
+The way excapte mediocrity is to become a truth seeking mistle in everything. even if it means rejecting, annoting and arguig withe everyone around you. 

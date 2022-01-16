@@ -98,3 +98,23 @@ Respo and Courage:
 
 Imagine who you would be if you didn't stop.
 
+
+Respo/Team:
+
+It is respectful to try to look good. It respectful to yourself and it's respectuful to people you are dealing with. Dress right. be hygenic. get your hair in shape at end of every month.
+
+Clothing influences performance and congition.
+
+Be the most fun person for others. Extremely fun. Be the most practical and disciplined person for yourself.
+
+This is perfect balance. Siimilar to learn to build and learn to sell. If you can do both, you'll be unstoppable.
+
+You have to move forward.
+Waiting makes you shrink.
+If you don't know what to do. Pick something and walk towards it. You're not where you were. 
+
+
+
+No one is comming to save you.
+
+God make you a man and gave you enough ability to save yourself.

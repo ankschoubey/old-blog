@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description:
+description: All values boil down to choosing the long term over short term.
 categories: [philosophical, for-future-me, decision-making]
 last_modified_at: 2022-01-14T20:52:08.052481
 last-modified-purpose: Improved Time Matters by adding time-assets and time-liabilities
@@ -13,7 +13,9 @@ image: /images/my-core-values.jpg
 
 In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.
 
-I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values. They are my best bet. In this post, you'll find some ways to have things sorted. 
+I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values and try to actively practice them everyday. They are my best bet. 
+
+Each and every opportunity to practice these values aren't just options, it's two different pathways.
 
 1. Responsibility
 2. Nirwana/Peace
@@ -160,7 +162,7 @@ No one is invincible. It's good and courageous to be vulnerable. To admit to fau
 
 Courage is exciting. It pushes to act beyond what one believes is possible. So get excited by the challenge and push yourself beyond what you think is possible.
 
-**Role Models**: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
+**Role Models**: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman, James Bond
 
 ## Team Work
 
