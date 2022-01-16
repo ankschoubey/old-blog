@@ -32,7 +32,8 @@ In each of the value I try to:
 1. Explain the goal of having the value
 2. Some 80/20 rules that surround the value
 3. Systems that can make forming habit around the value second nature.
-3. Resources, Books and Role Models 
+4. Resources, Books and Role Models 
+5. Examples that help solidify
 
 ***
 
@@ -60,11 +61,17 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 
 **Role Models**:  Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru
 
-## Telling the truth and being hyper-realistic
+## Truth Seeking/Saying extreme truth/reality
 
-Lying/Not telling the truth is the quickest way to hell. You base your decisions on what you perceive reality to be.
+Humans aren't rational creatures because we cannot understand or have information about everything at once.
 
-If your estimate of the world is wrong, you'll make bad decisions.
+Since we base our decisions on our perceived reality, it is very important to our perceived reality match original reality.
+
+There are a few sub paths within the relm of truth:
+1. Seeking truth
+2. Accepting truth
+3. Always saying truth
+4. Always activing truthfully.
 
 The only way is to let go of the outcome and to assume that whatever happens in truth is the best thing that can happen.
 
@@ -137,7 +144,7 @@ Track inputs:
 
 Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.
 
-Like any resource, one can think of ==time in numeric terms==. This allows us to categorize activities as assets which add back time or liabilities, which take time away. Our goal essentially then is to create more time-assets with high time-ROI.
+Like any resource, one can think of time in numeric terms. This allows us to categorize activities as assets which add back time or liabilities, which take time away. Our goal essentially then is to create more time-assets with high time-ROI.
 
 80% of more of our activities during a given day is not new. They are merely habits that have been repeated.
 
