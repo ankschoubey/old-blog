@@ -74,19 +74,20 @@ The goal with systems is to keep them up most of the time. Perfect streak may no
 
 Most important systems are habits because they impact our day to day. These are most impactful systems one can have.
 
-|                | seq | Night Ritual                                            | Morning Ritual                                                                                                                                                                                         |   |
-|----------------|-----|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
-|                |     | is a Boot Down Sequence                                 | is a Boot Up Sequence                                                                                                                                                                                  |   |
-|                |     | around an hour                                          | around an hour                                                                                                                                                                                         |   |
-| Start time     |     | should start around 10 hours before morning-ritual time | Starts with waking up. Wake up time should be around when everyone else wakes up (7 AM) or within an hour of Sun rise. [Andrew Hyberman] or around 1.5 hours before you are obligated to be somewhere. |   |
-| Start          |     | Stop doing what you are doing. And start night ritual.  | Throw yourself out of bed the moment alarm goies off                                                                                                                                                   |   |
-| Distractions   | 1.  | Keep phone away                                         | Keep Phone Away                                                                                                                                                                                        |   |
-| Control Lights | 2.  | Dim Lights                                              | Sunlight exposure for some time. Ideally: 15 min                                                                                                                                                       |   |
-| Prepare        |     | Prepare clothes for tomorrow. Clean the room.           | Hydrate. Exercise. Cold & Hot Shower.                                                                                                                                                                  |   |
-| Goals          | 3.  | Prime your brain for tommorow plan activities to do.    | Work on long term goals                                                                                                                                                                                |   |
-| Journal        |     | 5 Minute Journal PM                                     | 5 Minute Journal AM                                                                                                                                                                                    |   |
-| Meditate       | 5.  | Meditate while sleeping                                 | Meditate                                                                                                                                                                                               |   |
-| Optional:      |     | Wind down by reading books                              | Get motivated by listening to podcast.                                                                                                                                                                 |   |
+|  | seq | Night Ritual | Morning Ritual |  |
+|---|---|---|---|---|
+|  |  | is a Boot Down Sequence | is a Boot Up Sequence |  |
+|  |  | around an hour | around an hour |  |
+| Start time |  | should start around 10 hours before morning-ritual time | Starts with waking up. Wake up time should be around when everyone else wakes up (7 AM) or within an hour of Sun rise. [Andrew Hyberman] or around 1.5 hours before you are obligated to be somewhere. |  |
+| Start |  | Stop doing what you are doing. And start night ritual. | Throw yourself out of bed the moment alarm goies off |  |
+| Distractions | 1. | Keep phone away | Keep Phone Away |  |
+| Control Lights | 2. | Dim Lights | Sunlight exposure for some time. Ideally: 15 min |  |
+| Clean | 3. | Clean the room. | Make your bed |  |
+| Prepare | 4. | Prepare clothes for tomorrow. | Hydrate. Exercise. Cold & Hot Shower. |  |
+| Goals | 5. | Prime your brain for tommorow. plan activities to do. | Work on long term goals |  |
+| Journal | 6. | 5 Minute Journal PM | 5 Minute Journal AM |  |
+| Meditate | 7. | Meditate while sleeping | Meditate |  |
+| Optional: | 8 | Wind down by reading books | Get motivated by listening to podcast. |  |
 
 **Books**: Atomic Habit by James Clear, Chapter on Original Solutions in "The Magic of Thinking Big" by David Swatch, The Personal MBA by Josh Kaufman, 4 Hour Work Week by Tim Ferris, I will teach you to be rich by Ramit Sethi.
 
@@ -105,14 +106,19 @@ Some things to consider:
 
 Track inputs:
 
-WIP limit: 2
+**WIP limit**: 2 for Entertainment, 2 for Learning
 
-| seq | Category (Learning/Entertainment) | Name and Link             | Planned Start Date | Planned End Date | Importance (H/M/L) |
-|-----|-----------------------------------|---------------------------|--------------------|------------------|--------------------|
-| 1.  | Entertainment                     | Hawkeye - Disney Plus     | -                  | 16th Jan 2021    | H                  |
-| 2.  | Learning                          | MongoDB                   | -                  | -                | M                  |
-| 3.  | Learning                          | Gang of 4 Book            | -                  | -                | Long Term H        |
-| 4.  | Learning                          | Spring Boot Documentation | -                  | -                |                    |
+| seq | Category (Learning/Entertainment) | Name and Link | Planned Start Date | Planned End Date | Importance (H/M/L) | Synergy? |
+|---|---|---|---|---|---|---|
+| 1. | Entertainment | Hawkeye - Disney Plus | - | 16th Jan 2021 | H | N |
+| 2. | Entertainment | Shark Tank India |  |  | M | Y |
+| 2. | Learning | Gang of 4 Book | - | - | Long Term H | Y |
+| 3. | Learning | Basic Arithmetic, And English | - | - | Long Term H | Y |
+| 4. | Learning | MongoDB | - | - | M |  |
+| 5. | Learning | Spring Boot Documentation | - | - | H |  |
+| 5. | Entertainment | Attach on Titan Final Season Part 2 | - | - | H |  |
+| 6. | Entertainment | Demon Slayer | - | - | M |  |
+
 
 **Role Models**: Ryan Holiday
 
