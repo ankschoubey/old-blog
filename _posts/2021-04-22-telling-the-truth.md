@@ -138,3 +138,7 @@ All extremely good things happen in truth.
 Make sure each time you speak your words have wright. Sometimes silence have higher weight.
 
 Team: be a very good explainer.
+
+
+Live in reality
+Movies/TV Shows/Anime/Most works of friction aren't real.
