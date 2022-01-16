@@ -108,17 +108,18 @@ Track inputs:
 
 **WIP limit**: 2 for Entertainment, 2 for Learning
 
-| seq | Category (Learning/Entertainment) | Name and Link | Planned Start Date | Planned End Date | Importance (H/M/L) | Synergy? |
-|---|---|---|---|---|---|---|
-| 1. | Entertainment | Hawkeye - Disney Plus | - | 16th Jan 2021 | H | N |
-| 2. | Entertainment | Shark Tank India |  |  | M | Y |
-| 2. | Learning | Gang of 4 Book | - | - | Long Term H | Y |
-| 3. | Learning | Basic Arithmetic, And English | - | - | Long Term H | Y |
-| 4. | Learning | MongoDB | - | - | M |  |
-| 5. | Learning | Spring Boot Documentation | - | - | H |  |
-| 5. | Entertainment | Attach on Titan Final Season Part 2 | - | - | H |  |
-| 6. | Entertainment | Demon Slayer | - | - | M |  |
-
+| Current Focus | seq | Category (Learning/Entertainment) | Name and Link | Planned Start Date | Planned End Date | Importance (H/M/L) | Synergy? | Solidification Plan |
+|---|---|---|---|---|---|---|---|---|
+| Y | 1. | Entertainment | Hawkeye - Disney Plus | - | 16th Jan 2021 | H | N | - |
+| Y | 2. | Entertainment | Shark Tank India |  |  | M | Y | - |
+| Y | 2. | Learning | Gang of 4 Book | - | - | Long Term H | Y | Possible YT Videos or Blogposts |
+|  | 3. | Learning | Basic Arithmetic, And English | - | - | Long Term H | Y | Possible Blogposts. External Test |
+|  | 4. | Learning | MongoDB | - | - | M |  |  |
+|  | 5. | Learning | Spring Boot Documentation | - | - | H |  |  |
+|  | 5. | Entertainment | Attach on Titan Final Season Part 2 | - | - | H |  |  |
+|  | 6. | Entertainment | Demon Slayer | - | - | M |  |  |
+|  | 7. | Learning | Designing Data Intensive Applications | - | - | M | Possible. Can discuss with colleagues. | Possible YT Videos or Blogposts |
+|  | 8. | Learning | AWS | - | - | M | Possible |  |
 
 **Role Models**: Ryan Holiday
 
