@@ -47,7 +47,7 @@ Taking on responsibility voluntarily/facing the heaviest fear you can face is ho
 
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
-## Nirwana/Peace
+## **Nirwana/Peace**: Don't suffer imagined troubles
 
 Being unhappy is inefficient.
 
@@ -79,7 +79,7 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 **Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 
-## Systems Thinking
+## **Systems Thinking**: Become an executioner
 
 Aims are good for setting up initial direction. But systems/processes are how you work towards them and beyond them.
 
@@ -140,7 +140,7 @@ Track inputs:
 
 **Role Models**: Ryan Holiday
 
-## Time Matters
+## **Time Matters**: You don't have forever
 
 Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.
 
@@ -167,7 +167,8 @@ During normal decision making, one can calculate ROI of their actions: think abo
 **Books**: Seneca on Shortness of Life. Digital Minimalism by Cal Newport.
 **Role Models**: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport
 
-## Courage is calling [^3]
+## **Courage is calling**: Be unstoppable. Break limits.
+[^3]
 
 This is probably the most important value that supports all others. It takes courage to tell the truth, act responsibly, detach yourself to be peaceful, build and trusting long term systems, and break the spell of wasting time. And the courage of following the plan and push yourself when time comes. 
 
