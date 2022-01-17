@@ -37,7 +37,7 @@ In each of the value I try to:
 
 ***
 
-## Responsibility
+## **Responsibility**: It's not worth having ego but no one will save you.
 
 Responsibility provides meaning. By taking on responsibilities voluntarily and facing your fears, you'll avoid being nihilistic. 
 
@@ -61,7 +61,7 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 
 **Role Models**:  Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru
 
-## Truth Seeking/Saying extreme truth/reality
+## **Truth**: Unhide the fog by becoming truth seeking missile. 
 
 Humans aren't rational creatures because we cannot understand or have information about everything at once.
 
@@ -79,7 +79,7 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 **Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 
-## **Systems Thinking**: Become an executioner
+## **Systems Thinking**: Become an effortness executioner - 'Everthing is undercontrol'
 
 Aims are good for setting up initial direction. But systems/processes are how you work towards them and beyond them.
 
@@ -110,7 +110,7 @@ Most important systems are habits because they impact our day to day. These are 
 
 **Role Models**: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman
 
-## Inputs Matter
+## **Inputs Matter**: Catelist
 
 You are what you feed yourself. Inputs matter because not only do they encourage certain behaviors, but they impact your everyday experience.
 
@@ -180,7 +180,7 @@ Courage is exciting. It pushes to act beyond what one believes is possible. So g
 
 **Role Models**: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman, James Bond
 
-## Team Work
+## **Team Work**: Treat others like you want to be treated
 
 Humans are a social animal. We are node in a network[^1]. The way we act and interact in the network determines the life of everyone. 
 
