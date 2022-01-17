@@ -160,3 +160,34 @@ Learn about yourself. Learn so much that you can communicate. Record yourself do
 Disect truth one step at a time. Isolate variables and then disect.
 
 The way excapte mediocrity is to become a truth seeking mistle in everything. even if it means rejecting, annoting and arguig withe everyone around you. 
+
+
+How to tell if you are telling the truth?
+Get specific. Not stay wage.
+You have to be willing to disagree. You can do so respectfully. You don't have to rationalize. Disagreement should not destroy a friendship. it should strengthen it.
+You don't have to rationalize.
+
+Be pricise.
+
+Have guiding phrases.
+
+The person we fool the most is ourselves.
+
+and Team Be more assertive so you can be less resentful
+
+Dichotemy: Trust your guts
+
+Opposite of truth and truthful action is acting.
+
+Nothing would make you more powerful than your words/ability to articulate.
+
+Test and reject falsehood.
+
+You can do an aweful lot of things by writing down what happened to you and thinking it through.
+
+To be a clear thinker is a greater complement than being smart.
+
+
+Telling the truth/being precise allows you to fix the scope quickly.
+
+Courage: Speak slowly and confidently.

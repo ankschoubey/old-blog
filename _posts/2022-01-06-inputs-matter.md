@@ -74,3 +74,6 @@ Category (Learning/Entertainment) Name Link Inserted Planned Start Date Planned 
 
 Be open minded
 
+You need to be surrounded in some place where there are many couples for inspiration.
+
+

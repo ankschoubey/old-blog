@@ -36,6 +36,7 @@ These are habits that have or I am trying to develop to make my core values seco
     - Over worrting/trying to solve other people problem/forcing them to change is not your responsibility. Though you can serve as an example.
 
 - Listen to your conscience (the critic), what's the things in front of you (however small) that you haven't fix? Fix them. Fix the smallest first.
+- deal with your flaws
 
 ## Peace
 - Judge Less

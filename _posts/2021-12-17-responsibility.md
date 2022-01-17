@@ -118,3 +118,18 @@ If you don't know what to do. Pick something and walk towards it. You're not whe
 No one is comming to save you.
 
 God make you a man and gave you enough ability to save yourself.
+
+I am not what happened to me. I am what I choose to become.
+
+It's a good thing, not a selfish thing to choose people who are good for you. 
+
+You cannot help everyone. Focus on yourself first.
+
+You cannot give up on yourself for anyone else. You have your goals and priorities.
+
+
+The worst feeling is that you are not enough for your family, friends and your job.
+
+Peace/Courage; Be depressed for a minute. Then move on.
+
+Peace/Teamwork: Healthy relationship starts with healthy relatoinship with yourself. If you don't value your thoughts and feeling straight with yourself. You will toletate other people mis. You got shit to straight. Work on your trauma.

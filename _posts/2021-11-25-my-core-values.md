@@ -15,7 +15,7 @@ In a [previous blog post](/core-values), I tried to explain why defining your co
 
 I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values and try to actively practice them everyday. They are my best bet. 
 
-Each and every opportunity to practice these values aren't just options, it's two different pathways.
+Each and every opportunity to practice these values aren't just options, it's two different pathways. Things fall apart when I don't act virtously. The way I/someone pays for their privilages is virtues.
 
 1. Responsibility
 2. Nirwana/Peace
@@ -78,6 +78,7 @@ The only way is to let go of the outcome and to assume that whatever happens in 
 While dealing with people, you have to ask people multiple times to make sure they tell you everything because often humans tell white lies to not hurt your feelings.
 
 **Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
+**Books**: Lying by Sam Harriss, 12 Rules for Life by Jordan B Peterson, **48 Laws of Power** (You don't have to follow it. You just have to read it.)
 
 ## **Systems Thinking**: Become an effortness executioner - 'Everthing is undercontrol'
 
