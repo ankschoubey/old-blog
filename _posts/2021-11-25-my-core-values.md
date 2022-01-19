@@ -47,6 +47,18 @@ Taking on responsibility voluntarily/facing the heaviest fear you can face is ho
 
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
+**How responsibility effects others values?**
+
+| Influencing Values | - | Description |
+|---|---|---|
+| Team Work, Systems and Inputs | **Look your best** | Team Work: It's respectful to you and to the other person if you look and present your best. Dress right all the time. Be Hygenic. Get your hair in shape at end of every month.<br><br><br>System & Inputs: Clothing influences performance and cognition. |
+| Team Work, Peace | Be fun and disciplined the same time | Be the most fun person for others. Extremely fun. Be the most practical and disciplined person for yourself.<br><br>This is perfect balance. Similar to learn to build and learn to sell. If you can do both, you'll be unstoppable.<br><br>Jocko Podcast can be good place to emulate |
+| Peace, Time and Courage | Be depressed for a minute. Then move on. | You have responsibilities to take care of. |
+| Team Work and Peace |  | Healthy relationship starts with healthy relationship with yourself. If you don't value your thoughts and feeling straight with yourself. You will toletate other people mis. You got shit to straight. Work on your trauma. |
+| Team Work |  | The worst feeling is that you are not enough for your family, friends and your job. |
+| Team Work | Choosing the right people | Your responsibility is more towards people who make time for you than people who don't.<br><br>And it's a good thing, not a selfish thing to choose people who are good for you. |
+| Systems |  | You don't have to worry about the results. you just have to worry about inputs.<br>Karm karo. Fal ki chinta karne ki zarurat nahi. |
+
 ## **Nirwana/Peace**: Don't suffer imagined troubles
 
 Being unhappy is inefficient.
@@ -73,12 +85,25 @@ There are a few sub paths within the relm of truth:
 3. Always saying truth
 4. Always activing truthfully.
 
+
+Truth can feel random. But we can create a habit/series of step to follow to ensure we are as truthful as possible.
+
+Truthful speech has following features:
+- Before telling the truth to others. Let go of your identity. Deliver truth to yourself completely. This can be something you don't want but you know it exactly.
+- Be as specific as possible. Being wage means you aren't speaking the truth.
+- Test out the truth quickly. Truths are not based on assumptions. Depending on the context either the truth will be a past event, in which can you could recall the past event exactly. Or a feeling, in which case one has to really listen to himself.
+- Accept the truth and let go. Don't over rationalize after one point. 
+
+
+
 The only way is to let go of the outcome and to assume that whatever happens in truth is the best thing that can happen.
 
 While dealing with people, you have to ask people multiple times to make sure they tell you everything because often humans tell white lies to not hurt your feelings.
 
 **Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 **Books**: Lying by Sam Harriss, 12 Rules for Life by Jordan B Peterson, **48 Laws of Power** (You don't have to follow it. You just have to read it.)
+
+
 
 ## **Systems Thinking**: Become an effortness executioner - 'Everthing is undercontrol'
 
@@ -115,7 +140,9 @@ Most important systems are habits because they impact our day to day. These are 
 
 You are what you feed yourself. Inputs matter because not only do they encourage certain behaviors, but they impact your everyday experience.
 
-Over the long term, you want "inputs" in your life to push yourself in the desired direction.
+Over the long term, you want "inputs" in your life to push yourself in the desired direction. The quality and quantity of inputs are very dependent on stage of progress and incoming of opportunities.
+
+All inputs have to be filtered
 
 Some things to consider:
 - Information you consume.

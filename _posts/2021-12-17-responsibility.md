@@ -1,33 +1,12 @@
----
-layout: post
-comments: true
-description:
-categories: [personal, core-values, draft]
-last_modified_at: 2021-09-23T20:52:08.052481
-last-modified-purpose:
-permalink: /responsibility/
-title: Responsibility
-hide: true
-image: /images/n-plus-one.svg
----
-![](/images/switch-jobs.jpg)
-
-## Writting Steps
-
-| Task                        | Done |
-|-----------------------------|------|
-| Structure Done              | N    |
-| Thoughts Written            | N    |
-| Thoughts Edited             | N    |
-| Grammar Check Done          | N    |
-| Perfect Grammarly Score:    | N    |
-| Image Added  https://www.canva.com/                | N    |
-| Links to Other Posts if Any | N    |
-| Tags Added                  | N    |
-| Released Publically         | N    |
-
 Responsibility
 
+Responsibility provides meaning. By taking on responsibilities voluntarily and facing your fears, you'll avoid being nihilistic. 
+
+So, pick the heaviest weight you can take and push it towards the best aim you can find. Then at least you can know, "Dumb as I am, I can at least push a thing from point A to point B" [^1]
+
+Taking on responsibility voluntarily/facing the heaviest fear you can face is how you'll have your life sorted.
+
+**Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
 Structure of this post:
 
@@ -84,36 +63,13 @@ To push beyond what's typical
 
 Do it for yourself.
 
-
-Respo:Systems
-
-You don't have to worry about the results. you just have to worry about inputs.
-Karm karo. Fal ki chinta karne ki zarurat nahi.
-
-Respo:team
-You responsibility is more towares people who make time for you than people who don't
-
-
 Respo and Courage:
 
 Imagine who you would be if you didn't stop.
 
-
-Respo/Team:
-
-It is respectful to try to look good. It respectful to yourself and it's respectuful to people you are dealing with. Dress right. be hygenic. get your hair in shape at end of every month.
-
-Clothing influences performance and congition.
-
-Be the most fun person for others. Extremely fun. Be the most practical and disciplined person for yourself.
-
-This is perfect balance. Siimilar to learn to build and learn to sell. If you can do both, you'll be unstoppable.
-
 You have to move forward.
 Waiting makes you shrink.
 If you don't know what to do. Pick something and walk towards it. You're not where you were. 
-
-
 
 No one is comming to save you.
 
@@ -121,15 +77,6 @@ God make you a man and gave you enough ability to save yourself.
 
 I am not what happened to me. I am what I choose to become.
 
-It's a good thing, not a selfish thing to choose people who are good for you. 
-
 You cannot help everyone. Focus on yourself first.
 
 You cannot give up on yourself for anyone else. You have your goals and priorities.
-
-
-The worst feeling is that you are not enough for your family, friends and your job.
-
-Peace/Courage; Be depressed for a minute. Then move on.
-
-Peace/Teamwork: Healthy relationship starts with healthy relatoinship with yourself. If you don't value your thoughts and feeling straight with yourself. You will toletate other people mis. You got shit to straight. Work on your trauma.

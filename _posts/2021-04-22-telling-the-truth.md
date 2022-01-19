@@ -94,14 +94,12 @@ Without thinnking anything/adding biases. Try to think like another person wood.
 
 Thinking in questions: TDD
 
-Simplest explaination?
 
 Further Reading Naval Ravikant
 
 First Principles Thinking
 
 Assuming you are wrong : quantify with probability
-
 
 To be as truthful as possible, always think beforre saying.
 Deliver truth to yourself first fully. And form it well
@@ -122,7 +120,6 @@ What's your truth?
 
 Also courage: What do you do when no one is watching? When only you watch? 
 
-
 To be honest, speak without identity.
 
 Truth and courage: A man is worth how much truth he can handle/tolerate. 
@@ -130,20 +127,11 @@ Truth and courage: A man is worth how much truth he can handle/tolerate.
 You need to be mentally tough enough to listen to the truth without getting emotional. Toughness is measured by how much you can take, not by how aggressive you can be.
 
 
-Share uncerstaininty. (Phrases like: Mixed feeling are appropriate )
-Share your interntions
-
 All extremely good things happen in truth. So your identity should not matter.
 
 Make sure each time you speak your words have wright. Sometimes silence have higher weight.
 
 Team: be a very good explainer.
-
-
-Live in reality
-Movies/TV Shows/Anime/Most works of friction aren't real.
-
-Learn to talk slowly. Rushing increases probability of not being truthful.
 
 Activities that increase probability of being truthful: truth-booster, truth-rival
 
@@ -162,14 +150,6 @@ Disect truth one step at a time. Isolate variables and then disect.
 The way excapte mediocrity is to become a truth seeking mistle in everything. even if it means rejecting, annoting and arguig withe everyone around you. 
 
 
-How to tell if you are telling the truth?
-Get specific. Not stay wage.
-You have to be willing to disagree. You can do so respectfully. You don't have to rationalize. Disagreement should not destroy a friendship. it should strengthen it.
-You don't have to rationalize.
-
-Be pricise.
-
-Have guiding phrases.
 
 The person we fool the most is ourselves.
 
@@ -187,7 +167,20 @@ You can do an aweful lot of things by writing down what happened to you and thin
 
 To be a clear thinker is a greater complement than being smart.
 
-
-Telling the truth/being precise allows you to fix the scope quickly.
+Telling the truth/being precise allows you to fix the scope quickly. Once the scope if fixed, solutions are exact.
 
 Courage: Speak slowly and confidently.
+
+| Influencing Values | - | Description |
+|---|---|---|
+| Inputs |  | Live in reality. <br><br>Movies/TV Shows/Anime/works of friction aren't depiction of real life. |
+
+
+| How to tell if you are telling the truth? / RED PILL | How to tell if you are lying? / BLUE PILL |
+|---|---|
+| Deliver truth to yourself first. Form it fully and completely. |  |
+| Get specific. Not stay wage. |  |
+| Talk Slowly: Rushing increases probability of not being truthful. |  |
+| Be willing to disagree. <br><br>You can do so respectfully. You don't have to rationalize. Disagreement should not destroy a friendship. It should strengthen it.<br><br>In truely logical discussions, we quickly fix the facts parties agree upon and quickly figure out difference with usually is difference in belief. |  |
+| Share whole information<br><br>It need not be a lot of words. Ideally it should be the least about of words that expresses the intent. |  |
+| Use guiding phrases/questions.  **Truth Boosters**<br><br>Truth stands tests.<br><br>Share uncertainity. (Phrases like: "Mixed feeling" are appropriate )<br><br>Simplest explaination? |  |
