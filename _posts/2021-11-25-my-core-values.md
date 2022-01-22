@@ -3,8 +3,8 @@ layout: post
 comments: true
 description: All values boil down to choosing the long term over short term.
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2022-01-14T20:52:08.052481
-last-modified-purpose: Improved Time Matters by adding time-assets and time-liabilities
+last_modified_at: 2022-01-22T20:52:08.052481
+last-modified-purpose: Updated Inputs Matter
 permalink: /my-core-vaues/
 title: My Core Values
 image: /images/my-core-values.jpg
@@ -138,18 +138,43 @@ Most important systems are habits because they impact our day to day. These are 
 
 ## **Inputs Matter**: Catelist
 
-You are what you feed yourself. Inputs matter because not only do they encourage certain behaviors, but they impact your everyday experience.
+Our role in the world is essentially to interact with it. All other virtues except peace, are related to output. Doing things that impact the world. Peace is completely internal. Input matters is the interface between external and internal.
 
-Over the long term, you want "inputs" in your life to push yourself in the desired direction. The quality and quantity of inputs are very dependent on stage of progress and incoming of opportunities.
+We have limited time and limited attention. Like any resource, resource allocation can either help us get better returns or lower our return. The quality and ability to process inputs determines quality of outputs.
 
-All inputs have to be filtered
+Over the long term, you want "inputs" in your life to push yourself in the desired direction. The quality and quantity of inputs needed very dependent on stage of progress and incoming of opportunities.
 
-Some things to consider:
-- Information you consume.
-- People you interact with regularly.
-- Where and how you live. (#cleanYourRoom)
+Majorly our inputs include:
+People you spend most time with. -> Covered in Responsibility and Team Work
+- future sections on choosing the right people would be relevant here.
+Things in your environment. -> Covered in Systems
+Content you most consume.  -> Would be covered below. But you'll find the principles can apply to other areas as well.
+- learning
+- entertainment
 
-Track inputs:
+The quantity of inputs: determines how much demand there is. How much needs to be done.
+The quality of inputs: determines how important the input it.
+
+Quantity of inputs:
+
+If you don't prioritise, everything will seem important. You work on everything important at once, your ROI will diminish significantly. It's ideal to work on a few problems at a time. Get it done and solidified and move into other problem. Early sense of progress that comes multitasking if false. Because multitasking is screwing everything up at once.  WIP Limits is a well established technique that would help limit multitasking and context switching.
+
+Quality of Inputs
+Compounding is attending a few high quality inputs. 80/20 rule is very applicable to every value. Most things come from small inputs.
+
+By **rejecting** most inputs that don't make sense at the moment, one does not loose anything. Rather the small rejection helps free time and attention to focus on what matters.
+
+It's worth having a system to quickly accept and reject inputs.
+- Quantity of inputs: If it's too much you'll not gain much from it. Feeds of any kind, like facebooks newsfeed, instagrams feed, youtube subscription suggestion, continuously news, etc all assume that what's latest "data" is the most important. This data is rarely **information**. Reliable information is what does not change overtime. Therefore best sources are usually not what has come out right now. Also, news/updates of anykind aren't easily transferable. Principles that stay true for longer are better than latest techniques.
+- Quality of inputs: Inputs should be a credible source. Non-latest Books are highest form of credible source because it goes through a lot of processing before being published. Similarly for programming, documentation (not stack overflow) is a highest credible source. Though these are credible source, one may be required to get context around the book before reading. For such cases, I find taking to someone/internet resources to be better. What's scarce is usually higher quality.
+- Available attention: Reject if you are occupled, WIP limit.
+- Explore vs Exploit: Switch between explore and exploit. Reduce your inputs during exploit. Have truly random inputs during explore. But for a short duration only.
+
+Managing Inputs
+
+The first step to managing inputs is to track it. We can only optimise and process what we know exactly.
+
+It makes sense to use some sort of a system for keeping track of inputs (at-least content consumed) and over time looking at how they are impacted. My system initially was the manual table below. Now I have moved this tracker to [notion database](https://www.notion.so/).
 
 **WIP limit**: 2 for Entertainment, 2 for Learning
 
@@ -159,12 +184,21 @@ Track inputs:
 | Y | 2. | Entertainment | Shark Tank India |  |  | M | Y | - |
 | Y | 2. | Learning | Gang of 4 Book | - | - | Long Term H | Y | Possible YT Videos or Blogposts |
 |  | 3. | Learning | Basic Arithmetic, And English | - | - | Long Term H | Y | Possible Blogposts. External Test |
-|  | 4. | Learning | MongoDB | - | - | M |  |  |
-|  | 5. | Learning | Spring Boot Documentation | - | - | H |  |  |
-|  | 5. | Entertainment | Attach on Titan Final Season Part 2 | - | - | H |  |  |
-|  | 6. | Entertainment | Demon Slayer | - | - | M |  |  |
-|  | 7. | Learning | Designing Data Intensive Applications | - | - | M | Possible. Can discuss with colleagues. | Possible YT Videos or Blogposts |
-|  | 8. | Learning | AWS | - | - | M | Possible |  |
+|  | 4. | ... more ... | - | - | M |  |  |
+
+Once you have rejected inputs, have inputs tracked and prioritised it's time to work on them the best way possible.
+
+Most entertainment aren't something that need heavy processing and there isn't a need for gaining something out of them.
+- Ideal if entertainment is a social event.
+
+For learning, the goal is usually to gain something out.
+
+To gain the most out of learning
+- Be distraction free while learning.
+- Work on small number of learning projects at a time.
+- Choose resource wisely: Material beats the method. You can choose a material that is easier, fun and interactive to consume.
+
+reduce feedback time: test, talk, teach as soon as possible
 
 **Role Models**: Ryan Holiday
 
