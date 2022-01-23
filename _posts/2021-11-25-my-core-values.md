@@ -11,11 +11,9 @@ image: /images/my-core-values.jpg
 ---
 ![](/images/my-core-values.jpg)
 
-In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.
+Reason I read have been reading philosophy is this: "Always choosing long term without significantly reducing short term pleasure.".
 
-I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values and try to actively practice them everyday. They are my best bet. 
-
-Each and every opportunity to practice these values aren't just options, it's two different pathways. Things fall apart when I don't act virtously. The way I/someone pays for their privilages is virtues.
+These values are sub division of this.
 
 1. Responsibility
 2. Nirwana/Peace
@@ -25,15 +23,6 @@ Each and every opportunity to practice these values aren't just options, it's tw
 6. Time Matter
 7. Courage is calling
 8. Team Work
-
-## How this post is structured?
-
-In each of the value I try to:
-1. Explain the goal of having the value
-2. Some 80/20 rules that surround the value
-3. Systems that can make forming habit around the value second nature.
-4. Resources, Books and Role Models 
-5. Examples that help solidify
 
 ***
 
@@ -47,17 +36,8 @@ Taking on responsibility voluntarily/facing the heaviest fear you can face is ho
 
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
-**How responsibility effects others values?**
-
-| Influencing Values | - | Description |
-|---|---|---|
-| Team Work, Systems and Inputs | **Look your best** | Team Work: It's respectful to you and to the other person if you look and present your best. Dress right all the time. Be Hygenic. Get your hair in shape at end of every month.<br><br><br>System & Inputs: Clothing influences performance and cognition. |
-| Team Work, Peace | Be fun and disciplined the same time | Be the most fun person for others. Extremely fun. Be the most practical and disciplined person for yourself.<br><br>This is perfect balance. Similar to learn to build and learn to sell. If you can do both, you'll be unstoppable.<br><br>Jocko Podcast can be good place to emulate |
-| Peace, Time and Courage | Be depressed for a minute. Then move on. | You have responsibilities to take care of. |
-| Team Work and Peace |  | Healthy relationship starts with healthy relationship with yourself. If you don't value your thoughts and feeling straight with yourself. You will toletate other people mis. You got shit to straight. Work on your trauma. |
-| Team Work |  | The worst feeling is that you are not enough for your family, friends and your job. |
-| Team Work | Choosing the right people | Your responsibility is more towards people who make time for you than people who don't.<br><br>And it's a good thing, not a selfish thing to choose people who are good for you. |
-| Systems |  | You don't have to worry about the results. you just have to worry about inputs.<br>Karm karo. Fal ki chinta karne ki zarurat nahi. |
+Specifics which may be missed:
+- **Look your best**: It's respecful to you and other people. Plus it influences performance and congnition. 
 
 ## **Nirwana/Peace**: Don't suffer imagined troubles
 
@@ -65,7 +45,7 @@ Being unhappy is inefficient.
 
 Happiness/Peace is a skill that you develop and a choice that you make [^2]. You can choose to live a certain way that will lead to peace.
 
-To have peace, your brain should be in controll in every situation. You have to be mentally tough. 
+To have peace, your brain should be in control in every situation. You have to be mentally tough. 
 
 You need to be peaceful if you want things to be good long term. Develop detachment (not wanting), be less judgemental and optimism. Aiming for peace requires a lot of recognizing, rethinking and flipping/unlearing almost everything.
 
@@ -79,22 +59,16 @@ Humans aren't rational creatures because we cannot understand or have informatio
 
 Since we base our decisions on our perceived reality, it is very important to our perceived reality match original reality.
 
-There are a few sub paths within the relm of truth:
-1. Seeking truth
-2. Accepting truth
-3. Always saying truth
-4. Always activing truthfully.
+The only truth are facts from nature. All else is opinions/perceptions. Therefore, you can be as truthful as possible but else wise it's just opinions.
 
+Truth is clear and specific.
 
-Truth can feel random. But we can create a habit/series of step to follow to ensure we are as truthful as possible.
+It is easier to deliver truth to yourself completely.
 
-Truthful speech has following features:
-- Before telling the truth to others. Let go of your identity. Deliver truth to yourself completely. This can be something you don't want but you know it exactly.
-- Be as specific as possible. Being wage means you aren't speaking the truth.
-- Test out the truth quickly. Truths are not based on assumptions. Depending on the context either the truth will be a past event, in which can you could recall the past event exactly. Or a feeling, in which case one has to really listen to himself.
+- Before telling the truth to others deliver truth to yourself completely.
+- Be as specific as possible. Eg: Pointing to past event is specific. Being wage means you aren't speaking the truth.
+- Test out the truth quickly. Truths are not based on assumptions.
 - Accept the truth and let go. Don't over rationalize after one point. 
-
-
 
 The only way is to let go of the outcome and to assume that whatever happens in truth is the best thing that can happen.
 
@@ -103,7 +77,8 @@ While dealing with people, you have to ask people multiple times to make sure th
 **Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 **Books**: Lying by Sam Harriss, 12 Rules for Life by Jordan B Peterson, **48 Laws of Power** (You don't have to follow it. You just have to read it.)
 
-
+Specifics which may be missed:
+- You may have to 
 
 ## **Systems Thinking**: Become an effortness executioner - 'Everthing is undercontrol'
 
@@ -138,19 +113,13 @@ Most important systems are habits because they impact our day to day. These are 
 
 ## **Inputs Matter**: Catelist
 
+> If information was the answer, we would all be billionares with perfect abs
+
 Our role in the world is essentially to interact with it. All other virtues except peace, are related to output. Doing things that impact the world. Peace is completely internal. Input matters is the interface between external and internal.
 
 We have limited time and limited attention. Like any resource, resource allocation can either help us get better returns or lower our return. The quality and ability to process inputs determines quality of outputs.
 
 Over the long term, you want "inputs" in your life to push yourself in the desired direction. The quality and quantity of inputs needed very dependent on stage of progress and incoming of opportunities.
-
-Majorly our inputs include:
-People you spend most time with. -> Covered in Responsibility and Team Work
-- future sections on choosing the right people would be relevant here.
-Things in your environment. -> Covered in Systems
-Content you most consume.  -> Would be covered below. But you'll find the principles can apply to other areas as well.
-- learning
-- entertainment
 
 The quantity of inputs: determines how much demand there is. How much needs to be done.
 The quality of inputs: determines how important the input it.
@@ -172,33 +141,10 @@ It's worth having a system to quickly accept and reject inputs.
 
 Managing Inputs
 
-The first step to managing inputs is to track it. We can only optimise and process what we know exactly.
-
-It makes sense to use some sort of a system for keeping track of inputs (at-least content consumed) and over time looking at how they are impacted. My system initially was the manual table below. Now I have moved this tracker to [notion database](https://www.notion.so/).
-
-**WIP limit**: 2 for Entertainment, 2 for Learning
-
-| Current Focus | seq | Category (Learning/Entertainment) | Name and Link | Planned Start Date | Planned End Date | Importance (H/M/L) | Synergy? | Solidification Plan |
-|---|---|---|---|---|---|---|---|---|
-| Y | 1. | Entertainment | Hawkeye - Disney Plus | - | 16th Jan 2021 | H | N | - |
-| Y | 2. | Entertainment | Shark Tank India |  |  | M | Y | - |
-| Y | 2. | Learning | Gang of 4 Book | - | - | Long Term H | Y | Possible YT Videos or Blogposts |
-|  | 3. | Learning | Basic Arithmetic, And English | - | - | Long Term H | Y | Possible Blogposts. External Test |
-|  | 4. | ... more ... | - | - | M |  |  |
+The first step to managing inputs is to track it. We can only optimise and process what we know exactly. I personally use [notion database](https://www.notion.so/).
 
 Once you have rejected inputs, have inputs tracked and prioritised it's time to work on them the best way possible.
 
-Most entertainment aren't something that need heavy processing and there isn't a need for gaining something out of them.
-- Ideal if entertainment is a social event.
-
-For learning, the goal is usually to gain something out.
-
-To gain the most out of learning
-- Be distraction free while learning.
-- Work on small number of learning projects at a time.
-- Choose resource wisely: Material beats the method. You can choose a material that is easier, fun and interactive to consume.
-
-reduce feedback time: test, talk, teach as soon as possible
 
 **Role Models**: Ryan Holiday
 
