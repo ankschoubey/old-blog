@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-23T12:39:30-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-23T13:12:16-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,83 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">JShell Spring Boot</title><link href="www.ankushchoubey.com/jshell/" rel="alternate" type="text/html" title="JShell Spring Boot" /><published>2022-01-16T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/jshell</id><content type="html" xml:base="www.ankushchoubey.com/jshell/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ccore Values Attempt 2</title><link href="www.ankushchoubey.com/core-values-in-quotes/" rel="alternate" type="text/html" title="Ccore Values Attempt 2" /><published>2024-01-26T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/ccore-values-attempt-2</id><content type="html" xml:base="www.ankushchoubey.com/core-values-in-quotes/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;delay-gratification&quot;&gt;&lt;strong&gt;Delay Gratification&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Choose long-term over short-term.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Naval Ravikant&lt;/p&gt;
+
+&lt;h2 id=&quot;responsibility&quot;&gt;&lt;strong&gt;Responsibility&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Clean up your room&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Jordan Peterson&lt;/p&gt;
+
+&lt;h2 id=&quot;truth&quot;&gt;&lt;strong&gt;Truth&lt;/strong&gt;:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The first principle is that you must not fool yourself and you are the easiest person to fool.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Richard P. Feynman&lt;/p&gt;
+
+&lt;h2 id=&quot;peace&quot;&gt;&lt;strong&gt;Peace&lt;/strong&gt;:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;All of humanity’s problems stem from man’s inability to sit quietly in a room alone.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Blaise Pascal&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Not wanting something is as good as having it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Liad Shababo&lt;/p&gt;
+
+&lt;h2 id=&quot;inputs&quot;&gt;&lt;strong&gt;Inputs&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If [more] information was the answer, then we’d all be billionaires with perfect abs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Derek Sivers&lt;/p&gt;
+
+&lt;h2 id=&quot;systems&quot;&gt;&lt;strong&gt;Systems&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You do not rise to the level of your goals. You fall to the level of your systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ James Clear&lt;/p&gt;
+
+&lt;h2 id=&quot;time&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is not that we have a short time to live, but that we waste a lot of it&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Seneca&lt;/p&gt;
+
+&lt;h2 id=&quot;courage&quot;&gt;&lt;strong&gt;Courage&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stand up straight with your shoulders back.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Jordan Peterson&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Not taking risk is the biggest risk&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ Mark Zuckerburg&lt;/p&gt;</content><author><name></name></author><category term="draft" /><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">JShell Spring Boot</title><link href="www.ankushchoubey.com/jshell/" rel="alternate" type="text/html" title="JShell Spring Boot" /><published>2022-01-16T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/jshell</id><content type="html" xml:base="www.ankushchoubey.com/jshell/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -505,73 +581,4 @@ Embeded mOnog&lt;/p&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;https://www.javaguides.net/2020/09/tips-to-become-good-java-developer.html&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tips and Resources for Getting started with Spring Boot</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Tips and Resources for Getting started with Spring Boot" /><published>2022-01-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/getting-started-with-spring-boot</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;EmbeddedKafka
-Embeded mOnog&lt;/p&gt;
-
-&lt;p&gt;https://www.baeldung.com/docker-test-containers&lt;/p&gt;
-
-&lt;p&gt;TestContainers is officially in Spring Boot starter test&lt;/p&gt;
-
-&lt;p&gt;Java Brains tutorials
-Read through DOcumentation https://docs.spring.io/spring-boot/docs/current/reference/html/index.html&lt;/p&gt;
-
-&lt;p&gt;Read through https://start.spring.io/&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=bB-xAYpeVL8&lt;/p&gt;
-
-&lt;p&gt;https://baeldung.com/&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=j7rQstg94Hk&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;https://www.javaguides.net/2020/09/tips-to-become-good-java-developer.html&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
