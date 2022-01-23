@@ -264,6 +264,14 @@ One can be strict with himself but has to be patient with others. And remember t
 
 ***
 
+# More Info:
+
+## Which value to refer?
+If you are suffering? -> Refer Peace, Responsibility or Courage
+If you are not on top of things? -> refer Responsibility, Inputs and Systems
+
+***
+
 I am trying make these values my second nature by forming habits. The ideal goal is identity level change [^4] but it will take time which is why I haven't published my post on it. You can read the draft version though: [My core habits](/core-habits).
 
 [^1]: Jordan B Peterson
