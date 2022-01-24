@@ -6,31 +6,28 @@ categories: [draft, personal]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
 permalink: /core-values-in-quotes/
-title: 
-hide: true
-image: /images/n-plus-one.svg
+title: Core Values - Quotes/Poundering Edition
 ---
-![](/images/switch-jobs.jpg)
 
-## **Delay Gratification**
+## **Delay gratification**
 
 > Choose long-term over short-term.
 
 ~ Naval Ravikant
 
-## **Responsibility**
+## **Fullfil your responsibilities**
 
 > Clean up your room
 
 ~ Jordan Peterson
 
-## **Truth**:
+## **Seek truth**
 
 > The first principle is that you must not fool yourself and you are the easiest person to fool.
 
 ~ Richard P. Feynman
 
-## **Peace**:
+## **Choose peace**
 
 > All of humanity's problems stem from man's inability to sit quietly in a room alone.
 
@@ -40,25 +37,25 @@ image: /images/n-plus-one.svg
 
 ~ Liad Shababo
 
-## **Inputs**
+## **Reduce Inputs**
 
 > If [more] information was the answer, then we'd all be billionaires with perfect abs.
 
 ~ Derek Sivers
 
-## **Systems**
+## **Create Systems**
 
 > You do not rise to the level of your goals. You fall to the level of your systems.
 
 ~ James Clear
 
-## **Time**
+## **Don't waste time**
 
 > It is not that we have a short time to live, but that we waste a lot of it
 
 ~ Seneca
 
-## **Courage**
+## **Feel fear but always act couragiously**
 
 > Stand up straight with your shoulders back.
 
@@ -67,3 +64,6 @@ image: /images/n-plus-one.svg
 > Not taking risk is the biggest risk
 
 ~ Mark Zuckerburg
+
+## **Treat others like you want to be treated**
+
