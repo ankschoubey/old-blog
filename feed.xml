@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-23T21:21:21-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-25T11:35:47-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,536 +49,551 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Values - Quotes/Poundering Edition</title><link href="www.ankushchoubey.com/core-values-in-quotes/" rel="alternate" type="text/html" title="Core Values - Quotes/Poundering Edition" /><published>2024-01-26T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/ccore-values-attempt-2</id><content type="html" xml:base="www.ankushchoubey.com/core-values-in-quotes/">&lt;h2 id=&quot;delay-gratification&quot;&gt;&lt;strong&gt;Delay gratification&lt;/strong&gt;&lt;/h2&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Angular and React Comparison</title><link href="www.ankushchoubey.com/angular-react-comparison/" rel="alternate" type="text/html" title="Angular and React Comparison" /><published>2021-12-04T00:00:00-06:00</published><updated>2021-12-04T14:52:08-06:00</updated><id>www.ankushchoubey.com/angular-react-comparison</id><content type="html" xml:base="www.ankushchoubey.com/angular-react-comparison/">&lt;p&gt;&lt;img src=&quot;/images/angular-react-comparison.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Angular and React though they are competitors aren’t in a completely fair league. This is because one is a full-fledged framework and one is not. It may be better to compare Angular with a React framework like Next.js.&lt;/p&gt;
+
+&lt;p&gt;There are things I like about both.&lt;/p&gt;
+
+&lt;h2 id=&quot;language&quot;&gt;Language&lt;/h2&gt;
+
+&lt;p&gt;Angular comes with typescript by default. Typescript is much more superior to JS. React can be used with typescript too but it’s a developer’s choice.&lt;/p&gt;
+
+&lt;h2 id=&quot;react-is-easy-to-get-started&quot;&gt;React is easy to get started&lt;/h2&gt;
+
+&lt;p&gt;Especially with functional components, getting started with react is too easy.&lt;/p&gt;
+
+&lt;h2 id=&quot;react-has-too-many-little-things-to-take-care-of&quot;&gt;React has too many little things to take care of.&lt;/h2&gt;
+
+&lt;p&gt;Strength can be a weakness or one could say React isn’t a full framework.&lt;/p&gt;
+
+&lt;p&gt;React has too much to learn. And every project is essentially different.&lt;/p&gt;
+
+&lt;p&gt;Angular comes with preferred ways of doing things which I like more than base React. Angular has everything important built-in. So you’ll find every Angular project uses the same set of libraries for common tasks like rest call (HttpClient). There is less to learn and remember.&lt;/p&gt;
+
+&lt;p&gt;You essentially want to reduce knowing a lot of things so that you can focus on getting stuff done.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-cleanliness&quot;&gt;Code Cleanliness&lt;/h2&gt;
+
+&lt;p&gt;Assuming React is used with Typescript, functional react with hooks is a much better way of creating components than class-based React and Angular.&lt;/p&gt;
+
+&lt;p&gt;Plus I like JSX (React) than HTML templating(Angular), it’s concise and there is less to remember. HTML templating in angular requires remembering an additional set of code (ngFor, ngIf, etc). In JSX, it’s the same language used while creating components.&lt;/p&gt;
+
+&lt;p&gt;The code structure is much better in angular projects.&lt;/p&gt;
+
+&lt;p&gt;Every angular project is structured similarly.&lt;/p&gt;
+
+&lt;p&gt;By default, CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep).&lt;/p&gt;
+
+&lt;p&gt;React can also do this by using css modules.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.png" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Typescript</title><link href="www.ankushchoubey.com/typescript" rel="alternate" type="text/html" title="Typescript" /><published>2021-11-15T00:00:00-06:00</published><updated>2021-12-01T14:52:08-06:00</updated><id>www.ankushchoubey.com/typescript</id><content type="html" xml:base="www.ankushchoubey.com/typescript">&lt;p&gt;&lt;img src=&quot;/images/typescript.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Typescript is probably my favorite programming language. Switching from typescript to javascript should save around 60% of a developers time.&lt;/p&gt;
+
+&lt;p&gt;There are many reasons for it which I’ll try to present in this post.&lt;/p&gt;
+
+&lt;h2 id=&quot;typescript&quot;&gt;Typescript&lt;/h2&gt;
+
+&lt;p&gt;Typescript is a super set of Javascript which means everything which is available in Javascript is automatically available in Typescript.&lt;/p&gt;
+
+&lt;p&gt;Typescript only adds a few extra features which are convenient for developers.&lt;/p&gt;
+
+&lt;h2 id=&quot;typechecks&quot;&gt;Typechecks&lt;/h2&gt;
+
+&lt;p&gt;Probably the main reason to use typescript is this.&lt;/p&gt;
+
+&lt;p&gt;Having typechecks remove unneccesary errors. Types makes code more predictable.&lt;/p&gt;
+
+&lt;p&gt;Dynamically typed programming language have bad IDE support.&lt;/p&gt;
+
+&lt;p&gt;VS Code has fantastic support for Typescript with typeaheads which are and will probably always be missing with Javascript.&lt;/p&gt;
+
+&lt;h2 id=&quot;everything-is-configurable&quot;&gt;Everything is configurable.&lt;/h2&gt;
+
+&lt;p&gt;Every typescript project has a “tsconfig.json” file which can be used to control everything typescript can do.&lt;/p&gt;
+
+&lt;p&gt;These include but are not limited to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Where to put the final output&lt;/li&gt;
+  &lt;li&gt;Ability to choose how strict the language is aka enable/disable following
+    &lt;ul&gt;
+      &lt;li&gt;null checks&lt;/li&gt;
+      &lt;li&gt;any assignments&lt;/li&gt;
+      &lt;li&gt;etc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Shortcut paths&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;typescript-compiles-to-js&quot;&gt;Typescript compiles to JS&lt;/h2&gt;
+
+&lt;p&gt;You don’t miss anything with typescript because in the end it compiles down to javascript.&lt;/p&gt;
+
+&lt;p&gt;You can choose which version of javascript to compile into from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tsconfig.json&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;h2 id=&quot;typescript-works-fantastically-with-many-libraries-are-framework&quot;&gt;Typescript works fantastically with many libraries are framework.&lt;/h2&gt;
+
+&lt;p&gt;Both major web libraries (React and Angular) support typescript.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-transition-from-js-to-ts&quot;&gt;How to transition from js to ts.&lt;/h2&gt;
+
+&lt;p&gt;When you have a large application with lots of connected pieces, it makes sense to have connections between them standard.&lt;/p&gt;
+
+&lt;p&gt;So that as the application grows, the connections stay strong. And if parameters in a connection changes, it can be detected and changed at all places that use the connection.&lt;/p&gt;
+
+&lt;p&gt;This is missing in Dynamically typed languages like Javascript. But is available with a static checker like typescript.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Typescript does only a few things:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Applies types and checks them&lt;/li&gt;
+  &lt;li&gt;Checks code quality to a level desired&lt;/li&gt;
+  &lt;li&gt;Compiles to JS version of your choice.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;
+
+&lt;p&gt;There are tools available that allow migration like ts-migrate https://github.com/airbnb/ts-migrate
+but ts can be used along with existing js code too.&lt;/p&gt;
+
+&lt;p&gt;My recommendation is always, if you try to create a new project, use typescript.&lt;/p&gt;
+
+&lt;p&gt;https://www.reddit.com/r/typescript/comments/n0w2k7/how_to_go_about_convincing_team_to_buy_into_ts/
+https://news.ycombinator.com/item?id=18591424
+https://dev.to/andyrewlee/how-to-convince-team-to-adopt-typescript-323a
+https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;
+
+&lt;p&gt;we need typescript because specially as project gets&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;gets bigger&lt;/li&gt;
+  &lt;li&gt;get older&lt;/li&gt;
+  &lt;li&gt;Lots of people work&lt;/li&gt;
+  &lt;li&gt;has more developers working on it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Draft:&lt;/p&gt;
+
+&lt;p&gt;https://tsh.io/blog/why-use-typescript/&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/typescript.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/typescript.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep most of your configuration within application not Jenkins</title><link href="www.ankushchoubey.com/configuration-within-application/" rel="alternate" type="text/html" title="Keep most of your configuration within application not Jenkins" /><published>2021-09-27T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/application-not-jenkins</id><content type="html" xml:base="www.ankushchoubey.com/configuration-within-application/">&lt;p&gt;If you haave a separate DevOps teams, Jenkins will usually be configured by them.&lt;/p&gt;
+
+&lt;p&gt;Developer will have an easier life if they have as less dependency on external team as possible.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, Jenkinsfile includes every minor detail. For example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In a node project, Jenkinsfile could include things like running an application in production mode along with certain parameters.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This can be okay if the paramaters are configured via Jenkins UI. But if same configuration is going to be used, it is easier to maintain and adapt by keeping them inside application and using Jenkins to only trigger script within application.&lt;/p&gt;
+
+&lt;p&gt;In node applications, you can use following to configure default behaviors.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;scripts in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file for npm&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tsconfig.json&lt;/code&gt; for Typescript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In Maven projects, you can have operations such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ignoring File during build&lt;/li&gt;
+  &lt;li&gt;Coping certain files&lt;/li&gt;
+  &lt;li&gt;To disable test cases for certain builds etc.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="devops" /><summary type="html">If you haave a separate DevOps teams, Jenkins will usually be configured by them.</summary></entry><entry><title type="html">Core Values</title><link href="www.ankushchoubey.com/core-values/" rel="alternate" type="text/html" title="Core Values" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-26T15:52:08-05:00</updated><id>www.ankushchoubey.com/values</id><content type="html" xml:base="www.ankushchoubey.com/core-values/">&lt;p&gt;&lt;img src=&quot;/images/core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is something I have been developing for a few months &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;human-is-not-a-rational-agent&quot;&gt;Human is not a rational agent&lt;/h2&gt;
+
+&lt;p&gt;Human is rational agent only withing the scenario he/she is in aka local minima.&lt;/p&gt;
+
+&lt;p&gt;By not choosing a set of guidelines/principles/values once chooses to be nothing. One has to give up the idea of being everyhing. And rather be something.&lt;/p&gt;
+
+&lt;h2 id=&quot;values-simplify-decision-making&quot;&gt;Values simplify decision making&lt;/h2&gt;
+
+&lt;p&gt;Values are things that you regard highly and that you don’t compromise on. They can act as rough guidelines for making decisions. And also serve as a standard to judge your actions on.&lt;/p&gt;
+
+&lt;p&gt;Every individual is different, therefore it is important to build your own set of values to follow. Don’t borrow someone’s values. Define your own.&lt;/p&gt;
+
+&lt;p&gt;To have your values articulated, means you can use them much more easily into making decisions.&lt;/p&gt;
+
+&lt;p&gt;While this post talks about personal values, same can be applied to businesses.&lt;/p&gt;
+
+&lt;p&gt;“Core values are choices you make”&lt;/p&gt;
+
+&lt;h2 id=&quot;some-use-cases-for-values&quot;&gt;Some use cases for values&lt;/h2&gt;
+
+&lt;p&gt;You can compare your core values with someone to see how aligned you are. Usually of you are aligned things to smoothly. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;You can usually pick up other’s value if you listen to them cuz most people essentially speak the same things over and over again.&lt;/p&gt;
+
+&lt;p&gt;If you have a particularly bad event, you can verify your actions on your values. You may find that you might not have lived up to your values fully. Or it maybe time to tweak your value a bit.&lt;/p&gt;
+
+&lt;h2 id=&quot;tips-for-finding-and-picking-values&quot;&gt;Tips for Finding and Picking Values&lt;/h2&gt;
+
+&lt;p&gt;These are some of my tips for picking values:&lt;/p&gt;
+
+&lt;h3 id=&quot;pick-only-a-few-values-at-first&quot;&gt;Pick only a few values at first&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I would recommend 3-4 at first and then adding a few overtime as need arises.&lt;/li&gt;
+  &lt;li&gt;To pick the most personalized values, look at your past events. What motivated you make certain decisions?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Shorter the length of each value the easier you can remember. Lesser the number of values, more you can remember.&lt;/p&gt;
+
+&lt;h3 id=&quot;reframe-your-values-to-fit-perfectly&quot;&gt;Reframe your values to fit perfectly&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Test and modify for your values. Maybe adding a few words would solidify a value which was previously too vague.&lt;/li&gt;
+  &lt;li&gt;I have renamed my values multiple times where they essentially mean the same thing but with words that make more sense.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;keep-them-as-abstract-as-possible&quot;&gt;Keep them as abstract as possible&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The more abstract your values, the more decisions you can slot in to them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;compress-dont-add-a-new-value-unless-you-absolutely-need-it&quot;&gt;Compress. Don’t add a new value unless you absolutely need it&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Value discovery is like finding new elements. You don’t want to add a new element if a value already exists.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;build-habits-around-them&quot;&gt;Build habits around them&lt;/h3&gt;
+
+&lt;p&gt;You want your core values to be second nature. Build habits around each of them so that they stick long term. Habits need not be long, they need to be second nature.&lt;/p&gt;
+
+&lt;h3 id=&quot;here-are-a-few-things-i-discovered&quot;&gt;Here are a few things I discovered:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;I can develop habits around my values. -&amp;gt; Identity Level Change&lt;/li&gt;
+  &lt;li&gt;I can have a few people to look up to for each of my values. This is because visualizing becomes easier.&lt;/li&gt;
+  &lt;li&gt;I can make my core values my standard.&lt;/li&gt;
+  &lt;li&gt;While trying to decide if should follow a value, I can think og the best thing that would habppend and the worst thing that would happen.&lt;/li&gt;
+  &lt;li&gt;All values boil down to choosing long term over short term.&lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The inspiration for this post of Digital Minimalism by Cal Newport &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/core-values.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/core-values.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Learning Strategies</title><link href="www.ankushchoubey.com/learning-strategy/" rel="alternate" type="text/html" title="Learning Strategies" /><published>2021-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/how-i-learn-x</id><content type="html" xml:base="www.ankushchoubey.com/learning-strategy/">&lt;p&gt;These are some strategies I use to learn any new thing including programming languages.&lt;/p&gt;
+
+&lt;p&gt;These are probably very influenced by Tim Ferriss’s 4 Hour Chef which I had read around 2016.&lt;/p&gt;
+
+&lt;h2 id=&quot;material-beats-method-&quot;&gt;Material beats Method &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;Usually, it’s not fault of the student, it’s fault of the teacher.&lt;/p&gt;
+
+&lt;p&gt;How a teacher teaches determines a lot.&lt;/p&gt;
+
+&lt;p&gt;I don’t like live teachings. It sometimes gets to fast sometimes too slow. I prefer learning on my own.&lt;/p&gt;
+
+&lt;p&gt;I pick resources that are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Step by step&lt;/li&gt;
+  &lt;li&gt;Have a clear road to some kind of implementation&lt;/li&gt;
+  &lt;li&gt;As real world as possible.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;For Music:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I tried learning Piano by reading book but it was no boring and vage. So I purchased SimplyPiano.&lt;/li&gt;
+  &lt;li&gt;Similarly for guitar I got SimplyGuitar.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For Programming Topics,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I prefer platform allow trying out code online without any local installation.
+    &lt;ul&gt;
+      &lt;li&gt;Codecademy is a good one. I used it for many things.&lt;/li&gt;
+      &lt;li&gt;Recently I started learning&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;role-of-books&quot;&gt;Role of Books&lt;/h2&gt;
+
+&lt;p&gt;I don’t use books for learning everything.&lt;/p&gt;
+
+&lt;p&gt;But certain concepts are such that they require an entire book.&lt;/p&gt;
+
+&lt;p&gt;I don’t go out to but book instantly. I wait a few days to see if I really need to.&lt;/p&gt;
+
+&lt;p&gt;Sometimes YouTube videos are enough to cure curiosity or find the answer.&lt;/p&gt;
+
+&lt;p&gt;Books are great for deep topics have a lot of details in it.&lt;/p&gt;
+
+&lt;h2 id=&quot;learn-in-chunks&quot;&gt;Learn in chunks&lt;/h2&gt;
+
+&lt;p&gt;I cannot learn something at one. If I try to do it I will have to recollection of the concepts. So I prefer doing a little every day or regularly.&lt;/p&gt;
+
+&lt;p&gt;This also forces me to recall what I had previously learned.&lt;/p&gt;
+
+&lt;p&gt;So for,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Piano and Guitar: 10 Min a Day&lt;/li&gt;
+  &lt;li&gt;Technical Topics: Max 2 Pomodoros (25 min timers twice with 5-10 min break in middle)&lt;/li&gt;
+  &lt;li&gt;Books: 10-20 minutes max&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;clear-doubts-along-the-way&quot;&gt;Clear Doubts along the way&lt;/h2&gt;
+
+&lt;p&gt;If you are stuck, search for the solution.&lt;/p&gt;
+
+&lt;p&gt;Usually learning from different sources helps.&lt;/p&gt;
+
+&lt;h2 id=&quot;have-cheat-sheets&quot;&gt;Have Cheat Sheets&lt;/h2&gt;
+
+&lt;p&gt;Cheat sheets allow recalling what you have learned instantly!&lt;/p&gt;
+
+&lt;p&gt;Often googling cheatsheets is sufficient.&lt;/p&gt;
+
+&lt;h2 id=&quot;put-into-practice-fast&quot;&gt;Put into Practice Fast&lt;/h2&gt;
+
+&lt;p&gt;Deployable.&lt;/p&gt;
+
+&lt;p&gt;Record yourself.&lt;/p&gt;
+
+&lt;p&gt;Talk to other people/&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;4 Hour Chef &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">These are some strategies I use to learn any new thing including programming languages.</summary></entry><entry><title type="html">Always make a custom component library for every new application</title><link href="www.ankushchoubey.com/custom-ui-library/" rel="alternate" type="text/html" title="Always make a custom component library for every new application" /><published>2021-09-23T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/custom-ui-library</id><content type="html" xml:base="www.ankushchoubey.com/custom-ui-library/">&lt;h2 id=&quot;need-of-custom-ui-library&quot;&gt;Need of Custom UI Library&lt;/h2&gt;
+
+&lt;p&gt;To be most productive with any front end technology, I am convinced that a custom component library should be created.&lt;/p&gt;
+
+&lt;p&gt;This custom component library should be used for everything. Any new kind of table, any new time of image viewer, etc.&lt;/p&gt;
+
+&lt;p&gt;The component library should be completely decoupled from main application data. Instead it should have it’s own namings.&lt;/p&gt;
+
+&lt;p&gt;Even if you already use a UI library like DevExpress, using them from within a custom component library will allow re-enforcing rules and make it easy to change the code later.&lt;/p&gt;
+
+&lt;p&gt;This custom UI library can have following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Common UI Elements&lt;/li&gt;
+  &lt;li&gt;Common UI Layouts&lt;/li&gt;
+  &lt;li&gt;Reusable scripts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;some-common-ui-library-elements&quot;&gt;Some Common UI Library Elements&lt;/h2&gt;
+
+&lt;p&gt;These are some UI elements that I believe are perfect for including in a custom UI Library. I have compiled this list by looking at third part UI libraries.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tables&lt;/li&gt;
+  &lt;li&gt;Forms
+    &lt;ul&gt;
+      &lt;li&gt;Input&lt;/li&gt;
+      &lt;li&gt;Checkbox&lt;/li&gt;
+      &lt;li&gt;HTML Editor&lt;/li&gt;
+      &lt;li&gt;Buttons&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Charts&lt;/li&gt;
+  &lt;li&gt;Maps&lt;/li&gt;
+  &lt;li&gt;Toast&lt;/li&gt;
+  &lt;li&gt;Progress Bars&lt;/li&gt;
+  &lt;li&gt;Tooltip&lt;/li&gt;
+  &lt;li&gt;Popovers&lt;/li&gt;
+  &lt;li&gt;Popups&lt;/li&gt;
+  &lt;li&gt;Gallery&lt;/li&gt;
+  &lt;li&gt;Menus&lt;/li&gt;
+  &lt;li&gt;Accordion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;in-general-the-rule-is&quot;&gt;In general the rule is&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Choose long-term over short-term.&lt;/p&gt;
-&lt;/blockquote&gt;
+  &lt;p&gt;if you are using a UI Element twice, wrap it in a custom component.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Need of Custom UI Library</summary></entry><entry><title type="html">CSS Tips</title><link href="www.ankushchoubey.com/css-tips/" rel="alternate" type="text/html" title="CSS Tips" /><published>2021-09-13T00:00:00-05:00</published><updated>2021-09-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/css-tips</id><content type="html" xml:base="www.ankushchoubey.com/css-tips/">&lt;h2 id=&quot;keep-css-and-html-to-a-minimum&quot;&gt;Keep CSS and HTML to a minimum&lt;/h2&gt;
 
-&lt;p&gt;~ Naval Ravikant&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CSS and HTML are every dependent. Remove unnecessary tags and CSS classes.&lt;/li&gt;
+  &lt;li&gt;Lesser the CSS and HTML, easier it is to modify.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;fullfil-your-responsibilities&quot;&gt;&lt;strong&gt;Fullfil your responsibilities&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;use-flex-and-grid-for-adjusting-positions&quot;&gt;Use flex and grid for adjusting positions&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Clean up your room&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+  &lt;li&gt;These are much more dynamic than using position absolute.&lt;/li&gt;
+  &lt;li&gt;Resource:
+    &lt;ul&gt;
+      &lt;li&gt;Flex: &lt;a href=&quot;https://www.youtube.com/watch?v=K74l26pE4YA&quot;&gt;https://www.youtube.com/watch?v=K74l26pE4YA&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Grid: &lt;a href=&quot;https://www.youtube.com/watch?v=uuOXPWCh-6o&quot;&gt;https://www.youtube.com/watch?v=uuOXPWCh-6o&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;~ Jordan Peterson&lt;/p&gt;
+&lt;h2 id=&quot;dont-use-absolute-lengths-use-relative-lengths&quot;&gt;Don’t use absolute lengths, use relative lengths&lt;/h2&gt;
 
-&lt;h2 id=&quot;seek-truth&quot;&gt;&lt;strong&gt;Seek truth&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;absolute lengths include cm, px, etc. relative lengths include em, cm, rem etc.&lt;/li&gt;
+  &lt;li&gt;if a width or height need to be a certain character length use “ch”. This cannot be used for font-size&lt;/li&gt;
+  &lt;li&gt;“vh” and “vw” can also be used but they are not perfect. instead use em or rem. rem is more preferred.&lt;/li&gt;
+  &lt;li&gt;Resource: &lt;a href=&quot;https://www.w3schools.com/CSSref/css_units.asp&quot;&gt;https://www.w3schools.com/CSSref/css_units.asp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;The first principle is that you must not fool yourself and you are the easiest person to fool.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;use-css-variables&quot;&gt;Use CSS variables&lt;/h2&gt;
 
-&lt;p&gt;~ Richard P. Feynman&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CSS variables allow for easily changing CSS on the fly.&lt;/li&gt;
+  &lt;li&gt;Resource: &lt;a href=&quot;https://www.youtube.com/watch?v=NtRmIp4eMjs&quot;&gt;https://www.youtube.com/watch?v=NtRmIp4eMjs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;choose-peace&quot;&gt;&lt;strong&gt;Choose peace&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;All of humanity’s problems stem from man’s inability to sit quietly in a room alone.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ Blaise Pascal&lt;/p&gt;
+&lt;h2 id=&quot;for-devexpress-modify-dx-widget-property&quot;&gt;For DevExpress, modify dx-widget property&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Not wanting something is as good as having it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ Liad Shababo&lt;/p&gt;
-
-&lt;h2 id=&quot;reduce-inputs&quot;&gt;&lt;strong&gt;Reduce Inputs&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If [more] information was the answer, then we’d all be billionaires with perfect abs.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+  &lt;li&gt;.dx-widget class is applied to all DevExpress component so modifying it for changing something like font-size will effect every dx component.&lt;/li&gt;
+  &lt;li&gt;For responsiveness, rely on CSS not JS.&lt;/li&gt;
+  &lt;li&gt;Unless absolutely needed, JS should not be used to re-enforce responsiveness.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;~ Derek Sivers&lt;/p&gt;
+&lt;h2 id=&quot;media-queries&quot;&gt;Media Queries&lt;/h2&gt;
 
-&lt;h2 id=&quot;create-systems&quot;&gt;&lt;strong&gt;Create Systems&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Assuming you are used most of the tips above, your CSS should be fairly small.&lt;/li&gt;
+  &lt;li&gt;Now you can use media queries for modifying elements on specific screen sizes.&lt;/li&gt;
+  &lt;li&gt;Before using media queries decide on the size of displays you want to support. This will make sure media query parameters is same across application.&lt;/li&gt;
+  &lt;li&gt;Resource: &lt;a href=&quot;https://www.youtube.com/watch?v=yU7jJ3NbPdA&quot;&gt;https://www.youtube.com/watch?v=yU7jJ3NbPdA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Keep CSS and HTML to a minimum</summary></entry><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;You do not rise to the level of your goals. You fall to the level of your systems.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ James Clear&lt;/p&gt;
-
-&lt;h2 id=&quot;dont-waste-time&quot;&gt;&lt;strong&gt;Don’t waste time&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It is not that we have a short time to live, but that we waste a lot of it&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ Seneca&lt;/p&gt;
-
-&lt;h2 id=&quot;feel-fear-but-always-act-couragiously&quot;&gt;&lt;strong&gt;Feel fear but always act couragiously&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Stand up straight with your shoulders back.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ Jordan Peterson&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Not taking risk is the biggest risk&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ Mark Zuckerburg&lt;/p&gt;
-
-&lt;h2 id=&quot;treat-others-like-you-want-to-be-treated&quot;&gt;&lt;strong&gt;Treat others like you want to be treated&lt;/strong&gt;&lt;/h2&gt;</content><author><name></name></author><category term="draft" /><category term="personal" /><summary type="html">Delay gratification</summary></entry><entry><title type="html">JShell Spring Boot</title><link href="www.ankushchoubey.com/jshell/" rel="alternate" type="text/html" title="JShell Spring Boot" /><published>2022-01-16T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/jshell</id><content type="html" xml:base="www.ankushchoubey.com/jshell/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;run in iterpretter&lt;/p&gt;
-
-&lt;p&gt;Name: JShell Easy
-Id: senthilnathana.jshelleasy
-Description: Simple Jshell extension to run java code inline
-Version: 1.0.1
-Publisher: Senthilnathan A
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=SenthilnathanA.jshelleasy&lt;/p&gt;
-
-&lt;p&gt;Also available in intelliJ&lt;/p&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Using StackOverflow Well</title><link href="www.ankushchoubey.com/stackoverflow/" rel="alternate" type="text/html" title="Using StackOverflow Well" /><published>2022-01-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/stackoverflow</id><content type="html" xml:base="www.ankushchoubey.com/stackoverflow/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=sMIslcynm0Q&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Security and SQL Injections</title><link href="www.ankushchoubey.com/sqll-injections/" rel="alternate" type="text/html" title="Security and SQL Injections" /><published>2022-01-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/sql-injections</id><content type="html" xml:base="www.ankushchoubey.com/sqll-injections/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;o summarize the MongoDB documentation&lt;/p&gt;
-
-&lt;p&gt;BSON&lt;/p&gt;
-
-&lt;p&gt;As a client program assembles a query in MongoDB, it builds a BSON object, not a string. Thus traditional SQL injection attacks are not a problem.&lt;/p&gt;
-
-&lt;p&gt;However, MongoDB is not immune from injection attacks. As noted in the same documentation, injection attacks are still possible as MongoDB operations allow arbitrary JavaScript expressions to be executed directly on the server. The documentation goes into this in detail:&lt;/p&gt;
-
-&lt;p&gt;http://docs.mongodb.org/manual/faq/developers/#javascript&lt;/p&gt;
-
-&lt;p&gt;https://stackoverflow.com/a/5021531&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Spring Webflux</title><link href="www.ankushchoubey.com/spring-webflux/" rel="alternate" type="text/html" title="Spring Webflux" /><published>2022-01-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/spring-webflux</id><content type="html" xml:base="www.ankushchoubey.com/spring-webflux/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;https://gatheca-george.medium.com/5-spring-webflux-tips-tricks-common-mistakes-123cb1bbf2fe
-https://gatheca-george.medium.com/6-spring-webflux-load-testing-using-jmeter-b0875b09fc25&lt;/p&gt;
-
-&lt;p&gt;https://projectreactor.io/docs/core/release/reference/index.html#which-operator&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Spring Boot - Testing External Systems</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Spring Boot - Testing External Systems" /><published>2022-01-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/spring-boot-testing-external-systems</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;EmbeddedKafka
-Embeded mOnog&lt;/p&gt;
-
-&lt;p&gt;https://www.baeldung.com/docker-test-containers&lt;/p&gt;
-
-&lt;p&gt;TestContainers is officially in Spring Boot starter test&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Spring Boot - Architecture Testing</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Spring Boot - Architecture Testing" /><published>2022-01-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/spring-boot-architecture-testing</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;EmbeddedKafka
-Embeded mOnog&lt;/p&gt;
-
-&lt;p&gt;https://www.baeldung.com/docker-test-containers&lt;/p&gt;
-
-&lt;p&gt;https://www.baeldung.com/java-archunit-intro&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Spring Boot Actuator UI</title><link href="www.ankushchoubey.com/spring-boot-actuator-ui/" rel="alternate" type="text/html" title="Spring Boot Actuator UI" /><published>2022-01-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/spring-boot-actuator-ui</id><content type="html" xml:base="www.ankushchoubey.com/spring-boot-actuator-ui/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;https://www.foreach.be/blog/how-to-visualise-spring-boot-actuator-health-indicators-in-spring-boot-admin?lang=nl&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Object Oriented Programming</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Object Oriented Programming" /><published>2022-01-15T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/object-oriented-programming</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
-
-&lt;p&gt;If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Task&lt;/th&gt;
-      &lt;th&gt;Done&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Structure Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Written&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Thoughts Edited&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grammar Check Done&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perfect Grammarly Score:&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Image Added  https://www.canva.com/&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Links to Other Posts if Any&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tags Added&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Released Publically&lt;/td&gt;
-      &lt;td&gt;N&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;https://www.javaguides.net/2020/09/tips-to-become-good-java-developer.html&lt;/p&gt;</content><author><name></name></author><category term="personal" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Every sufficiently advanced technology is indistinguishable from magic.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; But as more and more people understand and use the technology, the magic fades and it becomes an everyday affair.&lt;/p&gt;
+
+&lt;p&gt;There are 3 interconnected factors that influence this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Abstraction and Field Maturity&lt;/li&gt;
+  &lt;li&gt;Demand and Cost&lt;/li&gt;
+  &lt;li&gt;Education&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;abstraction-and-field-maturity&quot;&gt;Abstraction and Field Maturity&lt;/h2&gt;
+
+&lt;p&gt;Abstraction makes it easy for programmers to learn new things. Open Source projects are best at these.&lt;/p&gt;
+
+&lt;p&gt;Every advanced technology eventually comes to a point where simple statements get the job done without need to understand details.&lt;/p&gt;
+
+&lt;p&gt;It takes long time for things to get polished. Open Source projects spend years perfecting things.&lt;/p&gt;
+
+&lt;p&gt;Web Technologies is probably in it’s most mature state. Like with Spring Boot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You have integrations to include things like Batch Processing, Database Connectivity, Micro Services, Security, etc.&lt;/li&gt;
+  &lt;li&gt;Each of which at one point in time were totally a big subject to learn and implement. Now most are a few hours of configuration.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Like with Arduino:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arduino has different environment, chips and hardware that make it easy for anyone to quickly prototype and test hardware products.&lt;/li&gt;
+  &lt;li&gt;There are modules available for camera, microphones, sensors, etc.&lt;/li&gt;
+  &lt;li&gt;All of which are abstracted and the only things connecting them are arduino and programming.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Deep Learning:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deep Learning is also getting to a state of maturity where things that required special knowledge are replaced with easy abstractions.&lt;/li&gt;
+  &lt;li&gt;Frameworks like Tensorflow are providing out if the box solution for common activities like Recommender Systems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Research eventually give rise to applied applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;demand-and-cost&quot;&gt;Demand and Cost&lt;/h2&gt;
+
+&lt;p&gt;More a product is needed, the more innovative solutions are made to make it cheaper and available to as many people as possible. #capitalism&lt;/p&gt;
+
+&lt;p&gt;Once it is available to more people, more innovative uses come out of it.&lt;/p&gt;
+
+&lt;p&gt;Software is cheaper to replicated therefore pace of innovation is much faster.&lt;/p&gt;
+
+&lt;p&gt;Hardware costs are variable in different countries. China has had a lot of hardware innovations because the cost of hardware is much lower due to high supply.&lt;/p&gt;
+
+&lt;h2 id=&quot;role-of-education&quot;&gt;Role of Education&lt;/h2&gt;
+
+&lt;p&gt;YouTube and online video in general has been a revolutionary technology. A man is limited to opportunities he/she gets. Online video allows for opportunity for everyone to learn the same thing.&lt;/p&gt;
+
+&lt;p&gt;Books are boring for most folks.&lt;/p&gt;
+
+&lt;h2 id=&quot;space&quot;&gt;Space?&lt;/h2&gt;
+
+&lt;p&gt;I believe once SpaceX reaches Mars, we’ll go through a similar cycle for space technology too. Where some things become so abstracted and spread of education increases that more people can start ticketing with things.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@forestkatsch?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Forest Katsch&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/starship?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">1 Photo by Forest Katsch on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making Internet Less Distracting</title><link href="www.ankushchoubey.com/internet-distractions/" rel="alternate" type="text/html" title="Making Internet Less Distracting" /><published>2021-08-24T00:00:00-05:00</published><updated>2021-09-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/internet-distraction</id><content type="html" xml:base="www.ankushchoubey.com/internet-distractions/">&lt;p&gt;&lt;img src=&quot;/images/internet-distractions.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The following should reduce influence of recommender systems significantly. Making internet less distracting and help improve privacy.&lt;/p&gt;
+
+&lt;h2 id=&quot;least-access-principle&quot;&gt;Least Access Principle&lt;/h2&gt;
+
+&lt;p&gt;This is a security principle.&lt;/p&gt;
+
+&lt;p&gt;By default, the number of accesses granted to a user/role/application should be least needed to run that application.&lt;/p&gt;
+
+&lt;p&gt;The more access someone/something has, the more will be probability of a security risk.&lt;/p&gt;
+
+&lt;h2 id=&quot;reduce-data-points&quot;&gt;Reduce Data Points&lt;/h2&gt;
+
+&lt;p&gt;A recommender system can only work with data we provide. If data is reduced, it will have hard time figuring out what to recommend therefore making things less distracting.&lt;/p&gt;
+
+&lt;h2 id=&quot;specifics&quot;&gt;Specifics&lt;/h2&gt;
+
+&lt;h3 id=&quot;phone&quot;&gt;Phone&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do not allow notifications&lt;/li&gt;
+  &lt;li&gt;Do not give any permission for the application if it is not necessary.&lt;/li&gt;
+  &lt;li&gt;For iOS 14.5+: Turn off app tracking for all apps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;for-services&quot;&gt;For Services&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Turn off personalized ads&lt;/li&gt;
+  &lt;li&gt;Do not store unnecessary data. Even after deleting, most services will take 6 months to delete it from all their servers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For Example: In YouTube you can,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Delete all playlists&lt;/li&gt;
+  &lt;li&gt;Unsubscribe from all channels&lt;/li&gt;
+  &lt;li&gt;Change locations to some other country (I Choose Japan)&lt;/li&gt;
+  &lt;li&gt;Turn off Personalized Ads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I found that Google services are good at providing these kind of features and changing these settings have an immediate effect. Facebook Products and Amazon hide a lot of details.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@flyd2069?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;FLY:D&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/data-security?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="recommender-systems" /><summary type="html">1 Photo by FLY:D on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/internet-distractions.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/internet-distractions.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
