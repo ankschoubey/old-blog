@@ -88,8 +88,3 @@ Constructing the simplest possible code that would solve your problem.
     <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.date | date: date_format }}</p>
 </article>
 {% endfor %}
-
----
-DRAFT
-
-self document code

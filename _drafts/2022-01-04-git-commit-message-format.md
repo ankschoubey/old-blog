@@ -12,37 +12,16 @@ image: /images/n-plus-one.svg
 ---
 ![](/images/switch-jobs.jpg)
 
-## Writing Steps
-
-If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I'll always have the right words to write.
-
-| Task                        | Done |
-|-----------------------------|------|
-| Structure Done              | N    |
-| Thoughts Written            | N    |
-| Thoughts Edited             | N    |
-| Grammar Check Done          | N    |
-| Perfect Grammarly Score:    | N    |
-| Image Added  https://www.canva.com/                | N    |
-| Links to Other Posts if Any | N    |
-| Tags Added                  | N    |
-| Released Publically         | N    |
-
 Git is the defacto standard of version control in 2021. By having good git practices, we make it easy for:
 - Understanding and sharing knowledge
 - Code reviews
 - Easily reverting changes
 
-
-
-
 I want to make sure that commit messages are easy to read and understand.
 
 So I want to have a structure to them. I found a gem of an article which compares initial commits in spring to latest ones. -> https://cbea.ms/git-commit/
 
-
 There must be many structures which I would later update in the post. Right now I am sticking to these.
-
 
 1. Prepend with story tag/identified
 2. commit message format:
@@ -58,9 +37,6 @@ If applied, this commit will your subject line here
 
 
 action ___ to/in/while/from ___
-
-
-
 
 feat: The new feature you're adding to a particular application
 fix: A bug fix

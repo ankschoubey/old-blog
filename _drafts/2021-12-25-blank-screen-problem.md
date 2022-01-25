@@ -12,20 +12,6 @@ image: /images/n-plus-one.svg
 ---
 ![](/images/switch-jobs.jpg)
 
-## Writting Steps
-
-| Task                        | Done |
-|-----------------------------|------|
-| Structure Done              | N    |
-| Thoughts Written            | N    |
-| Thoughts Edited             | N    |
-| Grammar Check Done          | N    |
-| Perfect Grammarly Score:    | N    |
-| Image Added  https://www.canva.com/                | N    |
-| Links to Other Posts if Any | N    |
-| Tags Added                  | N    |
-| Released Publically         | N    |
-
 The blank screen problem is when you don't know where to start writing your code.
 
 It can be tempting initially to just code up something but it's inefficient. It's better to have everything pre-planned and then code because programming and clean code are more of a design problem. The better the design, the less you need to code.
