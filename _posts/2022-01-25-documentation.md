@@ -2,11 +2,11 @@
 layout: post
 comments: true
 description:
-categories: [clean-code, software-engineering]
+categories: [clean-code]
 last_modified_at: 2022-01-25T20:52:08.052481
 last-modified-purpose:
 permalink: /documentation/
-title: Documenting Code
+title: Maintaining Documentation
 image: https://docs.google.com/drawings/d/e/2PACX-1vS1EYND3yzq_zmJEZ1rEJogTD9tbXucE2k33rcUYIVTcA2ZQZlYfPf_MSVk8kvHZhjcKo7fByRiXFpy/pub?w=453&amp;h=723
 ---
 
@@ -16,11 +16,15 @@ But the ideal isn't always practical in the real world because people come from 
 
 So, you want to make sure your documentation is as perfect as possible given the project scope.
 
+If the API/Library is going to be used by the public, it needs to be perfect.
+
 ![]({{ site.baseurl }}/images/2022-01-25-documentation/shared-between-single-team-multiple.png)
+***
+The biggest problem is maintaining up-to-date documentation. These are a few things I have learned recently about this:
 
 <img style="float: left; width: 300px;" src="https://docs.google.com/drawings/d/e/2PACX-1vS1EYND3yzq_zmJEZ1rEJogTD9tbXucE2k33rcUYIVTcA2ZQZlYfPf_MSVk8kvHZhjcKo7fByRiXFpy/pub?w=453&amp;h=723">
 
-These are a few things I have learned recently:
+
 
 ## 1. The best way to document is to automate
 
