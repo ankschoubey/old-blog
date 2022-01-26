@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-25T12:35:32-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-26T01:16:14-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,50 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Maintaining Documentation</title><link href="www.ankushchoubey.com/documentation/" rel="alternate" type="text/html" title="Maintaining Documentation" /><published>2022-01-25T00:00:00-06:00</published><updated>2022-01-25T14:52:08-06:00</updated><id>www.ankushchoubey.com/documentation</id><content type="html" xml:base="www.ankushchoubey.com/documentation/">&lt;p&gt;We ideally want to write code so well that someone reading the code can understand it in one go.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Time Assets and Liabilities</title><link href="www.ankushchoubey.com/time-assets-and-liabilities/" rel="alternate" type="text/html" title="Time Assets and Liabilities" /><published>2022-01-26T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/time-assets-liabilities</id><content type="html" xml:base="www.ankushchoubey.com/time-assets-and-liabilities/">&lt;p&gt;Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.&lt;/p&gt;
+
+&lt;p&gt;Like any resource, one can think of time in numeric terms. This allows us to categorize activities as assets that add back time or liabilities, which take time away. Our goal then is to create more time-assets with high time-ROI.&lt;/p&gt;
+
+&lt;p&gt;80% of our activities during a given day are not new. They are merely routines.&lt;/p&gt;
+
+&lt;p&gt;So essentially, carefully observing, choosing, and forming our habits would lead to more &lt;strong&gt;time-assets&lt;/strong&gt; and less &lt;strong&gt;time-liabilities&lt;/strong&gt;. Usually, time-assets and time-liabilities are opposites of each other.&lt;/p&gt;
+
+&lt;p&gt;Most time-liabilities snap our attention and lead us to care about wrong things. Therefore, time-assets help us course correct. Therefore, time management is closely linked to attention management.&lt;/p&gt;
+
+&lt;p&gt;Some of the most impactful time-assets and liabilities are:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Time-Assets&lt;/th&gt;
+      &lt;th&gt;Time Liabilities&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Planning&lt;/strong&gt;: Even a little bit of planning, something like 10 minutes alone creating a written plan could save hours, days, or even years. &lt;br /&gt;&lt;br /&gt;Planning allows course correction. Ideally, don’t start working without a plan.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Rushing&lt;/strong&gt;: Though it may seem you are making progress. The probability is higher that you are moving in the wrong direction. It’s better to fix a plan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Meditation&lt;/strong&gt;:&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Instagram&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;5 Min Rule&lt;/strong&gt;: Don’t allow yourself to be down or procrastinate for more than 5 minutes. &lt;br /&gt;&lt;br /&gt;During such time ask yourself: Is this worth the return on my time?&lt;br /&gt;&lt;br /&gt;Remember you can’t live forever.&lt;/td&gt;
+      &lt;td&gt;Forever Rule: &lt;strong&gt;The opposite of 5 min rule&lt;/strong&gt;: Letting fear/laziness/indecision stop you.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;WIP Limit&lt;/strong&gt;: Focus on a few things and complete them. If your WIP limit is exceeded, don’t add work on newer tasks unless older ones are complete.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Trying to change people&lt;/strong&gt;: You cannot change people. You can suggest but cannot force. Leading by example. It’s the best option you have.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Pomodoro&lt;/strong&gt;: Working in Pomodoros keeps you focused. If you can’t work with Pomodoro, you haven’t planned carefully enough.&lt;br /&gt;&lt;br /&gt;To have Pomodoro sessions.&lt;br /&gt;1. Create a distraction-free zone.&lt;br /&gt;2. Plan your tasks. Ideally, pick a deliverable.&lt;br /&gt;3. Put on headphones and play instrumental/&lt;a href=&quot;https://www.youtube.com/playlist?list=PLx65qkgCWNJIs3FPaj8JZhduXSpQ_ZfvL&quot;&gt;focus music&lt;/a&gt;.&lt;br /&gt;4. Work on the task using &lt;a href=&quot;https://pomofocus.io/&quot;&gt;a Pomodoro app&lt;/a&gt;.&lt;br /&gt;5. Stick to break schedule religiously. Get away from the room during the break but no internet. &lt;br /&gt;&lt;br /&gt;One Pomodoro is better than zero Pomodoro.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;During normal decision-making, one can calculate the ROI of their actions: think about how much time you’ll invest and how much return you’ll get back. This calculation needs to be a specific number in terms of both hours and percentage even if it’s an estimate.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="time-matters" /><category term="philosophical" /><summary type="html">Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.</summary></entry><entry><title type="html">Maintaining Documentation</title><link href="www.ankushchoubey.com/documentation/" rel="alternate" type="text/html" title="Maintaining Documentation" /><published>2022-01-25T00:00:00-06:00</published><updated>2022-01-25T14:52:08-06:00</updated><id>www.ankushchoubey.com/documentation</id><content type="html" xml:base="www.ankushchoubey.com/documentation/">&lt;p&gt;We ideally want to write code so well that someone reading the code can understand it in one go.&lt;/p&gt;
 
 &lt;p&gt;But the ideal isn’t always practical in the real world because people come from different backgrounds and experiences.&lt;/p&gt;
 
@@ -57,9 +100,11 @@
 
 &lt;p&gt;If the API/Library is going to be used by the public, it needs to be perfect.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/2022-01-25-documentation/shared-between-single-team-multiple.png&quot; alt=&quot;&quot; /&gt;
-***
-The biggest problem is maintaining up-to-date documentation. These are a few things I have learned recently about this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2022-01-25-documentation/shared-between-single-team-multiple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The biggest problem is maintaining up-to-date documentation. These are a few things I have learned recently about this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&quot;float: left; width: 300px;&quot; src=&quot;https://docs.google.com/drawings/d/e/2PACX-1vS1EYND3yzq_zmJEZ1rEJogTD9tbXucE2k33rcUYIVTcA2ZQZlYfPf_MSVk8kvHZhjcKo7fByRiXFpy/pub?w=453&amp;amp;h=723&quot; /&gt;&lt;/p&gt;
 
@@ -503,77 +548,4 @@ https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;
   &lt;li&gt;Now you can use media queries for modifying elements on specific screen sizes.&lt;/li&gt;
   &lt;li&gt;Before using media queries decide on the size of displays you want to support. This will make sure media query parameters is same across application.&lt;/li&gt;
   &lt;li&gt;Resource: &lt;a href=&quot;https://www.youtube.com/watch?v=yU7jJ3NbPdA&quot;&gt;https://www.youtube.com/watch?v=yU7jJ3NbPdA&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Keep CSS and HTML to a minimum</summary></entry><entry><title type="html">Decentralization of High Tech</title><link href="www.ankushchoubey.com/decentralize-high-tech/" rel="alternate" type="text/html" title="Decentralization of High Tech" /><published>2021-08-29T00:00:00-05:00</published><updated>2021-08-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/decentralization-high-tech</id><content type="html" xml:base="www.ankushchoubey.com/decentralize-high-tech/">&lt;p&gt;&lt;img src=&quot;/images/decentralize-high-tech.jpg&quot; alt=&quot;&quot; /&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Every sufficiently advanced technology is indistinguishable from magic.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; But as more and more people understand and use the technology, the magic fades and it becomes an everyday affair.&lt;/p&gt;
-
-&lt;p&gt;There are 3 interconnected factors that influence this:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Abstraction and Field Maturity&lt;/li&gt;
-  &lt;li&gt;Demand and Cost&lt;/li&gt;
-  &lt;li&gt;Education&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;abstraction-and-field-maturity&quot;&gt;Abstraction and Field Maturity&lt;/h2&gt;
-
-&lt;p&gt;Abstraction makes it easy for programmers to learn new things. Open Source projects are best at these.&lt;/p&gt;
-
-&lt;p&gt;Every advanced technology eventually comes to a point where simple statements get the job done without need to understand details.&lt;/p&gt;
-
-&lt;p&gt;It takes long time for things to get polished. Open Source projects spend years perfecting things.&lt;/p&gt;
-
-&lt;p&gt;Web Technologies is probably in it’s most mature state. Like with Spring Boot:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You have integrations to include things like Batch Processing, Database Connectivity, Micro Services, Security, etc.&lt;/li&gt;
-  &lt;li&gt;Each of which at one point in time were totally a big subject to learn and implement. Now most are a few hours of configuration.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Like with Arduino:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Arduino has different environment, chips and hardware that make it easy for anyone to quickly prototype and test hardware products.&lt;/li&gt;
-  &lt;li&gt;There are modules available for camera, microphones, sensors, etc.&lt;/li&gt;
-  &lt;li&gt;All of which are abstracted and the only things connecting them are arduino and programming.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Deep Learning:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Deep Learning is also getting to a state of maturity where things that required special knowledge are replaced with easy abstractions.&lt;/li&gt;
-  &lt;li&gt;Frameworks like Tensorflow are providing out if the box solution for common activities like Recommender Systems.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Research eventually give rise to applied applications.&lt;/p&gt;
-
-&lt;h2 id=&quot;demand-and-cost&quot;&gt;Demand and Cost&lt;/h2&gt;
-
-&lt;p&gt;More a product is needed, the more innovative solutions are made to make it cheaper and available to as many people as possible. #capitalism&lt;/p&gt;
-
-&lt;p&gt;Once it is available to more people, more innovative uses come out of it.&lt;/p&gt;
-
-&lt;p&gt;Software is cheaper to replicated therefore pace of innovation is much faster.&lt;/p&gt;
-
-&lt;p&gt;Hardware costs are variable in different countries. China has had a lot of hardware innovations because the cost of hardware is much lower due to high supply.&lt;/p&gt;
-
-&lt;h2 id=&quot;role-of-education&quot;&gt;Role of Education&lt;/h2&gt;
-
-&lt;p&gt;YouTube and online video in general has been a revolutionary technology. A man is limited to opportunities he/she gets. Online video allows for opportunity for everyone to learn the same thing.&lt;/p&gt;
-
-&lt;p&gt;Books are boring for most folks.&lt;/p&gt;
-
-&lt;h2 id=&quot;space&quot;&gt;Space?&lt;/h2&gt;
-
-&lt;p&gt;I believe once SpaceX reaches Mars, we’ll go through a similar cycle for space technology too. Where some things become so abstracted and spread of education increases that more people can start ticketing with things.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@forestkatsch?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Forest Katsch&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/starship?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Steve Jobs &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="baton" /><summary type="html">1 Photo by Forest Katsch on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/decentralize-high-tech.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><summary type="html">Keep CSS and HTML to a minimum</summary></entry></feed>
