@@ -14,7 +14,7 @@
 <meta property="og:url" content="www.ankushchoubey.com/" />
 <meta property="og:site_name" content="Ankush" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/","headline":"Ankush","dateModified":"2022-01-26T01:14:58-06:00","@type":"WebSite","name":"Ankush","description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/","headline":"Ankush","dateModified":"2022-01-26T01:20:12-06:00","@type":"WebSite","name":"Ankush","description":"Random Thoughts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -249,6 +249,14 @@ window.onload = wrap_img;
         
             
                 '/documentation/',
+            
+        
+            
+                '/clean-fast-unit-tests/',
+            
+        
+            
+                '/tdd/',
             
         
             
@@ -739,6 +747,9 @@ window.onload = wrap_img;
     <p class="post-meta post-meta-title"><span class="page-meta" href="/post-format/">Post Format</span> • Sep 26, 2050</p>
 </article>
 <article class="archive-item">
+    <p class="post-meta post-meta-title"><span class="page-meta" href="/tdd/">Thoughts on Test Driven Development</span> • Dec 24, 2021</p>
+</article>
+<article class="archive-item">
     <p class="post-meta post-meta-title"><span class="page-meta" href="/typescript">Typescript</span> • Nov 15, 2021</p>
 </article>
 <article class="archive-item">
@@ -899,6 +910,92 @@ window.onload = wrap_img;
       </div>
 
 
+  </div></li><li><div class="Box rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+        <h3>
+          
+            <a class="post-link" href="/clean-fast-unit-tests/">
+              Writing Clean and Fast Unit Tests
+            </a>
+          
+
+        </h3>
+        
+        <p class="post-meta-description"></p>
+        
+        
+        
+          <div class="post-meta-created-date">Written on  : Jan 2, 2022 </div>
+         
+
+          <div class='post-meta-holder' style="display: none;">
+            
+            
+            
+              <div class="post-meta-created-date">Written on  : Jan 2, 2022 </div>
+             
+          </div><!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    
+    <a class="tag fa fa-hashtag testing" href="/categories/#testing">testing</a>
+    
+</div>
+</div>
+      <div class="custom-post-card-toc">
+        <ul><li><a href="/clean-fast-unit-tests/#group-tests-together">Group Tests Together</a><ul><li><a href="/clean-fast-unit-tests/#example">Example:</a><ul><li><a href="/clean-fast-unit-tests/#junit">JUnit:</a></li><li><a href="/clean-fast-unit-tests/#jest">Jest:</a></li></ul></li></ul></li><li><a href="/clean-fast-unit-tests/#have-global-mocksstub-object">Have global mocks/stub object</a></li><li><a href="/clean-fast-unit-tests/#mock-object">Mock object</a><ul><li><a href="/clean-fast-unit-tests/#naming">Naming</a></li><li><a href="/clean-fast-unit-tests/#never-generate-random-inputs-always-use-fixed-values-">Never generate random inputs. Always use fixed values. <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">1</a></sup></a></li></ul></li><li><a href="/clean-fast-unit-tests/#start-with-method_should__whenwith_-or-itshould__when_">Start with <code class="language-plaintext highlighter-rouge">method_should_&lt;&gt;_when/with_&lt;&gt;()</code> or <code class="language-plaintext highlighter-rouge">itShould_&lt;&gt;_When_&lt;&gt;</code></a></li><li><a href="/clean-fast-unit-tests/#given-when-then">Given When Then</a></li><li><a href="/clean-fast-unit-tests/#size-of-tests-should-be-less-than-size-of-your-display">Size of tests should be less than size of your display</a><ul><li><a href="/clean-fast-unit-tests/#assertions">Assertions</a></li></ul></li><li><a href="/clean-fast-unit-tests/#writing-tests-that-run-fast">Writing tests that run fast</a><ul><li><a href="/clean-fast-unit-tests/#time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">4</a></sup></a></li><li><a href="/clean-fast-unit-tests/#for-spring-boot">For Spring Boot</a><ul><li><a href="/clean-fast-unit-tests/#initialize-only-beans-you-need-using-contextconfiguration-">Initialize only beans you need using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">5</a></sup></a></li></ul></li></ul></li></ul>
+      </div>
+
+
+  </div></li><li><div class="Box rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+        <h3>
+          
+            <a class="post-link" href="/tdd/">
+              Thoughts on Test Driven Development
+            </a>
+          
+
+        </h3>
+        
+        <p class="post-meta-description"></p>
+        
+        
+        
+          <div class="post-meta-created-date">Written on  : Dec 24, 2021 </div>
+         
+
+          <div class='post-meta-holder' style="display: none;">
+            
+            
+            
+              <div class="post-meta-created-date">Written on  : Dec 24, 2021 </div>
+             
+          </div><!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag testing" href="/categories/#testing">testing</a>
+    
+    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    
+    <a class="tag fa fa-hashtag draft" href="/categories/#draft">draft</a>
+    
+</div>
+</div>
+      <div class="custom-post-card-toc">
+        <ul><li><a href="/tdd/#why-tdd">Why TDD?</a></li><li><a href="/tdd/#the-three-laws-of-tdd">The Three Laws of TDD</a></li><li><a href="/tdd/#how-to-tdd">How to TDD?</a></li><li><a href="/tdd/#usually-tdd-can-be-cumbersome-because">Usually TDD can be cumbersome because:</a></li><li><a href="/tdd/#mitigrations">Mitigrations</a><ul><li><a href="/tdd/#1-tdd-is-a-todo-list-of-feature-to-do">1. TDD is a todo list of feature to do</a></li><li><a href="/tdd/#2-switch-between-testing-and-code-easily">2. Switch between testing and code easily</a></li><li><a href="/tdd/#3-rerun-tests-automatically">3. Rerun tests automatically</a></li><li><a href="/tdd/#4-no-one-does-it">4. No one does it</a></li></ul></li></ul>
+      </div>
+
+
   </div></li><li><div class="Box rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
         <a href="/angular-react-comparison/">
         <img class="image-preview " src="/images/angular-react-comparison.png"  href="/angular-react-comparison/" loading=‘lazy’ />
@@ -1040,8 +1137,8 @@ window.onload = wrap_img;
   </div></li><li><div class="Box rounded-1 col-12"><div class="col-8 d-table-cell p-3">
         <h3>
           
-            <a class="post-link" href="/time-assets-and-liabilities/">
-              Time Assets and Liabilities
+            <a class="post-link" href="/configuration-within-application/">
+              Keep most of your configuration within application not Jenkins
             </a>
           
 
@@ -1052,7 +1149,7 @@ window.onload = wrap_img;
         
         
           <div class="post-meta-last-modified-date">Updated : Sep 23, 2021</div>
-          <div class="post-meta-created-date-hover">Written: Jan 26, 2022 </div>
+          <div class="post-meta-created-date-hover">Written: Sep 27, 2021 </div>
          
 
           <div class='post-meta-holder' style="display: none;">
@@ -1060,7 +1157,7 @@ window.onload = wrap_img;
             
             
               <div class="post-meta-last-modified-date">Updated: 23-Sep-21 </div>
-              <div class="post-meta-created-date-hover">Written: Jan 26, 2022 </div>
+              <div class="post-meta-created-date-hover">Written: Sep 27, 2021 </div>
              
           </div><!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -1070,11 +1167,7 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag core-values" href="/categories/#core-values">core-values</a>
-    
-    <a class="tag fa fa-hashtag time-matters" href="/categories/#time-matters">time-matters</a>
-    
-    <a class="tag fa fa-hashtag philosophical" href="/categories/#philosophical">philosophical</a>
+    <a class="tag fa fa-hashtag devops" href="/categories/#devops">devops</a>
     
 </div>
 </div>
@@ -1122,8 +1215,8 @@ window.onload = wrap_img;
   </div></li><li><div class="Box rounded-1 col-12"><div class="col-8 d-table-cell p-3">
         <h3>
           
-            <a class="post-link" href="/configuration-within-application/">
-              Keep most of your configuration within application not Jenkins
+            <a class="post-link" href="/time-assets-and-liabilities/">
+              Time Assets and Liabilities
             </a>
           
 
@@ -1134,7 +1227,7 @@ window.onload = wrap_img;
         
         
           <div class="post-meta-last-modified-date">Updated : Sep 23, 2021</div>
-          <div class="post-meta-created-date-hover">Written: Sep 27, 2021 </div>
+          <div class="post-meta-created-date-hover">Written: Jan 26, 2022 </div>
          
 
           <div class='post-meta-holder' style="display: none;">
@@ -1142,7 +1235,7 @@ window.onload = wrap_img;
             
             
               <div class="post-meta-last-modified-date">Updated: 23-Sep-21 </div>
-              <div class="post-meta-created-date-hover">Written: Sep 27, 2021 </div>
+              <div class="post-meta-created-date-hover">Written: Jan 26, 2022 </div>
              
           </div><!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -1152,7 +1245,11 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag devops" href="/categories/#devops">devops</a>
+    <a class="tag fa fa-hashtag core-values" href="/categories/#core-values">core-values</a>
+    
+    <a class="tag fa fa-hashtag time-matters" href="/categories/#time-matters">time-matters</a>
+    
+    <a class="tag fa fa-hashtag philosophical" href="/categories/#philosophical">philosophical</a>
     
 </div>
 </div>
@@ -1427,6 +1524,50 @@ window.onload = wrap_img;
       </div>
 
 
+  </div></li><li><div class="Box rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+        <h3>
+          
+            <a class="post-link" href="/complex/">
+              Complex Technologies are extension of Simple Ones
+            </a>
+          
+
+        </h3>
+        
+        <p class="post-meta-description"></p>
+        
+        
+        
+          <div class="post-meta-last-modified-date">Updated : Aug 16, 2021</div>
+          <div class="post-meta-created-date-hover">Written: Aug 24, 2021 </div>
+         
+
+          <div class='post-meta-holder' style="display: none;">
+            
+            
+            
+              <div class="post-meta-last-modified-date">Updated: 16-Aug-21 </div>
+              <div class="post-meta-created-date-hover">Written: Aug 24, 2021 </div>
+             
+          </div><!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag philosophical" href="/categories/#philosophical">philosophical</a>
+    
+    <a class="tag fa fa-hashtag baton" href="/categories/#baton">baton</a>
+    
+</div>
+</div>
+      <div class="custom-post-card-toc">
+        
+      </div>
+
+
   </div></li><li><div class="Box rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
         <a href="/questions-false/">
         <img class="image-preview " src="/images/questions-false.jpg"  href="/questions-false/" loading=‘lazy’ />
@@ -1470,50 +1611,6 @@ window.onload = wrap_img;
 </div>
       <div class="custom-post-card-toc">
         <ul><li><a href="/questions-false/#all-questions-are-false">All Questions are False</a></li><li><a href="/questions-false/#2-features-of-being-a-human-that-lead-to-questions">2 Features of Being a Human that Lead to Questions</a></li><li><a href="/questions-false/#question-of-meaning-of-life">Question of Meaning of Life</a></li><li><a href="/questions-false/#you-dont-have-to-have-an-opinion">You don’t have to have an opinion</a></li><li><a href="/questions-false/#not-exhaustive">Not exhaustive</a></li><li><a href="/questions-false/#punctuate-your-day-with-moments">Punctuate your day with moments</a></li></ul>
-      </div>
-
-
-  </div></li><li><div class="Box rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          
-            <a class="post-link" href="/complex/">
-              Complex Technologies are extension of Simple Ones
-            </a>
-          
-
-        </h3>
-        
-        <p class="post-meta-description"></p>
-        
-        
-        
-          <div class="post-meta-last-modified-date">Updated : Aug 16, 2021</div>
-          <div class="post-meta-created-date-hover">Written: Aug 24, 2021 </div>
-         
-
-          <div class='post-meta-holder' style="display: none;">
-            
-            
-            
-              <div class="post-meta-last-modified-date">Updated: 16-Aug-21 </div>
-              <div class="post-meta-created-date-hover">Written: Aug 24, 2021 </div>
-             
-          </div><!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-        AOS.init();
-</script> -->
-
-<div class="tag-list">
-    
-    <a class="tag fa fa-hashtag philosophical" href="/categories/#philosophical">philosophical</a>
-    
-    <a class="tag fa fa-hashtag baton" href="/categories/#baton">baton</a>
-    
-</div>
-</div>
-      <div class="custom-post-card-toc">
-        
       </div>
 
 
