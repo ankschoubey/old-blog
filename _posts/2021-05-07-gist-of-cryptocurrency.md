@@ -27,7 +27,7 @@ Once upon a time, sea shells 🐚 were used as value/money. But sea shells or ot
 
 Money is only valuable when it is limited. If there is infinite money, the value of each individual unit will reduce and you need more money in exchange of same value.
 
-#### Simplified example
+**Simplified example**
 
 Imagine there if there is 1000 unit of a currency in circulation. 
 
