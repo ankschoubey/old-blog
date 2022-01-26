@@ -3,7 +3,7 @@ layout: post
 comments: true
 description:
 categories: [core-values, time-matters, philosophical]
-last_modified_at: 2021-09-23T20:52:08.052481
+last_modified_at: 2022-01-26T20:52:08.052481
 last-modified-purpose:
 permalink: /time-assets-and-liabilities/
 title: Time Assets and Liabilities
