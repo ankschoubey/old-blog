@@ -14,7 +14,7 @@
 <meta property="og:url" content="www.ankushchoubey.com/" />
 <meta property="og:site_name" content="Ankush" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/","headline":"Ankush","dateModified":"2022-01-28T11:40:51-06:00","@type":"WebSite","name":"Ankush","description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/","headline":"Ankush","dateModified":"2022-02-10T12:30:48-06:00","@type":"WebSite","name":"Ankush","description":"Random Thoughts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -753,6 +753,9 @@ window.onload = wrap_img;
     <p class="post-meta post-meta-title"><span class="page-meta" href="/post-format/">Post Format</span> • Sep 26, 2050</p>
 </article>
 <article class="archive-item">
+    <p class="post-meta post-meta-title"><span class="page-meta" href="/clean-fast-unit-tests/">Writing Clean and Fast Unit Tests</span> • Jan 2, 2022</p>
+</article>
+<article class="archive-item">
     <p class="post-meta post-meta-title"><span class="page-meta" href="/tdd/">Thoughts on Test Driven Development</span> • Dec 24, 2021</p>
 </article>
 <article class="archive-item">
@@ -760,6 +763,9 @@ window.onload = wrap_img;
 </article>
 <article class="archive-item">
     <p class="post-meta post-meta-title"><span class="page-meta" href="/core-values/">Core Values</span> • Sep 26, 2021</p>
+</article>
+<article class="archive-item">
+    <p class="post-meta post-meta-title"><span class="page-meta" href="/meditation/">Meditation</span> • Apr 28, 2021</p>
 </article>
 <article class="archive-item">
     <p class="post-meta post-meta-title"><span class="page-meta" href="/truth/">Tell the Truth. Speak your mind.</span> • Apr 22, 2021</p>
@@ -995,10 +1001,12 @@ window.onload = wrap_img;
     
     <a class="tag fa fa-hashtag testing" href="/categories/#testing">testing</a>
     
+    <a class="tag fa fa-hashtag draft" href="/categories/#draft">draft</a>
+    
 </div>
 </div>
       <div class="custom-post-card-toc">
-        <ul><li><a href="/clean-fast-unit-tests/#group-tests-together">Group Tests Together</a><ul><li><a href="/clean-fast-unit-tests/#example">Example:</a><ul><li><a href="/clean-fast-unit-tests/#junit">JUnit:</a></li><li><a href="/clean-fast-unit-tests/#jest">Jest:</a></li></ul></li></ul></li><li><a href="/clean-fast-unit-tests/#have-global-mocksstub-object">Have global mocks/stub object</a></li><li><a href="/clean-fast-unit-tests/#mock-object">Mock object</a><ul><li><a href="/clean-fast-unit-tests/#naming">Naming</a></li><li><a href="/clean-fast-unit-tests/#never-generate-random-inputs-always-use-fixed-values-">Never generate random inputs. Always use fixed values. <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">1</a></sup></a></li></ul></li><li><a href="/clean-fast-unit-tests/#start-with-method_should__whenwith_-or-itshould__when_">Start with <code class="language-plaintext highlighter-rouge">method_should_&lt;&gt;_when/with_&lt;&gt;()</code> or <code class="language-plaintext highlighter-rouge">itShould_&lt;&gt;_When_&lt;&gt;</code></a></li><li><a href="/clean-fast-unit-tests/#given-when-then">Given When Then</a></li><li><a href="/clean-fast-unit-tests/#size-of-tests-should-be-less-than-size-of-your-display">Size of tests should be less than size of your display</a><ul><li><a href="/clean-fast-unit-tests/#assertions">Assertions</a></li></ul></li><li><a href="/clean-fast-unit-tests/#writing-tests-that-run-fast">Writing tests that run fast</a><ul><li><a href="/clean-fast-unit-tests/#time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">4</a></sup></a></li><li><a href="/clean-fast-unit-tests/#for-spring-boot">For Spring Boot</a><ul><li><a href="/clean-fast-unit-tests/#initialize-only-beans-you-need-using-contextconfiguration-">Initialize only beans you need using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">5</a></sup></a></li></ul></li></ul></li></ul>
+        <ul><li><a href="/clean-fast-unit-tests/#prefix-name-of-test-classes-with-unitinte">Prefix name of test classes with Unit/Inte</a></li><li><a href="/clean-fast-unit-tests/#have-fluent-assertions">Have Fluent Assertions</a></li><li><a href="/clean-fast-unit-tests/#create-test-data-generator-method-or-builder">Create Test Data Generator Method or Builder</a></li><li><a href="/clean-fast-unit-tests/#create-test-helper-methods">Create test helper methods</a></li><li><a href="/clean-fast-unit-tests/#group-tests-together">Group Tests Together</a><ul><li><a href="/clean-fast-unit-tests/#example">Example:</a><ul><li><a href="/clean-fast-unit-tests/#junit">JUnit:</a></li><li><a href="/clean-fast-unit-tests/#jest">Jest:</a></li></ul></li></ul></li><li><a href="/clean-fast-unit-tests/#have-global-mocksstub-object">Have global mocks/stub object</a></li><li><a href="/clean-fast-unit-tests/#mock-object">Mock object</a><ul><li><a href="/clean-fast-unit-tests/#naming">Naming</a></li><li><a href="/clean-fast-unit-tests/#never-generate-random-inputs-always-use-fixed-values-">Never generate random inputs. Always use fixed values. <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">1</a></sup></a></li></ul></li><li><a href="/clean-fast-unit-tests/#start-with-method_should__whenwith_-or-itshould__when_">Start with <code class="language-plaintext highlighter-rouge">method_should_&lt;&gt;_when/with_&lt;&gt;()</code> or <code class="language-plaintext highlighter-rouge">itShould_&lt;&gt;_When_&lt;&gt;</code></a></li><li><a href="/clean-fast-unit-tests/#given-when-then">Given When Then</a></li><li><a href="/clean-fast-unit-tests/#size-of-tests-should-be-less-than-size-of-your-display">Size of tests should be less than size of your display</a><ul><li><a href="/clean-fast-unit-tests/#assertions">Assertions</a></li><li><a href="/clean-fast-unit-tests/#use-fluent-assertions">Use fluent assertions</a></li></ul></li><li><a href="/clean-fast-unit-tests/#writing-tests-that-run-fast">Writing tests that run fast</a><ul><li><a href="/clean-fast-unit-tests/#time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">4</a></sup></a></li><li><a href="/clean-fast-unit-tests/#for-spring-boot">For Spring Boot</a><ul><li><a href="/clean-fast-unit-tests/#initialize-only-beans-you-need-using-contextconfiguration-">Initialize only beans you need using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">5</a></sup></a></li></ul></li></ul></li></ul>
       </div>
 
 

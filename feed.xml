@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-01-28T11:42:17-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-02-10T12:32:40-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -172,6 +172,26 @@ Overspending: Doing too much and eating into other areas.&lt;/p&gt;
 
 &lt;p&gt;while TDD, is shown to keep test cases to a minimum, this post explains some other ways tests can be organize&lt;/p&gt;
 
+&lt;p&gt;The goal with testing is to make it as english sentence like as possible.&lt;/p&gt;
+
+&lt;p&gt;You want someone who has not seen codebase to read your tests and understand what your code does. In that way, testing is a documentation for your code.&lt;/p&gt;
+
+&lt;p&gt;Here are some strategies to achieve it.&lt;/p&gt;
+
+&lt;h1 id=&quot;prefix-name-of-test-classes-with-unitinte&quot;&gt;Prefix name of test classes with Unit/Inte&lt;/h1&gt;
+
+&lt;p&gt;This will help limit scope of the test class to be certain types of tests&lt;/p&gt;
+
+&lt;h1 id=&quot;have-fluent-assertions&quot;&gt;Have Fluent Assertions&lt;/h1&gt;
+
+&lt;p&gt;Libraries like AssertJ make it easy to write tests which sound like english&lt;/p&gt;
+
+&lt;h1 id=&quot;create-test-data-generator-method-or-builder&quot;&gt;Create Test Data Generator Method or Builder&lt;/h1&gt;
+
+&lt;p&gt;-&amp;gt; https://www.youtube.com/watch?v=zH2cz1o9Vsg&lt;/p&gt;
+
+&lt;h1 id=&quot;create-test-helper-methods&quot;&gt;Create test helper methods&lt;/h1&gt;
+
 &lt;h1 id=&quot;group-tests-together&quot;&gt;Group Tests Together&lt;/h1&gt;
 
 &lt;p&gt;You should group your tests together. This would make it easier to find your tests&lt;/p&gt;
@@ -279,6 +299,10 @@ Assert Responses -&amp;gt; then&lt;/p&gt;
 
 &lt;p&gt;Aim for asserting behavior and not implementation detail. More coupled your tests are with implementation, harder the refactoring would be.&lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;use-fluent-assertions&quot;&gt;Use fluent assertions&lt;/h2&gt;
+
+&lt;p&gt;Librarie&lt;/p&gt;
+
 &lt;h1 id=&quot;writing-tests-that-run-fast&quot;&gt;Writing tests that run fast&lt;/h1&gt;
 
 &lt;h2 id=&quot;time-complexity-of-tests-shoud-be-o1-&quot;&gt;Time complexity of tests shoud be O(1) &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
@@ -313,7 +337,7 @@ Assert Responses -&amp;gt; then&lt;/p&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Ekr4jxOIf4c&quot;&gt;YouTube: Defog Tech: Spring Boot - Testing basics&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><category term="testing" /><summary type="html">Clean tests are as important as clean code. Same kind of principles apply here.</summary></entry><entry><title type="html">Thoughts on Test Driven Development</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Thoughts on Test Driven Development" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-12-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;Software engineering isn’t only about code. It’s engineering&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><category term="testing" /><category term="draft" /><summary type="html">Clean tests are as important as clean code. Same kind of principles apply here.</summary></entry><entry><title type="html">Thoughts on Test Driven Development</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Thoughts on Test Driven Development" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-12-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;Software engineering isn’t only about code. It’s engineering&lt;/p&gt;
 
 &lt;p&gt;TDD need not be a big deal. It can seem cubersome but there are mindsets and tools that can make transition smoother.&lt;/p&gt;
 

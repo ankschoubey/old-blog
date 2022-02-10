@@ -123,7 +123,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      3 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -152,6 +152,8 @@ window.onload = wrap_img;
     <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
     
     <a class="tag fa fa-hashtag testing" href="/categories/#testing">testing</a>
+    
+    <a class="tag fa fa-hashtag draft" href="/categories/#draft">draft</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -197,6 +199,26 @@ window.onload = wrap_img;
 </ol>
 
 <p>while TDD, is shown to keep test cases to a minimum, this post explains some other ways tests can be organize</p>
+
+<p>The goal with testing is to make it as english sentence like as possible.</p>
+
+<p>You want someone who has not seen codebase to read your tests and understand what your code does. In that way, testing is a documentation for your code.</p>
+
+<p>Here are some strategies to achieve it.</p>
+
+<h1 id="prefix-name-of-test-classes-with-unitinte">Prefix name of test classes with Unit/Inte</h1>
+
+<p>This will help limit scope of the test class to be certain types of tests</p>
+
+<h1 id="have-fluent-assertions">Have Fluent Assertions</h1>
+
+<p>Libraries like AssertJ make it easy to write tests which sound like english</p>
+
+<h1 id="create-test-data-generator-method-or-builder">Create Test Data Generator Method or Builder</h1>
+
+<p>-&gt; https://www.youtube.com/watch?v=zH2cz1o9Vsg</p>
+
+<h1 id="create-test-helper-methods">Create test helper methods</h1>
 
 <h1 id="group-tests-together">Group Tests Together</h1>
 
@@ -304,6 +326,10 @@ Assert Responses -&gt; then</p>
 <p>Have clear error messages <sup id="fnref:5:1" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">1</a></sup></p>
 
 <p>Aim for asserting behavior and not implementation detail. More coupled your tests are with implementation, harder the refactoring would be.<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">3</a></sup></p>
+
+<h2 id="use-fluent-assertions">Use fluent assertions</h2>
+
+<p>Librarie</p>
 
 <h1 id="writing-tests-that-run-fast">Writing tests that run fast</h1>
 
