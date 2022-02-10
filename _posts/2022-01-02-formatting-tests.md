@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [clean-code, testing]
+categories: [clean-code, testing, draft]
 last_modified_at: 2022-01-02T20:52:08.052481
 last-modified-purpose:
 permalink: /clean-fast-unit-tests/
@@ -15,6 +15,27 @@ Clean tests are as important as clean code. Same kind of principles apply here.
 2. Keep code clean
 
 while TDD, is shown to keep test cases to a minimum, this post explains some other ways tests can be organize
+
+
+The goal with testing is to make it as english sentence like as possible.
+
+You want someone who has not seen codebase to read your tests and understand what your code does. In that way, testing is a documentation for your code.
+
+Here are some strategies to achieve it.
+
+# Prefix name of test classes with Unit/Inte
+
+This will help limit scope of the test class to be certain types of tests
+
+# Have Fluent Assertions
+
+Libraries like AssertJ make it easy to write tests which sound like english
+
+# Create Test Data Generator Method or Builder
+
+-> https://www.youtube.com/watch?v=zH2cz1o9Vsg
+
+# Create test helper methods
 
 # Group Tests Together
 
@@ -116,6 +137,10 @@ Best Practice: One logical assertion per test method. [^4]
 Have clear error messages [^5]
 
 Aim for asserting behavior and not implementation detail. More coupled your tests are with implementation, harder the refactoring would be.[^6]
+
+## Use fluent assertions
+
+Librarie
 
 # Writing tests that run fast
 

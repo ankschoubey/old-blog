@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, collection-of-thoughts]
+categories: [philosophical, collection-of-thoughts, draft]
 title: Meditation
 permalink: /meditation/
 last_modified_at: 2021-08-01T20:42:15.624828
@@ -43,3 +43,5 @@ Meditating at the same time and place is useful.
 Have formal sitting practice in the morning before you do any major task. 
 
 Don’t be rigid while meditating. Let yourself flow.
+
+Meditation is a activity which is weird for many. It can seem stupid or woo woo. 
