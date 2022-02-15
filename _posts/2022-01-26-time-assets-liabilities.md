@@ -19,6 +19,8 @@ So essentially, carefully observing, choosing, and forming our habits would lead
 
 Most time-liabilities snap our attention and lead us to care about wrong things. Therefore, time-assets help us course correct. Therefore, time management is closely linked to attention management.
 
+Most time assets are generatlly slower and more stuctured which is why they are usually avoided. Time liabilities on the other hand feel easy to get started with so they are done more. So, one needs to make it easy to get started on time-assets and harder to get started on time-liabilities.
+
 Some of the most impactful time-assets and liabilities are:
 
 | Time-Assets                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Time Liabilities                                                                                                                                         |
