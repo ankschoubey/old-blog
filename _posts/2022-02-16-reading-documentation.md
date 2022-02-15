@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [draft]
+categories: [software-engineering]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
 permalink: /reading-documentation/
@@ -13,7 +13,7 @@ Reading documentation is the best way to learn a particular technology.
 
 A well written documentation is similar to a book and reading it has a similar effect. 
 
-Documentation present
+Documentation presents the original developer's philosophy behind the technology.
 
 Depth of knowledge you gain with documentation can potentially remove hundred of hours of un-neccesary Stackoverflow searches. 
 
@@ -23,5 +23,4 @@ Most documentations are about 2-5 hours of reading Max.
 
 I find having a highlighter extension in Chrome to be extremely useful.
 
-Apart from the usual, the appendix sections contains many gems like:
-- 
+Apart from the usual, the appendix sections contains many gems like FAQs and common references which make things easier. 
