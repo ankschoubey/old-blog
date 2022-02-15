@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-02-15T13:37:26-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-02-15T13:40:43-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -67,9 +67,12 @@
 
 &lt;p&gt;For example, the Education budget was set at 20 billion but only 5 billion was spent. Or they overspent which ate up other areas.&lt;/p&gt;
 
-&lt;p&gt;Usually, these discussions assume that spending the complete budget allocated is best.
-Underspending: Not doing enough
-Overspending: Doing too much and eating into other areas.&lt;/p&gt;
+&lt;p&gt;Usually, these discussions assume that spending the complete budget allocated is best.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Underspending&lt;/strong&gt;: Not doing enough&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Overspending&lt;/strong&gt;: Doing too much and eating into other areas.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The same can be applied to resources of one’s #life.&lt;/p&gt;
 
@@ -90,6 +93,7 @@ Overspending: Doing too much and eating into other areas.&lt;/p&gt;
 &lt;p&gt;For attention, the game becomes imaginary.&lt;/p&gt;
 
 &lt;p&gt;There are a few ways to imagine this:&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;Count the number of decisions in a day:
     &lt;ul&gt;
@@ -102,7 +106,7 @@ Overspending: Doing too much and eating into other areas.&lt;/p&gt;
       &lt;li&gt;Multitasking is the worst&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="personal" /><category term="core-values" /><category term="time-matters" /><summary type="html">Many times discussing governments spending, it is discussed how while a budget was allocated, the government didn’t spend as much or they spent more.</summary></entry><entry><title type="html">Time Assets and Liabilities</title><link href="www.ankushchoubey.com/time-assets-and-liabilities/" rel="alternate" type="text/html" title="Time Assets and Liabilities" /><published>2022-01-26T00:00:00-06:00</published><updated>2022-01-26T14:52:08-06:00</updated><id>www.ankushchoubey.com/time-assets-liabilities</id><content type="html" xml:base="www.ankushchoubey.com/time-assets-and-liabilities/">&lt;p&gt;Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="core-values" /><category term="time-matters" /><summary type="html">Many times discussing governments spending, it is discussed how while a budget was allocated, the government didn’t spend as much or they spent more.</summary></entry><entry><title type="html">Time Assets and Liabilities</title><link href="www.ankushchoubey.com/time-assets-and-liabilities/" rel="alternate" type="text/html" title="Time Assets and Liabilities" /><published>2022-01-26T00:00:00-06:00</published><updated>2022-01-26T14:52:08-06:00</updated><id>www.ankushchoubey.com/time-assets-liabilities</id><content type="html" xml:base="www.ankushchoubey.com/time-assets-and-liabilities/">&lt;p&gt;Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.&lt;/p&gt;
 
 &lt;p&gt;Like any resource, one can think of time in numeric terms. This allows us to categorize activities as assets that add back time or liabilities, which take time away. Our goal then is to create more time-assets with high time-ROI.&lt;/p&gt;
 
