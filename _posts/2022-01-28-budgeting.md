@@ -2,12 +2,11 @@
 layout: post
 comments: true
 description:
-categories: [personal, core-values, time-matters]
+categories: [core-values, time-matters]
 last_modified_at: 2021-09-23T20:52:08.052481
 last-modified-purpose:
 permalink: /personal-budgeting/
 title: Personal Budgeting
-hide: true
 ---
 
 Many times discussing governments spending, it is discussed how while a budget was allocated, the government didn’t spend as much or they spent more.
@@ -15,8 +14,9 @@ Many times discussing governments spending, it is discussed how while a budget w
 For example, the Education budget was set at 20 billion but only 5 billion was spent. Or they overspent which ate up other areas.
 
 Usually, these discussions assume that spending the complete budget allocated is best.
-Underspending: Not doing enough
-Overspending: Doing too much and eating into other areas.
+
+- **Underspending**: Not doing enough
+- **Overspending**: Doing too much and eating into other areas.
 
 The same can be applied to resources of one's #life.
 
@@ -35,6 +35,7 @@ Time (in hours) and money (in currency) are easily quantifiable. Attention isn't
 For attention, the game becomes imaginary.
 
 There are a few ways to imagine this:
+
 1. Count the number of decisions in a day:
     - Imagine you have 100 decision points in a day.
     The more number decisions you take, the probability of you making a bad decision increases.
