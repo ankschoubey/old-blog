@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-02-10T12:32:40-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-02-15T13:30:03-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,21 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Personal Budgeting</title><link href="www.ankushchoubey.com/personal-budgeting/" rel="alternate" type="text/html" title="Personal Budgeting" /><published>2022-01-28T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/budgeting</id><content type="html" xml:base="www.ankushchoubey.com/personal-budgeting/">&lt;p&gt;Many times discussing governments spending, it is discussed how while a budget was allocated, the government didn’t spend as much or they spent more.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thoughts on Reading Documentation</title><link href="www.ankushchoubey.com/reading-documentation/" rel="alternate" type="text/html" title="Thoughts on Reading Documentation" /><published>2022-02-16T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/reading-documentation</id><content type="html" xml:base="www.ankushchoubey.com/reading-documentation/">&lt;p&gt;Reading documentation is the best way to learn a particular technology.&lt;/p&gt;
+
+&lt;p&gt;A well written documentation is similar to a book and reading it has a similar effect.&lt;/p&gt;
+
+&lt;p&gt;Documentation present&lt;/p&gt;
+
+&lt;p&gt;Depth of knowledge you gain with documentation can potentially remove hundred of hours of un-neccesary Stackoverflow searches.&lt;/p&gt;
+
+&lt;p&gt;It’s a difference between knowing something syntactially and knowing the philosophy behind a technology.&lt;/p&gt;
+
+&lt;p&gt;Most documentations are about 2-5 hours of reading Max.&lt;/p&gt;
+
+&lt;p&gt;I find having a highlighter extension in Chrome to be extremely useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;apart-from-the-usual-the-appendix-sections-contains-many-gems-like&quot;&gt;Apart from the usual, the appendix sections contains many gems like:&lt;/h2&gt;</content><author><name></name></author><category term="draft" /><summary type="html">Reading documentation is the best way to learn a particular technology.</summary></entry><entry><title type="html">Personal Budgeting</title><link href="www.ankushchoubey.com/personal-budgeting/" rel="alternate" type="text/html" title="Personal Budgeting" /><published>2022-01-28T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/budgeting</id><content type="html" xml:base="www.ankushchoubey.com/personal-budgeting/">&lt;p&gt;Many times discussing governments spending, it is discussed how while a budget was allocated, the government didn’t spend as much or they spent more.&lt;/p&gt;
 
 &lt;p&gt;For example, the Education budget was set at 20 billion but only 5 billion was spent. Or they overspent which ate up other areas.&lt;/p&gt;
 
@@ -727,27 +741,4 @@ https://www.typescriptlang.org/why-create-typescript&lt;/p&gt;
 
 &lt;p&gt;Draft:&lt;/p&gt;
 
-&lt;p&gt;https://tsh.io/blog/why-use-typescript/&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/typescript.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/typescript.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep most of your configuration within application not Jenkins</title><link href="www.ankushchoubey.com/configuration-within-application/" rel="alternate" type="text/html" title="Keep most of your configuration within application not Jenkins" /><published>2021-09-27T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/application-not-jenkins</id><content type="html" xml:base="www.ankushchoubey.com/configuration-within-application/">&lt;p&gt;If you haave a separate DevOps teams, Jenkins will usually be configured by them.&lt;/p&gt;
-
-&lt;p&gt;Developer will have an easier life if they have as less dependency on external team as possible.&lt;/p&gt;
-
-&lt;p&gt;Sometimes, Jenkinsfile includes every minor detail. For example:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;In a node project, Jenkinsfile could include things like running an application in production mode along with certain parameters.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This can be okay if the paramaters are configured via Jenkins UI. But if same configuration is going to be used, it is easier to maintain and adapt by keeping them inside application and using Jenkins to only trigger script within application.&lt;/p&gt;
-
-&lt;p&gt;In node applications, you can use following to configure default behaviors.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;scripts in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.npmrc&lt;/code&gt; file for npm&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tsconfig.json&lt;/code&gt; for Typescript&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In Maven projects, you can have operations such as:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ignoring File during build&lt;/li&gt;
-  &lt;li&gt;Coping certain files&lt;/li&gt;
-  &lt;li&gt;To disable test cases for certain builds etc.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="devops" /><summary type="html">If you haave a separate DevOps teams, Jenkins will usually be configured by them.</summary></entry></feed>
+&lt;p&gt;https://tsh.io/blog/why-use-typescript/&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/typescript.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/typescript.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
