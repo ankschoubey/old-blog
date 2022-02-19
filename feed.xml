@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-02-15T13:49:30-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-02-19T04:43:57-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,90 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thoughts on Reading Documentation</title><link href="www.ankushchoubey.com/reading-documentation/" rel="alternate" type="text/html" title="Thoughts on Reading Documentation" /><published>2022-02-16T00:00:00-06:00</published><updated>2022-02-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/reading-documentation</id><content type="html" xml:base="www.ankushchoubey.com/reading-documentation/">&lt;p&gt;Reading documentation is the best way to learn a particular technology.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Elements of Good API Design</title><link href="www.ankushchoubey.com/good-api-design/" rel="alternate" type="text/html" title="Elements of Good API Design" /><published>2022-02-19T00:00:00-06:00</published><updated>2022-02-19T14:52:08-06:00</updated><id>www.ankushchoubey.com/elements-of-good-api-design</id><content type="html" xml:base="www.ankushchoubey.com/good-api-design/">&lt;p&gt;Here are somethings about API design that I recently learn’t.&lt;/p&gt;
+
+&lt;p&gt;An HTTP Rest endpoint is divided into following.&lt;/p&gt;
+
+&lt;p&gt;API name and Method&lt;/p&gt;
+
+&lt;p&gt;Request&lt;/p&gt;
+
+&lt;p&gt;Resposne&lt;/p&gt;
+
+&lt;h1 id=&quot;naming&quot;&gt;Naming&lt;/h1&gt;
+
+&lt;p&gt;A good API design has good naming.&lt;/p&gt;
+
+&lt;p&gt;You want to always have API that refer t some “items”/”entity” nouns&lt;/p&gt;
+
+&lt;p&gt;so this is better&lt;/p&gt;
+
+&lt;p&gt;/ducks → get all ducks&lt;/p&gt;
+
+&lt;p&gt;/ducks/{id} → get duck by duck id&lt;/p&gt;
+
+&lt;p&gt;rather than&lt;/p&gt;
+
+&lt;p&gt;/getAllDucks&lt;/p&gt;
+
+&lt;p&gt;/getDuckById&lt;/p&gt;
+
+&lt;p&gt;Any good API has upper format rather than lower.&lt;/p&gt;
+
+&lt;p&gt;Always have plural names&lt;/p&gt;
+
+&lt;h1 id=&quot;request&quot;&gt;Request&lt;/h1&gt;
+&lt;h2 id=&quot;request-methods&quot;&gt;Request Methods&lt;/h2&gt;
+
+&lt;p&gt;Now that name is sorted, how to we call these, let’s say we want to delete duck, in the bad way we could have had an API like /deleteDuckById&lt;/p&gt;
+
+&lt;p&gt;But even better is to use HTTP Methods. HTTP Methods provide intend to your API and reduce the number of API endpoints to remember at least from point of view of consumer.&lt;/p&gt;
+
+&lt;p&gt;to read it you read it something like this,&lt;/p&gt;
+
+&lt;p&gt;Intend → API Name&lt;/p&gt;
+
+&lt;p&gt;GET → /ducks&lt;/p&gt;
+
+&lt;p&gt;GET → /ducks/{id}&lt;/p&gt;
+
+&lt;p&gt;DELETE → /ducks/{id}&lt;/p&gt;
+
+&lt;p&gt;POST → /ducks&lt;/p&gt;
+
+&lt;p&gt;Ideally, POST isn’t supposed to be bulk insert.&lt;/p&gt;
+
+&lt;h2 id=&quot;request-headers&quot;&gt;Request Headers&lt;/h2&gt;
+
+&lt;p&gt;Some common onces are&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content-length&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;response&quot;&gt;Response&lt;/h1&gt;
+
+&lt;h2 id=&quot;response-status-code&quot;&gt;Response Status Code&lt;/h2&gt;
+
+&lt;p&gt;There are many standard response codes available.&lt;/p&gt;
+
+&lt;p&gt;200 → OK&lt;/p&gt;
+
+&lt;p&gt;201 → Created (Supposed to not have response body)&lt;/p&gt;
+
+&lt;h2 id=&quot;response-body&quot;&gt;Response Body:&lt;/h2&gt;
+
+&lt;p&gt;HAL Format&lt;/p&gt;
+
+&lt;h2 id=&quot;response-headers&quot;&gt;Response Headers&lt;/h2&gt;
+
+&lt;p&gt;There are standard respose headers available.&lt;/p&gt;
+
+&lt;p&gt;Location: Location of newly created resources.&lt;/p&gt;
+
+&lt;h1 id=&quot;customizing-the-protocol&quot;&gt;Customizing the protocol&lt;/h1&gt;
+
+&lt;p&gt;HTTP does not reenforce a lot of rules. Even though it it recommended ways are set,&lt;/p&gt;
+
+&lt;p&gt;I though Google would follow protocol to the bone but they too don’t. Looking at google drive through Chrome’s network tab, I found they have their own way of doing things.&lt;/p&gt;</content><author><name></name></author><category term="middleware" /><category term="draft" /><summary type="html">Here are somethings about API design that I recently learn’t.</summary></entry><entry><title type="html">Thoughts on Reading Documentation</title><link href="www.ankushchoubey.com/reading-documentation/" rel="alternate" type="text/html" title="Thoughts on Reading Documentation" /><published>2022-02-16T00:00:00-06:00</published><updated>2022-02-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/reading-documentation</id><content type="html" xml:base="www.ankushchoubey.com/reading-documentation/">&lt;p&gt;Reading documentation is the best way to learn a particular technology.&lt;/p&gt;
 
 &lt;p&gt;A well written documentation is similar to a book and reading it has a similar effect.&lt;/p&gt;
 
@@ -543,153 +626,4 @@ acceptance criteria should be defined well for each story. Tips:&lt;/p&gt;
 
 &lt;p&gt;By default, CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep).&lt;/p&gt;
 
-&lt;p&gt;React can also do this by using css modules.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.png" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Core Values</title><link href="www.ankushchoubey.com/my-core-vaues/" rel="alternate" type="text/html" title="My Core Values" /><published>2021-11-25T00:00:00-06:00</published><updated>2021-01-09T14:52:08-06:00</updated><id>www.ankushchoubey.com/my-core-values</id><content type="html" xml:base="www.ankushchoubey.com/my-core-vaues/">&lt;p&gt;&lt;img src=&quot;/images/my-core-values.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In a &lt;a href=&quot;/core-values&quot;&gt;previous blog post&lt;/a&gt;, I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.&lt;/p&gt;
-
-&lt;p&gt;I want things to be as “sorted” in the long term as possible without being super involved. I do not compromise on my values. They are my best bet. In this post, you’ll find some ways to have things sorted.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Responsibility&lt;/li&gt;
-  &lt;li&gt;Nirwana/Peace&lt;/li&gt;
-  &lt;li&gt;Telling the Truth and being hyper-realistic.&lt;/li&gt;
-  &lt;li&gt;Systems Thinking&lt;/li&gt;
-  &lt;li&gt;Inputs Matter&lt;/li&gt;
-  &lt;li&gt;Time Matter&lt;/li&gt;
-  &lt;li&gt;Courage is calling&lt;/li&gt;
-  &lt;li&gt;Team Work&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;responsibility&quot;&gt;Responsibility&lt;/h2&gt;
-
-&lt;p&gt;Responsibility provides meaning. By taking on responsibilities voluntarily and facing your fears, you’ll avoid being nihilistic.&lt;/p&gt;
-
-&lt;p&gt;So, pick the heaviest weight you can take and push it towards the best aim you can find. Then at least you can know, “Dumb as I am, I can at least push a thing from point A to point B” &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Taking on responsibility voluntarily/facing the heaviest fear you can face is how you’ll have your life sorted.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Role Models&lt;/strong&gt;:  Peter Parker (Andrew Garfield), Jordan Peterson&lt;/p&gt;
-
-&lt;h2 id=&quot;nirwanapeace&quot;&gt;Nirwana/Peace&lt;/h2&gt;
-
-&lt;p&gt;Being unhappy is inefficient.&lt;/p&gt;
-
-&lt;p&gt;Happiness/Peace is a skill that you develop and a choice that you make &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. You can choose to live a certain way that will lead to peace.&lt;/p&gt;
-
-&lt;p&gt;To have peace, your brain should be in controll in every situation. You have to be mentally tough.&lt;/p&gt;
-
-&lt;p&gt;You need to be peaceful if you want things to be good long term. Develop detachment (not wanting), be less judgemental and optimism. Aiming for peace requires a lot of recognizing, rethinking and flipping/unlearing almost everything.&lt;/p&gt;
-
-&lt;p&gt;If you don’t believe that you can achieve ultimate peace (Nirwana), you’ll have a hard time finding it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Role Models&lt;/strong&gt;:  Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru&lt;/p&gt;
-
-&lt;h2 id=&quot;telling-the-truth-and-being-hyper-realistic&quot;&gt;Telling the truth and being hyper-realistic&lt;/h2&gt;
-
-&lt;p&gt;Lying/Not telling the truth is the quickest way to hell. You base your decisions on what you perceive reality to be.&lt;/p&gt;
-
-&lt;p&gt;If your estimate of the world is wrong, you’ll make bad decisions.&lt;/p&gt;
-
-&lt;p&gt;The only way is to let go of the outcome and to assume that whatever happens in truth is the best thing that can happen.&lt;/p&gt;
-
-&lt;p&gt;While dealing with people, you have to ask people multiple times to make sure they tell you everything because often humans tell white lies to not hurt your feelings.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Role Models&lt;/strong&gt;: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson&lt;/p&gt;
-
-&lt;h2 id=&quot;systems-thinking&quot;&gt;Systems Thinking&lt;/h2&gt;
-
-&lt;p&gt;Aims are good for setting up initial direction. But systems/processes are how you work towards them and beyond them.&lt;/p&gt;
-
-&lt;p&gt;Systems allow you to free up your mental RAM. Systems break problems down. They assure that as long as the systems are working right, the direction is right.&lt;/p&gt;
-
-&lt;p&gt;Systems can include by are not limited to: trained habits, routines, frameworks, automation, etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Role Models&lt;/strong&gt;: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman&lt;/p&gt;
-
-&lt;h2 id=&quot;inputs-matter&quot;&gt;Inputs Matter&lt;/h2&gt;
-
-&lt;p&gt;You are what you feed yourself. Inputs matter because not only do they encourage certain behaviors, but they impact your everyday experience.&lt;/p&gt;
-
-&lt;p&gt;Over the long term, you want “inputs” in your life to push yourself in the desired direction.&lt;/p&gt;
-
-&lt;p&gt;Some things to consider:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Information you consume.&lt;/li&gt;
-  &lt;li&gt;People you interact with regularly.&lt;/li&gt;
-  &lt;li&gt;Where and how you live. (#cleanYourRoom)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Role Models&lt;/strong&gt;: Ryan Holiday&lt;/p&gt;
-
-&lt;h2 id=&quot;time-matters&quot;&gt;Time Matters&lt;/h2&gt;
-
-&lt;p&gt;We have a finite life. Though it is long enough to get important things done.&lt;/p&gt;
-
-&lt;p&gt;Your habits are reenforced. If you waste time regularly, you’ll continue to waste time.&lt;/p&gt;
-
-&lt;p&gt;Let’s suppose your time is worth minimum wage.
-Assume that to be 100Rs per hour. Let’s suppose you waste 6 hours a day. That’s 600Rs per day. 1,80,000 lakh rs per month. 21,60,000 rs per year. Over 10 years it’s 2 crore rs.&lt;/p&gt;
-
-&lt;p&gt;Plus this calculation 🧮 excludes compounding. Time spent early will compound.&lt;/p&gt;
-
-&lt;p&gt;Life is short. Speed of implementation matters a lot. Being impatient can be a good thing.&lt;/p&gt;
-
-&lt;p&gt;Be impatient with yourself and a bit patient with others.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Role Models&lt;/strong&gt;: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport&lt;/p&gt;
-
-&lt;h2 id=&quot;courage-is-calling-&quot;&gt;Courage is calling &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;This is probably the most important value that supports all others. It takes courage to tell the truth, act responsibly, detach yourself to be peaceful, build and trusting long term systems, and break the spell of wasting time. And the courage of following the plan and push yourself when time comes.&lt;/p&gt;
-
-&lt;p&gt;Everything worth while is an act of courage.&lt;/p&gt;
-
-&lt;p&gt;No one is invincible. It’s good and courageous to be vulnerable. To admit to faults and take steps to improve it but it’s not okay to be weak.&lt;/p&gt;
-
-&lt;p&gt;Courage is exciting. It pushes to act beyond what one believes is possible. So get excited by the challenge and push yourself beyond what you think is possible.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Role Models&lt;/strong&gt;: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman&lt;/p&gt;
-
-&lt;h2 id=&quot;team-work&quot;&gt;Team Work&lt;/h2&gt;
-
-&lt;p&gt;Humans are a social animal. We are node in a network&lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The way we act and interact in the network determines the life of everyone.&lt;/p&gt;
-
-&lt;p&gt;We stand on the shoulders of all those who came before us. And we are building a foundation for all those who will come after.&lt;/p&gt;
-
-&lt;p&gt;Plus who are we doing all this “core-values” for if we can’t even help and be there people around us. One cannot do it alone and it is worthless doing it alone.&lt;/p&gt;
-
-&lt;p&gt;There are multiple levels of “team work” and each requires a different approach.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Everyone else&lt;/li&gt;
-  &lt;li&gt;Close Friends&lt;/li&gt;
-  &lt;li&gt;Family and Partner&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This also requires a level of self awareness and knowing how your interaction/quality of relationships can be improved.&lt;/p&gt;
-
-&lt;p&gt;One can be strict with himself but has to be patient with others. And remember that you are probably not right so listen to people carefully -&amp;gt; Openness.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Role Models&lt;/strong&gt;: Avengers, Straw Hat Crew (One Piece), Jura Tempest Federation (That Time I Got Reincarnated as a Slime), Some family related parts of Peaky Blinders&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I am trying make these values my second nature by forming habits. The ideal goal is identity level change &lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; but it will take time which is why I haven’t published my post on it.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Jordan B Peterson &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Naval Ravikant &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;The phrase “Courage is calling” is from Ryan Holiday’s book of the same name. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Atomic Habits &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/my-core-values.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/my-core-values.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;React can also do this by using css modules.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.png" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
