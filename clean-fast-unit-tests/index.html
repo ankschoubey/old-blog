@@ -206,13 +206,15 @@ window.onload = wrap_img;
 
 <p>Here are some strategies to achieve it.</p>
 
-<h1 id="prefix-name-of-test-classes-with-unitinte">Prefix name of test classes with Unit/Inte</h1>
-
-<p>This will help limit scope of the test class to be certain types of tests</p>
-
 <h1 id="have-fluent-assertions">Have Fluent Assertions</h1>
 
 <p>Libraries like AssertJ make it easy to write tests which sound like english</p>
+
+<h1 id="prefix-name-of-test-classes-with-unitintesystem">Prefix name of test classes with Unit/Inte/System</h1>
+
+<p>This will help limit scope of the test class to be certain types of tests</p>
+
+<p>Aim for 70/20/10 split between these tests <sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">1</a></sup></p>
 
 <h1 id="create-test-data-generator-method-or-builder">Create Test Data Generator Method or Builder</h1>
 
@@ -290,7 +292,7 @@ window.onload = wrap_img;
   <li>badFuture</li>
 </ul>
 
-<h2 id="never-generate-random-inputs-always-use-fixed-values-">Never generate random inputs. Always use fixed values. <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">1</a></sup></h2>
+<h2 id="never-generate-random-inputs-always-use-fixed-values-">Never generate random inputs. Always use fixed values. <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">2</a></sup></h2>
 
 <h1 id="start-with-method_should__whenwith_-or-itshould__when_">Start with <code class="language-plaintext highlighter-rouge">method_should_&lt;&gt;_when/with_&lt;&gt;()</code> or <code class="language-plaintext highlighter-rouge">itShould_&lt;&gt;_When_&lt;&gt;</code></h1>
 
@@ -321,11 +323,11 @@ Assert Responses -&gt; then</p>
 
 <h2 id="assertions">Assertions</h2>
 
-<p>Best Practice: One logical assertion per test method. <sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">2</a></sup></p>
+<p>Best Practice: One logical assertion per test method. <sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">3</a></sup></p>
 
-<p>Have clear error messages <sup id="fnref:5:1" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">1</a></sup></p>
+<p>Have clear error messages <sup id="fnref:5:1" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">2</a></sup></p>
 
-<p>Aim for asserting behavior and not implementation detail. More coupled your tests are with implementation, harder the refactoring would be.<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">3</a></sup></p>
+<p>Aim for asserting behavior and not implementation detail. More coupled your tests are with implementation, harder the refactoring would be.<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">4</a></sup></p>
 
 <h2 id="use-fluent-assertions">Use fluent assertions</h2>
 
@@ -333,7 +335,7 @@ Assert Responses -&gt; then</p>
 
 <h1 id="writing-tests-that-run-fast">Writing tests that run fast</h1>
 
-<h2 id="time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">4</a></sup></h2>
+<h2 id="time-complexity-of-tests-shoud-be-o1-">Time complexity of tests shoud be O(1) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">5</a></sup></h2>
 
 <p>Cyclomatic time complexity of your tests should be O(1).</p>
 <ul>
@@ -343,12 +345,19 @@ Assert Responses -&gt; then</p>
 
 <h2 id="for-spring-boot">For Spring Boot</h2>
 
-<h3 id="initialize-only-beans-you-need-using-contextconfiguration-">Initialize only beans you need using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">5</a></sup></h3>
+<h3 id="initialize-only-beans-you-need-using-contextconfiguration-">Initialize only beans you need using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">6</a></sup></h3>
 
 <p>Using <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> won’t start the whole spring infrastructure. This making your tests faster.</p>
 
+<h2 id="messages">Messages</h2>
+
+<p>Write assertion messages for every assertion that is not fluid.</p>
+
 <div class="footnotes" role="doc-endnotes">
   <ol>
+    <li id="fn:7" role="doc-endnote">
+      <p><a href="https://codeahoy.com/2016/07/05/unit-integration-and-end-to-end-tests-finding-the-right-balance/#:~:text=70%2F20%2F10%20split%20between,end%2Dto%2Dend%20tests.">Unit, Integration and End-To-End Tests - Finding the Right Balance</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
     <li id="fn:5" role="doc-endnote">
       <p><a href="https://www.youtube.com/watch?v=fr1E9aVnBxw">YouTube: DevOxx: Effective Unit Testing by Eliotte Rusty Harold</a> (This includes tips on debugging and refactoring) <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:5:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
     </li>
