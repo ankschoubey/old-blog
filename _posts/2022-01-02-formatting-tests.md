@@ -16,20 +16,21 @@ Clean tests are as important as clean code. Same kind of principles apply here.
 
 while TDD, is shown to keep test cases to a minimum, this post explains some other ways tests can be organize
 
-
 The goal with testing is to make it as english sentence like as possible.
 
 You want someone who has not seen codebase to read your tests and understand what your code does. In that way, testing is a documentation for your code.
 
 Here are some strategies to achieve it.
 
-# Prefix name of test classes with Unit/Inte
-
-This will help limit scope of the test class to be certain types of tests
-
 # Have Fluent Assertions
 
 Libraries like AssertJ make it easy to write tests which sound like english
+
+# Prefix name of test classes with Unit/Inte/System
+
+This will help limit scope of the test class to be certain types of tests
+
+Aim for 70/20/10 split between these tests [^7]
 
 # Create Test Data Generator Method or Builder
 
@@ -156,9 +157,16 @@ Cyclomatic time complexity of your tests should be O(1).
 
 Using `@ContextConfiguration` won't start the whole spring infrastructure. This making your tests faster.
 
+## Messages
+
+Write assertion messages for every assertion that is not fluid.
+
+
+
 [^1]: [YouTube: Continous Delivery: The 3 Types of Unit Test in TDD](https://www.youtube.com/watch?v=W40mpZP9xQQ)
 [^2]: [Stack Overflow: Unit Test Best Practices](https://stackoverflow.com/a/7398606)
 [^3]: [YouTube: Defog Tech: Spring Boot - Testing basics](https://www.youtube.com/watch?v=Ekr4jxOIf4c)
 [^4]: [Unit Testing Best Practices: 9 to Ensure You Do It Right](https://www.testim.io/blog/unit-testing-best-practices/)
 [^5]: [YouTube: DevOxx: Effective Unit Testing by Eliotte Rusty Harold](https://www.youtube.com/watch?v=fr1E9aVnBxw) (This includes tips on debugging and refactoring)
 [^6]: [Cucumber: Blog: Getting Started with BDD (Part 1)](https://cucumber.io/blog/bdd/getting-started-with-bdd-part-1/)
+[^7]: [Unit, Integration and End-To-End Tests - Finding the Right Balance](https://codeahoy.com/2016/07/05/unit-integration-and-end-to-end-tests-finding-the-right-balance/#:~:text=70%2F20%2F10%20split%20between,end%2Dto%2Dend%20tests.)
