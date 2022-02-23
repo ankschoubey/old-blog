@@ -5,8 +5,8 @@ description:
 categories: [middleware, draft]
 last_modified_at: 2022-02-19T20:52:08.052481
 last-modified-purpose:
-permalink: /good-api-design/
-title: Elements of Good API Design
+permalink: /good-rest-api-design/
+title: Elements of Good REST API Design
 ---
 
 Here are somethings about API design that I recently learn’t.
