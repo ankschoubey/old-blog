@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-02-21T15:25:13-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-02-23T14:13:02-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,46 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Elements of Good API Design</title><link href="www.ankushchoubey.com/good-api-design/" rel="alternate" type="text/html" title="Elements of Good API Design" /><published>2022-02-19T00:00:00-06:00</published><updated>2022-02-19T14:52:08-06:00</updated><id>www.ankushchoubey.com/elements-of-good-api-design</id><content type="html" xml:base="www.ankushchoubey.com/good-api-design/">&lt;p&gt;Here are somethings about API design that I recently learn’t.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thoughts on “Team Work”</title><link href="www.ankushchoubey.com/team-work/" rel="alternate" type="text/html" title="Thoughts on “Team Work”" /><published>2022-02-24T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/team-work</id><content type="html" xml:base="www.ankushchoubey.com/team-work/">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Treat others the way you want to be treated. Treat yourself the way you want to be treated.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Everyone’s problems/expectations are similar on one level:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;everyones want to share and want to be really listened to their point of view.&lt;/li&gt;
+  &lt;li&gt;Everyone want to feel safe and safe enough to trust.&lt;/li&gt;
+  &lt;li&gt;Everyone wants to he respected: respected of boundaries (hopefully healthy ones).&lt;/li&gt;
+  &lt;li&gt;Everyone want people to support them even if it’s little.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Everyone has ego.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you criticize the person, you poke the ego.&lt;/li&gt;
+  &lt;li&gt;If you critize an approach, then probability that their ego will be poked in a healthy way and it will be on your side or atleast open to discussion.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is to say you don’t want somone to win or lose. You want Win-Win. Win-Win is a win for all parties to a certain degree.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;To build trust, you have to trust and try opening up. But open up on solid ground. You don’t want to be naïve because opening up increases probability of being hurt but also it won’t reciprocate. You want to build trust “together”, not being trust one sided.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Everything in “Team Work” is about doing things “together”.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;This one is recent for me&lt;/em&gt;: Let everyone (others and yourself) choose and solve their own local problems.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;They have right to choose what they want to focus on. You may suggest or lead by example. But forcing you opinions rebounds.&lt;/p&gt;
+
+&lt;p&gt;Plus forcing opinions assumes that one really knows “life” which probably no one does fully.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="team-work" /><summary type="html">Treat others the way you want to be treated. Treat yourself the way you want to be treated.</summary></entry><entry><title type="html">Elements of Good API Design</title><link href="www.ankushchoubey.com/good-api-design/" rel="alternate" type="text/html" title="Elements of Good API Design" /><published>2022-02-19T00:00:00-06:00</published><updated>2022-02-19T14:52:08-06:00</updated><id>www.ankushchoubey.com/elements-of-good-api-design</id><content type="html" xml:base="www.ankushchoubey.com/good-api-design/">&lt;p&gt;Here are somethings about API design that I recently learn’t.&lt;/p&gt;
 
 &lt;p&gt;An HTTP Rest endpoint is divided into following.&lt;/p&gt;
 
@@ -302,7 +341,38 @@
 
 &lt;h2 id=&quot;4-tests-are-also-documentation-of-sorts-but-for-the-internal-team-only&quot;&gt;4. Tests are also documentation of sorts but for the internal team only.&lt;/h2&gt;
 
-&lt;p&gt;Tests capture what the code would do. So for a new dev on a team, going and reading through tests can give him an idea of what the code does.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">We ideally want to write code so well that someone reading the code can understand it in one go.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://docs.google.com/drawings/d/e/2PACX-1vS1EYND3yzq_zmJEZ1rEJogTD9tbXucE2k33rcUYIVTcA2ZQZlYfPf_MSVk8kvHZhjcKo7fByRiXFpy/pub?w=453&amp;amp;h=723" /><media:content medium="image" url="https://docs.google.com/drawings/d/e/2PACX-1vS1EYND3yzq_zmJEZ1rEJogTD9tbXucE2k33rcUYIVTcA2ZQZlYfPf_MSVk8kvHZhjcKo7fByRiXFpy/pub?w=453&amp;amp;h=723" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing Clean and Fast Unit Tests</title><link href="www.ankushchoubey.com/clean-fast-unit-tests/" rel="alternate" type="text/html" title="Writing Clean and Fast Unit Tests" /><published>2022-01-02T00:00:00-06:00</published><updated>2022-01-02T14:52:08-06:00</updated><id>www.ankushchoubey.com/formatting-tests</id><content type="html" xml:base="www.ankushchoubey.com/clean-fast-unit-tests/">&lt;p&gt;Clean tests are as important as clean code. Same kind of principles apply here.&lt;/p&gt;
+&lt;p&gt;Tests capture what the code would do. So for a new dev on a team, going and reading through tests can give him an idea of what the code does.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">We ideally want to write code so well that someone reading the code can understand it in one go.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://docs.google.com/drawings/d/e/2PACX-1vS1EYND3yzq_zmJEZ1rEJogTD9tbXucE2k33rcUYIVTcA2ZQZlYfPf_MSVk8kvHZhjcKo7fByRiXFpy/pub?w=453&amp;amp;h=723" /><media:content medium="image" url="https://docs.google.com/drawings/d/e/2PACX-1vS1EYND3yzq_zmJEZ1rEJogTD9tbXucE2k33rcUYIVTcA2ZQZlYfPf_MSVk8kvHZhjcKo7fByRiXFpy/pub?w=453&amp;amp;h=723" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Code Reviews and Pair Programming</title><link href="www.ankushchoubey.com/code-reviews/" rel="alternate" type="text/html" title="Code Reviews and Pair Programming" /><published>2022-01-07T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/code-reviews</id><content type="html" xml:base="www.ankushchoubey.com/code-reviews/">&lt;p&gt;Code reviews allow having a much high quality of code. And pair programming is the best way to do code reviews.&lt;/p&gt;
+
+&lt;p&gt;Typically, if less code is being reviewed then more bugs are found. If more code is reviewed, reviewer gets lazy.&lt;/p&gt;
+
+&lt;p&gt;10 lines of code: 10 isues
+500 lines of code: no issues “looks fine”&lt;/p&gt;
+
+&lt;p&gt;So one should air for small and early code review -&amp;gt; continuos code reviews- is this pair programming?&lt;/p&gt;
+
+&lt;p&gt;I would say yes.&lt;/p&gt;
+
+&lt;p&gt;Nowadays there are also Pair Programming AI like Kite.ai and GitHub Copilot that may be interesting to use.&lt;/p&gt;
+
+&lt;p&gt;Some other benigits of pair programming are,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You get to learn about new techniques like how someone uses their IDE&lt;/li&gt;
+  &lt;li&gt;You get to learn about the person/team too.&lt;/li&gt;
+  &lt;li&gt;You get to learn about the code base faster if you are pairing up with someone who has experience with it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While pair programming is most effective in person, the best way I could find in an online setting is by using remote-destop software that code reviews can interact directly with the code. Screenshare’s aren’t as effective.&lt;/p&gt;
+
+&lt;p&gt;partner will show you more efficient ways of doing things including how to use ide.&lt;/p&gt;
+
+&lt;p&gt;It may happen that pairing up isn’t ideal and one has to review code later, in that case github/gitlab do provide option to comment on a piece of code. The programmer may submit the code to reviewer for review.&lt;/p&gt;
+
+&lt;p&gt;Sources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fQ-x-T34z9w&amp;amp;ab_channel=AtlassianTechTV&quot;&gt;Pair Programming at Atlassian with Lucy Bain&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="software-engineering" /><category term="clean-code" /><summary type="html">Code reviews allow having a much high quality of code. And pair programming is the best way to do code reviews.</summary></entry><entry><title type="html">Writing Clean and Fast Unit Tests</title><link href="www.ankushchoubey.com/clean-fast-unit-tests/" rel="alternate" type="text/html" title="Writing Clean and Fast Unit Tests" /><published>2022-01-02T00:00:00-06:00</published><updated>2022-01-02T14:52:08-06:00</updated><id>www.ankushchoubey.com/formatting-tests</id><content type="html" xml:base="www.ankushchoubey.com/clean-fast-unit-tests/">&lt;p&gt;Clean tests are as important as clean code. Same kind of principles apply here.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Test only what is neccessary&lt;/li&gt;
@@ -485,154 +555,4 @@ Assert Responses -&amp;gt; then&lt;/p&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Ekr4jxOIf4c&quot;&gt;YouTube: Defog Tech: Spring Boot - Testing basics&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><category term="testing" /><category term="draft" /><summary type="html">Clean tests are as important as clean code. Same kind of principles apply here.</summary></entry><entry><title type="html">Thoughts on Test Driven Development</title><link href="www.ankushchoubey.com/tdd/" rel="alternate" type="text/html" title="Thoughts on Test Driven Development" /><published>2021-12-24T00:00:00-06:00</published><updated>2021-12-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/tdd</id><content type="html" xml:base="www.ankushchoubey.com/tdd/">&lt;p&gt;Software engineering isn’t only about code. It’s engineering&lt;/p&gt;
-
-&lt;p&gt;TDD need not be a big deal. It can seem cubersome but there are mindsets and tools that can make transition smoother.&lt;/p&gt;
-
-&lt;p&gt;TDD is shown to reduce defectsby a large margin. Tests will save you time in the long run.&lt;/p&gt;
-
-&lt;p&gt;There are my initial thoughts on test driven development.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-tdd&quot;&gt;Why TDD?&lt;/h2&gt;
-
-&lt;p&gt;If you are doing TDD, you do not need to setup and interact external systems before implementation.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; You can use their mocks.&lt;/p&gt;
-
-&lt;p&gt;Both tests and code is cleaner and precise.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-three-laws-of-tdd&quot;&gt;The Three Laws of TDD&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;You are not allowed to write any production code unless it is to make a failing unit test pass.&lt;/li&gt;
-  &lt;li&gt;You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.&lt;/li&gt;
-  &lt;li&gt;You are not allowed to write any more production code than is sufficient to pass the one failing unit test.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;how-to-tdd&quot;&gt;How to TDD?&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Assume the test will work properly, what is the minimum test? Write that test.&lt;/li&gt;
-  &lt;li&gt;Fix compilation errors if any. &lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Write minimum code required to pass the test.&lt;/li&gt;
-  &lt;li&gt;Run all the tests&lt;/li&gt;
-  &lt;li&gt;Iterate&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;making-tdd-easier&quot;&gt;Making TDD easier&lt;/h1&gt;
-
-&lt;h2 id=&quot;usually-tdd-can-be-cumbersome-because&quot;&gt;Usually TDD can be cumbersome because:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Testing is extra code&lt;/li&gt;
-  &lt;li&gt;You have to switch between current code and tests&lt;/li&gt;
-  &lt;li&gt;you have to rerun tests&lt;/li&gt;
-  &lt;li&gt;No one does it&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;mitigrations&quot;&gt;Mitigrations&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-tdd-is-a-todo-list-of-feature-to-do&quot;&gt;1. TDD is a todo list of feature to do&lt;/h3&gt;
-
-&lt;p&gt;By writing test first, you get clear on what you want to implement. This leads to better design.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-switch-between-testing-and-code-easily&quot;&gt;2. Switch between testing and code easily&lt;/h3&gt;
-
-&lt;p&gt;In intellij press Ctrl + Shift + T
-for vs code : https://marketplace.visualstudio.com/items?itemName=Acino.jump-source&lt;/p&gt;
-
-&lt;h3 id=&quot;3-rerun-tests-automatically&quot;&gt;3. Rerun tests automatically&lt;/h3&gt;
-
-&lt;p&gt;On local: have tests run automatically after each save&lt;/p&gt;
-
-&lt;p&gt;Given when tehn
-Search for libraries that make easier to test&lt;/p&gt;
-
-&lt;h3 id=&quot;4-no-one-does-it&quot;&gt;4. No one does it&lt;/h3&gt;
-
-&lt;p&gt;Yeah. It takes times to learn. TDD/any development practice is easier when whole company is aiming at it or enforcing it.&lt;/p&gt;
-
-&lt;p&gt;https://spring.io/guides
-https://daveceddia.com/what-to-test-in-react-app/
-https://daveceddia.com/getting-started-with-tdd-in-react/&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;draft&lt;/p&gt;
-
-&lt;p&gt;write experimental/learning code in a separate project. but always write production code with TDD.&lt;/p&gt;
-
-&lt;p&gt;fast feedback&lt;/p&gt;
-
-&lt;p&gt;find fastest and tighest feedback&lt;/p&gt;
-
-&lt;p&gt;TDD leads to fast feedback&lt;/p&gt;
-
-&lt;p&gt;to refactor you need really good tests&lt;/p&gt;
-
-&lt;p&gt;seeing a test fail is a test that feature is not implemented. sometimes it may happen that the new test passes which means the feature is already implemented and you had forgotten to assert it. or your system is not working properly.&lt;/p&gt;
-
-&lt;p&gt;“I don’t know what I am going to build” 
-business? -&amp;gt; ask them for clarificaiton
-logic -&amp;gt; get away from screen and plan properly 
-side effect -&amp;gt; read documentation. write a lot of little program. repl command line interface to test/learn libraries. jshell?&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=9-cyC6O81Bk&lt;/p&gt;
-
-&lt;p&gt;// it’s hard to decide what to test when you are writing tests later
-if you write tests later, you do it for what is working.&lt;/p&gt;
-
-&lt;p&gt;TDD only that much functionality and nothing more
-only test what’s within the class. not outside it [ANkush]&lt;/p&gt;
-
-&lt;p&gt;mentally it can be worth thinking as red green refactor as checklist&lt;/p&gt;
-
-&lt;p&gt;refactoring while doing tdd&lt;/p&gt;
-
-&lt;p&gt;read the tests first&lt;/p&gt;
-
-&lt;p&gt;// it’s hard to decide what to test when you are writing tests later
-if you write tests later, you do it for what is working.&lt;/p&gt;
-
-&lt;p&gt;ATDD: THe team decides acceptance criteria first before implementing 
-acceptance criteria should be defined well for each story. Tips:&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/ACoAAAGmNOsBErk1_7cbjUHllOPVUE5M-NvcOKc/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bd5ZjyftfQoKiUju1OpMyEA%3D%3D&quot;&gt;Anadi Misra&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><category term="draft" /><summary type="html">Software engineering isn’t only about code. It’s engineering</summary></entry><entry><title type="html">Angular and React Comparison</title><link href="www.ankushchoubey.com/angular-react-comparison/" rel="alternate" type="text/html" title="Angular and React Comparison" /><published>2021-12-04T00:00:00-06:00</published><updated>2021-12-04T14:52:08-06:00</updated><id>www.ankushchoubey.com/angular-react-comparison</id><content type="html" xml:base="www.ankushchoubey.com/angular-react-comparison/">&lt;p&gt;&lt;img src=&quot;/images/angular-react-comparison.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Angular and React though they are competitors aren’t in a completely fair league. This is because one is a full-fledged framework and one is not. It may be better to compare Angular with a React framework like Next.js.&lt;/p&gt;
-
-&lt;p&gt;There are things I like about both.&lt;/p&gt;
-
-&lt;h2 id=&quot;language&quot;&gt;Language&lt;/h2&gt;
-
-&lt;p&gt;Angular comes with typescript by default. Typescript is much more superior to JS. React can be used with typescript too but it’s a developer’s choice.&lt;/p&gt;
-
-&lt;h2 id=&quot;react-is-easy-to-get-started&quot;&gt;React is easy to get started&lt;/h2&gt;
-
-&lt;p&gt;Especially with functional components, getting started with react is too easy.&lt;/p&gt;
-
-&lt;h2 id=&quot;react-has-too-many-little-things-to-take-care-of&quot;&gt;React has too many little things to take care of.&lt;/h2&gt;
-
-&lt;p&gt;Strength can be a weakness or one could say React isn’t a full framework.&lt;/p&gt;
-
-&lt;p&gt;React has too much to learn. And every project is essentially different.&lt;/p&gt;
-
-&lt;p&gt;Angular comes with preferred ways of doing things which I like more than base React. Angular has everything important built-in. So you’ll find every Angular project uses the same set of libraries for common tasks like rest call (HttpClient). There is less to learn and remember.&lt;/p&gt;
-
-&lt;p&gt;You essentially want to reduce knowing a lot of things so that you can focus on getting stuff done.&lt;/p&gt;
-
-&lt;h2 id=&quot;code-cleanliness&quot;&gt;Code Cleanliness&lt;/h2&gt;
-
-&lt;p&gt;Assuming React is used with Typescript, functional react with hooks is a much better way of creating components than class-based React and Angular.&lt;/p&gt;
-
-&lt;p&gt;Plus I like JSX (React) than HTML templating(Angular), it’s concise and there is less to remember. HTML templating in angular requires remembering an additional set of code (ngFor, ngIf, etc). In JSX, it’s the same language used while creating components.&lt;/p&gt;
-
-&lt;p&gt;The code structure is much better in angular projects.&lt;/p&gt;
-
-&lt;p&gt;Every angular project is structured similarly.&lt;/p&gt;
-
-&lt;p&gt;By default, CSS management is also better in angular. Every component has its own CSS. Parent components can have the same CSS namings and it would not affect child components unless specified (:host ::ng-deep).&lt;/p&gt;
-
-&lt;p&gt;React can also do this by using css modules.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/angular-react-comparison.png" /><media:content medium="image" url="www.ankushchoubey.com/images/angular-react-comparison.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><category term="testing" /><category term="draft" /><summary type="html">Clean tests are as important as clean code. Same kind of principles apply here.</summary></entry></feed>
