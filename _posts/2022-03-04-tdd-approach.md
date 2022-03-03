@@ -7,10 +7,7 @@ last_modified_at: 2022-03-04T20:52:08.052481
 last-modified-purpose:
 permalink: /current-tdd-approach/
 title: My current approach to TDD
-hide: true
-image: /images/n-plus-one.svg
 ---
-![](/images/switch-jobs.jpg)
 
 This is my current approach to TDD. 
 
