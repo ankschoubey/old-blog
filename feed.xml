@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-04T15:21:23-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-07T12:02:17-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,72 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My current approach to TDD</title><link href="www.ankushchoubey.com/current-tdd-approach/" rel="alternate" type="text/html" title="My current approach to TDD" /><published>2022-03-04T00:00:00-06:00</published><updated>2022-03-04T14:52:08-06:00</updated><id>www.ankushchoubey.com/tdd-approach</id><content type="html" xml:base="www.ankushchoubey.com/current-tdd-approach/">&lt;p&gt;This is my current approach to TDD.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Speeding Up Existing Spring Boot/JUnit tests</title><link href="www.ankushchoubey.com/spring-boot-junit-faster/" rel="alternate" type="text/html" title="Speeding Up Existing Spring Boot/JUnit tests" /><published>2022-03-07T00:00:00-06:00</published><updated>2021-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/speeding-up-junit</id><content type="html" xml:base="www.ankushchoubey.com/spring-boot-junit-faster/">&lt;p&gt;There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.&lt;/p&gt;
+
+&lt;p&gt;Some of these are&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use Right Runner (Saved 25% running time)&lt;/li&gt;
+  &lt;li&gt;Run tests in parallel (Saved 37% running time)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;use-right-runner&quot;&gt;Use Right Runner&lt;/h1&gt;
+
+&lt;p&gt;There are several runners that come with Spring boot.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@SpringBootTest&lt;/code&gt; being the most general of them. Mostly this is used in combination with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@DirtiesContent&lt;/code&gt; which will restart spring boot after every test class by default. This isn’t ideal.&lt;/p&gt;
+
+&lt;p&gt;Using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@SpringBootTest&lt;/code&gt; is Integration Tests. We don’t want every test to use this.&lt;/p&gt;
+
+&lt;p&gt;We want to load the minimum spring-boot infrastructure as possible and still ensure accurate tests.&lt;/p&gt;
+
+&lt;p&gt;There are a few that can be used.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;If tests are related to a DB. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@DataMongoTest&lt;/code&gt; or equivalent JPA runner with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Import&lt;/code&gt; annotation.&lt;/li&gt;
+  &lt;li&gt;If tests are related to Web/Controller. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@WebFluxTest&lt;/code&gt; or equivalent Spring MVC runner.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Important&lt;/strong&gt;: If tests require initializing a single bean. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@ExtendWith(SpringRunner.class)&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Import&lt;/code&gt; to specify bean to initialize.&lt;/li&gt;
+  &lt;li&gt;If &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@SpringBootTest&lt;/code&gt; is required, try to use it in combination with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Import&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@ContextConfiguration&lt;/code&gt; to limit beans creation.&lt;/li&gt;
+  &lt;li&gt;The best case: Aim for Tests which are purely java based and do not involve spring boot. This ofcourse isn’t possible for every scenario.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;run-tests-in-parallel&quot;&gt;Run Tests in Parallel&lt;/h2&gt;
+
+&lt;p&gt;Create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;junit-platform.properties&lt;/code&gt; file in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test/resource/junit-platform.properties&lt;/code&gt; and add following minimum. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;junit.jupiter.execution.parallel.enabled = true&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you can either use one of these,&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;add following to every class you want to run parallel. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Execution(CONCURRENT)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;add more to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;junit-platform.properties&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;junit.jupiter.execution.parallel.mode.default = same_thread|concurrent
+junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/junit-execution-mode.svg&quot; alt=&quot;&quot; /&gt;
+&lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I prefer first method of using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Execution(CONCURRENT)&lt;/code&gt; because some of my tests weren’t designed to run in parallel.&lt;/p&gt;
+
+&lt;p&gt;I found data tests with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@DataMongoTest&lt;/code&gt; by asserting over different data.&lt;/p&gt;
+
+&lt;p&gt;Another positive sideeffect of having &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Execution(CONCURRENT)&lt;/code&gt; is that these tests run first. And since these tests are faster, they lead to faster feedback.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://junit.org/junit5/docs/current/user-guide/#writing-tests-parallel-execution&quot;&gt;Parallel Execution - JUnit Documentation&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="spring-boot" /><summary type="html">There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.</summary></entry><entry><title type="html">My current approach to TDD</title><link href="www.ankushchoubey.com/current-tdd-approach/" rel="alternate" type="text/html" title="My current approach to TDD" /><published>2022-03-04T00:00:00-06:00</published><updated>2022-03-04T14:52:08-06:00</updated><id>www.ankushchoubey.com/tdd-approach</id><content type="html" xml:base="www.ankushchoubey.com/current-tdd-approach/">&lt;p&gt;This is my current approach to TDD.&lt;/p&gt;
 
 &lt;h2 id=&quot;for-new-development&quot;&gt;For new development:&lt;/h2&gt;
 
@@ -406,49 +471,4 @@
       &lt;li&gt;Multitasking is the worst&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="core-values" /><category term="time-matters" /><summary type="html">Many times discussing governments spending, it is discussed how while a budget was allocated, the government didn’t spend as much or they spent more.</summary></entry><entry><title type="html">Time Assets and Liabilities</title><link href="www.ankushchoubey.com/time-assets-and-liabilities/" rel="alternate" type="text/html" title="Time Assets and Liabilities" /><published>2022-01-26T00:00:00-06:00</published><updated>2022-01-26T14:52:08-06:00</updated><id>www.ankushchoubey.com/time-assets-liabilities</id><content type="html" xml:base="www.ankushchoubey.com/time-assets-and-liabilities/">&lt;p&gt;Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.&lt;/p&gt;
-
-&lt;p&gt;Like any resource, one can think of time in numeric terms. This allows us to categorize activities as assets that add back time or liabilities, which take time away. Our goal then is to create more time-assets with high time-ROI.&lt;/p&gt;
-
-&lt;p&gt;80% of our activities during a given day are not new. They are merely routines.&lt;/p&gt;
-
-&lt;p&gt;So essentially, carefully observing, choosing, and forming our habits would lead to more &lt;strong&gt;time-assets&lt;/strong&gt; and less &lt;strong&gt;time-liabilities&lt;/strong&gt;. Usually, time-assets and time-liabilities are opposites of each other.&lt;/p&gt;
-
-&lt;p&gt;Most time-liabilities snap our attention and lead us to care about wrong things. Therefore, time-assets help us course correct. Therefore, time management is closely linked to attention management.&lt;/p&gt;
-
-&lt;p&gt;Most time assets are generatlly slower and more stuctured which is why they are usually avoided. Time liabilities on the other hand feel easy to get started with so they are done more. So, one needs to make it easy to get started on time-assets and harder to get started on time-liabilities.&lt;/p&gt;
-
-&lt;p&gt;Some of the most impactful time-assets and liabilities are:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Time-Assets&lt;/th&gt;
-      &lt;th&gt;Time Liabilities&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Planning&lt;/strong&gt;: Even a little bit of planning, something like 10 minutes alone creating a written plan could save hours, days, or even years. &lt;br /&gt;&lt;br /&gt;Planning allows course correction. Ideally, don’t start working without a plan.&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Rushing&lt;/strong&gt;: Though it may seem you are making progress. The probability is higher that you are moving in the wrong direction. It’s better to fix a plan&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Meditation&lt;/strong&gt;:&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Instagram&lt;/strong&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;5 Min Rule&lt;/strong&gt;: Don’t allow yourself to be down or procrastinate for more than 5 minutes. &lt;br /&gt;&lt;br /&gt;During such time ask yourself: Is this worth the return on my time?&lt;br /&gt;&lt;br /&gt;Remember you can’t live forever.&lt;/td&gt;
-      &lt;td&gt;Forever Rule: &lt;strong&gt;The opposite of 5 min rule&lt;/strong&gt;: Letting fear/laziness/indecision stop you.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;WIP Limit&lt;/strong&gt;: Focus on a few things and complete them. If your WIP limit is exceeded, don’t add work on newer tasks unless older ones are complete.&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Trying to change people&lt;/strong&gt;: You cannot change people. You can suggest but cannot force. Leading by example. It’s the best option you have.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Pomodoro&lt;/strong&gt;: Working in Pomodoros keeps you focused. If you can’t work with Pomodoro, you haven’t planned carefully enough.&lt;br /&gt;&lt;br /&gt;To have Pomodoro sessions.&lt;br /&gt;1. Create a distraction-free zone.&lt;br /&gt;2. Plan your tasks. Ideally, pick a deliverable.&lt;br /&gt;3. Put on headphones and play instrumental/&lt;a href=&quot;https://www.youtube.com/playlist?list=PLx65qkgCWNJIs3FPaj8JZhduXSpQ_ZfvL&quot;&gt;focus music&lt;/a&gt;.&lt;br /&gt;4. Work on the task using &lt;a href=&quot;https://pomofocus.io/&quot;&gt;a Pomodoro app&lt;/a&gt;.&lt;br /&gt;5. Stick to break schedule religiously. Get away from the room during the break but no internet. &lt;br /&gt;&lt;br /&gt;One Pomodoro is better than zero Pomodoro.&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;During normal decision-making, one can calculate the ROI of their actions: think about how much time you’ll invest and how much return you’ll get back. This calculation needs to be a specific number in terms of both hours and percentage even if it’s an estimate.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="time-matters" /><category term="philosophical" /><summary type="html">Time is the most precious finite resource we have. We should make good use of it. If we do, we make time our ally.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="core-values" /><category term="time-matters" /><summary type="html">Many times discussing governments spending, it is discussed how while a budget was allocated, the government didn’t spend as much or they spent more.</summary></entry></feed>
