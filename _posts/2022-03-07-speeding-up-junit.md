@@ -3,7 +3,7 @@ layout: post
 comments: true
 description:
 categories: [spring-boot]
-last_modified_at: 2021-09-23T20:52:08.052481
+last_modified_at: 2022-03-07T20:52:08.052481
 last-modified-purpose:
 permalink: /spring-boot-junit-faster/
 title: Speeding Up Existing Spring Boot/JUnit tests
