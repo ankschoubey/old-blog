@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description:
+description: From 8 minutes to 3 minutes.
 categories: [spring-boot]
 last_modified_at: 2022-03-07T20:52:08.052481
 last-modified-purpose:

@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description:
+description: A step by step algorithm
 categories: [tdd, software-engineering]
 last_modified_at: 2022-03-04T20:52:08.052481
 last-modified-purpose:
@@ -21,7 +21,7 @@ This is my current approach to TDD.
 - "WHEN" blocks define conditions
 - "SHOULD" blocks are atomic and assertable. 
 
-```
+```java
 class MainTestClass{
 ...
     @Nested
@@ -64,7 +64,9 @@ class MainTestClass{
 3. I add or a new "WHEN" or "SHOULD" or "x method" class
 4. And then repeat the cycle again.
 
-Relevant Further Reading:
+***
+
+*Relevant Further Reading*:
 
 - [TDD](/tdd)
 - [Writing Clean and Fast Unit Tests](/clean-fast-unit-tests)
