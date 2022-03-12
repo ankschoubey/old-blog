@@ -8,15 +8,15 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="My current approach to TDD" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This is my current approach to TDD." />
-<meta property="og:description" content="This is my current approach to TDD." />
+<meta name="description" content="A step by step algorithm" />
+<meta property="og:description" content="A step by step algorithm" />
 <link rel="canonical" href="www.ankushchoubey.com/current-tdd-approach/" />
 <meta property="og:url" content="www.ankushchoubey.com/current-tdd-approach/" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-03-04T00:00:00-06:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/current-tdd-approach/","headline":"My current approach to TDD","dateModified":"2022-03-04T14:52:08-06:00","datePublished":"2022-03-04T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/current-tdd-approach/"},"description":"This is my current approach to TDD.","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/current-tdd-approach/","headline":"My current approach to TDD","dateModified":"2022-03-04T14:52:08-06:00","datePublished":"2022-03-04T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/current-tdd-approach/"},"description":"A step by step algorithm","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -115,7 +115,7 @@ window.onload = wrap_img;
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">My current approach to TDD</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-03-04T00:00:00-06:00" itemprop="datePublished">
+    <p class="page-description">A step by step algorithm</p><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-03-04T00:00:00-06:00" itemprop="datePublished">
         Written: Mar 4, 2022
       </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-03-04T14:52:08-06:00" itemprop="dateModified">
           Updated: Mar 4, 2022
@@ -206,34 +206,34 @@ window.onload = wrap_img;
   </li>
 </ol>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class MainTestClass{
-...
-    @Nested
-    @DisplayName("upsert method")
-    class UpsertMethodTests{
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">MainTestClass</span><span class="o">{</span>
+<span class="o">...</span>
+    <span class="nd">@Nested</span>
+    <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"upsert method"</span><span class="o">)</span>
+    <span class="kd">class</span> <span class="nc">UpsertMethodTests</span><span class="o">{</span>
 
-        @Nested
-        @DisplayName("WHEN value IS-NOT in DB")
-        class ValueNotInDBTest{
-            @Test
-            @DisplayName("SHOULD insert value")
-            void shouldInsertValue(){
-                //empty for now
-            }
-        }
+        <span class="nd">@Nested</span>
+        <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"WHEN value IS-NOT in DB"</span><span class="o">)</span>
+        <span class="kd">class</span> <span class="nc">ValueNotInDBTest</span><span class="o">{</span>
+            <span class="nd">@Test</span>
+            <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"SHOULD insert value"</span><span class="o">)</span>
+            <span class="kt">void</span> <span class="nf">shouldInsertValue</span><span class="o">(){</span>
+                <span class="c1">//empty for now</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
 
-        @Nested
-        @DisplayName("WHEN value IS in DB")
-        class ValueInDBTest{
-            @Test
-            @DisplayName("SHOULD replace value")
-            void shouldReplaceValue(){
-                //empty for now
-            }
-        }
-    }
-...
-}
+        <span class="nd">@Nested</span>
+        <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"WHEN value IS in DB"</span><span class="o">)</span>
+        <span class="kd">class</span> <span class="nc">ValueInDBTest</span><span class="o">{</span>
+            <span class="nd">@Test</span>
+            <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"SHOULD replace value"</span><span class="o">)</span>
+            <span class="kt">void</span> <span class="nf">shouldReplaceValue</span><span class="o">(){</span>
+                <span class="c1">//empty for now</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">...</span>
+<span class="o">}</span>
 </code></pre></div></div>
 
 <ol>
@@ -252,7 +252,9 @@ window.onload = wrap_img;
   <li>And then repeat the cycle again.</li>
 </ol>
 
-<p>Relevant Further Reading:</p>
+<hr />
+
+<p><em>Relevant Further Reading</em>:</p>
 
 <ul>
   <li><a href="/tdd">TDD</a></li>
