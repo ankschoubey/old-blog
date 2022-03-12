@@ -6,8 +6,10 @@ categories: [core-values, responsibility]
 last_modified_at: 2022-02-24T20:52:08.052481
 last-modified-purpose:
 permalink: /responsibility-stratergies/
-title: Strategies on "Responsibility"
+title: Strategies on Responsibility
+image: /images/responsibility.png
 ---
+![](/images/responsibility.png)
 
 1. Take full responsibility for yourself.
 
