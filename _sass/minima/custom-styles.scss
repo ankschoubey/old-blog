@@ -187,6 +187,9 @@ img.image-preview:hover {
     .clean-code {
         background-color: #b68a88
     }
+    .core-values {
+        background-color: #1e7cc9
+    }
 
     .cloud-computing {
         background-color: #726A95
@@ -311,7 +314,7 @@ img.image-preview:hover {
     font-size: medium;
 }
 .custom-post-card-toc:before {
-    content: "Table of Contents";
+    // content: "Table of Contents";
     font-weight: bold;
     padding: 13px;
     font-size: larger;
