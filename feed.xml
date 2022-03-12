@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-12T01:23:34-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-12T01:39:19-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -222,7 +222,10 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/tdd&quot;&gt;TDD&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/clean-fast-unit-tests&quot;&gt;Writing Clean and Fast Unit Tests&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tdd" /><category term="software-engineering" /><summary type="html">This is my current approach to TDD.</summary></entry><entry><title type="html">Strategies on “Truth”</title><link href="www.ankushchoubey.com/truth-stratergies/" rel="alternate" type="text/html" title="Strategies on “Truth”" /><published>2022-02-24T00:00:00-06:00</published><updated>2022-02-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/truth</id><content type="html" xml:base="www.ankushchoubey.com/truth-stratergies/">&lt;p&gt;There are family of algorithms/strategy to seek truth. Each one applies to specific cases&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="tdd" /><category term="software-engineering" /><summary type="html">This is my current approach to TDD.</summary></entry><entry><title type="html">Strategies on Truth</title><link href="www.ankushchoubey.com/truth-stratergies/" rel="alternate" type="text/html" title="Strategies on Truth" /><published>2022-02-24T00:00:00-06:00</published><updated>2022-02-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/truth</id><content type="html" xml:base="www.ankushchoubey.com/truth-stratergies/">&lt;p&gt;&lt;img src=&quot;/images/truth-stratergies.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;There are family of algorithms/strategy to seek truth. Each one applies to specific cases&lt;/p&gt;
 
 &lt;p&gt;These are some&lt;/p&gt;
 
@@ -277,7 +280,17 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 
 &lt;p&gt;If you have done something, it’s a truth.&lt;/p&gt;
 
-&lt;p&gt;This is along the lines of why sharing what we are going to do isn’t complete truth yet.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="truth" /><summary type="html">There are family of algorithms/strategy to seek truth. Each one applies to specific cases</summary></entry><entry><title type="html">Strategies on “Team Work”</title><link href="www.ankushchoubey.com/team-work/" rel="alternate" type="text/html" title="Strategies on “Team Work”" /><published>2022-02-24T00:00:00-06:00</published><updated>2022-02-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/team-work</id><content type="html" xml:base="www.ankushchoubey.com/team-work/">&lt;ol&gt;
+&lt;p&gt;This is along the lines of why sharing what we are going to do isn’t complete truth yet.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@brunovdkraan?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Bruno van der Kraan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/truth?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="core-values" /><category term="truth" /><summary type="html">1 Photo by Bruno van der Kraan on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/truth-stratergies.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/truth-stratergies.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Strategies on Team Work</title><link href="www.ankushchoubey.com/team-work/" rel="alternate" type="text/html" title="Strategies on Team Work" /><published>2022-02-24T00:00:00-06:00</published><updated>2022-02-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/team-work</id><content type="html" xml:base="www.ankushchoubey.com/team-work/">&lt;p&gt;&lt;img src=&quot;/images/team-work.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Treat others the way you want to be treated. Treat yourself the way you want to be treated.&lt;/p&gt;
   &lt;/li&gt;
@@ -316,7 +329,9 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 
 &lt;p&gt;They have right to choose what they want to focus on. You may suggest or lead by example. But forcing you opinions rebounds.&lt;/p&gt;
 
-&lt;p&gt;Plus forcing opinions assumes that one really knows “life” which probably no one does fully.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="team-work" /><summary type="html">Treat others the way you want to be treated. Treat yourself the way you want to be treated.</summary></entry><entry><title type="html">Strategies on “Responsibility”</title><link href="www.ankushchoubey.com/responsibility-stratergies/" rel="alternate" type="text/html" title="Strategies on “Responsibility”" /><published>2022-02-24T00:00:00-06:00</published><updated>2022-02-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/responsibility</id><content type="html" xml:base="www.ankushchoubey.com/responsibility-stratergies/">&lt;ol&gt;
+&lt;p&gt;Plus forcing opinions assumes that one really knows “life” which probably no one does fully.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="team-work" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/team-work.webp" /><media:content medium="image" url="www.ankushchoubey.com/images/team-work.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Strategies on Responsibility</title><link href="www.ankushchoubey.com/responsibility-stratergies/" rel="alternate" type="text/html" title="Strategies on Responsibility" /><published>2022-02-24T00:00:00-06:00</published><updated>2022-02-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/responsibility</id><content type="html" xml:base="www.ankushchoubey.com/responsibility-stratergies/">&lt;p&gt;&lt;img src=&quot;/images/responsibility.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Take full responsibility for yourself.&lt;/p&gt;
   &lt;/li&gt;
@@ -335,7 +350,7 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 
 &lt;ol&gt;
   &lt;li&gt;Important: Start with local problems that repeat. Don’t try to solve something that isn’t even a problem of high ROI.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="core-values" /><category term="responsibility" /><summary type="html">Take full responsibility for yourself.</summary></entry><entry><title type="html">Elements of Good REST API Design</title><link href="www.ankushchoubey.com/good-rest-api-design/" rel="alternate" type="text/html" title="Elements of Good REST API Design" /><published>2022-02-19T00:00:00-06:00</published><updated>2022-02-19T14:52:08-06:00</updated><id>www.ankushchoubey.com/elements-of-good-api-design</id><content type="html" xml:base="www.ankushchoubey.com/good-rest-api-design/">&lt;p&gt;Here are somethings about API design that I recently learn’t.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="core-values" /><category term="responsibility" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/responsibility.png" /><media:content medium="image" url="www.ankushchoubey.com/images/responsibility.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Elements of Good REST API Design</title><link href="www.ankushchoubey.com/good-rest-api-design/" rel="alternate" type="text/html" title="Elements of Good REST API Design" /><published>2022-02-19T00:00:00-06:00</published><updated>2022-02-19T14:52:08-06:00</updated><id>www.ankushchoubey.com/elements-of-good-api-design</id><content type="html" xml:base="www.ankushchoubey.com/good-rest-api-design/">&lt;p&gt;Here are somethings about API design that I recently learn’t.&lt;/p&gt;
 
 &lt;p&gt;An HTTP Rest endpoint is divided into following.&lt;/p&gt;
 
