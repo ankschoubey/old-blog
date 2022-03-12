@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-07T12:19:16-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-12T01:23:34-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,47 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Speeding Up Existing Spring Boot/JUnit tests</title><link href="www.ankushchoubey.com/spring-boot-junit-faster/" rel="alternate" type="text/html" title="Speeding Up Existing Spring Boot/JUnit tests" /><published>2022-03-07T00:00:00-06:00</published><updated>2022-03-07T14:52:08-06:00</updated><id>www.ankushchoubey.com/speeding-up-junit</id><content type="html" xml:base="www.ankushchoubey.com/spring-boot-junit-faster/">&lt;p&gt;There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="draft" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Clean code - Naming convension for design patterns</title><link href="www.ankushchoubey.com/naming-design-patterns/" rel="alternate" type="text/html" title="Clean code - Naming convension for design patterns" /><published>2022-03-12T00:00:00-06:00</published><updated>2022-03-12T14:52:08-06:00</updated><id>www.ankushchoubey.com/design-patterns-naming</id><content type="html" xml:base="www.ankushchoubey.com/naming-design-patterns/">&lt;p&gt;&lt;img src=&quot;/images/naming-design-patterns.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I have been learning design patterns recently. And as a result, implementing them in places that seem fit.&lt;/p&gt;
+
+&lt;p&gt;Usually, these patterns are nice. They make code concise and understandable.&lt;/p&gt;
+
+&lt;p&gt;This is given that the person reading it knows what the design pattern is.&lt;/p&gt;
+
+&lt;p&gt;So to mitigate this problem my current approach is.&lt;/p&gt;
+
+&lt;p&gt;To prefix name of class with the design pattern.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Strategy: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ClassName&amp;gt;Stratergy&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Observer: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ClassName&amp;gt;Observer&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ClassName&amp;gt;Listener&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ClassName&amp;gt;Callback&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Factory: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ClassName&amp;gt;Factory&lt;/code&gt;. (In case of simple factory: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{methodName}SimpleFactory&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Decorator: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ClassName&amp;gt;Decorator&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Chain of Responsibility: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ClassName&amp;gt;Chain&lt;/code&gt;. Method name: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{methodName}Handle&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You get the point.&lt;/p&gt;
+
+&lt;p&gt;Hopefully, this would make it easy for person reading the code to understand how to use it in future.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If there are more tthat can be done, please mention in the comments below. I’ll be happy to know more approaches.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@glencarrie?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Glen Carrie&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/lego?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/naming-design-patterns.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/naming-design-patterns.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Speeding Up Existing Spring Boot/JUnit tests</title><link href="www.ankushchoubey.com/spring-boot-junit-faster/" rel="alternate" type="text/html" title="Speeding Up Existing Spring Boot/JUnit tests" /><published>2022-03-07T00:00:00-06:00</published><updated>2022-03-07T14:52:08-06:00</updated><id>www.ankushchoubey.com/speeding-up-junit</id><content type="html" xml:base="www.ankushchoubey.com/spring-boot-junit-faster/">&lt;p&gt;There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.&lt;/p&gt;
 
 &lt;p&gt;Some of these are&lt;/p&gt;
 
@@ -428,47 +468,4 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 
 &lt;p&gt;I find the best way to contemplate is to perform at formal sitting meditation with eyes closed.&lt;/p&gt;
 
-&lt;h2 id=&quot;talkexplain-to-someone-else&quot;&gt;Talk/Explain to someone else&lt;/h2&gt;</content><author><name></name></author><category term="core-values" /><category term="truth" /><summary type="html">Being able to articulate something fully is the whole game of a knowing if you have a clear mind or not.</summary></entry><entry><title type="html">Personal Budgeting</title><link href="www.ankushchoubey.com/personal-budgeting/" rel="alternate" type="text/html" title="Personal Budgeting" /><published>2022-01-28T00:00:00-06:00</published><updated>2022-01-28T14:52:08-06:00</updated><id>www.ankushchoubey.com/budgeting</id><content type="html" xml:base="www.ankushchoubey.com/personal-budgeting/">&lt;p&gt;Many times discussing governments spending, it is discussed how while a budget was allocated, the government didn’t spend as much or they spent more.&lt;/p&gt;
-
-&lt;p&gt;For example, the Education budget was set at 20 billion but only 5 billion was spent. Or they overspent which ate up other areas.&lt;/p&gt;
-
-&lt;p&gt;Usually, these discussions assume that spending the complete budget allocated is best.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Underspending&lt;/strong&gt;: Not doing enough&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Overspending&lt;/strong&gt;: Doing too much and eating into other areas.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The same can be applied to resources of one’s #life.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I believe these are the most important resources a person spends on.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Time Budget&lt;/li&gt;
-  &lt;li&gt;Attention Budget&lt;/li&gt;
-  &lt;li&gt;Money Budget&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So, given the premise above, the goal is to have a specific time, attention, and money budget for each important area of life and major activity. It isn’t ideal to set budgets for everything (else you won’t have an attention budget).&lt;/p&gt;
-
-&lt;p&gt;Time (in hours) and money (in currency) are easily quantifiable. Attention isn’t.&lt;/p&gt;
-
-&lt;p&gt;For attention, the game becomes imaginary.&lt;/p&gt;
-
-&lt;p&gt;There are a few ways to imagine this:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Count the number of decisions in a day:
-    &lt;ul&gt;
-      &lt;li&gt;Imagine you have 100 decision points in a day.
- The more number decisions you take, the probability of you making a bad decision increases.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Number of context switching
-    &lt;ul&gt;
-      &lt;li&gt;Multitasking is the worst&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="core-values" /><category term="time-matters" /><summary type="html">Many times discussing governments spending, it is discussed how while a budget was allocated, the government didn’t spend as much or they spent more.</summary></entry></feed>
+&lt;h2 id=&quot;talkexplain-to-someone-else&quot;&gt;Talk/Explain to someone else&lt;/h2&gt;</content><author><name></name></author><category term="core-values" /><category term="truth" /><summary type="html">Being able to articulate something fully is the whole game of a knowing if you have a clear mind or not.</summary></entry></feed>
