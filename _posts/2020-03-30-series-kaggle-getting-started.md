@@ -10,9 +10,9 @@ permalink: /kaggle_getting_started/
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kaggle_logo.png/400px-Kaggle_logo.png
 ---
 
-## Why?
+# Why?
 
-##### **Because Getting Started is:**
+## **Because Getting Started is:**
 
 - Easy
 
@@ -20,19 +20,19 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kaggle_logo.png
 
 - Less chance of getting stuck
 
-## How we will do it?
+# How we will do it?
 
-##### **By:**
+## **By:**
 
 - focusing on the process rather than just getting the output.
 
 - starting with easier problems.
 
-## Prerequisite
+# Prerequisite
 
 - PyTorch:[ A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html), [Writing Custom Datasets](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html?highlight=dataset)
 
-## Expectations from this series
+# Expectations from this series
 
 **Time**: 5–6 Hours per challenge or more.
 
@@ -52,7 +52,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kaggle_logo.png
 
 This way one can see get a peek behind the finished product.
 
-## Abbreviations Used
+# Abbreviations Used
 
 ```python
 X = training_data
@@ -64,7 +64,7 @@ dl = dataloader
 o = optimizer
 ```
 
-## Index
+# Index
 
 1. [Digit Recognition]({{ site.baseurl }}/mnist)
 2. Facial Keypoints Detection - *in progress*
