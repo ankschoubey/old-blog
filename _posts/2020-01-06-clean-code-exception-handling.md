@@ -4,7 +4,7 @@ layout: post
 comments: true
 description: and Logging with style
 categories: [clean-code]
-last_modified_at: 2021-08-01T20:42:15.128460
+last_modified_at: 2020-01-06T20:42:15.128460
 title: Exception handling
 permalink: /exception_handing/
 ---

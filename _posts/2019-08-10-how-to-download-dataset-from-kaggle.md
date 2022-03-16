@@ -4,7 +4,7 @@ layout: post
 comments: true
 description: Using Kaggle CLI
 categories: [deep-learning]
-last_modified_at: 2021-08-01T20:42:15.065727
+last_modified_at: 2019-08-10T20:42:15.065727
 title: How To Download Dataset From Kaggle
 permalink: /download_kaggle/
 ---

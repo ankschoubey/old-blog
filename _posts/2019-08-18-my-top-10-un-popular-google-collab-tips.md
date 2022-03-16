@@ -5,7 +5,7 @@ comments: true
 description: 
 categories: [deep-learning]
 title: 10 Google Collab Tips
-last_modified_at: 2021-08-01T20:42:15.084538
+last_modified_at: 2019-09-18T20:42:15.084538
 permalink: /collab/
 image: /images/2019-08-18-my-top-10-un-popular-google-collab-tips/5.png
 ---

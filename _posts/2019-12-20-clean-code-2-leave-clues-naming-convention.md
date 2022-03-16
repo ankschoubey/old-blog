@@ -4,7 +4,7 @@ layout: post
 comments: true
 description: Naming conventions
 categories: [clean-code]
-last_modified_at: 2021-08-01T20:42:15.089636
+last_modified_at: 2019-12-20T20:42:15.089636
 title: Leave Clues
 permalink: /naming_conventions/
 ---
