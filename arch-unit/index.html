@@ -4,17 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Resources | Ankush</title>
+<title>Java Architecture Testing with ArchUnit | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Resources" />
+<meta property="og:title" content="Java Architecture Testing with ArchUnit" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Random Thoughts" />
-<meta property="og:description" content="Random Thoughts" />
-<link rel="canonical" href="www.ankushchoubey.com/resources/" />
-<meta property="og:url" content="www.ankushchoubey.com/resources/" />
+<meta name="description" content="Enforce custom-clean coding standards" />
+<meta property="og:description" content="Enforce custom-clean coding standards" />
+<link rel="canonical" href="www.ankushchoubey.com/arch-unit/" />
+<meta property="og:url" content="www.ankushchoubey.com/arch-unit/" />
 <meta property="og:site_name" content="Ankush" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-16T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/resources/","headline":"Resources","dateModified":"2022-03-16T11:41:04-05:00","@type":"WebPage","description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/arch-unit/","headline":"Java Architecture Testing with ArchUnit","dateModified":"2022-03-16T15:52:08-05:00","datePublished":"2022-03-16T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/arch-unit/"},"description":"Enforce custom-clean coding standards","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -97,14 +99,7 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">Resources</h1>
-  </header>
-
-  <div class="post-content">
-    <!-- <script>
+        <!-- <script>
   for (const iterator of document.getElementsByClassName('page-link')) {
       if (iterator.innerHTML === 'Search'){ iterator.classList.add('search-button'); iterator.title = 'Search';}
       if (iterator.innerHTML === 'Tags'){ iterator.classList.add('tags-button'); iterator.title = 'Tags';}
@@ -112,20 +107,125 @@ window.onload = wrap_img;
   }
 </script> -->
 
-<p>I read/consume many resources and I thought this would be a good way to link to up and thus avoid  writing blogposts on these topics.</p>
 
-<script type="text/javascript" src="/assets/resources.js"></script>
+<script type="text/javascript" src="/assets/accordian.js"></script>
 
-<link rel="stylesheet" href="/assets/resources.css" />
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div id="resource-holder">
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Java Architecture Testing with ArchUnit</h1>
 
+    <p class="page-description">Enforce custom-clean coding standards</p><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-03-16T00:00:00-05:00" itemprop="datePublished">
+        Written: Mar 16, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-03-16T15:52:08-05:00" itemprop="dateModified">
+          Updated: Mar 16, 2022
+        </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>    <style>
+        .post-tool-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px 10px 0px;
+            /* border: 1px solid #e8e8e8; */
+            border-width: 0px 0px 1px 0px;
+        }
+        .left-section , .right-section{
+            display: flex;
+            gap: 8px;
+        }
+
+    </style>
+    
+    <div class="post-tool-bar"><!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    
+    <a class="tag fa fa-hashtag testing" href="/categories/#testing">testing</a>
+    
 </div>
+<div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
+    <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
+</a>
 
-  </div>
 
+<script>
+    a = document.getElementById('translate-btn');
+    a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=" + window.location.href);
+</script><a id='speech-btn' >
+    <img src="/images/icons/ear.svg" alt="listen" style="width:35px; cursor: pointer;">
+</a>
+
+<script>
+    speakPost = () => {
+        var msg = new SpeechSynthesisUtterance();
+        const title = document.querySelector("h1.post-title.p-name").innerText;
+        const post = document.querySelector("div.post-content.e-content").innerText
+        msg.text = title + '.' + post;
+        window.speechSynthesis.speak(msg);
+    }
+    if ('speechSynthesis' in window) {
+        document.getElementById("speech-btn").addEventListener("click", speakPost);
+    } else {
+        document.getElementById('speech-btn').style.display = 'none';
+    }
+</script>
+
+<!-- https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html --></div>
+      
+          
+    </div>
+    
+</header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="reason-for-architecture-testing">Reason for Architecture Testing</h1>
+
+<p>Once size of codebase increases, it becomes harder and harder to manage a lot of little things. This is specially true when multiple people are working on it.</p>
+
+<p>For example, if you are having a @Entity and want to ensure all of it have certain javax validation whenever someone creates a new @Entity.</p>
+
+<p>It may happen that someone who is working on the code base in future does not know about a certain principle to follow.</p>
+
+<p>For such cases, Architecture Testing is idea.</p>
+
+<h1 id="archunit">ArchUnit</h1>
+
+<p>ArchUnit provides Architecture Testing for Java and ensure design principles and standards are followed.</p>
+
+<p>ArchUnit work well with JUnit.</p>
+
+<h1 id="example">Example</h1>
+
+<p>If you want to ensure all String fields for Request Objects have @Size annotation, you could write it with ArchUnit.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">fields</span><span class="o">().</span><span class="na">that</span><span class="o">().</span><span class="na">haveRawType</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+    <span class="o">.</span><span class="na">should</span><span class="o">()</span>
+    <span class="o">.</span><span class="na">beAnnotatedWith</span><span class="o">(</span><span class="nc">Size</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+</code></pre></div></div>
+
+<p>Since I have started using Arch Unit, the quality of code has improved by a huge margin.</p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="ankschoubey/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/arch-unit/" hidden></a>
 </article>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

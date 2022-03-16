@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-12T02:23:45-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-16T11:42:49-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,32 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Clean code - Naming convension for design patterns</title><link href="www.ankushchoubey.com/naming-design-patterns/" rel="alternate" type="text/html" title="Clean code - Naming convension for design patterns" /><published>2022-03-12T00:00:00-06:00</published><updated>2022-03-12T14:52:08-06:00</updated><id>www.ankushchoubey.com/design-patterns-naming</id><content type="html" xml:base="www.ankushchoubey.com/naming-design-patterns/">&lt;p&gt;&lt;img src=&quot;/images/naming-design-patterns.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Java Architecture Testing with ArchUnit</title><link href="www.ankushchoubey.com/arch-unit/" rel="alternate" type="text/html" title="Java Architecture Testing with ArchUnit" /><published>2022-03-16T00:00:00-05:00</published><updated>2022-03-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/arch-test</id><content type="html" xml:base="www.ankushchoubey.com/arch-unit/">&lt;h1 id=&quot;reason-for-architecture-testing&quot;&gt;Reason for Architecture Testing&lt;/h1&gt;
+
+&lt;p&gt;Once size of codebase increases, it becomes harder and harder to manage a lot of little things. This is specially true when multiple people are working on it.&lt;/p&gt;
+
+&lt;p&gt;For example, if you are having a @Entity and want to ensure all of it have certain javax validation whenever someone creates a new @Entity.&lt;/p&gt;
+
+&lt;p&gt;It may happen that someone who is working on the code base in future does not know about a certain principle to follow.&lt;/p&gt;
+
+&lt;p&gt;For such cases, Architecture Testing is idea.&lt;/p&gt;
+
+&lt;h1 id=&quot;archunit&quot;&gt;ArchUnit&lt;/h1&gt;
+
+&lt;p&gt;ArchUnit provides Architecture Testing for Java and ensure design principles and standards are followed.&lt;/p&gt;
+
+&lt;p&gt;ArchUnit work well with JUnit.&lt;/p&gt;
+
+&lt;h1 id=&quot;example&quot;&gt;Example&lt;/h1&gt;
+
+&lt;p&gt;If you want to ensure all String fields for Request Objects have @Size annotation, you could write it with ArchUnit.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;haveRawType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;beAnnotatedWith&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Since I have started using Arch Unit, the quality of code has improved by a huge margin.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="testing" /><summary type="html">Reason for Architecture Testing</summary></entry><entry><title type="html">Clean code - Naming convension for design patterns</title><link href="www.ankushchoubey.com/naming-design-patterns/" rel="alternate" type="text/html" title="Clean code - Naming convension for design patterns" /><published>2022-03-12T00:00:00-06:00</published><updated>2022-03-12T14:52:08-06:00</updated><id>www.ankushchoubey.com/design-patterns-naming</id><content type="html" xml:base="www.ankushchoubey.com/naming-design-patterns/">&lt;p&gt;&lt;img src=&quot;/images/naming-design-patterns.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
@@ -449,40 +474,4 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 
 &lt;p&gt;I find having a highlighter extension in Chrome to be extremely useful.&lt;/p&gt;
 
-&lt;p&gt;Apart from the usual, the appendix sections contains many gems like FAQs and common references which make things easier.&lt;/p&gt;</content><author><name></name></author><category term="software-engineering" /><summary type="html">Reading documentation is the best way to learn a particular technology.</summary></entry><entry><title type="html">Articulate Fully</title><link href="www.ankushchoubey.com/articulate/" rel="alternate" type="text/html" title="Articulate Fully" /><published>2022-01-29T00:00:00-06:00</published><updated>2022-01-29T14:52:08-06:00</updated><id>www.ankushchoubey.com/articulate-fully</id><content type="html" xml:base="www.ankushchoubey.com/articulate/">&lt;p&gt;Being able to articulate something fully is the whole game of a knowing if you have a clear mind or not.&lt;/p&gt;
-
-&lt;p&gt;Often you may find that by talking to someone, you are able to find solution to your own problems by yourself. This is because you Before you weren’t able to articulate completely what you’re thinking. By forcing yourself to articulate you make yourself more clear.&lt;/p&gt;
-
-&lt;p&gt;So, if you are stuck at something, be it anything of a kind: A problem you are trying to solve.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Emotional&lt;/li&gt;
-  &lt;li&gt;Physical&lt;/li&gt;
-  &lt;li&gt;Abstract&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I believe anything than bother’s you should be fully articulated.&lt;/p&gt;
-
-&lt;p&gt;All you need to do is articulate it fully and hopefully as easy as possible. Even forced articulation is better than no articulation.&lt;/p&gt;
-
-&lt;p&gt;There are multiple ways one can force articulation some of them are mentioned below.&lt;/p&gt;
-
-&lt;h2 id=&quot;explain-at-five-levels&quot;&gt;Explain at five levels&lt;/h2&gt;
-
-&lt;p&gt;One of the practices one can person is explain it to pretend or really explain 5 people.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A child&lt;/li&gt;
-  &lt;li&gt;A teenager&lt;/li&gt;
-  &lt;li&gt;A collage kid&lt;/li&gt;
-  &lt;li&gt;A adult&lt;/li&gt;
-  &lt;li&gt;A expert&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;contemplate&quot;&gt;Contemplate&lt;/h2&gt;
-
-&lt;p&gt;while contemplating you want to fix certain variables about your problem, and then explain the rest and try to fix those too.&lt;/p&gt;
-
-&lt;p&gt;I find the best way to contemplate is to perform at formal sitting meditation with eyes closed.&lt;/p&gt;
-
-&lt;h2 id=&quot;talkexplain-to-someone-else&quot;&gt;Talk/Explain to someone else&lt;/h2&gt;</content><author><name></name></author><category term="core-values" /><category term="truth" /><summary type="html">Being able to articulate something fully is the whole game of a knowing if you have a clear mind or not.</summary></entry></feed>
+&lt;p&gt;Apart from the usual, the appendix sections contains many gems like FAQs and common references which make things easier.&lt;/p&gt;</content><author><name></name></author><category term="software-engineering" /><summary type="html">Reading documentation is the best way to learn a particular technology.</summary></entry></feed>
