@@ -4,14 +4,14 @@ layout: post
 comments: true
 description: For those who don’t require Google level optimization
 categories: [web-development]
-last_modified_at: 2021-08-01T20:42:15.140795
+last_modified_at: 2020-02-22T20:42:15.140795
 title: Simple Hacks for increasing website load time
 permalink: /load_time/
 ---
 
-## Reduce bundle size
+# Reduce bundle size
 
-##### [Always use compression: at least `gzip`](https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw)
+## [Always use compression: at least `gzip`](https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw)
 
 
 Always compress. The configuration is set in the webserver.
@@ -23,9 +23,9 @@ My application went from 4 MB to 800 kb. Fewer data faster speed.
 <sup>Source 1: [Enabling gzip](https://varvy.com/pagespeed/enable-compression.html)</sup><br>
 <sup>Source 2: [Verify gzip on Chrome](https://stackoverflow.com/a/18834602)</sup>
 
-## Make less number of requests
+# Make less number of requests
 
-##### Always cache static content: `js`, `css` and static images.
+## Always cache static content: `js`, `css` and static images.
 
 This can be configured in your web server or your application. Just google “ “how to cache in <your framework or web server>“.
 
@@ -37,15 +37,15 @@ Example: in angular after creating a `--prod` build, the filename is in followin
 
 This ensures that if the content of the file changes, the `md5` checksum will change and a new request will be sent but if the file does not change then it will have the same checksum so it can be pulled from the cache.
 
-##### Always load images lazily
+## Always load images lazily
 
 {% include twitter.html content="https://twitter.com/ankschoubey/status/1219613362239049728?ref_src=twsrc%5Etfw" %}
 
 <sup>Advanced tips: [Lazy Loading Images and Video](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video)</sup>
 
-## Do it fast
+# Do it fast
 
-##### [Fetch `js` and `css` asynchronously](https://twitter.com/ankschoubey/status/1229793732418920449?s=20) <sup>[*Source*](https://flaviocopes.com/javascript-async-defer/#the-position-matters)</sup>
+## [Fetch `js` and `css` asynchronously](https://twitter.com/ankschoubey/status/1229793732418920449?s=20) <sup>[*Source*](https://flaviocopes.com/javascript-async-defer/#the-position-matters)</sup>
 
 
 When fetching ``js`` add `async defer` to `script` tag. This will fetch multiple `js` files in parallel. 
