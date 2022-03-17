@@ -29,6 +29,10 @@ I want things to be as "sorted" in the long term as possible without being super
 
 ## Responsibility
 
+> What emerges from lack of responsibility is chaos
+
+> Turn the obstacles up side down.
+
 Responsibility provides meaning. By taking on responsibilities voluntarily and facing your fears, you'll avoid being nihilistic. 
 
 So, pick the heaviest weight you can take and push it towards the best aim you can find. Then at least you can know, "Dumb as I am, I can at least push a thing from point A to point B" [^1]
@@ -38,6 +42,8 @@ Taking on responsibility voluntarily/facing the heaviest fear you can face is ho
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
 ## Nirwana/Peace
+
+> Happiness is a single player game. It is a skill that you develop and a choice that you make.
 
 Being unhappy is inefficient.
 
@@ -53,6 +59,10 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 
 ## Telling the truth and being hyper-realistic
 
+> Everything that’s best happens in truth. If it isn’t truth, then it isn’t the best.
+
+> If you don’t know what to do, tell the truth.
+
 Lying/Not telling the truth is the quickest way to hell. You base your decisions on what you perceive reality to be.
 
 If your estimate of the world is wrong, you'll make bad decisions.
@@ -63,7 +73,9 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 **Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 
-## Systems Thinking
+## Systems Thinking & Action
+
+> Rome wasn’t built in a day
 
 Aims are good for setting up initial direction. But systems/processes are how you work towards them and beyond them.
 
@@ -74,6 +86,12 @@ Systems can include by are not limited to: trained habits, routines, frameworks,
 **Role Models**: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman
 
 ## Inputs Matter
+
+> If more information was the answer, we’d all be billionaires with perfect abs
+
+> If you don’t have attention, you don’t have time.
+
+> Less is more
 
 You are what you feed yourself. Inputs matter because not only do they encourage certain behaviors, but they impact your everyday experience.
 
@@ -87,6 +105,10 @@ Some things to consider:
 **Role Models**: Ryan Holiday
 
 ## Time Matters
+
+> It’s not that we have a short time to live but we waste a lot of it
+
+> Being busy is a form of laziness.
 
 We have a finite life. Though it is long enough to get important things done.
 
