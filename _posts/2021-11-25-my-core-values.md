@@ -77,6 +77,8 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 > Rome wasn’t built in a day
 
+> Direction and long-term consistency are better than shortcuts.
+
 Aims are good for setting up initial direction. But systems/processes are how you work towards them and beyond them.
 
 Systems allow you to free up your mental RAM. Systems break problems down. They assure that as long as the systems are working right, the direction is right.
