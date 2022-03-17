@@ -129,6 +129,10 @@ Be impatient with yourself and a bit patient with others.
 
 ## Courage is calling [^3]
 
+> If you have to slay a dragon, you should go to it's lair before it comes to your village.
+
+> The cave you fear to enter holds the treasure you seek.
+
 This is probably the most important value that supports all others. It takes courage to tell the truth, act responsibly, detach yourself to be peaceful, build and trusting long term systems, and break the spell of wasting time. And the courage of following the plan and push yourself when time comes. 
 
 Everything worth while is an act of courage.
