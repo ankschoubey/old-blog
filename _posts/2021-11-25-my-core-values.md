@@ -3,9 +3,9 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2021-11-25T20:52:08.052481
-last-modified-purpose: Added "Team Work"
-permalink: /my-core-vaues/
+last_modified_at: 2022-03-18T20:52:08.052481
+last-modified-purpose: Added "Rational Behaviour"
+permalink: /my-core-values/
 title: My Core Values
 image: /images/my-core-values.jpg
 ---
@@ -23,6 +23,7 @@ I want things to be as "sorted" in the long term as possible without being super
 6. Time Matter
 7. Courage is calling
 8. Team Work
+9. Rational Behavior
 
 ***
 
@@ -132,6 +133,20 @@ This also requires a level of self awareness and knowing how your interaction/qu
 One can be strict with himself but has to be patient with others. And remember that you are probably not right so listen to people carefully -> Openness.
 
 **Role Models**: Avengers, Straw Hat Crew (One Piece), Jura Tempest Federation (That Time I Got Reincarnated as a Slime), Some family related parts of Peaky Blinders
+
+## Rational Behaviour
+
+Humans are biased. We are emotional creatures. This can be a good thing and a bad thing.
+
+Rationality allows for a next level thinking where decisions can be made from a birds 🦅 eye view and while knowing the long term effects.
+
+Almost all rationality leads to long term thinking.
+
+Rational Thinking is precursor to rational behavior. But rational behavior should also be practiced explicitly.
+
+Rationality has 2 parts: Emotions + Logic. The game is to understand and make best decision that satisfy both.
+
+**Role Models**: Stoics
 
 ***
 
