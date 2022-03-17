@@ -63,3 +63,5 @@ You won't remember it if it's not your thought. Stop quoting.
 
 
 shorter heading names
+
+narate in a way that makes it easy to remember
