@@ -80,7 +80,7 @@ While dealing with people, you have to ask people multiple times to make sure th
 Specifics which may be missed:
 - You may have to 
 
-## **Systems Thinking**: Become an effortness executioner - 'Everthing is undercontrol'
+## **Systems**: Become an effortness executioner - 'Everthing is undercontrol'
 
 Aims are good for setting up initial direction. But systems/processes are how you work towards them and beyond them.
 

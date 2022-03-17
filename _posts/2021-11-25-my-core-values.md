@@ -27,7 +27,7 @@ I want things to be as "sorted" in the long term as possible without being super
 
 ***
 
-## Responsibility
+## **Responsibility**: It's not worth having ego but no one will save you.
 
 > What emerges from lack of responsibility is chaos
 
@@ -41,7 +41,7 @@ Taking on responsibility voluntarily/facing the heaviest fear you can face is ho
 
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
-## Nirwana/Peace
+## **Nirwana/Peace**: Don't suffer imagined troubles
 
 > Happiness is a single player game. It is a skill that you develop and a choice that you make.
 
@@ -57,7 +57,7 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 
 **Role Models**:  Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru
 
-## Telling the truth and being hyper-realistic
+## **Truth**: Unhide the fog by becoming truth seeking missile. 
 
 > Everything that’s best happens in truth. If it isn’t truth, then it isn’t the best.
 
@@ -73,7 +73,7 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 **Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 
-## Systems Thinking & Action
+## **Systems**: Become an effortness executioner - 'Everthing is undercontrol'
 
 > Rome wasn’t built in a day
 
@@ -87,7 +87,7 @@ Systems can include by are not limited to: trained habits, routines, frameworks,
 
 **Role Models**: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman
 
-## Inputs Matter
+## **Inputs**: Focus of an eagle
 
 > If more information was the answer, we’d all be billionaires with perfect abs
 
@@ -106,7 +106,7 @@ Some things to consider:
 
 **Role Models**: Ryan Holiday
 
-## Time Matters
+## **Time**: You don't have forever
 
 > It’s not that we have a short time to live but we waste a lot of it
 
@@ -127,7 +127,7 @@ Be impatient with yourself and a bit patient with others.
 
 **Role Models**: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport
 
-## Courage is calling [^3]
+## **Courage is calling**: The cave you fear to enter holds the treasure you seek.
 
 > If you have to slay a dragon, you should go to it's lair before it comes to your village.
 
@@ -143,7 +143,9 @@ Courage is exciting. It pushes to act beyond what one believes is possible. So g
 
 **Role Models**: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
 
-## Team Work
+## **Team Work**: Node in a network
+
+> Treat others like you want to be treated
 
 Humans are a social animal. We are node in a network[^1]. The way we act and interact in the network determines the life of everyone. 
 
@@ -162,7 +164,7 @@ One can be strict with himself but has to be patient with others. And remember t
 
 **Role Models**: Avengers, Straw Hat Crew (One Piece), Jura Tempest Federation (That Time I Got Reincarnated as a Slime), Some family related parts of Peaky Blinders
 
-## Rational Behaviour
+## **Rational Behaviour**: Real Wise
 
 Humans are biased. We are emotional creatures. This can be a good thing and a bad thing.
 
