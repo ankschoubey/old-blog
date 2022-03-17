@@ -24,3 +24,5 @@ Most documentations are about 2-5 hours of reading Max.
 I find having a highlighter extension in Chrome to be extremely useful.
 
 Apart from the usual, the appendix sections contains many gems like FAQs and common references which make things easier. 
+
+It the long run, it less time to read documentation end to end than to go through hours of stack overflow.

@@ -33,6 +33,8 @@ I want things to be as "sorted" in the long term as possible without being super
 
 > Turn the obstacles up side down.
 
+> Start by cleaning up your room
+
 Responsibility provides meaning. By taking on responsibilities voluntarily and facing your fears, you'll avoid being nihilistic. 
 
 So, pick the heaviest weight you can take and push it towards the best aim you can find. Then at least you can know, "Dumb as I am, I can at least push a thing from point A to point B" [^1]
@@ -44,6 +46,10 @@ Taking on responsibility voluntarily/facing the heaviest fear you can face is ho
 ## **Nirwana/Peace**: Don't suffer imagined troubles
 
 > Happiness is a single player game. It is a skill that you develop and a choice that you make.
+
+> All of humanity's problems stem from man's inability to sit quietly in a room alone.
+
+> Not wanting something is as good as having it.
 
 Being unhappy is inefficient.
 
@@ -74,6 +80,8 @@ While dealing with people, you have to ask people multiple times to make sure th
 **Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 
 ## **Systems**: Become an effortness executioner - 'Everthing is undercontrol'
+
+> You do not rise to the level of your goals. You fall to the level of your systems.
 
 > Rome wasn’t built in a day
 
@@ -165,6 +173,10 @@ One can be strict with himself but has to be patient with others. And remember t
 **Role Models**: Avengers, Straw Hat Crew (One Piece), Jura Tempest Federation (That Time I Got Reincarnated as a Slime), Some family related parts of Peaky Blinders
 
 ## **Rational Behaviour**: Real Wise
+
+> Delay Gratification. Choose long-term over short-term.
+
+> The first principle is that you must not fool yourself and you are the easiest person to fool.
 
 Humans are biased. We are emotional creatures. This can be a good thing and a bad thing.
 
