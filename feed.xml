@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-17T15:50:48-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-17T15:52:25-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,17 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The 3 Man Squad +/-1</title><link href="www.ankushchoubey.com/3-man-squad/" rel="alternate" type="text/html" title="The 3 Man Squad +/-1" /><published>2022-03-17T00:00:00-05:00</published><updated>2022-03-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/3-man-squad</id><content type="html" xml:base="www.ankushchoubey.com/3-man-squad/">&lt;p&gt;I have come to the belief that max 3 people working on a particular micro-service/microfrontents/unit is the most optimal.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stratergies on Saving Time</title><link href="www.ankushchoubey.com/saving-time/" rel="alternate" type="text/html" title="Stratergies on Saving Time" /><published>2022-03-18T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/saving-time</id><content type="html" xml:base="www.ankushchoubey.com/saving-time/">&lt;p&gt;Categorize the type of activities you want to do.&lt;/p&gt;
+
+&lt;p&gt;Plan and track your day diligently. Every hour. But maybe not every minute.&lt;/p&gt;
+
+&lt;p&gt;Meditate. You need attention.&lt;/p&gt;
+
+&lt;p&gt;Perform activities that give back time. -&amp;gt; Time Assets.&lt;/p&gt;
+
+&lt;p&gt;Mono Task. Do one thing at a time. You’ll save 50% more time.&lt;/p&gt;
+
+&lt;p&gt;You only have 4 productive focus hours. Don’t let anyone distract you.&lt;/p&gt;</content><author><name></name></author><summary type="html">Categorize the type of activities you want to do.</summary></entry><entry><title type="html">The 3 Man Squad +/-1</title><link href="www.ankushchoubey.com/3-man-squad/" rel="alternate" type="text/html" title="The 3 Man Squad +/-1" /><published>2022-03-17T00:00:00-05:00</published><updated>2022-03-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/3-man-squad</id><content type="html" xml:base="www.ankushchoubey.com/3-man-squad/">&lt;p&gt;I have come to the belief that max 3 people working on a particular micro-service/microfrontents/unit is the most optimal.&lt;/p&gt;
 
 &lt;p&gt;They have to be dedicated to a single MS/MF because the cost of bringing someone later makes the project delay more.&lt;/p&gt;
 
@@ -391,87 +401,4 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 
 &lt;ol&gt;
   &lt;li&gt;Important: Start with local problems that repeat. Don’t try to solve something that isn’t even a problem of high ROI.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="core-values" /><category term="responsibility" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/responsibility.png" /><media:content medium="image" url="www.ankushchoubey.com/images/responsibility.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Elements of Good REST API Design</title><link href="www.ankushchoubey.com/good-rest-api-design/" rel="alternate" type="text/html" title="Elements of Good REST API Design" /><published>2022-02-19T00:00:00-06:00</published><updated>2022-02-19T14:52:08-06:00</updated><id>www.ankushchoubey.com/elements-of-good-api-design</id><content type="html" xml:base="www.ankushchoubey.com/good-rest-api-design/">&lt;p&gt;Here are somethings about API design that I recently learn’t.&lt;/p&gt;
-
-&lt;p&gt;An HTTP Rest endpoint is divided into following.&lt;/p&gt;
-
-&lt;p&gt;API name and Method&lt;/p&gt;
-
-&lt;p&gt;Request&lt;/p&gt;
-
-&lt;p&gt;Resposne&lt;/p&gt;
-
-&lt;h1 id=&quot;naming&quot;&gt;Naming&lt;/h1&gt;
-
-&lt;p&gt;A good API design has good naming.&lt;/p&gt;
-
-&lt;p&gt;You want to always have API that refer t some “items”/”entity” nouns&lt;/p&gt;
-
-&lt;p&gt;so this is better&lt;/p&gt;
-
-&lt;p&gt;/ducks → get all ducks&lt;/p&gt;
-
-&lt;p&gt;/ducks/{id} → get duck by duck id&lt;/p&gt;
-
-&lt;p&gt;rather than&lt;/p&gt;
-
-&lt;p&gt;/getAllDucks&lt;/p&gt;
-
-&lt;p&gt;/getDuckById&lt;/p&gt;
-
-&lt;p&gt;Any good API has upper format rather than lower.&lt;/p&gt;
-
-&lt;p&gt;Always have plural names&lt;/p&gt;
-
-&lt;h1 id=&quot;request&quot;&gt;Request&lt;/h1&gt;
-&lt;h2 id=&quot;request-methods&quot;&gt;Request Methods&lt;/h2&gt;
-
-&lt;p&gt;Now that name is sorted, how to we call these, let’s say we want to delete duck, in the bad way we could have had an API like /deleteDuckById&lt;/p&gt;
-
-&lt;p&gt;But even better is to use HTTP Methods. HTTP Methods provide intend to your API and reduce the number of API endpoints to remember at least from point of view of consumer.&lt;/p&gt;
-
-&lt;p&gt;to read it you read it something like this,&lt;/p&gt;
-
-&lt;p&gt;Intend → API Name&lt;/p&gt;
-
-&lt;p&gt;GET → /ducks&lt;/p&gt;
-
-&lt;p&gt;GET → /ducks/{id}&lt;/p&gt;
-
-&lt;p&gt;DELETE → /ducks/{id}&lt;/p&gt;
-
-&lt;p&gt;POST → /ducks&lt;/p&gt;
-
-&lt;p&gt;Ideally, POST isn’t supposed to be bulk insert.&lt;/p&gt;
-
-&lt;h2 id=&quot;request-headers&quot;&gt;Request Headers&lt;/h2&gt;
-
-&lt;p&gt;Some common onces are&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content-length&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;response&quot;&gt;Response&lt;/h1&gt;
-
-&lt;h2 id=&quot;response-status-code&quot;&gt;Response Status Code&lt;/h2&gt;
-
-&lt;p&gt;There are many standard response codes available.&lt;/p&gt;
-
-&lt;p&gt;200 → OK&lt;/p&gt;
-
-&lt;p&gt;201 → Created (Supposed to not have response body)&lt;/p&gt;
-
-&lt;h2 id=&quot;response-body&quot;&gt;Response Body:&lt;/h2&gt;
-
-&lt;p&gt;HAL Format&lt;/p&gt;
-
-&lt;h2 id=&quot;response-headers&quot;&gt;Response Headers&lt;/h2&gt;
-
-&lt;p&gt;There are standard respose headers available.&lt;/p&gt;
-
-&lt;p&gt;Location: Location of newly created resources.&lt;/p&gt;
-
-&lt;h1 id=&quot;customizing-the-protocol&quot;&gt;Customizing the protocol&lt;/h1&gt;
-
-&lt;p&gt;HTTP does not reenforce a lot of rules. Even though it it recommended ways are set,&lt;/p&gt;
-
-&lt;p&gt;I though Google would follow protocol to the bone but they too don’t. Looking at google drive through Chrome’s network tab, I found they have their own way of doing things.&lt;/p&gt;</content><author><name></name></author><category term="middleware" /><category term="draft" /><summary type="html">Here are somethings about API design that I recently learn’t.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="core-values" /><category term="responsibility" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/responsibility.png" /><media:content medium="image" url="www.ankushchoubey.com/images/responsibility.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
