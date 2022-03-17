@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-16T12:11:44-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-17T04:17:32-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,21 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Java Architecture Testing with ArchUnit</title><link href="www.ankushchoubey.com/arch-unit/" rel="alternate" type="text/html" title="Java Architecture Testing with ArchUnit" /><published>2022-03-16T00:00:00-05:00</published><updated>2022-03-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/arch-test</id><content type="html" xml:base="www.ankushchoubey.com/arch-unit/">&lt;h1 id=&quot;reason-for-architecture-testing&quot;&gt;Reason for Architecture Testing&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The 3 Man Squad +/-1</title><link href="www.ankushchoubey.com/3-man-squad/" rel="alternate" type="text/html" title="The 3 Man Squad +/-1" /><published>2022-03-17T00:00:00-05:00</published><updated>2022-03-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/3-man-squad</id><content type="html" xml:base="www.ankushchoubey.com/3-man-squad/">&lt;p&gt;I have come to the belief that max 3 people working on a particular micro-service/microfrontents/unit is the most optimal.&lt;/p&gt;
+
+&lt;p&gt;They have to be dedicated to a single MS/MF because the cost of bringing someone later makes the project delay more.&lt;/p&gt;
+
+&lt;p&gt;1 man isn’t enough because they’ll have too much freedom/dependency. Code would be written in such a way that only 1 person knows.&lt;/p&gt;
+
+&lt;p&gt;2 is good. It helps in synchronization.&lt;/p&gt;
+
+&lt;p&gt;3 is perfect. It’s synchronized and shared workload. If a person is on leave, 2 can manage easily.&lt;/p&gt;
+
+&lt;p&gt;4 is upper limit. This is a warning zone. Though it may be perfect is project requires lot of support. But if project requires lot of support, it may mean that it isn’t designed well.&lt;/p&gt;
+
+&lt;p&gt;More than 4: You have spaghetti. Shortcuts. People doing there own things. High communication bottlenecks.&lt;/p&gt;
+
+&lt;p&gt;The idea was developed while talking to my friend Austin Lewis&lt;/p&gt;</content><author><name></name></author><category term="business" /><summary type="html">I have come to the belief that max 3 people working on a particular micro-service/microfrontents/unit is the most optimal.</summary></entry><entry><title type="html">Java Architecture Testing with ArchUnit</title><link href="www.ankushchoubey.com/arch-unit/" rel="alternate" type="text/html" title="Java Architecture Testing with ArchUnit" /><published>2022-03-16T00:00:00-05:00</published><updated>2022-03-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/arch-test</id><content type="html" xml:base="www.ankushchoubey.com/arch-unit/">&lt;h1 id=&quot;reason-for-architecture-testing&quot;&gt;Reason for Architecture Testing&lt;/h1&gt;
 
 &lt;p&gt;Once size of codebase increases, it becomes harder and harder to manage a lot of little things. This is specially true when multiple people are working on it.&lt;/p&gt;
 
@@ -460,18 +474,4 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 
 &lt;p&gt;HTTP does not reenforce a lot of rules. Even though it it recommended ways are set,&lt;/p&gt;
 
-&lt;p&gt;I though Google would follow protocol to the bone but they too don’t. Looking at google drive through Chrome’s network tab, I found they have their own way of doing things.&lt;/p&gt;</content><author><name></name></author><category term="middleware" /><category term="draft" /><summary type="html">Here are somethings about API design that I recently learn’t.</summary></entry><entry><title type="html">Thoughts on Reading Documentation</title><link href="www.ankushchoubey.com/reading-documentation/" rel="alternate" type="text/html" title="Thoughts on Reading Documentation" /><published>2022-02-16T00:00:00-06:00</published><updated>2022-02-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/reading-documentation</id><content type="html" xml:base="www.ankushchoubey.com/reading-documentation/">&lt;p&gt;Reading documentation is the best way to learn a particular technology.&lt;/p&gt;
-
-&lt;p&gt;A well written documentation is similar to a book and reading it has a similar effect.&lt;/p&gt;
-
-&lt;p&gt;Documentation presents the original developer’s philosophy behind the technology.&lt;/p&gt;
-
-&lt;p&gt;Depth of knowledge you gain with documentation can potentially remove hundred of hours of un-neccesary Stackoverflow searches.&lt;/p&gt;
-
-&lt;p&gt;It’s a difference between knowing something syntactially and knowing the philosophy behind a technology.&lt;/p&gt;
-
-&lt;p&gt;Most documentations are about 2-5 hours of reading Max.&lt;/p&gt;
-
-&lt;p&gt;I find having a highlighter extension in Chrome to be extremely useful.&lt;/p&gt;
-
-&lt;p&gt;Apart from the usual, the appendix sections contains many gems like FAQs and common references which make things easier.&lt;/p&gt;</content><author><name></name></author><category term="software-engineering" /><summary type="html">Reading documentation is the best way to learn a particular technology.</summary></entry></feed>
+&lt;p&gt;I though Google would follow protocol to the bone but they too don’t. Looking at google drive through Chrome’s network tab, I found they have their own way of doing things.&lt;/p&gt;</content><author><name></name></author><category term="middleware" /><category term="draft" /><summary type="html">Here are somethings about API design that I recently learn’t.</summary></entry></feed>
