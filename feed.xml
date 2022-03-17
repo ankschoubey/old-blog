@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-17T15:56:23-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-17T15:59:51-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -59,7 +59,15 @@
 
 &lt;p&gt;Mono Task. Do one thing at a time. You’ll save 50% more time.&lt;/p&gt;
 
-&lt;p&gt;You only have 4 productive focus hours. Don’t let anyone distract you.&lt;/p&gt;</content><author><name></name></author><summary type="html">Categorize the type of activities you want to do.</summary></entry><entry><title type="html">The 3 Man Squad +/-1</title><link href="www.ankushchoubey.com/3-man-squad/" rel="alternate" type="text/html" title="The 3 Man Squad +/-1" /><published>2022-03-17T00:00:00-05:00</published><updated>2022-03-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/3-man-squad</id><content type="html" xml:base="www.ankushchoubey.com/3-man-squad/">&lt;p&gt;I have come to the belief that max 3 people working on a particular micro-service/microfrontents/unit is the most optimal.&lt;/p&gt;
+&lt;p&gt;You only have 4 productive focus hours. Don’t let anyone distract you.&lt;/p&gt;</content><author><name></name></author><summary type="html">Categorize the type of activities you want to do.</summary></entry><entry><title type="html">Human Intuition while working in Technology</title><link href="www.ankushchoubey.com/human-intuition/" rel="alternate" type="text/html" title="Human Intuition while working in Technology" /><published>2022-03-18T00:00:00-05:00</published><updated>2022-03-18T15:52:08-05:00</updated><id>www.ankushchoubey.com/human-element</id><content type="html" xml:base="www.ankushchoubey.com/human-intuition/">&lt;p&gt;Often when talking about process improvement, we focus on only technology element.&lt;/p&gt;
+
+&lt;p&gt;Human element is ignored. This is understandable. technology can enforce rules that improve the process easily. Technology can also remove a lot of human evidence.&lt;/p&gt;
+
+&lt;p&gt;Developing the human intuition is about understanding why something is being done more than how something is being done.&lt;/p&gt;
+
+&lt;p&gt;Because once someone understands why something is done, they can suggest ways to prove it for themselves locally.&lt;/p&gt;
+
+&lt;p&gt;This is usually the thing I find lacking in most devops, Agile, TDD and similar concepts.&lt;/p&gt;</content><author><name></name></author><summary type="html">Often when talking about process improvement, we focus on only technology element.</summary></entry><entry><title type="html">The 3 Man Squad +/-1</title><link href="www.ankushchoubey.com/3-man-squad/" rel="alternate" type="text/html" title="The 3 Man Squad +/-1" /><published>2022-03-17T00:00:00-05:00</published><updated>2022-03-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/3-man-squad</id><content type="html" xml:base="www.ankushchoubey.com/3-man-squad/">&lt;p&gt;I have come to the belief that max 3 people working on a particular micro-service/microfrontents/unit is the most optimal.&lt;/p&gt;
 
 &lt;p&gt;They have to be dedicated to a single MS/MF because the cost of bringing someone later makes the project delay more.&lt;/p&gt;
 
@@ -380,25 +388,4 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 
 &lt;p&gt;They have right to choose what they want to focus on. You may suggest or lead by example. But forcing you opinions rebounds.&lt;/p&gt;
 
-&lt;p&gt;Plus forcing opinions assumes that one really knows “life” which probably no one does fully.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="team-work" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/team-work.webp" /><media:content medium="image" url="www.ankushchoubey.com/images/team-work.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Strategies on Responsibility</title><link href="www.ankushchoubey.com/responsibility-stratergies/" rel="alternate" type="text/html" title="Strategies on Responsibility" /><published>2022-02-24T00:00:00-06:00</published><updated>2022-02-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/responsibility</id><content type="html" xml:base="www.ankushchoubey.com/responsibility-stratergies/">&lt;p&gt;&lt;img src=&quot;/images/responsibility.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Take full responsibility for yourself.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Taking responsibility is a choice you make in every moment.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You aren’t obligated to take responsibility for others. But you should guide them or at least be so responsible that you lead by example.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If someone gives you responsibility, take it.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;specific examples: if your boss,family,partner by themselves are giving you respo. It means they think you are ready for it or ready for growth. take it and fullfil it to it’s best&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Important: Start with local problems that repeat. Don’t try to solve something that isn’t even a problem of high ROI.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="core-values" /><category term="responsibility" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/responsibility.png" /><media:content medium="image" url="www.ankushchoubey.com/images/responsibility.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Plus forcing opinions assumes that one really knows “life” which probably no one does fully.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="team-work" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/team-work.webp" /><media:content medium="image" url="www.ankushchoubey.com/images/team-work.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
