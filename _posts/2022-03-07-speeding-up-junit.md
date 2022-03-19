@@ -18,7 +18,7 @@ Some of these are
 
 ***
 
-# Use Right Runner
+# **Use Right Runner** (Saved 25% running time)
 
 There are several runners that come with Spring boot. 
 
@@ -38,7 +38,7 @@ There are a few that can be used.
 
 ***
 
-## Run Tests in Parallel
+# **Run tests in parallel** (Saved 37% running time)
 
 Create a `junit-platform.properties` file in `test/resource/junit-platform.properties` and add following minimum. [^1]
 
