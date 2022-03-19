@@ -13,8 +13,6 @@ title: Writing cleaner tests with method/when/should blocks
 
 Often tests code style is ignored. Having different coding styles makes it harder to write quality tests. Tests quality is as important as code. This post explores a effective template I developed to help write cleaner tests and keep them uniform.
 
-method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ's live template.
-
 # method/when/should blocks
 
 there are 3 main blocks. each block in nested within parent block.
@@ -24,6 +22,24 @@ there are 3 main blocks. each block in nested within parent block.
 - **WHEN** block
   - **SHOULD** block
     - given/when/then mini-blocks
+
+## Description of each block
+
+**method block**: is name of method. all tests related to a particular method will be within this block.abstract
+
+**WHEN block**: describes the condition over a method.
+
+**SHOULD block**: describes the assertion.
+
+**given/when/then mini-blocks**: helps keep tests clean
+
+# Benefits
+
+method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ's live template.
+
+Having specific blocks means that sentences are always written a certain way. This clarifies thinking and makes sharing and understanding easier.
+
+blogs group tests together and make them easier to find.
 
 
 # Template for JUnit
@@ -57,16 +73,6 @@ class {NameOfClass}Tests{
 ```
 
 <!-- <script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script> -->
-
-# Description of each block
-
-**method block**: is name of method. all tests related to a particular method will be within this block.abstract
-
-**WHEN block**: describes the condition over a method.
-
-**SHOULD block**: describes the assertion.
-
-**given/when/then mini-blocks**: helps keep tests clean
 
 # Examples
 
