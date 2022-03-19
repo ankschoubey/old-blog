@@ -9,13 +9,13 @@ permalink: /method-when-should/
 title: Writing cleaner tests with method/when/should blocks
 ---
 
-## Problem Description
+# Problem Description
 
 Often tests code style is ignored. Having different coding styles makes it harder to write quality tests. Tests quality is as important as code. This post explores a effective template I developed to help write cleaner tests and keep them uniform.
 
 method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ's live template.
 
-## method/when/should blocks
+# method/when/should blocks
 
 there are 3 main blocks. each block in nested within parent block.
 
@@ -37,7 +37,7 @@ there are 3 main blocks. each block in nested within parent block.
 
 # Examples
 
-## 1 - We are creating a method which inserts new value if id does not exists in database else updates existing value.class
+1 - **We are creating a method which inserts new value if id does not exists in database else updates existing value.class**
 
 **upsert* method
 
@@ -46,7 +46,7 @@ there are 3 main blocks. each block in nested within parent block.
 - WHEN does not exists
   - should insert new value
 
-## 2 - We have a UI components which should message "No Content" if data items is not present. Else it shows a list of item names
+2 - **We have a UI components which should message "No Content" if data items is not present. Else it shows a list of item names**
 
 **displayItems** method
 
