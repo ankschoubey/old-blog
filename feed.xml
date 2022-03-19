@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-19T13:25:21-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-19T16:38:13-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,13 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing cleaner tests with method/when/should blocks</title><link href="www.ankushchoubey.com/method-when-should/" rel="alternate" type="text/html" title="Writing cleaner tests with method/when/should blocks" /><published>2022-03-19T00:00:00-05:00</published><updated>2022-03-19T15:52:08-05:00</updated><id>www.ankushchoubey.com/method-when-should</id><content type="html" xml:base="www.ankushchoubey.com/method-when-should/">&lt;h1 id=&quot;problem-description&quot;&gt;Problem Description&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Big 5 Personality Assessment</title><link href="www.ankushchoubey.com/big-5/" rel="alternate" type="text/html" title="Big 5 Personality Assessment" /><published>2022-03-20T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/big-5</id><content type="html" xml:base="www.ankushchoubey.com/big-5/">&lt;p&gt;I am having a lot of problems with understanding different types of people and want map to understand them easily.&lt;/p&gt;
+
+&lt;p&gt;Hopefully, by trying to practice estimating Big 5, I’ll learn to estimate people better.&lt;/p&gt;
+
+&lt;p&gt;Big 5 is personality test developed by Jordan Peterson.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4IdzC6mJzLA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="team-work" /><category term="draft" /><summary type="html">I am having a lot of problems with understanding different types of people and want map to understand them easily.</summary></entry><entry><title type="html">Writing cleaner tests with method/when/should blocks</title><link href="www.ankushchoubey.com/method-when-should/" rel="alternate" type="text/html" title="Writing cleaner tests with method/when/should blocks" /><published>2022-03-19T00:00:00-05:00</published><updated>2022-03-19T15:52:08-05:00</updated><id>www.ankushchoubey.com/method-when-should</id><content type="html" xml:base="www.ankushchoubey.com/method-when-should/">&lt;h1 id=&quot;problem-description&quot;&gt;Problem Description&lt;/h1&gt;
 
 &lt;p&gt;Often tests code style is ignored. Having different test writing styles makes it harder to write quality tests. Tests quality is as important as code. This post explores a effective template I developed to help write cleaner tests and keep them uniform.&lt;/p&gt;
 
@@ -198,7 +204,9 @@
 
 &lt;p&gt;Mono Task. Do one thing at a time. You’ll save 50% more time.&lt;/p&gt;
 
-&lt;p&gt;You only have 4 productive focus hours. Don’t let anyone distract you.&lt;/p&gt;</content><author><name></name></author><summary type="html">Categorize the type of activities you want to do.</summary></entry><entry><title type="html">Human Intuition while working in Technology</title><link href="www.ankushchoubey.com/human-intuition/" rel="alternate" type="text/html" title="Human Intuition while working in Technology" /><published>2022-03-18T00:00:00-05:00</published><updated>2022-03-18T15:52:08-05:00</updated><id>www.ankushchoubey.com/human-element</id><content type="html" xml:base="www.ankushchoubey.com/human-intuition/">&lt;p&gt;Often when talking about process improvement, we focus on only technology element.&lt;/p&gt;
+&lt;p&gt;You only have 4 productive focus hours. Don’t let anyone distract you.&lt;/p&gt;
+
+&lt;p&gt;Prioritize task: Use Eisenhower Matrix&lt;/p&gt;</content><author><name></name></author><summary type="html">Categorize the type of activities you want to do.</summary></entry><entry><title type="html">Human Intuition while working in Technology</title><link href="www.ankushchoubey.com/human-intuition/" rel="alternate" type="text/html" title="Human Intuition while working in Technology" /><published>2022-03-18T00:00:00-05:00</published><updated>2022-03-18T15:52:08-05:00</updated><id>www.ankushchoubey.com/human-element</id><content type="html" xml:base="www.ankushchoubey.com/human-intuition/">&lt;p&gt;Often when talking about process improvement, we focus on only technology element.&lt;/p&gt;
 
 &lt;p&gt;Human element is ignored. This is understandable. technology can enforce rules that improve the process easily. Technology can also remove a lot of human evidence.&lt;/p&gt;
 
@@ -420,70 +428,4 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/tdd&quot;&gt;TDD&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/clean-fast-unit-tests&quot;&gt;Writing Clean and Fast Unit Tests&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tdd" /><category term="software-engineering" /><summary type="html">This is my current approach to TDD.</summary></entry><entry><title type="html">Strategies on Truth</title><link href="www.ankushchoubey.com/truth-stratergies/" rel="alternate" type="text/html" title="Strategies on Truth" /><published>2022-02-24T00:00:00-06:00</published><updated>2022-02-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/truth</id><content type="html" xml:base="www.ankushchoubey.com/truth-stratergies/">&lt;p&gt;&lt;img src=&quot;/images/truth-stratergies.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;There are family of algorithms/strategy to seek truth. Each one applies to specific cases&lt;/p&gt;
-
-&lt;p&gt;These are some&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Telling truth to yourself completely is most important and easiest&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you aren’t specific. Aka you are wage. Then you aren’t telling the truth&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you are with other people and you are not letting them talk, probability is high that you’ll miss the truth&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you are saying something memorized, or talking too fast, probability is high you’ll miss the truth&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;While understanding something, only if you can explain it deeply. Then you know it. -&amp;gt; Truth&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Best way to do it is to actually teach&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Tests/Questions asked by other or ask by yourself. Unhide thefog. Let’s you get specific. Truth is always specific.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Though counter is specific isn’t always truth but it is still the best guess&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you seek truth, no matter what you are doing or how bad it seems, you’ll be good in the long term.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Problem with truth is acceptance. So point 1 makes it easier.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Like all core values, you have to realize truth completely to accept and integrate it.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;On one level, all of truth is just effective communication/speech&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Expression of Intend is more important than expession of facts. Expression of intend isn’t always words.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Truths are true events or facts.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So you sre going to do something is not the truth. It’s a possibility. We mistake this and believe we done it.&lt;/p&gt;
-
-&lt;p&gt;If you have done something, it’s a truth.&lt;/p&gt;
-
-&lt;p&gt;This is along the lines of why sharing what we are going to do isn’t complete truth yet.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@brunovdkraan?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Bruno van der Kraan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/truth?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="core-values" /><category term="truth" /><summary type="html">1 Photo by Bruno van der Kraan on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/truth-stratergies.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/truth-stratergies.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tdd" /><category term="software-engineering" /><summary type="html">This is my current approach to TDD.</summary></entry></feed>
