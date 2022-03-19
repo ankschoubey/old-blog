@@ -17,11 +17,10 @@ Often tests code style is ignored. Having different coding styles makes it harde
 
 there are 3 main blocks. each block in nested within parent block.
 
-**method** block
-
-- **WHEN** block
-  - **SHOULD** block
-    - given/when/then mini-blocks
+- **method** block
+  - **WHEN** block
+    - **SHOULD** block
+      - given/when/then mini-blocks
 
 ## Description of each block
 
@@ -41,7 +40,25 @@ Having specific blocks means that test descriptions are always written a certain
 
 Blocks group tests together, making them easier to find.
 
-Also, when tests run in IDE like IntelliJ, the output is much cleaner.
+Also, when tests run in IDE like IntelliJ, the output is much cleaner. The example section below is a good representation of this. 
+
+# Examples
+
+1 - **We are creating a method which inserts new value if id does not exists in database else updates existing value.class**
+
+- **upsert** method
+  - **WHEN** value exists
+    - **SHOULD** update value
+  - **WHEN** does not exists
+    - **SHOULD** insert new value
+
+2 - **We have a UI components which should message "No Content" if data items is not present. Else it shows a list of item names**
+
+- **displayItems** method
+  - **WHEN** data is not present
+    - **SHOULD** display "No Content"
+  - **WHEN** data exists
+    - **SHOULD** display list of item names
 
 # Template for JUnit
 
@@ -75,22 +92,4 @@ class {NameOfClass}Tests{
 
 <!-- <script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script> -->
 
-# Examples
 
-1 - **We are creating a method which inserts new value if id does not exists in database else updates existing value.class**
-
-**upsert** method
-
-- WHEN value exists
-  - should update value
-- WHEN does not exists
-  - should insert new value
-
-2 - **We have a UI components which should message "No Content" if data items is not present. Else it shows a list of item names**
-
-**displayItems** method
-
-- **WHEN** data is not present
-  - **SHOULD** display "No Content"
-- **WHEN** data exists
-  - **SHOULD** display list of item names
