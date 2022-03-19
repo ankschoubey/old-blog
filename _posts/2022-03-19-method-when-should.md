@@ -1,17 +1,19 @@
 ---
 layout: post
 comments: true
-description:
+description: A template that would unify
 categories: [testing, clean-code]
 last_modified_at: 2022-03-19T20:52:08.052481
 last-modified-purpose:
 permalink: /method-when-should/
-title: Writing cleaner tests with Method/When/Should blocks
+title: Writing cleaner tests with method/when/should blocks
 ---
 
 ## Problem Description
 
 Often tests code style is ignored. Having different coding styles makes it harder to write quality tests. Tests quality is as important as code. This post explores a effective template I developed to help write cleaner tests and keep them uniform.
+
+method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ's live template.
 
 ## method/when/should blocks
 
