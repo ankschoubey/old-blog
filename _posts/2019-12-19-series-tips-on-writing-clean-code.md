@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time.
-categories: [clean-code, favorite, draft]
+categories: [clean-code, favorite]
 title: Clean Code
 last_modified_at: 2019-12-19T20:42:15.086538
 permalink: /clean_code/

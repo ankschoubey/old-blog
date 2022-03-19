@@ -2,10 +2,10 @@
 description: 
 title: Writing motivation
 comments: true
-categories: [collection-of-thoughts, draft]
+categories: [collection-of-thoughts]
 layout: post
 use_math: true
-last_modified_at: 2021-08-01T20:42:15.226335
+last_modified_at: 2022-03-20T20:42:15.226335
 permalink: /write/
 image: /images/write.jpg
 ---
@@ -16,7 +16,6 @@ image: /images/write.jpg
 
 This is collections of posts/ideas I have come across over the years.
 
-
 {% include alert.html text = 'These only apply to non-fiction writing' %}
 
 ***
@@ -24,6 +23,12 @@ This is collections of posts/ideas I have come across over the years.
 ## Writing is thinking
 
 - Writing is learning how to think. Writing is a reflection of your thoughts.
+
+## Medium
+
+- The best thing about writing on a computer is that you can edit things later which is the same as editing your thoughts
+- The best things about writing by hand is no distraction. no pressure. clean slate. clear thinking.
+- Combine both
 
 ## To write better, you don't have to become a "writer"
 
@@ -33,35 +38,20 @@ This is collections of posts/ideas I have come across over the years.
 
 - Improve your writing in every opportunity you get
 
+- Narate from our own experience. This keeps things unique and interesting.
+
 ## Use less words
 
 - If it can be said in a blogpost, don't write a book. If it can be said in a tweet, don't write a blog post.
 
 - One big idea per post
 
-- Don't quote make it yours and say it yourself.
+- Read a sentence. Remove all the useless words. 
+
+- Forget attributions. It makes you slow. Plus you want it to be your own thoughts. So make those thoughts your own. Don't care about attributions. 
 
 ## Writing helps you to 
 
 - Form your thoughts better
   
 - Document and share your progress
-
-
----
-
-DRAFT
-
-writing
-writing is thinking
-the best thing about writing on a computer is that you can edit things later which is the same as editing your thoughts
-best things about writing by hand is no distraction. no pressure. clean slate
-combine both
-writing tip: read a sentence. remove all the useless words. 
-forget attributions. it makes you slow. Plus you want it to be your own thoughts. So make those thoughts your own. Don't care about attributions. 
-You won't remember it if it's not your thought. Stop quoting.
-
-
-shorter heading names
-
-narate in a way that makes it easy to remember

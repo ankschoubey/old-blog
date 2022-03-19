@@ -3,15 +3,13 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [health, draft]
+categories: [health]
 title: How to recover from physical injuries faster
 permalink: /physical-injury/
 last_modified_at: 2022-01-09T20:42:15.557734
 image: /images/physical-injury.jpg
-last-modified-purpose: Added "Massage Tips"
 ---
 Photo by <a href="https://unsplash.com/@yangmiao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">yang miao</a> on <a href="https://unsplash.com/s/photos/injury?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
 
 To recover from physical injuries faster like tightness and muscle soreness, your blood should be flowing well. 
 
@@ -23,11 +21,11 @@ It does not have to have a lot of pressure. It can be as soft as possible. Even 
 
 If you cannot directly massage the area in pain, massage the area around it. This will atleast let blood flow near the effected area.
 
-### 1-2-3 Method [^1]
+## 1-2-3 Method [^1]
 
 Source: [What Exactly is Foam Rolling and Why Should I Roll?](https://www.youtube.com/watch?v=DzSU2FiFKTM)
 
-1.  atlease 1 minute in an area 
+1. Atlease 1 minute in an area 
 2. divide the area into two zone
     - apply technique to each zone slowly while remembering to breath
 3. 3 Motions: Rolling, Spans and Streaches
@@ -58,6 +56,5 @@ if you cannot move the specific body part because it is too painful. Move other 
 ## Rest Enough but not too much.
 
 Rest enough. You want to increase the probability that you'll work the next day.
-
 
 [^1]: [What Exactly is Foam Rolling and Why Should I Roll?](https://www.youtube.com/watch?v=DzSU2FiFKTM)

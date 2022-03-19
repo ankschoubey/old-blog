@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [information-system, for-future-me, tools, favorite, draft]
+categories: [information-system, for-future-me, tools, favorite]
 title: Developer Productivity
 last_modified_at: 2021-08-01T20:42:15.532481
 permalink: /dev_productivity/
@@ -41,11 +41,7 @@ These are things that affect improves developer productivity significantly:
 8. Not over-engineering. Example: Don't use microservices if your application isn't big. [^1]
 9.  Keeping code clean
 10. Single tasking
-11. Automated tests and TDD
+11. Automated tests and TDD [^2]
 
 [^1]: [The Problem With Microservices](https://www.youtube.com/watch?v=zzMLg3Ys5vI&t=499s)
-
-
-----
-draft
-screenshot this: https://youtu.be/9-cyC6O81Bk?t=1984
+[^2]: [Habits of Efficient Developers](https://youtu.be/9-cyC6O81Bk?t=1984)

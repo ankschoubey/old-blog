@@ -2,7 +2,7 @@
 description: 
 title: Deciding to learn a {programming} topic
 comments: true
-categories: [ for-future-me, learning,favorite, draft]
+categories: [ for-future-me, learning,favorite]
 layout: post
 toc: true
 use_math: true
@@ -72,11 +72,3 @@ I try not to learn something just to add to resume or to list of things that jus
 I usually spend months deciding.
 
 YouTube videos and written articles have been great help when deciding.
-
-
-
-DRAFT topics:
-
-When copying code/command line comments, know the meaning fo each and every word.
-
-subscribe to git notifications for repo you want to master
