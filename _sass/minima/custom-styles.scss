@@ -305,11 +305,12 @@ img.image-preview:hover {
 .post-list > li  {
     content-visibility: auto;
     contain-intrinsic-size: 0 200px;
-
+    border: 1px solid #00000029;
+    border-radius: 10px;
 }
 
 .custom-post-card-toc{
-    background: #00000036;
+    background: #00000014;
     font-size: medium;
 }
 .custom-post-card-toc > ul:before {
@@ -325,5 +326,5 @@ img.image-preview:hover {
     color: grey !important;
 }
 .custom-post-card-toc strong {
-    color: #9e9e9e !important;
+    color: black !important;
 }
