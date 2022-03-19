@@ -22,8 +22,6 @@ there are 3 main blocks. each block in nested within parent block.
     - **SHOULD** block
       - given/when/then mini-blocks
 
-## Description of each block
-
 **method block**: is name of method. all tests related to a particular method will be within this block.abstract
 
 **WHEN block**: describes the condition over a method.
