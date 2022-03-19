@@ -30,7 +30,9 @@ there are 3 main blocks. each block in nested within parent block.
 
 **SHOULD block**: describes the assertion.
 
-**given/when/then mini-blocks**: helps keep tests clean
+**GIVEN/WHEN/THEN mini-blocks**: helps keep tests clean
+
+You may have noticed **WHEN**, **SHOULD** and **AND** are capitalized. This is by design. This helps highlight logic.
 
 # Benefits
 
@@ -90,6 +92,23 @@ class {NameOfClass}Tests{
 }
 ```
 
+Given, When and Then are mini-blocks. The code will be written after an tab intend.
+
 <!-- <script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script> -->
 
+# More extentions
 
+**AND block**: Describes more conditions for **WHEN** block.
+
+Usage:
+
+- **WHEN** a condition
+  - **AND** another conditions
+
+**More SHOULD Blocks**:
+
+- SHOULD-NOT
+- SHOULD THROW
+- SHOULD-NOT THROW
+- SHOULD CALL
+- SHOULD-NOT CALL
