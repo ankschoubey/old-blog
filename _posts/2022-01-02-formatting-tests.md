@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description:
+description: A template for writing clean tests
 categories: [clean-code, testing, draft]
 last_modified_at: 2022-01-02T20:52:08.052481
 last-modified-purpose:
@@ -138,24 +138,6 @@ Best Practice: One logical assertion per test method. [^4]
 Have clear error messages [^5]
 
 Aim for asserting behavior and not implementation detail. More coupled your tests are with implementation, harder the refactoring would be.[^6]
-
-## Use fluent assertions
-
-Librarie
-
-# Writing tests that run fast
-
-## Time complexity of tests shoud be O(1) [^1]
-
-Cyclomatic time complexity of your tests should be O(1).
-- No loops
-- No if statements
-
-## For Spring Boot
-
-### Initialize only beans you need using `@ContextConfiguration` [^3]
-
-Using `@ContextConfiguration` won't start the whole spring infrastructure. This making your tests faster.
 
 ## Messages
 

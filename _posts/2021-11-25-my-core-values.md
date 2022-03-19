@@ -11,7 +11,7 @@ image: /images/my-core-values.jpg
 ---
 ![](/images/my-core-values.jpg)
 
-In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values. I have modified these multiple times.
+In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values designed around my strengths and flaws. I have modified these multiple times.
 
 I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values. They are my best bet. In this post, you'll find some ways to have things sorted. 
 
