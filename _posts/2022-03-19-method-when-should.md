@@ -37,10 +37,11 @@ there are 3 main blocks. each block in nested within parent block.
 
 method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ's live template.
 
-Having specific blocks means that sentences are always written a certain way. This clarifies thinking and makes sharing and understanding easier.
+Having specific blocks means that test descriptions are always written a certain way. This clarifies thinking and makes sharing and understanding easier.
 
-blogs group tests together and make them easier to find.
+Blocks group tests together, making them easier to find.
 
+Also, when tests run in IDE like IntelliJ, the output is much cleaner.
 
 # Template for JUnit
 
