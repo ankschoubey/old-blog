@@ -215,7 +215,34 @@ window.onload = wrap_img;
 
 <h1 id="template-for-junit">Template for JUnit</h1>
 
-<script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="err">{</span><span class="nc">NameOfClass</span><span class="o">}</span><span class="nc">Tests</span><span class="o">{</span>
+
+    <span class="nd">@Nested</span>
+    <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"{methodName} method"</span><span class="o">)</span>
+    <span class="kd">class</span> <span class="err">{</span><span class="nc">MethodName</span><span class="o">}</span><span class="nc">Tests</span><span class="o">{</span>
+     
+        <span class="nd">@Nested</span>
+        <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"WHEN {condition description}"</span><span class="o">)</span>
+        <span class="kd">class</span> <span class="err">{</span><span class="nc">ConditionDescription</span><span class="o">}</span><span class="nc">Tests</span><span class="o">{</span>
+        
+            <span class="nd">@Nested</span>
+            <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"SHOULD {assertion description}"</span><span class="o">)</span>
+            <span class="kd">class</span> <span class="err">{</span><span class="nc">AssertionDescription</span><span class="o">}</span><span class="nc">Tests</span><span class="o">{</span>
+                <span class="c1">// GIVEN</span>
+                    <span class="o">{</span><span class="n">code</span> <span class="k">for</span> <span class="n">setting</span> <span class="n">conditions</span> <span class="n">describe</span> <span class="n">in</span> <span class="no">WHEN</span> <span class="n">block</span><span class="o">}</span>
+          
+                <span class="c1">// WHEN</span>
+                    <span class="o">{</span><span class="n">code</span> <span class="k">for</span> <span class="n">running</span> <span class="n">actions</span><span class="o">}</span>
+                
+                <span class="c1">// THEN</span>
+                    <span class="o">{</span><span class="n">code</span> <span class="k">for</span> <span class="n">assertions</span><span class="o">}</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<!-- <script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script> -->
 
 <h1 id="description-of-each-block">Description of each block</h1>
 
