@@ -48,7 +48,7 @@ there are 3 main blocks. each block in nested within parent block.
 
 ## 2 - We have a UI components which should message "No Content" if data items is not present. Else it shows a list of item names
 
-**shouldItems** method
+**displayItems** method
 
 - **WHEN** data is not present
   - **SHOULD** display "No Content"
