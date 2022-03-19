@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-19T13:18:06-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-19T13:19:27-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -83,16 +83,6 @@
 
 &lt;p&gt;You may have noticed &lt;strong&gt;WHEN&lt;/strong&gt;, &lt;strong&gt;SHOULD&lt;/strong&gt; and &lt;strong&gt;AND&lt;/strong&gt; are capitalized. This is by design. This helps highlight logic.&lt;/p&gt;
 
-&lt;h1 id=&quot;benefits&quot;&gt;Benefits&lt;/h1&gt;
-
-&lt;p&gt;method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ’s live template.&lt;/p&gt;
-
-&lt;p&gt;Having specific blocks means that test descriptions are always written a certain way. This clarifies thinking and makes sharing and understanding easier.&lt;/p&gt;
-
-&lt;p&gt;Blocks group tests together, making them easier to find.&lt;/p&gt;
-
-&lt;p&gt;Also, when tests run in IDE like IntelliJ, the output is much cleaner. The example section below is a good representation of this.&lt;/p&gt;
-
 &lt;h1 id=&quot;examples&quot;&gt;Examples&lt;/h1&gt;
 
 &lt;p&gt;1 - &lt;strong&gt;We are creating a method which inserts new value if id does not exists in database else updates existing value.class&lt;/strong&gt;&lt;/p&gt;
@@ -132,6 +122,16 @@
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h1 id=&quot;benefits&quot;&gt;Benefits&lt;/h1&gt;
+
+&lt;p&gt;method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ’s live template.&lt;/p&gt;
+
+&lt;p&gt;Having specific blocks means that test descriptions are always written a certain way. This clarifies thinking and makes sharing and understanding easier.&lt;/p&gt;
+
+&lt;p&gt;Blocks group tests together, making them easier to find.&lt;/p&gt;
+
+&lt;p&gt;Also, when tests run in IDE like IntelliJ, the output is much cleaner. The example section below is a good representation of this.&lt;/p&gt;
 
 &lt;h1 id=&quot;template-for-junit&quot;&gt;Template for JUnit&lt;/h1&gt;
 
