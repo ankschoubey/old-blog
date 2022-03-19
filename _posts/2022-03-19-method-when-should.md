@@ -32,16 +32,6 @@ there are 3 main blocks. each block in nested within parent block.
 
 You may have noticed **WHEN**, **SHOULD** and **AND** are capitalized. This is by design. This helps highlight logic.
 
-# Benefits
-
-method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ's live template.
-
-Having specific blocks means that test descriptions are always written a certain way. This clarifies thinking and makes sharing and understanding easier.
-
-Blocks group tests together, making them easier to find.
-
-Also, when tests run in IDE like IntelliJ, the output is much cleaner. The example section below is a good representation of this. 
-
 # Examples
 
 1 - **We are creating a method which inserts new value if id does not exists in database else updates existing value.class**
@@ -59,6 +49,16 @@ Also, when tests run in IDE like IntelliJ, the output is much cleaner. The examp
     - **SHOULD** display "No Content"
   - **WHEN** data exists
     - **SHOULD** display list of item names
+
+# Benefits
+
+method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ's live template.
+
+Having specific blocks means that test descriptions are always written a certain way. This clarifies thinking and makes sharing and understanding easier.
+
+Blocks group tests together, making them easier to find.
+
+Also, when tests run in IDE like IntelliJ, the output is much cleaner. The example section below is a good representation of this. 
 
 # Template for JUnit
 
