@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, collection-of-thoughts, draft]
+categories: [philosophical, collection-of-thoughts]
 title: Meditation
 permalink: /meditation/
 last_modified_at: 2021-08-01T20:42:15.624828
