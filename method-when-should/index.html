@@ -123,7 +123,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -221,7 +221,9 @@ window.onload = wrap_img;
 
 <p><strong>SHOULD block</strong>: describes the assertion.</p>
 
-<p><strong>given/when/then mini-blocks</strong>: helps keep tests clean</p>
+<p><strong>GIVEN/WHEN/THEN mini-blocks</strong>: helps keep tests clean</p>
+
+<p>You may have noticed <strong>WHEN</strong>, <strong>SHOULD</strong> and <strong>AND</strong> are capitalized. This is by design. This helps highlight logic.</p>
 
 <h1 id="benefits">Benefits</h1>
 
@@ -302,8 +304,33 @@ window.onload = wrap_img;
 <span class="o">}</span>
 </code></pre></div></div>
 
+<p>Given, When and Then are mini-blocks. The code will be written after an tab intend.</p>
+
 <!-- <script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script> -->
 
+<h1 id="more-extentions">More extentions</h1>
+
+<p><strong>AND block</strong>: Describes more conditions for <strong>WHEN</strong> block.</p>
+
+<p>Usage:</p>
+
+<ul>
+  <li><strong>WHEN</strong> a condition
+    <ul>
+      <li><strong>AND</strong> another conditions</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>More SHOULD Blocks</strong>:</p>
+
+<ul>
+  <li>SHOULD-NOT</li>
+  <li>SHOULD THROW</li>
+  <li>SHOULD-NOT THROW</li>
+  <li>SHOULD CALL</li>
+  <li>SHOULD-NOT CALL</li>
+</ul>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
