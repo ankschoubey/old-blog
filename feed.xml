@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-19T13:04:50-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-19T13:06:48-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -57,14 +57,16 @@
 
 &lt;p&gt;there are 3 main blocks. each block in nested within parent block.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;method&lt;/strong&gt; block&lt;/p&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; block
+  &lt;li&gt;&lt;strong&gt;method&lt;/strong&gt; block
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; block
+      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; block
         &lt;ul&gt;
-          &lt;li&gt;given/when/then mini-blocks&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; block
+            &lt;ul&gt;
+              &lt;li&gt;given/when/then mini-blocks&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -89,7 +91,47 @@
 
 &lt;p&gt;Blocks group tests together, making them easier to find.&lt;/p&gt;
 
-&lt;p&gt;Also, when tests run in IDE like IntelliJ, the output is much cleaner.&lt;/p&gt;
+&lt;p&gt;Also, when tests run in IDE like IntelliJ, the output is much cleaner. The example section below is a good representation of this.&lt;/p&gt;
+
+&lt;h1 id=&quot;examples&quot;&gt;Examples&lt;/h1&gt;
+
+&lt;p&gt;1 - &lt;strong&gt;We are creating a method which inserts new value if id does not exists in database else updates existing value.class&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;upsert&lt;/strong&gt; method
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; value exists
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; update value&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; does not exists
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; insert new value&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2 - &lt;strong&gt;We have a UI components which should message “No Content” if data items is not present. Else it shows a list of item names&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;displayItems&lt;/strong&gt; method
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; data is not present
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; display “No Content”&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; data exists
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; display list of item names&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&quot;template-for-junit&quot;&gt;Template for JUnit&lt;/h1&gt;
 
@@ -120,43 +162,7 @@
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;!-- &lt;script src=&quot;https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js&quot;&gt;&lt;/script&gt; --&gt;
-
-&lt;h1 id=&quot;examples&quot;&gt;Examples&lt;/h1&gt;
-
-&lt;p&gt;1 - &lt;strong&gt;We are creating a method which inserts new value if id does not exists in database else updates existing value.class&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;upsert&lt;/strong&gt; method&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;WHEN value exists
-    &lt;ul&gt;
-      &lt;li&gt;should update value&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;WHEN does not exists
-    &lt;ul&gt;
-      &lt;li&gt;should insert new value&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2 - &lt;strong&gt;We have a UI components which should message “No Content” if data items is not present. Else it shows a list of item names&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;displayItems&lt;/strong&gt; method&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; data is not present
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; display “No Content”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; data exists
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; display list of item names&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem Description</summary></entry><entry><title type="html">Stratergies on Saving Time</title><link href="www.ankushchoubey.com/saving-time/" rel="alternate" type="text/html" title="Stratergies on Saving Time" /><published>2022-03-18T00:00:00-05:00</published><updated>2022-03-18T15:52:08-05:00</updated><id>www.ankushchoubey.com/saving-time</id><content type="html" xml:base="www.ankushchoubey.com/saving-time/">&lt;p&gt;Categorize the type of activities you want to do.&lt;/p&gt;
+&lt;!-- &lt;script src=&quot;https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js&quot;&gt;&lt;/script&gt; --&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem Description</summary></entry><entry><title type="html">Stratergies on Saving Time</title><link href="www.ankushchoubey.com/saving-time/" rel="alternate" type="text/html" title="Stratergies on Saving Time" /><published>2022-03-18T00:00:00-05:00</published><updated>2022-03-18T15:52:08-05:00</updated><id>www.ankushchoubey.com/saving-time</id><content type="html" xml:base="www.ankushchoubey.com/saving-time/">&lt;p&gt;Categorize the type of activities you want to do.&lt;/p&gt;
 
 &lt;p&gt;Plan and track your day diligently. Every hour. But maybe not every minute.&lt;/p&gt;
 
