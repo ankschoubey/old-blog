@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description: A template that would unify
+description: A template for understandable uniform tests
 categories: [testing, clean-code]
 last_modified_at: 2022-03-19T20:52:08.052481
 last-modified-purpose:
@@ -24,6 +24,11 @@ there are 3 main blocks. each block in nested within parent block.
 - **WHEN** block
   - **SHOULD** block
     - given/when/then mini-blocks
+
+
+# Template for JUnit
+
+<script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script>
 
 # Description of each block
 
@@ -54,7 +59,3 @@ there are 3 main blocks. each block in nested within parent block.
   - **SHOULD** display "No Content"
 - **WHEN** data exists
   - **SHOULD** display list of item names
-
-# Template for JUnit
-
-<script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script>
