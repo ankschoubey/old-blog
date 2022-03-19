@@ -193,8 +193,6 @@ window.onload = wrap_img;
 
 <p>Often tests code style is ignored. Having different coding styles makes it harder to write quality tests. Tests quality is as important as code. This post explores a effective template I developed to help write cleaner tests and keep them uniform.</p>
 
-<p>method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ’s live template.</p>
-
 <h1 id="methodwhenshould-blocks">method/when/should blocks</h1>
 
 <p>there are 3 main blocks. each block in nested within parent block.</p>
@@ -212,6 +210,24 @@ window.onload = wrap_img;
     </ul>
   </li>
 </ul>
+
+<h2 id="description-of-each-block">Description of each block</h2>
+
+<p><strong>method block</strong>: is name of method. all tests related to a particular method will be within this block.abstract</p>
+
+<p><strong>WHEN block</strong>: describes the condition over a method.</p>
+
+<p><strong>SHOULD block</strong>: describes the assertion.</p>
+
+<p><strong>given/when/then mini-blocks</strong>: helps keep tests clean</p>
+
+<h1 id="benefits">Benefits</h1>
+
+<p>method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ’s live template.</p>
+
+<p>Having specific blocks means that sentences are always written a certain way. This clarifies thinking and makes sharing and understanding easier.</p>
+
+<p>blogs group tests together and make them easier to find.</p>
 
 <h1 id="template-for-junit">Template for JUnit</h1>
 
@@ -243,16 +259,6 @@ window.onload = wrap_img;
 </code></pre></div></div>
 
 <!-- <script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script> -->
-
-<h1 id="description-of-each-block">Description of each block</h1>
-
-<p><strong>method block</strong>: is name of method. all tests related to a particular method will be within this block.abstract</p>
-
-<p><strong>WHEN block</strong>: describes the condition over a method.</p>
-
-<p><strong>SHOULD block</strong>: describes the assertion.</p>
-
-<p><strong>given/when/then mini-blocks</strong>: helps keep tests clean</p>
 
 <h1 id="examples">Examples</h1>
 
