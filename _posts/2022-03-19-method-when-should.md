@@ -28,7 +28,35 @@ there are 3 main blocks. each block in nested within parent block.
 
 # Template for JUnit
 
-<script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script>
+```java
+class {NameOfClass}Tests{
+
+    @Nested
+    @DisplayName("{methodName} method")
+    class {MethodName}Tests{
+     
+        @Nested
+        @DisplayName("WHEN {condition description}")
+        class {ConditionDescription}Tests{
+        
+            @Nested
+            @DisplayName("SHOULD {assertion description}")
+            class {AssertionDescription}Tests{
+                // GIVEN
+                    {code for setting conditions describe in WHEN block}
+          
+                // WHEN
+                    {code for running actions}
+                
+                // THEN
+                    {code for assertions}
+            }
+        }
+    }
+}
+```
+
+<!-- <script src="https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js"></script> -->
 
 # Description of each block
 
