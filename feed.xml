@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-19T02:46:32-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-19T03:32:11-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,77 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stratergies on Saving Time</title><link href="www.ankushchoubey.com/saving-time/" rel="alternate" type="text/html" title="Stratergies on Saving Time" /><published>2022-03-18T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/saving-time</id><content type="html" xml:base="www.ankushchoubey.com/saving-time/">&lt;p&gt;Categorize the type of activities you want to do.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing cleaner tests with Method/When/Should blocks</title><link href="www.ankushchoubey.com/method-when-should/" rel="alternate" type="text/html" title="Writing cleaner tests with Method/When/Should blocks" /><published>2022-03-19T00:00:00-05:00</published><updated>2022-03-19T15:52:08-05:00</updated><id>www.ankushchoubey.com/method-when-should</id><content type="html" xml:base="www.ankushchoubey.com/method-when-should/">&lt;h2 id=&quot;problem-description&quot;&gt;Problem Description&lt;/h2&gt;
+
+&lt;p&gt;Often tests code style is ignored. Having different coding styles makes it harder to write quality tests. Tests quality is as important as code. This post explores a effective template I developed to help write cleaner tests and keep them uniform.&lt;/p&gt;
+
+&lt;h2 id=&quot;methodwhenshould-blocks&quot;&gt;method/when/should blocks&lt;/h2&gt;
+
+&lt;p&gt;there are 3 main blocks. each block in nested within parent block.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;method&lt;/strong&gt; block&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; block
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; block
+        &lt;ul&gt;
+          &lt;li&gt;given/when/then mini-blocks&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;description-of-each-block&quot;&gt;Description of each block&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;method block&lt;/strong&gt;: is name of method. all tests related to a particular method will be within this block.abstract&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WHEN block&lt;/strong&gt;: describes the condition over a method.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SHOULD block&lt;/strong&gt;: describes the assertion.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;given/when/then mini-blocks&lt;/strong&gt;: helps keep tests clean&lt;/p&gt;
+
+&lt;h1 id=&quot;examples&quot;&gt;Examples&lt;/h1&gt;
+
+&lt;h2 id=&quot;1---we-are-creating-a-method-which-inserts-new-value-if-id-does-not-exists-in-database-else-updates-existing-valueclass&quot;&gt;1 - We are creating a method which inserts new value if id does not exists in database else updates existing value.class&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;*upsert&lt;/em&gt; method&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WHEN value exists
+    &lt;ul&gt;
+      &lt;li&gt;should update value&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;WHEN does not exists
+    &lt;ul&gt;
+      &lt;li&gt;should insert new value&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2---we-have-a-ui-components-which-should-message-no-content-if-data-items-is-not-present-else-it-shows-a-list-of-item-names&quot;&gt;2 - We have a UI components which should message “No Content” if data items is not present. Else it shows a list of item names&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;shouldItems&lt;/strong&gt; method&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; data is not present
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; display “No Content”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; data exists
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; display list of item names&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;template-for-junit&quot;&gt;Template for JUnit&lt;/h1&gt;
+
+&lt;script src=&quot;https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js&quot;&gt;&lt;/script&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem Description</summary></entry><entry><title type="html">Stratergies on Saving Time</title><link href="www.ankushchoubey.com/saving-time/" rel="alternate" type="text/html" title="Stratergies on Saving Time" /><published>2022-03-18T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/saving-time</id><content type="html" xml:base="www.ankushchoubey.com/saving-time/">&lt;p&gt;Categorize the type of activities you want to do.&lt;/p&gt;
 
 &lt;p&gt;Plan and track your day diligently. Every hour. But maybe not every minute.&lt;/p&gt;
 
@@ -347,45 +417,4 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
       &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@brunovdkraan?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Bruno van der Kraan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/truth?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="core-values" /><category term="truth" /><summary type="html">1 Photo by Bruno van der Kraan on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/truth-stratergies.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/truth-stratergies.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Strategies on Team Work</title><link href="www.ankushchoubey.com/team-work/" rel="alternate" type="text/html" title="Strategies on Team Work" /><published>2022-02-24T00:00:00-06:00</published><updated>2022-02-24T14:52:08-06:00</updated><id>www.ankushchoubey.com/team-work</id><content type="html" xml:base="www.ankushchoubey.com/team-work/">&lt;p&gt;&lt;img src=&quot;/images/team-work.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Treat others the way you want to be treated. Treat yourself the way you want to be treated.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Everyone’s problems/expectations are similar on one level:&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;everyones want to share and want to be really listened to their point of view.&lt;/li&gt;
-  &lt;li&gt;Everyone want to feel safe and safe enough to trust.&lt;/li&gt;
-  &lt;li&gt;Everyone wants to he respected: respected of boundaries (hopefully healthy ones).&lt;/li&gt;
-  &lt;li&gt;Everyone want people to support them even if it’s little.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Everyone has ego.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you criticize the person, you poke the ego.&lt;/li&gt;
-  &lt;li&gt;If you critize an approach, then probability that their ego will be poked in a healthy way and it will be on your side or atleast open to discussion.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is to say you don’t want somone to win or lose. You want Win-Win. Win-Win is a win for all parties to a certain degree.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;To build trust, you have to trust and try opening up. But open up on solid ground. You don’t want to be naïve because opening up increases probability of being hurt but also it won’t reciprocate. You want to build trust “together”, not being trust one sided.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Everything in “Team Work” is about doing things “together”.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;em&gt;This one is recent for me&lt;/em&gt;: Let everyone (others and yourself) choose and solve their own local problems.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;They have right to choose what they want to focus on. You may suggest or lead by example. But forcing you opinions rebounds.&lt;/p&gt;
-
-&lt;p&gt;Plus forcing opinions assumes that one really knows “life” which probably no one does fully.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="team-work" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/team-work.webp" /><media:content medium="image" url="www.ankushchoubey.com/images/team-work.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="core-values" /><category term="truth" /><summary type="html">1 Photo by Bruno van der Kraan on Unsplash &amp;#8617;</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/truth-stratergies.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/truth-stratergies.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
