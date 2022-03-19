@@ -79,7 +79,7 @@ class {NameOfClass}Tests{
 
 1 - **We are creating a method which inserts new value if id does not exists in database else updates existing value.class**
 
-**upsert* method
+**upsert** method
 
 - WHEN value exists
   - should update value
