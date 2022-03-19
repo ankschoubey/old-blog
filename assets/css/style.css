@@ -617,14 +617,14 @@ img.image-preview:hover { transform: scale(1.05); }
 
 .database { background-color: #4282aa; }
 
-.post-list > li { content-visibility: auto; contain-intrinsic-size: 0 200px; }
+.post-list > li { content-visibility: auto; contain-intrinsic-size: 0 200px; border: 1px solid #00000029; border-radius: 10px; }
 
-.custom-post-card-toc { background: #00000036; font-size: medium; }
+.custom-post-card-toc { background: #00000014; font-size: medium; }
 
 .custom-post-card-toc > ul:before { content: "Table of Contents"; font-family: cursive; font-style: italic; padding: 0px; position: relative; left: -21px; }
 
 .custom-post-card-toc a { color: grey !important; }
 
-.custom-post-card-toc strong { color: #9e9e9e !important; }
+.custom-post-card-toc strong { color: black !important; }
 
 /*# sourceMappingURL=style.css.map */
