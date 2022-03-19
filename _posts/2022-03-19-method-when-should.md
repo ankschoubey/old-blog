@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: A template for understandable uniform tests
-categories: [testing, clean-code]
+categories: [testing, clean-code, favorite]
 last_modified_at: 2022-03-19T20:52:08.052481
 last-modified-purpose:
 permalink: /method-when-should/
