@@ -20,3 +20,5 @@ Perform activities that give back time. -> Time Assets.
 Mono Task. Do one thing at a time. You’ll save 50% more time.
 
 You only have 4 productive focus hours. Don’t let anyone distract you.
+
+Prioritize task: Use Eisenhower Matrix
