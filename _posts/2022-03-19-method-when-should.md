@@ -11,7 +11,7 @@ title: Writing cleaner tests with method/when/should blocks
 
 # Problem Description
 
-Often tests code style is ignored. Having different coding styles makes it harder to write quality tests. Tests quality is as important as code. This post explores a effective template I developed to help write cleaner tests and keep them uniform.
+Often tests code style is ignored. Having different test writing styles makes it harder to write quality tests. Tests quality is as important as code. This post explores a effective template I developed to help write cleaner tests and keep them uniform.
 
 # method/when/should blocks
 
@@ -58,7 +58,7 @@ Having specific blocks means that test descriptions are always written a certain
 
 Blocks group tests together, making them easier to find.
 
-Also, when tests run in IDE like IntelliJ, the output is much cleaner. The example section below is a good representation of this. 
+Also, when tests run in IDE like IntelliJ, the output is much cleaner. The example section above is a good representation of this. 
 
 # Template for JUnit
 
