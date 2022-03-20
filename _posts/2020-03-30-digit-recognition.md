@@ -5,7 +5,7 @@ comments: true
 description: 'MNIST: Kaggle Getting Started'
 categories: [deep-learning]
 title: Digit Recognition
-last_modified_at: 2021-08-01T20:42:15.162484
+last_modified_at: 2020-03-30T20:42:15.162484
 permalink: /mnist/
 image: https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png
 ---

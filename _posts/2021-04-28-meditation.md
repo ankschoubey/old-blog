@@ -6,7 +6,7 @@ description:
 categories: [philosophical, collection-of-thoughts]
 title: Meditation
 permalink: /meditation/
-last_modified_at: 2021-08-01T20:42:15.624828
+last_modified_at: 2021-04-28T20:42:15.624828
 image: /images/meditation.jpg
 hide: true
 ---

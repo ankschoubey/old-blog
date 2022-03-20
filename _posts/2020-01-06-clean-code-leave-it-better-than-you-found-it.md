@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Atomic Habits applied to code. Thanks James Clear.
-categories: [clean-code, business]
+categories: [clean-code, business, draft]
 last_modified_at: 2020-01-06T20:42:15.137147
 title: Leave it better than you found it
 permalink: /leave_it_better/
@@ -15,7 +15,7 @@ Knowing the benefits and tips for writing good code will take you only so far. I
 
 ![The clean version of the image from the source: Leave it a little better than you found it]({{ site.baseurl }}/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png)
 
-## Incremental Improvements
+# Incremental Improvements
 
 > If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot. The **cleanup doesn’t have to be something big**. Change **one variable name** for the **better**, **break up one function** that’s a little too large, **eliminate one small bit of duplication**, **clean up one composite if statement**.
 
@@ -25,15 +25,15 @@ Knowing the benefits and tips for writing good code will take you only so far. I
 
 - Maybe, improve one microservice.
 
-### Tip: Leave TODO as comments for your future self. These could include how you want to improve the code but don’t have time right now to do it. Hopefully your future self will handle it.
+## Tip: Leave TODO as comments for your future self. These could include how you want to improve the code but don’t have time right now to do it. Hopefully your future self will handle it.
 
-## Upgrading Fast (get rid of Legacy)
+# Upgrading Fast (get rid of Legacy)
 
 Newer languages and frameworks provide many more features, provide security upgrades and are easier to use. The longer you wait to upgrade, the harder the upgrading becomes.
 
 You will also find that **clean code is much easier to upgrade**.
 
-### Do it one step at a time.
+## Do it one step at a time.
 
 ### Making a big bang change is never feasible.
 
@@ -85,11 +85,11 @@ A smaller way to check if Kotlin might be right for you is to migrate or create 
 
 The support for Python 2 ended (2019) after 20 years of development. Its code is frozen and won’t even receive security upgrades. Time to upgrade to Python 3.
 
-## Code Reviews
+# Code Reviews
 
 ![No code review discussion is relevant without mentioning this.]({{ site.baseurl }}/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/2.png)
 
-#### Benefits of Code Review
+## Benefits of Code Review
 
 > **Code reviews share knowledge**
 
@@ -107,7 +107,7 @@ Source: [Why code reviews matter (and actually save time!)](https://www.atlassia
 
 The article also mentions ways to make code reviews much more productive.
 
-### When done right, code reviews actually save time in the long run.
+## When done right, code reviews actually save time in the long run.
 
 - Share the load
 

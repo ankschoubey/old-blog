@@ -4,7 +4,7 @@ layout: post
 comments: true
 description: 
 categories: [deep-learning]
-last_modified_at: 2021-08-01T20:42:15.143791
+last_modified_at: 2020-03-10T20:42:15.143791
 title: 'Kaggle CLI QA: How to download a particular folder'
 permalink: /kaggle_download_folder/
 ---
