@@ -25,6 +25,10 @@ I want things to be as "sorted" in the long term as possible without being super
 
 > Start by cleaning up your room
 
+> Begin with the end in mind.
+
+> Put first things first.
+
 Responsibility provides meaning. By taking on responsibilities voluntarily and facing your fears, you'll avoid being nihilistic. 
 
 So, pick the heaviest weight you can take and push it towards the best aim you can find. Then at least you can know, "Dumb as I am, I can at least push a thing from point A to point B" [^1]
@@ -144,6 +148,8 @@ Courage is exciting. It pushes to act beyond what one believes is possible. So g
 ## **Team Work**: Node in a network
 
 > Treat others like you want to be treated
+
+> Seek to understand. Then to be understood.
 
 Humans are a social animal. We are node in a network[^1]. The way we act and interact in the network determines the life of everyone. 
 
