@@ -15,15 +15,9 @@ In a [previous blog post](/core-values), I tried to explain why defining your co
 
 I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values. They are my best bet. In this post, you'll find some ways to have things sorted. 
 
-1. Responsibility
-2. Nirwana/Peace
-3. Telling the Truth and being hyper-realistic.
-4. Systems Thinking
-5. Inputs Matter
-6. Time Matter
-7. Courage is calling
-8. Team Work
-9. Rational Behavior
+<div class="post-content e-content" itemprop="articleBody">
+    {{ content | toc  }}
+</div>
 
 ***
 
