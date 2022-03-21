@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-20T12:25:01-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-21T11:05:48-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,61 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Big 5 Personality Assessment</title><link href="www.ankushchoubey.com/big-5/" rel="alternate" type="text/html" title="Big 5 Personality Assessment" /><published>2022-03-20T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/big-5</id><content type="html" xml:base="www.ankushchoubey.com/big-5/">&lt;p&gt;I am having a lot of problems with understanding different types of people and want map to understand them easily.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thoughts &amp;amp; Notes on User Stories</title><link href="www.ankushchoubey.com/user-stories/" rel="alternate" type="text/html" title="Thoughts &amp;amp; Notes on User Stories" /><published>2022-03-21T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/user-story</id><content type="html" xml:base="www.ankushchoubey.com/user-stories/">&lt;p&gt;I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.&lt;/p&gt;
+
+&lt;p&gt;These are my thoughts and notes on User Stories. I hope to improve and expand on these ideas in upcoming months.&lt;/p&gt;
+
+&lt;h1 id=&quot;user-stories&quot;&gt;User Stories&lt;/h1&gt;
+
+&lt;p&gt;The goal with user story is to deliver the best value in smallest/most efficient package.&lt;/p&gt;
+
+&lt;h1 id=&quot;size-of-user-stories&quot;&gt;Size of User Stories&lt;/h1&gt;
+
+&lt;p&gt;INVEST is a good acronymn to start with to decide how big story should be.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Independent&lt;/li&gt;
+  &lt;li&gt;Negotiable&lt;/li&gt;
+  &lt;li&gt;Valuable&lt;/li&gt;
+  &lt;li&gt;Estimatable&lt;/li&gt;
+  &lt;li&gt;Small&lt;/li&gt;
+  &lt;li&gt;Testable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;writing-user-stories&quot;&gt;Writing User Stories&lt;/h1&gt;
+
+&lt;p&gt;Guiding phrases help narrow focus.&lt;/p&gt;
+
+&lt;p&gt;The description can be phrased this way.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nc&quot;&gt;As&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;I&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;want&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;outcome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;so&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;business&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Often &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;outcome&amp;gt;&lt;/code&gt; can be used as story title.&lt;/p&gt;
+
+&lt;h1 id=&quot;definition-of-ready&quot;&gt;Definition Of Ready&lt;/h1&gt;
+
+&lt;p&gt;Definition of Ready is when it’s right to start a user story. We don’t want to have a lot of context switches because it reduces productivity.&lt;/p&gt;
+
+&lt;p&gt;U-INVEST&lt;/p&gt;
+
+&lt;p&gt;The invest remains same as sizing of stories.&lt;/p&gt;
+
+&lt;p&gt;The U is for User Interface.&lt;/p&gt;
+
+&lt;h1 id=&quot;definition-of-done&quot;&gt;Definition of Done&lt;/h1&gt;
+
+&lt;p&gt;Defination of done is when we can say the story ended.&lt;/p&gt;
+
+&lt;p&gt;The following I believe is must.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TDD followed&lt;/li&gt;
+  &lt;li&gt;Deployed&lt;/li&gt;
+  &lt;li&gt;Product Owner Accepted Story&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="agile" /><summary type="html">I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.</summary></entry><entry><title type="html">Big 5 Personality Assessment</title><link href="www.ankushchoubey.com/big-5/" rel="alternate" type="text/html" title="Big 5 Personality Assessment" /><published>2022-03-20T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/big-5</id><content type="html" xml:base="www.ankushchoubey.com/big-5/">&lt;p&gt;I am having a lot of problems with understanding different types of people and want map to understand them easily.&lt;/p&gt;
 
 &lt;p&gt;Hopefully, by trying to practice estimating Big 5, I’ll learn to estimate people better.&lt;/p&gt;
 
@@ -358,74 +412,4 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
       &lt;p&gt;&lt;a href=&quot;https://junit.org/junit5/docs/current/user-guide/#writing-tests-parallel-execution&quot;&gt;Parallel Execution - JUnit Documentation&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="spring-boot" /><summary type="html">There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.</summary></entry><entry><title type="html">My current approach to TDD</title><link href="www.ankushchoubey.com/current-tdd-approach/" rel="alternate" type="text/html" title="My current approach to TDD" /><published>2022-03-04T00:00:00-06:00</published><updated>2022-03-04T14:52:08-06:00</updated><id>www.ankushchoubey.com/tdd-approach</id><content type="html" xml:base="www.ankushchoubey.com/current-tdd-approach/">&lt;p&gt;This is my current approach to TDD.&lt;/p&gt;
-
-&lt;h2 id=&quot;for-new-development&quot;&gt;For new development:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;I have a rough idea of what I am going to implement. This is optional: If I don’t or I am implementing something too big, I make a simple diagram with diagram.net.&lt;/li&gt;
-  &lt;li&gt;I make a class file&lt;/li&gt;
-  &lt;li&gt;I hit Ctrl+Shift+T in IntelliJ to quickly create a corresponding test file. I will using the same keyboard pattern to to quickly switch between test and code while doing TDD.&lt;/li&gt;
-  &lt;li&gt;I go Ctrl+Shift+T into the class and write the name of method and arguments it may return. The actual return value is set to null.&lt;/li&gt;
-  &lt;li&gt;I Ctrl+Shift+T into the test and write the name of method as follows and mention the “WHEN” and “SHOULD” blocks. I don’t know all “WHEN”/”SHOULD” blocks so I’ll write them as time goes.
-    &lt;ul&gt;
-      &lt;li&gt;“WHEN” blocks define conditions&lt;/li&gt;
-      &lt;li&gt;“SHOULD” blocks are atomic and assertable.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MainTestClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;upsert method&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UpsertMethodTests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-        &lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
-        &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;WHEN value IS-NOT in DB&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ValueNotInDBTest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt;
-            &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD insert value&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;shouldInsertValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
-                &lt;span class=&quot;c1&quot;&gt;//empty for now&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-        &lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
-        &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;WHEN value IS in DB&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ValueInDBTest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt;
-            &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD replace value&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;shouldReplaceValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
-                &lt;span class=&quot;c1&quot;&gt;//empty for now&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;After any change after this to code or test, I’ll run the wrote test file.&lt;/li&gt;
-  &lt;li&gt;I start writing the tests to specify conditions in one “SHOULD” block. Each test is as accurate as possible and any needed behaviour is either asserted or verified.&lt;/li&gt;
-  &lt;li&gt;I Ctrl+Shift+T into class and implement code to pass that particular should.&lt;/li&gt;
-  &lt;li&gt;The process of writing “WHEN”“SHOULD” blocks, writing the test, CTRL+SHIFT+T and coding in class, running the test again is repeated.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;for-extending-existing-functionality&quot;&gt;For extending existing functionality:&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;I go the the implementation class and understand it.&lt;/li&gt;
-  &lt;li&gt;I Ctrl+Shift+T/switch to the test.&lt;/li&gt;
-  &lt;li&gt;I add or a new “WHEN” or “SHOULD” or “x method” class&lt;/li&gt;
-  &lt;li&gt;And then repeat the cycle again.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;Relevant Further Reading&lt;/em&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/tdd&quot;&gt;TDD&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/clean-fast-unit-tests&quot;&gt;Writing Clean and Fast Unit Tests&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tdd" /><category term="software-engineering" /><summary type="html">This is my current approach to TDD.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="spring-boot" /><summary type="html">There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.</summary></entry></feed>
