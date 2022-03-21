@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-21T11:05:48-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-21T11:13:13-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,7 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thoughts &amp;amp; Notes on User Stories</title><link href="www.ankushchoubey.com/user-stories/" rel="alternate" type="text/html" title="Thoughts &amp;amp; Notes on User Stories" /><published>2022-03-21T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/user-story</id><content type="html" xml:base="www.ankushchoubey.com/user-stories/">&lt;p&gt;I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thoughts &amp;amp; Notes on User Stories</title><link href="www.ankushchoubey.com/user-stories/" rel="alternate" type="text/html" title="Thoughts &amp;amp; Notes on User Stories" /><published>2022-03-21T00:00:00-05:00</published><updated>2022-03-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/user-story</id><content type="html" xml:base="www.ankushchoubey.com/user-stories/">&lt;p&gt;I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.&lt;/p&gt;
 
 &lt;p&gt;These are my thoughts and notes on User Stories. I hope to improve and expand on these ideas in upcoming months.&lt;/p&gt;
 
@@ -103,7 +103,26 @@
   &lt;li&gt;TDD followed&lt;/li&gt;
   &lt;li&gt;Deployed&lt;/li&gt;
   &lt;li&gt;Product Owner Accepted Story&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="agile" /><summary type="html">I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.</summary></entry><entry><title type="html">Big 5 Personality Assessment</title><link href="www.ankushchoubey.com/big-5/" rel="alternate" type="text/html" title="Big 5 Personality Assessment" /><published>2022-03-20T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/big-5</id><content type="html" xml:base="www.ankushchoubey.com/big-5/">&lt;p&gt;I am having a lot of problems with understanding different types of people and want map to understand them easily.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="agile" /><summary type="html">I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.</summary></entry><entry><title type="html">One Month Microservice</title><link href="www.ankushchoubey.com/one-month-microservice/" rel="alternate" type="text/html" title="One Month Microservice" /><published>2022-03-21T00:00:00-05:00</published><updated>2022-03-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/1-month-microservice</id><content type="html" xml:base="www.ankushchoubey.com/one-month-microservice/">&lt;p&gt;I aspire to build microservices/microfrontends and deploy to production within a month.&lt;/p&gt;
+
+&lt;p&gt;A microservice should not be super big. If it is, it’s not micro anymore.&lt;/p&gt;
+
+&lt;p&gt;The idea with One Month Microservice is this.&lt;/p&gt;
+
+&lt;p&gt;One month and a synchronized-3-man-squad is enough to code up a microservice and deploy to production.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Assuming 3 weeks of coding.&lt;/li&gt;
+  &lt;li&gt;One week of deployment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If it’s takes more than 1 month the following may be reasons,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learning curve for the particular microservice is too high&lt;/li&gt;
+  &lt;li&gt;New Team&lt;/li&gt;
+  &lt;li&gt;Design could be improved&lt;/li&gt;
+  &lt;li&gt;Microservice infrastucture (chassis) is not in place.&lt;/li&gt;
+  &lt;li&gt;Team isn’t a synchronized 3 man squad. aka it’s too big with a lot of moving pieces.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">I aspire to build microservices/microfrontends and deploy to production within a month.</summary></entry><entry><title type="html">Big 5 Personality Assessment</title><link href="www.ankushchoubey.com/big-5/" rel="alternate" type="text/html" title="Big 5 Personality Assessment" /><published>2022-03-20T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/big-5</id><content type="html" xml:base="www.ankushchoubey.com/big-5/">&lt;p&gt;I am having a lot of problems with understanding different types of people and want map to understand them easily.&lt;/p&gt;
 
 &lt;p&gt;Hopefully, by trying to practice estimating Big 5, I’ll learn to estimate people better.&lt;/p&gt;
 
@@ -347,69 +366,4 @@
       &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@glencarrie?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Glen Carrie&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/lego?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/naming-design-patterns.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/naming-design-patterns.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Speeding Up Existing Spring Boot/JUnit tests</title><link href="www.ankushchoubey.com/spring-boot-junit-faster/" rel="alternate" type="text/html" title="Speeding Up Existing Spring Boot/JUnit tests" /><published>2022-03-07T00:00:00-06:00</published><updated>2022-03-07T14:52:08-06:00</updated><id>www.ankushchoubey.com/speeding-up-junit</id><content type="html" xml:base="www.ankushchoubey.com/spring-boot-junit-faster/">&lt;p&gt;There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.&lt;/p&gt;
-
-&lt;p&gt;Some of these are&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Use Right Runner (Saved 25% running time)&lt;/li&gt;
-  &lt;li&gt;Run tests in parallel (Saved 37% running time)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;use-right-runner-saved-25-running-time&quot;&gt;&lt;strong&gt;Use Right Runner&lt;/strong&gt; (Saved 25% running time)&lt;/h1&gt;
-
-&lt;p&gt;There are several runners that come with Spring boot.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@SpringBootTest&lt;/code&gt; being the most general of them. Mostly this is used in combination with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@DirtiesContent&lt;/code&gt; which will restart spring boot after every test class by default. This isn’t ideal.&lt;/p&gt;
-
-&lt;p&gt;Using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@SpringBootTest&lt;/code&gt; is Integration Tests. We don’t want every test to use this.&lt;/p&gt;
-
-&lt;p&gt;We want to load the minimum spring-boot infrastructure as possible and still ensure accurate tests.&lt;/p&gt;
-
-&lt;p&gt;There are a few that can be used.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;If tests are related to a DB. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@DataMongoTest&lt;/code&gt; or equivalent JPA runner with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Import&lt;/code&gt; annotation.&lt;/li&gt;
-  &lt;li&gt;If tests are related to Web/Controller. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@WebFluxTest&lt;/code&gt; or equivalent Spring MVC runner.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Important&lt;/strong&gt;: If tests require initializing a single bean. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@ExtendWith(SpringRunner.class)&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Import&lt;/code&gt; to specify bean to initialize.&lt;/li&gt;
-  &lt;li&gt;If &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@SpringBootTest&lt;/code&gt; is required, try to use it in combination with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Import&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@ContextConfiguration&lt;/code&gt; to limit beans creation.&lt;/li&gt;
-  &lt;li&gt;The best case: Aim for Tests which are purely java based and do not involve spring boot. This ofcourse isn’t possible for every scenario.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;run-tests-in-parallel-saved-37-running-time&quot;&gt;&lt;strong&gt;Run tests in parallel&lt;/strong&gt; (Saved 37% running time)&lt;/h1&gt;
-
-&lt;p&gt;Create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;junit-platform.properties&lt;/code&gt; file in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test/resource/junit-platform.properties&lt;/code&gt; and add following minimum. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;junit.jupiter.execution.parallel.enabled = true&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Now you can either use one of these,&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;add following to every class you want to run parallel. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Execution(CONCURRENT)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;add more to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;junit-platform.properties&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;junit.jupiter.execution.parallel.mode.default = same_thread|concurrent
-junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/junit-execution-mode.svg&quot; alt=&quot;&quot; /&gt;
-&lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;I prefer first method of using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Execution(CONCURRENT)&lt;/code&gt; because some of my tests weren’t designed to run in parallel.&lt;/p&gt;
-
-&lt;p&gt;I found data tests with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@DataMongoTest&lt;/code&gt; by asserting over different data.&lt;/p&gt;
-
-&lt;p&gt;Another positive sideeffect of having &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Execution(CONCURRENT)&lt;/code&gt; is that these tests run first. And since these tests are faster, they lead to faster feedback.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://junit.org/junit5/docs/current/user-guide/#writing-tests-parallel-execution&quot;&gt;Parallel Execution - JUnit Documentation&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="spring-boot" /><summary type="html">There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/naming-design-patterns.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/naming-design-patterns.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
