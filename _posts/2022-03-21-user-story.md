@@ -3,7 +3,7 @@ layout: post
 comments: true
 description:
 categories: [business, agile]
-last_modified_at: 2050-09-23T20:52:08.052481
+last_modified_at: 2022-03-21T20:52:08.052481
 last-modified-purpose:
 permalink: /user-stories/
 title: Thoughts & Notes on User Stories
