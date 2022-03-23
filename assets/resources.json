@@ -20,6 +20,13 @@
         "type": "youtube-channel",
         "detail": "Software engineering (especially the backend), Databases and System Design"
     },
+    "Freedom In Thoughts": {
+        "date": "23-03-2022",
+        "url": "https://www.youtube.com/channel/UCd6Za0CXVldhY8fK8eYoIuw",
+        "image": "https://yt3.ggpht.com/pKvF3qL7I5Co0Mf4xLKte4YE4vjKnfrrpsFn2Uhqa1oUVzaSxPVbR-ZGFg-sONaV8W72IiN64xs=s88-c-k-c0x00ffffff-no-rj",
+        "type": "youtube-channel",
+        "detail": "I can't explain philosphy as good as Freedom in Thoughts does it."
+    },
     "Deep Work by Cal Newport": {
         "date": "26-06-2021",
         "url": "https://www.calnewport.com/books/deep-work/",
