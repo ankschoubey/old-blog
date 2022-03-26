@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Whenever you encounter a bug, write a test | Ankush</title>
+<title>Whenever you encounter a bug | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Whenever you encounter a bug, write a test" />
+<meta property="og:title" content="Whenever you encounter a bug" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Encountering a bug after development means your tests aren’t good enough. (or you weren’t doing TDD 😉)" />
-<meta property="og:description" content="Encountering a bug after development means your tests aren’t good enough. (or you weren’t doing TDD 😉)" />
+<meta name="description" content="Write a test" />
+<meta property="og:description" content="Write a test" />
 <link rel="canonical" href="www.ankushchoubey.com/encounter-a-bug/" />
 <meta property="og:url" content="www.ankushchoubey.com/encounter-a-bug/" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-03-26T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/encounter-a-bug/","headline":"Whenever you encounter a bug, write a test","dateModified":"2050-09-23T15:52:08-05:00","datePublished":"2022-03-26T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/encounter-a-bug/"},"description":"Encountering a bug after development means your tests aren’t good enough. (or you weren’t doing TDD 😉)","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/encounter-a-bug/","headline":"Whenever you encounter a bug","dateModified":"2050-09-23T15:52:08-05:00","datePublished":"2022-03-26T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/encounter-a-bug/"},"description":"Write a test","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -113,7 +113,7 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Whenever you encounter a bug, write a test</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Whenever you encounter a bug</h1>
 
     <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-03-26T00:00:00-05:00" itemprop="datePublished">
         Written: Mar 26, 2022
@@ -187,13 +187,22 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Encountering a bug after development means your tests aren’t good enough. (or you weren’t doing TDD 😉)</p>
+    <h1 id="write-a-test">Write a test</h1>
+
+<p>Encountering a bug after development means your tests aren’t good enough. (or you weren’t doing TDD 😉)</p>
 
 <p>To make sure the bug doesn’t repeat, write a test for it.</p>
 
 <p>By writing a test, you’d have simulated the exact situation where the bug arose.</p>
 
 <p>When you fix the code, you know the bug is perfectly fixed. And anyone modifying the code in the future won’t miss it.</p>
+
+<h1 id="write-clean-logs">Write clean logs</h1>
+
+<p>Logs should provide accurate enough description of the state of the system.</p>
+
+<p>If it takes you too long to find the cause of the bug, it maybe that your logs aren’t good enough.</p>
+
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
