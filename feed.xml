@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-26T10:46:22-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-26T10:50:27-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -301,21 +301,23 @@
 
 &lt;p&gt;Because once someone understands why something is done, they can suggest ways to prove it for themselves locally.&lt;/p&gt;
 
-&lt;p&gt;This is usually the thing I find lacking in most devops, Agile, TDD and similar concepts.&lt;/p&gt;</content><author><name></name></author><summary type="html">Often when talking about process improvement, we focus on only technology element.</summary></entry><entry><title type="html">The 3 Man Squad +/-1</title><link href="www.ankushchoubey.com/3-man-squad/" rel="alternate" type="text/html" title="The 3 Man Squad +/-1" /><published>2022-03-17T00:00:00-05:00</published><updated>2022-03-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/3-man-squad</id><content type="html" xml:base="www.ankushchoubey.com/3-man-squad/">&lt;p&gt;I have come to the belief that max 3 people working on a particular micro-service/microfrontents/unit is the most optimal.&lt;/p&gt;
+&lt;p&gt;This is usually the thing I find lacking in most devops, Agile, TDD and similar concepts.&lt;/p&gt;</content><author><name></name></author><summary type="html">Often when talking about process improvement, we focus on only technology element.</summary></entry><entry><title type="html">The Synchonized 3 Man Squad +/-1</title><link href="www.ankushchoubey.com/3-man-squad/" rel="alternate" type="text/html" title="The Synchonized 3 Man Squad +/-1" /><published>2022-03-17T00:00:00-05:00</published><updated>2022-03-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/3-man-squad</id><content type="html" xml:base="www.ankushchoubey.com/3-man-squad/">&lt;p&gt;I have come to the belief that 3 people working on a particular micro-service/micro frontends/unit is the most optimal.&lt;/p&gt;
+
+&lt;p&gt;Small teams are more effective than larger teams. Keeping a large team in sync is hard.&lt;/p&gt;
 
 &lt;p&gt;They have to be dedicated to a single MS/MF because the cost of bringing someone later makes the project delay more.&lt;/p&gt;
 
-&lt;p&gt;1 man isn’t enough because they’ll have too much freedom/dependency. Code would be written in such a way that only 1 person knows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1&lt;/strong&gt; man isn’t enough because they’ll have too much freedom/dependency. Code would be written in such a way that only 1 person knows.&lt;/p&gt;
 
-&lt;p&gt;2 is good. It helps in synchronization.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2&lt;/strong&gt; is good. It helps in synchronization.&lt;/p&gt;
 
-&lt;p&gt;3 is perfect. It’s synchronized and shared workload. If a person is on leave, 2 can manage easily.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3&lt;/strong&gt; is perfect. It’s a synchronized and shared workload. If a person is on leave, 2 can manage easily.&lt;/p&gt;
 
-&lt;p&gt;4 is upper limit. This is a warning zone. Though it may be perfect is project requires lot of support. But if project requires lot of support, it may mean that it isn’t designed well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4&lt;/strong&gt; is the upper limit. This is a warning zone. Though it may be perfect is project requires a lot of support. But if the project requires a lot of support, it may mean that it isn’t designed well.&lt;/p&gt;
 
-&lt;p&gt;More than 4: You have spaghetti. Shortcuts. People doing there own things. High communication bottlenecks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More than 4&lt;/strong&gt;: You have spaghetti. Shortcuts. People doing their own things. High communication bottlenecks.&lt;/p&gt;
 
-&lt;p&gt;The idea was developed while talking to my friend Austin Lewis&lt;/p&gt;</content><author><name></name></author><category term="business" /><summary type="html">I have come to the belief that max 3 people working on a particular micro-service/microfrontents/unit is the most optimal.</summary></entry><entry><title type="html">Java Architecture Testing with ArchUnit</title><link href="www.ankushchoubey.com/arch-unit/" rel="alternate" type="text/html" title="Java Architecture Testing with ArchUnit" /><published>2022-03-16T00:00:00-05:00</published><updated>2022-03-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/arch-test</id><content type="html" xml:base="www.ankushchoubey.com/arch-unit/">&lt;h1 id=&quot;reason-for-architecture-testing&quot;&gt;Reason for Architecture Testing&lt;/h1&gt;
+&lt;p&gt;&lt;sup&gt;The idea for this post was developed while talking to my friend Austin Lewis&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><category term="business" /><category term="teams" /><category term="agile" /><summary type="html">I have come to the belief that 3 people working on a particular micro-service/micro frontends/unit is the most optimal.</summary></entry><entry><title type="html">Java Architecture Testing with ArchUnit</title><link href="www.ankushchoubey.com/arch-unit/" rel="alternate" type="text/html" title="Java Architecture Testing with ArchUnit" /><published>2022-03-16T00:00:00-05:00</published><updated>2022-03-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/arch-test</id><content type="html" xml:base="www.ankushchoubey.com/arch-unit/">&lt;h1 id=&quot;reason-for-architecture-testing&quot;&gt;Reason for Architecture Testing&lt;/h1&gt;
 
 &lt;p&gt;Once size of codebase increases, it becomes harder and harder to manage a lot of little things. This is specially true when multiple people are working on it.&lt;/p&gt;
 
