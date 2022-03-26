@@ -168,7 +168,7 @@ One can be strict with himself but has to be patient with others. And remember t
 
 **Role Models**: Avengers, Straw Hat Crew (One Piece), Jura Tempest Federation (That Time I Got Reincarnated as a Slime), Some family related parts of Peaky Blinders
 
-## **Rational Behaviour**: Real Wise
+## **Rational Behaviour**: Real wisdom is an action
 
 > Delay Gratification. Choose long-term over short-term.
 
