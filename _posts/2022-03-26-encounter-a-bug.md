@@ -3,7 +3,7 @@ layout: post
 comments: true
 description:
 categories: [testing]
-last_modified_at: 2050-09-23T20:52:08.052481
+last_modified_at: 2022-03-26T20:52:08.052481
 last-modified-purpose:
 permalink: /encounter-a-bug/
 title: Whenever you encounter a bug
@@ -19,7 +19,7 @@ By writing a test, you'd have simulated the exact situation where the bug arose.
 
 When you fix the code, you know the bug is perfectly fixed. And anyone modifying the code in the future won't miss it.
 
-# Write clean logs
+# Make sure right things are logged
 
 Logs should provide accurate enough description of the state of the system.
 
