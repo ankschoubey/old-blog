@@ -131,7 +131,7 @@ Be impatient with yourself and a bit patient with others.
 
 ## **Courage is calling**: The cave you fear to enter holds the treasure you seek.
 
-{% include image.html url='/images/core-values/cave-you-seek.jpg' caption='Illustration by Justin Gerard' %}
+{% include image.html file='/images/core-values/cave-you-seek.jpg' caption='Illustration by Justin Gerard' %}
 [^5]
 
 > If you have to slay a dragon, you should go to it's lair before it comes to your village.
