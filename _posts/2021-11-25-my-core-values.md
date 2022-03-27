@@ -131,6 +131,9 @@ Be impatient with yourself and a bit patient with others.
 
 ## **Courage is calling**: The cave you fear to enter holds the treasure you seek.
 
+{% include url='/images/core-values/cave-you-seek.jpg' caption='Illustration by Justin Gerard'%}
+[^5]
+
 > If you have to slay a dragon, you should go to it's lair before it comes to your village.
 
 > The cave you fear to enter holds the treasure you seek.
@@ -194,3 +197,4 @@ I am trying make these values my second nature by forming habits. The ideal goal
 [^2]: Naval Ravikant
 [^3]: The phrase "Courage is calling" is from Ryan Holiday's book of the same name.
 [^4]: Atomic Habits
+[^5]: [Illustration by Justin Gerald](https://www.instagram.com/justingerardillustration/?hl=en)
