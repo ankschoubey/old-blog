@@ -151,8 +151,6 @@ window.onload = wrap_img;
     
     <a class="tag fa fa-hashtag middleware" href="/categories/#middleware">middleware</a>
     
-    <a class="tag fa fa-hashtag draft" href="/categories/#draft">draft</a>
-    
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
     <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
@@ -193,11 +191,11 @@ window.onload = wrap_img;
 
 <p>An HTTP Rest endpoint is divided into following.</p>
 
-<p>API name and Method</p>
-
-<p>Request</p>
-
-<p>Resposne</p>
+<ul>
+  <li>API name and Method</li>
+  <li>Request</li>
+  <li>Resposne</li>
+</ul>
 
 <h1 id="naming">Naming</h1>
 
@@ -207,15 +205,15 @@ window.onload = wrap_img;
 
 <p>so this is better</p>
 
-<p>/ducks → get all ducks</p>
+<p><code class="language-plaintext highlighter-rouge">/ducks</code> → get all ducks</p>
 
-<p>/ducks/{id} → get duck by duck id</p>
+<p><code class="language-plaintext highlighter-rouge">/ducks/{id}</code> → get duck by duck id</p>
 
 <p>rather than</p>
 
-<p>/getAllDucks</p>
+<p><code class="language-plaintext highlighter-rouge">/getAllDucks</code></p>
 
-<p>/getDuckById</p>
+<p><code class="language-plaintext highlighter-rouge">/getDuckById</code></p>
 
 <p>Any good API has upper format rather than lower.</p>
 
@@ -230,15 +228,15 @@ window.onload = wrap_img;
 
 <p>to read it you read it something like this,</p>
 
-<p>Intend → API Name</p>
+<p><code class="language-plaintext highlighter-rouge">Intend</code> → <code class="language-plaintext highlighter-rouge">API Name</code></p>
 
-<p>GET → /ducks</p>
+<p><code class="language-plaintext highlighter-rouge">GET</code> → <code class="language-plaintext highlighter-rouge">/ducks</code></p>
 
-<p>GET → /ducks/{id}</p>
+<p><code class="language-plaintext highlighter-rouge">GET</code> → <code class="language-plaintext highlighter-rouge">/ducks/{id}</code></p>
 
-<p>DELETE → /ducks/{id}</p>
+<p><code class="language-plaintext highlighter-rouge">DELETE</code> → <code class="language-plaintext highlighter-rouge">/ducks/{id}</code></p>
 
-<p>POST → /ducks</p>
+<p><code class="language-plaintext highlighter-rouge">POST</code> → <code class="language-plaintext highlighter-rouge">/ducks</code></p>
 
 <p>Ideally, POST isn’t supposed to be bulk insert.</p>
 
