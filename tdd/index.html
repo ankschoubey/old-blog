@@ -17,7 +17,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-12-24T00:00:00-06:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/tdd/","headline":"Thoughts on Test Driven Development","dateModified":"2021-12-24T14:52:08-06:00","datePublished":"2021-12-24T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/tdd/"},"image":"www.ankushchoubey.com/images/tdd.jpeg","description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/tdd/","headline":"Thoughts on Test Driven Development","dateModified":"2022-04-03T15:52:08-05:00","datePublished":"2021-12-24T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/tdd/"},"image":"www.ankushchoubey.com/images/tdd.jpeg","description":"Random Thoughts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -118,13 +118,13 @@ window.onload = wrap_img;
 
     <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-12-24T00:00:00-06:00" itemprop="datePublished">
         Written: Dec 24, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-12-24T14:52:08-06:00" itemprop="dateModified">
-          Updated: Dec 24, 2021
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-04-03T15:52:08-05:00" itemprop="dateModified">
+          Updated: Apr 3, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -200,13 +200,15 @@ window.onload = wrap_img;
 
 <p>TDD is shown to reduce defectsby a large margin. Tests will save you time in the long run.</p>
 
-<p>There are my initial thoughts on test driven development.</p>
-
 <h2 id="why-tdd">Why TDD?</h2>
 
-<p>If you are doing TDD, you do not need to setup and interact external systems before implementation.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> You can use their mocks.</p>
+<p>By writing your tests first, you are defining expections you have with your code early on. This leads to cleaner code.</p>
 
-<p>Both tests and code is cleaner and precise.</p>
+<p>The opposite is you write code and then you try to create tests. It’s hard to decide what to test when you are writing tests later. If you write tests later, you do it for what is working.</p>
+
+<p>Both tests and code written with TDD is cleaner and precise.</p>
+
+<p>TDD leads to extremely fast feedback.</p>
 
 <h2 id="the-three-laws-of-tdd">The Three Laws of TDD</h2>
 <ol>
@@ -219,11 +221,13 @@ window.onload = wrap_img;
 
 <ol>
   <li>Assume the test will work properly, what is the minimum test? Write that test.</li>
-  <li>Fix compilation errors if any. <sup id="fnref:1:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
+  <li>Fix compilation errors if any. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
   <li>Write minimum code required to pass the test.</li>
   <li>Run all the tests</li>
   <li>Iterate</li>
 </ol>
+
+<p>I have written a <a href="/current-tdd-approach">detailed blogpost on how I do TDD</a>.</p>
 
 <h1 id="making-tdd-easier">Making TDD easier</h1>
 
@@ -242,6 +246,14 @@ window.onload = wrap_img;
 
 <p>By writing test first, you get clear on what you want to implement. This leads to better design.</p>
 
+<p>Also, initially it’s hard to think about what to do. All tests essentially fix the inputs/external conditions to the method and verify either the output or internal state change caused by the method.</p>
+
+<p><a href="/method-when-should">method/when/should</a> can also be helpful here.</p>
+
+<p>TDD only that much functionality and nothing more. Only test what’s within the class. not outside it.</p>
+
+<p>Also, when deciding to learn a peace of code, read both code and the tests.</p>
+
 <h3 id="2-switch-between-testing-and-code-easily">2. Switch between testing and code easily</h3>
 
 <p>In intellij press Ctrl + Shift + T
@@ -258,54 +270,10 @@ Search for libraries that make easier to test</p>
 
 <p>Yeah. It takes times to learn. TDD/any development practice is easier when whole company is aiming at it or enforcing it.</p>
 
-<p>https://spring.io/guides
-https://daveceddia.com/what-to-test-in-react-app/
-https://daveceddia.com/getting-started-with-tdd-in-react/</p>
-
-<hr />
-
-<p>draft</p>
-
-<p>write experimental/learning code in a separate project. but always write production code with TDD.</p>
-
-<p>fast feedback</p>
-
-<p>find fastest and tighest feedback</p>
-
-<p>TDD leads to fast feedback</p>
-
-<p>to refactor you need really good tests</p>
-
-<p>seeing a test fail is a test that feature is not implemented. sometimes it may happen that the new test passes which means the feature is already implemented and you had forgotten to assert it. or your system is not working properly.</p>
-
-<p>“I don’t know what I am going to build” 
-business? -&gt; ask them for clarificaiton
-logic -&gt; get away from screen and plan properly 
-side effect -&gt; read documentation. write a lot of little program. repl command line interface to test/learn libraries. jshell?</p>
-
-<p>https://www.youtube.com/watch?v=9-cyC6O81Bk</p>
-
-<p>// it’s hard to decide what to test when you are writing tests later
-if you write tests later, you do it for what is working.</p>
-
-<p>TDD only that much functionality and nothing more
-only test what’s within the class. not outside it [ANkush]</p>
-
-<p>mentally it can be worth thinking as red green refactor as checklist</p>
-
-<p>refactoring while doing tdd</p>
-
-<p>read the tests first</p>
-
-<p>// it’s hard to decide what to test when you are writing tests later
-if you write tests later, you do it for what is working.</p>
-
-<p>ATDD: THe team decides acceptance criteria first before implementing 
-acceptance criteria should be defined well for each story. Tips:</p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p><a href="https://www.linkedin.com/in/ACoAAAGmNOsBErk1_7cbjUHllOPVUE5M-NvcOKc/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bd5ZjyftfQoKiUju1OpMyEA%3D%3D">Anadi Misra</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+      <p><a href="https://www.linkedin.com/in/ACoAAAGmNOsBErk1_7cbjUHllOPVUE5M-NvcOKc/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bd5ZjyftfQoKiUju1OpMyEA%3D%3D">Anadi Misra</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
