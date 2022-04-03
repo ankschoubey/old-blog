@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-03-27T03:21:19-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-03T02:37:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,29 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Whenever you encounter a bug</title><link href="www.ankushchoubey.com/encounter-a-bug/" rel="alternate" type="text/html" title="Whenever you encounter a bug" /><published>2022-03-26T00:00:00-05:00</published><updated>2022-03-26T15:52:08-05:00</updated><id>www.ankushchoubey.com/encounter-a-bug</id><content type="html" xml:base="www.ankushchoubey.com/encounter-a-bug/">&lt;h1 id=&quot;write-a-test&quot;&gt;Write a test&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blurry lines between Unit and Integration Tests</title><link href="www.ankushchoubey.com/bluring-line-between-unit-integration-test/" rel="alternate" type="text/html" title="Blurry lines between Unit and Integration Tests" /><published>2022-04-03T00:00:00-05:00</published><updated>2022-04-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/bluring-line-between-unit-integration-test</id><content type="html" xml:base="www.ankushchoubey.com/bluring-line-between-unit-integration-test/">&lt;h2 id=&quot;problem-with-mocks-in-unit-testing&quot;&gt;Problem with Mocks in Unit Testing&lt;/h2&gt;
+
+&lt;p&gt;Typically, unit tests includes testing a certain class/method without involving other methods. The other methods are simulated with Mocks.&lt;/p&gt;
+
+&lt;p&gt;Mocking frameworks like Mockito provide functionality like: verifying how many times a mock method was called or if there were no interaction.&lt;/p&gt;
+
+&lt;p&gt;While mocks do provide make tests faster to run, they aren’t very accurate since they are built by hand.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem-with-typical-integration-testing&quot;&gt;Problem with typical Integration Testing&lt;/h2&gt;
+
+&lt;p&gt;Typically, integration tests include creating a separate environment all together and running tests from middleware to database aka everything backend.&lt;/p&gt;
+
+&lt;p&gt;These tests are bulkier, require a lot of infra-setup and take longer to run.&lt;/p&gt;
+
+&lt;h2 id=&quot;bluring-line&quot;&gt;Bluring line&lt;/h2&gt;
+
+&lt;p&gt;Java has many “embedded” implementation of common external systems like database, kafka, mockservers, etc. These allow for writing tests without having to create a separate infrastructure.&lt;/p&gt;
+
+&lt;p&gt;Thus they are integration tests but not in integration fashion.&lt;/p&gt;
+
+&lt;p&gt;Also, tests written this way are more accurate than using mocks but do lack certain good features of mock as described in first section. Though the benefits outway the loss. Though we can mix and match using Mockito’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@SpyBean&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;One can write accurate “unit” tests and still use “embedded” database. This has become harder to distinquish between unit and integration tests. Because this is a hybrid of both the overall effect is more accurate tests.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><summary type="html">Problem with Mocks in Unit Testing</summary></entry><entry><title type="html">Whenever you encounter a bug</title><link href="www.ankushchoubey.com/encounter-a-bug/" rel="alternate" type="text/html" title="Whenever you encounter a bug" /><published>2022-03-26T00:00:00-05:00</published><updated>2022-03-26T15:52:08-05:00</updated><id>www.ankushchoubey.com/encounter-a-bug</id><content type="html" xml:base="www.ankushchoubey.com/encounter-a-bug/">&lt;h1 id=&quot;write-a-test&quot;&gt;Write a test&lt;/h1&gt;
 
 &lt;p&gt;Encountering a bug after development means your tests aren’t good enough. (or you weren’t doing TDD 😉)&lt;/p&gt;
 
@@ -317,29 +339,4 @@
 
 &lt;p&gt;&lt;strong&gt;More than 4&lt;/strong&gt;: You have spaghetti. Shortcuts. People doing their own things. High communication bottlenecks.&lt;/p&gt;
 
-&lt;p&gt;&lt;sup&gt;The idea for this post was developed while talking to my friend Austin Lewis&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><category term="business" /><category term="teams" /><category term="agile" /><summary type="html">I have come to the belief that 3 people working on a particular micro-service/micro frontends/unit is the most optimal.</summary></entry><entry><title type="html">Java Architecture Testing with ArchUnit</title><link href="www.ankushchoubey.com/arch-unit/" rel="alternate" type="text/html" title="Java Architecture Testing with ArchUnit" /><published>2022-03-16T00:00:00-05:00</published><updated>2022-03-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/arch-test</id><content type="html" xml:base="www.ankushchoubey.com/arch-unit/">&lt;h1 id=&quot;reason-for-architecture-testing&quot;&gt;Reason for Architecture Testing&lt;/h1&gt;
-
-&lt;p&gt;Once size of codebase increases, it becomes harder and harder to manage a lot of little things. This is specially true when multiple people are working on it.&lt;/p&gt;
-
-&lt;p&gt;For example, if you are having a @Entity and want to ensure all of it have certain javax validation whenever someone creates a new @Entity.&lt;/p&gt;
-
-&lt;p&gt;It may happen that someone who is working on the code base in future does not know about a certain principle to follow.&lt;/p&gt;
-
-&lt;p&gt;For such cases, Architecture Testing is idea.&lt;/p&gt;
-
-&lt;h1 id=&quot;archunit&quot;&gt;ArchUnit&lt;/h1&gt;
-
-&lt;p&gt;ArchUnit provides Architecture Testing for Java and ensure design principles and standards are followed.&lt;/p&gt;
-
-&lt;p&gt;ArchUnit work well with JUnit.&lt;/p&gt;
-
-&lt;h1 id=&quot;example&quot;&gt;Example&lt;/h1&gt;
-
-&lt;p&gt;If you want to ensure all String fields for Request Objects have @Size annotation, you could write it with ArchUnit.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;haveRawType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;beAnnotatedWith&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Since I have started using Arch Unit, the quality of code has improved by a huge margin.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="testing" /><summary type="html">Reason for Architecture Testing</summary></entry></feed>
+&lt;p&gt;&lt;sup&gt;The idea for this post was developed while talking to my friend Austin Lewis&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><category term="business" /><category term="teams" /><category term="agile" /><summary type="html">I have come to the belief that 3 people working on a particular micro-service/micro frontends/unit is the most optimal.</summary></entry></feed>
