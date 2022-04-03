@@ -18,12 +18,3 @@ If I am faced with a problem that I could not find a obvious solution to for a f
 If I get the solution myself, I'll add an answer to my own question.
 
 This way, I'll have a repository of previously solved technical challenges.
-
-# Interesting Articles:
-
-- [Effectively use StackOverflow as a contributor](https://jessehouwing.net/community-effectively-use-stackoverflow/)
-
-https://www.youtube.com/watch?v=sMIslcynm0Q
-
-https://codeburst.io/stack-overflow-programmers-best-friend-ef77e4d142c4
-

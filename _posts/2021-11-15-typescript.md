@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: A much better alternative to Javascript
-categories: [web-development, draft]
+categories: [web-development]
 last_modified_at: 2021-12-01T20:52:08.052481
 permalink: /typescript
 title: Typescript
@@ -68,34 +68,3 @@ Typescript does only a few things:
 1. Applies types and checks them
 2. Checks code quality to a level desired
 3. Compiles to JS version of your choice.
-
-----
-
-https://www.typescriptlang.org/why-create-typescript
-
-There are tools available that allow migration like ts-migrate https://github.com/airbnb/ts-migrate
-but ts can be used along with existing js code too.
-
-My recommendation is always, if you try to create a new project, use typescript. 
-
-https://www.reddit.com/r/typescript/comments/n0w2k7/how_to_go_about_convincing_team_to_buy_into_ts/
-https://news.ycombinator.com/item?id=18591424
-https://dev.to/andyrewlee/how-to-convince-team-to-adopt-typescript-323a
-https://www.typescriptlang.org/why-create-typescript
-
-
-we need typescript because specially as project gets
-- gets bigger
-- get older
-- Lots of people work
-- has more developers working on it
-
-
-[^1]: Fireship.io
-[^2]: Typescript.com
-[^3]: Guide of transitioning
-
-
-Draft:
-
-https://tsh.io/blog/why-use-typescript/

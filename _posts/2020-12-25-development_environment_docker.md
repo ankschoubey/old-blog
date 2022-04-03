@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Mitigating the most discoraging part of software development
-categories: [devops, tools, draft]
+categories: [devops, tools]
 title: A replicable Development Environment with Docker + VS Code
 last_modified_at: 2021-08-01T20:42:15.533515
 permalink: /development_environment_docker/
@@ -28,12 +28,3 @@ Initially, I tried creating the Container without using extensions. It was painf
 ## Guide
 
 {% include youtube.html content='mi8kpAgHYFo' %}
-
----
-
-draft 
-
-always have docker-compose for developer environment setup
-as close as possible to docker-compose up
-wiki
-docker-compose up with intellij

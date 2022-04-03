@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: A template for writing clean tests
-categories: [clean-code, testing, draft]
+categories: [clean-code, testing]
 last_modified_at: 2022-01-02T20:52:08.052481
 last-modified-purpose:
 permalink: /clean-fast-unit-tests/
@@ -141,8 +141,7 @@ Aim for asserting behavior and not implementation detail. More coupled your test
 
 ## Messages
 
-Write assertion messages for every assertion that is not fluid.
-
+Write assertion messages for every assertion that is not fluid
 
 
 [^1]: [YouTube: Continous Delivery: The 3 Types of Unit Test in TDD](https://www.youtube.com/watch?v=W40mpZP9xQQ)

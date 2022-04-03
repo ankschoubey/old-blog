@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Atomic Habits applied to code. Thanks James Clear.
-categories: [clean-code, business, draft]
+categories: [clean-code, business]
 last_modified_at: 2020-01-06T20:42:15.137147
 title: Leave it better than you found it
 permalink: /leave_it_better/
@@ -118,15 +118,3 @@ The article also mentions ways to make code reviews much more productive.
 **Previous**: [Always know why you are catching an exception]({{ site.baseurl }}/clean%20code/2020/01/06/clean-code-exception-handling.html)
 
 **Index**: [Tips on writing Clean Code]({{ site.baseurl }}/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html)
-
----
-
-draft:
-
-keep up with major version upgrades
-usually spring boot has it's major upgrade every 6 months (in may or november)
-keep up with release cycle
-
-
-Also can something be configured somewhere like Jenkins to auto-notify if a new major version is available and we are using an outdated one? Similar to npm outdated for spring boot.
-

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [middleware, draft]
+categories: [middleware]
 last_modified_at: 2022-02-19T20:52:08.052481
 last-modified-purpose:
 permalink: /good-rest-api-design/
@@ -13,11 +13,9 @@ Here are somethings about API design that I recently learn’t.
 
 An HTTP Rest endpoint is divided into following.
 
-API name and Method
-
-Request
-
-Resposne
+- API name and Method
+- Request
+- Resposne
 
 # Naming
 
@@ -27,15 +25,15 @@ You want to always have API that refer t some “items”/”entity” nouns
 
 so this is better
 
-/ducks → get all ducks
+`/ducks` → get all ducks
 
-/ducks/{id} → get duck by duck id
+`/ducks/{id}` → get duck by duck id
 
 rather than
 
-/getAllDucks
+`/getAllDucks`
 
-/getDuckById
+`/getDuckById`
 
 Any good API has upper format rather than lower.
 
@@ -50,15 +48,15 @@ But even better is to use HTTP Methods. HTTP Methods provide intend to your API 
 
 to read it you read it something like this,
 
-Intend → API Name
+`Intend` → `API Name`
 
-GET → /ducks
+`GET` → `/ducks`
 
-GET → /ducks/{id}
+`GET` → `/ducks/{id}`
 
-DELETE → /ducks/{id}
+`DELETE` → `/ducks/{id}`
 
-POST → /ducks
+`POST` → `/ducks`
 
 Ideally, POST isn’t supposed to be bulk insert.
 
