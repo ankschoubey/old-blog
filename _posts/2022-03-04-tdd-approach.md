@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: A step by step algorithm
-categories: [tdd, software-engineering]
+categories: [testing]
 last_modified_at: 2022-03-04T20:52:08.052481
 last-modified-purpose:
 permalink: /current-tdd-approach/
