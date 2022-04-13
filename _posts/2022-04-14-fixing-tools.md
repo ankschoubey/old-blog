@@ -9,7 +9,13 @@ permalink: /fixing-tools/
 title: Fixing Tools - IDE, Code Editors, Etc.
 ---
 
-It takes too many interations and years to learn and master a new tools. Switching between IDE and Code Editors have very low impact if all of them essentially do the same thing.
+Mastering an IDE means knowing and using features, shortcuts, plugins, etc. 
+
+It takes too many interations and years to learn and master a new tools. As you know IDE in detail, your productivity level increases tremendously.
+
+Switching between IDE and Code Editors have very low impact if all of them essentially do the same thing.
+
+This is similar to [my approach for deciding to learn a programming topic](/new_tech).
 
 A good IDE should provide:
 1. Lots of feature to reduce coding effort
@@ -22,5 +28,7 @@ I believe 2 IDE specially excel at these:
 2. VS Code
 
 I find IntelliJ to be better at out of the box features specially refactoring. Using IntelliJ opens up for easy migration between all JetBrains tools.
+
+Eclipse is probably the worst ever.
 
 VS Code has better and more plugin.

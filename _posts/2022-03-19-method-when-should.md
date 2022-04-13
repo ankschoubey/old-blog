@@ -75,7 +75,7 @@ class {NameOfClass}Tests{
         
             @Nested
             @DisplayName("SHOULD {assertion description}")
-            class {AssertionDescription}Tests{
+            void {AssertionDescription}Test(){
                 // GIVEN
                     {code for setting conditions describe in WHEN block}
           
