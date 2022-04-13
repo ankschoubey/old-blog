@@ -4,20 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Always keep yourself ready to switch companies | Ankush</title>
+<title>Better Log Messages | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Always keep yourself ready to switch companies" />
+<meta property="og:title" content="Better Log Messages" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Random Thoughts" />
-<meta property="og:description" content="Random Thoughts" />
-<link rel="canonical" href="www.ankushchoubey.com/switch-jobs/" />
-<meta property="og:url" content="www.ankushchoubey.com/switch-jobs/" />
+<meta name="description" content="Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable." />
+<meta property="og:description" content="Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable." />
+<link rel="canonical" href="www.ankushchoubey.com/better-log-messages/" />
+<meta property="og:url" content="www.ankushchoubey.com/better-log-messages/" />
 <meta property="og:site_name" content="Ankush" />
-<meta property="og:image" content="www.ankushchoubey.com/images/switch-jobs.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00" />
+<meta property="article:published_time" content="2022-04-13T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/switch-jobs/","headline":"Always keep yourself ready to switch companies","dateModified":"2022-04-13T03:19:00-05:00","datePublished":"2021-05-26T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/switch-jobs/"},"image":"www.ankushchoubey.com/images/switch-jobs.jpg","description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/better-log-messages/","headline":"Better Log Messages","dateModified":"2022-04-13T15:52:08-05:00","datePublished":"2022-04-13T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/better-log-messages/"},"description":"Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -114,11 +113,11 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Better Log Messages</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-04-13T03:19:00-05:00" itemprop="dateModified">
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-04-13T00:00:00-05:00" itemprop="datePublished">
+        Written: Apr 13, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-04-13T15:52:08-05:00" itemprop="dateModified">
           Updated: Apr 13, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
@@ -147,12 +146,6 @@ window.onload = wrap_img;
 <script>
         AOS.init();
 </script> -->
-
-<div class="tag-list">
-    
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
-    
-</div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
     <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
 </a>
@@ -188,39 +181,72 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt="" /></p>
+    <p>Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.</p>
 
-<h2 id="capitalism">Capitalism</h2>
+<p>This post covers server side logs.</p>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<hr />
 
-<p>The more you earn, the better it is for everyone.</p>
+<h1 id="when-to-log">When to log</h1>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<p>There aren’t any good guidelines for when to log.</p>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+<p>Logging too much can make your code ugly and slow. Logging to little makes it hard to debug.</p>
 
-<p>New environments and people give you new perspectives.</p>
+<p>These are some places where you may consider logging. 4th is non-compromisable.</p>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<p>There are 4 main places to log:</p>
+<ol>
+  <li>Conditionals -&gt; Log level DEBUG</li>
+  <li>Loops -&gt; Log level DEBUG</li>
+  <li>Major Processes -&gt; Log level INFO</li>
+  <li>Exceptions -&gt; Log level ERROR</li>
+</ol>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
+<hr />
 
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
+<h1 id="writing-better-logs-messages">Writing better logs messages</h1>
 
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
+<p>Log messages should include the details of variables involved.</p>
 
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
+<p>For example:</p>
 
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
+<p><strong>Bad</strong>: Does not mention variable details</p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nc">String</span> <span class="n">id</span> <span class="o">=</span> <span class="s">"1"</span><span class="o">;</span><span class="c1">//{some_random_user_input};</span>
+<span class="nc">String</span> <span class="n">name</span><span class="o">=</span> <span class="s">"Elon Musk"</span><span class="o">;</span><span class="c1">//{some_random_user_input};</span>
+<span class="k">if</span> <span class="o">(</span><span class="n">repository</span><span class="o">.</span><span class="na">existsByIdAndName</span><span class="o">(</span><span class="n">id</span><span class="o">,</span> <span class="n">name</span><span class="o">)){</span>
+    <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserDoesNotExistException</span><span class="o">(</span><span class="s">"User does not exists"</span><span class="o">)</span>
+    <span class="c1">// Log message: User does not exists</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p><strong>Good</strong>: Includes variable details</p>
+
+<p>```java</p>
+
+<p>String id = {some_random_user_input};
+String name= {some_random_user_input};
+if (repository.existsByIdAndName(id, name)){
+    throw new UserDoesNotExistException(“User does not exists with id=”+id + “ name= “+ name);
+    // Log message: User does not exists with id=1 name= Elon Musk
+}</p>
+
+<p><strong>Even Better</strong>: Includes variable details as map leading to cleaner log</p>
+
+<p>I find it’s even cleaner to print a map with key as variable name and value as actual value;</p>
+
+<p>The result is a output in this format: <code class="language-plaintext highlighter-rouge">{varName1: value1, varName2: value2}</code></p>
+
+<p>```java</p>
+
+<p>String id = {some_random_user_input};
+String name= {some_random_user_input};
+if (repository.existsByIdAndName(id, name)){
+    throw new UserDoesNotExistException(“User does not exists: “ + Map.of(“id”, id, “name”, name));
+    // Log message: User does not exists: {id: 1, name: Elon Musk}
+}</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -230,7 +256,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/switch-jobs/" hidden></a>
+</script><a class="u-url" href="/better-log-messages/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

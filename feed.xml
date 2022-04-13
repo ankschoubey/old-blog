@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-03T03:15:10-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-13T03:20:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,72 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blurry lines between Unit and Integration Tests</title><link href="www.ankushchoubey.com/bluring-line-between-unit-integration-test/" rel="alternate" type="text/html" title="Blurry lines between Unit and Integration Tests" /><published>2022-04-03T00:00:00-05:00</published><updated>2022-04-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/bluring-line-between-unit-integration-test</id><content type="html" xml:base="www.ankushchoubey.com/bluring-line-between-unit-integration-test/">&lt;h2 id=&quot;problem-with-mocks-in-unit-testing&quot;&gt;Problem with Mocks in Unit Testing&lt;/h2&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Better Log Messages</title><link href="www.ankushchoubey.com/better-log-messages/" rel="alternate" type="text/html" title="Better Log Messages" /><published>2022-04-13T00:00:00-05:00</published><updated>2022-04-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/better-log-messages</id><content type="html" xml:base="www.ankushchoubey.com/better-log-messages/">&lt;p&gt;Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.&lt;/p&gt;
+
+&lt;p&gt;This post covers server side logs.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;when-to-log&quot;&gt;When to log&lt;/h1&gt;
+
+&lt;p&gt;There aren’t any good guidelines for when to log.&lt;/p&gt;
+
+&lt;p&gt;Logging too much can make your code ugly and slow. Logging to little makes it hard to debug.&lt;/p&gt;
+
+&lt;p&gt;These are some places where you may consider logging. 4th is non-compromisable.&lt;/p&gt;
+
+&lt;p&gt;There are 4 main places to log:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Conditionals -&amp;gt; Log level DEBUG&lt;/li&gt;
+  &lt;li&gt;Loops -&amp;gt; Log level DEBUG&lt;/li&gt;
+  &lt;li&gt;Major Processes -&amp;gt; Log level INFO&lt;/li&gt;
+  &lt;li&gt;Exceptions -&amp;gt; Log level ERROR&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;writing-better-logs-messages&quot;&gt;Writing better logs messages&lt;/h1&gt;
+
+&lt;p&gt;Log messages should include the details of variables involved.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bad&lt;/strong&gt;: Does not mention variable details&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//{some_random_user_input};&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Elon Musk&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//{some_random_user_input};&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;existsByIdAndName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UserDoesNotExistException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;User does not exists&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Log message: User does not exists&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Good&lt;/strong&gt;: Includes variable details&lt;/p&gt;
+
+&lt;p&gt;```java&lt;/p&gt;
+
+&lt;p&gt;String id = {some_random_user_input};
+String name= {some_random_user_input};
+if (repository.existsByIdAndName(id, name)){
+    throw new UserDoesNotExistException(“User does not exists with id=”+id + “ name= “+ name);
+    // Log message: User does not exists with id=1 name= Elon Musk
+}&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Even Better&lt;/strong&gt;: Includes variable details as map leading to cleaner log&lt;/p&gt;
+
+&lt;p&gt;I find it’s even cleaner to print a map with key as variable name and value as actual value;&lt;/p&gt;
+
+&lt;p&gt;The result is a output in this format: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{varName1: value1, varName2: value2}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;```java&lt;/p&gt;
+
+&lt;p&gt;String id = {some_random_user_input};
+String name= {some_random_user_input};
+if (repository.existsByIdAndName(id, name)){
+    throw new UserDoesNotExistException(“User does not exists: “ + Map.of(“id”, id, “name”, name));
+    // Log message: User does not exists: {id: 1, name: Elon Musk}
+}&lt;/p&gt;</content><author><name></name></author><summary type="html">Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.</summary></entry><entry><title type="html">Blurry lines between Unit and Integration Tests</title><link href="www.ankushchoubey.com/bluring-line-between-unit-integration-test/" rel="alternate" type="text/html" title="Blurry lines between Unit and Integration Tests" /><published>2022-04-03T00:00:00-05:00</published><updated>2022-04-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/bluring-line-between-unit-integration-test</id><content type="html" xml:base="www.ankushchoubey.com/bluring-line-between-unit-integration-test/">&lt;h2 id=&quot;problem-with-mocks-in-unit-testing&quot;&gt;Problem with Mocks in Unit Testing&lt;/h2&gt;
 
 &lt;p&gt;Typically, unit tests includes testing a certain class/method without involving other methods. The other methods are simulated with Mocks.&lt;/p&gt;
 
@@ -323,20 +388,4 @@
 
 &lt;p&gt;Because once someone understands why something is done, they can suggest ways to prove it for themselves locally.&lt;/p&gt;
 
-&lt;p&gt;This is usually the thing I find lacking in most devops, Agile, TDD and similar concepts.&lt;/p&gt;</content><author><name></name></author><summary type="html">Often when talking about process improvement, we focus on only technology element.</summary></entry><entry><title type="html">The Synchonized 3 Man Squad +/-1</title><link href="www.ankushchoubey.com/3-man-squad/" rel="alternate" type="text/html" title="The Synchonized 3 Man Squad +/-1" /><published>2022-03-17T00:00:00-05:00</published><updated>2022-03-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/3-man-squad</id><content type="html" xml:base="www.ankushchoubey.com/3-man-squad/">&lt;p&gt;I have come to the belief that 3 people working on a particular micro-service/micro frontends/unit is the most optimal.&lt;/p&gt;
-
-&lt;p&gt;Small teams are more effective than larger teams. Keeping a large team in sync is hard.&lt;/p&gt;
-
-&lt;p&gt;They have to be dedicated to a single MS/MF because the cost of bringing someone later makes the project delay more.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1&lt;/strong&gt; man isn’t enough because they’ll have too much freedom/dependency. Code would be written in such a way that only 1 person knows.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2&lt;/strong&gt; is good. It helps in synchronization.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3&lt;/strong&gt; is perfect. It’s a synchronized and shared workload. If a person is on leave, 2 can manage easily.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4&lt;/strong&gt; is the upper limit. This is a warning zone. Though it may be perfect is project requires a lot of support. But if the project requires a lot of support, it may mean that it isn’t designed well.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;More than 4&lt;/strong&gt;: You have spaghetti. Shortcuts. People doing their own things. High communication bottlenecks.&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;The idea for this post was developed while talking to my friend Austin Lewis&lt;/sup&gt;&lt;/p&gt;</content><author><name></name></author><category term="business" /><category term="teams" /><category term="agile" /><summary type="html">I have come to the belief that 3 people working on a particular micro-service/micro frontends/unit is the most optimal.</summary></entry></feed>
+&lt;p&gt;This is usually the thing I find lacking in most devops, Agile, TDD and similar concepts.&lt;/p&gt;</content><author><name></name></author><summary type="html">Often when talking about process improvement, we focus on only technology element.</summary></entry></feed>
