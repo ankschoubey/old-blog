@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-13T03:26:50-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-13T14:34:22-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,25 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing better log messages</title><link href="www.ankushchoubey.com/better-log-messages/" rel="alternate" type="text/html" title="Writing better log messages" /><published>2022-04-13T00:00:00-05:00</published><updated>2022-04-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/better-log-messages</id><content type="html" xml:base="www.ankushchoubey.com/better-log-messages/">&lt;p&gt;Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fixing Tools - IDE, Code Editors, Etc.</title><link href="www.ankushchoubey.com/fixing-tools/" rel="alternate" type="text/html" title="Fixing Tools - IDE, Code Editors, Etc." /><published>2022-04-14T00:00:00-05:00</published><updated>2022-04-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/fixing-tools</id><content type="html" xml:base="www.ankushchoubey.com/fixing-tools/">&lt;p&gt;It takes too many interations and years to learn and master a new tools. Switching between IDE and Code Editors have very low impact if all of them essentially do the same thing.&lt;/p&gt;
+
+&lt;p&gt;A good IDE should provide:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Lots of feature to reduce coding effort&lt;/li&gt;
+  &lt;li&gt;Plugin Support&lt;/li&gt;
+  &lt;li&gt;Frequent Updates&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I believe 2 IDE specially excel at these:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;IntelliJ&lt;/li&gt;
+  &lt;li&gt;VS Code&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I find IntelliJ to be better at out of the box features specially refactoring. Using IntelliJ opens up for easy migration between all JetBrains tools.&lt;/p&gt;
+
+&lt;p&gt;VS Code has better and more plugin.&lt;/p&gt;</content><author><name></name></author><summary type="html">It takes too many interations and years to learn and master a new tools. Switching between IDE and Code Editors have very low impact if all of them essentially do the same thing.</summary></entry><entry><title type="html">Writing better log messages</title><link href="www.ankushchoubey.com/better-log-messages/" rel="alternate" type="text/html" title="Writing better log messages" /><published>2022-04-13T00:00:00-05:00</published><updated>2022-04-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/better-log-messages</id><content type="html" xml:base="www.ankushchoubey.com/better-log-messages/">&lt;p&gt;Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.&lt;/p&gt;
 
 &lt;p&gt;This post covers server side logs.&lt;/p&gt;
 
@@ -377,12 +395,4 @@
 
 &lt;p&gt;You only have 4 productive focus hours. Don’t let anyone distract you.&lt;/p&gt;
 
-&lt;p&gt;Prioritize task: Use Eisenhower Matrix&lt;/p&gt;</content><author><name></name></author><summary type="html">Categorize the type of activities you want to do.</summary></entry><entry><title type="html">Human Intuition while working in Technology</title><link href="www.ankushchoubey.com/human-intuition/" rel="alternate" type="text/html" title="Human Intuition while working in Technology" /><published>2022-03-18T00:00:00-05:00</published><updated>2022-03-18T15:52:08-05:00</updated><id>www.ankushchoubey.com/human-element</id><content type="html" xml:base="www.ankushchoubey.com/human-intuition/">&lt;p&gt;Often when talking about process improvement, we focus on only technology element.&lt;/p&gt;
-
-&lt;p&gt;Human element is ignored. This is understandable. technology can enforce rules that improve the process easily. Technology can also remove a lot of human evidence.&lt;/p&gt;
-
-&lt;p&gt;Developing the human intuition is about understanding why something is being done more than how something is being done.&lt;/p&gt;
-
-&lt;p&gt;Because once someone understands why something is done, they can suggest ways to prove it for themselves locally.&lt;/p&gt;
-
-&lt;p&gt;This is usually the thing I find lacking in most devops, Agile, TDD and similar concepts.&lt;/p&gt;</content><author><name></name></author><summary type="html">Often when talking about process improvement, we focus on only technology element.</summary></entry></feed>
+&lt;p&gt;Prioritize task: Use Eisenhower Matrix&lt;/p&gt;</content><author><name></name></author><summary type="html">Categorize the type of activities you want to do.</summary></entry></feed>
