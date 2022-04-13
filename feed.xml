@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-13T14:34:22-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-13T14:42:19-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,13 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fixing Tools - IDE, Code Editors, Etc.</title><link href="www.ankushchoubey.com/fixing-tools/" rel="alternate" type="text/html" title="Fixing Tools - IDE, Code Editors, Etc." /><published>2022-04-14T00:00:00-05:00</published><updated>2022-04-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/fixing-tools</id><content type="html" xml:base="www.ankushchoubey.com/fixing-tools/">&lt;p&gt;It takes too many interations and years to learn and master a new tools. Switching between IDE and Code Editors have very low impact if all of them essentially do the same thing.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fixing Tools - IDE, Code Editors, Etc.</title><link href="www.ankushchoubey.com/fixing-tools/" rel="alternate" type="text/html" title="Fixing Tools - IDE, Code Editors, Etc." /><published>2022-04-14T00:00:00-05:00</published><updated>2022-04-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/fixing-tools</id><content type="html" xml:base="www.ankushchoubey.com/fixing-tools/">&lt;p&gt;Mastering an IDE means knowing and using features, shortcuts, plugins, etc.&lt;/p&gt;
+
+&lt;p&gt;It takes too many interations and years to learn and master a new tools. As you know IDE in detail, your productivity level increases tremendously.&lt;/p&gt;
+
+&lt;p&gt;Switching between IDE and Code Editors have very low impact if all of them essentially do the same thing.&lt;/p&gt;
+
+&lt;p&gt;This is similar to &lt;a href=&quot;/new_tech&quot;&gt;my approach for deciding to learn a programming topic&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;A good IDE should provide:&lt;/p&gt;
 &lt;ol&gt;
@@ -67,7 +73,9 @@
 
 &lt;p&gt;I find IntelliJ to be better at out of the box features specially refactoring. Using IntelliJ opens up for easy migration between all JetBrains tools.&lt;/p&gt;
 
-&lt;p&gt;VS Code has better and more plugin.&lt;/p&gt;</content><author><name></name></author><summary type="html">It takes too many interations and years to learn and master a new tools. Switching between IDE and Code Editors have very low impact if all of them essentially do the same thing.</summary></entry><entry><title type="html">Writing better log messages</title><link href="www.ankushchoubey.com/better-log-messages/" rel="alternate" type="text/html" title="Writing better log messages" /><published>2022-04-13T00:00:00-05:00</published><updated>2022-04-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/better-log-messages</id><content type="html" xml:base="www.ankushchoubey.com/better-log-messages/">&lt;p&gt;Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.&lt;/p&gt;
+&lt;p&gt;Eclipse is probably the worst ever.&lt;/p&gt;
+
+&lt;p&gt;VS Code has better and more plugin.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mastering an IDE means knowing and using features, shortcuts, plugins, etc.</summary></entry><entry><title type="html">Writing Meaningful Log Messages</title><link href="www.ankushchoubey.com/writing-log-messages/" rel="alternate" type="text/html" title="Writing Meaningful Log Messages" /><published>2022-04-13T00:00:00-05:00</published><updated>2022-04-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/better-log-messages</id><content type="html" xml:base="www.ankushchoubey.com/writing-log-messages/">&lt;p&gt;Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.&lt;/p&gt;
 
 &lt;p&gt;This post covers server side logs.&lt;/p&gt;
 
@@ -79,7 +87,7 @@
 
 &lt;p&gt;Logging too much can make your code ugly and slow. Logging to little makes it hard to debug.&lt;/p&gt;
 
-&lt;p&gt;These are some places where you may consider logging. 4th is non-compromisable.&lt;/p&gt;
+&lt;p&gt;These are some places where you may consider logging. 4th is non-compromisable though it is autoset by most programming languages.&lt;/p&gt;
 
 &lt;p&gt;There are 4 main places to log:&lt;/p&gt;
 &lt;ol&gt;
@@ -99,21 +107,23 @@
 
 &lt;p&gt;&lt;strong&gt;Bad&lt;/strong&gt;: Does not mention variable details&lt;/p&gt;
 
+&lt;p&gt;Log message: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User does not exists&lt;/code&gt;&lt;/p&gt;
+
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Elon Musk&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;existsByIdAndName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UserDoesNotExistException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;User does not exists&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Log message: User does not exists&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Good&lt;/strong&gt;: Includes variable details&lt;/p&gt;
 
+&lt;p&gt;Log message: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User does not exists with id=1 name= Elon Musk&lt;/code&gt;&lt;/p&gt;
+
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Elon Musk&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;existsByIdAndName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UserDoesNotExistException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;User does not exists with id=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; name= &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Log message: User does not exists with id=1 name= Elon Musk&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -121,13 +131,14 @@
 
 &lt;p&gt;I find it’s even cleaner to print a map with key as variable name and value as actual value;&lt;/p&gt;
 
-&lt;p&gt;The result is a output in this format: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{varName1: value1, varName2: value2}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Format: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;${human readable message}: {data1: value1, data2: value2}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Log message: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User does not exists: {id: 1, name: Elon Musk}&lt;/code&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Elon Musk&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;existsByIdAndName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UserDoesNotExistException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;User does not exists: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Log message: User does not exists: {id: 1, name: Elon Musk}&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.</summary></entry><entry><title type="html">Blurry lines between Unit and Integration Tests</title><link href="www.ankushchoubey.com/bluring-line-between-unit-integration-test/" rel="alternate" type="text/html" title="Blurry lines between Unit and Integration Tests" /><published>2022-04-03T00:00:00-05:00</published><updated>2022-04-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/bluring-line-between-unit-integration-test</id><content type="html" xml:base="www.ankushchoubey.com/bluring-line-between-unit-integration-test/">&lt;h2 id=&quot;problem-with-mocks-in-unit-testing&quot;&gt;Problem with Mocks in Unit Testing&lt;/h2&gt;
 
@@ -342,7 +353,7 @@
         
             &lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
             &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {assertion description}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;AssertionDescription&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Tests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;AssertionDescription&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
                 &lt;span class=&quot;c1&quot;&gt;// GIVEN&lt;/span&gt;
                     &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;setting&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conditions&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;WHEN&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
           
