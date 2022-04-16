@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-13T14:42:19-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-16T01:33:23-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,59 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fixing Tools - IDE, Code Editors, Etc.</title><link href="www.ankushchoubey.com/fixing-tools/" rel="alternate" type="text/html" title="Fixing Tools - IDE, Code Editors, Etc." /><published>2022-04-14T00:00:00-05:00</published><updated>2022-04-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/fixing-tools</id><content type="html" xml:base="www.ankushchoubey.com/fixing-tools/">&lt;p&gt;Mastering an IDE means knowing and using features, shortcuts, plugins, etc.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving a Optimistic Locking Excepiton In MongoDB Spring Webflux</title><link href="www.ankushchoubey.com/optimistic-locking-exception-mongodb/" rel="alternate" type="text/html" title="Solving a Optimistic Locking Excepiton In MongoDB Spring Webflux" /><published>2022-04-16T00:00:00-05:00</published><updated>2022-04-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/optimistic-locking-exception-mongodb</id><content type="html" xml:base="www.ankushchoubey.com/optimistic-locking-exception-mongodb/">&lt;p&gt;I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.&lt;/p&gt;
+
+&lt;p&gt;I had a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Document&lt;/code&gt; which had to be manupilated.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Document&lt;/code&gt; had a repository which extended &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ReactiveMongoRepository&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;So it was something like this&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SampleDocument.java&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nd&quot;&gt;@Document&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sample_document&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@Version&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Indexed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;backgroud&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;customId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fieldToBeModified&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;SampleRepository.java&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleRepository&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ReactiveMongoRepository&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;findByCustomId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;customId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To update the document I had webflux code written like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;repository.findByCustomId(someString)
+.flatmap(sampleDocument-&amp;gt;{
+    // manupulation of document
+    return Mono.just(sampleDocument)
+})
+.flatmap(sampleDocument -&amp;gt; repository.save(sampleDocument));
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;As you can see, the code to fetch the document and to save back are two separate lines. Between the lines are steps to manipulate the document.&lt;/p&gt;
+
+&lt;p&gt;This was what caused the problem.&lt;/p&gt;
+
+&lt;p&gt;MongoDB uses version field in a document to maintain Locking. If the current version is 10 and you try to save 8 then this would lead to OptimisticLockingException.&lt;/p&gt;
+
+&lt;p&gt;In a concurrent environment like webflux when multiple thread are reading from the same data, it’s highly likely that the order the record is updated by some other thread before the current thread saves the data again.&lt;/p&gt;
+
+&lt;p&gt;This would specially be true where there are lots of update queries.&lt;/p&gt;
+
+&lt;p&gt;To fix this I switched to manually writing an update query and executing with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MongoOperation&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The update query does not need to bring data back to Webflux server to manipulate the document. The document is manupulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.&lt;/p&gt;</content><author><name></name></author><category term="database" /><category term="mongodb" /><category term="spring-boot" /><summary type="html">I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.</summary></entry><entry><title type="html">Fixing Tools - IDE, Code Editors, Etc.</title><link href="www.ankushchoubey.com/fixing-tools/" rel="alternate" type="text/html" title="Fixing Tools - IDE, Code Editors, Etc." /><published>2022-04-14T00:00:00-05:00</published><updated>2022-04-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/fixing-tools</id><content type="html" xml:base="www.ankushchoubey.com/fixing-tools/">&lt;p&gt;Mastering an IDE means knowing and using features, shortcuts, plugins, etc.&lt;/p&gt;
 
 &lt;p&gt;It takes too many interations and years to learn and master a new tools. As you know IDE in detail, your productivity level increases tremendously.&lt;/p&gt;
 
@@ -394,16 +446,4 @@
   &lt;li&gt;SHOULD-NOT THROW&lt;/li&gt;
   &lt;li&gt;SHOULD CALL&lt;/li&gt;
   &lt;li&gt;SHOULD-NOT CALL&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><category term="favorite" /><summary type="html">Problem Description</summary></entry><entry><title type="html">Stratergies on Saving Time</title><link href="www.ankushchoubey.com/saving-time/" rel="alternate" type="text/html" title="Stratergies on Saving Time" /><published>2022-03-18T00:00:00-05:00</published><updated>2022-03-18T15:52:08-05:00</updated><id>www.ankushchoubey.com/saving-time</id><content type="html" xml:base="www.ankushchoubey.com/saving-time/">&lt;p&gt;Categorize the type of activities you want to do.&lt;/p&gt;
-
-&lt;p&gt;Plan and track your day diligently. Every hour. But maybe not every minute.&lt;/p&gt;
-
-&lt;p&gt;Meditate. You need attention.&lt;/p&gt;
-
-&lt;p&gt;Perform activities that give back time. -&amp;gt; Time Assets.&lt;/p&gt;
-
-&lt;p&gt;Mono Task. Do one thing at a time. You’ll save 50% more time.&lt;/p&gt;
-
-&lt;p&gt;You only have 4 productive focus hours. Don’t let anyone distract you.&lt;/p&gt;
-
-&lt;p&gt;Prioritize task: Use Eisenhower Matrix&lt;/p&gt;</content><author><name></name></author><summary type="html">Categorize the type of activities you want to do.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><category term="favorite" /><summary type="html">Problem Description</summary></entry></feed>

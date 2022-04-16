@@ -4,20 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Always keep yourself ready to switch companies | Ankush</title>
+<title>Solving a Optimistic Locking Excepiton In MongoDB Spring Webflux | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Always keep yourself ready to switch companies" />
+<meta property="og:title" content="Solving a Optimistic Locking Excepiton In MongoDB Spring Webflux" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Random Thoughts" />
-<meta property="og:description" content="Random Thoughts" />
-<link rel="canonical" href="www.ankushchoubey.com/switch-jobs/" />
-<meta property="og:url" content="www.ankushchoubey.com/switch-jobs/" />
+<meta name="description" content="I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException." />
+<meta property="og:description" content="I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException." />
+<link rel="canonical" href="www.ankushchoubey.com/optimistic-locking-exception-mongodb/" />
+<meta property="og:url" content="www.ankushchoubey.com/optimistic-locking-exception-mongodb/" />
 <meta property="og:site_name" content="Ankush" />
-<meta property="og:image" content="www.ankushchoubey.com/images/switch-jobs.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00" />
+<meta property="article:published_time" content="2022-04-16T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/switch-jobs/","headline":"Always keep yourself ready to switch companies","dateModified":"2022-04-16T01:31:47-05:00","datePublished":"2021-05-26T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/switch-jobs/"},"image":"www.ankushchoubey.com/images/switch-jobs.jpg","description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/optimistic-locking-exception-mongodb/","headline":"Solving a Optimistic Locking Excepiton In MongoDB Spring Webflux","dateModified":"2022-04-16T15:52:08-05:00","datePublished":"2022-04-16T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/optimistic-locking-exception-mongodb/"},"description":"I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -114,11 +113,11 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Solving a Optimistic Locking Excepiton In MongoDB Spring Webflux</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-04-16T01:31:47-05:00" itemprop="dateModified">
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-04-16T00:00:00-05:00" itemprop="datePublished">
+        Written: Apr 16, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-04-16T15:52:08-05:00" itemprop="dateModified">
           Updated: Apr 16, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
@@ -150,7 +149,11 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
+    <a class="tag fa fa-hashtag database" href="/categories/#database">database</a>
+    
+    <a class="tag fa fa-hashtag mongodb" href="/categories/#mongodb">mongodb</a>
+    
+    <a class="tag fa fa-hashtag spring-boot" href="/categories/#spring-boot">spring-boot</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -188,39 +191,59 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt="" /></p>
+    <p>I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.</p>
 
-<h2 id="capitalism">Capitalism</h2>
+<p>I had a <code class="language-plaintext highlighter-rouge">@Document</code> which had to be manupilated.</p>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>The <code class="language-plaintext highlighter-rouge">@Document</code> had a repository which extended <code class="language-plaintext highlighter-rouge">ReactiveMongoRepository</code>.</p>
 
-<p>The more you earn, the better it is for everyone.</p>
+<p>So it was something like this</p>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<p><strong>SampleDocument.java</strong></p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nd">@Document</span><span class="o">(</span><span class="s">"sample_document"</span><span class="o">)</span>
+<span class="kd">class</span> <span class="nc">SampleDocument</span><span class="o">{</span>
+    <span class="nd">@Version</span>
+    <span class="nc">Long</span> <span class="n">version</span><span class="o">;</span>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+    <span class="nd">@Indexed</span><span class="o">(</span><span class="n">backgroud</span><span class="o">=</span><span class="kc">true</span><span class="o">)</span>
+    <span class="nc">String</span> <span class="n">customId</span><span class="o">;</span>
 
-<p>New environments and people give you new perspectives.</p>
+    <span class="nc">String</span> <span class="n">fieldToBeModified</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div></div>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<p><strong>SampleRepository.java</strong></p>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">interface</span> <span class="nc">SampleRepository</span> <span class="kd">extends</span> <span class="nc">ReactiveMongoRepository</span> <span class="o">&lt;</span><span class="nc">SampleDocument</span><span class="o">&gt;{</span>
+    <span class="nc">Mono</span><span class="o">&lt;</span><span class="nc">SampleDocument</span><span class="o">&gt;</span> <span class="nf">findByCustomId</span><span class="o">(</span><span class="nc">String</span> <span class="n">customId</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
 
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
+<p>To update the document I had webflux code written like this:</p>
 
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>repository.findByCustomId(someString)
+.flatmap(sampleDocument-&gt;{
+    // manupulation of document
+    return Mono.just(sampleDocument)
+})
+.flatmap(sampleDocument -&gt; repository.save(sampleDocument));
+</code></pre></div></div>
 
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
+<p>As you can see, the code to fetch the document and to save back are two separate lines. Between the lines are steps to manipulate the document.</p>
 
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
+<p>This was what caused the problem.</p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<p>MongoDB uses version field in a document to maintain Locking. If the current version is 10 and you try to save 8 then this would lead to OptimisticLockingException.</p>
+
+<p>In a concurrent environment like webflux when multiple thread are reading from the same data, it’s highly likely that the order the record is updated by some other thread before the current thread saves the data again.</p>
+
+<p>This would specially be true where there are lots of update queries.</p>
+
+<p>To fix this I switched to manually writing an update query and executing with <code class="language-plaintext highlighter-rouge">MongoOperation</code>.</p>
+
+<p>The update query does not need to bring data back to Webflux server to manipulate the document. The document is manupulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
@@ -230,7 +253,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/switch-jobs/" hidden></a>
+</script><a class="u-url" href="/optimistic-locking-exception-mongodb/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
