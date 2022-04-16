@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-16T01:46:14-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-16T02:09:02-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -51,6 +51,8 @@
   &lt;/tbody&gt;
 &lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux</title><link href="www.ankushchoubey.com/optimistic-locking-exception-mongodb/" rel="alternate" type="text/html" title="Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux" /><published>2022-04-16T00:00:00-05:00</published><updated>2022-04-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/optimistic-locking-exception-mongodb</id><content type="html" xml:base="www.ankushchoubey.com/optimistic-locking-exception-mongodb/">&lt;p&gt;I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt;.&lt;/p&gt;
 
+&lt;h1 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h1&gt;
+
 &lt;p&gt;I had a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Document&lt;/code&gt; which had to be manupilated.&lt;/p&gt;
 
 &lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Document&lt;/code&gt; had a repository which extended &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ReactiveMongoRepository&lt;/code&gt;.&lt;/p&gt;
@@ -101,6 +103,8 @@
 
 &lt;p&gt;This would specially be true where there are lots of upsert/update queries.&lt;/p&gt;
 
+&lt;h1 id=&quot;solution&quot;&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/h1&gt;
+
 &lt;p&gt;To fix this I switched to manually writing an update query and executing with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MongoOperation&lt;/code&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Update&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updateQuery&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Update&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// code to update document&lt;/span&gt;
@@ -110,7 +114,50 @@
 
 &lt;p&gt;Instead of 2 different DB actions. It became one DB Action.&lt;/p&gt;
 
-&lt;p&gt;The update query does not need to bring data back to Webflux server to manipulate the document. The document is manupulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.&lt;/p&gt;</content><author><name></name></author><category term="database" /><category term="mongodb" /><category term="spring-boot" /><summary type="html">I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.</summary></entry><entry><title type="html">Fixing Tools - IDE, Code Editors, Etc.</title><link href="www.ankushchoubey.com/fixing-tools/" rel="alternate" type="text/html" title="Fixing Tools - IDE, Code Editors, Etc." /><published>2022-04-14T00:00:00-05:00</published><updated>2022-04-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/fixing-tools</id><content type="html" xml:base="www.ankushchoubey.com/fixing-tools/">&lt;p&gt;Mastering an IDE means knowing and using features, shortcuts, plugins, etc.&lt;/p&gt;
+&lt;p&gt;The update query does not need to bring data back to Webflux server to manipulate the document. The document is manupulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.&lt;/p&gt;
+
+&lt;h1 id=&quot;extra-finding-root-cause-and-fixing-with-tdd&quot;&gt;&lt;strong&gt;Extra&lt;/strong&gt;: Finding root cause and fixing with TDD&lt;/h1&gt;
+
+&lt;p&gt;I’m gonna try to provide examples of TDD wherever possible.&lt;/p&gt;
+
+&lt;p&gt;To find the cause, I suspected the data was being saved parallelly.&lt;/p&gt;
+
+&lt;p&gt;So I created a unit test as follows.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Manipulate documents parallel. This was done with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTest&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Execution(CONCURENT)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Assertion wasn’t straight forward with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTest&lt;/code&gt; so I insteead collected all version in a static list.&lt;/li&gt;
+  &lt;li&gt;After all &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTests&lt;/code&gt; were over I asserted if version was as expected.&lt;/li&gt;
+  &lt;li&gt;I ran the code and saw &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt; occuring and assertion failing.&lt;/li&gt;
+  &lt;li&gt;I replaced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repository&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;save&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MongoOperation&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;update&lt;/code&gt; as described above.&lt;/li&gt;
+  &lt;li&gt;The test passed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;WHEN upsert is called parallely&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;WhenUpsertIsCalledParallelyTest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;repeatTimes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;allVersions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ArrayList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@RepeatableTest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repeatTimes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;                           &lt;span class=&quot;c1&quot;&gt;// Part of Step 1&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@Execution&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;CONCURRENT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;                                 &lt;span class=&quot;c1&quot;&gt;// Part of Step 1&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD manipulate a single record&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;shouldManipulateASingleRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// when:&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;SampleDocument&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;document&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;upsert&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Part of Step 1&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// data collection:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;allVersions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getVersion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// Part of Step 2&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@AfterAll&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;assertVersionIsRepeatTimes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;assertThat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Collections&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;                &lt;span class=&quot;c1&quot;&gt;// Part of Step 3&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;isEqualTo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repeatTimes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="database" /><category term="mongodb" /><category term="spring-boot" /><category term="tdd-example" /><summary type="html">I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.</summary></entry><entry><title type="html">Fixing Tools - IDE, Code Editors, Etc.</title><link href="www.ankushchoubey.com/fixing-tools/" rel="alternate" type="text/html" title="Fixing Tools - IDE, Code Editors, Etc." /><published>2022-04-14T00:00:00-05:00</published><updated>2022-04-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/fixing-tools</id><content type="html" xml:base="www.ankushchoubey.com/fixing-tools/">&lt;p&gt;Mastering an IDE means knowing and using features, shortcuts, plugins, etc.&lt;/p&gt;
 
 &lt;p&gt;It takes too many interations and years to learn and master a new tools. As you know IDE in detail, your productivity level increases tremendously.&lt;/p&gt;
 

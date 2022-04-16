@@ -123,7 +123,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -154,6 +154,8 @@ window.onload = wrap_img;
     <a class="tag fa fa-hashtag mongodb" href="/categories/#mongodb">mongodb</a>
     
     <a class="tag fa fa-hashtag spring-boot" href="/categories/#spring-boot">spring-boot</a>
+    
+    <a class="tag fa fa-hashtag tdd-example" href="/categories/#tdd-example">tdd-example</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -192,6 +194,8 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <p>I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused <code class="language-plaintext highlighter-rouge">OptimisticLockingException</code>.</p>
+
+<h1 id="problem"><strong>Problem</strong></h1>
 
 <p>I had a <code class="language-plaintext highlighter-rouge">@Document</code> which had to be manupilated.</p>
 
@@ -243,6 +247,8 @@ window.onload = wrap_img;
 
 <p>This would specially be true where there are lots of upsert/update queries.</p>
 
+<h1 id="solution"><strong>Solution</strong></h1>
+
 <p>To fix this I switched to manually writing an update query and executing with <code class="language-plaintext highlighter-rouge">MongoOperation</code>.</p>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Update</span> <span class="n">updateQuery</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Update</span><span class="o">().</span> <span class="c1">// code to update document</span>
@@ -253,6 +259,49 @@ window.onload = wrap_img;
 <p>Instead of 2 different DB actions. It became one DB Action.</p>
 
 <p>The update query does not need to bring data back to Webflux server to manipulate the document. The document is manupulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.</p>
+
+<h1 id="extra-finding-root-cause-and-fixing-with-tdd"><strong>Extra</strong>: Finding root cause and fixing with TDD</h1>
+
+<p>I’m gonna try to provide examples of TDD wherever possible.</p>
+
+<p>To find the cause, I suspected the data was being saved parallelly.</p>
+
+<p>So I created a unit test as follows.</p>
+
+<ol>
+  <li>Manipulate documents parallel. This was done with <code class="language-plaintext highlighter-rouge">@RepeatableTest</code> and <code class="language-plaintext highlighter-rouge">@Execution(CONCURENT)</code></li>
+  <li>Assertion wasn’t straight forward with <code class="language-plaintext highlighter-rouge">@RepeatableTest</code> so I insteead collected all version in a static list.</li>
+  <li>After all <code class="language-plaintext highlighter-rouge">@RepeatableTests</code> were over I asserted if version was as expected.</li>
+  <li>I ran the code and saw <code class="language-plaintext highlighter-rouge">OptimisticLockingException</code> occuring and assertion failing.</li>
+  <li>I replaced <code class="language-plaintext highlighter-rouge">repository</code> <code class="language-plaintext highlighter-rouge">find</code> and <code class="language-plaintext highlighter-rouge">save</code> with <code class="language-plaintext highlighter-rouge">MongoOperation</code> <code class="language-plaintext highlighter-rouge">update</code> as described above.</li>
+  <li>The test passed.</li>
+</ol>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Nested</span>
+<span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"WHEN upsert is called parallely"</span><span class="o">)</span>
+<span class="kd">class</span> <span class="nc">WhenUpsertIsCalledParallelyTest</span><span class="o">{</span>
+    
+    <span class="kd">static</span> <span class="kd">final</span> <span class="nc">Long</span> <span class="n">repeatTimes</span> <span class="o">=</span> <span class="mi">100</span><span class="o">;</span>
+
+    <span class="kd">static</span> <span class="kd">final</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Long</span><span class="o">&gt;</span> <span class="n">allVersions</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+
+    <span class="nd">@RepeatableTest</span><span class="o">(</span><span class="n">repeatTimes</span><span class="o">)</span>                           <span class="c1">// Part of Step 1</span>
+    <span class="nd">@Execution</span><span class="o">(</span><span class="no">CONCURRENT</span><span class="o">)</span>                                 <span class="c1">// Part of Step 1</span>
+    <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"SHOULD manipulate a single record"</span><span class="o">)</span>
+    <span class="kt">void</span> <span class="nf">shouldManipulateASingleRecord</span><span class="o">(){</span>
+        <span class="c1">// when:</span>
+            <span class="nc">SampleDocument</span> <span class="n">document</span> <span class="o">=</span> <span class="n">myService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="n">someString</span><span class="o">).</span><span class="na">block</span><span class="o">();</span> <span class="c1">// Part of Step 1</span>
+        <span class="c1">// data collection:</span>
+            <span class="n">allVersions</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">document</span><span class="o">.</span><span class="na">getVersion</span><span class="o">());</span>         <span class="c1">// Part of Step 2</span>
+    <span class="o">}</span>
+
+    <span class="nd">@AfterAll</span>
+    <span class="kd">static</span> <span class="kt">void</span> <span class="nf">assertVersionIsRepeatTimes</span><span class="o">(){</span>
+        <span class="n">assertThat</span><span class="o">(</span><span class="nc">Collections</span><span class="o">.</span><span class="na">max</span><span class="o">(</span><span class="n">version</span><span class="o">))</span>                <span class="c1">// Part of Step 3</span>
+            <span class="o">.</span><span class="na">isEqualTo</span><span class="o">(</span><span class="n">repeatTimes</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
