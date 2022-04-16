@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [database, mongodb, spring-boot]
+categories: [database, mongodb, spring-boot, tdd-example]
 last_modified_at: 2022-04-16T20:52:08.052481
 last-modified-purpose:
 permalink: /optimistic-locking-exception-mongodb/
@@ -10,6 +10,8 @@ title: Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webf
 ---
 
 I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused `OptimisticLockingException`.
+
+# **Problem**
 
 I had a `@Document` which had to be manupilated. 
 
@@ -64,6 +66,8 @@ In a concurrent environment like webflux when multiple thread are reading from t
 
 This would specially be true where there are lots of upsert/update queries.
 
+# **Solution**
+
 To fix this I switched to manually writing an update query and executing with `MongoOperation`. 
 
 
@@ -76,3 +80,45 @@ return mongoOperation.findAndModify(query(where("custom_id").is(someString)), up
 Instead of 2 different DB actions. It became one DB Action.
 
 The update query does not need to bring data back to Webflux server to manipulate the document. The document is manupulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.
+
+# **Extra**: Finding root cause and fixing with TDD
+
+I'm gonna try to provide examples of TDD wherever possible.
+
+To find the cause, I suspected the data was being saved parallelly.
+
+So I created a unit test as follows.
+
+1. Manipulate documents parallel. This was done with `@RepeatableTest` and `@Execution(CONCURENT)`
+2. Assertion wasn't straight forward with `@RepeatableTest` so I insteead collected all version in a static list.
+3. After all `@RepeatableTests` were over I asserted if version was as expected. 
+4. I ran the code and saw `OptimisticLockingException` occuring and assertion failing.
+5. I replaced `repository` `find` and `save` with `MongoOperation` `update` as described above.
+6. The test passed.
+
+```java
+@Nested
+@DisplayName("WHEN upsert is called parallely")
+class WhenUpsertIsCalledParallelyTest{
+    
+    static final Long repeatTimes = 100;
+
+    static final List<Long> allVersions = new ArrayList<>();
+
+    @RepeatableTest(repeatTimes)                           // Part of Step 1
+    @Execution(CONCURRENT)                                 // Part of Step 1
+    @DisplayName("SHOULD manipulate a single record")
+    void shouldManipulateASingleRecord(){
+        // when:
+            SampleDocument document = myService.upsert(someString).block(); // Part of Step 1
+        // data collection:
+            allVersions.add(document.getVersion());         // Part of Step 2
+    }
+
+    @AfterAll
+    static void assertVersionIsRepeatTimes(){
+        assertThat(Collections.max(version))                // Part of Step 3
+            .isEqualTo(repeatTimes);
+    }
+}
+```
