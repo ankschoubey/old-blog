@@ -229,7 +229,7 @@ window.onload = wrap_img;
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">repository</span><span class="o">.</span><span class="na">findByCustomId</span><span class="o">(</span><span class="n">someString</span><span class="o">)</span>   <span class="c1">// Step 1</span>
 <span class="o">.</span><span class="na">flatmap</span><span class="o">(</span><span class="n">sampleDocument</span><span class="o">-&gt;{</span>
-    <span class="c1">// manupulation of document         // Step 2</span>
+    <span class="c1">// manipulation of document         // Step 2</span>
     <span class="k">return</span> <span class="nc">Mono</span><span class="o">.</span><span class="na">just</span><span class="o">(</span><span class="n">sampleDocument</span><span class="o">)</span>
 <span class="o">})</span>
 <span class="o">.</span><span class="na">flatmap</span><span class="o">(</span><span class="n">sampleDocument</span> <span class="o">-&gt;</span> 
@@ -258,7 +258,7 @@ window.onload = wrap_img;
 
 <p>Instead of 2 different DB actions. It became one DB Action.</p>
 
-<p>The update query does not need to bring data back to Webflux server to manipulate the document. The document is manupulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.</p>
+<p>The update query does not need to bring data back to Webflux server to manipulate the document. The document is manipulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.</p>
 
 <h1 id="extra-finding-root-cause-and-fixing-with-tdd"><strong>Extra</strong>: Finding root cause and fixing with TDD</h1>
 
