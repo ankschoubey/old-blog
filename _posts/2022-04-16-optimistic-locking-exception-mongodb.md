@@ -48,7 +48,7 @@ To update the document I had webflux code written like this:
 ```java
 repository.findByCustomId(someString)   // Step 1
 .flatmap(sampleDocument->{
-    // manupulation of document         // Step 2
+    // manipulation of document         // Step 2
     return Mono.just(sampleDocument)
 })
 .flatmap(sampleDocument -> 
@@ -79,7 +79,7 @@ return mongoOperation.findAndModify(query(where("custom_id").is(someString)), up
 
 Instead of 2 different DB actions. It became one DB Action.
 
-The update query does not need to bring data back to Webflux server to manipulate the document. The document is manupulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.
+The update query does not need to bring data back to Webflux server to manipulate the document. The document is manipulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.
 
 # **Extra**: Finding root cause and fixing with TDD
 
