@@ -19,7 +19,6 @@ So it was something like this
 
 **SampleDocument.java**
 ``` java
-
 @Document("sample_document")
 class SampleDocument{
     @Version
@@ -35,7 +34,6 @@ class SampleDocument{
 **SampleRepository.java**
 
 ```java
-
 interface SampleRepository extends ReactiveMongoRepository <SampleDocument>{
     Mono<SampleDocument> findByCustomId(String customId);
 }
