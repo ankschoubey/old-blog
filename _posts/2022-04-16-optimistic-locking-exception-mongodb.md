@@ -31,6 +31,8 @@ class SampleDocument{
 }
 ```
 
+Notice `@Version` annotation
+
 **SampleRepository.java**
 
 ```java
