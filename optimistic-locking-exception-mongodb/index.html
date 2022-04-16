@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Solving a Optimistic Locking Excepiton During Upsert in MongoDB-Spring Webflux | Ankush</title>
+<title>Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Solving a Optimistic Locking Excepiton During Upsert in MongoDB-Spring Webflux" />
+<meta property="og:title" content="Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException." />
 <meta property="og:description" content="I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException." />
@@ -16,7 +16,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-04-16T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/optimistic-locking-exception-mongodb/","headline":"Solving a Optimistic Locking Excepiton During Upsert in MongoDB-Spring Webflux","dateModified":"2022-04-16T15:52:08-05:00","datePublished":"2022-04-16T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/optimistic-locking-exception-mongodb/"},"description":"I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/optimistic-locking-exception-mongodb/","headline":"Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux","dateModified":"2022-04-16T15:52:08-05:00","datePublished":"2022-04-16T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/optimistic-locking-exception-mongodb/"},"description":"I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -113,7 +113,7 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Solving a Optimistic Locking Excepiton During Upsert in MongoDB-Spring Webflux</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux</h1>
 
     <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-04-16T00:00:00-05:00" itemprop="datePublished">
         Written: Apr 16, 2022
@@ -191,7 +191,7 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.</p>
+    <p>I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused <code class="language-plaintext highlighter-rouge">OptimisticLockingException</code>.</p>
 
 <p>I had a <code class="language-plaintext highlighter-rouge">@Document</code> which had to be manupilated.</p>
 
@@ -237,11 +237,11 @@ window.onload = wrap_img;
 
 <p>This was what caused the problem.</p>
 
-<p>MongoDB uses version field in a document to maintain Locking. If the current version is 10 and you try to save 8 then this would lead to OptimisticLockingException.</p>
+<p>MongoDB uses version field in a document to maintain Locking. If the current <code class="language-plaintext highlighter-rouge">version</code> is <code class="language-plaintext highlighter-rouge">10</code> and you try to save <code class="language-plaintext highlighter-rouge">8</code> then this would lead to <code class="language-plaintext highlighter-rouge">OptimisticLockingException</code>.</p>
 
 <p>In a concurrent environment like webflux when multiple thread are reading from the same data, it’s highly likely that the order the record is updated by some other thread before the current thread saves the data again.</p>
 
-<p>This would specially be true where there are lots of update queries.</p>
+<p>This would specially be true where there are lots of upsert/update queries.</p>
 
 <p>To fix this I switched to manually writing an update query and executing with <code class="language-plaintext highlighter-rouge">MongoOperation</code>.</p>
 
@@ -253,7 +253,6 @@ window.onload = wrap_img;
 <p>Instead of 2 different DB actions. It became one DB Action.</p>
 
 <p>The update query does not need to bring data back to Webflux server to manipulate the document. The document is manupulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.</p>
-
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"

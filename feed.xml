@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-16T01:44:12-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-16T01:46:14-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,7 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving a Optimistic Locking Excepiton During Upsert in MongoDB-Spring Webflux</title><link href="www.ankushchoubey.com/optimistic-locking-exception-mongodb/" rel="alternate" type="text/html" title="Solving a Optimistic Locking Excepiton During Upsert in MongoDB-Spring Webflux" /><published>2022-04-16T00:00:00-05:00</published><updated>2022-04-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/optimistic-locking-exception-mongodb</id><content type="html" xml:base="www.ankushchoubey.com/optimistic-locking-exception-mongodb/">&lt;p&gt;I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux</title><link href="www.ankushchoubey.com/optimistic-locking-exception-mongodb/" rel="alternate" type="text/html" title="Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux" /><published>2022-04-16T00:00:00-05:00</published><updated>2022-04-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/optimistic-locking-exception-mongodb</id><content type="html" xml:base="www.ankushchoubey.com/optimistic-locking-exception-mongodb/">&lt;p&gt;I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;I had a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Document&lt;/code&gt; which had to be manupilated.&lt;/p&gt;
 
@@ -95,11 +95,11 @@
 
 &lt;p&gt;This was what caused the problem.&lt;/p&gt;
 
-&lt;p&gt;MongoDB uses version field in a document to maintain Locking. If the current version is 10 and you try to save 8 then this would lead to OptimisticLockingException.&lt;/p&gt;
+&lt;p&gt;MongoDB uses version field in a document to maintain Locking. If the current &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;version&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt; and you try to save &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8&lt;/code&gt; then this would lead to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;In a concurrent environment like webflux when multiple thread are reading from the same data, it’s highly likely that the order the record is updated by some other thread before the current thread saves the data again.&lt;/p&gt;
 
-&lt;p&gt;This would specially be true where there are lots of update queries.&lt;/p&gt;
+&lt;p&gt;This would specially be true where there are lots of upsert/update queries.&lt;/p&gt;
 
 &lt;p&gt;To fix this I switched to manually writing an update query and executing with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MongoOperation&lt;/code&gt;.&lt;/p&gt;
 
