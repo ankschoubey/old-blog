@@ -200,8 +200,7 @@ window.onload = wrap_img;
 <p>So it was something like this</p>
 
 <p><strong>SampleDocument.java</strong></p>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="nd">@Document</span><span class="o">(</span><span class="s">"sample_document"</span><span class="o">)</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Document</span><span class="o">(</span><span class="s">"sample_document"</span><span class="o">)</span>
 <span class="kd">class</span> <span class="nc">SampleDocument</span><span class="o">{</span>
     <span class="nd">@Version</span>
     <span class="nc">Long</span> <span class="n">version</span><span class="o">;</span>
@@ -215,8 +214,7 @@ window.onload = wrap_img;
 
 <p><strong>SampleRepository.java</strong></p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="kd">interface</span> <span class="nc">SampleRepository</span> <span class="kd">extends</span> <span class="nc">ReactiveMongoRepository</span> <span class="o">&lt;</span><span class="nc">SampleDocument</span><span class="o">&gt;{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">interface</span> <span class="nc">SampleRepository</span> <span class="kd">extends</span> <span class="nc">ReactiveMongoRepository</span> <span class="o">&lt;</span><span class="nc">SampleDocument</span><span class="o">&gt;{</span>
     <span class="nc">Mono</span><span class="o">&lt;</span><span class="nc">SampleDocument</span><span class="o">&gt;</span> <span class="nf">findByCustomId</span><span class="o">(</span><span class="nc">String</span> <span class="n">customId</span><span class="o">);</span>
 <span class="o">}</span>
 </code></pre></div></div>
