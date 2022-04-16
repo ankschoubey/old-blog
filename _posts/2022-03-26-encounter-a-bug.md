@@ -9,7 +9,7 @@ permalink: /encounter-a-bug/
 title: Whenever you encounter a bug
 ---
 
-# Write a test
+# Write a test first
 
 Encountering a bug after development means your tests aren't good enough. (or you weren't doing TDD 😉)
 
