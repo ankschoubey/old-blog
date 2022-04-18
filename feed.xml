@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-16T02:10:00-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-18T15:20:17-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,67 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux</title><link href="www.ankushchoubey.com/optimistic-locking-exception-mongodb/" rel="alternate" type="text/html" title="Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux" /><published>2022-04-16T00:00:00-05:00</published><updated>2022-04-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/optimistic-locking-exception-mongodb</id><content type="html" xml:base="www.ankushchoubey.com/optimistic-locking-exception-mongodb/">&lt;p&gt;I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt;.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Debugging Effectively</title><link href="www.ankushchoubey.com/debugging-effectively/" rel="alternate" type="text/html" title="Debugging Effectively" /><published>2022-04-19T00:00:00-05:00</published><updated>2022-04-19T15:52:08-05:00</updated><id>www.ankushchoubey.com/debugging</id><content type="html" xml:base="www.ankushchoubey.com/debugging-effectively/">&lt;p&gt;Debugging has a standard set of steps.&lt;/p&gt;
+
+&lt;p&gt;But we do stupid things like search on stackoverflow without even reading what the error is fully.&lt;/p&gt;
+
+&lt;p&gt;This wastes stupid amount of time. Usually, configuration bugs can be mitigated much more easily if one has read Documentation and knows the configuration.&lt;/p&gt;
+
+&lt;h1 id=&quot;know-exactly-what-the-error-is&quot;&gt;Know exactly what the error is&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the error&lt;/li&gt;
+  &lt;li&gt;Really understand the error&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’d like to be more methodical, add it to your bug card.&lt;/p&gt;
+
+&lt;h1 id=&quot;look-at-logs&quot;&gt;Look at logs.&lt;/h1&gt;
+
+&lt;p&gt;Set appropriate log level for the packages involved. If it’s harder to understand.&lt;/p&gt;
+
+&lt;h1 id=&quot;isolate-the-codeproblem&quot;&gt;Isolate the code/problem.&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Does error come on one setting/env/deployment but not other? If yes: why so?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;learn-to-use-debugger-mode-and-trace&quot;&gt;Learn to use debugger mode and trace.&lt;/h1&gt;
+
+&lt;p&gt;Fixing your debugging tool may help.&lt;/p&gt;
+
+&lt;h1 id=&quot;replicate-environment&quot;&gt;Replicate environment&lt;/h1&gt;
+
+&lt;p&gt;This can be done in several ways:&lt;/p&gt;
+
+&lt;h2 id=&quot;create-tests&quot;&gt;Create tests&lt;/h2&gt;
+
+&lt;p&gt;This could be unit/integration/etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;if-you-cant-write-a-test-can-you-replicate-it-locally&quot;&gt;If you can’t write a test, can you replicate it locally?&lt;/h2&gt;
+
+&lt;p&gt;This could mean connecting UI and backend, upping some docker containers, or Minikube.&lt;/p&gt;
+
+&lt;h1 id=&quot;finding-solution&quot;&gt;Finding solution&lt;/h1&gt;
+
+&lt;p&gt;If it’s something that you can’t find,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Glance through documentation first. (Idealistic)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;Ask:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ask People who may know.&lt;/li&gt;
+  &lt;li&gt;Teams who may have faced the issue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Or read stack overflow or github issues.&lt;/p&gt;
+
+&lt;p&gt;If you still can’t find, ask a question on Stack-overflow. And when you do find the solution by yourself, post an answer.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Debugging has a standard set of steps.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux</title><link href="www.ankushchoubey.com/optimistic-locking-exception-mongodb/" rel="alternate" type="text/html" title="Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux" /><published>2022-04-16T00:00:00-05:00</published><updated>2022-04-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/optimistic-locking-exception-mongodb</id><content type="html" xml:base="www.ankushchoubey.com/optimistic-locking-exception-mongodb/">&lt;p&gt;I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h1 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h1&gt;
 
@@ -126,7 +186,7 @@
 
 &lt;ol&gt;
   &lt;li&gt;Manipulate documents parallel. This was done with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTest&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Execution(CONCURENT)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Assertion wasn’t straight forward with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTest&lt;/code&gt; so I insteead collected all version in a static list.&lt;/li&gt;
+  &lt;li&gt;Assertion wasn’t straight forward with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTest&lt;/code&gt; so I instead collected all version in a static list.&lt;/li&gt;
   &lt;li&gt;After all &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTests&lt;/code&gt; were over I asserted if version was as expected.&lt;/li&gt;
   &lt;li&gt;I ran the code and saw &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt; occuring and assertion failing.&lt;/li&gt;
   &lt;li&gt;I replaced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repository&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;save&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MongoOperation&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;update&lt;/code&gt; as described above.&lt;/li&gt;
@@ -205,9 +265,11 @@
   &lt;li&gt;Exceptions -&amp;gt; Log level ERROR&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;p&gt;After writing a piece a code, look at it and add logs wherever needed.&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;writing-better-messages&quot;&gt;&lt;strong&gt;Writing better messages&lt;/strong&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;what-to-log&quot;&gt;&lt;strong&gt;What to log&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;Log messages should include the details of variables involved.&lt;/p&gt;
 
@@ -363,143 +425,4 @@
 
 &lt;p&gt;Big 5 is personality test developed by Jordan Peterson.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4IdzC6mJzLA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="team-work" /><category term="draft" /><summary type="html">I am having a lot of problems with understanding different types of people and want map to understand them easily.</summary></entry><entry><title type="html">Writing cleaner tests with method/when/should blocks</title><link href="www.ankushchoubey.com/method-when-should/" rel="alternate" type="text/html" title="Writing cleaner tests with method/when/should blocks" /><published>2022-03-19T00:00:00-05:00</published><updated>2022-03-19T15:52:08-05:00</updated><id>www.ankushchoubey.com/method-when-should</id><content type="html" xml:base="www.ankushchoubey.com/method-when-should/">&lt;h1 id=&quot;problem-description&quot;&gt;Problem Description&lt;/h1&gt;
-
-&lt;p&gt;Often tests code style is ignored. Having different test writing styles makes it harder to write quality tests. Tests quality is as important as code. This post explores a effective template I developed to help write cleaner tests and keep them uniform.&lt;/p&gt;
-
-&lt;h1 id=&quot;methodwhenshould-blocks&quot;&gt;method/when/should blocks&lt;/h1&gt;
-
-&lt;p&gt;there are 3 main blocks. each block in nested within parent block.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;method&lt;/strong&gt; block
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; block
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; block
-            &lt;ul&gt;
-              &lt;li&gt;given/when/then mini-blocks&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;method block&lt;/strong&gt;: is name of method. all tests related to a particular method will be within this block.abstract&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;WHEN block&lt;/strong&gt;: describes the condition over a method.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SHOULD block&lt;/strong&gt;: describes the assertion.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;GIVEN/WHEN/THEN mini-blocks&lt;/strong&gt;: helps keep tests clean&lt;/p&gt;
-
-&lt;p&gt;You may have noticed &lt;strong&gt;WHEN&lt;/strong&gt;, &lt;strong&gt;SHOULD&lt;/strong&gt; and &lt;strong&gt;AND&lt;/strong&gt; are capitalized. This is by design. This helps highlight logic.&lt;/p&gt;
-
-&lt;h1 id=&quot;examples&quot;&gt;Examples&lt;/h1&gt;
-
-&lt;p&gt;1 - &lt;strong&gt;We are creating a method which inserts new value if id does not exists in database else updates existing value.class&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;upsert&lt;/strong&gt; method
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; value exists
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; update value&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; does not exists
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; insert new value&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2 - &lt;strong&gt;We have a UI components which should message “No Content” if data items is not present. Else it shows a list of item names&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;displayItems&lt;/strong&gt; method
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; data is not present
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; display “No Content”&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; data exists
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;SHOULD&lt;/strong&gt; display list of item names&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;benefits&quot;&gt;Benefits&lt;/h1&gt;
-
-&lt;p&gt;method/when/should block is perfect companion for TDD, is language agnostic and can be easily used with templating features like IntelliJ’s live template.&lt;/p&gt;
-
-&lt;p&gt;Having specific blocks means that test descriptions are always written a certain way. This clarifies thinking and makes sharing and understanding easier.&lt;/p&gt;
-
-&lt;p&gt;Blocks group tests together, making them easier to find.&lt;/p&gt;
-
-&lt;p&gt;Also, when tests run in IDE like IntelliJ, the output is much cleaner. The example section above is a good representation of this.&lt;/p&gt;
-
-&lt;h1 id=&quot;template-for-junit&quot;&gt;Template for JUnit&lt;/h1&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;NameOfClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Tests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{methodName} method&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;MethodName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Tests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-     
-        &lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
-        &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;WHEN {condition description}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ConditionDescription&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Tests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        
-            &lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
-            &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {assertion description}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;AssertionDescription&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
-                &lt;span class=&quot;c1&quot;&gt;// GIVEN&lt;/span&gt;
-                    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;setting&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conditions&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;WHEN&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-          
-                &lt;span class=&quot;c1&quot;&gt;// WHEN&lt;/span&gt;
-                    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;running&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;actions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-                
-                &lt;span class=&quot;c1&quot;&gt;// THEN&lt;/span&gt;
-                    &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Given, When and Then are mini-blocks. The code will be written after an tab intend.&lt;/p&gt;
-
-&lt;!-- &lt;script src=&quot;https://gist.github.com/ankschoubey/ea3cb41308c19f56c69eb40d7e05cec1.js&quot;&gt;&lt;/script&gt; --&gt;
-
-&lt;h1 id=&quot;more-extentions&quot;&gt;More extentions&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;AND block&lt;/strong&gt;: Describes more conditions for &lt;strong&gt;WHEN&lt;/strong&gt; block.&lt;/p&gt;
-
-&lt;p&gt;Usage:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;WHEN&lt;/strong&gt; a condition
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;AND&lt;/strong&gt; another conditions&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;More SHOULD Blocks&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SHOULD-NOT&lt;/li&gt;
-  &lt;li&gt;SHOULD THROW&lt;/li&gt;
-  &lt;li&gt;SHOULD-NOT THROW&lt;/li&gt;
-  &lt;li&gt;SHOULD CALL&lt;/li&gt;
-  &lt;li&gt;SHOULD-NOT CALL&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><category term="favorite" /><summary type="html">Problem Description</summary></entry></feed>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4IdzC6mJzLA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="team-work" /><category term="draft" /><summary type="html">I am having a lot of problems with understanding different types of people and want map to understand them easily.</summary></entry></feed>

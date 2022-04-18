@@ -270,7 +270,7 @@ window.onload = wrap_img;
 
 <ol>
   <li>Manipulate documents parallel. This was done with <code class="language-plaintext highlighter-rouge">@RepeatableTest</code> and <code class="language-plaintext highlighter-rouge">@Execution(CONCURENT)</code></li>
-  <li>Assertion wasn’t straight forward with <code class="language-plaintext highlighter-rouge">@RepeatableTest</code> so I insteead collected all version in a static list.</li>
+  <li>Assertion wasn’t straight forward with <code class="language-plaintext highlighter-rouge">@RepeatableTest</code> so I instead collected all version in a static list.</li>
   <li>After all <code class="language-plaintext highlighter-rouge">@RepeatableTests</code> were over I asserted if version was as expected.</li>
   <li>I ran the code and saw <code class="language-plaintext highlighter-rouge">OptimisticLockingException</code> occuring and assertion failing.</li>
   <li>I replaced <code class="language-plaintext highlighter-rouge">repository</code> <code class="language-plaintext highlighter-rouge">find</code> and <code class="language-plaintext highlighter-rouge">save</code> with <code class="language-plaintext highlighter-rouge">MongoOperation</code> <code class="language-plaintext highlighter-rouge">update</code> as described above.</li>
