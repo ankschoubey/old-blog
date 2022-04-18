@@ -29,9 +29,11 @@ There are 4 main places to log:
 3. Major Processes -> Log level INFO
 4. Exceptions -> Log level ERROR
 
+After writing a piece a code, look at it and add logs wherever needed.
+
 ***
 
-# **Writing better messages**
+# **What to log**
 
 Log messages should include the details of variables involved.
 

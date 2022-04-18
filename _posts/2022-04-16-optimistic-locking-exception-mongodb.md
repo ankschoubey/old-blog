@@ -90,7 +90,7 @@ To find the cause, I suspected the data was being saved parallelly.
 So I created a unit test as follows.
 
 1. Manipulate documents parallel. This was done with `@RepeatableTest` and `@Execution(CONCURENT)`
-2. Assertion wasn't straight forward with `@RepeatableTest` so I insteead collected all version in a static list.
+2. Assertion wasn't straight forward with `@RepeatableTest` so I instead collected all version in a static list.
 3. After all `@RepeatableTests` were over I asserted if version was as expected. 
 4. I ran the code and saw `OptimisticLockingException` occuring and assertion failing.
 5. I replaced `repository` `find` and `save` with `MongoOperation` `update` as described above.
