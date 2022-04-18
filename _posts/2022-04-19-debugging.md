@@ -7,8 +7,6 @@ last_modified_at: 2022-04-19T20:52:08.052481
 last-modified-purpose:
 permalink: /debugging-effectively/
 title: Debugging Effectively
-hide: true
-image: /images/n-plus-one.svg
 ---
 
 Debugging has a standard set of steps.
