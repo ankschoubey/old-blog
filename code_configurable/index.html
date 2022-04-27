@@ -210,7 +210,7 @@ window.onload = wrap_img;
 
 <p>One of the easiest ways to do it is make all constants have default value but be configurable.</p>
 
-<p>For example in Spring Boot you could use @Value with default value.</p>
+<p>For example in Spring Boot you could use <code class="language-plaintext highlighter-rouge">@Value</code> with default value.</p>
 
 <p><strong>Bad:</strong></p>
 
@@ -219,7 +219,7 @@ window.onload = wrap_img;
 
 <p><strong>Good:</strong></p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Value</span><span class="o">(</span><span class="err">$</span><span class="o">{</span><span class="n">success</span><span class="o">.</span><span class="na">message</span><span class="o">:</span><span class="no">SUCCESSFULL</span><span class="o">})</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Value</span><span class="o">(</span><span class="s">"${success.message:SUCCESSFULL}"</span><span class="o">)</span>
 <span class="kd">public</span> <span class="nc">String</span> <span class="n">successMessage</span><span class="o">;</span>
 </code></pre></div></div>
 
