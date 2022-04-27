@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [personal, draft]
+categories: []
 last_modified_at: 2022-01-15T20:52:08.052481
 last-modified-purpose:
 permalink: /stackoverflow/
