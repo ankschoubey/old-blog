@@ -26,13 +26,13 @@ Some ideas I found while experimenting on my own.
 
 ---
 
-## Usually building a software looks like this
+# Usually building a software looks like this
 
 You start small. But by the time you reach halfway, it becomes chaotic.
 
 ![https://bonkersworld.net/img/2011.11.15_building_software.png]({{ site.baseurl }}/images/2019-12-19-series-tips-on-writing-clean-code/1.png)
 
-## Reading vs Writing Code
+# Reading vs Writing Code
 
 While coding we spend more time reading the existing code than writing the code. We can estimate the ratio to be something like **10:1**.
 
@@ -42,7 +42,7 @@ Most of the time you are more likely to modify and improve your code than to pro
 
 For something we spend the most time on, it is very important that we make the process of reading and understanding our code easier for ourselves and other developers.
 
-## Why do we write bad code?
+# Why do we write bad code?
 
 1. Work needed to be done fast
 
@@ -54,7 +54,7 @@ For something we spend the most time on, it is very important that we make the p
 
 1. WE — Developers
 
-#### Work, for now, will clean up later
+## Work, for now, will clean up later
 
 If we don’t follow good coding guidelines, we risk initial coding speed for long term code quality and productivity.
 
@@ -62,11 +62,11 @@ Usually, once you start on a path you are more likely to continue on the same pa
 
 ![Some YouTube attribution #FA. Also need to find a sharper image]({{ site.baseurl }}/images/2019-12-19-series-tips-on-writing-clean-code/3.png)
 
-## What is Clean code?
+# What is Clean code?
 
 Constructing the simplest possible code that would solve your problem.
 
-##### Benefits
+## Benefits
 
 - Problems become easier to solve since code is modular.
 
