@@ -3,11 +3,10 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [personal]
+categories: []
 title: My First Program
 last_modified_at: 2021-08-01T20:42:15.693687
 permalink: /first-program/
-hide: true
 ---
 
 My first piece of code was a calculator in Visual Basic. It was 2005 and I was in 4th grade. My father sat beside be and taught me how to make it.

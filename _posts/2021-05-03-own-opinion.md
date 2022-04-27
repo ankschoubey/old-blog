@@ -3,11 +3,10 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, 30-seconds-reads]
+categories: [philosophical]
 title: Develop your own opinions and reasonings
 last_modified_at: 2021-08-01T20:42:15.650028
 permalink: /original-opinion/
-hide: true
 ---
 
 Authors/Experts are no different to us. They are human too. Their isn’t much to argue about logical facts. One cannot argue over statements like 1+1=2. But for other things there is always a room for introspection and finding flaws and fixing it.
