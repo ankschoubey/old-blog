@@ -27,7 +27,7 @@ Also, if there is something that some thing which requires user preference, then
 
 One of the easiest ways to do it is make all constants have default value but be configurable.
 
-For example in Spring Boot you could use @Value with default value.
+For example in Spring Boot you could use `@Value` with default value.
 
 **Bad:**
 
@@ -38,7 +38,7 @@ public static final String successMessage = "SUCCESSFUL";
 **Good:**
 
 ```java
-@Value(${success.message:SUCCESSFULL})
+@Value("${success.message:SUCCESSFULL}")
 public String successMessage;
 ```
 
