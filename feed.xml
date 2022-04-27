@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-27T03:40:59-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-04-27T05:57:53-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,37 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What to test to write after functional TDD</title><link href="www.ankushchoubey.com/after-tdd/" rel="alternate" type="text/html" title="What to test to write after functional TDD" /><published>2022-04-27T00:00:00-05:00</published><updated>2022-04-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/after-tdd</id><content type="html" xml:base="www.ankushchoubey.com/after-tdd/">&lt;p&gt;More than half of what you would write a test for would get decided by TDD. These would cover basic functionality.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What and when to publish on message queue</title><link href="www.ankushchoubey.com/what-when-to-publish/" rel="alternate" type="text/html" title="What and when to publish on message queue" /><published>2022-04-27T00:00:00-05:00</published><updated>2022-04-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/what-to-publish-on-kafka</id><content type="html" xml:base="www.ankushchoubey.com/what-when-to-publish/">&lt;p&gt;TLDR: Publish every business entities on each update/write. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;This is specially true for event driven systems.&lt;/p&gt;
+
+&lt;p&gt;Rather than writing code to manually publish after each save, we can make use of event listeners. Event listeners would run a piece of code each time a certain event like database save occurs.&lt;/p&gt;
+
+&lt;p&gt;For example: Spring Data Mongo has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AbstractEventListener&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ReactiveAfterSaveCallback&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleEntityDataPublisher&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ReactiveAfterSaveCallback&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;onAfterSave&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleEntity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;bson&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Document&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;just&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;doOnNext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;just&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;c1&quot;&gt;// code to publish&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;publishOn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Schedular&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;elastic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;subcribe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In above, Spring Webflux code, publishOn and subscribe ensure that publishing will run in a separate thread and doesn’t effect execution of the main thread.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Anadi Misra &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="spring-boot" /><category term="message-queue" /><summary type="html">TLDR: Publish every business entities on each update/write. 1 Anadi Misra &amp;#8617;</summary></entry><entry><title type="html">What to test to write after functional TDD</title><link href="www.ankushchoubey.com/after-tdd/" rel="alternate" type="text/html" title="What to test to write after functional TDD" /><published>2022-04-27T00:00:00-05:00</published><updated>2022-04-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/after-tdd</id><content type="html" xml:base="www.ankushchoubey.com/after-tdd/">&lt;p&gt;More than half of what you would write a test for would get decided by TDD. These would cover basic functionality.&lt;/p&gt;
 
 &lt;p&gt;Essentially all tests fix the input and check the output or internal state of the applicaiton.&lt;/p&gt;
 
@@ -418,23 +448,4 @@
   &lt;li&gt;TDD followed&lt;/li&gt;
   &lt;li&gt;Deployed&lt;/li&gt;
   &lt;li&gt;Product Owner Accepted Story&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="agile" /><summary type="html">I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.</summary></entry><entry><title type="html">One Month Microservice</title><link href="www.ankushchoubey.com/one-month-microservice/" rel="alternate" type="text/html" title="One Month Microservice" /><published>2022-03-21T00:00:00-05:00</published><updated>2022-03-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/1-month-microservice</id><content type="html" xml:base="www.ankushchoubey.com/one-month-microservice/">&lt;p&gt;I aspire to build microservices/microfrontends and deploy to production within a month.&lt;/p&gt;
-
-&lt;p&gt;A microservice should not be super big. If it is, it’s not micro anymore.&lt;/p&gt;
-
-&lt;p&gt;The idea with One Month Microservice is this.&lt;/p&gt;
-
-&lt;p&gt;One month and a synchronized-3-man-squad is enough to code up a microservice and deploy to production.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Assuming 3 weeks of coding.&lt;/li&gt;
-  &lt;li&gt;One week of deployment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If it’s takes more than 1 month the following may be reasons,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Learning curve for the particular microservice is too high&lt;/li&gt;
-  &lt;li&gt;New Team&lt;/li&gt;
-  &lt;li&gt;Design could be improved&lt;/li&gt;
-  &lt;li&gt;Microservice infrastucture (chassis) is not in place.&lt;/li&gt;
-  &lt;li&gt;Team isn’t a synchronized 3 man squad. aka it’s too big with a lot of moving pieces.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">I aspire to build microservices/microfrontends and deploy to production within a month.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="agile" /><summary type="html">I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.</summary></entry></feed>
