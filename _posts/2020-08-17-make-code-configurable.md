@@ -3,8 +3,8 @@ toc: true
 layout: post
 comments: true
 description: Things that should take 0 coding effort
-categories: [programming]
-last_modified_at: 2021-08-01T20:42:15.360789
+categories: [clean-code, spring-boot]
+last_modified_at: 2022-04-27T20:42:15.360789
 title: Make your code configurable.
 permalink: /code_configurable/
 ---
@@ -24,5 +24,22 @@ Something that can be changed with just a click of a button or by changing prope
 Small things such as these should not take any time.
 
 Also, if there is something that some thing which requires user preference, then give them the option to choose it themselves by making the configuration available to them via UI.
+
+One of the easiest ways to do it is make all constants have default value but be configurable.
+
+For example in Spring Boot you could use @Value with default value.
+
+**Bad:**
+
+```java
+public static final String successMessage = "SUCCESSFUL";
+```
+
+**Good:**
+
+```java
+@Value(${success.message:SUCCESSFULL})
+public String successMessage;
+```
 
 Similar: [Programming is now Configuring](/config/)

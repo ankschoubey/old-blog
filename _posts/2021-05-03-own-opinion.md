@@ -5,7 +5,7 @@ comments: true
 description:
 categories: [philosophical]
 title: Develop your own opinions and reasonings
-last_modified_at: 2021-08-01T20:42:15.650028
+last_modified_at: 2021-05-03T20:42:15.650028
 permalink: /original-opinion/
 ---
 
