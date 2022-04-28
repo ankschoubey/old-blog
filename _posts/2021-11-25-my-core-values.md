@@ -35,6 +35,8 @@ So, pick the heaviest weight you can take and push it towards the best aim you c
 
 Taking on responsibility voluntarily/facing the heaviest fear you can face is how you'll have your life sorted.
 
+Many times it's not our fault, but it's our responsibility.
+
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
 ## **Nirwana/Peace**: Don't suffer imagined troubles
@@ -44,6 +46,8 @@ Taking on responsibility voluntarily/facing the heaviest fear you can face is ho
 > All of humanity's problems stem from man's inability to sit quietly in a room alone.
 
 > Not wanting something is as good as having it.
+
+> **The Backwards Law**: Pursuing positive experience is a negative experience and accepting negative experience itself is a positive experience.
 
 Being unhappy is inefficient.
 
@@ -73,6 +77,8 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 **Role Models**: Naval Ravikant, Sam Harris, Jordan Peterson, Kapil Gupta, Mark Manson
 
+**Books**: Lying by Sam Harris
+
 ## **Systems**: Become an effortness executioner - 'Everthing is undercontrol'
 
 > You do not rise to the level of your goals. You fall to the level of your systems.
@@ -88,6 +94,8 @@ Systems allow you to free up your mental RAM. Systems break problems down. They 
 Systems can include by are not limited to: trained habits, routines, frameworks, automation, etc.
 
 **Role Models**: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman
+
+**Books**: Atomic Habits by James Clear
 
 ## **Inputs**: Focus of an eagle
 
@@ -107,6 +115,8 @@ Some things to consider:
 - Where and how you live. (#cleanYourRoom)
 
 **Role Models**: Ryan Holiday
+
+**Books**: Subtle at of not giving a fuck by Mark Manson
 
 ## **Time**: You don't have forever
 
@@ -149,6 +159,8 @@ No one is invincible. It's good and courageous to be vulnerable. To admit to fau
 Courage is exciting. It pushes to act beyond what one believes is possible. So get excited by the challenge and push yourself beyond what you think is possible.
 
 **Role Models**: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
+
+**Books**: Courage is Calling by Ryan Holiday
 
 ## **Team Work**: Node in a network
 
