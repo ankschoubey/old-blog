@@ -3,8 +3,8 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2022-03-27T20:52:08.052481
-last-modified-purpose: Added "Integrity"
+last_modified_at: 2022-04-29T20:52:08.052481
+last-modified-purpose: Added FOR and AGAINST values
 permalink: /my-core-values/
 title: My Core Values
 image: /images/my-core-values.jpg
@@ -248,16 +248,6 @@ Rational Thinking is precursor to rational behavior. But rational behavior shoul
 Rationality has 2 parts: Emotions + Logic. The game is to understand and make best decision that satisfy both.
 
 **Role Models**: Stoics
-
-## **Integrity**: Keeping your promises
-
-We build our lives on trust. Living with integrity is the way we build real trust. With ourselves and with others.
-
-Integrity is about being someone who does what they say they are going to do.
-
-It's okay not to promise something if you think you can't fulfill it. But if you have promised something, try to fulfill it to its best.
-
-We don't follow on integrity when we are un-decisive, we think of what's right, what's wrong. On one level integrity requires going beyond what's right and wrong and what's selfish at the moment and looking at the larger picture. As long as we are doing something which encompasses all, we are mostly on the right track. Then we need not second guess our decisions.
 
 ***
 
