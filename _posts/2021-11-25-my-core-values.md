@@ -65,6 +65,11 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 
 **Books**: Subtle at of not giving a fuck by Mark Manson
 
+**FOR**:
+
+- Internal Locus of Control
+- Optimism
+
 ## **Truth**: Unhide the fog by becoming truth seeking missile. 
 
 > Everything that’s best happens in truth. If it isn’t truth, then it isn’t the best.
@@ -87,6 +92,7 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 - Authenticity: Being the same person when no one is watching.
 - Integrity: the quality of being honest and having strong moral principles. Being whole and undivided.
+- Verbalize Thoughts
 
 **AGAINST**:
 
@@ -111,6 +117,10 @@ Systems can include by are not limited to: trained habits, routines, frameworks,
 **Role Models**: Elon Musk, Jordan Peterson, James Clear, Mark Manson, Ramit Sethi, Tim Ferriss, Naval Ravikant, Josh Kaufman
 
 **Books**: Atomic Habits by James Clear
+
+**FOR**:
+
+- Do-Something
 
 ## **Inputs**: Focus of an eagle
 
@@ -227,6 +237,8 @@ One can be strict with himself but has to be patient with others. And remember t
 
 - Trust
 - Care
+- Seek to understand then to be understood
+- Think Win-Win
 
 **AGAINST**:
 
