@@ -205,6 +205,7 @@ Courage is exciting. It pushes to act beyond what one believes is possible. So g
 
 - Take a little step outside your comfort zone.
 - Embrace change.
+- New experiences
 
 **AGAINST**:
 
