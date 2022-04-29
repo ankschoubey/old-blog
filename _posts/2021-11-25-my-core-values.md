@@ -63,6 +63,8 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 
 **Role Models**:  Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru
 
+**Books**: Subtle at of not giving a fuck by Mark Manson
+
 ## **Truth**: Unhide the fog by becoming truth seeking missile. 
 
 > Everything that’s best happens in truth. If it isn’t truth, then it isn’t the best.
