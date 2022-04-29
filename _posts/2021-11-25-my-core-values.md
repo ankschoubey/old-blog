@@ -29,6 +29,8 @@ I want things to be as "sorted" in the long term as possible without being super
 
 > Put first things first.
 
+> With great responsibility comes great power.
+
 Responsibility provides meaning. By taking on responsibilities voluntarily and facing your fears, you'll avoid being nihilistic. 
 
 So, pick the heaviest weight you can take and push it towards the best aim you can find. Then at least you can know, "Dumb as I am, I can at least push a thing from point A to point B" [^1]
@@ -79,6 +81,17 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 **Books**: Lying by Sam Harris
 
+**FOR**:
+
+- Authenticity: Being the same person when no one is watching.
+- Integrity: the quality of being honest and having strong moral principles. Being whole and undivided.
+
+**AGAINST**:
+
+- Lieing
+- Deception
+- Hiding truth for short term gain
+
 ## **Systems**: Become an effortness executioner - 'Everthing is undercontrol'
 
 > You do not rise to the level of your goals. You fall to the level of your systems.
@@ -105,6 +118,8 @@ Systems can include by are not limited to: trained habits, routines, frameworks,
 
 > Less is more
 
+> Pay stupid games. Win stupid prices.
+
 You are what you feed yourself. Inputs matter because not only do they encourage certain behaviors, but they impact your everyday experience.
 
 Over the long term, you want "inputs" in your life to push yourself in the desired direction.
@@ -116,7 +131,7 @@ Some things to consider:
 
 **Role Models**: Ryan Holiday
 
-**Books**: Subtle at of not giving a fuck by Mark Manson
+**Books**: Subtle at of not giving a fuck by Mark Manson, Stillness by Ryan Holiday
 
 ## **Time**: You don't have forever
 
@@ -138,6 +153,18 @@ Life is short. Speed of implementation matters a lot. Being impatient can be a g
 Be impatient with yourself and a bit patient with others.
 
 **Role Models**: Elon Musk, Jordan Peterson, Ryan Holiday, Cal Newport
+
+**FOR**:
+
+- Planning every hour of the day
+- Reducing context switching by Monotasking and Batch processing.
+
+**AGAINST**:
+
+- Lying in bed all day
+- Addictions
+- Social Approval
+- Status Game
 
 ## **Courage is calling**: The cave you fear to enter holds the treasure you seek.
 
@@ -162,6 +189,15 @@ Courage is exciting. It pushes to act beyond what one believes is possible. So g
 
 **Books**: Courage is Calling by Ryan Holiday
 
+**FOR**:
+
+- Take a little step outside your comfort zone.
+- Embrace change.
+
+**AGAINST**:
+
+- Excessive Flinch
+
 ## **Team Work**: Node in a network
 
 > Treat others like you want to be treated
@@ -184,6 +220,16 @@ This also requires a level of self awareness and knowing how your interaction/qu
 One can be strict with himself but has to be patient with others. And remember that you are probably not right so listen to people carefully -> Openness.
 
 **Role Models**: Avengers, Straw Hat Crew (One Piece), Jura Tempest Federation (That Time I Got Reincarnated as a Slime), Some family related parts of Peaky Blinders
+
+**FOR**:
+
+- Trust
+- Care
+
+**AGAINST**:
+
+- Drama Triangle
+- Betrayal
 
 ## **Rational Behaviour**: Real wisdom is an action
 
