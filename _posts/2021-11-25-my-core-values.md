@@ -264,6 +264,19 @@ Rationality has 2 parts: Emotions + Logic. The game is to understand and make be
 
 **Role Models**: Stoics
 
+**FOR**:
+
+- Detach: Think from an outsider's perspective. Like you are giving advice to someone else
+    - If this was for someone I know, what would I advice them? Often this advice would be different and more rational.
+
+**AGAINST**:
+
+- Getting confused
+- Not taking action
+- Being Myopic
+- Vindictive
+- Emotional
+
 ***
 
 I am trying make these values my second nature by forming habits. The ideal goal is identity level change [^4] but it will take time which is why I haven't published my post on it.
