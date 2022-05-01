@@ -244,6 +244,7 @@ One can be strict with himself but has to be patient with others. And remember t
 **AGAINST**:
 
 - Drama Triangle
+- People Pleasing
 - Betrayal
 
 ## **Rational Behaviour**: Real wisdom is an action
