@@ -19,6 +19,8 @@ I want things to be as "sorted" in the long term as possible without being super
 
 ## **Responsibility**: It's not worth having ego but no one will save you.
 
+**IDENTITY**: Responsible
+
 > What emerges from lack of responsibility is chaos
 
 > Turn the obstacles up side down.
@@ -41,7 +43,9 @@ Many times it's not our fault, but it's our responsibility.
 
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
-## **Nirwana/Peace**: Don't suffer imagined troubles
+## **Peace**: Don't suffer imagined troubles
+
+**IDENTITY**: Peaceful
 
 > Happiness is a single player game. It is a skill that you develop and a choice that you make.
 
@@ -71,6 +75,8 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 - Optimism
 
 ## **Truth**: Unhide the fog by becoming truth seeking missile. 
+
+**IDENTITY**: Honest
 
 > Everything that’s best happens in truth. If it isn’t truth, then it isn’t the best.
 
@@ -102,6 +108,8 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 ## **Systems**: Become an effortness executioner - 'Everthing is undercontrol'
 
+**IDENTITY**: Organized
+
 > You do not rise to the level of your goals. You fall to the level of your systems.
 
 > Rome wasn’t built in a day
@@ -122,7 +130,9 @@ Systems can include by are not limited to: trained habits, routines, frameworks,
 
 - Do-Something
 
-## **Inputs**: Focus of an eagle
+## **Focus**: of an eagle
+
+**IDENTITY**: Focused
 
 > If more information was the answer, we’d all be billionaires with perfect abs
 
@@ -146,6 +156,8 @@ Some things to consider:
 **Books**: Subtle at of not giving a fuck by Mark Manson, Stillness by Ryan Holiday
 
 ## **Time**: You don't have forever
+
+**IDENTITY**: Productive
 
 > It’s not that we have a short time to live but we waste a lot of it
 
@@ -180,6 +192,8 @@ Be impatient with yourself and a bit patient with others.
 
 ## **Courage is calling**: The cave you fear to enter holds the treasure you seek.
 
+**IDENTITY**: Courageous 
+
 {% include image.html file='/images/core-values/cave-you-seek.jpg' caption='Illustration by Justin Gerard' %}
 [^5]
 
@@ -212,6 +226,8 @@ Courage is exciting. It pushes to act beyond what one believes is possible. So g
 - Excessive Flinch
 
 ## **Team Work**: Node in a network
+
+**IDENTITY**: Caring, Helpful 
 
 > Treat others like you want to be treated
 
@@ -248,6 +264,8 @@ One can be strict with himself but has to be patient with others. And remember t
 - Betrayal
 
 ## **Rational Behaviour**: Real wisdom is an action
+
+**IDENTITY**: Rational 
 
 > Delay Gratification. Choose long-term over short-term.
 
