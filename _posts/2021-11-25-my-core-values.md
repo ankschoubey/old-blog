@@ -76,7 +76,7 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 
 ## **Truth**: Unhide the fog by becoming truth seeking missile. 
 
-**IDENTITY**: Honest
+**IDENTITY**: Honest, Truthful
 
 > Everything that’s best happens in truth. If it isn’t truth, then it isn’t the best.
 
@@ -106,9 +106,9 @@ While dealing with people, you have to ask people multiple times to make sure th
 - Deception
 - Hiding truth for short term gain
 
-## **Systems**: Become an effortness executioner - 'Everthing is undercontrol'
+## **Systems Thinking**: Become an effortness executioner - 'Everthing is undercontrol'
 
-**IDENTITY**: Organized
+**IDENTITY**: Organized, Systems Thinker
 
 > You do not rise to the level of your goals. You fall to the level of your systems.
 
@@ -155,7 +155,7 @@ Some things to consider:
 
 **Books**: Subtle at of not giving a fuck by Mark Manson, Stillness by Ryan Holiday
 
-## **Time**: You don't have forever
+## **Productive**: You don't have forever
 
 **IDENTITY**: Productive
 
