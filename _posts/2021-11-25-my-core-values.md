@@ -132,7 +132,7 @@ Systems can include by are not limited to: trained habits, routines, frameworks,
 
 ## **Focus**: of an eagle
 
-**IDENTITY**: Focused
+**IDENTITY**: Focused person, Indistractable
 
 > If more information was the answer, we’d all be billionaires with perfect abs
 
@@ -154,6 +154,16 @@ Some things to consider:
 **Role Models**: Ryan Holiday
 
 **Books**: Subtle at of not giving a fuck by Mark Manson, Stillness by Ryan Holiday
+
+**FOR**:
+
+- Books
+- Truthful people
+
+**AGAINST**:
+
+- Social Media
+- Addictions
 
 ## **Productive**: You don't have forever
 
@@ -186,7 +196,6 @@ Be impatient with yourself and a bit patient with others.
 **AGAINST**:
 
 - Lying in bed all day
-- Addictions
 - Social Approval
 - Status Game
 
