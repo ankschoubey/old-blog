@@ -76,7 +76,7 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 
 ## **Truth**: Unhide the fog by becoming truth seeking missile. 
 
-**IDENTITY**: Honest, Truthful
+**IDENTITY**: Honest person, Truthful person
 
 > Everything that’s best happens in truth. If it isn’t truth, then it isn’t the best.
 
@@ -86,7 +86,7 @@ Lying/Not telling the truth is the quickest way to hell. You base your decisions
 
 If your estimate of the world is wrong, you'll make bad decisions.
 
-The only way is to let go of the outcome and to assume that whatever happens in truth is the best thing that can happen.
+The only way is to let go of the outcome aka you are not going to use your speech to get what you want, (cuz you actually don't know what you want) rather you'll tell the truth and assume whatever happens is the best thing regardless of how it looks. [^1]
 
 While dealing with people, you have to ask people multiple times to make sure they tell you everything because often humans tell white lies to not hurt your feelings.
 
@@ -104,7 +104,7 @@ While dealing with people, you have to ask people multiple times to make sure th
 
 - Lieing
 - Deception
-- Hiding truth for short term gain
+- Hiding truth for short term gain aka to get what you want
 
 ## **Systems Thinking**: Become an effortness executioner - 'Everthing is undercontrol'
 
