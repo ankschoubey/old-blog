@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-01T08:34:32-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-02T13:56:45-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,15 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What and when to publish on message queue</title><link href="www.ankushchoubey.com/what-when-to-publish/" rel="alternate" type="text/html" title="What and when to publish on message queue" /><published>2022-04-27T00:00:00-05:00</published><updated>2022-04-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/what-to-publish-on-kafka</id><content type="html" xml:base="www.ankushchoubey.com/what-when-to-publish/">&lt;p&gt;TLDR: Publish every business entities on each update/write. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Being good at one thing doesn’t automatically make you better at another</title><link href="www.ankushchoubey.com/good-at-one-thing/" rel="alternate" type="text/html" title="Being good at one thing doesn’t automatically make you better at another" /><published>2022-05-02T00:00:00-05:00</published><updated>2022-05-02T15:52:08-05:00</updated><id>www.ankushchoubey.com/good-at-one-thing</id><content type="html" xml:base="www.ankushchoubey.com/good-at-one-thing/">&lt;p&gt;This essentially means you still have to put in the work.&lt;/p&gt;
+
+&lt;p&gt;If you are good at technical skill, that doesn’t automatically make you the best if you are lacking in communication.&lt;/p&gt;
+
+&lt;p&gt;Similarly, if you are ethical/follow ethics rigorously that doesn’t mean you’ll win at life. There are other things also. And just by following a ethic or being good at a certain skill doesn’t make you entitled to everything.&lt;/p&gt;
+
+&lt;p&gt;This is a great equilizer for all.&lt;/p&gt;
+
+&lt;p&gt;No one is good at everything. And therefore requires help from others.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html">This essentially means you still have to put in the work.</summary></entry><entry><title type="html">What and when to publish on message queue</title><link href="www.ankushchoubey.com/what-when-to-publish/" rel="alternate" type="text/html" title="What and when to publish on message queue" /><published>2022-04-27T00:00:00-05:00</published><updated>2022-04-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/what-to-publish-on-kafka</id><content type="html" xml:base="www.ankushchoubey.com/what-when-to-publish/">&lt;p&gt;TLDR: Publish every business entities on each update/write. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;This is specially true for event driven systems.&lt;/p&gt;
 
@@ -394,58 +402,4 @@
 
 &lt;p&gt;Logs should provide accurate enough description of the state of the system.&lt;/p&gt;
 
-&lt;p&gt;If it takes you too long to find the cause of the bug, it maybe that your logs aren’t good enough.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><summary type="html">Write a test first</summary></entry><entry><title type="html">Thoughts &amp;amp; Notes on User Stories</title><link href="www.ankushchoubey.com/user-stories/" rel="alternate" type="text/html" title="Thoughts &amp;amp; Notes on User Stories" /><published>2022-03-21T00:00:00-05:00</published><updated>2022-03-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/user-story</id><content type="html" xml:base="www.ankushchoubey.com/user-stories/">&lt;p&gt;I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.&lt;/p&gt;
-
-&lt;p&gt;These are my thoughts and notes on User Stories. I hope to improve and expand on these ideas in upcoming months.&lt;/p&gt;
-
-&lt;h1 id=&quot;user-stories&quot;&gt;User Stories&lt;/h1&gt;
-
-&lt;p&gt;The goal with user story is to deliver the best value in smallest/most efficient package.&lt;/p&gt;
-
-&lt;h1 id=&quot;size-of-user-stories&quot;&gt;Size of User Stories&lt;/h1&gt;
-
-&lt;p&gt;INVEST is a good acronymn to start with to decide how big story should be.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Independent&lt;/li&gt;
-  &lt;li&gt;Negotiable&lt;/li&gt;
-  &lt;li&gt;Valuable&lt;/li&gt;
-  &lt;li&gt;Estimatable&lt;/li&gt;
-  &lt;li&gt;Small&lt;/li&gt;
-  &lt;li&gt;Testable&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;writing-user-stories&quot;&gt;Writing User Stories&lt;/h1&gt;
-
-&lt;p&gt;Guiding phrases help narrow focus.&lt;/p&gt;
-
-&lt;p&gt;The description can be phrased this way.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nc&quot;&gt;As&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;no&quot;&gt;I&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;want&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;outcome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;so&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;business&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Often &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;outcome&amp;gt;&lt;/code&gt; can be used as story title.&lt;/p&gt;
-
-&lt;h1 id=&quot;definition-of-ready&quot;&gt;Definition Of Ready&lt;/h1&gt;
-
-&lt;p&gt;Definition of Ready is when it’s right to start a user story. We don’t want to have a lot of context switches because it reduces productivity.&lt;/p&gt;
-
-&lt;p&gt;U-INVEST&lt;/p&gt;
-
-&lt;p&gt;The invest remains same as sizing of stories.&lt;/p&gt;
-
-&lt;p&gt;The U is for User Interface.&lt;/p&gt;
-
-&lt;h1 id=&quot;definition-of-done&quot;&gt;Definition of Done&lt;/h1&gt;
-
-&lt;p&gt;Defination of done is when we can say the story ended.&lt;/p&gt;
-
-&lt;p&gt;The following I believe is must.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;TDD followed&lt;/li&gt;
-  &lt;li&gt;Deployed&lt;/li&gt;
-  &lt;li&gt;Product Owner Accepted Story&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="agile" /><summary type="html">I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.</summary></entry></feed>
+&lt;p&gt;If it takes you too long to find the cause of the bug, it maybe that your logs aren’t good enough.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><summary type="html">Write a test first</summary></entry></feed>
