@@ -45,7 +45,7 @@ Many times it's not our fault, but it's our responsibility.
 
 ## **Peace**: Don't suffer imagined troubles
 
-**IDENTITY**: Peaceful
+**IDENTITY**: Peaceful person, Calm person
 
 > Happiness is a single player game. It is a skill that you develop and a choice that you make.
 
