@@ -198,6 +198,97 @@ window.onload = wrap_img;
 
 <p>TDD is shown to reduce defectsby a large margin. Tests will save you time in the long run.</p>
 
+<!-- https://mbmosman.github.io/jekyll-quiz-include/ -->
+<div class="mcq panel panel-primary">
+    <div class="panel-heading">
+      Question
+    </div>
+    <div class="panel-body">
+      <div class="qtext"><p>Doing TDD is faster than traditional development?</p>
+</div>
+    </div>
+    <table class="choices table" style="border-bottom:1px solid #ddd">
+      <tbody>
+        
+        <tr class="choice">
+          <td class="choice-radio col-xs-1">
+            <input type="radio" name="radio-choices" />
+          </td>
+          <td class="choice-text"><p>True</p>
+</td>
+          <td class="choice-feedback"><span class="hidden text-muted"><p>Correct! This might seem counter intuitive at first.</p>
+</span></td>
+        </tr>
+        
+        <tr class="choice">
+          <td class="choice-radio col-xs-1">
+            <input type="radio" name="radio-choices" />
+          </td>
+          <td class="choice-text"><p>False</p>
+</td>
+          <td class="choice-feedback"><span class="hidden text-muted"><p>Over a long time scale and after the initial learning curve</p>
+</span></td>
+        </tr>
+        
+      </tbody>
+    </table>
+    <div class="feedback text-center">
+      <span class="success-msg lead text-success hidden">You have successfully completed this question!</span>
+    </div>
+    <div class="text-center" style="padding: 5px;">
+      <button class="check btn btn-primary" onclick="(function (btn){
+                        answerIndex = 0;
+                        feedback = btn.parentNode.previousElementSibling
+                        feedbackMsg = feedback.firstElementChild;
+                        choices = feedback.previousElementSibling.firstElementChild.children;
+                        pBody = feedback.previousElementSibling.previousElementSibling;
+                        panel = pBody.parentNode;
+                        for (i=0; i&lt;choices.length; i++){
+                          radio = choices[i].firstElementChild.firstElementChild;
+                          radio.setAttribute('disabled', true);
+                          if (radio.checked) {
+                            msg = choices[i].lastElementChild.firstElementChild;
+                            msg.classList.remove('hidden');
+                            panel.classList.remove('paenl-primary');
+                            if (i === answerIndex) {
+                              panel.classList.add('panel-success');
+                              feedbackMsg.classList.remove('hidden');
+                            } else {
+                              panel.classList.add('panel-danger');
+                            }
+                          }
+                        }
+                        btn.classList.add('disabled');
+                        //btn.setAttribute('disabled', true);
+                     }(this))">
+        Check Answer
+      </button>
+      <button class="reset btn btn-default" onclick="(function (btn){
+                        feedback = btn.parentNode.previousElementSibling
+                        feedbackMsg = feedback.firstElementChild;
+                        feedbackMsg.classList.add('hidden');
+                        choices = feedback.previousElementSibling.firstElementChild.children;
+                        pBody = feedback.previousElementSibling.previousElementSibling;
+                        panel = pBody.parentNode;
+                        panel.classList.remove('panel-success');
+                        panel.classList.remove('panel-danger');
+                        panel.classList.add('panel-primary');
+                        for (i=0; i&lt;choices.length; i++){
+                          radio = choices[i].firstElementChild.firstElementChild;
+                          radio.checked = false;
+                          radio.removeAttribute('disabled');
+                          msg = choices[i].lastElementChild.firstElementChild;
+                          msg.classList.add('hidden');
+                          text = feedback.previousElementSibling;
+                          text.classList.remove('text-success');
+                          text.classList.remove('text-danger');
+                        }
+                        btn.previousElementSibling.classList.remove('disabled');
+                        //btn.previousElementSibling.removeAttribute('disabled');
+                     }(this))">Try Again</button>
+    </div>
+  </div>
+
 <h2 id="why-tdd">Why TDD?</h2>
 
 <p>By writing your tests first, you are defining expections you have with your code early on. This leads to cleaner code.</p>
