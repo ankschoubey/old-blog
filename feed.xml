@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-02T14:08:24-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-03T01:53:44-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,36 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Being good at one thing doesn’t automatically make you better at another</title><link href="www.ankushchoubey.com/good-at-one-thing/" rel="alternate" type="text/html" title="Being good at one thing doesn’t automatically make you better at another" /><published>2022-05-02T00:00:00-05:00</published><updated>2022-05-02T15:52:08-05:00</updated><id>www.ankushchoubey.com/good-at-one-thing</id><content type="html" xml:base="www.ankushchoubey.com/good-at-one-thing/">&lt;p&gt;This essentially means you still have to put in the work.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing Cleaner Tests with Fluent Assertions</title><link href="www.ankushchoubey.com/fluent-assertions/" rel="alternate" type="text/html" title="Writing Cleaner Tests with Fluent Assertions" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/fluent-assertions</id><content type="html" xml:base="www.ankushchoubey.com/fluent-assertions/">&lt;p&gt;Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.&lt;/p&gt;
+
+&lt;p&gt;One of the ways in having fluent assertions.&lt;/p&gt;
+
+&lt;h1 id=&quot;fluent-assertions&quot;&gt;Fluent Assertions&lt;/h1&gt;
+
+&lt;p&gt;Fluent assertions are assertions chained together. The structure is such that it makes it more concise and easy to read.&lt;/p&gt;
+
+&lt;p&gt;We’ll take an example comparing Junit assertions with AssertJ assertions.&lt;/p&gt;
+
+&lt;p&gt;In the below example, we are checking if a Map contains specific keys, and if date is correct.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JUnit Assertion&lt;/strong&gt;: Not fluent&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someServiceCallReturningAJson&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// JUnit Assertions: Not Fluent&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;Set&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expectedKeys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashSet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Arrays&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;asList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;randomField&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assertEquals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expectedKeys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;keySet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assertEquals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2001-07-04&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// AssertJ: Fluent Assertions&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;assertThat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsKeys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;randomField&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsEntry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;2001-07-04&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The JUnit assertion is bulkier and will continue to get much bulkier with more assertion.&lt;/p&gt;
+
+&lt;p&gt;The AssertJ fluent assertion on other hand is grouped, contains helper methods that do not require specially conversion of object for common comparision.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.</summary></entry><entry><title type="html">Being good at one thing doesn’t automatically make you better at another</title><link href="www.ankushchoubey.com/good-at-one-thing/" rel="alternate" type="text/html" title="Being good at one thing doesn’t automatically make you better at another" /><published>2022-05-02T00:00:00-05:00</published><updated>2022-05-02T15:52:08-05:00</updated><id>www.ankushchoubey.com/good-at-one-thing</id><content type="html" xml:base="www.ankushchoubey.com/good-at-one-thing/">&lt;p&gt;This essentially means you still have to put in the work.&lt;/p&gt;
 
 &lt;p&gt;If you are good at technical skill, that doesn’t automatically make you the best if you are lacking in communication.&lt;/p&gt;
 
@@ -388,18 +417,4 @@
 
 &lt;p&gt;Also, tests written this way are more accurate than using mocks but do lack certain good features of mock as described in first section. Though the benefits outway the loss. Though we can mix and match using Mockito’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@SpyBean&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;One can write accurate “unit” tests and still use “embedded” database. This has become harder to distinquish between unit and integration tests. Because this is a hybrid of both the overall effect is more accurate tests.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><summary type="html">Problem with Mocks in Unit Testing</summary></entry><entry><title type="html">Whenever you encounter a bug</title><link href="www.ankushchoubey.com/encounter-a-bug/" rel="alternate" type="text/html" title="Whenever you encounter a bug" /><published>2022-03-26T00:00:00-05:00</published><updated>2022-03-26T15:52:08-05:00</updated><id>www.ankushchoubey.com/encounter-a-bug</id><content type="html" xml:base="www.ankushchoubey.com/encounter-a-bug/">&lt;h1 id=&quot;write-a-test-first&quot;&gt;Write a test first&lt;/h1&gt;
-
-&lt;p&gt;Encountering a bug after development means your tests aren’t good enough. (or you weren’t doing TDD 😉)&lt;/p&gt;
-
-&lt;p&gt;To make sure the bug doesn’t repeat, write a test for it.&lt;/p&gt;
-
-&lt;p&gt;By writing a test, you’d have simulated the exact situation where the bug arose.&lt;/p&gt;
-
-&lt;p&gt;When you fix the code, you know the bug is perfectly fixed. And anyone modifying the code in the future won’t miss it.&lt;/p&gt;
-
-&lt;h1 id=&quot;make-sure-right-things-are-logged&quot;&gt;Make sure right things are logged&lt;/h1&gt;
-
-&lt;p&gt;Logs should provide accurate enough description of the state of the system.&lt;/p&gt;
-
-&lt;p&gt;If it takes you too long to find the cause of the bug, it maybe that your logs aren’t good enough.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><summary type="html">Write a test first</summary></entry></feed>
+&lt;p&gt;One can write accurate “unit” tests and still use “embedded” database. This has become harder to distinquish between unit and integration tests. Because this is a hybrid of both the overall effect is more accurate tests.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><summary type="html">Problem with Mocks in Unit Testing</summary></entry></feed>
