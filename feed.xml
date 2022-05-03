@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-03T02:11:41-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-03T02:40:01-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,127 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing Cleaner Tests with Fluent Assertions</title><link href="www.ankushchoubey.com/fluent-assertions/" rel="alternate" type="text/html" title="Writing Cleaner Tests with Fluent Assertions" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/fluent-assertions</id><content type="html" xml:base="www.ankushchoubey.com/fluent-assertions/">&lt;p&gt;Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing cleaner tests with Test Data Factories</title><link href="www.ankushchoubey.com/test-data-factories/" rel="alternate" type="text/html" title="Writing cleaner tests with Test Data Factories" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/test-data-factories</id><content type="html" xml:base="www.ankushchoubey.com/test-data-factories/">&lt;h1 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;A typical information-system application goes like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a data object&lt;/li&gt;
+  &lt;li&gt;Create a repository/DTO to sync it with Database&lt;/li&gt;
+  &lt;li&gt;Create a service&lt;/li&gt;
+  &lt;li&gt;Create a REST API endpoint&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, when we write tests, we tend to initialize the data object and multiple places.&lt;/p&gt;
+
+&lt;p&gt;For me it has happened before that a single change to constructor has lead to changes are 100s of places. This manually change could avoided if I knew IntelliJ properly.&lt;/p&gt;
+
+&lt;p&gt;But without IDE features too, initializing a data class in multiple tests makes tests bulkier.&lt;/p&gt;
+
+&lt;p&gt;We can abstract away all these into a single class that can provide all the test data for a data-object.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;You have a data-class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataClass&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Data&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@RequiredArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@NonNull&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@NonNull&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;field2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In tests you initialize each field manually,&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 1&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {someAssertion}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SomeAssertion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 2&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {second Assertions}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;anotherName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//... more tests which declare data object&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here if you have to modify of add a new field, you’ll have a hard time.&lt;/p&gt;
+
+&lt;h1 id=&quot;solution-simple-test-data-factory&quot;&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Simple Test Data Factory&lt;/h1&gt;
+
+&lt;p&gt;Instead, you can create a Test Data Factory. Something like&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Note here name doesn't matter&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aRandomName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// this is the only place where class is initialized&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt; 
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note the stucture of the classes. This is intentional.&lt;/p&gt;
+
+&lt;p&gt;When calling the method it would look something like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a much fluent (english like) statement.&lt;/p&gt;
+
+&lt;p&gt;So now your tests can look something like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 1&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {someAssertion}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SomeAssertion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 2&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {second Assertions}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;anotherName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//... more tests which declare data object&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note that both Tests use a different simple factory method. One doesn’t care what the name field is but other does.&lt;/p&gt;
+
+&lt;p&gt;Most of my test factories would initialize data randomly unless explicit value is needed which is very rare.&lt;/p&gt;
+
+&lt;h1 id=&quot;extending-further&quot;&gt;&lt;strong&gt;Extending Further&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;Intially, I started with the just creating test data but then I realized I could club more common things in the Test Factory.&lt;/p&gt;
+
+&lt;p&gt;These include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;APICalls&lt;/code&gt; - Each method passes the parameters and return the result&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MockRepository&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DTO&lt;/code&gt; - returns an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OnGoingStub&lt;/code&gt; for methods of repository&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MockService&lt;/code&gt; - Similar to MockRepository but for service&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Helpers&lt;/code&gt; - Special helpers methods for dealing with Data Object&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All of these methods are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public static&lt;/code&gt; and using them has the same fluency as above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem</summary></entry><entry><title type="html">Writing Cleaner Tests with Fluent Assertions</title><link href="www.ankushchoubey.com/fluent-assertions/" rel="alternate" type="text/html" title="Writing Cleaner Tests with Fluent Assertions" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/fluent-assertions</id><content type="html" xml:base="www.ankushchoubey.com/fluent-assertions/">&lt;p&gt;Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.&lt;/p&gt;
 
 &lt;p&gt;One of the ways is having fluent assertions.
 Fluent assertions are assertions chained together. The structure is such that it makes it more concise and easy to read.&lt;/p&gt;
@@ -390,26 +510,4 @@ Fluent assertions are assertions chained together. The structure is such that it
 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;existsByIdAndName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UserDoesNotExistException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;User does not exists: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.</summary></entry><entry><title type="html">Blurry lines between Unit and Integration Tests</title><link href="www.ankushchoubey.com/bluring-line-between-unit-integration-test/" rel="alternate" type="text/html" title="Blurry lines between Unit and Integration Tests" /><published>2022-04-03T00:00:00-05:00</published><updated>2022-04-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/bluring-line-between-unit-integration-test</id><content type="html" xml:base="www.ankushchoubey.com/bluring-line-between-unit-integration-test/">&lt;h2 id=&quot;problem-with-mocks-in-unit-testing&quot;&gt;Problem with Mocks in Unit Testing&lt;/h2&gt;
-
-&lt;p&gt;Typically, unit tests includes testing a certain class/method without involving other methods. The other methods are simulated with Mocks.&lt;/p&gt;
-
-&lt;p&gt;Mocking frameworks like Mockito provide functionality like: verifying how many times a mock method was called or if there were no interaction.&lt;/p&gt;
-
-&lt;p&gt;While mocks do provide make tests faster to run, they aren’t very accurate since they are built by hand.&lt;/p&gt;
-
-&lt;h2 id=&quot;problem-with-typical-integration-testing&quot;&gt;Problem with typical Integration Testing&lt;/h2&gt;
-
-&lt;p&gt;Typically, integration tests include creating a separate environment all together and running tests from middleware to database aka everything backend.&lt;/p&gt;
-
-&lt;p&gt;These tests are bulkier, require a lot of infra-setup and take longer to run.&lt;/p&gt;
-
-&lt;h2 id=&quot;bluring-line&quot;&gt;Bluring line&lt;/h2&gt;
-
-&lt;p&gt;Java has many “embedded” implementation of common external systems like database, kafka, mockservers, etc. These allow for writing tests without having to create a separate infrastructure.&lt;/p&gt;
-
-&lt;p&gt;Thus they are integration tests but not in integration fashion.&lt;/p&gt;
-
-&lt;p&gt;Also, tests written this way are more accurate than using mocks but do lack certain good features of mock as described in first section. Though the benefits outway the loss. Though we can mix and match using Mockito’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@SpyBean&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;One can write accurate “unit” tests and still use “embedded” database. This has become harder to distinquish between unit and integration tests. Because this is a hybrid of both the overall effect is more accurate tests.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><summary type="html">Problem with Mocks in Unit Testing</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.</summary></entry></feed>
