@@ -11,19 +11,12 @@ title: Writing Cleaner Tests with Fluent Assertions
 
 Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.
 
-One of the ways in having fluent assertions.
-
-
-# Fluent Assertions
-
+One of the ways is having fluent assertions.
 Fluent assertions are assertions chained together. The structure is such that it makes it more concise and easy to read.
 
 We'll take an example comparing Junit assertions with AssertJ assertions.
 
 In the below example, we are checking if a Map contains specific keys, and if date is correct.
-
-**JUnit Assertion**: Not fluent
-
 
 ```java
 Map<String, String> jsonMessage = {someServiceCallReturningAJson};
