@@ -290,6 +290,8 @@ Rational Thinking is precursor to rational behavior. But rational behavior shoul
 
 Rationality has 2 parts: Emotions + Logic. The game is to understand and make best decision that satisfy both.
 
+A good sign of rationality is ability to change your mind based on evidence.[^6]
+
 **Role Models**: Stoics
 
 **FOR**:
@@ -314,3 +316,4 @@ I am trying make these values my second nature by forming habits. The ideal goal
 [^3]: The phrase "Courage is calling" is from Ryan Holiday's book of the same name.
 [^4]: Atomic Habits
 [^5]: [Illustration by Justin Gerald](https://www.instagram.com/justingerardillustration/?hl=en)
+[^6]: Steven Pinker
