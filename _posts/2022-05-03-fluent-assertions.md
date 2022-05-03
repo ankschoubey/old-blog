@@ -6,7 +6,7 @@ categories: [testing, clean-code]
 last_modified_at: 2022-05-03T20:52:08.052481
 last-modified-purpose:
 permalink: /fluent-assertions/
-title: Writing Cleaner Tests with Fluent Assertions
+title: Writing cleaner tests with Fluent Assertions
 ---
 
 Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.

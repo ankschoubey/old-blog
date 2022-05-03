@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description:
+description: Consolidating object creation, mock of methods and more.
 categories: [testing, clean-code]
 last_modified_at: 2022-05-03T20:52:08.052481
 last-modified-purpose:
