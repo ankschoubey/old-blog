@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-04T15:54:29-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-04T16:00:27-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -51,13 +51,13 @@
   &lt;/tbody&gt;
 &lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thinking on Paper</title><link href="www.ankushchoubey.com/thinking-on-paper/" rel="alternate" type="text/html" title="Thinking on Paper" /><published>2022-05-05T00:00:00-05:00</published><updated>2022-05-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/thinking-on-paper</id><content type="html" xml:base="www.ankushchoubey.com/thinking-on-paper/">&lt;h1 id=&quot;what-is-a-blank-screen-problem&quot;&gt;What is a blank screen problem?&lt;/h1&gt;
 
-&lt;p&gt;The blank screen problem is when we get stuck and can’t decide what to code.&lt;/p&gt;
+&lt;p&gt;The blank screen problem is we have a new coding problem but can’t decide what to code. Think of this as an equivalent to writers block.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-we-get-stuck-at-a-blank-screen&quot;&gt;Why we get stuck at a blank screen?&lt;/h1&gt;
 
 &lt;p&gt;This can happen because we don’t know the requirement very well or what we are trying to implement is too tough.&lt;/p&gt;
 
-&lt;h1 id=&quot;what-are-the-different-ways-of-avoiding-blank-screen&quot;&gt;What are the different ways of avoiding blank screen?&lt;/h1&gt;
+&lt;h1 id=&quot;what-are-the-ways-of-avoiding-blank-screen&quot;&gt;What are the ways of avoiding blank screen?&lt;/h1&gt;
 
 &lt;p&gt;Planning and designing are the best ways of avoiding blank screen.&lt;/p&gt;
 
@@ -93,7 +93,7 @@
 
 &lt;p&gt;Once thats done, figure out the time and space complexity and optimize.&lt;/p&gt;
 
-&lt;p&gt;One you are done with these, only then start with actual coding.&lt;/p&gt;
+&lt;p&gt;Once you are done with these, only then start with actual coding.&lt;/p&gt;
 
 &lt;h1 id=&quot;how-to-do-it-for-ui-design&quot;&gt;How to do it for UI Design?&lt;/h1&gt;
 
