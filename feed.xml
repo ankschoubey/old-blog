@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-04T15:34:10-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-04T15:54:29-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,57 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing cleaner tests with Test Data Factories</title><link href="www.ankushchoubey.com/test-data-factories/" rel="alternate" type="text/html" title="Writing cleaner tests with Test Data Factories" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/test-data-factories</id><content type="html" xml:base="www.ankushchoubey.com/test-data-factories/">&lt;h1 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thinking on Paper</title><link href="www.ankushchoubey.com/thinking-on-paper/" rel="alternate" type="text/html" title="Thinking on Paper" /><published>2022-05-05T00:00:00-05:00</published><updated>2022-05-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/thinking-on-paper</id><content type="html" xml:base="www.ankushchoubey.com/thinking-on-paper/">&lt;h1 id=&quot;what-is-a-blank-screen-problem&quot;&gt;What is a blank screen problem?&lt;/h1&gt;
+
+&lt;p&gt;The blank screen problem is when we get stuck and can’t decide what to code.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-we-get-stuck-at-a-blank-screen&quot;&gt;Why we get stuck at a blank screen?&lt;/h1&gt;
+
+&lt;p&gt;This can happen because we don’t know the requirement very well or what we are trying to implement is too tough.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-are-the-different-ways-of-avoiding-blank-screen&quot;&gt;What are the different ways of avoiding blank screen?&lt;/h1&gt;
+
+&lt;p&gt;Planning and designing are the best ways of avoiding blank screen.&lt;/p&gt;
+
+&lt;p&gt;The best way to plan and design is to do it on paper.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-pen-and-paper-works-well&quot;&gt;Why Pen and Paper Works Well?&lt;/h1&gt;
+
+&lt;p&gt;Paper works best because:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;There is no distractions.&lt;/li&gt;
+  &lt;li&gt;You can connect ideas easily.&lt;/li&gt;
+  &lt;li&gt;You can hold more ideas in memory by writing/drawing it down.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;how-to-do-it-for-system-design&quot;&gt;How to do it for System Design?&lt;/h1&gt;
+
+&lt;p&gt;For initial system design usual boxes and connecting them is enough.&lt;/p&gt;
+
+&lt;p&gt;Once, the initial system design is built you can use a tool like Google Draw or diagram.net to get a more refined and shareable diagram.&lt;/p&gt;
+
+&lt;p&gt;Reading up and understanding UML diagrams can be helpful in the later part.&lt;/p&gt;
+
+&lt;p&gt;For many problems I have found defining data model is the best way to start designing the system.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-do-it-for-algorithmic-problems&quot;&gt;How to do it for Algorithmic Problems?&lt;/h1&gt;
+
+&lt;p&gt;This can be used the same competitive coding problem or real life.&lt;/p&gt;
+
+&lt;p&gt;In competitive coding problems we are given sample Inputs and sample outputs.&lt;/p&gt;
+
+&lt;p&gt;It’s best to always start on paper pen and manually solve for each sample input manually.&lt;/p&gt;
+
+&lt;p&gt;Once thats done, figure out the time and space complexity and optimize.&lt;/p&gt;
+
+&lt;p&gt;One you are done with these, only then start with actual coding.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-do-it-for-ui-design&quot;&gt;How to do it for UI Design?&lt;/h1&gt;
+
+&lt;p&gt;Wiremocks are kind of common in UI world. It’s always better to start with a rough wiremock and get it verified from stakeholders.&lt;/p&gt;
+
+&lt;p&gt;Not doing so leads to un-neccesary rework down the line.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is a blank screen problem?</summary></entry><entry><title type="html">Writing cleaner tests with Test Data Factories</title><link href="www.ankushchoubey.com/test-data-factories/" rel="alternate" type="text/html" title="Writing cleaner tests with Test Data Factories" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/test-data-factories</id><content type="html" xml:base="www.ankushchoubey.com/test-data-factories/">&lt;h1 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;A typical information-system application goes like this:&lt;/p&gt;
 
@@ -443,71 +493,4 @@ Fluent assertions are assertions chained together. The structure is such that it
 
 &lt;p&gt;Eclipse is probably the worst ever.&lt;/p&gt;
 
-&lt;p&gt;VS Code has better and more plugin.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mastering an IDE means knowing and using features, shortcuts, plugins, etc.</summary></entry><entry><title type="html">Writing Meaningful Log Messages</title><link href="www.ankushchoubey.com/writing-log-messages/" rel="alternate" type="text/html" title="Writing Meaningful Log Messages" /><published>2022-04-13T00:00:00-05:00</published><updated>2022-04-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/better-log-messages</id><content type="html" xml:base="www.ankushchoubey.com/writing-log-messages/">&lt;p&gt;Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.&lt;/p&gt;
-
-&lt;p&gt;This post covers server side logs.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;when-to-log&quot;&gt;&lt;strong&gt;When to Log&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;There aren’t any good guidelines for when to log.&lt;/p&gt;
-
-&lt;p&gt;Logging too much can make your code ugly and slow. Logging to little makes it hard to debug.&lt;/p&gt;
-
-&lt;p&gt;These are some places where you may consider logging. 4th is non-compromisable though it is autoset by most programming languages.&lt;/p&gt;
-
-&lt;p&gt;There are 4 main places to log:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Conditionals -&amp;gt; Log level DEBUG&lt;/li&gt;
-  &lt;li&gt;Loops -&amp;gt; Log level DEBUG&lt;/li&gt;
-  &lt;li&gt;Major Processes -&amp;gt; Log level INFO&lt;/li&gt;
-  &lt;li&gt;Exceptions -&amp;gt; Log level ERROR&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;After writing a piece a code, look at it and add logs wherever needed.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;what-to-log&quot;&gt;&lt;strong&gt;What to log&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;Log messages should include the details of variables involved.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bad&lt;/strong&gt;: Does not mention variable details&lt;/p&gt;
-
-&lt;p&gt;Log message: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User does not exists&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Elon Musk&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;existsByIdAndName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UserDoesNotExistException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;User does not exists&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Good&lt;/strong&gt;: Includes variable details&lt;/p&gt;
-
-&lt;p&gt;Log message: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User does not exists with id=1 name= Elon Musk&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Elon Musk&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;existsByIdAndName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UserDoesNotExistException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;User does not exists with id=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; name= &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Even Better&lt;/strong&gt;: Includes variable details as map leading to cleaner log&lt;/p&gt;
-
-&lt;p&gt;I find it’s even cleaner to print a map with key as variable name and value as actual value;&lt;/p&gt;
-
-&lt;p&gt;Format: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;${human readable message}: {data1: value1, data2: value2}&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Log message: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User does not exists: {id: 1, name: Elon Musk}&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Elon Musk&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;existsByIdAndName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;UserDoesNotExistException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;User does not exists: &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Logs are every important when trying to debug an application. With proper logs, not only will it take less time to debug, it will make your code more understandable.</summary></entry></feed>
+&lt;p&gt;VS Code has better and more plugin.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mastering an IDE means knowing and using features, shortcuts, plugins, etc.</summary></entry></feed>
