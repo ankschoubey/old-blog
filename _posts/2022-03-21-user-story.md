@@ -17,6 +17,10 @@ These are my thoughts and notes on User Stories. I hope to improve and expand on
 
 The goal with user story is to deliver the best value in smallest/most efficient package.
 
+This would void un-neccesary rework, make sure we start the story at the right time and help make estimate for how much work can be done within a fixed time.
+
+The lessons one can gain from creating user stories, splitting, making DOD, making DOR, etc are all transferable skill to personal planning as well.
+
 # Size of User Stories
 
 INVEST is a good acronymn to start with to decide how big story should be.
