@@ -11,13 +11,13 @@ title: Thinking on Paper
 
 # What is a blank screen problem?
 
-The blank screen problem is when we get stuck and can't decide what to code.
+The blank screen problem is we have a new coding problem but can't decide what to code. Think of this as an equivalent to writers block.
 
 # Why we get stuck at a blank screen?
 
 This can happen because we don't know the requirement very well or what we are trying to implement is too tough.
 
-# What are the different ways of avoiding blank screen?
+# What are the ways of avoiding blank screen?
 
 Planning and designing are the best ways of avoiding blank screen.
 
@@ -51,7 +51,7 @@ It's best to always start on paper pen and manually solve for each sample input 
 
 Once thats done, figure out the time and space complexity and optimize.
 
-One you are done with these, only then start with actual coding.
+Once you are done with these, only then start with actual coding.
 
 # How to do it for UI Design?
 
