@@ -8,15 +8,15 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Thoughts &amp; Notes on User Stories" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness." />
-<meta property="og:description" content="I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness." />
+<meta name="description" content="Details about breaking user story added" />
+<meta property="og:description" content="Details about breaking user story added" />
 <link rel="canonical" href="www.ankushchoubey.com/user-stories/" />
 <meta property="og:url" content="www.ankushchoubey.com/user-stories/" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-03-21T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/user-stories/","headline":"Thoughts &amp; Notes on User Stories","dateModified":"2022-03-21T15:52:08-05:00","datePublished":"2022-03-21T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/user-stories/"},"description":"I have had a love-hate relationship with Agile. The reason has likely been I didn’t realize it’s effectiveness.","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/user-stories/","headline":"Thoughts &amp; Notes on User Stories","dateModified":"2022-05-05T15:52:08-05:00","datePublished":"2022-03-21T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/user-stories/"},"description":"Details about breaking user story added","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -115,15 +115,15 @@ window.onload = wrap_img;
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Thoughts &amp; Notes on User Stories</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-03-21T00:00:00-05:00" itemprop="datePublished">
+    <p class="page-description">Details about breaking user story added</p><p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-03-21T00:00:00-05:00" itemprop="datePublished">
         Written: Mar 21, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-03-21T15:52:08-05:00" itemprop="dateModified">
-          Updated: Mar 21, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-05-05T15:52:08-05:00" itemprop="dateModified">
+          Updated: May 5, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -201,19 +201,6 @@ window.onload = wrap_img;
 
 <p>The lessons one can gain from creating user stories, splitting, making DOD, making DOR, etc are all transferable skill to personal planning as well.</p>
 
-<h1 id="size-of-user-stories">Size of User Stories</h1>
-
-<p>INVEST is a good acronymn to start with to decide how big story should be.</p>
-
-<ul>
-  <li>Independent</li>
-  <li>Negotiable</li>
-  <li>Valuable</li>
-  <li>Estimatable</li>
-  <li>Small</li>
-  <li>Testable</li>
-</ul>
-
 <h1 id="writing-user-stories">Writing User Stories</h1>
 
 <p>Guiding phrases help narrow focus.</p>
@@ -227,15 +214,60 @@ window.onload = wrap_img;
 
 <p>Often <code class="language-plaintext highlighter-rouge">&lt;outcome&gt;</code> can be used as story title.</p>
 
-<h1 id="definition-of-ready">Definition Of Ready</h1>
+<h1 id="user-story-and-a-technical-task">User Story and a Technical Task</h1>
+
+<p>By the symantic of it, user story is about something a end user wants. So user stories map to features that effect users.</p>
+
+<p>While developing there are also other tasks such as database migration, job creation, etc that aren’t user stories. These are technical tasks.</p>
+
+<p>It’s better to classify it separetly so that a business user doesn’t get confused by it.</p>
+
+<p>A user story needs to have executable spec (BDD). Technical Tasks don’t.</p>
+
+<h1 id="breaking-user-stories">Breaking User Stories</h1>
+
+<p>There are two major story breaking ways:</p>
+
+<ul>
+  <li>Horizontal</li>
+  <li>Vertical</li>
+</ul>
+
+<p>Horizontal can be thought of as breaking a story by type of activies involved like database, user interface, middleware, etc. This isn’t ideal.</p>
+
+<p>Vertical</p>
+
+<p>Breaking vertically means to break by functionality instead of by activity.</p>
+
+<p>So it could be a functionality is itself a mixture of 2-3 smaller functionalities. We could break it as such.</p>
+
+<h1 id="definition-of-ready-and-breaking-down">Definition Of Ready and Breaking Down</h1>
 
 <p>Definition of Ready is when it’s right to start a user story. We don’t want to have a lot of context switches because it reduces productivity.</p>
 
 <p>U-INVEST</p>
 
+<p>INVEST is a good acronymn to start with to decide how big story should be.</p>
+
+<ul>
+  <li>Independent: Is the story dependent on any other story?</li>
+  <li>Negotiable</li>
+  <li>Valuable</li>
+  <li>Estimatable</li>
+  <li>Small : Is the story atomic or does it contains multiple sub-stories?</li>
+  <li>Testable</li>
+</ul>
+
 <p>The invest remains same as sizing of stories.</p>
 
 <p>The U is for User Interface.</p>
+
+<p>I found there are other things involved here too, like:</p>
+
+<ul>
+  <li>API : if it’s an API, you may want to do API First Development</li>
+  <li>Learning : is there any learning involved?</li>
+</ul>
 
 <h1 id="definition-of-done">Definition of Done</h1>
 
