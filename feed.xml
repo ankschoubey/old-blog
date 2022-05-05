@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-04T16:08:22-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-05T13:09:41-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,30 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thinking on Paper</title><link href="www.ankushchoubey.com/thinking-on-paper/" rel="alternate" type="text/html" title="Thinking on Paper" /><published>2022-05-05T00:00:00-05:00</published><updated>2022-05-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/thinking-on-paper</id><content type="html" xml:base="www.ankushchoubey.com/thinking-on-paper/">&lt;h1 id=&quot;what-is-a-blank-screen-problem&quot;&gt;What is a blank screen problem?&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Semantic Versioning</title><link href="www.ankushchoubey.com/semantic-versioning/" rel="alternate" type="text/html" title="Semantic Versioning" /><published>2022-05-06T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/semantic-versioning</id><content type="html" xml:base="www.ankushchoubey.com/semantic-versioning/">&lt;p&gt;Why versioning is required?&lt;/p&gt;
+
+&lt;p&gt;Problem with manual versioning?&lt;/p&gt;
+
+&lt;p&gt;What is semantic versioning? What problem can it solve?&lt;/p&gt;
+
+&lt;p&gt;How semantic versioning can be automated by using conventional message?&lt;/p&gt;</content><author><name></name></author><category term="draft" /><category term="clean-code" /><summary type="html">Why versioning is required?</summary></entry><entry><title type="html">Conventional Commit</title><link href="www.ankushchoubey.com/conventional-commits/" rel="alternate" type="text/html" title="Conventional Commit" /><published>2022-05-06T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/conventional-commits</id><content type="html" xml:base="www.ankushchoubey.com/conventional-commits/">&lt;p&gt;Conventional message allow for adding cleaner git commit logs.&lt;/p&gt;
+
+&lt;p&gt;There are a few benefits to this:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Conventional messages force developer to think clearly about what they are going to commit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I would recommend start with a list of commit messages you intend to put.&lt;/p&gt;
+
+&lt;p&gt;Then start coding.&lt;/p&gt;
+
+&lt;p&gt;Also, there are plugins available that would allow generating changelog files and auto implement semantic versioning.&lt;/p&gt;
+
+&lt;p&gt;Changelog are important as they make writing release notes easier.&lt;/p&gt;
+
+&lt;p&gt;Conventional commit messages can be re-enforced using pre-commit hooks.&lt;/p&gt;
+
+&lt;p&gt;https://github.com/craicoverflow/sailr&lt;/p&gt;</content><author><name></name></author><category term="draft" /><category term="clean-code" /><summary type="html">Conventional message allow for adding cleaner git commit logs.</summary></entry><entry><title type="html">Thinking on Paper</title><link href="www.ankushchoubey.com/thinking-on-paper/" rel="alternate" type="text/html" title="Thinking on Paper" /><published>2022-05-05T00:00:00-05:00</published><updated>2022-05-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/thinking-on-paper</id><content type="html" xml:base="www.ankushchoubey.com/thinking-on-paper/">&lt;h1 id=&quot;what-is-a-blank-screen-problem&quot;&gt;What is a blank screen problem?&lt;/h1&gt;
 
 &lt;p&gt;The blank screen problem is we have a new coding problem but can’t decide what to code. Think of this as an equivalent to writers block.&lt;/p&gt;
 
@@ -359,138 +382,4 @@ Fluent assertions are assertions chained together. The structure is such that it
 
 &lt;p&gt;Or read stack overflow or github issues.&lt;/p&gt;
 
-&lt;p&gt;If you still can’t find, ask a question on Stack-overflow. And when you do find the solution by yourself, post an answer.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Debugging has a standard set of steps.</summary></entry><entry><title type="html">Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux</title><link href="www.ankushchoubey.com/optimistic-locking-exception-mongodb/" rel="alternate" type="text/html" title="Solving a OptimisticLockingException During Upsert in MongoDB-Spring Webflux" /><published>2022-04-16T00:00:00-05:00</published><updated>2022-04-16T15:52:08-05:00</updated><id>www.ankushchoubey.com/optimistic-locking-exception-mongodb</id><content type="html" xml:base="www.ankushchoubey.com/optimistic-locking-exception-mongodb/">&lt;p&gt;I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;I had a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Document&lt;/code&gt; which had to be manupilated.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Document&lt;/code&gt; had a repository which extended &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ReactiveMongoRepository&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;So it was something like this&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SampleDocument.java&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Document&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sample_document&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@Version&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@Indexed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;backgroud&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;customId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fieldToBeModified&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Notice &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Version&lt;/code&gt; annotation&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SampleRepository.java&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleRepository&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ReactiveMongoRepository&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;{&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;findByCustomId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;customId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To update the document I had webflux code written like this:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;findByCustomId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;// Step 1&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatmap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// manipulation of document         // Step 2&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;just&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatmap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sampleDocument&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// Step 3&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;As you can see, the code to fetch the document (Step 1) and to save (Step 3) back are two separate lines. Between the lines are steps to manipulate the document (Step 2).&lt;/p&gt;
-
-&lt;p&gt;This was what caused the problem.&lt;/p&gt;
-
-&lt;p&gt;MongoDB uses version field in a document to maintain Locking. If the current &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;version&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt; and you try to save &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8&lt;/code&gt; then this would lead to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;In a concurrent environment like webflux when multiple thread are reading from the same data, it’s highly likely that the order the record is updated by some other thread before the current thread saves the data again.&lt;/p&gt;
-
-&lt;p&gt;This would specially be true where there are lots of upsert/update queries.&lt;/p&gt;
-
-&lt;h1 id=&quot;solution&quot;&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;To fix this I switched to manually writing an update query and executing with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MongoOperation&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Update&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updateQuery&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Update&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// code to update document&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mongoOperation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;findAndModify&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;custom_id&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updateQuery&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;returnNew&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;upsert&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDocument&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Instead of 2 different DB actions. It became one DB Action.&lt;/p&gt;
-
-&lt;p&gt;The update query does not need to bring data back to Webflux server to manipulate the document. The document is manipulated at Database only. The database is therefore responsible for ordering the updates which was fine in my case.&lt;/p&gt;
-
-&lt;h1 id=&quot;extra-finding-root-cause-and-fixing-with-tdd&quot;&gt;&lt;strong&gt;Extra&lt;/strong&gt;: Finding root cause and fixing with TDD&lt;/h1&gt;
-
-&lt;p&gt;I’m gonna try to provide examples of TDD wherever possible.&lt;/p&gt;
-
-&lt;p&gt;To find the cause, I suspected the data was being saved parallelly.&lt;/p&gt;
-
-&lt;p&gt;So I created a unit test as follows.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Manipulate documents parallel. This was done with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTest&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Execution(CONCURENT)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Assertion wasn’t straight forward with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTest&lt;/code&gt; so I instead collected all version in a static list.&lt;/li&gt;
-  &lt;li&gt;After all &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@RepeatableTests&lt;/code&gt; were over I asserted if version was as expected.&lt;/li&gt;
-  &lt;li&gt;I ran the code and saw &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OptimisticLockingException&lt;/code&gt; occuring and assertion failing.&lt;/li&gt;
-  &lt;li&gt;I replaced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repository&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;save&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MongoOperation&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;update&lt;/code&gt; as described above.&lt;/li&gt;
-  &lt;li&gt;The test passed.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Nested&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;WHEN upsert is called parallely&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;WhenUpsertIsCalledParallelyTest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    
-    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;repeatTimes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;allVersions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ArrayList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@RepeatableTest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repeatTimes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;                           &lt;span class=&quot;c1&quot;&gt;// Part of Step 1&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@Execution&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;CONCURRENT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;                                 &lt;span class=&quot;c1&quot;&gt;// Part of Step 1&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD manipulate a single record&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;shouldManipulateASingleRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// when:&lt;/span&gt;
-            &lt;span class=&quot;nc&quot;&gt;SampleDocument&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;document&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;upsert&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Part of Step 1&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// data collection:&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;allVersions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getVersion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// Part of Step 2&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@AfterAll&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;assertVersionIsRepeatTimes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;assertThat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Collections&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;                &lt;span class=&quot;c1&quot;&gt;// Part of Step 3&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;isEqualTo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repeatTimes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="database" /><category term="mongodb" /><category term="spring-boot" /><category term="tdd-example" /><summary type="html">I faced a unique problem and it is worth writing about. The cause was parallel access and saving of a single document that caused OptimisticLockingException.</summary></entry><entry><title type="html">Fixing Tools - IDE, Code Editors, Etc.</title><link href="www.ankushchoubey.com/fixing-tools/" rel="alternate" type="text/html" title="Fixing Tools - IDE, Code Editors, Etc." /><published>2022-04-14T00:00:00-05:00</published><updated>2022-04-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/fixing-tools</id><content type="html" xml:base="www.ankushchoubey.com/fixing-tools/">&lt;p&gt;Mastering an IDE means knowing and using features, shortcuts, plugins, etc.&lt;/p&gt;
-
-&lt;p&gt;It takes too many interations and years to learn and master a new tools. As you know IDE in detail, your productivity level increases tremendously.&lt;/p&gt;
-
-&lt;p&gt;Switching between IDE and Code Editors have very low impact if all of them essentially do the same thing.&lt;/p&gt;
-
-&lt;p&gt;This is similar to &lt;a href=&quot;/new_tech&quot;&gt;my approach for deciding to learn a programming topic&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A good IDE should provide:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Lots of feature to reduce coding effort&lt;/li&gt;
-  &lt;li&gt;Plugin Support&lt;/li&gt;
-  &lt;li&gt;Frequent Updates&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I believe 2 IDE specially excel at these:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;IntelliJ&lt;/li&gt;
-  &lt;li&gt;VS Code&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I find IntelliJ to be better at out of the box features specially refactoring. Using IntelliJ opens up for easy migration between all JetBrains tools.&lt;/p&gt;
-
-&lt;p&gt;Eclipse is probably the worst ever.&lt;/p&gt;
-
-&lt;p&gt;VS Code has better and more plugin.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mastering an IDE means knowing and using features, shortcuts, plugins, etc.</summary></entry></feed>
+&lt;p&gt;If you still can’t find, ask a question on Stack-overflow. And when you do find the solution by yourself, post an answer.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Debugging has a standard set of steps.</summary></entry></feed>
