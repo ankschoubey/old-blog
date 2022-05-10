@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-05T13:17:24-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-10T10:36:53-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,68 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Semantic Versioning</title><link href="www.ankushchoubey.com/semantic-versioning/" rel="alternate" type="text/html" title="Semantic Versioning" /><published>2022-05-06T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/semantic-versioning</id><content type="html" xml:base="www.ankushchoubey.com/semantic-versioning/">&lt;p&gt;Why versioning is required?&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thoughts and Notes on BDD</title><link href="www.ankushchoubey.com/bdd/" rel="alternate" type="text/html" title="Thoughts and Notes on BDD" /><published>2022-05-10T00:00:00-05:00</published><updated>2022-05-10T15:52:08-05:00</updated><id>www.ankushchoubey.com/bdd</id><content type="html" xml:base="www.ankushchoubey.com/bdd/">&lt;h1 id=&quot;what-is-bdd-why-it-is-needed&quot;&gt;What is BDD? Why it is needed?&lt;/h1&gt;
+
+&lt;p&gt;BDD stands for Behavior Driven Development.&lt;/p&gt;
+
+&lt;p&gt;In BDD, we write specs for the features we want to develop. This serves as a contract between developer and other stake holders.&lt;/p&gt;
+
+&lt;p&gt;To be more precise, these specs are executable specs. Meaning there can be tests written for them to verify if a feature is working as expected.&lt;/p&gt;
+
+&lt;p&gt;BDD doesn’t always need to be end to end flows but it is most commonly that.&lt;/p&gt;
+
+&lt;h1 id=&quot;where-does-bdd-fit-in&quot;&gt;Where does BDD fit in?&lt;/h1&gt;
+
+&lt;p&gt;A common way to use BDD is to create specs before starting any development and even before creating a user story.&lt;/p&gt;
+
+&lt;p&gt;This is usually done via: 3 Amigos methodology.&lt;/p&gt;
+
+&lt;p&gt;3 Amigos is a ceremony that involve the following to come up with specs from different point of views:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Development Team&lt;/li&gt;
+  &lt;li&gt;Product Team&lt;/li&gt;
+  &lt;li&gt;QA Team&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;how-to-write-good-bdd-specs&quot;&gt;How to write good BDD specs?&lt;/h1&gt;
+
+&lt;p&gt;Some principles of writing good BDD tests are similar to that of normal tests.&lt;/p&gt;
+
+&lt;h2 id=&quot;aim-for-single-assertions-single-then-&quot;&gt;Aim for single assertions (Single “Then”) &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;Having multiple Then blocks means your tests are likely doing too much.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-data-that-replicates-real-work-&quot;&gt;Use data that replicates real work &lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;For example, for a stackoverflow like service instead of&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;When user asks the question “Testing data”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;use&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;When user asks the questions “How to fix null pointer in Java?”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The later is much closer to real usage.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-business-language-&quot;&gt;Use business language &lt;sup id=&quot;fnref:1:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;Instead of expressing selenium style description, use business language.&lt;/p&gt;
+
+&lt;h2 id=&quot;express-intent-&quot;&gt;Express Intent &lt;sup id=&quot;fnref:1:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+
+&lt;p&gt;The “Then” part of the spec usually can express what the intend with the spec is.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=awwFfCYoGFQ&quot;&gt;Writing Better BDD Scenarios&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="testing" /><category term="software-engineering" /><summary type="html">What is BDD? Why it is needed?</summary></entry><entry><title type="html">Semantic Versioning</title><link href="www.ankushchoubey.com/semantic-versioning/" rel="alternate" type="text/html" title="Semantic Versioning" /><published>2022-05-06T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/semantic-versioning</id><content type="html" xml:base="www.ankushchoubey.com/semantic-versioning/">&lt;p&gt;Why versioning is required?&lt;/p&gt;
 
 &lt;p&gt;Problem with manual versioning?&lt;/p&gt;
 
@@ -322,64 +383,4 @@ Fluent assertions are assertions chained together. The structure is such that it
 
 &lt;p&gt;It’s better to think in terms on logarithmic scale here.&lt;/p&gt;
 
-&lt;p&gt;I faced this problem &lt;a href=&quot;/optimistic-locking-exception-mongodb&quot;&gt;when a record had to be updated concurrenly&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">More than half of what you would write a test for would get decided by TDD. These would cover basic functionality.</summary></entry><entry><title type="html">Debugging Effectively</title><link href="www.ankushchoubey.com/debugging-effectively/" rel="alternate" type="text/html" title="Debugging Effectively" /><published>2022-04-19T00:00:00-05:00</published><updated>2022-04-19T15:52:08-05:00</updated><id>www.ankushchoubey.com/debugging</id><content type="html" xml:base="www.ankushchoubey.com/debugging-effectively/">&lt;p&gt;Debugging has a standard set of steps.&lt;/p&gt;
-
-&lt;p&gt;But we do stupid things like search on stackoverflow without even reading what the error is fully.&lt;/p&gt;
-
-&lt;p&gt;This wastes stupid amount of time. Usually, configuration bugs can be mitigated much more easily if one has read Documentation and knows the configuration.&lt;/p&gt;
-
-&lt;h1 id=&quot;know-exactly-what-the-error-is&quot;&gt;Know exactly what the error is&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the error&lt;/li&gt;
-  &lt;li&gt;Really understand the error&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you’d like to be more methodical, add it to your bug card.&lt;/p&gt;
-
-&lt;h1 id=&quot;look-at-logs&quot;&gt;Look at logs.&lt;/h1&gt;
-
-&lt;p&gt;Set appropriate log level for the packages involved. If it’s harder to understand.&lt;/p&gt;
-
-&lt;h1 id=&quot;isolate-the-codeproblem&quot;&gt;Isolate the code/problem.&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Does error come on one setting/env/deployment but not other? If yes: why so?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;learn-to-use-debugger-mode-and-trace&quot;&gt;Learn to use debugger mode and trace.&lt;/h1&gt;
-
-&lt;p&gt;Fixing your debugging tool may help.&lt;/p&gt;
-
-&lt;h1 id=&quot;replicate-environment&quot;&gt;Replicate environment&lt;/h1&gt;
-
-&lt;p&gt;This can be done in several ways:&lt;/p&gt;
-
-&lt;h2 id=&quot;create-tests&quot;&gt;Create tests&lt;/h2&gt;
-
-&lt;p&gt;This could be unit/integration/etc.&lt;/p&gt;
-
-&lt;h2 id=&quot;if-you-cant-write-a-test-can-you-replicate-it-locally&quot;&gt;If you can’t write a test, can you replicate it locally?&lt;/h2&gt;
-
-&lt;p&gt;This could mean connecting UI and backend, upping some docker containers, or Minikube.&lt;/p&gt;
-
-&lt;h1 id=&quot;finding-solution&quot;&gt;Finding solution&lt;/h1&gt;
-
-&lt;p&gt;If it’s something that you can’t find,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Glance through documentation first. (Idealistic)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;p&gt;Ask:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ask People who may know.&lt;/li&gt;
-  &lt;li&gt;Teams who may have faced the issue.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Or read stack overflow or github issues.&lt;/p&gt;
-
-&lt;p&gt;If you still can’t find, ask a question on Stack-overflow. And when you do find the solution by yourself, post an answer.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Debugging has a standard set of steps.</summary></entry></feed>
+&lt;p&gt;I faced this problem &lt;a href=&quot;/optimistic-locking-exception-mongodb&quot;&gt;when a record had to be updated concurrenly&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">More than half of what you would write a test for would get decided by TDD. These would cover basic functionality.</summary></entry></feed>
