@@ -307,6 +307,12 @@ A good sign of rationality is ability to change your mind based on evidence.[^6]
 - Vindictive
 - Emotional
 
+**Books**:
+
+- The Scout Mindset by Julia Galef
+- [An Illustrated Video Book of Bad Arguments](https://www.youtube.com/watch?v=zD1DkTtUdpk) by  Ali Almossawi. [Text Version](https://bookofbadarguments.com/?view=allpages)
+- Rationality by Steven Pinker
+
 ***
 
 I am trying make these values my second nature by forming habits. The ideal goal is identity level change [^4] but it will take time which is why I haven't published my post on it.
