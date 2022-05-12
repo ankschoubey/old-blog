@@ -21,11 +21,13 @@ I want things to be as "sorted" in the long term as possible without being super
 
 **IDENTITY**: Responsible
 
-`What does taking personal responsibility mean?`
+{% include image.html file='/images/core-values/responsibility_hand.jpg' %}
+
+<sub>What does taking personal responsibility mean?</sub>
 
 Taking personal responsibility for ourselves means knowing that whatever happens to us in our responsibility.
 
-`Why we should take personal responsibility?`
+<sub>Why we should take personal responsibility?</sub>
 
 If something is good or something is bad, we have a lot more control over the situation that we realise. This can be a strategy we need to adopt, something that we have been doing that needs to be changes or something that we had been escaping that we should do.
 
@@ -35,13 +37,17 @@ The more voluntary responsibility we are able to pick up, the more powerful and 
 
 So, at every moment of the day, everything that happens to you, live as though you are the only one responsible to deal with it. Cuz for the most part you really are.
 
-`What happens when we don't pick up responsibility?`
+<sub>What happens when we don't pick up responsibility?</sub>
 
 Not picking up responsibility is neither good to us and neither good to others. It's wasted potential. It's  all the things that we could have done, all the good we could have accomplished that could make everyone lives better, but we instead choose the alternative.
 
 It's better to try and fail that to not try at all. `1> 0;`
 
+An experiment we can do to get started is: `Take on and complete as responsibilities/opportunities thrown towards you in a weak and see what happens.`
+
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
+
+
 
 ## **Peace**: Don't suffer imagined troubles
 
