@@ -21,18 +21,6 @@ I want things to be as "sorted" in the long term as possible without being super
 
 **IDENTITY**: Responsible
 
-> What emerges from lack of responsibility is chaos
-
-> Turn the obstacles up side down.
-
-> Start by cleaning up your room
-
-> Begin with the end in mind.
-
-> Put first things first.
-
-> With great responsibility comes great power.
-
 `What does taking personal responsibility mean?`
 
 Taking personal responsibility for ourselves means knowing that whatever happens to us in our responsibility.
