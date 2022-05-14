@@ -7,10 +7,7 @@ last_modified_at: 2022-05-13T20:52:08.052481
 last-modified-purpose:
 permalink: /question-driven-writing/
 title: Question Driven Writing
-hide: true
-image: /images/n-plus-one.svg
 ---
-![](/images/switch-jobs.jpg)
 
 <sub>What is question driven writing?
 
