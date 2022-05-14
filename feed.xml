@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-14T02:33:51-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-14T02:40:30-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,32 +49,32 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Question Driven Writing</title><link href="www.ankushchoubey.com/question-driven-writing/" rel="alternate" type="text/html" title="Question Driven Writing" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/question-driven-writing</id><content type="html" xml:base="www.ankushchoubey.com/question-driven-writing/">&lt;p&gt;&lt;sub&gt;What is question driven writing?&lt;/sub&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Question Driven Writing</title><link href="www.ankushchoubey.com/question-driven-writing/" rel="alternate" type="text/html" title="Question Driven Writing" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/question-driven-writing</id><content type="html" xml:base="www.ankushchoubey.com/question-driven-writing/">&lt;p&gt;&lt;sub&gt;What is question-driven writing?&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;QWD is a way of outlining an idea or an essay by writing questions that can be answered instead of usual topics or subtopics.&lt;/p&gt;
 
-&lt;p&gt;&lt;sub&gt;Where did I pick up question driven writing from?&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;Where did I pick up question-driven writing from?&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;I first read about questions via Jordan Peterson’s essay writing guide. Since I am a developer, this seemed very similar to TDD. So I gave it a similar name to help tune myself into the same zone.&lt;/p&gt;
 
-&lt;p&gt;&lt;sub&gt;How does question driven writing help clear thinking and write better?&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;How does question-driven writing help clear thinking and write better?&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;Typically when we write, we write something and then aim to push the quality and purpose of it.&lt;/p&gt;
 
 &lt;p&gt;QWD helps clarify the quality and purpose upfront. This kind of becomes a failing test like in TDD. This gives something to aim at. Now, when you answer the question, you’ll answer it precisely without dealing with other related questions/topics.&lt;/p&gt;
 
-&lt;p&gt;&lt;sub&gt;How does QDW help in breaking up paragraphs, blogposts?&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;How does QDW help in breaking up paragraphs, and blogposts?&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;QDW also naturally breaks up paragraphs and groups related paragraphs together. Also, if you have many unrelated questions, you could break up your essay into multiple essays. (#cleanCode)&lt;/p&gt;
 
-&lt;p&gt;QDW forces to have one main idea per essay.&lt;/p&gt;
+&lt;p&gt;QDW forces us to have one main idea per essay.&lt;/p&gt;
 
 &lt;p&gt;&lt;sub&gt;How to do QDW?
 To do QDW, start by writing the topic name. And all the questions you have related to the topic.&lt;/sub&gt;&lt;/p&gt;
 
-&lt;p&gt;One you have a bunch of them written down, start answering them.&lt;/p&gt;
+&lt;p&gt;Once you have a bunch of them written down, start answering them.&lt;/p&gt;
 
-&lt;p&gt;You’ll find some questions can be grouped together, group them.&lt;/p&gt;
+&lt;p&gt;You’ll find some questions that can be grouped, group them.&lt;/p&gt;
 
 &lt;p&gt;Done.&lt;/p&gt;
 
@@ -90,9 +90,9 @@ To do QDW, start by writing the topic name. And all the questions you have relat
 
 &lt;p&gt;By having precise writing and a clear aim, QDW reduces blank screen problems.&lt;/p&gt;
 
-&lt;p&gt;The cost of precision, saves more time overall.&lt;/p&gt;
+&lt;p&gt;The cost of precision saves more time overall.&lt;/p&gt;
 
-&lt;p&gt;When you have a new essay idea, just write all the intents in form of questions. And you will more likely remember how to write it.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is question driven writing?</summary></entry><entry><title type="html">Some considerations when setting a new project</title><link href="www.ankushchoubey.com/new-project/" rel="alternate" type="text/html" title="Some considerations when setting a new project" /><published>2022-05-11T00:00:00-05:00</published><updated>2022-05-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/new-project</id><content type="html" xml:base="www.ankushchoubey.com/new-project/">&lt;p&gt;Some essential considerations when starting a new project&lt;/p&gt;
+&lt;p&gt;When you have a new essay idea, just write all the intents in form of questions. And you will more likely remember how to write it.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is question-driven writing?</summary></entry><entry><title type="html">Some considerations when setting a new project</title><link href="www.ankushchoubey.com/new-project/" rel="alternate" type="text/html" title="Some considerations when setting a new project" /><published>2022-05-11T00:00:00-05:00</published><updated>2022-05-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/new-project</id><content type="html" xml:base="www.ankushchoubey.com/new-project/">&lt;p&gt;Some essential considerations when starting a new project&lt;/p&gt;
 
 &lt;p&gt;Tech stack and framework&lt;/p&gt;
 
