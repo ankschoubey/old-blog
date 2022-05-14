@@ -43,11 +43,9 @@ Not picking up responsibility is neither good to us and neither good to others. 
 
 It's better to try and fail that to not try at all. `1> 0;`
 
-An experiment we can do to get started is: `Take on and complete as responsibilities/opportunities thrown towards you in a weak and see what happens.`
+An experiment we can do to get started is: `Take on and complete as many responsibilities/opportunities thrown towards you in a week and see what happens.`
 
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
-
-
 
 ## **Peace**: Don't suffer imagined troubles
 
