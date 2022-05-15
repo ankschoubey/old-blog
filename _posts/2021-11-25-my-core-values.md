@@ -7,9 +7,7 @@ last_modified_at: 2022-05-13T20:52:08.052481
 last-modified-purpose: Updated Responsibility section
 permalink: /my-core-values/
 title: My Core Values
-image: /images/my-core-values.jpg
 ---
-![](/images/my-core-values.jpg)
 
 In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values designed around my strengths and flaws. I have modified these multiple times.
 
@@ -17,7 +15,7 @@ I want things to be as "sorted" in the long term as possible without being super
 
 ***
 
-## **Responsibility**: It's not worth having ego but no one will save you.
+## **Responsibility**: Aim towards the good.
 
 **IDENTITY**: Responsible
 
@@ -52,39 +50,6 @@ An experiment we can do to get started is: `Take on and complete as many respons
 {% include image.html file='/images/core-values/cave-you-seek.jpg' caption='Illustration by Justin Gerard' %}
 [^5]
 
-## **Peace**: Don't suffer imagined troubles
-
-**IDENTITY**: Peaceful person, Calm person
-
-> Happiness is a single player game. It is a skill that you develop and a choice that you make.
-
-> All of humanity's problems stem from man's inability to sit quietly in a room alone.
-
-> Not wanting something is as good as having it.
-
-> **The Backwards Law**: Pursuing positive experience is a negative experience and accepting negative experience itself is a positive experience.
-
-Being unhappy is inefficient.
-
-Happiness/Peace is a skill that you develop and a choice that you make [^2]. You can choose to live a certain way that will lead to peace.
-
-To have peace, your brain should be in controll in every situation. You have to be mentally tough. 
-
-You need to be peaceful if you want things to be good long term. Develop detachment (not wanting), be less judgemental and optimism. Aiming for peace requires a lot of recognizing, rethinking and flipping/unlearing almost everything.
-
-If you don't believe that you can achieve ultimate peace (Nirwana), you'll have a hard time finding it.
-
-**Role Models**:  Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru
-
-**Books**: Subtle at of not giving a fuck by Mark Manson
-
-**FOR**:
-
-- Internal Locus of Control
-- Optimism
-- **Rationality**: allows for a next level thinking where decisions can be made from a birds 🦅 eye view and while knowing the long term effects.
-
-
 ## **Truth**: Unhide the fog by becoming truth seeking missile. 
 
 **IDENTITY**: Honest person, Truthful person
@@ -116,6 +81,38 @@ While dealing with people, you have to ask people multiple times to make sure th
 - Lieing
 - Deception
 - Hiding truth for short term gain aka to get what you want
+
+## **Peace**: Don't suffer imagined troubles
+
+**IDENTITY**: Peaceful person, Calm person
+
+> Happiness is a single player game. It is a skill that you develop and a choice that you make.
+
+> All of humanity's problems stem from man's inability to sit quietly in a room alone.
+
+> Not wanting something is as good as having it.
+
+> **The Backwards Law**: Pursuing positive experience is a negative experience and accepting negative experience itself is a positive experience.
+
+Being unhappy is inefficient.
+
+Happiness/Peace is a skill that you develop and a choice that you make [^2]. You can choose to live a certain way that will lead to peace.
+
+To have peace, your brain should be in controll in every situation. You have to be mentally tough. 
+
+You need to be peaceful if you want things to be good long term. Develop detachment (not wanting), be less judgemental and optimism. Aiming for peace requires a lot of recognizing, rethinking and flipping/unlearing almost everything.
+
+If you don't believe that you can achieve ultimate peace (Nirwana), you'll have a hard time finding it.
+
+**Role Models**:  Naval Ravikant, Sam Harris, Kapil Gupta, Sadhguru
+
+**Books**: Subtle at of not giving a fuck by Mark Manson
+
+**FOR**:
+
+- Internal Locus of Control
+- Optimism
+- **Rationality**: allows for a next level thinking where decisions can be made from a birds 🦅 eye view and while knowing the long term effects.
 
 ## **Systems Thinking**: Become an effortness executioner - 'Everthing is undercontrol'
 
