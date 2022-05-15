@@ -47,6 +47,11 @@ An experiment we can do to get started is: `Take on and complete as many respons
 
 **Role Models**:  Peter Parker (Andrew Garfield), Jordan Peterson
 
+**For**: Courage is proper action despite not being fully ready. If you are given an opportunity to be courageous, you are already prepared.
+
+{% include image.html file='/images/core-values/cave-you-seek.jpg' caption='Illustration by Justin Gerard' %}
+[^5]
+
 ## **Peace**: Don't suffer imagined troubles
 
 **IDENTITY**: Peaceful person, Calm person
@@ -77,6 +82,8 @@ If you don't believe that you can achieve ultimate peace (Nirwana), you'll have 
 
 - Internal Locus of Control
 - Optimism
+- **Rationality**: allows for a next level thinking where decisions can be made from a birds 🦅 eye view and while knowing the long term effects.
+
 
 ## **Truth**: Unhide the fog by becoming truth seeking missile. 
 
@@ -203,41 +210,6 @@ Be impatient with yourself and a bit patient with others.
 - Social Approval
 - Status Game
 
-## **Courage is calling**: The cave you fear to enter holds the treasure you seek.
-
-**IDENTITY**: Courageous 
-
-{% include image.html file='/images/core-values/cave-you-seek.jpg' caption='Illustration by Justin Gerard' %}
-[^5]
-
-> If you have to slay a dragon, you should go to it's lair before it comes to your village.
-
-> The cave you fear to enter holds the treasure you seek.
-
-Courage is proper action despite not being fully ready. If you are given an opportunity to be courageous, you are already prepared.
-
-This is probably the most important value that supports all others. It takes courage to tell the truth, act responsibly, detach yourself to be peaceful, build and trusting long term systems, and break the spell of wasting time. And the courage of following the plan and push yourself when time comes. 
-
-Everything worth while is an act of courage.
-
-No one is invincible. It's good and courageous to be vulnerable. To admit to faults and take steps to improve it but it's not okay to be weak.
-
-Courage is exciting. It pushes to act beyond what one believes is possible. So get excited by the challenge and push yourself beyond what you think is possible.
-
-**Role Models**: Jocko Willink, Super Saiyan Blue - Son Goku, Bounce Man - Monkey D Luffy, Byan Mode - Naruto, Batman
-
-**Books**: Courage is Calling by Ryan Holiday
-
-**FOR**:
-
-- Take a little step outside your comfort zone.
-- Embrace change.
-- New experiences
-
-**AGAINST**:
-
-- Excessive Flinch
-
 ## **Team Work**: Node in a network
 
 **IDENTITY**: Caring, Helpful 
@@ -275,47 +247,6 @@ One can be strict with himself but has to be patient with others. And remember t
 - Drama Triangle
 - People Pleasing
 - Betrayal
-
-## **Rational Behaviour**: Real wisdom is an action
-
-**IDENTITY**: Rational 
-
-> Delay Gratification. Choose long-term over short-term.
-
-> The first principle is that you must not fool yourself and you are the easiest person to fool.
-
-Humans are biased. We are emotional creatures. This can be a good thing and a bad thing.
-
-Rationality allows for a next level thinking where decisions can be made from a birds 🦅 eye view and while knowing the long term effects.
-
-Almost all rationality leads to long term thinking.
-
-Rational Thinking is precursor to rational behavior. But rational behavior should also be practiced explicitly.
-
-Rationality has 2 parts: Emotions + Logic. The game is to understand and make best decision that satisfy both.
-
-A good sign of rationality is ability to change your mind based on evidence.[^6]
-
-**Role Models**: Stoics
-
-**FOR**:
-
-- Detach: Think from an outsider's perspective. Like you are giving advice to someone else
-    - If this was for someone I know, what would I advice them? Often this advice would be different and more rational.
-
-**AGAINST**:
-
-- Getting confused
-- Not taking action
-- Being Myopic
-- Vindictive
-- Emotional
-
-**Books**:
-
-- The Scout Mindset by Julia Galef
-- [An Illustrated Video Book of Bad Arguments](https://www.youtube.com/watch?v=zD1DkTtUdpk) by  Ali Almossawi. [Text Version](https://bookofbadarguments.com/?view=allpages)
-- Rationality by Steven Pinker
 
 ***
 
