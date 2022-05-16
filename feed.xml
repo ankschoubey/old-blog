@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-15T07:52:01-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-16T09:59:09-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -442,4 +442,16 @@ Fluent assertions are assertions chained together. The structure is such that it
 
 &lt;p&gt;It’s better to think in terms on logarithmic scale here.&lt;/p&gt;
 
-&lt;p&gt;I faced this problem &lt;a href=&quot;/optimistic-locking-exception-mongodb&quot;&gt;when a record had to be updated concurrenly&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">More than half of what you would write a test for would get decided by TDD. These would cover basic functionality.</summary></entry></feed>
+&lt;p&gt;I faced this problem &lt;a href=&quot;/optimistic-locking-exception-mongodb&quot;&gt;when a record had to be updated concurrenly&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;mutation-testing&quot;&gt;Mutation Testing&lt;/h1&gt;
+
+&lt;p&gt;//TODO&lt;/p&gt;
+
+&lt;p&gt;https://testing.googleblog.com/2021/04/mutation-testing.html&lt;/p&gt;
+
+&lt;h1 id=&quot;chaos-engineering&quot;&gt;Chaos Engineering&lt;/h1&gt;
+
+&lt;p&gt;//TODO&lt;/p&gt;
+
+&lt;p&gt;https://codecentric.github.io/chaos-monkey-spring-boot/&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="draft" /><summary type="html">More than half of what you would write a test for would get decided by TDD. These would cover basic functionality.</summary></entry></feed>
