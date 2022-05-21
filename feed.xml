@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-21T01:54:42-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-21T01:57:32-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -78,7 +78,31 @@
 &lt;p&gt;So instead of a what is X?
 we can ask how does X work?
 Any example of X
-Why X is important?&lt;/p&gt;</content><author><name></name></author><category term="learning" /><category term="draft" /><summary type="html">Mutation testing is a technique in software engineering where a piece of code is mutated.</summary></entry><entry><title type="html">Question Driven Writing</title><link href="www.ankushchoubey.com/question-driven-writing/" rel="alternate" type="text/html" title="Question Driven Writing" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/question-driven-writing</id><content type="html" xml:base="www.ankushchoubey.com/question-driven-writing/">&lt;p&gt;&lt;sub&gt;What is question-driven writing?&lt;/sub&gt;&lt;/p&gt;
+Why X is important?&lt;/p&gt;</content><author><name></name></author><category term="learning" /><category term="draft" /><summary type="html">Mutation testing is a technique in software engineering where a piece of code is mutated.</summary></entry><entry><title type="html">Writing cleaner commit messages with conventional commits</title><link href="www.ankushchoubey.com/conventional-commits/" rel="alternate" type="text/html" title="Writing cleaner commit messages with conventional commits" /><published>2022-05-17T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/conventional-commits</id><content type="html" xml:base="www.ankushchoubey.com/conventional-commits/">&lt;h3 id=&quot;why-commit-messages-are-important&quot;&gt;Why commit messages are important?&lt;/h3&gt;
+&lt;p&gt;Whenever we code, we save the state of the code with a commit. And the commit message becomes description of what exactly happened.&lt;/p&gt;
+
+&lt;p&gt;Having good commit message leads to better communication and understanding. People can use commits to learn the code. It is an invaluable peace of documentation when done well.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-happened-when-we-dont-follow-a-convention&quot;&gt;What happened when we don’t follow a convention?&lt;/h3&gt;
+&lt;p&gt;Like with anything else, When we don’t follow a convention for commit messages everything is messed up. Everyone has their own rules. Some are too descriptive. Some are less.&lt;/p&gt;
+
+&lt;p&gt;We can’t get important insights&lt;/p&gt;
+
+&lt;h3 id=&quot;why-we-should-follow-conventional-commits&quot;&gt;Why we should follow conventional commits?&lt;/h3&gt;
+&lt;p&gt;Conventional commits forces us to have atomic commits. Aka to include only change that has been done.&lt;/p&gt;
+
+&lt;p&gt;This can also help with git bisect&lt;/p&gt;
+
+&lt;p&gt;It also has plugins that make it easier to perform other actions.&lt;/p&gt;
+
+&lt;p&gt;Semantic Versioning
+Change log generation&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-some-ways-for-making-it-easy-to-implement-conventional-commits&quot;&gt;What are some ways for making it easy to implement conventional commits?&lt;/h3&gt;
+
+&lt;p&gt;Commit lint website : https://commitlint.io/
+IDE plugins
+Git pre-commit hooks&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Why commit messages are important? Whenever we code, we save the state of the code with a commit. And the commit message becomes description of what exactly happened.</summary></entry><entry><title type="html">Question Driven Writing</title><link href="www.ankushchoubey.com/question-driven-writing/" rel="alternate" type="text/html" title="Question Driven Writing" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/question-driven-writing</id><content type="html" xml:base="www.ankushchoubey.com/question-driven-writing/">&lt;p&gt;&lt;sub&gt;What is question-driven writing?&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;QWD is a way of outlining an idea or an essay by writing questions that can be answered instead of usual topics or subtopics.&lt;/p&gt;
 
@@ -415,12 +439,4 @@ Fluent assertions are assertions chained together. The structure is such that it
 
 &lt;p&gt;The JUnit assertion is bulkier and will continue to get much bulkier with more assertion.&lt;/p&gt;
 
-&lt;p&gt;The AssertJ fluent assertion on other hand is grouped, contains helper methods that do not require specially conversion of object for common comparision.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.</summary></entry><entry><title type="html">Being good at one thing doesn’t automatically make you better at another</title><link href="www.ankushchoubey.com/good-at-one-thing/" rel="alternate" type="text/html" title="Being good at one thing doesn’t automatically make you better at another" /><published>2022-05-02T00:00:00-05:00</published><updated>2022-05-02T15:52:08-05:00</updated><id>www.ankushchoubey.com/good-at-one-thing</id><content type="html" xml:base="www.ankushchoubey.com/good-at-one-thing/">&lt;p&gt;This essentially means you still have to put in the work.&lt;/p&gt;
-
-&lt;p&gt;If you are good at technical skill, that doesn’t automatically make you the best if you are lacking in communication.&lt;/p&gt;
-
-&lt;p&gt;Similarly, if you are ethical/follow ethics rigorously that doesn’t mean you’ll win at life. There are other things also. And just by following a ethic or being good at a certain skill doesn’t make you entitled to everything.&lt;/p&gt;
-
-&lt;p&gt;This is a great equilizer for all.&lt;/p&gt;
-
-&lt;p&gt;No one is good at everything. And therefore requires help from others.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html">This essentially means you still have to put in the work.</summary></entry></feed>
+&lt;p&gt;The AssertJ fluent assertion on other hand is grouped, contains helper methods that do not require specially conversion of object for common comparision.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.</summary></entry></feed>
