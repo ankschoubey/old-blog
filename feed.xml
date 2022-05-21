@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-21T01:51:16-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-21T01:53:07-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -69,7 +69,16 @@
 
 &lt;p&gt;This is why I advocated previously that I prefer database without stored procedures, functions, etc. CRUD should ideally be enough. If crud isn’t enough maybe database design should be improved.&lt;/p&gt;
 
-&lt;p&gt;When it’s worth splitting?&lt;/p&gt;</content><author><name></name></author><category term="distributed-systemms" /><summary type="html">Why we tend to over-engineer?</summary></entry><entry><title type="html">Question Driven Writing</title><link href="www.ankushchoubey.com/question-driven-writing/" rel="alternate" type="text/html" title="Question Driven Writing" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/question-driven-writing</id><content type="html" xml:base="www.ankushchoubey.com/question-driven-writing/">&lt;p&gt;&lt;sub&gt;What is question-driven writing?&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;When it’s worth splitting?&lt;/p&gt;</content><author><name></name></author><category term="distributed-systems" /><category term="draft" /><summary type="html">Why we tend to over-engineer?</summary></entry><entry><title type="html">Mutating Questions to deepen understanding</title><link href="www.ankushchoubey.com/mutating-questions/" rel="alternate" type="text/html" title="Mutating Questions to deepen understanding" /><published>2022-05-17T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/mutating-questions</id><content type="html" xml:base="www.ankushchoubey.com/mutating-questions/">&lt;p&gt;Mutation testing is a technique in software engineering where a piece of code is mutated.&lt;/p&gt;
+
+&lt;p&gt;We can apply same to learning.&lt;/p&gt;
+
+&lt;p&gt;Question Driven Writing/Learning is the best way to learn. To get deeper, we can mutate our question&lt;/p&gt;
+
+&lt;p&gt;So instead of a what is X?
+we can ask how does X work?
+Any example of X
+Why X is important?&lt;/p&gt;</content><author><name></name></author><category term="learning" /><category term="draft" /><summary type="html">Mutation testing is a technique in software engineering where a piece of code is mutated.</summary></entry><entry><title type="html">Question Driven Writing</title><link href="www.ankushchoubey.com/question-driven-writing/" rel="alternate" type="text/html" title="Question Driven Writing" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/question-driven-writing</id><content type="html" xml:base="www.ankushchoubey.com/question-driven-writing/">&lt;p&gt;&lt;sub&gt;What is question-driven writing?&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;QWD is a way of outlining an idea or an essay by writing questions that can be answered instead of usual topics or subtopics.&lt;/p&gt;
 
@@ -414,34 +423,4 @@ Fluent assertions are assertions chained together. The structure is such that it
 
 &lt;p&gt;This is a great equilizer for all.&lt;/p&gt;
 
-&lt;p&gt;No one is good at everything. And therefore requires help from others.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html">This essentially means you still have to put in the work.</summary></entry><entry><title type="html">What and when to publish on message queue</title><link href="www.ankushchoubey.com/what-when-to-publish/" rel="alternate" type="text/html" title="What and when to publish on message queue" /><published>2022-04-27T00:00:00-05:00</published><updated>2022-04-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/what-to-publish-on-kafka</id><content type="html" xml:base="www.ankushchoubey.com/what-when-to-publish/">&lt;p&gt;TLDR: Publish every business entities on each update/write. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;This is specially true for event driven systems.&lt;/p&gt;
-
-&lt;p&gt;Rather than writing code to manually publish after each save, we can make use of event listeners. Event listeners would run a piece of code each time a certain event like database save occurs.&lt;/p&gt;
-
-&lt;p&gt;For example: Spring Data Mongo has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AbstractEventListener&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ReactiveAfterSaveCallback&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleEntityDataPublisher&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ReactiveAfterSaveCallback&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;{&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;onAfterSave&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleEntity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;bson&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Document&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;just&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;doOnNext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;just&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-                    &lt;span class=&quot;c1&quot;&gt;// code to publish&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;publishOn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Schedular&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;elastic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;subcribe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In above, Spring Webflux code, publishOn and subscribe ensure that publishing will run in a separate thread and doesn’t effect execution of the main thread.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Anadi Misra &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="spring-boot" /><category term="message-queue" /><summary type="html">TLDR: Publish every business entities on each update/write. 1 Anadi Misra &amp;#8617;</summary></entry></feed>
+&lt;p&gt;No one is good at everything. And therefore requires help from others.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html">This essentially means you still have to put in the work.</summary></entry></feed>
