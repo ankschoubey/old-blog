@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-21T01:57:32-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-21T01:58:39-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,35 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Reduce the number of moving peaces in a distributed system</title><link href="www.ankushchoubey.com/no-of-pieces/" rel="alternate" type="text/html" title="Reduce the number of moving peaces in a distributed system" /><published>2022-05-20T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/no-of-pieces</id><content type="html" xml:base="www.ankushchoubey.com/no-of-pieces/">&lt;p&gt;&lt;sub&gt;Why we tend to over-engineer?&lt;/sub&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gist of BDD</title><link href="www.ankushchoubey.com/bdd/" rel="alternate" type="text/html" title="Gist of BDD" /><published>2022-05-21T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/gist-of-bdd</id><content type="html" xml:base="www.ankushchoubey.com/bdd/">&lt;h3 id=&quot;how-typically-software-is-developed&quot;&gt;How typically software is developed?&lt;/h3&gt;
+
+&lt;p&gt;Typically when we start developing we either have a rough idea about what has to be developed or we have a story.&lt;/p&gt;
+
+&lt;p&gt;If the story is detailed, it’s better but if it’s not then we code up something and then hope it’s the right thing.&lt;/p&gt;
+
+&lt;p&gt;If it’s not the right thing, we have to go back to all stakeholders (management, QA, Doc team, product team), show them a working demo and then change code accordingly. The cost of changing code is too high. And cost of keeping everyone in sync is high as well.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-specification-file-clarify-thinking-about-feature&quot;&gt;How specification file clarify thinking about feature?&lt;/h3&gt;
+
+&lt;p&gt;A functional specification file can help up avoid being foggy with our approach. It can help clarify requirements at a level not possible with most other methods.&lt;/p&gt;
+
+&lt;p&gt;A specification file includes all details about features and scenarios that are going to be built. The scenarios are detailed and include everything that developer will have to build, no less no more.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-specification-file-can-help-everyone-is-sync&quot;&gt;How specification file can help everyone is sync?&lt;/h3&gt;
+
+&lt;p&gt;Whenever anyone within organization has to discuss over features, the spec file can be shared. This will keep everyone in sync.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-problem-is-faced-with-traditional-specification-file&quot;&gt;What problem is faced with traditional specification file?&lt;/h3&gt;
+
+&lt;p&gt;Spec files are updated constantly. Traditional ways of building spec doesn’t help know if spec file and product being built are actually in sync.&lt;/p&gt;
+
+&lt;p&gt;It may happen that some features are added or removed but spec file or the product don’t paint an accurate picture.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-gherkin-feature-files-solves-problem-faced-by-traditional-specification&quot;&gt;How Gherkin feature files solves problem faced by traditional specification?&lt;/h3&gt;
+
+&lt;p&gt;Automated test files, feature files solve this problem by allowing plugins can Cucumber to write automated tests. If the test passes, the scenario was implemented perfectly.&lt;/p&gt;
+
+&lt;p&gt;If test doesn’t pass, then scenarios is failed&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">How typically software is developed?</summary></entry><entry><title type="html">Reduce the number of moving peaces in a distributed system</title><link href="www.ankushchoubey.com/no-of-pieces/" rel="alternate" type="text/html" title="Reduce the number of moving peaces in a distributed system" /><published>2022-05-20T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/no-of-pieces</id><content type="html" xml:base="www.ankushchoubey.com/no-of-pieces/">&lt;p&gt;&lt;sub&gt;Why we tend to over-engineer?&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;Any kind of over-engineering, distributed systems or not, happen because we try to solve scenarios without facing it.&lt;/p&gt;
 
@@ -415,28 +443,4 @@ https://github.com/dbader/readme-template&lt;/p&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Helpers&lt;/code&gt; - Special helpers methods for dealing with Data Object&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;All of these methods are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public static&lt;/code&gt; and using them has the same fluency as above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem</summary></entry><entry><title type="html">Writing cleaner tests with Fluent Assertions</title><link href="www.ankushchoubey.com/fluent-assertions/" rel="alternate" type="text/html" title="Writing cleaner tests with Fluent Assertions" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/fluent-assertions</id><content type="html" xml:base="www.ankushchoubey.com/fluent-assertions/">&lt;p&gt;Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.&lt;/p&gt;
-
-&lt;p&gt;One of the ways is having fluent assertions.
-Fluent assertions are assertions chained together. The structure is such that it makes it more concise and easy to read.&lt;/p&gt;
-
-&lt;p&gt;We’ll take an example comparing Junit assertions with AssertJ assertions.&lt;/p&gt;
-
-&lt;p&gt;In the below example, we are checking if a Map contains specific keys, and if date is correct.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someServiceCallReturningAJson&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// JUnit Assertions: Not Fluent&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;Set&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expectedKeys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashSet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Arrays&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;asList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;randomField&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assertEquals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expectedKeys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;keySet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assertEquals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2001-07-04&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// AssertJ: Fluent Assertions&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;assertThat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsKeys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;randomField&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsEntry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;2001-07-04&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The JUnit assertion is bulkier and will continue to get much bulkier with more assertion.&lt;/p&gt;
-
-&lt;p&gt;The AssertJ fluent assertion on other hand is grouped, contains helper methods that do not require specially conversion of object for common comparision.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.</summary></entry></feed>
+&lt;p&gt;All of these methods are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public static&lt;/code&gt; and using them has the same fluency as above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem</summary></entry></feed>

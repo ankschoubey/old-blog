@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Thoughts and Notes on BDD | Ankush</title>
+<title>Gist of BDD | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Thoughts and Notes on BDD" />
+<meta property="og:title" content="Gist of BDD" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="What is BDD? Why it is needed?" />
-<meta property="og:description" content="What is BDD? Why it is needed?" />
+<meta name="description" content="How typically software is developed?" />
+<meta property="og:description" content="How typically software is developed?" />
 <link rel="canonical" href="www.ankushchoubey.com/bdd/" />
 <meta property="og:url" content="www.ankushchoubey.com/bdd/" />
 <meta property="og:site_name" content="Ankush" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-05-10T00:00:00-05:00" />
+<meta property="article:published_time" content="2022-05-21T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/bdd/","headline":"Thoughts and Notes on BDD","dateModified":"2022-05-10T15:52:08-05:00","datePublished":"2022-05-10T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/bdd/"},"description":"What is BDD? Why it is needed?","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/bdd/","headline":"Gist of BDD","dateModified":"2050-09-23T15:52:08-05:00","datePublished":"2022-05-21T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/bdd/"},"description":"How typically software is developed?","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -113,12 +113,12 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Thoughts and Notes on BDD</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Gist of BDD</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-05-10T00:00:00-05:00" itemprop="datePublished">
-        Written: May 10, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-05-10T15:52:08-05:00" itemprop="dateModified">
-          Updated: May 10, 2022
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-05-21T00:00:00-05:00" itemprop="datePublished">
+        Written: May 21, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2050-09-23T15:52:08-05:00" itemprop="dateModified">
+          Updated: Sep 23, 2050
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -149,9 +149,7 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag testing" href="/categories/#testing">testing</a>
-    
-    <a class="tag fa fa-hashtag software-engineering" href="/categories/#software-engineering">software-engineering</a>
+    <a class="tag fa fa-hashtag bdd" href="/categories/#bdd">bdd</a>
     
 </div>
 <div class="right-section"><a id='translate-btn' href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
@@ -189,68 +187,35 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h1 id="what-is-bdd-why-it-is-needed">What is BDD? Why it is needed?</h1>
+    <h3 id="how-typically-software-is-developed">How typically software is developed?</h3>
 
-<p>BDD stands for Behavior Driven Development.</p>
+<p>Typically when we start developing we either have a rough idea about what has to be developed or we have a story.</p>
 
-<p>In BDD, we write specs for the features we want to develop. This serves as a contract between developer and other stake holders.</p>
+<p>If the story is detailed, it’s better but if it’s not then we code up something and then hope it’s the right thing.</p>
 
-<p>To be more precise, these specs are executable specs. Meaning there can be tests written for them to verify if a feature is working as expected.</p>
+<p>If it’s not the right thing, we have to go back to all stakeholders (management, QA, Doc team, product team), show them a working demo and then change code accordingly. The cost of changing code is too high. And cost of keeping everyone in sync is high as well.</p>
 
-<p>BDD doesn’t always need to be end to end flows but it is most commonly that.</p>
+<h3 id="how-specification-file-clarify-thinking-about-feature">How specification file clarify thinking about feature?</h3>
 
-<h1 id="where-does-bdd-fit-in">Where does BDD fit in?</h1>
+<p>A functional specification file can help up avoid being foggy with our approach. It can help clarify requirements at a level not possible with most other methods.</p>
 
-<p>A common way to use BDD is to create specs before starting any development and even before creating a user story.</p>
+<p>A specification file includes all details about features and scenarios that are going to be built. The scenarios are detailed and include everything that developer will have to build, no less no more.</p>
 
-<p>This is usually done via: 3 Amigos methodology.</p>
+<h3 id="how-specification-file-can-help-everyone-is-sync">How specification file can help everyone is sync?</h3>
 
-<p>3 Amigos is a ceremony that involve the following to come up with specs from different point of views:</p>
+<p>Whenever anyone within organization has to discuss over features, the spec file can be shared. This will keep everyone in sync.</p>
 
-<ol>
-  <li>Development Team</li>
-  <li>Product Team</li>
-  <li>QA Team</li>
-</ol>
+<h3 id="what-problem-is-faced-with-traditional-specification-file">What problem is faced with traditional specification file?</h3>
 
-<h1 id="how-to-write-good-bdd-specs">How to write good BDD specs?</h1>
+<p>Spec files are updated constantly. Traditional ways of building spec doesn’t help know if spec file and product being built are actually in sync.</p>
 
-<p>Some principles of writing good BDD tests are similar to that of normal tests.</p>
+<p>It may happen that some features are added or removed but spec file or the product don’t paint an accurate picture.</p>
 
-<h2 id="aim-for-single-assertions-single-then-">Aim for single assertions (Single “Then”) <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
+<h3 id="how-gherkin-feature-files-solves-problem-faced-by-traditional-specification">How Gherkin feature files solves problem faced by traditional specification?</h3>
 
-<p>Having multiple Then blocks means your tests are likely doing too much.</p>
+<p>Automated test files, feature files solve this problem by allowing plugins can Cucumber to write automated tests. If the test passes, the scenario was implemented perfectly.</p>
 
-<h2 id="use-data-that-replicates-real-work-">Use data that replicates real work <sup id="fnref:1:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
-
-<p>For example, for a stackoverflow like service instead of</p>
-<ul>
-  <li>When user asks the question “Testing data”</li>
-</ul>
-
-<p>use</p>
-
-<ul>
-  <li>When user asks the questions “How to fix null pointer in Java?”</li>
-</ul>
-
-<p>The later is much closer to real usage.</p>
-
-<h2 id="use-business-language-">Use business language <sup id="fnref:1:2" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
-
-<p>Instead of expressing selenium style description, use business language.</p>
-
-<h2 id="express-intent-">Express Intent <sup id="fnref:1:3" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
-
-<p>The “Then” part of the spec usually can express what the intend with the spec is.</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p><a href="https://www.youtube.com/watch?v=awwFfCYoGFQ">Writing Better BDD Scenarios</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a> <a href="#fnref:1:2" class="reversefootnote" role="doc-backlink">&#8617;<sup>3</sup></a> <a href="#fnref:1:3" class="reversefootnote" role="doc-backlink">&#8617;<sup>4</sup></a></p>
-    </li>
-  </ol>
-</div>
+<p>If test doesn’t pass, then scenarios is failed</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
