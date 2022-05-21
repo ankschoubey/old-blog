@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-16T09:59:09-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-21T01:50:16-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,27 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Question Driven Writing</title><link href="www.ankushchoubey.com/question-driven-writing/" rel="alternate" type="text/html" title="Question Driven Writing" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/question-driven-writing</id><content type="html" xml:base="www.ankushchoubey.com/question-driven-writing/">&lt;p&gt;&lt;sub&gt;What is question-driven writing?&lt;/sub&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Reduce the number of moving peaces in a distributed system</title><link href="www.ankushchoubey.com/no-of-pieces/" rel="alternate" type="text/html" title="Reduce the number of moving peaces in a distributed system" /><published>2022-05-20T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/no-of-pieces</id><content type="html" xml:base="www.ankushchoubey.com/no-of-pieces/">&lt;p&gt;&lt;sub&gt;Why we tend to over-engineer?&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;Any kind of over-engineering, distributed systems or not, happen because we try to solve scenarios without facing it.&lt;/p&gt;
+
+&lt;p&gt;It is a premature optimization.&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;What happens when we over engineer?&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;We drastically increase development and maintenance cost.&lt;/p&gt;
+
+&lt;p&gt;If X works well enough with good enough performance, it isn’t worth dividing it up into Y and Z until it’s needed.&lt;/p&gt;
+
+&lt;p&gt;You should think in terms of keeping code together.&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Why we should aim to keep code together?&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;A kind of anti-micro service step. Aim to keep code together until you find a good enough reason to break.&lt;/p&gt;
+
+&lt;p&gt;This is why I advocated previously that I prefer database without stored procedures, functions, etc. CRUD should ideally be enough. If crud isn’t enough maybe database design should be improved.&lt;/p&gt;
+
+&lt;p&gt;When it’s worth splitting?&lt;/p&gt;</content><author><name></name></author><category term="distributed-systemms" /><summary type="html">Why we tend to over-engineer?</summary></entry><entry><title type="html">Question Driven Writing</title><link href="www.ankushchoubey.com/question-driven-writing/" rel="alternate" type="text/html" title="Question Driven Writing" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/question-driven-writing</id><content type="html" xml:base="www.ankushchoubey.com/question-driven-writing/">&lt;p&gt;&lt;sub&gt;What is question-driven writing?&lt;/sub&gt;&lt;/p&gt;
 
 &lt;p&gt;QWD is a way of outlining an idea or an essay by writing questions that can be answered instead of usual topics or subtopics.&lt;/p&gt;
 
@@ -424,34 +444,4 @@ Fluent assertions are assertions chained together. The structure is such that it
       &lt;p&gt;Anadi Misra &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="spring-boot" /><category term="message-queue" /><summary type="html">TLDR: Publish every business entities on each update/write. 1 Anadi Misra &amp;#8617;</summary></entry><entry><title type="html">What to test to write after functional TDD</title><link href="www.ankushchoubey.com/after-tdd/" rel="alternate" type="text/html" title="What to test to write after functional TDD" /><published>2022-04-27T00:00:00-05:00</published><updated>2022-04-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/after-tdd</id><content type="html" xml:base="www.ankushchoubey.com/after-tdd/">&lt;p&gt;More than half of what you would write a test for would get decided by TDD. These would cover basic functionality.&lt;/p&gt;
-
-&lt;p&gt;Essentially all tests fix the input and check the output or internal state of the applicaiton.&lt;/p&gt;
-
-&lt;p&gt;There are some other things that are worth paying attention to:&lt;/p&gt;
-
-&lt;h1 id=&quot;boundary-values-and-equivalence-partitioning&quot;&gt;Boundary Values and Equivalence Partitioning&lt;/h1&gt;
-
-&lt;p&gt;Decide what input data are valid and which ones are not. How would the code react to invalid input? Specially if data is coming from an external system.&lt;/p&gt;
-
-&lt;p&gt;For example: If something depends on a Integer or long, can that be negative?&lt;/p&gt;
-
-&lt;h1 id=&quot;concurrent-transactions&quot;&gt;Concurrent Transactions&lt;/h1&gt;
-
-&lt;p&gt;What would happen if 100/500/1000 requests come concurrently?&lt;/p&gt;
-
-&lt;p&gt;It’s better to think in terms on logarithmic scale here.&lt;/p&gt;
-
-&lt;p&gt;I faced this problem &lt;a href=&quot;/optimistic-locking-exception-mongodb&quot;&gt;when a record had to be updated concurrenly&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;mutation-testing&quot;&gt;Mutation Testing&lt;/h1&gt;
-
-&lt;p&gt;//TODO&lt;/p&gt;
-
-&lt;p&gt;https://testing.googleblog.com/2021/04/mutation-testing.html&lt;/p&gt;
-
-&lt;h1 id=&quot;chaos-engineering&quot;&gt;Chaos Engineering&lt;/h1&gt;
-
-&lt;p&gt;//TODO&lt;/p&gt;
-
-&lt;p&gt;https://codecentric.github.io/chaos-monkey-spring-boot/&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="draft" /><summary type="html">More than half of what you would write a test for would get decided by TDD. These would cover basic functionality.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="spring-boot" /><category term="message-queue" /><summary type="html">TLDR: Publish every business entities on each update/write. 1 Anadi Misra &amp;#8617;</summary></entry></feed>
