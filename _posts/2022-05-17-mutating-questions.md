@@ -3,7 +3,7 @@ layout: post
 comments: true
 description:
 categories: [learning, draft]
-last_modified_at: 2050-09-23T20:52:08.052481
+last_modified_at: 2022-05-17T20:52:08.052481
 last-modified-purpose:
 permalink: /mutating-questions/
 title: Mutating Questions to deepen understanding

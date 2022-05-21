@@ -3,7 +3,7 @@ layout: post
 comments: true
 description:
 categories: [distributed-systems, draft]
-last_modified_at: 2050-09-23T20:52:08.052481
+last_modified_at: 2022-05-20T20:52:08.052481
 last-modified-purpose:
 permalink: /no-of-pieces/
 title: Reduce the number of moving peaces in a distributed system
