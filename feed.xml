@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-21T01:59:54-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-28T07:43:11-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,78 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gist of BDD</title><link href="www.ankushchoubey.com/bdd/" rel="alternate" type="text/html" title="Gist of BDD" /><published>2022-05-21T00:00:00-05:00</published><updated>2022-05-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/gist-of-bdd</id><content type="html" xml:base="www.ankushchoubey.com/bdd/">&lt;h3 id=&quot;how-typically-software-is-developed&quot;&gt;How typically software is developed?&lt;/h3&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Behavior Driven Development - BDD</title><link href="www.ankushchoubey.com/bdd-2/" rel="alternate" type="text/html" title="Behavior Driven Development - BDD" /><published>2022-05-23T00:00:00-05:00</published><updated>2022-05-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/bdd-2</id><content type="html" xml:base="www.ankushchoubey.com/bdd-2/">&lt;p&gt;Like any product development, the primary task is to solve a user’s problem. So you should start with the user’s problem and discuss how it could be solved.&lt;/p&gt;
+
+&lt;p&gt;This might lead to interesting approaches that could help.&lt;/p&gt;
+
+&lt;p&gt;Typically it’s not the best to bring people in a group to “brainstorm” because it mostly leads to one or two people dominating the conversation. It’s best to ask everyone to think about 3 points. And then go in round robin fashion discussing each.&lt;/p&gt;
+
+&lt;p&gt;Once the problem is defined well and some solutions are agreed upon, one may start with defining features. Though typically, it’s better to validate the potential business and the solution before setting foot further.&lt;/p&gt;
+
+&lt;p&gt;Once the solution is finalised, you can start defining specifications.&lt;/p&gt;
+
+&lt;p&gt;The specifications is a document which describes what features are to be built exactly.&lt;/p&gt;
+
+&lt;p&gt;This would be a single source of direction. If something is in the spec file, it has to be built that way. If it’s not in the spec file, it should not be built.&lt;/p&gt;
+
+&lt;p&gt;The spec file keeps the entire organisation in sync.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The product team uses it to finalise features.&lt;/li&gt;
+  &lt;li&gt;The development team used to know what to work on.&lt;/li&gt;
+  &lt;li&gt;The QA team used to build tests around those features.&lt;/li&gt;
+  &lt;li&gt;The marketing team uses it to decide how to best market.&lt;/li&gt;
+  &lt;li&gt;The documentation team uses it to make documentations.&lt;/li&gt;
+  &lt;li&gt;The design team uses it to design the product.&lt;/li&gt;
+  &lt;li&gt;A new member of any team uses it to learn about the product.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Without a specification file, everyone is confused. No one person can know everything. And even if he does it creates a bottleneck and a single point of failure if the person decides to leave the organisation.&lt;/p&gt;
+
+&lt;p&gt;Since the spec file keeps so many people in sync, details for those specific teams should also be mentioned.&lt;/p&gt;
+
+&lt;p&gt;Creation of specification is a collaborative process, involving different teams. Specially Product, Development and QA. also known as the three amigos.&lt;/p&gt;
+
+&lt;p&gt;However, in reality it’s best not to start with collaboration, it’s best for a single person of the product team to write down specification files.&lt;/p&gt;
+
+&lt;p&gt;This is because he/she knows the business better than others and typically has good communication. It’s likely not the best way to test the English skills of a developer or a tester ;).&lt;/p&gt;
+
+&lt;p&gt;A product person would likely write in simple business terms that are understandable to all stakeholders. And since he/she understands best, the initial draft spec file would be out faster.&lt;/p&gt;
+
+&lt;p&gt;After that, the 3 Amigos can be followed to get better clarification and add more details.&lt;/p&gt;
+
+&lt;p&gt;A problem someone writing the spec file can face is too many branches. The team collaborates and discovers 10 different potential paths. It’s best to not travel all the paths.&lt;/p&gt;
+
+&lt;p&gt;Though the business and solution would have been validated, the real validation happens when the user starts using the product. Therefore we should limit the number of features, and for that it’s best not to even write details of features we think are possible or good to have. #focus&lt;/p&gt;
+
+&lt;p&gt;The modern way of maintaining spec files is by using feature files like Gherkin.&lt;/p&gt;
+
+&lt;p&gt;Gherkin provides a way to bridge the gap between what’s in the spec file and what has actually been developed. This is done by writing automated tests. If the test passes, we know the feature has been developed and is working.&lt;/p&gt;
+
+&lt;p&gt;This also leads us to the point of how to write better specifications. The standard practice is this, described by examples. An example is how a user would interact with the system we have built. Examples solve ambiguity. The keyword scenario is example.
+For example:&lt;/p&gt;
+
+&lt;p&gt;Rather than writing, a file upto 25 MB can be uploaded.&lt;/p&gt;
+
+&lt;p&gt;We can write as example:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scenario&lt;/strong&gt;: Disallow upload of file greater than 25 MB
+&lt;strong&gt;Given&lt;/strong&gt; I am at file management page
+&lt;strong&gt;When&lt;/strong&gt; I upload a 26 MB file
+&lt;strong&gt;Then&lt;/strong&gt; the upload should fail
+&lt;strong&gt;And&lt;/strong&gt; should not be visible in files list&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scenario&lt;/strong&gt;: Allow upload of file less than equal to 25 MB
+&lt;strong&gt;Given&lt;/strong&gt; I am at file management place
+&lt;strong&gt;When&lt;/strong&gt; I upload a 25 MB file
+&lt;strong&gt;Then&lt;/strong&gt; the file should be uploaded
+&lt;strong&gt;And&lt;/strong&gt; visible within files list&lt;/p&gt;
+
+&lt;p&gt;Therefore in the above case, two examples/scenarios were generated, the success and failure.&lt;/p&gt;
+
+&lt;p&gt;There are many other tips that can make scenarios cleaner and specific. The cleaner and more specific the scenarios are, the easier it will be for everyone to collaborate and build better products.&lt;/p&gt;
+
+&lt;p&gt;This whole journey encompasses BDD. BDD isn’t as specific as Test Driven Development. The scope of BDD is much much larger and emposes the whole product lifecycle from defining problems, validating to development and everything in between.&lt;/p&gt;</content><author><name></name></author><category term="product-development" /><category term="testing" /><summary type="html">Like any product development, the primary task is to solve a user’s problem. So you should start with the user’s problem and discuss how it could be solved.</summary></entry><entry><title type="html">Gist of BDD</title><link href="www.ankushchoubey.com/bdd/" rel="alternate" type="text/html" title="Gist of BDD" /><published>2022-05-21T00:00:00-05:00</published><updated>2022-05-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/gist-of-bdd</id><content type="html" xml:base="www.ankushchoubey.com/bdd/">&lt;h3 id=&quot;how-typically-software-is-developed&quot;&gt;How typically software is developed?&lt;/h3&gt;
 
 &lt;p&gt;Typically when we start developing we either have a rough idea about what has to be developed or we have a story.&lt;/p&gt;
 
@@ -323,124 +394,4 @@ https://github.com/dbader/readme-template&lt;/p&gt;
 
 &lt;p&gt;Wiremocks are kind of common in UI world. It’s always better to start with a rough wiremock and get it verified from stakeholders.&lt;/p&gt;
 
-&lt;p&gt;Not doing so leads to un-neccesary rework down the line.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is a blank screen problem?</summary></entry><entry><title type="html">Writing cleaner tests with Test Data Factories</title><link href="www.ankushchoubey.com/test-data-factories/" rel="alternate" type="text/html" title="Writing cleaner tests with Test Data Factories" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/test-data-factories</id><content type="html" xml:base="www.ankushchoubey.com/test-data-factories/">&lt;h1 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;A typical information-system application goes like this:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Create a data object&lt;/li&gt;
-  &lt;li&gt;Create a repository/DTO to sync it with Database&lt;/li&gt;
-  &lt;li&gt;Create a service&lt;/li&gt;
-  &lt;li&gt;Create a REST API endpoint&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So, when we write tests, we tend to initialize the data object and multiple places.&lt;/p&gt;
-
-&lt;p&gt;For me it has happened before that a single change to constructor has lead to changes are 100s of places. This manually change could avoided if I knew IntelliJ properly.&lt;/p&gt;
-
-&lt;p&gt;But without IDE features too, initializing a data class in multiple tests makes tests bulkier.&lt;/p&gt;
-
-&lt;p&gt;We can abstract away all these into a single class that can provide all the test data for a data-object.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;You have a data-class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataClass&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Data&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@RequiredArgsConstructor&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@NonNull&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@NonNull&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;field2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In tests you initialize each field manually,&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 1&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {someAssertion}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SomeAssertion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 2&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {second Assertions}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;anotherName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//... more tests which declare data object&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Here if you have to modify of add a new field, you’ll have a hard time.&lt;/p&gt;
-
-&lt;h1 id=&quot;solution-simple-test-data-factory&quot;&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Simple Test Data Factory&lt;/h1&gt;
-
-&lt;p&gt;Instead, you can create a Test Data Factory. Something like&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Note here name doesn't matter&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aRandomName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// this is the only place where class is initialized&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt; 
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Note the stucture of the classes. This is intentional.&lt;/p&gt;
-
-&lt;p&gt;When calling the method it would look something like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a much fluent (english like) statement.&lt;/p&gt;
-
-&lt;p&gt;So now your tests can look something like this:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 1&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {someAssertion}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SomeAssertion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 2&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {second Assertions}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;anotherName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//... more tests which declare data object&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Note that both Tests use a different simple factory method. One doesn’t care what the name field is but other does.&lt;/p&gt;
-
-&lt;p&gt;Most of my test factories would initialize data randomly unless explicit value is needed which is very rare.&lt;/p&gt;
-
-&lt;h1 id=&quot;extending-further&quot;&gt;&lt;strong&gt;Extending Further&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;Intially, I started with the just creating test data but then I realized I could club more common things in the Test Factory.&lt;/p&gt;
-
-&lt;p&gt;These include:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;APICalls&lt;/code&gt; - Each method passes the parameters and return the result&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MockRepository&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DTO&lt;/code&gt; - returns an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OnGoingStub&lt;/code&gt; for methods of repository&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MockService&lt;/code&gt; - Similar to MockRepository but for service&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Helpers&lt;/code&gt; - Special helpers methods for dealing with Data Object&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;All of these methods are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public static&lt;/code&gt; and using them has the same fluency as above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem</summary></entry></feed>
+&lt;p&gt;Not doing so leads to un-neccesary rework down the line.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is a blank screen problem?</summary></entry></feed>
