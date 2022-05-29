@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-29T01:48:54-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-29T02:50:03-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,9 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Gist of Behavior Driven Development “BDD”</title><link href="www.ankushchoubey.com/bdd/" rel="alternate" type="text/html" title="The Gist of Behavior Driven Development “BDD”" /><published>2022-05-23T00:00:00-05:00</published><updated>2022-05-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/bdd</id><content type="html" xml:base="www.ankushchoubey.com/bdd/">&lt;p&gt;Like any product development, the primary task is to solve a user’s problem. So you should start with the user’s problem and discuss how it could be solved.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Gist of Behavior Driven Development “BDD”</title><link href="www.ankushchoubey.com/bdd/" rel="alternate" type="text/html" title="The Gist of Behavior Driven Development “BDD”" /><published>2022-05-23T00:00:00-05:00</published><updated>2022-05-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/bdd</id><content type="html" xml:base="www.ankushchoubey.com/bdd/">&lt;h1 id=&quot;starting-with-a-users-problem&quot;&gt;Starting with a User’s Problem&lt;/h1&gt;
+
+&lt;p&gt;Like any product development, the primary task is to solve a user’s problem. So you should start with the user’s problem and discuss how it could be solved.&lt;/p&gt;
 
 &lt;p&gt;This might lead to interesting approaches that could help.&lt;/p&gt;
 
@@ -59,7 +61,7 @@
 
 &lt;p&gt;Once the solution is finalized, you can start defining specifications.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h1 id=&quot;the-document-that-keeps-everyone-is-sync&quot;&gt;The document that keeps everyone is sync&lt;/h1&gt;
 
 &lt;p&gt;The specification is a document that describes what features are to be built exactly.&lt;/p&gt;
 
@@ -81,7 +83,7 @@
 
 &lt;p&gt;Since the spec file keeps so many people in sync, details for those specific teams should also be mentioned.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h1 id=&quot;creation-of-specifications&quot;&gt;Creation of Specifications&lt;/h1&gt;
 
 &lt;p&gt;The creation of specifications is a collaborative process, involving different teams. Especially Product, Development, and QA. also known as the three amigos.&lt;/p&gt;
 
@@ -93,19 +95,21 @@
 
 &lt;p&gt;After that, the 3 Amigos can be followed to get better clarification and add more details.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h1 id=&quot;too-many-directions&quot;&gt;Too many directions&lt;/h1&gt;
 
 &lt;p&gt;A problem someone writing the spec file can face is too many branches. The team collaborates and discovers 10 different potential paths. It’s best to not travel all the paths.&lt;/p&gt;
 
 &lt;p&gt;Though the business and solution would have been validated, real validation happens when the user starts using the product. Therefore we should limit the number of features, and for that, it’s best not to even write details of features we think are possible or good to have. #focus&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h1 id=&quot;executable-specs&quot;&gt;Executable Specs&lt;/h1&gt;
 
 &lt;p&gt;The modern way of maintaining spec files is by using feature files like Gherkin.&lt;/p&gt;
 
 &lt;p&gt;Gherkin provides a way to bridge the gap between what’s in the spec file and what has been developed. This is done by writing automated tests. If the test passes, we know the feature has been developed and is working.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggTFJcblRbVGhyZWUgQW1pZ29zXSAtLT4gUCAmIFFBICYgRFxuUFtQcm9kdWN0XSAtLT4gfGZpbmFsaXNlIGZlYXR1cmVzfCBTXG5RQSAtLT4gfGJ1aWxkIHRlc3RzIGFyb3VuZCB0aG9zZSBmZWF0dXJlc3wgU1xuRFtEZXZlbG9wbWVudF0gLS0-IHxkZXZlbG9wIHRoZSBmZWF0dXJlfCBTXG5EZXNbRGVzaWduIFRlYW1dIC0tPiB8ZGVzaWduIHRoZSBwcm9kdWN0fCBTXG5NW01hcmtldGluZ10gLS0-IHxob3cgdG8gYmVzdCBtYXJrZXR8IFNcbkRvY1tEb2N1bWVudGF0aW9uXSAtLT4gfG1ha2UgZG9jdW1lbnRhdGlvbnN8IFNcbk1hbmFnZW1lbnQgLS0-IHwgfCBTXG5OW25ldyBtZW1iZXIgb2YgYW55IHRlYW1dIC0tPiB8bGVhcm4gYWJvdXQgdGhlIHByb2R1Y3R8IFNcblNbU3BlY2lmaWNhdGlvbnNdIC0tPiB8ZXhlY3V0YWJsZSBzcGVjaWZpY2F0aW9ufCBDb2RlXG5Db2RlIC0tPiB8a2VlcHMgY29kZSBhbmQgc3BlY3MgaW4gc3luY3wgUyIsIm1lcm1haWQiOm51bGx9&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;specifications-by-example&quot;&gt;Specifications by Example&lt;/h1&gt;
 
 &lt;p&gt;This also leads us to the point of how to write better specifications. The standard practice is this, described by examples. An example is how a user would interact with the system we have built. Examples solve the ambiguity. The keyword scenario is an example.&lt;/p&gt;
 
@@ -132,11 +136,11 @@
 
 &lt;p&gt;Therefore in the above case, two examples/scenarios were generated, the success and failure.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h1 id=&quot;behavior-driven-development&quot;&gt;Behavior Driven Development&lt;/h1&gt;
 
 &lt;p&gt;Many other tips can make scenarios cleaner and more specific. The cleaner and more specific the scenarios are, the easier it will be for everyone to collaborate and build better products.&lt;/p&gt;
 
-&lt;p&gt;This whole journey encompasses BDD. BDD isn’t as specific as Test-Driven Development. The scope of BDD is much much larger and encompasses the whole product lifecycle from defining problems and validating to development and everything in between.&lt;/p&gt;</content><author><name></name></author><category term="product-development" /><category term="testing" /><category term="bdd" /><summary type="html">Like any product development, the primary task is to solve a user’s problem. So you should start with the user’s problem and discuss how it could be solved.</summary></entry><entry><title type="html">The need for executable specifications</title><link href="www.ankushchoubey.com/need-for-executable-specification/" rel="alternate" type="text/html" title="The need for executable specifications" /><published>2022-05-21T00:00:00-05:00</published><updated>2022-05-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/need-for-executable-specification</id><content type="html" xml:base="www.ankushchoubey.com/need-for-executable-specification/">&lt;h3 id=&quot;how-typically-software-is-developed&quot;&gt;How typically software is developed?&lt;/h3&gt;
+&lt;p&gt;This whole journey encompasses BDD. BDD isn’t as specific as Test-Driven Development. The scope of BDD is much much larger and encompasses the whole product lifecycle from defining problems and validating to development and everything in between.&lt;/p&gt;</content><author><name></name></author><category term="product-development" /><category term="testing" /><category term="bdd" /><summary type="html">Starting with a User’s Problem</summary></entry><entry><title type="html">The need for executable specifications</title><link href="www.ankushchoubey.com/need-for-executable-specification/" rel="alternate" type="text/html" title="The need for executable specifications" /><published>2022-05-21T00:00:00-05:00</published><updated>2022-05-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/need-for-executable-specification</id><content type="html" xml:base="www.ankushchoubey.com/need-for-executable-specification/">&lt;h3 id=&quot;how-typically-software-is-developed&quot;&gt;How typically software is developed?&lt;/h3&gt;
 
 &lt;p&gt;Typically when we start developing we either have a rough idea about what has to be developed or we have a story.&lt;/p&gt;
 
