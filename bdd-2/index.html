@@ -237,24 +237,30 @@ window.onload = wrap_img;
 
 <p>Gherkin provides a way to bridge the gap between what’s in the spec file and what has actually been developed. This is done by writing automated tests. If the test passes, we know the feature has been developed and is working.</p>
 
-<p>This also leads us to the point of how to write better specifications. The standard practice is this, described by examples. An example is how a user would interact with the system we have built. Examples solve ambiguity. The keyword scenario is example.
-For example:</p>
+<p>This also leads us to the point of how to write better specifications. The standard practice is this, described by examples. An example is how a user would interact with the system we have built. Examples solve ambiguity. The keyword scenario is example.</p>
+
+<p>For example:</p>
 
 <p>Rather than writing, a file upto 25 MB can be uploaded.</p>
 
 <p>We can write as example:</p>
 
-<p><strong>Scenario</strong>: Disallow upload of file greater than 25 MB
-<strong>Given</strong> I am at file management page
-<strong>When</strong> I upload a 26 MB file
-<strong>Then</strong> the upload should fail
-<strong>And</strong> should not be visible in files list</p>
+<p><strong>Scenario</strong>: Disallow upload of file greater than 25 MB</p>
 
-<p><strong>Scenario</strong>: Allow upload of file less than equal to 25 MB
-<strong>Given</strong> I am at file management place
-<strong>When</strong> I upload a 25 MB file
-<strong>Then</strong> the file should be uploaded
-<strong>And</strong> visible within files list</p>
+<ul>
+  <li><strong>Given</strong> I am at file management page</li>
+  <li><strong>When</strong> I upload a 26 MB file</li>
+  <li><strong>Then</strong> the upload should fail</li>
+  <li><strong>And</strong> should not be visible in files list</li>
+</ul>
+
+<p><strong>Scenario</strong>: Allow upload of file less than equal to 25 MB</p>
+<ul>
+  <li><strong>Given</strong> I am at file management place</li>
+  <li><strong>When</strong> I upload a 25 MB file</li>
+  <li><strong>Then</strong> the file should be uploaded</li>
+  <li><strong>And</strong> visible within files list</li>
+</ul>
 
 <p>Therefore in the above case, two examples/scenarios were generated, the success and failure.</p>
 

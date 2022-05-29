@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-28T07:43:11-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-29T00:44:35-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -97,24 +97,30 @@
 
 &lt;p&gt;Gherkin provides a way to bridge the gap between what’s in the spec file and what has actually been developed. This is done by writing automated tests. If the test passes, we know the feature has been developed and is working.&lt;/p&gt;
 
-&lt;p&gt;This also leads us to the point of how to write better specifications. The standard practice is this, described by examples. An example is how a user would interact with the system we have built. Examples solve ambiguity. The keyword scenario is example.
-For example:&lt;/p&gt;
+&lt;p&gt;This also leads us to the point of how to write better specifications. The standard practice is this, described by examples. An example is how a user would interact with the system we have built. Examples solve ambiguity. The keyword scenario is example.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
 
 &lt;p&gt;Rather than writing, a file upto 25 MB can be uploaded.&lt;/p&gt;
 
 &lt;p&gt;We can write as example:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Scenario&lt;/strong&gt;: Disallow upload of file greater than 25 MB
-&lt;strong&gt;Given&lt;/strong&gt; I am at file management page
-&lt;strong&gt;When&lt;/strong&gt; I upload a 26 MB file
-&lt;strong&gt;Then&lt;/strong&gt; the upload should fail
-&lt;strong&gt;And&lt;/strong&gt; should not be visible in files list&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scenario&lt;/strong&gt;: Disallow upload of file greater than 25 MB&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Scenario&lt;/strong&gt;: Allow upload of file less than equal to 25 MB
-&lt;strong&gt;Given&lt;/strong&gt; I am at file management place
-&lt;strong&gt;When&lt;/strong&gt; I upload a 25 MB file
-&lt;strong&gt;Then&lt;/strong&gt; the file should be uploaded
-&lt;strong&gt;And&lt;/strong&gt; visible within files list&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Given&lt;/strong&gt; I am at file management page&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;When&lt;/strong&gt; I upload a 26 MB file&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Then&lt;/strong&gt; the upload should fail&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;And&lt;/strong&gt; should not be visible in files list&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Scenario&lt;/strong&gt;: Allow upload of file less than equal to 25 MB&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Given&lt;/strong&gt; I am at file management place&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;When&lt;/strong&gt; I upload a 25 MB file&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Then&lt;/strong&gt; the file should be uploaded&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;And&lt;/strong&gt; visible within files list&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Therefore in the above case, two examples/scenarios were generated, the success and failure.&lt;/p&gt;
 
@@ -283,7 +289,7 @@ https://github.com/dbader/readme-template&lt;/p&gt;
 &lt;p&gt;Deployment:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Docker, Kubenetes&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Some essential considerations when starting a new project</summary></entry><entry><title type="html">Thoughts and Notes on BDD</title><link href="www.ankushchoubey.com/bdd/" rel="alternate" type="text/html" title="Thoughts and Notes on BDD" /><published>2022-05-10T00:00:00-05:00</published><updated>2022-05-10T15:52:08-05:00</updated><id>www.ankushchoubey.com/bdd</id><content type="html" xml:base="www.ankushchoubey.com/bdd/">&lt;h1 id=&quot;what-is-bdd-why-it-is-needed&quot;&gt;What is BDD? Why it is needed?&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Some essential considerations when starting a new project</summary></entry><entry><title type="html">Thoughts and Notes on writing better software specifications and BDD</title><link href="www.ankushchoubey.com/writing-better-specs/" rel="alternate" type="text/html" title="Thoughts and Notes on writing better software specifications and BDD" /><published>2022-05-10T00:00:00-05:00</published><updated>2022-05-10T15:52:08-05:00</updated><id>www.ankushchoubey.com/bdd</id><content type="html" xml:base="www.ankushchoubey.com/writing-better-specs/">&lt;h1 id=&quot;what-is-bdd-why-it-is-needed&quot;&gt;What is BDD? Why it is needed?&lt;/h1&gt;
 
 &lt;p&gt;BDD stands for Behavior Driven Development.&lt;/p&gt;
 
@@ -344,7 +350,7 @@ https://github.com/dbader/readme-template&lt;/p&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=awwFfCYoGFQ&quot;&gt;Writing Better BDD Scenarios&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="testing" /><category term="software-engineering" /><summary type="html">What is BDD? Why it is needed?</summary></entry><entry><title type="html">Thinking on Paper</title><link href="www.ankushchoubey.com/thinking-on-paper/" rel="alternate" type="text/html" title="Thinking on Paper" /><published>2022-05-05T00:00:00-05:00</published><updated>2022-05-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/thinking-on-paper</id><content type="html" xml:base="www.ankushchoubey.com/thinking-on-paper/">&lt;h1 id=&quot;what-is-a-blank-screen-problem&quot;&gt;What is a blank screen problem?&lt;/h1&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="testing" /><category term="software-engineering" /><category term="product-development" /><summary type="html">What is BDD? Why it is needed?</summary></entry><entry><title type="html">Thinking on Paper</title><link href="www.ankushchoubey.com/thinking-on-paper/" rel="alternate" type="text/html" title="Thinking on Paper" /><published>2022-05-05T00:00:00-05:00</published><updated>2022-05-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/thinking-on-paper</id><content type="html" xml:base="www.ankushchoubey.com/thinking-on-paper/">&lt;h1 id=&quot;what-is-a-blank-screen-problem&quot;&gt;What is a blank screen problem?&lt;/h1&gt;
 
 &lt;p&gt;The blank screen problem is we have a new coding problem but can’t decide what to code. Think of this as an equivalent to writers block.&lt;/p&gt;
 
