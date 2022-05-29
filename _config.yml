@@ -6,6 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
+gems: [jekyll-mermaid]
+
 title: Ankush
 description: Random Thoughts
 github_username: ankschoubey
