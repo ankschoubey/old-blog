@@ -25,12 +25,12 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
   gem "jekyll-last-modified-at"
-  gem 'jekyll-compress-images'
-  gem 'jekyll-mermaid'
+  gem 'jekyll-compress-images'  
 end
 
 gem "kramdown-math-katex"
 gem "jemoji"
+gem 'jekyll-spaceship'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
