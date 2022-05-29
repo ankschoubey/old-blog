@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem "jekyll-last-modified-at"
   gem 'jekyll-compress-images'
+  gem 'jekyll-mermaid'
 end
 
 gem "kramdown-math-katex"
