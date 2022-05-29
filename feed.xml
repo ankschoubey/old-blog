@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-29T02:53:33-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-29T04:48:30-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -140,64 +140,7 @@
 
 &lt;p&gt;Many other tips can make scenarios cleaner and more specific. The cleaner and more specific the scenarios are, the easier it will be for everyone to collaborate and build better products.&lt;/p&gt;
 
-&lt;p&gt;This whole journey encompasses BDD. BDD isn’t as specific as Test-Driven Development. The scope of BDD is much much larger and encompasses the whole product lifecycle from defining problems and validating to development and everything in between.&lt;/p&gt;</content><author><name></name></author><category term="product-development" /><category term="testing" /><category term="bdd" /><summary type="html">Starting with a User’s Problem</summary></entry><entry><title type="html">The need for executable specifications</title><link href="www.ankushchoubey.com/need-for-executable-specification/" rel="alternate" type="text/html" title="The need for executable specifications" /><published>2022-05-21T00:00:00-05:00</published><updated>2022-05-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/need-for-executable-specification</id><content type="html" xml:base="www.ankushchoubey.com/need-for-executable-specification/">&lt;h3 id=&quot;how-typically-software-is-developed&quot;&gt;How typically software is developed?&lt;/h3&gt;
-
-&lt;p&gt;Typically when we start developing we either have a rough idea about what has to be developed or we have a story.&lt;/p&gt;
-
-&lt;p&gt;If the story is detailed, it’s better but if it’s not then we code up something and then hope it’s the right thing.&lt;/p&gt;
-
-&lt;p&gt;If it’s not the right thing, we have to go back to all stakeholders (management, QA, Doc team, product team), show them a working demo and then change code accordingly. The cost of changing code is too high. And cost of keeping everyone in sync is high as well.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-specification-file-clarify-thinking-about-feature&quot;&gt;How specification file clarify thinking about feature?&lt;/h3&gt;
-
-&lt;p&gt;A functional specification file can help up avoid being foggy with our approach. It can help clarify requirements at a level not possible with most other methods.&lt;/p&gt;
-
-&lt;p&gt;A specification file includes all details about features and scenarios that are going to be built. The scenarios are detailed and include everything that developer will have to build, no less no more.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-specification-file-can-help-everyone-is-sync&quot;&gt;How specification file can help everyone is sync?&lt;/h3&gt;
-
-&lt;p&gt;Whenever anyone within organization has to discuss over features, the spec file can be shared. This will keep everyone in sync.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-problem-is-faced-with-traditional-specification-file&quot;&gt;What problem is faced with traditional specification file?&lt;/h3&gt;
-
-&lt;p&gt;Spec files are updated constantly. Traditional ways of building spec doesn’t help know if spec file and product being built are actually in sync.&lt;/p&gt;
-
-&lt;p&gt;It may happen that some features are added or removed but spec file or the product don’t paint an accurate picture.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-gherkin-feature-files-solves-problem-faced-by-traditional-specification&quot;&gt;How Gherkin feature files solves problem faced by traditional specification?&lt;/h3&gt;
-
-&lt;p&gt;Automated test files, feature files solve this problem by allowing plugins can Cucumber to write automated tests. If the test passes, the scenario was implemented perfectly.&lt;/p&gt;
-
-&lt;p&gt;If test doesn’t pass, then scenarios is failed.&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><category term="product-development" /><summary type="html">How typically software is developed?</summary></entry><entry><title type="html">Reduce the number of moving peaces in a distributed system</title><link href="www.ankushchoubey.com/no-of-pieces/" rel="alternate" type="text/html" title="Reduce the number of moving peaces in a distributed system" /><published>2022-05-20T00:00:00-05:00</published><updated>2022-05-20T15:52:08-05:00</updated><id>www.ankushchoubey.com/no-of-pieces</id><content type="html" xml:base="www.ankushchoubey.com/no-of-pieces/">&lt;p&gt;&lt;sub&gt;Why we tend to over-engineer?&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;Any kind of over-engineering, distributed systems or not, happen because we try to solve scenarios without facing it.&lt;/p&gt;
-
-&lt;p&gt;It is a premature optimization.&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;What happens when we over engineer?&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;We drastically increase development and maintenance cost.&lt;/p&gt;
-
-&lt;p&gt;If X works well enough with good enough performance, it isn’t worth dividing it up into Y and Z until it’s needed.&lt;/p&gt;
-
-&lt;p&gt;You should think in terms of keeping code together.&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;Why we should aim to keep code together?&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;A kind of anti-micro service step. Aim to keep code together until you find a good enough reason to break.&lt;/p&gt;
-
-&lt;p&gt;This is why I advocated previously that I prefer database without stored procedures, functions, etc. CRUD should ideally be enough. If crud isn’t enough maybe database design should be improved.&lt;/p&gt;
-
-&lt;p&gt;When it’s worth splitting?&lt;/p&gt;</content><author><name></name></author><category term="distributed-systems" /><category term="draft" /><summary type="html">Why we tend to over-engineer?</summary></entry><entry><title type="html">Mutating Questions to deepen understanding</title><link href="www.ankushchoubey.com/mutating-questions/" rel="alternate" type="text/html" title="Mutating Questions to deepen understanding" /><published>2022-05-17T00:00:00-05:00</published><updated>2022-05-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/mutating-questions</id><content type="html" xml:base="www.ankushchoubey.com/mutating-questions/">&lt;p&gt;Mutation testing is a technique in software engineering where a piece of code is mutated.&lt;/p&gt;
-
-&lt;p&gt;We can apply same to learning.&lt;/p&gt;
-
-&lt;p&gt;Question Driven Writing/Learning is the best way to learn. To get deeper, we can mutate our question&lt;/p&gt;
-
-&lt;p&gt;So instead of a what is X?
-we can ask how does X work?
-Any example of X
-Why X is important?&lt;/p&gt;</content><author><name></name></author><category term="learning" /><category term="draft" /><summary type="html">Mutation testing is a technique in software engineering where a piece of code is mutated.</summary></entry><entry><title type="html">Writing cleaner commit messages with conventional commits</title><link href="www.ankushchoubey.com/conventional-commits/" rel="alternate" type="text/html" title="Writing cleaner commit messages with conventional commits" /><published>2022-05-17T00:00:00-05:00</published><updated>2022-05-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/conventional-commits</id><content type="html" xml:base="www.ankushchoubey.com/conventional-commits/">&lt;h3 id=&quot;why-commit-messages-are-important&quot;&gt;Why commit messages are important?&lt;/h3&gt;
+&lt;p&gt;This whole journey encompasses BDD. BDD isn’t as specific as Test-Driven Development. The scope of BDD is much much larger and encompasses the whole product lifecycle from defining problems and validating to development and everything in between.&lt;/p&gt;</content><author><name></name></author><category term="product-development" /><category term="testing" /><category term="bdd" /><summary type="html">Starting with a User’s Problem</summary></entry><entry><title type="html">Writing cleaner commit messages with conventional commits</title><link href="www.ankushchoubey.com/conventional-commits/" rel="alternate" type="text/html" title="Writing cleaner commit messages with conventional commits" /><published>2022-05-17T00:00:00-05:00</published><updated>2022-05-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/conventional-commits</id><content type="html" xml:base="www.ankushchoubey.com/conventional-commits/">&lt;h3 id=&quot;why-commit-messages-are-important&quot;&gt;Why commit messages are important?&lt;/h3&gt;
 &lt;p&gt;Whenever we code, we save the state of the code with a commit. And the commit message becomes description of what exactly happened.&lt;/p&gt;
 
 &lt;p&gt;Having good commit message leads to better communication and understanding. People can use commits to learn the code. It is an invaluable peace of documentation when done well.&lt;/p&gt;
@@ -303,68 +246,7 @@ https://github.com/dbader/readme-template&lt;/p&gt;
 &lt;p&gt;Deployment:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Docker, Kubenetes&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Some essential considerations when starting a new project</summary></entry><entry><title type="html">Thoughts and Notes on writing better software specifications and BDD</title><link href="www.ankushchoubey.com/writing-better-specs/" rel="alternate" type="text/html" title="Thoughts and Notes on writing better software specifications and BDD" /><published>2022-05-10T00:00:00-05:00</published><updated>2022-05-10T15:52:08-05:00</updated><id>www.ankushchoubey.com/bdd</id><content type="html" xml:base="www.ankushchoubey.com/writing-better-specs/">&lt;h1 id=&quot;what-is-bdd-why-it-is-needed&quot;&gt;What is BDD? Why it is needed?&lt;/h1&gt;
-
-&lt;p&gt;BDD stands for Behavior Driven Development.&lt;/p&gt;
-
-&lt;p&gt;In BDD, we write specs for the features we want to develop. This serves as a contract between developer and other stake holders.&lt;/p&gt;
-
-&lt;p&gt;To be more precise, these specs are executable specs. Meaning there can be tests written for them to verify if a feature is working as expected.&lt;/p&gt;
-
-&lt;p&gt;BDD doesn’t always need to be end to end flows but it is most commonly that.&lt;/p&gt;
-
-&lt;h1 id=&quot;where-does-bdd-fit-in&quot;&gt;Where does BDD fit in?&lt;/h1&gt;
-
-&lt;p&gt;A common way to use BDD is to create specs before starting any development and even before creating a user story.&lt;/p&gt;
-
-&lt;p&gt;This is usually done via: 3 Amigos methodology.&lt;/p&gt;
-
-&lt;p&gt;3 Amigos is a ceremony that involve the following to come up with specs from different point of views:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Development Team&lt;/li&gt;
-  &lt;li&gt;Product Team&lt;/li&gt;
-  &lt;li&gt;QA Team&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;how-to-write-good-bdd-specs&quot;&gt;How to write good BDD specs?&lt;/h1&gt;
-
-&lt;p&gt;Some principles of writing good BDD tests are similar to that of normal tests.&lt;/p&gt;
-
-&lt;h2 id=&quot;aim-for-single-assertions-single-then-&quot;&gt;Aim for single assertions (Single “Then”) &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;Having multiple Then blocks means your tests are likely doing too much.&lt;/p&gt;
-
-&lt;h2 id=&quot;use-data-that-replicates-real-work-&quot;&gt;Use data that replicates real work &lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;For example, for a stackoverflow like service instead of&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;When user asks the question “Testing data”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;use&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;When user asks the questions “How to fix null pointer in Java?”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The later is much closer to real usage.&lt;/p&gt;
-
-&lt;h2 id=&quot;use-business-language-&quot;&gt;Use business language &lt;sup id=&quot;fnref:1:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;Instead of expressing selenium style description, use business language.&lt;/p&gt;
-
-&lt;h2 id=&quot;express-intent-&quot;&gt;Express Intent &lt;sup id=&quot;fnref:1:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-
-&lt;p&gt;The “Then” part of the spec usually can express what the intend with the spec is.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=awwFfCYoGFQ&quot;&gt;Writing Better BDD Scenarios&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="testing" /><category term="software-engineering" /><category term="product-development" /><summary type="html">What is BDD? Why it is needed?</summary></entry><entry><title type="html">Thinking on Paper</title><link href="www.ankushchoubey.com/thinking-on-paper/" rel="alternate" type="text/html" title="Thinking on Paper" /><published>2022-05-05T00:00:00-05:00</published><updated>2022-05-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/thinking-on-paper</id><content type="html" xml:base="www.ankushchoubey.com/thinking-on-paper/">&lt;h1 id=&quot;what-is-a-blank-screen-problem&quot;&gt;What is a blank screen problem?&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Some essential considerations when starting a new project</summary></entry><entry><title type="html">Thinking on Paper</title><link href="www.ankushchoubey.com/thinking-on-paper/" rel="alternate" type="text/html" title="Thinking on Paper" /><published>2022-05-05T00:00:00-05:00</published><updated>2022-05-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/thinking-on-paper</id><content type="html" xml:base="www.ankushchoubey.com/thinking-on-paper/">&lt;h1 id=&quot;what-is-a-blank-screen-problem&quot;&gt;What is a blank screen problem?&lt;/h1&gt;
 
 &lt;p&gt;The blank screen problem is we have a new coding problem but can’t decide what to code. Think of this as an equivalent to writers block.&lt;/p&gt;
 
@@ -414,4 +296,186 @@ https://github.com/dbader/readme-template&lt;/p&gt;
 
 &lt;p&gt;Wiremocks are kind of common in UI world. It’s always better to start with a rough wiremock and get it verified from stakeholders.&lt;/p&gt;
 
-&lt;p&gt;Not doing so leads to un-neccesary rework down the line.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is a blank screen problem?</summary></entry></feed>
+&lt;p&gt;Not doing so leads to un-neccesary rework down the line.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is a blank screen problem?</summary></entry><entry><title type="html">Writing cleaner tests with Test Data Factories</title><link href="www.ankushchoubey.com/test-data-factories/" rel="alternate" type="text/html" title="Writing cleaner tests with Test Data Factories" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/test-data-factories</id><content type="html" xml:base="www.ankushchoubey.com/test-data-factories/">&lt;h1 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;A typical information-system application goes like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a data object&lt;/li&gt;
+  &lt;li&gt;Create a repository/DTO to sync it with Database&lt;/li&gt;
+  &lt;li&gt;Create a service&lt;/li&gt;
+  &lt;li&gt;Create a REST API endpoint&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, when we write tests, we tend to initialize the data object and multiple places.&lt;/p&gt;
+
+&lt;p&gt;For me it has happened before that a single change to constructor has lead to changes are 100s of places. This manually change could avoided if I knew IntelliJ properly.&lt;/p&gt;
+
+&lt;p&gt;But without IDE features too, initializing a data class in multiple tests makes tests bulkier.&lt;/p&gt;
+
+&lt;p&gt;We can abstract away all these into a single class that can provide all the test data for a data-object.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;You have a data-class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataClass&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Data&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@RequiredArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@NonNull&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@NonNull&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;field2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In tests you initialize each field manually,&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 1&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {someAssertion}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SomeAssertion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 2&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {second Assertions}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;anotherName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//... more tests which declare data object&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here if you have to modify of add a new field, you’ll have a hard time.&lt;/p&gt;
+
+&lt;h1 id=&quot;solution-simple-test-data-factory&quot;&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Simple Test Data Factory&lt;/h1&gt;
+
+&lt;p&gt;Instead, you can create a Test Data Factory. Something like&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Note here name doesn't matter&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aRandomName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// this is the only place where class is initialized&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt; 
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note the stucture of the classes. This is intentional.&lt;/p&gt;
+
+&lt;p&gt;When calling the method it would look something like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a much fluent (english like) statement.&lt;/p&gt;
+
+&lt;p&gt;So now your tests can look something like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 1&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {someAssertion}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SomeAssertion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 2&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {second Assertions}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;anotherName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//... more tests which declare data object&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note that both Tests use a different simple factory method. One doesn’t care what the name field is but other does.&lt;/p&gt;
+
+&lt;p&gt;Most of my test factories would initialize data randomly unless explicit value is needed which is very rare.&lt;/p&gt;
+
+&lt;h1 id=&quot;extending-further&quot;&gt;&lt;strong&gt;Extending Further&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;Intially, I started with the just creating test data but then I realized I could club more common things in the Test Factory.&lt;/p&gt;
+
+&lt;p&gt;These include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;APICalls&lt;/code&gt; - Each method passes the parameters and return the result&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MockRepository&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DTO&lt;/code&gt; - returns an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OnGoingStub&lt;/code&gt; for methods of repository&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MockService&lt;/code&gt; - Similar to MockRepository but for service&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Helpers&lt;/code&gt; - Special helpers methods for dealing with Data Object&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All of these methods are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public static&lt;/code&gt; and using them has the same fluency as above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem</summary></entry><entry><title type="html">Writing cleaner tests with Fluent Assertions</title><link href="www.ankushchoubey.com/fluent-assertions/" rel="alternate" type="text/html" title="Writing cleaner tests with Fluent Assertions" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/fluent-assertions</id><content type="html" xml:base="www.ankushchoubey.com/fluent-assertions/">&lt;p&gt;Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.&lt;/p&gt;
+
+&lt;p&gt;One of the ways is having fluent assertions.
+Fluent assertions are assertions chained together. The structure is such that it makes it more concise and easy to read.&lt;/p&gt;
+
+&lt;p&gt;We’ll take an example comparing Junit assertions with AssertJ assertions.&lt;/p&gt;
+
+&lt;p&gt;In the below example, we are checking if a Map contains specific keys, and if date is correct.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someServiceCallReturningAJson&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// JUnit Assertions: Not Fluent&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;Set&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expectedKeys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashSet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Arrays&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;asList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;randomField&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assertEquals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expectedKeys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;keySet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assertEquals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2001-07-04&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// AssertJ: Fluent Assertions&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;assertThat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsKeys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;randomField&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsEntry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;2001-07-04&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The JUnit assertion is bulkier and will continue to get much bulkier with more assertion.&lt;/p&gt;
+
+&lt;p&gt;The AssertJ fluent assertion on other hand is grouped, contains helper methods that do not require specially conversion of object for common comparision.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.</summary></entry><entry><title type="html">Being good at one thing doesn’t automatically make you better at another</title><link href="www.ankushchoubey.com/good-at-one-thing/" rel="alternate" type="text/html" title="Being good at one thing doesn’t automatically make you better at another" /><published>2022-05-02T00:00:00-05:00</published><updated>2022-05-02T15:52:08-05:00</updated><id>www.ankushchoubey.com/good-at-one-thing</id><content type="html" xml:base="www.ankushchoubey.com/good-at-one-thing/">&lt;p&gt;This essentially means you still have to put in the work.&lt;/p&gt;
+
+&lt;p&gt;If you are good at technical skill, that doesn’t automatically make you the best if you are lacking in communication.&lt;/p&gt;
+
+&lt;p&gt;Similarly, if you are ethical/follow ethics rigorously that doesn’t mean you’ll win at life. There are other things also. And just by following a ethic or being good at a certain skill doesn’t make you entitled to everything.&lt;/p&gt;
+
+&lt;p&gt;This is a great equilizer for all.&lt;/p&gt;
+
+&lt;p&gt;No one is good at everything. And therefore requires help from others.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html">This essentially means you still have to put in the work.</summary></entry><entry><title type="html">What and when to publish on message queue</title><link href="www.ankushchoubey.com/what-when-to-publish/" rel="alternate" type="text/html" title="What and when to publish on message queue" /><published>2022-04-27T00:00:00-05:00</published><updated>2022-04-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/what-to-publish-on-kafka</id><content type="html" xml:base="www.ankushchoubey.com/what-when-to-publish/">&lt;p&gt;TLDR: Publish every business entities on each update/write. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;This is specially true for event driven systems.&lt;/p&gt;
+
+&lt;p&gt;Rather than writing code to manually publish after each save, we can make use of event listeners. Event listeners would run a piece of code each time a certain event like database save occurs.&lt;/p&gt;
+
+&lt;p&gt;For example: Spring Data Mongo has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AbstractEventListener&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ReactiveAfterSaveCallback&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleEntityDataPublisher&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ReactiveAfterSaveCallback&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;onAfterSave&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SampleEntity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;bson&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Document&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;just&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;doOnNext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;just&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;c1&quot;&gt;// code to publish&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;publishOn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Schedular&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;elastic&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;subcribe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In above, Spring Webflux code, publishOn and subscribe ensure that publishing will run in a separate thread and doesn’t effect execution of the main thread.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Anadi Misra &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="spring-boot" /><category term="message-queue" /><summary type="html">TLDR: Publish every business entities on each update/write. 1 Anadi Misra &amp;#8617;</summary></entry></feed>
