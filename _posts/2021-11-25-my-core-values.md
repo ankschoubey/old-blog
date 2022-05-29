@@ -173,7 +173,7 @@ Some things to consider:
 - Social Media
 - Addictions
 
-## **Productive**: You don't have forever
+## **Productive**: Recognize the limited gift of time
 
 **IDENTITY**: Productive
 
