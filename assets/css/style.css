@@ -617,6 +617,8 @@ img.image-preview:hover { transform: scale(1.05); }
 
 .database { background-color: #4282aa; }
 
+.bdd { background-color: #66aa3b; }
+
 .post-list > li { content-visibility: auto; contain-intrinsic-size: 0 200px; border: 1px solid #00000029; border-radius: 10px; }
 
 .custom-post-card-toc { background: #00000014; font-size: medium; }
