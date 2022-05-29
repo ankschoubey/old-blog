@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-29T01:25:45-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-29T01:32:55-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -105,21 +105,7 @@
 
 &lt;p&gt;Gherkin provides a way to bridge the gap between what’s in the spec file and what has actually been developed. This is done by writing automated tests. If the test passes, we know the feature has been developed and is working.&lt;/p&gt;
 
-&lt;script src=&quot;path/to/mermaid.js&quot;&gt;&lt;/script&gt;
-&lt;div class=&quot;mermaid&quot;&gt;
-graph LR
-    T[Three Amigos] --&amp;gt; P &amp;amp; QA &amp;amp; D
-    P[Product] --&amp;gt; |finalise features| S
-    QA --&amp;gt; |build tests around those features| S
-    D[Development] --&amp;gt; |develop the feature| S
-    Des[Design Team] --&amp;gt; |design the product| S
-    M[Marketing] --&amp;gt; |how to best market| S
-    Doc[Documentation] --&amp;gt; |make documentations| S
-    Management --&amp;gt; | | S
-    N[new member of any team] --&amp;gt; |learn about the product| S
-    S[Specifications] --&amp;gt; |executable specification| Code
-    Code --&amp;gt; |keeps code and specs in sync| S
-&lt;/div&gt;
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggTFJcblRbVGhyZWUgQW1pZ29zXSAtLT4gUCAmIFFBICYgRFxuUFtQcm9kdWN0XSAtLT4gfGZpbmFsaXNlIGZlYXR1cmVzfCBTXG5RQSAtLT4gfGJ1aWxkIHRlc3RzIGFyb3VuZCB0aG9zZSBmZWF0dXJlc3wgU1xuRFtEZXZlbG9wbWVudF0gLS0-IHxkZXZlbG9wIHRoZSBmZWF0dXJlfCBTXG5EZXNbRGVzaWduIFRlYW1dIC0tPiB8ZGVzaWduIHRoZSBwcm9kdWN0fCBTXG5NW01hcmtldGluZ10gLS0-IHxob3cgdG8gYmVzdCBtYXJrZXR8IFNcbkRvY1tEb2N1bWVudGF0aW9uXSAtLT4gfG1ha2UgZG9jdW1lbnRhdGlvbnN8IFNcbk1hbmFnZW1lbnQgLS0-IHwgfCBTXG5OW25ldyBtZW1iZXIgb2YgYW55IHRlYW1dIC0tPiB8bGVhcm4gYWJvdXQgdGhlIHByb2R1Y3R8IFNcblNbU3BlY2lmaWNhdGlvbnNdIC0tPiB8ZXhlY3V0YWJsZSBzcGVjaWZpY2F0aW9ufCBDb2RlXG5Db2RlIC0tPiB8a2VlcHMgY29kZSBhbmQgc3BlY3MgaW4gc3luY3wgUyIsIm1lcm1haWQiOm51bGx9&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This also leads us to the point of how to write better specifications. The standard practice is this, described by examples. An example is how a user would interact with the system we have built. Examples solve ambiguity. The keyword scenario is example.&lt;/p&gt;
 
