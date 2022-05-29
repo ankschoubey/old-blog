@@ -2,11 +2,11 @@
 layout: post
 comments: true
 description:
-categories: [bdd]
+categories: [bdd, product-development]
 last_modified_at: 2022-05-21T20:52:08.052481
 last-modified-purpose:
-permalink: /bdd/
-title: Gist of BDD
+permalink: /need-for-executable-specification/
+title: The need for executable specifications
 ---
 
 ### How typically software is developed?
@@ -40,4 +40,4 @@ It may happen that some features are added or removed but spec file or the produ
 
 Automated test files, feature files solve this problem by allowing plugins can Cucumber to write automated tests. If the test passes, the scenario was implemented perfectly.
 
-If test doesn’t pass, then scenarios is failed
+If test doesn’t pass, then scenarios is failed.
