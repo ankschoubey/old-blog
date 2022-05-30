@@ -245,7 +245,7 @@ One can be strict with himself but has to be patient with others. And remember t
 - People Pleasing
 - Betrayal
 
-## **Playfulness**
+## **Playfulness**: Antidote to boredom
 
 # Playfulness
 
