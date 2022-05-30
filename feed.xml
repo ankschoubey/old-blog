@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-30T15:19:20-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-30T15:34:06-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -105,7 +105,19 @@
 
 &lt;p&gt;Freedom is a feeling. It may be that you are truly free but just don’t feel like it.&lt;/p&gt;
 
-&lt;p&gt;The ultimate freedom is freedom from the mind.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="exploration" /><summary type="html">Why I have been contemplating freedom?</summary></entry><entry><title type="html">The Gist of Behavior Driven Development - BDD</title><link href="www.ankushchoubey.com/bdd/" rel="alternate" type="text/html" title="The Gist of Behavior Driven Development - BDD" /><published>2022-05-23T00:00:00-05:00</published><updated>2022-05-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/bdd</id><content type="html" xml:base="www.ankushchoubey.com/bdd/">&lt;h1 id=&quot;starting-with-a-users-problem&quot;&gt;Starting with a User’s Problem&lt;/h1&gt;
+&lt;p&gt;The ultimate freedom is freedom from the mind.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="exploration" /><summary type="html">Why I have been contemplating freedom?</summary></entry><entry><title type="html">Shadow Clone of Ideas</title><link href="www.ankushchoubey.com/shadow-clones/" rel="alternate" type="text/html" title="Shadow Clone of Ideas" /><published>2022-05-29T00:00:00-05:00</published><updated>2022-05-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/shadow-clones</id><content type="html" xml:base="www.ankushchoubey.com/shadow-clones/">&lt;p&gt;Shadow clone is a popular concept in Naruto where a person can clone themselves into multiples. Each clone can then go and do something and once that’s done, the clone disappears and the original person would retain the memory of the clone.&lt;/p&gt;
+
+&lt;p&gt;The protagonist, Naruto, could make 1000s of clones.&lt;/p&gt;
+
+&lt;p&gt;If making clones were that easy in real life, each one could be assigned a different important task which would lead to super high productivity. Since the clone knows each other super well, there would be almost no friction.&lt;/p&gt;
+
+&lt;p&gt;The downsides multiply too. Each clone would have the same weaknesses. All have the same mind.&lt;/p&gt;
+
+&lt;p&gt;Not only that but sometimes that is too much mental gymnastics on one person.&lt;/p&gt;
+
+&lt;p&gt;I would have opted to make shadow clones anyways but since it isn’t possible (yet), the other best solution is to make shadow clones of knowledge and build good teams.&lt;/p&gt;
+
+&lt;p&gt;This means that ideas (clones of knowledge) can evolve and be implemented separately. This brings out uniqueness and the process of collaborating itself would make things better. And it’s less effort on any one person.&lt;/p&gt;</content><author><name></name></author><category term="baton" /><category term="team-work" /><summary type="html">Shadow clone is a popular concept in Naruto where a person can clone themselves into multiples. Each clone can then go and do something and once that’s done, the clone disappears and the original person would retain the memory of the clone.</summary></entry><entry><title type="html">The Gist of Behavior Driven Development - BDD</title><link href="www.ankushchoubey.com/bdd/" rel="alternate" type="text/html" title="The Gist of Behavior Driven Development - BDD" /><published>2022-05-23T00:00:00-05:00</published><updated>2022-05-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/bdd</id><content type="html" xml:base="www.ankushchoubey.com/bdd/">&lt;h1 id=&quot;starting-with-a-users-problem&quot;&gt;Starting with a User’s Problem&lt;/h1&gt;
 
 &lt;p&gt;Like any product development, the primary task is to solve a user’s problem. So you should start with the user’s problem and discuss how it could be solved.&lt;/p&gt;
 
@@ -496,12 +508,4 @@ Fluent assertions are assertions chained together. The structure is such that it
 
 &lt;p&gt;The JUnit assertion is bulkier and will continue to get much bulkier with more assertion.&lt;/p&gt;
 
-&lt;p&gt;The AssertJ fluent assertion on other hand is grouped, contains helper methods that do not require specially conversion of object for common comparision.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.</summary></entry><entry><title type="html">Being good at one thing doesn’t automatically make you better at another</title><link href="www.ankushchoubey.com/good-at-one-thing/" rel="alternate" type="text/html" title="Being good at one thing doesn’t automatically make you better at another" /><published>2022-05-02T00:00:00-05:00</published><updated>2022-05-02T15:52:08-05:00</updated><id>www.ankushchoubey.com/good-at-one-thing</id><content type="html" xml:base="www.ankushchoubey.com/good-at-one-thing/">&lt;p&gt;This essentially means you still have to put in the work.&lt;/p&gt;
-
-&lt;p&gt;If you are good at technical skill, that doesn’t automatically make you the best if you are lacking in communication.&lt;/p&gt;
-
-&lt;p&gt;Similarly, if you are ethical/follow ethics rigorously that doesn’t mean you’ll win at life. There are other things also. And just by following a ethic or being good at a certain skill doesn’t make you entitled to everything.&lt;/p&gt;
-
-&lt;p&gt;This is a great equilizer for all.&lt;/p&gt;
-
-&lt;p&gt;No one is good at everything. And therefore requires help from others.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html">This essentially means you still have to put in the work.</summary></entry></feed>
+&lt;p&gt;The AssertJ fluent assertion on other hand is grouped, contains helper methods that do not require specially conversion of object for common comparision.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.</summary></entry></feed>
