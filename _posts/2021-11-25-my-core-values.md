@@ -247,8 +247,6 @@ One can be strict with himself but has to be patient with others. And remember t
 
 ## **Playfulness**: Antidote to boredom
 
-# Playfulness
-
 <sub>What is playfulness?</sub>
 
 Being playful means not being serious.
