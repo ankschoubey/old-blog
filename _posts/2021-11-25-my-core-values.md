@@ -245,6 +245,37 @@ One can be strict with himself but has to be patient with others. And remember t
 - People Pleasing
 - Betrayal
 
+## **Playfulness**
+
+# Playfulness
+
+<sub>What is playfulness?</sub>
+
+Being playful means not being serious.
+
+Being playful means interacting with the world softly and experimenting like it’s a play game.
+
+Being playful is the antidote to the seriousness caused by all the other core values.
+
+<sub>Why playfulness is needed? Isn’t peace enough?</sub>
+
+Playfulness is not only good because it’s fun but it’s necessary. Life is short therefore it’s imp to have your cake and eat it too.
+
+Playfulness increase output. Provides a level of comfort when dealing with chaos. A smile. A fun adventure no matter how hard things are.
+
+Being playful gives meaning to other values:
+
+1. It makes Team become friends and therefore depends on bonds.
+2. It makes the search for truth a game and telling truth in a nice way a game too. Plus most truths are hilarious.
+3. It makes Inputs and Systems fun experiments. Leading to higher output
+
+It’s just more fun to live playfully and interact with the world and make sense of it.
+
+**For**:
+
+Humor
+Games
+
 ***
 
 I am trying make these values my second nature by forming habits. The ideal goal is identity level change [^4] but it will take time which is why I haven't published my post on it.
