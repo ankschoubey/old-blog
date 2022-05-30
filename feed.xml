@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-30T15:38:01-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-30T15:46:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -277,7 +277,36 @@ To do QDW, start by writing the topic name. And all the questions you have relat
 
 &lt;p&gt;The cost of precision saves more time overall.&lt;/p&gt;
 
-&lt;p&gt;When you have a new essay idea, just write all the intents in form of questions. And you will more likely remember how to write it.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is question-driven writing?</summary></entry><entry><title type="html">Some considerations when setting a new project</title><link href="www.ankushchoubey.com/new-project/" rel="alternate" type="text/html" title="Some considerations when setting a new project" /><published>2022-05-11T00:00:00-05:00</published><updated>2022-05-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/new-project</id><content type="html" xml:base="www.ankushchoubey.com/new-project/">&lt;p&gt;Some essential considerations when starting a new project&lt;/p&gt;
+&lt;p&gt;When you have a new essay idea, just write all the intents in form of questions. And you will more likely remember how to write it.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is question-driven writing?</summary></entry><entry><title type="html">Choosing Images/Diagrams in Essays</title><link href="www.ankushchoubey.com/essay-images/" rel="alternate" type="text/html" title="Choosing Images/Diagrams in Essays" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/essay-images</id><content type="html" xml:base="www.ankushchoubey.com/essay-images/">&lt;h1 id=&quot;why-we-should-have-images-and-diagrams&quot;&gt;Why we should have images and diagrams?&lt;/h1&gt;
+
+&lt;p&gt;Images and Diagrams make our essays more rememberable and can be used to illustrate concepts that are hard to describe in words.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-we-should-choose-imagesdiagrams&quot;&gt;How we should choose images/diagrams?&lt;/h1&gt;
+
+&lt;h1 id=&quot;which-imagediagram-type-is-better-for-illustrating-the-point&quot;&gt;Which image/diagram type is better for illustrating the point?&lt;/h1&gt;
+
+&lt;p&gt;An image or a diagram should complement the writing but not distract from the writing. The image/diagram should be linked to what’s been written.&lt;/p&gt;
+
+&lt;p&gt;Choosing images and diagrams very much depends on the contents of the essay.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If it is a physical object or an activity, we can find the best representation of the object or activity.&lt;/li&gt;
+  &lt;li&gt;If it’s an activity that involves many steps, then we could include images of each step.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Diagrams can be tricky sometimes. In some places, graphs and Venn diagrams can be good.&lt;/p&gt;
+
+&lt;p&gt;For code style, using appropriate UML diagrams can be useful.&lt;/p&gt;
+
+&lt;p&gt;Diagrams need not always be perfect. Sometimes rough diagrams are better than no diagrams.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-should-we-add-captions-to-an-image&quot;&gt;Why should we add captions to an image?&lt;/h1&gt;
+
+&lt;p&gt;It makes it easy to understand the diagram if it has a caption. The caption should describe the diagram in detail but need not be a paragraph long. A sentence or two might be enough.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-should-we-add-the-source-to-an-image&quot;&gt;Why should we add the source to an image?&lt;/h1&gt;
+
+&lt;p&gt;Like any writing, it helps to credit the creator of the image or diagram if we are using someone else’s. It takes too long to make an image or a diagram. By adding sources, we encourage the creator to create more.&lt;/p&gt;</content><author><name></name></author><category term="writing" /><summary type="html">Why we should have images and diagrams?</summary></entry><entry><title type="html">Some considerations when setting a new project</title><link href="www.ankushchoubey.com/new-project/" rel="alternate" type="text/html" title="Some considerations when setting a new project" /><published>2022-05-11T00:00:00-05:00</published><updated>2022-05-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/new-project</id><content type="html" xml:base="www.ankushchoubey.com/new-project/">&lt;p&gt;Some essential considerations when starting a new project&lt;/p&gt;
 
 &lt;p&gt;Tech stack and framework&lt;/p&gt;
 
@@ -486,28 +515,4 @@ https://github.com/dbader/readme-template&lt;/p&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Helpers&lt;/code&gt; - Special helpers methods for dealing with Data Object&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;All of these methods are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public static&lt;/code&gt; and using them has the same fluency as above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem</summary></entry><entry><title type="html">Writing cleaner tests with Fluent Assertions</title><link href="www.ankushchoubey.com/fluent-assertions/" rel="alternate" type="text/html" title="Writing cleaner tests with Fluent Assertions" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/fluent-assertions</id><content type="html" xml:base="www.ankushchoubey.com/fluent-assertions/">&lt;p&gt;Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.&lt;/p&gt;
-
-&lt;p&gt;One of the ways is having fluent assertions.
-Fluent assertions are assertions chained together. The structure is such that it makes it more concise and easy to read.&lt;/p&gt;
-
-&lt;p&gt;We’ll take an example comparing Junit assertions with AssertJ assertions.&lt;/p&gt;
-
-&lt;p&gt;In the below example, we are checking if a Map contains specific keys, and if date is correct.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someServiceCallReturningAJson&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// JUnit Assertions: Not Fluent&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;Set&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expectedKeys&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashSet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Arrays&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;asList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;randomField&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assertEquals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expectedKeys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;keySet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assertEquals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2001-07-04&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// AssertJ: Fluent Assertions&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;assertThat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jsonMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsKeys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;randomField&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsEntry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;2001-07-04&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The JUnit assertion is bulkier and will continue to get much bulkier with more assertion.&lt;/p&gt;
-
-&lt;p&gt;The AssertJ fluent assertion on other hand is grouped, contains helper methods that do not require specially conversion of object for common comparision.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Your tests should be very easy to read essentially english like. There are multiple techniques to achieve this.</summary></entry></feed>
+&lt;p&gt;All of these methods are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public static&lt;/code&gt; and using them has the same fluency as above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem</summary></entry></feed>
