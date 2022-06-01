@@ -266,9 +266,11 @@ window.onload = wrap_img;
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">String</span> <span class="n">id</span> <span class="o">=</span> <span class="s">"1"</span><span class="o">;</span>
 <span class="nc">String</span> <span class="n">name</span><span class="o">=</span> <span class="s">"Elon Musk"</span><span class="o">;</span>
 <span class="k">if</span> <span class="o">(</span><span class="n">repository</span><span class="o">.</span><span class="na">existsByIdAndName</span><span class="o">(</span><span class="n">id</span><span class="o">,</span> <span class="n">name</span><span class="o">)){</span>
-    <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserDoesNotExistException</span><span class="o">(</span><span class="s">"User does not exists: "</span> <span class="o">+</span> <span class="nc">Map</span><span class="o">.</span><span class="na">of</span><span class="o">(</span><span class="s">"id"</span><span class="o">,</span> <span class="n">id</span><span class="o">,</span> <span class="s">"name"</span><span class="o">,</span> <span class="n">name</span><span class="o">));</span>
+    <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserDoesNotExistException</span><span class="o">(</span><span class="s">"User does not exists: {id: "</span> <span class="o">+</span> <span class="n">id</span> <span class="o">+</span>  <span class="s">", name: "</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">"}"</span><span class="o">);</span>
 <span class="o">}</span>
 </code></pre></div></div>
+
+<p>Java also has <code class="language-plaintext highlighter-rouge">Map.of</code> that can allow writing maps in a single line. The only reason not to use it is that it doesn’t allow null values.</p>
 
   </div>
 <!-- from https://github.com/utterance/utterances -->
