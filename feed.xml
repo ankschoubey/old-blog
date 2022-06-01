@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-01T13:57:47-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-01T14:04:44-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -55,21 +55,21 @@
 
 &lt;p&gt;There are some ways to have effective meetings:&lt;/p&gt;
 
-&lt;h1 id=&quot;setting-the-context&quot;&gt;Setting the context&lt;/h1&gt;
+&lt;h1 id=&quot;set-the-context&quot;&gt;&lt;strong&gt;Set the context&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;Most meetings aren’t as effective because the people involved don’t have the context behind what is being discussed.&lt;/p&gt;
 
 &lt;p&gt;This can be solved in a few ways:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Agenda: A few sets of outlines or questions&lt;/li&gt;
-  &lt;li&gt;Pre-reading material
+  &lt;li&gt;&lt;strong&gt;Agenda&lt;/strong&gt;: A few sets of outlines or questions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Provide Pre-reading material&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;A set of materials to read/watch before attending the meeting.&lt;/li&gt;
       &lt;li&gt;It’s better to send a specific link than just mentioning the name of the topic.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Set the context during a meeting
+  &lt;li&gt;&lt;strong&gt;Set the context during a meeting&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Start the meeting by setting the context.
         &lt;ul&gt;
@@ -81,10 +81,10 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;encourage-discussion&quot;&gt;Encourage Discussion&lt;/h1&gt;
+&lt;h1 id=&quot;encourage-discussion&quot;&gt;&lt;strong&gt;Encourage Discussion&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Round Robin Asking/Sharing Inputs
+  &lt;li&gt;&lt;strong&gt;Round Robin Asking/Sharing Inputs&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Many people are shy and don’t speak up. To get everyone involved discuss concepts/questions in a round-robin fashion.&lt;/li&gt;
       &lt;li&gt;You could even ask specific people who may be too silent “What do you think about this?”&lt;/li&gt;
@@ -92,16 +92,16 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;keeping-it-shortexact&quot;&gt;Keeping it short/exact&lt;/h1&gt;
+&lt;h1 id=&quot;keep-it-shortexact&quot;&gt;&lt;strong&gt;Keep it short/exact&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Set time on the calendar
+  &lt;li&gt;&lt;strong&gt;Set time on the calendar&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;It’s unproductive to wonder when the meeting is.&lt;/li&gt;
       &lt;li&gt;It’s best to have an exact date and time with the meeting link if it’s online (#postCovidWorld)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Short Meeting Durations
+  &lt;li&gt;&lt;strong&gt;Short Meeting Durations&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Aim for 30 min meetings. Max 45.&lt;/li&gt;
       &lt;li&gt;The longer the meeting drags on, the more everyone will feel bored and start losing attention.&lt;/li&gt;
@@ -110,14 +110,14 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;action-list&quot;&gt;Action List&lt;/h1&gt;
+&lt;h1 id=&quot;set-the-next-actions&quot;&gt;&lt;strong&gt;Set the Next Actions&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;Towards the end of the meeting:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Setting up time for the next meeting and putting it on the Calendar
+  &lt;li&gt;&lt;strong&gt;Setting up time for the next meeting and putting it on the Calendar&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Create an action list&lt;/strong&gt;. An MoM of sorts
     &lt;ul&gt;
-      &lt;li&gt;Create an action list. An MoM of sorts&lt;/li&gt;
       &lt;li&gt;Discuss the outcomes of the meeting and have them written down along with who is accountable for it.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
