@@ -9,23 +9,23 @@ permalink: /running-effective-meetings/
 title: Running Effective Meetings
 ---
 
-Meeting is a place than can bring in new ideas and insights and save everyone's time and effort.
+A meeting is a place that can bring in new ideas and insights and save everyone's time and effort.
 
-Therefore it's very important to have effective productive meeting.
+Therefore it's very important to have an effective productive meeting.
 
-There are someways to have effective meetings:
+There are some ways to have effective meetings:
 
 # Setting the context
 
-Most meetings aren't as effective because people involved don't have context behind what is being discussed.
+Most meetings aren't as effective because the people involved don't have the context behind what is being discussed.
 
-This can be solved a few ways:
+This can be solved in a few ways:
 
-- Agenda: A few set of outlines or questions
+- Agenda: A few sets of outlines or questions
 - Pre-reading material
-    - A set of material to read / watch before attenting the meeting. 
-    - It's better to send a specific link than just mention the name of the topic.
-- Set the context during meeting
+    - A set of materials to read/watch before attending the meeting. 
+    - It's better to send a specific link than just mentioning the name of the topic.
+- Set the context during a meeting
     - Start the meeting by setting the context. 
         - Why we are doing what we are doing?
         - What do we intend to get out of this meeting?
@@ -33,8 +33,8 @@ This can be solved a few ways:
 # Encourage Discussion
 
 - Round Robin Asking/Sharing Inputs
-    - Many people are shy and don't speak up. To get everyone involved discuss concepts/questions in a round robin fashion.
-    - You could even ask specific people who may be too silent of "What do you think about this?"
+    - Many people are shy and don't speak up. To get everyone involved discuss concepts/questions in a round-robin fashion.
+    - You could even ask specific people who may be too silent "What do you think about this?"
 
 # Keeping it short/exact
 
@@ -43,13 +43,13 @@ This can be solved a few ways:
     - It's best to have an exact date and time with the meeting link if it's online (#postCovidWorld)
 - Short Meeting Durations
     - Aim for 30 min meetings. Max 45. 
-    - The longer the meeting drags on, the more everyone will feel bored and start loosing attention.
+    - The longer the meeting drags on, the more everyone will feel bored and start losing attention.
     - If the meeting is dragging out longer, take a break. 10 minutes should be good enough.
 
 # Action List
 
 Towards the end of the meeting:
 
-- Setting up time for next meeting and putting it on Calendar
-    - Create a action list. A MoM of sorts
-    - Discuss outcomes of the meeting and have it written down along with who is accountable for it.
+- Setting up time for the next meeting and putting it on the Calendar
+    - Create an action list. An MoM of sorts
+    - Discuss the outcomes of the meeting and have them written down along with who is accountable for it.
