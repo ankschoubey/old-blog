@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-05-30T16:02:24-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-01T13:56:04-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,79 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ways towards Freedom</title><link href="www.ankushchoubey.com/freedom/" rel="alternate" type="text/html" title="Ways towards Freedom" /><published>2022-05-31T00:00:00-05:00</published><updated>2022-05-31T15:52:08-05:00</updated><id>www.ankushchoubey.com/freedom</id><content type="html" xml:base="www.ankushchoubey.com/freedom/">&lt;h1 id=&quot;why-i-have-been-contemplating-freedom&quot;&gt;Why I have been contemplating freedom?&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Running Effective Meetings</title><link href="www.ankushchoubey.com/running-effective-meetings/" rel="alternate" type="text/html" title="Running Effective Meetings" /><published>2022-06-01T00:00:00-05:00</published><updated>2022-06-01T15:52:08-05:00</updated><id>www.ankushchoubey.com/effective-meetings</id><content type="html" xml:base="www.ankushchoubey.com/running-effective-meetings/">&lt;p&gt;Meeting is a place than can bring in new ideas and insights and save everyone’s time and effort.&lt;/p&gt;
+
+&lt;p&gt;Therefore it’s very important to have effective productive meeting.&lt;/p&gt;
+
+&lt;p&gt;There are someways to have effective meetings:&lt;/p&gt;
+
+&lt;h1 id=&quot;setting-the-context&quot;&gt;Setting the context&lt;/h1&gt;
+
+&lt;p&gt;Most meetings aren’t as effective because people involved don’t have context behind what is being discussed.&lt;/p&gt;
+
+&lt;p&gt;This can be solved a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Agenda: A few set of outlines or questions&lt;/li&gt;
+  &lt;li&gt;Pre-reading material
+    &lt;ul&gt;
+      &lt;li&gt;A set of material to read / watch before attenting the meeting.&lt;/li&gt;
+      &lt;li&gt;It’s better to send a specific link than just mention the name of the topic.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Set the context during meeting
+    &lt;ul&gt;
+      &lt;li&gt;Start the meeting by setting the context.
+        &lt;ul&gt;
+          &lt;li&gt;Why we are doing what we are doing?&lt;/li&gt;
+          &lt;li&gt;What do we intend to get out of this meeting?&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;encourage-discussion&quot;&gt;Encourage Discussion&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Round Robin Asking/Sharing Inputs
+    &lt;ul&gt;
+      &lt;li&gt;Many people are shy and don’t speak up. To get everyone involved discuss concepts/questions in a round robin fashion.&lt;/li&gt;
+      &lt;li&gt;You could even ask specific people who may be too silent of “What do you think about this?”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;keeping-it-shortexact&quot;&gt;Keeping it short/exact&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Set time on the calendar
+    &lt;ul&gt;
+      &lt;li&gt;It’s unproductive to wonder when the meeting is.&lt;/li&gt;
+      &lt;li&gt;It’s best to have an exact date and time with the meeting link if it’s online (#postCovidWorld)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Short Meeting Durations
+    &lt;ul&gt;
+      &lt;li&gt;Aim for 30 min meetings. Max 45.&lt;/li&gt;
+      &lt;li&gt;The longer the meeting drags on, the more everyone will feel bored and start loosing attention.&lt;/li&gt;
+      &lt;li&gt;If the meeting is dragging out longer, take a break. 10 minutes should be good enough.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;action-list&quot;&gt;Action List&lt;/h1&gt;
+
+&lt;p&gt;Towards the end of the meeting:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Setting up time for next meeting and putting it on Calendar
+    &lt;ul&gt;
+      &lt;li&gt;Create a action list. A MoM of sorts&lt;/li&gt;
+      &lt;li&gt;Discuss outcomes of the meeting and have it written down along with who is accountable for it.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="communication" /><summary type="html">Meeting is a place than can bring in new ideas and insights and save everyone’s time and effort.</summary></entry><entry><title type="html">Ways towards Freedom</title><link href="www.ankushchoubey.com/freedom/" rel="alternate" type="text/html" title="Ways towards Freedom" /><published>2022-05-31T00:00:00-05:00</published><updated>2022-05-31T15:52:08-05:00</updated><id>www.ankushchoubey.com/freedom</id><content type="html" xml:base="www.ankushchoubey.com/freedom/">&lt;h1 id=&quot;why-i-have-been-contemplating-freedom&quot;&gt;Why I have been contemplating freedom?&lt;/h1&gt;
 
 &lt;p&gt;I have been contemplating this for a while. Defining my core values has been a step toward consciously choosing the kind of person I want to be given the ups and downs.&lt;/p&gt;
 
@@ -395,124 +467,4 @@ https://github.com/dbader/readme-template&lt;/p&gt;
 
 &lt;p&gt;Wiremocks are kind of common in UI world. It’s always better to start with a rough wiremock and get it verified from stakeholders.&lt;/p&gt;
 
-&lt;p&gt;Not doing so leads to un-neccesary rework down the line.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is a blank screen problem?</summary></entry><entry><title type="html">Writing cleaner tests with Test Data Factories</title><link href="www.ankushchoubey.com/test-data-factories/" rel="alternate" type="text/html" title="Writing cleaner tests with Test Data Factories" /><published>2022-05-03T00:00:00-05:00</published><updated>2022-05-03T15:52:08-05:00</updated><id>www.ankushchoubey.com/test-data-factories</id><content type="html" xml:base="www.ankushchoubey.com/test-data-factories/">&lt;h1 id=&quot;problem&quot;&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;A typical information-system application goes like this:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Create a data object&lt;/li&gt;
-  &lt;li&gt;Create a repository/DTO to sync it with Database&lt;/li&gt;
-  &lt;li&gt;Create a service&lt;/li&gt;
-  &lt;li&gt;Create a REST API endpoint&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So, when we write tests, we tend to initialize the data object and multiple places.&lt;/p&gt;
-
-&lt;p&gt;For me it has happened before that a single change to constructor has lead to changes are 100s of places. This manually change could avoided if I knew IntelliJ properly.&lt;/p&gt;
-
-&lt;p&gt;But without IDE features too, initializing a data class in multiple tests makes tests bulkier.&lt;/p&gt;
-
-&lt;p&gt;We can abstract away all these into a single class that can provide all the test data for a data-object.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;You have a data-class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataClass&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Data&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@RequiredArgsConstructor&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@NonNull&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@NonNull&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;field2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In tests you initialize each field manually,&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 1&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {someAssertion}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SomeAssertion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 2&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {second Assertions}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;anotherName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//... more tests which declare data object&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Here if you have to modify of add a new field, you’ll have a hard time.&lt;/p&gt;
-
-&lt;h1 id=&quot;solution-simple-test-data-factory&quot;&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Simple Test Data Factory&lt;/h1&gt;
-
-&lt;p&gt;Instead, you can create a Test Data Factory. Something like&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Note here name doesn't matter&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aRandomName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-        &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// this is the only place where class is initialized&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;SampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;field3&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt; 
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Note the stucture of the classes. This is intentional.&lt;/p&gt;
-
-&lt;p&gt;When calling the method it would look something like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a much fluent (english like) statement.&lt;/p&gt;
-
-&lt;p&gt;So now your tests can look something like this:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 1&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {someAssertion}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SomeAssertion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nd&quot;&gt;@Test&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//TEST 2&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@DisplayName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHOULD {second Assertions}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Assertions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}(){&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;SampleDataClass&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sampleData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SampleDataTestFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aSampleDataClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;anotherName&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// calls and assertions&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//... more tests which declare data object&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Note that both Tests use a different simple factory method. One doesn’t care what the name field is but other does.&lt;/p&gt;
-
-&lt;p&gt;Most of my test factories would initialize data randomly unless explicit value is needed which is very rare.&lt;/p&gt;
-
-&lt;h1 id=&quot;extending-further&quot;&gt;&lt;strong&gt;Extending Further&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;Intially, I started with the just creating test data but then I realized I could club more common things in the Test Factory.&lt;/p&gt;
-
-&lt;p&gt;These include:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;APICalls&lt;/code&gt; - Each method passes the parameters and return the result&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MockRepository&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DTO&lt;/code&gt; - returns an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OnGoingStub&lt;/code&gt; for methods of repository&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MockService&lt;/code&gt; - Similar to MockRepository but for service&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Helpers&lt;/code&gt; - Special helpers methods for dealing with Data Object&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;All of these methods are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public static&lt;/code&gt; and using them has the same fluency as above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SampleDataTestFactory.Given.aSampleDataClass()&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Problem</summary></entry></feed>
+&lt;p&gt;Not doing so leads to un-neccesary rework down the line.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is a blank screen problem?</summary></entry></feed>
