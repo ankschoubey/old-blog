@@ -75,6 +75,8 @@ Log message: `User does not exists: {id: 1, name: Elon Musk}`
 String id = "1";
 String name= "Elon Musk";
 if (repository.existsByIdAndName(id, name)){
-    throw new UserDoesNotExistException("User does not exists: " + Map.of("id", id, "name", name));
+    throw new UserDoesNotExistException("User does not exists: {id: " + id +  ", name: " + name + "}");
 }
 ```
+
+Java also has `Map.of` that can allow writing maps in a single line. The only reason not to use it is that it doesn't allow null values.
