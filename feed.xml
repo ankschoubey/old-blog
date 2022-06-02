@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-01T14:20:33-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-02T12:35:30-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -121,7 +121,23 @@
       &lt;li&gt;Discuss the outcomes of the meeting and have them written down along with who is accountable for it.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="communication" /><summary type="html">A meeting is a place that can bring in new ideas and insights and save everyone’s time and effort.</summary></entry><entry><title type="html">Ways towards Freedom</title><link href="www.ankushchoubey.com/freedom/" rel="alternate" type="text/html" title="Ways towards Freedom" /><published>2022-05-31T00:00:00-05:00</published><updated>2022-05-31T15:52:08-05:00</updated><id>www.ankushchoubey.com/freedom</id><content type="html" xml:base="www.ankushchoubey.com/freedom/">&lt;h1 id=&quot;why-i-have-been-contemplating-freedom&quot;&gt;Why I have been contemplating freedom?&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="communication" /><summary type="html">A meeting is a place that can bring in new ideas and insights and save everyone’s time and effort.</summary></entry><entry><title type="html">Why memorizing is still relevant?</title><link href="www.ankushchoubey.com/why-memorize/" rel="alternate" type="text/html" title="Why memorizing is still relevant?" /><published>2022-05-31T00:00:00-05:00</published><updated>2022-05-31T15:52:08-05:00</updated><id>www.ankushchoubey.com/why-memorize</id><content type="html" xml:base="www.ankushchoubey.com/why-memorize/">&lt;p&gt;There is a cognitive bias called the Google Effect.&lt;/p&gt;
+
+&lt;p&gt;This means that if we know where to find the information, we won’t try to remember it. Instead we’ll roughly know the location of where to find it.&lt;/p&gt;
+
+&lt;p&gt;This might seem nice at first. But here are some problems:&lt;/p&gt;
+
+&lt;p&gt;To make any sense of the world/a topic: we need to keep our mind on it long enough to create meaningful connections.&lt;/p&gt;
+
+&lt;p&gt;This won’t happen when we just know the reference and have to go read things over.&lt;/p&gt;
+
+&lt;p&gt;In real world, the problems we face are usually of a repetitive nature this is because we haven’t taken time forming the habits/strategies to cope with that. The more we can remember,&lt;/p&gt;
+
+&lt;p&gt;We need to make decisions. To make decisions fast and efficiently, we need to know, remember and recall hard facts on the fly.&lt;/p&gt;
+
+&lt;p&gt;By remembering we also save a lot of time in finding, re-reading and coming to the same conclusions again.&lt;/p&gt;
+
+&lt;p&gt;All these make it important to memorize/remember things better.&lt;/p&gt;</content><author><name></name></author><summary type="html">There is a cognitive bias called the Google Effect.</summary></entry><entry><title type="html">Ways towards Freedom</title><link href="www.ankushchoubey.com/freedom/" rel="alternate" type="text/html" title="Ways towards Freedom" /><published>2022-05-31T00:00:00-05:00</published><updated>2022-05-31T15:52:08-05:00</updated><id>www.ankushchoubey.com/freedom</id><content type="html" xml:base="www.ankushchoubey.com/freedom/">&lt;h1 id=&quot;why-i-have-been-contemplating-freedom&quot;&gt;Why I have been contemplating freedom?&lt;/h1&gt;
 
 &lt;p&gt;I have been contemplating this for a while. Defining my core values has been a step toward consciously choosing the kind of person I want to be given the ups and downs.&lt;/p&gt;
 
@@ -417,54 +433,4 @@ https://github.com/dbader/readme-template&lt;/p&gt;
 &lt;p&gt;Deployment:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Docker, Kubenetes&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Some essential considerations when starting a new project</summary></entry><entry><title type="html">Thinking on Paper</title><link href="www.ankushchoubey.com/thinking-on-paper/" rel="alternate" type="text/html" title="Thinking on Paper" /><published>2022-05-05T00:00:00-05:00</published><updated>2022-05-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/thinking-on-paper</id><content type="html" xml:base="www.ankushchoubey.com/thinking-on-paper/">&lt;h1 id=&quot;what-is-a-blank-screen-problem&quot;&gt;What is a blank screen problem?&lt;/h1&gt;
-
-&lt;p&gt;The blank screen problem is we have a new coding problem but can’t decide what to code. Think of this as an equivalent to writers block.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-we-get-stuck-at-a-blank-screen&quot;&gt;Why we get stuck at a blank screen?&lt;/h1&gt;
-
-&lt;p&gt;This can happen because we don’t know the requirement very well or what we are trying to implement is too tough.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-are-the-ways-of-avoiding-blank-screen&quot;&gt;What are the ways of avoiding blank screen?&lt;/h1&gt;
-
-&lt;p&gt;Planning and designing are the best ways of avoiding blank screen.&lt;/p&gt;
-
-&lt;p&gt;The best way to plan and design is to do it on paper.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-pen-and-paper-works-well&quot;&gt;Why Pen and Paper Works Well?&lt;/h1&gt;
-
-&lt;p&gt;Paper works best because:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;There is no distractions.&lt;/li&gt;
-  &lt;li&gt;You can connect ideas easily.&lt;/li&gt;
-  &lt;li&gt;You can hold more ideas in memory by writing/drawing it down.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;how-to-do-it-for-system-design&quot;&gt;How to do it for System Design?&lt;/h1&gt;
-
-&lt;p&gt;For initial system design usual boxes and connecting them is enough.&lt;/p&gt;
-
-&lt;p&gt;Once, the initial system design is built you can use a tool like Google Draw or diagram.net to get a more refined and shareable diagram.&lt;/p&gt;
-
-&lt;p&gt;Reading up and understanding UML diagrams can be helpful in the later part.&lt;/p&gt;
-
-&lt;p&gt;For many problems I have found defining data model is the best way to start designing the system.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-do-it-for-algorithmic-problems&quot;&gt;How to do it for Algorithmic Problems?&lt;/h1&gt;
-
-&lt;p&gt;This can be used the same competitive coding problem or real life.&lt;/p&gt;
-
-&lt;p&gt;In competitive coding problems we are given sample Inputs and sample outputs.&lt;/p&gt;
-
-&lt;p&gt;It’s best to always start on paper pen and manually solve for each sample input manually.&lt;/p&gt;
-
-&lt;p&gt;Once thats done, figure out the time and space complexity and optimize.&lt;/p&gt;
-
-&lt;p&gt;Once you are done with these, only then start with actual coding.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-do-it-for-ui-design&quot;&gt;How to do it for UI Design?&lt;/h1&gt;
-
-&lt;p&gt;Wiremocks are kind of common in UI world. It’s always better to start with a rough wiremock and get it verified from stakeholders.&lt;/p&gt;
-
-&lt;p&gt;Not doing so leads to un-neccesary rework down the line.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is a blank screen problem?</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Some essential considerations when starting a new project</summary></entry></feed>
