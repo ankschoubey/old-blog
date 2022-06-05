@@ -2,12 +2,16 @@
 layout: post
 comments: true
 description:
-categories: []
+categories: [philosophical]
 last_modified_at: 2022-06-05T20:52:08.052481
 last-modified-purpose:
 permalink: /truth-fidility/
 title: Truth and Fidility
+image: /images/truth-fidility.jpg
 ---
+![](/images/truth-fidility.jpg)
+
+<sup>Photo by Paul Skorupskas on Unsplash</sup>
 
 # Naivity
 
