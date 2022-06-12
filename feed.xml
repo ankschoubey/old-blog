@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-05T10:35:01-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-12T11:03:12-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -49,7 +49,28 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Truth and Fidility</title><link href="www.ankushchoubey.com/truth-fidility/" rel="alternate" type="text/html" title="Truth and Fidility" /><published>2022-06-05T00:00:00-05:00</published><updated>2022-06-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/truth-fidility</id><content type="html" xml:base="www.ankushchoubey.com/truth-fidility/">&lt;p&gt;&lt;img src=&quot;/images/truth-fidility.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Paper work is like DevOps</title><link href="www.ankushchoubey.com/paper-work-devops/" rel="alternate" type="text/html" title="Paper work is like DevOps" /><published>2022-06-12T00:00:00-05:00</published><updated>2022-06-12T15:52:08-05:00</updated><id>www.ankushchoubey.com/paper-work-devops</id><content type="html" xml:base="www.ankushchoubey.com/paper-work-devops/">&lt;p&gt;I have never been fully able to get into the flow of DevOps. I always kept wondering why that is.&lt;/p&gt;
+
+&lt;p&gt;I believe I have a good enough hypothesis.&lt;/p&gt;
+
+&lt;p&gt;Coding is fast. You just learn a bunch of patterns and implement solutions.&lt;/p&gt;
+
+&lt;p&gt;DevOps is slower to work on because it requires a bunch of configurations. Those configurations are very specific and have to work a certain way.&lt;/p&gt;
+
+&lt;p&gt;Therefore the actually “DevOps” command/configuration would be small but require a lot of pre-reading/experimentation. Once done, the result is huge but daily progress usually seems much slower.&lt;/p&gt;
+
+&lt;p&gt;This feels very similar to paper work be it bank, government, etc. Paper work requires a bunch of skills similar to what’s needed with DevOps.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Patience&lt;/li&gt;
+  &lt;li&gt;Organization&lt;/li&gt;
+  &lt;li&gt;Pre-planning&lt;/li&gt;
+  &lt;li&gt;Regular experimentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Plus it requires more stuff, going out to bank, government office. A huge drain for some specially if paired up with being a bit shy.&lt;/p&gt;
+
+&lt;p&gt;Anyway it needs to be done. So might as well get it done.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">I have never been fully able to get into the flow of DevOps. I always kept wondering why that is.</summary></entry><entry><title type="html">Truth and Fidility</title><link href="www.ankushchoubey.com/truth-fidility/" rel="alternate" type="text/html" title="Truth and Fidility" /><published>2022-06-05T00:00:00-05:00</published><updated>2022-06-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/truth-fidility</id><content type="html" xml:base="www.ankushchoubey.com/truth-fidility/">&lt;p&gt;&lt;img src=&quot;/images/truth-fidility.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Photo by Paul Skorupskas on Unsplash&lt;/sup&gt;&lt;/p&gt;
 
@@ -421,33 +442,4 @@ To do QDW, start by writing the topic name. And all the questions you have relat
 
 &lt;p&gt;The cost of precision saves more time overall.&lt;/p&gt;
 
-&lt;p&gt;When you have a new essay idea, just write all the intents in form of questions. And you will more likely remember how to write it.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is question-driven writing?</summary></entry><entry><title type="html">Choosing Images/Diagrams in Essays</title><link href="www.ankushchoubey.com/essay-images/" rel="alternate" type="text/html" title="Choosing Images/Diagrams in Essays" /><published>2022-05-13T00:00:00-05:00</published><updated>2022-05-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/essay-images</id><content type="html" xml:base="www.ankushchoubey.com/essay-images/">&lt;h1 id=&quot;why-we-should-have-images-and-diagrams&quot;&gt;Why we should have images and diagrams?&lt;/h1&gt;
-
-&lt;p&gt;Images and Diagrams make our essays more rememberable and can be used to illustrate concepts that are hard to describe in words.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-we-should-choose-imagesdiagrams&quot;&gt;How we should choose images/diagrams?&lt;/h1&gt;
-
-&lt;h1 id=&quot;which-imagediagram-type-is-better-for-illustrating-the-point&quot;&gt;Which image/diagram type is better for illustrating the point?&lt;/h1&gt;
-
-&lt;p&gt;An image or a diagram should complement the writing but not distract from the writing. The image/diagram should be linked to what’s been written.&lt;/p&gt;
-
-&lt;p&gt;Choosing images and diagrams very much depends on the contents of the essay.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If it is a physical object or an activity, we can find the best representation of the object or activity.&lt;/li&gt;
-  &lt;li&gt;If it’s an activity that involves many steps, then we could include images of each step.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Diagrams can be tricky sometimes. In some places, graphs and Venn diagrams can be good.&lt;/p&gt;
-
-&lt;p&gt;For code style, using appropriate UML diagrams can be useful.&lt;/p&gt;
-
-&lt;p&gt;Diagrams need not always be perfect. Sometimes rough diagrams are better than no diagrams.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-should-we-add-captions-to-an-image&quot;&gt;Why should we add captions to an image?&lt;/h1&gt;
-
-&lt;p&gt;It makes it easy to understand the diagram if it has a caption. The caption should describe the diagram in detail but need not be a paragraph long. A sentence or two might be enough.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-should-we-add-the-source-to-an-image&quot;&gt;Why should we add the source to an image?&lt;/h1&gt;
-
-&lt;p&gt;Like any writing, it helps to credit the creator of the image or diagram if we are using someone else’s. It takes too long to make an image or a diagram. By adding sources, we encourage the creator to create more.&lt;/p&gt;</content><author><name></name></author><category term="writing" /><summary type="html">Why we should have images and diagrams?</summary></entry></feed>
+&lt;p&gt;When you have a new essay idea, just write all the intents in form of questions. And you will more likely remember how to write it.&lt;/p&gt;</content><author><name></name></author><summary type="html">What is question-driven writing?</summary></entry></feed>
