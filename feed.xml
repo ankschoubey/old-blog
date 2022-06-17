@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-17T14:30:35-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-17T14:33:54-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">Post Format</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="Post Format" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;writing-steps&quot;&gt;Writing Steps&lt;/h2&gt;
 
@@ -84,7 +84,34 @@
 
 &lt;p&gt;Plus it requires more stuff, going out to bank, government office. A huge drain for some specially if paired up with being a bit shy.&lt;/p&gt;
 
-&lt;p&gt;Anyway it needs to be done. So might as well get it done.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">I have never been fully able to get into the flow of DevOps. I always kept wondering why that is.</summary></entry><entry><title type="html">Truth and Fidility</title><link href="www.ankushchoubey.com/truth-fidility/" rel="alternate" type="text/html" title="Truth and Fidility" /><published>2022-06-05T00:00:00-05:00</published><updated>2022-06-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/truth-fidility</id><content type="html" xml:base="www.ankushchoubey.com/truth-fidility/">&lt;p&gt;&lt;img src=&quot;/images/truth-fidility.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Anyway it needs to be done. So might as well get it done.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">I have never been fully able to get into the flow of DevOps. I always kept wondering why that is.</summary></entry><entry><title type="html">Become a better listener by asking neutral questions</title><link href="www.ankushchoubey.com/ask-neutral-questions/" rel="alternate" type="text/html" title="Become a better listener by asking neutral questions" /><published>2022-06-11T00:00:00-05:00</published><updated>2022-06-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/ask-neutral-questions</id><content type="html" xml:base="www.ankushchoubey.com/ask-neutral-questions/">&lt;p&gt;To understand neutral questions it’s more effective to understand it’s alternative. Loaded questions.&lt;/p&gt;
+
+&lt;p&gt;A loaded question is where you already pick a side.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;Loaded:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;My friend lied to me about having a job. What should I do in this situation?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Neutral:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If someone lies about themselves? What should be done? Or how should one think about it?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Two techniques:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Remove references. Keep everything third person.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use phrases like how should one think about this.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="1-1-communication" /><category term="team-work" /><summary type="html">To understand neutral questions it’s more effective to understand it’s alternative. Loaded questions.</summary></entry><entry><title type="html">Truth and Fidility</title><link href="www.ankushchoubey.com/truth-fidility/" rel="alternate" type="text/html" title="Truth and Fidility" /><published>2022-06-05T00:00:00-05:00</published><updated>2022-06-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/truth-fidility</id><content type="html" xml:base="www.ankushchoubey.com/truth-fidility/">&lt;p&gt;&lt;img src=&quot;/images/truth-fidility.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Photo by Paul Skorupskas on Unsplash&lt;/sup&gt;&lt;/p&gt;
 
@@ -389,28 +416,4 @@
 
 &lt;p&gt;Many other tips can make scenarios cleaner and more specific. The cleaner and more specific the scenarios are, the easier it will be for everyone to collaborate and build better products.&lt;/p&gt;
 
-&lt;p&gt;This whole journey encompasses BDD. BDD isn’t as specific as Test-Driven Development. The scope of BDD is much much larger and encompasses the whole product lifecycle from defining problems and validating to development and everything in between.&lt;/p&gt;</content><author><name></name></author><category term="product-development" /><category term="testing" /><category term="bdd" /><summary type="html">Starting with a User’s Problem</summary></entry><entry><title type="html">Writing cleaner commit messages with conventional commits</title><link href="www.ankushchoubey.com/conventional-commits/" rel="alternate" type="text/html" title="Writing cleaner commit messages with conventional commits" /><published>2022-05-17T00:00:00-05:00</published><updated>2022-05-17T15:52:08-05:00</updated><id>www.ankushchoubey.com/conventional-commits</id><content type="html" xml:base="www.ankushchoubey.com/conventional-commits/">&lt;h3 id=&quot;why-commit-messages-are-important&quot;&gt;Why commit messages are important?&lt;/h3&gt;
-&lt;p&gt;Whenever we code, we save the state of the code with a commit. And the commit message becomes description of what exactly happened.&lt;/p&gt;
-
-&lt;p&gt;Having good commit message leads to better communication and understanding. People can use commits to learn the code. It is an invaluable peace of documentation when done well.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-happened-when-we-dont-follow-a-convention&quot;&gt;What happened when we don’t follow a convention?&lt;/h3&gt;
-&lt;p&gt;Like with anything else, When we don’t follow a convention for commit messages everything is messed up. Everyone has their own rules. Some are too descriptive. Some are less.&lt;/p&gt;
-
-&lt;p&gt;We can’t get important insights&lt;/p&gt;
-
-&lt;h3 id=&quot;why-we-should-follow-conventional-commits&quot;&gt;Why we should follow conventional commits?&lt;/h3&gt;
-&lt;p&gt;Conventional commits forces us to have atomic commits. Aka to include only change that has been done.&lt;/p&gt;
-
-&lt;p&gt;This can also help with git bisect&lt;/p&gt;
-
-&lt;p&gt;It also has plugins that make it easier to perform other actions.&lt;/p&gt;
-
-&lt;p&gt;Semantic Versioning
-Change log generation&lt;/p&gt;
-
-&lt;h3 id=&quot;what-are-some-ways-for-making-it-easy-to-implement-conventional-commits&quot;&gt;What are some ways for making it easy to implement conventional commits?&lt;/h3&gt;
-
-&lt;p&gt;Commit lint website : https://commitlint.io/
-IDE plugins
-Git pre-commit hooks&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><summary type="html">Why commit messages are important? Whenever we code, we save the state of the code with a commit. And the commit message becomes description of what exactly happened.</summary></entry></feed>
+&lt;p&gt;This whole journey encompasses BDD. BDD isn’t as specific as Test-Driven Development. The scope of BDD is much much larger and encompasses the whole product lifecycle from defining problems and validating to development and everything in between.&lt;/p&gt;</content><author><name></name></author><category term="product-development" /><category term="testing" /><category term="bdd" /><summary type="html">Starting with a User’s Problem</summary></entry></feed>
