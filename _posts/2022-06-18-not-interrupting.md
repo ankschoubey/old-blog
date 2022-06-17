@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [1-1-communication, team-work]
+categories: [1-1-communication, team-work, draft]
 last_modified_at: 2022-06-18T20:52:08.052481
 last-modified-purpose:
 permalink: /not-interrupting/

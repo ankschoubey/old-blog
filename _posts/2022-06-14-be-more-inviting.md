@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [1-1-communication, team-work]
+categories: [1-1-communication, team-work, draft]
 last_modified_at: 2022-06-14T20:52:08.052481
 last-modified-purpose:
 permalink: /be-more-inviting/
@@ -24,3 +24,5 @@ Digitally: This includes but isn't limited to setting your status as "Available"
 Help/Guide people who need it. The goal isn't the get "praised". The goal is solving of problems.
 
 Focus on solving of problems and help everyone. Another positive of helping everyone is you don't expect anything back.
+
+Remember, keep track of your commitments. And then ping people.
