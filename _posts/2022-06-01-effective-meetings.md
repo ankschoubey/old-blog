@@ -3,10 +3,10 @@ layout: post
 comments: true
 description:
 categories: [business, communication]
-last_modified_at: 2022-06-01T20:52:08.052481
-last-modified-purpose:
-permalink: /running-effective-meetings/
-title: Running Effective Meetings
+last_modified_at: 2022-06-19T20:52:08.052481
+last-modified-purpose: added section "Be prepared early by maintaining notes"
+permalink: /effective-meetings/
+title: Running and Being Effective during Meetings
 ---
 
 A meeting is a place that can bring in new ideas and insights and save everyone's time and effort.
@@ -29,6 +29,16 @@ This can be solved in a few ways:
     - Start the meeting by setting the context. 
         - Why we are doing what we are doing?
         - What do we intend to get out of this meeting?
+
+# **Be prepared early by maintaining notes**
+
+Be prepared for the meeting yourself. You could create a google sheet (sheets.new) for each important recurring meeting.
+
+For example:
+
+Retrospective meeting happens at the end of every sprint or every release. Since the release ended, everyone is already happy and have forgotten everything that they went through.
+
+So, instead have a google sheet with your Retrospective format and fill in info there. So that you'll have a set of useful points to add to the retrospective.
 
 # **Encourage Discussion**
 
