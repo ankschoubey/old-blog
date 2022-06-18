@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /resume/
-title: 
+title: Resume
 search_exclude: false
 ---
 {% include replace_nav_with_icons.html %}
