@@ -4,9 +4,10 @@ layout: post
 comments: true
 description: 
 categories: [database, information-system]
-title: Keeping SQL DB Simple
-last_modified_at: 2021-09-07T20:42:15.673574
-permalink: /simple-sql-db/
+title: Keeping database simple
+last-modified-purpose: added section on "Keep Data within Database Platform Independent"
+last_modified_at: 2022-06-19T20:42:15.673574
+permalink: /simple-db/
 ---
 
 Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB.
@@ -32,6 +33,14 @@ There shouldn't be multiple tables doing the same job.
 ## Simple and Reusable Tables
 
 If you have a social media type feature, it is best to have a single table to track likes than have multiple like tables for each type of data.
+
+## Keep Data within Database Platform Independent
+
+A common problem that happens when you store something like HTML is what would happen if classes or tags are modified. One would have to write a migration script and image all the scenarious. This is a lot of work.
+
+Therefore, database ideally shouldn't store HTML or a particular DSL.
+
+Instead have a converter at the backend to do the conversion from data within database to HTML or DSL. This would mean that you can swap in and out different DSLs over the same data.
 
 ## Column Names
 
