@@ -7,19 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Keeping SQL DB Simple | Ankush</title>
+<title>Keeping database simple | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Keeping SQL DB Simple">
+<meta property="og:title" content="Keeping database simple">
 <meta property="og:locale" content="en_US">
 <meta name="description" content="Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB.">
 <meta property="og:description" content="Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB.">
-<link rel="canonical" href="www.ankushchoubey.com/simple-sql-db/">
-<meta property="og:url" content="www.ankushchoubey.com/simple-sql-db/">
+<link rel="canonical" href="www.ankushchoubey.com/simple-db/">
+<meta property="og:url" content="www.ankushchoubey.com/simple-db/">
 <meta property="og:site_name" content="Ankush">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2021-06-05T00:00:00-05:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/simple-sql-db/","@type":"BlogPosting","headline":"Keeping SQL DB Simple","dateModified":"2021-09-07T15:42:15-05:00","datePublished":"2021-06-05T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/simple-sql-db/"},"description":"Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB.","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/simple-db/","@type":"BlogPosting","headline":"Keeping database simple","dateModified":"2022-06-19T15:42:15-05:00","datePublished":"2021-06-05T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/simple-db/"},"description":"Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -124,12 +124,12 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Keeping SQL DB Simple</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Keeping database simple</h1>
 
     <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-06-05T00:00:00-05:00" itemprop="datePublished">
         Written: Jun 5, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2021-09-07T15:42:15-05:00" itemprop="dateModified">
-          Updated: Sep 7, 2021
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-06-19T15:42:15-05:00" itemprop="dateModified">
+          Updated: Jun 19, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -227,6 +227,14 @@ window.onload = wrap_img;
 
 <p>If you have a social media type feature, it is best to have a single table to track likes than have multiple like tables for each type of data.</p>
 
+<h2 id="keep-data-within-database-platform-independent">Keep Data within Database Platform Independent</h2>
+
+<p>A common problem that happens when you store something like HTML is what would happen if classes or tags are modified. One would have to write a migration script and image all the scenarious. This is a lot of work.</p>
+
+<p>Therefore, database ideally shouldn’t store HTML or a particular DSL.</p>
+
+<p>Instead have a converter at the backend to do the conversion from data within database to HTML or DSL. This would mean that you can swap in and out different DSLs over the same data.</p>
+
 <h2 id="column-names">Column Names</h2>
 
 <p>For primary key <code class="language-plaintext highlighter-rouge">id</code> is enough.</p>
@@ -272,8 +280,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/simple-sql-db/';
-      this.page.identifier = 'www.ankushchoubey.com/simple-sql-db/';
+      this.page.url = 'www.ankushchoubey.com/simple-db/';
+      this.page.identifier = 'www.ankushchoubey.com/simple-db/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -284,7 +292,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/simple-sql-db/" hidden></a>
+<a class="u-url" href="/simple-db/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
