@@ -6,11 +6,13 @@ categories: []
 last_modified_at: 2050-09-23T20:52:08.052481
 last-modified-purpose:
 permalink: /post-format/
-title: Post Format
+title: PREFER UPDATING A BLOG OVER WRITING NEW ONES
 hide: true
 image: /images/n-plus-one.svg
 ---
 ![](/images/switch-jobs.jpg)
+
+# PREFER UPDATING A BLOG OVER WRITING NEW ONES
 
 ## Writing Steps
 
