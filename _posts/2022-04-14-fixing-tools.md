@@ -2,9 +2,9 @@
 layout: post
 comments: true
 description:
-categories: []
-last_modified_at: 2022-04-14T20:52:08.052481
-last-modified-purpose:
+categories: [tools]
+last_modified_at: 2022-06-19T20:52:08.052481
+last-modified-purpose: added list of favorite IDE plugins
 permalink: /fixing-tools/
 title: Fixing Tools - IDE, Code Editors, Etc.
 ---
@@ -32,3 +32,23 @@ I find IntelliJ to be better at out of the box features specially refactoring. U
 Eclipse is probably the worst ever.
 
 VS Code has better and more plugin.
+
+# Favorite Plugins
+
+**[Maven Helper](https://plugins.jetbrains.com/plugin/7179-maven-helper)**: IntelliJ
+
+This IntelliJ plugin provides easy way for analyzing and excluding conflicting dependencies.
+
+**[SonarLint](https://www.sonarlint.org/)** on almost every IDE:
+
+identifies and helps you fix quality and security issues as you code.
+
+**[Code Stream](https://www.codestream.com/)** on almost every IDE:
+
+Allows for easy code reviews.
+
+**Language/Technology specific plugins**:
+
+All IDEs includes plugin for specific language/technologies.
+
+For example: plugins for Kubernetes, Cucumber, Docker, etc.
