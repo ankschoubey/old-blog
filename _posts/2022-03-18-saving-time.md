@@ -93,8 +93,15 @@ This could include:
 3. Something that needs to be ordered.
 4. Etc
 
-# Identify improvements
+# Identify improvements and organize
 
 Along with planning, identifying and improving on timewaster will give back more time. -> Time Assets.
+
+Have a set of rituals that help your organizes. Some of these can include:
+
+1. Cleaning up your Agile/Board at end of the day
+2. Shutting down the computer (not hibernate) at 6 PM each day.
+3. Going through and deleting tasks bookmarks, files, notes, photos every Friday.
+4. Cleaning up the room every weekend.
 
 [^1]: [Development That Pays - YouTube Channel](https://www.youtube.com/c/Developmentthatpays)
