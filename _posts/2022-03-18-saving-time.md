@@ -6,7 +6,7 @@ categories: [productive]
 last_modified_at: 2022-06-19T20:52:08.052481
 last-modified-purpose: added principles from Kanban and other tips
 permalink: /saving-time/
-title: Stratergies on becoming more productive
+title: Strategies on becoming more productive
 image: /images/saving-time.jpg
 ---
 ![](/images/saving-time.jpg)
@@ -82,6 +82,8 @@ Pomodoro incorporates both Mono-tasking and recalibration.
 The breaks in pomodoro have a effect of recalibration. Specially if you will go away from 5-10 minutes, you come up with better strategy.
 
 # Keep track of distractors/distractions
+
+Learn to let things wait.
 
 Keep a list of distractions in a separate list. These are things that make you want to stop/block your particular card/task and switch to it. Or it can be something else you need to do.
 
