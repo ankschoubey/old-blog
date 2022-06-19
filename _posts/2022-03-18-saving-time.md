@@ -7,7 +7,11 @@ last_modified_at: 2022-06-19T20:52:08.052481
 last-modified-purpose: added principles from Kanban and other tips
 permalink: /saving-time/
 title: Stratergies on becoming more productive
+image: /images/saving-time.jpg
 ---
+![](/images/saving-time.jpg)
+
+<sup> Photo by <a href="https://unsplash.com/@airfocus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">airfocus</a> on <a href="https://unsplash.com/s/photos/kanban?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></sup>
 
 # Batch tasks
 
