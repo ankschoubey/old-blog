@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [communication]
+categories: [communication, team-work]
 last_modified_at: 2022-06-19T20:52:08.052481
 last-modified-purpose:
 permalink: /communication-during-conflict/
