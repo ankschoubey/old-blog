@@ -51,7 +51,7 @@ If you are using a Agile/Kanban Board, start from the rightmost part of the boar
 
 Mono Task. Do one thing at a time. You’ll save 50% more time.
 
-# Keep a **mental note of every next hour**
+# Keep a **mental note/recalibration of every next hour**
 
 This would automatically focus you. Every hour. But maybe not every minute.
 
@@ -65,9 +65,19 @@ Aim to have no "Moments of Glory".
 
 # Limit time/spike
 
-Almost all tasks can be estimated. If a task isn't estimatable, it needs to be broken down.
+Almost all tasks can be estimated to a few hours or a day. Even if someone estimates a task to a day, he/she will really actually work on it for a few hours. So aim to estimate to hours.
 
-Once the task is estimates to hours. Pomodoro or something similar can be used.
+If a task isn't estimatable, it needs to be broken down.
+
+Once the task is estimated to hours, pomodoro or something similar can be used.
+
+# Focused hours/**pomodoro**s
+
+Pomodoros are most effective way to get tasks done. 
+
+Pomodoro incorporates both Mono-tasking and recalibration.
+
+25 minutes of focus without distraction provides a mono-task environment. If anyone/anything interrupts, you could say you are on a Pomodoro and will connect back later.
 
 The breaks in pomodoro have a effect of recalibration. Specially if you will go away from 5-10 minutes, you come up with better strategy.
 
