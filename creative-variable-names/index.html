@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Always keep yourself ready to switch companies | Ankush</title>
+<title>Write cleaner tests with creative variable names | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Always keep yourself ready to switch companies">
+<meta property="og:title" content="Write cleaner tests with creative variable names">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Random Thoughts">
-<meta property="og:description" content="Random Thoughts">
-<link rel="canonical" href="www.ankushchoubey.com/switch-jobs/">
-<meta property="og:url" content="www.ankushchoubey.com/switch-jobs/">
+<meta name="description" content="Variable and method names provide a context that makes it easy to understand a piece of code.">
+<meta property="og:description" content="Variable and method names provide a context that makes it easy to understand a piece of code.">
+<link rel="canonical" href="www.ankushchoubey.com/creative-variable-names/">
+<meta property="og:url" content="www.ankushchoubey.com/creative-variable-names/">
 <meta property="og:site_name" content="Ankush">
-<meta property="og:image" content="www.ankushchoubey.com/images/switch-jobs.jpg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00">
+<meta property="article:published_time" content="2022-06-25T00:00:00-05:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/switch-jobs/","@type":"BlogPosting","image":"www.ankushchoubey.com/images/switch-jobs.jpg","headline":"Always keep yourself ready to switch companies","dateModified":"2022-06-25T05:13:14-05:00","datePublished":"2021-05-26T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/switch-jobs/"},"description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/creative-variable-names/","@type":"BlogPosting","headline":"Write cleaner tests with creative variable names","dateModified":"2022-06-25T15:52:08-05:00","datePublished":"2022-06-25T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/creative-variable-names/"},"description":"Variable and method names provide a context that makes it easy to understand a piece of code.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -125,11 +124,11 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Write cleaner tests with creative variable names</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-06-25T05:13:14-05:00" itemprop="dateModified">
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-06-25T00:00:00-05:00" itemprop="datePublished">
+        Written: Jun 25, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-06-25T15:52:08-05:00" itemprop="dateModified">
           Updated: Jun 25, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
@@ -162,7 +161,9 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
+    <a class="tag fa fa-hashtag testing" href="/categories/#testing">testing</a>
+    
+    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
     
 </div>
 <div class="right-section">
@@ -202,39 +203,61 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt=""></p>
+    <p>Variable and method names provide a context that makes it easy to understand a piece of code.</p>
 
-<h2 id="capitalism">Capitalism</h2>
+<p>Typically in code it’s enough to have the same variable name as the class name.</p>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>So for example, if you have a <code class="language-plaintext highlighter-rouge">User</code> class, the object name could be <code class="language-plaintext highlighter-rouge">user</code>.</p>
 
-<p>The more you earn, the better it is for everyone.</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">User</span><span class="o">(</span><span class="n">request</span><span class="o">.</span><span class="na">getFirstName</span><span class="o">(),</span> <span class="n">request</span><span class="o">.</span><span class="na">getLastName</span><span class="o">());</span>
+</code></pre></div></div>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<p>This looks good for in code but gets messy in tests. Specially when there are multiple instances of the same object.</p>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user1</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">User</span><span class="o">(</span><span class="s">"user 1 first name"</span><span class="o">,</span> <span class="s">"user 1 last name"</span><span class="o">,</span> <span class="o">...</span><span class="mi">10</span> <span class="n">other</span> <span class="n">fields</span><span class="o">...);</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="nc">User</span> <span class="n">user2</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">User</span><span class="o">(</span><span class="s">"user 2 first name"</span><span class="o">,</span> <span class="s">"user 1 last name"</span><span class="o">,</span> <span class="o">...</span><span class="mi">10</span> <span class="n">other</span> <span class="n">fields</span><span class="o">...);</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="c1">// someAssertionThatUses user1 And user2</span>
+</code></pre></div></div>
 
-<p>New environments and people give you new perspectives.</p>
+<p>A better approach is to use a TestData class which I have described in a separate blogpost</p>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user1</span> <span class="o">=</span> <span class="nc">UserTestData</span><span class="o">.</span><span class="na">Given</span><span class="o">.</span><span class="na">aUser</span><span class="o">(</span><span class="s">"user 1 first name"</span><span class="o">,</span> <span class="s">"user 1 last name"</span><span class="o">);</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="nc">User</span> <span class="n">user2</span> <span class="o">=</span> <span class="nc">UserTestData</span><span class="o">.</span><span class="na">Given</span><span class="o">.</span><span class="na">aUser</span><span class="o">(</span><span class="s">"user 2 first name"</span><span class="o">,</span> <span class="s">"user 1 last name"</span><span class="o">);</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="c1">// someAssertionThatUses user1 And user2</span>
+</code></pre></div></div>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
+<p>In the above statement, having the factory <code class="language-plaintext highlighter-rouge">UserTestData.Given.aUser</code> encapsulates creation making test a bit cleaner.</p>
 
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
+<p>But still at the end of the test in the assertions section the coder will have to remember what the data in <code class="language-plaintext highlighter-rouge">user1</code> and <code class="language-plaintext highlighter-rouge">user2</code></p>
 
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
+<p>A better way is to have creative variable names here.</p>
 
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">tonyStark</span> <span class="o">=</span> <span class="nc">UserTestData</span><span class="o">.</span><span class="na">Given</span><span class="o">.</span><span class="na">aUser</span><span class="o">(</span><span class="s">"Tony"</span><span class="o">,</span> <span class="s">"Stark"</span><span class="o">);</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="nc">User</span> <span class="n">steveRoggers</span> <span class="o">=</span> <span class="nc">UserTestData</span><span class="o">.</span><span class="na">Given</span><span class="o">.</span><span class="na">aUser</span><span class="o">(</span><span class="s">"Steve"</span><span class="o">,</span> <span class="s">"Roggers"</span><span class="o">);</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="o">.</span>
+<span class="c1">// someAssertionThatUses tonyStark And steveRogers</span>
+</code></pre></div></div>
 
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
+<p>Now within assertion the developer will know exact data in both the <code class="language-plaintext highlighter-rouge">User</code> objects.</p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
-    </li>
-  </ol>
-</div>
+<p>This not only makes tests more cleaner, but makes them funny and interesting to read.</p>
 
   </div>
 <!-- from https://github.com/utterance/utterances -->
@@ -244,8 +267,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/switch-jobs/';
-      this.page.identifier = 'www.ankushchoubey.com/switch-jobs/';
+      this.page.url = 'www.ankushchoubey.com/creative-variable-names/';
+      this.page.identifier = 'www.ankushchoubey.com/creative-variable-names/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -256,7 +279,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/switch-jobs/" hidden></a>
+<a class="u-url" href="/creative-variable-names/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

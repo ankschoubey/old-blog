@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-25T02:58:46-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-25T05:14:47-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,61 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Rules of thumbs for Distributed System</title><link href="www.ankushchoubey.com/rule-of_thumb-distributed-systems/" rel="alternate" type="text/html" title="Rules of thumbs for Distributed System" /><published>2022-06-25T00:00:00-05:00</published><updated>2022-06-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/rule-of_thumb-distributed-systems</id><content type="html" xml:base="www.ankushchoubey.com/rule-of_thumb-distributed-systems/">&lt;h1 id=&quot;dont-distribute-or-atleast-dont-distribute-early&quot;&gt;Don’t distribute. Or atleast don’t distribute early.&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Write cleaner tests with creative variable names</title><link href="www.ankushchoubey.com/creative-variable-names/" rel="alternate" type="text/html" title="Write cleaner tests with creative variable names" /><published>2022-06-25T00:00:00-05:00</published><updated>2022-06-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/tests-creative-variable-names</id><content type="html" xml:base="www.ankushchoubey.com/creative-variable-names/">&lt;p&gt;Variable and method names provide a context that makes it easy to understand a piece of code.&lt;/p&gt;
+
+&lt;p&gt;Typically in code it’s enough to have the same variable name as the class name.&lt;/p&gt;
+
+&lt;p&gt;So for example, if you have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User&lt;/code&gt; class, the object name could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getFirstName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getLastName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This looks good for in code but gets messy in tests. Specially when there are multiple instances of the same object.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user 1 first name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;user 1 last name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user 2 first name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;user 1 last name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// someAssertionThatUses user1 And user2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A better approach is to use a TestData class which I have described in a separate blogpost&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserTestData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user 1 first name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;user 1 last name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserTestData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user 2 first name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;user 1 last name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// someAssertionThatUses user1 And user2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In the above statement, having the factory &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UserTestData.Given.aUser&lt;/code&gt; encapsulates creation making test a bit cleaner.&lt;/p&gt;
+
+&lt;p&gt;But still at the end of the test in the assertions section the coder will have to remember what the data in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;A better way is to have creative variable names here.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tonyStark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserTestData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Tony&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Stark&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;steveRoggers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserTestData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Steve&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Roggers&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// someAssertionThatUses tonyStark And steveRogers&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now within assertion the developer will know exact data in both the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User&lt;/code&gt; objects.&lt;/p&gt;
+
+&lt;p&gt;This not only makes tests more cleaner, but makes them funny and interesting to read.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Variable and method names provide a context that makes it easy to understand a piece of code.</summary></entry><entry><title type="html">Rules of thumbs for Distributed System</title><link href="www.ankushchoubey.com/rule-of_thumb-distributed-systems/" rel="alternate" type="text/html" title="Rules of thumbs for Distributed System" /><published>2022-06-25T00:00:00-05:00</published><updated>2022-06-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/rule-of_thumb-distributed-systems</id><content type="html" xml:base="www.ankushchoubey.com/rule-of_thumb-distributed-systems/">&lt;h1 id=&quot;dont-distribute-or-atleast-dont-distribute-early&quot;&gt;Don’t distribute. Or atleast don’t distribute early.&lt;/h1&gt;
 
 &lt;p&gt;We have a tendancy to over engineer.&lt;/p&gt;
 
@@ -481,18 +535,4 @@ In Person: Best. Aim for in-person communication.&lt;/p&gt;
 
 &lt;p&gt;Freedom is a feeling. It may be that you are truly free but just don’t feel like it.&lt;/p&gt;
 
-&lt;p&gt;The ultimate freedom is freedom from the mind.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="exploration" /><summary type="html">Why I have been contemplating freedom?</summary></entry><entry><title type="html">Shadow Clone of Ideas</title><link href="www.ankushchoubey.com/shadow-clones/" rel="alternate" type="text/html" title="Shadow Clone of Ideas" /><published>2022-05-29T00:00:00-05:00</published><updated>2022-05-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/shadow-clones</id><content type="html" xml:base="www.ankushchoubey.com/shadow-clones/">&lt;p&gt;&lt;img src=&quot;/images/shadow-clones.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Shadow clone is a popular concept in Naruto where a person can clone themselves into multiples. Each clone can then go and do something and once that’s done, the clone disappears and the original person would retain the memory of the clone.&lt;/p&gt;
-
-&lt;p&gt;The protagonist, Naruto, could make 1000s of clones.&lt;/p&gt;
-
-&lt;p&gt;If making clones were that easy in real life, each one could be assigned a different important task which would lead to super high productivity. Since the clone knows each other super well, there would be almost no friction.&lt;/p&gt;
-
-&lt;p&gt;The downsides multiply too. Each clone would have the same weaknesses. All have the same mind.&lt;/p&gt;
-
-&lt;p&gt;Not only that but sometimes that is too much mental gymnastics on one person.&lt;/p&gt;
-
-&lt;p&gt;I would have opted to make shadow clones anyways but since it isn’t possible (yet), the other best solution seems to be to increase productivity, make shadow clones of knowledge and build good teams.&lt;/p&gt;
-
-&lt;p&gt;This means that ideas (clones of knowledge) can evolve and be implemented separately. This brings out uniqueness and the process of collaborating itself would make things better. And it’s less effort on any one person.&lt;/p&gt;</content><author><name></name></author><category term="baton" /><category term="team-work" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/shadow-clones.jpeg" /><media:content medium="image" url="www.ankushchoubey.com/images/shadow-clones.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;The ultimate freedom is freedom from the mind.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="exploration" /><summary type="html">Why I have been contemplating freedom?</summary></entry></feed>
