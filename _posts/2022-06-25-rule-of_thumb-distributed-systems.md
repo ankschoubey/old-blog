@@ -36,3 +36,9 @@ Preferable, publish every business object that the microservice handles.
 This requires having good naming conventions.
 
 Replication is okay in event driven microservices.
+
+# Keep code and interface quality damn high.
+
+In micro-services, you have to have a very high quality interface. This means Rest APIs, Kafka messages, etc. If quality/standards are not followed, then it effects every other service.
+
+In monoliths, you can almost get away with everything. Specailly if the only consumer is your frontend.
