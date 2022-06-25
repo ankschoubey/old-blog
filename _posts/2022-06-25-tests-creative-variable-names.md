@@ -11,7 +11,7 @@ title: Write cleaner tests with creative variable names
 
 Variable and method names provide a context that makes it easy to understand a piece of code. 
 
-Typically in code it's enough to have the same variable name as the class name.
+Typically in code, it's enough to have the same variable name as the class name.
 
 So for example, if you have a `User` class, the object name could be `user`.
 
@@ -19,7 +19,7 @@ So for example, if you have a `User` class, the object name could be `user`.
 User user = new User(request.getFirstName(), request.getLastName());
 ```
 
-This looks good for in code but gets messy in tests. Specially when there are multiple instances of the same object.
+This looks good in code but gets messy in tests especially when there are multiple instances of the same object.
 
 
 ```java
@@ -48,9 +48,9 @@ User user2 = UserTestData.Given.aUser("user 2 first name", "user 1 last name");
 // someAssertionThatUses user1 And user2
 ```
 
-In the above statement, having the factory `UserTestData.Given.aUser` encapsulates creation making test a bit cleaner.
+In the above statement, having the factory `UserTestData.Given.aUser` encapsulates creation making the test a bit cleaner.
 
-But still at the end of the test in the assertions section the coder will have to remember what the data in `user1` and `user2`
+But still, at the end of the test in the assertions section, the coder will have to remember what the data in `user1` and `user2`
 
 A better way is to have creative variable names here.
 
@@ -66,6 +66,6 @@ User steveRoggers = UserTestData.Given.aUser("Steve", "Roggers");
 // someAssertionThatUses tonyStark And steveRogers
 ```
 
-Now within assertion the developer will know exact data in both the `User` objects. 
+Now within assertion, the developer will know the exact data in both the `User` objects. 
 
-This not only makes tests more cleaner, but makes them funny and interesting to read.
+This not only makes tests cleaner but also makes them funny and exciting to read.
