@@ -205,14 +205,14 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <p>Variable and method names provide a context that makes it easy to understand a piece of code.</p>
 
-<p>Typically in code it’s enough to have the same variable name as the class name.</p>
+<p>Typically in code, it’s enough to have the same variable name as the class name.</p>
 
 <p>So for example, if you have a <code class="language-plaintext highlighter-rouge">User</code> class, the object name could be <code class="language-plaintext highlighter-rouge">user</code>.</p>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">User</span><span class="o">(</span><span class="n">request</span><span class="o">.</span><span class="na">getFirstName</span><span class="o">(),</span> <span class="n">request</span><span class="o">.</span><span class="na">getLastName</span><span class="o">());</span>
 </code></pre></div></div>
 
-<p>This looks good for in code but gets messy in tests. Specially when there are multiple instances of the same object.</p>
+<p>This looks good in code but gets messy in tests especially when there are multiple instances of the same object.</p>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user1</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">User</span><span class="o">(</span><span class="s">"user 1 first name"</span><span class="o">,</span> <span class="s">"user 1 last name"</span><span class="o">,</span> <span class="o">...</span><span class="mi">10</span> <span class="n">other</span> <span class="n">fields</span><span class="o">...);</span>
 <span class="o">.</span>
@@ -238,9 +238,9 @@ window.onload = wrap_img;
 <span class="c1">// someAssertionThatUses user1 And user2</span>
 </code></pre></div></div>
 
-<p>In the above statement, having the factory <code class="language-plaintext highlighter-rouge">UserTestData.Given.aUser</code> encapsulates creation making test a bit cleaner.</p>
+<p>In the above statement, having the factory <code class="language-plaintext highlighter-rouge">UserTestData.Given.aUser</code> encapsulates creation making the test a bit cleaner.</p>
 
-<p>But still at the end of the test in the assertions section the coder will have to remember what the data in <code class="language-plaintext highlighter-rouge">user1</code> and <code class="language-plaintext highlighter-rouge">user2</code></p>
+<p>But still, at the end of the test in the assertions section, the coder will have to remember what the data in <code class="language-plaintext highlighter-rouge">user1</code> and <code class="language-plaintext highlighter-rouge">user2</code></p>
 
 <p>A better way is to have creative variable names here.</p>
 
@@ -255,9 +255,9 @@ window.onload = wrap_img;
 <span class="c1">// someAssertionThatUses tonyStark And steveRogers</span>
 </code></pre></div></div>
 
-<p>Now within assertion the developer will know exact data in both the <code class="language-plaintext highlighter-rouge">User</code> objects.</p>
+<p>Now within assertion, the developer will know the exact data in both the <code class="language-plaintext highlighter-rouge">User</code> objects.</p>
 
-<p>This not only makes tests more cleaner, but makes them funny and interesting to read.</p>
+<p>This not only makes tests cleaner but also makes them funny and exciting to read.</p>
 
   </div>
 <!-- from https://github.com/utterance/utterances -->
