@@ -242,7 +242,7 @@ One can be strict with himself but has to be patient with others. And remember t
 **AGAINST**:
 
 - Drama Triangle
-- People Pleasing
+- People Pleasing / Trying to impress
 - Betrayal
 
 ## **Playfulness**: Antidote to boredom
@@ -271,8 +271,13 @@ It’s just more fun to live playfully and interact with the world and make sens
 
 **For**:
 
-Humor
-Games
+- Humor
+- Games
+- Being willing to break the rules
+
+**Against**:
+
+- Being too serious
 
 ***
 

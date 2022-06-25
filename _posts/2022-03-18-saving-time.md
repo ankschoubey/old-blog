@@ -51,6 +51,8 @@ If you are using a Agile/Kanban Board, start from the rightmost part of the boar
 
 Mono Task. Do one thing at a time. You’ll save 50% more time.
 
+A tip: Keep your phone outside the room. Your productivity will improve infinitely.
+
 # Keep a **mental note/recalibration of every next hour**
 
 This would automatically focus you. Every hour. But maybe not every minute.
