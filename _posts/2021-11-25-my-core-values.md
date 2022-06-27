@@ -3,8 +3,8 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2022-05-13T20:52:08.052481
-last-modified-purpose: Updated Responsibility section
+last_modified_at: 2022-06-28T20:52:08.052481
+last-modified-purpose: rename "peace" to "calmer"
 permalink: /my-core-values/
 title: My Core Values
 ---
@@ -82,7 +82,7 @@ While dealing with people, you have to ask people multiple times to make sure th
 - Deception
 - Hiding truth for short term gain aka to get what you want
 
-## **Peace**: Don't suffer imagined troubles
+## **Calmer**: Breathe
 
 **IDENTITY**: Peaceful person, Calm person
 
