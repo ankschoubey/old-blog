@@ -2,8 +2,9 @@
 layout: post
 comments: true
 description:
-categories: []
-last_modified_at: 2021-09-23T20:52:08.052481
+categories: [systems, learning]
+last_modified_at: 2022-06-28T20:52:08.052481
+last-modified-purpose: Added section on Flash Cards
 permalink: /learning-strategy/
 title: Learning Strategies
 ---
@@ -81,6 +82,21 @@ Deployable.
 
 Record yourself.
 
-Talk to other people/
+Talk to other people
+
+## Using flash cards
+
+Flashcards can be helpful addition to remembering more. In many things, there is a need to remember more.
+
+Here are some things to keep in mind when using flashcards.
+
+1. Use 80/20 rule and focus on the few concepts worth memorizing. You want number of cards to be at a minimum. 
+2. Assume each card is going to take 10 seconds per revision. Multiple by number of cards you create to get how much time you'll remember.
+2. Know all the concepts first and organize them. Maybe use a highlighter, pen to mark them.
+2. If a flashcard is too big to remember, then break it down.
+5. Write in memorable way, good questions and for answers use diagrams, accronyms or some patterns.
+6. Digital Flashcards have advantage that you can modify. But maybe having less number of flashcard overall is better. 
+
+Flashcards are one part. Often discussion with others is a better way to internalize.
 
 [^1]: 4 Hour Chef
