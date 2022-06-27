@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-27T18:00:53-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-27T18:17:31-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -85,7 +85,69 @@
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;   
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.</summary></entry><entry><title type="html">Writing cleaner tests with creative variable names</title><link href="www.ankushchoubey.com/creative-variable-names/" rel="alternate" type="text/html" title="Writing cleaner tests with creative variable names" /><published>2022-06-25T00:00:00-05:00</published><updated>2022-06-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/tests-creative-variable-names</id><content type="html" xml:base="www.ankushchoubey.com/creative-variable-names/">&lt;p&gt;Variable and method names provide a context that makes it easy to understand a piece of code.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.</summary></entry><entry><title type="html">Thoughts on Boundaries</title><link href="www.ankushchoubey.com/boundaries/" rel="alternate" type="text/html" title="Thoughts on Boundaries" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/boundaries</id><content type="html" xml:base="www.ankushchoubey.com/boundaries/">&lt;h1 id=&quot;principles-about-boundaries&quot;&gt;Principles about boundaries&lt;/h1&gt;
+
+&lt;h2 id=&quot;boundaries-are-expression-of-respect&quot;&gt;Boundaries are expression of respect&lt;/h2&gt;
+
+&lt;p&gt;Boundary help maintain a mutual respect and an agreement with yourself and other people.&lt;/p&gt;
+
+&lt;p&gt;Boundaries help avoid unnecessary drama.&lt;/p&gt;
+
+&lt;p&gt;Sometime boundaries can be too harsh. But almost all boundary are expression of #love in the sense that they tell the other person how best to deal with the situation.&lt;/p&gt;
+
+&lt;p&gt;If someone communicates their boundary, they probably want to talk to you.&lt;/p&gt;
+
+&lt;h2 id=&quot;boundaries-arent-always-mutual&quot;&gt;Boundaries aren’t always mutual&lt;/h2&gt;
+
+&lt;p&gt;aka in a relationship of any kind between two people, you can have X boundary the other can have Y boundary.&lt;/p&gt;
+
+&lt;h2 id=&quot;different-for-different-people&quot;&gt;Different for different people&lt;/h2&gt;
+
+&lt;p&gt;You’ll set different boundaries for different people. And it has to be that way else everything is prioritized too high or too low.&lt;/p&gt;
+
+&lt;p&gt;For family, boundaries are small.&lt;/p&gt;
+
+&lt;p&gt;For collegues, boundaries are bigger.&lt;/p&gt;
+
+&lt;p&gt;For example, you don’t need to feel super sad for offending someone at work over work reasons.&lt;/p&gt;
+
+&lt;h1 id=&quot;healthy-boundaries&quot;&gt;Healthy Boundaries&lt;/h1&gt;
+
+&lt;h2 id=&quot;dont-lose-yourself&quot;&gt;Don’t lose yourself&lt;/h2&gt;
+
+&lt;p&gt;If you are loosing yourself for someone else, it isn’t right. It’s not right for you and it’s not right for the other person.&lt;/p&gt;
+
+&lt;p&gt;You cannot make someone trust you. You can show your values/attributes and then hope that they see them too.&lt;/p&gt;
+
+&lt;p&gt;You cannot force a relationship. You can build them.&lt;/p&gt;
+
+&lt;h2 id=&quot;express-your-boundaries-in-a-healthy-way&quot;&gt;Express your boundaries in a healthy way&lt;/h2&gt;
+
+&lt;p&gt;Instead of lashing out. Express your boundary in a healthy way.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-cross-someones-boundary&quot;&gt;Don’t cross someone’s boundary&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Kabhi boundary par maat jaana &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You may negotiate honestly over a boundary but don’t cross it.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-try-to-change-someones-perception-too-much&quot;&gt;Don’t try to change someone’s perception too much&lt;/h2&gt;
+
+&lt;p&gt;It’s isn’t worth it. People are weird and you are too. No one has enough information.&lt;/p&gt;
+
+&lt;p&gt;Learn to live and let live.&lt;/p&gt;
+
+&lt;p&gt;Plus, people who have a tendancy to try to go and fix the world should try to clean up their rooms first.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Austin Lewis &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="communication" /><category term="team-work" /><summary type="html">Principles about boundaries</summary></entry><entry><title type="html">Writing cleaner tests with creative variable names</title><link href="www.ankushchoubey.com/creative-variable-names/" rel="alternate" type="text/html" title="Writing cleaner tests with creative variable names" /><published>2022-06-25T00:00:00-05:00</published><updated>2022-06-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/tests-creative-variable-names</id><content type="html" xml:base="www.ankushchoubey.com/creative-variable-names/">&lt;p&gt;Variable and method names provide a context that makes it easy to understand a piece of code.&lt;/p&gt;
 
 &lt;p&gt;Typically in code, it’s enough to have the same variable name as the class name.&lt;/p&gt;
 
@@ -453,86 +515,4 @@ In Person: Best. Aim for in-person communication.&lt;/p&gt;
 
 &lt;p&gt;Each increase in fidelity seems to be making me disconnect from simpler life, having more friends, a fun existence, and normal life. In some sense, that fun existence is the opposite of responsibility.&lt;/p&gt;
 
-&lt;p&gt;Though Naval says it’s possible to be both, learn truth deeply, and still be happy. or maybe it’s just that the grass is always greener on the other side.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/truth-fidility.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/truth-fidility.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Running and Being Effective during Meetings</title><link href="www.ankushchoubey.com/effective-meetings/" rel="alternate" type="text/html" title="Running and Being Effective during Meetings" /><published>2022-06-01T00:00:00-05:00</published><updated>2022-06-19T15:52:08-05:00</updated><id>www.ankushchoubey.com/effective-meetings</id><content type="html" xml:base="www.ankushchoubey.com/effective-meetings/">&lt;p&gt;A meeting is a place that can bring in new ideas and insights and save everyone’s time and effort.&lt;/p&gt;
-
-&lt;p&gt;Therefore it’s very important to have an effective productive meeting.&lt;/p&gt;
-
-&lt;p&gt;There are some ways to have effective meetings:&lt;/p&gt;
-
-&lt;h1 id=&quot;set-the-context&quot;&gt;&lt;strong&gt;Set the context&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;Most meetings aren’t as effective because the people involved don’t have the context behind what is being discussed.&lt;/p&gt;
-
-&lt;p&gt;This can be solved in a few ways:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Agenda&lt;/strong&gt;: A few sets of outlines or questions&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Provide Pre-reading material&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A set of materials to read/watch before attending the meeting.&lt;/li&gt;
-      &lt;li&gt;It’s better to send a specific link than just mentioning the name of the topic.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Set the context during a meeting&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Start the meeting by setting the context.
-        &lt;ul&gt;
-          &lt;li&gt;Why we are doing what we are doing?&lt;/li&gt;
-          &lt;li&gt;What do we intend to get out of this meeting?&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;be-prepared-early-by-maintaining-notes&quot;&gt;&lt;strong&gt;Be prepared early by maintaining notes&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;Be prepared for the meeting yourself. You could create a google sheet (sheets.new) for each important recurring meeting.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;Retrospective meeting happens at the end of every sprint or every release. Since the release ended, everyone is already happy and have forgotten everything that they went through.&lt;/p&gt;
-
-&lt;p&gt;So, instead have a google sheet with your Retrospective format and fill in info there. So that you’ll have a set of useful points to add to the retrospective.&lt;/p&gt;
-
-&lt;h1 id=&quot;encourage-discussion&quot;&gt;&lt;strong&gt;Encourage Discussion&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Round Robin Asking/Sharing Inputs&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Many people are shy and don’t speak up. To get everyone involved discuss concepts/questions in a round-robin fashion.&lt;/li&gt;
-      &lt;li&gt;You could even ask specific people who may be too silent “What do you think about this?”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;keep-it-shortexact&quot;&gt;&lt;strong&gt;Keep it short/exact&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Set time on the calendar&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;It’s unproductive to wonder when the meeting is.&lt;/li&gt;
-      &lt;li&gt;It’s best to have an exact date and time with the meeting link if it’s online (#postCovidWorld)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Short Meeting Durations&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Aim for 30 min meetings. Max 45.&lt;/li&gt;
-      &lt;li&gt;The longer the meeting drags on, the more everyone will feel bored and start losing attention.&lt;/li&gt;
-      &lt;li&gt;If the meeting is dragging out longer, take a break. 10 minutes should be good enough.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;set-the-next-actions&quot;&gt;&lt;strong&gt;Set the Next Actions&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;Towards the end of the meeting:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Setting up time for the next meeting and putting it on the Calendar&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Create an action list&lt;/strong&gt;. An MoM of sorts
-    &lt;ul&gt;
-      &lt;li&gt;Discuss the outcomes of the meeting and have them written down along with who is accountable for it.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="communication" /><summary type="html">A meeting is a place that can bring in new ideas and insights and save everyone’s time and effort.</summary></entry></feed>
+&lt;p&gt;Though Naval says it’s possible to be both, learn truth deeply, and still be happy. or maybe it’s just that the grass is always greener on the other side.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/truth-fidility.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/truth-fidility.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
