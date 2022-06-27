@@ -97,6 +97,8 @@ Here are some things to keep in mind when using flashcards.
 5. Write in memorable way, good questions and for answers use diagrams, accronyms or some patterns.
 6. Digital Flashcards have advantage that you can modify. But maybe having less number of flashcard overall is better. 
 
+You may expect 1-2 hours of flashcard study a week. If it's a competitive exam, then per day.
+
 Flashcards are one part. Often discussion with others is a better way to internalize.
 
 [^1]: 4 Hour Chef
