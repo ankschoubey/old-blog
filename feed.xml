@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-27T18:38:36-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-27T18:43:28-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,38 +51,7 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Strategies on Peace</title><link href="www.ankushchoubey.com/peace/" rel="alternate" type="text/html" title="Strategies on Peace" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/peace</id><content type="html" xml:base="www.ankushchoubey.com/peace/">&lt;h1 id=&quot;calm-down&quot;&gt;Calm down&lt;/h1&gt;
-
-&lt;p&gt;If you don’t know what to say. Calm down. Maybe take a break. And then tell the truth truthfully and in a good way.&lt;/p&gt;
-
-&lt;p&gt;Become neutral. Aim to be non-reactive to threats on any kind be it people or situations.&lt;/p&gt;
-
-&lt;p&gt;Calm down and thing.&lt;/p&gt;
-
-&lt;h1 id=&quot;slow-down&quot;&gt;Slow down&lt;/h1&gt;
-
-&lt;p&gt;You aren’t running a race. Take things slow and steady.&lt;/p&gt;
-
-&lt;p&gt;This is easier to remember that to actually do it in practice. Slow down.&lt;/p&gt;
-
-&lt;p&gt;Go very slow. Remember, slow is smooth. And smooth is fast.&lt;/p&gt;
-
-&lt;h1 id=&quot;explore-and-eliminate-insecurities&quot;&gt;Explore and eliminate insecurities&lt;/h1&gt;
-
-&lt;p&gt;Insecurity is chasing the impossible.&lt;/p&gt;
-
-&lt;p&gt;Insecurities come from unrealistic expectations. If you are someone productive, you can’t expect to be good at 20 other things. specially if 15 of those things are stupid.&lt;/p&gt;
-
-&lt;p&gt;Ask yourself, are you insecure or someone made you insecure? Was it a person, advertisement, advice, etc.&lt;/p&gt;
-
-&lt;p&gt;Remember: Insecurity = Someone is trying to sell you something.&lt;/p&gt;
-
-&lt;p&gt;A practice to do is, question every ad.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Does it make sense.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You become more secure when no one can sell you anything.&lt;/p&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">Calm down</summary></entry><entry><title type="html">Writing cleaner logs by disabling stack trace for expected response exceptions</title><link href="www.ankushchoubey.com/disable-stacktrace/" rel="alternate" type="text/html" title="Writing cleaner logs by disabling stack trace for expected response exceptions" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/disable-stacktrace</id><content type="html" xml:base="www.ankushchoubey.com/disable-stacktrace/">&lt;p&gt;In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing cleaner logs by disabling stack trace for expected response exceptions</title><link href="www.ankushchoubey.com/disable-stacktrace/" rel="alternate" type="text/html" title="Writing cleaner logs by disabling stack trace for expected response exceptions" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/disable-stacktrace</id><content type="html" xml:base="www.ankushchoubey.com/disable-stacktrace/">&lt;p&gt;In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.&lt;/p&gt;
 
 &lt;p&gt;For example: Whevener &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UserNotFoundException&lt;/code&gt; is thrown, the return value is 404 not found.&lt;/p&gt;
 
@@ -116,7 +85,38 @@
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;   
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.</summary></entry><entry><title type="html">Thoughts on Boundaries</title><link href="www.ankushchoubey.com/boundaries/" rel="alternate" type="text/html" title="Thoughts on Boundaries" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/boundaries</id><content type="html" xml:base="www.ankushchoubey.com/boundaries/">&lt;h1 id=&quot;principles-about-boundaries&quot;&gt;Principles about boundaries&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.</summary></entry><entry><title type="html">Strategies to be Calmer</title><link href="www.ankushchoubey.com/calmer/" rel="alternate" type="text/html" title="Strategies to be Calmer" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/calmer</id><content type="html" xml:base="www.ankushchoubey.com/calmer/">&lt;h1 id=&quot;calm-down&quot;&gt;Calm down&lt;/h1&gt;
+
+&lt;p&gt;If you don’t know what to say. Calm down. Maybe take a break. And then tell the truth truthfully and in a good way.&lt;/p&gt;
+
+&lt;p&gt;Become neutral. Aim to be non-reactive to threats on any kind be it people, events, realizations or situations.&lt;/p&gt;
+
+&lt;p&gt;Calm down and thing.&lt;/p&gt;
+
+&lt;h1 id=&quot;slow-down&quot;&gt;Slow down&lt;/h1&gt;
+
+&lt;p&gt;You aren’t running a race. Take things slow and steady.&lt;/p&gt;
+
+&lt;p&gt;This is easier to remember that to actually do it in practice. Slow down.&lt;/p&gt;
+
+&lt;p&gt;Go very slow. Remember, slow is smooth. And smooth is fast.&lt;/p&gt;
+
+&lt;h1 id=&quot;explore-and-eliminate-insecurities&quot;&gt;Explore and eliminate insecurities&lt;/h1&gt;
+
+&lt;p&gt;Insecurity is chasing the impossible.&lt;/p&gt;
+
+&lt;p&gt;Insecurities come from unrealistic expectations. If you are someone productive, you can’t expect to be good at 20 other things. specially if 15 of those things are stupid.&lt;/p&gt;
+
+&lt;p&gt;Ask yourself, are you insecure or someone made you insecure? Was it a person, advertisement, advice, etc.&lt;/p&gt;
+
+&lt;p&gt;Remember: Insecurity = Someone is trying to sell you something.&lt;/p&gt;
+
+&lt;p&gt;A practice to do is, question every ad.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Does it make sense.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You become more secure when no one can sell you anything.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="calm" /><summary type="html">Calm down</summary></entry><entry><title type="html">Thoughts on Boundaries</title><link href="www.ankushchoubey.com/boundaries/" rel="alternate" type="text/html" title="Thoughts on Boundaries" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/boundaries</id><content type="html" xml:base="www.ankushchoubey.com/boundaries/">&lt;h1 id=&quot;principles-about-boundaries&quot;&gt;Principles about boundaries&lt;/h1&gt;
 
 &lt;h2 id=&quot;boundaries-are-expression-of-respect&quot;&gt;Boundaries are expression of respect&lt;/h2&gt;
 
@@ -264,7 +264,7 @@
 
 &lt;p&gt;In micro-services, you have to have a very high quality interface. This means Rest APIs, Kafka messages, etc. If quality/standards are not followed, then it effects every other service.&lt;/p&gt;
 
-&lt;p&gt;In monoliths, you can almost get away with everything. Specailly if the only consumer is your frontend.&lt;/p&gt;</content><author><name></name></author><category term="distributed-systems" /><category term="microservices" /><summary type="html">Don’t distribute. Or atleast don’t distribute early.</summary></entry><entry><title type="html">Reason to aim for social confidence</title><link href="www.ankushchoubey.com/social-confidence/" rel="alternate" type="text/html" title="Reason to aim for social confidence" /><published>2022-06-19T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/social-confidence</id><content type="html" xml:base="www.ankushchoubey.com/social-confidence/">&lt;p&gt;The reason to have social confidence is this: If you don’t, no one takes you or your arguments seriously.&lt;/p&gt;
+&lt;p&gt;In monoliths, you can almost get away with everything. Specailly if the only consumer is your frontend.&lt;/p&gt;</content><author><name></name></author><category term="distributed-systems" /><category term="microservices" /><summary type="html">Don’t distribute. Or atleast don’t distribute early.</summary></entry><entry><title type="html">Reason to aim for social confidence</title><link href="www.ankushchoubey.com/social-confidence/" rel="alternate" type="text/html" title="Reason to aim for social confidence" /><published>2022-06-19T00:00:00-05:00</published><updated>2022-06-19T15:52:08-05:00</updated><id>www.ankushchoubey.com/social-confidence</id><content type="html" xml:base="www.ankushchoubey.com/social-confidence/">&lt;p&gt;The reason to have social confidence is this: If you don’t, no one takes you or your arguments seriously.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-is-social-confidence&quot;&gt;What is social confidence?&lt;/h1&gt;
 
