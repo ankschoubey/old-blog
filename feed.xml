@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-26T12:17:17-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-06-27T17:46:12-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,41 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing cleaner tests with creative variable names</title><link href="www.ankushchoubey.com/creative-variable-names/" rel="alternate" type="text/html" title="Writing cleaner tests with creative variable names" /><published>2022-06-25T00:00:00-05:00</published><updated>2022-06-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/tests-creative-variable-names</id><content type="html" xml:base="www.ankushchoubey.com/creative-variable-names/">&lt;p&gt;Variable and method names provide a context that makes it easy to understand a piece of code.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing cleaner logs by disabling stack trace for expected response exceptions</title><link href="www.ankushchoubey.com/disable-stacktrace/" rel="alternate" type="text/html" title="Writing cleaner logs by disabling stack trace for expected response exceptions" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/disable-stacktrace</id><content type="html" xml:base="www.ankushchoubey.com/disable-stacktrace/">&lt;p&gt;In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.&lt;/p&gt;
+
+&lt;p&gt;For example: Whevener &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UserNotFoundException&lt;/code&gt; is thrown, the return value is 404 not found.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@ResponseStatus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HttpStatus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;NOT_FOUND&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reason&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user could not be found&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserNotFoundException&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RuntimeException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;UserNotFoundException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We often create many such exception classes to make code cleaner. Throwing an exception is cleaner than multiple try-catch blocks.&lt;/p&gt;
+
+&lt;p&gt;The problem here is logs. Whenever exception is thrown, the log contains entire stack trace.&lt;/p&gt;
+
+&lt;p&gt;But these kind of exceptions are expected exceptions, in some sense they aren’t exceptions at all.&lt;/p&gt;
+
+&lt;p&gt;So, we can instead disable stack trace by adding the following to our exception class &lt;a href=&quot;https://stackoverflow.com/questions/2317983/how-to-disable-stack-trace-generation-in-a-java-program&quot;&gt;Source: StackOverflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Throwable&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fillInStackTrace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;     
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To make things better, we can create a custom exception class as follows&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;abstract&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ExpectedResponseException&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RuntimeException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Throwable&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fillInStackTrace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;   
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.</summary></entry><entry><title type="html">Writing cleaner tests with creative variable names</title><link href="www.ankushchoubey.com/creative-variable-names/" rel="alternate" type="text/html" title="Writing cleaner tests with creative variable names" /><published>2022-06-25T00:00:00-05:00</published><updated>2022-06-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/tests-creative-variable-names</id><content type="html" xml:base="www.ankushchoubey.com/creative-variable-names/">&lt;p&gt;Variable and method names provide a context that makes it easy to understand a piece of code.&lt;/p&gt;
 
 &lt;p&gt;Typically in code, it’s enough to have the same variable name as the class name.&lt;/p&gt;
 
@@ -489,28 +523,4 @@ In Person: Best. Aim for in-person communication.&lt;/p&gt;
       &lt;li&gt;Discuss the outcomes of the meeting and have them written down along with who is accountable for it.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="communication" /><summary type="html">A meeting is a place that can bring in new ideas and insights and save everyone’s time and effort.</summary></entry><entry><title type="html">Why memorizing is still relevant?</title><link href="www.ankushchoubey.com/why-memorize/" rel="alternate" type="text/html" title="Why memorizing is still relevant?" /><published>2022-05-31T00:00:00-05:00</published><updated>2022-05-31T15:52:08-05:00</updated><id>www.ankushchoubey.com/why-memorize</id><content type="html" xml:base="www.ankushchoubey.com/why-memorize/">&lt;p&gt;There is a cognitive bias called the Google Effect.&lt;/p&gt;
-
-&lt;p&gt;It means that if we know where to find the information, we won’t try to remember it. Instead, we’ll roughly know the location of where to find it.&lt;/p&gt;
-
-&lt;p&gt;This might seem nice at first. But here are some problems:&lt;/p&gt;
-
-&lt;h1 id=&quot;1&quot;&gt;&lt;strong&gt;#1&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;To make sense of the world/a topic, we need to keep our minds on info long enough to create meaningful connections.&lt;/p&gt;
-
-&lt;p&gt;This won’t happen when we just know the reference and have to go read things over.&lt;/p&gt;
-
-&lt;h1 id=&quot;2&quot;&gt;&lt;strong&gt;#2&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;In the real world, the problems we face are usually of a repetitive nature this is because we haven’t taken the time to form the habits/strategies to cope with them. The more we can remember,&lt;/p&gt;
-
-&lt;h1 id=&quot;3&quot;&gt;&lt;strong&gt;#3&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;We need to make decisions. To make decisions fast and efficiently, we need to know, remember and recall hard facts on the fly.&lt;/p&gt;
-
-&lt;h1 id=&quot;4&quot;&gt;&lt;strong&gt;#4&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;p&gt;By remembering we also save a lot of time in finding, re-reading, and coming to the same conclusions again.&lt;/p&gt;
-
-&lt;p&gt;All these make it important to memorize/remember things better.&lt;/p&gt;</content><author><name></name></author><summary type="html">There is a cognitive bias called the Google Effect.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="business" /><category term="communication" /><summary type="html">A meeting is a place that can bring in new ideas and insights and save everyone’s time and effort.</summary></entry></feed>
