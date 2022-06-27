@@ -2,9 +2,9 @@
 layout: post
 comments: true
 description:
-categories: [core-values, truth]
-last_modified_at: 2022-01-29T20:52:08.052481
-last-modified-purpose:
+categories: [core-values, truth, draft]
+last_modified_at: 2022-06-29T20:52:08.052481
+last-modified-purpose: draft
 permalink: /articulate/
 title: Articulate Fully
 ---
@@ -42,3 +42,13 @@ while contemplating you want to fix certain variables about your problem, and th
 I find the best way to contemplate is to perform at formal sitting meditation with eyes closed.
 
 ## Talk/Explain to someone else 
+
+## Close your eyes
+
+Close your eyes to think better.
+
+## Slow/Calm down
+
+## Focus on Intend. Then say what you want.
+
+Don't over focus on your words.
