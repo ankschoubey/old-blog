@@ -26,6 +26,7 @@ There are a few reasons:
 3. Aiming and being right, doesn't lead to actually learning. In situations we don't consider relevance of new information. It may happen that information we have was too old. We need to be updated. The only way we got good at a domain was because we realized how stupid we were in the first place.
 4. We are social animals. Trying to be always right is detramental and disadvantages to ourselves and to others. We can't reach sound conclusions. And it makes us take steps out of our egos and protecting ourselves.
 5. Epistemic Confidence comes out as arrogance. And in many cases it really in arrogance.
+6. Arrogance is "I am better than you" [^1]. Arrogance is routed in insecurity.
 
 # Why social confidence is a better value to aim for?
 
@@ -34,6 +35,7 @@ There are a few reasons:
 3. Social confidence doesn't impact clarity of thinking. It improves it. Having good listening skills, being emphatatic, respectful to other peoples opinions and life choices, all make us better as an individual. 
 4. Good things are [outcome are social/team efforts](/teams). Rarely individual efforts.
 5. Social confidence comes out as true confidence. And in most cases, it really is true confidence.
+6. Confidence is "I am proud of myself" [^1]. Confidence comes from experience and understanding.
 
 # Parts to Social Confidence
 
@@ -42,3 +44,5 @@ There are a few reasons:
 3. Dressing well
 4. Good hygine and habits
 5. Good communication skills: both listening and speaking
+
+[^1]: [Confidence VS. Arrogance | Which are you?](https://www.youtube.com/watch?v=f3biKalwktk)
