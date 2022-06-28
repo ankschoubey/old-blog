@@ -3,8 +3,8 @@ layout: post
 comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2022-06-28T20:52:08.052481
-last-modified-purpose: rename "peace" to "calmer"
+last_modified_at: 2022-06-29T20:52:08.052481
+last-modified-purpose: rename "responsibility" to "responsible for self"
 permalink: /my-core-values/
 title: My Core Values
 ---
@@ -15,7 +15,7 @@ I want things to be as "sorted" in the long term as possible without being super
 
 ***
 
-## **Responsibility**: Aim towards the good.
+## **Responsible for self**: Full accountability for myself
 
 **IDENTITY**: Responsible
 
