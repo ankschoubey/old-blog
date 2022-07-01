@@ -33,6 +33,8 @@ We don't control what happens, we control how we respond. Often things we are fa
 
 The more voluntary responsibility we are able to pick up, the more powerful and in control we would feel even if some area of life has minor temporary set backs.
 
+Also think of this in terms of relationships, stronger individuals make stronger families. Stronger families make stronger world. Taking on personal responsibility is ultimate decentralized command. Every individual is stronger then all of them can grow together forward.
+
 So, at every moment of the day, everything that happens to you, live as though you are the only one responsible to deal with it. Cuz for the most part you really are.
 
 <sub>What happens when we don't pick up responsibility?</sub>
