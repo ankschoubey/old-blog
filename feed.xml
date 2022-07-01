@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-01T12:30:49-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-01T12:54:30-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,11 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing cleaner logs by disabling stack trace for expected response exceptions</title><link href="www.ankushchoubey.com/disable-stacktrace/" rel="alternate" type="text/html" title="Writing cleaner logs by disabling stack trace for expected response exceptions" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/disable-stacktrace</id><content type="html" xml:base="www.ankushchoubey.com/disable-stacktrace/">&lt;p&gt;In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">On Building Trust</title><link href="www.ankushchoubey.com/trust/" rel="alternate" type="text/html" title="On Building Trust" /><published>2022-07-01T00:00:00-05:00</published><updated>2022-07-01T15:52:08-05:00</updated><id>www.ankushchoubey.com/trust</id><content type="html" xml:base="www.ankushchoubey.com/trust/">&lt;p&gt;Remember word is bond.&lt;/p&gt;
+
+&lt;h1 id=&quot;create-good-environment-for-people-to-trust&quot;&gt;Create good environment for people to trust&lt;/h1&gt;
+
+&lt;p&gt;Don’t point out things that make them feel awkward of uncomfortable.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="calm" /><summary type="html">Remember word is bond.</summary></entry><entry><title type="html">Writing cleaner logs by disabling stack trace for expected response exceptions</title><link href="www.ankushchoubey.com/disable-stacktrace/" rel="alternate" type="text/html" title="Writing cleaner logs by disabling stack trace for expected response exceptions" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/disable-stacktrace</id><content type="html" xml:base="www.ankushchoubey.com/disable-stacktrace/">&lt;p&gt;In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.&lt;/p&gt;
 
 &lt;p&gt;For example: Whevener &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UserNotFoundException&lt;/code&gt; is thrown, the return value is 404 not found.&lt;/p&gt;
 
@@ -93,6 +97,14 @@
 
 &lt;p&gt;Once you become neutral, you are in 50% better state to make a good decision.&lt;/p&gt;
 
+&lt;p&gt;Think about what made you particularly high or low:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Was it because someone allows you to cry and listen to your sad life where you avoided responsibility?&lt;/li&gt;
+  &lt;li&gt;Was it impression of someone?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Go neutral in thise situations.&lt;/p&gt;
+
 &lt;h1 id=&quot;choose-your-battles-wisely&quot;&gt;Choose your battles wisely&lt;/h1&gt;
 
 &lt;p&gt;Recognize what you are giving a fuck about. Is it really worth giving a fuck about?&lt;/p&gt;
@@ -110,6 +122,12 @@
 &lt;p&gt;Go very slow. Remember, slow is smooth. And smooth is fast.&lt;/p&gt;
 
 &lt;p&gt;Don’t rush from one thing to the next to the next. Take pauses.&lt;/p&gt;
+
+&lt;p&gt;Habit of rushing is a dirty high.&lt;/p&gt;
+
+&lt;h1 id=&quot;learning-to-let-things-wait&quot;&gt;Learning to let things wait&lt;/h1&gt;
+
+&lt;p&gt;You don’t have to answer notification right there.&lt;/p&gt;
 
 &lt;h1 id=&quot;reflect&quot;&gt;Reflect&lt;/h1&gt;
 
@@ -140,14 +158,33 @@
 
 &lt;p&gt;You become more secure when no one can sell you anything.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: If you are being told to get out of your city to live in some other place? you can view this two ways, why are you asked to get out of city? Is it because other people feel they are making a better choice? Does there choice align with your values or are they having a better value? Are they actually making a better choice? Can this be tested someway?&lt;/p&gt;
+&lt;p&gt;Asking logical questions is a good way to eliminate insecurities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt; Living in a different city: If you are being told to get out of your city to live in some other place? you can view this two ways, why are you asked to get out of city? Is it because other people feel they are making a better choice? Does there choice align with your values or are they having a better value? Are they actually making a better choice? Can this be tested someway?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt; Rejected: You got rejected. Now you feel you suck. You lack something that everyone has. Why? Because it seems that everyone is doing something, getting married, talking to someone, traveling, etc. And here you are alone and lonely. How many people do you know who are normal and single? What was the reason you were rejected? How common is rejection? Did Mark Manson or someone you look up to get rejected? Aren’t use in a community of normal, very normal people that got rejected? Can you be rejected for the wrong reasons? If Mark Manson or someone else got rejected, how much do they suck? Isn’t rejection a normal part of life?&lt;/p&gt;
 
 &lt;h1 id=&quot;panic-mode&quot;&gt;Panic Mode&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Aim to calm down and go neutral&lt;/li&gt;
   &lt;li&gt;Recognize your blessings&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="core-values" /><category term="calm" /><summary type="html">Learn to be calmer and neutral</summary></entry><entry><title type="html">Thoughts on Boundaries</title><link href="www.ankushchoubey.com/boundaries/" rel="alternate" type="text/html" title="Thoughts on Boundaries" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/boundaries</id><content type="html" xml:base="www.ankushchoubey.com/boundaries/">&lt;h1 id=&quot;principles-about-boundaries&quot;&gt;Principles about boundaries&lt;/h1&gt;
+  &lt;li&gt;Breathe.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;meditate&quot;&gt;Meditate&lt;/h1&gt;
+
+&lt;p&gt;Meditate regularly. 3 times a week minimum.&lt;/p&gt;
+
+&lt;h1 id=&quot;break-things-down-with-logic&quot;&gt;Break things down with logic&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Is it really that bad?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Start noticing what happened. Does it feel the same after an hour. Or after a day. Etc.&lt;/p&gt;
+
+&lt;p&gt;If it starts feeling different, your calibration is off.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="calm" /><summary type="html">Learn to be calmer and neutral</summary></entry><entry><title type="html">Thoughts on Boundaries</title><link href="www.ankushchoubey.com/boundaries/" rel="alternate" type="text/html" title="Thoughts on Boundaries" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/boundaries</id><content type="html" xml:base="www.ankushchoubey.com/boundaries/">&lt;h1 id=&quot;principles-about-boundaries&quot;&gt;Principles about boundaries&lt;/h1&gt;
 
 &lt;h2 id=&quot;boundaries-are-expression-of-respect&quot;&gt;Boundaries are expression of respect&lt;/h2&gt;
 
@@ -519,25 +556,4 @@ In Person: Best. Aim for in-person communication.&lt;/p&gt;
 
 &lt;p&gt;Focus on solving of problems and help everyone. Another positive of helping everyone is you don’t expect anything back.&lt;/p&gt;
 
-&lt;p&gt;Remember, keep track of your commitments. And then ping people.&lt;/p&gt;</content><author><name></name></author><category term="1-1-communication" /><category term="team-work" /><category term="draft" /><summary type="html">Make yourself available</summary></entry><entry><title type="html">Paper work is like DevOps</title><link href="www.ankushchoubey.com/paper-work-devops/" rel="alternate" type="text/html" title="Paper work is like DevOps" /><published>2022-06-12T00:00:00-05:00</published><updated>2022-06-12T15:52:08-05:00</updated><id>www.ankushchoubey.com/paper-work-devops</id><content type="html" xml:base="www.ankushchoubey.com/paper-work-devops/">&lt;p&gt;I have never been fully able to get into the flow of DevOps. I always kept wondering why that is.&lt;/p&gt;
-
-&lt;p&gt;I believe I have a good enough hypothesis.&lt;/p&gt;
-
-&lt;p&gt;Coding is fast. You just learn a bunch of patterns and implement solutions.&lt;/p&gt;
-
-&lt;p&gt;DevOps is slower to work on because it requires a bunch of configurations. Those configurations are very specific and have to work a certain way.&lt;/p&gt;
-
-&lt;p&gt;Therefore the actually “DevOps” command/configuration would be small but require a lot of pre-reading/experimentation. Once done, the result is huge but daily progress usually seems much slower.&lt;/p&gt;
-
-&lt;p&gt;This feels very similar to paper work be it bank, government, etc. Paper work requires a bunch of skills similar to what’s needed with DevOps.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Patience&lt;/li&gt;
-  &lt;li&gt;Organization&lt;/li&gt;
-  &lt;li&gt;Pre-planning&lt;/li&gt;
-  &lt;li&gt;Regular experimentation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Plus it requires more stuff, going out to bank, government office. A huge drain for some specially if paired up with being a bit shy.&lt;/p&gt;
-
-&lt;p&gt;Anyway it needs to be done. So might as well get it done.&lt;/p&gt;</content><author><name></name></author><category term="personal" /><summary type="html">I have never been fully able to get into the flow of DevOps. I always kept wondering why that is.</summary></entry></feed>
+&lt;p&gt;Remember, keep track of your commitments. And then ping people.&lt;/p&gt;</content><author><name></name></author><category term="1-1-communication" /><category term="team-work" /><category term="draft" /><summary type="html">Make yourself available</summary></entry></feed>
