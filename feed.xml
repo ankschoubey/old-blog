@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-01T12:15:26-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-01T12:28:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2050-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -85,13 +85,21 @@
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;   
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.</summary></entry><entry><title type="html">Strategies to be Calmer</title><link href="www.ankushchoubey.com/calmer/" rel="alternate" type="text/html" title="Strategies to be Calmer" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/calmer</id><content type="html" xml:base="www.ankushchoubey.com/calmer/">&lt;h1 id=&quot;calm-down&quot;&gt;Calm down&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.</summary></entry><entry><title type="html">Strategies to be Calmer</title><link href="www.ankushchoubey.com/calmer/" rel="alternate" type="text/html" title="Strategies to be Calmer" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/calmer</id><content type="html" xml:base="www.ankushchoubey.com/calmer/">&lt;h1 id=&quot;learn-to-be-calmer-and-neutral&quot;&gt;Learn to be calmer and neutral&lt;/h1&gt;
 
-&lt;p&gt;If you don’t know what to say. Calm down. Maybe take a break. And then tell the truth truthfully and in a good way.&lt;/p&gt;
+&lt;p&gt;As soon as you catch yourself getting overly emotional. Go neutral.&lt;/p&gt;
 
-&lt;p&gt;Become neutral. Aim to be non-reactive to threats on any kind be it people, events, realizations or situations.&lt;/p&gt;
+&lt;p&gt;Aim for no high no low. For moments at a time.&lt;/p&gt;
 
-&lt;p&gt;Calm down and thing.&lt;/p&gt;
+&lt;p&gt;Once you become neutral, you are in 50% better state to make a good decision.&lt;/p&gt;
+
+&lt;h1 id=&quot;choose-your-battles-wisely&quot;&gt;Choose your battles wisely&lt;/h1&gt;
+
+&lt;p&gt;Recognize what you are giving a fuck about. Is it really worth giving a fuck about?&lt;/p&gt;
+
+&lt;p&gt;Is it a good value? is it something external?&lt;/p&gt;
+
+&lt;p&gt;Does it even align with your values?&lt;/p&gt;
 
 &lt;h1 id=&quot;slow-down&quot;&gt;Slow down&lt;/h1&gt;
 
@@ -102,6 +110,18 @@
 &lt;p&gt;Go very slow. Remember, slow is smooth. And smooth is fast.&lt;/p&gt;
 
 &lt;p&gt;Don’t rush from one thing to the next to the next. Take pauses.&lt;/p&gt;
+
+&lt;h1 id=&quot;reflect&quot;&gt;Reflect&lt;/h1&gt;
+
+&lt;p&gt;Reflect on moments you got worked up or where someone else got worked up. Was it worth the fight.&lt;/p&gt;
+
+&lt;h1 id=&quot;calm-down&quot;&gt;Calm down&lt;/h1&gt;
+
+&lt;p&gt;If you don’t know what to say. Calm down. Maybe take a break. And then tell the truth truthfully and in a good way.&lt;/p&gt;
+
+&lt;p&gt;Become neutral. Aim to be non-reactive to threats on any kind be it people, events, realizations or situations.&lt;/p&gt;
+
+&lt;p&gt;Calm down and thing.&lt;/p&gt;
 
 &lt;h1 id=&quot;explore-and-eliminate-insecurities&quot;&gt;Explore and eliminate insecurities&lt;/h1&gt;
 
@@ -118,7 +138,16 @@
   &lt;li&gt;Does it make sense.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;You become more secure when no one can sell you anything.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="calm" /><summary type="html">Calm down</summary></entry><entry><title type="html">Thoughts on Boundaries</title><link href="www.ankushchoubey.com/boundaries/" rel="alternate" type="text/html" title="Thoughts on Boundaries" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/boundaries</id><content type="html" xml:base="www.ankushchoubey.com/boundaries/">&lt;h1 id=&quot;principles-about-boundaries&quot;&gt;Principles about boundaries&lt;/h1&gt;
+&lt;p&gt;You become more secure when no one can sell you anything.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: If you are being told to get out of your city to live in some other place? you can view this two ways, why are you asked to get out of city? Is it because other people feel they are making a better choice? Does there choice align with your values or are they having a better value? Are they actually making a better choice? Can this be tested someway?&lt;/p&gt;
+
+&lt;h1 id=&quot;panic-mode&quot;&gt;Panic Mode&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aim to calm down and go neutral&lt;/li&gt;
+  &lt;li&gt;Recognize your blessings&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="core-values" /><category term="calm" /><summary type="html">Learn to be calmer and neutral</summary></entry><entry><title type="html">Thoughts on Boundaries</title><link href="www.ankushchoubey.com/boundaries/" rel="alternate" type="text/html" title="Thoughts on Boundaries" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/boundaries</id><content type="html" xml:base="www.ankushchoubey.com/boundaries/">&lt;h1 id=&quot;principles-about-boundaries&quot;&gt;Principles about boundaries&lt;/h1&gt;
 
 &lt;h2 id=&quot;boundaries-are-expression-of-respect&quot;&gt;Boundaries are expression of respect&lt;/h2&gt;
 
