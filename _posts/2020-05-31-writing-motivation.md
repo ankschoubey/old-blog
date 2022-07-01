@@ -5,7 +5,7 @@ comments: true
 categories: [collection-of-thoughts]
 layout: post
 use_math: true
-last_modified_at: 2022-03-20T20:42:15.226335
+last_modified_at: 2022-07-01T20:42:15.226335
 permalink: /write/
 image: /images/write.jpg
 ---
@@ -46,7 +46,7 @@ This is collections of posts/ideas I have come across over the years.
 
 - One big idea per post
 
-- Read a sentence. Remove all the useless words. 
+- Delete sentences. Remove all the useless words. 
 
 - Forget attributions. It makes you slow. Plus you want it to be your own thoughts. So make those thoughts your own. Don't care about attributions. 
 
