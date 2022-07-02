@@ -24,8 +24,8 @@ To know that you’ll probably make some mistakes. But it’s gonna be okay.
 - Authenticity allows you to accept who you truly are. And to accept who someone else truly is without putting filters.
 
 There are many aspects to authenticity;
-1. You must know who you truly are: self-awareness
-2. You must act in way that is truly you
+1. knowing who you truly are: self-awareness
+2. acting in way that is truly you
 
 This doesn’t mean you don’t change. Authenticity is an acceptance before the change and being able to change for yourself.
 
