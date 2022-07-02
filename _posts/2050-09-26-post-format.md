@@ -3,12 +3,14 @@ layout: post
 comments: true
 description:
 categories: []
-last_modified_at: 2050-09-23T20:52:08.052481
+last_modified_at: 2022-09-23T20:52:08.052481
 last-modified-purpose:
 permalink: /post-format/
 title: PREFER UPDATING A BLOG OVER WRITING NEW ONES
 hide: true
 image: /images/n-plus-one.svg
+rewrote-count: 1
+modified-count: 1
 ---
 ![](/images/switch-jobs.jpg)
 
