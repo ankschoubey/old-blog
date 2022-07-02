@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-description:
+description: The fundamental operating system
 categories: [philosophical, for-future-me, decision-making]
-last_modified_at: 2022-06-29T20:52:08.052481
+last_modified_at: 2022-07-02T20:52:08.052481
 last-modified-purpose: add Autenticity as fundamental value
 permalink: /my-core-values/
 title: My Core Values
