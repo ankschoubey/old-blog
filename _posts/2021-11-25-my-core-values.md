@@ -4,7 +4,7 @@ comments: true
 description:
 categories: [philosophical, for-future-me, decision-making]
 last_modified_at: 2022-06-29T20:52:08.052481
-last-modified-purpose: rename "responsibility" to "responsible for self"
+last-modified-purpose: add Autenticity as fundamental value
 permalink: /my-core-values/
 title: My Core Values
 ---
@@ -14,6 +14,32 @@ In a [previous blog post](/core-values), I tried to explain why defining your co
 I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values. They are my best bet. In this post, you'll find some ways to have things sorted. 
 
 ***
+
+## **Authentivity**: Being okay with not being perfect.
+
+To know that you’ll probably make some mistakes. But it’s gonna be okay.
+
+- Authenticity allows for confidence.
+- Authenticity allows for not having too many threads in your mind.
+- Authenticity allows you to accept who you truly are. And to accept who someone else truly is without putting filters.
+
+There are many aspects to authenticity;
+1. You must know who you truly are: self-awareness
+2. You must act in way that is truly you
+
+This doesn’t mean you don’t change. Authenticity is an acceptance before the change and being able to change for yourself.
+
+Therefore, it supports accepting and adapting to your changes.
+
+**Eg**: You don’t have to be the same person you were when you were 5.
+
+It’s a level of indescribable self-love. To truly care about oneself. It’s saying to yourself that you are imp to yourself. And worth taking care of. 
+
+Authenticity isn’t arrogance. It isn’t meant to put someone down. Other values, including Team work do apply and are very important. But authenticity is a comfort in your own skin.
+
+**For**:
+- **Phrases** like: I do it for myself. 
+- This isn’t everything. But things like dressing better, exercising, taking care of yourself is what you must do for yourself
 
 ## **Responsible for self**: Full accountability for myself
 
