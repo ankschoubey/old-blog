@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: []
+categories: [non-professional]
 last_modified_at: 2022-05-05T20:52:08.052481
 last-modified-purpose:
 permalink: /thinking-on-paper/

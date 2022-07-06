@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [baton, team-work]
+categories: [baton, team-work, non-professional]
 last_modified_at: 2022-05-29T20:52:08.052481
 last-modified-purpose:
 permalink: /shadow-clones/

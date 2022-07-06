@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [core-values, time-matters, philosophical]
+categories: [core-values, time-matters, philosophical, non-professional]
 last_modified_at: 2022-01-26T20:52:08.052481
 last-modified-purpose:
 permalink: /time-assets-and-liabilities/

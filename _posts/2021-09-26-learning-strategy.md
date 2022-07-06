@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [systems, learning]
+categories: [systems, learning, non-professional]
 last_modified_at: 2022-06-28T20:52:08.052481
 last-modified-purpose: Added section on Flash Cards
 permalink: /learning-strategy/

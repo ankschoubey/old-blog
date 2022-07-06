@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Improving quality and speed of writing by transferring a well-known software development practice.
-categories: []
+categories: [non-professional, writing]
 last_modified_at: 2022-05-13T20:52:08.052481
 last-modified-purpose:
 permalink: /question-driven-writing/
