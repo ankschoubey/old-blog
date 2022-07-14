@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Always keep yourself ready to switch companies | Ankush</title>
+<title>Writing better commits with atomic commits | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Always keep yourself ready to switch companies">
+<meta property="og:title" content="Writing better commits with atomic commits">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Random Thoughts">
-<meta property="og:description" content="Random Thoughts">
-<link rel="canonical" href="www.ankushchoubey.com/switch-jobs/">
-<meta property="og:url" content="www.ankushchoubey.com/switch-jobs/">
+<meta name="description" content="What is the problem with larger commits.">
+<meta property="og:description" content="What is the problem with larger commits.">
+<link rel="canonical" href="www.ankushchoubey.com/atomic-commits/">
+<meta property="og:url" content="www.ankushchoubey.com/atomic-commits/">
 <meta property="og:site_name" content="Ankush">
-<meta property="og:image" content="www.ankushchoubey.com/images/switch-jobs.jpg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00">
+<meta property="article:published_time" content="2022-07-14T00:00:00-05:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/switch-jobs/","@type":"BlogPosting","image":"www.ankushchoubey.com/images/switch-jobs.jpg","headline":"Always keep yourself ready to switch companies","dateModified":"2022-07-14T11:07:18-05:00","datePublished":"2021-05-26T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/switch-jobs/"},"description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/atomic-commits/","@type":"BlogPosting","headline":"Writing better commits with atomic commits","dateModified":"2022-07-14T15:52:08-05:00","datePublished":"2022-07-14T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/atomic-commits/"},"description":"What is the problem with larger commits.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -125,11 +124,11 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Writing better commits with atomic commits</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-07-14T11:07:18-05:00" itemprop="dateModified">
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-07-14T00:00:00-05:00" itemprop="datePublished">
+        Written: Jul 14, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-07-14T15:52:08-05:00" itemprop="dateModified">
           Updated: Jul 14, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
@@ -162,7 +161,13 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
+    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    
+    <a class="tag fa fa-hashtag continuous-integration" href="/categories/#continuous-integration">continuous-integration</a>
+    
+    <a class="tag fa fa-hashtag commits" href="/categories/#commits">commits</a>
+    
+    <a class="tag fa fa-hashtag code-review" href="/categories/#code-review">code-review</a>
     
 </div>
 <div class="right-section">
@@ -202,39 +207,57 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt=""></p>
+    <h1 id="what-is-the-problem-with-larger-commits">What is the problem with larger commits.</h1>
 
-<h2 id="capitalism">Capitalism</h2>
+<p>Many developers complete all their feature before commiting and merging. When they commit and merge,</p>
+<ul>
+  <li>their commit is often bulky i.e it is too big</li>
+  <li>since it is too big, it often causes merge conflicts</li>
+  <li>since it is too big, commit message is often not the best indicator of what the code does.</li>
+  <li>since it is too big, there were too many changes, the confidence to merge and expect everything to work fine reduces.</li>
+  <li>since it took so long to merge, other developers might have built the same features again.</li>
+</ul>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>Often the reason is, that we are afraid to merge and we want to get everything perfect the first time. But this is counter intuitive.</p>
 
-<p>The more you earn, the better it is for everyone.</p>
+<h1 id="why-we-should-do-atomic-commits">Why we should do atomic commits?</h1>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<p>Atomic commits are frequent commits.</p>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+<ol>
+  <li>Allows for easily reversing changes</li>
+  <li>Leads to more accurate commit history that can be easily understood by developers.
+    <ul>
+      <li>and therefore is easier to review.</li>
+    </ul>
+  </li>
+  <li>Small changes are easier to revert than bulky changes.</li>
+  <li>Developers are much more in sync when small commits are merges non-stop.</li>
+  <li>Small commits lead to better sense of progress.</li>
+</ol>
 
-<p>New environments and people give you new perspectives.</p>
+<h1 id="how-to-implement-atomic-commits-in-practice">How to implement atomic commits in practice?</h1>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<ol>
+  <li>Commit and push to <code class="language-plaintext highlighter-rouge">dev</code> after every completing method/feature.</li>
+  <li>This push should involve both test and code.</li>
+  <li>The commit message should be accurate.
+    <ul>
+      <li>Each commit should only include small number of changes.</li>
+      <li>Use a commit format like conventional commits that seperate different types of commits:</li>
+    </ul>
+    <ul>
+      <li>feat: feature</li>
+      <li>refactor: refactoring</li>
+      <li>fix: bug fix</li>
+      <li>doc: documentation</li>
+      <li>ci: continous integration changes</li>
+      <li>build: related to build</li>
+    </ul>
+  </li>
+</ol>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
-
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
-
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
-
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
-
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
-    </li>
-  </ol>
-</div>
+<p>In practice, you can assume commiting <code class="language-plaintext highlighter-rouge">feat</code> atleast once per hour. Other commits types especially <code class="language-plaintext highlighter-rouge">refactor</code>, <code class="language-plaintext highlighter-rouge">fix</code> and <code class="language-plaintext highlighter-rouge">doc</code> might be even more frequent.</p>
 
   </div>
 <!-- from https://github.com/utterance/utterances -->
@@ -244,8 +267,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/switch-jobs/';
-      this.page.identifier = 'www.ankushchoubey.com/switch-jobs/';
+      this.page.url = 'www.ankushchoubey.com/atomic-commits/';
+      this.page.identifier = 'www.ankushchoubey.com/atomic-commits/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -256,7 +279,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/switch-jobs/" hidden></a>
+<a class="u-url" href="/atomic-commits/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

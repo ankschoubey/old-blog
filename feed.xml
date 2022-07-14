@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-11T10:27:41-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-14T11:08:59-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,57 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Always choose reactive programming</title><link href="www.ankushchoubey.com/reactive-programming/" rel="alternate" type="text/html" title="Always choose reactive programming" /><published>2022-07-11T00:00:00-05:00</published><updated>2022-07-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/reactive</id><content type="html" xml:base="www.ankushchoubey.com/reactive-programming/">&lt;h1 id=&quot;what-is-reactive-programming&quot;&gt;What is reactive programming?&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing better commits with atomic commits</title><link href="www.ankushchoubey.com/atomic-commits/" rel="alternate" type="text/html" title="Writing better commits with atomic commits" /><published>2022-07-14T00:00:00-05:00</published><updated>2022-07-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/atomic-commits</id><content type="html" xml:base="www.ankushchoubey.com/atomic-commits/">&lt;h1 id=&quot;what-is-the-problem-with-larger-commits&quot;&gt;What is the problem with larger commits.&lt;/h1&gt;
+
+&lt;p&gt;Many developers complete all their feature before commiting and merging. When they commit and merge,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;their commit is often bulky i.e it is too big&lt;/li&gt;
+  &lt;li&gt;since it is too big, it often causes merge conflicts&lt;/li&gt;
+  &lt;li&gt;since it is too big, commit message is often not the best indicator of what the code does.&lt;/li&gt;
+  &lt;li&gt;since it is too big, there were too many changes, the confidence to merge and expect everything to work fine reduces.&lt;/li&gt;
+  &lt;li&gt;since it took so long to merge, other developers might have built the same features again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Often the reason is, that we are afraid to merge and we want to get everything perfect the first time. But this is counter intuitive.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-we-should-do-atomic-commits&quot;&gt;Why we should do atomic commits?&lt;/h1&gt;
+
+&lt;p&gt;Atomic commits are frequent commits.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Allows for easily reversing changes&lt;/li&gt;
+  &lt;li&gt;Leads to more accurate commit history that can be easily understood by developers.
+    &lt;ul&gt;
+      &lt;li&gt;and therefore is easier to review.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Small changes are easier to revert than bulky changes.&lt;/li&gt;
+  &lt;li&gt;Developers are much more in sync when small commits are merges non-stop.&lt;/li&gt;
+  &lt;li&gt;Small commits lead to better sense of progress.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;how-to-implement-atomic-commits-in-practice&quot;&gt;How to implement atomic commits in practice?&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Commit and push to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev&lt;/code&gt; after every completing method/feature.&lt;/li&gt;
+  &lt;li&gt;This push should involve both test and code.&lt;/li&gt;
+  &lt;li&gt;The commit message should be accurate.
+    &lt;ul&gt;
+      &lt;li&gt;Each commit should only include small number of changes.&lt;/li&gt;
+      &lt;li&gt;Use a commit format like conventional commits that seperate different types of commits:&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+      &lt;li&gt;feat: feature&lt;/li&gt;
+      &lt;li&gt;refactor: refactoring&lt;/li&gt;
+      &lt;li&gt;fix: bug fix&lt;/li&gt;
+      &lt;li&gt;doc: documentation&lt;/li&gt;
+      &lt;li&gt;ci: continous integration changes&lt;/li&gt;
+      &lt;li&gt;build: related to build&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In practice, you can assume commiting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feat&lt;/code&gt; atleast once per hour. Other commits types especially &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;refactor&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fix&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;doc&lt;/code&gt; might be even more frequent.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="continuous-integration" /><category term="commits" /><category term="code-review" /><summary type="html">What is the problem with larger commits.</summary></entry><entry><title type="html">Always choose reactive programming</title><link href="www.ankushchoubey.com/reactive-programming/" rel="alternate" type="text/html" title="Always choose reactive programming" /><published>2022-07-11T00:00:00-05:00</published><updated>2022-07-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/reactive</id><content type="html" xml:base="www.ankushchoubey.com/reactive-programming/">&lt;h1 id=&quot;what-is-reactive-programming&quot;&gt;What is reactive programming?&lt;/h1&gt;
 
 &lt;p&gt;Reactive programming is not a straight paradigm like empirical or functional. Reactive means that code that is written is non-blocking and asynchronous.&lt;/p&gt;
 
@@ -409,161 +459,4 @@
       &lt;td&gt;Which are you?](https://www.youtube.com/watch?v=f3biKalwktk)&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="communication" /><category term="non-professional" /><summary type="html">The reason to have social confidence is this: If you don’t, no one takes you or your arguments seriously.</summary></entry><entry><title type="html">Communication during conflict</title><link href="www.ankushchoubey.com/communication-during-conflict/" rel="alternate" type="text/html" title="Communication during conflict" /><published>2022-06-19T00:00:00-05:00</published><updated>2022-06-19T15:52:08-05:00</updated><id>www.ankushchoubey.com/communication-during-conflict</id><content type="html" xml:base="www.ankushchoubey.com/communication-during-conflict/">&lt;p&gt;&lt;img src=&quot;/images/communication-during-conflict.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sub&gt;Photo by &lt;a href=&quot;https://unsplash.com/@conniwenningsimages?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Constantin Wenning&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/shake-hands?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
-
-&lt;p&gt;There are two parts to communication: listening and speaking. And these roles change between the two.&lt;/p&gt;
-
-&lt;p&gt;In any communication any form, there is a some amount of context loss. But in some communication context loss is much higher.&lt;/p&gt;
-
-&lt;p&gt;This is because of the way sentences are phrased. Or how is someone is nervous communicating. Or what pre-assumptions someone has made which could and could not be due to lack of information.&lt;/p&gt;
-
-&lt;p&gt;This could be us. Or this could be the other person.&lt;/p&gt;
-
-&lt;p&gt;We can’t control how the other person understands. Not fully at-least. But we could try to present ourselves in a way that the other person feels more open to talk, express and communicate.&lt;/p&gt;
-
-&lt;p&gt;By choosing the right medium, listening better and articulating properly; one can reach close to 100% retention of information.&lt;/p&gt;
-
-&lt;p&gt;This would help us reach an understanding faster. The best way to do it is to keep things light and to be calm.&lt;/p&gt;
-
-&lt;h1 id=&quot;choose-the-right-medium&quot;&gt;Choose the right medium&lt;/h1&gt;
-
-&lt;p&gt;The tone of voice, facial expressions, body language, etc provide useful information even if they aren’t studied explicitly. It’s what our social brains are adapt to do.&lt;/p&gt;
-
-&lt;p&gt;Therefore, cutting these features out of communication can be problematic in certain cases.&lt;/p&gt;
-
-&lt;p&gt;Texting: Should not be used for emotional communication no matter how hard it feels. If it’s becoming hard, transition:Logistics 
-Calls: Normal. Emotional. 
-Video: Better
-In Person: Best. Aim for in-person communication.&lt;/p&gt;
-
-&lt;h1 id=&quot;listening&quot;&gt;Listening&lt;/h1&gt;
-
-&lt;p&gt;Remember, the goal is to seek to understand, than to be understood.&lt;/p&gt;
-
-&lt;h2 id=&quot;have-the-attitude-of-the-person-you-are-listening-to-is-important-and-worth-listening-to&quot;&gt;Have the attitude of: The person you are listening to is important and worth listening to.&lt;/h2&gt;
-
-&lt;p&gt;Having mutual respect leads to better understanding and less drama.&lt;/p&gt;
-
-&lt;h2 id=&quot;listen-carefully-and-listen-everything&quot;&gt;Listen carefully and listen everything.&lt;/h2&gt;
-
-&lt;p&gt;No matter how silly on mundane something seems. It maybe of value to the other person. Don’t negate anything by saying it’s dumb. It may or maynot be dumb. Listen and ask followup questions.&lt;/p&gt;
-
-&lt;h2 id=&quot;understand-the-problem-instead-of-giving-solution&quot;&gt;Understand the problem instead of giving solution&lt;/h2&gt;
-
-&lt;p&gt;Often we try to suggest a solution to something that’s not even a problem. It’s like Hammer 🔨. Wack. And nothing works. Because it wasn’t supposed to.&lt;/p&gt;
-
-&lt;p&gt;Life is complex and their are nuances. Those nuances need to be understood.&lt;/p&gt;
-
-&lt;p&gt;Learn to emphathize.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/team-work/empathy.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In any case of communication, we can’t be hundred precent certain or 0% certain. Therefore we have to range ourselves between 95% certain and 5% certain.&lt;/p&gt;
-
-&lt;h2 id=&quot;calm-the-other-person&quot;&gt;Calm the other person&lt;/h2&gt;
-
-&lt;p&gt;Sometimes, it may happen that the person you are talking to has intense emotions.&lt;/p&gt;
-
-&lt;p&gt;This could be anger, happiness, sadness. Or they might be too critical of themselves (Like someone you are reading 😇). In someway they have their guards up.&lt;/p&gt;
-
-&lt;p&gt;Step 1. Calm them down.&lt;/p&gt;
-
-&lt;p&gt;Make them drink water.&lt;/p&gt;
-
-&lt;p&gt;Tell them to calm down. And that way you can understand them a bit better.&lt;/p&gt;
-
-&lt;h2 id=&quot;do-not-interrupt&quot;&gt;Do not interrupt&lt;/h2&gt;
-
-&lt;p&gt;Rather than interrupting, wait for when the person has stopped. Even if they are are saying something that you don’t agree with. Let them speak completely. This not only helps understand the other person better, this is more respectful.&lt;/p&gt;
-
-&lt;h2 id=&quot;dont-present-your-arguments-early-on&quot;&gt;Don’t present your arguments early on.&lt;/h2&gt;
-
-&lt;p&gt;This makes someone jump to a different tangium. Your goal is to understand their points.&lt;/p&gt;
-
-&lt;p&gt;Let the person present his points.&lt;/p&gt;
-
-&lt;h2 id=&quot;dont-wait-for-your-turn&quot;&gt;Don’t wait for your turn&lt;/h2&gt;
-
-&lt;p&gt;Don’t wait for your turn to speak. When the person has stopped speaking, you could take a moment to think and then speak or ask followup questions. It isn’t akward to wait and then speak.&lt;/p&gt;
-
-&lt;p&gt;Also, it’s not your respo to overly try to make a situation pleasant. Over trying makes situation more akward.&lt;/p&gt;
-
-&lt;h1 id=&quot;speaking&quot;&gt;Speaking&lt;/h1&gt;
-
-&lt;h2 id=&quot;agree-to-what-you-find-right&quot;&gt;Agree to what you find right.&lt;/h2&gt;
-
-&lt;p&gt;Often someone interrupts us or are in a emotional state and are continuing to talk. Let them speak and then agree to the points you agree with. This helps establish a common base for further conversations.&lt;/p&gt;
-
-&lt;h2 id=&quot;if-you-dont-understand-something-re-iterate-what-the-person-is-saying-and-ask-if-its-right&quot;&gt;If you don’t understand something, re-iterate what the person is saying and ask if it’s right.&lt;/h2&gt;
-
-&lt;p&gt;Specially in complex or emotional issues, understanding someone is hard. Doing the aboves means that you’d have understood better and the person knows you have understood better.&lt;/p&gt;
-
-&lt;h2 id=&quot;ask-neutral-questions&quot;&gt;Ask neutral questions&lt;/h2&gt;
-
-&lt;p&gt;Specially on text messages.&lt;/p&gt;
-
-&lt;p&gt;To understand neutral questions it’s more effective to understand it’s alternative. Loaded questions.&lt;/p&gt;
-
-&lt;p&gt;A loaded question is where you already pick a side.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;p&gt;Loaded:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;My friend lied to me about having a job. What should I do in this situation?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Neutral:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If someone lies about themselves? What should be done? Or how should one think about it?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Two techniques:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Remove references. Keep everything third person.&lt;/li&gt;
-  &lt;li&gt;Use phrases like how should one think about this.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;think-before-you-say-and-stay-in-the-realm-of-truth&quot;&gt;Think before you say and stay in the realm of truth&lt;/h2&gt;
-
-&lt;p&gt;This can be hard at times. But think before saying, pausing is okay. Telling that you need a moment is okay. Then stay in the realm of truth and say exactly how you think or feel.&lt;/p&gt;
-
-&lt;p&gt;We look even dumber when we say something without actually knowing. Therefore if you don’t know something say that you don’t know and ask for help.&lt;/p&gt;
-
-&lt;h2 id=&quot;express-and-explain-better&quot;&gt;Express and explain better&lt;/h2&gt;
-
-&lt;p&gt;Point to or give examples specially about you feel. Slow down. Speak slower. Be congizent of your emotions. Are you feeling too high or too low.&lt;/p&gt;
-
-&lt;p&gt;Ask properly and exactly what you want. Be ready to negotiate. Explain how it might benefit them.&lt;/p&gt;
-
-&lt;p&gt;If you are unsure about something, ask clarifying question or ask them how you should think about something.&lt;/p&gt;
-
-&lt;h2 id=&quot;when-talking-give-the-choice-to-other-person&quot;&gt;When talking give the choice to other person&lt;/h2&gt;
-
-&lt;p&gt;Instead of saying: I’ll come to your house this Sunday (uninvited)?&lt;/p&gt;
-
-&lt;p&gt;Say: Can I come to your house?&lt;/p&gt;
-
-&lt;p&gt;Ask instead of commanding.&lt;/p&gt;
-
-&lt;h2 id=&quot;keep-things-civilized&quot;&gt;Keep things civilized&lt;/h2&gt;
-
-&lt;p&gt;We don’t want to cross someone’s boundary. It’s not worth it.&lt;/p&gt;
-
-&lt;h2 id=&quot;dont-attack-the-person&quot;&gt;Don’t attack the person&lt;/h2&gt;
-
-&lt;p&gt;Everyone is human. Attack the specific activity and explain why.&lt;/p&gt;
-
-&lt;p&gt;Everyone has an ego. You too. And everyone is trying to figure things out with information they have.&lt;/p&gt;
-
-&lt;h1 id=&quot;if-you-had-an-argument&quot;&gt;If you had an argument&lt;/h1&gt;
-
-&lt;p&gt;Connect with them later. Lighten the mood. Tell them sorry with parts you messed up or slipped. Try to reach understanding.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;These things have to be automatic. It isn’t ideal to keep thinking about these. Pick on one area at a time to work on.&lt;/p&gt;</content><author><name></name></author><category term="communication" /><category term="team-work" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/communication-during-conflict.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/communication-during-conflict.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/table&gt;</content><author><name></name></author><category term="communication" /><category term="non-professional" /><summary type="html">The reason to have social confidence is this: If you don’t, no one takes you or your arguments seriously.</summary></entry></feed>
