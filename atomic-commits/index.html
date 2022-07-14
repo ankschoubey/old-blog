@@ -209,16 +209,16 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <h1 id="what-is-the-problem-with-larger-commits">What is the problem with larger commits.</h1>
 
-<p>Many developers complete all their feature before commiting and merging. When they commit and merge,</p>
+<p>Many developers complete all their features before committing and merging. When they commit and merge,</p>
 <ul>
   <li>their commit is often bulky i.e it is too big</li>
   <li>since it is too big, it often causes merge conflicts</li>
-  <li>since it is too big, commit message is often not the best indicator of what the code does.</li>
-  <li>since it is too big, there were too many changes, the confidence to merge and expect everything to work fine reduces.</li>
+  <li>since it is too big, the commit message is often not the best indicator of what the code does.</li>
+  <li>since it is too big, there were too many changes, and the confidence to merge and expect everything to work fine reduces.</li>
   <li>since it took so long to merge, other developers might have built the same features again.</li>
 </ul>
 
-<p>Often the reason is, that we are afraid to merge and we want to get everything perfect the first time. But this is counter intuitive.</p>
+<p>Often the reason is, that we are afraid to merge and want to get everything perfect the first time. But this is counterintuitive.</p>
 
 <h1 id="why-we-should-do-atomic-commits">Why we should do atomic commits?</h1>
 
@@ -226,14 +226,14 @@ window.onload = wrap_img;
 
 <ol>
   <li>Allows for easily reversing changes</li>
-  <li>Leads to more accurate commit history that can be easily understood by developers.
+  <li>Leads to a more accurate commit history that can be easily understood by developers.
     <ul>
       <li>and therefore is easier to review.</li>
     </ul>
   </li>
   <li>Small changes are easier to revert than bulky changes.</li>
-  <li>Developers are much more in sync when small commits are merges non-stop.</li>
-  <li>Small commits lead to better sense of progress.</li>
+  <li>Developers are much more in sync when small commits are merged non-stop.</li>
+  <li>Small commits lead to a better sense of progress.</li>
 </ol>
 
 <h1 id="how-to-implement-atomic-commits-in-practice">How to implement atomic commits in practice?</h1>
@@ -243,21 +243,21 @@ window.onload = wrap_img;
   <li>This push should involve both test and code.</li>
   <li>The commit message should be accurate.
     <ul>
-      <li>Each commit should only include small number of changes.</li>
-      <li>Use a commit format like conventional commits that seperate different types of commits:</li>
+      <li>Each commit should only include a small number of changes.</li>
+      <li>Use a commit format like <a href="/conventional-commits">conventional commits</a> that separates different types of commits:</li>
     </ul>
     <ul>
       <li>feat: feature</li>
       <li>refactor: refactoring</li>
       <li>fix: bug fix</li>
       <li>doc: documentation</li>
-      <li>ci: continous integration changes</li>
+      <li>ci: continuous integration changes</li>
       <li>build: related to build</li>
     </ul>
   </li>
 </ol>
 
-<p>In practice, you can assume commiting <code class="language-plaintext highlighter-rouge">feat</code> atleast once per hour. Other commits types especially <code class="language-plaintext highlighter-rouge">refactor</code>, <code class="language-plaintext highlighter-rouge">fix</code> and <code class="language-plaintext highlighter-rouge">doc</code> might be even more frequent.</p>
+<p>In practice, you can assume committing <code class="language-plaintext highlighter-rouge">feat</code> at least once per hour. Other commit types especially <code class="language-plaintext highlighter-rouge">refactor</code>, <code class="language-plaintext highlighter-rouge">fix</code> and <code class="language-plaintext highlighter-rouge">doc</code> might be even more frequent.</p>
 
   </div>
 <!-- from https://github.com/utterance/utterances -->

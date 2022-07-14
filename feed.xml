@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-14T11:08:59-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-14T11:11:42-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -53,16 +53,16 @@
   &lt;/tbody&gt;
 &lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Writing better commits with atomic commits</title><link href="www.ankushchoubey.com/atomic-commits/" rel="alternate" type="text/html" title="Writing better commits with atomic commits" /><published>2022-07-14T00:00:00-05:00</published><updated>2022-07-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/atomic-commits</id><content type="html" xml:base="www.ankushchoubey.com/atomic-commits/">&lt;h1 id=&quot;what-is-the-problem-with-larger-commits&quot;&gt;What is the problem with larger commits.&lt;/h1&gt;
 
-&lt;p&gt;Many developers complete all their feature before commiting and merging. When they commit and merge,&lt;/p&gt;
+&lt;p&gt;Many developers complete all their features before committing and merging. When they commit and merge,&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;their commit is often bulky i.e it is too big&lt;/li&gt;
   &lt;li&gt;since it is too big, it often causes merge conflicts&lt;/li&gt;
-  &lt;li&gt;since it is too big, commit message is often not the best indicator of what the code does.&lt;/li&gt;
-  &lt;li&gt;since it is too big, there were too many changes, the confidence to merge and expect everything to work fine reduces.&lt;/li&gt;
+  &lt;li&gt;since it is too big, the commit message is often not the best indicator of what the code does.&lt;/li&gt;
+  &lt;li&gt;since it is too big, there were too many changes, and the confidence to merge and expect everything to work fine reduces.&lt;/li&gt;
   &lt;li&gt;since it took so long to merge, other developers might have built the same features again.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Often the reason is, that we are afraid to merge and we want to get everything perfect the first time. But this is counter intuitive.&lt;/p&gt;
+&lt;p&gt;Often the reason is, that we are afraid to merge and want to get everything perfect the first time. But this is counterintuitive.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-we-should-do-atomic-commits&quot;&gt;Why we should do atomic commits?&lt;/h1&gt;
 
@@ -70,14 +70,14 @@
 
 &lt;ol&gt;
   &lt;li&gt;Allows for easily reversing changes&lt;/li&gt;
-  &lt;li&gt;Leads to more accurate commit history that can be easily understood by developers.
+  &lt;li&gt;Leads to a more accurate commit history that can be easily understood by developers.
     &lt;ul&gt;
       &lt;li&gt;and therefore is easier to review.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Small changes are easier to revert than bulky changes.&lt;/li&gt;
-  &lt;li&gt;Developers are much more in sync when small commits are merges non-stop.&lt;/li&gt;
-  &lt;li&gt;Small commits lead to better sense of progress.&lt;/li&gt;
+  &lt;li&gt;Developers are much more in sync when small commits are merged non-stop.&lt;/li&gt;
+  &lt;li&gt;Small commits lead to a better sense of progress.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h1 id=&quot;how-to-implement-atomic-commits-in-practice&quot;&gt;How to implement atomic commits in practice?&lt;/h1&gt;
@@ -87,21 +87,21 @@
   &lt;li&gt;This push should involve both test and code.&lt;/li&gt;
   &lt;li&gt;The commit message should be accurate.
     &lt;ul&gt;
-      &lt;li&gt;Each commit should only include small number of changes.&lt;/li&gt;
-      &lt;li&gt;Use a commit format like conventional commits that seperate different types of commits:&lt;/li&gt;
+      &lt;li&gt;Each commit should only include a small number of changes.&lt;/li&gt;
+      &lt;li&gt;Use a commit format like &lt;a href=&quot;/conventional-commits&quot;&gt;conventional commits&lt;/a&gt; that separates different types of commits:&lt;/li&gt;
     &lt;/ul&gt;
     &lt;ul&gt;
       &lt;li&gt;feat: feature&lt;/li&gt;
       &lt;li&gt;refactor: refactoring&lt;/li&gt;
       &lt;li&gt;fix: bug fix&lt;/li&gt;
       &lt;li&gt;doc: documentation&lt;/li&gt;
-      &lt;li&gt;ci: continous integration changes&lt;/li&gt;
+      &lt;li&gt;ci: continuous integration changes&lt;/li&gt;
       &lt;li&gt;build: related to build&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;In practice, you can assume commiting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feat&lt;/code&gt; atleast once per hour. Other commits types especially &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;refactor&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fix&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;doc&lt;/code&gt; might be even more frequent.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="continuous-integration" /><category term="commits" /><category term="code-review" /><summary type="html">What is the problem with larger commits.</summary></entry><entry><title type="html">Always choose reactive programming</title><link href="www.ankushchoubey.com/reactive-programming/" rel="alternate" type="text/html" title="Always choose reactive programming" /><published>2022-07-11T00:00:00-05:00</published><updated>2022-07-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/reactive</id><content type="html" xml:base="www.ankushchoubey.com/reactive-programming/">&lt;h1 id=&quot;what-is-reactive-programming&quot;&gt;What is reactive programming?&lt;/h1&gt;
+&lt;p&gt;In practice, you can assume committing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feat&lt;/code&gt; at least once per hour. Other commit types especially &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;refactor&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fix&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;doc&lt;/code&gt; might be even more frequent.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="continuous-integration" /><category term="commits" /><category term="code-review" /><summary type="html">What is the problem with larger commits.</summary></entry><entry><title type="html">Always choose reactive programming</title><link href="www.ankushchoubey.com/reactive-programming/" rel="alternate" type="text/html" title="Always choose reactive programming" /><published>2022-07-11T00:00:00-05:00</published><updated>2022-07-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/reactive</id><content type="html" xml:base="www.ankushchoubey.com/reactive-programming/">&lt;h1 id=&quot;what-is-reactive-programming&quot;&gt;What is reactive programming?&lt;/h1&gt;
 
 &lt;p&gt;Reactive programming is not a straight paradigm like empirical or functional. Reactive means that code that is written is non-blocking and asynchronous.&lt;/p&gt;
 
