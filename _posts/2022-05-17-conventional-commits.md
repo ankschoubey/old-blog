@@ -2,11 +2,11 @@
 layout: post
 comments: true
 description:
-categories: [clean-code]
+categories: [clean-code, continuous-integration, commits, code-review]
 last_modified_at: 2022-05-17T20:52:08.052481
 last-modified-purpose:
 permalink: /conventional-commits/
-title: Writing cleaner commit messages with conventional commits
+title: Writing better commit with conventional commits
 ---
 
 ### Why commit messages are important?
