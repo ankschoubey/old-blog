@@ -13,13 +13,11 @@ These are some strategies I use to learn any new thing including programming lan
 
 These are probably very influenced by Tim Ferriss's 4 Hour Chef which I had read around 2016.
 
-## Material beats Method [^1]
+## Choose material optimized for learning
 
-Usually, it's not fault of the student, it's fault of the teacher.
+Material beats Method [^1]
 
-How a teacher teaches determines a lot.
-
-I don't like live teachings. It sometimes gets to fast sometimes too slow. I prefer learning on my own.
+Best materials are the ones that lead you to certain core truths and understanding let to adapt to any situation. They aren't optimized for facts
 
 I pick resources that are:
 
@@ -39,6 +37,12 @@ For Programming Topics,
 - I prefer platform allow trying out code online without any local installation.
   - Codecademy is a good one. I used it for many things.
   - Recently I started learning
+
+## Increase the number of iterations
+
+This doesn’t mean more time. This means more iterations.
+
+For example: If you want to make good Kanban boards, make many Kanban boards and use it in your life
 
 ## Role of Books
 
