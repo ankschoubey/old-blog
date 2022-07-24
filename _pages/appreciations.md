@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /appreciations/
-title: Appreciations
+title: 
 search_exclude: false
 ---
 {% include replace_nav_with_icons.html %}
