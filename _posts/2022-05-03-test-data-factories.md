@@ -7,6 +7,7 @@ last_modified_at: 2022-05-03T20:52:08.052481
 last-modified-purpose:
 permalink: /test-data-factories/
 title: Writing cleaner tests with Test Data Factories
+image: /images/test-data-factories.png
 ---
 
 # **Problem**
