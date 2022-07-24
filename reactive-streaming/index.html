@@ -209,7 +209,7 @@ window.onload = wrap_img;
 
 <h1 id="example-of-streaming-and-non-streaming-reactive-implementation">Example of Streaming and Non-Streaming Reactive Implementation</h1>
 
-<p>Example: Suppose you have an application that shows a list of movies to users. The application comprises a frontend user view and a backend that talks to a database.</p>
+<p>Suppose you have an application that shows a list of movies to users. The application comprises a frontend user view and a backend that talks to a database.</p>
 
 <p>You have chosen Spring Webflux for the backend and Angular for the frontend since both provide reactive programming support. Webflux provides it with Project Reactor. Angular provides it with RxJs.</p>
 
@@ -237,7 +237,7 @@ window.onload = wrap_img;
 </code></pre></div></div>
 <p>HTML:</p>
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;li</span> <span class="na">*ngFor=</span><span class="s">"let movie of movies"</span><span class="nt">&gt;</span>
-    
+    \{\{ movie.name }}
 <span class="nt">&lt;/li&gt;</span>
 </code></pre></div></div>
 
@@ -263,10 +263,10 @@ window.onload = wrap_img;
 </code></pre></div></div>
 
 <p>HTML:</p>
-<pre><code class="language-HTML">&lt;li *ngFor="let movie of movies | async; index as i"&gt;
-    
-&lt;/li&gt;
-</code></pre>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;li</span> <span class="na">*ngFor=</span><span class="s">"let movie of movies | async; index as i"</span><span class="nt">&gt;</span>
+    \{\{ movie.name }}
+<span class="nt">&lt;/li&gt;</span>
+</code></pre></div></div>
 
 <h1 id="when-is-streaming-not-efficient">When is streaming not-efficient</h1>
 
