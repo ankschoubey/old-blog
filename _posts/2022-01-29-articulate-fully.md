@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [core-values, truth, draft, non-professional]
+categories: [core-values, truth, non-professional]
 last_modified_at: 2022-06-29T20:52:08.052481
 last-modified-purpose: draft
 permalink: /articulate/

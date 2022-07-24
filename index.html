@@ -41,21 +41,18 @@ search_exclude: true
 
 <h1 style="margin: 0px !important; user-select: auto;"><span style="color: rgba(128, 128, 128, 0.58); user-select: auto;">Hi! I'm</span> Ankush!<img src="/images/profile.png" alt="avatar" class="image-preview rounded-pill" style="user-select: auto;width: 53px;margin-left: 11px;"></h1>
 
-I'm a 👨🏻‍💻 **programmer** who loves technology. From 🕸 [web-development, deep-learning, devops](/categories/#information-system) to everything that Elon Musk does.
+I'm a 👨🏻‍💻 **full-stack developer** who loves everything technology. From 🕸 [web-development, deep-learning to devops](/categories/#information-system).
 
-In addition to coding, I also look at [how good products & businesses work](/categories/#business) from many contradictory points of view.
+If you'll like to hire me, checkout my [resume](/resume).
 
-Recently, I have been thinking about [communication]({{ site.baseurl }}/categories/#communication) both in work context and in personal context so you'll find a lot of related posts.
-
-My similar previous explorations include: 
+On this blog you'll find essays on: 
 
 - [testing]({{ site.baseurl }}/categories/#testing) to have bug free code.
 - [clean-code]({{ site.baseurl }}/categories/#clean-code) as a way to improve code quality.
 - [core-values]({{ site.baseurl }}/categories/#clean-code) as a way to lead meaningful life.
+- [how successful products & businesses work](/categories/#business)
 
 This blog is the way I process my 🎲 thoughts and solve problems. If you read any, try scrutinizing them and see if they hold.
-
-I treat this blog as a wiki, so old post of frequently reworded or deleted.
 
 <p style="display: flex; gap: 10px;">
     {% include btn.html href='mailto:ankushchoubey@outlook.com' icon='fa fa-envelope' text='ankushchoubey@outlook' download='n' %}
@@ -76,10 +73,9 @@ These are the best posts I have written
 or read a {%- include random-btn.html -%}
 
 {% if site.categories['draft'].size > 0 %}
-## Essays in Progress
 {% for post in site.categories['draft'] %}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-<article class="archive-item">
+<article class="archive-item" style="display: none">
     <p class="post-meta post-meta-title"><span class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</span> • {{ post.date | date: date_format }}</p>
 </article>
 {% endfor %}
