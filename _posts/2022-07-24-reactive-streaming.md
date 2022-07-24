@@ -15,7 +15,7 @@ This means by definition streaming is much high performance and therefore a good
 
 # Example of Streaming and Non-Streaming Reactive Implementation
 
-Example: Suppose you have an application that shows a list of movies to users. The application comprises a frontend user view and a backend that talks to a database.
+Suppose you have an application that shows a list of movies to users. The application comprises a frontend user view and a backend that talks to a database.
 
 You have chosen Spring Webflux for the backend and Angular for the frontend since both provide reactive programming support. Webflux provides it with Project Reactor. Angular provides it with RxJs.
 
@@ -44,11 +44,9 @@ this.httpClient.get("/movies")
 HTML:
 ```html
 <li *ngFor="let movie of movies">
-    {{ movie.name }}
+    \{\{ movie.name }}
 </li>
 ```
-
-
 
 A reactive streaming implementation would be like this:
 
@@ -72,9 +70,9 @@ Typescript:
 ```
 
 HTML:
-```HTML
+```html
 <li *ngFor="let movie of movies | async; index as i">
-    {{ movie.name }}
+    \{\{ movie.name }}
 </li>
 ```
 
