@@ -1,12 +1,13 @@
 ---
 layout: post
 comments: true
-description:
+description: Why small frequent commits leads to higher productivity
 categories: [clean-code, continuous-integration, commits, code-review]
 last_modified_at: 2022-07-14T20:52:08.052481
 last-modified-purpose:
 permalink: /atomic-commits/
-title: Writing better commits with atomic commits
+title: Writing better commits with Atomic Commits
+image: /images/atomic-commits.svg
 ---
 
 # What is the problem with larger commits.
@@ -30,6 +31,10 @@ Atomic commits are frequent commits.
 3. Small changes are easier to revert than bulky changes.
 4. Developers are much more in sync when small commits are merged non-stop.
 5. Small commits lead to a better sense of progress.
+
+Suppose you are working on two features related to upload and download of files to and from AWS S3. Instead of a single commit for both, you can break it down into multiple commits.
+
+![](/images/atomic-commits.svg)
 
 # How to implement atomic commits in practice?
 
