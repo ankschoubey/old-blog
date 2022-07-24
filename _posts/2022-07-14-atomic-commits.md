@@ -34,7 +34,17 @@ Atomic commits are frequent commits.
 
 Suppose you are working on two features related to upload and download of files to and from AWS S3. Instead of a single commit for both, you can break it down into multiple commits.
 
-![](/images/atomic-commits.svg)
+```conventional-commits
+// bad
+added support for file upload and download
+
+// better 
+feat(s3-service): configuration for AWS S3
+feat(s3-service): add streaming upload file to S3
+feat(api): add endpoint for streaming upload /uploads 
+feat(53-service): streaming download from s3
+feat(api): add endpoint for streaming download /downloads
+```
 
 # How to implement atomic commits in practice?
 
