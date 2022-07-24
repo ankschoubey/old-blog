@@ -10,7 +10,7 @@ title: Writing better commits with Atomic Commits
 image: /images/atomic-commits.svg
 ---
 
-# What is the problem with larger commits.
+# What is the problem with larger commits?
 
 Many developers complete all their features before committing and merging. When they commit and merge, 
 - their commit is often bulky i.e it is too big
@@ -43,11 +43,11 @@ Suppose you are working on two features related to upload and download of files 
 3. The commit message should be accurate.
 - Each commit should only include a small number of changes.
 - Use a commit format like [conventional commits](/conventional-commits) that separates different types of commits: 
-    - feat: feature
-    - refactor: refactoring
-    - fix: bug fix
-    - doc: documentation
-    - ci: continuous integration changes
-    - build: related to build
+    - `feat`: feature
+    - `refactor`: refactoring
+    - `fix`: bug fix
+    - `doc`: documentation
+    - `ci`: continuous integration changes
+    - `build`: related to build
 
 In practice, you can assume committing `feat` at least once per hour. Other commit types especially `refactor`, `fix` and `doc` might be even more frequent.
