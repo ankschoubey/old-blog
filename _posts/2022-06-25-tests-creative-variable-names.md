@@ -7,6 +7,7 @@ last_modified_at: 2022-06-25T20:52:08.052481
 last-modified-purpose:
 permalink: /creative-variable-names/
 title: Writing cleaner tests with creative variable names
+image: /image/creative-variable-names.png
 ---
 
 Variable and method names provide a context that makes it easy to understand a piece of code. 
@@ -34,7 +35,7 @@ User user2 = new User("user 2 first name", "user 1 last name", ...10 other field
 // someAssertionThatUses user1 And user2
 ```
 
-A better approach is to use a TestData class which I have described in a separate blogpost
+A better approach is to use a [TestData class](/test-data-factories) which I have described in a separate blogpost
 
 ```java
 User user1 = UserTestData.Given.aUser("user 1 first name", "user 1 last name");
