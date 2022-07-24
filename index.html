@@ -49,7 +49,6 @@ On this blog you'll find essays on:
 
 - [testing]({{ site.baseurl }}/categories/#testing) to have bug free code.
 - [clean-code]({{ site.baseurl }}/categories/#clean-code) as a way to improve code quality.
-- [core-values]({{ site.baseurl }}/categories/#clean-code) as a way to lead meaningful life.
 - [how successful products & businesses work](/categories/#business)
 
 This blog is the way I process my 🎲 thoughts and solve problems. If you read any, try scrutinizing them and see if they hold.
@@ -58,20 +57,13 @@ This blog is the way I process my 🎲 thoughts and solve problems. If you read 
     {% include btn.html href='mailto:ankushchoubey@outlook.com' icon='fa fa-envelope' text='ankushchoubey@outlook' download='n' %}
     {% include btn.html href='https://www.youtube.com/channel/UC8hWULzz8LyyuFz9zP_Y12g' icon='fab fa-youtube' text='Piano & Guitar Videos' download='n' %}
 </p>
-## Start Here
-
-These are the best posts I have written
-
 {% for post in site.categories['favorite'] %}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-<article class="archive-item">
+<article class="archive-item" style="display: none;">
     <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.last_modified_at | date: date_format }}</p>
+    or read a {%- include random-btn.html -%}
 </article>
-
 {% endfor %}
-
-or read a {%- include random-btn.html -%}
-
 {% if site.categories['draft'].size > 0 %}
 {% for post in site.categories['draft'] %}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -80,7 +72,6 @@ or read a {%- include random-btn.html -%}
 </article>
 {% endfor %}
 {% endif %}
-
 ## Search
 
 {% include search.html %}

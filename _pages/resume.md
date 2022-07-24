@@ -8,14 +8,11 @@ search_exclude: false
 
 # Resume
 
-<div style='display: flex; justify-content:center; align-items: center'>
-    {% include btn.html href='/assets/Ankush - Full Stack Developer.pdf' icon='fa fa-envelope' text='Download Resume' download='t' download_name='Ankush - Full Stack Developer.pdf' %}
-</div>
-
 {% include pdf.html url="/assets/Ankush - Full Stack Developer.pdf" name="Ankush - Full Stack Developer" %}
 
 <div style='display: flex; justify-content:center; align-items: center'>
     {% include btn.html href='/assets/Ankush - Full Stack Developer.pdf' icon='fa fa-envelope' text='Download Resume' download='t' download_name='Ankush - Full Stack Developer.pdf' %}
+    {% include btn.html href='mailto:ankushchoubey@outlook.com' icon='fa fa-envelope' text='ankushchoubey@outlook' download='n' %}
 </div>
 
 # Appreciations

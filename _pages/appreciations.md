@@ -3,6 +3,7 @@ layout: default
 permalink: /appreciations/
 title: 
 search_exclude: false
+redirect_to: /resume/#appreciations
 ---
 {% include replace_nav_with_icons.html %}
 
