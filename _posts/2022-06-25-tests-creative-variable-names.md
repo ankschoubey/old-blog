@@ -7,7 +7,7 @@ last_modified_at: 2022-06-25T20:52:08.052481
 last-modified-purpose:
 permalink: /creative-variable-names/
 title: Writing cleaner tests with creative variable names
-image: /image/creative-variable-names.png
+image: /images/creative-variable-names.png
 ---
 
 Variable and method names provide a context that makes it easy to understand a piece of code. 
