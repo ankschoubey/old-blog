@@ -7,17 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Search | Ankush</title>
+<title>Tips on Fixing/ Upgrading Maven Dependencies | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Search">
+<meta property="og:title" content="Tips on Fixing/ Upgrading Maven Dependencies">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Random Thoughts">
-<meta property="og:description" content="Random Thoughts">
-<link rel="canonical" href="www.ankushchoubey.com/search/">
-<meta property="og:url" content="www.ankushchoubey.com/search/">
+<meta name="description" content="Updating dependencies is important. Reasons could be: your SAST scan found a list of vulnerable dependancies you want to keep up with the latest.">
+<meta property="og:description" content="Updating dependencies is important. Reasons could be: your SAST scan found a list of vulnerable dependancies you want to keep up with the latest.">
+<link rel="canonical" href="www.ankushchoubey.com/maven-updation/">
+<meta property="og:url" content="www.ankushchoubey.com/maven-updation/">
 <meta property="og:site_name" content="Ankush">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2022-07-29T00:00:00-05:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/search/","@type":"WebPage","headline":"Search","dateModified":"2022-07-29T12:59:20-05:00","description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"datePublished":"2022-07-29T00:00:00-05:00","url":"www.ankushchoubey.com/maven-updation/","@type":"BlogPosting","headline":"Tips on Fixing/ Upgrading Maven Dependencies","dateModified":"2022-07-24T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/maven-updation/"},"description":"Updating dependencies is important. Reasons could be: your SAST scan found a list of vulnerable dependancies you want to keep up with the latest.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -116,18 +118,149 @@ window.onload = wrap_img;
   }
 </script> -->
 
-<!-- adapted from https://github.com/pmarsceill/just-the-docs -->
-<script type="text/javascript" src="/assets/js/search.js"></script>
-<script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
 
-<div class="search">
-    <div class="search-input-wrap">
-    <input type="text" class="js-search-input search-input input-block form-control" tabindex="0" placeholder="Search Ankush" aria-label="Search Ankush" autocomplete="off">
-    </div>
-    <br>
-    <div class="js-search-results search-results-wrap"></div>
+<script type="text/javascript" src="/assets/accordian.js"></script>
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Tips on Fixing/ Upgrading Maven Dependencies</h1>
+
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-07-29T00:00:00-05:00" itemprop="datePublished">
+        Written: Jul 29, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-07-24T15:52:08-05:00" itemprop="dateModified">
+          Updated: Jul 24, 2022
+        </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>    <style>
+        .post-tool-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px 10px 0px;
+            /* border: 1px solid #e8e8e8; */
+            border-width: 0px 0px 1px 0px;
+        }
+        .left-section , .right-section{
+            display: flex;
+            gap: 8px;
+        }
+
+    </style>
+    
+    <div class="post-tool-bar">
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag maven" href="/categories/#maven">maven</a>
+    
+    <a class="tag fa fa-hashtag build-tool" href="/categories/#build-tool">build-tool</a>
+    
+    <a class="tag fa fa-hashtag automation" href="/categories/#automation">automation</a>
+    
 </div>
+<div class="right-section">
+<a id="translate-btn" href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
+    <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
+</a>
 
+
+<script>
+    a = document.getElementById('translate-btn');
+    a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=" + window.location.href);
+</script><a id="speech-btn">
+    <img src="/images/icons/ear.svg" alt="listen" style="width:35px; cursor: pointer;">
+</a>
+
+<script>
+    speakPost = () => {
+        var msg = new SpeechSynthesisUtterance();
+        const title = document.querySelector("h1.post-title.p-name").innerText;
+        const post = document.querySelector("div.post-content.e-content").innerText
+        msg.text = title + '.' + post;
+        window.speechSynthesis.speak(msg);
+    }
+    if ('speechSynthesis' in window) {
+        document.getElementById("speech-btn").addEventListener("click", speakPost);
+    } else {
+        document.getElementById('speech-btn').style.display = 'none';
+    }
+</script>
+
+<!-- https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html -->
+</div>
+      
+          
+    </div>
+    
+</header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Updating dependencies is important. Reasons could be:</p>
+<ul>
+  <li>your SAST scan found a list of vulnerable dependancies</li>
+  <li>you want to keep up with the latest.</li>
+</ul>
+
+<p>Here are few things that could make the process easier.</p>
+
+<h1 id="update-dependencies-in-parent">Update dependencies in parent</h1>
+
+<p>If dependencies in the parent can’t be updated exclude and update the child.</p>
+
+<p>If you are excluding do write a comment mentioning why you are excluding and if/when to remove the exlusion.</p>
+
+<p>If dependency cannot be upgraded, find a different package specially if it’s a security problem.</p>
+
+<h1 id="find-child-dependies-easier-with-maven-helper-plugin-for-intellij">Find child dependies easier with Maven Helper plugin for IntelliJ</h1>
+
+<p>It can be hard to know the subdependiencies of a dependency. <a href="https://plugins.jetbrains.com/plugin/7179-maven-helper">Maven Helper</a> plugin creates a tree that can help.</p>
+
+<p>It has options to exclude dependies too.</p>
+
+<h1 id="run-automated-tests-after-updation">Run automated tests after updation</h1>
+
+<p>Having a good automated test suit helps elevate the risks involves with updation of any kind.</p>
+
+<p>Run all your automated tests to verify if change to dependies is making the code break.</p>
+
+<h1 id="automate-updation">Automate updation</h1>
+
+<p>This can be automated by using a maven plugin like <a href="https://www.baeldung.com/maven-dependency-latest-version">Versions Maven Plugin</a></p>
+
+<p>A pipeline job can be run where version is auto-updated and merged to <code class="language-plaintext highlighter-rouge">dev</code> branch if tests are passed. :)</p>
+
+  </div>
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js" repo="ankschoubey/blog" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
+</script>
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'www.ankushchoubey.com/maven-updation/';
+      this.page.identifier = 'www.ankushchoubey.com/maven-updation/';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://ankushchoubey.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+<a class="u-url" href="/maven-updation/" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

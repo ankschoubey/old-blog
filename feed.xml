@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-27T13:37:04-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-29T13:00:42-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,39 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">When doing reactive programming, ‘aim’ to have streaming end-to-end</title><link href="www.ankushchoubey.com/reactive-streaming/" rel="alternate" type="text/html" title="When doing reactive programming, ‘aim’ to have streaming end-to-end" /><published>2022-07-24T00:00:00-05:00</published><updated>2022-07-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/reactive-streaming</id><content type="html" xml:base="www.ankushchoubey.com/reactive-streaming/">&lt;p&gt;A streaming microservice works on streams of data rather than waiting for entire data to load before performing operations.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tips on Fixing/ Upgrading Maven Dependencies</title><link href="www.ankushchoubey.com/maven-updation/" rel="alternate" type="text/html" title="Tips on Fixing/ Upgrading Maven Dependencies" /><published>2022-07-29T00:00:00-05:00</published><updated>2022-07-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/maven-updation</id><content type="html" xml:base="www.ankushchoubey.com/maven-updation/">&lt;p&gt;Updating dependencies is important. Reasons could be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;your SAST scan found a list of vulnerable dependancies&lt;/li&gt;
+  &lt;li&gt;you want to keep up with the latest.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are few things that could make the process easier.&lt;/p&gt;
+
+&lt;h1 id=&quot;update-dependencies-in-parent&quot;&gt;Update dependencies in parent&lt;/h1&gt;
+
+&lt;p&gt;If dependencies in the parent can’t be updated exclude and update the child.&lt;/p&gt;
+
+&lt;p&gt;If you are excluding do write a comment mentioning why you are excluding and if/when to remove the exlusion.&lt;/p&gt;
+
+&lt;p&gt;If dependency cannot be upgraded, find a different package specially if it’s a security problem.&lt;/p&gt;
+
+&lt;h1 id=&quot;find-child-dependies-easier-with-maven-helper-plugin-for-intellij&quot;&gt;Find child dependies easier with Maven Helper plugin for IntelliJ&lt;/h1&gt;
+
+&lt;p&gt;It can be hard to know the subdependiencies of a dependency. &lt;a href=&quot;https://plugins.jetbrains.com/plugin/7179-maven-helper&quot;&gt;Maven Helper&lt;/a&gt; plugin creates a tree that can help.&lt;/p&gt;
+
+&lt;p&gt;It has options to exclude dependies too.&lt;/p&gt;
+
+&lt;h1 id=&quot;run-automated-tests-after-updation&quot;&gt;Run automated tests after updation&lt;/h1&gt;
+
+&lt;p&gt;Having a good automated test suit helps elevate the risks involves with updation of any kind.&lt;/p&gt;
+
+&lt;p&gt;Run all your automated tests to verify if change to dependies is making the code break.&lt;/p&gt;
+
+&lt;h1 id=&quot;automate-updation&quot;&gt;Automate updation&lt;/h1&gt;
+
+&lt;p&gt;This can be automated by using a maven plugin like &lt;a href=&quot;https://www.baeldung.com/maven-dependency-latest-version&quot;&gt;Versions Maven Plugin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A pipeline job can be run where version is auto-updated and merged to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev&lt;/code&gt; branch if tests are passed. :)&lt;/p&gt;</content><author><name></name></author><category term="maven" /><category term="build-tool" /><category term="automation" /><summary type="html">Updating dependencies is important. Reasons could be: your SAST scan found a list of vulnerable dependancies you want to keep up with the latest.</summary></entry><entry><title type="html">When doing reactive programming, ‘aim’ to have streaming end-to-end</title><link href="www.ankushchoubey.com/reactive-streaming/" rel="alternate" type="text/html" title="When doing reactive programming, ‘aim’ to have streaming end-to-end" /><published>2022-07-24T00:00:00-05:00</published><updated>2022-07-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/reactive-streaming</id><content type="html" xml:base="www.ankushchoubey.com/reactive-streaming/">&lt;p&gt;A streaming microservice works on streams of data rather than waiting for entire data to load before performing operations.&lt;/p&gt;
 
 &lt;p&gt;This means by definition streaming is much high performance and therefore a good aim to have.&lt;/p&gt;
 
@@ -481,36 +513,4 @@ feat(api): add endpoint for streaming download /downloads
 
 &lt;p&gt;Now within assertion, the developer will know the exact data in both the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User&lt;/code&gt; objects.&lt;/p&gt;
 
-&lt;p&gt;This not only makes tests cleaner but also makes them funny and exciting to read.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Variable and method names provide a context that makes it easy to understand a piece of code.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/creative-variable-names.png" /><media:content medium="image" url="www.ankushchoubey.com/images/creative-variable-names.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Rules of thumbs for Distributed System</title><link href="www.ankushchoubey.com/rule-of_thumb-distributed-systems/" rel="alternate" type="text/html" title="Rules of thumbs for Distributed System" /><published>2022-06-25T00:00:00-05:00</published><updated>2022-06-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/rule-of_thumb-distributed-systems</id><content type="html" xml:base="www.ankushchoubey.com/rule-of_thumb-distributed-systems/">&lt;h1 id=&quot;dont-distribute-or-atleast-dont-distribute-early&quot;&gt;Don’t distribute. Or atleast don’t distribute early.&lt;/h1&gt;
-
-&lt;p&gt;We have a tendancy to over engineer.&lt;/p&gt;
-
-&lt;p&gt;Having distributed system creates complexity. You want to avoid complexity as much as possible. Atleast early on.&lt;/p&gt;
-
-&lt;p&gt;If a single codebase can deliver good enough performance and is small/organized enough then there is no need of distributing.&lt;/p&gt;
-
-&lt;p&gt;It’s easier to have everything very decoupled and in separate packages and then distribute things later if need arises.&lt;/p&gt;
-
-&lt;h1 id=&quot;separate-database&quot;&gt;Separate database&lt;/h1&gt;
-
-&lt;p&gt;Database for each service should be separate. Data can be shared either by having API call or by using message queue.&lt;/p&gt;
-
-&lt;p&gt;If the database is not separate, then the tendacy to make it spagati is high.&lt;/p&gt;
-
-&lt;p&gt;A potential exception to this is CQRS style services where one service writes the data and the other service reads the data. In this case, both services are highly coupled to each other.&lt;/p&gt;
-
-&lt;h1 id=&quot;prefer-event-driven-services&quot;&gt;Prefer Event Driven Services&lt;/h1&gt;
-
-&lt;p&gt;Message queues are highly decoupled and can scale very efficiently. Prefer having all internal sharing of data using message queue.&lt;/p&gt;
-
-&lt;p&gt;Preferable, publish every business object that the microservice handles.&lt;/p&gt;
-
-&lt;p&gt;This requires having good naming conventions.&lt;/p&gt;
-
-&lt;p&gt;Replication is okay in event driven microservices.&lt;/p&gt;
-
-&lt;h1 id=&quot;keep-code-and-interface-quality-damn-high&quot;&gt;Keep code and interface quality damn high.&lt;/h1&gt;
-
-&lt;p&gt;In micro-services, you have to have a very high quality interface. This means Rest APIs, Kafka messages, etc. If quality/standards are not followed, then it effects every other service.&lt;/p&gt;
-
-&lt;p&gt;In monoliths, you can almost get away with everything. Specailly if the only consumer is your frontend.&lt;/p&gt;</content><author><name></name></author><category term="distributed-systems" /><category term="microservices" /><summary type="html">Don’t distribute. Or atleast don’t distribute early.</summary></entry></feed>
+&lt;p&gt;This not only makes tests cleaner but also makes them funny and exciting to read.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Variable and method names provide a context that makes it easy to understand a piece of code.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/creative-variable-names.png" /><media:content medium="image" url="www.ankushchoubey.com/images/creative-variable-names.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
