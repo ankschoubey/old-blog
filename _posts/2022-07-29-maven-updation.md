@@ -5,7 +5,7 @@ description:
 categories: [maven, build-tool, automation]
 last_modified_at: 2022-07-24T20:52:08.052481
 last-modified-purpose:
-permalink: /maven-updation/
+permalink: /maven-dependency-upgrade/
 title: Tips on Fixing/ Upgrading Maven Dependencies
 ---
 
@@ -29,11 +29,15 @@ It can be hard to know the subdependiencies of a dependency. [Maven Helper](http
 
 It has options to exclude dependies too.
 
+![Maven Helper IntelliJ Plugin](/images/maven-dependency-upgrade/maven_helper.png)
+
 # Run automated tests after updation
 
 Having a good automated test suit helps elevate the risks involves with updation of any kind. 
 
 Run all your automated tests to verify if change to dependies is making the code break.
+
+
 
 # Automate updation
 
