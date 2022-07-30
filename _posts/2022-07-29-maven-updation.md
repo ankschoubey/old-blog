@@ -11,6 +11,7 @@ image: /images/maven-dependency-upgrade/header.svg
 ---
 ![Maven Logo From Wikipedia](/images/maven-dependency-upgrade/header.svg)
 
+> Note: For beginners: Instead of writing your code, you can include code written by other people. This is done by setting up dependencies. Maven is a java build tool that helps streamline and automate dependency management so that you don't have to manually configure things within each machine. Apart from this, maven also helps in testing, and release and has a plugin ecosystem to automate many tasks.
 
 Updating dependencies is important. Reasons could be:
 - your SAST scan found a list of vulnerable dependancies
@@ -39,8 +40,6 @@ It has options to exclude dependies too.
 Having a good automated test suit helps elevate the risks involves with updation of any kind. 
 
 Run all your automated tests to verify if change to dependies is making the code break.
-
-
 
 # Automate updation
 
