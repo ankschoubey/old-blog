@@ -218,9 +218,9 @@ window.onload = wrap_img;
 <h1 id="use-right-runner-saved-25-running-time">
 <strong>Use Right Runner</strong> (Saved 25% running time)</h1>
 
-<p>There are several runners that come with Spring boot.</p>
+<p>Several runners come with Spring Boot.</p>
 
-<p><code class="language-plaintext highlighter-rouge">@SpringBootTest</code> being the most general of them. Mostly this is used in combination with <code class="language-plaintext highlighter-rouge">@DirtiesContent</code> which will restart spring boot after every test class by default. This isn’t ideal.</p>
+<p><code class="language-plaintext highlighter-rouge">@SpringBootTest</code> is the most general of them. Mostly this is used in combination with <code class="language-plaintext highlighter-rouge">@DirtiesContent</code> which will restart spring boot after every test class by default. This isn’t ideal.</p>
 
 <p>Using <code class="language-plaintext highlighter-rouge">@SpringBootTest</code> is Integration Tests. We don’t want every test to use this.</p>
 
@@ -232,9 +232,9 @@ window.onload = wrap_img;
   <li>If tests are related to a DB. Use <code class="language-plaintext highlighter-rouge">@DataMongoTest</code> or equivalent JPA runner with <code class="language-plaintext highlighter-rouge">@Import</code> annotation.</li>
   <li>If tests are related to Web/Controller. Use <code class="language-plaintext highlighter-rouge">@WebFluxTest</code> or equivalent Spring MVC runner.</li>
   <li>
-<strong>Important</strong>: If tests require initializing a single bean. Use <code class="language-plaintext highlighter-rouge">@ExtendWith(SpringRunner.class)</code> with <code class="language-plaintext highlighter-rouge">@Import</code> to specify bean to initialize.</li>
+<strong>Important</strong>: If tests require initializing a single bean. Use <code class="language-plaintext highlighter-rouge">@ExtendWith(SpringRunner.class)</code> with <code class="language-plaintext highlighter-rouge">@Import</code> to specify the bean to initialize.</li>
   <li>If <code class="language-plaintext highlighter-rouge">@SpringBootTest</code> is required, try to use it in combination with <code class="language-plaintext highlighter-rouge">@Import</code> or <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> to limit beans creation.</li>
-  <li>The best case: Aim for Tests which are purely java based and do not involve spring boot. This ofcourse isn’t possible for every scenario.</li>
+  <li>The best case: Aim for Tests that are purely java based and do not involve spring boot. This isn’t possible for every scenario.</li>
 </ol>
 
 <hr>
@@ -242,14 +242,14 @@ window.onload = wrap_img;
 <h1 id="run-tests-in-parallel-saved-37-running-time">
 <strong>Run tests in parallel</strong> (Saved 37% running time)</h1>
 
-<p>Create a <code class="language-plaintext highlighter-rouge">junit-platform.properties</code> file in <code class="language-plaintext highlighter-rouge">test/resource/junit-platform.properties</code> and add following minimum. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>Create a <code class="language-plaintext highlighter-rouge">junit-platform.properties</code> file in <code class="language-plaintext highlighter-rouge">test/resource/junit-platform.properties</code> and add the following minimum. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
 <p><code class="language-plaintext highlighter-rouge">junit.jupiter.execution.parallel.enabled = true</code></p>
 
 <p>Now you can either use one of these,</p>
 
 <ol>
-  <li>add following to every class you want to run parallel. <code class="language-plaintext highlighter-rouge">@Execution(CONCURRENT)</code>
+  <li>add the following to every class you want to run parallel. <code class="language-plaintext highlighter-rouge">@Execution(CONCURRENT)</code>
 </li>
   <li>add more to <code class="language-plaintext highlighter-rouge">junit-platform.properties</code>
 </li>
@@ -262,11 +262,11 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 <p><img src="/images/junit-execution-mode.svg" alt="">
 <sup id="fnref:1:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
-<p>I prefer first method of using <code class="language-plaintext highlighter-rouge">@Execution(CONCURRENT)</code> because some of my tests weren’t designed to run in parallel.</p>
+<p>I prefer the first method of using <code class="language-plaintext highlighter-rouge">@Execution(CONCURRENT)</code> because some of my tests weren’t designed to run in parallel.</p>
 
 <p>I found data tests with <code class="language-plaintext highlighter-rouge">@DataMongoTest</code> by asserting over different data.</p>
 
-<p>Another positive sideeffect of having <code class="language-plaintext highlighter-rouge">@Execution(CONCURRENT)</code> is that these tests run first. And since these tests are faster, they lead to faster feedback.</p>
+<p>Another positive side effect of having <code class="language-plaintext highlighter-rouge">@Execution(CONCURRENT)</code> is that these tests run first. And since these tests are faster, they lead to faster feedback.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
