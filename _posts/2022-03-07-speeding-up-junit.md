@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-description: From 8 minutes to 3 minutes.
+description: From 8 minutes to less than 3 minutes.
 categories: [spring-boot, testing]
-last_modified_at: 2022-03-07T20:52:08.052481
+last_modified_at: 2022-07-30T20:52:08.052481
 last-modified-purpose:
 permalink: /spring-boot-junit-faster/
 title: Speeding Up Existing Spring Boot/JUnit tests
@@ -18,7 +18,7 @@ Some of these are
 
 ***
 
-# **Use Right Runner** (Saved 25% running time)
+# **Use Right Test Slice** (Saved 25% running time)
 
 Several runners come with Spring Boot. 
 
@@ -28,13 +28,22 @@ Using `@SpringBootTest` is Integration Tests. We don't want every test to use th
 
 We want to load the minimum spring-boot infrastructure as possible and still ensure accurate tests.
 
-There are a few that can be used.
+There are a few that can be done:
 
 1. If tests are related to a DB. Use `@DataMongoTest` or equivalent JPA runner with `@Import` annotation.
-2. If tests are related to Web/Controller. Use `@WebFluxTest` or equivalent Spring MVC runner.
+2. If tests are related to Web/Controller. Use `@WebFluxTest` or equivalent Spring MVC runner. If you want to use embedded MongoDB with it use `@AutoConfigureDataMongo`. Most other systems also have annotations starting with `@AutoConfigure{systemName}`
 3. **Important**: If tests require initializing a single bean. Use `@ExtendWith(SpringRunner.class)` with `@Import` to specify the bean to initialize.
-4. If `@SpringBootTest` is required, try to use it in combination with `@Import` or `@ContextConfiguration` to limit beans creation.
-5. The best case: Aim for Tests that are purely java based and do not involve spring boot. This isn't possible for every scenario.
+4. The best case: Aim for Tests that are purely java based and do not involve spring boot. This isn't possible for every scenario.
+
+# **Speeding up @SpringBootTest and avoiding @DirtiesContext** (Saved 25% running time)
+
+`@DirtiesContext` is an annotation that recreated the Spring Context after each test or each test class. To avoid using `@DirtiesContext`, make sure all your tests don't depend on the same data. For this, you can wrap your data creation in a [test data factory](/test-data-factories) and ensure the data produced is random.
+
+As previously mentioned, one should avoid using `@SpringBootTest` but in case you can't do without it, make sure you use `WebEnvironment.MOCK`  without `@DirtiesContext`.
+
+`@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)`
+
+Try to use it in combination with `@Import` or `@ContextConfiguration` to limit beans creation.
 
 ***
 
