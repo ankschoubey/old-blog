@@ -7,6 +7,7 @@ last_modified_at: 2022-07-24T20:52:08.052481
 last-modified-purpose:
 permalink: /maven-dependency-upgrade/
 title: Tips on Fixing/ Upgrading Maven Dependencies
+image: /images/maven-dependency-upgrade/header.svg
 ---
 
 Updating dependencies is important. Reasons could be:
