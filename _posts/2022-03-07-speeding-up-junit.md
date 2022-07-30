@@ -7,7 +7,9 @@ last_modified_at: 2022-07-30T20:52:08.052481
 last-modified-purpose:
 permalink: /spring-boot-junit-faster/
 title: Speeding Up Existing Spring Boot/JUnit tests
+image: /images/spring-boot-junit-faster/header.png
 ---
+![JUnit Logo](/images/spring-boot-junit-faster/header.png)
 
 There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.
 
