@@ -11,7 +11,7 @@ image: /images/maven-dependency-upgrade/header.svg
 ---
 ![Maven Logo From Wikipedia](/images/maven-dependency-upgrade/header.svg)
 
-> Note: For beginners: Instead of writing your code, you can include code written by other people. This is done by setting up dependencies. Maven is a java build tool that helps streamline and automate dependency management so that you don't have to manually configure things within each machine. Apart from this, maven also helps in testing, and release and has a plugin ecosystem to automate many tasks.
+{$ include note.html content="**For beginners**: Instead of writing your code, you can include code written by other people. This is done by setting up dependencies. Maven is a java build tool that helps streamline and automate dependency management so that you don't have to manually configure things within each machine. Apart from this, maven also helps in testing, and release and has a plugin ecosystem to automate many tasks." $}
 
 Updating dependencies is important. Reasons could be:
 - your SAST scan found a list of vulnerable dependancies

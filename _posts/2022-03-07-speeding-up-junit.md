@@ -11,6 +11,8 @@ image: /images/spring-boot-junit-faster/header.png
 ---
 ![JUnit Logo](/images/spring-boot-junit-faster/header.png)
 
+{$ include note.html content="For beginners: Tests provide fast feedback to your code and ensure everything works the way you intended. Having faster tests help get faster feedback and ensure your integration and deployment pipelines work faster." $}
+
 There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.
 
 Some of these are
