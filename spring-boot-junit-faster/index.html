@@ -88,6 +88,7 @@ window.onload = wrap_img;
     elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
     });
 </script>
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 <header class="site-header">
@@ -206,6 +207,8 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <p><img src="/images/spring-boot-junit-faster/header.png" alt="JUnit Logo"></p>
+
+<p>{$ include note.html content=”For beginners: Tests provide fast feedback to your code and ensure everything works the way you intended. Having faster tests help get faster feedback and ensure your integration and deployment pipelines work faster.” $}</p>
 
 <p>There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.</p>
 
