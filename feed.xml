@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-07-30T02:11:59-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-06T09:23:26-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,38 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Tips on fixing and upgrading Maven Dependencies</title><link href="www.ankushchoubey.com/maven-dependency-upgrade/" rel="alternate" type="text/html" title="Tips on fixing and upgrading Maven Dependencies" /><published>2022-07-29T00:00:00-05:00</published><updated>2022-07-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/maven-updation</id><content type="html" xml:base="www.ankushchoubey.com/maven-dependency-upgrade/">&lt;p&gt;&lt;img src=&quot;/images/maven-dependency-upgrade/header.svg&quot; alt=&quot;Maven Logo From Wikipedia&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pre-save Data Validation</title><link href="www.ankushchoubey.com/pre-save-data-validation/" rel="alternate" type="text/html" title="Pre-save Data Validation" /><published>2022-08-06T00:00:00-05:00</published><updated>2022-08-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/pre-save-data-validation</id><content type="html" xml:base="www.ankushchoubey.com/pre-save-data-validation/">&lt;p&gt;It’s very important to have good data validations in place. Because often data leads to more bugs even when logic with working properly.&lt;/p&gt;
+
+&lt;p&gt;Data errors can be:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;null values in the database or from an external system&lt;/li&gt;
+  &lt;li&gt;expecting values to be positive by getting negative ones.&lt;/li&gt;
+  &lt;li&gt;expecting a field to have a certain format but getting something else&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once you are discovered a data error, you have to run data migration.&lt;/p&gt;
+
+&lt;p&gt;To mitigate this, you have to make sure your data is valid before even saving it to DB.&lt;/p&gt;
+
+&lt;h1 id=&quot;only-allows-certain-data&quot;&gt;Only allows certain data&lt;/h1&gt;
+
+&lt;p&gt;For both frontend and backend, you minimize data problems by only allowing it for certain fields.&lt;/p&gt;
+
+&lt;h1 id=&quot;validate-on-frontend&quot;&gt;Validate on frontend&lt;/h1&gt;
+
+&lt;p&gt;Libraries like &lt;a href=&quot;https://formik.org/&quot;&gt;formik&lt;/a&gt; and &lt;a href=&quot;https://github.com/jquense/yup&quot;&gt;yup&lt;/a&gt; can help perform object and user input validation.&lt;/p&gt;
+
+&lt;p&gt;Using typescript is only helpful to know the exact names of the variable or keys within an object. Since it gets converted to javascript, it can’t be used for the validation of data types.&lt;/p&gt;
+
+&lt;h1 id=&quot;validate-on-the-backend&quot;&gt;Validate on the backend&lt;/h1&gt;
+
+&lt;p&gt;In Java specifically, you have JSR Validators.&lt;/p&gt;
+
+&lt;p&gt;Use in all POJOs, especially for incoming request objects and entity objects.&lt;/p&gt;
+
+&lt;p&gt;You can also &lt;a href=&quot;https://www.baeldung.com/spring-mvc-custom-validator&quot;&gt;create custom validators&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Using enums is also an option.&lt;/p&gt;</content><author><name></name></author><category term="data" /><category term="clean-code" /><summary type="html">It’s very important to have good data validations in place. Because often data leads to more bugs even when logic with working properly.</summary></entry><entry><title type="html">Tips on fixing and upgrading Maven Dependencies</title><link href="www.ankushchoubey.com/maven-dependency-upgrade/" rel="alternate" type="text/html" title="Tips on fixing and upgrading Maven Dependencies" /><published>2022-07-29T00:00:00-05:00</published><updated>2022-07-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/maven-updation</id><content type="html" xml:base="www.ankushchoubey.com/maven-dependency-upgrade/">&lt;p&gt;&lt;img src=&quot;/images/maven-dependency-upgrade/header.svg&quot; alt=&quot;Maven Logo From Wikipedia&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;{$ include note.html content=”&lt;strong&gt;For beginners&lt;/strong&gt;: Instead of writing your code, you can include code written by other people. This is done by setting up dependencies. Maven is a java build tool that helps streamline and automate dependency management so that you don’t have to manually configure things within each machine. Apart from this, maven also helps in testing, and release and has a plugin ecosystem to automate many tasks.” $}&lt;/p&gt;
 
@@ -465,58 +496,4 @@ feat(api): add endpoint for streaming download /downloads
       &lt;p&gt;Austin Lewis &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="communication" /><category term="team-work" /><category term="non-professional" /><summary type="html">Principles about boundaries</summary></entry><entry><title type="html">Writing cleaner tests with creative variable names</title><link href="www.ankushchoubey.com/creative-variable-names/" rel="alternate" type="text/html" title="Writing cleaner tests with creative variable names" /><published>2022-06-25T00:00:00-05:00</published><updated>2022-06-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/tests-creative-variable-names</id><content type="html" xml:base="www.ankushchoubey.com/creative-variable-names/">&lt;p&gt;Variable and method names provide a context that makes it easy to understand a piece of code.&lt;/p&gt;
-
-&lt;p&gt;Typically in code, it’s enough to have the same variable name as the class name.&lt;/p&gt;
-
-&lt;p&gt;So for example, if you have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User&lt;/code&gt; class, the object name could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getFirstName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getLastName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This looks good in code but gets messy in tests especially when there are multiple instances of the same object.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user 1 first name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;user 1 last name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user 2 first name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;user 1 last name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...);&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// someAssertionThatUses user1 And user2&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;A better approach is to use a &lt;a href=&quot;/test-data-factories&quot;&gt;TestData class&lt;/a&gt; which I have described in a separate blogpost&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserTestData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user 1 first name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;user 1 last name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserTestData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user 2 first name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;user 1 last name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// someAssertionThatUses user1 And user2&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In the above statement, having the factory &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UserTestData.Given.aUser&lt;/code&gt; encapsulates creation making the test a bit cleaner.&lt;/p&gt;
-
-&lt;p&gt;But still, at the end of the test in the assertions section, the coder will have to remember what the data in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user2&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;A better way is to have creative variable names here.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tonyStark&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserTestData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Tony&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Stark&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;steveRoggers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserTestData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;aUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Steve&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Roggers&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// someAssertionThatUses tonyStark And steveRogers&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Now within assertion, the developer will know the exact data in both the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User&lt;/code&gt; objects.&lt;/p&gt;
-
-&lt;p&gt;This not only makes tests cleaner but also makes them funny and exciting to read.&lt;/p&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">Variable and method names provide a context that makes it easy to understand a piece of code.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/creative-variable-names.png" /><media:content medium="image" url="www.ankushchoubey.com/images/creative-variable-names.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="communication" /><category term="team-work" /><category term="non-professional" /><summary type="html">Principles about boundaries</summary></entry></feed>
