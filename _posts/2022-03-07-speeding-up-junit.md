@@ -17,7 +17,8 @@ There are several ways I recently discovered that increase speed on Spring Boot 
 
 Some of these are
 
-1. Use Right Runner (Saved 25% running time)
+1. Use Right Test Slice (Saved 25% running time)
+2. Speeding up @SpringBootTest and avoiding @DirtiesContext (Saved 25% running time)
 2. Run tests in parallel (Saved 37% running time)
 
 ***
