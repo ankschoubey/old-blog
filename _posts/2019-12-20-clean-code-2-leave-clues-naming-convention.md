@@ -2,14 +2,15 @@
 toc: true
 layout: post
 comments: true
-description: Naming conventions
+description: Comments and Naming Conventions
 categories: [clean-code]
-last_modified_at: 2019-12-20T20:42:15.089636
+last_modified_at: 2022-08-06T20:42:15.089636
 title: Leave Clues
 permalink: /naming_conventions/
+last-modified-purpose: "added detail about javadocs"
 ---
 
-These apply to name everything: variable, class names, methods, package, etc.
+These apply to name everything: variables, class names, methods, packages, etc.
 
 > **When** **you** **have** the **semantic model** **fresh** in your mind **it’s easy to** **map** your **code** **onto** **it**
 
@@ -27,7 +28,21 @@ Ideally, your code should be **so good that you do not require comments**.
 
 This might not be true in one case which is when you code something weird and required **domain-specific explanation**.
 
-Like in Machine Learning, a choice of certain parameters or a certain step can be understood better by putting the link to explanation/research paper in the comment. While reading just the code, it might not be obvious for the reader to understand what to make of it. (_Source: Jeremy Howard fast.ai_).
+When something is non-obvious put a comment.
+
+Like in Machine Learning, a choice of certain parameters or a certain step can be understood better by putting the link to the explanation/research paper in the comment. While reading just the code, it might not be obvious for the reader to understand what to make of it. (_Source: Jeremy Howard fast.ai_).
+
+Similarly, if you are using an external API, you can mention it in the comments.
+
+Sometimes, you might want to link to a specific piece of code, in that case, you might use the javadoc format
+
+```java
+/**
+ * @see String#toLowerCase() convertToLowerCase
+ */
+```
+
+javadocs are interesting if you want to write good comments.
 
 ## Intent giving names
 
@@ -53,7 +68,7 @@ Source: [Gayle Laakmann McDowell (Cracking the Coding Interview Book)](http://ww
 
 # Abbreviations and short forms
 
-Many people try to optimize for vertical space of the screen but forget horizontal space.
+Many people try to optimize for the vertical space of the screen but forget horizontal space.
 
 This is kind of an exception to the above rule: for things that are very very common, short forms are better. (You also type less).
 
@@ -109,7 +124,7 @@ There are also language-specific naming conventions involved like:
 
 ## For Unit test cases
 
-My aim is not so much about reducing the lines of code. Tests are usually small. (In case if your tests are huge and complex then you must have written a bad code)
+My aim is not so much about reducing the lines of code. Tests are usually small. (In case your tests are huge and complex then you must have written a bad code)
 
 I prefer to keep the end of each method the same. Like:
 
@@ -131,7 +146,7 @@ An alternative to the above assertion is to write like below which I find to be 
 
 ![Code was taken and modified from Unit tests with Mockito — Tutorial]({{ site.baseurl }}/images/2019-12-20-clean-code-2-leave-clues-naming-convention/7.png)
 
-**Previous**: [Flat is better than nested]({{ site.baseurl }}/clean%20code/2019/12/20/clean-code-1-flat-is-better-than-nested-leave-when-not-okay.html)
+**Previous**: [Flat is better than nested](clean-code-1-flat-is-better-than-nested-leave-when-not-okay.html)
 
 **Next**: [Avoid creating god classes and long methods](https://medium.com/p/f3d76b1b622a) #NotEnoughChunks
 
