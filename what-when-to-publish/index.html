@@ -11,15 +11,15 @@
 <meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="What and when to publish on message queue">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="TLDR: Publish every business entities on each update/write. 1 Anadi Misra ↩">
-<meta property="og:description" content="TLDR: Publish every business entities on each update/write. 1 Anadi Misra ↩">
+<meta name="description" content="Publishing Every Business Entity on each update/write. 1 Anadi Misra ↩">
+<meta property="og:description" content="Publishing Every Business Entity on each update/write. 1 Anadi Misra ↩">
 <link rel="canonical" href="www.ankushchoubey.com/what-when-to-publish/">
 <meta property="og:url" content="www.ankushchoubey.com/what-when-to-publish/">
 <meta property="og:site_name" content="Ankush">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-04-27T00:00:00-05:00">
 <script type="application/ld+json">
-{"datePublished":"2022-04-27T00:00:00-05:00","url":"www.ankushchoubey.com/what-when-to-publish/","@type":"BlogPosting","headline":"What and when to publish on message queue","dateModified":"2022-04-27T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/what-when-to-publish/"},"description":"TLDR: Publish every business entities on each update/write. 1 Anadi Misra &#8617;","@context":"https://schema.org"}</script>
+{"datePublished":"2022-04-27T00:00:00-05:00","url":"www.ankushchoubey.com/what-when-to-publish/","@type":"BlogPosting","headline":"What and when to publish on message queue","dateModified":"2022-08-07T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/what-when-to-publish/"},"description":"Publishing Every Business Entity on each update/write. 1 Anadi Misra &#8617;","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -128,8 +128,8 @@ window.onload = wrap_img;
 
     <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-04-27T00:00:00-05:00" itemprop="datePublished">
         Written: Apr 27, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-04-27T15:52:08-05:00" itemprop="dateModified">
-          Updated: Apr 27, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-08-07T15:52:08-05:00" itemprop="dateModified">
+          Updated: Aug 7, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -203,11 +203,12 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>TLDR: Publish every business entities on each update/write. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+    <h1 id="publishing-every-business-entity-on-each-updatewrite-">Publishing Every Business Entity on each update/write. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
+</h1>
 
-<p>This is specially true for event driven systems.</p>
+<p>Publishing every business entity is especially useful for event-driven systems.</p>
 
-<p>Rather than writing code to manually publish after each save, we can make use of event listeners. Event listeners would run a piece of code each time a certain event like database save occurs.</p>
+<p>Rather than writing code to publish after each saves manually, we can use event listeners. Event listeners would run a piece of code each time a specific event like database save occurs.</p>
 
 <p>For example: Spring Data Mongo has <code class="language-plaintext highlighter-rouge">AbstractEventListener</code> and <code class="language-plaintext highlighter-rouge">ReactiveAfterSaveCallback</code>.</p>
 
@@ -225,7 +226,20 @@ window.onload = wrap_img;
 <span class="o">}</span>
 </code></pre></div></div>
 
-<p>In above, Spring Webflux code, publishOn and subscribe ensure that publishing will run in a separate thread and doesn’t effect execution of the main thread.</p>
+<p>Above, Spring Webflux code, publishOn and subscribe ensure that publishing will run in a separate thread and doesn’t affect the execution of the main thread.</p>
+
+<h1 id="publishing-commands">Publishing Commands</h1>
+
+<p>In the CQRS pattern, we publish every command instead of the end state. It’s the consumer’s responsibility to choose how to interpret that command.</p>
+
+<p>For example, a command could be</p>
+
+<ol>
+  <li>Movie object “Thor” was created for the USA with Id 1. Actor: “Chris Hemsworth”</li>
+  <li>Movie object was updated. Name = “Thor: Ragnarok” for id 1.</li>
+</ol>
+
+<p>A consumer service would be caring about counting movies by “Chris Hemsworth”. It would ignore the second message since it isn’t valuable for it.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
