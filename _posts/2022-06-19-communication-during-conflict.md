@@ -8,6 +8,7 @@ last-modified-purpose:
 permalink: /communication-during-conflict/
 title: Communication during conflict
 image: /images/communication-during-conflict.jpg
+toc: true
 ---
 ![](/images/communication-during-conflict.jpeg)
 

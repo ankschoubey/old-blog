@@ -7,6 +7,7 @@ last_modified_at: 2022-06-19T20:52:08.052481
 last-modified-purpose:
 permalink: /social-confidence/
 title: Reason to aim for social confidence
+toc: true
 ---
 
 The reason to have social confidence is this: If you don't, no one takes you or your arguments seriously.

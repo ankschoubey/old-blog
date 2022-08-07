@@ -11,6 +11,7 @@ hide: true
 image: /images/n-plus-one.svg
 rewrote-count: 1
 modified-count: 1
+toc: true
 ---
 ![](/images/switch-jobs.jpg)
 

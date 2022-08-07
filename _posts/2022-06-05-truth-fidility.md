@@ -8,6 +8,7 @@ last-modified-purpose:
 permalink: /truth-fidility/
 title: Truth and Fidility
 image: /images/truth-fidility.jpg
+toc: true
 ---
 ![](/images/truth-fidility.jpg)
 

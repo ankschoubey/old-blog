@@ -8,6 +8,7 @@ last-modified-purpose:
 permalink: /atomic-commits/
 title: Writing better commits with Atomic Commits
 image: /images/atomic-commits.svg
+toc: true
 ---
 
 # What is the problem with larger commits?

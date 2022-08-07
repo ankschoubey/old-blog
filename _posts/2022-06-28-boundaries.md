@@ -7,6 +7,7 @@ last_modified_at: 2022-06-28T20:52:08.052481
 last-modified-purpose:
 permalink: /boundaries/
 title: Thoughts on Boundaries
+toc: true
 ---
 
 # Principles about boundaries

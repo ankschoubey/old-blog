@@ -7,6 +7,7 @@ last_modified_at: 2022-08-07T20:52:08.052481
 last-modified-purpose:
 permalink: /mutation-testing/
 title: Mutation Testing
+toc: true
 ---
 
 I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can't predict real-world scenarios.
