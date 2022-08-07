@@ -9,26 +9,28 @@ permalink: /pre-save-data-validation/
 title: Pre-save Data Validation
 ---
 
-It’s very important to have good data validations in place. Because often data leads to more bugs even when logic with working properly.
+It's imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.
 
 Data errors can be:
 1. null values in the database or from an external system
 2. expecting values to be positive by getting negative ones.
-3. expecting a field to have a certain format but getting something else
+3. expecting a field to have a specific format but getting something else
 
-Once you are discovered a data error, you have to run data migration.
+The only solution to a data error is running data migrations which is an unnecessary overhead.
 
-To mitigate this, you have to make sure your data is valid before even saving it to DB.
+Therefore, we should ensure that data is validated before it reaches DB.
 
 # Only allows certain data
 
-For both frontend and backend, you minimize data problems by only allowing it for certain fields.
+You minimize data problems by only allowing it for specific fields. 
+
+On a UI, it could be dropdowns, date fields with range, and auto-completion options.
 
 # Validate on frontend
 
 Libraries like [formik](https://formik.org/) and [yup](https://github.com/jquense/yup) can help perform object and user input validation.
 
-Using typescript is only helpful to know the exact names of the variable or keys within an object. Since it gets converted to javascript, it can't be used for the validation of data types.
+Typescript is only helpful in knowing the exact names of the variable, its type or keys within an object. Since it gets converted to javascript, typescript can't be used to validate data types.
 
 # Validate on the backend
 
