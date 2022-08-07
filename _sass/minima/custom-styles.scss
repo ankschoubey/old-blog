@@ -15,7 +15,9 @@
 @import "./accordian.scss"; 
 
 .site-header {
-    border-bottom: 0px;
+    position: sticky;
+    top: 0px;
+    background: white;
 }
 .site-title {
     color: #42424200 !important;
