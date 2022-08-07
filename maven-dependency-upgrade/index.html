@@ -206,7 +206,13 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/maven-dependency-upgrade/header.svg" alt="Maven Logo From Wikipedia"></p>
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#update-dependencies-in-parent">Update dependencies in parent</a></li>
+<li class="toc-entry toc-h1"><a href="#find-child-dependies-easier-with-maven-helper-plugin-for-intellij">Find child dependies easier with Maven Helper plugin for IntelliJ</a></li>
+<li class="toc-entry toc-h1"><a href="#run-automated-tests-after-updation">Run automated tests after updation</a></li>
+<li class="toc-entry toc-h1"><a href="#automate-updation">Automate updation</a></li>
+</ul>
+<p><img src="/images/maven-dependency-upgrade/header.svg" alt="Maven Logo From Wikipedia"></p>
 
 <p>{$ include note.html content=”<strong>For beginners</strong>: Instead of writing your code, you can include code written by other people. This is done by setting up dependencies. Maven is a java build tool that helps streamline and automate dependency management so that you don’t have to manually configure things within each machine. Apart from this, maven also helps in testing, and release and has a plugin ecosystem to automate many tasks.” $}</p>
 
@@ -218,7 +224,8 @@ window.onload = wrap_img;
 
 <p>Here are few things that could make the process easier.</p>
 
-<h1 id="update-dependencies-in-parent">Update dependencies in parent</h1>
+<h1 id="update-dependencies-in-parent">
+<a class="anchor" href="#update-dependencies-in-parent" aria-hidden="true"><span class="octicon octicon-link"></span></a>Update dependencies in parent</h1>
 
 <p>If dependencies in the parent can’t be updated exclude and update the child.</p>
 
@@ -226,7 +233,8 @@ window.onload = wrap_img;
 
 <p>If dependency cannot be upgraded, find a different package specially if it’s a security problem.</p>
 
-<h1 id="find-child-dependies-easier-with-maven-helper-plugin-for-intellij">Find child dependies easier with Maven Helper plugin for IntelliJ</h1>
+<h1 id="find-child-dependies-easier-with-maven-helper-plugin-for-intellij">
+<a class="anchor" href="#find-child-dependies-easier-with-maven-helper-plugin-for-intellij" aria-hidden="true"><span class="octicon octicon-link"></span></a>Find child dependies easier with Maven Helper plugin for IntelliJ</h1>
 
 <p>It can be hard to know the subdependiencies of a dependency. <a href="https://plugins.jetbrains.com/plugin/7179-maven-helper">Maven Helper</a> plugin creates a tree that can help.</p>
 
@@ -234,13 +242,15 @@ window.onload = wrap_img;
 
 <p><img src="/images/maven-dependency-upgrade/maven_helper.png" alt="Maven Helper IntelliJ Plugin"></p>
 
-<h1 id="run-automated-tests-after-updation">Run automated tests after updation</h1>
+<h1 id="run-automated-tests-after-updation">
+<a class="anchor" href="#run-automated-tests-after-updation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run automated tests after updation</h1>
 
 <p>Having a good automated test suit helps elevate the risks involves with updation of any kind.</p>
 
 <p>Run all your automated tests to verify if change to dependies is making the code break.</p>
 
-<h1 id="automate-updation">Automate updation</h1>
+<h1 id="automate-updation">
+<a class="anchor" href="#automate-updation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Automate updation</h1>
 
 <p>This can be automated by using a maven plugin like <a href="https://www.baeldung.com/maven-dependency-latest-version">Versions Maven Plugin</a></p>
 

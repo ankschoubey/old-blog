@@ -203,13 +203,21 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.</p>
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#what-is-mutation-testing">What is mutation testing?</a></li>
+<li class="toc-entry toc-h1"><a href="#how-accurate-is-mutation-testing">How accurate is mutation testing?</a></li>
+<li class="toc-entry toc-h1"><a href="#comparing-mutation-coverage-with-code-coverage-what-should-mutation-coverage-be">Comparing mutation coverage with code coverage. What should mutation coverage be?</a></li>
+<li class="toc-entry toc-h1"><a href="#how-to-speed-up-mutation-testing">How to speed up mutation testing?</a></li>
+<li class="toc-entry toc-h1"><a href="#resource">Resource</a></li>
+</ul>
+<p>I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.</p>
 
 <p>For example: If we have a String coming from the external system, it can be null.</p>
 
 <p>We can have a repository of known issues and remember them. A form of threat-modelling/chaos engineering for logic. It’s also helpful to offload such a task to an automated test. That test is mutation testing.</p>
 
-<h1 id="what-is-mutation-testing">What is mutation testing?</h1>
+<h1 id="what-is-mutation-testing">
+<a class="anchor" href="#what-is-mutation-testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is mutation testing?</h1>
 
 <p>Assuming you wrote a test for a piece of code passes. If there are changes to the code, the test should fail.</p>
 
@@ -225,7 +233,8 @@ window.onload = wrap_img;
 
 <p>Mutation testing improves both code and tests.</p>
 
-<h1 id="how-accurate-is-mutation-testing">How accurate is mutation testing?</h1>
+<h1 id="how-accurate-is-mutation-testing">
+<a class="anchor" href="#how-accurate-is-mutation-testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>How accurate is mutation testing?</h1>
 
 <p>Sometimes mutation testing produces garbage responses. Like when a mutant removes a log line.</p>
 
@@ -241,7 +250,8 @@ window.onload = wrap_img;
 
 <p>Mutation tests may not discover anything useful if your test quality is already high. But that’s the point. Right? A fallback safety might discover things early in the SDLC process.</p>
 
-<h1 id="comparing-mutation-coverage-with-code-coverage-what-should-mutation-coverage-be">Comparing mutation coverage with code coverage. What should mutation coverage be?</h1>
+<h1 id="comparing-mutation-coverage-with-code-coverage-what-should-mutation-coverage-be">
+<a class="anchor" href="#comparing-mutation-coverage-with-code-coverage-what-should-mutation-coverage-be" aria-hidden="true"><span class="octicon octicon-link"></span></a>Comparing mutation coverage with code coverage. What should mutation coverage be?</h1>
 
 <p>During a test, a piece of code can be executed. But unless a specific assertion is applied, it isn’t tested.</p>
 
@@ -253,7 +263,8 @@ window.onload = wrap_img;
 
 <p>For mutation coverage, my current answer is that sometimes mutation results aren’t good enough.</p>
 
-<h1 id="how-to-speed-up-mutation-testing">How to speed up mutation testing?</h1>
+<h1 id="how-to-speed-up-mutation-testing">
+<a class="anchor" href="#how-to-speed-up-mutation-testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to speed up mutation testing?</h1>
 
 <ul>
   <li>Make sure your tests without mutation testing is already fast.</li>
@@ -264,7 +275,8 @@ window.onload = wrap_img;
   <li>Multiple threads</li>
 </ul>
 
-<h1 id="resource">Resource</h1>
+<h1 id="resource">
+<a class="anchor" href="#resource" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resource</h1>
 
 <ul>
   <li><a href="https://pitest.org/quickstart/mutators/">PIT - Mutation Testing Library for Java</a></li>
