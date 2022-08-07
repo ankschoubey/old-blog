@@ -3,17 +3,17 @@ layout: post
 comments: true
 description:
 categories: [spring-boot, message-queue]
-last_modified_at: 2022-04-27T20:52:08.052481
-last-modified-purpose:
+last_modified_at: 2022-08-07T20:52:08.052481
+last-modified-purpose: added CQRS
 permalink: /what-when-to-publish/
 title: What and when to publish on message queue
 ---
 
-TLDR: Publish every business entities on each update/write. [^1]
+# Publishing Every Business Entity on each update/write. [^1]
 
-This is specially true for event driven systems.
+Publishing every business entity is especially useful for event-driven systems.
 
-Rather than writing code to manually publish after each save, we can make use of event listeners. Event listeners would run a piece of code each time a certain event like database save occurs.
+Rather than writing code to publish after each saves manually, we can use event listeners. Event listeners would run a piece of code each time a specific event like database save occurs.
 
 For example: Spring Data Mongo has `AbstractEventListener` and `ReactiveAfterSaveCallback`. 
 
@@ -32,6 +32,17 @@ class SampleEntityDataPublisher implements ReactiveAfterSaveCallback<SampleEntit
 }
 ```
 
-In above, Spring Webflux code, publishOn and subscribe ensure that publishing will run in a separate thread and doesn't effect execution of the main thread.
+Above, Spring Webflux code, publishOn and subscribe ensure that publishing will run in a separate thread and doesn't affect the execution of the main thread.
+
+# Publishing Commands
+
+In the CQRS pattern, we publish every command instead of the end state. It's the consumer's responsibility to choose how to interpret that command.
+
+For example, a command could be
+
+1. Movie object "Thor" was created for the USA with Id 1. Actor: "Chris Hemsworth"
+2. Movie object was updated. Name = "Thor: Ragnarok" for id 1.
+
+A consumer service would be caring about counting movies by "Chris Hemsworth". It would ignore the second message since it isn't valuable for it.
 
 [^1]: Anadi Misra
