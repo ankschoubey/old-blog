@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-06T09:37:03-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-07T04:26:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,28 +51,94 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pre-save Data Validation</title><link href="www.ankushchoubey.com/pre-save-data-validation/" rel="alternate" type="text/html" title="Pre-save Data Validation" /><published>2022-08-06T00:00:00-05:00</published><updated>2022-08-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/pre-save-data-validation</id><content type="html" xml:base="www.ankushchoubey.com/pre-save-data-validation/">&lt;p&gt;It’s very important to have good data validations in place. Because often data leads to more bugs even when logic with working properly.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mutation Testing</title><link href="www.ankushchoubey.com/mutation-testing/" rel="alternate" type="text/html" title="Mutation Testing" /><published>2022-08-07T00:00:00-05:00</published><updated>2022-08-07T15:52:08-05:00</updated><id>www.ankushchoubey.com/mutation-testing</id><content type="html" xml:base="www.ankushchoubey.com/mutation-testing/">&lt;p&gt;I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.&lt;/p&gt;
+
+&lt;p&gt;For example: If we have a String coming from the external system, it can be null.&lt;/p&gt;
+
+&lt;p&gt;We can have a repository of known issues and remember them. A form of threat-modelling/chaos engineering for logic. It’s also helpful to offload such a task to an automated test. That test is mutation testing.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-mutation-testing&quot;&gt;What is mutation testing?&lt;/h1&gt;
+
+&lt;p&gt;Assuming you wrote a test for a piece of code passes. If there are changes to the code, the test should fail.&lt;/p&gt;
+
+&lt;p&gt;That is what mutation testing does. Mutation testing mutates (modifies) the code and checks if tests fail. If the test passes, then we know the test isn’t accurate.&lt;/p&gt;
+
+&lt;p&gt;Tests not being accurate can mean two things:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Either the scenario isn’t covered.&lt;/li&gt;
+  &lt;li&gt;Or assertion isn’t accurate enough.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In both cases, once we have uncovered a mutant, we can update our test and code to handle the situation.&lt;/p&gt;
+
+&lt;p&gt;Mutation testing improves both code and tests.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-accurate-is-mutation-testing&quot;&gt;How accurate is mutation testing?&lt;/h1&gt;
+
+&lt;p&gt;Sometimes mutation testing produces garbage responses. Like when a mutant removes a log line.&lt;/p&gt;
+
+&lt;p&gt;Similarly, for specific autogenerated codes, we don’t need mutations.&lt;/p&gt;
+
+&lt;p&gt;Sometimes it’s just garbage. But sometimes, it does uncover accurate details.&lt;/p&gt;
+
+&lt;p&gt;The accuracy of mutation testing depends on the application, selected mutants, and current test quality.&lt;/p&gt;
+
+&lt;p&gt;If the application is simple like CRUD, mutation tests might not uncover anything.&lt;/p&gt;
+
+&lt;p&gt;If the types of mutants selected don’t fit your particular application, then mutations might not uncover anything.&lt;/p&gt;
+
+&lt;p&gt;Mutation tests may not discover anything useful if your test quality is already high. But that’s the point. Right? A fallback safety might discover things early in the SDLC process.&lt;/p&gt;
+
+&lt;h1 id=&quot;comparing-mutation-coverage-with-code-coverage-what-should-mutation-coverage-be&quot;&gt;Comparing mutation coverage with code coverage. What should mutation coverage be?&lt;/h1&gt;
+
+&lt;p&gt;During a test, a piece of code can be executed. But unless a specific assertion is applied, it isn’t tested.&lt;/p&gt;
+
+&lt;p&gt;Code coverage can be high even without any assertion. Mutation coverage cannot be high if there are no assertions.&lt;/p&gt;
+
+&lt;p&gt;Mutation coverage depends on code coverage. If a code isn’t reachable, mutating that code will not affect the test.&lt;/p&gt;
+
+&lt;p&gt;So aim for high code coverage.&lt;/p&gt;
+
+&lt;p&gt;For mutation coverage, my current answer is that sometimes mutation results aren’t good enough.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-speed-up-mutation-testing&quot;&gt;How to speed up mutation testing?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make sure your tests without mutation testing is already fast.&lt;/li&gt;
+  &lt;li&gt;Exclude POJO classes.&lt;/li&gt;
+  &lt;li&gt;Select the right mutators. Read &lt;a href=&quot;https://blog.pitest.org/less-is-more/&quot;&gt;“Less is More”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Use history so that tests don’t repeat.&lt;/li&gt;
+  &lt;li&gt;Multiple threads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resource&quot;&gt;Resource&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pitest.org/quickstart/mutators/&quot;&gt;PIT - Mutation Testing Library for Java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.</summary></entry><entry><title type="html">Pre-save Data Validation</title><link href="www.ankushchoubey.com/pre-save-data-validation/" rel="alternate" type="text/html" title="Pre-save Data Validation" /><published>2022-08-06T00:00:00-05:00</published><updated>2022-08-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/pre-save-data-validation</id><content type="html" xml:base="www.ankushchoubey.com/pre-save-data-validation/">&lt;p&gt;It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.&lt;/p&gt;
 
 &lt;p&gt;Data errors can be:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;null values in the database or from an external system&lt;/li&gt;
   &lt;li&gt;expecting values to be positive by getting negative ones.&lt;/li&gt;
-  &lt;li&gt;expecting a field to have a certain format but getting something else&lt;/li&gt;
+  &lt;li&gt;expecting a field to have a specific format but getting something else&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Once you are discovered a data error, you have to run data migration.&lt;/p&gt;
+&lt;p&gt;The only solution to a data error is running data migrations which is an unnecessary overhead.&lt;/p&gt;
 
-&lt;p&gt;To mitigate this, you have to make sure your data is valid before even saving it to DB.&lt;/p&gt;
+&lt;p&gt;Therefore, we should ensure that data is validated before it reaches DB.&lt;/p&gt;
 
 &lt;h1 id=&quot;only-allows-certain-data&quot;&gt;Only allows certain data&lt;/h1&gt;
 
-&lt;p&gt;For both frontend and backend, you minimize data problems by only allowing it for certain fields.&lt;/p&gt;
+&lt;p&gt;You minimize data problems by only allowing it for specific fields.&lt;/p&gt;
+
+&lt;p&gt;On a UI, it could be dropdowns, date fields with range, and auto-completion options.&lt;/p&gt;
 
 &lt;h1 id=&quot;validate-on-frontend&quot;&gt;Validate on frontend&lt;/h1&gt;
 
 &lt;p&gt;Libraries like &lt;a href=&quot;https://formik.org/&quot;&gt;formik&lt;/a&gt; and &lt;a href=&quot;https://github.com/jquense/yup&quot;&gt;yup&lt;/a&gt; can help perform object and user input validation.&lt;/p&gt;
 
-&lt;p&gt;Using typescript is only helpful to know the exact names of the variable or keys within an object. Since it gets converted to javascript, it can’t be used for the validation of data types.&lt;/p&gt;
+&lt;p&gt;Typescript is only helpful in knowing the exact names of the variable, its type or keys within an object. Since it gets converted to javascript, typescript can’t be used to validate data types.&lt;/p&gt;
 
 &lt;h1 id=&quot;validate-on-the-backend&quot;&gt;Validate on the backend&lt;/h1&gt;
 
@@ -82,7 +148,7 @@
 
 &lt;p&gt;You can also &lt;a href=&quot;https://www.baeldung.com/spring-mvc-custom-validator&quot;&gt;create custom validators&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Using enums is also an option.&lt;/p&gt;</content><author><name></name></author><category term="data" /><category term="clean-code" /><summary type="html">It’s very important to have good data validations in place. Because often data leads to more bugs even when logic with working properly.</summary></entry><entry><title type="html">Tips on fixing and upgrading Maven Dependencies</title><link href="www.ankushchoubey.com/maven-dependency-upgrade/" rel="alternate" type="text/html" title="Tips on fixing and upgrading Maven Dependencies" /><published>2022-07-29T00:00:00-05:00</published><updated>2022-07-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/maven-updation</id><content type="html" xml:base="www.ankushchoubey.com/maven-dependency-upgrade/">&lt;p&gt;&lt;img src=&quot;/images/maven-dependency-upgrade/header.svg&quot; alt=&quot;Maven Logo From Wikipedia&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Using enums is also an option.&lt;/p&gt;</content><author><name></name></author><category term="data" /><category term="clean-code" /><summary type="html">It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.</summary></entry><entry><title type="html">Tips on fixing and upgrading Maven Dependencies</title><link href="www.ankushchoubey.com/maven-dependency-upgrade/" rel="alternate" type="text/html" title="Tips on fixing and upgrading Maven Dependencies" /><published>2022-07-29T00:00:00-05:00</published><updated>2022-07-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/maven-updation</id><content type="html" xml:base="www.ankushchoubey.com/maven-dependency-upgrade/">&lt;p&gt;&lt;img src=&quot;/images/maven-dependency-upgrade/header.svg&quot; alt=&quot;Maven Logo From Wikipedia&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;{$ include note.html content=”&lt;strong&gt;For beginners&lt;/strong&gt;: Instead of writing your code, you can include code written by other people. This is done by setting up dependencies. Maven is a java build tool that helps streamline and automate dependency management so that you don’t have to manually configure things within each machine. Apart from this, maven also helps in testing, and release and has a plugin ecosystem to automate many tasks.” $}&lt;/p&gt;
 
@@ -434,66 +500,4 @@ feat(api): add endpoint for streaming download /downloads
 
 &lt;p&gt;Start noticing what happened. Does it feel the same after an hour. Or after a day. Etc.&lt;/p&gt;
 
-&lt;p&gt;If it starts feeling different, your calibration is off.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="calm" /><category term="non-professional" /><summary type="html">Learn to be calmer and neutral</summary></entry><entry><title type="html">Thoughts on Boundaries</title><link href="www.ankushchoubey.com/boundaries/" rel="alternate" type="text/html" title="Thoughts on Boundaries" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/boundaries</id><content type="html" xml:base="www.ankushchoubey.com/boundaries/">&lt;h1 id=&quot;principles-about-boundaries&quot;&gt;Principles about boundaries&lt;/h1&gt;
-
-&lt;h2 id=&quot;boundaries-are-expression-of-respect&quot;&gt;Boundaries are expression of respect&lt;/h2&gt;
-
-&lt;p&gt;Boundary help maintain a mutual respect and an agreement with yourself and other people.&lt;/p&gt;
-
-&lt;p&gt;Boundaries help avoid unnecessary drama.&lt;/p&gt;
-
-&lt;p&gt;Sometime boundaries can be too harsh. But almost all boundary are expression of #love in the sense that they tell the other person how best to deal with the situation.&lt;/p&gt;
-
-&lt;p&gt;If someone communicates their boundary, they probably want to talk to you.&lt;/p&gt;
-
-&lt;h2 id=&quot;boundaries-arent-always-mutual&quot;&gt;Boundaries aren’t always mutual&lt;/h2&gt;
-
-&lt;p&gt;aka in a relationship of any kind between two people, you can have X boundary the other can have Y boundary.&lt;/p&gt;
-
-&lt;h2 id=&quot;different-for-different-people&quot;&gt;Different for different people&lt;/h2&gt;
-
-&lt;p&gt;You’ll set different boundaries for different people. And it has to be that way else everything is prioritized too high or too low.&lt;/p&gt;
-
-&lt;p&gt;For family, boundaries are small.&lt;/p&gt;
-
-&lt;p&gt;For collegues, boundaries are bigger.&lt;/p&gt;
-
-&lt;p&gt;For example, you don’t need to feel super sad for offending someone at work over work reasons.&lt;/p&gt;
-
-&lt;h1 id=&quot;healthy-boundaries&quot;&gt;Healthy Boundaries&lt;/h1&gt;
-
-&lt;h2 id=&quot;dont-lose-yourself&quot;&gt;Don’t lose yourself&lt;/h2&gt;
-
-&lt;p&gt;If you are loosing yourself for someone else, it isn’t right. It’s not right for you and it’s not right for the other person.&lt;/p&gt;
-
-&lt;p&gt;You cannot make someone trust you. You can show your values/attributes and then hope that they see them too.&lt;/p&gt;
-
-&lt;p&gt;You cannot force a relationship. You can build them.&lt;/p&gt;
-
-&lt;h2 id=&quot;express-your-boundaries-in-a-healthy-way&quot;&gt;Express your boundaries in a healthy way&lt;/h2&gt;
-
-&lt;p&gt;Instead of lashing out. Express your boundary in a healthy way.&lt;/p&gt;
-
-&lt;h2 id=&quot;dont-cross-someones-boundary&quot;&gt;Don’t cross someone’s boundary&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Kabhi boundary par maat jaana &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You may negotiate honestly over a boundary but don’t cross it.&lt;/p&gt;
-
-&lt;h2 id=&quot;dont-try-to-change-someones-perception-too-much&quot;&gt;Don’t try to change someone’s perception too much&lt;/h2&gt;
-
-&lt;p&gt;It’s isn’t worth it. People are weird and you are too. No one has enough information.&lt;/p&gt;
-
-&lt;p&gt;Learn to live and let live.&lt;/p&gt;
-
-&lt;p&gt;Plus, people who have a tendancy to try to go and fix the world should try to clean up their rooms first.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Austin Lewis &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="communication" /><category term="team-work" /><category term="non-professional" /><summary type="html">Principles about boundaries</summary></entry></feed>
+&lt;p&gt;If it starts feeling different, your calibration is off.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="calm" /><category term="non-professional" /><summary type="html">Learn to be calmer and neutral</summary></entry></feed>

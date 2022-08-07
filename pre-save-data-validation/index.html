@@ -11,15 +11,15 @@
 <meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="Pre-save Data Validation">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="It’s very important to have good data validations in place. Because often data leads to more bugs even when logic with working properly.">
-<meta property="og:description" content="It’s very important to have good data validations in place. Because often data leads to more bugs even when logic with working properly.">
+<meta name="description" content="It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.">
+<meta property="og:description" content="It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.">
 <link rel="canonical" href="www.ankushchoubey.com/pre-save-data-validation/">
 <meta property="og:url" content="www.ankushchoubey.com/pre-save-data-validation/">
 <meta property="og:site_name" content="Ankush">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-08-06T00:00:00-05:00">
 <script type="application/ld+json">
-{"datePublished":"2022-08-06T00:00:00-05:00","url":"www.ankushchoubey.com/pre-save-data-validation/","@type":"BlogPosting","headline":"Pre-save Data Validation","dateModified":"2022-08-06T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/pre-save-data-validation/"},"description":"It’s very important to have good data validations in place. Because often data leads to more bugs even when logic with working properly.","@context":"https://schema.org"}</script>
+{"datePublished":"2022-08-06T00:00:00-05:00","url":"www.ankushchoubey.com/pre-save-data-validation/","@type":"BlogPosting","headline":"Pre-save Data Validation","dateModified":"2022-08-06T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/pre-save-data-validation/"},"description":"It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -203,28 +203,30 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>It’s very important to have good data validations in place. Because often data leads to more bugs even when logic with working properly.</p>
+    <p>It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.</p>
 
 <p>Data errors can be:</p>
 <ol>
   <li>null values in the database or from an external system</li>
   <li>expecting values to be positive by getting negative ones.</li>
-  <li>expecting a field to have a certain format but getting something else</li>
+  <li>expecting a field to have a specific format but getting something else</li>
 </ol>
 
-<p>Once you are discovered a data error, you have to run data migration.</p>
+<p>The only solution to a data error is running data migrations which is an unnecessary overhead.</p>
 
-<p>To mitigate this, you have to make sure your data is valid before even saving it to DB.</p>
+<p>Therefore, we should ensure that data is validated before it reaches DB.</p>
 
 <h1 id="only-allows-certain-data">Only allows certain data</h1>
 
-<p>For both frontend and backend, you minimize data problems by only allowing it for certain fields.</p>
+<p>You minimize data problems by only allowing it for specific fields.</p>
+
+<p>On a UI, it could be dropdowns, date fields with range, and auto-completion options.</p>
 
 <h1 id="validate-on-frontend">Validate on frontend</h1>
 
 <p>Libraries like <a href="https://formik.org/">formik</a> and <a href="https://github.com/jquense/yup">yup</a> can help perform object and user input validation.</p>
 
-<p>Using typescript is only helpful to know the exact names of the variable or keys within an object. Since it gets converted to javascript, it can’t be used for the validation of data types.</p>
+<p>Typescript is only helpful in knowing the exact names of the variable, its type or keys within an object. Since it gets converted to javascript, typescript can’t be used to validate data types.</p>
 
 <h1 id="validate-on-the-backend">Validate on the backend</h1>
 
