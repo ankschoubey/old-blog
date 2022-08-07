@@ -54,26 +54,4 @@ This blog is the way I process my 🎲 thoughts and solve problems. If you read 
 
 {% include btn.html href='mailto:ankushchoubey@outlook.com' icon='fa fa-envelope' text='ankushchoubey@outlook' download='n' %}
 
-<p style="display: none; gap: 10px;">
-    {% include btn.html href='https://www.youtube.com/channel/UC8hWULzz8LyyuFz9zP_Y12g' icon='fab fa-youtube' text='Piano & Guitar Videos' download='n' %}
-</p>
-{% for post in site.categories['favorite'] %}
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-<article class="archive-item" style="display: none;">
-    <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.last_modified_at | date: date_format }}</p>
-    or read a {%- include random-btn.html -%}
-</article>
-{% endfor %}
-{% if site.categories['draft'].size > 0 %}
-{% for post in site.categories['draft'] %}
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-<article class="archive-item" style="display: none">
-    <p class="post-meta post-meta-title"><span class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</span> • {{ post.date | date: date_format }}</p>
-</article>
-{% endfor %}
-{% endif %}
-## Search
-
-{% include search.html %}
-
 ## Essays (sorted by last updated)
