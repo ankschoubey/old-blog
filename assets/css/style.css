@@ -495,7 +495,7 @@ p code { font-size: 19px; }
 
 .active:after { content: "\2796"; /* Unicode character for "minus" sign (-) */ }
 
-.site-header { position: sticky; top: 0px; background: white; }
+.site-header { position: sticky; top: 0px; background: white; z-index: 1; }
 
 .site-title { color: #42424200 !important; background-image: url("/images/logo.png"); background-size: contain; background-repeat: no-repeat; background-position: center; }
 
