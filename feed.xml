@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-07T08:13:12-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-12T08:02:09-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,77 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mutation Testing</title><link href="www.ankushchoubey.com/mutation-testing/" rel="alternate" type="text/html" title="Mutation Testing" /><published>2022-08-07T00:00:00-05:00</published><updated>2022-08-07T15:52:08-05:00</updated><id>www.ankushchoubey.com/mutation-testing</id><content type="html" xml:base="www.ankushchoubey.com/mutation-testing/">&lt;p&gt;I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Narcissism</title><link href="www.ankushchoubey.com/narcissism/" rel="alternate" type="text/html" title="Narcissism" /><published>2022-08-12T00:00:00-05:00</published><updated>2022-08-12T15:52:08-05:00</updated><id>www.ankushchoubey.com/narcissism</id><content type="html" xml:base="www.ankushchoubey.com/narcissism/">&lt;h1 id=&quot;what-is-narcissistic&quot;&gt;What is narcissistic?&lt;/h1&gt;
+
+&lt;p&gt;Narcissism is a high form of selfishness wrapped in moral virtue.&lt;/p&gt;
+
+&lt;p&gt;It’s wrapped in moral virtue because only the narcist knows they are right and believes everyone else is wrong. And therefore, their actions are justified.&lt;/p&gt;
+
+&lt;p&gt;The narcissist has the confidence of the competent. Without actually having the competence of the competent, nor are they working towards competence &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. It’s all a facade.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-do-people-become-narcissistic&quot;&gt;How do people become narcissistic?&lt;/h1&gt;
+
+&lt;p&gt;We are all on a spectrum of narcissism &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Some people are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;total narcissists: they talk about themselves&lt;/li&gt;
+  &lt;li&gt;many are functional narcissists: they can be polite but don’t enjoy talking unless it’s about them or something they care about. (I fall in this category for the most part)&lt;/li&gt;
+  &lt;li&gt;empaths: people who care about others.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our goal in life is to move toward becoming more empathetic.&lt;/p&gt;
+
+&lt;p&gt;There are also other categorizations of narcissism: &lt;a href=&quot;https://www.youtube.com/watch?v=_uJs0iGQN0M&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Classical narcissism 2:02&lt;/li&gt;
+  &lt;li&gt;Covert narcissism 3:50&lt;/li&gt;
+  &lt;li&gt;Communal narcissism 7:00&lt;/li&gt;
+  &lt;li&gt;Acquired narcissism 11:34&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Knowing the four categories can help in understanding behaviours.&lt;/p&gt;
+
+&lt;p&gt;The two common forms of narcissism are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Feeling too superior; therefore, words owe me something&lt;/li&gt;
+  &lt;li&gt;Feeling too inferior; therefore world owes me something&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The problem is that feeling the world owes you something with/without virtue is a form of avoiding responsibility for your problems.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-can-give-rise-to-narcissism&quot;&gt;What can give rise to narcissism?&lt;/h1&gt;
+
+&lt;p&gt;One has to spot patterns that give rise to bitterness. Small things that cause&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;arrogance: someone is asking for help, but you want help because you feel you earned something, and now you don’t give a fuck.&lt;/li&gt;
+  &lt;li&gt;resentment: for something that happened in the past.&lt;/li&gt;
+  &lt;li&gt;deceit: lying about things or not looking to accept reality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Depression/past trauma can also give rise to narcissism. Trauma need not be something big. Like, a friend laughed at you for liking Justin Beiber.&lt;/p&gt;
+
+&lt;p&gt;Narcissism is a form of insecurity. It can be fear of abandonment.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-can-we-be-less-narcissistic&quot;&gt;How can we be less narcissistic?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stop being critical. Accept people as they are, not how you want them to be.&lt;/li&gt;
+  &lt;li&gt;If you are helping people, help to support them rather than receive. It doesn’t mean you don’t have boundaries but think about it.&lt;/li&gt;
+  &lt;li&gt;Tell the truth but be kind. It’s okay to say sorry. There is no harm in it.&lt;/li&gt;
+  &lt;li&gt;Know your patterns. Patterns repeat. Tell people about your patterns. That opens you up a bit.&lt;/li&gt;
+  &lt;li&gt;Be more humble: Engage in activities that require humility, like serving others in some form—measuring yourself on servant leadership score—giving others more power to critique or provide feedback, like code reviews, without getting stiff.&lt;/li&gt;
+  &lt;li&gt;Express observations, not attacks. Use I feel, and I observed words more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Jordan Peterson &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Robert Greene &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="psychology" /><category term="phisophy" /><category term="non-professional" /><summary type="html">What is narcissistic?</summary></entry><entry><title type="html">Mutation Testing</title><link href="www.ankushchoubey.com/mutation-testing/" rel="alternate" type="text/html" title="Mutation Testing" /><published>2022-08-07T00:00:00-05:00</published><updated>2022-08-07T15:52:08-05:00</updated><id>www.ankushchoubey.com/mutation-testing</id><content type="html" xml:base="www.ankushchoubey.com/mutation-testing/">&lt;p&gt;I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.&lt;/p&gt;
 
 &lt;p&gt;For example: If we have a String coming from the external system, it can be null.&lt;/p&gt;
 
@@ -405,99 +475,4 @@ feat(api): add endpoint for streaming download /downloads
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;   
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.</summary></entry><entry><title type="html">Strategies to be Calmer</title><link href="www.ankushchoubey.com/calmer/" rel="alternate" type="text/html" title="Strategies to be Calmer" /><published>2022-06-28T00:00:00-05:00</published><updated>2022-06-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/calmer</id><content type="html" xml:base="www.ankushchoubey.com/calmer/">&lt;h1 id=&quot;learn-to-be-calmer-and-neutral&quot;&gt;Learn to be calmer and neutral&lt;/h1&gt;
-
-&lt;p&gt;As soon as you catch yourself getting overly emotional. Go neutral.&lt;/p&gt;
-
-&lt;p&gt;Aim for no high no low. For moments at a time.&lt;/p&gt;
-
-&lt;p&gt;Once you become neutral, you are in 50% better state to make a good decision.&lt;/p&gt;
-
-&lt;p&gt;Think about what made you particularly high or low:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Was it because someone allows you to cry and listen to your sad life where you avoided responsibility?&lt;/li&gt;
-  &lt;li&gt;Was it impression of someone?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Go neutral in thise situations.&lt;/p&gt;
-
-&lt;h1 id=&quot;choose-your-battles-wisely&quot;&gt;Choose your battles wisely&lt;/h1&gt;
-
-&lt;p&gt;Recognize what you are giving a fuck about. Is it really worth giving a fuck about?&lt;/p&gt;
-
-&lt;p&gt;Is it a good value? is it something external?&lt;/p&gt;
-
-&lt;p&gt;Does it even align with your values?&lt;/p&gt;
-
-&lt;h1 id=&quot;slow-down&quot;&gt;Slow down&lt;/h1&gt;
-
-&lt;p&gt;You aren’t running a race. Take things slow and steady.&lt;/p&gt;
-
-&lt;p&gt;This is easier to remember that to actually do it in practice. Slow down.&lt;/p&gt;
-
-&lt;p&gt;Go very slow. Remember, slow is smooth. And smooth is fast.&lt;/p&gt;
-
-&lt;p&gt;Don’t rush from one thing to the next to the next. Take pauses.&lt;/p&gt;
-
-&lt;p&gt;Habit of rushing is a dirty high.&lt;/p&gt;
-
-&lt;h1 id=&quot;learning-to-let-things-wait&quot;&gt;Learning to let things wait&lt;/h1&gt;
-
-&lt;p&gt;You don’t have to answer notification right there.&lt;/p&gt;
-
-&lt;h1 id=&quot;reflect&quot;&gt;Reflect&lt;/h1&gt;
-
-&lt;p&gt;Reflect on moments you got worked up or where someone else got worked up. Was it worth the fight.&lt;/p&gt;
-
-&lt;h1 id=&quot;calm-down&quot;&gt;Calm down&lt;/h1&gt;
-
-&lt;p&gt;If you don’t know what to say. Calm down. Maybe take a break. And then tell the truth truthfully and in a good way.&lt;/p&gt;
-
-&lt;p&gt;Become neutral. Aim to be non-reactive to threats on any kind be it people, events, realizations or situations.&lt;/p&gt;
-
-&lt;p&gt;Calm down and thing.&lt;/p&gt;
-
-&lt;h1 id=&quot;explore-and-eliminate-insecurities&quot;&gt;Explore and eliminate insecurities&lt;/h1&gt;
-
-&lt;p&gt;Insecurity is chasing the impossible.&lt;/p&gt;
-
-&lt;p&gt;Insecurities come from unrealistic expectations. If you are someone productive, you can’t expect to be good at 20 other things. specially if 15 of those things are stupid.&lt;/p&gt;
-
-&lt;p&gt;Ask yourself, are you insecure or someone made you insecure? Was it a person, advertisement, advice, etc.&lt;/p&gt;
-
-&lt;p&gt;Remember: Insecurity = Someone is trying to sell you something.&lt;/p&gt;
-
-&lt;p&gt;A practice to do is, question every ad.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Does it make sense.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You become more secure when no one can sell you anything.&lt;/p&gt;
-
-&lt;p&gt;Asking logical questions is a good way to eliminate insecurities.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt; Living in a different city: If you are being told to get out of your city to live in some other place? you can view this two ways, why are you asked to get out of city? Is it because other people feel they are making a better choice? Does there choice align with your values or are they having a better value? Are they actually making a better choice? Can this be tested someway?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt; Rejected: You got rejected. Now you feel you suck. You lack something that everyone has. Why? Because it seems that everyone is doing something, getting married, talking to someone, traveling, etc. And here you are alone and lonely. How many people do you know who are normal and single? What was the reason you were rejected? How common is rejection? Did Mark Manson or someone you look up to get rejected? Aren’t use in a community of normal, very normal people that got rejected? Can you be rejected for the wrong reasons? If Mark Manson or someone else got rejected, how much do they suck? Isn’t rejection a normal part of life?&lt;/p&gt;
-
-&lt;h1 id=&quot;panic-mode&quot;&gt;Panic Mode&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Aim to calm down and go neutral&lt;/li&gt;
-  &lt;li&gt;Recognize your blessings&lt;/li&gt;
-  &lt;li&gt;Breathe.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;meditate&quot;&gt;Meditate&lt;/h1&gt;
-
-&lt;p&gt;Meditate regularly. 3 times a week minimum.&lt;/p&gt;
-
-&lt;h1 id=&quot;break-things-down-with-logic&quot;&gt;Break things down with logic&lt;/h1&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Is it really that bad?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Start noticing what happened. Does it feel the same after an hour. Or after a day. Etc.&lt;/p&gt;
-
-&lt;p&gt;If it starts feeling different, your calibration is off.&lt;/p&gt;</content><author><name></name></author><category term="core-values" /><category term="calm" /><category term="non-professional" /><summary type="html">Learn to be calmer and neutral</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="logging" /><category term="spring-boot" /><category term="clean-code" /><summary type="html">In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.</summary></entry></feed>
