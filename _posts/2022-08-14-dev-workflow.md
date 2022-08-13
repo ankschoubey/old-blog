@@ -37,3 +37,20 @@ graph TD
     deploy[8. Deploy feature on environment and move card] --> pullRight
     pullRight[9. Pull right the card till Accepted]
 ```
+
+1. BDD
+    1. Read BDD specifications related to the card
+    2. Update specifications
+2. Planning
+    1. Plan with atomic commits
+    2. Estimate each commit with pomodoros
+    3. Add planned finish date to the card
+3. Start working
+    1. Remove all distractions
+    2. Move card to In-progress lane
+    3. Start the pomodoro timer
+    4. Work on the feature with TDD. Commit and push non-stop.
+4. Development done
+    1. Manually deploy if there is no CD pipeline 
+    2. Pull card towards right until accepted
+    3. At end of each day, fill in card timesheet activity.
