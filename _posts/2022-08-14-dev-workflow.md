@@ -50,7 +50,7 @@ graph TD
 3. Coding
     1. Remove all distractions
     2. Move card to In-progress lane
-    3. Start the pomodoro timer
+    3. Start the [pomodoro timer](https://lazy-guy.github.io/tomodoro/index.html)
     4. Start working incrementally with TDD. Commit and push non-stop.
 4. Release
     1. Manually deploy if there is no CD pipeline 
