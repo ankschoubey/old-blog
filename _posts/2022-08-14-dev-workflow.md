@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: From card picking to release
-categories: [communication, non-professional]
+categories: [dev]
 last_modified_at: 2022-08-12T20:52:08.052481
 last-modified-purpose:
 permalink: /dev-workflow/
