@@ -10,7 +10,9 @@ title: Ideal Development Workflow
 toc: true
 ---
 
-I am creating this as an effort to reduce cognitive overload. Ideally, all these steps can be columns on a Kanban Board.
+This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.
+
+Ideally, all these steps can be columns on a Kanban Board.
 
 ```mermaid!
 graph TD
