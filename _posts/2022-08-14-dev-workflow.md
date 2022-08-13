@@ -12,7 +12,7 @@ toc: true
 
 I am creating this as an effort to reduce cognitive overload. Ideally, all these steps can be columns on a Kanban Board.
 
-```mermaid
+```mermaid!
 graph TD
     subgraph BDD
     A[1. Read BDD specifications related to the card] --> B
