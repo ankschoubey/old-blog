@@ -10,6 +10,8 @@ title: Ideal Development Workflow
 toc: true
 ---
 
+I am creating this as an effort to reduce cognitive overload. Ideally, all these steps can be columns on a Kanban Board.
+
 ```mermaid
 graph TD
     subgraph BDD
