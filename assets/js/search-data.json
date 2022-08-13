@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "Ideal Development Workflow",
-            "content": "I am creating this as an effort to reduce cognitive overload. Ideally, all these steps can be columns on a Kanban Board. . . BDD Read BDD specifications related to the card | Update specifications | | Planning Plan with atomic commits | Estimate each commit with pomodoros | Add planned finish date to the card | | Start working Remove all distractions | Move card to In-progress lane | Start the pomodoro timer | Work on the feature with TDD. Commit and push non-stop. | | Development done Manually deploy if there is no CD pipeline | Pull card towards right until accepted | At end of each day, fill in card timesheet activity. | |",
+            "content": "This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement. . Ideally, all these steps can be columns on a Kanban Board. . . BDD Read BDD specifications related to the card | Update specifications | | Planning Plan with atomic commits | Estimate each commit with pomodoros | Add planned finish date to the card | | Start working Remove all distractions | Move card to In-progress lane | Start the pomodoro timer | Work on the feature with TDD. Commit and push non-stop. | | Development done Manually deploy if there is no CD pipeline | Pull card towards right until accepted | At end of each day, fill in card timesheet activity. | |",
             "url": "www.ankushchoubey.com/dev-workflow/",
             "relUrl": "https:///dev-workflow/",
             "date": " • Aug 14, 2022"
