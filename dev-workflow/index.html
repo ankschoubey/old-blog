@@ -206,30 +206,7 @@ window.onload = wrap_img;
 </ul>
 <p>I am creating this as an effort to reduce cognitive overload. Ideally, all these steps can be columns on a Kanban Board.</p>
 
-<pre><code class="language-mermaid">graph TD
-    subgraph BDD
-    A[1. Read BDD specifications related to the card] --&gt; B
-    B[2. Update specifications]
-    end
-
-    subgraph Planning
-    B --&gt; planCommits
-    planCommits[3. Plan with atomics commits] --&gt; estimateCommits
-    estimateCommits[4. Estimate each commit time with POMODOROs] --&gt; estimatePlannedFinishDate
-    estimatePlannedFinishDate[5. Add planned finished date the card] 
-    end
-
-    estimatePlannedFinishDate --&gt; |move card| pomodoro
-
-    subgraph code[TDD with Pomodoro]
-    pomodoro[6. Remove all distractions and start pomodoro session] --&gt; tdd
-    tdd[7. start incrementally with TDD and commit/push each atomic commit]--&gt; pomodoro
-    end
-    
-    tdd --&gt; |development done| deploy
-    deploy[8. Deploy feature on environment and move card] --&gt; pullRight
-    pullRight[9. Pull right the card till Accepted]
-</code></pre>
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbnN1YmdyYXBoIEJERFxuQVsxLiBSZWFkIEJERCBzcGVjaWZpY2F0aW9ucyByZWxhdGVkIHRvIHRoZSBjYXJkXSAtLT4gQlxuQlsyLiBVcGRhdGUgc3BlY2lmaWNhdGlvbnNdXG5lbmRcbiUlLVxuc3ViZ3JhcGggUGxhbm5pbmdcbkIgLS0-IHBsYW5Db21taXRzXG5wbGFuQ29tbWl0c1szLiBQbGFuIHdpdGggYXRvbWljcyBjb21taXRzXSAtLT4gZXN0aW1hdGVDb21taXRzXG5lc3RpbWF0ZUNvbW1pdHNbNC4gRXN0aW1hdGUgZWFjaCBjb21taXQgdGltZSB3aXRoIFBPTU9ET1JPc10gLS0-IGVzdGltYXRlUGxhbm5lZEZpbmlzaERhdGVcbmVzdGltYXRlUGxhbm5lZEZpbmlzaERhdGVbNS4gQWRkIHBsYW5uZWQgZmluaXNoZWQgZGF0ZSB0aGUgY2FyZF1cbmVuZFxuJSUtXG5lc3RpbWF0ZVBsYW5uZWRGaW5pc2hEYXRlIC0tPiB8bW92ZSBjYXJkfCBwb21vZG9yb1xuJSUtXG5zdWJncmFwaCBjb2RlW1RERCB3aXRoIFBvbW9kb3JvXVxucG9tb2Rvcm9bNi4gUmVtb3ZlIGFsbCBkaXN0cmFjdGlvbnMgYW5kIHN0YXJ0IHBvbW9kb3JvIHNlc3Npb25dIC0tPiB0ZGRcbnRkZFs3LiBzdGFydCBpbmNyZW1lbnRhbGx5IHdpdGggVEREIGFuZCBjb21taXQvcHVzaCBlYWNoIGF0b21pYyBjb21taXRdLS0-IHBvbW9kb3JvXG5lbmRcbiUlLVxudGRkIC0tPiB8ZGV2ZWxvcG1lbnQgZG9uZXwgZGVwbG95XG5kZXBsb3lbOC4gRGVwbG95IGZlYXR1cmUgb24gZW52aXJvbm1lbnQgYW5kIG1vdmUgY2FyZF0gLS0-IHB1bGxSaWdodFxucHVsbFJpZ2h0WzkuIFB1bGwgcmlnaHQgdGhlIGNhcmQgdGlsbCBBY2NlcHRlZF0iLCJtZXJtYWlkIjpudWxsfQ"></p>
 
 <ol>
   <li>BDD

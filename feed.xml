@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-13T15:53:58-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-13T15:54:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -53,30 +53,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-14T00:00:00-05:00</published><updated>2022-08-12T15:52:08-05:00</updated><id>www.ankushchoubey.com/dev-workflow</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;I am creating this as an effort to reduce cognitive overload. Ideally, all these steps can be columns on a Kanban Board.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TD
-    subgraph BDD
-    A[1. Read BDD specifications related to the card] --&amp;gt; B
-    B[2. Update specifications]
-    end
-
-    subgraph Planning
-    B --&amp;gt; planCommits
-    planCommits[3. Plan with atomics commits] --&amp;gt; estimateCommits
-    estimateCommits[4. Estimate each commit time with POMODOROs] --&amp;gt; estimatePlannedFinishDate
-    estimatePlannedFinishDate[5. Add planned finished date the card] 
-    end
-
-    estimatePlannedFinishDate --&amp;gt; |move card| pomodoro
-
-    subgraph code[TDD with Pomodoro]
-    pomodoro[6. Remove all distractions and start pomodoro session] --&amp;gt; tdd
-    tdd[7. start incrementally with TDD and commit/push each atomic commit]--&amp;gt; pomodoro
-    end
-    
-    tdd --&amp;gt; |development done| deploy
-    deploy[8. Deploy feature on environment and move card] --&amp;gt; pullRight
-    pullRight[9. Pull right the card till Accepted]
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbnN1YmdyYXBoIEJERFxuQVsxLiBSZWFkIEJERCBzcGVjaWZpY2F0aW9ucyByZWxhdGVkIHRvIHRoZSBjYXJkXSAtLT4gQlxuQlsyLiBVcGRhdGUgc3BlY2lmaWNhdGlvbnNdXG5lbmRcbiUlLVxuc3ViZ3JhcGggUGxhbm5pbmdcbkIgLS0-IHBsYW5Db21taXRzXG5wbGFuQ29tbWl0c1szLiBQbGFuIHdpdGggYXRvbWljcyBjb21taXRzXSAtLT4gZXN0aW1hdGVDb21taXRzXG5lc3RpbWF0ZUNvbW1pdHNbNC4gRXN0aW1hdGUgZWFjaCBjb21taXQgdGltZSB3aXRoIFBPTU9ET1JPc10gLS0-IGVzdGltYXRlUGxhbm5lZEZpbmlzaERhdGVcbmVzdGltYXRlUGxhbm5lZEZpbmlzaERhdGVbNS4gQWRkIHBsYW5uZWQgZmluaXNoZWQgZGF0ZSB0aGUgY2FyZF1cbmVuZFxuJSUtXG5lc3RpbWF0ZVBsYW5uZWRGaW5pc2hEYXRlIC0tPiB8bW92ZSBjYXJkfCBwb21vZG9yb1xuJSUtXG5zdWJncmFwaCBjb2RlW1RERCB3aXRoIFBvbW9kb3JvXVxucG9tb2Rvcm9bNi4gUmVtb3ZlIGFsbCBkaXN0cmFjdGlvbnMgYW5kIHN0YXJ0IHBvbW9kb3JvIHNlc3Npb25dIC0tPiB0ZGRcbnRkZFs3LiBzdGFydCBpbmNyZW1lbnRhbGx5IHdpdGggVEREIGFuZCBjb21taXQvcHVzaCBlYWNoIGF0b21pYyBjb21taXRdLS0-IHBvbW9kb3JvXG5lbmRcbiUlLVxudGRkIC0tPiB8ZGV2ZWxvcG1lbnQgZG9uZXwgZGVwbG95XG5kZXBsb3lbOC4gRGVwbG95IGZlYXR1cmUgb24gZW52aXJvbm1lbnQgYW5kIG1vdmUgY2FyZF0gLS0-IHB1bGxSaWdodFxucHVsbFJpZ2h0WzkuIFB1bGwgcmlnaHQgdGhlIGNhcmQgdGlsbCBBY2NlcHRlZF0iLCJtZXJtYWlkIjpudWxsfQ&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;BDD
