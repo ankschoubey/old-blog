@@ -10,7 +10,7 @@ search_exclude: false
 
 {% include pdf.html url="/assets/Ankush - Full Stack Developer.pdf" name="Ankush - Full Stack Developer" %}
 
-<div style='display: flex; justify-content:center; align-items: center'>
+<div style='display: flex; justify-content:center; align-items: center; gap: 10px; flex-wrap: wrap;'>
     {% include btn.html href='/assets/Ankush - Full Stack Developer.pdf' icon='fa fa-envelope' text='Download Resume' download='t' download_name='Ankush - Full Stack Developer.pdf' %}
     {% include btn.html href='mailto:ankushchoubey@outlook.com' icon='fa fa-envelope' text='ankushchoubey@outlook' download='n' %}
     {% include btn.html href='https://www.linkedin.com/in/ankushchoubey/' icon='fa fa-linkedin' text='linkedin/in/ankushchoubey' download='n' %}
