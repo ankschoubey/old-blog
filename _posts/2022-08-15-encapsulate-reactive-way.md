@@ -38,10 +38,10 @@ Completable futures can be converted to mono. Many java libraries have completab
 
 ## Encapsulate blocking calls
 
-[Screenshot_2022-07-17_at_12.23.22_PM.png](https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b52e381a43331ded5a/download/Screenshot_2022-07-17_at_12.23.22_PM.png) 
+![Screenshot_2022-07-17_at_12.23.22_PM.png](https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b52e381a43331ded5a/download/Screenshot_2022-07-17_at_12.23.22_PM.png) 
 
-[Screenshot_2022-07-17_at_12.22.57_PM.png](https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b266fbbc5ae9751808/download/Screenshot_2022-07-17_at_12.22.57_PM.png) 
+![Screenshot_2022-07-17_at_12.22.57_PM.png](https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b266fbbc5ae9751808/download/Screenshot_2022-07-17_at_12.22.57_PM.png) 
 
 ## Find if a method is reactive
 
-[Screenshot_2022-07-17_at_12.24.19_PM.png](https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d5826d1010e7165d435b8c/download/Screenshot_2022-07-17_at_12.24.19_PM.png) 
+![Screenshot_2022-07-17_at_12.24.19_PM.png](https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d5826d1010e7165d435b8c/download/Screenshot_2022-07-17_at_12.24.19_PM.png) 
