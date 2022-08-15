@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Always keep yourself ready to switch companies | Ankush</title>
+<title>Encapsulate Blocking Call the Reactor Way | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Always keep yourself ready to switch companies">
+<meta property="og:title" content="Encapsulate Blocking Call the Reactor Way">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Random Thoughts">
-<meta property="og:description" content="Random Thoughts">
-<link rel="canonical" href="www.ankushchoubey.com/switch-jobs/">
-<meta property="og:url" content="www.ankushchoubey.com/switch-jobs/">
+<meta name="description" content="Notes from Avoiding Reactor Meltdown">
+<meta property="og:description" content="Notes from Avoiding Reactor Meltdown">
+<link rel="canonical" href="www.ankushchoubey.com/encapsulate-blocking-reactive-way/">
+<meta property="og:url" content="www.ankushchoubey.com/encapsulate-blocking-reactive-way/">
 <meta property="og:site_name" content="Ankush">
-<meta property="og:image" content="www.ankushchoubey.com/images/switch-jobs.jpg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00">
+<meta property="article:published_time" content="2022-08-15T00:00:00-05:00">
 <script type="application/ld+json">
-{"datePublished":"2021-05-26T00:00:00-05:00","url":"www.ankushchoubey.com/switch-jobs/","@type":"BlogPosting","headline":"Always keep yourself ready to switch companies","dateModified":"2022-08-15T06:57:20-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/switch-jobs/"},"image":"www.ankushchoubey.com/images/switch-jobs.jpg","description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"datePublished":"2022-08-15T00:00:00-05:00","url":"www.ankushchoubey.com/encapsulate-blocking-reactive-way/","@type":"BlogPosting","headline":"Encapsulate Blocking Call the Reactor Way","dateModified":"2022-08-14T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/encapsulate-blocking-reactive-way/"},"description":"Notes from Avoiding Reactor Meltdown","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -125,12 +124,13 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Encapsulate Blocking Call the Reactor Way</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-08-15T06:57:20-05:00" itemprop="dateModified">
-          Updated: Aug 15, 2022
+    <p class="page-description">Notes from Avoiding Reactor Meltdown</p>
+<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-08-15T00:00:00-05:00" itemprop="datePublished">
+        Written: Aug 15, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-08-14T15:52:08-05:00" itemprop="dateModified">
+          Updated: Aug 14, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -162,7 +162,7 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
+    <a class="tag fa fa-hashtag dev" href="/categories/#dev">dev</a>
     
 </div>
 <div class="right-section">
@@ -202,39 +202,57 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt=""></p>
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#use-blockhound-to-find-blocking-calls-during-testing">Use BlockHound to find blocking calls during testing</a></li>
+<li class="toc-entry toc-h1"><a href="#avoid-significant-work-before-subscribe">Avoid Significant Work Before Subscribe</a></li>
+<li class="toc-entry toc-h1">
+<a href="#always-look-for-async-implementations">Always look for async implementations</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#encapsulate-blocking-calls">Encapsulate blocking calls</a></li>
+<li class="toc-entry toc-h2"><a href="#find-if-a-method-is-reactive">Find if a method is reactive</a></li>
+</ul>
+</li>
+</ul>
+<p>The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!</p>
 
-<h2 id="capitalism">Capitalism</h2>
+<p>Event loops are main threads that shouldn’t be blocked.</p>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>If there is a blocking code, they should be run on a separate thread.</p>
 
-<p>The more you earn, the better it is for everyone.</p>
+<p>Here are some ways to fix these issues that I have noted down while watching Avoiding Reactor Meldown video. I have added an additional tip at the end.</p>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<h2 id="use-blockhound-to-find-blocking-calls-during-testing">
+<a class="anchor" href="#use-blockhound-to-find-blocking-calls-during-testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use BlockHound to find blocking calls during testing</h2>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+<p>BlockHound is a plugin provided by Project Reactor that helps find blocking calls.</p>
 
-<p>New environments and people give you new perspectives.</p>
+<p>If you are doing TDD, use junit version.</p>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<p>If you are aren’t doing TDD, use normal version but remove it in prod.</p>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
+<p>https://github.com/reactor/BlockHound</p>
 
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
+<p>Remember that blockhound will only detect blocks on main thread. This means that if you are writing junit tests, if blocking call is not made on event loop, then it won’t be detected.</p>
 
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
+<h1 id="avoid-significant-work-before-subscribe">
+<a class="anchor" href="#avoid-significant-work-before-subscribe" aria-hidden="true"><span class="octicon octicon-link"></span></a>Avoid Significant Work Before Subscribe</h1>
 
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
+<h1 id="always-look-for-async-implementations">
+<a class="anchor" href="#always-look-for-async-implementations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Always look for async implementations</h1>
 
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
+<p>Completable futures can be converted to mono. Many java libraries have completable future implementations.</p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
-    </li>
-  </ol>
-</div>
+<h2 id="encapsulate-blocking-calls">
+<a class="anchor" href="#encapsulate-blocking-calls" aria-hidden="true"><span class="octicon octicon-link"></span></a>Encapsulate blocking calls</h2>
+
+<p><a href="https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b52e381a43331ded5a/download/Screenshot_2022-07-17_at_12.23.22_PM.png">Screenshot_2022-07-17_at_12.23.22_PM.png</a></p>
+
+<p><a href="https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b266fbbc5ae9751808/download/Screenshot_2022-07-17_at_12.22.57_PM.png">Screenshot_2022-07-17_at_12.22.57_PM.png</a></p>
+
+<h2 id="find-if-a-method-is-reactive">
+<a class="anchor" href="#find-if-a-method-is-reactive" aria-hidden="true"><span class="octicon octicon-link"></span></a>Find if a method is reactive</h2>
+
+<p><a href="https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d5826d1010e7165d435b8c/download/Screenshot_2022-07-17_at_12.24.19_PM.png">Screenshot_2022-07-17_at_12.24.19_PM.png</a></p>
 
   </div>
 <!-- from https://github.com/utterance/utterances -->
@@ -244,8 +262,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/switch-jobs/';
-      this.page.identifier = 'www.ankushchoubey.com/switch-jobs/';
+      this.page.url = 'www.ankushchoubey.com/encapsulate-blocking-reactive-way/';
+      this.page.identifier = 'www.ankushchoubey.com/encapsulate-blocking-reactive-way/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -256,7 +274,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/switch-jobs/" hidden></a>
+<a class="u-url" href="/encapsulate-blocking-reactive-way/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

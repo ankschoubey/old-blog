@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-15T02:26:33-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-15T06:59:02-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -86,7 +86,41 @@
       &lt;li&gt;At end of each day, fill in card timesheet activity.&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="dev" /><summary type="html">This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.</summary></entry><entry><title type="html">Resume and Linkedin Tips</title><link href="www.ankushchoubey.com/resume-tips/" rel="alternate" type="text/html" title="Resume and Linkedin Tips" /><published>2022-08-14T00:00:00-05:00</published><updated>2022-08-01T20:52:08-05:00</updated><id>www.ankushchoubey.com/dev-workflow</id><content type="html" xml:base="www.ankushchoubey.com/resume-tips/">&lt;p&gt;Here are some resume tips. Most apply to software engineering roles.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="dev" /><summary type="html">This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.</summary></entry><entry><title type="html">Encapsulate Blocking Call the Reactor Way</title><link href="www.ankushchoubey.com/encapsulate-blocking-reactive-way/" rel="alternate" type="text/html" title="Encapsulate Blocking Call the Reactor Way" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/encapsulate-reactive-way</id><content type="html" xml:base="www.ankushchoubey.com/encapsulate-blocking-reactive-way/">&lt;p&gt;The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!&lt;/p&gt;
+
+&lt;p&gt;Event loops are main threads that shouldn’t be blocked.&lt;/p&gt;
+
+&lt;p&gt;If there is a blocking code, they should be run on a separate thread.&lt;/p&gt;
+
+&lt;p&gt;Here are some ways to fix these issues that I have noted down while watching Avoiding Reactor Meldown video. I have added an additional tip at the end.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-blockhound-to-find-blocking-calls-during-testing&quot;&gt;Use BlockHound to find blocking calls during testing&lt;/h2&gt;
+
+&lt;p&gt;BlockHound is a plugin provided by Project Reactor that helps find blocking calls.&lt;/p&gt;
+
+&lt;p&gt;If you are doing TDD, use junit version.&lt;/p&gt;
+
+&lt;p&gt;If you are aren’t doing TDD, use normal version but remove it in prod.&lt;/p&gt;
+
+&lt;p&gt;https://github.com/reactor/BlockHound&lt;/p&gt;
+
+&lt;p&gt;Remember that blockhound will only detect blocks on main thread. This means that if you are writing junit tests, if blocking call is not made on event loop, then it won’t be detected.&lt;/p&gt;
+
+&lt;h1 id=&quot;avoid-significant-work-before-subscribe&quot;&gt;Avoid Significant Work Before Subscribe&lt;/h1&gt;
+
+&lt;h1 id=&quot;always-look-for-async-implementations&quot;&gt;Always look for async implementations&lt;/h1&gt;
+
+&lt;p&gt;Completable futures can be converted to mono. Many java libraries have completable future implementations.&lt;/p&gt;
+
+&lt;h2 id=&quot;encapsulate-blocking-calls&quot;&gt;Encapsulate blocking calls&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b52e381a43331ded5a/download/Screenshot_2022-07-17_at_12.23.22_PM.png&quot;&gt;Screenshot_2022-07-17_at_12.23.22_PM.png&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b266fbbc5ae9751808/download/Screenshot_2022-07-17_at_12.22.57_PM.png&quot;&gt;Screenshot_2022-07-17_at_12.22.57_PM.png&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;find-if-a-method-is-reactive&quot;&gt;Find if a method is reactive&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d5826d1010e7165d435b8c/download/Screenshot_2022-07-17_at_12.24.19_PM.png&quot;&gt;Screenshot_2022-07-17_at_12.24.19_PM.png&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="dev" /><summary type="html">The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!</summary></entry><entry><title type="html">Resume and Linkedin Tips</title><link href="www.ankushchoubey.com/resume-tips/" rel="alternate" type="text/html" title="Resume and Linkedin Tips" /><published>2022-08-14T00:00:00-05:00</published><updated>2022-08-01T20:52:08-05:00</updated><id>www.ankushchoubey.com/dev-workflow</id><content type="html" xml:base="www.ankushchoubey.com/resume-tips/">&lt;p&gt;Here are some resume tips. Most apply to software engineering roles.&lt;/p&gt;
 
 &lt;h1 id=&quot;linkedin&quot;&gt;LinkedIn&lt;/h1&gt;
 
@@ -444,67 +478,4 @@
 
 &lt;p&gt;For example, while fetching movies, you have to also fetch data about movie stars from a separate table. Since many movies might have the same movie star, it may be more effective to fetch them once in bulk rather than in a streaming fashion for each movie.&lt;/p&gt;
 
-&lt;p&gt;These nuances depend on what you are trying to build. Therefore it is a good “aim” to have streaming end-to-end for true reactivity. But it isn’t always applicable.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="reactive" /><summary type="html">A streaming microservice works on streams of data rather than waiting for entire data to load before performing operations.</summary></entry><entry><title type="html">Writing better commits with Atomic Commits</title><link href="www.ankushchoubey.com/atomic-commits/" rel="alternate" type="text/html" title="Writing better commits with Atomic Commits" /><published>2022-07-14T00:00:00-05:00</published><updated>2022-07-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/atomic-commits</id><content type="html" xml:base="www.ankushchoubey.com/atomic-commits/">&lt;h1 id=&quot;what-is-the-problem-with-larger-commits&quot;&gt;What is the problem with larger commits?&lt;/h1&gt;
-
-&lt;p&gt;Many developers complete all their features before committing and merging. When they commit and merge,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;their commit is often bulky i.e it is too big&lt;/li&gt;
-  &lt;li&gt;since it is too big, it often causes merge conflicts&lt;/li&gt;
-  &lt;li&gt;since it is too big, the commit message is often not the best indicator of what the code does.&lt;/li&gt;
-  &lt;li&gt;since it is too big, there were too many changes, and the confidence to merge and expect everything to work fine reduces.&lt;/li&gt;
-  &lt;li&gt;since it took so long to merge, other developers might have built the same features again.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Often the reason is, that we are afraid to merge and want to get everything perfect the first time. But this is counterintuitive.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-we-should-do-atomic-commits&quot;&gt;Why we should do atomic commits?&lt;/h1&gt;
-
-&lt;p&gt;Atomic commits are frequent commits.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Allows for easily reversing changes&lt;/li&gt;
-  &lt;li&gt;Leads to a more accurate commit history that can be easily understood by developers.
-    &lt;ul&gt;
-      &lt;li&gt;and therefore is easier to review.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Small changes are easier to revert than bulky changes.&lt;/li&gt;
-  &lt;li&gt;Developers are much more in sync when small commits are merged non-stop.&lt;/li&gt;
-  &lt;li&gt;Small commits lead to a better sense of progress.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Suppose you are working on two features related to upload and download of files to and from AWS S3. Instead of a single commit for both, you can break it down into multiple commits.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-conventional-commits&quot;&gt;// bad
-added support for file upload and download
-
-// better 
-feat(s3-service): configuration for AWS S3
-feat(s3-service): add streaming upload file to S3
-feat(api): add endpoint for streaming upload /uploads 
-feat(53-service): streaming download from s3
-feat(api): add endpoint for streaming download /downloads
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&quot;how-to-implement-atomic-commits-in-practice&quot;&gt;How to implement atomic commits in practice?&lt;/h1&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Commit and push to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev&lt;/code&gt; after every completing method/feature.&lt;/li&gt;
-  &lt;li&gt;This push should involve both test and code.&lt;/li&gt;
-  &lt;li&gt;The commit message should be accurate.
-    &lt;ul&gt;
-      &lt;li&gt;Each commit should only include a small number of changes.&lt;/li&gt;
-      &lt;li&gt;Use a commit format like &lt;a href=&quot;/conventional-commits&quot;&gt;conventional commits&lt;/a&gt; that separates different types of commits:&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feat&lt;/code&gt;: feature&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;refactor&lt;/code&gt;: refactoring&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fix&lt;/code&gt;: bug fix&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;doc&lt;/code&gt;: documentation&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ci&lt;/code&gt;: continuous integration changes&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;build&lt;/code&gt;: related to build&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In practice, you can assume committing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feat&lt;/code&gt; at least once per hour. Other commit types especially &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;refactor&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fix&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;doc&lt;/code&gt; might be even more frequent.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="continuous-integration" /><category term="commits" /><category term="code-review" /><summary type="html">What is the problem with larger commits?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/atomic-commits.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/atomic-commits.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;These nuances depend on what you are trying to build. Therefore it is a good “aim” to have streaming end-to-end for true reactivity. But it isn’t always applicable.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="reactive" /><summary type="html">A streaming microservice works on streams of data rather than waiting for entire data to load before performing operations.</summary></entry></feed>
