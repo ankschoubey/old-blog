@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-14T13:21:58-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-15T02:22:50-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,7 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-14T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/dev-workflow</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/resume-tips</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.&lt;/p&gt;
 
 &lt;p&gt;Ideally, all these steps can be columns on a Kanban Board.&lt;/p&gt;
 
@@ -86,7 +86,49 @@
       &lt;li&gt;At end of each day, fill in card timesheet activity.&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="dev" /><summary type="html">This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.</summary></entry><entry><title type="html">Negotiations</title><link href="www.ankushchoubey.com/negotiations/" rel="alternate" type="text/html" title="Negotiations" /><published>2022-08-12T00:00:00-05:00</published><updated>2022-08-12T15:52:08-05:00</updated><id>www.ankushchoubey.com/negotiations</id><content type="html" xml:base="www.ankushchoubey.com/negotiations/">&lt;h2 id=&quot;what-is-negotiation&quot;&gt;What is Negotiation?&lt;/h2&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="dev" /><summary type="html">This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.</summary></entry><entry><title type="html">Resume and Linkedin Tips</title><link href="www.ankushchoubey.com/resume-tips/" rel="alternate" type="text/html" title="Resume and Linkedin Tips" /><published>2022-08-14T00:00:00-05:00</published><updated>2022-08-01T20:52:08-05:00</updated><id>www.ankushchoubey.com/dev-workflow</id><content type="html" xml:base="www.ankushchoubey.com/resume-tips/">&lt;p&gt;Here are some resume tips. Most apply to software engineering roles.&lt;/p&gt;
+
+&lt;h1 id=&quot;linkedin&quot;&gt;LinkedIn&lt;/h1&gt;
+
+&lt;p&gt;Use resumeworded.com to get a score and iterate.&lt;/p&gt;
+
+&lt;p&gt;Look at other people’s LinkedIn&lt;/p&gt;
+
+&lt;h1 id=&quot;resume&quot;&gt;Resume&lt;/h1&gt;
+
+&lt;h2 id=&quot;have-an-ats-friendly-resume-format&quot;&gt;Have an ATS Friendly resume format&lt;/h2&gt;
+
+&lt;h2 id=&quot;update-your-resume-regularly&quot;&gt;Update your resume regularly.&lt;/h2&gt;
+
+&lt;p&gt;Find items to add to your resume. At work, look for things that will look good on your resume. Mainly the most challenging responsibilities/tasks look good on a resume.&lt;/p&gt;
+
+&lt;p&gt;Don’t be shy to add what you are doing right now.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Example: In-process of implementing a continuous delivery pipeline.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;getting-wordings-right&quot;&gt;Getting wordings right.&lt;/h2&gt;
+
+&lt;p&gt;Use Grammarly. The Premium version will give you more points.&lt;/p&gt;
+
+&lt;p&gt;Use active voice always.&lt;/p&gt;
+
+&lt;p&gt;Use resumeworded.com to get a score on your resume and improvement points.&lt;/p&gt;
+
+&lt;p&gt;You can also use topresume.com to get a score.&lt;/p&gt;
+
+&lt;h2 id=&quot;optimize-for-readability&quot;&gt;Optimize for readability&lt;/h2&gt;
+
+&lt;p&gt;Add a summary section. Read the full-stack resume section on summary: https://www.fullstackresume.com/.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Your professional identity] with [how many years in the profession] of broad experience in [Areas of expertise] with a willingness to learn and master/practice [Areas of Interest]. [Strongest area of expertise] specialist/practitioner/expert/adept.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Put your name, and contact details in the footer. It serves as a call to action.&lt;/p&gt;
+
+&lt;p&gt;Make it easier for people to find things and find you.&lt;/p&gt;
+
+&lt;p&gt;https://www.fullstackresume.com/&lt;/p&gt;</content><author><name></name></author><category term="dev" /><summary type="html">Here are some resume tips. Most apply to software engineering roles.</summary></entry><entry><title type="html">Negotiations</title><link href="www.ankushchoubey.com/negotiations/" rel="alternate" type="text/html" title="Negotiations" /><published>2022-08-12T00:00:00-05:00</published><updated>2022-08-12T15:52:08-05:00</updated><id>www.ankushchoubey.com/negotiations</id><content type="html" xml:base="www.ankushchoubey.com/negotiations/">&lt;h2 id=&quot;what-is-negotiation&quot;&gt;What is Negotiation?&lt;/h2&gt;
 
 &lt;p&gt;Negotiation is when people come to a consensus.&lt;/p&gt;
 
@@ -465,46 +507,4 @@ feat(api): add endpoint for streaming download /downloads
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;In practice, you can assume committing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feat&lt;/code&gt; at least once per hour. Other commit types especially &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;refactor&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fix&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;doc&lt;/code&gt; might be even more frequent.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="continuous-integration" /><category term="commits" /><category term="code-review" /><summary type="html">What is the problem with larger commits?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/atomic-commits.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/atomic-commits.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Always choose Reactive Programming</title><link href="www.ankushchoubey.com/reactive-programming/" rel="alternate" type="text/html" title="Always choose Reactive Programming" /><published>2022-07-11T00:00:00-05:00</published><updated>2022-07-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/reactive</id><content type="html" xml:base="www.ankushchoubey.com/reactive-programming/">&lt;h1 id=&quot;what-is-reactive-programming&quot;&gt;What is reactive programming?&lt;/h1&gt;
-
-&lt;p&gt;Reactive programming is not a straight paradigm like empirical or functional. Reactive means that code that is written is non-blocking and asynchronous.&lt;/p&gt;
-
-&lt;p&gt;Typically, whenever we have an IO operation, the thread waits for the IO operation to complete before proceeding to the following line. This consumes CPU time while the CPU is ideal.&lt;/p&gt;
-
-&lt;p&gt;In reactive programming, during IO operations, the thread is auto-switched. Therefore, the CPU is never ideal.&lt;/p&gt;
-
-&lt;p&gt;This means that reactive code has a higher throughput overall depending on the number of IO operations. Reactive code is typically several magnitudes faster and consumes fewer resources overall.&lt;/p&gt;
-
-&lt;p&gt;Also, traditional code doesn’t work on streaming data. If you fetch a list of records from a database, the entire list has to be loaded before you can act on it.&lt;/p&gt;
-
-&lt;p&gt;In reactive, however, you can work with streams of data. So, you can start performing operations on data you have received till now without waiting for the rest of the data.&lt;/p&gt;
-
-&lt;p&gt;Similarly, suppose you have a client-server application that needs to display a list. If you code it to be reactive, the list items can be received as a stream. Each item can be displayed one at a time. No need to wait for the entire list to load. This would significantly reduce initial load time.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-choose-reactive-programming-for-every-project&quot;&gt;Why choose reactive programming for every project?&lt;/h1&gt;
-
-&lt;p&gt;Often a con of reactive programming is said to be the initial learning curve. In my experience, the initial learning curve is much less relevant than the return on investment it provides.&lt;/p&gt;
-
-&lt;p&gt;Cloud applications need to consume less memory and higher throughput. Before going for vertical or horizontal scaling, the best thing to do is optimize code. Reactive code is one of the directions to look for.&lt;/p&gt;
-
-&lt;p&gt;Reactive libraries are available in many programming languages. Especially the flavors of reactivex (RxJs, Rx Java, etc). Spring Webflux is a variant of Spring Boot that supports building reactive backends.&lt;/p&gt;
-
-&lt;h1 id=&quot;when-should-you-not-use-reactive-programming&quot;&gt;When should you not use reactive programming?&lt;/h1&gt;
-
-&lt;p&gt;The only place not to use reactive programming is when everything can be done in memory itself i.e there is no IO operation.&lt;/p&gt;
-
-&lt;h1 id=&quot;my-experience-with-reactice&quot;&gt;My experience with reactice&lt;/h1&gt;
-
-&lt;p&gt;I have used Project Reactor Spring Webflux and RxJS in Angular with both the experience has been this.&lt;/p&gt;
-
-&lt;p&gt;A much cleaner coding experience&lt;/p&gt;
-
-&lt;p&gt;One of the reason is it seems all reactive libraries are a sort of functional pipeline. One stage with another.&lt;/p&gt;
-
-&lt;p&gt;Each stage is a pure function and ideally doesn’t have any side effects.&lt;/p&gt;
-
-&lt;p&gt;You can think of it like a scope.&lt;/p&gt;
-
-&lt;p&gt;I very much agree with this video I found on Youtube. With project reactor, everything is just a Flux from start to end. No need to wrap things into different convertor classes. Everything is just Publisher.&lt;/p&gt;
-
-&lt;p&gt;Multithreading programming has never been easier.&lt;/p&gt;</content><author><name></name></author><category term="microservices" /><category term="experience" /><category term="webflux" /><summary type="html">What is reactive programming?</summary></entry></feed>
+&lt;p&gt;In practice, you can assume committing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feat&lt;/code&gt; at least once per hour. Other commit types especially &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;refactor&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fix&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;doc&lt;/code&gt; might be even more frequent.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="continuous-integration" /><category term="commits" /><category term="code-review" /><summary type="html">What is the problem with larger commits?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/atomic-commits.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/atomic-commits.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
