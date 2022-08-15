@@ -25,7 +25,7 @@ For me it has happened before that a single change to constructor has lead to ch
 
 But without IDE features too, initializing a data class in multiple tests makes tests bulkier.
 
-We can abstract away all these into a single class that can provide all the test data for a data-object.
+We can abstract away all these into a single class that can provide all the test data for a data-object. #encapsulation
 
 For example:
 
