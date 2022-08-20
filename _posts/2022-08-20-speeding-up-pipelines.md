@@ -5,7 +5,7 @@ description:
 categories: [devops]
 last_modified_at: 2022-08-14T20:52:08.052481
 last-modified-purpose:
-permalink: /speeding-up-pielines/
+permalink: /speeding-up-pipelines/
 title: Speed up Pipelines
 toc: true
 ---
