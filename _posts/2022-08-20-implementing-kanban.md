@@ -3,9 +3,9 @@ layout: post
 comments: true
 description: My experience implementing Kanban Principles.
 categories: [lean, agile]
-last_modified_at: 2022-08-14T20:52:08.052481
+last_modified_at: 2022-08-20T20:52:08.052481
 last-modified-purpose:
-permalink: /speeding-up-pipelines/
+permalink: /implementing-kanban/
 title: Becoming a bit lean with Kanban
 toc: true
 ---
