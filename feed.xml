@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-20T09:14:10-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-20T09:25:56-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,41 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Speed up Pipelines</title><link href="www.ankushchoubey.com/speeding-up-pipelines/" rel="alternate" type="text/html" title="Speed up Pipelines" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-20T15:52:08-05:00</updated><id>www.ankushchoubey.com/speeding-up-pipelines</id><content type="html" xml:base="www.ankushchoubey.com/speeding-up-pipelines/">&lt;p&gt;Disclaimer: I have primarily worked on Jenkins. But the tips mentioned aren’t Jenkins specific. It seems though that pipelines tools that come with SCM services like Gitlab are better.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Towards Data Driven Decisions</title><link href="www.ankushchoubey.com/data-driven-decisions/" rel="alternate" type="text/html" title="Towards Data Driven Decisions" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/towards-data-driven-decisions</id><content type="html" xml:base="www.ankushchoubey.com/data-driven-decisions/">&lt;h1 id=&quot;what-are-data-driven-decisions&quot;&gt;What are Data Driven Decisions?&lt;/h1&gt;
+
+&lt;p&gt;Data-Driven decisions are the ability to formulate and make decisions out of the data from the real world.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-am-i-interested-in-data-driven-decisions&quot;&gt;Why am I interested in Data Driven Decisions?&lt;/h1&gt;
+
+&lt;p&gt;For 2 years in my college, I was very driven to become a data scientist. During that time, I worked a lot with data. Not just looking at data but understanding it. So I have an intuitive sense of it.&lt;/p&gt;
+
+&lt;p&gt;I have studied value-based decision making, where we define a value and act according to that value in all situations.&lt;/p&gt;
+
+&lt;p&gt;There are some loopholes in the value-based approach and which is feedback. Systems need to be improvised somehow. And especially when we are optimizing a system, we need to know when we have peaked.&lt;/p&gt;
+
+&lt;p&gt;We also need to know MED (Minimum Effective Dose). So that we can prioritize other tasks too.&lt;/p&gt;
+
+&lt;p&gt;I am also interested in Data-Driven Decisions for deciding what feature to work on and optimizing my workflows.&lt;/p&gt;
+
+&lt;p&gt;An interest of mine is Observability in distributed systems.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-are-some-preliminary-observations-i-have-about-data-driven-decisions&quot;&gt;What are some preliminary observations I have about data-driven decisions?&lt;/h1&gt;
+
+&lt;p&gt;Data-driven decisions can be totally quantity or qualitative.&lt;/p&gt;
+
+&lt;p&gt;Qualitative decisions can be converted to qualitative if they are in the form of a questionnaire.&lt;/p&gt;
+
+&lt;p&gt;Qualitative:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Agile Maturity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quantitative:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;DORA&lt;/li&gt;
+  &lt;li&gt;Agile Metrics&lt;/li&gt;
+  &lt;li&gt;Pomodoros sessions&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="decision-making" /><summary type="html">What are Data Driven Decisions?</summary></entry><entry><title type="html">Speed up Pipelines</title><link href="www.ankushchoubey.com/speeding-up-pipelines/" rel="alternate" type="text/html" title="Speed up Pipelines" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-20T15:52:08-05:00</updated><id>www.ankushchoubey.com/speeding-up-pipelines</id><content type="html" xml:base="www.ankushchoubey.com/speeding-up-pipelines/">&lt;p&gt;Disclaimer: I have primarily worked on Jenkins. But the tips mentioned aren’t Jenkins specific. It seems though that pipelines tools that come with SCM services like Gitlab are better.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-we-should-have-a-speedy-pipeline&quot;&gt;Why we should have a speedy pipeline?&lt;/h1&gt;
 
@@ -451,37 +485,4 @@ mvn release:perform&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://pitest.org/quickstart/mutators/&quot;&gt;PIT - Mutation Testing Library for Java&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.</summary></entry><entry><title type="html">Pre-save Data Validation</title><link href="www.ankushchoubey.com/pre-save-data-validation/" rel="alternate" type="text/html" title="Pre-save Data Validation" /><published>2022-08-06T00:00:00-05:00</published><updated>2022-08-06T15:52:08-05:00</updated><id>www.ankushchoubey.com/pre-save-data-validation</id><content type="html" xml:base="www.ankushchoubey.com/pre-save-data-validation/">&lt;p&gt;It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.&lt;/p&gt;
-
-&lt;p&gt;Data errors can be:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;null values in the database or from an external system&lt;/li&gt;
-  &lt;li&gt;expecting values to be positive by getting negative ones.&lt;/li&gt;
-  &lt;li&gt;expecting a field to have a specific format but getting something else&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The only solution to a data error is running data migrations which is an unnecessary overhead.&lt;/p&gt;
-
-&lt;p&gt;Therefore, we should ensure that data is validated before it reaches DB.&lt;/p&gt;
-
-&lt;h1 id=&quot;only-allows-certain-data&quot;&gt;Only allows certain data&lt;/h1&gt;
-
-&lt;p&gt;You minimize data problems by only allowing it for specific fields.&lt;/p&gt;
-
-&lt;p&gt;On a UI, it could be dropdowns, date fields with range, and auto-completion options.&lt;/p&gt;
-
-&lt;h1 id=&quot;validate-on-frontend&quot;&gt;Validate on frontend&lt;/h1&gt;
-
-&lt;p&gt;Libraries like &lt;a href=&quot;https://formik.org/&quot;&gt;formik&lt;/a&gt; and &lt;a href=&quot;https://github.com/jquense/yup&quot;&gt;yup&lt;/a&gt; can help perform object and user input validation.&lt;/p&gt;
-
-&lt;p&gt;Typescript is only helpful in knowing the exact names of the variable, its type or keys within an object. Since it gets converted to javascript, typescript can’t be used to validate data types.&lt;/p&gt;
-
-&lt;h1 id=&quot;validate-on-the-backend&quot;&gt;Validate on the backend&lt;/h1&gt;
-
-&lt;p&gt;In Java specifically, you have JSR Validators.&lt;/p&gt;
-
-&lt;p&gt;Use in all POJOs, especially for incoming request objects and entity objects.&lt;/p&gt;
-
-&lt;p&gt;You can also &lt;a href=&quot;https://www.baeldung.com/spring-mvc-custom-validator&quot;&gt;create custom validators&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Using enums is also an option.&lt;/p&gt;</content><author><name></name></author><category term="data" /><category term="clean-code" /><summary type="html">It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.</summary></entry></feed>
