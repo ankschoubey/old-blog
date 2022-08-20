@@ -3,7 +3,7 @@ layout: post
 comments: true
 description: 
 categories: [devops]
-last_modified_at: 2022-08-14T20:52:08.052481
+last_modified_at: 2022-08-20T20:52:08.052481
 last-modified-purpose:
 permalink: /speeding-up-pipelines/
 title: Speed up Pipelines
