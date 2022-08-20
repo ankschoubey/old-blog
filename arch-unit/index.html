@@ -19,7 +19,7 @@
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-03-16T00:00:00-05:00">
 <script type="application/ld+json">
-{"datePublished":"2022-03-16T00:00:00-05:00","url":"www.ankushchoubey.com/arch-unit/","@type":"BlogPosting","headline":"Java Architecture Testing with ArchUnit","dateModified":"2022-03-16T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/arch-unit/"},"description":"Enforce custom-clean coding standards","@context":"https://schema.org"}</script>
+{"datePublished":"2022-03-16T00:00:00-05:00","url":"www.ankushchoubey.com/arch-unit/","@type":"BlogPosting","headline":"Java Architecture Testing with ArchUnit","dateModified":"2022-08-20T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/arch-unit/"},"description":"Enforce custom-clean coding standards","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -129,8 +129,8 @@ window.onload = wrap_img;
     <p class="page-description">Enforce custom-clean coding standards</p>
 <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-03-16T00:00:00-05:00" itemprop="datePublished">
         Written: Mar 16, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-03-16T15:52:08-05:00" itemprop="dateModified">
-          Updated: Mar 16, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-08-20T15:52:08-05:00" itemprop="dateModified">
+          Updated: Aug 20, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -230,6 +230,34 @@ window.onload = wrap_img;
 </code></pre></div></div>
 
 <p>Since I have started using Arch Unit, the quality of code has improved by a huge margin.</p>
+
+<h1 id="implement-archunit-as-tdd-for-architecture">Implement ArchUnit as TDD for Architecture</h1>
+
+<p>The work of an architect now expands and can live long after the architect is gone from the project.</p>
+
+<p>Since every architectural decision is written as a test.</p>
+
+<p>I try to implement this the same way.</p>
+
+<p>For example, I want all tests to be really fast. <a href="spring-boot-junit-faster/">I had written an article about it</a>. And one of the ways is that it requires avoiding <code class="language-plaintext highlighter-rouge">@DirtiesContext</code> in Spring Boot. And forcing the developer to choose between parallel execution and non-parallel execution.</p>
+
+<p>I can share it with the team and hope everyone follows it.</p>
+
+<p>But we developers have too many things on our plate, and we juggle a lot. And mostly, it’s the code reviewer who’ll asses these decisions.</p>
+
+<p>So, I instead write these are ArchTests.</p>
+
+<p>Also, ArchTests can be thought of as TDD. Before starting, the architect decides how everything should look and grow.</p>
+
+<h1 id="formatting-archunit-tests">Formatting ArchUnit Tests</h1>
+
+<p>I like the <a href="/method-when-should">method/when/then</a> format. I have a format that makes it easier to write arch unit tests.</p>
+
+<p>classes/methods/fields</p>
+<ul>
+  <li>that: have</li>
+  <li>should</li>
+</ul>
 
   </div>
 <!-- from https://github.com/utterance/utterances -->
