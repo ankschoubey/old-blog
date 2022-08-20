@@ -1,11 +1,12 @@
 ---
 description: 
-title: Writing motivation
+title: Collection of THoughts on Writing
 comments: true
 categories: [collection-of-thoughts]
 layout: post
 use_math: true
-last_modified_at: 2022-07-01T20:42:15.226335
+last_modified_at: 2022-08-20T20:42:15.226335
+last-modified-purpose: using active voice instead of passive
 permalink: /write/
 image: /images/write.jpg
 ---
@@ -36,9 +37,11 @@ This is collections of posts/ideas I have come across over the years.
 
 - The way to have something interesting to say is to go experience the world.
 
+- Narate from our own experience. This keeps things unique and interesting.
+
 - Improve your writing in every opportunity you get
 
-- Narate from our own experience. This keeps things unique and interesting.
+- Prefer using active voice instead of passive to keep your writing more exciting.
 
 ## Use less words
 
