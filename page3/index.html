@@ -19,7 +19,7 @@
 <link rel="prev" href="www.ankushchoubey.com/page2/">
 <link rel="next" href="www.ankushchoubey.com/page4/">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/page3/","@type":"WebPage","headline":"Ankush","dateModified":"2022-08-20T09:02:23-05:00","description":"Random Thoughts","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/page3/","@type":"WebPage","headline":"Ankush","dateModified":"2022-08-20T09:04:58-05:00","description":"Random Thoughts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -275,27 +275,27 @@ window.onload = wrap_img;
 <div class="col-8 d-table-cell p-3">
         <h3>
           
-            <a class="post-link" href="/custom-ui-library/">
-              Always make a custom component library for every new application
+            <a class="post-link" href="/arch-unit/">
+              Java Architecture Testing with ArchUnit
             </a>
           
 
         </h3>
         
-        <p class="post-meta-description">Component libraries help you separate out the view from business logic making views extremely reusable.</p>
+        <p class="post-meta-description">Enforce custom-clean coding standards</p>
         
         
         
-          <div class="post-meta-last-modified-date">Updated : Jul 30, 2022</div>
-          <div class="post-meta-created-date-hover">Written: Sep 23, 2021 </div>
+          <div class="post-meta-last-modified-date">Updated : Aug 20, 2022: added details about how I implement ArchUnit tests</div>
+          <div class="post-meta-created-date-hover">Written: Mar 16, 2022 </div>
          
 
           <div class="post-meta-holder" style="display: none;">
             
             
             
-              <div class="post-meta-last-modified-date">Updated: 30-Jul-22 </div>
-              <div class="post-meta-created-date-hover">Written: Sep 23, 2021 </div>
+              <div class="post-meta-last-modified-date">Updated: 20-Aug-22 </div>
+              <div class="post-meta-created-date-hover">Written: Mar 16, 2022 </div>
              
           </div>
 <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -306,15 +306,19 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag web-development" href="/categories/#web-development">web-development</a>
+    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    
+    <a class="tag fa fa-hashtag testing" href="/categories/#testing">testing</a>
     
 </div>
 </div>
       <div class="custom-post-card-toc">
         <ul>
-<li><a href="/custom-ui-library/#need-for-custom-ui-library">Need for Custom UI Library</a></li>
-<li><a href="/custom-ui-library/#some-common-ui-library-elements">Some Common UI Library Elements</a></li>
-<li><a href="/custom-ui-library/#in-general-the-rule-is">In general the rule is</a></li>
+<li><a href="/arch-unit/#reason-for-architecture-testing">Reason for Architecture Testing</a></li>
+<li><a href="/arch-unit/#archunit">ArchUnit</a></li>
+<li><a href="/arch-unit/#example">Example</a></li>
+<li><a href="/arch-unit/#implement-archunit-as-tdd-for-architecture">Implement ArchUnit as TDD for Architecture</a></li>
+<li><a href="/arch-unit/#formatting-archunit-tests">Formatting ArchUnit Tests</a></li>
 </ul>
       </div>
 
@@ -371,6 +375,55 @@ window.onload = wrap_img;
 <li><a href="/spring-boot-junit-faster/#use-right-test-slice-saved-25-running-time"><strong>Use Right Test Slice</strong> (Saved 25% running time)</a></li>
 <li><a href="/spring-boot-junit-faster/#speeding-up-springboottest-and-avoiding-dirtiescontext-saved-25-running-time"><strong>Speeding up @SpringBootTest and avoiding @DirtiesContext</strong> (Saved 25% running time)</a></li>
 <li><a href="/spring-boot-junit-faster/#run-tests-in-parallel-saved-37-running-time"><strong>Run tests in parallel</strong> (Saved 37% running time)</a></li>
+</ul>
+      </div>
+
+
+  </div></li>
+<li><div class="Box rounded-1 col-12">
+<div class="col-8 d-table-cell p-3">
+        <h3>
+          
+            <a class="post-link" href="/custom-ui-library/">
+              Always make a custom component library for every new application
+            </a>
+          
+
+        </h3>
+        
+        <p class="post-meta-description">Component libraries help you separate out the view from business logic making views extremely reusable.</p>
+        
+        
+        
+          <div class="post-meta-last-modified-date">Updated : Jul 30, 2022</div>
+          <div class="post-meta-created-date-hover">Written: Sep 23, 2021 </div>
+         
+
+          <div class="post-meta-holder" style="display: none;">
+            
+            
+            
+              <div class="post-meta-last-modified-date">Updated: 30-Jul-22 </div>
+              <div class="post-meta-created-date-hover">Written: Sep 23, 2021 </div>
+             
+          </div>
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag web-development" href="/categories/#web-development">web-development</a>
+    
+</div>
+</div>
+      <div class="custom-post-card-toc">
+        <ul>
+<li><a href="/custom-ui-library/#need-for-custom-ui-library">Need for Custom UI Library</a></li>
+<li><a href="/custom-ui-library/#some-common-ui-library-elements">Some Common UI Library Elements</a></li>
+<li><a href="/custom-ui-library/#in-general-the-rule-is">In general the rule is</a></li>
 </ul>
       </div>
 
@@ -894,51 +947,6 @@ window.onload = wrap_img;
 <div class="col-8 d-table-cell p-3">
         <h3>
           
-            <a class="post-link" href="/configuration-within-application/">
-              Keep most of your configuration within application not Jenkins
-            </a>
-          
-
-        </h3>
-        
-        <p class="post-meta-description"></p>
-        
-        
-        
-          <div class="post-meta-last-modified-date">Updated : Sep 23, 2021</div>
-          <div class="post-meta-created-date-hover">Written: Sep 27, 2021 </div>
-         
-
-          <div class="post-meta-holder" style="display: none;">
-            
-            
-            
-              <div class="post-meta-last-modified-date">Updated: 23-Sep-21 </div>
-              <div class="post-meta-created-date-hover">Written: Sep 27, 2021 </div>
-             
-          </div>
-<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-        AOS.init();
-</script> -->
-
-<div class="tag-list">
-    
-    <a class="tag fa fa-hashtag devops" href="/categories/#devops">devops</a>
-    
-</div>
-</div>
-      <div class="custom-post-card-toc">
-        
-      </div>
-
-
-  </div></li>
-<li><div class="Box rounded-1 col-12">
-<div class="col-8 d-table-cell p-3">
-        <h3>
-          
             <a class="post-link" href="/look-at-dom/">
               Web Development Tip - Reverse Engineer by looking at DOM
             </a>
@@ -971,6 +979,51 @@ window.onload = wrap_img;
 <div class="tag-list">
     
     <a class="tag fa fa-hashtag web-development" href="/categories/#web-development">web-development</a>
+    
+</div>
+</div>
+      <div class="custom-post-card-toc">
+        
+      </div>
+
+
+  </div></li>
+<li><div class="Box rounded-1 col-12">
+<div class="col-8 d-table-cell p-3">
+        <h3>
+          
+            <a class="post-link" href="/configuration-within-application/">
+              Keep most of your configuration within application not Jenkins
+            </a>
+          
+
+        </h3>
+        
+        <p class="post-meta-description"></p>
+        
+        
+        
+          <div class="post-meta-last-modified-date">Updated : Sep 23, 2021</div>
+          <div class="post-meta-created-date-hover">Written: Sep 27, 2021 </div>
+         
+
+          <div class="post-meta-holder" style="display: none;">
+            
+            
+            
+              <div class="post-meta-last-modified-date">Updated: 23-Sep-21 </div>
+              <div class="post-meta-created-date-hover">Written: Sep 27, 2021 </div>
+             
+          </div>
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag devops" href="/categories/#devops">devops</a>
     
 </div>
 </div>
@@ -1025,63 +1078,6 @@ window.onload = wrap_img;
 <li><a href="/css-tips/#use-css-variables">Use CSS variables</a></li>
 <li><a href="/css-tips/#for-devexpress-modify-dx-widget-property">For DevExpress, modify dx-widget property</a></li>
 <li><a href="/css-tips/#media-queries">Media Queries</a></li>
-</ul>
-      </div>
-
-
-  </div></li>
-<li><div class="Box rounded-1 col-12">
-<div class="col-4 d-table-cell p-3 v-align-middle">
-        <a href="/decentralize-high-tech/">
-        <img class="image-preview " src="/images/decentralize-high-tech.jpg" href="/decentralize-high-tech/" loading="‘lazy’">
-        </a>
-      </div>
-<div class="col-8 d-table-cell p-3">
-        <h3>
-          
-            <a class="post-link" href="/decentralize-high-tech/">
-              Decentralization of High Tech
-            </a>
-          
-
-        </h3>
-        
-        <p class="post-meta-description">How abstraction, cost and education convert research fields to applied.</p>
-        
-        
-        
-          <div class="post-meta-created-date">Written on  : Aug 29, 2021 </div>
-         
-
-          <div class="post-meta-holder" style="display: none;">
-            
-            
-            
-              <div class="post-meta-created-date">Written on  : Aug 29, 2021 </div>
-             
-          </div>
-<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-        AOS.init();
-</script> -->
-
-<div class="tag-list">
-    
-    <a class="tag fa fa-hashtag philosophical" href="/categories/#philosophical">philosophical</a>
-    
-    <a class="tag fa fa-hashtag for-future-me" href="/categories/#for-future-me">for-future-me</a>
-    
-    <a class="tag fa fa-hashtag baton" href="/categories/#baton">baton</a>
-    
-</div>
-</div>
-      <div class="custom-post-card-toc">
-        <ul>
-<li><a href="/decentralize-high-tech/#abstraction-and-field-maturity">Abstraction and Field Maturity</a></li>
-<li><a href="/decentralize-high-tech/#demand-and-cost">Demand and Cost</a></li>
-<li><a href="/decentralize-high-tech/#role-of-education">Role of Education</a></li>
-<li><a href="/decentralize-high-tech/#space">Space?</a></li>
 </ul>
       </div>
 

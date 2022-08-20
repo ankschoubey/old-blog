@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-20T09:03:51-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-20T09:06:18-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,47 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/resume-tips</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Speed up Pipelines</title><link href="www.ankushchoubey.com/speeding-up-pielines/" rel="alternate" type="text/html" title="Speed up Pipelines" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/speeding-up-pipelines</id><content type="html" xml:base="www.ankushchoubey.com/speeding-up-pielines/">&lt;p&gt;Disclaimer: I have primarily worked on Jenkins. But the tips mentioned aren’t Jenkins specific. It seems though that pipelines tools that come with SCM services like Gitlab are better.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-we-should-have-a-speedy-pipeline&quot;&gt;Why we should have a speedy pipeline?&lt;/h1&gt;
+
+&lt;p&gt;Pipelines such as CI and deployment are used very frequently. We don’t want these pipelines to be slow because we can’t push changes faster. And sometimes developers have to wait for a pipeline to finish before doing something else. #developerMoneyHoney&lt;/p&gt;
+
+&lt;h1 id=&quot;how-can-we-speedup-our-pipelines&quot;&gt;How can we speedup our pipelines?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Eliminate unnecessary steps: Look at each step in your pipeline and eliminate unnecessary ones.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Optimize each step: After elimination, look at each step and optimize.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run steps in parallel: this is specially true for tests/sonar things. Run them in parallel.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;for-example-a-problem-i-faced-was-with-pipeline-for-java&quot;&gt;For example: a problem I faced was with pipeline for java.&lt;/h1&gt;
+
+&lt;p&gt;there were 3 steps&lt;/p&gt;
+
+&lt;p&gt;mvn install
+mvn release:prepare
+mvn release:perform&lt;/p&gt;
+
+&lt;p&gt;After analyzing it, I realized mvn install was unnecessary. Since release perform would do the same thing.&lt;/p&gt;
+
+&lt;p&gt;Removing mvn install saved 33%time.&lt;/p&gt;
+
+&lt;p&gt;now, i saw tests been run thrice. One with mvn install so removing that eliminated it. But also during prepare and perform.&lt;/p&gt;
+
+&lt;p&gt;So I decided to skip tests in releas:perform.&lt;/p&gt;
+
+&lt;p&gt;This saved 30%time.&lt;/p&gt;
+
+&lt;p&gt;Overall the pipeline time was reduced by 63%.&lt;/p&gt;
+
+&lt;p&gt;In some cases, 28 min became 10 min.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">Disclaimer: I have primarily worked on Jenkins. But the tips mentioned aren’t Jenkins specific. It seems though that pipelines tools that come with SCM services like Gitlab are better.</summary></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/resume-tips</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.&lt;/p&gt;
 
 &lt;p&gt;Ideally, all these steps can be columns on a Kanban Board.&lt;/p&gt;
 
@@ -402,80 +442,4 @@
 
 &lt;p&gt;This can be automated by using a maven plugin like &lt;a href=&quot;https://www.baeldung.com/maven-dependency-latest-version&quot;&gt;Versions Maven Plugin&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;A pipeline job can be run where version is auto-updated and merged to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev&lt;/code&gt; branch if tests are passed. :)&lt;/p&gt;</content><author><name></name></author><category term="maven" /><category term="build-tool" /><category term="automation" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/maven-dependency-upgrade/header.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/maven-dependency-upgrade/header.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">When doing reactive programming, ‘aim’ to have streaming end-to-end</title><link href="www.ankushchoubey.com/reactive-streaming/" rel="alternate" type="text/html" title="When doing reactive programming, ‘aim’ to have streaming end-to-end" /><published>2022-07-24T00:00:00-05:00</published><updated>2022-07-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/reactive-streaming</id><content type="html" xml:base="www.ankushchoubey.com/reactive-streaming/">&lt;p&gt;A streaming microservice works on streams of data rather than waiting for entire data to load before performing operations.&lt;/p&gt;
-
-&lt;p&gt;This means by definition streaming is much high performance and therefore a good aim to have.&lt;/p&gt;
-
-&lt;h1 id=&quot;example-of-streaming-and-non-streaming-reactive-implementation&quot;&gt;Example of Streaming and Non-Streaming Reactive Implementation&lt;/h1&gt;
-
-&lt;p&gt;Suppose you have an application that shows a list of movies to users. The application comprises a frontend user view and a backend that talks to a database.&lt;/p&gt;
-
-&lt;p&gt;You have chosen Spring Webflux for the backend and Angular for the frontend since both provide reactive programming support. Webflux provides it with Project Reactor. Angular provides it with RxJs.&lt;/p&gt;
-
-&lt;p&gt;A non-reactive non-streaming way would have been something like this&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Create an API endpoint that fetches all movies from the database to the backend service.
-2 Once all the data is fetched, then create a payload to send to the browser. (Backend has to wait for fetching to be complete)&lt;/li&gt;
-  &lt;li&gt;Once the complete payload is received by the browser, it will start rendering the details. (Browser has to wait for fetching to be complete)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Spring Webflux backend&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;moviesRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;findAll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;collectList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// this makes it non-streaming&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ServerResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ok&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;bodyValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Angular Frontend&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Typescript:&lt;/p&gt;
-&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;httpClient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/movies&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;subscribe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// this line makes it non-streaming&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;movies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;HTML:&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;*ngFor=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;let movie of movies&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    \{\{ movie.name }}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;A reactive streaming implementation would be like this:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Start fetching movies from the database to the backend.&lt;/li&gt;
-  &lt;li&gt;As movies are being fetched, start creating the payload and send that payload to the browser without waiting for other movies. (Backend does not wait for fetching to be complete)&lt;/li&gt;
-  &lt;li&gt;Browser will receive a record and display it. When it receives another record, it will display that as well. (Browser does not have to wait for fetching to be complete).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This means that both your backend and your frontend have to be reactive-streaming.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Spring Webflux backend&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ServerResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ok&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;moviesRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;findAll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Movies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Angular Frontend&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Typescript:&lt;/p&gt;
-&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;movies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;httpClient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/movies&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;HTML:&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;*ngFor=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;let movie of movies | async; index as i&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    \{\{ movie.name }}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;when-is-streaming-not-efficient&quot;&gt;When is streaming not-efficient&lt;/h1&gt;
-
-&lt;p&gt;There are some cases where streaming isn’t effective or can be used like:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Amount of data is too small.&lt;/li&gt;
-  &lt;li&gt;Certain operations/transformations that require the entire data to be loaded. For example, HAL Format isn’t possible with streaming.&lt;/li&gt;
-  &lt;li&gt;Sometimes batch operations are more effective than streaming.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;For example, while fetching movies, you have to also fetch data about movie stars from a separate table. Since many movies might have the same movie star, it may be more effective to fetch them once in bulk rather than in a streaming fashion for each movie.&lt;/p&gt;
-
-&lt;p&gt;These nuances depend on what you are trying to build. Therefore it is a good “aim” to have streaming end-to-end for true reactivity. But it isn’t always applicable.&lt;/p&gt;</content><author><name></name></author><category term="clean-code" /><category term="reactive" /><summary type="html">A streaming microservice works on streams of data rather than waiting for entire data to load before performing operations.</summary></entry></feed>
+&lt;p&gt;A pipeline job can be run where version is auto-updated and merged to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev&lt;/code&gt; branch if tests are passed. :)&lt;/p&gt;</content><author><name></name></author><category term="maven" /><category term="build-tool" /><category term="automation" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/maven-dependency-upgrade/header.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/maven-dependency-upgrade/header.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
