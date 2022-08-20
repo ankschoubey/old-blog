@@ -3,8 +3,8 @@ layout: post
 comments: true
 description:
 categories: [software-engineering, clean-code]
-last_modified_at: 2021-09-23T20:52:08.052481
-last-modified-purpose:
+last_modified_at: 2022-08-20T20:52:08.052481
+last-modified-purpose: code review template
 permalink: /code-reviews/
 title: Code Reviews and Pair Programming
 ---
@@ -32,6 +32,26 @@ While pair programming is most effective in person, the best way I could find in
 partner will show you more efficient ways of doing things including how to use ide.
 
 It may happen that pairing up isn't ideal and one has to review code later, in that case github/gitlab do provide option to comment on a piece of code. The programmer may submit the code to reviewer for review.
+
+# Template
+
+I have been templatizing common communication phrases to use them like a checklist to communicate effectively.
+
+Here’s one for code review
+
+1. If you don’t understand something, ask for clarification.
+
+2. If you want to suggest/enforce a rule, says.
+
+```
+Tag the person
+
+Write down what you want to suggest or happen. If you don't understand something, ask clarifying questions.
+
+Write down why you want it. Reasons to support it
+
+Provide references and help
+```
 
 Sources:
 
