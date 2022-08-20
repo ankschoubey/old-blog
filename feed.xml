@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-20T09:10:55-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-20T09:12:53-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Random Thoughts</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -91,7 +91,87 @@ mvn release:perform&lt;/p&gt;
 
 &lt;p&gt;Overall the pipeline time was reduced by 63%.&lt;/p&gt;
 
-&lt;p&gt;In some cases, 28 min became 10 min.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">Disclaimer: I have primarily worked on Jenkins. But the tips mentioned aren’t Jenkins specific. It seems though that pipelines tools that come with SCM services like Gitlab are better.</summary></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/resume-tips</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.&lt;/p&gt;
+&lt;p&gt;In some cases, 28 min became 10 min.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html">Disclaimer: I have primarily worked on Jenkins. But the tips mentioned aren’t Jenkins specific. It seems though that pipelines tools that come with SCM services like Gitlab are better.</summary></entry><entry><title type="html">Becoming a bit lean with Kanban</title><link href="www.ankushchoubey.com/speeding-up-pipelines/" rel="alternate" type="text/html" title="Becoming a bit lean with Kanban" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/implementing-kanban</id><content type="html" xml:base="www.ankushchoubey.com/speeding-up-pipelines/">&lt;h1 id=&quot;what-is-agility&quot;&gt;What is Agility?&lt;/h1&gt;
+
+&lt;p&gt;Agility means working in small and delivering in small increments frequently. Following a set of values and principles that allow this and make it easier.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-be-a-bit-more-agile&quot;&gt;Why be a bit more Agile?&lt;/h1&gt;
+
+&lt;p&gt;After rejecting TDD-BDD for years, I switched camps too it. Now is the same moment with Agile.&lt;/p&gt;
+
+&lt;p&gt;I’m very passionate about Continous Deployment. To work towards continuous deployment requires improving engineering quality and processes surrounding SDLC. Therefore, Agile.&lt;/p&gt;
+
+&lt;p&gt;By being more agile, we can increase our delivery speed and ensure people are in sync and have a certain disciplined way of working.&lt;/p&gt;
+
+&lt;p&gt;While Agile is a set of values and principles, there are frameworks to implement it, most popularly, scrum. There is a similar set of values principles, called lean, whose most popular implementation is Kanban. &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-kanban&quot;&gt;What is Kanban?&lt;/h1&gt;
+
+&lt;p&gt;Kanban is multiple things &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Tool&lt;/li&gt;
+  &lt;li&gt;Principles&lt;/li&gt;
+  &lt;li&gt;Framework&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This post is going to focus on Tools and principles.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-are-some-kanban-principles-how-do-they-look-in-practice&quot;&gt;What are some Kanban principles? How do they look in practice?&lt;/h1&gt;
+
+&lt;h2 id=&quot;board-is-the-single-source-of-truth&quot;&gt;Board is the single source of truth.&lt;/h2&gt;
+
+&lt;p&gt;Everything is visible on the board. And everyone works off from the board.&lt;/p&gt;
+
+&lt;p&gt;The board should keep track of each and everything you do.&lt;/p&gt;
+
+&lt;p&gt;Each activity, however small, should be captured.&lt;/p&gt;
+
+&lt;p&gt;Each workflow step should be present. Therefore board structure needs to be updated regularly too.&lt;/p&gt;
+
+&lt;p&gt;Kanban is visual. And the way it is helps everyone in a team be in sync. And reduces handover.&lt;/p&gt;
+
+&lt;p&gt;In practice,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You’ll likely see and use and update the Kanban board multiple times a day.&lt;/li&gt;
+  &lt;li&gt;And the start and end of your day will be on the board.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are few more tips I came up with to help in this.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I prefer keeping the board open in a tab at all times. And working off the board.&lt;/li&gt;
+  &lt;li&gt;I transfer all items in personal todo’s to the board.&lt;/li&gt;
+  &lt;li&gt;In every commit: I capture card details and how much time I spent on that card. And after each commit, I update the card with time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For teams,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Teams can play a game: it’s called “Moment of Glory” &lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Moment of Glory is a game where anyone in the team can ask someone about the board. If that card isn’t updated or in the right column, it’s a moment of glory, and the facilitator or the person updates the card.&lt;/p&gt;
+
+&lt;h2 id=&quot;pull-system&quot;&gt;Pull System&lt;/h2&gt;
+
+&lt;p&gt;You always work on the rightmost card assigned to you and push it towards completion.&lt;/p&gt;
+
+&lt;p&gt;The card/task which gets completed and on production is of must higher value than the 50% done card.&lt;/p&gt;
+
+&lt;p&gt;In practice,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Look at the board, look at the right most items and start working on them first.&lt;/li&gt;
+  &lt;li&gt;If you have a new task, add a card to the start of the board (the backlog) but don’t start working on it just yet. Come back to your current card and finish it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/c/VibhorChandel&quot;&gt;Vibhor Chandel&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/c/Developmentthatpays&quot;&gt;Development That Pays&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="lean" /><category term="agile" /><summary type="html">What is Agility?</summary></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/resume-tips</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.&lt;/p&gt;
 
 &lt;p&gt;Ideally, all these steps can be columns on a Kanban Board.&lt;/p&gt;
 
@@ -404,42 +484,4 @@ mvn release:perform&lt;/p&gt;
 
 &lt;p&gt;You can also &lt;a href=&quot;https://www.baeldung.com/spring-mvc-custom-validator&quot;&gt;create custom validators&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Using enums is also an option.&lt;/p&gt;</content><author><name></name></author><category term="data" /><category term="clean-code" /><summary type="html">It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.</summary></entry><entry><title type="html">Tips on fixing and upgrading Maven Dependencies</title><link href="www.ankushchoubey.com/maven-dependency-upgrade/" rel="alternate" type="text/html" title="Tips on fixing and upgrading Maven Dependencies" /><published>2022-07-29T00:00:00-05:00</published><updated>2022-07-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/maven-updation</id><content type="html" xml:base="www.ankushchoubey.com/maven-dependency-upgrade/">&lt;p&gt;&lt;img src=&quot;/images/maven-dependency-upgrade/header.svg&quot; alt=&quot;Maven Logo From Wikipedia&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;{$ include note.html content=”&lt;strong&gt;For beginners&lt;/strong&gt;: Instead of writing your code, you can include code written by other people. This is done by setting up dependencies. Maven is a java build tool that helps streamline and automate dependency management so that you don’t have to manually configure things within each machine. Apart from this, maven also helps in testing, and release and has a plugin ecosystem to automate many tasks.” $}&lt;/p&gt;
-
-&lt;p&gt;Updating dependencies is important. Reasons could be:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;your SAST scan found a list of vulnerable dependancies&lt;/li&gt;
-  &lt;li&gt;you want to keep up with the latest.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are few things that could make the process easier.&lt;/p&gt;
-
-&lt;h1 id=&quot;update-dependencies-in-parent&quot;&gt;Update dependencies in parent&lt;/h1&gt;
-
-&lt;p&gt;If dependencies in the parent can’t be updated exclude and update the child.&lt;/p&gt;
-
-&lt;p&gt;If you are excluding do write a comment mentioning why you are excluding and if/when to remove the exlusion.&lt;/p&gt;
-
-&lt;p&gt;If dependency cannot be upgraded, find a different package specially if it’s a security problem.&lt;/p&gt;
-
-&lt;h1 id=&quot;find-child-dependies-easier-with-maven-helper-plugin-for-intellij&quot;&gt;Find child dependies easier with Maven Helper plugin for IntelliJ&lt;/h1&gt;
-
-&lt;p&gt;It can be hard to know the subdependiencies of a dependency. &lt;a href=&quot;https://plugins.jetbrains.com/plugin/7179-maven-helper&quot;&gt;Maven Helper&lt;/a&gt; plugin creates a tree that can help.&lt;/p&gt;
-
-&lt;p&gt;It has options to exclude dependies too.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/maven-dependency-upgrade/maven_helper.png&quot; alt=&quot;Maven Helper IntelliJ Plugin&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;run-automated-tests-after-updation&quot;&gt;Run automated tests after updation&lt;/h1&gt;
-
-&lt;p&gt;Having a good automated test suit helps elevate the risks involves with updation of any kind.&lt;/p&gt;
-
-&lt;p&gt;Run all your automated tests to verify if change to dependies is making the code break.&lt;/p&gt;
-
-&lt;h1 id=&quot;automate-updation&quot;&gt;Automate updation&lt;/h1&gt;
-
-&lt;p&gt;This can be automated by using a maven plugin like &lt;a href=&quot;https://www.baeldung.com/maven-dependency-latest-version&quot;&gt;Versions Maven Plugin&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A pipeline job can be run where version is auto-updated and merged to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev&lt;/code&gt; branch if tests are passed. :)&lt;/p&gt;</content><author><name></name></author><category term="maven" /><category term="build-tool" /><category term="automation" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/maven-dependency-upgrade/header.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/maven-dependency-upgrade/header.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Using enums is also an option.&lt;/p&gt;</content><author><name></name></author><category term="data" /><category term="clean-code" /><summary type="html">It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.</summary></entry></feed>
