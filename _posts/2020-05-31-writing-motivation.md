@@ -1,6 +1,6 @@
 ---
 description: 
-title: Collection of THoughts on Writing
+title: Collection of Thoughts on Writing
 comments: true
 categories: [collection-of-thoughts]
 layout: post
