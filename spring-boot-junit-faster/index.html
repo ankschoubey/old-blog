@@ -88,7 +88,6 @@ window.onload = wrap_img;
     elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
     });
 </script>
-<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 <header class="site-header">
@@ -208,7 +207,10 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <p><img src="/images/spring-boot-junit-faster/header.png" alt="JUnit Logo"></p>
 
-<p>{$ include note.html content=”For beginners: Tests provide fast feedback to your code and ensure everything works the way you intended. Having faster tests help get faster feedback and ensure your integration and deployment pipelines work faster.” $}</p>
+<div class="flash">
+    <svg class="octicon octicon-info octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+    <strong>Note: </strong>For beginners: Tests provide fast feedback to your code and ensure everything works the way you intended. Having faster tests help get faster feedback and ensure your integration and deployment pipelines work faster.
+</div>
 
 <p>There are several ways I recently discovered that increase speed on Spring Boot + JUnit tests substantially. From 8 minutes to 3 minutes.</p>
 
