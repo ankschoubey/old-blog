@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-20T09:48:42-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-21T04:05:48-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -322,9 +322,17 @@ mvn release:perform&lt;/p&gt;
 
 &lt;p&gt;It isn’t about winning. It’s about Win-Win!&lt;/p&gt;
 
-&lt;p&gt;We can’t just think about ourselves. We have to think about everyone. What’s good for others is good for me.&lt;/p&gt;
+&lt;p&gt;We can’t just think about ourselves. We have to think about everyone. A philosophical argument can be this: What’s good for others is good for me.&lt;/p&gt;
+
+&lt;p&gt;Not convinced? Yeah. The philosophical argument isn’t persuasive enough here.&lt;/p&gt;
+
+&lt;p&gt;If you think about it carefully, someone can only follow a plan if he/she feels satisfied and convinced of its merits.&lt;/p&gt;
 
 &lt;p&gt;If someone else is happy, they’ll pay us back somehow. Similarly, when we are happy, we’ll pay them back.&lt;/p&gt;
+
+&lt;p&gt;If someone is unhappy, they’ll either reject or abandon the plan. Similar to us.&lt;/p&gt;
+
+&lt;p&gt;Therefore, the probability that negotiation is reached and followed through is entirely dependent on how happy both parties feel at the end of the negotiation.&lt;/p&gt;
 
 &lt;h2 id=&quot;is-it-that-important-to-learn-to-negotiate&quot;&gt;Is it that important to learn to negotiate?&lt;/h2&gt;
 
@@ -332,20 +340,32 @@ mvn release:perform&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Monetary negotiations are the most transparent form of negotiations.&lt;/li&gt;
   &lt;li&gt;Negotiations happen beyond money matters too. Things like marriage, friendships, idea proposals, etc.&lt;/li&gt;
+  &lt;li&gt;Conflicts are also a negotiation of sorts.&lt;/li&gt;
   &lt;li&gt;Even you negotiate with yourself to get work done. Like, oh, why do I not want to do this? Can I work for 5 min?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Negotiations are non-stop and non-avoidable. Therefore, negotiations are essential.&lt;/p&gt;
 
+&lt;p&gt;The rules of negotiations change and depend on the situation at hand. You can’t do a marriage discussion like you do salary negotiation.&lt;/p&gt;
+
 &lt;h2 id=&quot;what-do-negotiations-involve&quot;&gt;What do negotiations involve?&lt;/h2&gt;
 
 &lt;p&gt;Negotiation involves many steps:&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Knowing what you want.&lt;/li&gt;
-  &lt;li&gt;Knowing what the other person wants.&lt;/li&gt;
-  &lt;li&gt;Knowing the market.&lt;/li&gt;
-  &lt;li&gt;Expressing what you want.&lt;/li&gt;
-  &lt;li&gt;Listening and understanding what the other person really wants.&lt;/li&gt;
+  &lt;li&gt;Knowing
+    &lt;ul&gt;
+      &lt;li&gt;What you want.&lt;/li&gt;
+      &lt;li&gt;What does the other person want?&lt;/li&gt;
+      &lt;li&gt;What’s common in the market?&lt;/li&gt;
+      &lt;li&gt;What’s practical?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Communication
+    &lt;ul&gt;
+      &lt;li&gt;Expressing what you want clearly without reducing or overdoing it.&lt;/li&gt;
+      &lt;li&gt;Listening and understanding what the other person really wants. Asking them questions to understand more of why they want something. #startWithWhy. Good listening skills play a huge part here.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;Discuss possible scenarios, outcomes, compromises or different angles.&lt;/li&gt;
   &lt;li&gt;Accepting, being content and following through on your part&lt;/li&gt;
   &lt;li&gt;Hoping the other person feels accepted, content and follows through.&lt;/li&gt;
