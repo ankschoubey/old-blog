@@ -206,7 +206,9 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>SW Architecture is one of most important pillars of a SW project. Following Engineering and Agile practices are part of the equation too. But having a clean extensible architecture faciliates a much faster development.</p>
+    <h2 id="introduction">Introduction</h2>
+
+<p>SW Architecture is one of most important pillars of a SW project. Following Engineering and Agile practices are part of the equation too. But having a clean extensible architecture faciliates a much faster development.</p>
 
 <p>When working with a group of people, it is significantly time consuming to enforce rules for maintanability. For example: it’s common to find different classes that do the same thing named differently. Some team member names it as controllers. Some name it has handler.</p>
 
@@ -221,15 +223,21 @@ window.onload = wrap_img;
 
 <p>This particular post will focus on Architectural Testing.</p>
 
-<h1 id="reason-for-architecture-testing">Reason for Architecture Testing</h1>
+<h1 id="what-are-architecture-tests">What are Architecture Tests?</h1>
 
-<p>Once size of codebase increases, it becomes harder and harder to manage a lot of little things. This is specially true when multiple people are working on it.</p>
+<p>Architecture tests help enforce rules that are otherwise missed by linters. Linter’s do provide some coding standard but usually aren’t sophesticated enough for capabilities architecture testing can provide.</p>
 
-<p>For example, if you are having a @Entity and want to ensure all of it have certain javax validation whenever someone creates a new @Entity.</p>
+<p>For example, if you are having a java <code class="language-plaintext highlighter-rouge">@Entity</code> and want to ensure all of it have certain <code class="language-plaintext highlighter-rouge">java</code>x validation whenever someone creates a new <code class="language-plaintext highlighter-rouge">@Entity</code>.</p>
 
-<p>It may happen that someone who is working on the code base in future does not know about a certain principle to follow.</p>
+<h1 id="libraries-for-architecture-testing">Libraries for Architecture Testing</h1>
 
-<p>For such cases, Architecture Testing is idea.</p>
+<p>I found 2 libraries:</p>
+<ol>
+  <li>
+<a href="https://www.archunit.org/">ArchUnit</a>: For Java</li>
+  <li>
+<a href="https://github.com/ts-arch/ts-arch">TsArch</a>: Typescript version of ArchUnit</li>
+</ol>
 
 <h1 id="archunit">ArchUnit</h1>
 
@@ -250,7 +258,7 @@ window.onload = wrap_img;
 
 <h1 id="implement-archunit-as-tdd-for-architecture">Implement ArchUnit as TDD for Architecture</h1>
 
-<p>The work of an architect now expands and can live long after the architect is gone from the project.</p>
+<p>With architecture testing, work of an architect now expands and can live long after the architect is gone from the project.</p>
 
 <p>Since every architectural decision is written as a test.</p>
 
@@ -266,7 +274,7 @@ window.onload = wrap_img;
 
 <p>Also, ArchTests can be thought of as TDD. Before starting, the architect decides how everything should look and grow.</p>
 
-<h1 id="formatting-archunit-tests">Formatting ArchUnit Tests</h1>
+<h2 id="formatting-archunit-tests">Formatting ArchUnit Tests</h2>
 
 <p>I like the <a href="/method-when-should">method/when/then</a> format. I have a format that makes it easier to write arch unit tests.</p>
 
