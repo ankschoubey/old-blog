@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-28T05:32:22-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-28T05:41:07-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,53 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Towards Data Driven Decisions</title><link href="www.ankushchoubey.com/data-driven-decisions/" rel="alternate" type="text/html" title="Towards Data Driven Decisions" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/towards-data-driven-decisions</id><content type="html" xml:base="www.ankushchoubey.com/data-driven-decisions/">&lt;h1 id=&quot;what-are-data-driven-decisions&quot;&gt;What are Data Driven Decisions?&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Feature Flagging</title><link href="www.ankushchoubey.com/feature-flagging/" rel="alternate" type="text/html" title="Feature Flagging" /><published>2022-08-28T00:00:00-05:00</published><updated>2022-08-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/feature-flagging</id><content type="html" xml:base="www.ankushchoubey.com/feature-flagging/">&lt;h1 id=&quot;what-are-feature-flags&quot;&gt;What are feature flags?&lt;/h1&gt;
+
+&lt;p&gt;The concept of feature flags is simple. You can toggle a feature on or off based on certain conditions. And ideally, this requires zero downtime.&lt;/p&gt;
+
+&lt;p&gt;For example, an experiment feature can be turned on for some users but disabled for others.&lt;/p&gt;
+
+&lt;p&gt;There are many levels to feature flagging:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Disable feature for specific users&lt;/li&gt;
+  &lt;li&gt;Disable the feature completely&lt;/li&gt;
+  &lt;li&gt;Disable the feature in case of certain conditions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Feature flagging can also help in AB Testing.&lt;/p&gt;
+
+&lt;h1 id=&quot;feature-flagging-for-cd&quot;&gt;Feature Flagging for CD&lt;/h1&gt;
+
+&lt;p&gt;Feature flags also help in CD. Rather than feature branching, everyone can work on a single branch, but the features that aren’t ready yet can be disabled on prod. This decouples release and feature. Feature flagging is probabilistic because, in practice, it leads to stale branches.&lt;/p&gt;
+
+&lt;p&gt;In case of chaos engineering, a feature flag can help reduce blast radius and improve resiliency. Suppose a feature fails; that feature can be disabled at a run time until fixed.&lt;/p&gt;
+
+&lt;h1 id=&quot;common-ways-of-implementing-feature-flagging&quot;&gt;Common ways of implementing Feature Flagging&lt;/h1&gt;
+
+&lt;h2 id=&quot;storing-flags&quot;&gt;Storing flags&lt;/h2&gt;
+&lt;p&gt;The simplest implementation of the feature flag is DB based. A list of features is stored along with a flag to enable or disable it. Each time a decision comes, DB is called to fetch the flag’s status.&lt;/p&gt;
+
+&lt;p&gt;Environment variables can also be used. Configuration management systems like Spring Cloud Config can also be used to store flags.&lt;/p&gt;
+
+&lt;h1 id=&quot;enabling-disabling&quot;&gt;Enabling disabling&lt;/h1&gt;
+&lt;p&gt;The code has an IF else statement that enables or disables the feature.&lt;/p&gt;
+
+&lt;p&gt;An even better approach to IF else is dependency injection. If a class can be instantiated conditionally, then we solved the feature flagging problem cleanly.&lt;/p&gt;
+
+&lt;p&gt;Having a class per feature and inheriting a common interface is the best approach here. In the planning features section of this blog post, you’ll find more ideas on how to reach this.&lt;/p&gt;
+
+&lt;h2 id=&quot;end-to-end-services&quot;&gt;End-to-end services&lt;/h2&gt;
+&lt;p&gt;There are also full-blown services that help with feature flagging, like &lt;a href=&quot;https://launchdarkly.com/blog/what-are-feature-flags/&quot;&gt;LaunchDarkly&lt;/a&gt; and &lt;a href=&quot;https://www.flagship.io/&quot;&gt;FlagShip&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://martinfowler.com/articles/feature-toggles.html#CategoriesOfToggles&quot;&gt;Feature Toggles (aka Feature Flags)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/UwrJaOtS4ys&quot;&gt;DevOps Concepts: Feature Flags&lt;/a&gt;: An introductory video that explains feature flagging and branching.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.baeldung.com/spring-feature-flags&quot;&gt;Feature Flags with Spring&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.togglz.org/quickstart.html&quot;&gt;Togglz&lt;/a&gt;: A java library for feature flagging. It comes with a UI.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ff4j.github.io/&quot;&gt;FF4j&lt;/a&gt;: A java library similar to Togglz&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="feature-flagging" /><summary type="html">What are feature flags?</summary></entry><entry><title type="html">Towards Data Driven Decisions</title><link href="www.ankushchoubey.com/data-driven-decisions/" rel="alternate" type="text/html" title="Towards Data Driven Decisions" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/towards-data-driven-decisions</id><content type="html" xml:base="www.ankushchoubey.com/data-driven-decisions/">&lt;h1 id=&quot;what-are-data-driven-decisions&quot;&gt;What are Data Driven Decisions?&lt;/h1&gt;
 
 &lt;p&gt;Data-Driven decisions are the ability to formulate and make decisions out of the data from the real world.&lt;/p&gt;
 
@@ -441,68 +487,4 @@ mvn release:perform&lt;/p&gt;
       &lt;p&gt;Robert Greene &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="psychology" /><category term="phisophy" /><category term="non-professional" /><summary type="html">What is narcissistic?</summary></entry><entry><title type="html">Mutation Testing</title><link href="www.ankushchoubey.com/mutation-testing/" rel="alternate" type="text/html" title="Mutation Testing" /><published>2022-08-07T00:00:00-05:00</published><updated>2022-08-07T15:52:08-05:00</updated><id>www.ankushchoubey.com/mutation-testing</id><content type="html" xml:base="www.ankushchoubey.com/mutation-testing/">&lt;p&gt;I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.&lt;/p&gt;
-
-&lt;p&gt;For example: If we have a String coming from the external system, it can be null.&lt;/p&gt;
-
-&lt;p&gt;We can have a repository of known issues and remember them. A form of threat-modelling/chaos engineering for logic. It’s also helpful to offload such a task to an automated test. That test is mutation testing.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-mutation-testing&quot;&gt;What is mutation testing?&lt;/h1&gt;
-
-&lt;p&gt;Assuming you wrote a test for a piece of code passes. If there are changes to the code, the test should fail.&lt;/p&gt;
-
-&lt;p&gt;That is what mutation testing does. Mutation testing mutates (modifies) the code and checks if tests fail. If the test passes, then we know the test isn’t accurate.&lt;/p&gt;
-
-&lt;p&gt;Tests not being accurate can mean two things:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Either the scenario isn’t covered.&lt;/li&gt;
-  &lt;li&gt;Or assertion isn’t accurate enough.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In both cases, once we have uncovered a mutant, we can update our test and code to handle the situation.&lt;/p&gt;
-
-&lt;p&gt;Mutation testing improves both code and tests.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-accurate-is-mutation-testing&quot;&gt;How accurate is mutation testing?&lt;/h1&gt;
-
-&lt;p&gt;Sometimes mutation testing produces garbage responses. Like when a mutant removes a log line.&lt;/p&gt;
-
-&lt;p&gt;Similarly, for specific autogenerated codes, we don’t need mutations.&lt;/p&gt;
-
-&lt;p&gt;Sometimes it’s just garbage. But sometimes, it does uncover accurate details.&lt;/p&gt;
-
-&lt;p&gt;The accuracy of mutation testing depends on the application, selected mutants, and current test quality.&lt;/p&gt;
-
-&lt;p&gt;If the application is simple like CRUD, mutation tests might not uncover anything.&lt;/p&gt;
-
-&lt;p&gt;If the types of mutants selected don’t fit your particular application, then mutations might not uncover anything.&lt;/p&gt;
-
-&lt;p&gt;Mutation tests may not discover anything useful if your test quality is already high. But that’s the point. Right? A fallback safety might discover things early in the SDLC process.&lt;/p&gt;
-
-&lt;h1 id=&quot;comparing-mutation-coverage-with-code-coverage-what-should-mutation-coverage-be&quot;&gt;Comparing mutation coverage with code coverage. What should mutation coverage be?&lt;/h1&gt;
-
-&lt;p&gt;During a test, a piece of code can be executed. But unless a specific assertion is applied, it isn’t tested.&lt;/p&gt;
-
-&lt;p&gt;Code coverage can be high even without any assertion. Mutation coverage cannot be high if there are no assertions.&lt;/p&gt;
-
-&lt;p&gt;Mutation coverage depends on code coverage. If a code isn’t reachable, mutating that code will not affect the test.&lt;/p&gt;
-
-&lt;p&gt;So aim for high code coverage.&lt;/p&gt;
-
-&lt;p&gt;For mutation coverage, my current answer is that sometimes mutation results aren’t good enough.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-speed-up-mutation-testing&quot;&gt;How to speed up mutation testing?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Make sure your tests without mutation testing is already fast.&lt;/li&gt;
-  &lt;li&gt;Exclude POJO classes.&lt;/li&gt;
-  &lt;li&gt;Select the right mutators. Read &lt;a href=&quot;https://blog.pitest.org/less-is-more/&quot;&gt;“Less is More”&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Use history so that tests don’t repeat.&lt;/li&gt;
-  &lt;li&gt;Multiple threads&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resource&quot;&gt;Resource&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pitest.org/quickstart/mutators/&quot;&gt;PIT - Mutation Testing Library for Java&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="testing" /><category term="clean-code" /><summary type="html">I am looking for ways to improve my tests and code quality. On this search, I came across Test Driven Development. With TDD, our test and code quality are too damn high. But still, while we do TDD, there are times when we still can’t predict real-world scenarios.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="psychology" /><category term="phisophy" /><category term="non-professional" /><summary type="html">What is narcissistic?</summary></entry></feed>
