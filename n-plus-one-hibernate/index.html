@@ -204,6 +204,37 @@ window.onload = wrap_img;
     
 </header>
 
+<!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+
+<div class="PageNavigation">
+    
+      <a class="prev" href="/first-program/">« My First Program</a>
+    
+    
+      <a class="next" href="/package-json/">Tips for working with `package.json` »</a>
+    
+  </div>
+
+<style>
+    .PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+</style>
+
   <div class="post-content e-content" itemprop="articleBody">
     <h2 id="n1-problem">N+1 Problem</h2>
 
