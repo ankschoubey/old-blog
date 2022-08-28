@@ -57,6 +57,8 @@ layout: default
     {% endif -%}
   </header>
 
+{% include next-prev-post.html %}
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content | toc  }}
   </div>
