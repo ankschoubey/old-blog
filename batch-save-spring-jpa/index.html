@@ -204,37 +204,6 @@ window.onload = wrap_img;
     
 </header>
 
-<!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
-
-<div class="PageNavigation">
-    
-      <a class="prev" href="/simple-db/">« Keeping database simple</a>
-    
-    
-      <a class="next" href="/clean-code-spring-boot/">Art of Reducing Lines of Code in Java/Spring Boot »</a>
-    
-  </div>
-
-<style>
-    .PageNavigation {
-  font-size: 14px;
-  display: block;
-  width: auto;
-  overflow: hidden;
-}
-
-.PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
-}
-
-.PageNavigation .next {
-  text-align: right;
-}
-</style>
-
   <div class="post-content e-content" itemprop="articleBody">
     <p>By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time.</p>
 
@@ -310,6 +279,36 @@ spring.jpa.properties.hibernate.format_sql=true
 <p>So it for the new 100 entities, it set <code class="language-plaintext highlighter-rouge">@Id</code> values between 500-600 without asking Database for sequence value.</p>
 
   </div>
+  <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+
+<div class="PageNavigation">
+    
+      <a class="prev" href="/simple-db/">« Keeping database simple</a>
+    
+    
+      <a class="next" href="/clean-code-spring-boot/">Art of Reducing Lines of Code in Java/Spring Boot »</a>
+    
+  </div>
+
+<style>
+    .PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+</style>
 <!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js" repo="ankschoubey/blog" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
 </script>

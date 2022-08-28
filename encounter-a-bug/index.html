@@ -200,7 +200,26 @@ window.onload = wrap_img;
     
 </header>
 
-<!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="write-a-test-first">Write a test first</h1>
+
+<p>Encountering a bug after development means your tests aren’t good enough. (or you weren’t doing TDD 😉)</p>
+
+<p>To make sure the bug doesn’t repeat, write a test for it.</p>
+
+<p>By writing a test, you’d have simulated the exact situation where the bug arose.</p>
+
+<p>When you fix the code, you know the bug is perfectly fixed. And anyone modifying the code in the future won’t miss it.</p>
+
+<h1 id="make-sure-right-things-are-logged">Make sure right things are logged</h1>
+
+<p>Logs should provide accurate enough description of the state of the system.</p>
+
+<p>If it takes you too long to find the cause of the bug, it maybe that your logs aren’t good enough.</p>
+
+
+  </div>
+  <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
@@ -230,26 +249,6 @@ window.onload = wrap_img;
   text-align: right;
 }
 </style>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    <h1 id="write-a-test-first">Write a test first</h1>
-
-<p>Encountering a bug after development means your tests aren’t good enough. (or you weren’t doing TDD 😉)</p>
-
-<p>To make sure the bug doesn’t repeat, write a test for it.</p>
-
-<p>By writing a test, you’d have simulated the exact situation where the bug arose.</p>
-
-<p>When you fix the code, you know the bug is perfectly fixed. And anyone modifying the code in the future won’t miss it.</p>
-
-<h1 id="make-sure-right-things-are-logged">Make sure right things are logged</h1>
-
-<p>Logs should provide accurate enough description of the state of the system.</p>
-
-<p>If it takes you too long to find the cause of the bug, it maybe that your logs aren’t good enough.</p>
-
-
-  </div>
 <!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js" repo="ankschoubey/blog" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
 </script>

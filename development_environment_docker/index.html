@@ -204,7 +204,30 @@ window.onload = wrap_img;
     
 </header>
 
-<!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="the-pain">The pain</h2>
+<p>The most discouraging part of software development is setting up a local development environment. Coding is relatively easy.</p>
+
+<p>Typically it takes me over a day of effort for setting up all tools.</p>
+
+<p>Also typically software updates sometimes break a setup and lead to more changes.</p>
+
+<h2 id="docker">Docker</h2>
+
+<p>Having a development environment in Docker means that it is replicable. You can switch machines or share the environment with team easily.</p>
+
+<p>This method works with non-GUI setup. A solution for GUI is <a href="https://www.vagrantup.com/">Vagrant</a>. I did not use it because I use only 2 GUI tools, VS Code and Chrome.</p>
+
+<p>Initially, I tried creating the Container without using extensions. It was painful. <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers">Remote - Container</a> for VS Code extension makes it simple.</p>
+
+<h2 id="guide">Guide</h2>
+
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mi8kpAgHYFo" frameborder="0" allowfullscreen=""></iframe>
+</center>
+
+  </div>
+  <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
@@ -234,30 +257,6 @@ window.onload = wrap_img;
   text-align: right;
 }
 </style>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="the-pain">The pain</h2>
-<p>The most discouraging part of software development is setting up a local development environment. Coding is relatively easy.</p>
-
-<p>Typically it takes me over a day of effort for setting up all tools.</p>
-
-<p>Also typically software updates sometimes break a setup and lead to more changes.</p>
-
-<h2 id="docker">Docker</h2>
-
-<p>Having a development environment in Docker means that it is replicable. You can switch machines or share the environment with team easily.</p>
-
-<p>This method works with non-GUI setup. A solution for GUI is <a href="https://www.vagrantup.com/">Vagrant</a>. I did not use it because I use only 2 GUI tools, VS Code and Chrome.</p>
-
-<p>Initially, I tried creating the Container without using extensions. It was painful. <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers">Remote - Container</a> for VS Code extension makes it simple.</p>
-
-<h2 id="guide">Guide</h2>
-
-<center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mi8kpAgHYFo" frameborder="0" allowfullscreen=""></iframe>
-</center>
-
-  </div>
 <!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js" repo="ankschoubey/blog" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
 </script>
