@@ -69,4 +69,5 @@ I read/consume many resources and I thought this would be a good way to link to 
 ## Algorithm
 - 2022 Aug 22
     - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
-    - 
+    - [Grokking Coding Interview Free Alternatives](https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
+    - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
