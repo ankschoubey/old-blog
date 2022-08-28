@@ -248,11 +248,12 @@ window.onload = wrap_img;
 
 <p>Example: If you want to ensure all String fields for Request Objects have @Size annotation, you could write it with ArchUnit.</p>
 
-<p>“<code class="language-plaintext highlighter-rouge">java
-    fields().that().haveRawType(String.class)
-    .should()
-    .beAnnotatedWith(Size.class)
-</code>``</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">fields</span><span class="o">()</span>
+    <span class="o">.</span><span class="na">that</span><span class="o">()</span>
+    <span class="o">.</span><span class="na">haveRawType</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+    <span class="o">.</span><span class="na">should</span><span class="o">()</span>
+    <span class="o">.</span><span class="na">beAnnotatedWith</span><span class="o">(</span><span class="nc">Size</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+</code></pre></div></div>
 
 <p>Since I started using ArchUnit, the quality of code has improved by a huge margin.</p>
 
