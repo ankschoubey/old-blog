@@ -80,3 +80,7 @@ if (repository.existsByIdAndName(id, name)){
 ```
 
 Java also has `Map.of` that can allow writing maps in a single line. The only reason not to use it is that it doesn't allow null values.
+
+# More resources:
+
+- [Enterprise Application Logging Best Practices (A Support Engineer’s Perspective)](https://betterprogramming.pub/application-logging-best-practices-a-support-engineers-perspective-b17d0ef1c5df)
