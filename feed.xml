@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-08-31T09:04:39-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-03T10:18:42-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -130,7 +130,14 @@
 &lt;ul&gt;
   &lt;li&gt;DORA&lt;/li&gt;
   &lt;li&gt;Agile Metrics&lt;/li&gt;
-  &lt;li&gt;Pomodoros sessions&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pomodoros sessions&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Custom
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1YsS40schcRMpdaqmuDj_UhGGv4e0S3N7oDOlrIincpw/edit?usp=sharing&quot;&gt;Tracking progress on Grokking Coding Interview&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><category term="decision-making" /><summary type="html">What are Data Driven Decisions?</summary></entry><entry><title type="html">Speed up Pipelines</title><link href="www.ankushchoubey.com/speeding-up-pipelines/" rel="alternate" type="text/html" title="Speed up Pipelines" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-20T15:52:08-05:00</updated><id>www.ankushchoubey.com/speeding-up-pipelines</id><content type="html" xml:base="www.ankushchoubey.com/speeding-up-pipelines/">&lt;p&gt;Disclaimer: I have primarily worked on Jenkins. But the tips mentioned aren’t Jenkins specific. It seems though that pipelines tools that come with SCM services like Gitlab are better.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-we-should-have-a-speedy-pipeline&quot;&gt;Why we should have a speedy pipeline?&lt;/h1&gt;
