@@ -18,6 +18,20 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 # Resources and Some Notes
 
+## Web
+- 2022 Sep
+    - [Webhooks](https://webhooks.fyi/)
+
+## Spring Boot
+- 2022 Sep
+    - [Top 10 Most Common Spring Framework Mistakes](https://www.toptal.com/spring/top-10-most-common-spring-framework-mistakes)
+    - [Realtime user tracking in Spring Boot](https://medium.com/geekculture/realtime-user-tracking-in-spring-boot-d8fb343a6c3c)
+    - [Metrics for your Spring REST API](https://www.baeldung.com/spring-rest-api-metrics)
+
+## Maven Plugin
+- 2022 Sep
+    - [Maven Plugin: Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector): This is important when doing concurrent programming.
+
 ## Testing
 - 2022 Aug
     - [Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html): 
@@ -49,18 +63,21 @@ I read/consume many resources and I thought this would be a good way to link to 
 ## Observability 
 - 2022 Aug 22
     - [Graphana Documentation](https://grafana.com/docs/) 
+- 2022 Sep:
+    - [Instrumenting Observability: Getting Started and Pro Tips](https://www.youtube.com/watch?v=pY44UX8j4Pc)
 
-## Culture
+## Culture and Collaboration
 - 2022 Aug 22
     - [A Software Engineering Culture Test](https://blog.pragmaticengineer.com/the-developer-culture-test/)
+- 2022 Sep 22
+    - [Synchronous Versus Asynchronous Communication Tools](https://www.youtube.com/watch?v=dX_nZTiZRPE)
+
 
 ## Agile
 - 2022 Aug 22
     - [Agile Manifesto](https://agilemanifesto.org/)
     - [Agile Developer](https://hygger.io/guides/agile/software-development/agile-developer/)
     - [Getting Started with Agility: Essential Reading](https://holub.com/reading/)
-
-
 
 ## Product
 - 2022 Aug 22

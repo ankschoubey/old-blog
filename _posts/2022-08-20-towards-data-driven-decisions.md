@@ -41,3 +41,6 @@ Quantitative:
 - DORA
 - Agile Metrics
 - Pomodoros sessions
+
+- Custom
+    - [Tracking progress on Grokking Coding Interview](https://docs.google.com/spreadsheets/d/1YsS40schcRMpdaqmuDj_UhGGv4e0S3N7oDOlrIincpw/edit?usp=sharing)
