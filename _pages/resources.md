@@ -71,7 +71,7 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [A Software Engineering Culture Test](https://blog.pragmaticengineer.com/the-developer-culture-test/)
 - 2022 Sep 22
     - [Synchronous Versus Asynchronous Communication Tools](https://www.youtube.com/watch?v=dX_nZTiZRPE)
-
+    - [Apple CEO Tim Cook on Collaboration](https://www.youtube.com/watch?v=EZPYLZ7I6gs)
 
 ## Agile
 - 2022 Aug 22
@@ -88,3 +88,8 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
     - [Grokking Coding Interview Free Alternatives](https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
     - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+
+# Chaos Engineering
+- 2022 Sep
+    - [Chaos Engineering: the history, principles, and practice](https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/)
+    - [PRINCIPLES OF CHAOS ENGINEERING](https://principlesofchaos.org/)
