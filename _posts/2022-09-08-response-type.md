@@ -8,6 +8,7 @@ last-modified-purpose:
 permalink: /response-type-field/
 title: Practical Chaos Engineering Part 1 - A responseType field to all response classes
 toc: true
+image: /images/response-type-field.png
 ---
 
 The inspiration for this blogpost is [API response in a video by Chaos Monkey for Spring Boot](https://youtu.be/7sQiIR9qCdA?t=690)
