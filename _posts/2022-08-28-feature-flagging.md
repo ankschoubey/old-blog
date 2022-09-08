@@ -8,7 +8,13 @@ last-modified-purpose:
 permalink: /feature-flagging/
 title: Feature Flagging
 toc: true
+image: /images/feature-flagging.jpg
 ---
+
+![](/images/feature-flagging.jpg)
+
+Photo by <a href="https://unsplash.com/@isaactanlishung?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Isaac Li Shung Tan</a> on <a href="https://unsplash.com/s/photos/on-off?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 
 # What are feature flags?
 
