@@ -8,7 +8,10 @@ last-modified-purpose:
 permalink: /tdd-over-json/
 title: TDD Example - TDD over JSON
 toc: true
+image: /images/tdd-over-json.jpg
 ---
+![](/images/tdd-over-json.jpg)
+Photo by RealToughCandy.com: https://www.pexels.com/photo/man-love-people-woman-11035481/
 
 Somethings TDD isn't straightforward. Here is such a case I faced.
 
