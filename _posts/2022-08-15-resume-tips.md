@@ -11,7 +11,7 @@ toc: true
 image: /images/dev-workflow.jpg
 ---
 
-![](images/dev-workflow.jpg)
+![](/images/dev-workflow.jpg)
 
 Photo by <a href="https://unsplash.com/@altumcode?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">AltumCode</a> on <a href="https://unsplash.com/s/photos/developer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
