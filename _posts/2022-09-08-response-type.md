@@ -26,7 +26,7 @@ This can as simple as adding a responseMetadata field within Response of all HTT
         actualData
     },
     responseMetadata: {
-        type: "STALE", // STALE, CURRENT, FALLBACK
+        type: "STALE", // STALE, LATEST, FALLBACK
         updatedDate: "{dateObject}"
     } 
     ...
@@ -35,8 +35,8 @@ This can as simple as adding a responseMetadata field within Response of all HTT
 
 `type` could be 
 - `STALE` for old data
-- `CURRENT` to indicate the data is current
-- `FALLBACK` to indicate that neither CURRENT and STATE both type could not be loaded 
+- `LATEST` to indicate the data is current
+- `FALLBACK` to indicate that neither `LATEST` and `STATE` both type could not be loaded 
 
 an `updatedDate` field 
 - date of when something is updated
