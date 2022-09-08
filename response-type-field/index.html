@@ -219,7 +219,7 @@ window.onload = wrap_img;
         </span><span class="err">actualData</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="err">responseMetadata:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="err">type:</span><span class="w"> </span><span class="s2">"STALE"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">STALE</span><span class="p">,</span><span class="w"> </span><span class="err">CURRENT</span><span class="p">,</span><span class="w"> </span><span class="err">FALLBACK</span><span class="w">
+        </span><span class="err">type:</span><span class="w"> </span><span class="s2">"STALE"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">STALE</span><span class="p">,</span><span class="w"> </span><span class="err">LATEST</span><span class="p">,</span><span class="w"> </span><span class="err">FALLBACK</span><span class="w">
         </span><span class="err">updatedDate:</span><span class="w"> </span><span class="s2">"{dateObject}"</span><span class="w">
     </span><span class="p">}</span><span class="w"> 
     </span><span class="err">...</span><span class="w">
@@ -231,9 +231,9 @@ window.onload = wrap_img;
   <li>
 <code class="language-plaintext highlighter-rouge">STALE</code> for old data</li>
   <li>
-<code class="language-plaintext highlighter-rouge">CURRENT</code> to indicate the data is current</li>
+<code class="language-plaintext highlighter-rouge">LATEST</code> to indicate the data is current</li>
   <li>
-<code class="language-plaintext highlighter-rouge">FALLBACK</code> to indicate that neither CURRENT and STATE both type could not be loaded</li>
+<code class="language-plaintext highlighter-rouge">FALLBACK</code> to indicate that neither <code class="language-plaintext highlighter-rouge">LATEST</code> and <code class="language-plaintext highlighter-rouge">STATE</code> both type could not be loaded</li>
 </ul>
 
 <p>an <code class="language-plaintext highlighter-rouge">updatedDate</code> field</p>
