@@ -8,6 +8,7 @@ last-modified-purpose:
 permalink: /implementing-kanban/
 title: Becoming a bit lean with Kanban
 toc: true
+image: /images/implementing-kanban.svg
 ---
 
 # What is Agility?
