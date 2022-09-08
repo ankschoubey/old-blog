@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-08T09:50:25-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-08T09:57:28-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -296,17 +296,27 @@ mvn release:perform&lt;/p&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/c/Developmentthatpays&quot;&gt;Development That Pays&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="lean" /><category term="agile" /><summary type="html">What is Agility?</summary></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-14T15:52:08-05:00</updated><id>www.ankushchoubey.com/resume-tips</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="lean" /><category term="agile" /><summary type="html">What is Agility?</summary></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/resume-tips</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;&lt;img src=&quot;images/dev-workflow.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@altumcode?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;AltumCode&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.&lt;/p&gt;
 
 &lt;p&gt;Ideally, all these steps can be columns on a Kanban Board.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbnN1YmdyYXBoIEJERFxuQVsxLiBSZWFkIEJERCBzcGVjaWZpY2F0aW9ucyByZWxhdGVkIHRvIHRoZSBjYXJkXSAtLT4gQlxuQlsyLiBVcGRhdGUgc3BlY2lmaWNhdGlvbnNdXG5lbmRcbiUlLVxuc3ViZ3JhcGggUGxhbm5pbmdcbkIgLS0-IHBsYW5Db21taXRzXG5wbGFuQ29tbWl0c1szLiBQbGFuIHdpdGggYXRvbWljcyBjb21taXRzXSAtLT4gZXN0aW1hdGVDb21taXRzXG5lc3RpbWF0ZUNvbW1pdHNbNC4gRXN0aW1hdGUgZWFjaCBjb21taXQgdGltZSB3aXRoIFBPTU9ET1JPc10gLS0-IGVzdGltYXRlUGxhbm5lZEZpbmlzaERhdGVcbmVzdGltYXRlUGxhbm5lZEZpbmlzaERhdGVbNS4gQWRkIHBsYW5uZWQgZmluaXNoZWQgZGF0ZSB0aGUgY2FyZF1cbmVuZFxuJSUtXG5lc3RpbWF0ZVBsYW5uZWRGaW5pc2hEYXRlIC0tPiB8bW92ZSBjYXJkfCBwb21vZG9yb1xuJSUtXG5zdWJncmFwaCBjb2RlW1RERCB3aXRoIFBvbW9kb3JvXVxucG9tb2Rvcm9bNi4gUmVtb3ZlIGFsbCBkaXN0cmFjdGlvbnMgYW5kIHN0YXJ0IHBvbW9kb3JvIHNlc3Npb25dIC0tPiB0ZGRcbnRkZFs3LiBzdGFydCBpbmNyZW1lbnRhbGx5IHdpdGggVEREIGFuZCBjb21taXQvcHVzaCBlYWNoIGF0b21pYyBjb21taXRdLS0-IHBvbW9kb3JvXG5lbmRcbiUlLVxudGRkIC0tPiB8ZGV2ZWxvcG1lbnQgZG9uZXwgZGVwbG95XG5kZXBsb3lbOC4gRGVwbG95IGZlYXR1cmUgb24gZW52aXJvbm1lbnQgYW5kIG1vdmUgY2FyZF0gLS0-IHB1bGxSaWdodFxucHVsbFJpZ2h0WzkuIFB1bGwgcmlnaHQgdGhlIGNhcmQgdGlsbCBBY2NlcHRlZF0iLCJtZXJtYWlkIjpudWxsfQ&quot; /&gt;&lt;/p&gt;
-
 &lt;ol&gt;
-  &lt;li&gt;BDD
+  &lt;li&gt;Clear Local
+    &lt;ol&gt;
+      &lt;li&gt;Clean up your space.&lt;/li&gt;
+      &lt;li&gt;Commit everything you&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;BDD Cycle
     &lt;ol&gt;
       &lt;li&gt;Read BDD specifications related to the card&lt;/li&gt;
       &lt;li&gt;Update specifications&lt;/li&gt;
+      &lt;li&gt;NEW #Collaboration: Connect with Product or QA person to get specs verified.&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;Planning
@@ -314,6 +324,7 @@ mvn release:perform&lt;/p&gt;
       &lt;li&gt;Break down card into atomic commits&lt;/li&gt;
       &lt;li&gt;Estimate each commit with pomodoros&lt;/li&gt;
       &lt;li&gt;Add planned finish date to the card&lt;/li&gt;
+      &lt;li&gt;NEW #Collaboration: Discuss your plan with a team mate to help identify potential risks and pitfalls.&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;Coding
@@ -331,7 +342,12 @@ mvn release:perform&lt;/p&gt;
       &lt;li&gt;At end of each day, fill in card timesheet activity.&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="dev" /><summary type="html">This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.</summary></entry><entry><title type="html">Encapsulate Blocking Call the Reactor Way</title><link href="www.ankushchoubey.com/encapsulate-blocking-reactive-way/" rel="alternate" type="text/html" title="Encapsulate Blocking Call the Reactor Way" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-15T15:52:08-05:00</updated><id>www.ankushchoubey.com/encapsulate-reactive-way</id><content type="html" xml:base="www.ankushchoubey.com/encapsulate-blocking-reactive-way/">&lt;p&gt;The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!&lt;/p&gt;
+  &lt;li&gt;Review
+    &lt;ol&gt;
+      &lt;li&gt;NEW #Collaboration: Present your code for code-review to a team make.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="dev" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev-workflow.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev-workflow.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Encapsulate Blocking Call the Reactor Way</title><link href="www.ankushchoubey.com/encapsulate-blocking-reactive-way/" rel="alternate" type="text/html" title="Encapsulate Blocking Call the Reactor Way" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-15T15:52:08-05:00</updated><id>www.ankushchoubey.com/encapsulate-reactive-way</id><content type="html" xml:base="www.ankushchoubey.com/encapsulate-blocking-reactive-way/">&lt;p&gt;The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!&lt;/p&gt;
 
 &lt;p&gt;Event loops are main threads that shouldn’t be blocked.&lt;/p&gt;
 
