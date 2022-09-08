@@ -1,25 +1,25 @@
 ---
 layout: post
 comments: true
-description: For Chaos Engineering and Continuous Delivery
+description: Practical Chaos Engineering Part 1
 categories: [chaos-engineering]
 last_modified_at: 2022-09-08T20:52:08.052481
 last-modified-purpose:
 permalink: /response-type-field/
-title: Practical Chaos Engineering Part 1 - A responseType field to all response classes
+title:  A responseType field for all response classes
 toc: true
 image: /images/response-type-field.png
 ---
 
-The inspiration for this blogpost is [API response in a video by Chaos Monkey for Spring Boot](https://youtu.be/7sQiIR9qCdA?t=690)
+The inspiration for this blog post is [API response in a video by Chaos Monkey for Spring Boot](https://youtu.be/7sQiIR9qCdA?t=690)
 
-A common pattern for handling network assaults is Circuit Breaker.
+A typical pattern for handling network assaults is Circuit Breaker.
 
-Circuit breaker would replace a network delay or failure code with a fallback code, making the code resilent. 
+A circuit breaker would replace a network delay or failure code with a fallback code, making the code resilient. 
 
-When using fallback code, often it's important to show the end user that fallback data is being presented.
+Ideally, the user is indicated when fallback data is used.
 
-This can as simple as adding a responseMetadata field within Response of all HTTP status.
+This can be as simple as adding a `responseMetadata` field within HTTP Response.
 
 ```json
 {
@@ -37,13 +37,13 @@ This can as simple as adding a responseMetadata field within Response of all HTT
 `type` could be 
 - `STALE` for old data
 - `LATEST` to indicate the data is current
-- `FALLBACK` to indicate that neither `LATEST` and `STATE` both type could not be loaded 
+- `FALLBACK` indicates neither `LATEST` nor `STATE`.
 
 an `updatedDate` field 
 - date of when something is updated
 
-The frontend or client could read the `responseMetadata` and show a message to user indicating that old data is being used.
+The frontend or client could read the `responseMetadata` and show a message to the user indicating that old data.
 
-The client could also take further action on `responseMetadata` like polling after a little while until response is `CURRENT`
+The client could also take further action on `responseMetadata`, like polling, after a little while until the response is `CURRENT`.
 
-For most code bases this could be as simple as adding a parent class for all response classes. An ArchUnit test could be written to enforce this behavior.
+`responseMetadata` can be part of a parent class for all response classes. An ArchUnit test canenforce this behaviour.
