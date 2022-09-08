@@ -7,12 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Practical Chaos Engineering Part 1 - A responseType field to all response classes | Ankush</title>
+<title>A responseType field for all response classes | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Practical Chaos Engineering Part 1 - A responseType field to all response classes">
+<meta property="og:title" content="A responseType field for all response classes">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="For Chaos Engineering and Continuous Delivery">
-<meta property="og:description" content="For Chaos Engineering and Continuous Delivery">
+<meta name="description" content="Practical Chaos Engineering Part 1">
+<meta property="og:description" content="Practical Chaos Engineering Part 1">
 <link rel="canonical" href="www.ankushchoubey.com/response-type-field/">
 <meta property="og:url" content="www.ankushchoubey.com/response-type-field/">
 <meta property="og:site_name" content="Ankush">
@@ -20,7 +20,7 @@
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-09-08T00:00:00-05:00">
 <script type="application/ld+json">
-{"datePublished":"2022-09-08T00:00:00-05:00","url":"www.ankushchoubey.com/response-type-field/","@type":"BlogPosting","headline":"Practical Chaos Engineering Part 1 - A responseType field to all response classes","dateModified":"2022-09-08T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/response-type-field/"},"image":"www.ankushchoubey.com/images/response-type-field.png","description":"For Chaos Engineering and Continuous Delivery","@context":"https://schema.org"}</script>
+{"datePublished":"2022-09-08T00:00:00-05:00","url":"www.ankushchoubey.com/response-type-field/","@type":"BlogPosting","headline":"A responseType field for all response classes","dateModified":"2022-09-08T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/response-type-field/"},"image":"www.ankushchoubey.com/images/response-type-field.png","description":"Practical Chaos Engineering Part 1","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -125,9 +125,9 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Practical Chaos Engineering Part 1 - A responseType field to all response classes</h1>
+    <h1 class="post-title p-name" itemprop="name headline">A responseType field for all response classes</h1>
 
-    <p class="page-description">For Chaos Engineering and Continuous Delivery</p>
+    <p class="page-description">Practical Chaos Engineering Part 1</p>
 <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-09-08T00:00:00-05:00" itemprop="datePublished">
         Written: Sep 8, 2022
       </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-09-08T15:52:08-05:00" itemprop="dateModified">
@@ -205,15 +205,15 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
 </ul>
-<p>The inspiration for this blogpost is <a href="https://youtu.be/7sQiIR9qCdA?t=690">API response in a video by Chaos Monkey for Spring Boot</a></p>
+<p>The inspiration for this blog post is <a href="https://youtu.be/7sQiIR9qCdA?t=690">API response in a video by Chaos Monkey for Spring Boot</a></p>
 
-<p>A common pattern for handling network assaults is Circuit Breaker.</p>
+<p>A typical pattern for handling network assaults is Circuit Breaker.</p>
 
-<p>Circuit breaker would replace a network delay or failure code with a fallback code, making the code resilent.</p>
+<p>A circuit breaker would replace a network delay or failure code with a fallback code, making the code resilient.</p>
 
-<p>When using fallback code, often it’s important to show the end user that fallback data is being presented.</p>
+<p>Ideally, the user is indicated when fallback data is used.</p>
 
-<p>This can as simple as adding a responseMetadata field within Response of all HTTP status.</p>
+<p>This can be as simple as adding a <code class="language-plaintext highlighter-rouge">responseMetadata</code> field within HTTP Response.</p>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
     </span><span class="err">content:</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -234,7 +234,7 @@ window.onload = wrap_img;
   <li>
 <code class="language-plaintext highlighter-rouge">LATEST</code> to indicate the data is current</li>
   <li>
-<code class="language-plaintext highlighter-rouge">FALLBACK</code> to indicate that neither <code class="language-plaintext highlighter-rouge">LATEST</code> and <code class="language-plaintext highlighter-rouge">STATE</code> both type could not be loaded</li>
+<code class="language-plaintext highlighter-rouge">FALLBACK</code> indicates neither <code class="language-plaintext highlighter-rouge">LATEST</code> nor <code class="language-plaintext highlighter-rouge">STATE</code>.</li>
 </ul>
 
 <p>an <code class="language-plaintext highlighter-rouge">updatedDate</code> field</p>
@@ -242,11 +242,11 @@ window.onload = wrap_img;
   <li>date of when something is updated</li>
 </ul>
 
-<p>The frontend or client could read the <code class="language-plaintext highlighter-rouge">responseMetadata</code> and show a message to user indicating that old data is being used.</p>
+<p>The frontend or client could read the <code class="language-plaintext highlighter-rouge">responseMetadata</code> and show a message to the user indicating that old data.</p>
 
-<p>The client could also take further action on <code class="language-plaintext highlighter-rouge">responseMetadata</code> like polling after a little while until response is <code class="language-plaintext highlighter-rouge">CURRENT</code></p>
+<p>The client could also take further action on <code class="language-plaintext highlighter-rouge">responseMetadata</code>, like polling, after a little while until the response is <code class="language-plaintext highlighter-rouge">CURRENT</code>.</p>
 
-<p>For most code bases this could be as simple as adding a parent class for all response classes. An ArchUnit test could be written to enforce this behavior.</p>
+<p><code class="language-plaintext highlighter-rouge">responseMetadata</code> can be part of a parent class for all response classes. An ArchUnit test canenforce this behaviour.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
@@ -256,7 +256,7 @@ window.onload = wrap_img;
       <a class="prev" href="/feature-flagging/">« Feature Flagging</a>
     
     
-      <a class="next" href="/post-format/">PREFER UPDATING A BLOG OVER WRITING NEW ONES »</a>
+      <a class="next" href="/tdd-over-json/">TDD Example - TDD over JSON »</a>
     
   </div>
 

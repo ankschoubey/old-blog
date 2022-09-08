@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-08T09:57:28-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-08T10:17:49-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,15 +51,41 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Practical Chaos Engineering Part 1 - A responseType field to all response classes</title><link href="www.ankushchoubey.com/response-type-field/" rel="alternate" type="text/html" title="Practical Chaos Engineering Part 1 - A responseType field to all response classes" /><published>2022-09-08T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/response-type</id><content type="html" xml:base="www.ankushchoubey.com/response-type-field/">&lt;p&gt;The inspiration for this blogpost is &lt;a href=&quot;https://youtu.be/7sQiIR9qCdA?t=690&quot;&gt;API response in a video by Chaos Monkey for Spring Boot&lt;/a&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">TDD Example - TDD over JSON</title><link href="www.ankushchoubey.com/tdd-over-json/" rel="alternate" type="text/html" title="TDD Example - TDD over JSON" /><published>2022-09-08T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd-example</id><content type="html" xml:base="www.ankushchoubey.com/tdd-over-json/">&lt;p&gt;Somethings TDD isn’t straightforward. Here is such a case I faced.&lt;/p&gt;
 
-&lt;p&gt;A common pattern for handling network assaults is Circuit Breaker.&lt;/p&gt;
+&lt;p&gt;I was developing an app for a third-party service which required data in a particular JSON format.&lt;/p&gt;
 
-&lt;p&gt;Circuit breaker would replace a network delay or failure code with a fallback code, making the code resilent.&lt;/p&gt;
+&lt;p&gt;The particular JSON would render as UI in the third-party app’s view.&lt;/p&gt;
 
-&lt;p&gt;When using fallback code, often it’s important to show the end user that fallback data is being presented.&lt;/p&gt;
+&lt;p&gt;Here is how I approached it with TDD.&lt;/p&gt;
 
-&lt;p&gt;This can as simple as adding a responseMetadata field within Response of all HTTP status.&lt;/p&gt;
+&lt;h1 id=&quot;step-1-creating-the-ideal-json&quot;&gt;Step 1: Creating the ideal JSON.&lt;/h1&gt;
+
+&lt;p&gt;Lucky for me, the third part app had a UI builder to see what the end UI would look. I created the UI and copied JSON into my code.&lt;/p&gt;
+
+&lt;p&gt;The UI builder also gave a link which became part of my BDD specs.&lt;/p&gt;
+
+&lt;h1 id=&quot;step-2-created-a-test-with-json-asserts&quot;&gt;Step 2: Created a Test with JSON Asserts&lt;/h1&gt;
+
+&lt;p&gt;I followed the method/when/then format to create a test and added the following assertion:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSONAssert.assertEquals(expectedJson, actualJson, JSONCompareMode.LENIENT);&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://stackoverflow.com/a/33481923&quot;&gt;StackOverflow: The best way to compare two JSON files in Java&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now I know what the final state of my POJO should be.&lt;/p&gt;
+
+&lt;p&gt;I went and updated the POJO to reflect the expected JSON.&lt;/p&gt;
+
+&lt;p&gt;Another point of luck for me was that the third-party app had an SDK, so I didn’t have to build a custom POJO from scratch. I just had to customize it.&lt;/p&gt;</content><author><name></name></author><category term="tdd-example" /><summary type="html">Somethings TDD isn’t straightforward. Here is such a case I faced.</summary></entry><entry><title type="html">A responseType field for all response classes</title><link href="www.ankushchoubey.com/response-type-field/" rel="alternate" type="text/html" title="A responseType field for all response classes" /><published>2022-09-08T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/response-type</id><content type="html" xml:base="www.ankushchoubey.com/response-type-field/">&lt;p&gt;The inspiration for this blog post is &lt;a href=&quot;https://youtu.be/7sQiIR9qCdA?t=690&quot;&gt;API response in a video by Chaos Monkey for Spring Boot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A typical pattern for handling network assaults is Circuit Breaker.&lt;/p&gt;
+
+&lt;p&gt;A circuit breaker would replace a network delay or failure code with a fallback code, making the code resilient.&lt;/p&gt;
+
+&lt;p&gt;Ideally, the user is indicated when fallback data is used.&lt;/p&gt;
+
+&lt;p&gt;This can be as simple as adding a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;responseMetadata&lt;/code&gt; field within HTTP Response.&lt;/p&gt;
 
 &lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
     &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;content:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
@@ -77,7 +103,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;STALE&lt;/code&gt; for old data&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LATEST&lt;/code&gt; to indicate the data is current&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FALLBACK&lt;/code&gt; to indicate that neither &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LATEST&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;STATE&lt;/code&gt; both type could not be loaded&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FALLBACK&lt;/code&gt; indicates neither &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LATEST&lt;/code&gt; nor &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;STATE&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;updatedDate&lt;/code&gt; field&lt;/p&gt;
@@ -85,11 +111,11 @@
   &lt;li&gt;date of when something is updated&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The frontend or client could read the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;responseMetadata&lt;/code&gt; and show a message to user indicating that old data is being used.&lt;/p&gt;
+&lt;p&gt;The frontend or client could read the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;responseMetadata&lt;/code&gt; and show a message to the user indicating that old data.&lt;/p&gt;
 
-&lt;p&gt;The client could also take further action on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;responseMetadata&lt;/code&gt; like polling after a little while until response is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURRENT&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The client could also take further action on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;responseMetadata&lt;/code&gt;, like polling, after a little while until the response is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURRENT&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;For most code bases this could be as simple as adding a parent class for all response classes. An ArchUnit test could be written to enforce this behavior.&lt;/p&gt;</content><author><name></name></author><category term="chaos-engineering" /><summary type="html">The inspiration for this blogpost is API response in a video by Chaos Monkey for Spring Boot</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/response-type-field.png" /><media:content medium="image" url="www.ankushchoubey.com/images/response-type-field.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Feature Flagging</title><link href="www.ankushchoubey.com/feature-flagging/" rel="alternate" type="text/html" title="Feature Flagging" /><published>2022-08-28T00:00:00-05:00</published><updated>2022-08-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/feature-flagging</id><content type="html" xml:base="www.ankushchoubey.com/feature-flagging/">&lt;h1 id=&quot;what-are-feature-flags&quot;&gt;What are feature flags?&lt;/h1&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;responseMetadata&lt;/code&gt; can be part of a parent class for all response classes. An ArchUnit test canenforce this behaviour.&lt;/p&gt;</content><author><name></name></author><category term="chaos-engineering" /><summary type="html">The inspiration for this blog post is API response in a video by Chaos Monkey for Spring Boot</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/response-type-field.png" /><media:content medium="image" url="www.ankushchoubey.com/images/response-type-field.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Feature Flagging</title><link href="www.ankushchoubey.com/feature-flagging/" rel="alternate" type="text/html" title="Feature Flagging" /><published>2022-08-28T00:00:00-05:00</published><updated>2022-08-28T15:52:08-05:00</updated><id>www.ankushchoubey.com/feature-flagging</id><content type="html" xml:base="www.ankushchoubey.com/feature-flagging/">&lt;h1 id=&quot;what-are-feature-flags&quot;&gt;What are feature flags?&lt;/h1&gt;
 
 &lt;p&gt;The concept of feature flags is simple. You can toggle a feature on or off based on certain conditions. And ideally, this requires zero downtime.&lt;/p&gt;
 
@@ -423,59 +449,4 @@ mvn release:perform&lt;/p&gt;
 
 &lt;p&gt;Make it easier for people to find things and find you.&lt;/p&gt;
 
-&lt;p&gt;https://www.fullstackresume.com/&lt;/p&gt;</content><author><name></name></author><category term="dev" /><summary type="html">Here are some resume tips. Most apply to software engineering roles.</summary></entry><entry><title type="html">Negotiations</title><link href="www.ankushchoubey.com/negotiations/" rel="alternate" type="text/html" title="Negotiations" /><published>2022-08-12T00:00:00-05:00</published><updated>2022-08-12T15:52:08-05:00</updated><id>www.ankushchoubey.com/negotiations</id><content type="html" xml:base="www.ankushchoubey.com/negotiations/">&lt;h2 id=&quot;what-is-negotiation&quot;&gt;What is Negotiation?&lt;/h2&gt;
-
-&lt;p&gt;Negotiation is when people come to a consensus.&lt;/p&gt;
-
-&lt;p&gt;It isn’t about winning. It’s about Win-Win!&lt;/p&gt;
-
-&lt;p&gt;We can’t just think about ourselves. We have to think about everyone. A philosophical argument can be this: What’s good for others is good for me.&lt;/p&gt;
-
-&lt;p&gt;Not convinced? Yeah. The philosophical argument isn’t persuasive enough here.&lt;/p&gt;
-
-&lt;p&gt;If you think about it carefully, someone can only follow a plan if he/she feels satisfied and convinced of its merits.&lt;/p&gt;
-
-&lt;p&gt;If someone else is happy, they’ll pay us back somehow. Similarly, when we are happy, we’ll pay them back.&lt;/p&gt;
-
-&lt;p&gt;If someone is unhappy, they’ll either reject or abandon the plan. Similar to us.&lt;/p&gt;
-
-&lt;p&gt;Therefore, the probability that negotiation is reached and followed through is entirely dependent on how happy both parties feel at the end of the negotiation.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-it-that-important-to-learn-to-negotiate&quot;&gt;Is it that important to learn to negotiate?&lt;/h2&gt;
-
-&lt;p&gt;Negotiation happens in every stage of life. And many times a day.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Monetary negotiations are the most transparent form of negotiations.&lt;/li&gt;
-  &lt;li&gt;Negotiations happen beyond money matters too. Things like marriage, friendships, idea proposals, etc.&lt;/li&gt;
-  &lt;li&gt;Conflicts are also a negotiation of sorts.&lt;/li&gt;
-  &lt;li&gt;Even you negotiate with yourself to get work done. Like, oh, why do I not want to do this? Can I work for 5 min?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Negotiations are non-stop and non-avoidable. Therefore, negotiations are essential.&lt;/p&gt;
-
-&lt;p&gt;The rules of negotiations change and depend on the situation at hand. You can’t do a marriage discussion like you do salary negotiation.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-do-negotiations-involve&quot;&gt;What do negotiations involve?&lt;/h2&gt;
-
-&lt;p&gt;Negotiation involves many steps:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Knowing
-    &lt;ul&gt;
-      &lt;li&gt;What you want.&lt;/li&gt;
-      &lt;li&gt;What does the other person want?&lt;/li&gt;
-      &lt;li&gt;What’s common in the market?&lt;/li&gt;
-      &lt;li&gt;What’s practical?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Communication
-    &lt;ul&gt;
-      &lt;li&gt;Expressing what you want clearly without reducing or overdoing it.&lt;/li&gt;
-      &lt;li&gt;Listening and understanding what the other person really wants. Asking them questions to understand more of why they want something. #startWithWhy. Good listening skills play a huge part here.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Discuss possible scenarios, outcomes, compromises or different angles.&lt;/li&gt;
-  &lt;li&gt;Accepting, being content and following through on your part&lt;/li&gt;
-  &lt;li&gt;Hoping the other person feels accepted, content and follows through.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Since there are these many steps, the area where things can fail many. Therefore negotiations are complicated. And they have to be learned and practised.&lt;/p&gt;</content><author><name></name></author><category term="communication" /><category term="non-professional" /><summary type="html">What is Negotiation?</summary></entry></feed>
+&lt;p&gt;https://www.fullstackresume.com/&lt;/p&gt;</content><author><name></name></author><category term="dev" /><summary type="html">Here are some resume tips. Most apply to software engineering roles.</summary></entry></feed>

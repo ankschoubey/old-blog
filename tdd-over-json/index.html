@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Always keep yourself ready to switch companies | Ankush</title>
+<title>TDD Example - TDD over JSON | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Always keep yourself ready to switch companies">
+<meta property="og:title" content="TDD Example - TDD over JSON">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Full Stack Developer - Cloud/Microservices">
-<meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
-<link rel="canonical" href="www.ankushchoubey.com/switch-jobs/">
-<meta property="og:url" content="www.ankushchoubey.com/switch-jobs/">
+<meta name="description" content="Somethings TDD isn’t straightforward. Here is such a case I faced.">
+<meta property="og:description" content="Somethings TDD isn’t straightforward. Here is such a case I faced.">
+<link rel="canonical" href="www.ankushchoubey.com/tdd-over-json/">
+<meta property="og:url" content="www.ankushchoubey.com/tdd-over-json/">
 <meta property="og:site_name" content="Ankush">
-<meta property="og:image" content="www.ankushchoubey.com/images/switch-jobs.jpg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00">
+<meta property="article:published_time" content="2022-09-08T00:00:00-05:00">
 <script type="application/ld+json">
-{"datePublished":"2021-05-26T00:00:00-05:00","url":"www.ankushchoubey.com/switch-jobs/","@type":"BlogPosting","headline":"Always keep yourself ready to switch companies","dateModified":"2022-09-08T10:16:23-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/switch-jobs/"},"image":"www.ankushchoubey.com/images/switch-jobs.jpg","description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
+{"datePublished":"2022-09-08T00:00:00-05:00","url":"www.ankushchoubey.com/tdd-over-json/","@type":"BlogPosting","headline":"TDD Example - TDD over JSON","dateModified":"2022-09-08T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/tdd-over-json/"},"description":"Somethings TDD isn’t straightforward. Here is such a case I faced.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -125,11 +124,11 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
+    <h1 class="post-title p-name" itemprop="name headline">TDD Example - TDD over JSON</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-09-08T10:16:23-05:00" itemprop="dateModified">
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-09-08T00:00:00-05:00" itemprop="datePublished">
+        Written: Sep 8, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-09-08T15:52:08-05:00" itemprop="dateModified">
           Updated: Sep 8, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
@@ -162,7 +161,7 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
+    <a class="tag fa fa-hashtag tdd-example" href="/categories/#tdd-example">tdd-example</a>
     
 </div>
 <div class="right-section">
@@ -202,49 +201,49 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt=""></p>
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#step-1-creating-the-ideal-json">Step 1: Creating the ideal JSON.</a></li>
+<li class="toc-entry toc-h1"><a href="#step-2-created-a-test-with-json-asserts">Step 2: Created a Test with JSON Asserts</a></li>
+</ul>
+<p>Somethings TDD isn’t straightforward. Here is such a case I faced.</p>
 
-<h2 id="capitalism">Capitalism</h2>
+<p>I was developing an app for a third-party service which required data in a particular JSON format.</p>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>The particular JSON would render as UI in the third-party app’s view.</p>
 
-<p>The more you earn, the better it is for everyone.</p>
+<p>Here is how I approached it with TDD.</p>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<h1 id="step-1-creating-the-ideal-json">
+<a class="anchor" href="#step-1-creating-the-ideal-json" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 1: Creating the ideal JSON.</h1>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+<p>Lucky for me, the third part app had a UI builder to see what the end UI would look. I created the UI and copied JSON into my code.</p>
 
-<p>New environments and people give you new perspectives.</p>
+<p>The UI builder also gave a link which became part of my BDD specs.</p>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<h1 id="step-2-created-a-test-with-json-asserts">
+<a class="anchor" href="#step-2-created-a-test-with-json-asserts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 2: Created a Test with JSON Asserts</h1>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
+<p>I followed the method/when/then format to create a test and added the following assertion:</p>
 
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
+<p><code class="language-plaintext highlighter-rouge">JSONAssert.assertEquals(expectedJson, actualJson, JSONCompareMode.LENIENT);</code></p>
 
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
+<p>Source: <a href="https://stackoverflow.com/a/33481923">StackOverflow: The best way to compare two JSON files in Java</a></p>
 
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
+<p>Now I know what the final state of my POJO should be.</p>
 
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
+<p>I went and updated the POJO to reflect the expected JSON.</p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
-    </li>
-  </ol>
-</div>
+<p>Another point of luck for me was that the third-party app had an SDK, so I didn’t have to build a custom POJO from scratch. I just had to customize it.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/devops/">« Gist of DevOps</a>
+      <a class="prev" href="/response-type-field/">« A responseType field for all response classes</a>
     
     
-      <a class="next" href="/simple-db/">Keeping database simple »</a>
+      <a class="next" href="/post-format/">PREFER UPDATING A BLOG OVER WRITING NEW ONES »</a>
     
   </div>
 
@@ -274,8 +273,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/switch-jobs/';
-      this.page.identifier = 'www.ankushchoubey.com/switch-jobs/';
+      this.page.url = 'www.ankushchoubey.com/tdd-over-json/';
+      this.page.identifier = 'www.ankushchoubey.com/tdd-over-json/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -286,7 +285,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/switch-jobs/" hidden></a>
+<a class="u-url" href="/tdd-over-json/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
