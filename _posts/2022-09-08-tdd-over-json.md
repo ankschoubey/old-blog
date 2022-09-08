@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-description: 
+description: TDD Example
 categories: [tdd-example]
 last_modified_at: 2022-09-08T20:52:08.052481
 last-modified-purpose:
 permalink: /tdd-over-json/
-title: TDD Example - TDD over JSON
+title: TDD over JSON
 toc: true
 image: /images/tdd-over-json.jpg
 ---
@@ -29,10 +29,11 @@ The UI builder also gave a link which became part of my BDD specs.
 
 # Step 2: Created a Test with JSON Asserts
 
-
 I followed the method/when/then format to create a test and added the following assertion:
 
-`JSONAssert.assertEquals(expectedJson, actualJson, JSONCompareMode.LENIENT);`
+```java
+    JSONAssert.assertEquals(expectedJson, actualJson, JSONCompareMode.LENIENT);
+```
 
 Source: [StackOverflow: The best way to compare two JSON files in Java](https://stackoverflow.com/a/33481923)
 

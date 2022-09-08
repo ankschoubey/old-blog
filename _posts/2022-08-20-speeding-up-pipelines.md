@@ -8,7 +8,9 @@ last-modified-purpose:
 permalink: /speeding-up-pipelines/
 title: Speed up Pipelines
 toc: true
+image: /images/speeding-up-pipelines.svg
 ---
+![](/images/speeding-up-pipelines.svg)
 
 Disclaimer: I have primarily worked on Jenkins. But the tips mentioned aren’t Jenkins specific. It seems though that pipelines tools that come with SCM services like Gitlab are better.
 
