@@ -48,7 +48,7 @@ Everything plugs into some spring boot lifecycle.
 
 Suppose you want to extend spring boots to your liking here is how you'd do it.
 
-# Find all beans `@Bean` `AutoConfiguration`, `@ConfigurationProperties` and/or `@Value`
+## Find all beans `@Bean` `AutoConfiguration`, `@ConfigurationProperties` and/or `@Value`
 
 In IntelliJ, you can search usage for all Beans easily. These are the beans you can override.
 
@@ -60,6 +60,6 @@ Find ConfigurationProperties. Many beans depend on these or depend on `@Value`.
 
 Configuration Properties and @Value are what is set by the properties file.
 
-# Read the documentation.
+## Read the documentation.
 
 In the documentation, you will likely find info on some beans you could modify or extend.
