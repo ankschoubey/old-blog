@@ -72,6 +72,7 @@ I read/consume many resources and I thought this would be a good way to link to 
 - 2022 Sep 22
     - [Synchronous Versus Asynchronous Communication Tools](https://www.youtube.com/watch?v=dX_nZTiZRPE)
     - [Apple CEO Tim Cook on Collaboration](https://www.youtube.com/watch?v=EZPYLZ7I6gs)
+    - [Communication Skills are Underrated for Software Developers](https://www.youtube.com/watch?v=5ON1_R-wYAo)
 
 ## Agile
 - 2022 Aug 22
