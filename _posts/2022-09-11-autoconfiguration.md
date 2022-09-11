@@ -6,7 +6,7 @@ categories: [spring-boot]
 last_modified_at: 2022-09-11T20:52:08.052481
 last-modified-purpose:
 permalink: /autoconfiguration/
-title: AutoConfiguration in Spring Boot
+title: How AutoConfiguration works in Spring Boot
 toc: true
 image: /images/autoconfiguration.svg
 ---
