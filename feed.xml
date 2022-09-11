@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-11T06:30:57-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-11T06:40:48-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -88,7 +88,59 @@
 
 &lt;p&gt;Or maybe it’s time to stop focusing on this problem for a while and solve another problem. After some time, we’ll have a fresh perspective, and if this problem still exists, we’ll have more tools in our belts to fix it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/03/Diminishing_Returns_Graph.png&quot; alt=&quot;Diminishing Returns Graph: Source Wikipedia&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/perfection.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/perfection.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">TDD over JSON</title><link href="www.ankushchoubey.com/tdd-over-json/" rel="alternate" type="text/html" title="TDD over JSON" /><published>2022-09-08T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd-over-json</id><content type="html" xml:base="www.ankushchoubey.com/tdd-over-json/">&lt;p&gt;&lt;img src=&quot;/images/tdd-over-json.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/03/Diminishing_Returns_Graph.png&quot; alt=&quot;Diminishing Returns Graph: Source Wikipedia&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/perfection.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/perfection.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AutoConfiguration in Spring Boot</title><link href="www.ankushchoubey.com/autoconfiguration/" rel="alternate" type="text/html" title="AutoConfiguration in Spring Boot" /><published>2022-09-11T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/autoconfiguration</id><content type="html" xml:base="www.ankushchoubey.com/autoconfiguration/">&lt;p&gt;&lt;img src=&quot;/images/autoconfiguration.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Everything in Spring Boot is configurable. This was very hard to understand, but here are some pointers that could help.&lt;/p&gt;
+
+&lt;p&gt;It was hard for me to extend and/or customize the core functionalities of Spring Boot. These are a few pointers that could help.&lt;/p&gt;
+
+&lt;h1 id=&quot;bean-s&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Bean&lt;/code&gt; s&lt;/h1&gt;
+
+&lt;p&gt;Beans can be thought of as singleton classes. i.e. classes where only one instance can exist.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Beans&lt;/code&gt; are created and managed by BeanFactory. And there is a Bean injector which injects beans where they are needed.&lt;/p&gt;
+
+&lt;p&gt;So, for example, you have a class A and a class B.&lt;/p&gt;
+
+&lt;p&gt;class B is composed of class A, and you have added &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Autowired&lt;/code&gt; to it.&lt;/p&gt;
+
+&lt;p&gt;When the class B bean is generated, the class A bean will be injected into it.&lt;/p&gt;
+
+&lt;p&gt;All @Component, @Service and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Repository&lt;/code&gt; are of type bean.&lt;/p&gt;
+
+&lt;h1 id=&quot;conditional-s&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Conditional&lt;/code&gt; s&lt;/h1&gt;
+
+&lt;p&gt;Beans can be generated on conditions.&lt;/p&gt;
+
+&lt;p&gt;For example, suppose a particular library exists only then can a bean be generated.&lt;/p&gt;
+
+&lt;p&gt;For example, in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spring-cloud&lt;/code&gt; stream, Kafka beans would be generated if there is Kafka set.&lt;/p&gt;
+
+&lt;h1 id=&quot;everything-would-finally-plugin-to-some-lifecycle&quot;&gt;Everything would finally plugin to some lifecycle&lt;/h1&gt;
+
+&lt;p&gt;All of spring, is a plugin architecture. The core of spring boot exists and everything else is a plugin that plugs into a spring boot lifecycle extending its core functionality.&lt;/p&gt;
+
+&lt;p&gt;Everything plugs into some spring boot lifecycle.&lt;/p&gt;
+
+&lt;h1 id=&quot;extending-spring-boot&quot;&gt;Extending spring boot&lt;/h1&gt;
+
+&lt;p&gt;Suppose you want to extend spring boots to your liking here is how you’d do it.&lt;/p&gt;
+
+&lt;h1 id=&quot;find-all-beans-bean-autoconfiguration-configurationproperties-andor-value&quot;&gt;Find all beans &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Bean&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AutoConfiguration&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@ConfigurationProperties&lt;/code&gt; and/or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Value&lt;/code&gt;&lt;/h1&gt;
+
+&lt;p&gt;In IntelliJ, you can search usage for all Beans easily. These are the beans you can override.&lt;/p&gt;
+
+&lt;p&gt;Overriding these beans allows you to customize them.&lt;/p&gt;
+
+&lt;p&gt;Usually, Autoconfiguration classes end with the name &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AutoConfiguration&lt;/code&gt;, which makes them super easy to find.&lt;/p&gt;
+
+&lt;p&gt;Find ConfigurationProperties. Many beans depend on these or depend on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Value&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Configuration Properties and @Value are what is set by the properties file.&lt;/p&gt;
+
+&lt;h1 id=&quot;read-the-documentation&quot;&gt;Read the documentation.&lt;/h1&gt;
+
+&lt;p&gt;In the documentation, you will likely find info on some beans you could modify or extend.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/autoconfiguration.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/autoconfiguration.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">TDD over JSON</title><link href="www.ankushchoubey.com/tdd-over-json/" rel="alternate" type="text/html" title="TDD over JSON" /><published>2022-09-08T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd-over-json</id><content type="html" xml:base="www.ankushchoubey.com/tdd-over-json/">&lt;p&gt;&lt;img src=&quot;/images/tdd-over-json.jpg&quot; alt=&quot;&quot; /&gt;
 Photo by RealToughCandy.com: https://www.pexels.com/photo/man-love-people-woman-11035481/&lt;/p&gt;
 
 &lt;p&gt;Somethings TDD isn’t straightforward. Here is such a case I faced.&lt;/p&gt;
@@ -420,38 +472,4 @@ mvn release:perform&lt;/p&gt;
       &lt;li&gt;NEW #Collaboration: Present your code for code-review to a team make.&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="dev" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev-workflow.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev-workflow.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Encapsulate Blocking Call the Reactor Way</title><link href="www.ankushchoubey.com/encapsulate-blocking-reactive-way/" rel="alternate" type="text/html" title="Encapsulate Blocking Call the Reactor Way" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-08-15T15:52:08-05:00</updated><id>www.ankushchoubey.com/encapsulate-reactive-way</id><content type="html" xml:base="www.ankushchoubey.com/encapsulate-blocking-reactive-way/">&lt;p&gt;The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!&lt;/p&gt;
-
-&lt;p&gt;Event loops are main threads that shouldn’t be blocked.&lt;/p&gt;
-
-&lt;p&gt;If there is a blocking code, they should be run on a separate thread.&lt;/p&gt;
-
-&lt;p&gt;Here are some ways to fix these issues that I have noted down while watching Avoiding Reactor Meldown video. I have added an additional tip at the end.&lt;/p&gt;
-
-&lt;h2 id=&quot;use-blockhound-to-find-blocking-calls-during-testing&quot;&gt;Use BlockHound to find blocking calls during testing&lt;/h2&gt;
-
-&lt;p&gt;BlockHound is a plugin provided by Project Reactor that helps find blocking calls.&lt;/p&gt;
-
-&lt;p&gt;If you are doing TDD, use junit version.&lt;/p&gt;
-
-&lt;p&gt;If you are aren’t doing TDD, use normal version but remove it in prod.&lt;/p&gt;
-
-&lt;p&gt;https://github.com/reactor/BlockHound&lt;/p&gt;
-
-&lt;p&gt;Remember that blockhound will only detect blocks on main thread. This means that if you are writing junit tests, if blocking call is not made on event loop, then it won’t be detected.&lt;/p&gt;
-
-&lt;h1 id=&quot;avoid-significant-work-before-subscribe&quot;&gt;Avoid Significant Work Before Subscribe&lt;/h1&gt;
-
-&lt;h1 id=&quot;always-look-for-async-implementations&quot;&gt;Always look for async implementations&lt;/h1&gt;
-
-&lt;p&gt;Completable futures can be converted to mono. Many java libraries have completable future implementations.&lt;/p&gt;
-
-&lt;h2 id=&quot;encapsulate-blocking-calls&quot;&gt;Encapsulate blocking calls&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b52e381a43331ded5a/download/Screenshot_2022-07-17_at_12.23.22_PM.png&quot; alt=&quot;Screenshot_2022-07-17_at_12.23.22_PM.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b266fbbc5ae9751808/download/Screenshot_2022-07-17_at_12.22.57_PM.png&quot; alt=&quot;Screenshot_2022-07-17_at_12.22.57_PM.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;find-if-a-method-is-reactive&quot;&gt;Find if a method is reactive&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d5826d1010e7165d435b8c/download/Screenshot_2022-07-17_at_12.24.19_PM.png&quot; alt=&quot;Screenshot_2022-07-17_at_12.24.19_PM.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="reactive" /><category term="spring-boot" /><summary type="html">The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><category term="dev" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev-workflow.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev-workflow.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
