@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description: TDD Example
+description: TDD Example that saved around 2 hours
 categories: [tdd-example]
 last_modified_at: 2022-09-08T20:52:08.052481
 last-modified-purpose:
