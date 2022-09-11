@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-11T07:44:16-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-11T08:01:46-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -88,7 +88,64 @@
 
 &lt;p&gt;Or maybe it’s time to stop focusing on this problem for a while and solve another problem. After some time, we’ll have a fresh perspective, and if this problem still exists, we’ll have more tools in our belts to fix it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/03/Diminishing_Returns_Graph.png&quot; alt=&quot;Diminishing Returns Graph: Source Wikipedia&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/perfection.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/perfection.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AutoConfiguration in Spring Boot</title><link href="www.ankushchoubey.com/autoconfiguration/" rel="alternate" type="text/html" title="AutoConfiguration in Spring Boot" /><published>2022-09-11T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/autoconfiguration</id><content type="html" xml:base="www.ankushchoubey.com/autoconfiguration/">&lt;p&gt;&lt;img src=&quot;/images/autoconfiguration.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/03/Diminishing_Returns_Graph.png&quot; alt=&quot;Diminishing Returns Graph: Source Wikipedia&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/perfection.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/perfection.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Chaos Engineering</title><link href="www.ankushchoubey.com/chaos-engineering/" rel="alternate" type="text/html" title="Chaos Engineering" /><published>2022-09-11T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/chaos-engineering</id><content type="html" xml:base="www.ankushchoubey.com/chaos-engineering/">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/3/39/LogoChaosMonkeysNetflix.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-chaos-engineering&quot;&gt;What is Chaos Engineering?&lt;/h1&gt;
+
+&lt;p&gt;When we do TDD, we reduce logical bugs. With Chaos Engineering, we’ll improve resilience.&lt;/p&gt;
+
+&lt;p&gt;Example: If something fails for an end user, how should it be handled with minimal impact on user experience?&lt;/p&gt;
+
+&lt;p&gt;You might have experienced this when an error occurs on Netflix. Rather than failing, it gives a proper response to the user.&lt;/p&gt;
+
+&lt;p&gt;It’s hard to anticipate failure scenarios in the real world. But there are some common ones. In chaos engineering terms: assaults.&lt;/p&gt;
+
+&lt;p&gt;Full-size services like Gremlin with 30+ assault types are interesting to look through.
+There are some Kube-specific services too.&lt;/p&gt;
+
+&lt;p&gt;Chaos Engineering for Spring Boot includes three assaults (latency, exception, kill app) that directly attack @service @controller @repository.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-would-this-help&quot;&gt;How would this help?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;It will make sure we are handling more failures #gracefully.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In no case should user experience be impacted.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Many times, when an error happens, the user doesn’t get an indication that something went wrong.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;handling-chaos&quot;&gt;Handling chaos&lt;/h1&gt;
+
+&lt;p&gt;There are usually common patterns to handle many assaults like CircuitBreaker, which many java libraries provide. Thus, it would require some thought to handle failures on UI too.&lt;/p&gt;
+
+&lt;p&gt;Chaos Engineering helps us understand and improve observability.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If there is any chaos in our system, we should be able to identify it via observability quickly. If we cannot determine, we’ll have to improve observability.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;People also play Chaos Engineering Game Day, where they try to cause chaos and validate resiliency and observability.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chaos engineering would replicate testing in production.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Having a library that automates some aspects of Chaos Engineering can proactively improve resiliency (and reduce the cognitive overload of having everyone learn and follow chaos engineering)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codecentric.github.io/chaos-monkey-spring-boot/&quot;&gt;Chaos Engineering for Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gremlin.com/&quot;&gt;Gremlin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="chaos-engineering" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://upload.wikimedia.org/wikipedia/commons/3/39/LogoChaosMonkeysNetflix.png" /><media:content medium="image" url="https://upload.wikimedia.org/wikipedia/commons/3/39/LogoChaosMonkeysNetflix.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">AutoConfiguration in Spring Boot</title><link href="www.ankushchoubey.com/autoconfiguration/" rel="alternate" type="text/html" title="AutoConfiguration in Spring Boot" /><published>2022-09-11T00:00:00-05:00</published><updated>2022-09-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/autoconfiguration</id><content type="html" xml:base="www.ankushchoubey.com/autoconfiguration/">&lt;p&gt;&lt;img src=&quot;/images/autoconfiguration.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Everything in Spring Boot is configurable. This was very hard to understand, but here are some pointers that could help.&lt;/p&gt;
 
@@ -421,55 +478,4 @@ mvn release:perform&lt;/p&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/c/Developmentthatpays&quot;&gt;Development That Pays&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="lean" /><category term="agile" /><summary type="html">What is Agility?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/implementing-kanban.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/implementing-kanban.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ideal Development Workflow</title><link href="www.ankushchoubey.com/dev-workflow/" rel="alternate" type="text/html" title="Ideal Development Workflow" /><published>2022-08-15T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/resume-tips</id><content type="html" xml:base="www.ankushchoubey.com/dev-workflow/">&lt;p&gt;&lt;img src=&quot;/images/dev-workflow.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@altumcode?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;AltumCode&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement.&lt;/p&gt;
-
-&lt;p&gt;Ideally, all these steps can be columns on a Kanban Board.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbnN1YmdyYXBoIEJERFxuQVsxLiBSZWFkIEJERCBzcGVjaWZpY2F0aW9ucyByZWxhdGVkIHRvIHRoZSBjYXJkXSAtLT4gQlxuQlsyLiBVcGRhdGUgc3BlY2lmaWNhdGlvbnNdXG5lbmRcbiUlLVxuc3ViZ3JhcGggUGxhbm5pbmdcbkIgLS0-IHBsYW5Db21taXRzXG5wbGFuQ29tbWl0c1szLiBQbGFuIHdpdGggYXRvbWljcyBjb21taXRzXSAtLT4gZXN0aW1hdGVDb21taXRzXG5lc3RpbWF0ZUNvbW1pdHNbNC4gRXN0aW1hdGUgZWFjaCBjb21taXQgdGltZSB3aXRoIFBPTU9ET1JPc10gLS0-IGVzdGltYXRlUGxhbm5lZEZpbmlzaERhdGVcbmVzdGltYXRlUGxhbm5lZEZpbmlzaERhdGVbNS4gQWRkIHBsYW5uZWQgZmluaXNoZWQgZGF0ZSB0aGUgY2FyZF1cbmVuZFxuJSUtXG5lc3RpbWF0ZVBsYW5uZWRGaW5pc2hEYXRlIC0tPiB8bW92ZSBjYXJkfCBwb21vZG9yb1xuJSUtXG5zdWJncmFwaCBjb2RlW1RERCB3aXRoIFBvbW9kb3JvXVxucG9tb2Rvcm9bNi4gUmVtb3ZlIGFsbCBkaXN0cmFjdGlvbnMgYW5kIHN0YXJ0IHBvbW9kb3JvIHNlc3Npb25dIC0tPiB0ZGRcbnRkZFs3LiBzdGFydCBpbmNyZW1lbnRhbGx5IHdpdGggVEREIGFuZCBjb21taXQvcHVzaCBlYWNoIGF0b21pYyBjb21taXRdLS0-IHBvbW9kb3JvXG5lbmRcbiUlLVxudGRkIC0tPiB8ZGV2ZWxvcG1lbnQgZG9uZXwgZGVwbG95XG5kZXBsb3lbOC4gRGVwbG95IGZlYXR1cmUgb24gZW52aXJvbm1lbnQgYW5kIG1vdmUgY2FyZF0gLS0-IHB1bGxSaWdodFxucHVsbFJpZ2h0WzkuIFB1bGwgcmlnaHQgdGhlIGNhcmQgdGlsbCBBY2NlcHRlZF0iLCJtZXJtYWlkIjpudWxsfQ&quot; /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Clear Local
-    &lt;ol&gt;
-      &lt;li&gt;Clean up your space.&lt;/li&gt;
-      &lt;li&gt;Commit everything you&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;BDD Cycle
-    &lt;ol&gt;
-      &lt;li&gt;Read BDD specifications related to the card&lt;/li&gt;
-      &lt;li&gt;Update specifications&lt;/li&gt;
-      &lt;li&gt;NEW #Collaboration: Connect with Product or QA person to get specs verified.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Planning
-    &lt;ol&gt;
-      &lt;li&gt;Break down card into atomic commits&lt;/li&gt;
-      &lt;li&gt;Estimate each commit with pomodoros&lt;/li&gt;
-      &lt;li&gt;Add planned finish date to the card&lt;/li&gt;
-      &lt;li&gt;NEW #Collaboration: Discuss your plan with a team mate to help identify potential risks and pitfalls.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Coding
-    &lt;ol&gt;
-      &lt;li&gt;Remove all distractions&lt;/li&gt;
-      &lt;li&gt;Move card to In-progress lane&lt;/li&gt;
-      &lt;li&gt;Start the &lt;a href=&quot;https://lazy-guy.github.io/tomodoro/index.html&quot;&gt;pomodoro timer&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Start working incrementally with TDD. Commit and push non-stop.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Release
-    &lt;ol&gt;
-      &lt;li&gt;Manually deploy if there is no CD pipeline&lt;/li&gt;
-      &lt;li&gt;Pull card towards right until accepted&lt;/li&gt;
-      &lt;li&gt;At end of each day, fill in card timesheet activity.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Review
-    &lt;ol&gt;
-      &lt;li&gt;NEW #Collaboration: Present your code for code-review to a team make.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="dev" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev-workflow.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev-workflow.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="lean" /><category term="agile" /><summary type="html">What is Agility?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/implementing-kanban.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/implementing-kanban.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
