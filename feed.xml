@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-11T06:24:11-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-11T06:26:16-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,44 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">TDD over JSON</title><link href="www.ankushchoubey.com/tdd-over-json/" rel="alternate" type="text/html" title="TDD over JSON" /><published>2022-09-08T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd-over-json</id><content type="html" xml:base="www.ankushchoubey.com/tdd-over-json/">&lt;p&gt;&lt;img src=&quot;/images/tdd-over-json.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Perfection isn’t an attainable goal. We are always a step closer to it.</title><link href="www.ankushchoubey.com/perfection/" rel="alternate" type="text/html" title="Perfection isn’t an attainable goal. We are always a step closer to it." /><published>2022-09-11T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/perfection</id><content type="html" xml:base="www.ankushchoubey.com/perfection/">&lt;p&gt;&lt;img src=&quot;/images/perfection.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Often we fail to do something because we fear we’ll be bad at it.&lt;/p&gt;
+
+&lt;p&gt;This fear is counter-productive. It is not a useful thought.&lt;/p&gt;
+
+&lt;p&gt;Only by doing do we learn. Only by failing do we recognize and avoid situations that would cause problems. In this sense, we are constantly failing forward.&lt;/p&gt;
+
+&lt;p&gt;Things, if they are progressing well, will always be an upwards spiral. As long as they is an upwards spiral, it doesn’t matter that we currently failed. Eventually, we’ll succeed, and that’s enough.&lt;/p&gt;
+
+&lt;p&gt;Failure is a sign we are doing&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Something out of our comfort zone. -&amp;gt; This is good because it means we are doing something.&lt;/li&gt;
+  &lt;li&gt;Something we are doing wrong -&amp;gt; means we can fix it, and then we won’t have a problem.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Having a good perspective on failure is highly underestimated.&lt;/p&gt;
+
+&lt;p&gt;If we are failing all the time, however, it could mean a few things. All of these things provide an opportunity for us to improve.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Maybe we don’t know something -&amp;gt; in which case we need to find an answer.&lt;/li&gt;
+  &lt;li&gt;Maybe we are trying to solve the wrong problem or from a bad angle-&amp;gt; we need good root cause analysis both post-mortem and pre-mortem.&lt;/li&gt;
+  &lt;li&gt;Maybe we are asking the wrong question -&amp;gt; find the right question to ask then.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Often the best approach to move towards perfection is:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Do something.&lt;/li&gt;
+  &lt;li&gt;Fail&lt;/li&gt;
+  &lt;li&gt;Learn&lt;/li&gt;
+  &lt;li&gt;Repeat&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Sometimes after this loop, you’ll be good enough and still now perfect. But that’s okay; maybe this is an optimal stopping point, especially if the problem is solved.&lt;/p&gt;
+
+&lt;p&gt;Or maybe it’s time to stop focusing on this problem for a while and solve another problem. After some time, we’ll have a fresh perspective, and if this problem still exists, we’ll have more tools in our belts to fix it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/03/Diminishing_Returns_Graph.png&quot; alt=&quot;Diminishing Returns Graph: Source Wikipedia&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/perfection.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/perfection.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">TDD over JSON</title><link href="www.ankushchoubey.com/tdd-over-json/" rel="alternate" type="text/html" title="TDD over JSON" /><published>2022-09-08T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd-over-json</id><content type="html" xml:base="www.ankushchoubey.com/tdd-over-json/">&lt;p&gt;&lt;img src=&quot;/images/tdd-over-json.jpg&quot; alt=&quot;&quot; /&gt;
 Photo by RealToughCandy.com: https://www.pexels.com/photo/man-love-people-woman-11035481/&lt;/p&gt;
 
 &lt;p&gt;Somethings TDD isn’t straightforward. Here is such a case I faced.&lt;/p&gt;
@@ -417,46 +454,4 @@ mvn release:perform&lt;/p&gt;
 
 &lt;h2 id=&quot;find-if-a-method-is-reactive&quot;&gt;Find if a method is reactive&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d5826d1010e7165d435b8c/download/Screenshot_2022-07-17_at_12.24.19_PM.png&quot; alt=&quot;Screenshot_2022-07-17_at_12.24.19_PM.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="reactive" /><category term="spring-boot" /><summary type="html">The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!</summary></entry><entry><title type="html">Resume and Linkedin Tips</title><link href="www.ankushchoubey.com/resume-tips/" rel="alternate" type="text/html" title="Resume and Linkedin Tips" /><published>2022-08-14T00:00:00-05:00</published><updated>2022-08-01T20:52:08-05:00</updated><id>www.ankushchoubey.com/dev-workflow</id><content type="html" xml:base="www.ankushchoubey.com/resume-tips/">&lt;p&gt;Here are some resume tips. Most apply to software engineering roles.&lt;/p&gt;
-
-&lt;h1 id=&quot;linkedin&quot;&gt;LinkedIn&lt;/h1&gt;
-
-&lt;p&gt;Use resumeworded.com to get a score and iterate.&lt;/p&gt;
-
-&lt;p&gt;Look at other people’s LinkedIn&lt;/p&gt;
-
-&lt;h1 id=&quot;resume&quot;&gt;Resume&lt;/h1&gt;
-
-&lt;h2 id=&quot;have-an-ats-friendly-resume-format&quot;&gt;Have an ATS Friendly resume format&lt;/h2&gt;
-
-&lt;h2 id=&quot;update-your-resume-regularly&quot;&gt;Update your resume regularly.&lt;/h2&gt;
-
-&lt;p&gt;Find items to add to your resume. At work, look for things that will look good on your resume. Mainly the most challenging responsibilities/tasks look good on a resume.&lt;/p&gt;
-
-&lt;p&gt;Don’t be shy to add what you are doing right now.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Example: In-process of implementing a continuous delivery pipeline.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;getting-wordings-right&quot;&gt;Getting wordings right.&lt;/h2&gt;
-
-&lt;p&gt;Use Grammarly. The Premium version will give you more points.&lt;/p&gt;
-
-&lt;p&gt;Use active voice always.&lt;/p&gt;
-
-&lt;p&gt;Use resumeworded.com to get a score on your resume and improvement points.&lt;/p&gt;
-
-&lt;p&gt;You can also use topresume.com to get a score.&lt;/p&gt;
-
-&lt;h2 id=&quot;optimize-for-readability&quot;&gt;Optimize for readability&lt;/h2&gt;
-
-&lt;p&gt;Add a summary section. Read the full-stack resume section on summary: https://www.fullstackresume.com/.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Your professional identity] with [how many years in the profession] of broad experience in [Areas of expertise] with a willingness to learn and master/practice [Areas of Interest]. [Strongest area of expertise] specialist/practitioner/expert/adept.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Put your name, and contact details in the footer. It serves as a call to action.&lt;/p&gt;
-
-&lt;p&gt;Make it easier for people to find things and find you.&lt;/p&gt;
-
-&lt;p&gt;https://www.fullstackresume.com/&lt;/p&gt;</content><author><name></name></author><category term="dev" /><summary type="html">Here are some resume tips. Most apply to software engineering roles.</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d5826d1010e7165d435b8c/download/Screenshot_2022-07-17_at_12.24.19_PM.png&quot; alt=&quot;Screenshot_2022-07-17_at_12.24.19_PM.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="reactive" /><category term="spring-boot" /><summary type="html">The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!</summary></entry></feed>
