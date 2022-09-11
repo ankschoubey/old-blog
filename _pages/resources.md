@@ -9,18 +9,15 @@ permalink: /resources/
 
 I read/consume many resources and I thought this would be a good way to link to up and thus avoid  writing blogposts on these topics.
 
-<script type="text/javascript" src="{{ '/assets/resources.js' | relative_url }}"></script>
-<link rel="stylesheet" href="{{ '/assets/resources.css' | relative_url }}">
-
-<div id='resource-holder'>
-
-</div>
-
 # Resources and Some Notes
+
+## System Design
+- *MUST SUBSCRIBE*: [ByteByteGo Newsletter](https://blog.bytebytego.com/about)
 
 ## Web
 - 2022 Sep
     - [Webhooks](https://webhooks.fyi/)
+    ~
 
 ## Spring Boot
 - 2022 Sep
@@ -59,6 +56,8 @@ I read/consume many resources and I thought this would be a good way to link to 
 ## Clean Code
 - 2022 Aug 22
     - [IntelliJ JavaDocs Plugin](https://github.com/setial/intellij-javadocs/wiki)
+- 2022 Sep
+    - [CommitLint.io](https://commitlint.io/): Helps to write atomic commits
 
 ## Observability 
 - 2022 Aug 22
@@ -79,6 +78,8 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Agile Manifesto](https://agilemanifesto.org/)
     - [Agile Developer](https://hygger.io/guides/agile/software-development/agile-developer/)
     - [Getting Started with Agility: Essential Reading](https://holub.com/reading/)
+- 2022 Sep
+    - [YouTube Channel: Development That Pays](https://www.youtube.com/c/Developmentthatpays/videos)
 
 ## Product
 - 2022 Aug 22
@@ -94,3 +95,12 @@ I read/consume many resources and I thought this would be a good way to link to 
 - 2022 Sep
     - [Chaos Engineering: the history, principles, and practice](https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/)
     - [PRINCIPLES OF CHAOS ENGINEERING](https://principlesofchaos.org/)
+
+# More 
+
+<script type="text/javascript" src="{{ '/assets/resources.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/resources.css' | relative_url }}">
+
+<div id='resource-holder'>
+
+</div>
