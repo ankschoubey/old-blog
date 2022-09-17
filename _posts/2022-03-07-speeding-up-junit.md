@@ -75,4 +75,8 @@ I found data tests with `@DataMongoTest` by asserting over different data.
 
 Another positive side effect of having `@Execution(CONCURRENT)` is that these tests run first. And since these tests are faster than the SAME_THREAD mode, they lead to instant feedback.
 
+***
+
+What are some other ways to speed up JUnit performance?
+
 [^1]: [Parallel Execution - JUnit Documentation](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parallel-execution)
