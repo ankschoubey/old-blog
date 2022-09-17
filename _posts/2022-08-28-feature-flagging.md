@@ -59,3 +59,4 @@ There are also full-blown services that help with feature flagging, like [Launch
 - [Feature Flags with Spring](https://www.baeldung.com/spring-feature-flags)
 - [Togglz](https://www.togglz.org/quickstart.html): A java library for feature flagging. It comes with a UI.
 - [FF4j](https://ff4j.github.io/): A java library similar to Togglz
+- [Unleash](https://github.com/unleash/unleash-client-java): Probably the best open source feature flagging product.
