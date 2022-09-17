@@ -27,24 +27,22 @@ Some of these are
 
 Several runners come with Spring Boot. 
 
-`@SpringBootTest` is the most general of them. Primarily this is used in combination with `@DirtiesContent`, which will restart spring boot after every test class by default. This isn't ideal.
+`@SpringBootTest` is the most general of them. Primarily this is used in combination with `@DirtiesContent`, which will restart spring boot after every test class by default which isn't ideal.
 
 Using `@SpringBootTest` is Integration Tests. We don't want every test to use this.
 
-We want to load the minimum spring-boot infrastructure as possible and still ensure accurate tests.
-
-There are a few that can be done:
+We want to load the minimum spring-boot infrastructure as possible and still ensure accurate tests. There are a few things that can help:
 
 1. If tests are related to a DB. Use `@DataMongoTest` or equivalent JPA runner with `@Import` annotation.
 2. If tests are related to Web/Controller. Use `@WebFluxTest` or equivalent Spring MVC runner. If you want to use embedded MongoDB with it, use `@AutoConfigureDataMongo`. Most other systems also have annotations starting with `@AutoConfigure{systemName}`
 3. **Important**: If tests require initializing a single bean. Use `@ExtendWith(SpringRunner.class)` with `@Import` to specify the bean to initialize.
-4. The best case: Aim for Tests that are purely java based and do not involve spring boot. This isn't possible in every scenario.
+4. The best case: Aim for Tests that are purely java based and do not involve spring boot, but it isn't possible in every scenario.
 
 # **Speeding up @SpringBootTest and avoiding @DirtiesContext** (Saved 25% running time)
 
-`@DirtiesContext` is an annotation that recreated the Spring Context after each test or each test class. To avoid using `@DirtiesContext`, make sure all your tests don't depend on the same data. For this, you can wrap your data creation in a [test data factory](/test-data-factories) and ensure the data produced is random.
+`@DirtiesContext` is an annotation that recreated the Spring Context after each test or each test class. To avoid using `@DirtiesContext`, ensure all your tests don't depend on the same data. For this, you can wrap your data creation in a [test data factory](/test-data-factories) and ensure the data produced is random.
 
-As previously mentioned, one should avoid using `@SpringBootTest`, but if you can't do without it, make sure you use `WebEnvironment.MOCK`  without `@DirtiesContext`.
+As previously mentioned, one should avoid using `@SpringBootTest`, but if you can't do without it, ensure you use `WebEnvironment.MOCK`  without `@DirtiesContext`.
 
 `@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)`
 
@@ -71,7 +69,7 @@ junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
 ![](/images/junit-execution-mode.svg)
 [^1]
 
-Some of my tests weren't designed to run in parallel, so I prefer using `@Execution(CONCURRENT)`.
+Some tests can't run parallelly, so I prefer manually adding  `@Execution(CONCURRENT)`.
 
 I found data tests with `@DataMongoTest` by asserting over different data.
 
