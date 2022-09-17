@@ -20,12 +20,14 @@ I read/consume many resources and I thought this would be a good way to link to 
 - 2022 Sep
     - [Webhooks](https://webhooks.fyi/)
 
-## Spring Boot
+## Spring Boot and Java
 - 2022 Sep
     - [Top 10 Most Common Spring Framework Mistakes](https://www.toptal.com/spring/top-10-most-common-spring-framework-mistakes)
     - [Realtime user tracking in Spring Boot](https://medium.com/geekculture/realtime-user-tracking-in-spring-boot-d8fb343a6c3c)
     - [Metrics for your Spring REST API](https://www.baeldung.com/spring-rest-api-metrics)
-
+    - [Spring boot playground](https://github.com/odrotbohm/spring-playground): Some interesting helper libraries
+    - [JMolecular](https://github.com/xmolecules/jmolecules): Makes it easy to implement Domain Driven Design
+     
 ## Maven Plugin
 - 2022 Sep
     - [Maven Plugin: Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector): This is important when doing concurrent programming.
@@ -43,6 +45,8 @@ I read/consume many resources and I thought this would be a good way to link to 
 ## Devops
 - 2022 Aug
     - [The 20/80 Rules: The 20% of DevOps skills you will use 80% of the time.](https://www.youtube.com/playlist?list=PL2qztVQdZeHNgWOv6KWWMMLnMqdFI0-6k)
+- 2022 Sep
+    - [The Ancestors and Offsprings of DevOps, the Evolving DevOps Tree](https://medium.com/@schogini/the-ancestors-and-offsprings-of-devops-the-evolving-devops-tree-8bebaa7492ca)
 
 ## Architecture
 - Plugin Architecture #notImplementedYet
@@ -91,6 +95,7 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [YouTube Channel: Development That Pays](https://www.youtube.com/c/Developmentthatpays/videos)
     - [Jira templates for user stories, tasks and bugs](https://blog.codecentric.de/en/2022/01/jira-template-user-story-tasks-bugs/)
     - [The Difference Between The Clever Developer & The Wise Developer](https://itnext.io/the-difference-between-the-clever-developer-the-wise-developer-a0edd9d8a692)
+    - [4 types of experiments in software development](https://thedrlambda.medium.com/4-types-of-experiments-in-software-development-2558d01a1bea)
 
 ## Product
 - 2022 Aug 22
