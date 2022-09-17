@@ -58,8 +58,8 @@ Narcissism is a form of insecurity. It can be fear of abandonment.
 - If you are helping people, help to support them rather than receive. It doesn't mean you don't have boundaries but think about it.
 - Tell the truth but be kind. It's okay to say sorry. There is no harm in it.
 - Know your patterns. Patterns repeat. Tell people about your patterns. That opens you up a bit.
-- Be more humble: Engage in activities that require humility, like serving others in some form—measuring yourself on servant leadership score—giving others more power to critique or provide feedback, like code reviews, without getting stiff.
-- Express observations, not attacks. Use I feel, and I observed words more.
+- Be more humble: Engage in activities that require humility, like serving others in some form—measuring yourself on servant leadership score—giving others more power to critique or provide feedback, like code reviews, without getting stiff. Getting rejected often also helps in humility. 
+- Express observations, not attacks. Use I feel, and I observed words more. Understand and respect boundaries.
 
 [^1]: Robert Greene
 [^2]: Jordan Peterson
