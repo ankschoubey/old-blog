@@ -11,13 +11,14 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 # Resources and Some Notes
 
+
 ## System Design
 - *MUST SUBSCRIBE*: [ByteByteGo Newsletter](https://blog.bytebytego.com/about)
+- [The Eight Fallacies of Distributed Computing](https://medium.com/geekculture/the-eight-fallacies-of-distributed-computing-44d766345ddb)
 
 ## Web
 - 2022 Sep
     - [Webhooks](https://webhooks.fyi/)
-    ~
 
 ## Spring Boot
 - 2022 Sep
@@ -32,6 +33,8 @@ I read/consume many resources and I thought this would be a good way to link to 
 ## Testing
 - 2022 Aug
     - [Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html): 
+- 2022 Sep
+    - [Java Performance Testing](https://stackify.com/java-performance/)
 
 ## Database
 - 2022 Aug
@@ -52,7 +55,13 @@ I read/consume many resources and I thought this would be a good way to link to 
     - 2022 Aug 22
         - [Learn RxJS operators and Reactive Programming principles](https://reactive.how/)
         - [The Reactive Manifesto](https://www.reactivemanifesto.org/)
-
+        - [Recommended: Java Brains: Project Reactor](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTYPR2oH7kgElMYZhJd4vOGI)
+- Microservices
+    - 2022 Sep
+        - [Recommended: A pattern language for microservices](https://microservices.io/patterns/index.html)
+- Kubernetes
+    - 2022 Sep
+        - [A visual guide on troubleshooting Kubernetes deployments](https://learnk8s.io/troubleshooting-deployments)
 ## Clean Code
 - 2022 Aug 22
     - [IntelliJ JavaDocs Plugin](https://github.com/setial/intellij-javadocs/wiki)
@@ -80,6 +89,8 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Getting Started with Agility: Essential Reading](https://holub.com/reading/)
 - 2022 Sep
     - [YouTube Channel: Development That Pays](https://www.youtube.com/c/Developmentthatpays/videos)
+    - [Jira templates for user stories, tasks and bugs](https://blog.codecentric.de/en/2022/01/jira-template-user-story-tasks-bugs/)
+    - [The Difference Between The Clever Developer & The Wise Developer](https://itnext.io/the-difference-between-the-clever-developer-the-wise-developer-a0edd9d8a692)
 
 ## Product
 - 2022 Aug 22
