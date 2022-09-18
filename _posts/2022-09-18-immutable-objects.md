@@ -16,13 +16,11 @@ image: /images/immutable-objects.jpg
 
 {% include note.html content="For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability." %}
 
-When doing concurrent programming, when sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren't discovered.
+When sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren't discovered.
 
 There are two ways to avoid this: thread-safe data structures or immutable objects.
 
 This particular post will explain where immutable objects are necessary.
-
-For example:
 
 Suppose you have 2 Rest Endpoints. `/someEndpoint` and `/anotherEndpoint` both set a particular value to the variable `sharedMemory`.
 
@@ -69,7 +67,7 @@ Some libraries help create immutable objects, such as [Immutables for Java](http
 
 But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:
 
-1. Mutability Detector
+**#1 Mutability Detector**
 
 Mutability Detector is a package that provides the following assertion that can be used within unit tests.
 
@@ -81,7 +79,7 @@ Mutability Detector has many more conditions to detect mutability.
 
 [Github Source](https://github.com/MutabilityDetector/MutabilityDetector)
 
-2. Automate further with ArchUnit tests
+**#2 Automate further with ArchUnit tests**
 
 ArchUnit tests allow for writing architecture-level tests. We can write a test such as asserting that a class is immutable if a class is annotated with @component.
 
