@@ -99,5 +99,6 @@ In practice, I couldn't fully make `assertImmutable` work with abstract classes.
 - [How to Make an Object Immutable in Java](https://www.youtube.com/watch?v=uFxWg3cVMRs)
 - [Immutability Library Java](https://immutables.github.io/)
 - [Google Guava Immutable Data Structures](https://github.com/google/guava/wiki/ImmutableCollectionsExplained)
-
+- [A Strategy for Defining Immutable Objects](https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html)
+- [Mutability Detector In Action](https://www.youtube.com/watch?v=ST3wU79nwS8)
 
