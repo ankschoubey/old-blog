@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-18T02:20:18-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-18T02:29:38-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -60,13 +60,11 @@
     &lt;strong&gt;Note: &lt;/strong&gt;For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability.
 &lt;/div&gt;
 
-&lt;p&gt;When doing concurrent programming, when sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren’t discovered.&lt;/p&gt;
+&lt;p&gt;When sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren’t discovered.&lt;/p&gt;
 
 &lt;p&gt;There are two ways to avoid this: thread-safe data structures or immutable objects.&lt;/p&gt;
 
 &lt;p&gt;This particular post will explain where immutable objects are necessary.&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
 
 &lt;p&gt;Suppose you have 2 Rest Endpoints. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/someEndpoint&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/anotherEndpoint&lt;/code&gt; both set a particular value to the variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sharedMemory&lt;/code&gt;.&lt;/p&gt;
 
@@ -117,9 +115,7 @@ No method should modify the contents of the private final method.&lt;/li&gt;
 
 &lt;p&gt;But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Mutability Detector&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;#1 Mutability Detector&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Mutability Detector is a package that provides the following assertion that can be used within unit tests.&lt;/p&gt;
 
@@ -130,9 +126,7 @@ No method should modify the contents of the private final method.&lt;/li&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/MutabilityDetector/MutabilityDetector&quot;&gt;Github Source&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Automate further with ArchUnit tests&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;#2 Automate further with ArchUnit tests&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;ArchUnit tests allow for writing architecture-level tests. We can write a test such as asserting that a class is immutable if a class is annotated with @component.&lt;/p&gt;
 
