@@ -16,6 +16,8 @@ image: /images/immutable-objects.jpg
 
 {% include note.html content="For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability." %}
 
+When doing concurrent programming, when sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren't discovered.
+
 There are two ways to avoid this: thread-safe data structures or immutable objects.
 
 This particular post will explain where immutable objects are necessary.
