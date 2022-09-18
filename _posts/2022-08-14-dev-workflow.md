@@ -18,6 +18,24 @@ Use resumeworded.com to get a score and iterate.
 
 Look at other people's LinkedIn
 
+Asking for referral: https://www.youtube.com/watch?v=85i78eoltNk
+
+Template:
+
+```
+Subject: Amazon Job Referral (ID: 1629491)
+
+Hope you are safe and well.
+
+I am B Tech Computer Science student, well versed with Data Structures and Algorithms. I have solved 1000+ standard quality DS and Algo problems and have 4 Internships. Experiences. Also I am expert rated at codeforces and (1991) at codechef.
+
+It would really be helpful if you could refer me for a Software Developer/Intern position at Amazon ( 1629491).
+
+Thank you.
+
+{Attach Resume}
+```
+
 # Resume
 
 ## Have an ATS Friendly resume format
