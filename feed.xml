@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-17T06:50:13-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-18T02:09:45-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,102 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Perfection isn’t an attainable goal. We are always a step closer to it.</title><link href="www.ankushchoubey.com/perfection/" rel="alternate" type="text/html" title="Perfection isn’t an attainable goal. We are always a step closer to it." /><published>2022-09-11T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/perfection</id><content type="html" xml:base="www.ankushchoubey.com/perfection/">&lt;p&gt;&lt;img src=&quot;/images/perfection.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making Object Immutable for Concurrency</title><link href="www.ankushchoubey.com/immutable-objects/" rel="alternate" type="text/html" title="Making Object Immutable for Concurrency" /><published>2022-09-18T00:00:00-05:00</published><updated>2022-09-18T15:52:08-05:00</updated><id>www.ankushchoubey.com/immutable-objects</id><content type="html" xml:base="www.ankushchoubey.com/immutable-objects/">&lt;p&gt;&lt;img src=&quot;/images/immutable-objects.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Photo by &lt;a href=&quot;https://unsplash.com/@davehoefler?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Dave Hoefler&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/stone?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&quot;flash&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+    &lt;strong&gt;Note: &lt;/strong&gt;For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability.
+&lt;/div&gt;
+
+&lt;p&gt;There are two ways to avoid this: thread-safe data structures or immutable objects.&lt;/p&gt;
+
+&lt;p&gt;This particular post will explain where immutable objects are necessary.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;Suppose you have 2 Rest Endpoints. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/someEndpoint&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/anotherEndpoint&lt;/code&gt; both set a particular value to the variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sharedMemory&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sharedMemory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nd&quot;&gt;@PostMapping&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/someEndpoint&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;postSomething&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;@RequestBody&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sharedMemory&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;....&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;//some code that uses sharedMemory&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nd&quot;&gt;@PostMapping&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/anotherEndpoint&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;postSomethingElse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;@RequestBody&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sharedMemory&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;....&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;//some code that uses sharedMemory&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It can happen that this shared memory is not inconsistent.&lt;/p&gt;
+
+&lt;p&gt;Ideally, the solution would be, in this case, to declare the variable within the method it is used.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-an-immutable-object&quot;&gt;Creating an immutable object&lt;/h2&gt;
+
+&lt;p&gt;The creation of immutable objects is relatively simple.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Make sure all instance variables are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;private final&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;make sure all interactions with the method happens only via the constructor or the public method.
+No method should modify the contents of the private final method.&lt;/li&gt;
+  &lt;li&gt;Make sure all instance variables are immutable.&lt;/li&gt;
+  &lt;li&gt;Make sure the class is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;final&lt;/code&gt; so that there is no inheriting and subclasses can’t override something.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There are some more rules, but these are the minimum requirements. The following section will explain how you automate the checking of immutable classes would also check for more conditions.&lt;/p&gt;
+
+&lt;p&gt;Some libraries help create immutable objects, such as &lt;a href=&quot;https://immutables.github.io/&quot;&gt;Immutables for Java&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/google/guava/wiki/ImmutableCollectionsExplained&quot;&gt;Google Guava Library&lt;/a&gt; provides many immutable data structure alternatives. The benefit of using these is that they have the same interface as regular java collections.&lt;/p&gt;
+
+&lt;div class=&quot;flash&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+    &lt;strong&gt;Note: &lt;/strong&gt;It's best to start with immutable objects and then modify them if needed.
+&lt;/div&gt;
+
+&lt;h2 id=&quot;automating-verification-via-unit-tests&quot;&gt;Automating Verification via Unit Tests&lt;/h2&gt;
+
+&lt;p&gt;But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mutability Detector&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Mutability Detector is a package that provides the following assertion that can be used within unit tests.&lt;/p&gt;
+
+&lt;p&gt;Mutability Detector has many more conditions to detect mutability.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    assertImmutable(MyClass.class); 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/MutabilityDetector/MutabilityDetector&quot;&gt;Github Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Automate further with ArchUnit tests&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ArchUnit tests allow for writing architecture-level tests. We can write a test such as asserting that a class is immutable if a class is annotated with @component.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In practice, I couldn’t fully make &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assertImmutable&lt;/code&gt; work with abstract classes.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=VO4IGFayJWo&quot;&gt;Immutable Data Structures are Thread Safe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=uFxWg3cVMRs&quot;&gt;How to Make an Object Immutable in Java&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://immutables.github.io/&quot;&gt;Immutability Library Java&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/google/guava/wiki/ImmutableCollectionsExplained&quot;&gt;Google Guava Immutable Data Structures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="concurrent-programming" /><category term="reactive-programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/immutable-objects.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/immutable-objects.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Perfection isn’t an attainable goal. We are always a step closer to it.</title><link href="www.ankushchoubey.com/perfection/" rel="alternate" type="text/html" title="Perfection isn’t an attainable goal. We are always a step closer to it." /><published>2022-09-11T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/perfection</id><content type="html" xml:base="www.ankushchoubey.com/perfection/">&lt;p&gt;&lt;img src=&quot;/images/perfection.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Often we fail to do something because we fear we’ll be bad at it.&lt;/p&gt;
 
@@ -399,84 +494,4 @@ mvn release:perform&lt;/p&gt;
 
 &lt;p&gt;Overall the pipeline time was reduced by 63%.&lt;/p&gt;
 
-&lt;p&gt;In some cases, 28 min became 10 min.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/speeding-up-pipelines.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/speeding-up-pipelines.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Becoming a bit lean with Kanban</title><link href="www.ankushchoubey.com/implementing-kanban/" rel="alternate" type="text/html" title="Becoming a bit lean with Kanban" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-20T15:52:08-05:00</updated><id>www.ankushchoubey.com/implementing-kanban</id><content type="html" xml:base="www.ankushchoubey.com/implementing-kanban/">&lt;h1 id=&quot;what-is-agility&quot;&gt;What is Agility?&lt;/h1&gt;
-
-&lt;p&gt;Agility means working in small and delivering in small increments frequently. Following a set of values and principles that allow this and make it easier.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-be-a-bit-more-agile&quot;&gt;Why be a bit more Agile?&lt;/h1&gt;
-
-&lt;p&gt;After rejecting TDD-BDD for years, I switched camps too it. Now is the same moment with Agile.&lt;/p&gt;
-
-&lt;p&gt;I’m very passionate about Continous Deployment. To work towards continuous deployment requires improving engineering quality and processes surrounding SDLC. Therefore, Agile.&lt;/p&gt;
-
-&lt;p&gt;By being more agile, we can increase our delivery speed and ensure people are in sync and have a certain disciplined way of working.&lt;/p&gt;
-
-&lt;p&gt;While Agile is a set of values and principles, there are frameworks to implement it, most popularly, scrum. There is a similar set of values principles, called lean, whose most popular implementation is Kanban. &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-kanban&quot;&gt;What is Kanban?&lt;/h1&gt;
-
-&lt;p&gt;Kanban is multiple things &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Tool&lt;/li&gt;
-  &lt;li&gt;Principles&lt;/li&gt;
-  &lt;li&gt;Framework&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This post is going to focus on Tools and principles.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-are-some-kanban-principles-how-do-they-look-in-practice&quot;&gt;What are some Kanban principles? How do they look in practice?&lt;/h1&gt;
-
-&lt;h2 id=&quot;board-is-the-single-source-of-truth&quot;&gt;Board is the single source of truth.&lt;/h2&gt;
-
-&lt;p&gt;Everything is visible on the board. And everyone works off from the board.&lt;/p&gt;
-
-&lt;p&gt;The board should keep track of each and everything you do.&lt;/p&gt;
-
-&lt;p&gt;Each activity, however small, should be captured.&lt;/p&gt;
-
-&lt;p&gt;Each workflow step should be present. Therefore board structure needs to be updated regularly too.&lt;/p&gt;
-
-&lt;p&gt;Kanban is visual. And the way it is helps everyone in a team be in sync. And reduces handover.&lt;/p&gt;
-
-&lt;p&gt;In practice,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;You’ll likely see and use and update the Kanban board multiple times a day.&lt;/li&gt;
-  &lt;li&gt;And the start and end of your day will be on the board.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are few more tips I came up with to help in this.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;I prefer keeping the board open in a tab at all times. And working off the board.&lt;/li&gt;
-  &lt;li&gt;I transfer all items in personal todo’s to the board.&lt;/li&gt;
-  &lt;li&gt;In every commit: I capture card details and how much time I spent on that card. And after each commit, I update the card with time.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For teams,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Teams can play a game: it’s called “Moment of Glory” &lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Moment of Glory is a game where anyone in the team can ask someone about the board. If that card isn’t updated or in the right column, it’s a moment of glory, and the facilitator or the person updates the card.&lt;/p&gt;
-
-&lt;h2 id=&quot;pull-system&quot;&gt;Pull System&lt;/h2&gt;
-
-&lt;p&gt;You always work on the rightmost card assigned to you and push it towards completion.&lt;/p&gt;
-
-&lt;p&gt;The card/task which gets completed and on production is of must higher value than the 50% done card.&lt;/p&gt;
-
-&lt;p&gt;In practice,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Look at the board, look at the right most items and start working on them first.&lt;/li&gt;
-  &lt;li&gt;If you have a new task, add a card to the start of the board (the backlog) but don’t start working on it just yet. Come back to your current card and finish it.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/c/VibhorChandel&quot;&gt;Vibhor Chandel&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/c/Developmentthatpays&quot;&gt;Development That Pays&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="lean" /><category term="agile" /><summary type="html">What is Agility?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/implementing-kanban.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/implementing-kanban.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;In some cases, 28 min became 10 min.&lt;/p&gt;</content><author><name></name></author><category term="devops" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/speeding-up-pipelines.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/speeding-up-pipelines.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

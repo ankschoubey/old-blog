@@ -7,20 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Always keep yourself ready to switch companies | Ankush</title>
+<title>Making Object Immutable for Concurrency | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Always keep yourself ready to switch companies">
+<meta property="og:title" content="Making Object Immutable for Concurrency">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Full Stack Developer - Cloud/Microservices">
-<meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
-<link rel="canonical" href="www.ankushchoubey.com/switch-jobs/">
-<meta property="og:url" content="www.ankushchoubey.com/switch-jobs/">
+<meta name="description" content="It’s best to start with immutable objects and then modify them if needed.">
+<meta property="og:description" content="It’s best to start with immutable objects and then modify them if needed.">
+<link rel="canonical" href="www.ankushchoubey.com/immutable-objects/">
+<meta property="og:url" content="www.ankushchoubey.com/immutable-objects/">
 <meta property="og:site_name" content="Ankush">
-<meta property="og:image" content="www.ankushchoubey.com/images/switch-jobs.jpg">
+<meta property="og:image" content="www.ankushchoubey.com/images/immutable-objects.jpg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00">
+<meta property="article:published_time" content="2022-09-18T00:00:00-05:00">
 <script type="application/ld+json">
-{"datePublished":"2021-05-26T00:00:00-05:00","url":"www.ankushchoubey.com/switch-jobs/","@type":"BlogPosting","headline":"Always keep yourself ready to switch companies","dateModified":"2022-09-18T02:08:04-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/switch-jobs/"},"image":"www.ankushchoubey.com/images/switch-jobs.jpg","description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
+{"datePublished":"2022-09-18T00:00:00-05:00","url":"www.ankushchoubey.com/immutable-objects/","@type":"BlogPosting","headline":"Making Object Immutable for Concurrency","dateModified":"2022-09-18T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/immutable-objects/"},"image":"www.ankushchoubey.com/images/immutable-objects.jpg","description":"It’s best to start with immutable objects and then modify them if needed.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -125,17 +125,18 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Making Object Immutable for Concurrency</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-09-18T02:08:04-05:00" itemprop="dateModified">
+    <p class="page-description">It's best to start with immutable objects and then modify them if needed.</p>
+<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-09-18T00:00:00-05:00" itemprop="datePublished">
+        Written: Sep 18, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-09-18T15:52:08-05:00" itemprop="dateModified">
           Updated: Sep 18, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -162,7 +163,9 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
+    <a class="tag fa fa-hashtag concurrent-programming" href="/categories/#concurrent-programming">concurrent-programming</a>
+    
+    <a class="tag fa fa-hashtag reactive-programming" href="/categories/#reactive-programming">reactive-programming</a>
     
 </div>
 <div class="right-section">
@@ -202,49 +205,121 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt=""></p>
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#creating-an-immutable-object">Creating an immutable object</a></li>
+<li class="toc-entry toc-h2"><a href="#automating-verification-via-unit-tests">Automating Verification via Unit Tests</a></li>
+<li class="toc-entry toc-h2"><a href="#resources">Resources:</a></li>
+</ul>
+<p><img src="/images/immutable-objects.jpg" alt=""></p>
 
-<h2 id="capitalism">Capitalism</h2>
+<p><sup>Photo by <a href="https://unsplash.com/@davehoefler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dave Hoefler</a> on <a href="https://unsplash.com/s/photos/stone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></sup></p>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
-
-<p>The more you earn, the better it is for everyone.</p>
-
-<p>Plus, you need money to provide for yourself and your family.</p>
-
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
-
-<p>New environments and people give you new perspectives.</p>
-
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
-
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
-
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
-
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
-
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
-
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
-    </li>
-  </ol>
+<div class="flash">
+    <svg class="octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+    <strong>Note: </strong>For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability.
 </div>
+
+<p>There are two ways to avoid this: thread-safe data structures or immutable objects.</p>
+
+<p>This particular post will explain where immutable objects are necessary.</p>
+
+<p>For example:</p>
+
+<p>Suppose you have 2 Rest Endpoints. <code class="language-plaintext highlighter-rouge">/someEndpoint</code> and <code class="language-plaintext highlighter-rouge">/anotherEndpoint</code> both set a particular value to the variable <code class="language-plaintext highlighter-rouge">sharedMemory</code>.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">private</span> <span class="nc">String</span> <span class="n">sharedMemory</span><span class="o">;</span>
+
+<span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/someEndpoint"</span><span class="o">)</span>
+<span class="kt">void</span> <span class="nf">postSomething</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="nc">String</span> <span class="n">value</span><span class="o">){</span>
+    <span class="n">sharedMemory</span> <span class="o">=</span> <span class="n">value</span><span class="o">;</span>
+    <span class="o">....</span>
+   <span class="c1">//some code that uses sharedMemory</span>
+<span class="o">}</span>
+
+<span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/anotherEndpoint"</span><span class="o">)</span>
+<span class="kt">void</span> <span class="nf">postSomethingElse</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="nc">String</span> <span class="n">value</span><span class="o">){</span>
+    <span class="n">sharedMemory</span> <span class="o">=</span> <span class="n">value</span><span class="o">;</span>
+    <span class="o">....</span>
+   <span class="c1">//some code that uses sharedMemory</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>It can happen that this shared memory is not inconsistent.</p>
+
+<p>Ideally, the solution would be, in this case, to declare the variable within the method it is used.</p>
+
+<h2 id="creating-an-immutable-object">
+<a class="anchor" href="#creating-an-immutable-object" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating an immutable object</h2>
+
+<p>The creation of immutable objects is relatively simple.</p>
+<ol>
+  <li>Make sure all instance variables are <code class="language-plaintext highlighter-rouge">private final</code>.</li>
+  <li>make sure all interactions with the method happens only via the constructor or the public method.
+No method should modify the contents of the private final method.</li>
+  <li>Make sure all instance variables are immutable.</li>
+  <li>Make sure the class is <code class="language-plaintext highlighter-rouge">final</code> so that there is no inheriting and subclasses can’t override something.</li>
+</ol>
+
+<p>There are some more rules, but these are the minimum requirements. The following section will explain how you automate the checking of immutable classes would also check for more conditions.</p>
+
+<p>Some libraries help create immutable objects, such as <a href="https://immutables.github.io/">Immutables for Java</a>.</p>
+
+<p><a href="https://github.com/google/guava/wiki/ImmutableCollectionsExplained">Google Guava Library</a> provides many immutable data structure alternatives. The benefit of using these is that they have the same interface as regular java collections.</p>
+
+<div class="flash">
+    <svg class="octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+    <strong>Note: </strong>It's best to start with immutable objects and then modify them if needed.
+</div>
+
+<h2 id="automating-verification-via-unit-tests">
+<a class="anchor" href="#automating-verification-via-unit-tests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Automating Verification via Unit Tests</h2>
+
+<p>But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:</p>
+
+<ol>
+  <li>Mutability Detector</li>
+</ol>
+
+<p>Mutability Detector is a package that provides the following assertion that can be used within unit tests.</p>
+
+<p>Mutability Detector has many more conditions to detect mutability.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    assertImmutable(MyClass.class); 
+</code></pre></div></div>
+
+<p><a href="https://github.com/MutabilityDetector/MutabilityDetector">Github Source</a></p>
+
+<ol>
+  <li>Automate further with ArchUnit tests</li>
+</ol>
+
+<p>ArchUnit tests allow for writing architecture-level tests. We can write a test such as asserting that a class is immutable if a class is annotated with @component.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+<p>In practice, I couldn’t fully make <code class="language-plaintext highlighter-rouge">assertImmutable</code> work with abstract classes.</p>
+
+<h2 id="resources">
+<a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources:</h2>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=VO4IGFayJWo">Immutable Data Structures are Thread Safe</a></li>
+  <li><a href="https://www.youtube.com/watch?v=uFxWg3cVMRs">How to Make an Object Immutable in Java</a></li>
+  <li><a href="https://immutables.github.io/">Immutability Library Java</a></li>
+  <li><a href="https://github.com/google/guava/wiki/ImmutableCollectionsExplained">Google Guava Immutable Data Structures</a></li>
+</ul>
+
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/devops/">« Gist of DevOps</a>
+      <a class="prev" href="/perfection/">« Perfection isn't an attainable goal. We are always a step closer to it.</a>
     
     
-      <a class="next" href="/simple-db/">Keeping database simple »</a>
+      <a class="next" href="/post-format/">PREFER UPDATING A BLOG OVER WRITING NEW ONES »</a>
     
   </div>
 
@@ -274,8 +349,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/switch-jobs/';
-      this.page.identifier = 'www.ankushchoubey.com/switch-jobs/';
+      this.page.url = 'www.ankushchoubey.com/immutable-objects/';
+      this.page.identifier = 'www.ankushchoubey.com/immutable-objects/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -286,7 +361,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/switch-jobs/" hidden></a>
+<a class="u-url" href="/immutable-objects/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
