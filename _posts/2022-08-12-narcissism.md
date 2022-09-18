@@ -61,5 +61,13 @@ Narcissism is a form of insecurity. It can be fear of abandonment.
 - Be more humble: Engage in activities that require humility, like serving others in some form—measuring yourself on servant leadership score—giving others more power to critique or provide feedback, like code reviews, without getting stiff. Getting rejected often also helps in humility. 
 - Express observations, not attacks. Use I feel, and I observed words more. Understand and respect boundaries.
 
+# Controlling Aggression and Competitiveness
+
+The likely reason to have aggression and competitiveness is that you don't have a good outlet. You need good goals.
+
+You need to find a goal that pulls you towards achieving it. And towards that goal, you can use all your competitiveness and aggression.
+
+There is also an element of being ethical while being competitive/aggressive. For example, you can be default aggressive while trying to improve your goals. It's a much more useful way of thinking about having an outlet for your aggression. Let your smarts be of real use to everyone.
+
 [^1]: Robert Greene
 [^2]: Jordan Peterson
