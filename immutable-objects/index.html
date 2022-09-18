@@ -206,9 +206,11 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#creating-an-immutable-object">Creating an immutable object</a></li>
-<li class="toc-entry toc-h2"><a href="#automating-verification-via-unit-tests">Automating Verification via Unit Tests</a></li>
-<li class="toc-entry toc-h2"><a href="#resources">Resources:</a></li>
+<li class="toc-entry toc-h1"><a href="#where-immutability-is-needed">Where Immutability is needed?</a></li>
+<li class="toc-entry toc-h1"><a href="#creating-an-immutable-object">Creating an immutable object</a></li>
+<li class="toc-entry toc-h1"><a href="#java-libraries">Java Libraries</a></li>
+<li class="toc-entry toc-h1"><a href="#automating-verification-via-unit-tests">Automating Verification via Unit Tests</a></li>
+<li class="toc-entry toc-h1"><a href="#resources">Resources</a></li>
 </ul>
 <p><img src="/images/immutable-objects.jpg" alt=""></p>
 
@@ -218,6 +220,10 @@ window.onload = wrap_img;
     <svg class="octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
     <strong>Note: </strong>For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability.
 </div>
+
+<h1 id="where-immutability-is-needed">
+<a class="anchor" href="#where-immutability-is-needed" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Where Immutability is needed?</strong>
+</h1>
 
 <p>When sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren’t discovered.</p>
 
@@ -248,8 +254,9 @@ window.onload = wrap_img;
 
 <p>Ideally, the solution would be, in this case, to declare the variable within the method it is used.</p>
 
-<h2 id="creating-an-immutable-object">
-<a class="anchor" href="#creating-an-immutable-object" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating an immutable object</h2>
+<h1 id="creating-an-immutable-object">
+<a class="anchor" href="#creating-an-immutable-object" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Creating an immutable object</strong>
+</h1>
 
 <p>The creation of immutable objects is relatively simple.</p>
 <ol>
@@ -262,6 +269,10 @@ No method should modify the contents of the private final method.</li>
 
 <p>There are some more rules, but these are the minimum requirements. The following section will explain how you automate the checking of immutable classes would also check for more conditions.</p>
 
+<h1 id="java-libraries">
+<a class="anchor" href="#java-libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Java Libraries</strong>
+</h1>
+
 <p>Some libraries help create immutable objects, such as <a href="https://immutables.github.io/">Immutables for Java</a>.</p>
 
 <p><a href="https://github.com/google/guava/wiki/ImmutableCollectionsExplained">Google Guava Library</a> provides many immutable data structure alternatives. The benefit of using these is that they have the same interface as regular java collections.</p>
@@ -271,8 +282,8 @@ No method should modify the contents of the private final method.</li>
     <strong>Note: </strong>It's best to start with immutable objects and then modify them if needed.
 </div>
 
-<h2 id="automating-verification-via-unit-tests">
-<a class="anchor" href="#automating-verification-via-unit-tests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Automating Verification via Unit Tests</h2>
+<h1 id="automating-verification-via-unit-tests">
+<a class="anchor" href="#automating-verification-via-unit-tests" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Automating Verification</strong> via Unit Tests</h1>
 
 <p>But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:</p>
 
@@ -296,8 +307,9 @@ No method should modify the contents of the private final method.</li>
 
 <p>In practice, I couldn’t fully make <code class="language-plaintext highlighter-rouge">assertImmutable</code> work with abstract classes.</p>
 
-<h2 id="resources">
-<a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources:</h2>
+<h1 id="resources">
+<a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Resources</strong>
+</h1>
 
 <ul>
   <li><a href="https://www.youtube.com/watch?v=VO4IGFayJWo">Immutable Data Structures are Thread Safe</a></li>
