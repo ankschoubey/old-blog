@@ -53,7 +53,7 @@ Chaos Engineering helps us understand and improve observability.
 
 - Having a library that automates some aspects of Chaos Engineering can proactively improve resiliency (and reduce the cognitive overload of having everyone learn and follow chaos engineering)
 
-## Resources
+# Resources
 
 - [Chaos Engineering for Spring Boot](https://codecentric.github.io/chaos-monkey-spring-boot/)
 - [Gremlin](https://www.gremlin.com/)

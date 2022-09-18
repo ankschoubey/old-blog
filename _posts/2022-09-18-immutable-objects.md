@@ -16,6 +16,8 @@ image: /images/immutable-objects.jpg
 
 {% include note.html content="For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability." %}
 
+# **Where Immutability is needed?**
+
 When sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren't discovered.
 
 There are two ways to avoid this: thread-safe data structures or immutable objects.
@@ -46,7 +48,7 @@ It can happen that this shared memory is not inconsistent.
 
 Ideally, the solution would be, in this case, to declare the variable within the method it is used. 
 
-## Creating an immutable object
+# **Creating an immutable object**
 
 The creation of immutable objects is relatively simple.
 1. Make sure all instance variables are `private final`.
@@ -57,13 +59,15 @@ No method should modify the contents of the private final method.
 
 There are some more rules, but these are the minimum requirements. The following section will explain how you automate the checking of immutable classes would also check for more conditions.
 
+# **Java Libraries**
+
 Some libraries help create immutable objects, such as [Immutables for Java](https://immutables.github.io/).
 
 [Google Guava Library](https://github.com/google/guava/wiki/ImmutableCollectionsExplained) provides many immutable data structure alternatives. The benefit of using these is that they have the same interface as regular java collections.
 
 {% include note.html content="It's best to start with immutable objects and then modify them if needed." %}
 
-## Automating Verification via Unit Tests
+# **Automating Verification** via Unit Tests
 
 But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:
 
@@ -89,7 +93,7 @@ ArchUnit tests allow for writing architecture-level tests. We can write a test s
 
 In practice, I couldn't fully make `assertImmutable` work with abstract classes.
 
-## Resources:
+# **Resources**
 
 - [Immutable Data Structures are Thread Safe](https://www.youtube.com/watch?v=VO4IGFayJWo)
 - [How to Make an Object Immutable in Java](https://www.youtube.com/watch?v=uFxWg3cVMRs)

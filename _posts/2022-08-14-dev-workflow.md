@@ -12,6 +12,8 @@ hide: true
 ---
 Here are some resume tips. Most apply to software engineering roles.
 
+Always 
+
 # LinkedIn
 
 LinkedIn is a professional network. It isn't a network of friends. So go with he hopes of making a "network" connection. This might require a shift in thinking.
