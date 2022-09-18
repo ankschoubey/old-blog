@@ -39,6 +39,10 @@ Chaos Engineering for Spring Boot includes three assaults (latency, exception, k
 
 There are usually common patterns to handle many assaults like CircuitBreaker, which many java libraries provide. Thus, it would require some thought to handle failures on UI too.
 
+![ByteByteGo](/images/chaos-engineering.jpeg)
+
+Source: [ByteByteGo](https://bytebytego.com/newsletter)
+
 Chaos Engineering helps us understand and improve observability.
 
 - If there is any chaos in our system, we should be able to identify it via observability quickly. If we cannot determine, we'll have to improve observability.
