@@ -12,6 +12,11 @@ I read/consume many resources and I thought this would be a good way to link to 
 # Resources and Some Notes
 
 
+## Interesting Blogs
+
+- [Philippe Bourgau's XP Coaching Blog](https://philippe.bourgau.net/)
+- [Emre Bolat](https://emre.me/)
+
 ## System Design
 - *MUST SUBSCRIBE*: [ByteByteGo Newsletter](https://blog.bytebytego.com/about)
 - [The Eight Fallacies of Distributed Computing](https://medium.com/geekculture/the-eight-fallacies-of-distributed-computing-44d766345ddb)
