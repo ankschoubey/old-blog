@@ -40,6 +40,11 @@ Thank you.
 {Attach Resume}
 ```
 
+You'll have to apply for to apply for too many jobs and ask too many referrals. You can use template extensions on chrome such as [Magical Expander](https://chrome.google.com/webstore/detail/magical-text-expander-aut/iibninhmiggehlcdolcilmhacighjamp). :)
+
+[Here's the above once in template](https://www.getmagical.com/share/shortcuts?shareId=fb2d1e6b-49d5-4999-aa10-b5262a9dd01f&utm_source=referral&utm_campaign=share_referral_magical_pro_beta_default&utm_medium=copy_link)
+
+
 # Resume
 
 ## Have an ATS Friendly resume format
