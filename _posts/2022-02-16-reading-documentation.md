@@ -3,26 +3,32 @@ layout: post
 comments: true
 description:
 categories: [software-engineering]
-last_modified_at: 2022-02-16T20:52:08.052481
-last-modified-purpose:
+last_modified_at: 2022-09-24T20:52:08.052481
+last-modified-purpose: Fixed grammatical mistakes
 permalink: /reading-documentation/
 title: Thoughts on Reading Documentation
+image: /images/reading-documentation.jpg
 ---
+![](/images/reading-documentation.jpg)
+
+Photo by <a href="https://unsplash.com/@jilburr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jilbert Ebrahimi</a> on <a href="https://unsplash.com/s/photos/reading-documentation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Reading documentation is the best way to learn a particular technology.
 
-A well written documentation is similar to a book and reading it has a similar effect. 
+Well-written documentation is similar to a book and reading it has a similar effect. 
 
 Documentation presents the original developer's philosophy behind the technology.
 
-Depth of knowledge you gain with documentation can potentially remove hundred of hours of un-neccesary Stackoverflow searches. 
+The depth of knowledge you gain with documentation can potentially remove hundred of hours of unnecessary Stackoverflow searches. 
 
-It's a difference between knowing something syntactially and knowing the philosophy behind a technology.
+It's a difference between knowing something syntactically and knowing the philosophy behind a technology.
 
-Most documentations are about 2-5 hours of reading Max.
+Most documentation is about 2-5 hours of reading Max.
 
-I find having a highlighter extension in Chrome to be extremely useful.
+I find having a **highlighter extension** in Chrome to be extremely useful.
 
-Apart from the usual, the appendix sections contains many gems like FAQs and common references which make things easier. 
+Apart from the usual, the **appendix sections** contain many gems like FAQs and standard references, making things easier. 
 
-It the long run, it less time to read documentation end to end than to go through hours of stack overflow.
+If you aren't able to read the complete documentation, **glance through the index**. If the documentation is good, you'll find something in the index.
+
+In the long run, it takes less time to read documentation than to go through hours of stack overflow.
