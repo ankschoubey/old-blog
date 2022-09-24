@@ -7,7 +7,6 @@ last_modified_at: 2022-09-24T20:52:08.052481
 last-modified-purpose:
 permalink: /integrate-external-services/
 title: Pointers while integrating an external service
-toc: true
 image: /images/integrate-external-services.jpg
 ---
 ![](/images/integrate-external-services.jpg)
