@@ -25,6 +25,7 @@ I read/consume many resources and I thought this would be a good way to link to 
         - Gather requirements first:
         - [Capacity Planning for DevOps](https://www.youtube.com/watch?v=rG9BL0ambTk&ab_channel=DevOpsForDevelopers)
         - [Back of the envelope estimation](https://www.youtube.com/watch?v=UC5xf8FbdJc&ab_channel=ByteByteGo)
+- [10 Microservice Best Practices For Your Projects: The 80/20 Way](https://www.simform.com/blog/microservice-best-practices/)
 
 ## Requirement Gathering
 
@@ -114,7 +115,11 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Synchronous Versus Asynchronous Communication Tools](https://www.youtube.com/watch?v=dX_nZTiZRPE)
     - [Apple CEO Tim Cook on Collaboration](https://www.youtube.com/watch?v=EZPYLZ7I6gs)
     - [Communication Skills are Underrated for Software Developers](https://www.youtube.com/watch?v=5ON1_R-wYAo)
-
+    - [Think introverted; act extroverted | by Shaziya Tambawala | Designing Atlassian | Sep, 2022 | Medium](https://medium.com/designing-atlassian/think-introverted-act-extroverted-976e3164f3a0)
+    - In any friendship/relationship/coperation. the most important thing is trust. If you can trust, only then you'll move forward.
+    - This includes and is not limited to the world around you.
+    - You calling Uber in a different country and getting home safely driven by a stranger is all trust based. 
+    
 ## Agile
 - 2022 Aug 22
     - [Agile Manifesto](https://agilemanifesto.org/)
@@ -127,7 +132,6 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [4 types of experiments in software development](https://thedrlambda.medium.com/4-types-of-experiments-in-software-development-2558d01a1bea)
     - [Spring Demo](https://www.youtube.com/watch?v=dEMmvV1pagA&ab_channel=ActiveLAMP) 
     - [Initial Project development process](https://www.activelamp.com/video/discovery/our-discovery-process)
-
 
 
 ## Product
