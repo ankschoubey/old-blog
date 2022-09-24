@@ -20,6 +20,23 @@ I read/consume many resources and I thought this would be a good way to link to 
 ## System Design
 - *MUST SUBSCRIBE*: [ByteByteGo Newsletter](https://blog.bytebytego.com/about)
 - [The Eight Fallacies of Distributed Computing](https://medium.com/geekculture/the-eight-fallacies-of-distributed-computing-44d766345ddb)
+- Capacity Planning:
+    - Sep 2022
+        - Gather requirements first:
+        - [Capacity Planning for DevOps](https://www.youtube.com/watch?v=rG9BL0ambTk&ab_channel=DevOpsForDevelopers)
+        - [Back of the envelope estimation](https://www.youtube.com/watch?v=UC5xf8FbdJc&ab_channel=ByteByteGo)
+
+## Requirement Gathering
+
+- Sep 2022
+    - [Functional and Non-Functional Requirements](https://www.altexsoft.com/blog/business/functional-and-non-functional-requirements-specification-and-types/)
+    - [10 Steps To Successful Requirements Gathering | Phase2 Technology](https://www.phase2technology.com/blog/successful-requirements-gathering)
+    When doing requirement gathering
+    - Always have questions. 
+        - Be prepared. The best way to prepare is to have a document ready with all questions and concerns.
+    - Only when requirements are approved start working
+        - All work until requirements aren't finished is experimental code.  (Spike Code, POC, Hopefully not MVP.)
+        - All of these are just to gather more and clarity requirements and what is possible.
 
 ## Web
 - 2022 Sep
@@ -42,6 +59,12 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html): 
 - 2022 Sep
     - [Java Performance Testing](https://stackify.com/java-performance/)
+    - [LoadTesting Java Load4j](https://www.loadtest4j.org/): Has interesting read on SLOs via verifiable tests.
+    - Common Exceptions
+        - [We Crunched 1 Billion Java Logged Errors - Here’s What Causes 97% of Them - OverOps](https://www.overops.com/blog/we-crunched-1-billion-java-logged-errors-heres-what-causes-97-of-them-2/)
+        - [The Top 10 Exception Types in Production Java Applications - Based on 1B Events - OverOps](https://www.overops.com/blog/the-top-10-exceptions-types-in-production-java-applications-based-on-1b-events/)
+        - [Common Java Exceptions | Baeldung](https://www.baeldung.com/java-common-exceptions)
+        - [Most Common Java Exceptions | Rollbar](https://rollbar.com/blog/most-common-java-exceptions/)
 
 ## Database
 - 2022 Aug
@@ -82,6 +105,7 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Graphana Documentation](https://grafana.com/docs/) 
 - 2022 Sep:
     - [Instrumenting Observability: Getting Started and Pro Tips](https://www.youtube.com/watch?v=pY44UX8j4Pc)
+    - [Difference Between Observability and Monitoring](https://www.youtube.com/watch?v=dlcS0tY8il8&ab_channel=DevOpsForDevelopers): Monitory means systems metrics. Observability is much deeper. current understanding: logs.
 
 ## Culture and Collaboration
 - 2022 Aug 22
@@ -101,6 +125,10 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Jira templates for user stories, tasks and bugs](https://blog.codecentric.de/en/2022/01/jira-template-user-story-tasks-bugs/)
     - [The Difference Between The Clever Developer & The Wise Developer](https://itnext.io/the-difference-between-the-clever-developer-the-wise-developer-a0edd9d8a692)
     - [4 types of experiments in software development](https://thedrlambda.medium.com/4-types-of-experiments-in-software-development-2558d01a1bea)
+    - [Spring Demo](https://www.youtube.com/watch?v=dEMmvV1pagA&ab_channel=ActiveLAMP) 
+    - [Initial Project development process](https://www.activelamp.com/video/discovery/our-discovery-process)
+
+
 
 ## Product
 - 2022 Aug 22
