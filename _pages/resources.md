@@ -11,11 +11,14 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 # Resources and Some Notes
 
-
 ## Interesting Blogs
 
 - [Philippe Bourgau's XP Coaching Blog](https://philippe.bourgau.net/)
 - [Emre Bolat](https://emre.me/)
+
+## Guest Posts on Other Sites
+- [Request Validation in Spring Webflux – Digite Tech Blog](https://tech.digite.com/request-validation-in-spring-webflux/)
+- [Error Handling with Custom Responses in Spring Boot – Digite Tech Blog](https://tech.digite.com/error-handling-with-custom-responses-in-spring-boot/)
 
 ## System Design
 - *MUST SUBSCRIBE*: [ByteByteGo Newsletter](https://blog.bytebytego.com/about)
