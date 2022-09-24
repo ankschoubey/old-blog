@@ -34,7 +34,7 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Functional and Non-Functional Requirements](https://www.altexsoft.com/blog/business/functional-and-non-functional-requirements-specification-and-types/)
     - [10 Steps To Successful Requirements Gathering | Phase2 Technology](https://www.phase2technology.com/blog/successful-requirements-gathering)
     - [What Questions Do I Ask During Requirements Elicitation?](https://www.bridging-the-gap.com/what-questions-do-i-ask-during-requirements-elicitation/)
-
+    - @happy @unhappy @help @resilience @security @wip @prioritized @done @reviewed
     - When doing requirement gathering
     - Always have questions. 
         - Be prepared. The best way to prepare is to have a document ready with all questions and concerns.
