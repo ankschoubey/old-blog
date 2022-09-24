@@ -26,6 +26,8 @@ If you are integrating multiple services, your code would have to be modular eno
 
 In any case, try to make your code modular enough so that if suddenly a similar app has to be integrated, there are minimal changes to your code.
 
+Take a look at factory and strategy design patterns.
+
 # Does it provide an SDK in your language?
 
 If yes, half your life's problems are now solved.
@@ -34,6 +36,12 @@ If yes, half your life's problems are now solved.
 
 There likely is some kind of clientId, clientSecret, and OAuth flow at play.
 You'll have to save the token somewhere if it's an OAuth flow.
+
+OAuth flow sounds fancy but it's really easy. You might also find the SDK or an open source libary makes it easy to implement.
+
+![](/images/integrate-external-services/oauth.png)
+
+Image Source: [Slack OAuth Flow](https://api.slack.com/legacy/oauth)
 
 # In case there isn't a library? How do you verify if something is really from that system?
 
