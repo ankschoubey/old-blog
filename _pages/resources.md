@@ -26,13 +26,16 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [Capacity Planning for DevOps](https://www.youtube.com/watch?v=rG9BL0ambTk&ab_channel=DevOpsForDevelopers)
         - [Back of the envelope estimation](https://www.youtube.com/watch?v=UC5xf8FbdJc&ab_channel=ByteByteGo)
 - [10 Microservice Best Practices For Your Projects: The 80/20 Way](https://www.simform.com/blog/microservice-best-practices/)
+- [HTTP Status Codes Decision Diagram - Infographic | Loggly](https://www.loggly.com/blog/http-status-code-diagram/)
 
 ## Requirement Gathering
 
 - Sep 2022
     - [Functional and Non-Functional Requirements](https://www.altexsoft.com/blog/business/functional-and-non-functional-requirements-specification-and-types/)
     - [10 Steps To Successful Requirements Gathering | Phase2 Technology](https://www.phase2technology.com/blog/successful-requirements-gathering)
-    When doing requirement gathering
+    - [What Questions Do I Ask During Requirements Elicitation?](https://www.bridging-the-gap.com/what-questions-do-i-ask-during-requirements-elicitation/)
+
+    - When doing requirement gathering
     - Always have questions. 
         - Be prepared. The best way to prepare is to have a document ready with all questions and concerns.
     - Only when requirements are approved start working
@@ -135,6 +138,8 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [4 types of experiments in software development](https://thedrlambda.medium.com/4-types-of-experiments-in-software-development-2558d01a1bea)
     - [Spring Demo](https://www.youtube.com/watch?v=dEMmvV1pagA&ab_channel=ActiveLAMP) 
     - [Initial Project development process](https://www.activelamp.com/video/discovery/our-discovery-process)
+    - [AgilityHealth 3 min Explainer Video - YouTube](https://www.youtube.com/watch?v=6z0qdMO29FM)
+    - [Agile Simulation Videos - YouTube](https://www.youtube.com/playlist?list=PLBF7FCBE7E2ECF1FB)
 
 
 ## Product
