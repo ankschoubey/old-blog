@@ -107,6 +107,7 @@ I read/consume many resources and I thought this would be a good way to link to 
 - 2022 Sep:
     - [Instrumenting Observability: Getting Started and Pro Tips](https://www.youtube.com/watch?v=pY44UX8j4Pc)
     - [Difference Between Observability and Monitoring](https://www.youtube.com/watch?v=dlcS0tY8il8&ab_channel=DevOpsForDevelopers): Monitory means systems metrics. Observability is much deeper. current understanding: logs.
+    - Practical Observability: Do not silence errors
 
 ## Culture and Collaboration
 - 2022 Aug 22

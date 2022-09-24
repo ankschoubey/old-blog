@@ -3,7 +3,7 @@ layout: post
 comments: true
 description: 
 categories: []
-last_modified_at: 2022-09-21T20:52:08.052481
+last_modified_at: 2022-09-24T20:52:08.052481
 last-modified-purpose:
 permalink: /integrate-external-services/
 title: Pointers while integrating an external service
