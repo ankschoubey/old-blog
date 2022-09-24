@@ -47,11 +47,14 @@ You'll have to apply for to apply for too many jobs and ask too many referrals. 
 
 # Resume
 
+
 ## Have an ATS Friendly resume format
 
 ## Update your resume regularly.
 
 Find items to add to your resume. At work, look for things that will look good on your resume. Mainly the most challenging responsibilities/tasks look good on a resume.
+
+You are likely selling yourself short. Write down everything you do. Then find our things your employeer might need.
 
 Don't be shy to add what you are doing right now.
 - Example: In-process of implementing a continuous delivery pipeline.
