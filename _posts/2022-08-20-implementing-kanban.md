@@ -64,6 +64,12 @@ Moment of Glory is a game where anyone in the team can ask someone about the boa
 
 ## Pull System
 
+Think of every work item as a release.
+
+Your goal is to work on a work time and make sure that cumulative turnaround time is the least.
+
+Once you start working on a work time, pull it until it is released.
+
 You always work on the rightmost card assigned to you and push it towards completion.
 
 The card/task which gets completed and on production is of must higher value than the 50% done card.

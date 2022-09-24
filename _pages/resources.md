@@ -118,8 +118,10 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Communication Skills are Underrated for Software Developers](https://www.youtube.com/watch?v=5ON1_R-wYAo)
     - [Think introverted; act extroverted | by Shaziya Tambawala | Designing Atlassian | Sep, 2022 | Medium](https://medium.com/designing-atlassian/think-introverted-act-extroverted-976e3164f3a0)
     - In any friendship/relationship/coperation. the most important thing is trust. If you can trust, only then you'll move forward.
-    - This includes and is not limited to the world around you.
-    - You calling Uber in a different country and getting home safely driven by a stranger is all trust based. 
+        - This includes and is not limited to the world around you.
+        - You calling Uber in a different country and getting home safely driven by a stranger is all trust based. 
+    - Most important thing in team work is not running away
+        - Running away when problems comes breaks trust.
     
 ## Agile
 - 2022 Aug 22
