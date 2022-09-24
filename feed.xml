@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-21T09:12:14-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-24T02:15:47-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,48 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Increase collaboration by knowing whom to contact</title><link href="www.ankushchoubey.com/team-knowing-whom-to-contact/" rel="alternate" type="text/html" title="Increase collaboration by knowing whom to contact" /><published>2022-09-21T00:00:00-05:00</published><updated>2022-09-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/team-knowing-whom-to-contact</id><content type="html" xml:base="www.ankushchoubey.com/team-knowing-whom-to-contact/">&lt;p&gt;&lt;img src=&quot;/images/team-knowing-whom-to-contact.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pointers while integrating an external service</title><link href="www.ankushchoubey.com/integrate-external-services/" rel="alternate" type="text/html" title="Pointers while integrating an external service" /><published>2022-09-24T00:00:00-05:00</published><updated>2022-09-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/integrate-external-services</id><content type="html" xml:base="www.ankushchoubey.com/integrate-external-services/">&lt;p&gt;&lt;img src=&quot;/images/integrate-external-services.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@alexbemore?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Alexander Shatov&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/apps?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;have-you-worked-with-that-external-service-before&quot;&gt;Have you worked with that external service before?&lt;/h1&gt;
+
+&lt;p&gt;If not, then expect yourself to make many mistakes. To reduce mistakes, make sure you do good research and at the same time will adapt to a plan.&lt;/p&gt;
+
+&lt;p&gt;Discuss with other people who have already done it before. They may know something you don’t.&lt;/p&gt;
+
+&lt;h1 id=&quot;are-you-integrating-one-service-or-are-you-integrating-multiple-similar-services&quot;&gt;Are you integrating one service or are you integrating multiple similar services?&lt;/h1&gt;
+
+&lt;p&gt;If you are integrating multiple services, your code would have to be modular enough.&lt;/p&gt;
+
+&lt;p&gt;In any case, try to make your code modular enough so that if suddenly a similar app has to be integrated, there are minimal changes to your code.&lt;/p&gt;
+
+&lt;h1 id=&quot;does-it-provide-an-sdk-in-your-language&quot;&gt;Does it provide an SDK in your language?&lt;/h1&gt;
+
+&lt;p&gt;If yes, half your life’s problems are now solved.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-do-you-connect-to-the-external-service&quot;&gt;How do you connect to the external service?&lt;/h1&gt;
+
+&lt;p&gt;There likely is some kind of clientId, clientSecret, and OAuth flow at play.
+You’ll have to save the token somewhere if it’s an OAuth flow.&lt;/p&gt;
+
+&lt;h1 id=&quot;in-case-there-isnt-a-library-how-do-you-verify-if-something-is-really-from-that-system&quot;&gt;In case there isn’t a library? How do you verify if something is really from that system?&lt;/h1&gt;
+
+&lt;p&gt;You need some kind of token validation.&lt;/p&gt;
+
+&lt;p&gt;If that request is sent again, how would you verify that you received it only once?&lt;/p&gt;
+
+&lt;h1 id=&quot;are-there-rate-limits-in-place-on-the-external-system&quot;&gt;Are there rate limits in place on the external system?&lt;/h1&gt;
+
+&lt;p&gt;If yes, how would you handle it?&lt;/p&gt;
+
+&lt;h1 id=&quot;are-there-special-conditions-in-place&quot;&gt;Are there special conditions in place?&lt;/h1&gt;
+
+&lt;p&gt;For example, if it’s a request/response scenario for a messaging app, it may request a response within a quick 3-5 seconds.&lt;/p&gt;
+
+&lt;h1 id=&quot;would-you-have-to-release-the-app-on-that-particular-platform&quot;&gt;Would you have to release the app on that particular platform?&lt;/h1&gt;
+
+&lt;p&gt;If yes, you’ll have to work with the Product and Doc team to make sure everything is polished.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/integrate-external-services.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/integrate-external-services.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Increase collaboration by knowing whom to contact</title><link href="www.ankushchoubey.com/team-knowing-whom-to-contact/" rel="alternate" type="text/html" title="Increase collaboration by knowing whom to contact" /><published>2022-09-21T00:00:00-05:00</published><updated>2022-09-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/team-knowing-whom-to-contact</id><content type="html" xml:base="www.ankushchoubey.com/team-knowing-whom-to-contact/">&lt;p&gt;&lt;img src=&quot;/images/team-knowing-whom-to-contact.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jasongoodman_youxventures?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Jason Goodman&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/team?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -517,45 +558,4 @@ Photo by RealToughCandy.com: https://www.pexels.com/photo/man-love-people-woman-
   &lt;li&gt;&lt;a href=&quot;https://www.togglz.org/quickstart.html&quot;&gt;Togglz&lt;/a&gt;: A java library for feature flagging. It comes with a UI.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://ff4j.github.io/&quot;&gt;FF4j&lt;/a&gt;: A java library similar to Togglz&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/unleash/unleash-client-java&quot;&gt;Unleash&lt;/a&gt;: Probably the best open source feature flagging product.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="feature-flagging" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/feature-flagging.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/feature-flagging.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Towards Data Driven Decisions</title><link href="www.ankushchoubey.com/data-driven-decisions/" rel="alternate" type="text/html" title="Towards Data Driven Decisions" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-08-13T15:52:08-05:00</updated><id>www.ankushchoubey.com/towards-data-driven-decisions</id><content type="html" xml:base="www.ankushchoubey.com/data-driven-decisions/">&lt;h1 id=&quot;what-are-data-driven-decisions&quot;&gt;What are Data Driven Decisions?&lt;/h1&gt;
-
-&lt;p&gt;Data-Driven decisions are the ability to formulate and make decisions out of the data from the real world.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-am-i-interested-in-data-driven-decisions&quot;&gt;Why am I interested in Data Driven Decisions?&lt;/h1&gt;
-
-&lt;p&gt;For 2 years in my college, I was very driven to become a data scientist. During that time, I worked a lot with data. Not just looking at data but understanding it. So I have an intuitive sense of it.&lt;/p&gt;
-
-&lt;p&gt;I have studied value-based decision making, where we define a value and act according to that value in all situations.&lt;/p&gt;
-
-&lt;p&gt;There are some loopholes in the value-based approach and which is feedback. Systems need to be improvised somehow. And especially when we are optimizing a system, we need to know when we have peaked.&lt;/p&gt;
-
-&lt;p&gt;We also need to know MED (Minimum Effective Dose). So that we can prioritize other tasks too.&lt;/p&gt;
-
-&lt;p&gt;I am also interested in Data-Driven Decisions for deciding what feature to work on and optimizing my workflows.&lt;/p&gt;
-
-&lt;p&gt;An interest of mine is Observability in distributed systems.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-are-some-preliminary-observations-i-have-about-data-driven-decisions&quot;&gt;What are some preliminary observations I have about data-driven decisions?&lt;/h1&gt;
-
-&lt;p&gt;Data-driven decisions can be totally quantity or qualitative.&lt;/p&gt;
-
-&lt;p&gt;Qualitative decisions can be converted to qualitative if they are in the form of a questionnaire.&lt;/p&gt;
-
-&lt;p&gt;Qualitative:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Agile Maturity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Quantitative:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;DORA&lt;/li&gt;
-  &lt;li&gt;Agile Metrics&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Pomodoros sessions&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Custom
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1YsS40schcRMpdaqmuDj_UhGGv4e0S3N7oDOlrIincpw/edit?usp=sharing&quot;&gt;Tracking progress on Grokking Coding Interview&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="decision-making" /><summary type="html">What are Data Driven Decisions?</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="feature-flagging" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/feature-flagging.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/feature-flagging.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

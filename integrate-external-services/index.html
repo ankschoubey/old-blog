@@ -7,20 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Always keep yourself ready to switch companies | Ankush</title>
+<title>Pointers while integrating an external service | Ankush</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Always keep yourself ready to switch companies">
+<meta property="og:title" content="Pointers while integrating an external service">
 <meta property="og:locale" content="en_US">
 <meta name="description" content="Full Stack Developer - Cloud/Microservices">
 <meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
-<link rel="canonical" href="www.ankushchoubey.com/switch-jobs/">
-<meta property="og:url" content="www.ankushchoubey.com/switch-jobs/">
+<link rel="canonical" href="www.ankushchoubey.com/integrate-external-services/">
+<meta property="og:url" content="www.ankushchoubey.com/integrate-external-services/">
 <meta property="og:site_name" content="Ankush">
-<meta property="og:image" content="www.ankushchoubey.com/images/switch-jobs.jpg">
+<meta property="og:image" content="www.ankushchoubey.com/images/integrate-external-services.jpg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00">
+<meta property="article:published_time" content="2022-09-24T00:00:00-05:00">
 <script type="application/ld+json">
-{"datePublished":"2021-05-26T00:00:00-05:00","url":"www.ankushchoubey.com/switch-jobs/","@type":"BlogPosting","headline":"Always keep yourself ready to switch companies","dateModified":"2022-09-24T02:14:06-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/switch-jobs/"},"image":"www.ankushchoubey.com/images/switch-jobs.jpg","description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
+{"datePublished":"2022-09-24T00:00:00-05:00","url":"www.ankushchoubey.com/integrate-external-services/","@type":"BlogPosting","headline":"Pointers while integrating an external service","dateModified":"2022-09-21T15:52:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/integrate-external-services/"},"image":"www.ankushchoubey.com/images/integrate-external-services.jpg","description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush">
@@ -125,12 +125,12 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Pointers while integrating an external service</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-09-24T02:14:06-05:00" itemprop="dateModified">
-          Updated: Sep 24, 2022
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-09-24T00:00:00-05:00" itemprop="datePublished">
+        Written: Sep 24, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-09-21T15:52:08-05:00" itemprop="dateModified">
+          Updated: Sep 21, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -159,12 +159,6 @@ window.onload = wrap_img;
 <script>
         AOS.init();
 </script> -->
-
-<div class="tag-list">
-    
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
-    
-</div>
 <div class="right-section">
 <a id="translate-btn" href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
     <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
@@ -202,49 +196,76 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt=""></p>
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#have-you-worked-with-that-external-service-before">Have you worked with that external service before?</a></li>
+<li class="toc-entry toc-h1"><a href="#are-you-integrating-one-service-or-are-you-integrating-multiple-similar-services">Are you integrating one service or are you integrating multiple similar services?</a></li>
+<li class="toc-entry toc-h1"><a href="#does-it-provide-an-sdk-in-your-language">Does it provide an SDK in your language?</a></li>
+<li class="toc-entry toc-h1"><a href="#how-do-you-connect-to-the-external-service">How do you connect to the external service?</a></li>
+<li class="toc-entry toc-h1"><a href="#in-case-there-isnt-a-library-how-do-you-verify-if-something-is-really-from-that-system">In case there isn’t a library? How do you verify if something is really from that system?</a></li>
+<li class="toc-entry toc-h1"><a href="#are-there-rate-limits-in-place-on-the-external-system">Are there rate limits in place on the external system?</a></li>
+<li class="toc-entry toc-h1"><a href="#are-there-special-conditions-in-place">Are there special conditions in place?</a></li>
+<li class="toc-entry toc-h1"><a href="#would-you-have-to-release-the-app-on-that-particular-platform">Would you have to release the app on that particular platform?</a></li>
+</ul>
+<p><img src="/images/integrate-external-services.jpg" alt=""></p>
 
-<h2 id="capitalism">Capitalism</h2>
+<p>Photo by <a href="https://unsplash.com/@alexbemore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Shatov</a> on <a href="https://unsplash.com/s/photos/apps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<h1 id="have-you-worked-with-that-external-service-before">
+<a class="anchor" href="#have-you-worked-with-that-external-service-before" aria-hidden="true"><span class="octicon octicon-link"></span></a>Have you worked with that external service before?</h1>
 
-<p>The more you earn, the better it is for everyone.</p>
+<p>If not, then expect yourself to make many mistakes. To reduce mistakes, make sure you do good research and at the same time will adapt to a plan.</p>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<p>Discuss with other people who have already done it before. They may know something you don’t.</p>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+<h1 id="are-you-integrating-one-service-or-are-you-integrating-multiple-similar-services">
+<a class="anchor" href="#are-you-integrating-one-service-or-are-you-integrating-multiple-similar-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Are you integrating one service or are you integrating multiple similar services?</h1>
 
-<p>New environments and people give you new perspectives.</p>
+<p>If you are integrating multiple services, your code would have to be modular enough.</p>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<p>In any case, try to make your code modular enough so that if suddenly a similar app has to be integrated, there are minimal changes to your code.</p>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
+<h1 id="does-it-provide-an-sdk-in-your-language">
+<a class="anchor" href="#does-it-provide-an-sdk-in-your-language" aria-hidden="true"><span class="octicon octicon-link"></span></a>Does it provide an SDK in your language?</h1>
 
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
+<p>If yes, half your life’s problems are now solved.</p>
 
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
+<h1 id="how-do-you-connect-to-the-external-service">
+<a class="anchor" href="#how-do-you-connect-to-the-external-service" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do you connect to the external service?</h1>
 
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
+<p>There likely is some kind of clientId, clientSecret, and OAuth flow at play.
+You’ll have to save the token somewhere if it’s an OAuth flow.</p>
 
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
+<h1 id="in-case-there-isnt-a-library-how-do-you-verify-if-something-is-really-from-that-system">
+<a class="anchor" href="#in-case-there-isnt-a-library-how-do-you-verify-if-something-is-really-from-that-system" aria-hidden="true"><span class="octicon octicon-link"></span></a>In case there isn’t a library? How do you verify if something is really from that system?</h1>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
-    </li>
-  </ol>
-</div>
+<p>You need some kind of token validation.</p>
+
+<p>If that request is sent again, how would you verify that you received it only once?</p>
+
+<h1 id="are-there-rate-limits-in-place-on-the-external-system">
+<a class="anchor" href="#are-there-rate-limits-in-place-on-the-external-system" aria-hidden="true"><span class="octicon octicon-link"></span></a>Are there rate limits in place on the external system?</h1>
+
+<p>If yes, how would you handle it?</p>
+
+<h1 id="are-there-special-conditions-in-place">
+<a class="anchor" href="#are-there-special-conditions-in-place" aria-hidden="true"><span class="octicon octicon-link"></span></a>Are there special conditions in place?</h1>
+
+<p>For example, if it’s a request/response scenario for a messaging app, it may request a response within a quick 3-5 seconds.</p>
+
+<h1 id="would-you-have-to-release-the-app-on-that-particular-platform">
+<a class="anchor" href="#would-you-have-to-release-the-app-on-that-particular-platform" aria-hidden="true"><span class="octicon octicon-link"></span></a>Would you have to release the app on that particular platform?</h1>
+
+<p>If yes, you’ll have to work with the Product and Doc team to make sure everything is polished.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/devops/">« Gist of DevOps</a>
+      <a class="prev" href="/team-knowing-whom-to-contact/">« Increase collaboration by knowing whom to contact</a>
     
     
-      <a class="next" href="/simple-db/">Keeping database simple »</a>
+      <a class="next" href="/post-format/">PREFER UPDATING A BLOG OVER WRITING NEW ONES »</a>
     
   </div>
 
@@ -274,8 +295,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/switch-jobs/';
-      this.page.identifier = 'www.ankushchoubey.com/switch-jobs/';
+      this.page.url = 'www.ankushchoubey.com/integrate-external-services/';
+      this.page.identifier = 'www.ankushchoubey.com/integrate-external-services/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -286,7 +307,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/switch-jobs/" hidden></a>
+<a class="u-url" href="/integrate-external-services/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
