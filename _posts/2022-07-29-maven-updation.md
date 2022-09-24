@@ -47,3 +47,7 @@ Run all your automated tests to verify if change to dependies is making the code
 This can be automated by using a maven plugin like [Versions Maven Plugin](https://www.baeldung.com/maven-dependency-latest-version)
 
 A pipeline job can be run where version is auto-updated and merged to `dev` branch if tests are passed. :)
+
+# Resources
+
+[Find unused dependency](https://www.baeldung.com/maven-unused-dependencies)
