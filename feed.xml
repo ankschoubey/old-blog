@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-24T05:39:15-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-09-25T01:11:34-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,96 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pointers while integrating an external service</title><link href="www.ankushchoubey.com/integrate-external-services/" rel="alternate" type="text/html" title="Pointers while integrating an external service" /><published>2022-09-24T00:00:00-05:00</published><updated>2022-09-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/integrate-external-services</id><content type="html" xml:base="www.ankushchoubey.com/integrate-external-services/">&lt;p&gt;&lt;img src=&quot;/images/integrate-external-services.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pointers while integrating an external service</title><link href="www.ankushchoubey.com/integrate-external-services/" rel="alternate" type="text/html" title="Pointers while integrating an external service" /><published>2022-09-25T00:00:00-05:00</published><updated>2022-09-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/testing-design-patterns</id><content type="html" xml:base="www.ankushchoubey.com/integrate-external-services/">&lt;p&gt;&lt;img src=&quot;/images/testing-design-patterns.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;flash&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+    &lt;strong&gt;Note: &lt;/strong&gt;For beginners: Design patterns are template solutions to common problems developers face. There are many design patterns; the best known are the 2 Gang of Four (GoF)  object-oriented design patterns.
+&lt;/div&gt;
+
+&lt;p&gt;Testing interfaces, abstract classes, and design patterns efficiently can be tricky since parents and children depend on each other. We can write tests to eliminate these dependencies during the test time, making our tests very short and decoupled.&lt;/p&gt;
+
+&lt;p&gt;But first, why should you even use abstract classes and design patterns?&lt;/p&gt;
+
+&lt;h1 id=&quot;why-should-we-use-interfaces-abstract-classes-and-design-patterns&quot;&gt;Why should we use interfaces, abstract classes and design patterns?&lt;/h1&gt;
+
+&lt;p&gt;Good code should enforce the intent of how it is to be used.&lt;/p&gt;
+
+&lt;p&gt;Ideally, we strive for a SOLID design: A code with a single responsibility that cannot be changed but is extensible. Interfaces and abstract classes help us achieve this goal.&lt;/p&gt;
+
+&lt;p&gt;Suppose your systems represent different vehicles. Instead of having separate logic for each, you can represent the common logic in a ‘Vehicle’ class and have its behaviour implemented and modified by the subclasses.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;abstract&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;travelTo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Point&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;destination&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// common logic to move a vehicle that uses this.getHorn()&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;abstract&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Horn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getHorn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// this will be implemented by children&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Tesla&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;nc&quot;&gt;Horn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getHorn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Horn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;John Cena: You can't see me&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The above code corresponds to the factory method design pattern.&lt;/p&gt;
+
+&lt;p&gt;All 24 object-oriented GoF design patterns also embody SOLID principles. Developers should prefer these patterns as they help our code be very clean.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-should-we-unit-test-them&quot;&gt;How should we unit test them?&lt;/h1&gt;
+
+&lt;p&gt;Unit testing a pattern can be tricky since things are so abstract.&lt;/p&gt;
+
+&lt;p&gt;Testing all the concrete and parent classes together will make our tests very dependent on the parent and will be hard to maintain.&lt;/p&gt;
+
+&lt;p&gt;The trick here is to test both separately.&lt;/p&gt;
+
+&lt;h2 id=&quot;testing-abstract-class&quot;&gt;Testing abstract class&lt;/h2&gt;
+
+&lt;p&gt;make a dummy concrete implementation within the test class.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c1&quot;&gt;// this is a test file for the abstract class&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// 1. Make a Dummy implementation of the abstract class/interface within the test&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DummyVehicleImpl&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;Horn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getHorn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Horn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;THIS IS DUMMY BUT IT CAN SING FROZEN&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// 2. Create the instance of a dummy&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vehicle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DummyVehicleImpl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// 3. Use the dummy implementation to assert the parent.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The steps to test composition is also similar.&lt;/p&gt;
+
+&lt;h2 id=&quot;testing-children&quot;&gt;Testing children&lt;/h2&gt;
+
+&lt;p&gt;In the above section, we tested parents. Now we can test the child.&lt;/p&gt;
+
+&lt;p&gt;Each child will have a separate test class that tests its method, excluding the parent’s methods.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TeslaTests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;Tesla&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tesla&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Tesla&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// code which tests methods of tesla class and not the parent.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;What do you think about this approach? Is there a better approach to testing abstract classes and design patterns? Do let me know what you think.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading so far.&lt;/p&gt;</content><author><name></name></author><category term="design-patterns" /><category term="testing" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/testing-design-patterns.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/testing-design-patterns.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pointers while integrating an external service</title><link href="www.ankushchoubey.com/integrate-external-services/" rel="alternate" type="text/html" title="Pointers while integrating an external service" /><published>2022-09-24T00:00:00-05:00</published><updated>2022-09-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/integrate-external-services</id><content type="html" xml:base="www.ankushchoubey.com/integrate-external-services/">&lt;p&gt;&lt;img src=&quot;/images/integrate-external-services.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@alexbemore?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Alexander Shatov&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/apps?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -491,34 +580,4 @@ There are some Kube-specific services too.&lt;/p&gt;
 
 &lt;h2 id=&quot;read-the-documentation&quot;&gt;Read the documentation.&lt;/h2&gt;
 
-&lt;p&gt;In the documentation, you will likely find info on some beans you could modify or extend.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/autoconfiguration.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/autoconfiguration.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">TDD over JSON</title><link href="www.ankushchoubey.com/tdd-over-json/" rel="alternate" type="text/html" title="TDD over JSON" /><published>2022-09-08T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/tdd-over-json</id><content type="html" xml:base="www.ankushchoubey.com/tdd-over-json/">&lt;p&gt;&lt;img src=&quot;/images/tdd-over-json.jpg&quot; alt=&quot;&quot; /&gt;
-Photo by RealToughCandy.com: https://www.pexels.com/photo/man-love-people-woman-11035481/&lt;/p&gt;
-
-&lt;p&gt;Somethings TDD isn’t straightforward. Here is such a case I faced.&lt;/p&gt;
-
-&lt;p&gt;I was developing an app for a third-party service which required data in a particular JSON format.&lt;/p&gt;
-
-&lt;p&gt;The particular JSON would render as UI in the third-party app’s view.&lt;/p&gt;
-
-&lt;p&gt;Here is how I approached it with TDD.&lt;/p&gt;
-
-&lt;h1 id=&quot;step-1-creating-the-ideal-json&quot;&gt;Step 1: Creating the ideal JSON.&lt;/h1&gt;
-
-&lt;p&gt;Lucky for me, the third part app had a UI builder to see what the end UI would look. I created the UI and copied JSON into my code.&lt;/p&gt;
-
-&lt;p&gt;The UI builder also gave a link which became part of my BDD specs.&lt;/p&gt;
-
-&lt;h1 id=&quot;step-2-created-a-test-with-json-asserts&quot;&gt;Step 2: Created a Test with JSON Asserts&lt;/h1&gt;
-
-&lt;p&gt;I followed the method/when/then format to create a test and added the following assertion:&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nc&quot;&gt;JSONAssert&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;assertEquals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expectedJson&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;actualJson&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JSONCompareMode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;LENIENT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://stackoverflow.com/a/33481923&quot;&gt;StackOverflow: The best way to compare two JSON files in Java&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Now I know what the final state of my POJO should be.&lt;/p&gt;
-
-&lt;p&gt;I went and updated the POJO to reflect the expected JSON.&lt;/p&gt;
-
-&lt;p&gt;Another point of luck for me was that the third-party app had an SDK, so I didn’t have to build a custom POJO from scratch. I just had to customize it.&lt;/p&gt;</content><author><name></name></author><category term="tdd-example" /><summary type="html">Photo by RealToughCandy.com: https://www.pexels.com/photo/man-love-people-woman-11035481/</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/tdd-over-json.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/tdd-over-json.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;In the documentation, you will likely find info on some beans you could modify or extend.&lt;/p&gt;</content><author><name></name></author><category term="spring-boot" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/autoconfiguration.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/autoconfiguration.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
