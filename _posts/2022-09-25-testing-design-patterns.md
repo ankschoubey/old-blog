@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-description: Testing interfaces, abstract classes, and design patterns efficiently can be tricky since parents and children depend on each other. We can write tests to eliminate these dependencies during the test time, making our tests very short and decoupled.
+description: Testing interfaces, abstract classes, and design patterns efficiently can be tricky since parents and children depend on each other.<br><br>We can write tests to eliminate these dependencies during the test time, making our tests very short and decoupled.
 categories: [design-patterns, testing]
 last_modified_at: 2022-09-25T20:52:08.052481
 last-modified-purpose:
-permalink: /integrate-external-services/
-title: Pointers while integrating an external service
+permalink: /testing-design-patterns/
+title: How to test interfaces, abstract classes and design patterns?
 image: /images/testing-design-patterns.jpg
 ---
 ![](/images/testing-design-patterns.jpg)
