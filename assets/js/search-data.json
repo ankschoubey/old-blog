@@ -2264,6 +2264,17 @@
   
       ,"page3": {
           "title": "",
+          "content": "Non Technical Resources . I read/consume many resources and I thought this would be a good way to link to up and thus avoid writing blogposts on these topics. . In these resources, try to only consume the parts you need. Let go or parts you don’t need. . Psychology . HealthyGamerGG: ADHD Health | . Communication . Communication Coach Alex Lyon | .",
+          "url": "https://www.ankushchoubey.com/non-technical-resources/",
+          "relUrl": "/non-technical-resources/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page4": {
+          "title": "",
           "content": "These articles are of philosophical and self-help nature . How to take advice that suggests being fake? • Sep 24, 2022 . Perfection isn&#39;t an attainable goal. We are always a step closer to it. • Sep 11, 2022 . Negotiations • Aug 12, 2022 . Narcissism • Aug 12, 2022 . On Building Trust • Jul 1, 2022 . Strategies to be Calmer • Jun 28, 2022 . Thoughts on Boundaries • Jun 28, 2022 . Reason to aim for social confidence • Jun 19, 2022 . Paper work is like DevOps • Jun 12, 2022 . Truth and Fidility • Jun 5, 2022 . Why memorizing is still relevant? • May 31, 2022 . Ways towards Freedom • May 31, 2022 . Shadow Clone of Ideas • May 29, 2022 . Question Driven Writing • May 13, 2022 . Choosing Images/Diagrams in Essays • May 13, 2022 . Thinking on Paper • May 5, 2022 . Being good at one thing doesn&#39;t automatically make you better at another • May 2, 2022 . Strategies on becoming more productive • Mar 18, 2022 . Human Intuition while working in Technology • Mar 18, 2022 . Strategies on Truth • Feb 24, 2022 . Strategies on Team Work • Feb 24, 2022 . Strategies on Responsibility • Feb 24, 2022 . Articulate Fully • Jan 29, 2022 . Personal Budgeting • Jan 28, 2022 . Time Assets and Liabilities • Jan 26, 2022 . My Core Values • Nov 25, 2021 . Choosing better values • Sep 26, 2021 . Learning Strategies • Sep 26, 2021 . Piano • Jan 16, 2021 .",
           "url": "https://www.ankushchoubey.com/non-technical/",
           "relUrl": "/non-technical/",
@@ -2273,7 +2284,7 @@
   
 
   
-      ,"page4": {
+      ,"page5": {
           "title": "",
           "content": "Paper work is like DevOps . . Written on : Jun 12, 2022 Written on : Jun 12, 2022 personal non-professional | &lt;img class=&quot;image-preview &quot; src=&quot;/images/switch-jobs.jpg&quot; href=&quot;/switch-jobs/&quot; loading=‘lazy’ /&gt; Always keep yourself ready to switch companies . . Updated : Sep 30, 2022 Written: May 26, 2021 Updated: 30-Sep-22 Written: May 26, 2021 personal Capitalism | New domains, people and environment | Interviews keep you sharp and help you know your progress | You don’t owe people anything | . | Tough . . Updated : Aug 1, 2021 Written: May 4, 2021 Updated: 01-Aug-21 Written: May 4, 2021 philosophical for-future-me personal | Compare yourself with who you were yesterday . . Written on : May 4, 2021 Written on : May 4, 2021 philosophical for-future-me personal Games with no end goal | Escape competition through authenticity 2 | Rate of Change vs Actual Change | . | .",
           "url": "https://www.ankushchoubey.com/personal/",
@@ -2284,7 +2295,7 @@
   
 
   
-      ,"page5": {
+      ,"page6": {
           "title": "Resources",
           "content": "I read/consume many resources and I thought this would be a good way to link to up and thus avoid writing blogposts on these topics. . Resources and Some Notes . Interesting Blogs . Philippe Bourgau’s XP Coaching Blog | Emre Bolat | . Guest Posts on Other Sites . Request Validation in Spring Webflux – Digite Tech Blog | Error Handling with Custom Responses in Spring Boot – Digite Tech Blog | . System Design . MUST SUBSCRIBE: ByteByteGo Newsletter | The Eight Fallacies of Distributed Computing | Capacity Planning: Sep 2022 Gather requirements first: | Capacity Planning for DevOps | Back of the envelope estimation | . | . | 10 Microservice Best Practices For Your Projects: The 80/20 Way | [HTTP Status Codes Decision Diagram - Infographic | Loggly](https://www.loggly.com/blog/http-status-code-diagram/) | . | . Requirement Gathering . Sep 2022 Functional and Non-Functional Requirements | [10 Steps To Successful Requirements Gathering | Phase2 Technology](https://www.phase2technology.com/blog/successful-requirements-gathering) | . | What Questions Do I Ask During Requirements Elicitation? | @happy @unhappy @help @resilience @security @wip @prioritized @done @reviewed | When doing requirement gathering | Always have questions. Be prepared. The best way to prepare is to have a document ready with all questions and concerns. | . | Only when requirements are approved start working All work until requirements aren’t finished is experimental code. (Spike Code, POC, Hopefully not MVP.) | All of these are just to gather more and clarity requirements and what is possible. | . | . | . Web . 2022 Sep Webhooks | . | . Spring Boot and Java . 2022 Sep Top 10 Most Common Spring Framework Mistakes | Realtime user tracking in Spring Boot | Metrics for your Spring REST API | Spring boot playground: Some interesting helper libraries | JMolecular: Makes it easy to implement Domain Driven Design | . | . Maven Plugin . 2022 Sep Maven Plugin: Mutability Detector: This is important when doing concurrent programming. | . | . Testing . 2022 Aug Practical Testing Book: | . | 2022 Sep Java Performance Testing | LoadTesting Java Load4j: Has interesting read on SLOs via verifiable tests. | Common Exceptions We Crunched 1 Billion Java Logged Errors - Here’s What Causes 97% of Them - OverOps | The Top 10 Exception Types in Production Java Applications - Based on 1B Events - OverOps | [Common Java Exceptions | Baeldung](https://www.baeldung.com/java-common-exceptions) | . | [Most Common Java Exceptions | Rollbar](https://rollbar.com/blog/most-common-java-exceptions/) | . | . | . | . Database . 2022 Aug MongoDB Building with Patterns | . | . Devops . 2022 Aug The 20/80 Rules: The 20% of DevOps skills you will use 80% of the time. | . | 2022 Sep The Ancestors and Offsprings of DevOps, the Evolving DevOps Tree | . | . Architecture . Plugin Architecture #notImplementedYet 2022 Aug 22 Note: 2022 Aug 22: For plugin architecture, the whole product should be made pluggable. That is even first party features should be developed as plugin. Which means there will be almost nothing in the core. | YouTube: The Power Of The Plugin Architecture In Python | StackOverflow: The plugin design pattern explained (as described by Martin Fowler) | . | . | Reactive Programming 2022 Aug 22 Learn RxJS operators and Reactive Programming principles | The Reactive Manifesto | Recommended: Java Brains: Project Reactor | . | . | Microservices 2022 Sep Recommended: A pattern language for microservices | . | . | Kubernetes 2022 Sep A visual guide on troubleshooting Kubernetes deployments Clean Code . | . | . | 2022 Aug 22 IntelliJ JavaDocs Plugin | . | 2022 Sep CommitLint.io: Helps to write atomic commits | . | . Observability . 2022 Aug 22 Graphana Documentation | . | 2022 Sep: Instrumenting Observability: Getting Started and Pro Tips | Difference Between Observability and Monitoring: Monitory means systems metrics. Observability is much deeper. current understanding: logs. | Practical Observability: Do not silence errors | . | . Culture and Collaboration . 2022 Aug 22 A Software Engineering Culture Test | . | 2022 Sep 22 Synchronous Versus Asynchronous Communication Tools | Apple CEO Tim Cook on Collaboration | Communication Skills are Underrated for Software Developers | [Think introverted; act extroverted | by Shaziya Tambawala | Designing Atlassian | Sep, 2022 | Medium](https://medium.com/designing-atlassian/think-introverted-act-extroverted-976e3164f3a0) | . | In any friendship/relationship/coperation. the most important thing is trust. If you can trust, only then you’ll move forward. This includes and is not limited to the world around you. | You calling Uber in a different country and getting home safely driven by a stranger is all trust based. | . | Most important thing in team work is not running away Running away when problems comes breaks trust. | . | . | . Agile . 2022 Aug 22 Agile Manifesto | Agile Developer | Getting Started with Agility: Essential Reading | . | 2022 Sep YouTube Channel: Development That Pays | Jira templates for user stories, tasks and bugs | The Difference Between The Clever Developer &amp; The Wise Developer | 4 types of experiments in software development | Spring Demo | Initial Project development process | AgilityHealth 3 min Explainer Video - YouTube | Agile Simulation Videos - YouTube | . | . Product . 2022 Aug 22 The Product-Minded Software Engineer | . | . Algorithm . 2022 Aug 22 Data Structures &amp; Algorithms I Used Working at Tech Companies | Grokking Coding Interview Free Alternatives | 14 Patterns to Ace Any Coding Interview Question | . | . Chaos Engineering . 2022 Sep Chaos Engineering: the history, principles, and practice | PRINCIPLES OF CHAOS ENGINEERING | . | . More .",
           "url": "https://www.ankushchoubey.com/resources/",
@@ -2295,7 +2306,7 @@
   
 
   
-      ,"page6": {
+      ,"page7": {
           "title": "Resume",
           "content": "Resume . Download Resume ankushchoubey@outlook linkedin/in/ankushchoubey Appreciations . Sanoj Kumar: Ankush Reported to Sanoj at TCS . Original: LinkedIn Recommendation Section . It’s rare that you come across standout talent like Ankush. I had the pleasure of working with Ankush for almost two years in a very highly visible and complex application. . I really appreciate energy, enthusiasm, pro-activeness which Ankush brings in the team. He always try to look a modern way/tool/framework to solve the problem. You can trust him with any complex problem and he will come with multiple approaches to solve the problem. . His approach to make reusable components, write cleaner code and finding ways to remove boilerplate code is really fantastic. . He is an amazing asset for any team and company. I wish him all the very best for his future assignments. . Soumya Biswas: Ankush Reported to Soumya at TCS . Original: Appreciation and Recognition PDF . Ankush has been exceptional throughout the Labor Cost Portal Project , understanding the macro and documenting all the key items and making sure all key aspects are covered in the new application logic. He is always open to take challenges and solves production issues in small span of time. He effectively communicates the changes to BRM. . Rituparna Ghosh: BRM at TCS . Original: Appreciation and Recognition PDF . Hi Ankush,Appreciate your work done for CSF Forms project! The pieces you worked here were critical and you delivered them well . Keep up the good work.Thanks,Ritu . Priya Jayachandan: Ankush Reported to Priya at TCS . Original: LinkedIn Recommendation Section . Ankush is a highly enthusiastic, energetic and a fast learner.He has the capability to quickly grasp the necessary domain, technology and process knowledge to deliver the right product at the right time.He volunteers for many of the account level initiatives and brings out of the box ideas for better execution. . Deepa Mandal: Ankush Reported to Priya at TCS . Original: LinkedIn Recommendation Section . Ankush is very hard working and go-to person for technical stuffs. A very techno savvy person and a good coder indeed! He always come up with good solution. I had very good experience working with him past couple years !! .",
           "url": "https://www.ankushchoubey.com/resume/",
@@ -2316,7 +2327,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "{% include replace_nav_with_icons.html %} . {% for post in site.categories[‘personal’] %} {%- assign date_format = site.minima.date_format | default: “%b %-d, %Y” -%} . {{post.title}} • {{ post.date | date: date_format }} . {% endfor %} .",
           "url": "https://www.ankushchoubey.com/underground/",
@@ -2330,7 +2341,7 @@
   
 
   
-      ,"page13": {
+      ,"page14": {
           "title": "",
           "content": "{“/appreciations/”:”https://www.ankushchoubey.com/resume/#appreciations”} .",
           "url": "https://www.ankushchoubey.com/redirects.json",
@@ -2344,7 +2355,7 @@
   
 
   
-      ,"page15": {
+      ,"page16": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://www.ankushchoubey.com/robots.txt",
