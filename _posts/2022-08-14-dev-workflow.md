@@ -18,6 +18,8 @@ Always
 
 LinkedIn is a professional network. It isn't a network of friends. So go with he hopes of making a "network" connection. This might require a shift in thinking.
 
+Get good linkedIn url link: https://zety.com/blog/linkedin-on-resume
+
 Use resumeworded.com to get a score and iterate.
 
 Look at other people's LinkedIn
@@ -47,7 +49,6 @@ You'll have to apply for to apply for too many jobs and ask too many referrals. 
 
 # Resume
 
-
 ## Have an ATS Friendly resume format
 
 ## Update your resume regularly.
@@ -58,6 +59,7 @@ You are likely selling yourself short. Write down everything you do. Then find o
 
 Don't be shy to add what you are doing right now.
 - Example: In-process of implementing a continuous delivery pipeline.
+- This is also because it takes time to find a job. So it maybe 1-2 months before someone picks your resume. At that point resume is already outdated.
 
 ## Getting wordings right.
 
