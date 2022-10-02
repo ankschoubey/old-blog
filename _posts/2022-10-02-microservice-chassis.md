@@ -7,9 +7,7 @@ last_modified_at: 2022-10-02T20:52:08.052481
 last-modified-purpose:
 permalink: /microservice-chassis/
 title: Microservice Chassis
-image: /images/microservice-chassis.jpg
 ---
-![](/images/microservice-chassis.jpg)
 
 There is no speed without a microservice chassis.
 
