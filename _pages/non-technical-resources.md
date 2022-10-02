@@ -24,4 +24,4 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 # Philosophy:
 - Sep 2022
     - [Knowledge vs Experience](https://www.youtube.com/watch?v=nvPtZyVZFhM)
-    - [Knowing Versus Understanding | Jordan B Peterson - YouTube](https://www.youtube.com/watch?v=Y0tGxcUaVm0)
+    - [Knowing Versus Understanding - Jordan B Peterson - YouTube](https://www.youtube.com/watch?v=Y0tGxcUaVm0)
