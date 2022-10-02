@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-02T02:08:17-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-02T02:10:33-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -128,7 +128,31 @@ Type B: Chaos&lt;/p&gt;
 
 &lt;p&gt;Reading -&amp;gt; Learning -&amp;gt; Applying is the fastest way to improve quality.&lt;/p&gt;
 
-&lt;p&gt;And chill, relax. Nature is random and it’s still perfect :) or else we wouldn’t have been here.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/type-a-type-b.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/type-a-type-b.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dev Schedule</title><link href="www.ankushchoubey.com/dev-schedule/" rel="alternate" type="text/html" title="Dev Schedule" /><published>2022-10-02T00:00:00-05:00</published><updated>2022-09-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/dev-schedule</id><content type="html" xml:base="www.ankushchoubey.com/dev-schedule/">&lt;p&gt;&lt;img src=&quot;/images/dev-schedule.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And chill, relax. Nature is random and it’s still perfect :) or else we wouldn’t have been here.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/type-a-type-b.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/type-a-type-b.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Microservice Chassis</title><link href="www.ankushchoubey.com/microservice-chassis/" rel="alternate" type="text/html" title="Microservice Chassis" /><published>2022-10-02T00:00:00-05:00</published><updated>2022-10-02T15:52:08-05:00</updated><id>www.ankushchoubey.com/microservice-chassis</id><content type="html" xml:base="www.ankushchoubey.com/microservice-chassis/">&lt;p&gt;&lt;img src=&quot;/images/microservice-chassis.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no speed without a microservice chassis.&lt;/p&gt;
+
+&lt;p&gt;In any kind of program, you want your technical concerns to be as separate as possible from business logic.&lt;/p&gt;
+
+&lt;p&gt;This can be a separate package or a separate library.&lt;/p&gt;
+
+&lt;p&gt;Having the technical concerns separated, keeps the code clean and easier to maintain in the long run.&lt;/p&gt;
+
+&lt;p&gt;One of the most important aspect of developing microservice environment is the microservice chassis.&lt;/p&gt;
+
+&lt;p&gt;The chassis deals with the technical concerns such as, logging, connecting to observability platform, security like mTLS for Zero Trust, etc.&lt;/p&gt;
+
+&lt;p&gt;Since all the microservices in the company’s universe use the chassis, if something needs to be upgraded, the chassis library will be upgraded and the business implementation will remain the same.&lt;/p&gt;
+
+&lt;p&gt;This allows for a very high development speed.&lt;/p&gt;
+
+&lt;p&gt;Also, for most projects, setting up the project is the most painful part of the process. Chassis library makes it super convenient to set everything up.&lt;/p&gt;
+
+&lt;p&gt;Most DevOps concerns, can be handles from within chassis, without touching individual code.&lt;/p&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://microservices.io/patterns/microservice-chassis.html&quot;&gt;Microservice chassis&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="dev-productivity" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/microservice-chassis.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/microservice-chassis.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dev Schedule</title><link href="www.ankushchoubey.com/dev-schedule/" rel="alternate" type="text/html" title="Dev Schedule" /><published>2022-10-02T00:00:00-05:00</published><updated>2022-09-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/dev-schedule</id><content type="html" xml:base="www.ankushchoubey.com/dev-schedule/">&lt;p&gt;&lt;img src=&quot;/images/dev-schedule.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@andrewtneel?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Andrew Neel&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/dev-schedule?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -530,41 +554,4 @@ No method should modify the contents of the private final method.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/google/guava/wiki/ImmutableCollectionsExplained&quot;&gt;Google Guava Immutable Data Structures&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html&quot;&gt;A Strategy for Defining Immutable Objects&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ST3wU79nwS8&quot;&gt;Mutability Detector In Action&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="concurrent-programming" /><category term="reactive-programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/immutable-objects.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/immutable-objects.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Perfection isn’t an attainable goal. We are always a step closer to it.</title><link href="www.ankushchoubey.com/perfection/" rel="alternate" type="text/html" title="Perfection isn’t an attainable goal. We are always a step closer to it." /><published>2022-09-11T00:00:00-05:00</published><updated>2022-09-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/perfection</id><content type="html" xml:base="www.ankushchoubey.com/perfection/">&lt;p&gt;&lt;img src=&quot;/images/perfection.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Often we fail to do something because we fear we’ll be bad at it.&lt;/p&gt;
-
-&lt;p&gt;This fear is counter-productive. It is not a useful thought.&lt;/p&gt;
-
-&lt;p&gt;Only by doing do we learn. Only by failing do we recognize and avoid situations that would cause problems. In this sense, we are constantly failing forward.&lt;/p&gt;
-
-&lt;p&gt;Things, if they are progressing well, will always be an upwards spiral. As long as they is an upwards spiral, it doesn’t matter that we currently failed. Eventually, we’ll succeed, and that’s enough.&lt;/p&gt;
-
-&lt;p&gt;Failure is a sign we are doing&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Something out of our comfort zone. -&amp;gt; This is good because it means we are doing something.&lt;/li&gt;
-  &lt;li&gt;Something we are doing wrong -&amp;gt; means we can fix it, and then we won’t have a problem.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Having a good perspective on failure is highly underestimated.&lt;/p&gt;
-
-&lt;p&gt;If we are failing all the time, however, it could mean a few things. All of these things provide an opportunity for us to improve.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Maybe we don’t know something -&amp;gt; in which case we need to find an answer.&lt;/li&gt;
-  &lt;li&gt;Maybe we are trying to solve the wrong problem or from a bad angle-&amp;gt; we need good root cause analysis both post-mortem and pre-mortem.&lt;/li&gt;
-  &lt;li&gt;Maybe we are asking the wrong question -&amp;gt; find the right question to ask then.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Often the best approach to move towards perfection is:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Do something.&lt;/li&gt;
-  &lt;li&gt;Fail&lt;/li&gt;
-  &lt;li&gt;Learn&lt;/li&gt;
-  &lt;li&gt;Repeat&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Sometimes after this loop, you’ll be good enough and still now perfect. But that’s okay; maybe this is an optimal stopping point, especially if the problem is solved.&lt;/p&gt;
-
-&lt;p&gt;Or maybe it’s time to stop focusing on this problem for a while and solve another problem. After some time, we’ll have a fresh perspective, and if this problem still exists, we’ll have more tools in our belts to fix it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/03/Diminishing_Returns_Graph.png&quot; alt=&quot;Diminishing Returns Graph: Source Wikipedia&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/perfection.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/perfection.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="concurrent-programming" /><category term="reactive-programming" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/immutable-objects.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/immutable-objects.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
