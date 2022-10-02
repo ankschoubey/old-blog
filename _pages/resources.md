@@ -20,6 +20,11 @@ I read/consume many resources and I thought this would be a good way to link to 
 - [Request Validation in Spring Webflux – Digite Tech Blog](https://tech.digite.com/request-validation-in-spring-webflux/)
 - [Error Handling with Custom Responses in Spring Boot – Digite Tech Blog](https://tech.digite.com/error-handling-with-custom-responses-in-spring-boot/)
 
+## Domain Knowledge
+- Oct 2022
+    - [How to build domain knowledge - YouTube](https://www.youtube.com/watch?v=Zcdy1BpozW0)
+    - [Domain Knowledge for Software Engineers](https://www.youtube.com/playlist?list=PLc3SzDYhhiGWLZ43ALf6tgvFbmctvsVmU)
+
 ## System Design
 - *MUST SUBSCRIBE*: [ByteByteGo Newsletter](https://blog.bytebytego.com/about)
 - [The Eight Fallacies of Distributed Computing](https://medium.com/geekculture/the-eight-fallacies-of-distributed-computing-44d766345ddb)
