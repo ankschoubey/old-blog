@@ -497,8 +497,6 @@ p code { font-size: 19px; }
 
 .site-title:after { content: " - Full Stack Developer"; font-size: 1rem; font-style: italic; padding-left: 1; color: black; }
 
-@media only screen and (min-width: 600px) { .site-title:after { display: none; } }
-
 .search-button { background: url(https://image.flaticon.com/icons/svg/882/882988.svg); background-color: #ffdead00; color: #ffdead00 !important; background-size: contain; background-repeat: no-repeat; background-position: center; filter: opacity(0.7); }
 
 .side-project-button { background: url(https://image.flaticon.com/icons/svg/900/900813.svg); background-color: #ffdead00; color: #ffdead00 !important; background-size: contain; background-repeat: no-repeat; background-position: center; filter: opacity(0.7); }
