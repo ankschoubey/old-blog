@@ -34,13 +34,13 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [Capacity Planning for DevOps](https://www.youtube.com/watch?v=rG9BL0ambTk&ab_channel=DevOpsForDevelopers)
         - [Back of the envelope estimation](https://www.youtube.com/watch?v=UC5xf8FbdJc&ab_channel=ByteByteGo)
 - [10 Microservice Best Practices For Your Projects: The 80/20 Way](https://www.simform.com/blog/microservice-best-practices/)
-- [HTTP Status Codes Decision Diagram - Infographic | Loggly](https://www.loggly.com/blog/http-status-code-diagram/)
+- [HTTP Status Codes Decision Diagram - Infographic - Loggly](https://www.loggly.com/blog/http-status-code-diagram/)
 
 ## Requirement Gathering
 
 - Sep 2022
     - [Functional and Non-Functional Requirements](https://www.altexsoft.com/blog/business/functional-and-non-functional-requirements-specification-and-types/)
-    - [10 Steps To Successful Requirements Gathering | Phase2 Technology](https://www.phase2technology.com/blog/successful-requirements-gathering)
+    - [10 Steps To Successful Requirements Gathering - Phase2 Technology](https://www.phase2technology.com/blog/successful-requirements-gathering)
     - [What Questions Do I Ask During Requirements Elicitation?](https://www.bridging-the-gap.com/what-questions-do-i-ask-during-requirements-elicitation/)
     - @happy @unhappy @help @resilience @security @wip @prioritized @done @reviewed
     - When doing requirement gathering
@@ -75,8 +75,8 @@ I read/consume many resources and I thought this would be a good way to link to 
     - Common Exceptions
         - [We Crunched 1 Billion Java Logged Errors - Here’s What Causes 97% of Them - OverOps](https://www.overops.com/blog/we-crunched-1-billion-java-logged-errors-heres-what-causes-97-of-them-2/)
         - [The Top 10 Exception Types in Production Java Applications - Based on 1B Events - OverOps](https://www.overops.com/blog/the-top-10-exceptions-types-in-production-java-applications-based-on-1b-events/)
-        - [Common Java Exceptions | Baeldung](https://www.baeldung.com/java-common-exceptions)
-        - [Most Common Java Exceptions | Rollbar](https://rollbar.com/blog/most-common-java-exceptions/)
+        - [Common Java Exceptions - Baeldung](https://www.baeldung.com/java-common-exceptions)
+        - [Most Common Java Exceptions - Rollbar](https://rollbar.com/blog/most-common-java-exceptions/)
 
 ## Database
 - 2022 Aug
@@ -127,7 +127,7 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Synchronous Versus Asynchronous Communication Tools](https://www.youtube.com/watch?v=dX_nZTiZRPE)
     - [Apple CEO Tim Cook on Collaboration](https://www.youtube.com/watch?v=EZPYLZ7I6gs)
     - [Communication Skills are Underrated for Software Developers](https://www.youtube.com/watch?v=5ON1_R-wYAo)
-    - [Think introverted; act extroverted | by Shaziya Tambawala | Designing Atlassian | Sep, 2022 | Medium](https://medium.com/designing-atlassian/think-introverted-act-extroverted-976e3164f3a0)
+    - [Think introverted; act extroverted - by Shaziya Tambawala - Designing Atlassian - Sep, 2022 - Medium](https://medium.com/designing-atlassian/think-introverted-act-extroverted-976e3164f3a0)
     - In any friendship/relationship/coperation. the most important thing is trust. If you can trust, only then you'll move forward.
         - This includes and is not limited to the world around you.
         - You calling Uber in a different country and getting home safely driven by a stranger is all trust based. 
