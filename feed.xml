@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-02T02:04:14-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-02T02:08:17-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -128,7 +128,30 @@ Type B: Chaos&lt;/p&gt;
 
 &lt;p&gt;Reading -&amp;gt; Learning -&amp;gt; Applying is the fastest way to improve quality.&lt;/p&gt;
 
-&lt;p&gt;And chill, relax. Nature is random and it’s still perfect :) or else we wouldn’t have been here.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/type-a-type-b.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/type-a-type-b.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to test interfaces, abstract classes and design patterns?</title><link href="www.ankushchoubey.com/testing-design-patterns/" rel="alternate" type="text/html" title="How to test interfaces, abstract classes and design patterns?" /><published>2022-09-25T00:00:00-05:00</published><updated>2022-09-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/testing-design-patterns</id><content type="html" xml:base="www.ankushchoubey.com/testing-design-patterns/">&lt;p&gt;&lt;img src=&quot;/images/testing-design-patterns.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And chill, relax. Nature is random and it’s still perfect :) or else we wouldn’t have been here.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/type-a-type-b.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/type-a-type-b.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dev Schedule</title><link href="www.ankushchoubey.com/dev-schedule/" rel="alternate" type="text/html" title="Dev Schedule" /><published>2022-10-02T00:00:00-05:00</published><updated>2022-09-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/dev-schedule</id><content type="html" xml:base="www.ankushchoubey.com/dev-schedule/">&lt;p&gt;&lt;img src=&quot;/images/dev-schedule.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@andrewtneel?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Andrew Neel&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/dev-schedule?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;its-best-to-divide-the-day-into-pre-lunch&quot;&gt;It’s best to divide the day into pre-lunch.&lt;/h1&gt;
+
+&lt;p&gt;Post lunch. This provides a natural break.&lt;/p&gt;
+
+&lt;p&gt;Prelunch. You want to do core development work on your story.&lt;/p&gt;
+
+&lt;p&gt;Post development you want to pair up with someone. Ask what they are doing. Help them out.&lt;/p&gt;
+
+&lt;p&gt;For most daily scrum, is morning. Before this should be a planning phase. Ideally. Then you can throw away the plan.&lt;/p&gt;
+
+&lt;h1 id=&quot;when-to-find-time-to-learn&quot;&gt;When to find time to learn.&lt;/h1&gt;
+
+&lt;p&gt;In between work, if you want to implement something, it’s best to learn about it.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;You want to flatten a tree. You probably know how to do it, but you haven’t implemented it before. And this is the production code. So it’s best to spend 10-20 minutes learning. You might find something new. This exploration time ideally shouldn’t be greater than an hour.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You could also take 1 hour or workday.&lt;/p&gt;</content><author><name></name></author><category term="dev-productivity" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev-schedule.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev-schedule.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to test interfaces, abstract classes and design patterns?</title><link href="www.ankushchoubey.com/testing-design-patterns/" rel="alternate" type="text/html" title="How to test interfaces, abstract classes and design patterns?" /><published>2022-09-25T00:00:00-05:00</published><updated>2022-09-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/testing-design-patterns</id><content type="html" xml:base="www.ankushchoubey.com/testing-design-patterns/">&lt;p&gt;&lt;img src=&quot;/images/testing-design-patterns.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;flash&quot;&gt;
     &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
@@ -544,65 +567,4 @@ No method should modify the contents of the private final method.&lt;/li&gt;
 
 &lt;p&gt;Or maybe it’s time to stop focusing on this problem for a while and solve another problem. After some time, we’ll have a fresh perspective, and if this problem still exists, we’ll have more tools in our belts to fix it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/03/Diminishing_Returns_Graph.png&quot; alt=&quot;Diminishing Returns Graph: Source Wikipedia&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/perfection.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/perfection.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Chaos Engineering</title><link href="www.ankushchoubey.com/chaos-engineering/" rel="alternate" type="text/html" title="Chaos Engineering" /><published>2022-09-11T00:00:00-05:00</published><updated>2022-09-11T15:52:08-05:00</updated><id>www.ankushchoubey.com/chaos-engineering</id><content type="html" xml:base="www.ankushchoubey.com/chaos-engineering/">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/3/39/LogoChaosMonkeysNetflix.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;what-is-chaos-engineering&quot;&gt;What is Chaos Engineering?&lt;/h1&gt;
-
-&lt;p&gt;When we do TDD, we reduce logical bugs. With Chaos Engineering, we’ll improve resilience.&lt;/p&gt;
-
-&lt;p&gt;Example: If something fails for an end user, how should it be handled with minimal impact on user experience?&lt;/p&gt;
-
-&lt;p&gt;You might have experienced this when an error occurs on Netflix. Rather than failing, it gives a proper response to the user.&lt;/p&gt;
-
-&lt;p&gt;It’s hard to anticipate failure scenarios in the real world. But there are some common ones. In chaos engineering terms: assaults.&lt;/p&gt;
-
-&lt;p&gt;Full-size services like Gremlin with 30+ assault types are interesting to look through.
-There are some Kube-specific services too.&lt;/p&gt;
-
-&lt;p&gt;Chaos Engineering for Spring Boot includes three assaults (latency, exception, kill app) that directly attack @service @controller @repository.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-would-this-help&quot;&gt;How would this help?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;It will make sure we are handling more failures #gracefully.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In no case should user experience be impacted.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Many times, when an error happens, the user doesn’t get an indication that something went wrong.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;handling-chaos&quot;&gt;Handling chaos&lt;/h1&gt;
-
-&lt;p&gt;There are usually common patterns to handle many assaults like CircuitBreaker, which many java libraries provide. Thus, it would require some thought to handle failures on UI too.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/chaos-engineering.jpeg&quot; alt=&quot;ByteByteGo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://bytebytego.com/newsletter&quot;&gt;ByteByteGo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Chaos Engineering helps us understand and improve observability.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;If there is any chaos in our system, we should be able to identify it via observability quickly. If we cannot determine, we’ll have to improve observability.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;People also play Chaos Engineering Game Day, where they try to cause chaos and validate resiliency and observability.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Chaos engineering would replicate testing in production.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Having a library that automates some aspects of Chaos Engineering can proactively improve resiliency (and reduce the cognitive overload of having everyone learn and follow chaos engineering)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://codecentric.github.io/chaos-monkey-spring-boot/&quot;&gt;Chaos Engineering for Spring Boot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gremlin.com/&quot;&gt;Gremlin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="chaos-engineering" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://upload.wikimedia.org/wikipedia/commons/3/39/LogoChaosMonkeysNetflix.png" /><media:content medium="image" url="https://upload.wikimedia.org/wikipedia/commons/3/39/LogoChaosMonkeysNetflix.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/03/Diminishing_Returns_Graph.png&quot; alt=&quot;Diminishing Returns Graph: Source Wikipedia&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/perfection.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/perfection.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
