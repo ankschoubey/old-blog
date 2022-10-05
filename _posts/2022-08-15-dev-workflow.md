@@ -68,3 +68,7 @@ graph TD
     3. At end of each day, fill in card timesheet activity.
 5. Review
     1. NEW #Collaboration: Present your code for code-review to a team make.
+
+Using the above list I created a template in SwiftEnterprise by Digite, so that the whole team can use it.
+
+![](/images/dev-workflow/se-template.png)
