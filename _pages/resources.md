@@ -16,6 +16,7 @@ I read/consume many resources and I thought this would be a good way to link to 
 - [Philippe Bourgau's XP Coaching Blog](https://philippe.bourgau.net/)
 - [Emre Bolat](https://emre.me/)
 
+
 ## Guest Posts on Other Sites
 - [Request Validation in Spring Webflux – Digite Tech Blog](https://tech.digite.com/request-validation-in-spring-webflux/)
 - [Error Handling with Custom Responses in Spring Boot – Digite Tech Blog](https://tech.digite.com/error-handling-with-custom-responses-in-spring-boot/)
@@ -62,6 +63,8 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Metrics for your Spring REST API](https://www.baeldung.com/spring-rest-api-metrics)
     - [Spring boot playground](https://github.com/odrotbohm/spring-playground): Some interesting helper libraries
     - [JMolecular](https://github.com/xmolecules/jmolecules): Makes it easy to implement Domain Driven Design
+- 2022 Oct
+    - [Spring Boot Best Practices](https://medium.com/@raviyasas/spring-boot-best-practices-for-developers-3f3bdffa0090)
      
 ## Maven Plugin
 - 2022 Sep
@@ -78,6 +81,8 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [The Top 10 Exception Types in Production Java Applications - Based on 1B Events - OverOps](https://www.overops.com/blog/the-top-10-exceptions-types-in-production-java-applications-based-on-1b-events/)
         - [Common Java Exceptions - Baeldung](https://www.baeldung.com/java-common-exceptions)
         - [Most Common Java Exceptions - Rollbar](https://rollbar.com/blog/most-common-java-exceptions/)
+- 2022 Oct
+    - [More Testable Code with the Hexagonal Architecture](https://www.youtube.com/watch?v=ujb_O6myknY&ab_channel=JitterTed)
 
 ## Database
 - 2022 Aug
@@ -112,6 +117,8 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [IntelliJ JavaDocs Plugin](https://github.com/setial/intellij-javadocs/wiki)
 - 2022 Sep
     - [CommitLint.io](https://commitlint.io/): Helps to write atomic commits
+- 2022 Oct
+    - [Try not to call your objects DTO](https://richarddingwall.name/2010/04/17/try-not-to-call-your-objects-dtos/): Contains a list of alternative names
 
 ## Observability 
 - 2022 Aug 22
@@ -134,6 +141,9 @@ I read/consume many resources and I thought this would be a good way to link to 
         - You calling Uber in a different country and getting home safely driven by a stranger is all trust based. 
     - Most important thing in team work is not running away
         - Running away when problems comes breaks trust.
+- Presentation:
+    - 2022 Oct:
+        - [Tool: Mentimeter](https://www.youtube.com/watch?v=UrFdN-HQF6I&ab_channel=Mentimeter)
     
 ## Agile
 - 2022 Aug 22
@@ -165,6 +175,12 @@ I read/consume many resources and I thought this would be a good way to link to 
 - 2022 Sep
     - [Chaos Engineering: the history, principles, and practice](https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/)
     - [PRINCIPLES OF CHAOS ENGINEERING](https://principlesofchaos.org/)
+
+# Integration Apps:
+- Oct 2022:
+    - Apache Camel: https://camel.apache.org/
+    - Groovy DSL: http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html
+    - Kotlin DSL: https://medium.com/kotlin-and-kotlin-for-android/kotlin-dsl-coding-a-dsl-6-ee355be81106
 
 # More 
 

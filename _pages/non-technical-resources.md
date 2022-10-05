@@ -12,6 +12,10 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+# Decision Making
+- Oct 2022
+    - [Untools](https://untools.co/)
+
 # Psychology
 - Sep 2022
     - [HealthyGamerGG](https://www.youtube.com/c/HealthyGamerGG): ADHD Health
