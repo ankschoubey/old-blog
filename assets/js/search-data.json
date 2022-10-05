@@ -211,10 +211,10 @@
   
     
         ,"post19": {
-            "title": "Ideal Development Workflow",
-            "content": ". Photo by AltumCode on Unsplash . This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement. . Ideally, all these steps can be columns on a Kanban Board. . . Clear Local Clean up your space. | Commit everything you | | BDD Cycle Read BDD specifications related to the card | Update specifications | NEW #Collaboration: Connect with Product or QA person to get specs verified. | | Planning Break down card into atomic commits | Estimate each commit with pomodoros | Add planned finish date to the card | NEW #Collaboration: Discuss your plan with a team mate to help identify potential risks and pitfalls. | | Coding Remove all distractions | Move card to In-progress lane | Start the pomodoro timer | Start working incrementally with TDD. Commit and push non-stop. | | Release Manually deploy if there is no CD pipeline | Pull card towards right until accepted | At end of each day, fill in card timesheet activity. | | Review NEW #Collaboration: Present your code for code-review to a team make. | |",
-            "url": "www.ankushchoubey.com/dev-workflow/",
-            "relUrl": "https:///dev-workflow/",
+            "title": "Encapsulate Blocking Call the Reactor Way",
+            "content": "The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop! . Event loops are main threads that shouldn’t be blocked. . If there is a blocking code, they should be run on a separate thread. . Here are some ways to fix these issues that I have noted down while watching Avoiding Reactor Meldown video. I have added an additional tip at the end. . Use BlockHound to find blocking calls during testing . BlockHound is a plugin provided by Project Reactor that helps find blocking calls. . If you are doing TDD, use junit version. . If you are aren’t doing TDD, use normal version but remove it in prod. . https://github.com/reactor/BlockHound . Remember that blockhound will only detect blocks on main thread. This means that if you are writing junit tests, if blocking call is not made on event loop, then it won’t be detected. . Avoid Significant Work Before Subscribe . Always look for async implementations . Completable futures can be converted to mono. Many java libraries have completable future implementations. . Encapsulate blocking calls . . . Find if a method is reactive . .",
+            "url": "www.ankushchoubey.com/encapsulate-blocking-reactive-way/",
+            "relUrl": "https:///encapsulate-blocking-reactive-way/",
             "date": " • Aug 15, 2022"
         }
         
@@ -222,10 +222,10 @@
   
     
         ,"post20": {
-            "title": "Encapsulate Blocking Call the Reactor Way",
-            "content": "The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop! . Event loops are main threads that shouldn’t be blocked. . If there is a blocking code, they should be run on a separate thread. . Here are some ways to fix these issues that I have noted down while watching Avoiding Reactor Meldown video. I have added an additional tip at the end. . Use BlockHound to find blocking calls during testing . BlockHound is a plugin provided by Project Reactor that helps find blocking calls. . If you are doing TDD, use junit version. . If you are aren’t doing TDD, use normal version but remove it in prod. . https://github.com/reactor/BlockHound . Remember that blockhound will only detect blocks on main thread. This means that if you are writing junit tests, if blocking call is not made on event loop, then it won’t be detected. . Avoid Significant Work Before Subscribe . Always look for async implementations . Completable futures can be converted to mono. Many java libraries have completable future implementations. . Encapsulate blocking calls . . . Find if a method is reactive . .",
-            "url": "www.ankushchoubey.com/encapsulate-blocking-reactive-way/",
-            "relUrl": "https:///encapsulate-blocking-reactive-way/",
+            "title": "Ideal Development Workflow",
+            "content": ". Photo by AltumCode on Unsplash . This is a value-stream mapping exercise in an effort to reduce cognitive overload and enable continous improvement. . Ideally, all these steps can be columns on a Kanban Board. . . Clear Local Clean up your space. | Commit everything you | | BDD Cycle Read BDD specifications related to the card | Update specifications | NEW #Collaboration: Connect with Product or QA person to get specs verified. | | Planning Break down card into atomic commits | Estimate each commit with pomodoros | Add planned finish date to the card | NEW #Collaboration: Discuss your plan with a team mate to help identify potential risks and pitfalls. | | Coding Remove all distractions | Move card to In-progress lane | Start the pomodoro timer | Start working incrementally with TDD. Commit and push non-stop. | | Release Manually deploy if there is no CD pipeline | Pull card towards right until accepted | At end of each day, fill in card timesheet activity. | | Review NEW #Collaboration: Present your code for code-review to a team make. | | Using the above list I created a template in SwiftEnterprise by Digite, so that the whole team can use it. . .",
+            "url": "www.ankushchoubey.com/dev-workflow/",
+            "relUrl": "https:///dev-workflow/",
             "date": " • Aug 15, 2022"
         }
         
