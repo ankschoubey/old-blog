@@ -51,6 +51,8 @@ You'll have to apply for to apply for too many jobs and ask too many referrals. 
 
 ## Have an ATS Friendly resume format
 
+Here is the template I use: [New template - Software Engineering Lead - Google Docs](https://docs.google.com/document/d/1iTtI7EG0Q74-qgmFLIApCKIJEA-248i-I8LgNbL9pIU/edit)
+
 ## Update your resume regularly.
 
 Find items to add to your resume. At work, look for things that will look good on your resume. Mainly the most challenging responsibilities/tasks look good on a resume.

@@ -16,6 +16,10 @@ I read/consume many resources and I thought this would be a good way to link to 
 - [Philippe Bourgau's XP Coaching Blog](https://philippe.bourgau.net/)
 - [Emre Bolat](https://emre.me/)
 
+## Podcast: 
+- 2022
+    - Oct
+        - [Around IT In 256 Seconds By Tomasz Nurkiewicz](https://nurkiewicz.com/)
 
 ## Guest Posts on Other Sites
 - [Request Validation in Spring Webflux – Digite Tech Blog](https://tech.digite.com/request-validation-in-spring-webflux/)

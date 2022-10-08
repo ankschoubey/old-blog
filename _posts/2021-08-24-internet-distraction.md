@@ -47,5 +47,10 @@ For Example: In YouTube you can,
 
 I found that Google services are good at providing these kind of features and changing these settings have an immediate effect. Facebook Products and Amazon hide a lot of details.
 
+# Resources
+
+- [Remove the explore page from Instagram on iOS : ios](https://www.reddit.com/r/ios/comments/t780bt/remove_the_explore_page_from_instagram_on_ios/)
+- 
+
 [^1]: Photo by <a href="https://unsplash.com/@flyd2069?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">FLY:D</a> on <a href="https://unsplash.com/s/photos/data-security?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
