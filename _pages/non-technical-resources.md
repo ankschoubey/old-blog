@@ -44,7 +44,8 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - Sep
         - [Knowledge vs Experience](https://www.youtube.com/watch?v=nvPtZyVZFhM)
         - [Knowing Versus Understanding - Jordan B Peterson - YouTube](https://www.youtube.com/watch?v=Y0tGxcUaVm0)
-
+    - Oct
+        - Channel: [Picking Nuggets - YouTube](https://www.youtube.com/c/PickingNuggets)
 # Core Values
 - Responsibility
     - 2022

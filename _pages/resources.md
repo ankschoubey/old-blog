@@ -25,6 +25,18 @@ I read/consume many resources and I thought this would be a good way to link to 
 - [Request Validation in Spring Webflux – Digite Tech Blog](https://tech.digite.com/request-validation-in-spring-webflux/)
 - [Error Handling with Custom Responses in Spring Boot – Digite Tech Blog](https://tech.digite.com/error-handling-with-custom-responses-in-spring-boot/)
 
+
+## Hard Code Engineering
+- 2022
+    - Oct
+        - [Steve Brunton - YouTube](https://www.youtube.com/c/Eigensteve/playlists)
+
+## Career
+
+- 2022
+    - Oct
+        - [Rahul Pandey - YouTube](https://www.youtube.com/c/RahulPandeyrkp): Building a credible Q&A platform for ambitious software engineers. Follow me to grow your SWE career.
+
 ## Domain Knowledge
 - Oct 2022
     - [How to build domain knowledge - YouTube](https://www.youtube.com/watch?v=Zcdy1BpozW0)
@@ -170,10 +182,15 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [The Product-Minded Software Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/?ref=hackernoon.com)
 
 ## Algorithm
-- 2022 Aug 22
-    - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
-    - [Grokking Coding Interview Free Alternatives](https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
-    - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+- 2022
+    - August
+        - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
+        - [Grokking Coding Interview Free Alternatives](https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
+        - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+    - Oct
+        - [Top 8 Data Structures for Coding Interviews - YouTube](https://www.youtube.com/watch?v=uhYq27iSk9s)
+        - [Top 6 Coding Interview Concepts (Data Structures & Algorithms) - YouTube](https://www.youtube.com/watch?v=ft0owvS5tQA)
+        - [EASY - YouTube](https://www.youtube.com/playlist?list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ)
 
 # Chaos Engineering
 - 2022 Sep
