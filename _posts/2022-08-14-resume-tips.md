@@ -86,3 +86,8 @@ Put your name, and contact details in the footer. It serves as a call to action.
 Make it easier for people to find things and find you.
 
 https://www.fullstackresume.com/
+
+# Applying for Jobs
+
+- LinkedIn: [NathanDuma/LinkedIn-Easy-Apply-Bot: Automate LinkedIn Easy Apply job applications and answer application-specific questions.](https://github.com/NathanDuma/LinkedIn-Easy-Apply-Bot) You're welcome! 
+- AngelList: [Easy Apply - Chrome Web Store](https://chrome.google.com/webstore/detail/easy-apply/pgdkaehkejiaemknlpknmjioedpjaphg)

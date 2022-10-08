@@ -150,18 +150,21 @@ I read/consume many resources and I thought this would be a good way to link to 
     - Practical Observability: Do not silence errors
 
 ## Culture and Collaboration
-- 2022 Aug 22
-    - [A Software Engineering Culture Test](https://blog.pragmaticengineer.com/the-developer-culture-test/)
-- 2022 Sep 22
-    - [Synchronous Versus Asynchronous Communication Tools](https://www.youtube.com/watch?v=dX_nZTiZRPE)
-    - [Apple CEO Tim Cook on Collaboration](https://www.youtube.com/watch?v=EZPYLZ7I6gs)
-    - [Communication Skills are Underrated for Software Developers](https://www.youtube.com/watch?v=5ON1_R-wYAo)
-    - [Think introverted; act extroverted - by Shaziya Tambawala - Designing Atlassian - Sep, 2022 - Medium](https://medium.com/designing-atlassian/think-introverted-act-extroverted-976e3164f3a0)
-    - In any friendship/relationship/coperation. the most important thing is trust. If you can trust, only then you'll move forward.
-        - This includes and is not limited to the world around you.
-        - You calling Uber in a different country and getting home safely driven by a stranger is all trust based. 
-    - Most important thing in team work is not running away
-        - Running away when problems comes breaks trust.
+- 2022
+    - Aug
+        - [A Software Engineering Culture Test](https://blog.pragmaticengineer.com/the-developer-culture-test/)
+    - Sep
+        - [Synchronous Versus Asynchronous Communication Tools](https://www.youtube.com/watch?v=dX_nZTiZRPE)
+        - [Apple CEO Tim Cook on Collaboration](https://www.youtube.com/watch?v=EZPYLZ7I6gs)
+        - [Communication Skills are Underrated for Software Developers](https://www.youtube.com/watch?v=5ON1_R-wYAo)
+        - [Think introverted; act extroverted - by Shaziya Tambawala - Designing Atlassian - Sep, 2022 - Medium](https://medium.com/designing-atlassian/think-introverted-act-extroverted-976e3164f3a0)
+        - In any friendship/relationship/coperation. the most important thing is trust. If you can trust, only then you'll move forward.
+            - This includes and is not limited to the world around you.
+            - You calling Uber in a different country and getting home safely driven by a stranger is all trust based. 
+        - Most important thing in team work is not running away
+            - Running away when problems comes breaks trust.
+    - Oct
+        - [English Communication Is The Most Important Skill For Immigrant Engineers](https://www.jointaro.com/lesson/6WYNgaTJ9TAv46Tm60zU)
 - Presentation:
     - 2022 Oct:
         - [Tool: Mentimeter](https://www.youtube.com/watch?v=UrFdN-HQF6I&ab_channel=Mentimeter)

@@ -6,7 +6,7 @@ categories: [collection-of-thoughts]
 layout: post
 use_math: true
 last_modified_at: 2022-10-08T20:42:15.226335
-last-modified-purpose: using active voice instead of passive
+last-modified-purpose: added more tips
 permalink: /write/
 image: /images/write.jpg
 ---
