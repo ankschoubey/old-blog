@@ -25,6 +25,11 @@ I read/consume many resources and I thought this would be a good way to link to 
 - [Request Validation in Spring Webflux – Digite Tech Blog](https://tech.digite.com/request-validation-in-spring-webflux/)
 - [Error Handling with Custom Responses in Spring Boot – Digite Tech Blog](https://tech.digite.com/error-handling-with-custom-responses-in-spring-boot/)
 
+## Coding Tools
+
+- [musicForProgramming();](https://musicforprogramming.net/latest/)
+- [Commitlint Online - lint commit messages online](https://commitlint.io/)
+- [Pomodoro Timer Online - Pomofocus](https://pomofocus.io/)
 
 ## Hard Code Engineering
 - 2022

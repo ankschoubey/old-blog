@@ -50,7 +50,13 @@ I found that Google services are good at providing these kind of features and ch
 # Resources
 
 - [Remove the explore page from Instagram on iOS : ios](https://www.reddit.com/r/ios/comments/t780bt/remove_the_explore_page_from_instagram_on_ios/)
-- 
+- [Block Site - Stay Focused - Chrome Web Store](https://chrome.google.com/webstore/detail/block-site-stay-focused/offfjidagceabmodhpcngpemnnlojnhn)
+
+Set it up such that the tab autocloses. Because this reduces a touch point.
+
+Once you realize you had opened a distracting website. Take a moment to notice, what were you thinking or feeling just before opening.
+
+Was it because something that requires relatively-hard thinking came along and your brain decided to switch to something known and easy?
 
 [^1]: Photo by <a href="https://unsplash.com/@flyd2069?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">FLY:D</a> on <a href="https://unsplash.com/s/photos/data-security?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
