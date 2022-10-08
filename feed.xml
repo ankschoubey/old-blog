@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-05T03:19:32-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-08T01:19:25-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,23 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Values Overtime</title><link href="www.ankushchoubey.com/core-values-overtime/" rel="alternate" type="text/html" title="Core Values Overtime" /><published>2022-10-05T00:00:00-05:00</published><updated>2022-10-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/core-values-overtime</id><content type="html" xml:base="www.ankushchoubey.com/core-values-overtime/">&lt;h1 id=&quot;2022&quot;&gt;2022&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">3 Big Development Mistakes That Had Significant Costs Later</title><link href="www.ankushchoubey.com/development-mistakes/" rel="alternate" type="text/html" title="3 Big Development Mistakes That Had Significant Costs Later" /><published>2022-10-08T00:00:00-05:00</published><updated>2022-10-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/development-mistakes</id><content type="html" xml:base="www.ankushchoubey.com/development-mistakes/">&lt;h1 id=&quot;doing-everything-by-myself-and-not-letting-the-team-learn-contribute-and-grow&quot;&gt;Doing everything by myself and not letting the team learn, contribute and grow&lt;/h1&gt;
+
+&lt;p&gt;Though it was also the case that my team wasn’t very interested in learning and growing, they weren’t interested in coding, so I had to do it all by myself. My work hours increased, and others didn’t learn anything. They could have had valuable ideas to share.&lt;/p&gt;
+
+&lt;h1 id=&quot;refactoringadding-new-features-at-the-very-end-instead-of-code-freezing&quot;&gt;Refactoring/Adding new features at the very end instead of code freezing&lt;/h1&gt;
+
+&lt;p&gt;I opted for fixing Sonar issues and adding new nice-to-have features because I didn’t want to spend time communicating with other teams for the infrastructure setup of the application.&lt;/p&gt;
+
+&lt;p&gt;The last-minute refactored code wasn’t well tested as we manually tested SQL Stored Procedures.&lt;/p&gt;
+
+&lt;h1 id=&quot;over-engineering&quot;&gt;Over-engineering&lt;/h1&gt;
+
+&lt;p&gt;Been a lot guilty of this recently. #curseOfDesignPatterns.&lt;/p&gt;
+
+&lt;p&gt;The most important thing in software development is finishing functional requirements.&lt;/p&gt;
+
+&lt;p&gt;Non-Functional requirements and requirements like how modular the code is should be discussed with the business, as all this takes away from productive time.&lt;/p&gt;</content><author><name></name></author><category term="experience" /><summary type="html">Doing everything by myself and not letting the team learn, contribute and grow</summary></entry><entry><title type="html">Core Values Overtime</title><link href="www.ankushchoubey.com/core-values-overtime/" rel="alternate" type="text/html" title="Core Values Overtime" /><published>2022-10-05T00:00:00-05:00</published><updated>2022-10-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/core-values-overtime</id><content type="html" xml:base="www.ankushchoubey.com/core-values-overtime/">&lt;h1 id=&quot;2022&quot;&gt;2022&lt;/h1&gt;
 &lt;h2 id=&quot;sep&quot;&gt;Sep&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Peace&lt;/strong&gt;&lt;/p&gt;
@@ -394,110 +410,4 @@ You’ll have to save the token somewhere if it’s an OAuth flow.&lt;/p&gt;
 
 &lt;p&gt;:)&lt;/p&gt;
 
-&lt;p&gt;Often the “act fake” advice has a reason; you have to find that reason and become that person.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth-seeking" /><summary type="html">You have to always be truthful.</summary></entry><entry><title type="html">Increase collaboration by knowing whom to contact</title><link href="www.ankushchoubey.com/team-knowing-whom-to-contact/" rel="alternate" type="text/html" title="Increase collaboration by knowing whom to contact" /><published>2022-09-21T00:00:00-05:00</published><updated>2022-09-21T15:52:08-05:00</updated><id>www.ankushchoubey.com/team-knowing-whom-to-contact</id><content type="html" xml:base="www.ankushchoubey.com/team-knowing-whom-to-contact/">&lt;p&gt;&lt;img src=&quot;/images/team-knowing-whom-to-contact.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jasongoodman_youxventures?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Jason Goodman&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/team?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;silos&quot;&gt;Silos&lt;/h1&gt;
-
-&lt;p&gt;We developers love working in silos. We love our technical challenges.&lt;/p&gt;
-
-&lt;p&gt;Our effort is proportional to how complex the challenge is.&lt;/p&gt;
-
-&lt;p&gt;But for business and true Agility, it’s more important to always focus on end users. And to focus on what’s truly important from a business POV.&lt;/p&gt;
-
-&lt;p&gt;Similarly, there are moments when one needs to collaborate with other teams, and having different teams in the loop is truly useful.&lt;/p&gt;
-
-&lt;p&gt;The higher the quality of collaboration, the less rework a developer has to do.&lt;/p&gt;
-
-&lt;h1 id=&quot;knowing-who-to-contact&quot;&gt;Knowing who to contact&lt;/h1&gt;
-
-&lt;p&gt;On this path, the important thing is to remember whom to connect to and when. Knowing organizational structure is helpful. If there is no organizational structure available. Create one.&lt;/p&gt;
-
-&lt;p&gt;Go through and list out all the stakeholders and different teams. Who is the decision maker there?&lt;/p&gt;
-
-&lt;p&gt;Ideally, everyone should be pouring in a semi-bureaucratic way.&lt;/p&gt;
-
-&lt;p&gt;The development team must connect to other groups to get work done.&lt;/p&gt;
-
-&lt;p&gt;These teams might be specific to your organization. So wherever you work, figure out what all the departments and teams are. Who are the key stakeholders to contact, and when?&lt;/p&gt;
-
-&lt;p&gt;And make sure you loop them in when taking a decision.&lt;/p&gt;
-
-&lt;p&gt;And, of course, you can use Gherkin BDD files to ensure everyone is in sync.&lt;/p&gt;
-
-&lt;p&gt;So here are a few teams and stakeholders that are common and imp:&lt;/p&gt;
-
-&lt;h1 id=&quot;teams&quot;&gt;Teams&lt;/h1&gt;
-
-&lt;p&gt;Development Team:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Responsible for developing the application.&lt;/li&gt;
-  &lt;li&gt;Ensuring the highest product quality.&lt;/li&gt;
-  &lt;li&gt;Responsible for building the thing right.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;QA Team:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ensures application lives up to standard.&lt;/li&gt;
-  &lt;li&gt;Signs of if the feature is ready to be released.&lt;/li&gt;
-  &lt;li&gt;Responsible for ensuring the thing is built right.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Product Team:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Decides what to put in the product.&lt;/li&gt;
-  &lt;li&gt;Ensures the right thing is being built.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Doc Team:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ensures all public-facing documentation is professional.&lt;/li&gt;
-  &lt;li&gt;Their responsibilities include everything from images to messages shown to the user to public-facing API responses.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Marketing Team:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Markets the newly released features.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;DevOps Team:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Is a platform team that ensures Devs can work fine.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Security Team:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ensures security provisions are in place.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;*Old Way: Database Team&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ensures DB is up and running fine.&lt;/li&gt;
-  &lt;li&gt;This role is replaced by DevOps automation in most organizations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Data science team:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Builts applications that help show insight with the help of data.&lt;/li&gt;
-  &lt;li&gt;Their work isn’t always real-time insights.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;key-stakeholders&quot;&gt;Key Stakeholders:&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Developers&lt;/li&gt;
-  &lt;li&gt;Testers&lt;/li&gt;
-  &lt;li&gt;Scrum Master&lt;/li&gt;
-  &lt;li&gt;Product Designer&lt;/li&gt;
-  &lt;li&gt;Product Owner&lt;/li&gt;
-  &lt;li&gt;Engineering Manager&lt;/li&gt;
-  &lt;li&gt;Product Manager&lt;/li&gt;
-  &lt;li&gt;Head of Engineering&lt;/li&gt;
-  &lt;li&gt;Head of Product&lt;/li&gt;
-  &lt;li&gt;Head of Finance&lt;/li&gt;
-  &lt;li&gt;CTO&lt;/li&gt;
-  &lt;li&gt;CIO&lt;/li&gt;
-  &lt;li&gt;COO&lt;/li&gt;
-  &lt;li&gt;CEO&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="agile" /><category term="collaboration" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/team-knowing-whom-to-contact.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/team-knowing-whom-to-contact.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Often the “act fake” advice has a reason; you have to find that reason and become that person.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth-seeking" /><summary type="html">You have to always be truthful.</summary></entry></feed>
