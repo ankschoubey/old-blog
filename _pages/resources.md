@@ -170,19 +170,22 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [Tool: Mentimeter](https://www.youtube.com/watch?v=UrFdN-HQF6I&ab_channel=Mentimeter)
     
 ## Agile
-- 2022 Aug 22
-    - [Agile Manifesto](https://agilemanifesto.org/)
-    - [Agile Developer](https://hygger.io/guides/agile/software-development/agile-developer/)
-    - [Getting Started with Agility: Essential Reading](https://holub.com/reading/)
-- 2022 Sep
-    - [YouTube Channel: Development That Pays](https://www.youtube.com/c/Developmentthatpays/videos)
-    - [Jira templates for user stories, tasks and bugs](https://blog.codecentric.de/en/2022/01/jira-template-user-story-tasks-bugs/)
-    - [The Difference Between The Clever Developer & The Wise Developer](https://itnext.io/the-difference-between-the-clever-developer-the-wise-developer-a0edd9d8a692)
-    - [4 types of experiments in software development](https://thedrlambda.medium.com/4-types-of-experiments-in-software-development-2558d01a1bea)
-    - [Spring Demo](https://www.youtube.com/watch?v=dEMmvV1pagA&ab_channel=ActiveLAMP) 
-    - [Initial Project development process](https://www.activelamp.com/video/discovery/our-discovery-process)
-    - [AgilityHealth 3 min Explainer Video - YouTube](https://www.youtube.com/watch?v=6z0qdMO29FM)
-    - [Agile Simulation Videos - YouTube](https://www.youtube.com/playlist?list=PLBF7FCBE7E2ECF1FB)
+- 2022 
+    - Aug
+        - [Agile Manifesto](https://agilemanifesto.org/)
+        - [Agile Developer](https://hygger.io/guides/agile/software-development/agile-developer/)
+        - [Getting Started with Agility: Essential Reading](https://holub.com/reading/)
+    - Sep
+        - [YouTube Channel: Development That Pays](https://www.youtube.com/c/Developmentthatpays/videos)
+        - [Jira templates for user stories, tasks and bugs](https://blog.codecentric.de/en/2022/01/jira-template-user-story-tasks-bugs/)
+        - [The Difference Between The Clever Developer & The Wise Developer](https://itnext.io/the-difference-between-the-clever-developer-the-wise-developer-a0edd9d8a692)
+        - [4 types of experiments in software development](https://thedrlambda.medium.com/4-types-of-experiments-in-software-development-2558d01a1bea)
+        - [Spring Demo](https://www.youtube.com/watch?v=dEMmvV1pagA&ab_channel=ActiveLAMP) 
+        - [Initial Project development process](https://www.activelamp.com/video/discovery/our-discovery-process)
+        - [AgilityHealth 3 min Explainer Video - YouTube](https://www.youtube.com/watch?v=6z0qdMO29FM)
+        - [Agile Simulation Videos - YouTube](https://www.youtube.com/playlist?list=PLBF7FCBE7E2ECF1FB)
+    - Oct
+        - [How to Outperform a 10x Developer - by Denilson N.](https://betterprogramming.pub/how-to-outperform-a-10x-developer-fa1132807934)
 
 
 ## Product
