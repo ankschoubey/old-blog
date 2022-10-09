@@ -62,6 +62,10 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - 2022
         - Oct
             - [If You Have Goals, You Have Responsibility - YouTube](https://www.youtube.com/watch?v=9pyeDvxeXkg)
+- Truth
+    - 2022
+        - Oct
+            - [You will Never Want to Lie Again After Watching This [Sam Harris, Naval Ravikant] - YouTube](https://www.youtube.com/watch?v=ABZtZpNtY60)
 
 ## Meditation
 - 2022
