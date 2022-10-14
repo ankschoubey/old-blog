@@ -89,4 +89,9 @@ Thinking means you’ll question things from the first principles. To see if the
 
 Then you scrutinize it. By thinking you find the solutions yourself and rely less on other sources.
 
+## Implementation Thoughts
+
+- 2022 Oct 14: You don’t consume something that’s not a problem.
+- 2022 Oct 14: You find and fix problems and or goals. Mind has limited space.
+
 [^1]: Tim Ferriss
