@@ -18,6 +18,7 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 ## Podcast: 
 - 2022
+
     - Oct
         - [Around IT In 256 Seconds By Tomasz Nurkiewicz](https://nurkiewicz.com/)
 
@@ -32,6 +33,15 @@ I read/consume many resources and I thought this would be a good way to link to 
         - Daily: [Commitlint Online - lint commit messages online](https://commitlint.io/)
         - Daily: [Pomodoro Timer Online - Pomofocus](https://pomofocus.io/)
         - Automation: [GitCup](https://meldim.github.io/#features)
+
+## 10x developer
+- 2022
+    - Aug
+        - [The Product-Minded Software Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/?ref=hackernoon.com)
+    - Oct
+        - [How to Outperform a 10x Developer - by Denilson N.](https://betterprogramming.pub/how-to-outperform-a-10x-developer-fa1132807934)
+        - [What’s a high-differential developer - by Hajime Yamasaki Vukelic - Medium](https://medium.com/@hayavuk/whats-a-high-differential-developer-2fc42e2ee6a3)
+
 
 ## Hard Code Engineering
 - 2022
@@ -185,13 +195,6 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [Initial Project development process](https://www.activelamp.com/video/discovery/our-discovery-process)
         - [AgilityHealth 3 min Explainer Video - YouTube](https://www.youtube.com/watch?v=6z0qdMO29FM)
         - [Agile Simulation Videos - YouTube](https://www.youtube.com/playlist?list=PLBF7FCBE7E2ECF1FB)
-    - Oct
-        - [How to Outperform a 10x Developer - by Denilson N.](https://betterprogramming.pub/how-to-outperform-a-10x-developer-fa1132807934)
-
-
-## Product
-- 2022 Aug 22
-    - [The Product-Minded Software Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/?ref=hackernoon.com)
 
 ## Algorithm
 - 2022
