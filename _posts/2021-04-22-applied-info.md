@@ -3,8 +3,8 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [decision-making,collection-of-thoughts]
-title: How to reseach properly and apply info?
+categories: [decision-making,collection-of-thoughts, non-professional]
+title: Research Fast, Understand the Gist, Apply, Iterate, and Move Forward
 last_modified_at: 2022-10-14T20:42:15.598510
 permalink: /applied-info/
 image: /images/applied-info.jpg
