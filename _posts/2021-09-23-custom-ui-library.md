@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-description: Separate out technical code from business logic for extreme reusability for code.
+description: Separate out technical code from business/domain logic for extreme reusability for code.
 last-modified-purpose: This is just Domain Driven Design and applies to both frontend and backend.
 categories: [web-development, ddd]
 last_modified_at: 2022-10-14T20:52:08.052481
 permalink: /custom-ui-library/
-title: Always make a custom library for every new application
+title: Separate Technical Code From Domain Code
 ---
 
 ## Need for Custom UI Library

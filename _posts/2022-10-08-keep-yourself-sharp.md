@@ -6,7 +6,7 @@ categories: [non-professional]
 last_modified_at: 2022-10-08T20:52:08.052481
 last-modified-purpose:
 permalink: /keep-yourself-sharp/
-title: Keep Yourself Sharp All the Time
+title: Keep Yourself Sharp And Professsional All the Time
 image: /images/keep-yourself-sharp.jpg
 ---
 ![](/images/keep-yourself-sharp.jpg)

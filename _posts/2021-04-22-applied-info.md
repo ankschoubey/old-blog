@@ -4,8 +4,8 @@ layout: post
 comments: true
 description: 
 categories: [decision-making,collection-of-thoughts]
-title: Finding Applicable Information
-last_modified_at: 2021-08-17T20:42:15.598510
+title: How to reseach properly and apply info?
+last_modified_at: 2022-10-14T20:42:15.598510
 permalink: /applied-info/
 image: /images/applied-info.jpg
 ---
