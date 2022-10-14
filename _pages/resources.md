@@ -25,11 +25,13 @@ I read/consume many resources and I thought this would be a good way to link to 
 - [Request Validation in Spring Webflux – Digite Tech Blog](https://tech.digite.com/request-validation-in-spring-webflux/)
 - [Error Handling with Custom Responses in Spring Boot – Digite Tech Blog](https://tech.digite.com/error-handling-with-custom-responses-in-spring-boot/)
 
-## Coding Tools
-
-- [musicForProgramming();](https://musicforprogramming.net/latest/)
-- [Commitlint Online - lint commit messages online](https://commitlint.io/)
-- [Pomodoro Timer Online - Pomofocus](https://pomofocus.io/)
+## Coding Tools and Workflows:
+- 2022
+    - Oct 
+        - Daily: [musicForProgramming();](https://musicforprogramming.net/latest/)
+        - Daily: [Commitlint Online - lint commit messages online](https://commitlint.io/)
+        - Daily: [Pomodoro Timer Online - Pomofocus](https://pomofocus.io/)
+        - Automation: [GitCup](https://meldim.github.io/#features)
 
 ## Hard Code Engineering
 - 2022
@@ -37,7 +39,6 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [Steve Brunton - YouTube](https://www.youtube.com/c/Eigensteve/playlists)
 
 ## Career
-
 - 2022
     - Oct
         - [Rahul Pandey - YouTube](https://www.youtube.com/c/RahulPandeyrkp): Building a credible Q&A platform for ambitious software engineers. Follow me to grow your SWE career.

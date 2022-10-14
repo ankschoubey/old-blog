@@ -1,11 +1,12 @@
 ---
 layout: post
 comments: true
-description: Component libraries help you separate out the view from business logic making views extremely reusable.
-categories: [web-development]
-last_modified_at: 2022-07-30T20:52:08.052481
+description: Separate out technical code from business logic for extreme reusability for code.
+last-modified-purpose: This is just Domain Driven Design and applies to both frontend and backend.
+categories: [web-development, ddd]
+last_modified_at: 2022-10-14T20:52:08.052481
 permalink: /custom-ui-library/
-title: Always make a custom component library for every new application
+title: Always make a custom library for every new application
 ---
 
 ## Need for Custom UI Library
@@ -50,3 +51,8 @@ These are some UI elements that I believe are perfect for including in a custom 
 ## In general the rule is
 
 > if you are using a UI Element twice, wrap it in a custom component.
+
+## Implementation Lesson
+
+- 2022 Oct 14: Separate Domain Code From Technical Code
+  - This is classic Domain Driven Design. This applies as much to frontend as to backend.
