@@ -12,6 +12,20 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+## Intelligence
+- General
+    - 2022
+        - Oct
+            - [Joe Rogan on How to Be a Smarter Person - YouTube](https://www.youtube.com/watch?v=JUKUg63EExI)
+- Security
+    - 2022
+        - Oct
+        - [Navy SEAL Teaches Situational Awareness - Tactical Rifleman - YouTube](https://www.youtube.com/watch?v=y49YaYtvI14)
+            - Be attentive of your surroundings
+            - Cross walk
+            - Reflective Surface
+        - [Take my Security Test - YouTube](https://www.youtube.com/watch?v=ajKnXDt3qbE)
+
 ## Decision Making
 - General
     - 2022
