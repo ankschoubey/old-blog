@@ -11,15 +11,16 @@
 <meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="Understanding &amp; Using HTTP Status Codes">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Browsers can perform different actions based on HTTP Status codes. For example:">
-<meta property="og:description" content="Browsers can perform different actions based on HTTP Status codes. For example:">
+<meta name="description" content="Full Stack Developer - Cloud/Microservices">
+<meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
 <link rel="canonical" href="www.ankushchoubey.com/http-status-codes/">
 <meta property="og:url" content="www.ankushchoubey.com/http-status-codes/">
 <meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://httpstatusdogs.com/img/100.jpg">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-10-15T00:00:00-05:00">
 <script type="application/ld+json">
-{"headline":"Understanding &amp; Using HTTP Status Codes","url":"www.ankushchoubey.com/http-status-codes/","dateModified":"2022-10-15T15:52:08-05:00","datePublished":"2022-10-15T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/http-status-codes/"},"description":"Browsers can perform different actions based on HTTP Status codes. For example:","@context":"https://schema.org"}</script>
+{"headline":"Understanding &amp; Using HTTP Status Codes","url":"www.ankushchoubey.com/http-status-codes/","dateModified":"2022-10-15T15:52:08-05:00","datePublished":"2022-10-15T00:00:00-05:00","@type":"BlogPosting","image":"https://httpstatusdogs.com/img/100.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/http-status-codes/"},"description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -203,9 +204,19 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Browsers can perform different actions based on HTTP Status codes. For example:</p>
+    <p><img src="https://httpstatusdogs.com/img/100.jpg" alt=""></p>
+
+<p>Image Source: <a href="https://httpstatusdogs.com/">HTTP Status Dogs</a></p>
+
+<p>Browsers can perform different actions based on HTTP Status codes. For example:</p>
 
 <p>If browser recieves a 302 TEMPORARY REDIRECT, then it’ll redirect to location specified by the server.</p>
+
+<p>Not all status codes are directly browser compatible. You can find the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#browser_compatibility">list of compatible ones here</a>.</p>
+
+<p>HTTP Status Codes are also useful when you are building a client yourself.</p>
+
+<p>For example: For retry mechanism, you might retry a few times if there is an 5xx  Server Error but might not retry if it’s a 4xx client error</p>
 
 <h1 id="types">Types</h1>
 
@@ -226,7 +237,7 @@ window.onload = wrap_img;
 
 <h1 id="specific-codes">Specific Codes</h1>
 
-<p>Now, when coding you are likely to use these.</p>
+<p>Now, when coding you are likely to use these. But if you find another one, google it and you’ll find the reason behind it.</p>
 
 <ul>
   <li>
@@ -272,6 +283,7 @@ window.onload = wrap_img;
 
 <ul>
   <li><a href="https://umbraco.com/knowledge-base/http-status-codes/">HTTP Status Codes: All 63 explained - including FAQ &amp; Video</a></li>
+  <li><a href="https://httpstatusdogs.com/">HTTP Status Dogs</a></li>
 </ul>
 
   </div>
