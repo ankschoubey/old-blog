@@ -116,3 +116,13 @@ In these resources, try to only consume the parts you need. Let go or parts you 
         - [Best Places To Visit In India That Feels International](https://www.noblehousetours.com/best-places-to-visit-in-india-that-feels-international/)
         - [Best Indian Destinations to Visit in 2022 Month by Month Inspiration](https://www.noblehousetours.com/best-indian-destinations-to-visit-in-2021-month-by-month-inspiration/)
         - [Best Time to Visit India - Climate Guide - Audley Travel](https://www.audleytravel.com/india/best-time-to-visit#nov)
+
+# Job
+- 2022
+    - Oct
+        - [The Best Answer to "What's Your Expected Salary?" - YouTube](https://www.youtube.com/watch?v=Y-mNcEctZQY)
+            - Under no circumstances do you know what it's like to work there. And you don't know.
+            - What's the budget? What does the position pay at Digite?
+            - If you give me a range, it's lower. :)
+            - Compensation is important to me. I want to look at the value of working at your company. What I work on? Who I get to work? Training Opportunities? Other benefits and all the other opportunities. And based on that I'll be able to give you a much better idea on what I'd be expecting. Right now, it would be uneducated on my part. And/or I'm looking out for the best deal.
+            - You are gonna make a more educated guess.
