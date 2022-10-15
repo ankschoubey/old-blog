@@ -7,7 +7,7 @@ categories: [web-development, ddd]
 last_modified_at: 2022-10-14T20:52:08.052481
 permalink: /separate-technical-code/
 title: Separate Technical Code From Domain Code in both Frontend and Backend
-images: https://docs.google.com/drawings/d/e/2PACX-1vRmJrv9fnB7DanMfjGED-WD8BRd43xERmub5YWCYWTOIejwBuomQzuNYDZK-9Pc6GcyDhu7BfDiv4Md/pub?w=1369&h=1006
+image: https://docs.google.com/drawings/d/e/2PACX-1vRmJrv9fnB7DanMfjGED-WD8BRd43xERmub5YWCYWTOIejwBuomQzuNYDZK-9Pc6GcyDhu7BfDiv4Md/pub?w=1369&h=1006
 ---
 ![](https://docs.google.com/drawings/d/e/2PACX-1vRmJrv9fnB7DanMfjGED-WD8BRd43xERmub5YWCYWTOIejwBuomQzuNYDZK-9Pc6GcyDhu7BfDiv4Md/pub?w=1369&h=1006)
 
