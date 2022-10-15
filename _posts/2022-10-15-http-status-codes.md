@@ -9,6 +9,12 @@ permalink: /http-status-codes/
 title: Understanding & Using HTTP Status Codes
 ---
 
+Browsers can perform different actions based on HTTP Status codes. For example:
+
+If browser recieves a 302 TEMPORARY REDIRECT, then it'll redirect to location specified by the server.
+
+# Types
+
 There are total 63 status codes and they are divided into 5 types:
 
 - **1xx**: Info
@@ -45,3 +51,7 @@ for example:
 
 - /users - 204
 - /users/{id} - 404
+
+# Resources
+
+- [HTTP Status Codes: All 63 explained - including FAQ & Video](https://umbraco.com/knowledge-base/http-status-codes/)
