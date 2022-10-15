@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-15T00:37:13-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-15T00:39:19-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -70,11 +70,11 @@
 &lt;p&gt;There are total 63 status codes and they are divided into 5 types:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;1xx&lt;/strong&gt;: Info&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;2xx&lt;/strong&gt;: Sucessfull&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;3xx&lt;/strong&gt;: Some kind of redirect&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;4xx&lt;/strong&gt;: Client error: The sender has made some mistake and has to fix it.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;5xx&lt;/strong&gt;: Server error: The server has made some mistake and has to fix it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1xx&lt;/strong&gt; → Info&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2xx&lt;/strong&gt; → Sucessfull&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3xx&lt;/strong&gt; → Some kind of redirect&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;4xx&lt;/strong&gt; → Client error: The sender has made some mistake and has to fix it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;5xx&lt;/strong&gt; → Server error: The server has made some mistake and has to fix it.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;specific-codes&quot;&gt;Specific Codes&lt;/h1&gt;
@@ -82,18 +82,18 @@
 &lt;p&gt;Now, when coding you are likely to use these. But if you find another one, google it and you’ll find the reason behind it.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;200&lt;/strong&gt;: OK&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;201&lt;/strong&gt;: CREATED the resource is created and can be accessed at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;location&lt;/code&gt; header.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;200&lt;/strong&gt; → OK&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;201&lt;/strong&gt; → CREATED the resource is created and can be accessed at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;location&lt;/code&gt; header.&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;204&lt;/strong&gt;: NO CONTENT but there is No Content&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;204&lt;/strong&gt; → NO CONTENT but there is No Content&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;302&lt;/strong&gt;: REDIRECT to this URL&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;302&lt;/strong&gt; → REDIRECT to this URL&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;404&lt;/strong&gt;: NOT FOUND: The resource was not found&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;404&lt;/strong&gt; → NOT FOUND: The resource was not found&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;500&lt;/strong&gt;: INTERNAL SERVER ERROR
+  &lt;li&gt;&lt;strong&gt;500&lt;/strong&gt; → INTERNAL SERVER ERROR
     &lt;ul&gt;
       &lt;li&gt;Here restrict what kind of response is shown so that internal details are not leaked.&lt;/li&gt;
     &lt;/ul&gt;
