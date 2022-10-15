@@ -7,11 +7,21 @@ last_modified_at: 2022-10-15T20:52:08.052481
 last-modified-purpose:
 permalink: /http-status-codes/
 title: Understanding & Using HTTP Status Codes
+image: https://httpstatusdogs.com/img/100.jpg
 ---
+![](https://httpstatusdogs.com/img/100.jpg)
+
+Image Source: [HTTP Status Dogs](https://httpstatusdogs.com/)
 
 Browsers can perform different actions based on HTTP Status codes. For example:
 
 If browser recieves a 302 TEMPORARY REDIRECT, then it'll redirect to location specified by the server.
+
+Not all status codes are directly browser compatible. You can find the [list of compatible ones here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#browser_compatibility).
+
+HTTP Status Codes are also useful when you are building a client yourself. 
+
+For example: For retry mechanism, you might retry a few times if there is an 5xx  Server Error but might not retry if it's a 4xx client error
 
 # Types
 
@@ -25,7 +35,7 @@ There are total 63 status codes and they are divided into 5 types:
 
 # Specific Codes
 
-Now, when coding you are likely to use these.
+Now, when coding you are likely to use these. But if you find another one, google it and you'll find the reason behind it.
 
 - **200**: OK
 - **201**: CREATED the resource is created and can be accessed at `location` header.
@@ -55,3 +65,4 @@ for example:
 # Resources
 
 - [HTTP Status Codes: All 63 explained - including FAQ & Video](https://umbraco.com/knowledge-base/http-status-codes/)
+- [HTTP Status Dogs](https://httpstatusdogs.com/)
