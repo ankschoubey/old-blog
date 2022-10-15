@@ -92,3 +92,9 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 - 2022
     - Oct
         - Book: [Gabor Mate: When the Body Says No: The Cost of Hidden Stress](https://drgabormate.com/book/when-the-body-says-no/)
+
+## Travel
+- 2022
+    - Oct
+        - Kerala: Gods Own Country
+        - You can also through money on Tours and Packages :).
