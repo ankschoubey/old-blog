@@ -121,8 +121,11 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 - 2022
     - Oct
         - [The Best Answer to "What's Your Expected Salary?" - YouTube](https://www.youtube.com/watch?v=Y-mNcEctZQY)
+
+        <div style="display:none">
             - Under no circumstances do you know what it's like to work there. And you don't know.
             - What's the budget? What does the position pay at Digite?
             - If you give me a range, it's lower. :)
             - Compensation is important to me. I want to look at the value of working at your company. What I work on? Who I get to work? Training Opportunities? Other benefits and all the other opportunities. And based on that I'll be able to give you a much better idea on what I'd be expecting. Right now, it would be uneducated on my part. And/or I'm looking out for the best deal.
             - You are gonna make a more educated guess.
+        </div>
