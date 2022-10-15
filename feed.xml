@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-15T02:14:16-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-15T02:18:35-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -123,7 +123,40 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://umbraco.com/knowledge-base/http-status-codes/&quot;&gt;HTTP Status Codes: All 63 explained - including FAQ &amp;amp; Video&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://httpstatusdogs.com/&quot;&gt;HTTP Status Dogs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><category term="notes" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://httpstatusdogs.com/img/100.jpg" /><media:content medium="image" url="https://httpstatusdogs.com/img/100.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep Yourself Sharp And Professsional All the Time</title><link href="www.ankushchoubey.com/keep-yourself-sharp/" rel="alternate" type="text/html" title="Keep Yourself Sharp And Professsional All the Time" /><published>2022-10-08T00:00:00-05:00</published><updated>2022-10-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/keep-yourself-sharp</id><content type="html" xml:base="www.ankushchoubey.com/keep-yourself-sharp/">&lt;p&gt;&lt;img src=&quot;/images/keep-yourself-sharp.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="web-development" /><category term="notes" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://httpstatusdogs.com/img/100.jpg" /><media:content medium="image" url="https://httpstatusdogs.com/img/100.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">First 2 Weeks of A New Project</title><link href="www.ankushchoubey.com/first-two-weeks/" rel="alternate" type="text/html" title="First 2 Weeks of A New Project" /><published>2022-10-15T00:00:00-05:00</published><updated>2022-10-15T15:52:08-05:00</updated><id>www.ankushchoubey.com/first-two-weeks</id><content type="html" xml:base="www.ankushchoubey.com/first-two-weeks/">&lt;ul&gt;
+  &lt;li&gt;Infrastructure Setup
+    &lt;ul&gt;
+      &lt;li&gt;CI/CD pipelines working&lt;/li&gt;
+      &lt;li&gt;DevSecOps SAST scan Working&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Requirement Gathering
+    &lt;ul&gt;
+      &lt;li&gt;Functional requirements gathered in form on BDD sepecs&lt;/li&gt;
+      &lt;li&gt;Non functional requirement gathering
+        &lt;ul&gt;
+          &lt;li&gt;This can be automated in form of SLIs and SLOs&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Risk Analusis&lt;/li&gt;
+  &lt;li&gt;User stories created and groomes
+    &lt;ul&gt;
+      &lt;li&gt;Spikes and POCs analysed&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Team analusis and Responisbilities fixed&lt;/li&gt;
+  &lt;li&gt;Acceptance Criteraliza Analysis
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/dev-workflow&quot;&gt;Dev Workflow Checklist&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Basic Rough Design Created&lt;/li&gt;
+  &lt;li&gt;How will we scale discussed?&lt;/li&gt;
+  &lt;li&gt;Release plans made.&lt;/li&gt;
+  &lt;li&gt;Things to learn discussed.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Infrastructure Setup CI/CD pipelines working DevSecOps SAST scan Working Requirement Gathering Functional requirements gathered in form on BDD sepecs Non functional requirement gathering This can be automated in form of SLIs and SLOs Risk Analusis User stories created and groomes Spikes and POCs analysed Team analusis and Responisbilities fixed Acceptance Criteraliza Analysis Dev Workflow Checklist Basic Rough Design Created How will we scale discussed? Release plans made. Things to learn discussed.</summary></entry><entry><title type="html">Keep Yourself Sharp And Professsional All the Time</title><link href="www.ankushchoubey.com/keep-yourself-sharp/" rel="alternate" type="text/html" title="Keep Yourself Sharp And Professsional All the Time" /><published>2022-10-08T00:00:00-05:00</published><updated>2022-10-08T15:52:08-05:00</updated><id>www.ankushchoubey.com/keep-yourself-sharp</id><content type="html" xml:base="www.ankushchoubey.com/keep-yourself-sharp/">&lt;p&gt;&lt;img src=&quot;/images/keep-yourself-sharp.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@huntersrace?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Hunters Race&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/suit?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -439,53 +472,4 @@ Type B: Chaos&lt;/p&gt;
 
 &lt;p&gt;What do you think about this approach? Is there a better approach to testing abstract classes and design patterns? Do let me know what you think.&lt;/p&gt;
 
-&lt;p&gt;Thank you for reading so far.&lt;/p&gt;</content><author><name></name></author><category term="design-patterns" /><category term="testing" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/testing-design-patterns.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/testing-design-patterns.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pointers while integrating an external service</title><link href="www.ankushchoubey.com/integrate-external-services/" rel="alternate" type="text/html" title="Pointers while integrating an external service" /><published>2022-09-24T00:00:00-05:00</published><updated>2022-09-24T15:52:08-05:00</updated><id>www.ankushchoubey.com/integrate-external-services</id><content type="html" xml:base="www.ankushchoubey.com/integrate-external-services/">&lt;p&gt;&lt;img src=&quot;/images/integrate-external-services.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@alexbemore?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Alexander Shatov&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/apps?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;have-you-worked-with-that-external-service-before&quot;&gt;Have you worked with that external service before?&lt;/h1&gt;
-
-&lt;p&gt;If not, then expect yourself to make many mistakes. To reduce mistakes, make sure you do good research and at the same time will adapt to a plan.&lt;/p&gt;
-
-&lt;p&gt;Discuss with other people who have already done it before. They may know something you don’t.&lt;/p&gt;
-
-&lt;h1 id=&quot;are-you-integrating-one-service-or-are-you-integrating-multiple-similar-services&quot;&gt;Are you integrating one service or are you integrating multiple similar services?&lt;/h1&gt;
-
-&lt;p&gt;If you are integrating multiple services, your code would have to be modular enough.&lt;/p&gt;
-
-&lt;p&gt;In any case, try to make your code modular enough so that if suddenly a similar app has to be integrated, there are minimal changes to your code.&lt;/p&gt;
-
-&lt;p&gt;Take a look at factory and strategy design patterns.&lt;/p&gt;
-
-&lt;h1 id=&quot;does-it-provide-an-sdk-in-your-language&quot;&gt;Does it provide an SDK in your language?&lt;/h1&gt;
-
-&lt;p&gt;If yes, half your life’s problems are now solved.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-do-you-connect-to-the-external-service&quot;&gt;How do you connect to the external service?&lt;/h1&gt;
-
-&lt;p&gt;There likely is some kind of clientId, clientSecret, and OAuth flow at play.
-You’ll have to save the token somewhere if it’s an OAuth flow.&lt;/p&gt;
-
-&lt;p&gt;OAuth flow sounds fancy but it’s really easy. You might also find the SDK or an open source libary makes it easy to implement.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/integrate-external-services/oauth.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Image Source: &lt;a href=&quot;https://api.slack.com/legacy/oauth&quot;&gt;Slack OAuth Flow&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;in-case-there-isnt-a-library-how-do-you-verify-if-something-is-really-from-that-system&quot;&gt;In case there isn’t a library? How do you verify if something is really from that system?&lt;/h1&gt;
-
-&lt;p&gt;You need some kind of token validation.&lt;/p&gt;
-
-&lt;p&gt;If that request is sent again, how would you verify that you received it only once?&lt;/p&gt;
-
-&lt;h1 id=&quot;are-there-rate-limits-in-place-on-the-external-system&quot;&gt;Are there rate limits in place on the external system?&lt;/h1&gt;
-
-&lt;p&gt;If yes, how would you handle it?&lt;/p&gt;
-
-&lt;h1 id=&quot;are-there-special-conditions-in-place&quot;&gt;Are there special conditions in place?&lt;/h1&gt;
-
-&lt;p&gt;For example, if it’s a request/response scenario for a messaging app, it may request a response within a quick 3-5 seconds.&lt;/p&gt;
-
-&lt;h1 id=&quot;would-you-have-to-release-the-app-on-that-particular-platform&quot;&gt;Would you have to release the app on that particular platform?&lt;/h1&gt;
-
-&lt;p&gt;If yes, you’ll have to work with the Product and Doc team to make sure everything is polished.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/integrate-external-services.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/integrate-external-services.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Thank you for reading so far.&lt;/p&gt;</content><author><name></name></author><category term="design-patterns" /><category term="testing" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/testing-design-patterns.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/testing-design-patterns.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
