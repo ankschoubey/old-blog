@@ -98,3 +98,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - Oct
         - Kerala: Gods Own Country
         - You can also through money on Tours and Packages :).
+            - Or you can look at the packages and decide things yourself. Like [Amazing 6 nights 7 days golden triangle India tour packages](https://www.noblehousetours.com/7-days-golden-triangle-india-tour/)
+        - [Best Places To Visit In India That Feels International](https://www.noblehousetours.com/best-places-to-visit-in-india-that-feels-international/)
+        - [Best Indian Destinations to Visit in 2022 Month by Month Inspiration](https://www.noblehousetours.com/best-indian-destinations-to-visit-in-2021-month-by-month-inspiration/)
+        - [Best Time to Visit India - Climate Guide - Audley Travel](https://www.audleytravel.com/india/best-time-to-visit#nov)
