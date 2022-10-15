@@ -5,8 +5,8 @@ description: Separate out technical code from business/domain logic for extreme 
 last-modified-purpose: This is just Domain Driven Design and applies to both frontend and backend.
 categories: [web-development, ddd]
 last_modified_at: 2022-10-14T20:52:08.052481
-permalink: /custom-ui-library/
-title: Separate Technical Code From Domain Code
+permalink: /separate-technical-code/
+title: Separate Technical Code From Domain Code in both Frontend and Backend
 ---
 
 ## Need for Custom UI Library
