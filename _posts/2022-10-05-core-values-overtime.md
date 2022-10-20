@@ -10,6 +10,10 @@ title: Core Values Overtime
 ---
 
 # 2022
+## Oct
+
+**Competence**
+
 ## Sep
 
 **Peace**
