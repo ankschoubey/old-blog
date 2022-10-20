@@ -17,6 +17,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - 2022
         - Oct
             - [Joe Rogan on How to Be a Smarter Person - YouTube](https://www.youtube.com/watch?v=JUKUg63EExI)
+            - [Why It's Important For You to Practice Failure - YouTube](https://www.youtube.com/watch?v=dK18ppUyu8M)
 - Security
     - 2022
         - Oct
@@ -54,6 +55,11 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - Oct
         - [Hacking Your Speaking Anxiety: How Lessons from Neuroscience Can Help You Communicate Confidently - Stanford Graduate School of Business](https://www.gsb.stanford.edu/insights/hacking-your-speaking-anxiety-how-lessons-neuroscience-can-help-you-communicate)
 
+## Negotiation
+- 2022
+    - Oct
+        - [Negotiation Tips - How to Get Past Ultimatums - YouTube](https://www.youtube.com/watch?v=t9x259wr46A): Get into a choice mindset. Pause the negotiations. Note all choices you have and all the choices the other side has. Now you can come back to negotiation with meaningful questions: what about this…
+
 ## Relationship
 - 2022
     - Oct
@@ -70,6 +76,9 @@ In these resources, try to only consume the parts you need. Let go or parts you 
         - [Knowing Versus Understanding - Jordan B Peterson - YouTube](https://www.youtube.com/watch?v=Y0tGxcUaVm0)
     - Oct
         - Channel: [Picking Nuggets - YouTube](https://www.youtube.com/c/PickingNuggets)
+        - [कर्म करो और फल की चिंता मत करो - गीता](https://hindi.webdunia.com/religious-article/%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%AE-%E0%A4%95%E0%A4%B0%E0%A5%8B-%E0%A4%94%E0%A4%B0-%E0%A4%AB%E0%A4%B2-%E0%A4%95%E0%A5%80-%E0%A4%9A%E0%A4%BF%E0%A4%82%E0%A4%A4%E0%A4%BE-%E0%A4%AE%E0%A4%A4-%E0%A4%95%E0%A4%B0%E0%A5%8B-%E0%A4%97%E0%A5%80%E0%A4%A4%E0%A4%BE-114120100065_1.html): 
+            - कर्म करो और फल की चिंता मत करो'। फल की इच्छा रखते हुए भी कोई काम मत करो। जब इच्छित फल की हमें प्राप्ति नहीं होती है तो हमें दुख होता है। अतः सुखी रहना है तो सिर्फ कर्म करो और वह भी निष्काम भाव से।
+            -  गीता में कुल सात सौ श्लोक हैं। गीता में ज्ञान को सर्वोच्च स्थान दिया गया है। ज्ञान की प्राप्ति से ही मनुष्य की सभी जिज्ञासाओं का समाधान होता है, इसीलिए गीता को सर्वशास्त्रमयी भी कहा गया है।
 
 ## Core Values
 - Responsibility
@@ -80,6 +89,14 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - 2022
         - Oct
             - [You will Never Want to Lie Again After Watching This [Sam Harris, Naval Ravikant] - YouTube](https://www.youtube.com/watch?v=ABZtZpNtY60)
+- Leadership and Team Work
+    - 2022
+        - Oct
+            - [HOW TO: Build trust in relationships](https://www.youtube.com/watch?v=Wz-TG8nYu_w): Don’t judge them for not trusting you. Trust them without wishing to get anything back. Until they break your trust.
+- Productive
+    - 2022
+        - Oct
+            - [Priyanka Chopra's best piece of advice - YouTube](https://www.youtube.com/watch?v=1GLEkAkve1E) : Respect peoples time if you want your time to be respected
 
 ## Meditation
 - 2022
