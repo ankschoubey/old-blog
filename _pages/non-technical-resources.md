@@ -13,6 +13,8 @@ I read/consume many resources and I thought this would be a good way to link to 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
 ## Intelligence
+- Balance
+    - [The Pyramid of Life & Mastery: How to Master the 7 Areas of Life](https://www.tonyrobbins.com/leadership-impact/tie-it-all-together/)
 - General
     - 2022
         - Oct
@@ -41,6 +43,10 @@ In these resources, try to only consume the parts you need. Let go or parts you 
         - Oct
             - Book: [The Scout Mindset By Julia Galef](https://juliagalef.com/)
 
+# Habits
+- 2022
+    - Oct
+        - [“Habits are safer than rules; you don't have to ...”](https://www.goodreads.com/quotes/7981613-habits-are-safer-than-rules-you-don-t-have-to-watch#:~:text=Learn%20more)-,%E2%80%9CHabits%20are%20safer%20than%20rules%3B%20you%20don't%20have,They%20keep%20you.%E2%80%9D)
 ## Psychology
 - 2022
     - Sep
@@ -54,6 +60,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
         - YouTube Channel: [Communication Coach Alex Lyon](https://www.youtube.com/c/CommunicationSkillsCoachAlexLyon)
     - Oct
         - [Hacking Your Speaking Anxiety: How Lessons from Neuroscience Can Help You Communicate Confidently - Stanford Graduate School of Business](https://www.gsb.stanford.edu/insights/hacking-your-speaking-anxiety-how-lessons-neuroscience-can-help-you-communicate)
+        - 
 
 ## Negotiation
 - 2022
@@ -93,6 +100,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - 2022
         - Oct
             - [HOW TO: Build trust in relationships](https://www.youtube.com/watch?v=Wz-TG8nYu_w): Don’t judge them for not trusting you. Trust them without wishing to get anything back. Until they break your trust.
+            - [The Status Game: On Human Life and How to Play It: On Social Position and How We Use it eBook : Storr, Will: Amazon.in: Books](https://www.amazon.in/Status-Game-Position-Governs-Everything-ebook/dp/B08H7Y414K)
 - Productive
     - 2022
         - Oct

@@ -91,3 +91,11 @@ https://www.fullstackresume.com/
 
 - LinkedIn: [NathanDuma/LinkedIn-Easy-Apply-Bot: Automate LinkedIn Easy Apply job applications and answer application-specific questions.](https://github.com/NathanDuma/LinkedIn-Easy-Apply-Bot) You're welcome! 
 - AngelList: [Easy Apply - Chrome Web Store](https://chrome.google.com/webstore/detail/easy-apply/pgdkaehkejiaemknlpknmjioedpjaphg)
+
+You have to look for a more targetted approach rather than treating it like a black box.
+
+## Target companies so that you avoid wasting time. #whiteBoxApproach.
+
+It’s more effective to search for “best software companies in x country” or “companies that sponsor visa in x” country. And apply there first.
+
+
