@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-20T01:24:16-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-20T01:36:59-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,34 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Understanding &amp;amp; Using HTTP Status Codes</title><link href="www.ankushchoubey.com/http-status-codes/" rel="alternate" type="text/html" title="Understanding &amp;amp; Using HTTP Status Codes" /><published>2022-10-15T00:00:00-05:00</published><updated>2022-10-15T15:52:08-05:00</updated><id>www.ankushchoubey.com/http-status-codes</id><content type="html" xml:base="www.ankushchoubey.com/http-status-codes/">&lt;p&gt;&lt;img src=&quot;https://httpstatusdogs.com/img/100.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Increase collaboration for Developers</title><link href="www.ankushchoubey.com/increase-collaboration-for-developers/" rel="alternate" type="text/html" title="Increase collaboration for Developers" /><published>2022-10-20T00:00:00-05:00</published><updated>2022-10-20T15:52:08-05:00</updated><id>www.ankushchoubey.com/increase-collaboration-for-developers</id><content type="html" xml:base="www.ankushchoubey.com/increase-collaboration-for-developers/">&lt;p&gt;Give everyone access to every other repo. Allow them to fork and update code and return with a merge request.&lt;/p&gt;
+
+&lt;p&gt;Allowing access also helps share snippet of code. Like how to test A would be available in one repo and can be shared.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Embrace every level of DevOps. That’s easy. Each DevOps stage breaks some silo down.&lt;/li&gt;
+  &lt;li&gt;DevOps&lt;/li&gt;
+  &lt;li&gt;DevSecOps&lt;/li&gt;
+  &lt;li&gt;DevTestOps&lt;/li&gt;
+  &lt;li&gt;DevFinOps&lt;/li&gt;
+  &lt;li&gt;DevDevDevDevOpsOpsOpsOps&lt;/li&gt;
+  &lt;li&gt;AgileOps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;embrace-a-cycle-of-continuous-code-review&quot;&gt;Embrace a cycle of continuous code review&lt;/h1&gt;
+&lt;p&gt;Have a continuous humanised code review cycle&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Code review should be a continuous cycle&lt;/li&gt;
+  &lt;li&gt;Code review should be humanised&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;if-you-see-an-error-report-it-to-the-right-personplaceraise-ticket-right-away&quot;&gt;If you see an error. Report it to the right person/place/raise ticket right away.&lt;/h1&gt;
+
+&lt;p&gt;Who ever you want to increase collaboration with should be on speed-dial or pinned.&lt;/p&gt;
+
+&lt;p&gt;If you have opinions say it at last. Let everyone speak their minds freely.&lt;/p&gt;
+
+&lt;p&gt;You can say something like “Wait let me check”&lt;/p&gt;</content><author><name></name></author><category term="collaborations" /><summary type="html">Give everyone access to every other repo. Allow them to fork and update code and return with a merge request.</summary></entry><entry><title type="html">Understanding &amp;amp; Using HTTP Status Codes</title><link href="www.ankushchoubey.com/http-status-codes/" rel="alternate" type="text/html" title="Understanding &amp;amp; Using HTTP Status Codes" /><published>2022-10-15T00:00:00-05:00</published><updated>2022-10-15T15:52:08-05:00</updated><id>www.ankushchoubey.com/http-status-codes</id><content type="html" xml:base="www.ankushchoubey.com/http-status-codes/">&lt;p&gt;&lt;img src=&quot;https://httpstatusdogs.com/img/100.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Image Source: &lt;a href=&quot;https://httpstatusdogs.com/&quot;&gt;HTTP Status Dogs&lt;/a&gt;&lt;/p&gt;
 
@@ -387,93 +414,4 @@ Type B: Chaos&lt;/p&gt;
   &lt;li&gt;You want to flatten a tree. You probably know how to do it, but you haven’t implemented it before. And this is the production code. So it’s best to spend 10-20 minutes learning. You might find something new. This exploration time ideally shouldn’t be greater than an hour.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;You could also take 1 hour or workday.&lt;/p&gt;</content><author><name></name></author><category term="dev-productivity" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev-schedule.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev-schedule.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to test interfaces, abstract classes and design patterns?</title><link href="www.ankushchoubey.com/testing-design-patterns/" rel="alternate" type="text/html" title="How to test interfaces, abstract classes and design patterns?" /><published>2022-09-25T00:00:00-05:00</published><updated>2022-09-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/testing-design-patterns</id><content type="html" xml:base="www.ankushchoubey.com/testing-design-patterns/">&lt;p&gt;&lt;img src=&quot;/images/testing-design-patterns.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;flash&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-    &lt;strong&gt;Note: &lt;/strong&gt;For beginners: Design patterns are template solutions to common problems developers face. There are many design patterns; the best known are the 2 Gang of Four (GoF)  object-oriented design patterns.
-&lt;/div&gt;
-
-&lt;p&gt;Testing interfaces, abstract classes, and design patterns efficiently can be tricky since parents and children depend on each other. We can write tests to eliminate these dependencies during the test time, making our tests very short and decoupled.&lt;/p&gt;
-
-&lt;p&gt;But first, why should you even use abstract classes and design patterns?&lt;/p&gt;
-
-&lt;h1 id=&quot;why-should-we-use-interfaces-abstract-classes-and-design-patterns&quot;&gt;Why should we use interfaces, abstract classes and design patterns?&lt;/h1&gt;
-
-&lt;p&gt;Good code should enforce the intent of how it is to be used.&lt;/p&gt;
-
-&lt;p&gt;Ideally, we strive for a SOLID design: A code with a single responsibility that cannot be changed but is extensible. Interfaces and abstract classes help us achieve this goal.&lt;/p&gt;
-
-&lt;p&gt;Suppose your systems represent different vehicles. Instead of having separate logic for each, you can represent the common logic in a ‘Vehicle’ class and have its behaviour implemented and modified by the subclasses.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;abstract&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;travelTo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Point&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;destination&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// common logic to move a vehicle that uses this.getHorn()&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;abstract&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Horn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getHorn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// this will be implemented by children&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Tesla&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;nc&quot;&gt;Horn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getHorn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Horn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;John Cena: You can't see me&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The above code corresponds to the factory method design pattern.&lt;/p&gt;
-
-&lt;p&gt;All 24 object-oriented GoF design patterns also embody SOLID principles. Developers should prefer these patterns as they help our code be very clean.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-should-we-unit-test-them&quot;&gt;How should we unit test them?&lt;/h1&gt;
-
-&lt;p&gt;Unit testing a pattern can be tricky since things are so abstract.&lt;/p&gt;
-
-&lt;p&gt;Testing all the concrete and parent classes together will make our tests very dependent on the parent and will be hard to maintain.&lt;/p&gt;
-
-&lt;p&gt;The trick here is to test both separately.&lt;/p&gt;
-
-&lt;h2 id=&quot;testing-abstract-class&quot;&gt;Testing abstract class&lt;/h2&gt;
-
-&lt;p&gt;make a dummy concrete implementation within the test class.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;c1&quot;&gt;// this is a test file for the abstract class&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 1. Make a Dummy implementation of the abstract class/interface within the test&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DummyVehicleImpl&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;Horn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getHorn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Horn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;THIS IS DUMMY BUT IT CAN SING FROZEN&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 2. Create the instance of a dummy&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vehicle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DummyVehicleImpl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 3. Use the dummy implementation to assert the parent.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;The steps to test composition is also similar.&lt;/p&gt;
-
-&lt;h2 id=&quot;testing-children&quot;&gt;Testing children&lt;/h2&gt;
-
-&lt;p&gt;In the above section, we tested parents. Now we can test the child.&lt;/p&gt;
-
-&lt;p&gt;Each child will have a separate test class that tests its method, excluding the parent’s methods.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TeslaTests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;Tesla&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tesla&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Tesla&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// code which tests methods of tesla class and not the parent.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;What do you think about this approach? Is there a better approach to testing abstract classes and design patterns? Do let me know what you think.&lt;/p&gt;
-
-&lt;p&gt;Thank you for reading so far.&lt;/p&gt;</content><author><name></name></author><category term="design-patterns" /><category term="testing" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/testing-design-patterns.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/testing-design-patterns.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;You could also take 1 hour or workday.&lt;/p&gt;</content><author><name></name></author><category term="dev-productivity" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/dev-schedule.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/dev-schedule.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
