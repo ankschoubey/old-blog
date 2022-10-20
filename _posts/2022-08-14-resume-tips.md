@@ -63,6 +63,8 @@ Don't be shy to add what you are doing right now.
 - Example: In-process of implementing a continuous delivery pipeline.
 - This is also because it takes time to find a job. So it maybe 1-2 months before someone picks your resume. At that point resume is already outdated.
 
+Find other people resume by searching something like: [www.linkedin.com "microsoft" view my resume](https://www.google.com/search?q=www.linkedin.com+%22microsoft%22+view+my+resume&rlz=1C5CHFA_enIN995IN995&ei=t-lQY_3IIcPEz7sPqOeuuAM&ved=0ahUKEwi9gPSRlu76AhVD4nMBHaizCzcQ4dUDCA8&uact=5&oq=www.linkedin.com+%22microsoft%22+view+my+resume&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAgQHjIFCAAQhgMyBQgAEIYDOgoIABBHENYEELADOg0IABDkAhDWBBCwAxgBOgYIABAHEB5KBAhNGAFKBAhBGABKBAhGGAFQ9rMCWMHEAmCnxwJoBXABeACAAYwBiAGEApIBAzAuMpgBAKABAcgBDcABAdoBBggBEAEYCQ&sclient=gws-wiz-serp)
+
 ## Getting wordings right.
 
 Use Grammarly. The Premium version will give you more points. 
@@ -99,3 +101,6 @@ You have to look for a more targetted approach rather than treating it like a bl
 It’s more effective to search for “best software companies in x country” or “companies that sponsor visa in x” country. And apply there first.
 
 
+# Offers
+
+Look at offers from top companies: [Google vs Apple vs Amazon vs Microsoft vs Oracle - Compare career levels across companies with Levels.fyi](https://www.levels.fyi/?compare=Google,Apple,Amazon,Microsoft,Oracle&track=Software%20Engineer)

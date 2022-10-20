@@ -12,6 +12,9 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+## Songs
+- [One Punch Man FULL ENGLISH OPENING (The Hero - Jam Project) Cover by Jonathan Young - YouTube](https://www.youtube.com/watch?v=XMCYNH1EJTg)
+
 ## Intelligence
 - Balance
     - [The Pyramid of Life & Mastery: How to Master the 7 Areas of Life](https://www.tonyrobbins.com/leadership-impact/tie-it-all-together/)
@@ -75,6 +78,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
             - Grumpy Factor
             - Ambition Factor
             - Social Factor
+        - [7 Ways to Respond to Make Someone Feel Heard](https://www.instagram.com/p/CjymVTUPgY-/?utm_source=ig_web_button_share_sheet)
 
 ## Philosophy:
 - 2022
