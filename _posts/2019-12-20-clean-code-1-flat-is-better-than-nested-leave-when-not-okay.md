@@ -82,3 +82,7 @@ This is an example of chunking which will be explained more in the next post.
 **Next**: [Leave clues (Naming convention)]({{ site.baseurl }}/clean%20code/2019/12/20/clean-code-2-leave-clues-naming-convention.html)
 
 **Index**: [Tips on writing Clean Code]({{ site.baseurl }}/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html)
+
+# Resource:
+
+- [Replace Nested Conditional with Guard Clauses](https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html)

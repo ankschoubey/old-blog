@@ -56,6 +56,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
         - [HealthyGamerGG](https://www.youtube.com/c/HealthyGamerGG): ADHD Health
     - Oct
         - [Cause of Victim Mentality - Explained by a Psychiatrist - YouTube](https://www.youtube.com/watch?v=jr-vBb-VPwQ)
+        - [Feelings Wheel](https://feelingswheel.com/)
 
 ## Communication
 - 2022
@@ -79,6 +80,9 @@ In these resources, try to only consume the parts you need. Let go or parts you 
             - Ambition Factor
             - Social Factor
         - [7 Ways to Respond to Make Someone Feel Heard](https://www.instagram.com/p/CjymVTUPgY-/?utm_source=ig_web_button_share_sheet)
+        - [Matthew Hussey - Respect your relationship](https://www.instagram.com/reel/CjT1y9ig2oQ/?igshid=MDJmNzVkMjY%3D)
+        - [Angelika Koch -Love is an action… feelings fluctuate. Love remains steady.](https://www.instagram.com/reel/Cj5rdp0gNAW/?igshid=MDJmNzVkMjY%3D)
+        - Anxious Attachment: [@candicetamara](https://www.instagram.com/candicetamara_/?hl=en)
 
 ## Philosophy:
 - 2022
