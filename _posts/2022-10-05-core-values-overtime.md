@@ -6,39 +6,60 @@ categories: [non-professional]
 last_modified_at: 2022-10-05T20:52:08.052481
 last-modified-purpose:
 permalink: /core-values-overtime/
-title: Core Values Overtime
+title: Core Values Overtime - Pointers, Motivations
 ---
 
-# 2022
-## Oct
+## Productive
+- 2022
+    - Oct
+        - Motivation
+            - [Tate](https://www.instagram.com/reel/CiyHB24KRF-/?igshid=MDJmNzVkMjY%3D)
 
-**Competence**
+## Inputs
+- 2022
+    - Oct
+        - Motivation
+            - ["Less is Actually More: What is a Low-Information Diet"](https://www.instagram.com/reel/CjF-IeEpGFN/?igshid=MDJmNzVkMjY%3D)
 
-## Sep
+## **Responsible**
+- 2022
+    - Oct
+        - [Competence](https://www.instagram.com/reel/CjKGNHHIr0K/?igshid=MDJmNzVkMjY%3D)
 
-**Peace**
-- Do not rush anything
-- Do not avoid anything
-- Have forward moving activities and novelty
-- Do what everyone else does
+## Peace
+- 2022
+    - Oct
+        - Zoom out
+        - Breath Deeply
+    - Sep
+        - Do not rush anything
+        - Do not avoid anything
+        - Have forward moving activities and novelty
+        - Do what everyone else does
+    
+## Truth Seeking
+- 2022
+    - Oct
+        - Always tell the truth. Be useful and be kind
+        - Ask good queston! #knockOnTheDoorAndDoorShallOpen
+        - Really Think
+        - Don't go too theorotical
 
-**Truth Seeking**
-- Always tell the truth. Be useful and be kind
-- Ask good queston! #knockOnTheDoorAndDoorShallOpen
-- Really Think
-- Don't go too theorotical
+## Systems Thinking
+- 2022
+    - Sep
+        - Prioritize and do less
+            - 1 problem/step at a time
+        - Understand the problem before looking at solution
+            - Direct all focus towards root cause or risk (finding and fixing)
+        - Stick with the system
+            - Minimal routines
+        - Have deadlines
 
-**Systems Thinking**
-- Prioritize and do less
-    - 1 problem/step at a time
-- Understand the problem before looking at solution
-    - Direct all focus towards root cause or risk (finding and fixing)
-- Stick with the system
-    - Minimal routines
-- Have deadlines
-
-**Team Work**
-- Work as a team
-- Discuss
-- Really Listen
-- Have alert trust
+## Team Work
+- 2022
+    - Sep
+        - Work as a team
+        - Discuss
+        - Really Listen
+        - Have alert trust

@@ -58,6 +58,7 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [How to build domain knowledge - YouTube](https://www.youtube.com/watch?v=Zcdy1BpozW0)
     - [Domain Knowledge for Software Engineers](https://www.youtube.com/playlist?list=PLc3SzDYhhiGWLZ43ALf6tgvFbmctvsVmU)
     - [Why Domain Knowledge Is Important In Data Science?](https://www.youtube.com/watch?v=5KvhxtkdKWY)
+    - [kdeldycke/awesome-falsehood: 😱 Falsehoods Programmers Believe in](https://github.com/kdeldycke/awesome-falsehood)
 
 ## System Design
 - *MUST SUBSCRIBE*: [ByteByteGo Newsletter](https://blog.bytebytego.com/about)
