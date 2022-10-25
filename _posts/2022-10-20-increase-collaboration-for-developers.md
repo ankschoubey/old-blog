@@ -9,7 +9,9 @@ permalink: /increase-collaboration-for-developers/
 title: Increase collaboration for Developers
 ---
 
-Give everyone access to every other repo. Allow them to fork and update code and return with a merge request.
+# Give everyone access to every other repo. 
+
+Allow them to fork and update code and return with a merge request.
 
 Allowing access also helps share snippet of code. Like how to test A would be available in one repo and can be shared.
 
