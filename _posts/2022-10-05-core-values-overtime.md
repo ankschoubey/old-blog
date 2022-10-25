@@ -47,6 +47,7 @@ title: Core Values Overtime - Pointers, Motivations
         - Ask good queston! #knockOnTheDoorAndDoorShallOpen
         - Really Think
         - Don't go too theorotical
+        - Insincerity: [This Book Made Me Disgusted with Tik Tok & Social Media - YouTube](https://www.youtube.com/watch?v=IwKUirWg3eA)
 
 ## Systems Thinking
 - 2022
