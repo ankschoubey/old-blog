@@ -18,6 +18,7 @@ title: Core Values Overtime - Pointers, Motivations
 ## Inputs
 - 2022
     - Oct
+        - Having a negative mindset is worst than having a negative outcome or setback.
         - Motivation
             - ["Less is Actually More: What is a Low-Information Diet"](https://www.instagram.com/reel/CjF-IeEpGFN/?igshid=MDJmNzVkMjY%3D)
 
