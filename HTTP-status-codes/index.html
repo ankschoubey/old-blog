@@ -13,14 +13,14 @@
 <meta property="og:locale" content="en_US">
 <meta name="description" content="Full Stack Developer - Cloud/Microservices">
 <meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
-<link rel="canonical" href="www.ankushchoubey.com/http-status-codes/">
-<meta property="og:url" content="www.ankushchoubey.com/http-status-codes/">
+<link rel="canonical" href="www.ankushchoubey.com/HTTP-status-codes/">
+<meta property="og:url" content="www.ankushchoubey.com/HTTP-status-codes/">
 <meta property="og:site_name" content="Ankush Choubey">
 <meta property="og:image" content="https://httpstatusdogs.com/img/100.jpg">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-10-15T00:00:00-05:00">
 <script type="application/ld+json">
-{"headline":"Understanding &amp; Using HTTP Status Codes","url":"www.ankushchoubey.com/http-status-codes/","dateModified":"2022-10-15T15:52:08-05:00","datePublished":"2022-10-15T00:00:00-05:00","@type":"BlogPosting","image":"https://httpstatusdogs.com/img/100.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/http-status-codes/"},"description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
+{"headline":"Understanding &amp; Using HTTP Status Codes","url":"www.ankushchoubey.com/HTTP-status-codes/","dateModified":"2022-10-15T15:52:08-05:00","datePublished":"2022-10-15T00:00:00-05:00","@type":"BlogPosting","image":"https://httpstatusdogs.com/img/100.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/HTTP-status-codes/"},"description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -210,25 +210,25 @@ window.onload = wrap_img;
 
 <p>Browsers can perform different actions based on HTTP Status codes. For example:</p>
 
-<p>If browser recieves a 302 TEMPORARY REDIRECT, then it’ll redirect to location specified by the server.</p>
+<p>If the browser receives a 302 temporary redirect, it’ll redirect to the location specified by the server.</p>
 
 <p>Not all status codes are directly browser compatible. You can find the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#browser_compatibility">list of compatible ones here</a>.</p>
 
-<p>HTTP Status Codes are also useful when you are building a client yourself.</p>
+<p>HTTP Status Codes are also helpful when you are building a client yourself.</p>
 
-<p>For example: For retry mechanism, you might retry a few times if there is an 5xx  Server Error but might not retry if it’s a 4xx client error</p>
+<p>For example: For the retry mechanism, you might retry a few times if there is a 5xx  Server Error but might not retry if it’s a 4xx client error</p>
 
 <h1 id="types">Types</h1>
 
-<p>There are total 63 status codes and they are divided into 5 types:</p>
+<p>There are a total of 63 status codes that are grouped into 5 types:</p>
 
 <ul>
   <li>
 <strong>1xx</strong> → Info</li>
   <li>
-<strong>2xx</strong> → Sucessfull</li>
+<strong>2xx</strong> → Successful</li>
   <li>
-<strong>3xx</strong> → Some kind of redirect</li>
+<strong>3xx</strong> → Some redirect</li>
   <li>
 <strong>4xx</strong> → Client error: The sender has made some mistake and has to fix it.</li>
   <li>
@@ -237,42 +237,45 @@ window.onload = wrap_img;
 
 <h1 id="specific-codes">Specific Codes</h1>
 
-<p>Now, when coding you are likely to use these. But if you find another one, google it and you’ll find the reason behind it.</p>
+<p>Now, when coding, you are likely to use these. But if you find another one, google it, and you’ll find the reason behind it.</p>
 
 <ul>
   <li>
 <strong>200</strong> → OK</li>
   <li>
-<strong>201</strong> → CREATED the resource is created and can be accessed at <code class="language-plaintext highlighter-rouge">location</code> header.</li>
+<strong>201</strong> → The server CREATED the resource. The <code class="language-plaintext highlighter-rouge">location</code> header includes the location of the resource.</li>
   <li>
-    <p><strong>204</strong> → NO CONTENT but there is No Content</p>
+    <p><strong>204</strong> → NO CONTENT, but there is No Content</p>
   </li>
   <li>
-    <p><strong>302</strong> → REDIRECT to this URL</p>
+<strong>302</strong> → REDIRECT to this URL</li>
+</ul>
+
+<p><strong>400</strong> -&gt; BAD REQUEST</p>
+<ul>
+  <li>
+    <p><strong>404</strong> → NOT FOUND: The resource isn’t available</p>
   </li>
   <li>
-    <p><strong>404</strong> → NOT FOUND: The resource was not found</p>
-  </li>
-  <li>
-<strong>500</strong> → INTERNAL SERVER ERROR
+    <p><strong>500</strong> → INTERNAL SERVER ERROR</p>
     <ul>
-      <li>Here restrict what kind of response is shown so that internal details are not leaked.</li>
+      <li>Restrict the response because it may reveal the inner workings of the server.</li>
     </ul>
   </li>
 </ul>
 
 <h1 id="notes">Notes</h1>
 
-<p>In many cases, people don’t rely on HTTP status codes and rather use body to convay information. This is specially true in case of specialized responses since there are very few HTTP status codes.</p>
+<p>People often don’t rely on HTTP status codes but instead, use the body to convey information. This approach is especially true in the case of specialized responses since there are very few HTTP status codes.</p>
 
 <h1 id="when-to-use-404-over-204">When to use 404 over 204?</h1>
 
 <ul>
-  <li>In groups use 204.</li>
-  <li>For accessing single one, use 404.</li>
+  <li>In groups, use 204.</li>
+  <li>For accessing a single one, use 404.</li>
 </ul>
 
-<p>for example:</p>
+<p>For example:</p>
 
 <ul>
   <li>/users - 204</li>
@@ -324,8 +327,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/http-status-codes/';
-      this.page.identifier = 'www.ankushchoubey.com/http-status-codes/';
+      this.page.url = 'www.ankushchoubey.com/HTTP-status-codes/';
+      this.page.identifier = 'www.ankushchoubey.com/HTTP-status-codes/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -336,7 +339,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/http-status-codes/" hidden></a>
+<a class="u-url" href="/HTTP-status-codes/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

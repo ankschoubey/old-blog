@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-25T04:13:17-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-25T04:28:51-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -150,67 +150,70 @@
 
 &lt;p&gt;If you have opinions say it at last. Let everyone speak their minds freely.&lt;/p&gt;
 
-&lt;p&gt;You can say something like “Wait let me check”&lt;/p&gt;</content><author><name></name></author><category term="collaborations" /><summary type="html">Give everyone access to every other repo.</summary></entry><entry><title type="html">Understanding &amp;amp; Using HTTP Status Codes</title><link href="www.ankushchoubey.com/http-status-codes/" rel="alternate" type="text/html" title="Understanding &amp;amp; Using HTTP Status Codes" /><published>2022-10-15T00:00:00-05:00</published><updated>2022-10-15T15:52:08-05:00</updated><id>www.ankushchoubey.com/http-status-codes</id><content type="html" xml:base="www.ankushchoubey.com/http-status-codes/">&lt;p&gt;&lt;img src=&quot;https://httpstatusdogs.com/img/100.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can say something like “Wait let me check”&lt;/p&gt;</content><author><name></name></author><category term="collaborations" /><summary type="html">Give everyone access to every other repo.</summary></entry><entry><title type="html">Understanding &amp;amp; Using HTTP Status Codes</title><link href="www.ankushchoubey.com/HTTP-status-codes/" rel="alternate" type="text/html" title="Understanding &amp;amp; Using HTTP Status Codes" /><published>2022-10-15T00:00:00-05:00</published><updated>2022-10-15T15:52:08-05:00</updated><id>www.ankushchoubey.com/http-status-codes</id><content type="html" xml:base="www.ankushchoubey.com/HTTP-status-codes/">&lt;p&gt;&lt;img src=&quot;https://httpstatusdogs.com/img/100.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Image Source: &lt;a href=&quot;https://httpstatusdogs.com/&quot;&gt;HTTP Status Dogs&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Browsers can perform different actions based on HTTP Status codes. For example:&lt;/p&gt;
 
-&lt;p&gt;If browser recieves a 302 TEMPORARY REDIRECT, then it’ll redirect to location specified by the server.&lt;/p&gt;
+&lt;p&gt;If the browser receives a 302 temporary redirect, it’ll redirect to the location specified by the server.&lt;/p&gt;
 
 &lt;p&gt;Not all status codes are directly browser compatible. You can find the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#browser_compatibility&quot;&gt;list of compatible ones here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;HTTP Status Codes are also useful when you are building a client yourself.&lt;/p&gt;
+&lt;p&gt;HTTP Status Codes are also helpful when you are building a client yourself.&lt;/p&gt;
 
-&lt;p&gt;For example: For retry mechanism, you might retry a few times if there is an 5xx  Server Error but might not retry if it’s a 4xx client error&lt;/p&gt;
+&lt;p&gt;For example: For the retry mechanism, you might retry a few times if there is a 5xx  Server Error but might not retry if it’s a 4xx client error&lt;/p&gt;
 
 &lt;h1 id=&quot;types&quot;&gt;Types&lt;/h1&gt;
 
-&lt;p&gt;There are total 63 status codes and they are divided into 5 types:&lt;/p&gt;
+&lt;p&gt;There are a total of 63 status codes that are grouped into 5 types:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;1xx&lt;/strong&gt; → Info&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;2xx&lt;/strong&gt; → Sucessfull&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;3xx&lt;/strong&gt; → Some kind of redirect&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2xx&lt;/strong&gt; → Successful&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3xx&lt;/strong&gt; → Some redirect&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;4xx&lt;/strong&gt; → Client error: The sender has made some mistake and has to fix it.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;5xx&lt;/strong&gt; → Server error: The server has made some mistake and has to fix it.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;specific-codes&quot;&gt;Specific Codes&lt;/h1&gt;
 
-&lt;p&gt;Now, when coding you are likely to use these. But if you find another one, google it and you’ll find the reason behind it.&lt;/p&gt;
+&lt;p&gt;Now, when coding, you are likely to use these. But if you find another one, google it, and you’ll find the reason behind it.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;200&lt;/strong&gt; → OK&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;201&lt;/strong&gt; → CREATED the resource is created and can be accessed at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;location&lt;/code&gt; header.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;201&lt;/strong&gt; → The server CREATED the resource. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;location&lt;/code&gt; header includes the location of the resource.&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;204&lt;/strong&gt; → NO CONTENT but there is No Content&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;204&lt;/strong&gt; → NO CONTENT, but there is No Content&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;302&lt;/strong&gt; → REDIRECT to this URL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;400&lt;/strong&gt; -&amp;gt; BAD REQUEST&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;404&lt;/strong&gt; → NOT FOUND: The resource isn’t available&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;302&lt;/strong&gt; → REDIRECT to this URL&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;404&lt;/strong&gt; → NOT FOUND: The resource was not found&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;500&lt;/strong&gt; → INTERNAL SERVER ERROR
+    &lt;p&gt;&lt;strong&gt;500&lt;/strong&gt; → INTERNAL SERVER ERROR&lt;/p&gt;
     &lt;ul&gt;
-      &lt;li&gt;Here restrict what kind of response is shown so that internal details are not leaked.&lt;/li&gt;
+      &lt;li&gt;Restrict the response because it may reveal the inner workings of the server.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;notes&quot;&gt;Notes&lt;/h1&gt;
 
-&lt;p&gt;In many cases, people don’t rely on HTTP status codes and rather use body to convay information. This is specially true in case of specialized responses since there are very few HTTP status codes.&lt;/p&gt;
+&lt;p&gt;People often don’t rely on HTTP status codes but instead, use the body to convey information. This approach is especially true in the case of specialized responses since there are very few HTTP status codes.&lt;/p&gt;
 
 &lt;h1 id=&quot;when-to-use-404-over-204&quot;&gt;When to use 404 over 204?&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;In groups use 204.&lt;/li&gt;
-  &lt;li&gt;For accessing single one, use 404.&lt;/li&gt;
+  &lt;li&gt;In groups, use 204.&lt;/li&gt;
+  &lt;li&gt;For accessing a single one, use 404.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;for example:&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;/users - 204&lt;/li&gt;
