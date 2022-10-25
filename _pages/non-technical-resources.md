@@ -106,6 +106,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - 2022
         - Oct
             - [You will Never Want to Lie Again After Watching This [Sam Harris, Naval Ravikant] - YouTube](https://www.youtube.com/watch?v=ABZtZpNtY60)
+            - [How To Decide What Is Best For You and Not Get Influenced By Others Sadhguru - YouTube](https://www.youtube.com/watch?v=KeSA24c4NdI)
 - Leadership and Team Work
     - 2022
         - Oct
