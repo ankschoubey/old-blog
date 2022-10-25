@@ -23,6 +23,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
         - Oct
             - [Joe Rogan on How to Be a Smarter Person - YouTube](https://www.youtube.com/watch?v=JUKUg63EExI)
             - [Why It's Important For You to Practice Failure - YouTube](https://www.youtube.com/watch?v=dK18ppUyu8M)
+            - [8 Differences Between Professionals and Amateurs - YouTube](https://www.youtube.com/shorts/e39N5j-SPq4)
 - Security
     - 2022
         - Oct
@@ -83,6 +84,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
         - [Matthew Hussey - Respect your relationship](https://www.instagram.com/reel/CjT1y9ig2oQ/?igshid=MDJmNzVkMjY%3D)
         - [Angelika Koch -Love is an action… feelings fluctuate. Love remains steady.](https://www.instagram.com/reel/Cj5rdp0gNAW/?igshid=MDJmNzVkMjY%3D)
         - Anxious Attachment: [@candicetamara](https://www.instagram.com/candicetamara_/?hl=en)
+        - [You don't need a relationship](https://www.instagram.com/reel/CjDnf8ZDIOa/?igshid=MDJmNzVkMjY%3D)
 
 ## Philosophy:
 - 2022

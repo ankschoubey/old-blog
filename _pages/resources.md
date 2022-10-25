@@ -52,6 +52,7 @@ I read/consume many resources and I thought this would be a good way to link to 
 - 2022
     - Oct
         - [Rahul Pandey - YouTube](https://www.youtube.com/c/RahulPandeyrkp): Building a credible Q&A platform for ambitious software engineers. Follow me to grow your SWE career.
+        - [Mindset blockers on blogging](https://www.linkedin.com/posts/netflixenglead_personalbranding-engineering-personaldevelopment-ugcPost-6990377278648070144-gY8N/)
 
 ## Domain Knowledge
 - Oct 2022

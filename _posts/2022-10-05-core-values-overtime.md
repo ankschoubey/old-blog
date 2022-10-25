@@ -7,7 +7,7 @@ last_modified_at: 2022-10-05T20:52:08.052481
 last-modified-purpose:
 permalink: /core-values-overtime/
 title: Core Values Overtime - Pointers, Motivations
----
+---        
 
 ## Productive
 - 2022
@@ -31,6 +31,7 @@ title: Core Values Overtime - Pointers, Motivations
     - Oct
         - Zoom out
         - Breath Deeply
+        - [“Stress doesn’t come from hard work”](https://www.instagram.com/reel/CjGrrdegCZ4/?igshid=MDJmNzVkMjY%3D)
     - Sep
         - Do not rush anything
         - Do not avoid anything
