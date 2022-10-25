@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [for-future-me]
+categories: [for-future-me, non-professional]
 title: Physical Exercise
 permalink: /exercise/
 last_modified_at: 2021-08-01T20:42:15.652723

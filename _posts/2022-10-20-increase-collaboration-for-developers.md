@@ -7,7 +7,6 @@ last_modified_at: 2022-10-20T20:52:08.052481
 last-modified-purpose:
 permalink: /increase-collaboration-for-developers/
 title: Increase collaboration for Developers
-hide: true
 ---
 
 Give everyone access to every other repo. Allow them to fork and update code and return with a merge request.
