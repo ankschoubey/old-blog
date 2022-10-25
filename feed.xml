@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-23T02:14:01-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-25T03:10:23-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -243,56 +243,134 @@
 
 &lt;p&gt;The most important thing in software development is finishing functional requirements.&lt;/p&gt;
 
-&lt;p&gt;Non-Functional requirements and requirements like how modular the code is should be discussed with the business, as all this takes away from productive time.&lt;/p&gt;</content><author><name></name></author><category term="experience" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/development-mistakes.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/development-mistakes.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Values Overtime</title><link href="www.ankushchoubey.com/core-values-overtime/" rel="alternate" type="text/html" title="Core Values Overtime" /><published>2022-10-05T00:00:00-05:00</published><updated>2022-10-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/core-values-overtime</id><content type="html" xml:base="www.ankushchoubey.com/core-values-overtime/">&lt;h1 id=&quot;2022&quot;&gt;2022&lt;/h1&gt;
-&lt;h2 id=&quot;oct&quot;&gt;Oct&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Competence&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;sep&quot;&gt;Sep&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Peace&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Non-Functional requirements and requirements like how modular the code is should be discussed with the business, as all this takes away from productive time.&lt;/p&gt;</content><author><name></name></author><category term="experience" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/development-mistakes.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/development-mistakes.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Values Overtime - Pointers, Motivations</title><link href="www.ankushchoubey.com/core-values-overtime/" rel="alternate" type="text/html" title="Core Values Overtime - Pointers, Motivations" /><published>2022-10-05T00:00:00-05:00</published><updated>2022-10-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/core-values-overtime</id><content type="html" xml:base="www.ankushchoubey.com/core-values-overtime/">&lt;h2 id=&quot;productive&quot;&gt;Productive&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Do not rush anything&lt;/li&gt;
-  &lt;li&gt;Do not avoid anything&lt;/li&gt;
-  &lt;li&gt;Have forward moving activities and novelty&lt;/li&gt;
-  &lt;li&gt;Do what everyone else does&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Truth Seeking&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Always tell the truth. Be useful and be kind&lt;/li&gt;
-  &lt;li&gt;Ask good queston! #knockOnTheDoorAndDoorShallOpen&lt;/li&gt;
-  &lt;li&gt;Really Think&lt;/li&gt;
-  &lt;li&gt;Don’t go too theorotical&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Systems Thinking&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Prioritize and do less
+  &lt;li&gt;2022
     &lt;ul&gt;
-      &lt;li&gt;1 problem/step at a time&lt;/li&gt;
+      &lt;li&gt;Oct
+        &lt;ul&gt;
+          &lt;li&gt;Motivation
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/CiyHB24KRF-/?igshid=MDJmNzVkMjY%3D&quot;&gt;Tate&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Understand the problem before looking at solution
-    &lt;ul&gt;
-      &lt;li&gt;Direct all focus towards root cause or risk (finding and fixing)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Stick with the system
-    &lt;ul&gt;
-      &lt;li&gt;Minimal routines&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Have deadlines&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Team Work&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;inputs&quot;&gt;Inputs&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Work as a team&lt;/li&gt;
-  &lt;li&gt;Discuss&lt;/li&gt;
-  &lt;li&gt;Really Listen&lt;/li&gt;
-  &lt;li&gt;Have alert trust&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html">2022 Oct</summary></entry><entry><title type="html">Aim to be between Type A and B</title><link href="www.ankushchoubey.com/type-a-type-b/" rel="alternate" type="text/html" title="Aim to be between Type A and B" /><published>2022-10-02T00:00:00-05:00</published><updated>2022-09-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/type-a-type-b</id><content type="html" xml:base="www.ankushchoubey.com/type-a-type-b/">&lt;p&gt;&lt;img src=&quot;/images/type-a-type-b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;li&gt;2022
+    &lt;ul&gt;
+      &lt;li&gt;Oct
+        &lt;ul&gt;
+          &lt;li&gt;Motivation
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/CjF-IeEpGFN/?igshid=MDJmNzVkMjY%3D&quot;&gt;“Less is Actually More: What is a Low-Information Diet”&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;responsible&quot;&gt;&lt;strong&gt;Responsible&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;2022
+    &lt;ul&gt;
+      &lt;li&gt;Oct
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/CjKGNHHIr0K/?igshid=MDJmNzVkMjY%3D&quot;&gt;Competence&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;peace&quot;&gt;Peace&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;2022
+    &lt;ul&gt;
+      &lt;li&gt;Oct
+        &lt;ul&gt;
+          &lt;li&gt;Zoom out&lt;/li&gt;
+          &lt;li&gt;Breath Deeply&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Sep
+        &lt;ul&gt;
+          &lt;li&gt;Do not rush anything&lt;/li&gt;
+          &lt;li&gt;Do not avoid anything&lt;/li&gt;
+          &lt;li&gt;Have forward moving activities and novelty&lt;/li&gt;
+          &lt;li&gt;Do what everyone else does&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;truth-seeking&quot;&gt;Truth Seeking&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;2022
+    &lt;ul&gt;
+      &lt;li&gt;Oct
+        &lt;ul&gt;
+          &lt;li&gt;Always tell the truth. Be useful and be kind&lt;/li&gt;
+          &lt;li&gt;Ask good queston! #knockOnTheDoorAndDoorShallOpen&lt;/li&gt;
+          &lt;li&gt;Really Think&lt;/li&gt;
+          &lt;li&gt;Don’t go too theorotical&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;systems-thinking&quot;&gt;Systems Thinking&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;2022
+    &lt;ul&gt;
+      &lt;li&gt;Sep
+        &lt;ul&gt;
+          &lt;li&gt;Prioritize and do less
+            &lt;ul&gt;
+              &lt;li&gt;1 problem/step at a time&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Understand the problem before looking at solution
+            &lt;ul&gt;
+              &lt;li&gt;Direct all focus towards root cause or risk (finding and fixing)&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Stick with the system
+            &lt;ul&gt;
+              &lt;li&gt;Minimal routines&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Have deadlines&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;team-work&quot;&gt;Team Work&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;2022
+    &lt;ul&gt;
+      &lt;li&gt;Sep
+        &lt;ul&gt;
+          &lt;li&gt;Work as a team&lt;/li&gt;
+          &lt;li&gt;Discuss&lt;/li&gt;
+          &lt;li&gt;Really Listen&lt;/li&gt;
+          &lt;li&gt;Have alert trust&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html">Productive 2022 Oct Motivation Tate</summary></entry><entry><title type="html">Aim to be between Type A and B</title><link href="www.ankushchoubey.com/type-a-type-b/" rel="alternate" type="text/html" title="Aim to be between Type A and B" /><published>2022-10-02T00:00:00-05:00</published><updated>2022-09-25T15:52:08-05:00</updated><id>www.ankushchoubey.com/type-a-type-b</id><content type="html" xml:base="www.ankushchoubey.com/type-a-type-b/">&lt;p&gt;&lt;img src=&quot;/images/type-a-type-b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@glenndiaz?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Glenn Diaz&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/workaholic?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
