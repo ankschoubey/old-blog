@@ -32,6 +32,7 @@ title: Core Values Overtime - Pointers, Motivations
         - Zoom out
         - Breath Deeply
         - [“Stress doesn’t come from hard work”](https://www.instagram.com/reel/CjGrrdegCZ4/?igshid=MDJmNzVkMjY%3D)
+        - [You don't need a relationship](https://www.instagram.com/reel/CjDnf8ZDIOa/?igshid=MDJmNzVkMjY%3D)
     - Sep
         - Do not rush anything
         - Do not avoid anything
