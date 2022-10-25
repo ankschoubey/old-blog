@@ -13,7 +13,9 @@ Give everyone access to every other repo. Allow them to fork and update code and
 
 Allowing access also helps share snippet of code. Like how to test A would be available in one repo and can be shared.
 
-- Embrace every level of DevOps. That's easy. Each DevOps stage breaks some silo down.
+# Embrace every level of DevOps.
+
+That's easy. Each DevOps stage breaks some silo down.
 - DevOps
 - DevSecOps
 - DevTestOps
