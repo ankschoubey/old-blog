@@ -15,6 +15,11 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 ## Songs
 - [One Punch Man FULL ENGLISH OPENING (The Hero - Jam Project) Cover by Jonathan Young - YouTube](https://www.youtube.com/watch?v=XMCYNH1EJTg)
 
+## ENTP
+- 2022
+    - Oct
+        - [ENTPs - 12 Rules for Life - YouTube](https://www.youtube.com/watch?v=_b78nMoJUrc)
+
 ## Intelligence
 - Balance
     - [The Pyramid of Life & Mastery: How to Master the 7 Areas of Life](https://www.tonyrobbins.com/leadership-impact/tie-it-all-together/)
