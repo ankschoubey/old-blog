@@ -13,6 +13,8 @@ image: /images/domain-vs-framework-development.jpg
 
 [Photo by Markus Spiske](https://www.pexels.com/photo/brown-and-white-concrete-building-227729/)
 
+I wrote an article called [The Baton Road](/baton). Baton is my way of conceptualizing progress humans make and how to have a big impact.
+
 # What is Application Development?
 
 You can be an application developer, which means you'll solve problems related to a particular domain.
