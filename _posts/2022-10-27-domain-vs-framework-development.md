@@ -24,9 +24,9 @@ The skills needed here are:
 - Designing solutions for the domain.
 - Regular interaction with domain experts.
 
-Application development where code solves real-world problems.
+Application development is where code solves real-world problems.
 
-Inventing the previous line: The main challenge is the translation of domain to code.
+Inventing the previous line: The main challenge is translating domain to code.
 
 Domain Driven Design (DDD) and Domain Specific Languages are concepts that help bridge the gap between domain experts and developers.
 
@@ -36,13 +36,11 @@ Also, they should be able to know the [nuances](https://github.com/kdeldycke/awe
 
 # What is Framework Development?
 
-These are developers that make the tools used by domain developers. These tools can be - IDE, Libraries, Frameworks, Microservice Chassis etc.
+These are developers that make the tools used by domain developers. These can be - IDE, Libraries, Frameworks, Microservice Chassis, DevOps and platform development.
 
-Even DevOps and platform developers can be included here.
+At a high level, this can be something like Spring Boot framework, Kubernetes platform, developers who build AWS, Java language, PyTorch and inventing Algorithms.
 
-At a high level, this can be something like Spring Boot framework, Kubernetes platform, developers who build AWS, Java language, PyTorch, Inventing Algorithms, etc.
-
-At a company level, there is always a common code and microservice chassis that can be abstracted away to make everyone else's code lighter.
+At a company level, there is always a standard code and microservice chassis that can be abstracted away to make everyone else's code lighter.
 
 # Why Framework Development Is Biggest Software Development Baton?
 
@@ -52,11 +50,11 @@ What framework developers do applies to every domain.
 
 The impact that framework developers have is much bigger than any domain developer.
 
-For example, Spring Native speeds up load time for spring boot applications from 2.8 seconds to .3 seconds. That's a very big performance difference that every developer in the world can adopt just by adding a maven package.
+For example, Spring Native speeds up load time for spring boot applications from 2.8 seconds to .3 seconds. Every developer can adopt a huge performance difference just by adding a maven package.
 
-Similarly: an algorithm like Dikshtra's Shortest Path has had a much bigger impact than the work of most application developers.
+Similarly: an algorithm like Dikshtra's Shortest Path has had a much more significant impact than the work of most application developers.
 
-Though many algorithms are usually invented to solve domain problems and become part of a framework when it gets abstracted.
+Domain problems lead to the need for new algorithms, which eventually becomes part of a framework when it gets abstracted.
 
 Frameworks like Spring Boot, Platforms like Kubernetes and Cloud Provides like AWS have had a much higher impact than any individual.
 
