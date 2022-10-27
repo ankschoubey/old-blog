@@ -41,12 +41,15 @@ I read/consume many resources and I thought this would be a good way to link to 
     - Oct
         - [How to Outperform a 10x Developer - by Denilson N.](https://betterprogramming.pub/how-to-outperform-a-10x-developer-fa1132807934)
         - [What’s a high-differential developer - by Hajime Yamasaki Vukelic - Medium](https://medium.com/@hayavuk/whats-a-high-differential-developer-2fc42e2ee6a3)
+        - [Martin Fowler – Continuous Delivery - YouTube](https://www.youtube.com/watch?v=aoMfbgF2D_4&list=WL&index=12&t=913s)
 
 
 ## Hard Code Engineering
 - 2022
     - Oct
         - [Steve Brunton - YouTube](https://www.youtube.com/c/Eigensteve/playlists)
+        - [How to Understand Math Intuitively? - YouTube](https://www.youtube.com/watch?v=glZLHLLalv0)
+        - [Math skills you ACTUALLY need - YouTube](https://www.youtube.com/watch?v=A5CMAcyI42o)
 
 ## Career
 - 2022
@@ -208,6 +211,7 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [Top 8 Data Structures for Coding Interviews - YouTube](https://www.youtube.com/watch?v=uhYq27iSk9s)
         - [Top 6 Coding Interview Concepts (Data Structures & Algorithms) - YouTube](https://www.youtube.com/watch?v=ft0owvS5tQA)
         - [EASY - YouTube](https://www.youtube.com/playlist?list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ)
+        - [LeetCode Cheat Sheet — PIRATE KING](https://www.piratekingdom.com/leetcode/cheat-sheet)
 
 # Chaos Engineering
 - 2022 Sep
