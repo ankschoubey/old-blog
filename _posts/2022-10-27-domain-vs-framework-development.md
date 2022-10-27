@@ -13,7 +13,7 @@ image: /images/domain-vs-framework-development.jpg
 
 [Photo by Markus Spiske](https://www.pexels.com/photo/brown-and-white-concrete-building-227729/)
 
-I wrote an article called [The Baton Road](/baton). Baton is my way of conceptualizing progress humans make and how to have a big impact.
+I wrote an article called [The Baton Road](/baton). Baton is my way of conceptualizing human progress and how to have a significant impact.
 
 # What is Application Development?
 
@@ -63,6 +63,7 @@ Frameworks like Spring Boot, Platforms like Kubernetes and Cloud Provides like A
 # Resources
 
 - [Open Source Software (OSS) - Ankush Choubey](https://www.ankushchoubey.com/open-source/)
+- [Baton Road - Ankush Choubey](https://www.ankushchoubey.com/baton/)
 - [Building a Framework on top of Spring Boot by Rubén Pahíno - Spring I/O 2022 Sessions - YouTube](https://www.youtube.com/watch?v=1qT__SBWOhA)
 - [The Product-Minded Software Engineer - The Pragmatic Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/?ref=hackernoon.com)
 - [How to build domain knowledge - YouTube](https://www.youtube.com/watch?v=Zcdy1BpozW0)
