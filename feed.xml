@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-27T00:10:19-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-27T00:12:49-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -55,7 +55,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.pexels.com/photo/brown-and-white-concrete-building-227729/&quot;&gt;Photo by Markus Spiske&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I wrote an article called &lt;a href=&quot;/baton&quot;&gt;The Baton Road&lt;/a&gt;. Baton is my way of conceptualizing progress humans make and how to have a big impact.&lt;/p&gt;
+&lt;p&gt;I wrote an article called &lt;a href=&quot;/baton&quot;&gt;The Baton Road&lt;/a&gt;. Baton is my way of conceptualizing human progress and how to have a significant impact.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-is-application-development&quot;&gt;What is Application Development?&lt;/h1&gt;
 
@@ -108,6 +108,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.ankushchoubey.com/open-source/&quot;&gt;Open Source Software (OSS) - Ankush Choubey&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ankushchoubey.com/baton/&quot;&gt;Baton Road - Ankush Choubey&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1qT__SBWOhA&quot;&gt;Building a Framework on top of Spring Boot by Rubén Pahíno - Spring I/O 2022 Sessions - YouTube&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://blog.pragmaticengineer.com/the-product-minded-engineer/?ref=hackernoon.com&quot;&gt;The Product-Minded Software Engineer - The Pragmatic Engineer&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Zcdy1BpozW0&quot;&gt;How to build domain knowledge - YouTube&lt;/a&gt;&lt;/li&gt;
