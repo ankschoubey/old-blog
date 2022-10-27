@@ -19,6 +19,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 - 2022
     - Oct
         - [ENTPs - 12 Rules for Life - YouTube](https://www.youtube.com/watch?v=_b78nMoJUrc)
+        - [Why do ENTPs have a hard time remembering things? - Quora](https://www.quora.com/Why-do-ENTPs-have-a-hard-time-remembering-things)
 
 ## Intelligence
 - Balance
