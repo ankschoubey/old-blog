@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-27T00:01:34-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-27T00:05:40-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -68,9 +68,9 @@
   &lt;li&gt;Regular interaction with domain experts.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Application development where code solves real-world problems.&lt;/p&gt;
+&lt;p&gt;Application development is where code solves real-world problems.&lt;/p&gt;
 
-&lt;p&gt;Inventing the previous line: The main challenge is the translation of domain to code.&lt;/p&gt;
+&lt;p&gt;Inventing the previous line: The main challenge is translating domain to code.&lt;/p&gt;
 
 &lt;p&gt;Domain Driven Design (DDD) and Domain Specific Languages are concepts that help bridge the gap between domain experts and developers.&lt;/p&gt;
 
@@ -80,13 +80,11 @@
 
 &lt;h1 id=&quot;what-is-framework-development&quot;&gt;What is Framework Development?&lt;/h1&gt;
 
-&lt;p&gt;These are developers that make the tools used by domain developers. These tools can be - IDE, Libraries, Frameworks, Microservice Chassis etc.&lt;/p&gt;
+&lt;p&gt;These are developers that make the tools used by domain developers. These can be - IDE, Libraries, Frameworks, Microservice Chassis, DevOps and platform development.&lt;/p&gt;
 
-&lt;p&gt;Even DevOps and platform developers can be included here.&lt;/p&gt;
+&lt;p&gt;At a high level, this can be something like Spring Boot framework, Kubernetes platform, developers who build AWS, Java language, PyTorch and inventing Algorithms.&lt;/p&gt;
 
-&lt;p&gt;At a high level, this can be something like Spring Boot framework, Kubernetes platform, developers who build AWS, Java language, PyTorch, Inventing Algorithms, etc.&lt;/p&gt;
-
-&lt;p&gt;At a company level, there is always a common code and microservice chassis that can be abstracted away to make everyone else’s code lighter.&lt;/p&gt;
+&lt;p&gt;At a company level, there is always a standard code and microservice chassis that can be abstracted away to make everyone else’s code lighter.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-framework-development-is-biggest-software-development-baton&quot;&gt;Why Framework Development Is Biggest Software Development Baton?&lt;/h1&gt;
 
@@ -96,11 +94,11 @@
 
 &lt;p&gt;The impact that framework developers have is much bigger than any domain developer.&lt;/p&gt;
 
-&lt;p&gt;For example, Spring Native speeds up load time for spring boot applications from 2.8 seconds to .3 seconds. That’s a very big performance difference that every developer in the world can adopt just by adding a maven package.&lt;/p&gt;
+&lt;p&gt;For example, Spring Native speeds up load time for spring boot applications from 2.8 seconds to .3 seconds. Every developer can adopt a huge performance difference just by adding a maven package.&lt;/p&gt;
 
-&lt;p&gt;Similarly: an algorithm like Dikshtra’s Shortest Path has had a much bigger impact than the work of most application developers.&lt;/p&gt;
+&lt;p&gt;Similarly: an algorithm like Dikshtra’s Shortest Path has had a much more significant impact than the work of most application developers.&lt;/p&gt;
 
-&lt;p&gt;Though many algorithms are usually invented to solve domain problems and become part of a framework when it gets abstracted.&lt;/p&gt;
+&lt;p&gt;Domain problems lead to the need for new algorithms, which eventually becomes part of a framework when it gets abstracted.&lt;/p&gt;
 
 &lt;p&gt;Frameworks like Spring Boot, Platforms like Kubernetes and Cloud Provides like AWS have had a much higher impact than any individual.&lt;/p&gt;
 
