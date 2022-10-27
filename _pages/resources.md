@@ -15,6 +15,7 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 - [Philippe Bourgau's XP Coaching Blog](https://philippe.bourgau.net/)
 - [Emre Bolat](https://emre.me/)
+- [Honeypot - YouTube](https://www.youtube.com/c/Honeypotio/videos): Documentary for developers
 
 ## Podcast: 
 - 2022
@@ -94,15 +95,17 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Webhooks](https://webhooks.fyi/)
 
 ## Spring Boot and Java
-- 2022 Sep
-    - [Top 10 Most Common Spring Framework Mistakes](https://www.toptal.com/spring/top-10-most-common-spring-framework-mistakes)
-    - [Realtime user tracking in Spring Boot](https://medium.com/geekculture/realtime-user-tracking-in-spring-boot-d8fb343a6c3c)
-    - [Metrics for your Spring REST API](https://www.baeldung.com/spring-rest-api-metrics)
-    - [Spring boot playground](https://github.com/odrotbohm/spring-playground): Some interesting helper libraries
-    - [JMolecular](https://github.com/xmolecules/jmolecules): Makes it easy to implement Domain Driven Design
-- 2022 Oct
-    - [Spring Boot Best Practices](https://medium.com/@raviyasas/spring-boot-best-practices-for-developers-3f3bdffa0090)
-     
+- 2022
+    - Sep
+        - [Top 10 Most Common Spring Framework Mistakes](https://www.toptal.com/spring/top-10-most-common-spring-framework-mistakes)
+        - [Realtime user tracking in Spring Boot](https://medium.com/geekculture/realtime-user-tracking-in-spring-boot-d8fb343a6c3c)
+        - [Metrics for your Spring REST API](https://www.baeldung.com/spring-rest-api-metrics)
+        - [Spring boot playground](https://github.com/odrotbohm/spring-playground): Some interesting helper libraries
+        - [JMolecular](https://github.com/xmolecules/jmolecules): Makes it easy to implement Domain Driven Design
+    - Oct
+        - [Spring Boot Best Practices](https://medium.com/@raviyasas/spring-boot-best-practices-for-developers-3f3bdffa0090)
+        - [Building a Framework on top of Spring Boot by Rubén Pahíno - Spring I/O 2022 Sessions - YouTube](https://www.youtube.com/watch?v=1qT__SBWOhA&t=3s)
+
 ## Maven Plugin
 - 2022 Sep
     - [Maven Plugin: Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector): This is important when doing concurrent programming.
@@ -184,7 +187,12 @@ I read/consume many resources and I thought this would be a good way to link to 
 - Presentation:
     - 2022 Oct:
         - [Tool: Mentimeter](https://www.youtube.com/watch?v=UrFdN-HQF6I&ab_channel=Mentimeter)
-    
+
+## Leadership
+- 2022
+    - Oct
+        - [The Leadership Principles Explained - YouTube](https://www.youtube.com/playlist?list=PL9JNmYfQa0bgT_eJKk2uflwtiBIpbImdB)
+
 ## Agile
 - 2022 
     - Aug
