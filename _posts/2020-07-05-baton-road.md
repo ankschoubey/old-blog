@@ -46,9 +46,10 @@ Someday the 🔥 baton will pass on to our generation. Hopefully, I'll be ready.
 
 {% include twitter.html content="https://twitter.com/elonmusk/status/1237595612473749504?s=20" %}
 
-
-###### *Footnotes*
-
 [^1]: Zero to One by Peter Thiel
 [^2]: The title 'Baton Road' is inspired by Boruto: Naruto Next Generations Intro 1
 [^3]: [Steve Jobs Secrets of Life](https://www.youtube.com/watch?v=kYfNvmF0Bqw)
+
+## More posts in the series
+
+{% include postsOfTag.html tag='baton' %}
