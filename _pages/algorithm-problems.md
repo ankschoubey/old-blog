@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 
-permalink: /algorithm-problems/
+permalink: /algorithm-problem/
 ---
 
 # Algorithm Problems
