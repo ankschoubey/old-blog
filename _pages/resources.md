@@ -34,6 +34,7 @@ I read/consume many resources and I thought this would be a good way to link to 
         - Daily: [Commitlint Online - lint commit messages online](https://commitlint.io/)
         - Daily: [Pomodoro Timer Online - Pomofocus](https://pomofocus.io/)
         - Automation: [GitCup](https://meldim.github.io/#features)
+        - [Screen Recorder - Chrome Web Store](https://chrome.google.com/webstore/detail/screen-recorder/hniebljpgcogalllopnjokppmgbhaden/related?hl=en)
 
 ## 10x developer
 - 2022
