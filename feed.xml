@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-28T11:15:14-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-10-29T02:18:23-05:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,84 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why Framework Development Is Biggest Software Development Baton?</title><link href="www.ankushchoubey.com/domain-vs-framework-development/" rel="alternate" type="text/html" title="Why Framework Development Is Biggest Software Development Baton?" /><published>2022-10-27T00:00:00-05:00</published><updated>2022-10-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/domain-vs-framework-development</id><content type="html" xml:base="www.ankushchoubey.com/domain-vs-framework-development/">&lt;p&gt;&lt;img src=&quot;/images/domain-vs-framework-development.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blind 75 Two Sums</title><link href="www.ankushchoubey.com/v1/two-sums" rel="alternate" type="text/html" title="Blind 75 Two Sums" /><published>2022-10-29T00:00:00-05:00</published><updated>2022-10-29T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1/v1-two-sums</id><content type="html" xml:base="www.ankushchoubey.com/v1/two-sums">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/two-sum/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7KHKFqLPMbs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;https://youtu.be/7KHKFqLPMbs&lt;/p&gt;
+
+&lt;h2 id=&quot;problem-and-constraints&quot;&gt;Problem and Constraints&lt;/h2&gt;
+
+&lt;p&gt;Given an array, find two numbers that add up to a target.&lt;/p&gt;
+
+&lt;p&gt;Make sure not to use the same index twice.&lt;/p&gt;
+
+&lt;h2 id=&quot;all-approaches-and-explanations-in-english&quot;&gt;All Approaches and Explanations in English&lt;/h2&gt;
+
+&lt;h3 id=&quot;on2-solution-o1-space-complexity&quot;&gt;O(n^2) solution. O(1) space complexity&lt;/h3&gt;
+
+&lt;p&gt;Have two loops. 
+One at the first element. Others will check other elements to the right of the first index.&lt;/p&gt;
+
+&lt;p&gt;Repeat until the index is found.&lt;/p&gt;
+
+&lt;h3 id=&quot;on-time-complexity-on-space-complexity&quot;&gt;O(n) time complexity. O(n) space complexity&lt;/h3&gt;
+
+&lt;p&gt;Create a map and store the elements in it along with an index.&lt;/p&gt;
+
+&lt;p&gt;While storing, check if the target-current number exists in the map.&lt;/p&gt;
+
+&lt;p&gt;If it exists, then you have found the element.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-if-any&quot;&gt;Code, if any&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;bruteForceOn2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt; 
+        &lt;span class=&quot;c1&quot;&gt;// Time Complexity: O(n^2)&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// Space Complexity: O(1)&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/*
+        Runtime: 89 ms, faster than 27.47% of Java online submissions for Two Sum.
+        Memory Usage: 42.5 MB, less than 90.67% of Java online submissions for Two Sum.
+        */&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++){&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++){&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+                    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;optimized&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+         &lt;span class=&quot;c1&quot;&gt;// Time Complexity: O(n)&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// Space Complexity: O(n)&lt;/span&gt;
+        &lt;span class=&quot;cm&quot;&gt;/*
+        Runtime: 4 ms, faster than 89.24% of Java online submissions for Two Sum.
+        Memory Usage: 45.7 MB, less than 31.53% of Java online submissions for Two Sum
+        */&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;indexes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
+        
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++){&lt;/span&gt;
+            &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;currentNumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+            &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;neededNumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;currentNumber&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indexes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsKey&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;neededNumber&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;indexes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;neededNumber&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;indexes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;currentNumber&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;twoSum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;//return bruteForceOn2(nums, target);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;optimized&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="arrays" /><summary type="html">Link</summary></entry><entry><title type="html">Why Framework Development Is Biggest Software Development Baton?</title><link href="www.ankushchoubey.com/domain-vs-framework-development/" rel="alternate" type="text/html" title="Why Framework Development Is Biggest Software Development Baton?" /><published>2022-10-27T00:00:00-05:00</published><updated>2022-10-27T15:52:08-05:00</updated><id>www.ankushchoubey.com/domain-vs-framework-development</id><content type="html" xml:base="www.ankushchoubey.com/domain-vs-framework-development/">&lt;p&gt;&lt;img src=&quot;/images/domain-vs-framework-development.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.pexels.com/photo/brown-and-white-concrete-building-227729/&quot;&gt;Photo by Markus Spiske&lt;/a&gt;&lt;/p&gt;
 
@@ -381,135 +458,4 @@
 
 &lt;p&gt;The most important thing in software development is finishing functional requirements.&lt;/p&gt;
 
-&lt;p&gt;Non-Functional requirements and requirements like how modular the code is should be discussed with the business, as all this takes away from productive time.&lt;/p&gt;</content><author><name></name></author><category term="experience" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/development-mistakes.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/development-mistakes.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Values Overtime - Pointers, Motivations</title><link href="www.ankushchoubey.com/core-values-overtime/" rel="alternate" type="text/html" title="Core Values Overtime - Pointers, Motivations" /><published>2022-10-05T00:00:00-05:00</published><updated>2022-10-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/core-values-overtime</id><content type="html" xml:base="www.ankushchoubey.com/core-values-overtime/">&lt;h2 id=&quot;productive&quot;&gt;Productive&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;Oct
-        &lt;ul&gt;
-          &lt;li&gt;Motivation
-            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/CiyHB24KRF-/?igshid=MDJmNzVkMjY%3D&quot;&gt;Tate&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;inputs&quot;&gt;Inputs&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;Oct
-        &lt;ul&gt;
-          &lt;li&gt;Having a negative mindset is worst than having a negative outcome or setback.&lt;/li&gt;
-          &lt;li&gt;Motivation
-            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/CjF-IeEpGFN/?igshid=MDJmNzVkMjY%3D&quot;&gt;“Less is Actually More: What is a Low-Information Diet”&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;responsible&quot;&gt;&lt;strong&gt;Responsible&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;Oct
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/CjKGNHHIr0K/?igshid=MDJmNzVkMjY%3D&quot;&gt;Competence&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;peace&quot;&gt;Peace&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;Oct
-        &lt;ul&gt;
-          &lt;li&gt;Zoom out&lt;/li&gt;
-          &lt;li&gt;Breath Deeply&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/CjGrrdegCZ4/?igshid=MDJmNzVkMjY%3D&quot;&gt;“Stress doesn’t come from hard work”&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/reel/CjDnf8ZDIOa/?igshid=MDJmNzVkMjY%3D&quot;&gt;You don’t need a relationship&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Sep
-        &lt;ul&gt;
-          &lt;li&gt;Do not rush anything&lt;/li&gt;
-          &lt;li&gt;Do not avoid anything&lt;/li&gt;
-          &lt;li&gt;Have forward moving activities and novelty&lt;/li&gt;
-          &lt;li&gt;Do what everyone else does&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;truth-seeking&quot;&gt;Truth Seeking&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;Oct
-        &lt;ul&gt;
-          &lt;li&gt;Always tell the truth. Be useful and be kind&lt;/li&gt;
-          &lt;li&gt;Ask good queston! #knockOnTheDoorAndDoorShallOpen&lt;/li&gt;
-          &lt;li&gt;Really Think&lt;/li&gt;
-          &lt;li&gt;Don’t go too theorotical&lt;/li&gt;
-          &lt;li&gt;Insincerity: &lt;a href=&quot;https://www.youtube.com/watch?v=IwKUirWg3eA&quot;&gt;This Book Made Me Disgusted with Tik Tok &amp;amp; Social Media - YouTube&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;systems-thinking&quot;&gt;Systems Thinking&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;Sep
-        &lt;ul&gt;
-          &lt;li&gt;Prioritize and do less
-            &lt;ul&gt;
-              &lt;li&gt;1 problem/step at a time&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Understand the problem before looking at solution
-            &lt;ul&gt;
-              &lt;li&gt;Direct all focus towards root cause or risk (finding and fixing)&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Stick with the system
-            &lt;ul&gt;
-              &lt;li&gt;Minimal routines&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Have deadlines&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;team-work&quot;&gt;Team Work&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;2022
-    &lt;ul&gt;
-      &lt;li&gt;Sep
-        &lt;ul&gt;
-          &lt;li&gt;Work as a team&lt;/li&gt;
-          &lt;li&gt;Discuss&lt;/li&gt;
-          &lt;li&gt;Really Listen&lt;/li&gt;
-          &lt;li&gt;Have alert trust&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html">Productive 2022 Oct Motivation Tate</summary></entry></feed>
+&lt;p&gt;Non-Functional requirements and requirements like how modular the code is should be discussed with the business, as all this takes away from productive time.&lt;/p&gt;</content><author><name></name></author><category term="experience" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/development-mistakes.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/development-mistakes.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
