@@ -12,6 +12,9 @@ permalink: /non-technical/
     .custom-post-card-toc{
         display: none !important;
     }
+    .tag-list{
+        font-size: 13px;
+    }
     </style>
 
 {% for post in site.categories['non-professional'] %}
