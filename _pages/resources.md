@@ -221,6 +221,7 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [Top 6 Coding Interview Concepts (Data Structures & Algorithms) - YouTube](https://www.youtube.com/watch?v=ft0owvS5tQA)
         - [EASY - YouTube](https://www.youtube.com/playlist?list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ)
         - [LeetCode Cheat Sheet — PIRATE KING](https://www.piratekingdom.com/leetcode/cheat-sheet)
+        - **Best Resource for Practice**: [NeetCode Practice](https://neetcode.io/practice)
 
 # Chaos Engineering
 - 2022 Sep
