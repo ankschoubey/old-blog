@@ -11,6 +11,19 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 # Resources and Some Notes
 
+## Algorithm
+- 2022
+    - August
+        - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
+        - [Grokking Coding Interview Free Alternatives](https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
+        - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+    - Oct
+        - [Top 8 Data Structures for Coding Interviews - YouTube](https://www.youtube.com/watch?v=uhYq27iSk9s)
+        - [Top 6 Coding Interview Concepts (Data Structures & Algorithms) - YouTube](https://www.youtube.com/watch?v=ft0owvS5tQA)
+        - [EASY - YouTube](https://www.youtube.com/playlist?list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ)
+        - [LeetCode Cheat Sheet — PIRATE KING](https://www.piratekingdom.com/leetcode/cheat-sheet)
+        - **Best Resource for Practice**: [NeetCode Practice](https://neetcode.io/practice)
+
 ## Interesting Blogs
 
 - [Philippe Bourgau's XP Coaching Blog](https://philippe.bourgau.net/)
@@ -209,19 +222,6 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [Initial Project development process](https://www.activelamp.com/video/discovery/our-discovery-process)
         - [AgilityHealth 3 min Explainer Video - YouTube](https://www.youtube.com/watch?v=6z0qdMO29FM)
         - [Agile Simulation Videos - YouTube](https://www.youtube.com/playlist?list=PLBF7FCBE7E2ECF1FB)
-
-## Algorithm
-- 2022
-    - August
-        - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
-        - [Grokking Coding Interview Free Alternatives](https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
-        - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
-    - Oct
-        - [Top 8 Data Structures for Coding Interviews - YouTube](https://www.youtube.com/watch?v=uhYq27iSk9s)
-        - [Top 6 Coding Interview Concepts (Data Structures & Algorithms) - YouTube](https://www.youtube.com/watch?v=ft0owvS5tQA)
-        - [EASY - YouTube](https://www.youtube.com/playlist?list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ)
-        - [LeetCode Cheat Sheet — PIRATE KING](https://www.piratekingdom.com/leetcode/cheat-sheet)
-        - **Best Resource for Practice**: [NeetCode Practice](https://neetcode.io/practice)
 
 # Chaos Engineering
 - 2022 Sep
