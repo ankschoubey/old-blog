@@ -8,14 +8,6 @@ permalink: /non-technical/
 
 {% include replace_nav_with_icons.html %}
 
-<style>
-    .custom-post-card-toc{
-        display: none !important;
-    }
-    .tag-list{
-        font-size: 13px;
-    }
-    </style>
 
 {% for post in site.categories['non-professional'] %}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -24,11 +16,3 @@ permalink: /non-technical/
 </article>
 {% endfor %}
 
-{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-<ul class="post-list">
-{% for post in site.categories['non-professional'] %}
-      <li>
-    {%- include custom_post_list_image_card.html -%}
-    </li>
-{% endfor %}
-</ul>
