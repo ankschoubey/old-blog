@@ -22,7 +22,7 @@ layout: default
   {% for post in rawposts %}
     {% if post.hide != true" %}
       {% if post.categories contains "non-professional"  %}
-      {% elsif post.categories contains "algorithm-problem" %}
+      {% elsif post.categories contains "algorithm-problems" %}
       {% else %}
         {% assign posts = posts|push:post%}
       {% endif %}
