@@ -8,6 +8,12 @@ permalink: /non-technical/
 
 {% include replace_nav_with_icons.html %}
 
+<style>
+    .custom-post-card-toc{
+        display: none !important;
+    }
+    </style>
+
 {% for post in site.categories['non-professional'] %}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <article class="archive-item">
