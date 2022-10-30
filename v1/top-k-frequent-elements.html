@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>PREFER UPDATING A BLOG OVER WRITING NEW ONES | Ankush Choubey</title>
+<title>Blind 75 - Top K Frequent Elements - IMP | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="PREFER UPDATING A BLOG OVER WRITING NEW ONES">
+<meta property="og:title" content="Blind 75 - Top K Frequent Elements - IMP">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Full Stack Developer - Cloud/Microservices">
-<meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
-<link rel="canonical" href="www.ankushchoubey.com/post-format/">
-<meta property="og:url" content="www.ankushchoubey.com/post-format/">
+<meta name="description" content="count all numbers. sort. and return top k. Use streams to make it cleaner. or use bucket sort.">
+<meta property="og:description" content="count all numbers. sort. and return top k. Use streams to make it cleaner. or use bucket sort.">
+<link rel="canonical" href="www.ankushchoubey.com/v1/top-k-frequent-elements">
+<meta property="og:url" content="www.ankushchoubey.com/v1/top-k-frequent-elements">
 <meta property="og:site_name" content="Ankush Choubey">
-<meta property="og:image" content="www.ankushchoubey.com/images/n-plus-one.svg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2050-09-26T00:00:00-05:00">
+<meta property="article:published_time" content="2022-10-30T00:00:00-05:00">
 <script type="application/ld+json">
-{"headline":"PREFER UPDATING A BLOG OVER WRITING NEW ONES","url":"www.ankushchoubey.com/post-format/","dateModified":"2022-09-23T15:52:08-05:00","datePublished":"2050-09-26T00:00:00-05:00","@type":"BlogPosting","image":"www.ankushchoubey.com/images/n-plus-one.svg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/post-format/"},"description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
+{"headline":"Blind 75 - Top K Frequent Elements - IMP","url":"www.ankushchoubey.com/v1/top-k-frequent-elements","dateModified":"2022-10-30T15:52:08-05:00","datePublished":"2022-10-30T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/top-k-frequent-elements"},"description":"count all numbers. sort. and return top k. Use streams to make it cleaner. or use bucket sort.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -125,12 +124,13 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">PREFER UPDATING A BLOG OVER WRITING NEW ONES</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Blind 75 - Top K Frequent Elements - IMP</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2050-09-26T00:00:00-05:00" itemprop="datePublished">
-        Written: Sep 26, 2050
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-09-23T15:52:08-05:00" itemprop="dateModified">
-          Updated: Sep 23, 2022
+    <p class="page-description">count all numbers. sort. and return top k. Use streams to make it cleaner. or use bucket sort.</p>
+<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-10-30T00:00:00-05:00" itemprop="datePublished">
+        Written: Oct 30, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-10-30T15:52:08-05:00" itemprop="dateModified">
+          Updated: Oct 30, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -159,6 +159,20 @@ window.onload = wrap_img;
 <script>
         AOS.init();
 </script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag algorithm-problems" href="/categories/#algorithm-problems">algorithm-problems</a>
+    
+    <a class="tag fa fa-hashtag arrays" href="/categories/#arrays">arrays</a>
+    
+    <a class="tag fa fa-hashtag medium" href="/categories/#medium">medium</a>
+    
+    <a class="tag fa fa-hashtag heap" href="/categories/#heap">heap</a>
+    
+    <a class="tag fa fa-hashtag bucket-sort" href="/categories/#bucket-sort">bucket-sort</a>
+    
+</div>
 <div class="right-section">
 <a id="translate-btn" href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
     <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
@@ -196,78 +210,69 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <ul class="section-nav">
-<li class="toc-entry toc-h1">
-<a href="#prefer-updating-a-blog-over-writing-new-ones">PREFER UPDATING A BLOG OVER WRITING NEW ONES</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#writing-steps">Writing Steps</a></li>
-</ul>
-</li>
-</ul>
-<p><img src="/images/switch-jobs.jpg" alt=""></p>
+    <p><a href="https://leetcode.com/problems/top-k-frequent-elements/">Link</a></p>
 
-<h1 id="prefer-updating-a-blog-over-writing-new-ones">
-<a class="anchor" href="#prefer-updating-a-blog-over-writing-new-ones" aria-hidden="true"><span class="octicon octicon-link"></span></a>PREFER UPDATING A BLOG OVER WRITING NEW ONES</h1>
+<h2 id="learning-from">Learning From</h2>
 
-<h2 id="writing-steps">
-<a class="anchor" href="#writing-steps" aria-hidden="true"><span class="octicon octicon-link"></span></a>Writing Steps</h2>
+<p><a href="https://neetcode.io/practice">NeetCode</a></p>
 
-<p>If I write from POV that how I got the this idea and how I thought about it, readers will know thinking behing an idea and not just the preachiness. Plus, I’ll always have the right words to write.</p>
+<h2 id="asked-at">Asked at</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>Task</th>
-      <th>Done</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Structure Done</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <td>Thoughts Written</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <td>Thoughts Edited</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <td>Grammar Check Done</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">Perfect Grammarly Score</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <td>Image Added  https://www.canva.com/</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <td>Links to Other Posts if Any</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <td>Tags Added</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <td>Released Publically</td>
-      <td>N</td>
-    </tr>
-  </tbody>
-</table>
+<p>Amazon Facebook Oracle Apple Microsoft Google Uber Adobe Snapchat Cisco Shopee Bloomberg Indeed ByteDance Tesla Arcesium Twitter Dropbox eBay VMware Netflix tiktok Deloitte</p>
+
+<p><a href="https://seanprashad.com/leetcode-patterns/">Source</a></p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7KHKFqLPMbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>https://youtu.be/7KHKFqLPMbs</p>
+
+<h2 id="problem-and-constraints">Problem and Constraints</h2>
+
+<p>Get k numbers repeated most often.</p>
+
+<h2 id="all-approaches-and-explanations-in-english">All Approaches and Explanations in English</h2>
+
+<h3 id="onlog-n">O(n*log n)</h3>
+
+<p>count all numbers. sort. and return top k. Use streams to make it cleaner.</p>
+
+<h3 id="code-if-any">Code, if any</h3>
+
+<h2 id="normal-solution">Normal Solution</h2>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">bruteforce</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">nums</span><span class="o">,</span> <span class="kt">int</span> <span class="n">k</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">,</span> <span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">counts</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashMap</span><span class="o">&lt;&gt;();</span>
+        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="nl">num:</span> <span class="n">nums</span><span class="o">){</span> <span class="c1">// O(n)</span>
+            <span class="n">counts</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">num</span><span class="o">,</span> <span class="n">counts</span><span class="o">.</span><span class="na">getOrDefault</span><span class="o">(</span><span class="n">num</span><span class="o">,</span> <span class="mi">0</span><span class="o">)</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">counts</span><span class="o">.</span><span class="na">entrySet</span><span class="o">()</span>
+                <span class="o">.</span><span class="na">stream</span><span class="o">()</span>
+                <span class="o">.</span><span class="na">sorted</span><span class="o">(</span><span class="nc">Map</span><span class="o">.</span><span class="na">Entry</span><span class="o">.</span><span class="na">comparingByValue</span><span class="o">())</span> <span class="c1">// // O(n * log(n))</span>
+                <span class="o">.</span><span class="na">skip</span><span class="o">(</span><span class="n">counts</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">-</span> <span class="n">k</span><span class="o">)</span>
+                <span class="o">.</span><span class="na">map</span><span class="o">(</span><span class="nc">Map</span><span class="o">.</span><span class="na">Entry</span><span class="o">::</span><span class="n">getKey</span><span class="o">)</span>
+                <span class="o">.</span><span class="na">mapToInt</span><span class="o">(</span><span class="nl">Integer:</span><span class="o">:</span><span class="n">intValue</span><span class="o">)</span>
+                <span class="o">.</span><span class="na">toArray</span><span class="o">();</span>
+    <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">topKFrequent</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">nums</span><span class="o">,</span> <span class="kt">int</span> <span class="n">k</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="nf">bruteforce</span><span class="o">(</span><span class="n">nums</span><span class="o">,</span> <span class="n">k</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<h2 id="heap-solution-oklogn">Heap Solution O(k*log(n)</h2>
+
+<h2 id="bucket-sort">Bucket Sort</h2>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/v1/valid-anagrams">« V1 Valid Anagrams</a>
+      <a class="prev" href="/v1/group-anagrams">« Blind 75 - Group Anagram</a>
     
+    
+      <a class="next" href="/v1/valid-anagrams">V1 Valid Anagrams »</a>
     
   </div>
 
@@ -297,8 +302,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/post-format/';
-      this.page.identifier = 'www.ankushchoubey.com/post-format/';
+      this.page.url = 'www.ankushchoubey.com/v1/top-k-frequent-elements';
+      this.page.identifier = 'www.ankushchoubey.com/v1/top-k-frequent-elements';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -309,7 +314,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/post-format/" hidden></a>
+<a class="u-url" href="/v1/top-k-frequent-elements" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
