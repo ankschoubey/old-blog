@@ -23,6 +23,8 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [EASY - YouTube](https://www.youtube.com/playlist?list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ)
         - [LeetCode Cheat Sheet — PIRATE KING](https://www.piratekingdom.com/leetcode/cheat-sheet)
         - **Best Resource for Practice**: [NeetCode Practice](https://neetcode.io/practice)
+    - Nov
+        - [Leetcode 75 Questions (NeetCode on yt) - Google Sheets](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0)
 
 ## Interesting Blogs
 
