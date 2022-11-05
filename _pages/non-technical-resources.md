@@ -44,6 +44,8 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - 2022
         - Oct
             - [Untools](https://untools.co/)
+        - Nov
+            - The more personal responsibility you take on and fullfil. The more incontrol you’ll feel. This will give you strength and power.
 - Cognitive Biases
     - 2022
         - Oct
@@ -71,7 +73,8 @@ In these resources, try to only consume the parts you need. Let go or parts you 
         - YouTube Channel: [Communication Coach Alex Lyon](https://www.youtube.com/c/CommunicationSkillsCoachAlexLyon)
     - Oct
         - [Hacking Your Speaking Anxiety: How Lessons from Neuroscience Can Help You Communicate Confidently - Stanford Graduate School of Business](https://www.gsb.stanford.edu/insights/hacking-your-speaking-anxiety-how-lessons-neuroscience-can-help-you-communicate)
-        - 
+    - Nov
+        - I’m gonna choose to live my life better in reality! Not online
 
 ## Negotiation
 - 2022

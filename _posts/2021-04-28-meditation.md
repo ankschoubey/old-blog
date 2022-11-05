@@ -52,3 +52,7 @@ Your goal while meditating is not be become a meditator. Your goals is to invest
 The progress of meditating is seen when you are not formally meditating. It includes a calmness if things you do.
 
 Don’t be rigid while meditating. Let yourself flow.
+
+# Do the opposite
+
+[Andrew Huberman](https://www.instagram.com/reel/CkbOzTMJn4m/?igshid=MDJmNzVkMjY%3D)
