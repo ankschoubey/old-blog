@@ -12,6 +12,22 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+## Relationship
+- 2022
+    - Oct
+        - [These 4 Factors Can Predict Long-Term Romantic Compatibility - Brit + Co](https://www.brit.co/these-factors-affect-long-term-romantic-compatibility/)
+            - Fight Factor
+            - Grumpy Factor
+            - Ambition Factor
+            - Social Factor
+        - [7 Ways to Respond to Make Someone Feel Heard](https://www.instagram.com/p/CjymVTUPgY-/?utm_source=ig_web_button_share_sheet)
+        - [Matthew Hussey - Respect your relationship](https://www.instagram.com/reel/CjT1y9ig2oQ/?igshid=MDJmNzVkMjY%3D)
+        - [Angelika Koch -Love is an action… feelings fluctuate. Love remains steady.](https://www.instagram.com/reel/Cj5rdp0gNAW/?igshid=MDJmNzVkMjY%3D)
+        - Anxious Attachment: [@candicetamara](https://www.instagram.com/candicetamara_/?hl=en)
+        - [You don't need a relationship](https://www.instagram.com/reel/CjDnf8ZDIOa/?igshid=MDJmNzVkMjY%3D)
+    - Nov
+        - [Understand the difference between healthy love and unhealthy love](https://www.instagram.com/star_the_mentalhealthcoach/)
+
 ## Songs
 - [One Punch Man FULL ENGLISH OPENING (The Hero - Jam Project) Cover by Jonathan Young - YouTube](https://www.youtube.com/watch?v=XMCYNH1EJTg)
 
@@ -38,6 +54,11 @@ In these resources, try to only consume the parts you need. Let go or parts you 
             - Cross walk
             - Reflective Surface
         - [Take my Security Test - YouTube](https://www.youtube.com/watch?v=ajKnXDt3qbE)
+
+## Stoicism
+- 2022
+    - Nov
+        - [Guilt is not a constructive emotion … thx @ryanholiday for being on the podcast"](https://www.instagram.com/reel/CkYNg59Ax4Y/?igshid=MDJmNzVkMjY%3D)
 
 ## Decision Making
 - General
@@ -81,19 +102,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - Oct
         - [Negotiation Tips - How to Get Past Ultimatums - YouTube](https://www.youtube.com/watch?v=t9x259wr46A): Get into a choice mindset. Pause the negotiations. Note all choices you have and all the choices the other side has. Now you can come back to negotiation with meaningful questions: what about this…
 
-## Relationship
-- 2022
-    - Oct
-        - [These 4 Factors Can Predict Long-Term Romantic Compatibility - Brit + Co](https://www.brit.co/these-factors-affect-long-term-romantic-compatibility/)
-            - Fight Factor
-            - Grumpy Factor
-            - Ambition Factor
-            - Social Factor
-        - [7 Ways to Respond to Make Someone Feel Heard](https://www.instagram.com/p/CjymVTUPgY-/?utm_source=ig_web_button_share_sheet)
-        - [Matthew Hussey - Respect your relationship](https://www.instagram.com/reel/CjT1y9ig2oQ/?igshid=MDJmNzVkMjY%3D)
-        - [Angelika Koch -Love is an action… feelings fluctuate. Love remains steady.](https://www.instagram.com/reel/Cj5rdp0gNAW/?igshid=MDJmNzVkMjY%3D)
-        - Anxious Attachment: [@candicetamara](https://www.instagram.com/candicetamara_/?hl=en)
-        - [You don't need a relationship](https://www.instagram.com/reel/CjDnf8ZDIOa/?igshid=MDJmNzVkMjY%3D)
+
 
 ## Philosophy:
 - 2022
@@ -162,6 +171,11 @@ In these resources, try to only consume the parts you need. Let go or parts you 
         - [Best Places To Visit In India That Feels International](https://www.noblehousetours.com/best-places-to-visit-in-india-that-feels-international/)
         - [Best Indian Destinations to Visit in 2022 Month by Month Inspiration](https://www.noblehousetours.com/best-indian-destinations-to-visit-in-2021-month-by-month-inspiration/)
         - [Best Time to Visit India - Climate Guide - Audley Travel](https://www.audleytravel.com/india/best-time-to-visit#nov)
+
+## Health
+- 2022
+    - Nov
+        - [Habits Lowering and Increasing Your Testosterone"](https://www.instagram.com/reel/CjjmadwIAN-/?igshid=MDJmNzVkMjY%3D)
 
 # Job
 - 2022

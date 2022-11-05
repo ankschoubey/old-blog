@@ -6,7 +6,7 @@ categories: [core-values, responsibility, non-professional]
 last_modified_at: 2022-02-24T20:52:08.052481
 last-modified-purpose:
 permalink: /responsibility-stratergies/
-title: Strategies on Responsibility
+title: The more personal responsibility you take on and fullfil, the more incontrol you’ll feel. This will give you strength and power.
 image: /images/responsibility.png
 ---
 ![](/images/responsibility.png)

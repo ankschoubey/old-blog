@@ -227,6 +227,8 @@ I read/consume many resources and I thought this would be a good way to link to 
         - [Initial Project development process](https://www.activelamp.com/video/discovery/our-discovery-process)
         - [AgilityHealth 3 min Explainer Video - YouTube](https://www.youtube.com/watch?v=6z0qdMO29FM)
         - [Agile Simulation Videos - YouTube](https://www.youtube.com/playlist?list=PLBF7FCBE7E2ECF1FB)
+    - Nov
+        - [The Planning Onion: A Product Management Concept](https://www.stridenyc.com/blog/the-planning-onion-a-product-management-concept)
 
 # Chaos Engineering
 - 2022 Sep

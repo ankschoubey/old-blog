@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description: 
+description: Do you want to have high salary? or Do you want to have a good career? or Both?
 categories: [dev]
 last_modified_at: 2022-08-1tT20:52:08.052481
 last-modified-purpose:

@@ -41,6 +41,8 @@ Have formal sitting practice in the morning before you do any major task.
 
 There is no one perfect meditation. Different forms/formats of meditation will make you better at every form of meditation.
 
+[**Selecting the ideal meditation**](https://www.instagram.com/reel/CkbOzTMJn4m/?igshid=MDJmNzVkMjY%3D) is about moving opposite to what's automatic. If you are feeling too much inside, try to focus on the outside. If you are feeling too much outside, focus inside.
+
 Meditation can be practiced anywhere and at any time. While eating, brushing, talking to someone, using your phone or laptop. While this is great, it is not a replacement for formal sitting.
 
 When you meditate with open eyes 👀, it’s okay to look here and there. Recognize the intention to look. Where is the intention coming from.
@@ -53,6 +55,3 @@ The progress of meditating is seen when you are not formally meditating. It incl
 
 Don’t be rigid while meditating. Let yourself flow.
 
-# Do the opposite
-
-[Andrew Huberman](https://www.instagram.com/reel/CkbOzTMJn4m/?igshid=MDJmNzVkMjY%3D)

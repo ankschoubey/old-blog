@@ -69,5 +69,9 @@ You need to find a goal that pulls you towards achieving it. And towards that go
 
 There is also an element of being ethical while being competitive/aggressive. For example, you can be default aggressive while trying to improve your goals. It's a much more useful way of thinking about having an outlet for your aggression. Let your smarts be of real use to everyone.
 
+# Resources and Clips
+
+- [Narcissists will try to convince you that they love you if you try to leave the relationship](https://www.instagram.com/reel/CkWTAfwjK7V/?igshid=MDJmNzVkMjY%3D)
+
 [^1]: Robert Greene
 [^2]: Jordan Peterson
