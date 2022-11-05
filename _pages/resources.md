@@ -127,18 +127,21 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Maven Plugin: Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector): This is important when doing concurrent programming.
 
 ## Testing
-- 2022 Aug
-    - [Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html): 
-- 2022 Sep
-    - [Java Performance Testing](https://stackify.com/java-performance/)
-    - [LoadTesting Java Load4j](https://www.loadtest4j.org/): Has interesting read on SLOs via verifiable tests.
-    - Common Exceptions
-        - [We Crunched 1 Billion Java Logged Errors - Here’s What Causes 97% of Them - OverOps](https://www.overops.com/blog/we-crunched-1-billion-java-logged-errors-heres-what-causes-97-of-them-2/)
-        - [The Top 10 Exception Types in Production Java Applications - Based on 1B Events - OverOps](https://www.overops.com/blog/the-top-10-exceptions-types-in-production-java-applications-based-on-1b-events/)
-        - [Common Java Exceptions - Baeldung](https://www.baeldung.com/java-common-exceptions)
-        - [Most Common Java Exceptions - Rollbar](https://rollbar.com/blog/most-common-java-exceptions/)
-- 2022 Oct
-    - [More Testable Code with the Hexagonal Architecture](https://www.youtube.com/watch?v=ujb_O6myknY&ab_channel=JitterTed)
+- 2022
+    - Aug
+        - [Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html): 
+    - Sep
+        - [Java Performance Testing](https://stackify.com/java-performance/)
+        - [LoadTesting Java Load4j](https://www.loadtest4j.org/): Has interesting read on SLOs via verifiable tests.
+        - Common Exceptions
+            - [We Crunched 1 Billion Java Logged Errors - Here’s What Causes 97% of Them - OverOps](https://www.overops.com/blog/we-crunched-1-billion-java-logged-errors-heres-what-causes-97-of-them-2/)
+            - [The Top 10 Exception Types in Production Java Applications - Based on 1B Events - OverOps](https://www.overops.com/blog/the-top-10-exceptions-types-in-production-java-applications-based-on-1b-events/)
+            - [Common Java Exceptions - Baeldung](https://www.baeldung.com/java-common-exceptions)
+            - [Most Common Java Exceptions - Rollbar](https://rollbar.com/blog/most-common-java-exceptions/)
+    - Oct
+        - [More Testable Code with the Hexagonal Architecture](https://www.youtube.com/watch?v=ujb_O6myknY&ab_channel=JitterTed)
+    - Nov
+        - [How to Get Started with Test Driven Development — A Step by Step Guide](https://medium.com/geekculture/how-to-get-started-with-test-driven-development-a-step-by-step-guide-bfdd831fae71)
 
 ## Database
 - 2022 Aug
