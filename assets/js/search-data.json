@@ -79,7 +79,7 @@
   
     
         ,"post7": {
-            "title": "V1 Product Of Array Except Self",
+            "title": "Blind 75 - Product of Array Except Self",
             "content": "Link . Learning From . NeetCode . Asked at . 19 times. . AmazonAppleAsanaBloombergMicrosoftAdobeAmerican ExpressLyftOracleFacebookUberWalmart Global TechYahooGoogleSalesforceDE ShawPaypalGoldman SachsGrouponQualtricsTikTokZillowIBM . Source . Video . https://youtu.be/7KHKFqLPMbs . Problem and Constraints . All Approaches and Explanations in English . O(n) time complexity. O(1) space complexity . loop twice. first right to left while multiplying. then second left to right while multiplying. this can be done in a single array and one extra product variable . Code, if any . class Solution { public int[] productExceptSelf(int[] nums) { int[] outputArray = new int[nums.length]; int product=1; for(int i = 0; i&lt; nums.length; i++){ outputArray[i]=product; product = product * nums[i]; } product=1; for(int i = nums.length-1; i&gt;=0; i--){ outputArray[i]*=product; product*=nums[i]; } return outputArray; } } .",
             "url": "www.ankushchoubey.com/v1/product-of-array-except-self/",
             "relUrl": "https:///v1/product-of-array-except-self/",
@@ -101,7 +101,7 @@
   
     
         ,"post9": {
-            "title": "V1 Valid Anagrams",
+            "title": "Blind 75 - Valid Anagrams",
             "content": "Link . Video . https://youtu.be/7KHKFqLPMbs . Problem and Constraints . Check if two numbers are anagrams or not. . Anagram means one word can be made by re-arranging another word. . All Approaches and Explanations in English . O(n) time complexity. O(1) space complexity . check if the length is the same. find the difference in the count of letters in both numbers. since there are only 26 letters, you can count in a single int array of 26. index = char - ‘a’ . Code, if any . class Solution { public boolean isAnagram(String s, String t) { if(s.length() != t.length()){ return false; } int[] counts = new int[26]; for(int i = 0; i&lt;s.length(); i++){ counts[s.charAt(i) - &#39;a&#39;]++; counts[t.charAt(i) - &#39;a&#39;]--; } for(int i = 0; i&lt;counts.length; i++){ if(counts[i]!=0){ return false; }; } return true; } } .",
             "url": "www.ankushchoubey.com/v1/valid-anagrams",
             "relUrl": "https:///v1/valid-anagrams",
@@ -2537,7 +2537,7 @@
   
       ,"page2": {
           "title": "",
-          "content": "Algorithm Problems . Blind 75 - Valid Parentheses God-level solution - iterate.If an opening bracket is found, put the closing bracket in a stack.If the closing bracket is found, pop and check for equality. • Nov 6, 2022 . Blind 75 - Valid Palindrome Have 2 pointers. One at the start other at the end. Skip if `!Character.isLetterOrDigit` and compare with `Character.toLowerCase` • Nov 6, 2022 . V1 Product Of Array Except Self loop twice. first right to left while multiplying. then second left to right while multiplying. this can be done in a single array and one extra product variable • Nov 4, 2022 . V1 Valid Anagrams check if the length is the same. find the difference in the count of letters in both numbers. since there are only 26 letters, you can count in a single int array of 26. index = char - &#39;a&#39; • Oct 30, 2022 . Blind 75 - Top K Frequent Elements - IMP count all numbers. sort. and return top k. Use streams to make it cleaner. or use bucket sort. • Oct 30, 2022 . Blind 75 - Group Anagram compare the count of letters in each word and put group them in a map • Oct 30, 2022 . Blind 75 - Contains Duplicate Create a set and put items in one by one while checking if `num` is already there. • Oct 30, 2022 . Blind 75 Two Sums - Make a map of item and index. Check if target - currentItem exists. • Oct 29, 2022 .",
+          "content": "Algorithm Problems . Blind 75 - Valid Parentheses God-level solution - iterate.If an opening bracket is found, put the closing bracket in a stack.If the closing bracket is found, pop and check for equality. • Nov 6, 2022 . Blind 75 - Valid Palindrome Have 2 pointers. One at the start other at the end. Skip if `!Character.isLetterOrDigit` and compare with `Character.toLowerCase` • Nov 6, 2022 . Blind 75 - Product of Array Except Self Loop twice.first right to left while multiplying.Then second left to right while multiplying.This can be done in a single array and one extra product variable • Nov 4, 2022 . Blind 75 - Valid Anagrams check if the length is the same. find the difference in the count of letters in both numbers. since there are only 26 letters, you can count in a single int array of 26. index = char - &#39;a&#39; • Oct 30, 2022 . Blind 75 - Top K Frequent Elements - IMP count all numbers. sort. and return top k. Use streams to make it cleaner. or use bucket sort. • Oct 30, 2022 . Blind 75 - Group Anagram compare the count of letters in each word and put group them in a map • Oct 30, 2022 . Blind 75 - Contains Duplicate Create a set and put items in one by one while checking if `num` is already there. • Oct 30, 2022 . Blind 75 Two Sums - Make a map of item and index. Check if target - currentItem exists. • Oct 29, 2022 .",
           "url": "https://www.ankushchoubey.com/algorithm-problem/",
           "relUrl": "/algorithm-problem/",
           "date": ""
