@@ -4,14 +4,14 @@ layout: post
 comments: true
 description:
 categories: [philosophical, collection-of-thoughts]
-title: Meditation
+title: Meditation is how you become peaceful all the time
 permalink: /meditation/
 last_modified_at: 2021-04-28T20:42:15.624828
 image: /images/meditation.jpg
 ---
 ![](/images/meditation.jpg)
 
-Photo by <a href="https://unsplash.com/@johnmarkarnold?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">John Mark Arnold</a> on <a href="https://unsplash.com/s/photos/calm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+[Photo by cottonbro studio](https://www.pexels.com/photo/man-in-red-robe-sitting-on-tree-branch-5386374/)
 
 # What is meditation
 
