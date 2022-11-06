@@ -2,14 +2,13 @@
 layout: post
 comments: true
 description: 
-categories: [rant, 200-500 words, testing, clean-code]
+categories: [200-500 words, testing, clean-code]
 last_modified_at: 2022-11-6T20:52:08.052481
 last-modified-purpose:
-permalink: v1/junit-bug-tracking/
+permalink: /v1/junit-bug-tracking/
 title: JUnit Template For Tracking Bugs in Unit Tests
 image: /images/junit-bug-tracking.png
 ---
-![](/images/junit-bug-tracking.png)
 
 It's important to track bugs in tests. 
 1. Reproducing bugs in tests means the exact scenario gets clear
