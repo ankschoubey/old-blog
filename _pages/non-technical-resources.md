@@ -28,6 +28,12 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - Nov
         - [Understand the difference between healthy love and unhealthy love](https://www.instagram.com/star_the_mentalhealthcoach/)
 
+## Stoicism
+- 2022
+    - Nov
+        - [Guilt is not a constructive emotion … thx @ryanholiday for being on the podcast"](https://www.instagram.com/reel/CkYNg59Ax4Y/?igshid=MDJmNzVkMjY%3D)
+        - [How to Always Be in Control of Your Anger - Jocko Willink - YouTube](https://www.youtube.com/watch?v=F22ZvJR2mss)
+        
 ## Songs
 - [One Punch Man FULL ENGLISH OPENING (The Hero - Jam Project) Cover by Jonathan Young - YouTube](https://www.youtube.com/watch?v=XMCYNH1EJTg)
 
@@ -54,11 +60,6 @@ In these resources, try to only consume the parts you need. Let go or parts you 
             - Cross walk
             - Reflective Surface
         - [Take my Security Test - YouTube](https://www.youtube.com/watch?v=ajKnXDt3qbE)
-
-## Stoicism
-- 2022
-    - Nov
-        - [Guilt is not a constructive emotion … thx @ryanholiday for being on the podcast"](https://www.instagram.com/reel/CkYNg59Ax4Y/?igshid=MDJmNzVkMjY%3D)
 
 ## Decision Making
 - General
