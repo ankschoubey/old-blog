@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-06T01:32:04-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-06T01:41:18-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -96,7 +96,33 @@ Bug Description - A short one-liner which describes the bug. This should be as c
 
 &lt;ul&gt;
   &lt;li&gt;some problems on dev.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="rant" /><category term="200-500 words" /><category term="testing" /><category term="clean-code" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/junit-bug-tracking.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/junit-bug-tracking.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stress is the root cause of all health problem. Fix it.</title><link href="www.ankushchoubey.com/v2/stress" rel="alternate" type="text/html" title="Stress is the root cause of all health problem. Fix it." /><published>2022-11-05T00:00:00-05:00</published><updated>2022-11-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/v2/v1-stress</id><content type="html" xml:base="www.ankushchoubey.com/v2/stress">&lt;h1 id=&quot;identifying-stress&quot;&gt;Identifying stress?&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="rant" /><category term="200-500 words" /><category term="testing" /><category term="clean-code" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/junit-bug-tracking.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/junit-bug-tracking.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">You can have good intentions but still do the wrong things. So, keep moving towards good action too.</title><link href="www.ankushchoubey.com/v2/good-intentions-good-action" rel="alternate" type="text/html" title="You can have good intentions but still do the wrong things. So, keep moving towards good action too." /><published>2022-11-06T00:00:00-05:00</published><updated>2022-11-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/v2/v1-good-intentions-good-action</id><content type="html" xml:base="www.ankushchoubey.com/v2/good-intentions-good-action">&lt;p&gt;&lt;img src=&quot;/images/good-intentions-good-action.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;why-sometimes-having-good-intentions-is-not-enough&quot;&gt;Why sometimes having good intentions is not enough?&lt;/h1&gt;
+
+&lt;p&gt;You can be a good person. But that’s always debatable. But to cut it short, you probably have good intentions and usually make good decisions.&lt;/p&gt;
+
+&lt;p&gt;But this doesn’t mean having good intent = good decision. But having good intentions is 50% of the battle.&lt;/p&gt;
+
+&lt;p&gt;Good intentions make you more likely to make a good decision.&lt;/p&gt;
+
+&lt;p&gt;And if you are moving towards a bad action or have already half done the bad action, you can #courseCorrect. Or at least have a greater intention to course correct.&lt;/p&gt;
+
+&lt;p&gt;Identifying this disconnect between good intentions and good action is very hard. You might have really good intentions of telling the truth, but rather than being kind, you lashed out, making things bad and useless.&lt;/p&gt;
+
+&lt;p&gt;Therefore you must always be searching and moving towards good action.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-you-dont-know-the-right-action-yet-and-what-should-you-do-about-it&quot;&gt;Why you don’t know the right action yet? And what should you do about it?&lt;/h1&gt;
+
+&lt;p&gt;You can’t be paralyzed by perfection. You need to keep moving forward. Leave things not perfect and move towards doing other things well.&lt;/p&gt;
+
+&lt;p&gt;Eventually, you’ll have all other parts done and will have improved in the process.&lt;/p&gt;
+
+&lt;p&gt;You need to become responsible and develop skills to get there.&lt;/p&gt;
+
+&lt;h1 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ankushchoubey.com/my-core-values/#responsible-for-self-full-accountability-for-myself&quot;&gt;Responsibility Section of Core Values&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="health" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/good-intentions-good-action.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/good-intentions-good-action.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stress is the root cause of all health problem. Fix it.</title><link href="www.ankushchoubey.com/v2/stress" rel="alternate" type="text/html" title="Stress is the root cause of all health problem. Fix it." /><published>2022-11-05T00:00:00-05:00</published><updated>2022-11-05T15:52:08-05:00</updated><id>www.ankushchoubey.com/v2/v1-stress</id><content type="html" xml:base="www.ankushchoubey.com/v2/stress">&lt;h1 id=&quot;identifying-stress&quot;&gt;Identifying stress?&lt;/h1&gt;
 
 &lt;p&gt;Stress can have serious effects on health.&lt;/p&gt;
 &lt;ul&gt;
@@ -343,41 +369,4 @@ could have been: new String(count)&lt;/p&gt;
 
 &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;groups&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;computeIfAbsent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;letterCount&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ArrayList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;())&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;groups&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;letterCount&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="arrays" /><category term="medium" /><summary type="html">Link</summary></entry><entry><title type="html">Blind 75 - Contains Duplicate</title><link href="www.ankushchoubey.com/v1/contains-duplicate" rel="alternate" type="text/html" title="Blind 75 - Contains Duplicate" /><published>2022-10-30T00:00:00-05:00</published><updated>2022-10-30T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1/v1-contains-duplicate</id><content type="html" xml:base="www.ankushchoubey.com/v1/contains-duplicate">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/contains-duplicate/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7KHKFqLPMbs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;https://youtu.be/7KHKFqLPMbs&lt;/p&gt;
-
-&lt;h2 id=&quot;problem-and-constraints&quot;&gt;Problem and Constraints&lt;/h2&gt;
-
-&lt;p&gt;If the array contains any duplicate, return true. Else false.&lt;/p&gt;
-
-&lt;h2 id=&quot;all-approaches-and-explanations-in-english&quot;&gt;All Approaches and Explanations in English&lt;/h2&gt;
-
-&lt;h3 id=&quot;on2-solution-o1-space-complexity&quot;&gt;O(n^2) solution. O(1) space complexity&lt;/h3&gt;
-
-&lt;p&gt;Double loop. And check if the elements are equals.&lt;/p&gt;
-
-&lt;p&gt;Bad. Solution.&lt;/p&gt;
-
-&lt;h3 id=&quot;on-time-complexity-on-space-complexity&quot;&gt;O(n) time complexity. O(n) space complexity&lt;/h3&gt;
-
-&lt;p&gt;Create a set and put items in one by one while checking if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num&lt;/code&gt; is already there.&lt;/p&gt;
-
-&lt;h3 id=&quot;code-if-any&quot;&gt;Code, if any&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;containsDuplicate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;Set&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashSet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;num:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;contains&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)){&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;visited&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="arrays" /><category term="easy" /><summary type="html">Link</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="arrays" /><category term="medium" /><summary type="html">Link</summary></entry></feed>
