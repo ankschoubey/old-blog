@@ -59,3 +59,9 @@ For example, if it's a request/response scenario for a messaging app, it may req
 # Would you have to release the app on that particular platform?
 
 If yes, you'll have to work with the Product and Doc team to make sure everything is polished.
+
+# Resources
+
+{% include image.html file='/images/integrate-external-services/ibm.png' caption='Overview of Application Integration' %}
+
+Source: [What is Application Integration? - YouTube](https://www.youtube.com/watch?v=rcuu-O02xqE)
