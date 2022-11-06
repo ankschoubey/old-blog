@@ -7,19 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Blind 75 - Valid Palindrome | Ankush Choubey</title>
+<title>Blind 75 - Valid Parentheses | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Blind 75 - Valid Palindrome">
+<meta property="og:title" content="Blind 75 - Valid Parentheses">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Have 2 pointers. One at the start other at the end. Skip if !Character.isLetterOrDigit and compare with Character.toLowerCase">
-<meta property="og:description" content="Have 2 pointers. One at the start other at the end. Skip if !Character.isLetterOrDigit and compare with Character.toLowerCase">
-<link rel="canonical" href="www.ankushchoubey.com/v1/valid-palindrome">
-<meta property="og:url" content="www.ankushchoubey.com/v1/valid-palindrome">
+<meta name="description" content="God-level solution - iterate.If an opening bracket is found, put the closing bracket in a stack.If the closing bracket is found, pop and check for equality.">
+<meta property="og:description" content="God-level solution - iterate.If an opening bracket is found, put the closing bracket in a stack.If the closing bracket is found, pop and check for equality.">
+<link rel="canonical" href="www.ankushchoubey.com/v1/valid-parentheses">
+<meta property="og:url" content="www.ankushchoubey.com/v1/valid-parentheses">
 <meta property="og:site_name" content="Ankush Choubey">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-11-06T00:00:00-05:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/v1/valid-palindrome","@type":"BlogPosting","headline":"Blind 75 - Valid Palindrome","dateModified":"2022-11-06T14:52:08-06:00","datePublished":"2022-11-06T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/valid-palindrome"},"description":"Have 2 pointers. One at the start other at the end. Skip if !Character.isLetterOrDigit and compare with Character.toLowerCase","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/v1/valid-parentheses","@type":"BlogPosting","headline":"Blind 75 - Valid Parentheses","dateModified":"2022-11-06T14:52:08-06:00","datePublished":"2022-11-06T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/valid-parentheses"},"description":"God-level solution - iterate.If an opening bracket is found, put the closing bracket in a stack.If the closing bracket is found, pop and check for equality.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -124,9 +124,9 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Blind 75 - Valid Palindrome</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Blind 75 - Valid Parentheses</h1>
 
-    <p class="page-description">Have 2 pointers. One at the start other at the end. Skip if `!Character.isLetterOrDigit` and compare with `Character.toLowerCase`</p>
+    <p class="page-description">God-level solution - iterate.<br>If an opening bracket is found, put the closing bracket in a stack.<br>If the closing bracket is found, pop and check for equality.</p>
 <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-11-06T00:00:00-05:00" itemprop="datePublished">
         Written: Nov 6, 2022
       </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-11-06T14:52:08-06:00" itemprop="dateModified">
@@ -164,9 +164,7 @@ window.onload = wrap_img;
     
     <a class="tag fa fa-hashtag algorithm-problems" href="/categories/#algorithm-problems">algorithm-problems</a>
     
-    <a class="tag fa fa-hashtag two-pointers" href="/categories/#two-pointers">two-pointers</a>
-    
-    <a class="tag fa fa-hashtag easy" href="/categories/#easy">easy</a>
+    <a class="tag fa fa-hashtag stack" href="/categories/#stack">stack</a>
     
 </div>
 <div class="right-section">
@@ -206,15 +204,13 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><a href="https://leetcode.com/problems/valid-palindrome/">Link</a></p>
+    <p><a href="https://leetcode.com/problems/valid-parentheses/">Link</a></p>
 
 <h2 id="learning-from">Learning From</h2>
 
 <p><a href="https://neetcode.io/practice">NeetCode</a></p>
 
 <h2 id="asked-at">Asked at</h2>
-
-<p>No where</p>
 
 <p><a href="https://seanprashad.com/leetcode-patterns/">Source</a></p>
 
@@ -227,47 +223,85 @@ window.onload = wrap_img;
 
 <h2 id="all-approaches-and-explanations-in-english">All Approaches and Explanations in English</h2>
 
-<h3 id="on-solution-o1-space-complexity">O(n) solution. O(1) space complexity</h3>
+<h3 id="my-solution">My solution</h3>
 
-<p>Have 2 pointers. One at the start other at the end. Skip if <code class="language-plaintext highlighter-rouge">!Character.isLetterOrDigit</code> and compare with <code class="language-plaintext highlighter-rouge">Character.toLowerCase</code></p>
+<p>put if opening bracket put into the stack. If it is the closing bracket pop, check if the bracket on top is the closing bracket of the current. In the end, check if the stack is empty.</p>
 
 <h3 id="code-if-any">Code, if any</h3>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
-    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isPalindrome</span><span class="o">(</span><span class="nc">String</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
-        <span class="kt">int</span> <span class="n">l</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
-        <span class="kt">int</span> <span class="n">r</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span>
-        <span class="k">while</span><span class="o">(</span><span class="n">l</span><span class="o">&lt;</span><span class="n">r</span><span class="o">){</span>
-            <span class="kt">char</span> <span class="n">left</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">l</span><span class="o">);</span>
-            <span class="k">if</span><span class="o">(!</span><span class="nc">Character</span><span class="o">.</span><span class="na">isLetterOrDigit</span><span class="o">(</span><span class="n">left</span><span class="o">)){</span>
-                <span class="n">l</span><span class="o">++;</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isValid</span><span class="o">(</span><span class="nc">String</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">Deque</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">&gt;</span> <span class="n">stack</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayDeque</span><span class="o">&lt;&gt;();</span>
+        <span class="k">for</span><span class="o">(</span><span class="nc">Character</span> <span class="nl">c:</span> <span class="n">s</span><span class="o">.</span><span class="na">toCharArray</span><span class="o">()){</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'('</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span> <span class="sc">'{'</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span> <span class="sc">'['</span><span class="o">){</span>
+                <span class="n">stack</span><span class="o">.</span><span class="na">addLast</span><span class="o">(</span><span class="n">c</span><span class="o">);</span>
                 <span class="k">continue</span><span class="o">;</span>
             <span class="o">}</span>
-            <span class="kt">char</span> <span class="n">right</span><span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">r</span><span class="o">);</span>
-            <span class="k">if</span><span class="o">(!</span><span class="nc">Character</span><span class="o">.</span><span class="na">isLetterOrDigit</span><span class="o">(</span><span class="n">right</span><span class="o">)){</span>
-                <span class="n">r</span><span class="o">--;</span>
-                <span class="k">continue</span><span class="o">;</span>
-            <span class="o">}</span>
-            <span class="k">if</span><span class="o">(</span><span class="nc">Character</span><span class="o">.</span><span class="na">toLowerCase</span><span class="o">(</span><span class="n">left</span><span class="o">)</span> <span class="o">!=</span> <span class="nc">Character</span><span class="o">.</span><span class="na">toLowerCase</span><span class="o">(</span><span class="n">right</span><span class="o">)){</span>
+                        
+            <span class="k">if</span><span class="o">(</span><span class="n">stack</span><span class="o">.</span><span class="na">size</span><span class="o">()==</span><span class="mi">0</span><span class="o">){</span>
                 <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
             <span class="o">}</span>
-            <span class="n">l</span><span class="o">++;</span>
-            <span class="n">r</span><span class="o">--;</span>
+            
+            <span class="nc">Character</span> <span class="n">top</span> <span class="o">=</span> <span class="n">stack</span><span class="o">.</span><span class="na">removeLast</span><span class="o">();</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">']'</span> <span class="o">&amp;&amp;</span> <span class="n">top</span><span class="o">!=</span><span class="sc">'['</span><span class="o">){</span>
+                <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+            <span class="o">}</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">')'</span> <span class="o">&amp;&amp;</span> <span class="n">top</span><span class="o">!=</span><span class="sc">'('</span><span class="o">){</span>
+                <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+            <span class="o">}</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'}'</span> <span class="o">&amp;&amp;</span> <span class="n">top</span><span class="o">!=</span><span class="sc">'{'</span><span class="o">){</span>
+                <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+            <span class="o">}</span>
         <span class="o">}</span>
-        <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">stack</span><span class="o">);</span>
+        <span class="k">return</span> <span class="n">stack</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">==</span> <span class="mi">0</span><span class="o">;</span>
     <span class="o">}</span>
 <span class="o">}</span>
 </code></pre></div></div>
+
+<h2 id="god-level-solution">God-Level Solution</h2>
+
+<p>iterate. if an opening bracket is found, put the closing bracket in a stack. if the closing bracket is found, pop and check for equality.</p>
+
+<p><a href="https://leetcode.com/problems/valid-parentheses/discuss/9178/Short-java-solution">Source</a></p>
+
+<blockquote>
+  <p>maybe i am a idiot,i should give up cs</p>
+</blockquote>
+
+<blockquote>
+  <p>same 9 years education, why are u outstanding ?</p>
+</blockquote>
+
+<blockquote>
+
+  <div class="language-java highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="kt">boolean</span> <span class="nf">isValid</span><span class="o">(</span><span class="nc">String</span> <span class="n">s</span><span class="o">)</span> <span class="o">{</span>
+  <span class="k">if</span> <span class="o">((</span><span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="o">)</span> <span class="o">==</span> <span class="mi">1</span><span class="o">)</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+  <span class="k">else</span> <span class="o">{</span>
+    <span class="nc">Deque</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">&gt;</span> <span class="n">p</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayDeque</span><span class="o">&lt;&gt;(</span><span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">());</span>
+    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span>
+      <span class="k">switch</span> <span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">))</span> <span class="o">{</span>
+        <span class="k">case</span> <span class="sc">'('</span><span class="o">:</span> <span class="n">p</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="sc">')'</span><span class="o">);</span> <span class="k">break</span><span class="o">;</span>
+        <span class="k">case</span> <span class="sc">'{'</span><span class="o">:</span> <span class="n">p</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="sc">'}'</span><span class="o">);</span> <span class="k">break</span><span class="o">;</span>
+        <span class="k">case</span> <span class="sc">'['</span><span class="o">:</span> <span class="n">p</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="sc">']'</span><span class="o">);</span> <span class="k">break</span><span class="o">;</span>
+        <span class="k">case</span> <span class="sc">')'</span><span class="o">:</span> <span class="k">case</span> <span class="sc">'}'</span><span class="o">:</span> <span class="k">case</span> <span class="sc">']'</span><span class="o">:</span> <span class="k">if</span> <span class="o">(</span><span class="n">p</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">()</span> <span class="o">||</span> <span class="n">p</span><span class="o">.</span><span class="na">pop</span><span class="o">()</span> <span class="o">!=</span> <span class="n">s</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">))</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+      <span class="o">}</span>
+    <span class="k">return</span> <span class="n">p</span><span class="o">.</span><span class="na">isEmpty</span><span class="o">();</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>  </div>
+</blockquote>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/v1/junit-bug-tracking/">« JUnit Template For Tracking Bugs in Unit Tests</a>
+      <a class="prev" href="/v1/valid-palindrome">« Blind 75 - Valid Palindrome</a>
     
     
-      <a class="next" href="/v1/valid-parentheses">Blind 75 - Valid Parentheses »</a>
+      <a class="next" href="/post-format/">PREFER UPDATING A BLOG OVER WRITING NEW ONES »</a>
     
   </div>
 
@@ -297,8 +331,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/v1/valid-palindrome';
-      this.page.identifier = 'www.ankushchoubey.com/v1/valid-palindrome';
+      this.page.url = 'www.ankushchoubey.com/v1/valid-parentheses';
+      this.page.identifier = 'www.ankushchoubey.com/v1/valid-parentheses';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -309,7 +343,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/v1/valid-palindrome" hidden></a>
+<a class="u-url" href="/v1/valid-parentheses" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
