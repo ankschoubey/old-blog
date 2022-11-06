@@ -8,7 +8,7 @@ categories: [algorithm-problems, arrays]
 last_modified_at: 2022-10-30T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/valid-anagrams
-title: 
+title: Blind 75 - Valid Anagrams
 ---
 
 [Link](https://leetcode.com/problems/valid-anagrams/)

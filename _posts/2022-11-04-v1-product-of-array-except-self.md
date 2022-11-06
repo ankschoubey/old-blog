@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-description: loop twice. first right to left while multiplying. then second left to right while multiplying. this can be done in a single array and one extra product variable
+description: Loop twice.<br>first right to left while multiplying.<br>Then second left to right while multiplying.<br>This can be done in a single array and one extra product variable
 categories: [algorithm-problems, arrays]
 last_modified_at: 2022-11-04T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/product-of-array-except-self/
-title: 
+title: Blind 75 - Product of Array Except Self
 ---
 
 [Link](https://leetcode.com/problems/product-of-array-except-self/)
