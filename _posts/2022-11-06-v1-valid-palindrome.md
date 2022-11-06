@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Have 2 pointers. One at the start other at the end. Skip if `!Character.isLetterOrDigit` and compare with `Character.toLowerCase`
-categories: [algorithm-problems, two-pointers]
+categories: [algorithm-problems, two-pointers, easy]
 last_modified_at: 2022-11-6T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/valid-palindrome
