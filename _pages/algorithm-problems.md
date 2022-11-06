@@ -10,5 +10,5 @@ permalink: /algorithm-problem/
 
 {% include replace_nav_with_icons.html %}
 
-{% include postOfTag.html tag='algorithm-problems' %}
+{% include postsOfTag.html tag='algorithm-problems' %}
 

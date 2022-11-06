@@ -8,4 +8,4 @@ permalink: /non-technical/
 
 {% include replace_nav_with_icons.html %}
 
-{% include postOfTag.html tag='non-professional' %}
+{% include postsOfTag.html tag='non-professional' %}
