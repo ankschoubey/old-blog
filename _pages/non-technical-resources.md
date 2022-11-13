@@ -12,6 +12,7 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+
 ## Quantified Self
 - 2022
     - Nov
@@ -88,6 +89,14 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 - 2022
     - Oct
         - [“Habits are safer than rules; you don't have to ...”](https://www.goodreads.com/quotes/7981613-habits-are-safer-than-rules-you-don-t-have-to-watch#:~:text=Learn%20more)-,%E2%80%9CHabits%20are%20safer%20than%20rules%3B%20you%20don't%20have,They%20keep%20you.%E2%80%9D)
+    - Nov
+        - [THE CHOICE (Short Animated Movie) - YouTube](https://www.youtube.com/watch?v=_HEnohs6yYw)
+        - [4 Unsexy One-Minute Habits That Save Me 30+ Hours Every Week](https://betterhumans.pub/4-unsexy-one-minute-habits-that-save-me-30-hours-every-week-5eb49e42f84e)
+            - Time-block your day the night before.
+            - Then, micro-visualize the same schedule in the morning.
+            - When it’s time to work, speak out loud, “5–4–3–2–1: Eat the frog!” Eat the biggest frog in the morning.
+            - And then, start a timer to make sure you stay anchored to the work at hand.
+
 ## Psychology
 - 2022
     - Sep
