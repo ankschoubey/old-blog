@@ -107,8 +107,12 @@ I read/consume many resources and I thought this would be a good way to link to 
         - All of these are just to gather more and clarity requirements and what is possible.
 
 ## Web
-- 2022 Sep
-    - [Webhooks](https://webhooks.fyi/)
+- 2022
+    - Sep
+        - [Webhooks](https://webhooks.fyi/)
+    - Nov
+        - [HTTP / Webhook API Integrations - Pipedream](https://pipedream.com/apps/http)
+        - [RequestBin.com — A modern request bin to collect, inspect and debug HTTP requests and webhooks](https://requestbin.com/)
 
 ## Spring Boot and Java
 - 2022
@@ -152,7 +156,7 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [The 20/80 Rules: The 20% of DevOps skills you will use 80% of the time.](https://www.youtube.com/playlist?list=PL2qztVQdZeHNgWOv6KWWMMLnMqdFI0-6k)
 - 2022 Sep
     - [The Ancestors and Offsprings of DevOps, the Evolving DevOps Tree](https://medium.com/@schogini/the-ancestors-and-offsprings-of-devops-the-evolving-devops-tree-8bebaa7492ca)
-
+-
 ## Architecture
 - Plugin Architecture #notImplementedYet
     - 2022 Aug 22
@@ -203,6 +207,8 @@ I read/consume many resources and I thought this would be a good way to link to 
             - Running away when problems comes breaks trust.
     - Oct
         - [English Communication Is The Most Important Skill For Immigrant Engineers](https://www.jointaro.com/lesson/6WYNgaTJ9TAv46Tm60zU)
+    - Nov
+        - [Managing Remote Teams — Use Checklists](https://medium.com/javascript-scene/managing-remote-teams-use-checklists-301aae93e7a5)
 - Presentation:
     - 2022 Oct:
         - [Tool: Mentimeter](https://www.youtube.com/watch?v=UrFdN-HQF6I&ab_channel=Mentimeter)
