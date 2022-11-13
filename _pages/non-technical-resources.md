@@ -12,6 +12,11 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+## Quantified Self
+- 2022
+    - Nov
+        - [Life Cycle - Track Your Time on the App Store](https://apps.apple.com/app/id1064955217)
+        
 ## Relationship
 - 2022
     - Oct
@@ -33,7 +38,9 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - Nov
         - [Guilt is not a constructive emotion … thx @ryanholiday for being on the podcast"](https://www.instagram.com/reel/CkYNg59Ax4Y/?igshid=MDJmNzVkMjY%3D)
         - [How to Always Be in Control of Your Anger - Jocko Willink - YouTube](https://www.youtube.com/watch?v=F22ZvJR2mss)
-        
+        - Chanakya: [apne aadhe pakke khane ke bare me maat btao.](https://youtube.com/shorts/DISKHPAcyzw?feature=share)
+        - [Find difficult things to do. So that regular life feels simple. Specially physical things.](https://www.instagram.com/reel/CkjaDg6p8z3/?utm_source=ig_web_copy_link)
+
 ## Songs
 - [One Punch Man FULL ENGLISH OPENING (The Hero - Jam Project) Cover by Jonathan Young - YouTube](https://www.youtube.com/watch?v=XMCYNH1EJTg)
 
@@ -144,7 +151,9 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 ## Health
 - 2022
     - Oct
-        - [Types of head-ache](https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/11/1731029-13-Types-of-Headaches-and-How-to-Treat-Them-1296x2545-Body.jpg?w=1155&h=5344)
+        - Chart: [Types of head-ache](https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/11/1731029-13-Types-of-Headaches-and-How-to-Treat-Them-1296x2545-Body.jpg?w=1155&h=5344)
+    - Nov
+        - Chart: [Urine Color Chart: What’s Normal and When to See a Doctor](https://www.healthline.com/health/urine-color-chart#color-chart)
 
 ## Learning
 - 2022

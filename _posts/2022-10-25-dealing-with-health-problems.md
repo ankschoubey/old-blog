@@ -49,6 +49,14 @@ YouTube videos are more helpful as they provides broad context. Information here
 
 All this is doing your homework before visiting your doctor, which will help him make a more informed decision.
 
+You can collect data as:
+- Photos
+- Tests
+- Log of all events including:
+    - Food
+    - Sleep
+    - Things specific to your problem
+
 # Take your meds
 
 Get into a system to take your meds? Alarms on phones are good.
