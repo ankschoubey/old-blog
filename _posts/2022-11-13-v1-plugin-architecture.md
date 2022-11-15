@@ -7,9 +7,9 @@ last_modified_at: 2022-11-06T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/plugin-architecture
 title: How to develop a robust plugin architecture?
-image: /images/v1-plugin-architecture.jpg
+image: /images/v1-plugin-architecture/header.jpg
 ---
-![](/images/v1-plugin-architecture.jpg)
+![](/images/v1-plugin-architecture/header.jpg)
 
 Photo by <a href="https://unsplash.com/@justin_morgan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Justin Morgan</a> on <a href="https://unsplash.com/s/photos/plugin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
@@ -17,11 +17,11 @@ Disclaimer: I haven't developed an extremely complete plugin architecture myself
 
 ## Identify places in your application which you want to provide as plugin.
 
-[Image here]
+![](/images/v1-plugin-architecture/1_identify_where_to_put_plugin.jpg)
 
 ## Identify how plugin is going to share data? And can plugin update in real time? if Yes how?
 
-[Image Here]
+![](/images/v1-plugin-architecture/2_sharing_data_between_plugin.jpg)
 
 For example: 1 Plugin can be of 2 parts.
 
