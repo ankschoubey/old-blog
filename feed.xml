@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-06T11:17:41-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-15T03:33:38-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,113 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blind 75 - Valid Parentheses</title><link href="www.ankushchoubey.com/v1/valid-parentheses" rel="alternate" type="text/html" title="Blind 75 - Valid Parentheses" /><published>2022-11-06T00:00:00-05:00</published><updated>2022-11-06T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-valid-parenthesis</id><content type="html" xml:base="www.ankushchoubey.com/v1/valid-parentheses">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/valid-parentheses/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to develop a robust plugin architecture?</title><link href="www.ankushchoubey.com/v1/plugin-architecture" rel="alternate" type="text/html" title="How to develop a robust plugin architecture?" /><published>2022-11-13T00:00:00-06:00</published><updated>2022-11-06T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-plugin-architecture</id><content type="html" xml:base="www.ankushchoubey.com/v1/plugin-architecture">&lt;p&gt;&lt;img src=&quot;/images/v1-plugin-architecture.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@justin_morgan?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Justin Morgan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/plugin?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: I haven’t developed an extremely complete plugin architecture myself. What I have developed is a plugin architecture which is robust enough. There are too many points to the discussion. These are all my thoughts.&lt;/p&gt;
+
+&lt;h2 id=&quot;identify-places-in-your-application-which-you-want-to-provide-as-plugin&quot;&gt;Identify places in your application which you want to provide as plugin.&lt;/h2&gt;
+
+&lt;p&gt;[Image here]&lt;/p&gt;
+
+&lt;h2 id=&quot;identify-how-plugin-is-going-to-share-data-and-can-plugin-update-in-real-time-if-yes-how&quot;&gt;Identify how plugin is going to share data? And can plugin update in real time? if Yes how?&lt;/h2&gt;
+
+&lt;p&gt;[Image Here]&lt;/p&gt;
+
+&lt;p&gt;For example: 1 Plugin can be of 2 parts.&lt;/p&gt;
+
+&lt;p&gt;How will P1 and P2 share data?&lt;/p&gt;
+
+&lt;p&gt;Ideally, these should be microservices?&lt;/p&gt;
+
+&lt;p&gt;Note: This is how slack and teams do it.&lt;/p&gt;
+
+&lt;h2 id=&quot;define-interfaces-that-plugin-developers-can-use&quot;&gt;Define interfaces that plugin developers can use&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Zapier allows using CLI to generate a project architecture&lt;/li&gt;
+  &lt;li&gt;They have specific interfaces that can be used for generating plugin&lt;/li&gt;
+  &lt;li&gt;They also have a z object that can be used for a limited set of features such as API calls.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;keep-your-product-as-lean-as-possible&quot;&gt;Keep your product as lean as possible&lt;/h2&gt;
+
+&lt;p&gt;First hand features should also be plugins.&lt;/p&gt;
+
+&lt;p&gt;You could have 2 interfaces for this.&lt;/p&gt;
+
+&lt;p&gt;1 for publish &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pluginInterface&lt;/code&gt;
+2 for first hand &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;interface firstHand extends pluginInterface&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Or you could provide a limited set of components that can be rendered on UI.&lt;/p&gt;
+
+&lt;p&gt;The term interface and components are loose here. Many plugins are simply JSON based.&lt;/p&gt;
+
+&lt;h2 id=&quot;youll-have-to-create-infrastructure-for-managing-plugins-and-plugin-lifecycle&quot;&gt;You’ll have to create infrastructure for managing plugins and plugin lifecycle&lt;/h2&gt;
+
+&lt;p&gt;Something like&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Interfaces for plugins&lt;/li&gt;
+  &lt;li&gt;Plugin repository
+    &lt;ul&gt;
+      &lt;li&gt;How will you manage so many third party plugins?&lt;/li&gt;
+      &lt;li&gt;How will plugin versions be managed?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Approval process
+    &lt;ul&gt;
+      &lt;li&gt;This will also include manual approavls.&lt;/li&gt;
+      &lt;li&gt;I would also add a virus scanner and other security measures.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="architecture" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/v1-plugin-architecture.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/v1-plugin-architecture.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blind 75 - Best Time To Buy And Sell Stock</title><link href="www.ankushchoubey.com/v1/best-time-to-buy-and-sell-stock" rel="alternate" type="text/html" title="Blind 75 - Best Time To Buy And Sell Stock" /><published>2022-11-13T00:00:00-06:00</published><updated>2022-11-13T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-best-time-to-buy-and-sell-stock</id><content type="html" xml:base="www.ankushchoubey.com/v1/best-time-to-buy-and-sell-stock">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/best-time-to-buy-and-sell-stock/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-from&quot;&gt;Learning From&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://neetcode.io/practice&quot;&gt;NeetCode&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;asked-at&quot;&gt;Asked at&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://seanprashad.com/leetcode-patterns/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7KHKFqLPMbs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;https://youtu.be/7KHKFqLPMbs&lt;/p&gt;
+
+&lt;h2 id=&quot;problem-and-constraints&quot;&gt;Problem and Constraints&lt;/h2&gt;
+
+&lt;p&gt;Given an array of stock prices. What’s the maximum profile that one can get?&lt;/p&gt;
+
+&lt;h2 id=&quot;all-approaches-and-explanations-in-english&quot;&gt;All Approaches and Explanations in English&lt;/h2&gt;
+
+&lt;h3 id=&quot;on-time-complexity-o1-space-complexity&quot;&gt;O(n) time complexity. O(1) space complexity&lt;/h3&gt;
+
+&lt;p&gt;Make sure the left pointer is always the lowest yet. Keep checking the difference between left and right. And return max.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-if-any&quot;&gt;Code, if any&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;maxProfit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prices&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maxYet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prices&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+            &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;leftItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prices&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+            &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rightItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prices&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rightItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;leftItem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;left&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;maxYet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxYet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rightItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;leftItem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maxYet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="sliding-window" /><category term="easy" /><summary type="html">Link</summary></entry><entry><title type="html">Blind 75 - Valid Parentheses</title><link href="www.ankushchoubey.com/v1/valid-parentheses" rel="alternate" type="text/html" title="Blind 75 - Valid Parentheses" /><published>2022-11-06T00:00:00-05:00</published><updated>2022-11-06T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-valid-parenthesis</id><content type="html" xml:base="www.ankushchoubey.com/v1/valid-parentheses">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/valid-parentheses/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;learning-from&quot;&gt;Learning From&lt;/h2&gt;
 
@@ -338,55 +444,6 @@ Bug Description - A short one-liner which describes the bug. This should be as c
             &lt;span class=&quot;n&quot;&gt;product&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
         &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;outputArray&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="arrays" /><summary type="html">Link</summary></entry><entry><title type="html">Core Values V2</title><link href="www.ankushchoubey.com/v2/core-values" rel="alternate" type="text/html" title="Core Values V2" /><published>2022-10-30T00:00:00-05:00</published><updated>2022-10-30T15:52:08-05:00</updated><id>www.ankushchoubey.com/v2/v2-core-values</id><content type="html" xml:base="www.ankushchoubey.com/v2/core-values">&lt;p&gt;Choosing:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;🔭 Truth over Fog&lt;/li&gt;
-  &lt;li&gt;🦾 Strength over Weakness&lt;/li&gt;
-  &lt;li&gt;🍃 Systems O(n) over Bruteforce O(n^3)&lt;/li&gt;
-  &lt;li&gt;💎 Quality over Quantity&lt;/li&gt;
-  &lt;li&gt;👥 Team over Lone Wolf&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="non-professional" /><category term="health" /><summary type="html">Choosing: 🔭 Truth over Fog 🦾 Strength over Weakness 🍃 Systems O(n) over Bruteforce O(n^3) 💎 Quality over Quantity 👥 Team over Lone Wolf</summary></entry><entry><title type="html">Blind 75 - Valid Anagrams</title><link href="www.ankushchoubey.com/v1/valid-anagrams" rel="alternate" type="text/html" title="Blind 75 - Valid Anagrams" /><published>2022-10-30T00:00:00-05:00</published><updated>2022-10-30T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1/v1-valid-anagrams</id><content type="html" xml:base="www.ankushchoubey.com/v1/valid-anagrams">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/valid-anagrams/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7KHKFqLPMbs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;https://youtu.be/7KHKFqLPMbs&lt;/p&gt;
-
-&lt;h2 id=&quot;problem-and-constraints&quot;&gt;Problem and Constraints&lt;/h2&gt;
-
-&lt;p&gt;Check if two numbers are anagrams or not.&lt;/p&gt;
-
-&lt;p&gt;Anagram means one word can be made by re-arranging another word.&lt;/p&gt;
-
-&lt;h2 id=&quot;all-approaches-and-explanations-in-english&quot;&gt;All Approaches and Explanations in English&lt;/h2&gt;
-
-&lt;h3 id=&quot;on-time-complexity-o1-space-complexity&quot;&gt;O(n) time complexity. O(1) space complexity&lt;/h3&gt;
-
-&lt;p&gt;check if the length is the same.
-find the difference in the count of letters in both numbers.
-since there are only 26 letters, you can count in a single int array of 26. index = char - ‘a’&lt;/p&gt;
-&lt;h3 id=&quot;code-if-any&quot;&gt;Code, if any&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isAnagram&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()){&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        
-        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;];&lt;/span&gt;
-        
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++){&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;charAt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]++;&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;charAt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]--;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++){&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]!=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="arrays" /><summary type="html">Link</summary></entry></feed>
