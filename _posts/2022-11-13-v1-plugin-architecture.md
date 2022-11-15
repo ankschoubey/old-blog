@@ -17,11 +17,11 @@ Disclaimer: I haven't developed an extremely complete plugin architecture myself
 
 ## Identify places in your application which you want to provide as plugin.
 
-![](/images/v1-plugin-architecture/1_identify_where_to_put_plugin.jpg)
+![](/images/v1-plugin-architecture/1_identify_where_to_put_plugin.png)
 
 ## Identify how plugin is going to share data? And can plugin update in real time? if Yes how?
 
-![](/images/v1-plugin-architecture/2_sharing_data_between_plugin.jpg)
+![](/images/v1-plugin-architecture/2_sharing_data_between_plugin.png)
 
 For example: 1 Plugin can be of 2 parts.
 
