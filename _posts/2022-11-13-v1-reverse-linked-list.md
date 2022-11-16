@@ -9,7 +9,7 @@ permalink: /v1/reverse-linked-list
 title: Blind 75 - Reverse LinkedList
 ---
 
-[Video]
+{% include youtube.html content="https://youtu.be/eXIUZmYluM0" %}
 
 Given a LinkedList, reverse it in place.
 
