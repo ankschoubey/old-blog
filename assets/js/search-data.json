@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "Blind 75 - Reverse LinkedList",
-            "content": "[Video] . Given a LinkedList, reverse it in place. . Link . Approaches . O(n) time. O(1) space. . Similar to swapping two numbers. Start with prev as null and current and keep swapping next. Return prev because that’s the last value. . [image] . public ListNode reverseList(ListNode head) { ListNode prev = null; ListNode current = head; while(current!=null){ ListNode tempCurrent = current.next; current.next = prev; prev = current; current = tempCurrent; } return prev; } .",
+            "content": "Given a LinkedList, reverse it in place. . Link . Approaches . O(n) time. O(1) space. . Similar to swapping two numbers. Start with prev as null and current and keep swapping next. Return prev because that’s the last value. . [image] . public ListNode reverseList(ListNode head) { ListNode prev = null; ListNode current = head; while(current!=null){ ListNode tempCurrent = current.next; current.next = prev; prev = current; current = tempCurrent; } return prev; } .",
             "url": "www.ankushchoubey.com/v1/reverse-linked-list",
             "relUrl": "https:///v1/reverse-linked-list",
             "date": " • Nov 13, 2022"
