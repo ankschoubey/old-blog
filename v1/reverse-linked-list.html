@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>How to develop a robust plugin architecture? | Ankush Choubey</title>
+<title>Blind 75 - Reverse LinkedList | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="How to develop a robust plugin architecture?">
+<meta property="og:title" content="Blind 75 - Reverse LinkedList">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Full Stack Developer - Cloud/Microservices">
-<meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
-<link rel="canonical" href="www.ankushchoubey.com/v1/plugin-architecture">
-<meta property="og:url" content="www.ankushchoubey.com/v1/plugin-architecture">
+<meta name="description" content="Similar to swapping two numbers. Start with prev as null and current and keep swapping next. Return prev because that’s the last value.">
+<meta property="og:description" content="Similar to swapping two numbers. Start with prev as null and current and keep swapping next. Return prev because that’s the last value.">
+<link rel="canonical" href="www.ankushchoubey.com/v1/reverse-linked-list">
+<meta property="og:url" content="www.ankushchoubey.com/v1/reverse-linked-list">
 <meta property="og:site_name" content="Ankush Choubey">
-<meta property="og:image" content="www.ankushchoubey.com/images/v1-plugin-architecture/header.jpg">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-11-13T00:00:00-06:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/v1/plugin-architecture","@type":"BlogPosting","headline":"How to develop a robust plugin architecture?","dateModified":"2022-11-06T14:52:08-06:00","datePublished":"2022-11-13T00:00:00-06:00","image":"www.ankushchoubey.com/images/v1-plugin-architecture/header.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/plugin-architecture"},"description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/v1/reverse-linked-list","@type":"BlogPosting","headline":"Blind 75 - Reverse LinkedList","dateModified":"2022-10-29T15:52:08-05:00","datePublished":"2022-11-13T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/reverse-linked-list"},"description":"Similar to swapping two numbers. Start with prev as null and current and keep swapping next. Return prev because that’s the last value.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -125,12 +124,13 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">How to develop a robust plugin architecture?</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Blind 75 - Reverse LinkedList</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-11-13T00:00:00-06:00" itemprop="datePublished">
+    <p class="page-description">Similar to swapping two numbers. Start with prev as null and current and keep swapping next. Return prev because that's the last value.</p>
+<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-11-13T00:00:00-06:00" itemprop="datePublished">
         Written: Nov 13, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-11-06T14:52:08-06:00" itemprop="dateModified">
-          Updated: Nov 6, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-10-29T15:52:08-05:00" itemprop="dateModified">
+          Updated: Oct 29, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -162,7 +162,9 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag architecture" href="/categories/#architecture">architecture</a>
+    <a class="tag fa fa-hashtag algorithm-problems" href="/categories/#algorithm-problems">algorithm-problems</a>
+    
+    <a class="tag fa fa-hashtag arrays" href="/categories/#arrays">arrays</a>
     
 </div>
 <div class="right-section">
@@ -202,77 +204,45 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/v1-plugin-architecture/header.jpg" alt=""></p>
+    <p>[Video]</p>
 
-<p>Photo by <a href="https://unsplash.com/@justin_morgan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Justin Morgan</a> on <a href="https://unsplash.com/s/photos/plugin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<p>Given a LinkedList, reverse it in place.</p>
 
-<p>Disclaimer: I haven’t developed an extremely complete plugin architecture myself. What I have developed is a plugin architecture which is robust enough. There are too many points to the discussion. These are all my thoughts.</p>
+<p><a href="https://leetcode.com/problems/reverse-linked-list/">Link</a></p>
 
-<h2 id="identify-places-in-your-application-which-you-want-to-provide-as-plugin">Identify places in your application which you want to provide as plugin.</h2>
+<h1 id="approaches">Approaches</h1>
 
-<p><img src="/images/v1-plugin-architecture/1_identify_where_to_put_plugin.png" alt=""></p>
+<h1 id="on-time-o1-space">O(n) time. O(1) space.</h1>
 
-<h2 id="identify-how-plugin-is-going-to-share-data-and-can-plugin-update-in-real-time-if-yes-how">Identify how plugin is going to share data? And can plugin update in real time? if Yes how?</h2>
+<p>Similar to swapping two numbers. Start with prev as null and current and keep swapping next. Return prev because that’s the last value.</p>
 
-<p><img src="/images/v1-plugin-architecture/2_sharing_data_between_plugin.png" alt=""></p>
+<p>[image]</p>
 
-<p>For example: 1 Plugin can be of 2 parts.</p>
-
-<p>How will P1 and P2 share data?</p>
-
-<p>Ideally, these should be microservices?</p>
-
-<p>Note: This is how slack and teams do it.</p>
-
-<h2 id="define-interfaces-that-plugin-developers-can-use">Define interfaces that plugin developers can use</h2>
-
-<ul>
-  <li>Zapier allows using CLI to generate a project architecture</li>
-  <li>They have specific interfaces that can be used for generating plugin</li>
-  <li>They also have a z object that can be used for a limited set of features such as API calls.</li>
-</ul>
-
-<h2 id="keep-your-product-as-lean-as-possible">Keep your product as lean as possible</h2>
-
-<p>First hand features should also be plugins.</p>
-
-<p>You could have 2 interfaces for this.</p>
-
-<p>1 for publish <code class="language-plaintext highlighter-rouge">pluginInterface</code>
-2 for first hand <code class="language-plaintext highlighter-rouge">interface firstHand extends pluginInterface</code></p>
-
-<p>Or you could provide a limited set of components that can be rendered on UI.</p>
-
-<p>The term interface and components are loose here. Many plugins are simply JSON based.</p>
-
-<h2 id="youll-have-to-create-infrastructure-for-managing-plugins-and-plugin-lifecycle">You’ll have to create infrastructure for managing plugins and plugin lifecycle</h2>
-
-<p>Something like</p>
-<ul>
-  <li>Interfaces for plugins</li>
-  <li>Plugin repository
-    <ul>
-      <li>How will you manage so many third party plugins?</li>
-      <li>How will plugin versions be managed?</li>
-    </ul>
-  </li>
-  <li>Approval process
-    <ul>
-      <li>This will also include manual approavls.</li>
-      <li>I would also add a virus scanner and other security measures.</li>
-    </ul>
-  </li>
-</ul>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">public</span> <span class="nc">ListNode</span> <span class="nf">reverseList</span><span class="o">(</span><span class="nc">ListNode</span> <span class="n">head</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">ListNode</span> <span class="n">prev</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+        <span class="nc">ListNode</span> <span class="n">current</span> <span class="o">=</span> <span class="n">head</span><span class="o">;</span>
+        
+        <span class="k">while</span><span class="o">(</span><span class="n">current</span><span class="o">!=</span><span class="kc">null</span><span class="o">){</span>
+            <span class="nc">ListNode</span> <span class="n">tempCurrent</span> <span class="o">=</span> <span class="n">current</span><span class="o">.</span><span class="na">next</span><span class="o">;</span>
+            
+            <span class="n">current</span><span class="o">.</span><span class="na">next</span> <span class="o">=</span> <span class="n">prev</span><span class="o">;</span>
+            <span class="n">prev</span> <span class="o">=</span> <span class="n">current</span><span class="o">;</span>
+            
+            <span class="n">current</span> <span class="o">=</span> <span class="n">tempCurrent</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">prev</span><span class="o">;</span>        
+    <span class="o">}</span>
+</code></pre></div></div>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/v1/best-time-to-buy-and-sell-stock">« Blind 75 - Best Time To Buy And Sell Stock</a>
+      <a class="prev" href="/v1/plugin-architecture">« How to develop a robust plugin architecture?</a>
     
     
-      <a class="next" href="/v1/reverse-linked-list">Blind 75 - Reverse LinkedList »</a>
+      <a class="next" href="/post-format/">PREFER UPDATING A BLOG OVER WRITING NEW ONES »</a>
     
   </div>
 
@@ -302,8 +272,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/v1/plugin-architecture';
-      this.page.identifier = 'www.ankushchoubey.com/v1/plugin-architecture';
+      this.page.url = 'www.ankushchoubey.com/v1/reverse-linked-list';
+      this.page.identifier = 'www.ankushchoubey.com/v1/reverse-linked-list';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -314,7 +284,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/v1/plugin-architecture" hidden></a>
+<a class="u-url" href="/v1/reverse-linked-list" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
