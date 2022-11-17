@@ -60,3 +60,13 @@ Something like
 - Approval process
    - This will also include manual approavls.
    - I would also add a virus scanner and other security measures.
+
+# Resources
+
+[Plugin Development for Wordpress](https://developer.wordpress.org/plugins/plugin-basics/best-practices/): They are much more low-level about implementation. Especially go through their best practices section.
+
+[Plugin Architecture: Why and How?](https://dev.to/arcanis/plugin-systems-when-why-58pp): Goes into detail about why to implement plugin architecture. How is plugin architecture better than monoliths? How are predefined hooks used in plugin architecture? And how yarn2 does it.
+
+[Microsoft Adaptive Cards](https://adaptivecards.io/): A very interesting open source UI plugin architecture
+
+Google "plugin architecture java" or "plugin architecture javascript"
