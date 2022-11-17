@@ -13,9 +13,10 @@ The resources are removed when associated blogposts are written.
 # Resources and Some Notes
 
 ## Healthy Developer
+
 - 2022
-    - Nov
-        - [AlgoDaily - Solving the Health Problems of Software Engineers - Introduction](https://algodaily.com/lessons/solving-the-health-problems-of-software-engineers)
+  - Nov
+    - [AlgoDaily - Solving the Health Problems of Software Engineers - Introduction](https://algodaily.com/lessons/solving-the-health-problems-of-software-engineers)
 
 ## Algorithm
 
