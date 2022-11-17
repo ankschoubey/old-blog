@@ -42,5 +42,8 @@ Like any writing, it helps to credit the creator of the image or diagram if we a
 
 # Resources
 
-- [Awesome Screenshot -- Screen recorder and Screen capture](https://www.awesomescreenshot.com/)
-- [Online FlowChart & Diagrams Editor - Mermaid Live Editor](https://mermaid.live/edit#pako:eNp1U01v2zAM_SuEzq2HtfvMYUAyd7chRdad5Bw0iYkFWJIhyRmCpv99tOh4a4L5RD2ST-R71rPQwaBYiH1UfQtPdeOBvjT8YmBVT8hSvq1gg8qMEKQetd1ZrbINPkHETmU0kAPkFkGraLZwe_sFVty8kncV_OwNFV20brkAvWn8xdWPnfLe-v1EUfh6wr4G52xODP8DyPuq9MBvm1tQOTirE2hO8jiYsnU0xCuKC1C-q-BhggCVbicKIAiZ-3H9fV2vN-sL1jIwmm_W29TWBLzmv0rL9xUsjSk7UAJ2JUNB0emvkFcS_ZexjHNy4cCtJ-iDCybEcCXu6Lp8Iid5oalscuPcJT-Mlhc61XVgbMpRabZceQMpq5jnakiYEuVYlGwMk1EgP1ZTrfU6okOfie_Id49DjGSs8pt-SC3Lzg5O-La4P28zCzIG8z28vsEDdqEfbwETPJ7AYN-FI5dxLD9VUJcIdqjyEBGCJ8aDjcGXznGkWUheqR-6bmP3bZ5UOh_lZ_rx6ABxPM3G0Q9D2FJr7OltbMWNcBidsoZe2_NI0QgqddiIBYUGd2rociMa_0KlQ3ksD8bmEMUixwFvhBpy-HH0-nzmmtoqstSJxU51CV_-AHqTTz0)
+[Awesome Screenshot -- Screen recorder and Screen capture](https://www.awesomescreenshot.com/)
+
+[Online FlowChart & Diagrams Editor - Mermaid Live Editor](https://mermaid.live/edit#pako:eNp1U01v2zAM_SuEzq2HtfvMYUAyd7chRdad5Bw0iYkFWJIhyRmCpv99tOh4a4L5RD2ST-R71rPQwaBYiH1UfQtPdeOBvjT8YmBVT8hSvq1gg8qMEKQetd1ZrbINPkHETmU0kAPkFkGraLZwe_sFVty8kncV_OwNFV20brkAvWn8xdWPnfLe-v1EUfh6wr4G52xODP8DyPuq9MBvm1tQOTirE2hO8jiYsnU0xCuKC1C-q-BhggCVbicKIAiZ-3H9fV2vN-sL1jIwmm_W29TWBLzmv0rL9xUsjSk7UAJ2JUNB0emvkFcS_ZexjHNy4cCtJ-iDCybEcCXu6Lp8Iid5oalscuPcJT-Mlhc61XVgbMpRabZceQMpq5jnakiYEuVYlGwMk1EgP1ZTrfU6okOfie_Id49DjGSs8pt-SC3Lzg5O-La4P28zCzIG8z28vsEDdqEfbwETPJ7AYN-FI5dxLD9VUJcIdqjyEBGCJ8aDjcGXznGkWUheqR-6bmP3bZ5UOh_lZ_rx6ABxPM3G0Q9D2FJr7OltbMWNcBidsoZe2_NI0QgqddiIBYUGd2rociMa_0KlQ3ksD8bmEMUixwFvhBpy-HH0-nzmmtoqstSJxU51CV_-AHqTTz0)
+
+[Annotate: Web Annotations with Screen Sharing - Chrome Web Store](https://chrome.google.com/webstore/detail/annotate-web-annotations/gdojjgflncpbcfmenbkndfhoamlhajmf/related?hl=en): Allows for easily drawing on Google Chrome with a Drawing Tablet.
