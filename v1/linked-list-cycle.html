@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>How to develop a robust plugin architecture? | Ankush Choubey</title>
+<title>Blind 75 - Linked List Cycle | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="How to develop a robust plugin architecture?">
+<meta property="og:title" content="Blind 75 - Linked List Cycle">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Full Stack Developer - Cloud/Microservices">
-<meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
-<link rel="canonical" href="www.ankushchoubey.com/v1/plugin-architecture">
-<meta property="og:url" content="www.ankushchoubey.com/v1/plugin-architecture">
+<meta name="description" content="Have a fast pointer and a slow pointer. fast increases by 2. slow increases by 1. if both become the same then the cycle exists. if fast one reaches end then no cycle exists.">
+<meta property="og:description" content="Have a fast pointer and a slow pointer. fast increases by 2. slow increases by 1. if both become the same then the cycle exists. if fast one reaches end then no cycle exists.">
+<link rel="canonical" href="www.ankushchoubey.com/v1/linked-list-cycle">
+<meta property="og:url" content="www.ankushchoubey.com/v1/linked-list-cycle">
 <meta property="og:site_name" content="Ankush Choubey">
-<meta property="og:image" content="www.ankushchoubey.com/images/v1-plugin-architecture/header.jpg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2022-11-13T00:00:00-06:00">
+<meta property="article:published_time" content="2022-11-16T00:00:00-06:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/v1/plugin-architecture","@type":"BlogPosting","headline":"How to develop a robust plugin architecture?","dateModified":"2022-11-06T14:52:08-06:00","datePublished":"2022-11-13T00:00:00-06:00","image":"www.ankushchoubey.com/images/v1-plugin-architecture/header.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/plugin-architecture"},"description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/v1/linked-list-cycle","@type":"BlogPosting","headline":"Blind 75 - Linked List Cycle","dateModified":"2022-10-29T15:52:08-05:00","datePublished":"2022-11-16T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/linked-list-cycle"},"description":"Have a fast pointer and a slow pointer. fast increases by 2. slow increases by 1. if both become the same then the cycle exists. if fast one reaches end then no cycle exists.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -125,17 +124,18 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">How to develop a robust plugin architecture?</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Blind 75 - Linked List Cycle</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-11-13T00:00:00-06:00" itemprop="datePublished">
-        Written: Nov 13, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-11-06T14:52:08-06:00" itemprop="dateModified">
-          Updated: Nov 6, 2022
+    <p class="page-description">Have a fast pointer and a slow pointer. fast increases by 2. slow increases by 1. if both become the same then the cycle exists. if fast one reaches end then no cycle exists.</p>
+<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-11-16T00:00:00-06:00" itemprop="datePublished">
+        Written: Nov 16, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-10-29T15:52:08-05:00" itemprop="dateModified">
+          Updated: Oct 29, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -162,7 +162,9 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag architecture" href="/categories/#architecture">architecture</a>
+    <a class="tag fa fa-hashtag algorithm-problems" href="/categories/#algorithm-problems">algorithm-problems</a>
+    
+    <a class="tag fa fa-hashtag linked-list" href="/categories/#linked-list">linked-list</a>
     
 </div>
 <div class="right-section">
@@ -202,91 +204,82 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/v1-plugin-architecture/header.jpg" alt=""></p>
+    <p>[Video]</p>
 
-<p>Photo by <a href="https://unsplash.com/@justin_morgan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Justin Morgan</a> on <a href="https://unsplash.com/s/photos/plugin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<p>Check if the given LinkedList is cyclic.</p>
 
-<p>Disclaimer: I haven’t developed an extremely complete plugin architecture myself. What I have developed is a plugin architecture which is robust enough. There are too many points to the discussion. These are all my thoughts.</p>
+<p><a href="https://leetcode.com/problems/linked-list-cycle/">Link</a></p>
 
-<h2 id="identify-places-in-your-application-which-you-want-to-provide-as-plugin">Identify places in your application which you want to provide as plugin.</h2>
+<h1 id="approaches">Approaches</h1>
+<h2 id="on-time-complexity-o1-space-complexity">O(n) time complexity; O(1) space complexity</h2>
 
-<p><img src="/images/v1-plugin-architecture/1_identify_where_to_put_plugin.png" alt=""></p>
+<p>Have a fast pointer and a slow pointer. fast increases by 2. slow increases by 1. if both become the same, then the cycle exists. if fast one reaches the end then no cycle exists.</p>
 
-<h2 id="identify-how-plugin-is-going-to-share-data-and-can-plugin-update-in-real-time-if-yes-how">Identify how plugin is going to share data? And can plugin update in real time? if Yes how?</h2>
+<p>Lines of code: 16</p>
 
-<p><img src="/images/v1-plugin-architecture/2_sharing_data_between_plugin.png" alt=""></p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">hasCycle</span><span class="o">(</span><span class="nc">ListNode</span> <span class="n">head</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">head</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span> <span class="k">return</span> <span class="kc">false</span><span class="o">;}</span>
+        <span class="nc">ListNode</span> <span class="n">slow</span> <span class="o">=</span> <span class="n">head</span><span class="o">;</span>
+        <span class="nc">ListNode</span> <span class="n">fast</span> <span class="o">=</span> <span class="n">head</span><span class="o">;</span>
+        <span class="k">while</span><span class="o">(</span><span class="n">fast</span> <span class="o">!=</span><span class="kc">null</span><span class="o">){</span>
+            <span class="n">slow</span> <span class="o">=</span> <span class="n">slow</span><span class="o">.</span><span class="na">next</span><span class="o">;</span>
+            <span class="n">fast</span> <span class="o">=</span> <span class="n">fast</span><span class="o">.</span><span class="na">next</span><span class="o">;</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">fast</span><span class="o">==</span><span class="kc">null</span><span class="o">){</span> <span class="k">break</span><span class="o">;}</span>
+            <span class="k">else</span> <span class="o">{</span><span class="n">fast</span><span class="o">=</span><span class="n">fast</span><span class="o">.</span><span class="na">next</span><span class="o">;}</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">slow</span> <span class="o">==</span> <span class="n">fast</span><span class="o">){</span> <span class="k">return</span> <span class="kc">true</span><span class="o">;</span> <span class="o">}</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+    <span class="o">}</span>
+</code></pre></div></div>
 
-<p>For example: 1 Plugin can be of 2 parts.</p>
+<p>Line 1: head null check is unnecessary;
+Line 18: can be removed by adding the fast.next, check in while loop itself.</p>
 
-<p>How will P1 and P2 share data?</p>
+<p>Optimized solution below</p>
 
-<p>Ideally, these should be microservices?</p>
+<h2 id="optimized-solution">Optimized solution</h2>
 
-<p>Note: This is how slack and teams do it.</p>
+<p>Source: <a href="https://leetcode.com/problems/linked-list-cycle/discuss/2791622/Java%3A-Fast-Slow-Pointer-Method">Java: Fast-Slow Pointer Method - LeetCode Discuss</a></p>
 
-<h2 id="define-interfaces-that-plugin-developers-can-use">Define interfaces that plugin developers can use</h2>
+<p>Lines of code 8:</p>
 
-<ul>
-  <li>Zapier allows using CLI to generate a project architecture</li>
-  <li>They have specific interfaces that can be used for generating plugin</li>
-  <li>They also have a z object that can be used for a limited set of features such as API calls.</li>
-</ul>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">hasCycle</span><span class="o">(</span><span class="nc">ListNode</span> <span class="n">head</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">ListNode</span> <span class="n">slow</span> <span class="o">=</span> <span class="n">head</span><span class="o">;</span>
+        <span class="nc">ListNode</span> <span class="n">fast</span> <span class="o">=</span> <span class="n">head</span><span class="o">;</span>
+        <span class="k">while</span><span class="o">(</span><span class="n">fast</span> <span class="o">!=</span><span class="kc">null</span> <span class="o">&amp;&amp;</span> <span class="n">fast</span><span class="o">.</span><span class="na">next</span> <span class="o">!=</span><span class="kc">null</span><span class="o">){</span>
+            <span class="n">slow</span> <span class="o">=</span> <span class="n">slow</span><span class="o">.</span><span class="na">next</span><span class="o">;</span>
+            <span class="n">fast</span> <span class="o">=</span> <span class="n">fast</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">next</span><span class="o">;</span>
+            <span class="k">if</span><span class="o">(</span><span class="n">slow</span> <span class="o">==</span> <span class="n">fast</span><span class="o">){</span> <span class="k">return</span> <span class="kc">true</span><span class="o">;</span> <span class="o">}</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+    <span class="o">}</span>
+</code></pre></div></div>
 
-<h2 id="keep-your-product-as-lean-as-possible">Keep your product as lean as possible</h2>
+<h2 id="without-2-pointers-solution">Without 2 pointers solution</h2>
 
-<p>For plugin architecture, the whole product should be made pluggable. That is even first party features should be developed as plugin. Which means there will be almost nothing in the core.</p>
+<p>Source: <a href="https://leetcode.com/problems/linked-list-cycle/discuss/2810093/Java-O(1)-Memory-solution">Java O(1) Memory solution - LeetCode Discuss</a></p>
 
-<p>You could have 2 interfaces for this.</p>
+<p>Modify the value in the list to something that can’t occur. Check if the current value is that value.</p>
 
-<p>1 for publish <code class="language-plaintext highlighter-rouge">pluginInterface</code>
-2 for first hand <code class="language-plaintext highlighter-rouge">interface firstHand extends pluginInterface</code></p>
-
-<p>Or you could provide a limited set of components that can be rendered on UI.</p>
-
-<p>The term interface and components are loose here. Many plugins are simply JSON based.</p>
-
-<h2 id="youll-have-to-create-infrastructure-for-managing-plugins-and-plugin-lifecycle">You’ll have to create infrastructure for managing plugins and plugin lifecycle</h2>
-
-<p>Something like</p>
-<ul>
-  <li>Interfaces for plugins</li>
-  <li>Plugin repository
-    <ul>
-      <li>How will you manage so many third party plugins?</li>
-      <li>How will plugin versions be managed?</li>
-    </ul>
-  </li>
-  <li>Approval process
-    <ul>
-      <li>This will also include manual approavls.</li>
-      <li>I would also add a virus scanner and other security measures.</li>
-    </ul>
-  </li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<p><a href="https://developer.wordpress.org/plugins/plugin-basics/best-practices/">Plugin Development for Wordpress</a>: They are much more low-level about implementation. Especially go through their best practices section.</p>
-
-<p><a href="https://dev.to/arcanis/plugin-systems-when-why-58pp">Plugin Architecture: Why and How?</a>: Goes into detail about why to implement plugin architecture. How is plugin architecture better than monoliths? How are predefined hooks used in plugin architecture? And how yarn2 does it.</p>
-
-<p><a href="https://adaptivecards.io/">Microsoft Adaptive Cards</a>: A very interesting open source UI plugin architecture</p>
-
-<p>Google “plugin architecture java” or “plugin architecture javascript”</p>
-
-<p><a href="https://www.youtube.com/watch?v=iCE1bDoit9Q">YouTube: The Power Of The Plugin Architecture In Python</a></p>
-
-<p><a href="https://stackoverflow.com/questions/51217271/the-plugin-design-pattern-explained-as-described-by-martin-fowler">StackOverflow: The plugin design pattern explained (as described by Martin Fowler)</a></p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">hasCycle</span><span class="o">(</span><span class="nc">ListNode</span> <span class="n">head</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">while</span> <span class="o">(</span><span class="n">head</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+            <span class="k">if</span> <span class="o">(</span><span class="n">head</span><span class="o">.</span><span class="na">val</span> <span class="o">==</span> <span class="mi">1_000_000</span><span class="o">)</span> <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+            <span class="n">head</span><span class="o">.</span><span class="na">val</span> <span class="o">=</span> <span class="mi">1_000_000</span><span class="o">;</span>
+            <span class="n">head</span> <span class="o">=</span> <span class="n">head</span><span class="o">.</span><span class="na">next</span><span class="o">;</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+    <span class="o">}</span>
+</code></pre></div></div>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/v1/best-time-to-buy-and-sell-stock">« Blind 75 - Best Time To Buy And Sell Stock</a>
+      <a class="prev" href="/v1/invert-binary-tree">« Blind 75 - Invert Binary Tree</a>
     
     
-      <a class="next" href="/v1/invert-binary-tree">Blind 75 - Invert Binary Tree »</a>
+      <a class="next" href="/v1/maximum-depth-of-binary-tree">Blind 75 - Maximum Depth of Binary Tree »</a>
     
   </div>
 
@@ -316,8 +309,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/v1/plugin-architecture';
-      this.page.identifier = 'www.ankushchoubey.com/v1/plugin-architecture';
+      this.page.url = 'www.ankushchoubey.com/v1/linked-list-cycle';
+      this.page.identifier = 'www.ankushchoubey.com/v1/linked-list-cycle';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -328,7 +321,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/v1/plugin-architecture" hidden></a>
+<a class="u-url" href="/v1/linked-list-cycle" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
