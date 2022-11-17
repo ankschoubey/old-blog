@@ -4,9 +4,13 @@ title:
 permalink: /algorithm-problem/
 ---
 
-# Algorithm Problems
+Currently practicing: [NeetCode Blind 75](https://neetcode.io/practice)
 
-[Currently practicing: ](https://neetcode.io/practice)
+**Insights**
+
+- For tree problems, recursive DFS is cleanest to implement.
+
+# Algorithm Problems
 
 {% include replace_nav_with_icons.html %}
 
