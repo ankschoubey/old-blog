@@ -172,11 +172,6 @@ The resources are removed when associated blogposts are written.
     - 2022 Sep
         - [A visual guide on troubleshooting Kubernetes deployments](https://learnk8s.io/troubleshooting-deployments)
 ## Clean Code
-- 2022 Aug 22
-    - [IntelliJ JavaDocs Plugin](https://github.com/setial/intellij-javadocs/wiki)
-- 2022 Sep
-    - [CommitLint.io](https://commitlint.io/): Helps to write atomic commits
-- 2022 Oct
     - [Try not to call your objects DTO](https://richarddingwall.name/2010/04/17/try-not-to-call-your-objects-dtos/): Contains a list of alternative names
 
 ## Observability 
