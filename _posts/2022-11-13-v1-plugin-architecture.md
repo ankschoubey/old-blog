@@ -39,7 +39,7 @@ Note: This is how slack and teams do it.
 
 ## Keep your product as lean as possible
 
-First hand features should also be plugins.
+For plugin architecture, the whole product should be made pluggable. That is even first party features should be developed as plugin. Which means there will be almost nothing in the core. 
 
 You could have 2 interfaces for this.
 
@@ -70,3 +70,7 @@ Something like
 [Microsoft Adaptive Cards](https://adaptivecards.io/): A very interesting open source UI plugin architecture
 
 Google "plugin architecture java" or "plugin architecture javascript"
+
+[YouTube: The Power Of The Plugin Architecture In Python](https://www.youtube.com/watch?v=iCE1bDoit9Q)
+
+[StackOverflow: The plugin design pattern explained (as described by Martin Fowler)](https://stackoverflow.com/questions/51217271/the-plugin-design-pattern-explained-as-described-by-martin-fowler)

@@ -9,6 +9,8 @@ permalink: /resources/
 
 I read/consume many resources and I thought this would be a good way to link to up and thus avoid  writing blogposts on these topics.
 
+The resources are removed when associated blogposts are written.
+
 # Resources and Some Notes
 
 ## Algorithm
@@ -158,12 +160,6 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [The Ancestors and Offsprings of DevOps, the Evolving DevOps Tree](https://medium.com/@schogini/the-ancestors-and-offsprings-of-devops-the-evolving-devops-tree-8bebaa7492ca)
 -
 ## Architecture
-- Plugin Architecture #notImplementedYet
-    - 2022 Aug 22
-        - Note: 
-        2022 Aug 22: For plugin architecture, the whole product should be made pluggable. That is even first party features should be developed as plugin. Which means there will be almost nothing in the core.
-        - [YouTube: The Power Of The Plugin Architecture In Python](https://www.youtube.com/watch?v=iCE1bDoit9Q)
-        - [StackOverflow: The plugin design pattern explained (as described by Martin Fowler)](https://stackoverflow.com/questions/51217271/the-plugin-design-pattern-explained-as-described-by-martin-fowler) 
 - Reactive Programming
     - 2022 Aug 22
         - [Learn RxJS operators and Reactive Programming principles](https://reactive.how/)
@@ -184,12 +180,16 @@ I read/consume many resources and I thought this would be a good way to link to 
     - [Try not to call your objects DTO](https://richarddingwall.name/2010/04/17/try-not-to-call-your-objects-dtos/): Contains a list of alternative names
 
 ## Observability 
+- 2022
 - 2022 Aug 22
     - [Graphana Documentation](https://grafana.com/docs/) 
 - 2022 Sep:
     - [Instrumenting Observability: Getting Started and Pro Tips](https://www.youtube.com/watch?v=pY44UX8j4Pc)
     - [Difference Between Observability and Monitoring](https://www.youtube.com/watch?v=dlcS0tY8il8&ab_channel=DevOpsForDevelopers): Monitory means systems metrics. Observability is much deeper. current understanding: logs.
     - Practical Observability: Do not silence errors
+- Nov
+    - [Slack System Status](https://status.slack.com): A public view of whether Slack has an outage
+    - [Observability Primers](https://opentelemetry.io/docs/concepts/observability-primer/): Observability can also be used for SLIs and SLOs
 
 ## Culture and Collaboration
 - 2022
