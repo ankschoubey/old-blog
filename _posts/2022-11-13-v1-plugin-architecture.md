@@ -3,7 +3,7 @@ layout: post
 comments: true
 description:
 categories: [architecture]
-last_modified_at: 2022-11-06T20:52:08.052481
+last_modified_at: 2022-11-13T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/plugin-architecture
 title: How to develop a robust plugin architecture?
