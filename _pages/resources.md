@@ -12,6 +12,12 @@ The resources are removed when associated blogposts are written.
 
 ## Resources and Some Notes
 
+### Frontend
+
+- 2022
+  - Nov
+    - [How to Add Drag and Drop in React with React Beautiful DnD - YouTube](https://www.youtube.com/watch?v=aYZRRyukuIw)
+
 ### Security
 
 - 2022
