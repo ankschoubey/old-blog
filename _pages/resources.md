@@ -195,6 +195,10 @@ The resources are removed when associated blogposts are written.
 - Kubernetes
   - 2022 Sep
     - [A visual guide on troubleshooting Kubernetes deployments](https://learnk8s.io/troubleshooting-deployments)
+- Design Patterns
+  - 2022
+    - Nov
+      - Small and Simple: [Refactor if/elseif/elseif using Strategy Design Pattern](https://medium.com/aia-sg-techblog/refactor-if-elseif-elseif-using-strategy-design-pattern-80c51913a539)
 
 ## Clean Code
 
