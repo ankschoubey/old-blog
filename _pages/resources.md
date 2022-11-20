@@ -33,12 +33,14 @@ The resources are removed when associated blogposts are written.
     - **Best Resource for Practice**: [NeetCode Practice](https://neetcode.io/practice)
   - Nov
     - [Leetcode 75 Questions (NeetCode on yt) - Google Sheets](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0)
+    - [Algorithms - YouTube](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
 
 ## Interesting Blogs
 
 - [Philippe Bourgau's XP Coaching Blog](https://philippe.bourgau.net/)
 - [Emre Bolat](https://emre.me/)
 - [Honeypot - YouTube](https://www.youtube.com/c/Honeypotio/videos): Documentary for developers
+- [The GitHub Blog](https://github.blog/)
 
 ## Podcast
 

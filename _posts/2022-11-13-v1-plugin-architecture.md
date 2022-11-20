@@ -15,7 +15,7 @@ Photo by <a href="https://unsplash.com/@justin_morgan?utm_source=unsplash&utm_me
 
 Disclaimer: I haven't developed an extremely complete plugin architecture myself. What I have developed is a plugin architecture which is robust enough. There are too many points to the discussion. These are all my thoughts.
 
-## Identify places in your application which you want to provide as plugin.
+## Identify places in your application which you want to provide as plugin
 
 ![](/images/v1-plugin-architecture/1_identify_where_to_put_plugin.png)
 
@@ -39,7 +39,7 @@ Note: This is how slack and teams do it.
 
 ## Keep your product as lean as possible
 
-For plugin architecture, the whole product should be made pluggable. That is even first party features should be developed as plugin. Which means there will be almost nothing in the core. 
+For plugin architecture, the whole product should be made pluggable. That is even first party features should be developed as plugin. Which means there will be almost nothing in the core.
 
 You could have 2 interfaces for this.
 
@@ -53,13 +53,14 @@ The term interface and components are loose here. Many plugins are simply JSON b
 ## You'll have to create infrastructure for managing plugins and plugin lifecycle
 
 Something like
+
 - Interfaces for plugins
 - Plugin repository
-   - How will you manage so many third party plugins?
-   - How will plugin versions be managed?
+  - How will you manage so many third party plugins?
+  - How will plugin versions be managed?
 - Approval process
-   - This will also include manual approavls.
-   - I would also add a virus scanner and other security measures.
+  - This will also include manual approavls.
+  - I would also add a virus scanner and other security measures.
 
 # Resources
 
