@@ -10,9 +10,18 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 The resources are removed when associated blogposts are written.
 
-# Resources and Some Notes
+## Resources and Some Notes
 
-## Healthy Developer
+### Security
+
+- 2022
+  - Nov 
+    - [Keep all your packages up to date with Dependabot](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/)
+    - [The GitHub Blog: Security News and Updates](https://github.blog/category/security/)
+    - [How to mitigate OWASP vulnerabilities while staying in the flow](https://github.blog/2022-11-04-how-to-mitigate-owasp-vulnerabilities-while-staying-in-the-flow/)
+    
+
+### Healthy Developer
 
 - 2022
   - Nov

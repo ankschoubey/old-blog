@@ -3,8 +3,8 @@ layout: post
 comments: true
 description:
 categories: [tools]
-last_modified_at: 2022-06-19T20:52:08.052481
-last-modified-purpose: added list of favorite IDE plugins
+last_modified_at: 2022-11-20T20:52:08.052481
+last-modified-purpose: added resource on IntelliJ tips
 permalink: /fixing-tools/
 title: Fixing Tools - IDE, Code Editors, Etc.
 ---
@@ -52,3 +52,7 @@ Allows for easy code reviews.
 All IDEs includes plugin for specific language/technologies.
 
 For example: plugins for Kubernetes, Cucumber, Docker, etc.
+
+## Resources
+
+[13 Simple Ways To Edit Code Faster in IntelliJ IDEA - YouTube](https://www.youtube.com/watch?v=zNhFblHPJIk)
