@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-20T00:25:33-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-20T00:32:17-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,27 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blind 75 - Number of 1 Bits</title><link href="www.ankushchoubey.com/v1/number-of-1-bits" rel="alternate" type="text/html" title="Blind 75 - Number of 1 Bits" /><published>2022-11-20T00:00:00-06:00</published><updated>2022-11-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-number-of-1-bits</id><content type="html" xml:base="www.ankushchoubey.com/v1/number-of-1-bits">&lt;p&gt;[Video]&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Blind 75 - Reverse Bits</title><link href="www.ankushchoubey.com/v1/reverse-bits" rel="alternate" type="text/html" title="Blind 75 - Reverse Bits" /><published>2022-11-20T00:00:00-06:00</published><updated>2022-11-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-reverse-bits</id><content type="html" xml:base="www.ankushchoubey.com/v1/reverse-bits">&lt;p&gt;[Video]&lt;/p&gt;
+
+&lt;p&gt;Reverse the binary int&lt;/p&gt;
+
+&lt;p&gt;Read this for java instruction: &lt;a href=&quot;https://leetcode.com/problems/reverse-bits/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;approaches&quot;&gt;Approaches&lt;/h2&gt;
+
+&lt;h3 id=&quot;o1-time-o1-space-7-lines&quot;&gt;O(1) time; O(1) space; 7 lines&lt;/h3&gt;
+
+&lt;p&gt;Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;or&lt;/code&gt; because after the shift last value will be 0. Imp - iterate 32 times only.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reverseBits&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;rev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;            
+            &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="blind-75" /><category term="bit-manipulation" /><summary type="html">[Video]</summary></entry><entry><title type="html">Blind 75 - Number of 1 Bits</title><link href="www.ankushchoubey.com/v1/number-of-1-bits" rel="alternate" type="text/html" title="Blind 75 - Number of 1 Bits" /><published>2022-11-20T00:00:00-06:00</published><updated>2022-11-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-number-of-1-bits</id><content type="html" xml:base="www.ankushchoubey.com/v1/number-of-1-bits">&lt;p&gt;[Video]&lt;/p&gt;
 
 &lt;p&gt;[Problem explanation in English]&lt;/p&gt;
 
@@ -378,79 +398,4 @@ Line 18: can be removed by adding the fast.next, check in while loop itself.&lt;
         &lt;span class=&quot;n&quot;&gt;invertTree&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="binary-tree" /><category term="east" /><summary type="html">[Video]</summary></entry><entry><title type="html">How to develop a robust plugin architecture?</title><link href="www.ankushchoubey.com/v1/plugin-architecture" rel="alternate" type="text/html" title="How to develop a robust plugin architecture?" /><published>2022-11-13T00:00:00-06:00</published><updated>2022-11-13T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-plugin-architecture</id><content type="html" xml:base="www.ankushchoubey.com/v1/plugin-architecture">&lt;p&gt;&lt;img src=&quot;/images/v1-plugin-architecture/header.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@justin_morgan?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Justin Morgan&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/plugin?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Disclaimer: I haven’t developed an extremely complete plugin architecture myself. What I have developed is a plugin architecture which is robust enough. There are too many points to the discussion. These are all my thoughts.&lt;/p&gt;
-
-&lt;h2 id=&quot;identify-places-in-your-application-which-you-want-to-provide-as-plugin&quot;&gt;Identify places in your application which you want to provide as plugin&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-plugin-architecture/1_identify_where_to_put_plugin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;identify-how-plugin-is-going-to-share-data-and-can-plugin-update-in-real-time-if-yes-how&quot;&gt;Identify how plugin is going to share data? And can plugin update in real time? if Yes how?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-plugin-architecture/2_sharing_data_between_plugin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For example: 1 Plugin can be of 2 parts.&lt;/p&gt;
-
-&lt;p&gt;How will P1 and P2 share data?&lt;/p&gt;
-
-&lt;p&gt;Ideally, these should be microservices?&lt;/p&gt;
-
-&lt;p&gt;Note: This is how slack and teams do it.&lt;/p&gt;
-
-&lt;h2 id=&quot;define-interfaces-that-plugin-developers-can-use&quot;&gt;Define interfaces that plugin developers can use&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Zapier allows using CLI to generate a project architecture&lt;/li&gt;
-  &lt;li&gt;They have specific interfaces that can be used for generating plugin&lt;/li&gt;
-  &lt;li&gt;They also have a z object that can be used for a limited set of features such as API calls.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;keep-your-product-as-lean-as-possible&quot;&gt;Keep your product as lean as possible&lt;/h2&gt;
-
-&lt;p&gt;For plugin architecture, the whole product should be made pluggable. That is even first party features should be developed as plugin. Which means there will be almost nothing in the core.&lt;/p&gt;
-
-&lt;p&gt;You could have 2 interfaces for this.&lt;/p&gt;
-
-&lt;p&gt;1 for publish &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pluginInterface&lt;/code&gt;
-2 for first hand &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;interface firstHand extends pluginInterface&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Or you could provide a limited set of components that can be rendered on UI.&lt;/p&gt;
-
-&lt;p&gt;The term interface and components are loose here. Many plugins are simply JSON based.&lt;/p&gt;
-
-&lt;h2 id=&quot;youll-have-to-create-infrastructure-for-managing-plugins-and-plugin-lifecycle&quot;&gt;You’ll have to create infrastructure for managing plugins and plugin lifecycle&lt;/h2&gt;
-
-&lt;p&gt;Something like&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Interfaces for plugins&lt;/li&gt;
-  &lt;li&gt;Plugin repository
-    &lt;ul&gt;
-      &lt;li&gt;How will you manage so many third party plugins?&lt;/li&gt;
-      &lt;li&gt;How will plugin versions be managed?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Approval process
-    &lt;ul&gt;
-      &lt;li&gt;This will also include manual approavls.&lt;/li&gt;
-      &lt;li&gt;I would also add a virus scanner and other security measures.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developer.wordpress.org/plugins/plugin-basics/best-practices/&quot;&gt;Plugin Development for Wordpress&lt;/a&gt;: They are much more low-level about implementation. Especially go through their best practices section.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dev.to/arcanis/plugin-systems-when-why-58pp&quot;&gt;Plugin Architecture: Why and How?&lt;/a&gt;: Goes into detail about why to implement plugin architecture. How is plugin architecture better than monoliths? How are predefined hooks used in plugin architecture? And how yarn2 does it.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://adaptivecards.io/&quot;&gt;Microsoft Adaptive Cards&lt;/a&gt;: A very interesting open source UI plugin architecture&lt;/p&gt;
-
-&lt;p&gt;Google “plugin architecture java” or “plugin architecture javascript”&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iCE1bDoit9Q&quot;&gt;YouTube: The Power Of The Plugin Architecture In Python&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/51217271/the-plugin-design-pattern-explained-as-described-by-martin-fowler&quot;&gt;StackOverflow: The plugin design pattern explained (as described by Martin Fowler)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="architecture" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/v1-plugin-architecture/header.jpg" /><media:content medium="image" url="www.ankushchoubey.com/images/v1-plugin-architecture/header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="binary-tree" /><category term="east" /><summary type="html">[Video]</summary></entry></feed>
