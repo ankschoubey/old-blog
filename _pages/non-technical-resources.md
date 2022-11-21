@@ -86,6 +86,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
       - [Untools](https://untools.co/)
     - Nov
       - The more personal responsibility you take on and fullfil. The more incontrol you’ll feel. This will give you strength and power.
+      - [The 3 Stages of Failure in Life and Work (And How to Fix Them)](https://jamesclear.com/3-stages-of-failure)
 - Cognitive Biases
   - 2022
     - Oct
@@ -95,7 +96,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - Oct
       - Book: [The Scout Mindset By Julia Galef](https://juliagalef.com/)
 
-# Habits
+## Habits
 
 - 2022
   - Oct
