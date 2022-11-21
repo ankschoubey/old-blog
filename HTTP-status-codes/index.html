@@ -204,7 +204,7 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="https://httpstatusdogs.com/img/100.jpg" alt=""></p>
+    <p><img src="https://httpstatusdogs.com/img/100.jpg" alt="Http Status Dogs 200 OK"></p>
 
 <p>Image Source: <a href="https://httpstatusdogs.com/">HTTP Status Dogs</a></p>
 
@@ -218,7 +218,7 @@ window.onload = wrap_img;
 
 <p>For example: For the retry mechanism, you might retry a few times if there is a 5xx  Server Error but might not retry if it’s a 4xx client error</p>
 
-<h1 id="types">Types</h1>
+<h2 id="types">Types</h2>
 
 <p>There are a total of 63 status codes that are grouped into 5 types:</p>
 
@@ -235,7 +235,7 @@ window.onload = wrap_img;
 <strong>5xx</strong> → Server error: The server has made some mistake and has to fix it.</li>
 </ul>
 
-<h1 id="specific-codes">Specific Codes</h1>
+<h2 id="specific-codes">Specific Codes</h2>
 
 <p>Now, when coding, you are likely to use these. But if you find another one, google it, and you’ll find the reason behind it.</p>
 
@@ -248,27 +248,28 @@ window.onload = wrap_img;
     <p><strong>204</strong> → NO CONTENT, but there is No Content</p>
   </li>
   <li>
-<strong>302</strong> → REDIRECT to this URL</li>
-</ul>
-
-<p><strong>400</strong> -&gt; BAD REQUEST</p>
-<ul>
+    <p><strong>302</strong> → REDIRECT to this URL</p>
+  </li>
+  <li>
+<strong>400</strong> -&gt; BAD REQUEST</li>
+  <li>
+<strong>401</strong> → UNAUTHORIZED: The client isn’t authorized and needs to send valid auth credentials.</li>
   <li>
     <p><strong>404</strong> → NOT FOUND: The resource isn’t available</p>
   </li>
   <li>
-    <p><strong>500</strong> → INTERNAL SERVER ERROR</p>
+<strong>500</strong> → INTERNAL SERVER ERROR
     <ul>
       <li>Restrict the response because it may reveal the inner workings of the server.</li>
     </ul>
   </li>
 </ul>
 
-<h1 id="notes">Notes</h1>
+<h2 id="notes">Notes</h2>
 
 <p>People often don’t rely on HTTP status codes but instead, use the body to convey information. This approach is especially true in the case of specialized responses since there are very few HTTP status codes.</p>
 
-<h1 id="when-to-use-404-over-204">When to use 404 over 204?</h1>
+<h2 id="when-to-use-404-over-204">When to use 404 over 204?</h2>
 
 <ul>
   <li>In groups, use 204.</li>
@@ -282,7 +283,7 @@ window.onload = wrap_img;
   <li>/users/{id} - 404</li>
 </ul>
 
-<h1 id="resources">Resources</h1>
+<h2 id="resources">Resources</h2>
 
 <ul>
   <li><a href="https://umbraco.com/knowledge-base/http-status-codes/">HTTP Status Codes: All 63 explained - including FAQ &amp; Video</a></li>
