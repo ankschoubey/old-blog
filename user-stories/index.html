@@ -19,7 +19,7 @@
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-03-21T00:00:00-05:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/user-stories/","@type":"BlogPosting","headline":"Thoughts &amp; Notes on User Stories","dateModified":"2022-05-05T15:52:08-05:00","datePublished":"2022-03-21T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/user-stories/"},"description":"Details about breaking user story added","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/user-stories/","@type":"BlogPosting","headline":"Thoughts &amp; Notes on User Stories","dateModified":"2022-11-21T14:52:08-06:00","datePublished":"2022-03-21T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/user-stories/"},"description":"Details about breaking user story added","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -129,8 +129,8 @@ window.onload = wrap_img;
     <p class="page-description">Details about breaking user story added</p>
 <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-03-21T00:00:00-05:00" itemprop="datePublished">
         Written: Mar 21, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-05-05T15:52:08-05:00" itemprop="dateModified">
-          Updated: May 5, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-11-21T14:52:08-06:00" itemprop="dateModified">
+          Updated: Nov 21, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -208,7 +208,7 @@ window.onload = wrap_img;
 
 <p>These are my thoughts and notes on User Stories. I hope to improve and expand on these ideas in upcoming months.</p>
 
-<h1 id="user-stories">User Stories</h1>
+<h2 id="user-stories">User Stories</h2>
 
 <p>The goal with user story is to deliver the best value in smallest/most efficient package.</p>
 
@@ -216,7 +216,7 @@ window.onload = wrap_img;
 
 <p>The lessons one can gain from creating user stories, splitting, making DOD, making DOR, etc are all transferable skill to personal planning as well.</p>
 
-<h1 id="writing-user-stories">Writing User Stories</h1>
+<h3 id="writing-user-stories">Writing User Stories</h3>
 
 <p>Guiding phrases help narrow focus.</p>
 
@@ -229,17 +229,26 @@ window.onload = wrap_img;
 
 <p>Often <code class="language-plaintext highlighter-rouge">&lt;outcome&gt;</code> can be used as story title.</p>
 
-<h1 id="user-story-and-a-technical-task">User Story and a Technical Task</h1>
+<h3 id="the-dichotemy-of-user-story-and-a-technical-task">The dichotemy of User Story and a Technical Task</h3>
 
 <p>By the symantic of it, user story is about something a end user wants. So user stories map to features that effect users.</p>
 
 <p>While developing there are also other tasks such as database migration, job creation, etc that aren’t user stories. These are technical tasks.</p>
 
-<p>It’s better to classify it separetly so that a business user doesn’t get confused by it.</p>
+<p>It’s better to classify it separately  so that a business user doesn’t get confused by it.</p>
+
+<p>But here is the catch, if you separate them, the business user will prioritize business stories over technical tasks. But aren’t business stories dependent?</p>
+
+<p>Therefore, in real world it’s much better to have only user stories. A user story can be large if it involves too many technical sub-tasks.</p>
 
 <p>A user story needs to have executable spec (BDD). Technical Tasks don’t.</p>
 
-<h1 id="breaking-user-stories">Breaking User Stories</h1>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist octicon octicon-checklist" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Tip: </strong>Having only User Stories means the number of user stories are less making it easier to remember and manage.
+</div>
+
+<h3 id="breaking-user-stories">Breaking User Stories</h3>
 
 <p>There are two major story breaking ways:</p>
 
@@ -256,7 +265,7 @@ window.onload = wrap_img;
 
 <p>So it could be a functionality is itself a mixture of 2-3 smaller functionalities. We could break it as such.</p>
 
-<h1 id="definition-of-ready-and-breaking-down">Definition Of Ready and Breaking Down</h1>
+<h3 id="definition-of-ready-and-breaking-down">Definition Of Ready and Breaking Down</h3>
 
 <p>Definition of Ready is when it’s right to start a user story. We don’t want to have a lot of context switches because it reduces productivity.</p>
 
@@ -284,7 +293,7 @@ window.onload = wrap_img;
   <li>Learning : is there any learning involved?</li>
 </ul>
 
-<h1 id="definition-of-done">Definition of Done</h1>
+<h3 id="definition-of-done">Definition of Done</h3>
 
 <p>Defination of done is when we can say the story ended.</p>
 
@@ -295,7 +304,6 @@ window.onload = wrap_img;
   <li>Deployed</li>
   <li>Product Owner Accepted Story</li>
 </ul>
-
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
