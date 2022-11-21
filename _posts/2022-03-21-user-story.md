@@ -3,8 +3,8 @@ layout: post
 comments: true
 description: Details about breaking user story added
 categories: [business, agile]
-last_modified_at: 2022-05-05T20:52:08.052481
-last-modified-purpose:
+last_modified_at: 2022-11-21T20:52:08.052481
+last-modified-purpose: Appended Dichotemy of User Story and Technical Tasks
 permalink: /user-stories/
 title: Thoughts & Notes on User Stories
 ---
@@ -13,7 +13,7 @@ I have had a love-hate relationship with Agile. The reason has likely been I did
 
 These are my thoughts and notes on User Stories. I hope to improve and expand on these ideas in upcoming months.
 
-# User Stories
+## User Stories
 
 The goal with user story is to deliver the best value in smallest/most efficient package.
 
@@ -21,9 +21,9 @@ This would void un-neccesary rework, make sure we start the story at the right t
 
 The lessons one can gain from creating user stories, splitting, making DOD, making DOR, etc are all transferable skill to personal planning as well.
 
-# Writing User Stories
+### Writing User Stories
 
-Guiding phrases help narrow focus. 
+Guiding phrases help narrow focus.
 
 The description can be phrased this way.
 
@@ -35,32 +35,38 @@ The description can be phrased this way.
 
 Often `<outcome>` can be used as story title.
 
-# User Story and a Technical Task
+### The dichotemy of User Story and a Technical Task
 
 By the symantic of it, user story is about something a end user wants. So user stories map to features that effect users.
 
 While developing there are also other tasks such as database migration, job creation, etc that aren't user stories. These are technical tasks.
 
-It's better to classify it separetly so that a business user doesn't get confused by it.
+It's better to classify it separately  so that a business user doesn't get confused by it.
+
+But here is the catch, if you separate them, the business user will prioritize business stories over technical tasks. But aren't business stories dependent?
+
+Therefore, in real world it's much better to have only user stories. A user story can be large if it involves too many technical sub-tasks.
 
 A user story needs to have executable spec (BDD). Technical Tasks don't.
 
-# Breaking User Stories
+{% include tip.html content="Having only User Stories means the number of user stories are less making it easier to remember and manage."%}
+
+### Breaking User Stories
 
 There are two major story breaking ways:
 
-- Horizontal 
+- Horizontal
 - Vertical
 
-Horizontal can be thought of as breaking a story by type of activies involved like database, user interface, middleware, etc. This isn't ideal. 
+Horizontal can be thought of as breaking a story by type of activies involved like database, user interface, middleware, etc. This isn't ideal.
 
-Vertical 
+Vertical
 
 Breaking vertically means to break by functionality instead of by activity.
 
 So it could be a functionality is itself a mixture of 2-3 smaller functionalities. We could break it as such.
 
-# Definition Of Ready and Breaking Down
+### Definition Of Ready and Breaking Down
 
 Definition of Ready is when it's right to start a user story. We don't want to have a lot of context switches because it reduces productivity.
 
@@ -84,7 +90,7 @@ I found there are other things involved here too, like:
 - API : if it's an API, you may want to do API First Development
 - Learning : is there any learning involved?
 
-# Definition of Done
+### Definition of Done
 
 Defination of done is when we can say the story ended.
 
@@ -93,4 +99,3 @@ The following I believe is must.
 - TDD followed
 - Deployed
 - Product Owner Accepted Story
-
