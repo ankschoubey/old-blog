@@ -14,7 +14,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 
 ## Balance Alpha Beta Gamma Bullshit with Logic
 
-- Shwetabh Gangwar
+- [Shwetabh Gangwar](https://www.youtube.com/watch?v=XhFdfSZyRfc)
 
 ## Quantified Self
 
