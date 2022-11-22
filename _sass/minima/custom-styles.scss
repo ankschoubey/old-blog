@@ -20,6 +20,15 @@
     background: white;
     z-index: 1 !important;
 }
+.site-title:before {
+    content: "aaa";
+    text-decoration: none !important;
+    color: transparent !important;
+    background: url(/images/profile.png);
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .site-title:after {
     content: " - Full Stack Developer";
     font-size: 1rem;
