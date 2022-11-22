@@ -17,15 +17,16 @@ The resources are removed when associated blogposts are written.
 - 2022
   - Nov
     - [How to Add Drag and Drop in React with React Beautiful DnD - YouTube](https://www.youtube.com/watch?v=aYZRRyukuIw)
+    - [nock: HTTP server mocking and expectations library for Node.js](https://github.com/nock/nock)
+      - `npm install --save-dev nock`
 
 ### Security
 
 - 2022
-  - Nov 
+  - Nov
     - [Keep all your packages up to date with Dependabot](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/)
     - [The GitHub Blog: Security News and Updates](https://github.blog/category/security/)
     - [How to mitigate OWASP vulnerabilities while staying in the flow](https://github.blog/2022-11-04-how-to-mitigate-owasp-vulnerabilities-while-staying-in-the-flow/)
-    
 
 ### Healthy Developer
 
@@ -280,20 +281,20 @@ The resources are removed when associated blogposts are written.
   - Nov
     - [The Planning Onion: A Product Management Concept](https://www.stridenyc.com/blog/the-planning-onion-a-product-management-concept)
 
-# Chaos Engineering
+## Chaos Engineering
 
 - 2022 Sep
   - [Chaos Engineering: the history, principles, and practice](https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/)
   - [PRINCIPLES OF CHAOS ENGINEERING](https://principlesofchaos.org/)
 
-# Integration Apps
+## Integration Apps
 
 - Oct 2022:
   - Apache Camel: <https://camel.apache.org/>
   - Groovy DSL: <http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html>
   - Kotlin DSL: <https://medium.com/kotlin-and-kotlin-for-android/kotlin-dsl-coding-a-dsl-6-ee355be81106>
 
-# More
+## More
 
 <script type="text/javascript" src="{{ '/assets/resources.js' | relative_url }}"></script>
 <link rel="stylesheet" href="{{ '/assets/resources.css' | relative_url }}">
