@@ -20,7 +20,7 @@ You can run queries against the data and get results that can be seen or plotted
 
 Prometheus server polls every application configured every few seconds. The number of seconds can be changed.
 
-```mermaid
+```mermaid!
 graph TD
     P[fa:fa-robot Prometheus] -->|Scrap Every 15 Seconds\n<b>GET/actuator/prometheus| B(fa:fa-server Application A)
     P -->|Scrap Every 15 Seconds\n<b>GET /actuator/prometheus| C(fa:fa-server Application B)
