@@ -1,4 +1,4 @@
-{% assign sorted = site.categories[include.tag] | sort: 'last_modified_at' | reverse %}
+{% assign sorted = site.categories[include.tag] | sort: 'last_modified_at' %}
 <div style="display: flex; flex-direction:column-reverse;">
 {% for post in sorted %}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
