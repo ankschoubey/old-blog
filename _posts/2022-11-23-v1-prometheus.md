@@ -7,6 +7,7 @@ last_modified_at: 2022-11-23T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/prometheus
 title: The Prometheus Cheatsheet
+image: /images/v1-prometheus.png
 ---
 
 ## What is Prometheus?
@@ -19,7 +20,14 @@ You can run queries against the data and get results that can be seen or plotted
 
 Prometheus server polls every application configured every few seconds. The number of seconds can be changed.
 
-[Image]
+```mermaid
+graph TD
+    P[fa:fa-robot Prometheus] -->|Scrap Every 15 Seconds\n<b>GET/actuator/prometheus| B(fa:fa-server Application A)
+    P -->|Scrap Every 15 Seconds\n<b>GET /actuator/prometheus| C(fa:fa-server Application B)
+    style P fill:lightgrey
+    style B fill:lightyellow
+    style C fill:lightyellow
+```
 
 ## How do you set up an application to give out Prometheus metrics?
 
