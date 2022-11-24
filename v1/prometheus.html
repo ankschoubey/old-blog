@@ -214,13 +214,7 @@ window.onload = wrap_img;
 
 <p>Prometheus server polls every application configured every few seconds. The number of seconds can be changed.</p>
 
-<pre><code class="language-mermaid">graph TD
-    P[fa:fa-robot Prometheus] --&gt;|Scrap Every 15 Seconds\n&lt;b&gt;GET/actuator/prometheus| B(fa:fa-server Application A)
-    P --&gt;|Scrap Every 15 Seconds\n&lt;b&gt;GET /actuator/prometheus| C(fa:fa-server Application B)
-    style P fill:lightgrey
-    style B fill:lightyellow
-    style C fill:lightyellow
-</code></pre>
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcblBbZmE6ZmEtcm9ib3QgUHJvbWV0aGV1c10gLS0-fFNjcmFwIEV2ZXJ5IDE1IFNlY29uZHNcXG48Yj5HRVQvYWN0dWF0b3IvcHJvbWV0aGV1c3wgQihmYTpmYS1zZXJ2ZXIgQXBwbGljYXRpb24gQSlcblAgLS0-fFNjcmFwIEV2ZXJ5IDE1IFNlY29uZHNcXG48Yj5HRVQgL2FjdHVhdG9yL3Byb21ldGhldXN8IEMoZmE6ZmEtc2VydmVyIEFwcGxpY2F0aW9uIEIpXG5zdHlsZSBQIGZpbGw6bGlnaHRncmV5XG5zdHlsZSBCIGZpbGw6bGlnaHR5ZWxsb3dcbnN0eWxlIEMgZmlsbDpsaWdodHllbGxvdyIsIm1lcm1haWQiOm51bGx9"></p>
 
 <h2 id="how-do-you-set-up-an-application-to-give-out-prometheus-metrics">How do you set up an application to give out Prometheus metrics?</h2>
 
