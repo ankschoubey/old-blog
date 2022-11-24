@@ -11,6 +11,6 @@ permalink: /non-technical/
 - Be healthy. Health is most important thing ever.
 - Develop and rely on core-values & good habits.
 
-## Essays
+**Essays**
 
 {% include postsOfTag.html tag='non-professional' %}
