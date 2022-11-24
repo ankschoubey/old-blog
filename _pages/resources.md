@@ -19,6 +19,7 @@ The resources are removed when associated blogposts are written.
     - [How to Add Drag and Drop in React with React Beautiful DnD - YouTube](https://www.youtube.com/watch?v=aYZRRyukuIw)
     - [nock: HTTP server mocking and expectations library for Node.js](https://github.com/nock/nock)
       - `npm install --save-dev nock`
+    - [You Probably Need BEM CSS in Your Life (Tutorial)](https://www.youtube.com/watch?app=desktop&v=er1JEDuPbZQ)
 
 ### Security
 
@@ -215,6 +216,7 @@ The resources are removed when associated blogposts are written.
   - 2022
     - Nov
       - Small and Simple: [Refactor if/elseif/elseif using Strategy Design Pattern](https://medium.com/aia-sg-techblog/refactor-if-elseif-elseif-using-strategy-design-pattern-80c51913a539)
+      - [REST API following CLEAN ARCHITECTURE & DDD Tutorial](https://www.youtube.com/playlist?list=PLzYkqgWkHPKBcDIP5gzLfASkQyTdy0t4k)
 
 ## Clean Code
 
