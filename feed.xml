@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-23T12:55:40-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-24T03:08:06-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -61,7 +61,13 @@
 
 &lt;p&gt;Prometheus server polls every application configured every few seconds. The number of seconds can be changed.&lt;/p&gt;
 
-&lt;p&gt;[Image]&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TD
+    P[fa:fa-robot Prometheus] --&amp;gt;|Scrap Every 15 Seconds\n&amp;lt;b&amp;gt;GET/actuator/prometheus| B(fa:fa-server Application A)
+    P --&amp;gt;|Scrap Every 15 Seconds\n&amp;lt;b&amp;gt;GET /actuator/prometheus| C(fa:fa-server Application B)
+    style P fill:lightgrey
+    style B fill:lightyellow
+    style C fill:lightyellow
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;how-do-you-set-up-an-application-to-give-out-prometheus-metrics&quot;&gt;How do you set up an application to give out Prometheus metrics?&lt;/h2&gt;
 
@@ -98,7 +104,7 @@ For example:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nJMRmhbY5hY&quot;&gt;The 4 Types Of Prometheus Metrics&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hvACEDjHQZE&quot;&gt;How to build a PromQL (Prometheus Query Language)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="observability" /><category term="prometheus" /><summary type="html">What is Prometheus?</summary></entry><entry><title type="html">Core Attributes</title><link href="www.ankushchoubey.com/v1/core-attributes" rel="alternate" type="text/html" title="Core Attributes" /><published>2022-11-23T00:00:00-06:00</published><updated>2022-11-23T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-core-attributes</id><content type="html" xml:base="www.ankushchoubey.com/v1/core-attributes">&lt;h2 id=&quot;what-are-core-attributes-how-they-differ-from-values&quot;&gt;What are Core Attributes? How they differ from Values&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hvACEDjHQZE&quot;&gt;How to build a PromQL (Prometheus Query Language)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="observability" /><category term="prometheus" /><summary type="html">What is Prometheus?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/v1-prometheus.png" /><media:content medium="image" url="www.ankushchoubey.com/images/v1-prometheus.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Attributes</title><link href="www.ankushchoubey.com/v1/core-attributes" rel="alternate" type="text/html" title="Core Attributes" /><published>2022-11-23T00:00:00-06:00</published><updated>2022-11-23T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-core-attributes</id><content type="html" xml:base="www.ankushchoubey.com/v1/core-attributes">&lt;h2 id=&quot;what-are-core-attributes-how-they-differ-from-values&quot;&gt;What are Core Attributes? How they differ from Values&lt;/h2&gt;
 
 &lt;p&gt;Core values are principles that you consciously choose and live by. Core values simplify decision-making and are relatively easy to implement.&lt;/p&gt;
 
