@@ -3,7 +3,11 @@
 {% for post in sorted %}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <article class="archive-item">
-        <p class="post-meta post-meta-title">{{forloop.index + 1}}. <a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><br>{{ post.description }}<br>{{ post.date | date: date_format }}</p>
+        <p class="post-meta post-meta-title">
+            {{forloop.index + 1}}. <a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+            <span>{{ post.description }}</span>
+            <span>{{ post.date | date: date_format }}</span>
+        </p>
     </article>
 {% endfor %}
 </div>
