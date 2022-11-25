@@ -54,10 +54,15 @@ The resources are removed when associated blogposts are written.
 - Library
   - 2022
     - Nov
-      - [zapier/formatic: :pencil2: A configurable, pluggable forms library for React used on Zapier.com.](https://github.com/zapier/formatic)
       - [nock: HTTP server mocking and expectations library for Node.js](https://github.com/nock/nock)
         - `npm install --save-dev nock`
       - [Passport.js](https://www.passportjs.org/)
+- Component Libraries
+  - 2022
+    - Nov
+      - [automatisch/automatisch: The open source Zapier alternative. Build workflow automation without spending time and money.](https://github.com/automatisch/automatisch)
+      - [zapier/formatic: :pencil2: A configurable, pluggable forms library for React used on Zapier.com.](https://github.com/zapier/formatic)
+      - [DevExtreme Demos: JavaScript UI Widgets by DevExpress](https://js.devexpress.com/Demos/WidgetsGallery/)
 - Architecture
   - 2022
     - Nov
