@@ -75,3 +75,5 @@ Google "plugin architecture java" or "plugin architecture javascript"
 [YouTube: The Power Of The Plugin Architecture In Python](https://www.youtube.com/watch?v=iCE1bDoit9Q)
 
 [StackOverflow: The plugin design pattern explained (as described by Martin Fowler)](https://stackoverflow.com/questions/51217271/the-plugin-design-pattern-explained-as-described-by-martin-fowler)
+
+[Trello Plugin - Your First Power-Up](https://developer.atlassian.com/cloud/trello/guides/power-ups/your-first-power-up/)

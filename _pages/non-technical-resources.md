@@ -6,15 +6,28 @@ permalink: /non-technical-resources/
 
 {% include replace_nav_with_icons.html %}
 
-# Non Technical Resources
+## Non Technical Resources
 
 I read/consume many resources and I thought this would be a good way to link to up and thus avoid  writing blogposts on these topics.
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+## Website
+- 2022
+  - Nov
+    - [Publishers: An ad network for your developer project - EthicalAds](https://www.ethicalads.io/publishers/)
+
+## Language Learning
+
+- 2022
+  - Nov
+  - [Linggle - Language Reference Search Engines - NLPLab](https://linggle.com/)
+
 ## Balance Alpha Beta Gamma Bullshit with Logic
 
-- [Shwetabh Gangwar](https://www.youtube.com/watch?v=XhFdfSZyRfc)
+- 2022
+  - Nov
+    - [Shwetabh Gangwar](https://www.youtube.com/watch?v=XhFdfSZyRfc)
 
 ## Quantified Self
 

@@ -12,6 +12,15 @@ The resources are removed when associated blogposts are written.
 
 ## Resources and Some Notes
 
+### Career
+
+- 2022
+  - Oct
+    - [Rahul Pandey - YouTube](https://www.youtube.com/c/RahulPandeyrkp): Building a credible Q&A platform for ambitious software engineers. Follow me to grow your SWE career.
+    - [Mindset blockers on blogging](https://www.linkedin.com/posts/netflixenglead_personalbranding-engineering-personaldevelopment-ugcPost-6990377278648070144-gY8N/)
+  - Nov
+    - [getmanfred/roles-in-tech: Contains descriptions of different roles in tech](https://github.com/getmanfred/roles-in-tech)
+
 ### Frontend
 
 - 2022
@@ -20,6 +29,8 @@ The resources are removed when associated blogposts are written.
     - [nock: HTTP server mocking and expectations library for Node.js](https://github.com/nock/nock)
       - `npm install --save-dev nock`
     - [You Probably Need BEM CSS in Your Life (Tutorial)](https://www.youtube.com/watch?app=desktop&v=er1JEDuPbZQ)
+    - [Web Dev Simplified Blog](https://blog.webdevsimplified.com/)
+    - [Is This The Best JavaScript Extension? - YouTube](https://www.youtube.com/watch?v=TQXUeGYs8u0)
 
 ### Security
 
@@ -98,13 +109,6 @@ The resources are removed when associated blogposts are written.
     - [Steve Brunton - YouTube](https://www.youtube.com/c/Eigensteve/playlists)
     - [How to Understand Math Intuitively? - YouTube](https://www.youtube.com/watch?v=glZLHLLalv0)
     - [Math skills you ACTUALLY need - YouTube](https://www.youtube.com/watch?v=A5CMAcyI42o)
-
-## Career
-
-- 2022
-  - Oct
-    - [Rahul Pandey - YouTube](https://www.youtube.com/c/RahulPandeyrkp): Building a credible Q&A platform for ambitious software engineers. Follow me to grow your SWE career.
-    - [Mindset blockers on blogging](https://www.linkedin.com/posts/netflixenglead_personalbranding-engineering-personaldevelopment-ugcPost-6990377278648070144-gY8N/)
 
 ## Domain Knowledge
 
@@ -220,7 +224,11 @@ The resources are removed when associated blogposts are written.
 
 ## Clean Code
 
-    - [Try not to call your objects DTO](https://richarddingwall.name/2010/04/17/try-not-to-call-your-objects-dtos/): Contains a list of alternative names
+- 2022
+  - [Try not to call your objects DTO](https://richarddingwall.name/2010/04/17/try-not-to-call-your-objects-dtos/): Contains a list of alternative names
+  - Nov
+    - [CUPID—for joyful coding - Dan North & Associates Ltd](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/)
+    - [Write Better Commits, Build Better Projects - The GitHub Blog](https://github.blog/2022-06-30-write-better-commits-build-better-projects/)
 
 ## Observability
 
