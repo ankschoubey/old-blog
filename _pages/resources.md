@@ -12,40 +12,6 @@ The resources are removed when associated blogposts are written.
 
 ## Resources and Some Notes
 
-### Career
-
-- 2022
-  - Oct
-    - [Rahul Pandey - YouTube](https://www.youtube.com/c/RahulPandeyrkp): Building a credible Q&A platform for ambitious software engineers. Follow me to grow your SWE career.
-    - [Mindset blockers on blogging](https://www.linkedin.com/posts/netflixenglead_personalbranding-engineering-personaldevelopment-ugcPost-6990377278648070144-gY8N/)
-  - Nov
-    - [getmanfred/roles-in-tech: Contains descriptions of different roles in tech](https://github.com/getmanfred/roles-in-tech)
-
-### Frontend
-
-- 2022
-  - Nov
-    - [How to Add Drag and Drop in React with React Beautiful DnD - YouTube](https://www.youtube.com/watch?v=aYZRRyukuIw)
-    - [nock: HTTP server mocking and expectations library for Node.js](https://github.com/nock/nock)
-      - `npm install --save-dev nock`
-    - [You Probably Need BEM CSS in Your Life (Tutorial)](https://www.youtube.com/watch?app=desktop&v=er1JEDuPbZQ)
-    - [Web Dev Simplified Blog](https://blog.webdevsimplified.com/)
-    - [Is This The Best JavaScript Extension? - YouTube](https://www.youtube.com/watch?v=TQXUeGYs8u0)
-
-### Security
-
-- 2022
-  - Nov
-    - [Keep all your packages up to date with Dependabot](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/)
-    - [The GitHub Blog: Security News and Updates](https://github.blog/category/security/)
-    - [How to mitigate OWASP vulnerabilities while staying in the flow](https://github.blog/2022-11-04-how-to-mitigate-owasp-vulnerabilities-while-staying-in-the-flow/)
-
-### Healthy Developer
-
-- 2022
-  - Nov
-    - [AlgoDaily - Solving the Health Problems of Software Engineers - Introduction](https://algodaily.com/lessons/solving-the-health-problems-of-software-engineers)
-
 ## Algorithm
 
 - 2022
@@ -62,6 +28,55 @@ The resources are removed when associated blogposts are written.
   - Nov
     - [Leetcode 75 Questions (NeetCode on yt) - Google Sheets](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0)
     - [Algorithms - YouTube](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
+    - [Coding Interview Patterns - YouTube](https://www.youtube.com/playlist?list=PLB7ZlVMcmjIDUDmOnoIRATIblml0hBt57)
+
+### Career
+
+- 2022
+  - Oct
+    - [Rahul Pandey - YouTube](https://www.youtube.com/c/RahulPandeyrkp): Building a credible Q&A platform for ambitious software engineers. Follow me to grow your SWE career.
+    - [Mindset blockers on blogging](https://www.linkedin.com/posts/netflixenglead_personalbranding-engineering-personaldevelopment-ugcPost-6990377278648070144-gY8N/)
+  - Nov
+    - [getmanfred/roles-in-tech: Contains descriptions of different roles in tech](https://github.com/getmanfred/roles-in-tech)
+
+### Frontend
+
+- 2022
+  - Nov
+    - [How to Add Drag and Drop in React with React Beautiful DnD - YouTube](https://www.youtube.com/watch?v=aYZRRyukuIw)
+
+    - [You Probably Need BEM CSS in Your Life (Tutorial)](https://www.youtube.com/watch?app=desktop&v=er1JEDuPbZQ)
+    - [Web Dev Simplified Blog](https://blog.webdevsimplified.com/)
+- Extension
+  - 2022
+    - Nov
+      - [Is This The Best JavaScript Extension? - YouTube](https://www.youtube.com/watch?v=TQXUeGYs8u0)
+- Library
+  - 2022
+    - Nov
+      - [zapier/formatic: :pencil2: A configurable, pluggable forms library for React used on Zapier.com.](https://github.com/zapier/formatic)
+      - [nock: HTTP server mocking and expectations library for Node.js](https://github.com/nock/nock)
+        - `npm install --save-dev nock`
+      - [Passport.js](https://www.passportjs.org/)
+- Architecture
+  - 2022
+    - Nov
+      [microsoft/tsyringe: Lightweight dependency injection container for JavaScript/TypeScript](https://github.com/microsoft/tsyringe)
+      - [How to Use Environment Files (.env) in Node.js - Tutorial (dotenv) - YouTube](https://www.youtube.com/watch?v=hZUNMYU4Kzo)
+
+### Security
+
+- 2022
+  - Nov
+    - [Keep all your packages up to date with Dependabot](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/)
+    - [The GitHub Blog: Security News and Updates](https://github.blog/category/security/)
+    - [How to mitigate OWASP vulnerabilities while staying in the flow](https://github.blog/2022-11-04-how-to-mitigate-owasp-vulnerabilities-while-staying-in-the-flow/)
+
+### Healthy Developer
+
+- 2022
+  - Nov
+    - [AlgoDaily - Solving the Health Problems of Software Engineers - Introduction](https://algodaily.com/lessons/solving-the-health-problems-of-software-engineers)
 
 ## Interesting Blogs
 
@@ -152,6 +167,7 @@ The resources are removed when associated blogposts are written.
   - Nov
     - [HTTP / Webhook API Integrations - Pipedream](https://pipedream.com/apps/http)
     - [RequestBin.com — A modern request bin to collect, inspect and debug HTTP requests and webhooks](https://requestbin.com/)
+    - [REST Hooks](https://resthooks.org/)
 
 ## Spring Boot and Java
 
@@ -165,6 +181,11 @@ The resources are removed when associated blogposts are written.
   - Oct
     - [Spring Boot Best Practices](https://medium.com/@raviyasas/spring-boot-best-practices-for-developers-3f3bdffa0090)
     - [Building a Framework on top of Spring Boot by Rubén Pahíno - Spring I/O 2022 Sessions - YouTube](https://www.youtube.com/watch?v=1qT__SBWOhA&t=3s)
+  - Nov
+    - [Dan Vega - YouTube](https://www.youtube.com/@DanVega/videos)
+    - [Spring Boot Learning - YouTube](https://www.youtube.com/@SpringBootLearning)
+    - [6 WAYS to be a SPRING CODER - YouTube](https://www.youtube.com/watch?v=qaK6N21tbVQ)
+    - [Spring - Guides](https://spring.io/guides)
 
 ## Maven Plugin
 
@@ -299,11 +320,14 @@ The resources are removed when associated blogposts are written.
 
 ## Integration Apps
 
-- Oct 2022:
-  - Apache Camel: <https://camel.apache.org/>
-  - Groovy DSL: <http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html>
-  - Kotlin DSL: <https://medium.com/kotlin-and-kotlin-for-android/kotlin-dsl-coding-a-dsl-6-ee355be81106>
-
+- 2022
+  - Oct
+    - Apache Camel: <https://camel.apache.org/>
+    - Groovy DSL: <http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html>
+    - Kotlin DSL: <https://medium.com/kotlin-and-kotlin-for-android/kotlin-dsl-coding-a-dsl-6-ee355be81106>
+- Nov
+  - [automatisch/automatisch: The open source Zapier alternative. Build workflow automation without spending time and money.](https://github.com/automatisch/automatisch)
+  
 ## More
 
 <script type="text/javascript" src="{{ '/assets/resources.js' | relative_url }}"></script>

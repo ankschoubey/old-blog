@@ -12,7 +12,23 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+## ENTP
+
+- 2022
+  - Oct
+    - [ENTPs - 12 Rules for Life - YouTube](https://www.youtube.com/watch?v=_b78nMoJUrc)
+    - [Why do ENTPs have a hard time remembering things? - Quora](https://www.quora.com/Why-do-ENTPs-have-a-hard-time-remembering-things)
+  - Nov
+    - [Problems Creative People Have To Face](https://www.youtube.com/watch?v=zq1i4enQVDE)
+
+## Personality
+
+- 2022
+  - Nov
+    - [Jordan Peterson: The worst thing a creative person can do - YouTube](https://www.youtube.com/watch?v=ubNbIGv8d98)
+
 ## Website
+
 - 2022
   - Nov
     - [Publishers: An ad network for your developer project - EthicalAds](https://www.ethicalads.io/publishers/)
@@ -65,12 +81,6 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 
 - [One Punch Man FULL ENGLISH OPENING (The Hero - Jam Project) Cover by Jonathan Young - YouTube](https://www.youtube.com/watch?v=XMCYNH1EJTg)
 
-## ENTP
-
-- 2022
-  - Oct
-    - [ENTPs - 12 Rules for Life - YouTube](https://www.youtube.com/watch?v=_b78nMoJUrc)
-    - [Why do ENTPs have a hard time remembering things? - Quora](https://www.quora.com/Why-do-ENTPs-have-a-hard-time-remembering-things)
 
 ## Intelligence
 

@@ -20,6 +20,7 @@ Health problems may seem small at first. But they get big swift.
 It's best to prevent them.
 
 These are basic checks:
+
 - Sleep
 - Food
 - Water
@@ -35,9 +36,10 @@ Get started with home remedies right away. Why wait and suffer?
 
 In all of life, collecting data is the most important thing.
 
-Observe. Observe everything and note it down. 
+Observe. Observe everything and note it down.
 
 Many things are lifestyle-related, like overeating sugar or too spicy.
+
 - Sleeping badly.
 - Addictions.
 - Wearing tight clothes.
@@ -50,12 +52,13 @@ YouTube videos are more helpful as they provides broad context. Information here
 All this is doing your homework before visiting your doctor, which will help him make a more informed decision.
 
 You can collect data as:
+
 - Photos
 - Tests
 - Log of all events including:
-    - Food
-    - Sleep
-    - Things specific to your problem
+  - Food
+  - Sleep
+  - Things specific to your problem
 
 # Take your meds
 
@@ -65,7 +68,9 @@ Take meds seriously because there is a reason associated with each. For example,
 
 Ask your doctor why you are taking each med.
 
-You can also Google it.
+You can also Google it. or look at sites like [apollo pharmacy]
+
+For example this is the tablet I was taking: [Afdura Tablet 10- Apollo Pharmacy](https://www.apollopharmacy.in/medicine/afdura-tablet)
 
 Some meds have side effects.
 
@@ -78,3 +83,7 @@ Tests can verify many diseases.
 Know all the tests related to what problem you are facing.
 
 Also, know how to read and understand them.
+
+## Resources
+
+[Disease, disorder, condition, syndrome - what’s the difference?](https://www.healthwriterhub.com/disease-disorder-condition-syndrome-whats-the-difference/#:~:text=A%20disease%20is%20a%20pathophysiological,a%20specific%20health%2Drelated%20cause.)
