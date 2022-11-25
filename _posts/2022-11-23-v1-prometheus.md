@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description: 
+description: The monitoring and time series database
 categories: [observability, prometheus]
 last_modified_at: 2022-11-23T20:52:08.052481
 last-modified-purpose:
