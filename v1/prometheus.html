@@ -214,14 +214,15 @@ window.onload = wrap_img;
 
 <p>Prometheus server polls every application configured every few seconds. The number of seconds can be changed.</p>
 
-<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcblBbZmE6ZmEtcm9ib3QgUHJvbWV0aGV1c10gLS0-fFNjcmFwIEV2ZXJ5IDE1IFNlY29uZHNcXG48Yj5HRVQvYWN0dWF0b3IvcHJvbWV0aGV1c3wgQihmYTpmYS1zZXJ2ZXIgQXBwbGljYXRpb24gQSlcblAgLS0-fFNjcmFwIEV2ZXJ5IDE1IFNlY29uZHNcXG48Yj5HRVQgL2FjdHVhdG9yL3Byb21ldGhldXN8IEMoZmE6ZmEtc2VydmVyIEFwcGxpY2F0aW9uIEIpXG5zdHlsZSBQIGZpbGw6bGlnaHRncmV5XG5zdHlsZSBCIGZpbGw6bGlnaHR5ZWxsb3dcbnN0eWxlIEMgZmlsbDpsaWdodHllbGxvdyIsIm1lcm1haWQiOm51bGx9"></p>
+<p><img src="/images/v1-prometheus.png" alt="How prometheus scrapes data?"></p>
 
 <h2 id="how-do-you-set-up-an-application-to-give-out-prometheus-metrics">How do you set up an application to give out Prometheus metrics?</h2>
 
 <p>Prometheus has many first-hand plugins for languages like Java, Python and Javascript. And has an ecosystem of third-party plugins for other languages like .NET.</p>
 
-<p>Many tools also generate responses in Prometheus format. 
+<p>Many tools also generate responses in Prometheus format.
 For example:</p>
+
 <ul>
   <li>WilfFly, which is an old JBOSS server thingy (I’m gen Z), can generate data in Prometheus format.</li>
   <li>Spring Boot Actuators also have an endpoint <code class="language-plaintext highlighter-rouge">GET /actuator/prometheus</code> that can be used for getting the same data.</li>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-24T11:01:03-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-11-25T10:07:53-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -61,14 +61,15 @@
 
 &lt;p&gt;Prometheus server polls every application configured every few seconds. The number of seconds can be changed.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcblBbZmE6ZmEtcm9ib3QgUHJvbWV0aGV1c10gLS0-fFNjcmFwIEV2ZXJ5IDE1IFNlY29uZHNcXG48Yj5HRVQvYWN0dWF0b3IvcHJvbWV0aGV1c3wgQihmYTpmYS1zZXJ2ZXIgQXBwbGljYXRpb24gQSlcblAgLS0-fFNjcmFwIEV2ZXJ5IDE1IFNlY29uZHNcXG48Yj5HRVQgL2FjdHVhdG9yL3Byb21ldGhldXN8IEMoZmE6ZmEtc2VydmVyIEFwcGxpY2F0aW9uIEIpXG5zdHlsZSBQIGZpbGw6bGlnaHRncmV5XG5zdHlsZSBCIGZpbGw6bGlnaHR5ZWxsb3dcbnN0eWxlIEMgZmlsbDpsaWdodHllbGxvdyIsIm1lcm1haWQiOm51bGx9&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/v1-prometheus.png&quot; alt=&quot;How prometheus scrapes data?&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;how-do-you-set-up-an-application-to-give-out-prometheus-metrics&quot;&gt;How do you set up an application to give out Prometheus metrics?&lt;/h2&gt;
 
 &lt;p&gt;Prometheus has many first-hand plugins for languages like Java, Python and Javascript. And has an ecosystem of third-party plugins for other languages like .NET.&lt;/p&gt;
 
-&lt;p&gt;Many tools also generate responses in Prometheus format. 
+&lt;p&gt;Many tools also generate responses in Prometheus format.
 For example:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;WilfFly, which is an old JBOSS server thingy (I’m gen Z), can generate data in Prometheus format.&lt;/li&gt;
   &lt;li&gt;Spring Boot Actuators also have an endpoint &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET /actuator/prometheus&lt;/code&gt; that can be used for getting the same data.&lt;/li&gt;
