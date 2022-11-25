@@ -20,21 +20,15 @@ You can run queries against the data and get results that can be seen or plotted
 
 Prometheus server polls every application configured every few seconds. The number of seconds can be changed.
 
-```mermaid!
-graph TD
-    P[fa:fa-robot Prometheus] -->|Scrap Every 15 Seconds\n<b>GET/actuator/prometheus| B(fa:fa-server Application A)
-    P -->|Scrap Every 15 Seconds\n<b>GET /actuator/prometheus| C(fa:fa-server Application B)
-    style P fill:lightgrey
-    style B fill:lightyellow
-    style C fill:lightyellow
-```
+![How prometheus scrapes data?](/images/v1-prometheus.png)
 
 ## How do you set up an application to give out Prometheus metrics?
 
 Prometheus has many first-hand plugins for languages like Java, Python and Javascript. And has an ecosystem of third-party plugins for other languages like .NET.
 
-Many tools also generate responses in Prometheus format. 
-For example: 
+Many tools also generate responses in Prometheus format.
+For example:
+
 - WilfFly, which is an old JBOSS server thingy (I'm gen Z), can generate data in Prometheus format.
 - Spring Boot Actuators also have an endpoint `GET /actuator/prometheus` that can be used for getting the same data.
 
