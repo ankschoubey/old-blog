@@ -203,6 +203,10 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - Chart: [Types of head-ache](https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/11/1731029-13-Types-of-Headaches-and-How-to-Treat-Them-1296x2545-Body.jpg?w=1155&h=5344)
   - Nov
     - Chart: [Urine Color Chart: What’s Normal and When to See a Doctor](https://www.healthline.com/health/urine-color-chart#color-chart)
+    - Chart: [Mucus color](https://www.google.com/search?q=mucus+color&tbm=isch&ved=2ahUKEwi9tcWXtsv7AhUlk9gFHRBCCXsQ2-cCegQIABAA&oq=mucus+color&gs_lcp=CgNpbWcQAzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BggAEAcQHlCXD1i2GGCRGmgAcAB4AIABswGIAaIGkgEDMC42mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=kM2BY72tO6Wm4t4PkISl2Ac&bih=821&biw=1440&rlz=1C5CHFA_enIN995IN995#imgrc=EbvH16foLsteTM)
+      - For nose problems take a lot of steam
+  - Nov
+    - [Habits Lowering and Increasing Your Testosterone"](https://www.instagram.com/reel/CjjmadwIAN-/?igshid=MDJmNzVkMjY%3D)
 
 ## Learning
 
@@ -235,18 +239,11 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - [Best Indian Destinations to Visit in 2022 Month by Month Inspiration](https://www.noblehousetours.com/best-indian-destinations-to-visit-in-2021-month-by-month-inspiration/)
     - [Best Time to Visit India - Climate Guide - Audley Travel](https://www.audleytravel.com/india/best-time-to-visit#nov)
 
-## Health
-
-- 2022
-  - Nov
-    - [Habits Lowering and Increasing Your Testosterone"](https://www.instagram.com/reel/CjjmadwIAN-/?igshid=MDJmNzVkMjY%3D)
-
-# Job
+## Job
 
 - 2022
   - Oct
     - [The Best Answer to "What's Your Expected Salary?" - YouTube](https://www.youtube.com/watch?v=Y-mNcEctZQY)
-
         <div style="display:none">
             - Under no circumstances do you know what it's like to work there. And you don't know.
             - What's the budget? What does the position pay at Digite?

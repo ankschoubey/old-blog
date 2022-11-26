@@ -12,33 +12,6 @@ The resources are removed when associated blogposts are written.
 
 ## Resources and Some Notes
 
-## Algorithm
-
-- 2022
-  - August
-    - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
-    - [Grokking Coding Interview Free Alternatives](https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
-    - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
-  - Oct
-    - [Top 8 Data Structures for Coding Interviews - YouTube](https://www.youtube.com/watch?v=uhYq27iSk9s)
-    - [Top 6 Coding Interview Concepts (Data Structures & Algorithms) - YouTube](https://www.youtube.com/watch?v=ft0owvS5tQA)
-    - [EASY - YouTube](https://www.youtube.com/playlist?list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ)
-    - [LeetCode Cheat Sheet — PIRATE KING](https://www.piratekingdom.com/leetcode/cheat-sheet)
-    - **Best Resource for Practice**: [NeetCode Practice](https://neetcode.io/practice)
-  - Nov
-    - [Leetcode 75 Questions (NeetCode on yt) - Google Sheets](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0)
-    - [Algorithms - YouTube](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
-    - [Coding Interview Patterns - YouTube](https://www.youtube.com/playlist?list=PLB7ZlVMcmjIDUDmOnoIRATIblml0hBt57)
-
-### Career
-
-- 2022
-  - Oct
-    - [Rahul Pandey - YouTube](https://www.youtube.com/c/RahulPandeyrkp): Building a credible Q&A platform for ambitious software engineers. Follow me to grow your SWE career.
-    - [Mindset blockers on blogging](https://www.linkedin.com/posts/netflixenglead_personalbranding-engineering-personaldevelopment-ugcPost-6990377278648070144-gY8N/)
-  - Nov
-    - [getmanfred/roles-in-tech: Contains descriptions of different roles in tech](https://github.com/getmanfred/roles-in-tech)
-
 ### Frontend
 
 - 2022
