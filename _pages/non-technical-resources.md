@@ -205,8 +205,8 @@ In these resources, try to only consume the parts you need. Let go or parts you 
     - Chart: [Urine Color Chart: What’s Normal and When to See a Doctor](https://www.healthline.com/health/urine-color-chart#color-chart)
     - Chart: [Mucus color](https://www.google.com/search?q=mucus+color&tbm=isch&ved=2ahUKEwi9tcWXtsv7AhUlk9gFHRBCCXsQ2-cCegQIABAA&oq=mucus+color&gs_lcp=CgNpbWcQAzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BggAEAcQHlCXD1i2GGCRGmgAcAB4AIABswGIAaIGkgEDMC42mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=kM2BY72tO6Wm4t4PkISl2Ac&bih=821&biw=1440&rlz=1C5CHFA_enIN995IN995#imgrc=EbvH16foLsteTM)
       - For nose problems take a lot of steam
-  - Nov
     - [Habits Lowering and Increasing Your Testosterone"](https://www.instagram.com/reel/CjjmadwIAN-/?igshid=MDJmNzVkMjY%3D)
+    - [Floor sitting benefits: Is it better than sitting on a chair? - CNN](https://edition.cnn.com/2020/07/29/health/floor-sitting-benefits-wellness-partner/index.html)
 
 ## Learning
 
