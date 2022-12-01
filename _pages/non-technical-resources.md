@@ -12,6 +12,12 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+## Getting rich
+
+- 2022
+  - Dec
+    - [How to Get Rich - YouTube](https://www.youtube.com/watch?v=1-TZqOsVCNM)
+
 ## Fun
 
 - 2022
@@ -77,6 +83,9 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 ## Stoicism
 
 - 2022
+  - Dec
+    - [Whenever you feel like giving up, just remember this!!](https://www.youtube.com/shorts/DVorkXPDwF0)
+      - 1000s have come before you. If someone else can do it, so can you!
   - Nov
     - [Guilt is not a constructive emotion … thx @ryanholiday for being on the podcast"](https://www.instagram.com/reel/CkYNg59Ax4Y/?igshid=MDJmNzVkMjY%3D)
     - [How to Always Be in Control of Your Anger - Jocko Willink - YouTube](https://www.youtube.com/watch?v=F22ZvJR2mss)

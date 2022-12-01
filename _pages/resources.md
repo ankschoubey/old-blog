@@ -28,6 +28,8 @@ The resources are removed when associated blogposts are written.
       - [Is This The Best JavaScript Extension? - YouTube](https://www.youtube.com/watch?v=TQXUeGYs8u0)
 - Library
   - 2022
+    - Dec
+      - [Favorite React Packages - YouTube](https://www.youtube.com/playlist?list=PLLnpHn493BHFhTWHDlmw64UW9r4RXMmge)
     - Nov
       - [nock: HTTP server mocking and expectations library for Node.js](https://github.com/nock/nock)
         - `npm install --save-dev nock`
@@ -297,6 +299,15 @@ The resources are removed when associated blogposts are written.
 ## Leadership
 
 - 2022
+  - Nov
+    - Watch This: [The REAL GENIUS of Steve Jobs (THIS Made Him EXCEPTIONAL!) - YouTube](https://www.youtube.com/watch?v=rQKis2Cfpeo)
+      - Best people are self manage. What they need is common vision.
+      - Find people who are really excited.
+    - [Hiring hack: How to better evaluate your candidates - Simon Sinek](https://www.youtube.com/watch?v=dO6X_NwrpSA)
+      - Hiring decision is like adoption. So do that carefully. Treat it like dating.
+      - Cultural fit > skills.
+      - Protecting the culture you've cultivated is more important than acquiring skills.
+      - You don't appeal to everyone. You let the best candidates for you find you.
   - Oct
     - [The Leadership Principles Explained - YouTube](https://www.youtube.com/playlist?list=PL9JNmYfQa0bgT_eJKk2uflwtiBIpbImdB)
 
