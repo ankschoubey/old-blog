@@ -12,6 +12,12 @@ I read/consume many resources and I thought this would be a good way to link to 
 
 In these resources, try to only consume the parts you need. Let go or parts you don't need.
 
+## Fun
+
+- 2022
+  - Dec
+    - [What to Watch on Streaming - A Good Movie To Watch](https://agoodmovietowatch.com/)
+
 ## ENTP
 
 - 2022
@@ -80,7 +86,6 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 ## Songs
 
 - [One Punch Man FULL ENGLISH OPENING (The Hero - Jam Project) Cover by Jonathan Young - YouTube](https://www.youtube.com/watch?v=XMCYNH1EJTg)
-
 
 ## Intelligence
 
@@ -199,14 +204,16 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 ## Health
 
 - 2022
-  - Oct
-    - Chart: [Types of head-ache](https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/11/1731029-13-Types-of-Headaches-and-How-to-Treat-Them-1296x2545-Body.jpg?w=1155&h=5344)
+  - Dec
+    - [Sleep Calculator: Ideal Bedtime & Wake Up Times - Sleepytime](https://sleepopolis.com/calculators/sleep/)
   - Nov
     - Chart: [Urine Color Chart: What’s Normal and When to See a Doctor](https://www.healthline.com/health/urine-color-chart#color-chart)
     - Chart: [Mucus color](https://www.google.com/search?q=mucus+color&tbm=isch&ved=2ahUKEwi9tcWXtsv7AhUlk9gFHRBCCXsQ2-cCegQIABAA&oq=mucus+color&gs_lcp=CgNpbWcQAzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BggAEAcQHlCXD1i2GGCRGmgAcAB4AIABswGIAaIGkgEDMC42mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=kM2BY72tO6Wm4t4PkISl2Ac&bih=821&biw=1440&rlz=1C5CHFA_enIN995IN995#imgrc=EbvH16foLsteTM)
       - For nose problems take a lot of steam
     - [Habits Lowering and Increasing Your Testosterone"](https://www.instagram.com/reel/CjjmadwIAN-/?igshid=MDJmNzVkMjY%3D)
     - [Floor sitting benefits: Is it better than sitting on a chair? - CNN](https://edition.cnn.com/2020/07/29/health/floor-sitting-benefits-wellness-partner/index.html)
+  - Oct
+    - Chart: [Types of head-ache](https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/11/1731029-13-Types-of-Headaches-and-How-to-Treat-Them-1296x2545-Body.jpg?w=1155&h=5344)
 
 ## Learning
 

@@ -45,6 +45,16 @@ The resources are removed when associated blogposts are written.
 ### Security
 
 - 2022
+  - Dec
+    - [Cryptography Concepts for Node.js Developers](https://fireship.io/lessons/node-crypto-examples/)
+    - [7 Security Risks and Hacking Stories for Web Developers](https://fireship.io/lessons/7-security-concepts-hacks-web-developers/)
+      1. Zero-day 0:47 - Zero days to get it fixed.
+      2. Vulnerable packages 1:22
+      3. XSS 2:24
+      4. SQL Injection 3:42
+      5. Credential Leaks 4:48
+      6. Principle of Least Privilege 6:11
+      7. DDoS 7:43
   - Nov
     - [Keep all your packages up to date with Dependabot](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/)
     - [The GitHub Blog: Security News and Updates](https://github.blog/category/security/)
