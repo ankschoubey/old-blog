@@ -12,6 +12,37 @@ The resources are removed when associated blogposts are written.
 
 ## Resources and Some Notes
 
+## Startups
+
+- 2022
+  - Dec
+    - [Slidebean - YouTube Channel](https://www.youtube.com/@slidebean/videos)
+
+## Leadership
+
+- Hiring
+  - 2022
+    - Dec
+      - [Waiting for the right person is faster than hiring the wrong one.](https://www.youtube.com/shorts/iwzOhf1TSTo) So don't settle for the best of a mediocre pool.
+      - Watch This: [The REAL GENIUS of Steve Jobs (THIS Made Him EXCEPTIONAL!) - YouTube](https://www.youtube.com/watch?v=rQKis2Cfpeo)
+        - Best people are self manage. What they need is common vision.
+        - Find people who are really excited.
+      - [Hiring Process at AirBnB - YouTube](https://www.youtube.com/watch?v=KtEXLMoAwcg)
+        - Check their core values.
+        - Prefer people who already have used products.
+        - "What is a common way yyou are mispercieved?" Makes people authentic
+      - [Hiring hack: How to better evaluate your candidates - Simon Sinek](https://www.youtube.com/watch?v=dO6X_NwrpSA)
+        - Hiring decision is like adoption. So do that carefully. Treat it like dating.
+        - Cultural fit > skills.
+        - Protecting the culture you've cultivated is more important than acquiring skills.
+        - You don't appeal to everyone. You let the best candidates for you find you.
+- Company Values
+  - 2022
+    - Dec
+      - [AirBnb 6 Golden Rules via Brian Chesky - YouTube](https://www.youtube.com/watch?v=jgPYSogOOTY)
+    - Oct
+      - [Amazon: The Leadership Principles Explained - YouTube](https://www.youtube.com/playlist?list=PL9JNmYfQa0bgT_eJKk2uflwtiBIpbImdB)
+
 ### Frontend
 
 - 2022
@@ -295,21 +326,6 @@ The resources are removed when associated blogposts are written.
 - Presentation:
   - 2022 Oct:
     - [Tool: Mentimeter](https://www.youtube.com/watch?v=UrFdN-HQF6I&ab_channel=Mentimeter)
-
-## Leadership
-
-- 2022
-  - Nov
-    - Watch This: [The REAL GENIUS of Steve Jobs (THIS Made Him EXCEPTIONAL!) - YouTube](https://www.youtube.com/watch?v=rQKis2Cfpeo)
-      - Best people are self manage. What they need is common vision.
-      - Find people who are really excited.
-    - [Hiring hack: How to better evaluate your candidates - Simon Sinek](https://www.youtube.com/watch?v=dO6X_NwrpSA)
-      - Hiring decision is like adoption. So do that carefully. Treat it like dating.
-      - Cultural fit > skills.
-      - Protecting the culture you've cultivated is more important than acquiring skills.
-      - You don't appeal to everyone. You let the best candidates for you find you.
-  - Oct
-    - [The Leadership Principles Explained - YouTube](https://www.youtube.com/playlist?list=PL9JNmYfQa0bgT_eJKk2uflwtiBIpbImdB)
 
 ## Agile
 
