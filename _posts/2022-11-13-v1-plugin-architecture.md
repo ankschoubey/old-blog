@@ -79,3 +79,5 @@ Google "plugin architecture java" or "plugin architecture javascript"
 [Trello Plugin - Your First Power-Up](https://developer.atlassian.com/cloud/trello/guides/power-ups/your-first-power-up/)
 
 [How to build a plugin system on the web and also sleep well at night](https://www.figma.com/blog/how-we-built-the-figma-plugin-system/)
+
+May come useful: [Sandboxed JavaScript](https://developers.google.com/tag-platform/tag-manager/templates/sandboxed-javascript)

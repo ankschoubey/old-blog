@@ -228,6 +228,11 @@ The resources are removed when associated blogposts are written.
 
 ## Architecture
 
+- UML and diagrams
+  - 2022
+    - Dec
+      - [Structurizr](https://structurizr.com/)
+
 - Reactive Programming
   - 2022 Aug 22
     - [Learn RxJS operators and Reactive Programming principles](https://reactive.how/)
