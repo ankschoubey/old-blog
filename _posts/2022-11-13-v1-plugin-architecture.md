@@ -77,3 +77,5 @@ Google "plugin architecture java" or "plugin architecture javascript"
 [StackOverflow: The plugin design pattern explained (as described by Martin Fowler)](https://stackoverflow.com/questions/51217271/the-plugin-design-pattern-explained-as-described-by-martin-fowler)
 
 [Trello Plugin - Your First Power-Up](https://developer.atlassian.com/cloud/trello/guides/power-ups/your-first-power-up/)
+
+[How to build a plugin system on the web and also sleep well at night](https://www.figma.com/blog/how-we-built-the-figma-plugin-system/)

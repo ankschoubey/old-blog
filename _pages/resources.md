@@ -20,8 +20,10 @@ The resources are removed when associated blogposts are written.
 
     - [You Probably Need BEM CSS in Your Life (Tutorial)](https://www.youtube.com/watch?app=desktop&v=er1JEDuPbZQ)
     - [Web Dev Simplified Blog](https://blog.webdevsimplified.com/)
-- Extension
+- Extension and toold
   - 2022
+    - Dec
+      - [responsively-org/responsively-app: A modified web browser that helps in responsive web development. A web developer's must have dev-tool.](https://github.com/responsively-org/responsively-app)
     - Nov
       - [Is This The Best JavaScript Extension? - YouTube](https://www.youtube.com/watch?v=TQXUeGYs8u0)
 - Library
@@ -182,22 +184,32 @@ The resources are removed when associated blogposts are written.
 
 ## Testing
 
-- 2022
-  - Aug
-    - [Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html):
-  - Sep
-    - [Java Performance Testing](https://stackify.com/java-performance/)
-    - [LoadTesting Java Load4j](https://www.loadtest4j.org/): Has interesting read on SLOs via verifiable tests.
-    - Common Exceptions
-      - [We Crunched 1 Billion Java Logged Errors - Here’s What Causes 97% of Them - OverOps](https://www.overops.com/blog/we-crunched-1-billion-java-logged-errors-heres-what-causes-97-of-them-2/)
-      - [The Top 10 Exception Types in Production Java Applications - Based on 1B Events - OverOps](https://www.overops.com/blog/the-top-10-exceptions-types-in-production-java-applications-based-on-1b-events/)
-      - [Common Java Exceptions - Baeldung](https://www.baeldung.com/java-common-exceptions)
-      - [Most Common Java Exceptions - Rollbar](https://rollbar.com/blog/most-common-java-exceptions/)
-  - Oct
-    - [More Testable Code with the Hexagonal Architecture](https://www.youtube.com/watch?v=ujb_O6myknY&ab_channel=JitterTed)
-  - Nov
-    - [How to Get Started with Test Driven Development — A Step by Step Guide](https://medium.com/geekculture/how-to-get-started-with-test-driven-development-a-step-by-step-guide-bfdd831fae71)
-    - [Third party Extensions · junit-team/junit5 Wiki](https://github.com/junit-team/junit5/wiki/Third-party-Extensions)
+- Ops
+  - 2022
+    - Dec
+      - [Allure TestOps: Software Quality Management Software - Qameta.io](https://qameta.io/)
+- UI
+  - 2022
+    - Dec
+      - [eliasnogueira/selenium-java-lean-test-architecture: Ready to use Lean Test Automation Architecture using Java and Selenium WebDriver to speed up your test automation](https://github.com/eliasnogueira/selenium-java-lean-test-architecture)
+      - [healenium/healenium-web: Self-healing library for Selenium Web-based tests](https://github.com/healenium/healenium-web)
+- Code
+  - 2022
+    - Aug
+      - [Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html):
+    - Sep
+      - [Java Performance Testing](https://stackify.com/java-performance/)
+      - [LoadTesting Java Load4j](https://www.loadtest4j.org/): Has interesting read on SLOs via verifiable tests.
+      - Common Exceptions
+        - [We Crunched 1 Billion Java Logged Errors - Here’s What Causes 97% of Them - OverOps](https://www.overops.com/blog/we-crunched-1-billion-java-logged-errors-heres-what-causes-97-of-them-2/)
+        - [The Top 10 Exception Types in Production Java Applications - Based on 1B Events - OverOps](https://www.overops.com/blog/the-top-10-exceptions-types-in-production-java-applications-based-on-1b-events/)
+        - [Common Java Exceptions - Baeldung](https://www.baeldung.com/java-common-exceptions)
+        - [Most Common Java Exceptions - Rollbar](https://rollbar.com/blog/most-common-java-exceptions/)
+    - Oct
+      - [More Testable Code with the Hexagonal Architecture](https://www.youtube.com/watch?v=ujb_O6myknY&ab_channel=JitterTed)
+    - Nov
+      - [How to Get Started with Test Driven Development — A Step by Step Guide](https://medium.com/geekculture/how-to-get-started-with-test-driven-development-a-step-by-step-guide-bfdd831fae71)
+      - [Third party Extensions · junit-team/junit5 Wiki](https://github.com/junit-team/junit5/wiki/Third-party-Extensions)
 
 ## Database
 
@@ -206,11 +218,13 @@ The resources are removed when associated blogposts are written.
 
 ## Devops
 
-- 2022 Aug
-  - [The 20/80 Rules: The 20% of DevOps skills you will use 80% of the time.](https://www.youtube.com/playlist?list=PL2qztVQdZeHNgWOv6KWWMMLnMqdFI0-6k)
-- 2022 Sep
-  - [The Ancestors and Offsprings of DevOps, the Evolving DevOps Tree](https://medium.com/@schogini/the-ancestors-and-offsprings-of-devops-the-evolving-devops-tree-8bebaa7492ca)
--
+- 2022
+  - Nov
+    - [Conductor Documentation](https://conductor.netflix.com/)
+  - Sep
+    - [The Ancestors and Offsprings of DevOps, the Evolving DevOps Tree](https://medium.com/@schogini/the-ancestors-and-offsprings-of-devops-the-evolving-devops-tree-8bebaa7492ca)
+  - Aug
+    - [The 20/80 Rules: The 20% of DevOps skills you will use 80% of the time.](https://www.youtube.com/playlist?list=PL2qztVQdZeHNgWOv6KWWMMLnMqdFI0-6k)
 
 ## Architecture
 
