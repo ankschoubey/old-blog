@@ -254,13 +254,19 @@ The resources are removed when associated blogposts are written.
 
 ## Devops
 
-- 2022
-  - Nov
-    - [Conductor Documentation](https://conductor.netflix.com/)
-  - Sep
-    - [The Ancestors and Offsprings of DevOps, the Evolving DevOps Tree](https://medium.com/@schogini/the-ancestors-and-offsprings-of-devops-the-evolving-devops-tree-8bebaa7492ca)
-  - Aug
-    - [The 20/80 Rules: The 20% of DevOps skills you will use 80% of the time.](https://www.youtube.com/playlist?list=PL2qztVQdZeHNgWOv6KWWMMLnMqdFI0-6k)
+- Cloud
+  - 2022
+    - Nov
+      - [Top 50+ AWS Services Explained in 10 Minutes - YouTube](https://www.youtube.com/watch?v=JIbIYCM48to)
+      - [How I would learn AWS Cloud (If I could start over) - YouTube](https://www.youtube.com/watch?v=Z0EtjKNRdR4)
+- Tools
+  - 2022
+    - Nov
+      - [Conductor Documentation](https://conductor.netflix.com/)
+    - Sep
+      - [The Ancestors and Offsprings of DevOps, the Evolving DevOps Tree](https://medium.com/@schogini/the-ancestors-and-offsprings-of-devops-the-evolving-devops-tree-8bebaa7492ca)
+    - Aug
+      - [The 20/80 Rules: The 20% of DevOps skills you will use 80% of the time.](https://www.youtube.com/playlist?list=PL2qztVQdZeHNgWOv6KWWMMLnMqdFI0-6k)
 
 ## Architecture
 
