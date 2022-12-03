@@ -61,6 +61,7 @@ The resources are removed when associated blogposts are written.
   - 2022
     - Dec
       - [Favorite React Packages - YouTube](https://www.youtube.com/playlist?list=PLLnpHn493BHFhTWHDlmw64UW9r4RXMmge)
+      - [Zod: TypeScript-first schema validation with static type inference](https://www.youtube.com/watch?v=9UVPk0Ulm6U&list=WL&index=16)
     - Nov
       - [nock: HTTP server mocking and expectations library for Node.js](https://github.com/nock/nock)
         - `npm install --save-dev nock`
@@ -90,6 +91,8 @@ The resources are removed when associated blogposts are written.
       5. Credential Leaks 4:48
       6. Principle of Least Privilege 6:11
       7. DDoS 7:43
+    - [How I got hacked... 7 times (security tips for web applications) - YouTube](https://www.youtube.com/watch?v=hFuGbFC_VHA)
+    - [How the Best Hackers Learn Their Craft - YouTube](https://www.youtube.com/watch?v=6vj96QetfTg)
   - Nov
     - [Keep all your packages up to date with Dependabot](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/)
     - [The GitHub Blog: Security News and Updates](https://github.blog/category/security/)

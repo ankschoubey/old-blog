@@ -126,6 +126,10 @@ In these resources, try to only consume the parts you need. Let go or parts you 
       - [The 3 Stages of Failure in Life and Work (And How to Fix Them)](https://jamesclear.com/3-stages-of-failure)
 - Cognitive Biases
   - 2022
+    - Dec
+      - [Why Smart People Think They're Stupid [The Dunning-Kruger Effect] - YouTube](https://www.youtube.com/watch?v=TT81fe2IobI&list=WL)
+      - [How to overcome the Dunning-Kruger effect. - YouTube](https://www.youtube.com/watch?v=DpaDQM5mL_w)
+      - [Dunning Kruger Effect and Imposter Syndrome - Jocko Podcast Excerpt - YouTube](https://www.youtube.com/watch?v=LxY4FIgoMHY)
     - Oct
       - Dunning-Krugger Effect
 - Logical Fallacies
