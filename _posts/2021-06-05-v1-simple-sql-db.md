@@ -5,9 +5,10 @@ comments: true
 description: 
 categories: [database, information-system]
 title: Keeping database simple
-last-modified-purpose: added section on "Keep Data within Database Platform Independent"
-last_modified_at: 2022-06-19T20:42:15.673574
-permalink: /simple-db/
+last-modified-purpose: appended Markdown to "Keep Data within Database Platform Independent"
+last_modified_at: 2022-12-03T20:42:15.673574
+permalink: /v1/simple-db
+image: /images/v1-simple-db/trello-markdown.svg
 ---
 
 Around 2 years ago, I wrote a blog post detailing how to keep backend DB Queries simple but it missed a very critical piece which is having a simpler DB.
@@ -34,13 +35,19 @@ There shouldn't be multiple tables doing the same job.
 
 If you have a social media type feature, it is best to have a single table to track likes than have multiple like tables for each type of data.
 
-## Keep Data within Database Platform Independent
+## **Keep Data within Database Platform Independent**
 
 A common problem that happens when you store something like HTML is what would happen if classes or tags are modified. One would have to write a migration script and image all the scenarious. This is a lot of work.
 
 Therefore, database ideally shouldn't store HTML or a particular DSL.
 
 Instead have a converter at the backend to do the conversion from data within database to HTML or DSL. This would mean that you can swap in and out different DSLs over the same data.
+
+Markdown is a good example. Markdowns are light weight. Use Markdown based WYSWYG editor instead of HTML Based.
+
+This is what trello seems to do:
+
+![](/images/v1-simple-db/trello-markdown.svg)
 
 ## Column Names
 
