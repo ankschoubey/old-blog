@@ -7,20 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>The Prometheus Cheatsheet | Ankush Choubey</title>
+<title>Why do microservices need an API client sdk for HTTP and Messaging? | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="The Prometheus Cheatsheet">
+<meta property="og:title" content="Why do microservices need an API client sdk for HTTP and Messaging?">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="The monitoring and time series database">
-<meta property="og:description" content="The monitoring and time series database">
-<link rel="canonical" href="www.ankushchoubey.com/v1/prometheus">
-<meta property="og:url" content="www.ankushchoubey.com/v1/prometheus">
+<meta name="description" content="Amazon SDK">
+<meta property="og:description" content="Amazon SDK">
+<link rel="canonical" href="www.ankushchoubey.com/v1/api-client-sdk">
+<meta property="og:url" content="www.ankushchoubey.com/v1/api-client-sdk">
 <meta property="og:site_name" content="Ankush Choubey">
-<meta property="og:image" content="www.ankushchoubey.com/images/v1-prometheus.png">
+<meta property="og:image" content="www.ankushchoubey.com/images/v1-api-client.png">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2022-11-23T00:00:00-06:00">
+<meta property="article:published_time" content="2022-12-03T00:00:00-06:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/v1/prometheus","@type":"BlogPosting","headline":"The Prometheus Cheatsheet","dateModified":"2022-11-23T14:52:08-06:00","datePublished":"2022-11-23T00:00:00-06:00","image":"www.ankushchoubey.com/images/v1-prometheus.png","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/prometheus"},"description":"The monitoring and time series database","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/v1/api-client-sdk","@type":"BlogPosting","headline":"Why do microservices need an API client sdk for HTTP and Messaging?","dateModified":"2022-11-06T14:52:08-06:00","datePublished":"2022-12-03T00:00:00-06:00","image":"www.ankushchoubey.com/images/v1-api-client.png","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/api-client-sdk"},"description":"Amazon SDK","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -125,13 +125,12 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">The Prometheus Cheatsheet</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Why do microservices need an API client sdk for HTTP and Messaging?</h1>
 
-    <p class="page-description">The monitoring and time series database</p>
-<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-11-23T00:00:00-06:00" itemprop="datePublished">
-        Written: Nov 23, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-11-23T14:52:08-06:00" itemprop="dateModified">
-          Updated: Nov 23, 2022
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-12-03T00:00:00-06:00" itemprop="datePublished">
+        Written: Dec 3, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-11-06T14:52:08-06:00" itemprop="dateModified">
+          Updated: Nov 6, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -163,9 +162,9 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag observability" href="/categories/#observability">observability</a>
+    <a class="tag fa fa-hashtag microservices" href="/categories/#microservices">microservices</a>
     
-    <a class="tag fa fa-hashtag prometheus" href="/categories/#prometheus">prometheus</a>
+    <a class="tag fa fa-hashtag distributed-systems" href="/categories/#distributed-systems">distributed-systems</a>
     
 </div>
 <div class="right-section">
@@ -205,65 +204,58 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="what-is-prometheus">What is Prometheus?</h2>
+    <p><img src="/images/v1-api-client.png" alt="Amazon SDK"></p>
+<pre>Amazon SDK</pre>
 
-<p>Prometheus is a tool that collects metrics data exposed by different applications in a central place. These applications can be in different programming languages.</p>
+<h2 id="how-does-microservice-usage-ramp-up">How does microservice usage ramp up?</h2>
 
-<p>You can run queries against the data and get results that can be seen or plotted on visualization tools like Graphana.</p>
+<p>Microservice usage scales very fast. At first, a single service is the APIs. Suddenly there is a bunch.</p>
 
-<h2 id="how-does-prometheus-work">How does Prometheus work?</h2>
+<p>Each implements the same methods to access the same rest APIs. Each one of them would implement contract testing.</p>
 
-<p>Prometheus server polls every application configured every few seconds. The number of seconds can be changed.</p>
+<p>This is a wasted effort.</p>
 
-<p><img src="/images/v1-prometheus.png" alt="How prometheus scrapes data?"></p>
+<h2 id="api-client-sdk">API Client SDK</h2>
 
-<h2 id="how-do-you-set-up-an-application-to-give-out-prometheus-metrics">How do you set up an application to give out Prometheus metrics?</h2>
+<p>We can, as an alternative, create one client code and let everyone use it. Or one client in each programming language that uses it.</p>
 
-<p>Prometheus has many first-hand plugins for languages like Java, Python and Javascript. And has an ecosystem of third-party plugins for other languages like .NET.</p>
+<p>This gives us the following advantage:</p>
 
-<p>Many tools also generate responses in Prometheus format.
-For example:</p>
+<ol>
+  <li>Only the client code deals with the format of the API.</li>
+  <li>Only the client code needs to be contract tested.</li>
+  <li>If the endpoints of the API change, only the client code needs to be changed.</li>
+  <li>We can create a single @Value for the base URL for the client and inject it via a config server for all applications.</li>
+  <li>If we need to add micrometer-prometheus usage metrics for an API, we have one destination.</li>
+  <li>If we need to retire an API, we just add @deprecated and release the client.</li>
+</ol>
 
-<ul>
-  <li>WilfFly, which is an old JBOSS server thingy (I’m gen Z), can generate data in Prometheus format.</li>
-  <li>Spring Boot Actuators also have an endpoint <code class="language-plaintext highlighter-rouge">GET /actuator/prometheus</code> that can be used for getting the same data.</li>
-</ul>
+<p>The client would also include:</p>
 
-<p>Every application exposing prometheus data requires a <code class="language-plaintext highlighter-rouge">prometheus.yml</code> file which describes what’s the fetch interval and other details.</p>
+<ol>
+  <li>Request validation: To avoid unnecessary network calls.</li>
+  <li>Request Body POJOs: So that everyone uses the same format.</li>
+  <li>Response Body POJOs.</li>
+  <li>Standard Exception handling</li>
+</ol>
 
-<h2 id="how-do-you-add-custom-metrics-in-prometheus">How do you add custom metrics in Prometheus?</h2>
+<h2 id="message-client">Message client</h2>
 
-<p>There are tools like Micrometer that you can use to add custom metrics and then expose those metrics in Prometheus format to Prometheus.</p>
+<p>The same can be used for messaging like Kafka, where the client can include POJOs format and methods to publish messages in case of incoming webhooks.</p>
 
-<p>Reading: <a href="https://docs.spring.io/spring-metrics/docs/current/public/prometheus">Spring Metrics Prometheus</a></p>
+<h2 id="conclusion">Conclusion</h2>
 
-<h2 id="how-do-you-run-prometheus-queries-with-promql">How do you run Prometheus queries with PromQL?</h2>
-
-<p>PromQL is the query language used to run queries on Prometheus.</p>
-
-<h2 id="how-do-you-visualize-responses-to-queries">How do you visualize responses to queries?</h2>
-
-<p>Can be done in graphana or any other visualization tool</p>
-
-<h2 id="resources">Resources</h2>
-
-<p><a href="https://docs.spring.io/spring-metrics/docs/current/public/prometheus">Spring Metrics Prometheus</a></p>
-
-<p><a href="https://www.youtube.com/playlist?list=PLrSqqHFS8XPbdYYpZ6dbyjqhLSdHiXiqD">Prometheus Graphana YouTube Series</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=nJMRmhbY5hY">The 4 Types Of Prometheus Metrics</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=hvACEDjHQZE">How to build a PromQL (Prometheus Query Language)</a></p>
+<p>In conclusion, an API client would help reduce the efforts of all developers in developing and using an API. The developers using the client need not be concerned with how the API works internally, weather it works on REST, Graph QL, gRPC, etc. They just need to send and receive data in using the right client provided POJOs.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/v1/core-attributes">« Core Attributes</a>
+      <a class="prev" href="/v1/prometheus">« The Prometheus Cheatsheet</a>
     
     
-      <a class="next" href="/v1/api-client-sdk">Why do microservices need an API client sdk for HTTP and Messaging? »</a>
+      <a class="next" href="/post-format/">PREFER UPDATING A BLOG OVER WRITING NEW ONES »</a>
     
   </div>
 
@@ -293,8 +285,8 @@ For example:</p>
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'www.ankushchoubey.com/v1/prometheus';
-      this.page.identifier = 'www.ankushchoubey.com/v1/prometheus';
+      this.page.url = 'www.ankushchoubey.com/v1/api-client-sdk';
+      this.page.identifier = 'www.ankushchoubey.com/v1/api-client-sdk';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -305,7 +297,7 @@ For example:</p>
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/v1/prometheus" hidden></a>
+<a class="u-url" href="/v1/api-client-sdk" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

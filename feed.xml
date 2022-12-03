@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-03T04:04:06-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-03T11:43:25-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,48 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Prometheus Cheatsheet</title><link href="www.ankushchoubey.com/v1/prometheus" rel="alternate" type="text/html" title="The Prometheus Cheatsheet" /><published>2022-11-23T00:00:00-06:00</published><updated>2022-11-23T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-prometheus</id><content type="html" xml:base="www.ankushchoubey.com/v1/prometheus">&lt;h2 id=&quot;what-is-prometheus&quot;&gt;What is Prometheus?&lt;/h2&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why do microservices need an API client sdk for HTTP and Messaging?</title><link href="www.ankushchoubey.com/v1/api-client-sdk" rel="alternate" type="text/html" title="Why do microservices need an API client sdk for HTTP and Messaging?" /><published>2022-12-03T00:00:00-06:00</published><updated>2022-11-06T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-api-client</id><content type="html" xml:base="www.ankushchoubey.com/v1/api-client-sdk">&lt;p&gt;&lt;img src=&quot;/images/v1-api-client.png&quot; alt=&quot;Amazon SDK&quot; /&gt;&lt;/p&gt;
+&lt;pre&gt;Amazon SDK&lt;/pre&gt;
+
+&lt;h2 id=&quot;how-does-microservice-usage-ramp-up&quot;&gt;How does microservice usage ramp up?&lt;/h2&gt;
+
+&lt;p&gt;Microservice usage scales very fast. At first, a single service is the APIs. Suddenly there is a bunch.&lt;/p&gt;
+
+&lt;p&gt;Each implements the same methods to access the same rest APIs. Each one of them would implement contract testing.&lt;/p&gt;
+
+&lt;p&gt;This is a wasted effort.&lt;/p&gt;
+
+&lt;h2 id=&quot;api-client-sdk&quot;&gt;API Client SDK&lt;/h2&gt;
+
+&lt;p&gt;We can, as an alternative, create one client code and let everyone use it. Or one client in each programming language that uses it.&lt;/p&gt;
+
+&lt;p&gt;This gives us the following advantage:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Only the client code deals with the format of the API.&lt;/li&gt;
+  &lt;li&gt;Only the client code needs to be contract tested.&lt;/li&gt;
+  &lt;li&gt;If the endpoints of the API change, only the client code needs to be changed.&lt;/li&gt;
+  &lt;li&gt;We can create a single @Value for the base URL for the client and inject it via a config server for all applications.&lt;/li&gt;
+  &lt;li&gt;If we need to add micrometer-prometheus usage metrics for an API, we have one destination.&lt;/li&gt;
+  &lt;li&gt;If we need to retire an API, we just add @deprecated and release the client.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The client would also include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Request validation: To avoid unnecessary network calls.&lt;/li&gt;
+  &lt;li&gt;Request Body POJOs: So that everyone uses the same format.&lt;/li&gt;
+  &lt;li&gt;Response Body POJOs.&lt;/li&gt;
+  &lt;li&gt;Standard Exception handling&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;message-client&quot;&gt;Message client&lt;/h2&gt;
+
+&lt;p&gt;The same can be used for messaging like Kafka, where the client can include POJOs format and methods to publish messages in case of incoming webhooks.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In conclusion, an API client would help reduce the efforts of all developers in developing and using an API. The developers using the client need not be concerned with how the API works internally, weather it works on REST, Graph QL, gRPC, etc. They just need to send and receive data in using the right client provided POJOs.&lt;/p&gt;</content><author><name></name></author><category term="microservices" /><category term="distributed-systems" /><summary type="html">Amazon SDK</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/v1-api-client.png" /><media:content medium="image" url="www.ankushchoubey.com/images/v1-api-client.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Prometheus Cheatsheet</title><link href="www.ankushchoubey.com/v1/prometheus" rel="alternate" type="text/html" title="The Prometheus Cheatsheet" /><published>2022-11-23T00:00:00-06:00</published><updated>2022-11-23T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-prometheus</id><content type="html" xml:base="www.ankushchoubey.com/v1/prometheus">&lt;h2 id=&quot;what-is-prometheus&quot;&gt;What is Prometheus?&lt;/h2&gt;
 
 &lt;p&gt;Prometheus is a tool that collects metrics data exposed by different applications in a central place. These applications can be in different programming languages.&lt;/p&gt;
 
@@ -357,40 +398,4 @@ Pessimism: Finding faults in random things.&lt;/p&gt;</content><author><name></n
         &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;list1:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;preHead&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="linked-list" /><category term="easy" /><summary type="html">[Video]</summary></entry><entry><title type="html">Blind 75 - Maximum Depth of Binary Tree</title><link href="www.ankushchoubey.com/v1/maximum-depth-of-binary-tree" rel="alternate" type="text/html" title="Blind 75 - Maximum Depth of Binary Tree" /><published>2022-11-16T00:00:00-06:00</published><updated>2022-11-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-maximum-depth-of-binary-tree</id><content type="html" xml:base="www.ankushchoubey.com/v1/maximum-depth-of-binary-tree">&lt;p&gt;[Video]&lt;/p&gt;
-
-&lt;p&gt;Find the maximum depth of the binary tree.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/maximum-depth-of-binary-tree/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;approaches&quot;&gt;Approaches&lt;/h1&gt;
-&lt;h1 id=&quot;on-time-o1-space-10-lines&quot;&gt;O(n) time. O(1) space. 10 lines.&lt;/h1&gt;
-
-&lt;p&gt;go to each depth, incrementing a depth counter by 1. return max of it.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;maxDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;TreeNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nextDepth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nextDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;maxDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nextDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-        
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;maxDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;TreeNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;maxDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Code optimization: No need to create a separate function;&lt;/p&gt;
-
-&lt;h1 id=&quot;optimized-5-lines&quot;&gt;Optimized: 5 lines&lt;/h1&gt;
-
-&lt;p&gt;Source: &lt;a href=&quot;https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/2803516/Java-100-Faster-Very-Simple&quot;&gt;Java 100% Faster Very Simple - LeetCode Discuss&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;maxDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;TreeNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maxDepth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="binary-tree" /><category term="easy" /><summary type="html">[Video]</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="linked-list" /><category term="easy" /><summary type="html">[Video]</summary></entry></feed>
