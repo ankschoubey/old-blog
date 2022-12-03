@@ -197,26 +197,26 @@ The resources are removed when associated blogposts are written.
 
 ## Spring Boot and Java
 
-- 2022
-  - Sep
-    - [Top 10 Most Common Spring Framework Mistakes](https://www.toptal.com/spring/top-10-most-common-spring-framework-mistakes)
-    - [Realtime user tracking in Spring Boot](https://medium.com/geekculture/realtime-user-tracking-in-spring-boot-d8fb343a6c3c)
-    - [Metrics for your Spring REST API](https://www.baeldung.com/spring-rest-api-metrics)
-    - [Spring boot playground](https://github.com/odrotbohm/spring-playground): Some interesting helper libraries
-    - [JMolecular](https://github.com/xmolecules/jmolecules): Makes it easy to implement Domain Driven Design
-  - Oct
-    - [Spring Boot Best Practices](https://medium.com/@raviyasas/spring-boot-best-practices-for-developers-3f3bdffa0090)
-    - [Building a Framework on top of Spring Boot by Rubén Pahíno - Spring I/O 2022 Sessions - YouTube](https://www.youtube.com/watch?v=1qT__SBWOhA&t=3s)
-  - Nov
-    - [Dan Vega - YouTube](https://www.youtube.com/@DanVega/videos)
-    - [Spring Boot Learning - YouTube](https://www.youtube.com/@SpringBootLearning)
-    - [6 WAYS to be a SPRING CODER - YouTube](https://www.youtube.com/watch?v=qaK6N21tbVQ)
-    - [Spring - Guides](https://spring.io/guides)
-
-## Maven Plugin
-
-- 2022 Sep
-  - [Maven Plugin: Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector): This is important when doing concurrent programming.
+- Maven Plugins
+  - [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector): This is important when doing concurrent programming.
+- Spring Boot
+  - 2022
+    - Dec
+      - [jcabi/jcabi-aspects: Collection of AOP/AspectJ Java Aspects](https://github.com/jcabi/jcabi-aspects)
+    - Nov
+      - [Dan Vega - YouTube](https://www.youtube.com/@DanVega/videos)
+      - [Spring Boot Learning - YouTube](https://www.youtube.com/@SpringBootLearning)
+      - [6 WAYS to be a SPRING CODER - YouTube](https://www.youtube.com/watch?v=qaK6N21tbVQ)
+      - [Spring - Guides](https://spring.io/guides)
+    - Sep
+      - [Top 10 Most Common Spring Framework Mistakes](https://www.toptal.com/spring/top-10-most-common-spring-framework-mistakes)
+      - [Realtime user tracking in Spring Boot](https://medium.com/geekculture/realtime-user-tracking-in-spring-boot-d8fb343a6c3c)
+      - [Metrics for your Spring REST API](https://www.baeldung.com/spring-rest-api-metrics)
+      - [Spring boot playground](https://github.com/odrotbohm/spring-playground): Some interesting helper libraries
+      - [JMolecular](https://github.com/xmolecules/jmolecules): Makes it easy to implement Domain Driven Design
+    - Oct
+      - [Spring Boot Best Practices](https://medium.com/@raviyasas/spring-boot-best-practices-for-developers-3f3bdffa0090)
+      - [Building a Framework on top of Spring Boot by Rubén Pahíno - Spring I/O 2022 Sessions - YouTube](https://www.youtube.com/watch?v=1qT__SBWOhA&t=3s)
 
 ## Testing
 
