@@ -82,6 +82,7 @@ The resources are removed when associated blogposts are written.
 
 - 2022
   - Dec
+    - [Ethical Hacking in 100 Seconds // And why do we need CORS? - YouTube](https://www.youtube.com/watch?v=v969_M6cWk0)
     - [Cryptography Concepts for Node.js Developers](https://fireship.io/lessons/node-crypto-examples/)
     - [7 Security Risks and Hacking Stories for Web Developers](https://fireship.io/lessons/7-security-concepts-hacks-web-developers/)
       1. Zero-day 0:47 - Zero days to get it fixed.
@@ -316,6 +317,8 @@ The resources are removed when associated blogposts are written.
 ## Culture and Collaboration
 
 - 2022
+  - Dec
+    - [Good First Issue: Issues for your first open-source contribution](https://goodfirstissue.dev/)
   - Aug
     - [A Software Engineering Culture Test](https://blog.pragmaticengineer.com/the-developer-culture-test/)
   - Sep
@@ -370,6 +373,12 @@ The resources are removed when associated blogposts are written.
     - Kotlin DSL: <https://medium.com/kotlin-and-kotlin-for-android/kotlin-dsl-coding-a-dsl-6-ee355be81106>
 - Nov
   - [automatisch/automatisch: The open source Zapier alternative. Build workflow automation without spending time and money.](https://github.com/automatisch/automatisch)
+
+## More Lists
+
+[sindresorhus/awesome: 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome)
+
+[akullpp/awesome-java: A curated list of awesome frameworks, libraries and software for the Java programming language.](https://github.com/akullpp/awesome-java)
   
 ## More
 
