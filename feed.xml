@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-03T12:24:40-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-04T04:10:40-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -51,7 +51,106 @@
       &lt;td&gt;N&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why do microservices need an API client sdk for HTTP and Messaging?</title><link href="www.ankushchoubey.com/v1/api-client-sdk" rel="alternate" type="text/html" title="Why do microservices need an API client sdk for HTTP and Messaging?" /><published>2022-12-03T00:00:00-06:00</published><updated>2022-12-03T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-api-client</id><content type="html" xml:base="www.ankushchoubey.com/v1/api-client-sdk">&lt;p&gt;&lt;img src=&quot;/images/v1-api-client.png&quot; alt=&quot;Amazon SDK&quot; /&gt;&lt;/p&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/n-plus-one.svg" /><media:content medium="image" url="www.ankushchoubey.com/images/n-plus-one.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Developing better self-awareness with</title><link href="www.ankushchoubey.com/v1/quantified-self" rel="alternate" type="text/html" title="Developing better self-awareness with" /><published>2022-12-04T00:00:00-06:00</published><updated>2022-12-04T04:09:13-06:00</updated><id>www.ankushchoubey.com/v1/v1-quantified-self</id><content type="html" xml:base="www.ankushchoubey.com/v1/quantified-self">&lt;h2 id=&quot;what-do-i-mean-by-the-observability-of-personal-life&quot;&gt;What do I mean by the Observability of personal life?&lt;/h2&gt;
+
+&lt;p&gt;Quantified self means tracking certain things in our life so that we can make good decisions.&lt;/p&gt;
+
+&lt;p&gt;These decisions are made so that we can course-correct them if we are straining away from something important.&lt;/p&gt;
+
+&lt;p&gt;And therefore, it would make us more self-aware.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-do-we-need-it&quot;&gt;Why do we need it?&lt;/h2&gt;
+
+&lt;p&gt;In our fast-paced world, we take on too many things at once. We are constantly distracted by attention-seeking entities like marketing companies.&lt;/p&gt;
+
+&lt;p&gt;In this, we forget the take care of the most important person we know. Us.&lt;/p&gt;
+
+&lt;p&gt;Ideally, the problem lies in just taking care of ourselves enough. But it’s way more helpful to have proactive systems in place. So that we are guided towards taking care of ourselves. Therefore, this article.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-we-do-to-implement-it&quot;&gt;What can we do to implement it?&lt;/h2&gt;
+
+&lt;p&gt;Before implementation details, it’s important to determine a few factors first.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The goal is to make more informed decisions. The goal is not to distract us.&lt;/li&gt;
+  &lt;li&gt;We must live a balanced life: healthy, wealthy and wise. Or you could say, healthier, wealthier and wiser. All aspects, not just one.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Therefore, each day may not be perfect. And we need certain randomness in place for the best decision to happen.&lt;/p&gt;
+
+&lt;p&gt;Being too perfect will lead to anxiety. And as we already know: #PanicIsNoGood (Zeus from Thor: Love and Thunder).&lt;/p&gt;
+
+&lt;p&gt;Here are some I tried to implement:&lt;/p&gt;
+
+&lt;h2 id=&quot;track-your-healthy&quot;&gt;Track your healthy&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Check your weight over time&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Need not be perfect every day and can be random, just over time. Being too perfect is good for the short term when u want to improve something, but not good for the long term as it leads to anxiety.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Regularly get preventative body checkups&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Once a year or once every two years.&lt;/p&gt;
+
+&lt;h2 id=&quot;track-your-time&quot;&gt;Track your time.&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Life cycle app&lt;/strong&gt;: Automated&lt;/p&gt;
+
+&lt;p&gt;Shows how much time you spent and where.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/lifecycle.png&quot; alt=&quot;Lifecycle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://northcube.com/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Screentime&lt;/strong&gt;: Automated&lt;/p&gt;
+
+&lt;p&gt;Phones do come with apps that make you more aware of the time you have spent.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chrome Extensions&lt;/strong&gt;: MindHero: Automated&lt;/p&gt;
+
+&lt;p&gt;Tracks time spent on websites.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/mind-hero.png&quot; alt=&quot;Mind Hero&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;[https://chrome.google.com/webstore/detail/mindhero/opjbphlikplllhehiaafnglngompagni&quot;&gt;MindHero - Chrome Web Store&lt;/a&gt;](https://chrome.google.com/webstore/detail/mindhero/opjbphlikplllhehiaafnglngompagni) “‌”)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be mindful of how much time you spend attentive with family&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Family is the most important part of life.&lt;/p&gt;
+
+&lt;h2 id=&quot;track-your-memories&quot;&gt;Track your memories&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Photographs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Diary writing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Personal diary to write down thoughts and other entries.&lt;/p&gt;
+
+&lt;h2 id=&quot;track-your-money&quot;&gt;Track your money&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;CRED App&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In India, CRED app gives accurate summary of credit card info.&lt;/p&gt;
+
+&lt;h3 id=&quot;track-your-writing&quot;&gt;Track your writing&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Grammarly&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Grammarly also publishes a weekly email with insights about your writing. It also suggests improvements that can be made.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/grammarly1.png&quot; alt=&quot;Grammarly1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/grammarly2.png&quot; alt=&quot;Grammarly2&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;making-decisions&quot;&gt;Making decisions&lt;/h1&gt;
+
+&lt;p&gt;Don’t check the data every day.&lt;/p&gt;
+
+&lt;p&gt;Most apps allow for useful prompts and summaries that can be used.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-the-limitations&quot;&gt;What are the limitations?&lt;/h2&gt;
+
+&lt;p&gt;//TODO&lt;/p&gt;</content><author><name></name></author><category term="non-technical" /><summary type="html">What do I mean by the Observability of personal life?</summary></entry><entry><title type="html">Why do microservices need an API client sdk for HTTP and Messaging?</title><link href="www.ankushchoubey.com/v1/api-client-sdk" rel="alternate" type="text/html" title="Why do microservices need an API client sdk for HTTP and Messaging?" /><published>2022-12-03T00:00:00-06:00</published><updated>2022-12-03T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-api-client</id><content type="html" xml:base="www.ankushchoubey.com/v1/api-client-sdk">&lt;p&gt;&lt;img src=&quot;/images/v1-api-client.png&quot; alt=&quot;Amazon SDK&quot; /&gt;&lt;/p&gt;
 &lt;pre&gt;Amazon SDK&lt;/pre&gt;
 
 &lt;h2 id=&quot;how-does-microservice-usage-ramp-up&quot;&gt;How does microservice usage ramp up?&lt;/h2&gt;
@@ -319,83 +418,4 @@ Pessimism: Finding faults in random things.&lt;/p&gt;</content><author><name></n
         &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;        
     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="arrays" /><summary type="html"></summary></entry><entry><title type="html">Blind 75 - Merge Two-Sorted Lists</title><link href="www.ankushchoubey.com/v1/merge-two-sorted-lists" rel="alternate" type="text/html" title="Blind 75 - Merge Two-Sorted Lists" /><published>2022-11-16T00:00:00-06:00</published><updated>2022-11-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-merge-two-sorted-lists</id><content type="html" xml:base="www.ankushchoubey.com/v1/merge-two-sorted-lists">&lt;p&gt;[Video]&lt;/p&gt;
-
-&lt;p&gt;Given two linked lists merge them into one sorted list.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/merge-two-sorted-lists/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;approaches&quot;&gt;Approaches&lt;/h2&gt;
-
-&lt;h3 id=&quot;unoptimized-solution-on-time-complexity-space-o1&quot;&gt;Unoptimized Solution: O(n) time complexity: Space: O(1)&lt;/h3&gt;
-
-&lt;p&gt;Lines of code 38&lt;/p&gt;
-
-&lt;p&gt;Iterate over both and store minimum one in current; Increment in the list from where minimum came. Once one of the lists is empty, empty the other one.&lt;/p&gt;
-
-&lt;p&gt;This solution is highly unoptimized.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;mergeTwoLists&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        
-        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-            &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minimum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;minimum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;minimum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-            
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minimum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minimum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minimum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        
-        &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remaining&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;list1:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; 
-        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remaining&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// this iteration is unneccessary&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remaining&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remaining&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remaining&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;remaining&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remaining&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;optimized-solution&quot;&gt;Optimized solution&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://leetcode.com/problems/merge-two-sorted-lists/discuss/2809815/Java&quot;&gt;Java - LeetCode Discuss&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Lines of code: 16&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;mergeTwoLists&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;preHead&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;ListNode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;preHead&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;            
-            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        
-        &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;list1:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;preHead&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="linked-list" /><category term="easy" /><summary type="html">[Video]</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="arrays" /><summary type="html"></summary></entry></feed>
