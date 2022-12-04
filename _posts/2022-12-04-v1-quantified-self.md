@@ -1,7 +1,5 @@
 ---
-
-## layout: post
-
+layout: post
 comments: true
 description: Why do you need to have personal metrics? And how can they help you make informed decisions and stay on the path?
 categories: [non-technical]
