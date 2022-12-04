@@ -63,8 +63,8 @@ Shows how much time you spent and where.
 
 Phones do come with apps that make you more aware of the time you have spent.
 
-![Screentime1](/images/v1-quantified-self/screentime1.png)
-![Screentime2](/images/v1-quantified-self/screentime2.png)
+![Screentime1](/images/v1-quantified-self/screentime1.jpg)
+![Screentime2](/images/v1-quantified-self/screentime2.jpg)
 
 **Chrome Extensions**: MindHero: Automated
 
@@ -72,7 +72,7 @@ Tracks time spent on websites.
 
 ![Mind Hero](/images/v1-quantified-self/mind-hero.png)
 
-[MindHero - Chrome Web Store]([https://chrome.google.com/webstore/detail/mindhero/opjbphlikplllhehiaafnglngompagni)](https://chrome.google.com/webstore/detail/mindhero/opjbphlikplllhehiaafnglngompagni) "‌")
+[MindHero - Chrome Web Store](https://chrome.google.com/webstore/detail/mindhero/opjbphlikplllhehiaafnglngompagni)
 
 **Be mindful of how much time you spend attentive with family**
 
@@ -92,7 +92,7 @@ Personal diary to write down thoughts and other entries.
 
 In India, CRED app gives accurate summary of credit card info.
 
-![CRED](/images/v1-quantified-self/cred.png)
+![CRED](/images/v1-quantified-self/cred.jpg)
 
 ### Track your writing
 
