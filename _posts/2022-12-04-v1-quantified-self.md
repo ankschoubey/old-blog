@@ -6,7 +6,7 @@ categories: [non-technical]
 last_modified_at: 2022-12-04T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/quantified-self
-title: Developing better self-awareness with #QuantifiedSelf - Observability for personal life.
+title: Developing better self-awareness with QuantifiedSelf - Observability for personal life.
 toc: true
 ---
 
