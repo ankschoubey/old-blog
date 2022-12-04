@@ -51,7 +51,7 @@ Need not be perfect every day and can be random, just over time. Being too perfe
 
 Once a year or once every two years.
 
-## Track your time.
+## Track your time
 
 **Life cycle app**: Automated
 
@@ -64,6 +64,9 @@ Shows how much time you spent and where.
 **Screentime**: Automated
 
 Phones do come with apps that make you more aware of the time you have spent.
+
+![Screentime1](/images/v1-quantified-self/screentime1.png)
+![Screentime2](/images/v1-quantified-self/screentime2.png)
 
 **Chrome Extensions**: MindHero: Automated
 
@@ -90,6 +93,8 @@ Personal diary to write down thoughts and other entries.
 **CRED App**
 
 In India, CRED app gives accurate summary of credit card info.
+
+![CRED](/images/v1-quantified-self/cred.png)
 
 ### Track your writing
 
