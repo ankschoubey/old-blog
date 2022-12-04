@@ -39,7 +39,7 @@ Being too perfect will lead to anxiety. And as we already know: #PanicIsNoGood (
 
 Here are some I tried to implement:
 
-## Track your healthy
+### Track your healthy
 
 **Check your weight over time**
 
@@ -49,7 +49,7 @@ Need not be perfect every day and can be random, just over time. Being too perfe
 
 Once a year or once every two years.
 
-## Track your time
+### Track your time
 
 **Life cycle app**: Automated
 
@@ -78,7 +78,7 @@ Tracks time spent on websites.
 
 Family is the most important part of life.
 
-## Track your memories
+### Track your memories
 
 **Photographs**
 
@@ -86,7 +86,7 @@ Family is the most important part of life.
 
 Personal diary to write down thoughts and other entries.
 
-## Track your money
+### Track your money
 
 **CRED App**
 
@@ -104,7 +104,7 @@ Grammarly also publishes a weekly email with insights about your writing. It als
 
 ![Grammarly2](/images/v1-quantified-self/grammarly2.png)
 
-# Making decisions
+## Making decisions
 
 Don't check the data every day.
 
