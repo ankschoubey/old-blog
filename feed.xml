@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-06T04:04:27-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-06T04:46:23-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">PREFER UPDATING A BLOG OVER WRITING NEW ONES</title><link href="www.ankushchoubey.com/post-format/" rel="alternate" type="text/html" title="PREFER UPDATING A BLOG OVER WRITING NEW ONES" /><published>2050-09-26T00:00:00-05:00</published><updated>2022-09-23T15:52:08-05:00</updated><id>www.ankushchoubey.com/v1-post-format</id><content type="html" xml:base="www.ankushchoubey.com/post-format/">&lt;p&gt;&lt;img src=&quot;/images/switch-jobs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prefer-updating-a-blog-over-writing-new-ones&quot;&gt;PREFER UPDATING A BLOG OVER WRITING NEW ONES&lt;/h1&gt;
 
@@ -155,7 +155,7 @@
 
 &lt;h2 id=&quot;what-are-the-limitations&quot;&gt;What are the limitations?&lt;/h2&gt;
 
-&lt;p&gt;//TODO&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html">What do I mean by the Observability of personal life?</summary></entry><entry><title type="html">Why do microservices need an API client sdk for HTTP and Messaging?</title><link href="www.ankushchoubey.com/v1/api-client-sdk" rel="alternate" type="text/html" title="Why do microservices need an API client sdk for HTTP and Messaging?" /><published>2022-12-03T00:00:00-06:00</published><updated>2022-12-03T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-api-client</id><content type="html" xml:base="www.ankushchoubey.com/v1/api-client-sdk">&lt;p&gt;&lt;img src=&quot;/images/v1-api-client.png&quot; alt=&quot;Amazon SDK&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;//TODO&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html">What do I mean by the Observability of personal life?</summary></entry><entry><title type="html">Why do microservices need an API client sdk for HTTP and Messaging?</title><link href="www.ankushchoubey.com/v1/api-client-sdk" rel="alternate" type="text/html" title="Why do microservices need an API client sdk for HTTP and Messaging?" /><published>2022-12-03T00:00:00-06:00</published><updated>2022-12-03T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-api-client</id><content type="html" xml:base="www.ankushchoubey.com/v1/api-client-sdk">&lt;p&gt;&lt;img src=&quot;/images/v1-api-client/header.png&quot; alt=&quot;Amazon SDK&quot; /&gt;&lt;/p&gt;
 &lt;pre&gt;Amazon SDK&lt;/pre&gt;
 
 &lt;h2 id=&quot;how-does-microservice-usage-ramp-up&quot;&gt;How does microservice usage ramp up?&lt;/h2&gt;
@@ -165,6 +165,8 @@
 &lt;p&gt;Each implements the same methods to access the same rest APIs. Each one of them would implement contract testing.&lt;/p&gt;
 
 &lt;p&gt;This is a wasted effort.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/v1-api-client/without-api-client.png&quot; alt=&quot;Without API Client&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;api-client-sdk&quot;&gt;API Client SDK&lt;/h2&gt;
 
@@ -190,13 +192,15 @@
   &lt;li&gt;Standard Exception handling&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;p&gt;&lt;img src=&quot;/images/v1-api-client/api-client.png&quot; alt=&quot;Without API Client&quot; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;message-client&quot;&gt;Message client&lt;/h2&gt;
 
 &lt;p&gt;The same can be used for messaging like Kafka, where the client can include POJOs format and methods to publish messages in case of incoming webhooks.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;In conclusion, an API client would help reduce the efforts of all developers in developing and using an API. The developers using the client need not be concerned with how the API works internally, weather it works on REST, Graph QL, gRPC, etc. They just need to send and receive data in using the right client provided POJOs.&lt;/p&gt;</content><author><name></name></author><category term="microservices" /><category term="distributed-systems" /><summary type="html">Amazon SDK</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/v1-api-client.png" /><media:content medium="image" url="www.ankushchoubey.com/images/v1-api-client.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Prometheus Cheatsheet</title><link href="www.ankushchoubey.com/v1/prometheus" rel="alternate" type="text/html" title="The Prometheus Cheatsheet" /><published>2022-11-23T00:00:00-06:00</published><updated>2022-11-23T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-prometheus</id><content type="html" xml:base="www.ankushchoubey.com/v1/prometheus">&lt;h2 id=&quot;what-is-prometheus&quot;&gt;What is Prometheus?&lt;/h2&gt;
+&lt;p&gt;In conclusion, an API client would help reduce the efforts of all developers in developing and using an API. The developers using the client need not be concerned with how the API works internally, weather it works on REST, Graph QL, gRPC, etc. They just need to send and receive data in using the right client provided POJOs.&lt;/p&gt;</content><author><name></name></author><category term="microservices" /><category term="distributed-systems" /><summary type="html">Amazon SDK</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/v1-api-client/header.png" /><media:content medium="image" url="www.ankushchoubey.com/images/v1-api-client/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Prometheus Cheatsheet</title><link href="www.ankushchoubey.com/v1/prometheus" rel="alternate" type="text/html" title="The Prometheus Cheatsheet" /><published>2022-11-23T00:00:00-06:00</published><updated>2022-11-23T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-prometheus</id><content type="html" xml:base="www.ankushchoubey.com/v1/prometheus">&lt;h2 id=&quot;what-is-prometheus&quot;&gt;What is Prometheus?&lt;/h2&gt;
 
 &lt;p&gt;Prometheus is a tool that collects metrics data exposed by different applications in a central place. These applications can be in different programming languages.&lt;/p&gt;
 
