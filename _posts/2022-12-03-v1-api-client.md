@@ -7,10 +7,10 @@ last_modified_at: 2022-12-03T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/api-client-sdk
 title: Why do microservices need an API client sdk for HTTP and Messaging?
-image: /images/v1-api-client.png
+image: /images/v1-api-client/header.png
 ---
 
-![Amazon SDK](/images/v1-api-client.png)
+![Amazon SDK](/images/v1-api-client/header.png)
 <pre>Amazon SDK</pre>
 
 ## How does microservice usage ramp up?
@@ -20,6 +20,8 @@ Microservice usage scales very fast. At first, a single service is the APIs. Sud
 Each implements the same methods to access the same rest APIs. Each one of them would implement contract testing.
 
 This is a wasted effort.
+
+![Without API Client](/images/v1-api-client/without-api-client.png)
 
 ## API Client SDK
 
@@ -40,6 +42,8 @@ The client would also include:
 2. Request Body POJOs: So that everyone uses the same format.
 3. Response Body POJOs.
 4. Standard Exception handling
+
+![Without API Client](/images/v1-api-client/api-client.png)
 
 ## Message client
 

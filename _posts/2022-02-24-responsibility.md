@@ -60,7 +60,7 @@ An experiment we can do to get started is: `Take on and complete as many respons
 
 2. Taking responsibility is a choice you make in every moment.
 
-3. You aren't obligated to take responsibility for others. But you should guide them or at least be so responsible that you lead by example.
+3. You aren't obligated to take responsibility for others. But you should guide them or at least be so responsible that you lead by exa mple.
 
 4. If someone gives you responsibility, take it.
 
