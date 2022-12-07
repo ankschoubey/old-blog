@@ -41,6 +41,9 @@ Authenticity isn’t arrogance. It isn’t meant to put someone down. Other valu
 - **Phrases** like: I do it for myself. 
 - This isn’t everything. But things like dressing better, exercising, taking care of yourself is what you must do for yourself
 
+nuance
+
+Don't talk about yourself badly. Specially when you havent done anything wrong. We are sometimes too critical of our past selves when we don't remember the exact incidents.
 ## **Responsible for self**: Full accountability for myself
 
 **IDENTITY**: Responsible
