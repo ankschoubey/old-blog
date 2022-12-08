@@ -74,6 +74,8 @@ Tracks time spent on websites.
 
 [MindHero - Chrome Web Store](https://chrome.google.com/webstore/detail/mindhero/opjbphlikplllhehiaafnglngompagni)
 
+**Programming**: [WakaTime - Dashboards for developers](https://wakatime.com/)
+
 **Be mindful of how much time you spend attentive with family**
 
 Family is the most important part of life.
