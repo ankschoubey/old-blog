@@ -13,7 +13,7 @@
   
     
         ,"post1": {
-            "title": "Implementation GDPR - Download a Users Data and Delete A Users Data in Microservice World",
+            "title": "Implementation GDPR - Download and Delete A Users Data in Microservice World",
             "content": "Implementing GDPR-compliant microservices to get all user data and delete a user’s data can seem very hard. . But now I think it’s way too easy to implement. . The approach described below can work at the enterprise level for enterprise apps. Just replace user with enterprise and {userId} with {enterpriseId} . . Essentially, we can it in 4 steps. . Every data record should have {userId} indexed. Even messaging services like Kafka with a database backup should be indexed. Even storage services like S3 be segregated as {userId}. | Have all microservices have a DELETE /gdpr/user/{userId} endpoint: This endpoint hard deletes all user’s data | Have all microservices have a GET /gdpr/user/{userId} endpoint: This endpoint returns all data from a user | Have an orchestrator GDPR microservice: This will call all other microservices for /gdpr/user/{userId}. | In case of getting data, it will collect all the data, upload it at some location for a certain number of days and notify the user about it. . The exact same interface is needed to hard delete data from backend ups as well. .",
             "url": "www.ankushchoubey.com/v1/gdpr",
             "relUrl": "https:///v1/gdpr",
@@ -2781,7 +2781,7 @@
   
       ,"page7": {
           "title": "",
-          "content": "Paper work is like DevOps . . Written on : Jun 12, 2022 Written on : Jun 12, 2022 personal non-professional | &lt;img class=&quot;image-preview &quot; src=&quot;/images/switch-jobs.jpg&quot; href=&quot;/switch-jobs/&quot; loading=‘lazy’ /&gt; Always keep yourself ready to switch companies . . Updated : Dec 7, 2022 Written: May 26, 2021 Updated: 07-Dec-22 Written: May 26, 2021 personal Capitalism | New domains, people and environment | Interviews keep you sharp and help you know your progress | You don’t owe people anything | . | Tough . . Updated : Aug 1, 2021 Written: May 4, 2021 Updated: 01-Aug-21 Written: May 4, 2021 philosophical for-future-me personal | Compare yourself with who you were yesterday . . Written on : May 4, 2021 Written on : May 4, 2021 philosophical for-future-me personal Games with no end goal | Escape competition through authenticity 2 | Rate of Change vs Actual Change | . | .",
+          "content": "Paper work is like DevOps . . Written on : Jun 12, 2022 Written on : Jun 12, 2022 personal non-professional | &lt;img class=&quot;image-preview &quot; src=&quot;/images/switch-jobs.jpg&quot; href=&quot;/switch-jobs/&quot; loading=‘lazy’ /&gt; Always keep yourself ready to switch companies . . Updated : Dec 10, 2022 Written: May 26, 2021 Updated: 10-Dec-22 Written: May 26, 2021 personal Capitalism | New domains, people and environment | Interviews keep you sharp and help you know your progress | You don’t owe people anything | . | Tough . . Updated : Aug 1, 2021 Written: May 4, 2021 Updated: 01-Aug-21 Written: May 4, 2021 philosophical for-future-me personal | Compare yourself with who you were yesterday . . Written on : May 4, 2021 Written on : May 4, 2021 philosophical for-future-me personal Games with no end goal | Escape competition through authenticity 2 | Rate of Change vs Actual Change | . | .",
           "url": "https://www.ankushchoubey.com/personal/",
           "relUrl": "/personal/",
           "date": ""
