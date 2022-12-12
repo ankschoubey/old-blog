@@ -88,7 +88,7 @@ In these resources, try to only consume the parts you need. Let go or parts you 
       - [Stop Tweeting, Scrolling and Feeding Your Ego](https://www.youtube.com/watch?v=HgQ48Gfvpfk)
       - [To Crush Your Ego, You Must Love Learning (and Books)](https://www.youtube.com/watch?v=hKJhf72S4JA)
       - [What's an ego death? (Jungian psychology) - Jordan Peterson - YouTube](https://www.youtube.com/watch?v=E55Z_GDVXM8)
-
+      - [No one gets away with anything](https://www.youtube.com/watch?v=qFS10_Veylo)
 - 2022
   - Dec
     - [Whenever you feel like giving up, just remember this!!](https://www.youtube.com/shorts/DVorkXPDwF0)
