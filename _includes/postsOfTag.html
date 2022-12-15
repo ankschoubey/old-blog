@@ -5,9 +5,9 @@
     <article class="archive-item">
         <p class="post-meta post-meta-title">
             {{forloop.index + 1}}. <a class="page-meta" href="{{ site.baseurl }}{{ post.url }}" style="font-weight: bold">{{post.title}}</a>
-            <span>{{ post.description }}</span>
-            <span>{{ post.date | date: date_format }}</span>
+            <!-- <span>{{ post.date | date: date_format }}</span> -->
         </p>
+        <span>{{ post.description }}</span>
     </article>
 {% endfor %}
 </div>
