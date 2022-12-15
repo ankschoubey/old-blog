@@ -619,7 +619,7 @@ img.image-preview:hover { transform: scale(1.05); }
 
 .post-list > li { content-visibility: auto; contain-intrinsic-size: 0 200px; border: 1px solid #00000029; border-radius: 10px; }
 
-.custom-post-card-toc { background: #00000014; font-size: medium; }
+.custom-post-card-toc { background: #00000014; font-size: medium; display: none; }
 
 .custom-post-card-toc > ul:before { content: "Table of Contents"; font-family: cursive; font-style: italic; padding: 0px; position: relative; left: -21px; }
 
