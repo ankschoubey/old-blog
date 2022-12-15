@@ -324,6 +324,7 @@ img.image-preview:hover {
 .custom-post-card-toc{
     background: #00000014;
     font-size: medium;
+    display: none;
 }
 .custom-post-card-toc > ul:before {
     content: "Table of Contents";
