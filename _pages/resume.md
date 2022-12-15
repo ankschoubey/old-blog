@@ -6,7 +6,13 @@ search_exclude: false
 ---
 {% include replace_nav_with_icons.html %}
 
-# Resume
+Hi! I am developer with 4+ experience in Spring Boot Microservices and I am looking for an onsite role in Europe, Dubai, Canada and Australia.
+
+If you want to hire me, just email at ankushchoubey@outlook.com.
+
+Below you'll find my resume and a list of recommendation and appreciations from collegues.
+
+## Resume
 
 {% include pdf.html url="/assets/Ankush - Full Stack Developer.pdf" name="Ankush - Full Stack Developer" %}
 
@@ -16,7 +22,7 @@ search_exclude: false
     {% include btn.html href='https://www.linkedin.com/in/ankushchoubey/' icon='fa fa-linkedin' text='linkedin/in/ankushchoubey' download='n' %}
 </div>
 
-# Appreciations
+## Appreciations
 
 ## **Sanoj Kumar**: *Ankush Reported to Sanoj at TCS*
 
@@ -34,7 +40,7 @@ Original: [LinkedIn Recommendation Section](https://www.linkedin.com/in/ankush-c
 
 Original: [Appreciation and Recognition PDF](https://drive.google.com/file/d/1RjjOTHrZrB_gaFMMYY4wEQIQmI7rruCI/view?usp=sharing)
 
-> Ankush has been exceptional throughout the Labor Cost Portal Project , understanding the macro and documenting all the key items and making sure all key aspects are covered in the new application logic. He is always open to take challenges and solves production issues in small span of time. He effectively communicates the changes to BRM. 
+> Ankush has been exceptional throughout the Labor Cost Portal Project , understanding the macro and documenting all the key items and making sure all key aspects are covered in the new application logic. He is always open to take challenges and solves production issues in small span of time. He effectively communicates the changes to BRM.
 
 ## **Rituparna Ghosh**: BRM at TCS
 
