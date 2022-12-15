@@ -629,4 +629,6 @@ img.image-preview:hover { transform: scale(1.05); }
 
 a.page-link[href="/resume/"] { background: #be232f; padding: 10px; color: white; }
 
+.post-list > li { border-radius: 0px !important; }
+
 /*# sourceMappingURL=style.css.map */
