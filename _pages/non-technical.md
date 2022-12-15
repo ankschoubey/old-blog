@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Philosophy
-permalink: /non-technical/
+permalink: /philosophy/
 ---
 
 {% include replace_nav_with_icons.html %}
@@ -10,6 +10,8 @@ permalink: /non-technical/
 
 - Be healthy. Health is most important thing ever.
 - Develop and rely on core-values & good habits.
+
+[Philosophical Resources](/non-technical-resources)
 
 **Matured Essays**
 
