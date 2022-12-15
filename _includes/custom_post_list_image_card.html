@@ -25,23 +25,23 @@
         {% capture createddate %}{{ post.date | date: date_format }}{% endcapture %}
         {% capture updateddate %}{{ post.last_modified_at | date: date_format }}{% endcapture %}
         {% if createddate == updateddate %}
-          <div class="post-meta-created-date">Written on  : {{ post.date | date: date_format }} </div>
+          <!-- <div class="post-meta-created-date">Written on  : {{ post.date | date: date_format }} </div> -->
         {% else %}
           <div class="post-meta-last-modified-date">Updated : {{ post.last_modified_at | date: date_format }} {%- if post.last-modified-purpose -%}: {{ post.last-modified-purpose }}{%- endif -%}</div>
-          <div class="post-meta-created-date-hover">Written: {{ post.date | date: date_format }} </div>
+          <!-- <div class="post-meta-created-date-hover">Written: {{ post.date | date: date_format }} </div> -->
         {% endif %} 
 
           <div class='post-meta-holder' style="display: none;">
-            {% capture createddate %}{{ post.date | date: date_format }}{% endcapture %}
+            <!-- {% capture createddate %}{{ post.date | date: date_format }}{% endcapture %} -->
             {% capture updateddate %}{{ post.last_modified_at | date: date_format }}{% endcapture %}
             {% if createddate == updateddate %}
-              <div class="post-meta-created-date">Written on  : {{ post.date | date: date_format }} </div>
+              <!-- <div class="post-meta-created-date">Written on  : {{ post.date | date: date_format }} </div> -->
             {% else %}
               <div class="post-meta-last-modified-date">Updated: {{ post.last_modified_at | date: '%d-%b-%y' }} </div>
               <div class="post-meta-created-date-hover">Written: {{ post.date | date: date_format }} </div>
             {% endif %} 
           </div>
-          {%- include tags-list.html categories=post.categories -%}
+          <!-- {%- include tags-list.html categories=post.categories -%} -->
       </div>
       <div class="custom-post-card-toc">
         {% include simpler_toc.html html=post.content base_url=post.url	 %}
