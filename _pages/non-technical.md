@@ -13,6 +13,18 @@ permalink: /philosophy/
 
 [Philosophical Resources](/non-technical-resources)
 
+```!mermaid
+graph TD
+    H[fa:fa-person Human] --> P[Personality]
+    H --> N[Needs]
+    H --> V[Core Values]
+    V --> Cutural
+    V --> Choosen
+    N --> S[fa:fa-people-line Social]
+    N --> G[Goals]
+    P --> PPF[Past/Present/Future]
+```
+
 **Matured Essays**
 
 {% include postsOfTag.html tag='matured' %}
