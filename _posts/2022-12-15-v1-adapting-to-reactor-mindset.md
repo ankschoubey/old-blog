@@ -9,15 +9,17 @@ permalink: /v1/webflux-mindset
 title: Adapting to Project Reactor / Webflux Mindset
 ---
 
-## Don't block. Ever
+## No using .block() the event loop
 
-## Return the reactive chain
+## If you are going to block, block it the reactive way
 
-Make sure return time is always a Mono or flux.
+## Methods should always return a Mono or Flux
 
 Until something is part of the return chain tree, it won't be executed.
 
-## Don't throw error in a reactive chain. Use Mono.error instead
+## Use Mono.error() instead of throwing
+
+Mono methods should not throw anything
 
 Instead of:
 
@@ -34,3 +36,13 @@ use:
     return Mono.error(new RuntimeException());
 }
 ```
+
+## Use Mono.fromFuture to convert from CompletableFuture to Mono
+
+## use .collectList() only when needed
+
+## Always keep things within mono flux chain
+
+The way to hold on to a previous mono flatMap return is nested mono, flux call.
+
+But try to keep things as flat as possible.
