@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Philosophy
 permalink: /non-technical/
 ---
 
