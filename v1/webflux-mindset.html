@@ -11,15 +11,15 @@
 <meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="Adapting to Project Reactor / Webflux Mindset">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Don’t block. Ever">
-<meta property="og:description" content="Don’t block. Ever">
+<meta name="description" content="No using .block() the event loop">
+<meta property="og:description" content="No using .block() the event loop">
 <link rel="canonical" href="www.ankushchoubey.com/v1/webflux-mindset">
 <meta property="og:url" content="www.ankushchoubey.com/v1/webflux-mindset">
 <meta property="og:site_name" content="Ankush Choubey">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-12-15T00:00:00-06:00">
 <script type="application/ld+json">
-{"url":"www.ankushchoubey.com/v1/webflux-mindset","@type":"BlogPosting","headline":"Adapting to Project Reactor / Webflux Mindset","dateModified":"2022-12-15T14:52:08-06:00","datePublished":"2022-12-15T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/webflux-mindset"},"description":"Don’t block. Ever","@context":"https://schema.org"}</script>
+{"url":"www.ankushchoubey.com/v1/webflux-mindset","@type":"BlogPosting","headline":"Adapting to Project Reactor / Webflux Mindset","dateModified":"2022-12-15T14:52:08-06:00","datePublished":"2022-12-15T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"www.ankushchoubey.com/v1/webflux-mindset"},"description":"No using .block() the event loop","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -201,15 +201,17 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="dont-block-ever">Don’t block. Ever</h2>
+    <h2 id="no-using-block-the-event-loop">No using .block() the event loop</h2>
 
-<h2 id="return-the-reactive-chain">Return the reactive chain</h2>
+<h2 id="if-you-are-going-to-block-block-it-the-reactive-way">If you are going to block, block it the reactive way</h2>
 
-<p>Make sure return time is always a Mono or flux.</p>
+<h2 id="methods-should-always-return-a-mono-or-flux">Methods should always return a Mono or Flux</h2>
 
 <p>Until something is part of the return chain tree, it won’t be executed.</p>
 
-<h2 id="dont-throw-error-in-a-reactive-chain-use-monoerror-instead">Don’t throw error in a reactive chain. Use Mono.error instead</h2>
+<h2 id="use-monoerror-instead-of-throwing">Use Mono.error() instead of throwing</h2>
+
+<p>Mono methods should not throw anything</p>
 
 <p>Instead of:</p>
 
@@ -224,6 +226,16 @@ window.onload = wrap_img;
     <span class="k">return</span> <span class="nc">Mono</span><span class="o">.</span><span class="na">error</span><span class="o">(</span><span class="k">new</span> <span class="nc">RuntimeException</span><span class="o">());</span>
 <span class="o">}</span>
 </code></pre></div></div>
+
+<h2 id="use-monofromfuture-to-convert-from-completablefuture-to-mono">Use Mono.fromFuture to convert from CompletableFuture to Mono</h2>
+
+<h2 id="use-collectlist-only-when-needed">use .collectList() only when needed</h2>
+
+<h2 id="always-keep-things-within-mono-flux-chain">Always keep things within mono flux chain</h2>
+
+<p>The way to hold on to a previous mono flatMap return is nested mono, flux call.</p>
+
+<p>But try to keep things as flat as possible.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
