@@ -13,7 +13,7 @@ permalink: /philosophy/
 
 [Philosophical Resources](/non-technical-resources)
 
-```!mermaid
+```mermaid!
 graph TD
     H[fa:fa-person Human] --> P[Personality]
     H --> N[Needs]
