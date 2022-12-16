@@ -23,6 +23,7 @@ graph TD
     N --> S[fa:fa-people-line Social]
     N --> G[Goals]
     P --> PPF[Past/Present/Future]
+    P --> B[Biases/Fallacies]
 ```
 
 **Matured Essays**
