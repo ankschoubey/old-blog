@@ -22,7 +22,7 @@ Like what the hell?
 
 “Oh you don’t feel okay.” Just rest. Keep resting.
 
-As if it solves the problem. 🤷🏽‍♂️
+As if it solves the problem. 🤷🏽‍♂️ The problem remains, and just takes a different form.
 
 ## Life is full of difficulties
 
@@ -30,6 +30,7 @@ In relationship, there are times when one or both parties have fears stopping th
 
 No, the problem remains. The next relationship, they go to, they’ll face the same problem.
 Then when should change path
+
 One Jordan Peterson criteria is: If the other path is harder.
 
 Your brain will try to default to easy path. If the other path is harder. Then you should take it.
