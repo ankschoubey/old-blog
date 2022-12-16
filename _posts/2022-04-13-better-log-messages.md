@@ -15,7 +15,7 @@ This post covers server side logs.
 
 ***
 
-# **When to Log**
+## **When to Log**
 
 There aren't any good guidelines for when to log.
 
@@ -33,7 +33,7 @@ After writing a piece a code, look at it and add logs wherever needed.
 
 ***
 
-# **What to log**
+## **How to log**
 
 Log messages should include the details of variables involved.
 
@@ -85,7 +85,7 @@ You can also create your own Logger which prints a map of everything including n
 
 ## Quote your arguments
 
-I find it better when arguments are quoted because it can show if items have empty spaces in them
+I find it better when arguments are quoted because it can show if items have empty spaces in them.
 
 Bad: `User does not exists: {id: 1, name: Elon Musk }`
 
@@ -93,7 +93,6 @@ Good: `User does not exists: {id: '1', name: 'Elon Musk '}`
 
 We can take a look at the second log and see we have an extra space in the end.
 
-
-# More resources:
+## More resources
 
 - [Enterprise Application Logging Best Practices (A Support Engineer’s Perspective)](https://betterprogramming.pub/application-logging-best-practices-a-support-engineers-perspective-b17d0ef1c5df)
