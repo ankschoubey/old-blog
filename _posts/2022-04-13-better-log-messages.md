@@ -3,7 +3,7 @@ layout: post
 comments: true
 description:
 categories: [clean-code]
-last_modified_at: 2022-04-13T20:52:08.052481
+last_modified_at: 2022-12-16T20:52:08.052481
 last-modified-purpose:
 permalink: /writing-log-messages/
 title: Writing Meaningful Log Messages
@@ -80,6 +80,19 @@ if (repository.existsByIdAndName(id, name)){
 ```
 
 Java also has `Map.of` that can allow writing maps in a single line. The only reason not to use it is that it doesn't allow null values.
+
+You can also create your own Logger which prints a map of everything including null values.
+
+## Quote your arguments
+
+I find it better when arguments are quoted because it can show if items have empty spaces in them
+
+Bad: `User does not exists: {id: 1, name: Elon Musk }`
+
+Good: `User does not exists: {id: '1', name: 'Elon Musk '}`
+
+We can take a look at the second log and see we have an extra space in the end.
+
 
 # More resources:
 
