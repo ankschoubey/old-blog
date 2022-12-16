@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description: Instead of escaping. It's a more empowering path.
+description: And escape it. It's a more empowering path and maybe the only path.
 categories: [non-technical, responsibility]
 last_modified_at: 2022-12-16T20:52:08.052481
 last-modified-purpose:
