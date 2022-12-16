@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-16T08:38:35-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">My experience working with MongoDB</title><link href="www.ankushchoubey.com/v1/sql-and-no-sql" rel="alternate" type="text/html" title="My experience working with MongoDB" /><published>2022-12-16T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-sql-no-sql</id><content type="html" xml:base="www.ankushchoubey.com/v1/sql-and-no-sql">&lt;p&gt;&lt;img src=&quot;/images/v1-sql-and-no-sql/header.png&quot; alt=&quot;Header&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-16T09:15:37-06:00</updated><id>www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">My experience working with MongoDB</title><link href="www.ankushchoubey.com/v1/sql-and-no-sql" rel="alternate" type="text/html" title="My experience working with MongoDB" /><published>2022-12-16T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-sql-no-sql</id><content type="html" xml:base="www.ankushchoubey.com/v1/sql-and-no-sql">&lt;p&gt;&lt;img src=&quot;/images/v1-sql-and-no-sql/header.png&quot; alt=&quot;Header&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I used to work with SQL in the past. Nowadays I have been working with MongoDB. Here has been my experience.&lt;/p&gt;
 
@@ -37,7 +37,55 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/v1-sql-and-no-sql/table-view.gif&quot; alt=&quot;Table View&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://studio3t.com/knowledge-base/articles/table-view/#restore-default-view&quot;&gt;Image source&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="database" /><category term="no-sql" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/v1-sql-and-no-sql/header.png" /><media:content medium="image" url="www.ankushchoubey.com/images/v1-sql-and-no-sql/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why do I write?</title><link href="www.ankushchoubey.com/v1/why-i-write" rel="alternate" type="text/html" title="Why do I write?" /><published>2022-12-15T00:00:00-06:00</published><updated>2022-12-15T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-why-i-write</id><content type="html" xml:base="www.ankushchoubey.com/v1/why-i-write">&lt;p&gt;Writing clarifies my thought more than anything. It converts chaos into an order of some kind.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://studio3t.com/knowledge-base/articles/table-view/#restore-default-view&quot;&gt;Image source&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="database" /><category term="no-sql" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="www.ankushchoubey.com/images/v1-sql-and-no-sql/header.png" /><media:content medium="image" url="www.ankushchoubey.com/images/v1-sql-and-no-sql/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Actually solve the problem.</title><link href="www.ankushchoubey.com/v1/actually-solve-the-problem" rel="alternate" type="text/html" title="Actually solve the problem." /><published>2022-12-16T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-solve-problem</id><content type="html" xml:base="www.ankushchoubey.com/v1/actually-solve-the-problem">&lt;h2 id=&quot;people&quot;&gt;People&lt;/h2&gt;
+
+&lt;p&gt;What’s with people  who try to ease situations without ever solving the problem?&lt;/p&gt;
+
+&lt;p&gt;It’s like “Oh tumhara maan nahi hai? Maat karo”.&lt;/p&gt;
+
+&lt;p&gt;English: “You don’t wanna do it? Don’t do it”&lt;/p&gt;
+
+&lt;p&gt;Like what the hell?&lt;/p&gt;
+
+&lt;p&gt;“Oh you don’t feel okay.” Just rest. Keep resting.&lt;/p&gt;
+
+&lt;p&gt;As if it solves the problem. 🤷🏽‍♂️&lt;/p&gt;
+
+&lt;h2 id=&quot;life-is-full-of-difficulties&quot;&gt;Life is full of difficulties&lt;/h2&gt;
+
+&lt;p&gt;In relationship, there are times when one or both parties have fears stopping them. It’s easy for one of them to back off. Maybe they are anxious or avoidant. It’s like, does it solve the problem?&lt;/p&gt;
+
+&lt;p&gt;No, the problem remains. The next relationship, they go to, they’ll face the same problem.
+Then when should change path
+One Jordan Peterson criteria is: If the other path is harder.&lt;/p&gt;
+
+&lt;p&gt;Your brain will try to default to easy path. If the other path is harder. Then you should take it.&lt;/p&gt;
+
+&lt;p&gt;We can also say that, find good reasons.&lt;/p&gt;
+
+&lt;p&gt;For example: Not moving out of India because you are scared. Doesn’t solve the problem. You shouldn’t be scared. Go move out.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-you-face-the-dragon-the-dragon-becomes-smaller&quot;&gt;When you face the dragon, the dragon becomes smaller&lt;/h2&gt;
+
+&lt;p&gt;When you are not willing to face what you want to face, the problem becomes bigger.&lt;/p&gt;
+
+&lt;p&gt;When you face what you are afraid of head on. Looking the dragon in the eye, the size of the dragon decreases.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uS8NNkt3Q9I?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;its-like-damn-life-is-full-of-suffering-but-you-are-stronger&quot;&gt;It’s like damn, life is full of suffering. But you are stronger&lt;/h2&gt;
+
+&lt;p&gt;Life is full of suffering. But that’s if you believe it so.&lt;/p&gt;
+
+&lt;p&gt;If you tune your perspectives, life is full of challenges.&lt;/p&gt;
+
+&lt;p&gt;And each challenge you face, you become stronger.&lt;/p&gt;
+
+&lt;p&gt;And when you become stronger, it’s fun and amazing. You have become an hero of some kind.&lt;/p&gt;
+
+&lt;p&gt;Don’t be afraid of challenges. Face them head-on.&lt;/p&gt;
+
+&lt;p&gt;Actually solve the problem you are facing to the best of your ability. You’ll get stronger!&lt;/p&gt;</content><author><name></name></author><category term="non-technical" /><category term="responsibility" /><summary type="html">People</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i0.wp.com/halflinghobbies.com/wp-content/uploads/2019/07/hho_dragon.webp" /><media:content medium="image" url="https://i0.wp.com/halflinghobbies.com/wp-content/uploads/2019/07/hho_dragon.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why do I write?</title><link href="www.ankushchoubey.com/v1/why-i-write" rel="alternate" type="text/html" title="Why do I write?" /><published>2022-12-15T00:00:00-06:00</published><updated>2022-12-15T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-why-i-write</id><content type="html" xml:base="www.ankushchoubey.com/v1/why-i-write">&lt;p&gt;Writing clarifies my thought more than anything. It converts chaos into an order of some kind.&lt;/p&gt;
 
 &lt;p&gt;The better I write and explain, the better I get at solving interpersonal problems.&lt;/p&gt;
 
@@ -349,24 +397,4 @@ Anti-Fragility: #betterThanResilence. Can be trained by a mix of being calm and 
 &lt;p&gt;&lt;strong&gt;Bad Attributes&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Laziness: Find the easy path.
-Pessimism: Finding faults in random things.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html">What are Core Attributes? How they differ from Values</summary></entry><entry><title type="html">Blind 75 - Reverse Bits</title><link href="www.ankushchoubey.com/v1/reverse-bits" rel="alternate" type="text/html" title="Blind 75 - Reverse Bits" /><published>2022-11-20T00:00:00-06:00</published><updated>2022-11-16T14:52:08-06:00</updated><id>www.ankushchoubey.com/v1/v1-reverse-bits</id><content type="html" xml:base="www.ankushchoubey.com/v1/reverse-bits">&lt;p&gt;[Video]&lt;/p&gt;
-
-&lt;p&gt;Reverse the binary int&lt;/p&gt;
-
-&lt;p&gt;Read this for java instruction: &lt;a href=&quot;https://leetcode.com/problems/reverse-bits/&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;approaches&quot;&gt;Approaches&lt;/h2&gt;
-
-&lt;h3 id=&quot;o1-time-o1-space-7-lines&quot;&gt;O(1) time; O(1) space; 7 lines&lt;/h3&gt;
-
-&lt;p&gt;Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;or&lt;/code&gt; because after the shift last value will be 0. Imp - iterate 32 times only.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reverseBits&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;rev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;            
-            &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="algorithm-problems" /><category term="blind-75" /><category term="bit-manipulation" /><summary type="html">[Video]</summary></entry></feed>
+Pessimism: Finding faults in random things.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html">What are Core Attributes? How they differ from Values</summary></entry></feed>
