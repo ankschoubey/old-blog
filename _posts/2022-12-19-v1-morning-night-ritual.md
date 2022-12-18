@@ -6,7 +6,7 @@ categories: [non-professional, time]
 last_modified_at: 2022-12-16T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/morning-night-ritual
-title: PDesigning a Morning and Night Rituals for optimal life
+title: Designing and implementing a Morning and Night Rituals for optimal life
 ---
 
 # Designing a Morning and Night Ritual for optimal life
