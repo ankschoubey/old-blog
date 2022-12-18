@@ -110,15 +110,18 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: table
+    bold_every: 5
 annotations: false
 
 compress_images:
   images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
 
 imageoptim:
-  pngout: false
+  pngout: true
   svgo: true
-  verbose: false
+  verbose: true
 
 # Disqus Comments
 disqus:
