@@ -10,7 +10,8 @@ title: JUnit Template For Tracking Bugs in Unit Tests
 image: /images/junit-bug-tracking.png
 ---
 
-It's important to track bugs in tests. 
+It's important to track bugs in tests.
+
 1. Reproducing bugs in tests means the exact scenario gets clear
 2. Once the bug is fixed, we know it will be fixed for life if the test is also part of the build.
 
@@ -44,6 +45,7 @@ BugCardId - The Work Item created for the bug.
 Bug Description - A short one-liner which describes the bug. This should be as clear as possible and focus on the bug rather than something wage.
 
 For example:
+
 - Message consumer failing on valid input
 
 is better than
