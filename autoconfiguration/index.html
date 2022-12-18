@@ -40,8 +40,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -204,25 +204,13 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h1"><a href="#bean-s">1
-@Bean
- s</a></li>
-<li class="toc-entry toc-h1"><a href="#conditional-s">1
-@Conditional
- s</a></li>
+<li class="toc-entry toc-h1"><a href="#bean-s">@Bean s</a></li>
+<li class="toc-entry toc-h1"><a href="#conditional-s">@Conditional s</a></li>
 <li class="toc-entry toc-h1"><a href="#everything-would-finally-plugin-to-some-lifecycle">Everything would finally plugin to some lifecycle</a></li>
 <li class="toc-entry toc-h1">
 <a href="#extending-spring-boot">Extending spring boot</a>
 <ul>
-<li class="toc-entry toc-h2"><a href="#find-all-beans-bean-autoconfiguration-configurationproperties-andor-value">Find all beans 1
-@Bean
- 1
-AutoConfiguration
-, 1
-@ConfigurationProperties
- and/or 1
-@Value
-</a></li>
+<li class="toc-entry toc-h2"><a href="#find-all-beans-bean-autoconfiguration-configurationproperties-andor-value">Find all beans @Bean AutoConfiguration, @ConfigurationProperties and/or @Value</a></li>
 <li class="toc-entry toc-h2"><a href="#read-the-documentation">Read the documentation.</a></li>
 </ul>
 </li>
@@ -234,58 +222,28 @@ AutoConfiguration
 <p>It was hard for me to extend and/or customize the core functionalities of Spring Boot. These are a few pointers that could help.</p>
 
 <h1 id="bean-s">
-<a class="anchor" href="#bean-s" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Bean
-</pre></td>
-</tr></tbody></table></code> s</h1>
+<a class="anchor" href="#bean-s" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">@Bean</code> s</h1>
 
 <p>Beans can be thought of as singleton classes. i.e. classes where only one instance can exist.</p>
 
-<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Beans
-</pre></td>
-</tr></tbody></table></code> are created and managed by BeanFactory. And there is a Bean injector which injects beans where they are needed.</p>
+<p><code class="language-plaintext highlighter-rouge">@Beans</code> are created and managed by BeanFactory. And there is a Bean injector which injects beans where they are needed.</p>
 
 <p>So, for example, you have a class A and a class B.</p>
 
-<p>class B is composed of class A, and you have added <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Autowired
-</pre></td>
-</tr></tbody></table></code> to it.</p>
+<p>class B is composed of class A, and you have added <code class="language-plaintext highlighter-rouge">@Autowired</code> to it.</p>
 
 <p>When the class B bean is generated, the class A bean will be injected into it.</p>
 
-<p>All @Component, @Service and <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Repository
-</pre></td>
-</tr></tbody></table></code> are of type bean.</p>
+<p>All @Component, @Service and <code class="language-plaintext highlighter-rouge">@Repository</code> are of type bean.</p>
 
 <h1 id="conditional-s">
-<a class="anchor" href="#conditional-s" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Conditional
-</pre></td>
-</tr></tbody></table></code> s</h1>
+<a class="anchor" href="#conditional-s" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">@Conditional</code> s</h1>
 
 <p>Beans can be generated on conditions.</p>
 
 <p>For example, suppose a particular library exists only then can a bean be generated.</p>
 
-<p>For example, in <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>spring-cloud
-</pre></td>
-</tr></tbody></table></code> stream, Kafka beans would be generated if there is Kafka set.</p>
+<p>For example, in <code class="language-plaintext highlighter-rouge">spring-cloud</code> stream, Kafka beans would be generated if there is Kafka set.</p>
 
 <h1 id="everything-would-finally-plugin-to-some-lifecycle">
 <a class="anchor" href="#everything-would-finally-plugin-to-some-lifecycle" aria-hidden="true"><span class="octicon octicon-link"></span></a>Everything would finally plugin to some lifecycle</h1>
@@ -300,46 +258,16 @@ AutoConfiguration
 <p>Suppose you want to extend spring boots to your liking here is how you’d do it.</p>
 
 <h2 id="find-all-beans-bean-autoconfiguration-configurationproperties-andor-value">
-<a class="anchor" href="#find-all-beans-bean-autoconfiguration-configurationproperties-andor-value" aria-hidden="true"><span class="octicon octicon-link"></span></a>Find all beans <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Bean
-</pre></td>
-</tr></tbody></table></code> <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>AutoConfiguration
-</pre></td>
-</tr></tbody></table></code>, <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@ConfigurationProperties
-</pre></td>
-</tr></tbody></table></code> and/or <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Value
-</pre></td>
-</tr></tbody></table></code>
+<a class="anchor" href="#find-all-beans-bean-autoconfiguration-configurationproperties-andor-value" aria-hidden="true"><span class="octicon octicon-link"></span></a>Find all beans <code class="language-plaintext highlighter-rouge">@Bean</code> <code class="language-plaintext highlighter-rouge">AutoConfiguration</code>, <code class="language-plaintext highlighter-rouge">@ConfigurationProperties</code> and/or <code class="language-plaintext highlighter-rouge">@Value</code>
 </h2>
 
 <p>In IntelliJ, you can search usage for all Beans easily. These are the beans you can override.</p>
 
 <p>Overriding these beans allows you to customize them.</p>
 
-<p>Usually, Autoconfiguration classes end with the name <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>AutoConfiguration
-</pre></td>
-</tr></tbody></table></code>, which makes them super easy to find.</p>
+<p>Usually, Autoconfiguration classes end with the name <code class="language-plaintext highlighter-rouge">AutoConfiguration</code>, which makes them super easy to find.</p>
 
-<p>Find ConfigurationProperties. Many beans depend on these or depend on <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Value
-</pre></td>
-</tr></tbody></table></code>.</p>
+<p>Find ConfigurationProperties. Many beans depend on these or depend on <code class="language-plaintext highlighter-rouge">@Value</code>.</p>
 
 <p>Configuration Properties and @Value are what is set by the properties file.</p>
 

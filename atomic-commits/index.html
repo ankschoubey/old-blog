@@ -40,8 +40,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -136,7 +136,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -262,12 +262,7 @@ feat(api): add endpoint for streaming download /downloads
 <a class="anchor" href="#how-to-implement-atomic-commits-in-practice" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to implement atomic commits in practice?</h1>
 
 <ol>
-  <li>Commit and push to <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>dev
-</pre></td>
-</tr></tbody></table></code> after every completing method/feature.</li>
+  <li>Commit and push to <code class="language-plaintext highlighter-rouge">dev</code> after every completing method/feature.</li>
   <li>This push should involve both test and code.</li>
   <li>The commit message should be accurate.
     <ul>
@@ -276,72 +271,22 @@ feat(api): add endpoint for streaming download /downloads
     </ul>
     <ul>
       <li>
-<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>feat
-</pre></td>
-</tr></tbody></table></code>: feature</li>
+<code class="language-plaintext highlighter-rouge">feat</code>: feature</li>
       <li>
-<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>refactor
-</pre></td>
-</tr></tbody></table></code>: refactoring</li>
+<code class="language-plaintext highlighter-rouge">refactor</code>: refactoring</li>
       <li>
-<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>fix
-</pre></td>
-</tr></tbody></table></code>: bug fix</li>
+<code class="language-plaintext highlighter-rouge">fix</code>: bug fix</li>
       <li>
-<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>doc
-</pre></td>
-</tr></tbody></table></code>: documentation</li>
+<code class="language-plaintext highlighter-rouge">doc</code>: documentation</li>
       <li>
-<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>ci
-</pre></td>
-</tr></tbody></table></code>: continuous integration changes</li>
+<code class="language-plaintext highlighter-rouge">ci</code>: continuous integration changes</li>
       <li>
-<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>build
-</pre></td>
-</tr></tbody></table></code>: related to build</li>
+<code class="language-plaintext highlighter-rouge">build</code>: related to build</li>
     </ul>
   </li>
 </ol>
 
-<p>In practice, you can assume committing <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>feat
-</pre></td>
-</tr></tbody></table></code> at least once per hour. Other commit types especially <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>refactor
-</pre></td>
-</tr></tbody></table></code>, <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>fix
-</pre></td>
-</tr></tbody></table></code> and <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>doc
-</pre></td>
-</tr></tbody></table></code> might be even more frequent.</p>
+<p>In practice, you can assume committing <code class="language-plaintext highlighter-rouge">feat</code> at least once per hour. Other commit types especially <code class="language-plaintext highlighter-rouge">refactor</code>, <code class="language-plaintext highlighter-rouge">fix</code> and <code class="language-plaintext highlighter-rouge">doc</code> might be even more frequent.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

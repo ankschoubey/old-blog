@@ -39,8 +39,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -235,91 +235,42 @@ window.onload = wrap_img;
 
 <p><strong>Bad</strong>: Does not mention variable details</p>
 
-<p>Log message: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>User does not exists
-</pre></td>
-</tr></tbody></table></code></p>
+<p>Log message: <code class="language-plaintext highlighter-rouge">User does not exists</code></p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="rouge-code"><pre><span class="nc">String</span> <span class="n">id</span> <span class="o">=</span> <span class="s">"1"</span><span class="o">;</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">String</span> <span class="n">id</span> <span class="o">=</span> <span class="s">"1"</span><span class="o">;</span>
 <span class="nc">String</span> <span class="n">name</span><span class="o">=</span> <span class="s">"Elon Musk"</span><span class="o">;</span>
 <span class="k">if</span> <span class="o">(</span><span class="n">repository</span><span class="o">.</span><span class="na">existsByIdAndName</span><span class="o">(</span><span class="n">id</span><span class="o">,</span> <span class="n">name</span><span class="o">)){</span>
     <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserDoesNotExistException</span><span class="o">(</span><span class="s">"User does not exists"</span><span class="o">)</span>
 <span class="o">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p><strong>Good</strong>: Includes variable details</p>
 
-<p>Log message: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>User does not exists with id=1 name= Elon Musk
-</pre></td>
-</tr></tbody></table></code></p>
+<p>Log message: <code class="language-plaintext highlighter-rouge">User does not exists with id=1 name= Elon Musk</code></p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="rouge-code"><pre><span class="nc">String</span> <span class="n">id</span> <span class="o">=</span> <span class="s">"1"</span><span class="o">;</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">String</span> <span class="n">id</span> <span class="o">=</span> <span class="s">"1"</span><span class="o">;</span>
 <span class="nc">String</span> <span class="n">name</span><span class="o">=</span> <span class="s">"Elon Musk"</span><span class="o">;</span>
 <span class="k">if</span> <span class="o">(</span><span class="n">repository</span><span class="o">.</span><span class="na">existsByIdAndName</span><span class="o">(</span><span class="n">id</span><span class="o">,</span> <span class="n">name</span><span class="o">)){</span>
     <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserDoesNotExistException</span><span class="o">(</span><span class="s">"User does not exists with id="</span><span class="o">+</span><span class="n">id</span> <span class="o">+</span> <span class="s">" name= "</span><span class="o">+</span> <span class="n">name</span><span class="o">);</span>
 <span class="o">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p><strong>Even Better</strong>: Includes variable details as map leading to cleaner log</p>
 
 <p>I find it’s even cleaner to print a map with key as variable name and value as actual value;</p>
 
-<p>Format: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>${human readable message}: {data1: value1, data2: value2}
-</pre></td>
-</tr></tbody></table></code></p>
+<p>Format: <code class="language-plaintext highlighter-rouge">${human readable message}: {data1: value1, data2: value2}</code></p>
 
-<p>Log message: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>User does not exists: {id: 1, name: Elon Musk}
-</pre></td>
-</tr></tbody></table></code></p>
+<p>Log message: <code class="language-plaintext highlighter-rouge">User does not exists: {id: 1, name: Elon Musk}</code></p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="rouge-code"><pre><span class="nc">String</span> <span class="n">id</span> <span class="o">=</span> <span class="s">"1"</span><span class="o">;</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">String</span> <span class="n">id</span> <span class="o">=</span> <span class="s">"1"</span><span class="o">;</span>
 <span class="nc">String</span> <span class="n">name</span><span class="o">=</span> <span class="s">"Elon Musk"</span><span class="o">;</span>
 <span class="k">if</span> <span class="o">(</span><span class="n">repository</span><span class="o">.</span><span class="na">existsByIdAndName</span><span class="o">(</span><span class="n">id</span><span class="o">,</span> <span class="n">name</span><span class="o">)){</span>
     <span class="k">throw</span> <span class="k">new</span> <span class="nf">UserDoesNotExistException</span><span class="o">(</span><span class="s">"User does not exists: {id: "</span> <span class="o">+</span> <span class="n">id</span> <span class="o">+</span>  <span class="s">", name: "</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">"}"</span><span class="o">);</span>
 <span class="o">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
-<p>Java also has <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>Map.of
-</pre></td>
-</tr></tbody></table></code> that can allow writing maps in a single line. The only reason not to use it is that it doesn’t allow null values.</p>
+<p>Java also has <code class="language-plaintext highlighter-rouge">Map.of</code> that can allow writing maps in a single line. The only reason not to use it is that it doesn’t allow null values.</p>
 
 <p>You can also create your own Logger which prints a map of everything including null values.</p>
 
@@ -327,19 +278,9 @@ window.onload = wrap_img;
 
 <p>I find it better when arguments are quoted because it can show if items have empty spaces in them.</p>
 
-<p>Bad: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>User does not exists: {id: 1, name: Elon Musk }
-</pre></td>
-</tr></tbody></table></code></p>
+<p>Bad: <code class="language-plaintext highlighter-rouge">User does not exists: {id: 1, name: Elon Musk }</code></p>
 
-<p>Good: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>User does not exists: {id: '1', name: 'Elon Musk '}
-</pre></td>
-</tr></tbody></table></code></p>
+<p>Good: <code class="language-plaintext highlighter-rouge">User does not exists: {id: '1', name: 'Elon Musk '}</code></p>
 
 <p>We can take a look at the second log and see we have an extra space in the end.</p>
 

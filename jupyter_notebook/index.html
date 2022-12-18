@@ -40,8 +40,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -217,20 +217,10 @@ window.onload = wrap_img;
 <h2 id="use-wild-card-import">
 <a class="anchor" href="#use-wild-card-import" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use Wild Card Import</h2>
 
-<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>import *
-</pre></td>
-</tr></tbody></table></code></p>
+<p><code class="language-plaintext highlighter-rouge">import *</code></p>
 
 <blockquote>
-  <p>In Jupyter Notebook where <strong>you want to be able to quickly interactively</strong> <strong>try stuff out,</strong> you don’t want to constantly going back up to the top and importing more stuff. You want to be able to use lots of tab complete and be very experimental, so <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>import *
-</pre></td>
-</tr></tbody></table></code> is great.</p>
+  <p>In Jupyter Notebook where <strong>you want to be able to quickly interactively</strong> <strong>try stuff out,</strong> you don’t want to constantly going back up to the top and importing more stuff. You want to be able to use lots of tab complete and be very experimental, so <code class="language-plaintext highlighter-rouge">import *</code> is great.</p>
 </blockquote>
 
 <blockquote>
@@ -278,12 +268,7 @@ window.onload = wrap_img;
 
 <p><img src="/images/2019-07-29-easy-jupyter-notebook-tips/1.png" alt=""></p>
 
-<p>But when running Jupyter Notebook you can avoid this by splitting your code into multiple cells instead of one, running them one by one and then hitting <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>Tab
-</pre></td>
-</tr></tbody></table></code>.</p>
+<p>But when running Jupyter Notebook you can avoid this by splitting your code into multiple cells instead of one, running them one by one and then hitting <code class="language-plaintext highlighter-rouge">Tab</code>.</p>
 
 <p><img src="/images/2019-07-29-easy-jupyter-notebook-tips/2.png" alt=""></p>
 

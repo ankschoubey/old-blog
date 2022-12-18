@@ -40,8 +40,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -211,22 +211,7 @@ window.onload = wrap_img;
 <p>If less modification is required, your code will last longer.</p>
 
 <h2 id="make-very-small-modular-pieces">Make very small modular pieces.</h2>
-<p>In Angular/React, create components even for small things like <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>img
-</pre></td>
-</tr></tbody></table></code> or <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>video
-</pre></td>
-</tr></tbody></table></code> tag. You’ll find that there are certain attributes you assign to every <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>img
-</pre></td>
-</tr></tbody></table></code> tag that can be taken care of from one place</p>
+<p>In Angular/React, create components even for small things like <code class="language-plaintext highlighter-rouge">img</code> or <code class="language-plaintext highlighter-rouge">video</code> tag. You’ll find that there are certain attributes you assign to every <code class="language-plaintext highlighter-rouge">img</code> tag that can be taken care of from one place</p>
 
 <p>Separate app logic from business logic. You should be able to copy-paste these modules into another code base and use it without changes.</p>
 
@@ -242,32 +227,17 @@ window.onload = wrap_img;
 
 <p>CSS gets messy fast. By keeping your components small. You are halfway there to a good CSS.</p>
 
-<p>Also make good use of <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>display: flex
-</pre></td>
-</tr></tbody></table></code>. It gets most of the job done.</p>
+<p>Also make good use of <code class="language-plaintext highlighter-rouge">display: flex</code>. It gets most of the job done.</p>
 
 <h2 id="html">HTML</h2>
 
 <p>The best way to keep HTML clutter-free is to not write javascript/typescript logic in it</p>
 
-<p>Angular provides a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>ts
-</pre></td>
-</tr></tbody></table></code> file, use it for everything. Even for ngStyle or ngClass.</p>
+<p>Angular provides a <code class="language-plaintext highlighter-rouge">ts</code> file, use it for everything. Even for ngStyle or ngClass.</p>
 
 <p>This will keep your HTML very clean</p>
 
-<p>Create a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>get
-</pre></td>
-</tr></tbody></table></code> method to keep things clean.</p>
+<p>Create a <code class="language-plaintext highlighter-rouge">get</code> method to keep things clean.</p>
 
 <h2 id="have-very-few-utility-classes">Have very few utility classes.</h2>
 

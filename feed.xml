@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-18T00:47:08-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">My experience working with MongoDB</title><link href="https://www.ankushchoubey.com/v1/sql-and-no-sql" rel="alternate" type="text/html" title="My experience working with MongoDB" /><published>2022-12-16T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-sql-no-sql</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/sql-and-no-sql">&lt;p&gt;&lt;img src=&quot;/images/v1-sql-and-no-sql/header.png&quot; alt=&quot;Header&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-18T04:55:38-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">My experience working with MongoDB</title><link href="https://www.ankushchoubey.com/v1/sql-and-no-sql" rel="alternate" type="text/html" title="My experience working with MongoDB" /><published>2022-12-16T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-sql-no-sql</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/sql-and-no-sql">&lt;p&gt;&lt;img src=&quot;/images/v1-sql-and-no-sql/header.png&quot; alt=&quot;Header&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I used to work with SQL in the past. Nowadays I have been working with MongoDB. Here has been my experience.&lt;/p&gt;
 
@@ -120,23 +120,17 @@ Then when should change path&lt;/p&gt;
 
 &lt;p&gt;Instead of:&lt;/p&gt;
 
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatmap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pojo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatmap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pojo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;RunTimeException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;use:&lt;/p&gt;
 
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pojo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;flatMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pojo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Mono&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RuntimeException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;use-monofromfuture-to-convert-from-completablefuture-to-mono&quot;&gt;Use Mono.fromFuture to convert from CompletableFuture to Mono&lt;/h2&gt;
 
@@ -150,35 +144,17 @@ Then when should change path&lt;/p&gt;
 
 &lt;p&gt;But now I think it’s way too easy to implement.&lt;/p&gt;
 
-&lt;p&gt;The approach described below can work at the enterprise level for enterprise apps. Just replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;user
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;enterprise
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{userId}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{enterpriseId}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The approach described below can work at the enterprise level for enterprise apps. Just replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;enterprise&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{userId}&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{enterpriseId}&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/v1-gdpr.png&quot; alt=&quot;GDPR Implementation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Essentially, we can it in 4 steps.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Every data record should have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{userId}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt; indexed. Even messaging services like Kafka with a database backup should be indexed. Even storage services like S3 be segregated as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{userId}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Have all microservices have a DELETE &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;/gdpr/user/{userId}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt; endpoint: This endpoint hard deletes all user’s data&lt;/li&gt;
-  &lt;li&gt;Have all microservices have a GET &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;/gdpr/user/{userId}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt; endpoint: This endpoint returns all data from a user&lt;/li&gt;
-  &lt;li&gt;Have an orchestrator GDPR microservice: This will call all other microservices for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;/gdpr/user/{userId}
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Every data record should have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{userId}&lt;/code&gt; indexed. Even messaging services like Kafka with a database backup should be indexed. Even storage services like S3 be segregated as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{userId}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Have all microservices have a DELETE &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/gdpr/user/{userId}&lt;/code&gt; endpoint: This endpoint hard deletes all user’s data&lt;/li&gt;
+  &lt;li&gt;Have all microservices have a GET &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/gdpr/user/{userId}&lt;/code&gt; endpoint: This endpoint returns all data from a user&lt;/li&gt;
+  &lt;li&gt;Have an orchestrator GDPR microservice: This will call all other microservices for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/gdpr/user/{userId}&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;In case of getting data, it will collect all the data, upload it at some location for a certain number of days and notify the user about it.&lt;/p&gt;
@@ -359,14 +335,10 @@ For example:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;WilfFly, which is an old JBOSS server thingy (I’m gen Z), can generate data in Prometheus format.&lt;/li&gt;
-  &lt;li&gt;Spring Boot Actuators also have an endpoint &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;GET /actuator/prometheus
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt; that can be used for getting the same data.&lt;/li&gt;
+  &lt;li&gt;Spring Boot Actuators also have an endpoint &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET /actuator/prometheus&lt;/code&gt; that can be used for getting the same data.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Every application exposing prometheus data requires a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;prometheus.yml
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt; file which describes what’s the fetch interval and other details.&lt;/p&gt;
+&lt;p&gt;Every application exposing prometheus data requires a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prometheus.yml&lt;/code&gt; file which describes what’s the fetch interval and other details.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-do-you-add-custom-metrics-in-prometheus&quot;&gt;How do you add custom metrics in Prometheus?&lt;/h2&gt;
 

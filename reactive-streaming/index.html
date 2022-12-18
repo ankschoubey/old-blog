@@ -39,8 +39,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -228,42 +228,23 @@ window.onload = wrap_img;
 
 <p><strong>Spring Webflux backend</strong>:</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="k">return</span> <span class="n">moviesRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">()</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">return</span> <span class="n">moviesRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">()</span>
     <span class="o">.</span><span class="na">collectList</span><span class="o">()</span> <span class="c1">// this makes it non-streaming</span>
     <span class="o">.</span><span class="na">flatMap</span><span class="o">(</span><span class="n">movies</span><span class="o">-&gt;</span> <span class="nc">ServerResponse</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">bodyValue</span><span class="o">(</span><span class="n">movies</span><span class="o">));</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 <p><strong>Angular Frontend</strong>:</p>
 
 <p>Typescript:</p>
-<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td>
-<td class="rouge-code"><pre><span class="k">this</span><span class="p">.</span><span class="nx">httpClient</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">/movies</span><span class="dl">"</span><span class="p">)</span>
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">this</span><span class="p">.</span><span class="nx">httpClient</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">/movies</span><span class="dl">"</span><span class="p">)</span>
     <span class="p">.</span><span class="nx">subscribe</span><span class="p">(</span> <span class="c1">// this line makes it non-streaming</span>
         <span class="nx">movies</span><span class="o">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">movies</span> <span class="o">=</span> <span class="nx">movies</span><span class="p">;</span>
     <span class="p">);</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 <p>HTML:</p>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="nt">&lt;li</span> <span class="na">*ngFor=</span><span class="s">"let movie of movies"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;li</span> <span class="na">*ngFor=</span><span class="s">"let movie of movies"</span><span class="nt">&gt;</span>
     \{\{ movie.name }}
 <span class="nt">&lt;/li&gt;</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p>A reactive streaming implementation would be like this:</p>
 
@@ -277,34 +258,20 @@ window.onload = wrap_img;
 
 <p><strong>Spring Webflux backend</strong>:</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>    <span class="k">return</span> <span class="nc">ServerResponse</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">body</span><span class="o">(</span><span class="n">moviesRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">(),</span> <span class="nc">Movies</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">return</span> <span class="nc">ServerResponse</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">body</span><span class="o">(</span><span class="n">moviesRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">(),</span> <span class="nc">Movies</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
+</code></pre></div></div>
 
 <p><strong>Angular Frontend</strong>:</p>
 
 <p>Typescript:</p>
-<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>    <span class="k">this</span><span class="p">.</span><span class="nx">movies</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">httpClient</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">/movies</span><span class="dl">"</span><span class="p">);</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">this</span><span class="p">.</span><span class="nx">movies</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">httpClient</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">"</span><span class="s2">/movies</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
 
 <p>HTML:</p>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="nt">&lt;li</span> <span class="na">*ngFor=</span><span class="s">"let movie of movies | async; index as i"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;li</span> <span class="na">*ngFor=</span><span class="s">"let movie of movies | async; index as i"</span><span class="nt">&gt;</span>
     \{\{ movie.name }}
 <span class="nt">&lt;/li&gt;</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <h1 id="when-is-streaming-not-efficient">
 <a class="anchor" href="#when-is-streaming-not-efficient" aria-hidden="true"><span class="octicon octicon-link"></span></a>When is streaming not-efficient</h1>

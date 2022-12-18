@@ -39,8 +39,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -235,12 +235,8 @@ window.onload = wrap_img;
 <a class="anchor" href="#1--install-kaggle-cli" aria-hidden="true"><span class="octicon octicon-link"></span></a>1 — Install Kaggle CLI</h2>
 
 <p>To get started to Kaggle CLI you will need Python, open terminal and write</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre><span class="nv">$ </span>pip <span class="nb">install </span>kaggle
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pip <span class="nb">install </span>kaggle
+</code></pre></div></div>
 <h2 id="2--api-credentials">
 <a class="anchor" href="#2--api-credentials" aria-hidden="true"><span class="octicon octicon-link"></span></a>2 — API credentials</h2>
 
@@ -251,12 +247,8 @@ window.onload = wrap_img;
 <p>In the above line, you will see the path (highlighted) of where to put your <strong>kaggle.json</strong> file.</p>
 
 <p>To get kaggle.json file go to:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>https://www.kaggle.com/&lt;username&gt;/account
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://www.kaggle.com/&lt;username&gt;/account
+</code></pre></div></div>
 <p>In the API section, click <strong>Create New API Token</strong>. And copy it the path mentioned in the terminal output.</p>
 
 <p><img src="/images/2019-08-10-how-to-download-dataset-from-kaggle/2_download_kagglejson.png" alt="2_download_kagglejson"></p>
@@ -271,19 +263,11 @@ window.onload = wrap_img;
 <a class="anchor" href="#downloading-dataset-via-cli" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloading Dataset via CLI</h2>
 
 <p>You can open <strong>kaggle help</strong> via</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>kaggle <span class="nt">-h</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kaggle <span class="nt">-h</span>
+</code></pre></div></div>
 <p>For getting info on competitions you can type</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>kaggle competitions download <span class="nt">-h</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kaggle competitions download <span class="nt">-h</span>
+</code></pre></div></div>
 <p>whatever the Kaggle CLI command is, add -h to get help.</p>
 
 <h3 id="find-data">
@@ -303,12 +287,8 @@ window.onload = wrap_img;
 <p><img src="/images/2019-08-10-how-to-download-dataset-from-kaggle/5_download_command_in_terminal.png" alt="5_download_command_in_terminal"></p>
 
 <p>The syntax is like</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>kaggle competitions download &lt;competition name&gt;
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kaggle competitions download &lt;competition name&gt;
+</code></pre></div></div>
 <h3 id="download-particular-file-from-dataset">
 <a class="anchor" href="#download-particular-file-from-dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download Particular File From Dataset</h3>
 
@@ -317,12 +297,8 @@ window.onload = wrap_img;
 <p>So instead of downloading entire dataset, you can <strong>select which files to download</strong>.</p>
 
 <p>You cannot provide download multiple files with a single command (as of 2019/Aug/10) so you will have to download it one by one using the following command.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>kaggle competitions download <span class="nt">-f</span> &lt;file-name&gt; &lt;competition-name&gt;
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kaggle competitions download <span class="nt">-f</span> &lt;file-name&gt; &lt;competition-name&gt;
+</code></pre></div></div>
 <p><img src="/images/2019-08-10-how-to-download-dataset-from-kaggle/6_final_output.png" alt="6_final_output"></p>
 
 <p>Extract it and start using it.</p>

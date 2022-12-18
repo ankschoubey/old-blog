@@ -39,8 +39,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -206,30 +206,20 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h1">
 <a href="#reduce-bundle-size">Reduce bundle size</a>
 <ul>
-<li class="toc-entry toc-h2"><a href="#always-use-compression-at-least-gzip">Always use compression: at least 1
-gzip
-</a></li>
+<li class="toc-entry toc-h2"><a href="#always-use-compression-at-least-gzip">Always use compression: at least gzip</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h1">
 <a href="#make-less-number-of-requests">Make less number of requests</a>
 <ul>
-<li class="toc-entry toc-h2"><a href="#always-cache-static-content-js-css-and-static-images">Always cache static content: 1
-js
-, 1
-css
- and static images.</a></li>
+<li class="toc-entry toc-h2"><a href="#always-cache-static-content-js-css-and-static-images">Always cache static content: js, css and static images.</a></li>
 <li class="toc-entry toc-h2"><a href="#always-load-images-lazily">Always load images lazily</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h1">
 <a href="#do-it-fast">Do it fast</a>
 <ul>
-<li class="toc-entry toc-h2"><a href="#fetch-js-and-css-asynchronously-source">Fetch 1
-js
- and 1
-css
- asynchronously Source</a></li>
+<li class="toc-entry toc-h2"><a href="#fetch-js-and-css-asynchronously-source">Fetch js and css asynchronously Source</a></li>
 </ul>
 </li>
 </ul>
@@ -237,22 +227,12 @@ css
 <a class="anchor" href="#reduce-bundle-size" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reduce bundle size</h1>
 
 <h2 id="always-use-compression-at-least-gzip">
-<a class="anchor" href="#always-use-compression-at-least-gzip" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw">Always use compression: at least <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>gzip
-</pre></td>
-</tr></tbody></table></code></a>
+<a class="anchor" href="#always-use-compression-at-least-gzip" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://twitter.com/ankschoubey/status/1229795313994461187?ref_src=twsrc%5Etfw">Always use compression: at least <code class="language-plaintext highlighter-rouge">gzip</code></a>
 </h2>
 
 <p>Always compress. The configuration is set in the webserver.</p>
 
-<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>gzip
-</pre></td>
-</tr></tbody></table></code> is good enough in most cases in terms of both performance and speed.</p>
+<p><code class="language-plaintext highlighter-rouge">gzip</code> is good enough in most cases in terms of both performance and speed.</p>
 
 <p>My application went from 4 MB to 800 kb. Fewer data faster speed.</p>
 
@@ -263,52 +243,17 @@ css
 <a class="anchor" href="#make-less-number-of-requests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Make less number of requests</h1>
 
 <h2 id="always-cache-static-content-js-css-and-static-images">
-<a class="anchor" href="#always-cache-static-content-js-css-and-static-images" aria-hidden="true"><span class="octicon octicon-link"></span></a>Always cache static content: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>js
-</pre></td>
-</tr></tbody></table></code>, <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>css
-</pre></td>
-</tr></tbody></table></code> and static images.</h2>
+<a class="anchor" href="#always-cache-static-content-js-css-and-static-images" aria-hidden="true"><span class="octicon octicon-link"></span></a>Always cache static content: <code class="language-plaintext highlighter-rouge">js</code>, <code class="language-plaintext highlighter-rouge">css</code> and static images.</h2>
 
 <p>This can be configured in your web server or your application. Just google “ “how to cache in <your framework="" or="" web="" server="">“.</your></p>
 
 <p>Of course: <strong><em>be sure to not cache dynamic content.</em></strong></p>
 
-<p><strong>For <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>js
-</pre></td>
-</tr></tbody></table></code> and <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>css
-</pre></td>
-</tr></tbody></table></code> files, make sure it has a name that is unique if the file is modified.</strong></p>
+<p><strong>For <code class="language-plaintext highlighter-rouge">js</code> and <code class="language-plaintext highlighter-rouge">css</code> files, make sure it has a name that is unique if the file is modified.</strong></p>
 
-<p>Example: in angular after creating a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>--prod
-</pre></td>
-</tr></tbody></table></code> build, the filename is in following format <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>&lt;filename&gt;.&lt;md5 checksum&gt;.js
-</pre></td>
-</tr></tbody></table></code>.</p>
+<p>Example: in angular after creating a <code class="language-plaintext highlighter-rouge">--prod</code> build, the filename is in following format <code class="language-plaintext highlighter-rouge">&lt;filename&gt;.&lt;md5 checksum&gt;.js</code>.</p>
 
-<p>This ensures that if the content of the file changes, the <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>md5
-</pre></td>
-</tr></tbody></table></code> checksum will change and a new request will be sent but if the file does not change then it will have the same checksum so it can be pulled from the cache.</p>
+<p>This ensures that if the content of the file changes, the <code class="language-plaintext highlighter-rouge">md5</code> checksum will change and a new request will be sent but if the file does not change then it will have the same checksum so it can be pulled from the cache.</p>
 
 <h2 id="always-load-images-lazily">
 <a class="anchor" href="#always-load-images-lazily" aria-hidden="true"><span class="octicon octicon-link"></span></a>Always load images lazily</h2>
@@ -328,47 +273,12 @@ css
 <a class="anchor" href="#do-it-fast" aria-hidden="true"><span class="octicon octicon-link"></span></a>Do it fast</h1>
 
 <h2 id="fetch-js-and-css-asynchronously-source">
-<a class="anchor" href="#fetch-js-and-css-asynchronously-source" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://twitter.com/ankschoubey/status/1229793732418920449?s=20">Fetch <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>js
-</pre></td>
-</tr></tbody></table></code> and <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>css
-</pre></td>
-</tr></tbody></table></code> asynchronously</a> <sup><a href="https://flaviocopes.com/javascript-async-defer/#the-position-matters"><em>Source</em></a></sup>
+<a class="anchor" href="#fetch-js-and-css-asynchronously-source" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://twitter.com/ankschoubey/status/1229793732418920449?s=20">Fetch <code class="language-plaintext highlighter-rouge">js</code> and <code class="language-plaintext highlighter-rouge">css</code> asynchronously</a> <sup><a href="https://flaviocopes.com/javascript-async-defer/#the-position-matters"><em>Source</em></a></sup>
 </h2>
 
-<p>When fetching <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>js
-</pre></td>
-</tr></tbody></table></code> add <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>async defer
-</pre></td>
-</tr></tbody></table></code> to <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>script
-</pre></td>
-</tr></tbody></table></code> tag. This will fetch multiple <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>js
-</pre></td>
-</tr></tbody></table></code> files in parallel.</p>
+<p>When fetching <code class="language-plaintext highlighter-rouge">js</code> add <code class="language-plaintext highlighter-rouge">async defer</code> to <code class="language-plaintext highlighter-rouge">script</code> tag. This will fetch multiple <code class="language-plaintext highlighter-rouge">js</code> files in parallel.</p>
 
-<p>Keep <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>script
-</pre></td>
-</tr></tbody></table></code> tag in the header for this.</p>
+<p>Keep <code class="language-plaintext highlighter-rouge">script</code> tag in the header for this.</p>
 
 <hr>
 

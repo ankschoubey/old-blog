@@ -40,8 +40,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -213,26 +213,9 @@ window.onload = wrap_img;
 
 <p>Ideally, the user is indicated when fallback data is used.</p>
 
-<p>This can be as simple as adding a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>responseMetadata
-</pre></td>
-</tr></tbody></table></code> field within HTTP Response.</p>
+<p>This can be as simple as adding a <code class="language-plaintext highlighter-rouge">responseMetadata</code> field within HTTP Response.</p>
 
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-</pre></td>
-<td class="rouge-code"><pre><span class="p">{</span><span class="w">
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
     </span><span class="err">content:</span><span class="w"> </span><span class="p">{</span><span class="w">
         </span><span class="err">actualData</span><span class="w">
     </span><span class="p">},</span><span class="w">
@@ -242,84 +225,28 @@ window.onload = wrap_img;
     </span><span class="p">}</span><span class="w"> 
     </span><span class="err">...</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></pre></td>
-</tr></tbody></table></code></pre></div></div>
+</span></code></pre></div></div>
 
-<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>type
-</pre></td>
-</tr></tbody></table></code> could be</p>
+<p><code class="language-plaintext highlighter-rouge">type</code> could be</p>
 <ul>
   <li>
-<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>STALE
-</pre></td>
-</tr></tbody></table></code> for old data</li>
+<code class="language-plaintext highlighter-rouge">STALE</code> for old data</li>
   <li>
-<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>LATEST
-</pre></td>
-</tr></tbody></table></code> to indicate the data is current</li>
+<code class="language-plaintext highlighter-rouge">LATEST</code> to indicate the data is current</li>
   <li>
-<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>FALLBACK
-</pre></td>
-</tr></tbody></table></code> indicates neither <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>LATEST
-</pre></td>
-</tr></tbody></table></code> nor <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>STATE
-</pre></td>
-</tr></tbody></table></code>.</li>
+<code class="language-plaintext highlighter-rouge">FALLBACK</code> indicates neither <code class="language-plaintext highlighter-rouge">LATEST</code> nor <code class="language-plaintext highlighter-rouge">STATE</code>.</li>
 </ul>
 
-<p>an <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>updatedDate
-</pre></td>
-</tr></tbody></table></code> field</p>
+<p>an <code class="language-plaintext highlighter-rouge">updatedDate</code> field</p>
 <ul>
   <li>date of when something is updated</li>
 </ul>
 
-<p>The frontend or client could read the <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>responseMetadata
-</pre></td>
-</tr></tbody></table></code> and show a message to the user indicating that old data.</p>
+<p>The frontend or client could read the <code class="language-plaintext highlighter-rouge">responseMetadata</code> and show a message to the user indicating that old data.</p>
 
-<p>The client could also take further action on <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>responseMetadata
-</pre></td>
-</tr></tbody></table></code>, like polling, after a little while until the response is <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>CURRENT
-</pre></td>
-</tr></tbody></table></code>.</p>
+<p>The client could also take further action on <code class="language-plaintext highlighter-rouge">responseMetadata</code>, like polling, after a little while until the response is <code class="language-plaintext highlighter-rouge">CURRENT</code>.</p>
 
-<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>responseMetadata
-</pre></td>
-</tr></tbody></table></code> can be part of a parent class for all response classes. An ArchUnit test canenforce this behaviour.</p>
+<p><code class="language-plaintext highlighter-rouge">responseMetadata</code> can be part of a parent class for all response classes. An ArchUnit test canenforce this behaviour.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

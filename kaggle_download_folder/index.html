@@ -39,8 +39,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -223,20 +223,12 @@ window.onload = wrap_img;
 
 <h4 id="1-created-directory-if-it-does-not-already-exist">1. Created directory if it does not already exist</h4>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre><span class="nb">mkdir</span> <span class="nt">-p</span> img/train/c4
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-p</span> img/train/c4
+</code></pre></div></div>
 <h4 id="2-get-the-list-of-all-files-available-in-the-dataset-filtered-the-files-which-were-in-the-c4-folder-picked-file-name-repeatedly-download-each-file">2. Get the list of all files available in the dataset, filtered the files which were in the c4 folder, picked file name, repeatedly download each file.</h4>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>kaggle competitions files <span class="nt">-c</span> state-farm-distracted-driver-detection | <span class="nb">grep </span>c4 | <span class="nb">awk</span> ‘<span class="o">{</span>print <span class="nv">$1</span><span class="o">}</span>’ | <span class="k">while </span><span class="nb">read </span>x <span class="p">;</span> <span class="k">do </span>kaggle competitions download <span class="nt">-f</span> <span class="nv">$x</span> state-farm-distracted-driver-detection <span class="nt">-p</span> img/train/c4 <span class="p">;</span> <span class="k">done</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kaggle competitions files <span class="nt">-c</span> state-farm-distracted-driver-detection | <span class="nb">grep </span>c4 | <span class="nb">awk</span> ‘<span class="o">{</span>print <span class="nv">$1</span><span class="o">}</span>’ | <span class="k">while </span><span class="nb">read </span>x <span class="p">;</span> <span class="k">do </span>kaggle competitions download <span class="nt">-f</span> <span class="nv">$x</span> state-farm-distracted-driver-detection <span class="nt">-p</span> img/train/c4 <span class="p">;</span> <span class="k">done</span>
+</code></pre></div></div>
 <p><img src="/images/2020-03-10-hi-harshini/1.png" alt=""></p>
 
 <p>— — — — —</p>
@@ -255,12 +247,8 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>kaggle competitions download <span class="nt">-h</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kaggle competitions download <span class="nt">-h</span>
+</code></pre></div></div>
 <p>Hope this helps! Have a good day!</p>
 
 <p><sub><a href="https://medium.com/@ankushchoubey/hi-harshini-b0e50202d15">Medium reply</a></sub></p>

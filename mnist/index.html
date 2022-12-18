@@ -40,8 +40,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -136,7 +136,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      7 min read
+      6 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -282,12 +282,8 @@ window.onload = wrap_img;
 <h4 id="read-the-data">
 <a class="anchor" href="#read-the-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Read the data</h4>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre><span class="n">train_df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'/kaggle/input/digit-recognizer/train.csv'</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">train_df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'/kaggle/input/digit-recognizer/train.csv'</span><span class="p">)</span>
+</code></pre></div></div>
 
 <h4 id="trainingtesting">
 <a class="anchor" href="#trainingtesting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Training/testing</h4>
@@ -298,35 +294,17 @@ window.onload = wrap_img;
 
 <p><em>test_df</em> does not contain a label column</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="n">train_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="n">train_df</span><span class="p">.</span><span class="n">columns</span> <span class="o">!=</span> <span class="s">'label'</span><span class="p">]</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">train_df</span><span class="p">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="n">train_df</span><span class="p">.</span><span class="n">columns</span> <span class="o">!=</span> <span class="s">'label'</span><span class="p">]</span>
 <span class="nb">type</span><span class="p">(</span><span class="n">test_df</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">'label'</span><span class="p">))</span> <span class="o">==</span> <span class="bp">None</span>
 <span class="c1">#false
-</span></pre></td>
-</tr></tbody></table></code></pre></div></div>
+</span></code></pre></div></div>
 
 <h4 id="dataset">
 <a class="anchor" href="#dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dataset</h4>
 
 <p>Returns features and labels if ‘train=True’. else it returns just features</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-</pre></td>
-<td class="rouge-code"><pre><span class="k">class</span> <span class="nc">MnistDataset</span><span class="p">(</span><span class="n">Dataset</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">MnistDataset</span><span class="p">(</span><span class="n">Dataset</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">train</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
         <span class="c1">#convert df to self.X and self.y using above
 </span>
@@ -336,36 +314,24 @@ window.onload = wrap_img;
     <span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">i</span><span class="p">):</span>
         <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">train</span><span class="p">:</span> <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">X</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="bp">self</span><span class="p">.</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
         <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">X</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p>Observation: Even if I don’t explicitly mention Tensor, NumPy is converted to tensor.</p>
 
 <h4 id="creating-dataloader">
 <a class="anchor" href="#creating-dataloader" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating DataLoader</h4>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="n">bs</span> <span class="o">=</span> <span class="mi">64</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bs</span> <span class="o">=</span> <span class="mi">64</span>
 <span class="n">ds</span> <span class="o">=</span> <span class="n">MnistDataset</span><span class="p">(</span><span class="n">train_df</span><span class="p">)</span>
 <span class="n">dl</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">ds</span><span class="p">,</span> <span class="n">bs</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <h4 id="checking-if-dataloader-returns-the-right-output">
 <a class="anchor" href="#checking-if-dataloader-returns-the-right-output" aria-hidden="true"><span class="octicon octicon-link"></span></a>Checking if DataLoader returns the right output</h4>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="rouge-code"><pre><span class="n">images</span><span class="p">,</span> <span class="n">labels</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">dl</span><span class="p">))</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">images</span><span class="p">,</span> <span class="n">labels</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">dl</span><span class="p">))</span>
 <span class="n">images</span><span class="p">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">labels</span><span class="p">.</span><span class="n">shape</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <h4 id="creating-a-vanilla-neural-network">
 <a class="anchor" href="#creating-a-vanilla-neural-network" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating a vanilla Neural Network</h4>
@@ -377,20 +343,12 @@ window.onload = wrap_img;
 <h4 id="preparing-the-training-loop">
 <a class="anchor" href="#preparing-the-training-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>Preparing the training loop</h4>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="rouge-code"><pre><span class="n">epochs</span> <span class="o">=</span> <span class="mi">10</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">epochs</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="n">loss_fn</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">CrossEntropyLoss</span><span class="p">()</span>
 
 <span class="kn">import</span> <span class="nn">torch.optim</span> <span class="k">as</span> <span class="n">optim</span>
 <span class="n">o</span> <span class="o">=</span> <span class="n">optim</span><span class="p">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">net</span><span class="p">.</span><span class="n">parameters</span><span class="p">())</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <h4 id="creating-the-training-loop">
 <a class="anchor" href="#creating-the-training-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating the training loop</h4>
@@ -401,27 +359,17 @@ window.onload = wrap_img;
   <li><strong>Loop epoch number of times</strong></li>
 </ol>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="rouge-code"><pre><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">epochs</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">epochs</span><span class="p">):</span>
     <span class="p">...</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <ol>
   <li>Inside the epoch loop, <strong>loop through data loader</strong> (dl)</li>
 </ol>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="rouge-code"><pre><span class="k">for</span> <span class="n">images</span><span class="p">,</span> <span class="n">labels</span> <span class="ow">in</span> <span class="n">dl</span><span class="p">:</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">images</span><span class="p">,</span> <span class="n">labels</span> <span class="ow">in</span> <span class="n">dl</span><span class="p">:</span>
     <span class="p">...</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <ol>
   <li>Inside the data loader loop,</li>
@@ -436,32 +384,20 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="n">o</span><span class="p">.</span><span class="n">zero_grad</span><span class="p">()</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">o</span><span class="p">.</span><span class="n">zero_grad</span><span class="p">()</span>
 <span class="p">...</span>
 <span class="n">o</span><span class="p">.</span><span class="n">step</span><span class="p">()</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <ol>
   <li>Between optimizer zero_grad and optimizer step, <strong>pass data through the NN, compute loss and gradients.</strong>
 </li>
 </ol>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="n">out</span> <span class="o">=</span> <span class="n">net</span><span class="p">(</span><span class="n">images</span><span class="p">.</span><span class="nb">float</span><span class="p">())</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">out</span> <span class="o">=</span> <span class="n">net</span><span class="p">(</span><span class="n">images</span><span class="p">.</span><span class="nb">float</span><span class="p">())</span>
 <span class="n">loss</span> <span class="o">=</span> <span class="n">loss_fn</span><span class="p">(</span><span class="n">out</span><span class="p">.</span><span class="nb">float</span><span class="p">(),</span> <span class="n">labels</span><span class="p">.</span><span class="nb">long</span><span class="p">())</span>
 <span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <h4 id="generating-output">
 <a class="anchor" href="#generating-output" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generating output</h4>
@@ -479,14 +415,9 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="rouge-code"><pre><span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="n">no_grad</span><span class="p">():</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="n">no_grad</span><span class="p">():</span>
     <span class="p">...</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <ul>
   <li>
@@ -500,23 +431,14 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre><span class="n">out</span><span class="p">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">out</span><span class="p">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div></div>
 
 <p>We store these outputs in an <strong>outputs</strong> python list.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="rouge-code"><pre><span class="n">test_df</span><span class="p">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">sample_df</span><span class="p">.</span><span class="n">shape</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">test_df</span><span class="p">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">sample_df</span><span class="p">.</span><span class="n">shape</span>
 <span class="c1"># Out[17]: ((28000, 784), (28000, 2))
-</span></pre></td>
-</tr></tbody></table></code></pre></div></div>
+</span></code></pre></div></div>
 
 <ul>
   <li>
@@ -527,14 +449,9 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td>
-<td class="rouge-code"><pre><span class="n">sample_df</span><span class="p">[</span><span class="s">'Label'</span><span class="p">]</span> <span class="o">=</span> <span class="n">outputs</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sample_df</span><span class="p">[</span><span class="s">'Label'</span><span class="p">]</span> <span class="o">=</span> <span class="n">outputs</span>
 <span class="n">sample_df</span><span class="p">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s">'submission.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p><strong>index=False</strong> removed the default pandas index when saving</p>
 
@@ -562,74 +479,43 @@ window.onload = wrap_img;
 
 <p><strong><em>Creating a separate validation set</em></strong></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td>
-<td class="rouge-code"><pre><span class="n">val_len</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ds</span><span class="p">)</span><span class="o">*</span><span class="mf">0.01</span><span class="p">)</span> <span class="c1"># 0.01 percent of data
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">val_len</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ds</span><span class="p">)</span><span class="o">*</span><span class="mf">0.01</span><span class="p">)</span> <span class="c1"># 0.01 percent of data
 </span><span class="n">train_len</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ds</span><span class="p">)</span> <span class="err">—</span> <span class="n">val_len</span> <span class="c1"># all other are in training
 </span>
 <span class="kn">from</span> <span class="nn">torch.utils.data</span> <span class="kn">import</span> <span class="n">random_split</span>
 
 <span class="n">train_ds</span><span class="p">,</span> <span class="n">val_ds</span> <span class="o">=</span> <span class="n">random_split</span><span class="p">(</span><span class="n">ds</span><span class="p">,</span> <span class="p">[</span><span class="n">train_len</span><span class="p">,</span> <span class="n">val_len</span><span class="p">])</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p>Likewise, 2 data loaders are created.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="n">bs</span> <span class="o">=</span> <span class="mi">64</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bs</span> <span class="o">=</span> <span class="mi">64</span>
 <span class="n">train_dl</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">train_ds</span><span class="p">,</span> <span class="n">bs</span><span class="p">)</span>
 <span class="n">val_dl</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">val_ds</span><span class="p">,</span> <span class="n">bs</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p><strong><em>Changes in the training loop</em></strong></p>
 
 <p>A separate list called accuracies in created to store the accuracy of an epoch.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="rouge-code"><pre><span class="p">...</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">...</span>
 <span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="n">no_grad</span><span class="p">():</span>
         <span class="n">accuracy</span> <span class="o">=</span> <span class="mi">0</span>
         <span class="k">for</span> <span class="n">images</span><span class="p">,</span> <span class="n">labels</span> <span class="ow">in</span> <span class="n">val_dl</span><span class="p">:</span>
             <span class="n">out</span> <span class="o">=</span> <span class="n">net</span><span class="p">(</span><span class="n">images</span><span class="p">.</span><span class="nb">float</span><span class="p">())</span>
             <span class="n">accuracy</span><span class="o">+=</span><span class="p">(</span><span class="n">out</span><span class="p">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="n">labels</span><span class="p">).</span><span class="nb">sum</span><span class="p">().</span><span class="n">item</span><span class="p">()</span>
         <span class="n">accuracies</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">accuracy</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">val_ds</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <h4 id="graph">
 <a class="anchor" href="#graph" aria-hidden="true"><span class="octicon octicon-link"></span></a>Graph</h4>
 
 <p>Since the accuracy of each epoch was stored in a separate accuracies list, creating a graph was easy.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 
 <span class="n">plt</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">epochs</span><span class="p">),</span> <span class="n">accuracies</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <h4 id="data-normalization">
 <a class="anchor" href="#data-normalization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Normalization</h4>
@@ -642,21 +528,12 @@ window.onload = wrap_img;
 
 <p>Ideally, the range should be around 0 so an even better approach would be</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre><span class="n">image</span> <span class="o">=</span> <span class="n">image</span><span class="o">/</span><span class="mi">250</span><span class="err">–</span><span class="mf">0.5</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">image</span> <span class="o">=</span> <span class="n">image</span><span class="o">/</span><span class="mi">250</span><span class="err">–</span><span class="mf">0.5</span>
+</code></pre></div></div>
 
 <p>this would result in a range between -0.5…+0.5.</p>
 
-<p>Later we would use <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>torchvision.transforms.Normalize
-</pre></td>
-</tr></tbody></table></code>(<em>mean</em>, <em>std</em>, <em>inplace=False</em>) which generates unique normalization value for each dataset</p>
+<p>Later we would use <code class="language-plaintext highlighter-rouge">torchvision.transforms.Normalize</code>(<em>mean</em>, <em>std</em>, <em>inplace=False</em>) which generates unique normalization value for each dataset</p>
 
 <h3 id="commit-6-convnet-and-gpu">
 <a class="anchor" href="#commit-6-convnet-and-gpu" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist?scriptVersionId=30896320">Commit 6</a>: ConvNet, and GPU</h3>
@@ -682,30 +559,14 @@ window.onload = wrap_img;
 
 <p>ResNet 34 is my goto ConvNet but since MNIST is so easy, I went with ResNet 18.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="kn">import</span> <span class="nn">torchvision.models</span> <span class="k">as</span> <span class="n">models</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">torchvision.models</span> <span class="k">as</span> <span class="n">models</span>
 <span class="n">resnet18</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">resnet18</span><span class="p">(</span><span class="n">pretrained</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 <span class="n">resnet18</span><span class="p">.</span><span class="n">fc</span> <span class="c1">#print fully connected network
-</span></pre></td>
-</tr></tbody></table></code></pre></div></div>
+</span></code></pre></div></div>
 
 <p>ResNet is designed to output 1000 classes. But our output is from 0…9 aka 10 classes.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td>
-<td class="rouge-code"><pre><span class="n">lin_in</span> <span class="o">=</span> <span class="n">resnet18</span><span class="p">.</span><span class="n">fc</span><span class="p">.</span><span class="n">in_features</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">lin_in</span> <span class="o">=</span> <span class="n">resnet18</span><span class="p">.</span><span class="n">fc</span><span class="p">.</span><span class="n">in_features</span>
 
 <span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="n">nn</span>
 
@@ -713,19 +574,14 @@ window.onload = wrap_img;
     <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">lin_in</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span>
     <span class="n">nn</span><span class="p">.</span><span class="n">Softmax</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p><strong><em>Convert Grayscale to RGB image</em></strong></p>
 
 <p>ResNet expects RGB images. MNIST is grayscale.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre><span class="n">img</span> <span class="o">=</span> <span class="n">img</span><span class="p">.</span><span class="n">view</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">28</span><span class="p">).</span><span class="n">expand</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">28</span><span class="p">)</span><span class="err">`</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">img</span> <span class="o">=</span> <span class="n">img</span><span class="p">.</span><span class="n">view</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">28</span><span class="p">).</span><span class="n">expand</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">28</span><span class="p">)</span><span class="err">`</span>
+</code></pre></div></div>
 
 <p>This <a href="https://discuss.pytorch.org/t/grayscale-to-rgb-transform/18315/7">grayscale to the RGB</a> line is added to our Dataset class.</p>
 
@@ -733,16 +589,10 @@ window.onload = wrap_img;
 
 <p>When using an existing model, we need to use the same normalization values as that model. The <a href="#https://pytorch.org/docs/stable/torchvision/models.html">docs mention the normalization value</a>.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td>
-<td class="rouge-code"><pre><span class="kn">import</span>  <span class="nn">torchvision.transforms</span> <span class="k">as</span> <span class="n">transforms</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span>  <span class="nn">torchvision.transforms</span> <span class="k">as</span> <span class="n">transforms</span>
 <span class="n">normalize</span> <span class="o">=</span> <span class="n">transforms</span><span class="p">.</span><span class="n">Normalize</span><span class="p">(</span><span class="n">mean</span><span class="o">=</span><span class="p">[</span><span class="mf">0.485</span><span class="p">,</span> <span class="mf">0.456</span><span class="p">,</span> <span class="mf">0.406</span><span class="p">],</span>
                                  <span class="n">std</span><span class="o">=</span><span class="p">[</span><span class="mf">0.229</span><span class="p">,</span> <span class="mf">0.224</span><span class="p">,</span> <span class="mf">0.225</span><span class="p">])</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p>The <strong>init</strong> and <strong>getitem</strong> dataset class have been modified to use this transformation.</p>
 
@@ -755,29 +605,18 @@ window.onload = wrap_img;
 
 <p>GPU is needed!</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre><span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">device</span><span class="p">(</span><span class="s">'cuda:0'</span><span class="p">)</span> <span class="k">if</span> <span class="n">torch</span><span class="p">.</span><span class="n">cuda</span><span class="p">.</span><span class="n">is_available</span><span class="p">()</span> <span class="k">else</span> <span class="s">'cpu'</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">device</span><span class="p">(</span><span class="s">'cuda:0'</span><span class="p">)</span> <span class="k">if</span> <span class="n">torch</span><span class="p">.</span><span class="n">cuda</span><span class="p">.</span><span class="n">is_available</span><span class="p">()</span> <span class="k">else</span> <span class="s">'cpu'</span>
+</code></pre></div></div>
 
 <p>If the GPU is on, the device will be <em>cuda</em>.</p>
 
 <p>The neural network and the data in training, validation and texting loop have been changed to run on GPU.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td>
-<td class="rouge-code"><pre><span class="n">net</span> <span class="o">=</span> <span class="n">net</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">net</span> <span class="o">=</span> <span class="n">net</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
 <span class="p">...</span>
 
 <span class="n">images</span><span class="p">,</span> <span class="n">labels</span> <span class="o">=</span> <span class="n">images</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">,</span><span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="nb">float</span><span class="p">),</span> <span class="n">labels</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p>And since we are on GPU we can increase our batch size from 64 to much higher.</p>
 
@@ -789,18 +628,11 @@ window.onload = wrap_img;
 
 <p>Along with monitoring GPU and CPU usage, I modified training_loop to show the <a href="https://stackoverflow.com/a/36423341">amount of time taken to complete each epoch</a>.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td>
-<td class="rouge-code"><pre><span class="n">bs</span> <span class="o">=</span> <span class="mi">512</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bs</span> <span class="o">=</span> <span class="mi">512</span>
 <span class="n">num_workers</span> <span class="o">=</span> <span class="mi">2</span>
 <span class="n">train_dl</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">train_ds</span><span class="p">,</span> <span class="n">bs</span><span class="p">,</span> <span class="n">num_workers</span><span class="o">=</span><span class="n">num_workers</span><span class="p">)</span>
 <span class="n">val_dl</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">val_ds</span><span class="p">,</span> <span class="n">bs</span><span class="p">,</span> <span class="n">num_workers</span><span class="o">=</span><span class="n">num_workers</span><span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p>This resulted in 7 seconds per epoch.</p>
 
@@ -827,24 +659,14 @@ window.onload = wrap_img;
 
 <p>Now FC is this:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td>
-<td class="rouge-code"><pre><span class="n">lin_in</span> <span class="o">=</span> <span class="n">resnet18</span><span class="p">.</span><span class="n">fc</span><span class="p">.</span><span class="n">in_features</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">lin_in</span> <span class="o">=</span> <span class="n">resnet18</span><span class="p">.</span><span class="n">fc</span><span class="p">.</span><span class="n">in_features</span>
 
 <span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="n">nn</span>
 
 <span class="n">resnet18</span><span class="p">.</span><span class="n">fc</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Sequential</span><span class="p">(</span>
     <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">lin_in</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
 <span class="p">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 <hr>
 
 <p>Index: <a href="/deep%20learning/kaggle/2020/03/30/series-kaggle-getting-started.html">Series - Kaggle Getting Started</a></p>

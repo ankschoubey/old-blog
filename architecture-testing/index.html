@@ -40,8 +40,8 @@
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
@@ -230,22 +230,7 @@ window.onload = wrap_img;
 
 <p>Architecture tests help enforce rules that are otherwise missed by linters. Linters provide some coding standards but usually aren’t sophisticated enough for the capabilities architecture testing can provide.</p>
 
-<p>For example, if you have a java <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Entity
-</pre></td>
-</tr></tbody></table></code> and want to ensure all of it has certain <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>javax
-</pre></td>
-</tr></tbody></table></code> validation whenever someone creates a new <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@Entity
-</pre></td>
-</tr></tbody></table></code>.</p>
+<p>For example, if you have a java <code class="language-plaintext highlighter-rouge">@Entity</code> and want to ensure all of it has certain <code class="language-plaintext highlighter-rouge">javax</code> validation whenever someone creates a new <code class="language-plaintext highlighter-rouge">@Entity</code>.</p>
 
 <h1 id="libraries-for-architecture-testing">Libraries for Architecture Testing</h1>
 
@@ -263,20 +248,12 @@ window.onload = wrap_img;
 
 <p>Example: If you want to ensure all String fields for Request Objects have @Size annotation, you could write it with ArchUnit.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td>
-<td class="rouge-code"><pre>    <span class="n">fields</span><span class="o">()</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">fields</span><span class="o">()</span>
     <span class="o">.</span><span class="na">that</span><span class="o">()</span>
     <span class="o">.</span><span class="na">haveRawType</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
     <span class="o">.</span><span class="na">should</span><span class="o">()</span>
     <span class="o">.</span><span class="na">beAnnotatedWith</span><span class="o">(</span><span class="nc">Size</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
-</pre></td>
-</tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p>Since I started using ArchUnit, the quality of code has improved by a huge margin.</p>
 
@@ -286,12 +263,7 @@ window.onload = wrap_img;
 
 <p>I try to implement this the same way.</p>
 
-<p>For example, I want all tests to be really fast. <a href="spring-boot-junit-faster/">I had written an article about it</a>. And one of the ways is that it requires avoiding <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
-<td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td>
-<td class="rouge-code"><pre>@DirtiesContext
-</pre></td>
-</tr></tbody></table></code> in Spring Boot. And forcing the developer to choose between parallel execution and non-parallel execution.</p>
+<p>For example, I want all tests to be really fast. <a href="spring-boot-junit-faster/">I had written an article about it</a>. And one of the ways is that it requires avoiding <code class="language-plaintext highlighter-rouge">@DirtiesContext</code> in Spring Boot. And forcing the developer to choose between parallel execution and non-parallel execution.</p>
 
 <p>I can share it with the team and hope everyone follows it.</p>
 
