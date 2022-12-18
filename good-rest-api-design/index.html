@@ -219,15 +219,35 @@ window.onload = wrap_img;
 
 <p>so this is better</p>
 
-<p><code class="language-plaintext highlighter-rouge">/ducks</code> → get all ducks</p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/ducks
+</pre></td>
+</tr></tbody></table></code> → get all ducks</p>
 
-<p><code class="language-plaintext highlighter-rouge">/ducks/{id}</code> → get duck by duck id</p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/ducks/{id}
+</pre></td>
+</tr></tbody></table></code> → get duck by duck id</p>
 
 <p>rather than</p>
 
-<p><code class="language-plaintext highlighter-rouge">/getAllDucks</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/getAllDucks
+</pre></td>
+</tr></tbody></table></code></p>
 
-<p><code class="language-plaintext highlighter-rouge">/getDuckById</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/getDuckById
+</pre></td>
+</tr></tbody></table></code></p>
 
 <p>Any good API has upper format rather than lower.</p>
 
@@ -242,15 +262,65 @@ window.onload = wrap_img;
 
 <p>to read it you read it something like this,</p>
 
-<p><code class="language-plaintext highlighter-rouge">Intend</code> → <code class="language-plaintext highlighter-rouge">API Name</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>Intend
+</pre></td>
+</tr></tbody></table></code> → <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>API Name
+</pre></td>
+</tr></tbody></table></code></p>
 
-<p><code class="language-plaintext highlighter-rouge">GET</code> → <code class="language-plaintext highlighter-rouge">/ducks</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>GET
+</pre></td>
+</tr></tbody></table></code> → <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/ducks
+</pre></td>
+</tr></tbody></table></code></p>
 
-<p><code class="language-plaintext highlighter-rouge">GET</code> → <code class="language-plaintext highlighter-rouge">/ducks/{id}</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>GET
+</pre></td>
+</tr></tbody></table></code> → <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/ducks/{id}
+</pre></td>
+</tr></tbody></table></code></p>
 
-<p><code class="language-plaintext highlighter-rouge">DELETE</code> → <code class="language-plaintext highlighter-rouge">/ducks/{id}</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>DELETE
+</pre></td>
+</tr></tbody></table></code> → <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/ducks/{id}
+</pre></td>
+</tr></tbody></table></code></p>
 
-<p><code class="language-plaintext highlighter-rouge">POST</code> → <code class="language-plaintext highlighter-rouge">/ducks</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>POST
+</pre></td>
+</tr></tbody></table></code> → <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/ducks
+</pre></td>
+</tr></tbody></table></code></p>
 
 <p>Ideally, POST isn’t supposed to be bulk insert.</p>
 
@@ -258,7 +328,12 @@ window.onload = wrap_img;
 
 <p>Some common onces are</p>
 
-<p><code class="language-plaintext highlighter-rouge">content-length</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>content-length
+</pre></td>
+</tr></tbody></table></code></p>
 
 <h1 id="response">Response</h1>
 

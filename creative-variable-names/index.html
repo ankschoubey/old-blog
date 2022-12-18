@@ -210,14 +210,39 @@ window.onload = wrap_img;
 
 <p>Typically in code, it’s enough to have the same variable name as the class name.</p>
 
-<p>So for example, if you have a <code class="language-plaintext highlighter-rouge">User</code> class, the object name could be <code class="language-plaintext highlighter-rouge">user</code>.</p>
+<p>So for example, if you have a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>User
+</pre></td>
+</tr></tbody></table></code> class, the object name could be <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>user
+</pre></td>
+</tr></tbody></table></code>.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">User</span><span class="o">(</span><span class="n">request</span><span class="o">.</span><span class="na">getFirstName</span><span class="o">(),</span> <span class="n">request</span><span class="o">.</span><span class="na">getLastName</span><span class="o">());</span>
-</code></pre></div></div>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre><span class="nc">User</span> <span class="n">user</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">User</span><span class="o">(</span><span class="n">request</span><span class="o">.</span><span class="na">getFirstName</span><span class="o">(),</span> <span class="n">request</span><span class="o">.</span><span class="na">getLastName</span><span class="o">());</span>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>This looks good in code but gets messy in tests especially when there are multiple instances of the same object.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user1</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">User</span><span class="o">(</span><span class="s">"user 1 first name"</span><span class="o">,</span> <span class="s">"user 1 last name"</span><span class="o">,</span> <span class="o">...</span><span class="mi">10</span> <span class="n">other</span> <span class="n">fields</span><span class="o">...);</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="rouge-code"><pre><span class="nc">User</span> <span class="n">user1</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">User</span><span class="o">(</span><span class="s">"user 1 first name"</span><span class="o">,</span> <span class="s">"user 1 last name"</span><span class="o">,</span> <span class="o">...</span><span class="mi">10</span> <span class="n">other</span> <span class="n">fields</span><span class="o">...);</span>
 <span class="o">.</span>
 <span class="o">.</span>
 <span class="o">.</span>
@@ -226,11 +251,23 @@ window.onload = wrap_img;
 <span class="o">.</span>
 <span class="o">.</span>
 <span class="c1">// someAssertionThatUses user1 And user2</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>A better approach is to use a <a href="/test-data-factories">TestData class</a> which I have described in a separate blogpost</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user1</span> <span class="o">=</span> <span class="nc">UserTestData</span><span class="o">.</span><span class="na">Given</span><span class="o">.</span><span class="na">aUser</span><span class="o">(</span><span class="s">"user 1 first name"</span><span class="o">,</span> <span class="s">"user 1 last name"</span><span class="o">);</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="rouge-code"><pre><span class="nc">User</span> <span class="n">user1</span> <span class="o">=</span> <span class="nc">UserTestData</span><span class="o">.</span><span class="na">Given</span><span class="o">.</span><span class="na">aUser</span><span class="o">(</span><span class="s">"user 1 first name"</span><span class="o">,</span> <span class="s">"user 1 last name"</span><span class="o">);</span>
 <span class="o">.</span>
 <span class="o">.</span>
 <span class="o">.</span>
@@ -239,15 +276,42 @@ window.onload = wrap_img;
 <span class="o">.</span>
 <span class="o">.</span>
 <span class="c1">// someAssertionThatUses user1 And user2</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
-<p>In the above statement, having the factory <code class="language-plaintext highlighter-rouge">UserTestData.Given.aUser</code> encapsulates creation making the test a bit cleaner.</p>
+<p>In the above statement, having the factory <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>UserTestData.Given.aUser
+</pre></td>
+</tr></tbody></table></code> encapsulates creation making the test a bit cleaner.</p>
 
-<p>But still, at the end of the test in the assertions section, the coder will have to remember what the data in <code class="language-plaintext highlighter-rouge">user1</code> and <code class="language-plaintext highlighter-rouge">user2</code></p>
+<p>But still, at the end of the test in the assertions section, the coder will have to remember what the data in <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>user1
+</pre></td>
+</tr></tbody></table></code> and <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>user2
+</pre></td>
+</tr></tbody></table></code></p>
 
 <p>A better way is to have creative variable names here.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">tonyStark</span> <span class="o">=</span> <span class="nc">UserTestData</span><span class="o">.</span><span class="na">Given</span><span class="o">.</span><span class="na">aUser</span><span class="o">(</span><span class="s">"Tony"</span><span class="o">,</span> <span class="s">"Stark"</span><span class="o">);</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="rouge-code"><pre><span class="nc">User</span> <span class="n">tonyStark</span> <span class="o">=</span> <span class="nc">UserTestData</span><span class="o">.</span><span class="na">Given</span><span class="o">.</span><span class="na">aUser</span><span class="o">(</span><span class="s">"Tony"</span><span class="o">,</span> <span class="s">"Stark"</span><span class="o">);</span>
 <span class="o">.</span>
 <span class="o">.</span>
 <span class="o">.</span>
@@ -256,9 +320,15 @@ window.onload = wrap_img;
 <span class="o">.</span>
 <span class="o">.</span>
 <span class="c1">// someAssertionThatUses tonyStark And steveRogers</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
-<p>Now within assertion, the developer will know the exact data in both the <code class="language-plaintext highlighter-rouge">User</code> objects.</p>
+<p>Now within assertion, the developer will know the exact data in both the <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>User
+</pre></td>
+</tr></tbody></table></code> objects.</p>
 
 <p>This not only makes tests cleaner but also makes them funny and exciting to read.</p>
 

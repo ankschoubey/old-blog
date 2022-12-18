@@ -219,7 +219,18 @@ window.onload = wrap_img;
 
 <p>Source: <a href="https://leetcode.com/problems/same-tree/discuss/2790731/Java-Solution-better-than-100">Java Solution better than 100% - LeetCode Discuss</a></p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isSameTree</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">p</span><span class="o">,</span> <span class="nc">TreeNode</span> <span class="n">q</span><span class="o">)</span> <span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="rouge-code"><pre>    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isSameTree</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">p</span><span class="o">,</span> <span class="nc">TreeNode</span> <span class="n">q</span><span class="o">)</span> <span class="o">{</span>
         <span class="k">if</span><span class="o">(</span><span class="n">p</span><span class="o">==</span><span class="kc">null</span> <span class="o">&amp;&amp;</span> <span class="n">q</span><span class="o">==</span><span class="kc">null</span><span class="o">){</span>
             <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
         <span class="o">}</span>
@@ -228,19 +239,29 @@ window.onload = wrap_img;
         <span class="o">}</span>
         <span class="k">return</span> <span class="n">p</span><span class="o">.</span><span class="na">val</span> <span class="o">==</span> <span class="n">q</span><span class="o">.</span><span class="na">val</span> <span class="o">&amp;&amp;</span> <span class="n">isSameTree</span><span class="o">(</span><span class="n">p</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">q</span><span class="o">.</span><span class="na">left</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">isSameTree</span><span class="o">(</span><span class="n">p</span><span class="o">.</span><span class="na">right</span><span class="o">,</span> <span class="n">q</span><span class="o">.</span><span class="na">right</span><span class="o">);</span>
     <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>Code optimization: null checks can become a single block</p>
 
 <h1 id="optimized">Optimized</h1>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isSameTree</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">p</span><span class="o">,</span> <span class="nc">TreeNode</span> <span class="n">q</span><span class="o">)</span> <span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td>
+<td class="rouge-code"><pre>    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isSameTree</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">p</span><span class="o">,</span> <span class="nc">TreeNode</span> <span class="n">q</span><span class="o">)</span> <span class="o">{</span>
         <span class="k">if</span><span class="o">(</span><span class="n">p</span><span class="o">==</span><span class="kc">null</span> <span class="o">||</span> <span class="n">q</span><span class="o">==</span><span class="kc">null</span><span class="o">){</span>
             <span class="k">return</span> <span class="n">p</span><span class="o">==</span><span class="n">q</span><span class="o">;</span>
         <span class="o">}</span>
         <span class="k">return</span> <span class="n">p</span><span class="o">.</span><span class="na">val</span> <span class="o">==</span> <span class="n">q</span><span class="o">.</span><span class="na">val</span> <span class="o">&amp;&amp;</span> <span class="n">isSameTree</span><span class="o">(</span><span class="n">p</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">q</span><span class="o">.</span><span class="na">left</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">isSameTree</span><span class="o">(</span><span class="n">p</span><span class="o">.</span><span class="na">right</span><span class="o">,</span> <span class="n">q</span><span class="o">.</span><span class="na">right</span><span class="o">);</span>
     <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

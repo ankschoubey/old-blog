@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Tips for working with package.json | Ankush Choubey</title>
+<title>Tips for working with 1 package.json | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Tips for working with package.json">
+<meta property="og:title" content="Tips for working with 1 package.json">
 <meta property="og:locale" content="en_US">
 <meta name="description" content="Create and use scripts">
 <meta property="og:description" content="Create and use scripts">
@@ -19,7 +19,7 @@
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2021-08-11T00:00:00-05:00">
 <script type="application/ld+json">
-{"url":"https://www.ankushchoubey.com/package-json/","headline":"Tips for working with package.json","datePublished":"2021-08-11T00:00:00-05:00","dateModified":"2021-08-11T15:52:08-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/package-json/"},"description":"Create and use scripts","@context":"https://schema.org"}</script>
+{"url":"https://www.ankushchoubey.com/package-json/","headline":"Tips for working with 1 package.json","datePublished":"2021-08-11T00:00:00-05:00","dateModified":"2021-08-11T15:52:08-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/package-json/"},"description":"Create and use scripts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -204,14 +204,24 @@ window.onload = wrap_img;
     <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#create-and-use-scripts">Create and use scripts</a></li>
 <li class="toc-entry toc-h2"><a href="#npm-outdated">npm outdated</a></li>
-<li class="toc-entry toc-h2"><a href="#clear-cache-before-npm-install-on-every-environment">Clear cache before npm install on every environment</a></li>
+<li class="toc-entry toc-h2"><a href="#clear-cache-before-npm-install-on-every-environment">Clear cache before 1
+npm install
+ on every environment</a></li>
 <li class="toc-entry toc-h2"><a href="#use-custom-registry">Use custom registry</a></li>
 <li class="toc-entry toc-h2">
-<a href="#managing-node_modules">Managing node_modules</a>
+<a href="#managing-node_modules">Managing 1
+node_modules
+</a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#use-yarn-instead-of-npm">use yarn instead of NPM</a></li>
-<li class="toc-entry toc-h3"><a href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades">If you are not using yarn, zip node_modules before making dependency upgrades</a></li>
-<li class="toc-entry toc-h3"><a href="#skip-above-node_modules-tips-and-use-pnpm">Skip above node_modules tips and use pnpm</a></li>
+<li class="toc-entry toc-h3"><a href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades">If you are not using yarn, zip 1
+node_modules
+ before making dependency upgrades</a></li>
+<li class="toc-entry toc-h3"><a href="#skip-above-node_modules-tips-and-use-pnpm">Skip above 1
+node_modules
+ tips and use 1
+pnpm
+</a></li>
 </ul>
 </li>
 </ul>
@@ -220,12 +230,28 @@ window.onload = wrap_img;
 
 <p>There are some common names of scripts you can create like postinstall start, etc.</p>
 
-<p>For example: for Ivy enabled Angular versions, one can avoid repetitive recompilation by running <code class="language-plaintext highlighter-rouge">ngcc</code>. We can add a script in package.json to run ngcc after every <code class="language-plaintext highlighter-rouge">npm install</code></p>
+<p>For example: for Ivy enabled Angular versions, one can avoid repetitive recompilation by running <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>ngcc
+</pre></td>
+</tr></tbody></table></code>. We can add a script in package.json to run ngcc after every <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>npm install
+</pre></td>
+</tr></tbody></table></code></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    "scripts" : {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="rouge-code"><pre>    "scripts" : {
         "postinstall" : "ngcc"
     }
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>It’s better to manage npm related activities using package.json than manage it using something like Jenkins.</p>
 
@@ -234,14 +260,29 @@ window.onload = wrap_img;
 
 <p>This shows you all the packages which are not the latest.</p>
 
-<p><code class="language-plaintext highlighter-rouge">npm outdated</code> can be also used in your deployment pipeline. This can service as an important monitoring metric for maintainance of the application and ensuring longer life.</p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>npm outdated
+</pre></td>
+</tr></tbody></table></code> can be also used in your deployment pipeline. This can service as an important monitoring metric for maintainance of the application and ensuring longer life.</p>
 
 <h2 id="clear-cache-before-npm-install-on-every-environment">
-<a class="anchor" href="#clear-cache-before-npm-install-on-every-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clear cache before <code class="language-plaintext highlighter-rouge">npm install</code> on every environment</h2>
+<a class="anchor" href="#clear-cache-before-npm-install-on-every-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clear cache before <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>npm install
+</pre></td>
+</tr></tbody></table></code> on every environment</h2>
 
 <p>Cache can be cleared by using</p>
 
-<p><code class="language-plaintext highlighter-rouge">npm cache clear</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>npm cache clear
+</pre></td>
+</tr></tbody></table></code></p>
 
 <p>Clearing cache before installation on your dev/QA/prod env will ensure it will run the same on any environment.</p>
 
@@ -256,19 +297,44 @@ window.onload = wrap_img;
 
 <ul>
   <li>
-    <p>Using <code class="language-plaintext highlighter-rouge">--registry</code>
-<code class="language-plaintext highlighter-rouge">npm install --registry &lt;link-to-repository&gt;</code></p>
+    <p>Using <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>--registry
+</pre></td>
+</tr></tbody></table></code>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>npm install --registry &lt;link-to-repository&gt;
+</pre></td>
+</tr></tbody></table></code></p>
   </li>
   <li>
-    <p>Creating a project level <code class="language-plaintext highlighter-rouge">.npmrc</code> file</p>
+    <p>Creating a project level <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>.npmrc
+</pre></td>
+</tr></tbody></table></code> file</p>
   </li>
 </ul>
 
 <p>Inside the file write:
-<code class="language-plaintext highlighter-rouge">registry=&lt;link-to-repository&gt;</code></p>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>registry=&lt;link-to-repository&gt;
+</pre></td>
+</tr></tbody></table></code></p>
 
 <h2 id="managing-node_modules">
-<a class="anchor" href="#managing-node_modules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Managing <code class="language-plaintext highlighter-rouge">node_modules</code>
+<a class="anchor" href="#managing-node_modules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Managing <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>node_modules
+</pre></td>
+</tr></tbody></table></code>
 </h2>
 
 <h3 id="use-yarn-instead-of-npm">
@@ -282,21 +348,61 @@ window.onload = wrap_img;
 </ul>
 
 <h3 id="if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades">
-<a class="anchor" href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades" aria-hidden="true"><span class="octicon octicon-link"></span></a>If you are not using yarn, zip <code class="language-plaintext highlighter-rouge">node_modules</code> before making dependency upgrades</h3>
+<a class="anchor" href="#if-you-are-not-using-yarn-zip-node_modules-before-making-dependency-upgrades" aria-hidden="true"><span class="octicon octicon-link"></span></a>If you are not using yarn, zip <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>node_modules
+</pre></td>
+</tr></tbody></table></code> before making dependency upgrades</h3>
 
 <p>Often things don’t go smoothly when upgrading changes dependencies. Since, node_modules are ignore in git, the only way to revert or switch between branches with dependencies is a clean npm install.</p>
 
-<p>Yarn supports offline line mode which means nothing is downloaded if dependencies had been updated once. If you are not using yarn, zip <code class="language-plaintext highlighter-rouge">node_modules</code> before making dependency upgrades. You can unzip it easily if you need to revert.</p>
+<p>Yarn supports offline line mode which means nothing is downloaded if dependencies had been updated once. If you are not using yarn, zip <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>node_modules
+</pre></td>
+</tr></tbody></table></code> before making dependency upgrades. You can unzip it easily if you need to revert.</p>
 
 <h3 id="skip-above-node_modules-tips-and-use-pnpm">
-<a class="anchor" href="#skip-above-node_modules-tips-and-use-pnpm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Skip above <code class="language-plaintext highlighter-rouge">node_modules</code> tips and use <code class="language-plaintext highlighter-rouge">pnpm</code>
+<a class="anchor" href="#skip-above-node_modules-tips-and-use-pnpm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Skip above <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>node_modules
+</pre></td>
+</tr></tbody></table></code> tips and use <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>pnpm
+</pre></td>
+</tr></tbody></table></code>
 </h3>
 
-<p>Installations: <code class="language-plaintext highlighter-rouge">npm i -g pnpm</code></p>
+<p>Installations: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>npm i -g pnpm
+</pre></td>
+</tr></tbody></table></code></p>
 
-<p>Usage: <code class="language-plaintext highlighter-rouge">pnpm install</code></p>
+<p>Usage: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>pnpm install
+</pre></td>
+</tr></tbody></table></code></p>
 
-<p><code class="language-plaintext highlighter-rouge">pnpm</code> is a disk efficient package manager which stored all node_module packages in one place and used  sim links for installing within projects. If you have a same package in multiple project, <code class="language-plaintext highlighter-rouge">pnpm</code> will make sure to download and store it only once.</p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>pnpm
+</pre></td>
+</tr></tbody></table></code> is a disk efficient package manager which stored all node_module packages in one place and used  sim links for installing within projects. If you have a same package in multiple project, <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>pnpm
+</pre></td>
+</tr></tbody></table></code> will make sure to download and store it only once.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

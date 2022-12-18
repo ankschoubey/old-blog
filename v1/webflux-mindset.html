@@ -215,17 +215,29 @@ window.onload = wrap_img;
 
 <p>Instead of:</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">.</span><span class="na">flatmap</span><span class="o">(</span><span class="n">pojo</span><span class="o">-&gt;</span> <span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="rouge-code"><pre><span class="o">.</span><span class="na">flatmap</span><span class="o">(</span><span class="n">pojo</span><span class="o">-&gt;</span> <span class="o">{</span>
     <span class="k">throw</span> <span class="k">new</span> <span class="nf">RunTimeException</span><span class="o">();</span>
 <span class="o">})</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>use:</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">.</span><span class="na">flatMap</span><span class="o">(</span><span class="n">pojo</span><span class="o">-&gt;</span> <span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="rouge-code"><pre><span class="o">.</span><span class="na">flatMap</span><span class="o">(</span><span class="n">pojo</span><span class="o">-&gt;</span> <span class="o">{</span>
     <span class="k">return</span> <span class="nc">Mono</span><span class="o">.</span><span class="na">error</span><span class="o">(</span><span class="k">new</span> <span class="nc">RuntimeException</span><span class="o">());</span>
 <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <h2 id="use-monofromfuture-to-convert-from-completablefuture-to-mono">Use Mono.fromFuture to convert from CompletableFuture to Mono</h2>
 

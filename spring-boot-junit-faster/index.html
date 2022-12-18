@@ -229,62 +229,197 @@ window.onload = wrap_img;
 
 <p>Several runners come with Spring Boot.</p>
 
-<p><code class="language-plaintext highlighter-rouge">@SpringBootTest</code> is the most general of them. Primarily this is used in combination with <code class="language-plaintext highlighter-rouge">@DirtiesContent</code>, which will restart spring boot after every test class by default which isn’t ideal.</p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@SpringBootTest
+</pre></td>
+</tr></tbody></table></code> is the most general of them. Primarily this is used in combination with <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@DirtiesContent
+</pre></td>
+</tr></tbody></table></code>, which will restart spring boot after every test class by default which isn’t ideal.</p>
 
-<p>Using <code class="language-plaintext highlighter-rouge">@SpringBootTest</code> is Integration Tests. We don’t want every test to use this.</p>
+<p>Using <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@SpringBootTest
+</pre></td>
+</tr></tbody></table></code> is Integration Tests. We don’t want every test to use this.</p>
 
 <p>We want to load the minimum spring-boot infrastructure as possible and still ensure accurate tests. There are a few things that can help:</p>
 
 <ol>
-  <li>If tests are related to a DB. Use <code class="language-plaintext highlighter-rouge">@DataMongoTest</code> or equivalent JPA runner with <code class="language-plaintext highlighter-rouge">@Import</code> annotation.</li>
-  <li>If tests are related to Web/Controller. Use <code class="language-plaintext highlighter-rouge">@WebFluxTest</code> or equivalent Spring MVC runner. If you want to use embedded MongoDB with it, use <code class="language-plaintext highlighter-rouge">@AutoConfigureDataMongo</code>. Most other systems also have annotations starting with <code class="language-plaintext highlighter-rouge">@AutoConfigure{systemName}</code>
+  <li>If tests are related to a DB. Use <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@DataMongoTest
+</pre></td>
+</tr></tbody></table></code> or equivalent JPA runner with <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Import
+</pre></td>
+</tr></tbody></table></code> annotation.</li>
+  <li>If tests are related to Web/Controller. Use <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@WebFluxTest
+</pre></td>
+</tr></tbody></table></code> or equivalent Spring MVC runner. If you want to use embedded MongoDB with it, use <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@AutoConfigureDataMongo
+</pre></td>
+</tr></tbody></table></code>. Most other systems also have annotations starting with <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@AutoConfigure{systemName}
+</pre></td>
+</tr></tbody></table></code>
 </li>
   <li>
-<strong>Important</strong>: If tests require initializing a single bean. Use <code class="language-plaintext highlighter-rouge">@ExtendWith(SpringRunner.class)</code> with <code class="language-plaintext highlighter-rouge">@Import</code> to specify the bean to initialize.</li>
+<strong>Important</strong>: If tests require initializing a single bean. Use <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@ExtendWith(SpringRunner.class)
+</pre></td>
+</tr></tbody></table></code> with <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Import
+</pre></td>
+</tr></tbody></table></code> to specify the bean to initialize.</li>
   <li>The best case: Aim for Tests that are purely java based and do not involve spring boot, but it isn’t possible in every scenario.</li>
 </ol>
 
 <h1 id="speeding-up-springboottest-and-avoiding-dirtiescontext-saved-25-running-time">
 <strong>Speeding up @SpringBootTest and avoiding @DirtiesContext</strong> (Saved 25% running time)</h1>
 
-<p><code class="language-plaintext highlighter-rouge">@DirtiesContext</code> is an annotation that recreated the Spring Context after each test or each test class. To avoid using <code class="language-plaintext highlighter-rouge">@DirtiesContext</code>, ensure all your tests don’t depend on the same data. For this, you can wrap your data creation in a <a href="/test-data-factories">test data factory</a> and ensure the data produced is random.</p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@DirtiesContext
+</pre></td>
+</tr></tbody></table></code> is an annotation that recreated the Spring Context after each test or each test class. To avoid using <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@DirtiesContext
+</pre></td>
+</tr></tbody></table></code>, ensure all your tests don’t depend on the same data. For this, you can wrap your data creation in a <a href="/test-data-factories">test data factory</a> and ensure the data produced is random.</p>
 
-<p>As previously mentioned, one should avoid using <code class="language-plaintext highlighter-rouge">@SpringBootTest</code>, but if you can’t do without it, ensure you use <code class="language-plaintext highlighter-rouge">WebEnvironment.MOCK</code>  without <code class="language-plaintext highlighter-rouge">@DirtiesContext</code>.</p>
+<p>As previously mentioned, one should avoid using <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@SpringBootTest
+</pre></td>
+</tr></tbody></table></code>, but if you can’t do without it, ensure you use <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>WebEnvironment.MOCK
+</pre></td>
+</tr></tbody></table></code>  without <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@DirtiesContext
+</pre></td>
+</tr></tbody></table></code>.</p>
 
-<p><code class="language-plaintext highlighter-rouge">@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
+</pre></td>
+</tr></tbody></table></code></p>
 
-<p>Try to use it with <code class="language-plaintext highlighter-rouge">@Import</code> or <code class="language-plaintext highlighter-rouge">@ContextConfiguration</code> to limit the creation of beans.</p>
+<p>Try to use it with <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Import
+</pre></td>
+</tr></tbody></table></code> or <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@ContextConfiguration
+</pre></td>
+</tr></tbody></table></code> to limit the creation of beans.</p>
 
 <hr>
 
 <h1 id="run-tests-in-parallel-saved-37-running-time">
 <strong>Run tests in parallel</strong> (Saved 37% running time)</h1>
 
-<p>Create a <code class="language-plaintext highlighter-rouge">junit-platform.properties</code> file in <code class="language-plaintext highlighter-rouge">test/resource/junit-platform.properties</code> and add the following minimum. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>Create a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>junit-platform.properties
+</pre></td>
+</tr></tbody></table></code> file in <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>test/resource/junit-platform.properties
+</pre></td>
+</tr></tbody></table></code> and add the following minimum. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
-<p><code class="language-plaintext highlighter-rouge">junit.jupiter.execution.parallel.enabled = true</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>junit.jupiter.execution.parallel.enabled = true
+</pre></td>
+</tr></tbody></table></code></p>
 
 <p>Now you can either use one of these,</p>
 
 <ol>
-  <li>add the following to every class you want to run parallel. <code class="language-plaintext highlighter-rouge">@Execution(CONCURRENT)</code>
+  <li>add the following to every class you want to run parallel. <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Execution(CONCURRENT)
+</pre></td>
+</tr></tbody></table></code>
 </li>
-  <li>add more to <code class="language-plaintext highlighter-rouge">junit-platform.properties</code>
+  <li>add more to <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>junit-platform.properties
+</pre></td>
+</tr></tbody></table></code>
 </li>
 </ol>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>junit.jupiter.execution.parallel.mode.default = same_thread|concurrent
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="rouge-code"><pre>junit.jupiter.execution.parallel.mode.default = same_thread|concurrent
 junit.jupiter.execution.parallel.mode.classes.default =  same_thread|concurrent
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p><img src="/images/junit-execution-mode.svg" alt="">
 <sup id="fnref:1:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
-<p>Some tests can’t run parallelly, so I prefer manually adding  <code class="language-plaintext highlighter-rouge">@Execution(CONCURRENT)</code>.</p>
+<p>Some tests can’t run parallelly, so I prefer manually adding  <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Execution(CONCURRENT)
+</pre></td>
+</tr></tbody></table></code>.</p>
 
-<p>I found data tests with <code class="language-plaintext highlighter-rouge">@DataMongoTest</code> by asserting over different data.</p>
+<p>I found data tests with <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@DataMongoTest
+</pre></td>
+</tr></tbody></table></code> by asserting over different data.</p>
 
-<p>Another positive side effect of having <code class="language-plaintext highlighter-rouge">@Execution(CONCURRENT)</code> is that these tests run first. And since these tests are faster than the SAME_THREAD mode, they lead to instant feedback.</p>
+<p>Another positive side effect of having <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Execution(CONCURRENT)
+</pre></td>
+</tr></tbody></table></code> is that these tests run first. And since these tests are faster than the SAME_THREAD mode, they lead to instant feedback.</p>
 
 <hr>
 

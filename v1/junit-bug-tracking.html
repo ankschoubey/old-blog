@@ -214,7 +214,30 @@ window.onload = wrap_img;
 
 <p>This is the template I use to track bugs in tests.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nd">@Nested</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td>
+<td class="rouge-code"><pre>    <span class="nd">@Nested</span>
     <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"$BugCardId$: Bug Description"</span><span class="o">)</span>
     <span class="kd">class</span> <span class="nc">BugBugNameTest</span><span class="o">{</span>
 
@@ -235,7 +258,8 @@ window.onload = wrap_img;
                 <span class="o">{</span><span class="n">code</span> <span class="k">for</span> <span class="n">assertions</span><span class="o">}</span>
         <span class="o">}</span>
     <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>BugCardId - The Work Item created for the bug.
 Bug Description - A short one-liner which describes the bug. This should be as clear as possible and focus on the bug rather than something wage.</p>

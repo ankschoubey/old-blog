@@ -224,7 +224,26 @@ window.onload = wrap_img;
 
 <p>Suppose your systems represent different vehicles. Instead of having separate logic for each, you can represent the common logic in a ‘Vehicle’ class and have its behaviour implemented and modified by the subclasses.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">Vehicle</span><span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td>
+<td class="rouge-code"><pre><span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">Vehicle</span><span class="o">{</span>
 
     <span class="kt">void</span> <span class="nf">travelTo</span><span class="o">(</span><span class="nc">Point</span> <span class="n">destination</span><span class="o">){</span>
         <span class="c1">// common logic to move a vehicle that uses this.getHorn()</span>
@@ -241,7 +260,8 @@ window.onload = wrap_img;
     <span class="o">}</span>
 <span class="o">}</span>
 
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>The above code corresponds to the factory method design pattern.</p>
 
@@ -259,7 +279,24 @@ window.onload = wrap_img;
 
 <p>make a dummy concrete implementation within the test class.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td>
+<td class="rouge-code"><pre>
 <span class="c1">// this is a test file for the abstract class</span>
 
 <span class="c1">// 1. Make a Dummy implementation of the abstract class/interface within the test</span>
@@ -274,7 +311,8 @@ window.onload = wrap_img;
 <span class="nc">Vehicle</span> <span class="n">vehicle</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DummyVehicleImpl</span><span class="o">();</span>
 
 <span class="c1">// 3. Use the dummy implementation to assert the parent.</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 <p>The steps to test composition is also similar.</p>
 
 <h2 id="testing-children">Testing children</h2>
@@ -283,12 +321,20 @@ window.onload = wrap_img;
 
 <p>Each child will have a separate test class that tests its method, excluding the parent’s methods.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">TeslaTests</span><span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="rouge-code"><pre><span class="kd">class</span> <span class="nc">TeslaTests</span><span class="o">{</span>
     <span class="nc">Tesla</span> <span class="n">tesla</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Tesla</span><span class="o">();</span>
 
     <span class="c1">// code which tests methods of tesla class and not the parent.</span>
 <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <hr>
 

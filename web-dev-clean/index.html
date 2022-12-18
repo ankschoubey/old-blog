@@ -211,7 +211,22 @@ window.onload = wrap_img;
 <p>If less modification is required, your code will last longer.</p>
 
 <h2 id="make-very-small-modular-pieces">Make very small modular pieces.</h2>
-<p>In Angular/React, create components even for small things like <code class="language-plaintext highlighter-rouge">img</code> or <code class="language-plaintext highlighter-rouge">video</code> tag. You’ll find that there are certain attributes you assign to every <code class="language-plaintext highlighter-rouge">img</code> tag that can be taken care of from one place</p>
+<p>In Angular/React, create components even for small things like <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>img
+</pre></td>
+</tr></tbody></table></code> or <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>video
+</pre></td>
+</tr></tbody></table></code> tag. You’ll find that there are certain attributes you assign to every <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>img
+</pre></td>
+</tr></tbody></table></code> tag that can be taken care of from one place</p>
 
 <p>Separate app logic from business logic. You should be able to copy-paste these modules into another code base and use it without changes.</p>
 
@@ -227,17 +242,32 @@ window.onload = wrap_img;
 
 <p>CSS gets messy fast. By keeping your components small. You are halfway there to a good CSS.</p>
 
-<p>Also make good use of <code class="language-plaintext highlighter-rouge">display: flex</code>. It gets most of the job done.</p>
+<p>Also make good use of <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>display: flex
+</pre></td>
+</tr></tbody></table></code>. It gets most of the job done.</p>
 
 <h2 id="html">HTML</h2>
 
 <p>The best way to keep HTML clutter-free is to not write javascript/typescript logic in it</p>
 
-<p>Angular provides a <code class="language-plaintext highlighter-rouge">ts</code> file, use it for everything. Even for ngStyle or ngClass.</p>
+<p>Angular provides a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>ts
+</pre></td>
+</tr></tbody></table></code> file, use it for everything. Even for ngStyle or ngClass.</p>
 
 <p>This will keep your HTML very clean</p>
 
-<p>Create a <code class="language-plaintext highlighter-rouge">get</code> method to keep things clean.</p>
+<p>Create a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>get
+</pre></td>
+</tr></tbody></table></code> method to keep things clean.</p>
 
 <h2 id="have-very-few-utility-classes">Have very few utility classes.</h2>
 

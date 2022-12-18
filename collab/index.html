@@ -285,8 +285,12 @@ window.onload = wrap_img;
 
 <p>Type:</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">!</span>nvidia-smi
-</code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre><span class="o">!</span>nvidia-smi
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 <p>If you have GPU mounted you will get this reply.</p>
 
 <p><img src="/images/2019-08-18-my-top-10-un-popular-google-collab-tips/6.png" alt=""></p>
@@ -315,7 +319,18 @@ window.onload = wrap_img;
 
 <p>This is a perfect candidate to apply with Tip #4.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>**`import** smtpl`ib
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td>
+<td class="rouge-code"><pre>**`import** smtpl`ib
 
 `server **=** smtplib**.**SMTP('smtp.gmail.com', 587)
 server**.**starttls()
@@ -324,7 +339,8 @@ server**.**login("sender_gmail_here@gmail.com", "your_password_here")`
 `msg **=** "COLAB WORK FINISH ALERT!"
 server**.**sendmail("sender_gmail_here@gmail.com", "receiver_gmail_here@gmail.com", msg)
 server**.**quit()`
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>Source: <a href="https://rohitmidha23.github.io/Colab-Tricks/?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com">Colab Tricks</a> by <em>Rohit Midha</em></p>
 
@@ -334,23 +350,43 @@ server**.**quit()`
 <p>This one is more of an ML/DL DevOps tips which can work anywhere, even in other Jupyter notebook envs.
 [**Hyperdash | Machine Learning Monitoring**](https://hyperdash.io/)</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>hyperdash run <span class="nt">-n</span> <span class="s2">"MNIST"</span> python mnist.py
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td>
+<td class="rouge-code"><pre><span class="nv">$ </span>hyperdash run <span class="nt">-n</span> <span class="s2">"MNIST"</span> python mnist.py
 Iter 1280, <span class="nv">Loss</span><span class="o">=</span> 1.576423, <span class="nv">Acc</span><span class="o">=</span> 0.51562
 Iter 2560, <span class="nv">Loss</span><span class="o">=</span> 1.450179, <span class="nv">Acc</span><span class="o">=</span> 0.53906
 Iter 3840, <span class="nv">Loss</span><span class="o">=</span> 1.160066, <span class="nv">Acc</span><span class="o">=</span> 0.64844
 Iter 5120, <span class="nv">Loss</span><span class="o">=</span> 0.898589, <span class="nv">Acc</span><span class="o">=</span> 0.73438
 Iter 6400, <span class="nv">Loss</span><span class="o">=</span> 0.685712, <span class="nv">Acc</span><span class="o">=</span> 0.75781
 Iter 7680, <span class="nv">Loss</span><span class="o">=</span> 1.085666, <span class="nv">Acc</span><span class="o">=</span> 0.64844
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>hyperdash run <span class="nt">-n</span> <span class="s2">"MNIST RNN"</span> python mnist.py
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td>
+<td class="rouge-code"><pre><span class="nv">$ </span>hyperdash run <span class="nt">-n</span> <span class="s2">"MNIST RNN"</span> python mnist.py
 Iter 1280, <span class="nv">Loss</span><span class="o">=</span> 1.576423, <span class="nv">Accuracy</span><span class="o">=</span> 0.51562
 Iter 2560, <span class="nv">Loss</span><span class="o">=</span> 1.450179, <span class="nv">Accuracy</span><span class="o">=</span> 0.53906
 Iter 3840, <span class="nv">Loss</span><span class="o">=</span> 1.160066, <span class="nv">Accuracy</span><span class="o">=</span> 0.64844
 Iter 5120, <span class="nv">Loss</span><span class="o">=</span> 0.898589, <span class="nv">Accuracy</span><span class="o">=</span> 0.73438
 Iter 6400, <span class="nv">Loss</span><span class="o">=</span> 0.685712, <span class="nv">Accuracy</span><span class="o">=</span> 0.75781
 Iter 7680, <span class="nv">Loss</span><span class="o">=</span> 1.085666, <span class="nv">Accuracy</span><span class="o">=</span> 0.64844
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>HyperDash allows you to monitor your model training or anything that is printed via your phone. It supports both iOS and Android and is super simple to get setup.</p>
 
@@ -368,21 +404,34 @@ Iter 7680, <span class="nv">Loss</span><span class="o">=</span> 1.085666, <span 
 
 <p>I used GitHub login so I added -github in the end</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>hyperdash <span class="o">&amp;&amp;</span> hyperdash login — github
-</code></pre></div></div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>pip <span class="nb">install </span>hyperdash <span class="o">&amp;&amp;</span> hyperdash login — github
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <ol>
   <li>Import module</li>
 </ol>
 
-<p><code class="language-plaintext highlighter-rouge">from hyperdash import monitor_cell</code></p>
+<p><code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>from hyperdash import monitor_cell
+</pre></td>
+</tr></tbody></table></code></p>
 
 <ol>
   <li>Use this magic in the cell you want to monitor. Which for most will be the training loop.</li>
 </ol>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">%%</span><span class="n">monitor_cell</span> <span class="err">“</span><span class="n">model</span><span class="o">/</span><span class="n">experiment</span> <span class="n">name</span><span class="err">”</span>
-</code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre><span class="o">%%</span><span class="n">monitor_cell</span> <span class="err">“</span><span class="n">model</span><span class="o">/</span><span class="n">experiment</span> <span class="n">name</span><span class="err">”</span>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>In the app, you can see something like this. While I have included this as a tip, it is not something I have used. Because I have never trained for a very long duration.</p>
 

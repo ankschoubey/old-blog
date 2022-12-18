@@ -11,15 +11,15 @@
 <meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="Blind 75 - Contains Duplicate">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Create a set and put items in one by one while checking if num is already there.">
-<meta property="og:description" content="Create a set and put items in one by one while checking if num is already there.">
+<meta name="description" content="Create a set and put items in one by one while checking if 1 num is already there.">
+<meta property="og:description" content="Create a set and put items in one by one while checking if 1 num is already there.">
 <link rel="canonical" href="https://www.ankushchoubey.com/v1/contains-duplicate">
 <meta property="og:url" content="https://www.ankushchoubey.com/v1/contains-duplicate">
 <meta property="og:site_name" content="Ankush Choubey">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-10-30T00:00:00-05:00">
 <script type="application/ld+json">
-{"url":"https://www.ankushchoubey.com/v1/contains-duplicate","headline":"Blind 75 - Contains Duplicate","datePublished":"2022-10-30T00:00:00-05:00","dateModified":"2022-10-30T15:52:08-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/contains-duplicate"},"description":"Create a set and put items in one by one while checking if num is already there.","@context":"https://schema.org"}</script>
+{"url":"https://www.ankushchoubey.com/v1/contains-duplicate","headline":"Blind 75 - Contains Duplicate","datePublished":"2022-10-30T00:00:00-05:00","dateModified":"2022-10-30T15:52:08-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/contains-duplicate"},"description":"Create a set and put items in one by one while checking if 1 num is already there.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -227,11 +227,30 @@ window.onload = wrap_img;
 
 <h3 id="on-time-complexity-on-space-complexity">O(n) time complexity. O(n) space complexity</h3>
 
-<p>Create a set and put items in one by one while checking if <code class="language-plaintext highlighter-rouge">num</code> is already there.</p>
+<p>Create a set and put items in one by one while checking if <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>num
+</pre></td>
+</tr></tbody></table></code> is already there.</p>
 
 <h3 id="code-if-any">Code, if any</h3>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td>
+<td class="rouge-code"><pre><span class="kd">class</span> <span class="nc">Solution</span> <span class="o">{</span>
     <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">containsDuplicate</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">nums</span><span class="o">)</span> <span class="o">{</span>
         <span class="nc">Set</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="n">visited</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashSet</span><span class="o">&lt;&gt;();</span>
         <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="nl">num:</span> <span class="n">nums</span><span class="o">){</span>
@@ -243,7 +262,8 @@ window.onload = wrap_img;
         <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
     <span class="o">}</span>
 <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

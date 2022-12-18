@@ -226,10 +226,20 @@ For example:</p>
 
 <ul>
   <li>WilfFly, which is an old JBOSS server thingy (I’m gen Z), can generate data in Prometheus format.</li>
-  <li>Spring Boot Actuators also have an endpoint <code class="language-plaintext highlighter-rouge">GET /actuator/prometheus</code> that can be used for getting the same data.</li>
+  <li>Spring Boot Actuators also have an endpoint <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>GET /actuator/prometheus
+</pre></td>
+</tr></tbody></table></code> that can be used for getting the same data.</li>
 </ul>
 
-<p>Every application exposing prometheus data requires a <code class="language-plaintext highlighter-rouge">prometheus.yml</code> file which describes what’s the fetch interval and other details.</p>
+<p>Every application exposing prometheus data requires a <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>prometheus.yml
+</pre></td>
+</tr></tbody></table></code> file which describes what’s the fetch interval and other details.</p>
 
 <h2 id="how-do-you-add-custom-metrics-in-prometheus">How do you add custom metrics in Prometheus?</h2>
 

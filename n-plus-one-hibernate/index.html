@@ -209,14 +209,30 @@ window.onload = wrap_img;
 
 <p>If you are working with JPA entities and you have joins. Then you might have faced this problem.</p>
 
-<p>If you have something like <code class="language-plaintext highlighter-rouge">@OneToMany</code> mapping between a parent and a child and fetch parent. All the child entities will be fetch one by one is a kind of a loop.</p>
+<p>If you have something like <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@OneToMany
+</pre></td>
+</tr></tbody></table></code> mapping between a parent and a child and fetch parent. All the child entities will be fetch one by one is a kind of a loop.</p>
 
-<p>You can check this behavior by using the following <code class="language-plaintext highlighter-rouge">application.properties</code> and then checking logs.</p>
+<p>You can check this behavior by using the following <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>application.properties
+</pre></td>
+</tr></tbody></table></code> and then checking logs.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spring.jpa.properties.hibernate.show_sql=true
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="rouge-code"><pre>spring.jpa.properties.hibernate.show_sql=true
 spring.jpa.properties.hibernate.use_sql_comments=true
 spring.jpa.properties.hibernate.format_sql=true
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>So if you have 2 records for parent and 4 corresponding child records.</p>
 
@@ -283,9 +299,14 @@ spring.jpa.properties.hibernate.format_sql=true
 
 <h3 id="fetchmodejoin">FetchMode.JOIN</h3>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nd">@Fetch</span><span class="o">(</span><span class="nc">FetchMode</span><span class="o">.</span><span class="na">JOIN</span><span class="o">)</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="rouge-code"><pre>    <span class="nd">@Fetch</span><span class="o">(</span><span class="nc">FetchMode</span><span class="o">.</span><span class="na">JOIN</span><span class="o">)</span>
     <span class="nc">List</span><span class="o">&lt;</span><span class="nc">EntityType</span><span class="o">&gt;</span> <span class="n">entityName</span><span class="o">;</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>One a single query will be run.</p>
 
@@ -293,9 +314,14 @@ spring.jpa.properties.hibernate.format_sql=true
 
 <h3 id="fetchmodesubselect">FetchMode.SUBSELECT</h3>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nd">@Fetch</span><span class="o">(</span><span class="nc">FetchMode</span><span class="o">.</span><span class="na">SUBSELECT</span><span class="o">)</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="rouge-code"><pre>    <span class="nd">@Fetch</span><span class="o">(</span><span class="nc">FetchMode</span><span class="o">.</span><span class="na">SUBSELECT</span><span class="o">)</span>
     <span class="nc">List</span><span class="o">&lt;</span><span class="nc">EntityType</span><span class="o">&gt;</span> <span class="n">entityName</span><span class="o">;</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>If used a minimum of 2 queries will be run.</p>
 

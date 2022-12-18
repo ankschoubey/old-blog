@@ -212,7 +212,20 @@ Fluent assertions are assertions chained together. The structure is such that it
 
 <p>In the below example, we are checking if a Map contains specific keys, and if date is correct.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Map</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;</span> <span class="n">jsonMessage</span> <span class="o">=</span> <span class="o">{</span><span class="n">someServiceCallReturningAJson</span><span class="o">};</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td>
+<td class="rouge-code"><pre><span class="nc">Map</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;</span> <span class="n">jsonMessage</span> <span class="o">=</span> <span class="o">{</span><span class="n">someServiceCallReturningAJson</span><span class="o">};</span>
 
 <span class="c1">// JUnit Assertions: Not Fluent</span>
 <span class="nc">Set</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="n">expectedKeys</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashSet</span><span class="o">&lt;&gt;(</span><span class="nc">Arrays</span><span class="o">.</span><span class="na">asList</span><span class="o">(</span><span class="s">"date"</span><span class="o">,</span> <span class="s">"userId"</span><span class="o">,</span> <span class="s">"randomField"</span><span class="o">));</span>
@@ -223,7 +236,8 @@ Fluent assertions are assertions chained together. The structure is such that it
 <span class="n">assertThat</span><span class="o">(</span><span class="n">jsonMessage</span><span class="o">)</span>
     <span class="o">.</span><span class="na">containsKeys</span><span class="o">(</span><span class="s">"date"</span><span class="o">,</span> <span class="s">"userId"</span><span class="o">,</span> <span class="s">"randomField"</span><span class="o">)</span>
     <span class="o">.</span><span class="na">containsEntry</span><span class="o">(</span><span class="s">"date"</span><span class="o">,</span> <span class="s">"2001-07-04"</span><span class="o">);</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>The JUnit assertion is bulkier and will continue to get much bulkier with more assertion.</p>
 

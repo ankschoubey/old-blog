@@ -230,7 +230,22 @@ window.onload = wrap_img;
 
 <p>Architecture tests help enforce rules that are otherwise missed by linters. Linters provide some coding standards but usually aren’t sophisticated enough for the capabilities architecture testing can provide.</p>
 
-<p>For example, if you have a java <code class="language-plaintext highlighter-rouge">@Entity</code> and want to ensure all of it has certain <code class="language-plaintext highlighter-rouge">javax</code> validation whenever someone creates a new <code class="language-plaintext highlighter-rouge">@Entity</code>.</p>
+<p>For example, if you have a java <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Entity
+</pre></td>
+</tr></tbody></table></code> and want to ensure all of it has certain <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>javax
+</pre></td>
+</tr></tbody></table></code> validation whenever someone creates a new <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Entity
+</pre></td>
+</tr></tbody></table></code>.</p>
 
 <h1 id="libraries-for-architecture-testing">Libraries for Architecture Testing</h1>
 
@@ -248,12 +263,20 @@ window.onload = wrap_img;
 
 <p>Example: If you want to ensure all String fields for Request Objects have @Size annotation, you could write it with ArchUnit.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">fields</span><span class="o">()</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td>
+<td class="rouge-code"><pre>    <span class="n">fields</span><span class="o">()</span>
     <span class="o">.</span><span class="na">that</span><span class="o">()</span>
     <span class="o">.</span><span class="na">haveRawType</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
     <span class="o">.</span><span class="na">should</span><span class="o">()</span>
     <span class="o">.</span><span class="na">beAnnotatedWith</span><span class="o">(</span><span class="nc">Size</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>Since I started using ArchUnit, the quality of code has improved by a huge margin.</p>
 
@@ -263,7 +286,12 @@ window.onload = wrap_img;
 
 <p>I try to implement this the same way.</p>
 
-<p>For example, I want all tests to be really fast. <a href="spring-boot-junit-faster/">I had written an article about it</a>. And one of the ways is that it requires avoiding <code class="language-plaintext highlighter-rouge">@DirtiesContext</code> in Spring Boot. And forcing the developer to choose between parallel execution and non-parallel execution.</p>
+<p>For example, I want all tests to be really fast. <a href="spring-boot-junit-faster/">I had written an article about it</a>. And one of the ways is that it requires avoiding <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@DirtiesContext
+</pre></td>
+</tr></tbody></table></code> in Spring Boot. And forcing the developer to choose between parallel execution and non-parallel execution.</p>
 
 <p>I can share it with the team and hope everyone follows it.</p>
 

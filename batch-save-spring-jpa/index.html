@@ -207,52 +207,107 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <p>By default in Spring Data JPA, when you save a list of entities a for…loop runs storing each record one at a time.</p>
 
-<p>This would take a lot of time to execute. This is because the value of <code class="language-plaintext highlighter-rouge">@Id</code> often needs to be fetched from database and set to the <code class="language-plaintext highlighter-rouge">@Entity</code> before save. Therefore multiple transactions need to me made.</p>
+<p>This would take a lot of time to execute. This is because the value of <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Id
+</pre></td>
+</tr></tbody></table></code> often needs to be fetched from database and set to the <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Entity
+</pre></td>
+</tr></tbody></table></code> before save. Therefore multiple transactions need to me made.</p>
 
-<p>You can check this behavior by using the following <code class="language-plaintext highlighter-rouge">application.properties</code> and then checking logs.</p>
+<p>You can check this behavior by using the following <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>application.properties
+</pre></td>
+</tr></tbody></table></code> and then checking logs.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spring.jpa.properties.hibernate.show_sql=true
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="rouge-code"><pre>spring.jpa.properties.hibernate.show_sql=true
 spring.jpa.properties.hibernate.use_sql_comments=true
 spring.jpa.properties.hibernate.format_sql=true
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <h2 id="speeding-up-writes">Speeding Up Writes</h2>
 
 <p>Spring Data JPA allows for storing multiple records at once but multiple things have to be set first.</p>
 
 <h3 id="1-switch-to-sequence-generator-for-primary-key">1. Switch to Sequence Generator for primary key</h3>
-<p>Batch writes does not work with <code class="language-plaintext highlighter-rouge">GenerationType.IDENTITY</code>.</p>
+<p>Batch writes does not work with <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>GenerationType.IDENTITY
+</pre></td>
+</tr></tbody></table></code>.</p>
 
 <p>Make using sequence_generator</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nd">@Id</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td>
+<td class="rouge-code"><pre>  <span class="nd">@Id</span>
   <span class="nd">@SequenceGenerator</span><span class="o">(</span><span class="n">name</span> <span class="o">=</span> <span class="s">"seqName"</span><span class="o">,</span> <span class="n">sequenceName</span> <span class="o">=</span> <span class="s">"seqName"</span><span class="o">,</span> <span class="n">allocationSize</span> <span class="o">=</span> <span class="o">{</span><span class="n">allocationSize</span><span class="o">})</span>
   <span class="kd">private</span> <span class="nc">Long</span> <span class="n">id</span><span class="o">;</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>The {allocationSize} is how many writes you wish to do at once in case of a large list of entities.</p>
 
 <h4 id="2-create-the-sequence-in-your-database">2. Create the sequence in your database</h4>
 
-<p>Make sure that increment size is equal to {allocatedSize} used in <code class="language-plaintext highlighter-rouge">@GenerateValue</code></p>
+<p>Make sure that increment size is equal to {allocatedSize} used in <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@GenerateValue
+</pre></td>
+</tr></tbody></table></code></p>
 
 <h4 id="3-add-jpa-property">3. Add JPA Property</h4>
 
 <p>Add the following property</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spring.jpa.properties.hibernate.jdbc.batch_size={allocatedSize}
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>spring.jpa.properties.hibernate.jdbc.batch_size={allocatedSize}
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <h4 id="within-code">Within Code</h4>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">repository</span><span class="o">.</span><span class="na">saveAll</span><span class="o">(</span><span class="n">listOfEntities</span><span class="o">);</span>
-</code></pre></div></div>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>    <span class="n">repository</span><span class="o">.</span><span class="na">saveAll</span><span class="o">(</span><span class="n">listOfEntities</span><span class="o">);</span>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <h2 id="how-things-work-under-the-hood">How things work under the hood?</h2>
 
 <p>Once a list of entities need to be saved, JPA will make request to database for getting the next value of sequence generator.</p>
 
-<p>This value will be set to the <code class="language-plaintext highlighter-rouge">@Id</code> of the first <code class="language-plaintext highlighter-rouge">@Entity</code></p>
+<p>This value will be set to the <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Id
+</pre></td>
+</tr></tbody></table></code> of the first <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Entity
+</pre></td>
+</tr></tbody></table></code></p>
 
 <p>Since we already have already provided {allocationSize}, JPA knows can automatically fill in values exist between the current value of sequence generator and the next.</p>
 
@@ -270,13 +325,33 @@ spring.jpa.properties.hibernate.format_sql=true
 
 <p>JPA knows that the next increment is at 1000 so, it can fill in values between 1 and 1000.</p>
 
-<p>JPA sets 1 to 500 to <code class="language-plaintext highlighter-rouge">@Id</code> field to entities. All the entities are together sent to the DB as a single transaction.</p>
+<p>JPA sets 1 to 500 to <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Id
+</pre></td>
+</tr></tbody></table></code> field to entities. All the entities are together sent to the DB as a single transaction.</p>
 
 <p>Suppose we get around want to save another 100 new entities.</p>
 
-<p>JPA knows the last <code class="language-plaintext highlighter-rouge">@Id</code> it set was 500 and it was 499 more <code class="language-plaintext highlighter-rouge">@Id</code> values it can use.</p>
+<p>JPA knows the last <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Id
+</pre></td>
+</tr></tbody></table></code> it set was 500 and it was 499 more <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Id
+</pre></td>
+</tr></tbody></table></code> values it can use.</p>
 
-<p>So it for the new 100 entities, it set <code class="language-plaintext highlighter-rouge">@Id</code> values between 500-600 without asking Database for sequence value.</p>
+<p>So it for the new 100 entities, it set <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Id
+</pre></td>
+</tr></tbody></table></code> values between 500-600 without asking Database for sequence value.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

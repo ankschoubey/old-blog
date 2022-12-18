@@ -231,9 +231,41 @@ window.onload = wrap_img;
 
 <p>This particular post will explain where immutable objects are necessary.</p>
 
-<p>Suppose you have 2 Rest Endpoints. <code class="language-plaintext highlighter-rouge">/someEndpoint</code> and <code class="language-plaintext highlighter-rouge">/anotherEndpoint</code> both set a particular value to the variable <code class="language-plaintext highlighter-rouge">sharedMemory</code>.</p>
+<p>Suppose you have 2 Rest Endpoints. <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/someEndpoint
+</pre></td>
+</tr></tbody></table></code> and <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/anotherEndpoint
+</pre></td>
+</tr></tbody></table></code> both set a particular value to the variable <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>sharedMemory
+</pre></td>
+</tr></tbody></table></code>.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">private</span> <span class="nc">String</span> <span class="n">sharedMemory</span><span class="o">;</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td>
+<td class="rouge-code"><pre><span class="kd">private</span> <span class="nc">String</span> <span class="n">sharedMemory</span><span class="o">;</span>
 
 <span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/someEndpoint"</span><span class="o">)</span>
 <span class="kt">void</span> <span class="nf">postSomething</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="nc">String</span> <span class="n">value</span><span class="o">){</span>
@@ -248,7 +280,8 @@ window.onload = wrap_img;
     <span class="o">....</span>
    <span class="c1">//some code that uses sharedMemory</span>
 <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>It can happen that this shared memory is not inconsistent.</p>
 
@@ -260,11 +293,21 @@ window.onload = wrap_img;
 
 <p>The creation of immutable objects is relatively simple.</p>
 <ol>
-  <li>Make sure all instance variables are <code class="language-plaintext highlighter-rouge">private final</code>.</li>
+  <li>Make sure all instance variables are <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>private final
+</pre></td>
+</tr></tbody></table></code>.</li>
   <li>make sure all interactions with the method happens only via the constructor or the public method.
 No method should modify the contents of the private final method.</li>
   <li>Make sure all instance variables are immutable.</li>
-  <li>Make sure the class is <code class="language-plaintext highlighter-rouge">final</code> so that there is no inheriting and subclasses can’t override something.</li>
+  <li>Make sure the class is <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>final
+</pre></td>
+</tr></tbody></table></code> so that there is no inheriting and subclasses can’t override something.</li>
 </ol>
 
 <p>There are some more rules, but these are the minimum requirements. The following section will explain how you automate the checking of immutable classes would also check for more conditions.</p>
@@ -293,8 +336,12 @@ No method should modify the contents of the private final method.</li>
 
 <p>Mutability Detector has many more conditions to detect mutability.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    assertImmutable(MyClass.class); 
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>    assertImmutable(MyClass.class); 
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p><a href="https://github.com/MutabilityDetector/MutabilityDetector">Github Source</a></p>
 
@@ -302,10 +349,19 @@ No method should modify the contents of the private final method.</li>
 
 <p>ArchUnit tests allow for writing architecture-level tests. We can write a test such as asserting that a class is immutable if a class is annotated with @component.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-</code></pre></div></div>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
-<p>In practice, I couldn’t fully make <code class="language-plaintext highlighter-rouge">assertImmutable</code> work with abstract classes.</p>
+<p>In practice, I couldn’t fully make <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>assertImmutable
+</pre></td>
+</tr></tbody></table></code> work with abstract classes.</p>
 
 <h1 id="resources">
 <a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Resources</strong>

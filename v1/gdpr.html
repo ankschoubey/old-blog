@@ -210,17 +210,62 @@ window.onload = wrap_img;
 
 <p>But now I think it’s way too easy to implement.</p>
 
-<p>The approach described below can work at the enterprise level for enterprise apps. Just replace <code class="language-plaintext highlighter-rouge">user</code> with <code class="language-plaintext highlighter-rouge">enterprise</code> and <code class="language-plaintext highlighter-rouge">{userId}</code> with <code class="language-plaintext highlighter-rouge">{enterpriseId}</code></p>
+<p>The approach described below can work at the enterprise level for enterprise apps. Just replace <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>user
+</pre></td>
+</tr></tbody></table></code> with <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>enterprise
+</pre></td>
+</tr></tbody></table></code> and <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>{userId}
+</pre></td>
+</tr></tbody></table></code> with <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>{enterpriseId}
+</pre></td>
+</tr></tbody></table></code></p>
 
 <p><img src="/images/v1-gdpr.png" alt="GDPR Implementation"></p>
 
 <p>Essentially, we can it in 4 steps.</p>
 
 <ol>
-  <li>Every data record should have <code class="language-plaintext highlighter-rouge">{userId}</code> indexed. Even messaging services like Kafka with a database backup should be indexed. Even storage services like S3 be segregated as <code class="language-plaintext highlighter-rouge">{userId}</code>.</li>
-  <li>Have all microservices have a DELETE <code class="language-plaintext highlighter-rouge">/gdpr/user/{userId}</code> endpoint: This endpoint hard deletes all user’s data</li>
-  <li>Have all microservices have a GET <code class="language-plaintext highlighter-rouge">/gdpr/user/{userId}</code> endpoint: This endpoint returns all data from a user</li>
-  <li>Have an orchestrator GDPR microservice: This will call all other microservices for <code class="language-plaintext highlighter-rouge">/gdpr/user/{userId}</code>.</li>
+  <li>Every data record should have <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>{userId}
+</pre></td>
+</tr></tbody></table></code> indexed. Even messaging services like Kafka with a database backup should be indexed. Even storage services like S3 be segregated as <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>{userId}
+</pre></td>
+</tr></tbody></table></code>.</li>
+  <li>Have all microservices have a DELETE <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/gdpr/user/{userId}
+</pre></td>
+</tr></tbody></table></code> endpoint: This endpoint hard deletes all user’s data</li>
+  <li>Have all microservices have a GET <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/gdpr/user/{userId}
+</pre></td>
+</tr></tbody></table></code> endpoint: This endpoint returns all data from a user</li>
+  <li>Have an orchestrator GDPR microservice: This will call all other microservices for <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>/gdpr/user/{userId}
+</pre></td>
+</tr></tbody></table></code>.</li>
 </ol>
 
 <p>In case of getting data, it will collect all the data, upload it at some location for a certain number of days and notify the user about it.</p>

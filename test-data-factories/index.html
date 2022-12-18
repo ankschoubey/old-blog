@@ -226,9 +226,27 @@ window.onload = wrap_img;
 
 <p>For example:</p>
 
-<p>You have a data-class <code class="language-plaintext highlighter-rouge">SampleDataClass</code></p>
+<p>You have a data-class <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>SampleDataClass
+</pre></td>
+</tr></tbody></table></code></p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Data</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td>
+<td class="rouge-code"><pre><span class="nd">@Data</span>
 <span class="nd">@RequiredArgsConstructor</span>
 <span class="kd">class</span> <span class="nc">SampleDataClass</span><span class="o">{</span>
     <span class="nd">@NonNull</span>
@@ -239,11 +257,31 @@ window.onload = wrap_img;
 
     <span class="o">...</span>
 <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>In tests you initialize each field manually,</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Test</span> <span class="c1">//TEST 1</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td>
+<td class="rouge-code"><pre><span class="nd">@Test</span> <span class="c1">//TEST 1</span>
 <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"SHOULD {someAssertion}"</span><span class="o">)</span> 
 <span class="kt">void</span> <span class="n">should</span><span class="o">{</span><span class="nc">SomeAssertion</span><span class="o">}(){</span>
     <span class="nc">SampleDataClass</span> <span class="n">sampleData</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">SampleDataClass</span><span class="o">(</span><span class="s">"name"</span><span class="o">,</span> <span class="s">"field2"</span><span class="o">,</span> <span class="s">"field3"</span><span class="o">,</span> <span class="o">...);</span>
@@ -260,7 +298,8 @@ window.onload = wrap_img;
 <span class="o">}</span>
 
 <span class="c1">//... more tests which declare data object</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>Here if you have to modify of add a new field, you’ll have a hard time.</p>
 
@@ -269,7 +308,20 @@ window.onload = wrap_img;
 
 <p>Instead, you can create a Test Data Factory. Something like</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">SampleDataTestFactory</span><span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td>
+<td class="rouge-code"><pre><span class="kd">class</span> <span class="nc">SampleDataTestFactory</span><span class="o">{</span>
     <span class="kd">class</span> <span class="nc">Given</span><span class="o">{</span>
         <span class="kd">public</span> <span class="kd">static</span> <span class="nf">aSampleDataClass</span><span class="o">(){</span> <span class="c1">// Note here name doesn't matter</span>
             <span class="k">return</span> <span class="nf">aSampleDataClass</span><span class="o">(</span><span class="s">"aRandomName"</span><span class="o">);</span>
@@ -280,17 +332,42 @@ window.onload = wrap_img;
         <span class="o">}</span>
     <span class="o">}</span>
 <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>Note the stucture of the classes. This is intentional.</p>
 
-<p>When calling the method it would look something like this: <code class="language-plaintext highlighter-rouge">SampleDataTestFactory.Given.aSampleDataClass()</code></p>
+<p>When calling the method it would look something like this: <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>SampleDataTestFactory.Given.aSampleDataClass()
+</pre></td>
+</tr></tbody></table></code></p>
 
 <p>This is a much fluent (english like) statement.</p>
 
 <p>So now your tests can look something like this:</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Test</span> <span class="c1">//TEST 1</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td>
+<td class="rouge-code"><pre><span class="nd">@Test</span> <span class="c1">//TEST 1</span>
 <span class="nd">@DisplayName</span><span class="o">(</span><span class="s">"SHOULD {someAssertion}"</span><span class="o">)</span> 
 <span class="kt">void</span> <span class="n">should</span><span class="o">{</span><span class="nc">SomeAssertion</span><span class="o">}(){</span>
     <span class="nc">SampleDataClass</span> <span class="n">sampleData</span> <span class="o">=</span> <span class="nc">SampleDataTestFactory</span><span class="o">.</span><span class="na">Given</span><span class="o">.</span><span class="na">aSampleDataClass</span><span class="o">();</span>
@@ -307,7 +384,8 @@ window.onload = wrap_img;
 <span class="o">}</span>
 
 <span class="c1">//... more tests which declare data object</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>Note that both Tests use a different simple factory method. One doesn’t care what the name field is but other does.</p>
 
@@ -321,16 +399,56 @@ window.onload = wrap_img;
 
 <ol>
   <li>
-<code class="language-plaintext highlighter-rouge">APICalls</code> - Each method passes the parameters and return the result</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>APICalls
+</pre></td>
+</tr></tbody></table></code> - Each method passes the parameters and return the result</li>
   <li>
-<code class="language-plaintext highlighter-rouge">MockRepository</code>/<code class="language-plaintext highlighter-rouge">DTO</code> - returns an <code class="language-plaintext highlighter-rouge">OnGoingStub</code> for methods of repository</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>MockRepository
+</pre></td>
+</tr></tbody></table></code>/<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>DTO
+</pre></td>
+</tr></tbody></table></code> - returns an <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>OnGoingStub
+</pre></td>
+</tr></tbody></table></code> for methods of repository</li>
   <li>
-<code class="language-plaintext highlighter-rouge">MockService</code> - Similar to MockRepository but for service</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>MockService
+</pre></td>
+</tr></tbody></table></code> - Similar to MockRepository but for service</li>
   <li>
-<code class="language-plaintext highlighter-rouge">Helpers</code> - Special helpers methods for dealing with Data Object</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>Helpers
+</pre></td>
+</tr></tbody></table></code> - Special helpers methods for dealing with Data Object</li>
 </ol>
 
-<p>All of these methods are <code class="language-plaintext highlighter-rouge">public static</code> and using them has the same fluency as above <code class="language-plaintext highlighter-rouge">SampleDataTestFactory.Given.aSampleDataClass()</code></p>
+<p>All of these methods are <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>public static
+</pre></td>
+</tr></tbody></table></code> and using them has the same fluency as above <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>SampleDataTestFactory.Given.aSampleDataClass()
+</pre></td>
+</tr></tbody></table></code></p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

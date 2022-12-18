@@ -11,15 +11,15 @@
 <meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="Blind 75 - Reverse Bits">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do or because after the shift last value will be 0. Imp - iterate 32 times only.">
-<meta property="og:description" content="Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do or because after the shift last value will be 0. Imp - iterate 32 times only.">
+<meta name="description" content="Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do 1 or because after the shift last value will be 0. Imp - iterate 32 times only.">
+<meta property="og:description" content="Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do 1 or because after the shift last value will be 0. Imp - iterate 32 times only.">
 <link rel="canonical" href="https://www.ankushchoubey.com/v1/reverse-bits">
 <meta property="og:url" content="https://www.ankushchoubey.com/v1/reverse-bits">
 <meta property="og:site_name" content="Ankush Choubey">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-11-20T00:00:00-06:00">
 <script type="application/ld+json">
-{"url":"https://www.ankushchoubey.com/v1/reverse-bits","headline":"Blind 75 - Reverse Bits","datePublished":"2022-11-20T00:00:00-06:00","dateModified":"2022-11-16T14:52:08-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/reverse-bits"},"description":"Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do or because after the shift last value will be 0. Imp - iterate 32 times only.","@context":"https://schema.org"}</script>
+{"url":"https://www.ankushchoubey.com/v1/reverse-bits","headline":"Blind 75 - Reverse Bits","datePublished":"2022-11-20T00:00:00-06:00","dateModified":"2022-11-16T14:52:08-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/reverse-bits"},"description":"Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do 1 or because after the shift last value will be 0. Imp - iterate 32 times only.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -216,9 +216,24 @@ window.onload = wrap_img;
 
 <h3 id="o1-time-o1-space-7-lines">O(1) time; O(1) space; 7 lines</h3>
 
-<p>Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do <code class="language-plaintext highlighter-rouge">or</code> because after the shift last value will be 0. Imp - iterate 32 times only.</p>
+<p>Get the last bit of value from the original. append to the reverse one. shift reverse one to the left. instead of adding, you can do <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>or
+</pre></td>
+</tr></tbody></table></code> because after the shift last value will be 0. Imp - iterate 32 times only.</p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">reverseBits</span><span class="o">(</span><span class="kt">int</span> <span class="n">n</span><span class="o">)</span> <span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+<td class="rouge-code"><pre>    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">reverseBits</span><span class="o">(</span><span class="kt">int</span> <span class="n">n</span><span class="o">)</span> <span class="o">{</span>
         <span class="kt">int</span> <span class="n">rev</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
         <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">32</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
             <span class="n">rev</span> <span class="o">=</span> <span class="o">(</span><span class="n">rev</span> <span class="o">&lt;&lt;</span> <span class="mi">1</span><span class="o">)</span> <span class="o">+</span> <span class="o">(</span><span class="n">n</span><span class="o">&amp;</span><span class="mi">1</span><span class="o">);</span>            
@@ -226,7 +241,8 @@ window.onload = wrap_img;
         <span class="o">}</span>
         <span class="k">return</span> <span class="n">rev</span><span class="o">;</span>
     <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

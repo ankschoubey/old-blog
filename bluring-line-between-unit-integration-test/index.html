@@ -221,7 +221,12 @@ window.onload = wrap_img;
 
 <p>Thus they are integration tests but not in integration fashion.</p>
 
-<p>Also, tests written this way are more accurate than using mocks but do lack certain good features of mock as described in first section. Though the benefits outway the loss. Though we can mix and match using Mockito’s <code class="language-plaintext highlighter-rouge">@SpyBean</code>.</p>
+<p>Also, tests written this way are more accurate than using mocks but do lack certain good features of mock as described in first section. Though the benefits outway the loss. Though we can mix and match using Mockito’s <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@SpyBean
+</pre></td>
+</tr></tbody></table></code>.</p>
 
 <p>One can write accurate “unit” tests and still use “embedded” database. This has become harder to distinquish between unit and integration tests. Because this is a hybrid of both the overall effect is more accurate tests.</p>
 

@@ -136,7 +136,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -262,7 +262,12 @@ feat(api): add endpoint for streaming download /downloads
 <a class="anchor" href="#how-to-implement-atomic-commits-in-practice" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to implement atomic commits in practice?</h1>
 
 <ol>
-  <li>Commit and push to <code class="language-plaintext highlighter-rouge">dev</code> after every completing method/feature.</li>
+  <li>Commit and push to <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>dev
+</pre></td>
+</tr></tbody></table></code> after every completing method/feature.</li>
   <li>This push should involve both test and code.</li>
   <li>The commit message should be accurate.
     <ul>
@@ -271,22 +276,72 @@ feat(api): add endpoint for streaming download /downloads
     </ul>
     <ul>
       <li>
-<code class="language-plaintext highlighter-rouge">feat</code>: feature</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>feat
+</pre></td>
+</tr></tbody></table></code>: feature</li>
       <li>
-<code class="language-plaintext highlighter-rouge">refactor</code>: refactoring</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>refactor
+</pre></td>
+</tr></tbody></table></code>: refactoring</li>
       <li>
-<code class="language-plaintext highlighter-rouge">fix</code>: bug fix</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>fix
+</pre></td>
+</tr></tbody></table></code>: bug fix</li>
       <li>
-<code class="language-plaintext highlighter-rouge">doc</code>: documentation</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>doc
+</pre></td>
+</tr></tbody></table></code>: documentation</li>
       <li>
-<code class="language-plaintext highlighter-rouge">ci</code>: continuous integration changes</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>ci
+</pre></td>
+</tr></tbody></table></code>: continuous integration changes</li>
       <li>
-<code class="language-plaintext highlighter-rouge">build</code>: related to build</li>
+<code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>build
+</pre></td>
+</tr></tbody></table></code>: related to build</li>
     </ul>
   </li>
 </ol>
 
-<p>In practice, you can assume committing <code class="language-plaintext highlighter-rouge">feat</code> at least once per hour. Other commit types especially <code class="language-plaintext highlighter-rouge">refactor</code>, <code class="language-plaintext highlighter-rouge">fix</code> and <code class="language-plaintext highlighter-rouge">doc</code> might be even more frequent.</p>
+<p>In practice, you can assume committing <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>feat
+</pre></td>
+</tr></tbody></table></code> at least once per hour. Other commit types especially <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>refactor
+</pre></td>
+</tr></tbody></table></code>, <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>fix
+</pre></td>
+</tr></tbody></table></code> and <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>doc
+</pre></td>
+</tr></tbody></table></code> might be even more frequent.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

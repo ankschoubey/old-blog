@@ -214,11 +214,35 @@ window.onload = wrap_img;
 
 <p><strong>Intuition</strong>: Swap left and right. Then repeat for those nodes.</p>
 
-<p>2 lines can be saved by using a single temporary variable instead of <code class="language-plaintext highlighter-rouge">left</code> &amp; <code class="language-plaintext highlighter-rouge">right</code>, but this is clean.</p>
+<p>2 lines can be saved by using a single temporary variable instead of <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>left
+</pre></td>
+</tr></tbody></table></code> &amp; <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>right
+</pre></td>
+</tr></tbody></table></code>, but this is clean.</p>
 
 <h1 id="on-time-o1-space">O(n) time. O(1) space</h1>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">public</span> <span class="nc">TreeNode</span> <span class="nf">invertTree</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td>
+<td class="rouge-code"><pre>    <span class="kd">public</span> <span class="nc">TreeNode</span> <span class="nf">invertTree</span><span class="o">(</span><span class="nc">TreeNode</span> <span class="n">root</span><span class="o">)</span> <span class="o">{</span>
         <span class="k">if</span><span class="o">(</span><span class="n">root</span> <span class="o">==</span> <span class="kc">null</span><span class="o">){</span>
             <span class="k">return</span> <span class="n">root</span><span class="o">;</span>
         <span class="o">}</span>
@@ -230,7 +254,8 @@ window.onload = wrap_img;
         <span class="n">invertTree</span><span class="o">(</span><span class="n">right</span><span class="o">);</span>
         <span class="k">return</span> <span class="n">root</span><span class="o">;</span>
     <span class="o">}</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->

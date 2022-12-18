@@ -226,18 +226,32 @@ window.onload = wrap_img;
 
 <p>One of the easiest ways to do it is make all constants have default value but be configurable.</p>
 
-<p>For example in Spring Boot you could use <code class="language-plaintext highlighter-rouge">@Value</code> with default value.</p>
+<p>For example in Spring Boot you could use <code class="language-plaintext highlighter-rouge"><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre>@Value
+</pre></td>
+</tr></tbody></table></code> with default value.</p>
 
 <p><strong>Bad:</strong></p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">final</span> <span class="nc">String</span> <span class="n">successMessage</span> <span class="o">=</span> <span class="s">"SUCCESSFUL"</span><span class="o">;</span>
-</code></pre></div></div>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td>
+<td class="rouge-code"><pre><span class="kd">public</span> <span class="kd">static</span> <span class="kd">final</span> <span class="nc">String</span> <span class="n">successMessage</span> <span class="o">=</span> <span class="s">"SUCCESSFUL"</span><span class="o">;</span>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p><strong>Good:</strong></p>
 
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Value</span><span class="o">(</span><span class="s">"${success.message:SUCCESSFULL}"</span><span class="o">)</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr>
+<td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td>
+<td class="rouge-code"><pre><span class="nd">@Value</span><span class="o">(</span><span class="s">"${success.message:SUCCESSFULL}"</span><span class="o">)</span>
 <span class="kd">public</span> <span class="nc">String</span> <span class="n">successMessage</span><span class="o">;</span>
-</code></pre></div></div>
+</pre></td>
+</tr></tbody></table></code></pre></div></div>
 
 <p>Similar: <a href="/config/">Programming is now Configuring</a></p>
 
