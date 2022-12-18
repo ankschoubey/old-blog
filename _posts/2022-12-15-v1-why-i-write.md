@@ -22,6 +22,6 @@ Writing serves as a public view of my knowledge and ideas.
 
 It serves as a great self-promotion on a resume and during job interviews.
 
-![Why I write?]({{ site.baseurl }}/images/v1-why-i-write.jpg)
+![Why I write?]({{ site.url }}/images/v1-why-i-write.jpg)
 
 Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/writing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
