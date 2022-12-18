@@ -1,1 +1,1 @@
-Sitemap: www.ankushchoubey.com/sitemap.xml
+Sitemap: https://www.ankushchoubey.com/sitemap.xml
