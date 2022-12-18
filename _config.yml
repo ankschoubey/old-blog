@@ -110,9 +110,6 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    line_numbers: table
-    bold_every: 5
 annotations: false
 
 compress_images:
