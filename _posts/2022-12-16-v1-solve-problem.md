@@ -45,7 +45,7 @@ When you are not willing to face what you want to face, the problem becomes bigg
 
 When you face what you are afraid of head on. Looking the dragon in the eye, the size of the dragon decreases.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uS8NNkt3Q9I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](https://www.youtube.com/embed/uS8NNkt3Q9I?controls=0)
 
 ## It’s like damn, life is full of suffering. But you are stronger
 

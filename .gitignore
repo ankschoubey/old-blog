@@ -11,3 +11,10 @@ _notebooks/.ipynb_checkpoints
 .netlify
 .tweet-cache
 __pycache__
+_compress_images_cache.yml
+.gitignore
+images/.DS_Store
+images/2020-01-04-clean-code-remove-un-necessary-code/.DS_Store
+.DS_Store
+*.DS_Store*
+images/2020-01-04-clean-code-remove-un-necessary-code/.DS_Store
