@@ -631,4 +631,6 @@ a.page-link[href="/resume/"] { background: #be232f; padding: 10px; color: white;
 
 .post-list > li { border-radius: 0px !important; }
 
+.Toast { width: 100% !important; max-width: none !important; }
+
 /*# sourceMappingURL=style.css.map */
