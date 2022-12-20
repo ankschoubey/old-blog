@@ -25,7 +25,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
   gem "jekyll-last-modified-at"
-  gem 'jekyll-compress-images'
   gem 'jekyll-redirect-from'
 end
 

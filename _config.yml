@@ -86,13 +86,12 @@ plugins:
   - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-compress-images
   - jekyll-spaceship
   - jekyll-redirect-from
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
-paginate: 10
+paginate: 20
 paginate_path: /page:num/
 
 remote_theme: jekyll/minima
@@ -111,14 +110,6 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 annotations: false
-
-compress_images:
-  images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
-
-imageoptim:
-  pngout: true
-  svgo: true
-  verbose: true
 
 # Disqus Comments
 disqus:
