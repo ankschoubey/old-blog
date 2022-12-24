@@ -49,6 +49,10 @@ Need not be perfect every day and can be random, just over time. Being too perfe
 
 Once a year or once every two years.
 
+**Number of times you went to the gym**
+
+Cult Fit App
+
 ### Track your time
 
 **Life cycle app**: Automated
@@ -74,7 +78,17 @@ Tracks time spent on websites.
 
 [MindHero - Chrome Web Store](https://chrome.google.com/webstore/detail/mindhero/opjbphlikplllhehiaafnglngompagni)
 
-**Programming**: [WakaTime - Dashboards for developers](https://wakatime.com/)
+**Programming**:
+
+[WakaTime - Dashboards for developers](https://wakatime.com/)
+
+![Waka Time]
+
+GitHub Streaks
+
+![GitHub Streaks](/images/v1-quantified-self/github.png)
+
+[Source](https://zapier.com/engineering/github-streak-habit/)
 
 **Be mindful of how much time you spend attentive with family**
 
