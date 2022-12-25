@@ -1,4 +1,186 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-20T11:23:55-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Living a truthful life</title><link href="https://www.ankushchoubey.com/v1/truth" rel="alternate" type="text/html" title="Living a truthful life" /><published>2022-12-20T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-truth</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-25T04:28:20-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Productive use of time</title><link href="https://www.ankushchoubey.com/v1/productive" rel="alternate" type="text/html" title="Productive use of time" /><published>2022-12-25T00:00:00-06:00</published><updated>2022-12-22T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-productive</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/productive">There are a few rules I discovered that helps.
+
+## See the reality as it is
+
+Like previously, being able to see to truth of how we spend our time is very important. Since we have digital devices, this tracking is relatively easy.
+
+We need to create slots of MED. Minimum Effective Dose. For example: For sleep MED is 8 hours. For POMODORO, MED is 2 hours.
+
+Going beyond MED doesn’t help. For example, you cannot work more than 35 hours per week and expect your productivity to rise. 35 hours is fixed.
+
+The lucky thing for us is we have structured week, Sunday to Saturday, structured weekdays and structured day, 24 hours and structures hours and minutes. So we can utilize them at our best.
+
+For example, given a human attention span, you can only focus for 25 minutes (the size of a sitcom). And then you should take break because without it, your attention will dwindle. And by taking pause and starting again, you;ll have higher focus.
+
+Like MED, standard recommendations are also useful, like for exercise 75 hours per week distributed over a period of time.
+
+For Piano, this could be 30 minutes of structured practice every day.
+
+Structure is important here. Look at systems section on structured training. You should look at every work opportunity and challenge as a structured training exercice.
+
+## Do your current work well. Till completion and produce no backlog.
+
+Like with life, a software development project get’s delayed the more technical debt is there is the system. When half done features are released, then problems arise.
+
+This is taking shortcuts. Like not doing TDD or skipping a feature thinking oh we’ll ship this and then do this later.
+
+It doesn’t work. You want your mind to be as clear as possible to focus on the present and future. How do you do it, by producing no backlog.
+
+This also applies to studies, someone who has studies maths or some other subject well is school doesn’t have to worry re-learning the basics when they grow old and prepare for their MBA entrance exam. Because the work was already done well.
+
+Doing your present work well also means you gain new capabilities and avoid many other tasks that were in the backlog.
+
+For instance, you decided to read 4 books on the productivity.
+
+If you have read the first book properly and slowly, implemented the details, you may not even need to read the rest of the books.
+
+But suppose you haven’t read the book properly and slowly and failed to implement the lessons, then you’ll go on to read another book on the same topic. Then another and another. THis produced more backlog.
+
+If you do your work properly, you produce no backlog for the future.
+
+## Do it now.
+
+You can’t wait for the future to arrive. Things won’t sort out in the future. They’ll sort out in the present. in this moment if you take action.
+
+Talking about your problems doesn’t fix it. Taking action will definitely fix it.
+
+## How to layer your work?
+
+What tasks should you pick up first assuming you consumed your vitamin N and said no. Here’s my guidelines.
+
+You can divide your tasks in the following and pick these in order.
+
+1. Do the task first that makes things easy for your future self. This could be learning or planning or writing a note for your future self.
+2. Do the task that brings you more clarity first. This can creating to do list or planning
+3. Then task that’s you don’t want to do. Because your brain has a blindspot that makes important things appear harder. Slay that dragon and eat that frog first.
+4. Then the task you would love to do. This you won’t have done automatically anyway. Enjoy the task and feel fulfilled that you did rest of your tasks well.
+5. Then other tasks that are low quality and time.
+
+You’ll also have to slot delegation to team members somewhere here.
+
+Remember, you only have 35 hours per week. or 7 hour per day or work time.
+
+For personal you have 7 hours per weekend combined assuming you also want to live your life well. Use them wisely.</content><author><name></name></author><category term="non-professional" /><category term="time" /><summary type="html">There are a few rules I discovered that helps.</summary></entry><entry><title type="html">Creating Systems To Automate Goal Achievement</title><link href="https://www.ankushchoubey.com/v1/systems" rel="alternate" type="text/html" title="Creating Systems To Automate Goal Achievement" /><published>2022-12-22T00:00:00-06:00</published><updated>2022-12-22T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-systems</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/systems">&lt;p&gt;The only way to become a high performer and fulfil your full potential is to create, iterate and rely on your systems.&lt;/p&gt;
+
+&lt;p&gt;In programming terms, systems are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(log n)&lt;/code&gt;, and No-Systems are like brute force &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(n^3)&lt;/code&gt;. Systems allow us to focus on the task and not reply to other things.&lt;/p&gt;
+
+&lt;p&gt;Suppose you want study for IELTS exam and it’s been your goal for 3-4 months. When you look at what you did in these past months, you can see you wasted a lot of time. Re-iterating, you create a system for yourself. You setup flash cards that you practice daily for 5 minutes once you reach home. In a less than a month, you were able to cover up more than you did in last several months combined.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-the-benefits-of-creating-a-system&quot;&gt;What are the benefits of creating a system?&lt;/h2&gt;
+
+&lt;p&gt;Systems allow you to free up your mental load. Allowing you to perform at your best, be decisive, and be confident that everything will work properly.&lt;/p&gt;
+
+&lt;p&gt;Systems allow you to fall back and know everything is okay and taken care of. They are comparable to taking breaks and letting go. We take breaks and let go knowing we are stronger and in control.&lt;/p&gt;
+
+&lt;p&gt;Systems allow us to be happy at the moment and know that the path we are on is the best path there is.&lt;/p&gt;
+
+&lt;p&gt;If you want to have a 360 life, a life where you are covered all areas of life pretty well, you need systems. This is because you have limited time, and limited cognitive ability to re-thing something again and again. You need a set process.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-the-different-kinds-of-systems&quot;&gt;What are the different kinds of systems?&lt;/h2&gt;
+
+&lt;p&gt;Different kinds of systems are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Targeted Training and Testing - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(n)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Assistance via Environment - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(log n)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Automation - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(1)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Habits - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(1)&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Each system has its pros and cons, and when to use each depends on what you are trying to accomplish.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Targeted Training and Testing&lt;/strong&gt;: Learning and deliberately practising each and every step of something. This includes re-training to keep yourself sharp and eliminate flaws.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assistance via Environment&lt;/strong&gt;: Setting your environment in a way that makes it easy to accomplish your tasks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Automation&lt;/strong&gt;: Using Technology to its full advantage as a modern human. This would take our output from 1 to 20x.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Habits&lt;/strong&gt;: Creating healthier habits that are in our best interest.&lt;/p&gt;
+
+&lt;h2 id=&quot;targeted-training-and-testing&quot;&gt;Targeted Training and Testing&lt;/h2&gt;
+
+&lt;p&gt;Training is the same as putting your reps in the gym. Initially you are fat or skinny, but as you keep training and working out, muscles develop and this development gives you new abilities that allow you do new things.&lt;/p&gt;
+
+&lt;p&gt;Training allows you to not be effected by change in environment or mood. Since you have practices your kick 10,000 time, there is little error that you’ll make a mistake.&lt;/p&gt;
+
+&lt;p&gt;You rely on training and testing to get better at a skill. Suppose you want to give a public speech, create a script, practice it a few times, maybe record yourself, iterate and then give the speech.&lt;/p&gt;
+
+&lt;p&gt;The stages of progression in training and testing are following:&lt;/p&gt;
+
+&lt;p&gt;Level &lt;strong&gt;1: Learn&lt;/strong&gt;: You are learning about the topic and actually practising the things you learn. There is no learning about actually doing. You need #skinInTheGame as early as possible.
+Level &lt;strong&gt;2: Cover the flow&lt;/strong&gt;: You take things slow and try to cover the flow a few times. i.e. you practice something end to end but slowly.
+Level &lt;strong&gt;3: Rectification&lt;/strong&gt;: You rectify everything starting from your weakest point because that’s where you’ll get the most growth.
+Level &lt;strong&gt;4: Iterate and practice&lt;/strong&gt;: You continuously iterate and practice.
+Level &lt;strong&gt;5: Mimic the real world&lt;/strong&gt; until you feel confident to go out into a real situation
+Level &lt;strong&gt;6: Graduate&lt;/strong&gt; but sometimes return to one of the previous steps to iterate.&lt;/p&gt;
+
+&lt;p&gt;// REFLECT and improve&lt;/p&gt;
+
+&lt;p&gt;Remember, your training needs to be targetted and focused. Only by removing redistractions and targetting you’ll have enough myelination in your brain to truly focus and grasp what you are learning.&lt;/p&gt;
+
+&lt;p&gt;Exposure therapy is also a good example of training. You are scared of something and it terrifies you. Now you take steps to learn it, expose yourself to it again and get better at it.&lt;/p&gt;
+
+&lt;h3 id=&quot;find-places-where-you-can-include-training&quot;&gt;Find places where you can include training.&lt;/h3&gt;
+
+&lt;p&gt;Make a list of all the things that you do. Find places that can be trained.&lt;/p&gt;
+
+&lt;p&gt;For example; Gymn&lt;/p&gt;
+
+&lt;h3 id=&quot;nuances-about-training-and-testing&quot;&gt;Nuances about training and testing&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;You need to do your reps.&lt;/strong&gt;: You need to do your reps when it is needed. And take breaks when you are not doing your reps. Work hard. Play hard.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You’ll face resistance&lt;/strong&gt; You need to train to get stronger in whatever you are doing. :) You’ll face resistance from your own self. Trust the training process and the system you have set. Part of your training is facing and overcoming these resistance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don’t expect you’ll special&lt;/strong&gt;: Perhaps there are people out there that don’t need to practice piano on a weekly basis. Assume you are not one of those people.&lt;/p&gt;
+
+&lt;h2 id=&quot;here-are-some-examples-of-trainings-and-testing&quot;&gt;Here are some examples of trainings and testing&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Pomodoro&lt;/strong&gt;: Trains your attention and focus by focusing on something for 25 minutes and then taking a break for 5. The timing and Pomodoro principles need to be strictly followed for good training.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meditation&lt;/strong&gt;: Meditating for a fixed amount, like 10 minutes/20 minutes, would train your brain to focus your attention on what you truly want and trains you to not be swayed by your emotions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice Sessions&lt;/strong&gt;: Whether it is Piano or learning a language. You need proper regular practice sessions. These can in be pomodoro style.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tests&lt;/strong&gt;: Tests are a good way to assert if you actually know something. This can be Dry Runs of Demo or an actual test where you sit down for the exam time and give the test. Tests can also be in form ask letting someone else ask a question and you answering it. Tests are something we did commonly as kids.&lt;/p&gt;
+
+&lt;h2 id=&quot;nuances&quot;&gt;Nuances&lt;/h2&gt;
+
+&lt;p&gt;Trust the system you have set.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="systems" /><summary type="html">The only way to become a high performer and fulfil your full potential is to create, iterate and rely on your systems.</summary></entry><entry><title type="html">Living a truthful life</title><link href="https://www.ankushchoubey.com/v1/truth" rel="alternate" type="text/html" title="Living a truthful life" /><published>2022-12-20T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-truth</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;There are two parts to truth:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Seeing the truth&lt;/li&gt;
+  &lt;li&gt;Speaking the truth&lt;/li&gt;
+  &lt;li&gt;Acting the truth&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;seeing-the-truth&quot;&gt;Seeing the truth&lt;/h2&gt;
+
+&lt;p&gt;On truth, we want to be able to see truth as clearly as we can always. How to achieve this.&lt;/p&gt;
+
+&lt;p&gt;Part of it can be automated. Part of it can’t be automated.&lt;/p&gt;
+
+&lt;h3 id=&quot;observability&quot;&gt;Observability&lt;/h3&gt;
+
+&lt;p&gt;Data collection on computers/mobile devices can be automated. For example, you can keep track of all the tasks you need to do. All of them.&lt;/p&gt;
+
+&lt;p&gt;Many people don’t write todolist. They think that tasks accomplish automatically. But most time they don’t. I decided to make change to my passport address an year ago and it’s still not done. Similarly I had decided to get a complete health checkup an year ago. That hasn’t happened yet.&lt;/p&gt;
+
+&lt;p&gt;The goal with todo list is clarity. If we are failing towards our goal, we should know. If we are not failing towarding our goal we should know.&lt;/p&gt;
+
+&lt;p&gt;Similarly, all the quantified self automated systems are also truths.&lt;/p&gt;
+
+&lt;h3 id=&quot;rational-pre-decisions&quot;&gt;Rational Pre-decisions&lt;/h3&gt;
+
+&lt;p&gt;There are other ways to see truth aswell. For example, you predecide that the person who loves you would make time for you. Now, if they don’t make time for you, you know they don’t love you or at least that they might be busy. #loveLanguages&lt;/p&gt;
+
+&lt;p&gt;It’s important to not move your goal posts too much here. A little nuance adjustment is okay. But rationalization is not.&lt;/p&gt;
+
+&lt;h3 id=&quot;hold-opinions-lightly&quot;&gt;Hold opinions lightly&lt;/h3&gt;
+
+&lt;p&gt;To see truth clearly, you have to hold you opinions lightly. Because when you start saying and speaking the truth, you’ll start seeing everything in absolute clarity and that clarity means most times you realize you were either wrong and not perfect.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-mountain-of-perspectives-what-is-true&quot;&gt;&lt;strong&gt;The Mountain of Perspectives&lt;/strong&gt;: What is true?&lt;/h2&gt;
 
@@ -13,6 +195,8 @@
 &lt;p&gt;Therefore ultimately, we find that there’s no one mountain. What’s truth for one person may not be true for other. And the interpretation of what’s true may change as more information is gathered.&lt;/p&gt;
 
 &lt;p&gt;This can be tricky when you first start with telling the truth. But you’ll get the hang of it.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7007720744847585280?compact=1&quot; height=&quot;399&quot; width=&quot;710&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; title=&quot;Embedded post&quot;&gt;&lt;/iframe&gt;
 
 &lt;h2 id=&quot;what-should-you-do-to-seek-truth&quot;&gt;What should you do to seek truth?&lt;/h2&gt;
 
@@ -43,16 +227,47 @@
 
 &lt;p&gt;If you can’t live a lie, you won’t cheat on exams. This will orient you properly to become the kind of person that will pass the exam.&lt;/p&gt;
 
+&lt;div class=&quot;flash&quot;&gt;
+    &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+    &lt;strong&gt;Note: &lt;/strong&gt;Remember this always, if you speak the truth and act in truthful ways, the world will arrange itself in the best possible manner to you.&lt;br /&gt;If you lie or don’t live truthfully, the world will arrange in the worst possible manager.
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Truth is a shield. That survives scrutiny&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;That protects you against lie of any kind.&lt;/p&gt;
+
+&lt;p&gt;Truth and peace are directly correlated. One increases or decreases another.&lt;/p&gt;
+
 &lt;h2 id=&quot;how-we-usually-avoid-telling-the-truth-and-what-we-can-do-about-it&quot;&gt;How we usually avoid telling the truth and what we can do about it?&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;White Lies&lt;/strong&gt;: We should instead be as kind as possible but not lie. It’s important to recognize that white lies backfire bigger than just speaking the truth.&lt;/p&gt;
+
+&lt;h2 id=&quot;optional-psychological-safety-helping-others-tell-you-truth&quot;&gt;&lt;strong&gt;Optional&lt;/strong&gt;: Psychological Safety: Helping others tell you truth&lt;/h2&gt;
+
+&lt;p&gt;Psychological safety allows people to be themselves around you because they feel safe.&lt;/p&gt;
+
+&lt;p&gt;Offer guidelines and offer support.&lt;/p&gt;
+
+&lt;p&gt;Be consistent.&lt;/p&gt;
+
+&lt;p&gt;Tell your people you can handle the truth. Say it out loud. Over and over again. And mean it.&lt;/p&gt;
+
+&lt;p&gt;People who seek feedback more often feel psychologically safer.&lt;/p&gt;
+
+&lt;p&gt;Critize yourself publically.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.linkedin.com/embed/feed/update/urn:li:share:7010661770486808576&quot; height=&quot;473&quot; width=&quot;504&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; title=&quot;Embedded post&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PYZIvlf5ROw&quot;&gt;Achieving psychological safety - YouTube&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Y6ig4iWeYqk&quot;&gt;How to Build Psychological Safety at Work - YouTube&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;optional-zero-trust-catching-lies-liars-and-protecting-yourself&quot;&gt;&lt;strong&gt;Optional&lt;/strong&gt;: Zero Trust: Catching lies, liars and protecting yourself&lt;/h2&gt;
 
 &lt;p&gt;Liars can wrap you and your world view to get what they want. They often go un-noticed. They are like successful social black-hat hackers. You need good security to protect yourself.&lt;/p&gt;
 
 &lt;div class=&quot;flash&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+    &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
     &lt;strong&gt;Note: &lt;/strong&gt;There is a difference between not knowing the truth
 &lt;/div&gt;
 
@@ -114,6 +329,14 @@
 &lt;p&gt;&lt;strong&gt;Rejection&lt;/strong&gt;: Rejection is a truth. No matter at what stage it is. This could be failure in an exam or a failure of relationship. The most rational thing to do here is to accept the rejection and move on. This acceptance is the acceptance of truth. Once we do accept it, we’ll be able to rethink things though and move forward.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Our Desires&lt;/strong&gt;: We try not to accept our desires. Maybe you wanna have sex badly but you force yourself not to think about it. Thus this thought becomes your new prison. Instead, you can accept this fact and find a healthier alternative than to watch porn :).&lt;/p&gt;
+
+&lt;h2 id=&quot;speaking-your-truth&quot;&gt;Speaking Your Truth&lt;/h2&gt;
+
+&lt;p&gt;Use simpler straight forward words.&lt;/p&gt;
+
+&lt;p&gt;You can’t make others see the truth easily. Saying, “You don’t want to look at truth” might be helpful sometimes but not often. This is because truth is filtered by many personal biases and personal knowledge.&lt;/p&gt;
+
+&lt;p&gt;For example, if someone has not experience pain of a loss, they won’t realize what you are going through. They won’t be able to empathize. And similarly, in such situations, you won’t be able to empathize with them.&lt;/p&gt;
 
 &lt;h2 id=&quot;optional-nuances-about-truth&quot;&gt;Optional: Nuances about Truth&lt;/h2&gt;
 
@@ -376,155 +599,4 @@ Then when should change path&lt;/p&gt;
 
 &lt;div style=&quot;display: none&quot;&gt;
 &lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggTFJcbmFbZmE6ZmEtc2VydmVyIEdEUFIgXFxuICpPcmNoZXN0cmF0b3IqIFxcbiBNaWNyb3NlcnZpY2VdIC0tPiB8XCJERUxFVEUgL2dkcHIvdXNlcnMve3VzZXJJZH0gXFxuIEdFVCAvZ2Rwci91c2Vycy97dXNlcklkfVwifCBNMVtmYTpmYS1zZXJ2ZXIgTWljcm9zZXJ2aWNlIEFdXG5NMSAtLT4gfFwiUGFydGl0aW9uIG9uIHt1c2VySWR9XCJ8IE0xXG5hIC0tPiB8XCJERUxFVEUgL2dkcHIvdXNlcnMve3VzZXJJZH0gXFxuIEdFVCAvZ2Rwci91c2Vycy97dXNlcklkfVwifCBNMltmYTpmYS1zZXJ2ZXIgTWljcm9zZXJ2aWNlIEJdXG5NMiAtLT4gfFwiUGFydGl0aW9uIG9uIHt1c2VySWR9XCJ8IE0yXG5hIC0tPiB8RGVsZXRlIGRhdGF8IENbZmE6ZmEtZGF0YWJhc2UgQmFja3Vwc11cbkMgLS0-IHxcIlBhcnRpdGlvbiBvbiB7dXNlcklkfVwifCBDIiwibWVybWFpZCI6bnVsbH0&quot; /&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="security" /><category term="compliance" /><category term="system-design" /><summary type="html">Implementing GDPR-compliant microservices to get all user data and delete a user’s data can seem very hard.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-gdpr.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-gdpr.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Developing better self-awareness with QuantifiedSelf - Observability for personal life.</title><link href="https://www.ankushchoubey.com/v1/quantified-self" rel="alternate" type="text/html" title="Developing better self-awareness with QuantifiedSelf - Observability for personal life." /><published>2022-12-04T00:00:00-06:00</published><updated>2022-12-04T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-quantified-self</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/quantified-self">&lt;h2 id=&quot;what-do-i-mean-by-the-observability-of-personal-life&quot;&gt;What do I mean by the Observability of personal life?&lt;/h2&gt;
-
-&lt;p&gt;Quantified self means tracking certain things in our life so that we can make good decisions.&lt;/p&gt;
-
-&lt;p&gt;These decisions are made so that we can course-correct them if we are straining away from something important.&lt;/p&gt;
-
-&lt;p&gt;And therefore, it would make us more self-aware.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-do-we-need-it&quot;&gt;Why do we need it?&lt;/h2&gt;
-
-&lt;p&gt;In our fast-paced world, we take on too many things at once. We are constantly distracted by attention-seeking entities like marketing companies.&lt;/p&gt;
-
-&lt;p&gt;In this, we forget the take care of the most important person we know. Us.&lt;/p&gt;
-
-&lt;p&gt;Ideally, the problem lies in just taking care of ourselves enough. But it’s way more helpful to have proactive systems in place. So that we are guided towards taking care of ourselves. Therefore, this article.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-can-we-do-to-implement-it&quot;&gt;What can we do to implement it?&lt;/h2&gt;
-
-&lt;p&gt;Before implementation details, it’s important to determine a few factors first.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The goal is to make more informed decisions. The goal is not to distract us.&lt;/li&gt;
-  &lt;li&gt;We must live a balanced life: healthy, wealthy and wise. Or you could say, healthier, wealthier and wiser. All aspects, not just one.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Therefore, each day may not be perfect. And we need certain randomness in place for the best decision to happen.&lt;/p&gt;
-
-&lt;p&gt;Being too perfect will lead to anxiety. And as we already know: #PanicIsNoGood (Zeus from Thor: Love and Thunder).&lt;/p&gt;
-
-&lt;p&gt;Here are some I tried to implement:&lt;/p&gt;
-
-&lt;h3 id=&quot;track-your-healthy&quot;&gt;Track your healthy&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Check your weight over time&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Need not be perfect every day and can be random, just over time. Being too perfect is good for the short term when u want to improve something, but not good for the long term as it leads to anxiety.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Regularly get preventative body checkups&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Once a year or once every two years.&lt;/p&gt;
-
-&lt;h3 id=&quot;track-your-time&quot;&gt;Track your time&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Life cycle app&lt;/strong&gt;: Automated&lt;/p&gt;
-
-&lt;p&gt;Shows how much time you spent and where.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/lifecycle.png&quot; alt=&quot;Lifecycle&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://northcube.com/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Screentime&lt;/strong&gt;: Automated&lt;/p&gt;
-
-&lt;p&gt;Phones do come with apps that make you more aware of the time you have spent.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/screentime1.jpg&quot; alt=&quot;Screentime1&quot; /&gt;
-&lt;img src=&quot;/images/v1-quantified-self/screentime2.jpg&quot; alt=&quot;Screentime2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chrome Extensions&lt;/strong&gt;: MindHero: Automated&lt;/p&gt;
-
-&lt;p&gt;Tracks time spent on websites.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/mind-hero.png&quot; alt=&quot;Mind Hero&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/mindhero/opjbphlikplllhehiaafnglngompagni&quot;&gt;MindHero - Chrome Web Store&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Programming&lt;/strong&gt;: &lt;a href=&quot;https://wakatime.com/&quot;&gt;WakaTime - Dashboards for developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Be mindful of how much time you spend attentive with family&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Family is the most important part of life.&lt;/p&gt;
-
-&lt;h3 id=&quot;track-your-memories&quot;&gt;Track your memories&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Photographs&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Diary writing&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Personal diary to write down thoughts and other entries.&lt;/p&gt;
-
-&lt;h3 id=&quot;track-your-money&quot;&gt;Track your money&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;CRED App&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In India, CRED app gives accurate summary of credit card info.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/cred.jpg&quot; alt=&quot;CRED&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;track-your-writing&quot;&gt;Track your writing&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Grammarly&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Grammarly also publishes a weekly email with insights about your writing. It also suggests improvements that can be made.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/grammarly1.png&quot; alt=&quot;Grammarly1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-quantified-self/grammarly2.png&quot; alt=&quot;Grammarly2&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;making-decisions&quot;&gt;Making decisions&lt;/h2&gt;
-
-&lt;p&gt;Don’t check the data every day.&lt;/p&gt;
-
-&lt;p&gt;Most apps allow for useful prompts and summaries that can be used.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-are-the-limitations&quot;&gt;What are the limitations?&lt;/h2&gt;
-
-&lt;p&gt;//TODO&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><summary type="html">What do I mean by the Observability of personal life?</summary></entry><entry><title type="html">Why do microservices need an API client sdk for HTTP and Messaging?</title><link href="https://www.ankushchoubey.com/v1/api-client-sdk" rel="alternate" type="text/html" title="Why do microservices need an API client sdk for HTTP and Messaging?" /><published>2022-12-03T00:00:00-06:00</published><updated>2022-12-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-api-client</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/api-client-sdk">&lt;p&gt;&lt;img src=&quot;/images/v1-api-client/header.png&quot; alt=&quot;Amazon SDK&quot; /&gt;&lt;/p&gt;
-&lt;pre&gt;Amazon SDK&lt;/pre&gt;
-
-&lt;h2 id=&quot;how-does-microservice-usage-ramp-up&quot;&gt;How does microservice usage ramp up?&lt;/h2&gt;
-
-&lt;p&gt;Microservice usage scales very fast. At first, a single service is the APIs. Suddenly there is a bunch.&lt;/p&gt;
-
-&lt;p&gt;Each implements the same methods to access the same rest APIs. Each one of them would implement contract testing.&lt;/p&gt;
-
-&lt;p&gt;This is a wasted effort.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-api-client/without-api-client.png&quot; alt=&quot;Without API Client&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;api-client-sdk&quot;&gt;API Client SDK&lt;/h2&gt;
-
-&lt;p&gt;We can, as an alternative, create one client code and let everyone use it. Or one client in each programming language that uses it.&lt;/p&gt;
-
-&lt;p&gt;This gives us the following advantage:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Only the client code deals with the format of the API.&lt;/li&gt;
-  &lt;li&gt;Only the client code needs to be contract tested.&lt;/li&gt;
-  &lt;li&gt;If the endpoints of the API change, only the client code needs to be changed.&lt;/li&gt;
-  &lt;li&gt;We can create a single @Value for the base URL for the client and inject it via a config server for all applications.&lt;/li&gt;
-  &lt;li&gt;If we need to add micrometer-prometheus usage metrics for an API, we have one destination.&lt;/li&gt;
-  &lt;li&gt;If we need to retire an API, we just add @deprecated and release the client.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The client would also include:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Request validation: To avoid unnecessary network calls.&lt;/li&gt;
-  &lt;li&gt;Request Body POJOs: So that everyone uses the same format.&lt;/li&gt;
-  &lt;li&gt;Response Body POJOs.&lt;/li&gt;
-  &lt;li&gt;Standard Exception handling&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-api-client/api-client.png&quot; alt=&quot;Without API Client&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;message-client&quot;&gt;Message client&lt;/h2&gt;
-
-&lt;p&gt;The same can be used for messaging like Kafka, where the client can include POJOs format and methods to publish messages in case of incoming webhooks.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;In conclusion, an API client would help reduce the efforts of all developers in developing and using an API. The developers using the client need not be concerned with how the API works internally, weather it works on REST, Graph QL, gRPC, etc. They just need to send and receive data in using the right client provided POJOs.&lt;/p&gt;</content><author><name></name></author><category term="microservices" /><category term="distributed-systems" /><summary type="html">Amazon SDK</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-api-client/header.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-api-client/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="security" /><category term="compliance" /><category term="system-design" /><summary type="html">Implementing GDPR-compliant microservices to get all user data and delete a user’s data can seem very hard.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-gdpr.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-gdpr.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
