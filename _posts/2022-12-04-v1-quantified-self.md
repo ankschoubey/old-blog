@@ -82,7 +82,7 @@ Tracks time spent on websites.
 
 [WakaTime - Dashboards for developers](https://wakatime.com/)
 
-![Waka Time]
+![Waka Time](/images/v1-quantified-self/waka-time.png)
 
 GitHub Streaks
 
