@@ -19,7 +19,7 @@
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-08-06T00:00:00-05:00">
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/pre-save-data-validation/"},"url":"https://www.ankushchoubey.com/pre-save-data-validation/","@type":"BlogPosting","headline":"Pre-save Data Validation","dateModified":"2022-08-06T15:52:08-05:00","datePublished":"2022-08-06T00:00:00-05:00","description":"It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/pre-save-data-validation/"},"url":"https://www.ankushchoubey.com/pre-save-data-validation/","@type":"BlogPosting","headline":"Pre-save Data Validation","dateModified":"2022-12-27T14:52:08-06:00","datePublished":"2022-08-06T00:00:00-05:00","description":"It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -128,8 +128,8 @@ window.onload = wrap_img;
 
     <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-08-06T00:00:00-05:00" itemprop="datePublished">
         Written: Aug 6, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-08-06T15:52:08-05:00" itemprop="dateModified">
-          Updated: Aug 6, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-12-27T14:52:08-06:00" itemprop="dateModified">
+          Updated: Dec 27, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -207,6 +207,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h1"><a href="#only-allows-certain-data">Only allows certain data</a></li>
 <li class="toc-entry toc-h1"><a href="#validate-on-frontend">Validate on frontend</a></li>
 <li class="toc-entry toc-h1"><a href="#validate-on-the-backend">Validate on the backend</a></li>
+<li class="toc-entry toc-h1"><a href="#validate-on-the-database">Validate on the database</a></li>
 </ul>
 <p>It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.</p>
 
@@ -245,6 +246,19 @@ window.onload = wrap_img;
 <p>You can also <a href="https://www.baeldung.com/spring-mvc-custom-validator">create custom validators</a>.</p>
 
 <p>Using enums is also an option.</p>
+
+<h1 id="validate-on-the-database">
+<a class="anchor" href="#validate-on-the-database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Validate on the database</h1>
+
+<p>This is as important as validating on backend.</p>
+
+<p>SQL already provides a good schema structure that makes it easy for validation. Contraints can be provided in many NoSQLs too.</p>
+
+<p>I faced an issue where mongodb’s upsert operation inserted multiple records instead of updating one. This was a common mongodb issue.</p>
+
+<p>To fix this I used, added <code class="language-plaintext highlighter-rouge">unique=true</code> for compound index I had made.</p>
+
+<p>For DB validation, make sure that you mark things as unique wherever they need to be unique. Similarly, other key related contraints should be used.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
