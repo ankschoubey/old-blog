@@ -129,3 +129,7 @@ Most apps allow for useful prompts and summaries that can be used.
 ## What are the limitations?
 
 //TODO
+
+## Resources
+
+[Quantified Self: You have the data, now what? - YouTube](https://www.youtube.com/watch?v=XOE3QoxZOWc&list=WL&index=7)

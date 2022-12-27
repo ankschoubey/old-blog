@@ -3,8 +3,8 @@ layout: post
 comments: true
 description: 
 categories: [data, clean-code]
-last_modified_at: 2022-08-06T20:52:08.052481
-last-modified-purpose:
+last_modified_at: 2022-12-27T20:52:08.052481
+last-modified-purpose: added "Validate on the database"
 permalink: /pre-save-data-validation/
 title: Pre-save Data Validation
 toc: true
@@ -42,3 +42,15 @@ Use in all POJOs, especially for incoming request objects and entity objects.
 You can also [create custom validators](https://www.baeldung.com/spring-mvc-custom-validator).
 
 Using enums is also an option.
+
+# Validate on the database
+
+This is as important as validating on backend.
+
+SQL already provides a good schema structure that makes it easy for validation. Contraints can be provided in many NoSQLs too.
+
+I faced an issue where mongodb's upsert operation inserted multiple records instead of updating one. This was a common mongodb issue.
+
+To fix this I used, added `unique=true` for compound index I had made. 
+
+For DB validation, make sure that you mark things as unique wherever they need to be unique. Similarly, other key related contraints should be used.
