@@ -11,11 +11,11 @@ title: My Core Values
 
 In a [previous blog post](/core-values), I tried to explain why defining your core values is essential. These are some of my core values designed around my strengths and flaws. I have modified these multiple times.
 
-I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values. They are my best bet. In this post, you'll find some ways to have things sorted. 
+I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values. They are my best bet. In this post, you'll find some ways to have things sorted.
 
 ***
 
-## **Authenticity**: Being okay with not being perfect.
+## **Authenticity**: Being okay with not being perfect
 
 To know that you’ll probably make some mistakes. But it’s gonna be okay.
 
@@ -24,6 +24,7 @@ To know that you’ll probably make some mistakes. But it’s gonna be okay.
 - Authenticity allows you to accept who you truly are. And to accept who someone else truly is without putting filters.
 
 There are many aspects to authenticity;
+
 1. knowing who you truly are: self-awareness
 2. acting in way that is truly you
 
@@ -33,17 +34,19 @@ Therefore, it supports accepting and adapting to your changes.
 
 **Eg**: You don’t have to be the same person you were when you were 5.
 
-It’s a level of indescribable self-love. To truly care about oneself. It’s saying to yourself that you are imp to yourself. And worth taking care of. 
+It’s a level of indescribable self-love. To truly care about oneself. It’s saying to yourself that you are imp to yourself. And worth taking care of.
 
 Authenticity isn’t arrogance. It isn’t meant to put someone down. Other values, including Team work do apply and are very important. But authenticity is a comfort in your own skin.
 
 **For**:
-- **Phrases** like: I do it for myself. 
+
+- **Phrases** like: I do it for myself.
 - This isn’t everything. But things like dressing better, exercising, taking care of yourself is what you must do for yourself
 
 nuance
 
 Don't talk about yourself badly. Specially when you havent done anything wrong. We are sometimes too critical of our past selves when we don't remember the exact incidents.
+
 ## **Responsible for self**: Full accountability for myself
 
 **IDENTITY**: Responsible
@@ -81,7 +84,7 @@ An experiment we can do to get started is: `Take on and complete as many respons
 {% include image.html file='/images/core-values/cave-you-seek.jpg' caption='Illustration by Justin Gerard' %}
 [^5]
 
-## **Truth**: Unhide the fog by becoming truth seeking missile. 
+## **Truth**: Unhide the fog by becoming truth seeking missile
 
 **IDENTITY**: Honest person, Truthful person
 
@@ -129,7 +132,7 @@ Being unhappy is inefficient.
 
 Happiness/Peace is a skill that you develop and a choice that you make [^2]. You can choose to live a certain way that will lead to peace.
 
-To have peace, your brain should be in controll in every situation. You have to be mentally tough. 
+To have peace, your brain should be in controll in every situation. You have to be mentally tough.
 
 You need to be peaceful if you want things to be good long term. Develop detachment (not wanting), be less judgemental and optimism. Aiming for peace requires a lot of recognizing, rethinking and flipping/unlearing almost everything.
 
@@ -186,6 +189,7 @@ You are what you feed yourself. Inputs matter because not only do they encourage
 Over the long term, you want "inputs" in your life to push yourself in the desired direction.
 
 Some things to consider:
+
 - Information you consume.
 - People you interact with regularly.
 - Where and how you live. (#cleanYourRoom)
@@ -240,24 +244,25 @@ Be impatient with yourself and a bit patient with others.
 
 ## **Team Work**: Node in a network
 
-**IDENTITY**: Caring, Helpful 
+**IDENTITY**: Caring, Helpful
 
 > Treat others like you want to be treated
 
 > Seek to understand. Then to be understood.
 
-Humans are a social animal. We are node in a network[^1]. The way we act and interact in the network determines the life of everyone. 
+Humans are a social animal. We are node in a network[^1]. The way we act and interact in the network determines the life of everyone.
 
 We stand on the shoulders of all those who came before us. And we are building a foundation for all those who will come after.
 
 Plus who are we doing all this "core-values" for if we can't even help and be there people around us. One cannot do it alone and it is worthless doing it alone.
 
 There are multiple levels of "team work" and each requires a different approach.
+
 - Everyone else
 - Close Friends
 - Family and Partner
 
-This also requires a level of self awareness and knowing how your interaction/quality of relationships can be improved. 
+This also requires a level of self awareness and knowing how your interaction/quality of relationships can be improved.
 
 One can be strict with himself but has to be patient with others. And remember that you are probably not right so listen to people carefully -> Openness.
 
@@ -316,7 +321,5 @@ I am trying make these values my second nature by forming habits. The ideal goal
 
 [^1]: Jordan B Peterson
 [^2]: Naval Ravikant
-[^3]: The phrase "Courage is calling" is from Ryan Holiday's book of the same name.
 [^4]: Atomic Habits
 [^5]: [Illustration by Justin Gerald](https://www.instagram.com/justingerardillustration/?hl=en)
-[^6]: Steven Pinker
