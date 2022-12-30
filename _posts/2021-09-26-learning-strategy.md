@@ -6,55 +6,50 @@ categories: [systems, learning, non-professional]
 last_modified_at: 2022-06-28T20:52:08.052481
 last-modified-purpose: Added section on Flash Cards
 permalink: /learning-strategy/
-title: Learning Strategies
+title: Learning Strategies For Development
 ---
 
-These are some strategies I use to learn any new thing including programming languages.
-
-These are probably very influenced by Tim Ferriss's 4 Hour Chef which I had read around 2016.
+These are some strategies I use to learn. These are influenced by Tim Ferriss's 4 Hour Chef, which I read in 2016.
 
 ## Choose material optimized for learning
 
 Material beats Method [^1]
 
-Best materials are the ones that lead you to certain core truths and understanding let to adapt to any situation. They aren't optimized for facts
+The best learning materials are the ones that lead you to certain core truths, philosophies, or understandings that let to adapt to any situation. They aren't optimized for facts.
 
 I pick resources that are:
 
 1. Step by step
-2. Have a clear road to some kind of implementation
-3. As real world as possible.
+2. Have a clear road to implementation
+3. Interactive
 
-For example:
+**For Music**:
 
-For Music:
-
-- I tried learning Piano by reading book but it was no boring and vage. So I purchased SimplyPiano.
-- Similarly for guitar I got SimplyGuitar.
+- I tried learning Piano by reading a book, but it was boring and vague. So I purchased SimplyPiano.
+- Similarly, for the guitar, I got SimplyGuitar.
 
 For Programming Topics,
 
-- I prefer platform allow trying out code online without any local installation.
+- I prefer platforms that allow trying out code online without any local installation.
   - Codecademy is a good one. I used it for many things.
-  - Recently I started learning
 
 ## Increase the number of iterations
 
-This doesn’t mean more time. This means more iterations.
+Increasing iterations doesn’t mean more time.
 
-For example: If you want to make good Kanban boards, make many Kanban boards and use it in your life
+For example: If you want to make good Kanban boards, make many Kanban boards and use it regularly in your life
+
+Similarly, use the knowledge you have learnt.
 
 ## Role of Books
 
-I don't use books for learning everything.
+I don't use books to learn everything. But certain concepts are such that they require an entire book.
 
-But certain concepts are such that they require an entire book.
-
-I don't go out to but book instantly. I wait a few days to see if I really need to.
+I don't buy a book instantly. I wait a few days to see if I need it.
 
 Sometimes YouTube videos are enough to cure curiosity or find the answer.
 
-Books are great for deep topics have a lot of details in it.
+Books are great for deep topics and have a lot of details in them.
 
 ## Learn in chunks
 
