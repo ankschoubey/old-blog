@@ -15,7 +15,7 @@ I want things to be as "sorted" in the long term as possible without being super
 
 ***
 
-## **Authentivity**: Being okay with not being perfect.
+## **Authenticity**: Being okay with not being perfect.
 
 To know that you’ll probably make some mistakes. But it’s gonna be okay.
 
