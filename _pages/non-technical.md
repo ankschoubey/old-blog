@@ -32,7 +32,7 @@ graph TD
 
 {% include postsOfTag.html tag='matured' %}
 
-**Matured Essays**
+**Essays on Truth**
 
 {% include postsOfTag.html tag='truth' %}
 
