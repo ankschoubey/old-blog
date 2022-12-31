@@ -8,10 +8,12 @@ permalink: /philosophy/
 
 **TLDR**:
 
-- Be healthy. Health is most important thing ever.
-- Develop and rely on core-values & good habits.
+- Be healthy. Health is most important.
+- Develop and rely on your core values & good habits.
 
 [Philosophical Resources](/non-technical-resources)
+
+These are some things that drive human behavior. I intend to cover these areas in my writing.
 
 ```mermaid!
 graph TD
@@ -29,6 +31,10 @@ graph TD
 **Matured Essays**
 
 {% include postsOfTag.html tag='matured' %}
+
+**Matured Essays**
+
+{% include postsOfTag.html tag='truth' %}
 
 **Incubating Essays**
 
