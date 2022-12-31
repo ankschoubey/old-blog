@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Enforcing Architecture with Architecture Testing | Ankush Choubey</title>
+<title>Code Review Checklist | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Enforcing Architecture with Architecture Testing">
+<meta property="og:title" content="Code Review Checklist">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Architecture is a crucial pillar of accelerating product delivery. It’s hard to keep a team in sync with architecture over time. Architectural testing can enforce architectural decisions as simple tests, dramatically reducing code review effort and extending code maintainability.">
-<meta property="og:description" content="Architecture is a crucial pillar of accelerating product delivery. It’s hard to keep a team in sync with architecture over time. Architectural testing can enforce architectural decisions as simple tests, dramatically reducing code review effort and extending code maintainability.">
-<link rel="canonical" href="https://www.ankushchoubey.com/architecture-testing/">
-<meta property="og:url" content="https://www.ankushchoubey.com/architecture-testing/">
+<meta name="description" content="Why do we need a code review checklist?">
+<meta property="og:description" content="Why do we need a code review checklist?">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/code-review-checklist">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/code-review-checklist">
 <meta property="og:site_name" content="Ankush Choubey">
-<meta property="og:image" content="https://www.ankushchoubey.com/images/architecture-testing.png">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2022-03-16T00:00:00-05:00">
+<meta property="article:published_time" content="2022-12-31T00:00:00-06:00">
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/architecture-testing/"},"url":"https://www.ankushchoubey.com/architecture-testing/","@type":"BlogPosting","headline":"Enforcing Architecture with Architecture Testing","dateModified":"2022-08-20T15:52:08-05:00","datePublished":"2022-03-16T00:00:00-05:00","image":"https://www.ankushchoubey.com/images/architecture-testing.png","description":"Architecture is a crucial pillar of accelerating product delivery. It’s hard to keep a team in sync with architecture over time. Architectural testing can enforce architectural decisions as simple tests, dramatically reducing code review effort and extending code maintainability.","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/code-review-checklist"},"url":"https://www.ankushchoubey.com/v1/code-review-checklist","@type":"BlogPosting","headline":"Code Review Checklist","dateModified":"2022-12-31T14:52:08-06:00","datePublished":"2022-12-31T00:00:00-06:00","description":"Why do we need a code review checklist?","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -125,18 +124,17 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Enforcing Architecture with Architecture Testing</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Code Review Checklist</h1>
 
-    <p class="page-description">Architecture is a crucial pillar of accelerating product delivery. It's hard to keep a team in sync with architecture over time.<br><br> Architectural testing can enforce architectural decisions as simple tests, dramatically reducing code review effort and extending code maintainability.</p>
-<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-03-16T00:00:00-05:00" itemprop="datePublished">
-        Written: Mar 16, 2022
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-08-20T15:52:08-05:00" itemprop="dateModified">
-          Updated: Aug 20, 2022
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2022-12-31T00:00:00-06:00" itemprop="datePublished">
+        Written: Dec 31, 2022
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2022-12-31T14:52:08-06:00" itemprop="dateModified">
+          Updated: Dec 31, 2022
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -163,11 +161,7 @@ window.onload = wrap_img;
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
-    
-    <a class="tag fa fa-hashtag testing" href="/categories/#testing">testing</a>
-    
-    <a class="tag fa fa-hashtag tdd-example" href="/categories/#tdd-example">tdd-example</a>
+    <a class="tag fa fa-hashtag engineering" href="/categories/#engineering">engineering</a>
     
 </div>
 <div class="right-section">
@@ -207,108 +201,56 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/architecture-testing.png" alt=""></p>
+    <h2 id="why-do-we-need-a-code-review-checklist">Why do we need a code review checklist?</h2>
 
-<h2 id="introduction">Introduction</h2>
+<p>We developers must know a little bit of everything from architecture to low-level code details like HTTP Statuses. Apart from that, we also have non-technical work that needs to be kept up to date.</p>
 
-<p>SW Architecture is one of the most important pillars of an SW project. Following Engineering and Agile practices are part of the equation too. But having a clean extensible architecture facilitates a much faster development.</p>
+<p>For this reason, we need checklists.</p>
 
-<p>When working with a group of people, it is significantly time-consuming to enforce rules for maintainability. For example, it’s common to find different classes that do the same thing named differently. Some team member names it controllers. Some name it “handler”.</p>
+<p>Checklists are proven to increase quality and compliance. They are used heavily in the medical domain. Medical professionals who use checklists make fewer mistakes and are likelier to get through all the steps properly.</p>
 
-<p>Similarly, some places need special care. For example, the API Requests body needs to be validated.</p>
+<p>An important goal for us developers is Continous Delivery, where every commit we make reaches production and works properly. To avoid the cycle of making mistakes when we commit, we need accurate processes that help catch our bugs early on.</p>
 
-<p>There are a few ways to enforce architecture:</p>
+<p>These processes can be in the automated form of linters, tests, etc. But still we need a human to verify what we have been doing.</p>
+
+<p>We need a code review checklist to make the code review process streamlined and understood by the entire team.</p>
+
+<h2 id="how-can-we-use-a-code-review-checklist">How can we use a code review checklist?</h2>
+
+<p>We can use code-review checklists like doctors do.</p>
+
+<p>Before committing, we can walk through our code review checklist and tick off points. This will ensure we have a good first screening ourselves before submitting to code review.</p>
+
+<p>The code review checklist is mostly a yes or no questionnaire. It need not be super complex. And would take a max of 5 minutes to go through.</p>
+
+<p>If you aim to do 1 Small story in 1 day and 1 medium story in 2.5 days, 5 minutes is nothing to ensure the same story doesn’t produce a bug.</p>
+
+<h2 id="what-items-can-we-add-to-a-code-review-checklist">What items can we add to a code review checklist?</h2>
+
+<h3 id="api">API</h3>
+
 <ol>
-  <li>Strong Linter</li>
-  <li>Creating Helper Libraries</li>
-  <li>Architecture Testing</li>
+  <li>Are you using the correct method?</li>
+  <li>Are you using a suitable schema?</li>
+  <li>Are you returning the proper error code?</li>
+  <li>Does the return value need to be cached?</li>
 </ol>
 
-<p>This particular post will focus on Architectural Testing.</p>
+<h3 id="logging">Logging</h3>
 
-<h1 id="what-are-architecture-tests">What are Architecture Tests?</h1>
-
-<p>Architecture tests help enforce rules that are otherwise missed by linters. Linters provide some coding standards but usually aren’t sophisticated enough for the capabilities architecture testing can provide.</p>
-
-<p>For example, if you have a java <code class="language-plaintext highlighter-rouge">@Entity</code> and want to ensure all of it has certain <code class="language-plaintext highlighter-rouge">javax</code> validation whenever someone creates a new <code class="language-plaintext highlighter-rouge">@Entity</code>.</p>
-
-<h1 id="libraries-for-architecture-testing">Libraries for Architecture Testing</h1>
-
-<p>I found two libraries:</p>
 <ol>
-  <li>
-<a href="https://www.archunit.org/">ArchUnit</a>: For Java</li>
-  <li>
-<a href="https://github.com/ts-arch/ts-arch">TsArch</a>: Typescript version of ArchUnit</li>
+  <li>Are log comments proper?</li>
 </ol>
-
-<h1 id="archunit">ArchUnit</h1>
-
-<p>ArchUnit provides Architecture Testing for Java and works well with JUnit.</p>
-
-<p>Example: If you want to ensure all String fields for Request Objects have @Size annotation, you could write it with ArchUnit.</p>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">fields</span><span class="o">()</span>
-    <span class="o">.</span><span class="na">that</span><span class="o">()</span>
-    <span class="o">.</span><span class="na">haveRawType</span><span class="o">(</span><span class="nc">String</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
-    <span class="o">.</span><span class="na">should</span><span class="o">()</span>
-    <span class="o">.</span><span class="na">beAnnotatedWith</span><span class="o">(</span><span class="nc">Size</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
-</code></pre></div></div>
-
-<p>Since I started using ArchUnit, the quality of code has improved by a huge margin.</p>
-
-<h1 id="implement-architecture-testing-as-tdd">Implement Architecture Testing as TDD</h1>
-
-<p>With architecture testing, the work of an architect now expands and can live long after the architect is gone from the project since every architectural decision is written as a test.</p>
-
-<p>I try to implement this the same way.</p>
-
-<p>For example, I want all tests to be really fast. <a href="spring-boot-junit-faster/">I had written an article about it</a>. And one of the ways is that it requires avoiding <code class="language-plaintext highlighter-rouge">@DirtiesContext</code> in Spring Boot. And forcing the developer to choose between parallel execution and non-parallel execution.</p>
-
-<p>I can share it with the team and hope everyone follows it.</p>
-
-<p>But we developers have too many things on our plate, and we juggle a lot. And mostly, it’s the code reviewer who’ll asses these decisions.</p>
-
-<p>So, I instead write these are ArchTests.</p>
-
-<p>Also, ArchTests can be thought of as TDD. Before starting, the architect decides how everything should look and grow.</p>
-
-<h2 id="formatting-archunit-tests">Formatting ArchUnit Tests</h2>
-
-<p>I like the <a href="/method-when-should">method/when/then</a> format. I have a format that makes it easier to write arch unit tests.</p>
-
-<p>classes/methods/fields</p>
-<ul>
-  <li>that: have</li>
-  <li>should</li>
-</ul>
-
-<h2 id="here-are-some-ideas-for-arch-tests">Here are some ideas for arch tests</h2>
-
-<ul>
-  <li>If something is mocked, its name should start with mock</li>
-</ul>
-
-<h1 id="more-resources">More Resources</h1>
-
-<p>I have read many resources while trying to learn about ArchUnit. Here are a few:</p>
-
-<ul>
-  <li><a href="https://shekhargulati.com/2020/05/04/using-archunit-to-enforce-architecture-best-practices/">Using ArchUnit To Enforce Architecture Best Practices</a></li>
-  <li><a href="https://dev.to/andressacco/archunit-validate-the-architecture-of-our-projects-3hc9">Archunit: Validate the architecture of our projects</a></li>
-  <li>
-<a href="https://github.com/ts-arch/ts-arch">TsArch</a>: Typescript version of ArchUnit</li>
-</ul>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/naming-design-patterns/">« Clean code - Naming convension for design patterns</a>
+      <a class="prev" href="/v1/productive">« Productive use of time</a>
     
     
-      <a class="next" href="/3-man-squad/">The Synchonized 3 Man Squad +/-1 »</a>
+      <a class="next" href="/v1/truth/liars">Implement Zero Trust in Real Life »</a>
     
   </div>
 
@@ -344,8 +286,8 @@ window.onload = wrap_img;
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'https://www.ankushchoubey.com/architecture-testing/';
-      this.page.identifier = 'https://www.ankushchoubey.com/architecture-testing/';
+      this.page.url = 'https://www.ankushchoubey.com/v1/code-review-checklist';
+      this.page.identifier = 'https://www.ankushchoubey.com/v1/code-review-checklist';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -356,7 +298,7 @@ window.onload = wrap_img;
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/architecture-testing/" hidden></a>
+<a class="u-url" href="/v1/code-review-checklist" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">

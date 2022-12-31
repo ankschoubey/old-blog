@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-31T00:52:02-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Why we should strive to tell the truth always?</title><link href="https://www.ankushchoubey.com/v1/truth/why-tell-the-truth" rel="alternate" type="text/html" title="Why we should strive to tell the truth always?" /><published>2022-12-31T00:00:00-06:00</published><updated>2022-12-31T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-why-tell-the-truth</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/why-tell-the-truth">&lt;p&gt;&lt;strong&gt;Living and speaking your truth makes you free&lt;/strong&gt;:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2022-12-31T04:29:43-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Why we should strive to tell the truth always?</title><link href="https://www.ankushchoubey.com/v1/truth/why-tell-the-truth" rel="alternate" type="text/html" title="Why we should strive to tell the truth always?" /><published>2022-12-31T00:00:00-06:00</published><updated>2022-12-31T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-why-tell-the-truth</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/why-tell-the-truth">&lt;p&gt;&lt;strong&gt;Living and speaking your truth makes you free&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;p&gt;Why lie when you can tell the truth and be free? And will it make things better? That’s a double bonus.&lt;/p&gt;
 
@@ -89,13 +89,52 @@
 
 &lt;p&gt;If you are desperate about something, it’s easier to believe a lie in that domain.&lt;/p&gt;
 
-&lt;p&gt;Most things on social media are also lying.&lt;/p&gt;
+&lt;p&gt;Most things on social media are also lying. Why would you wanna stay on a platform that’s fake?&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://www.merits.com/hs-fs/hubfs/Imported_Blog_Media/how-many-people-are-lying-Feb-26-2022-05-34-55-04-PM.png?width=1520&amp;amp;name=how-many-people-are-lying-Feb-26-2022-05-34-55-04-PM.png&quot; alt=&quot;Common Lies&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.merits.com/blog/spotting-the-truth-in-a-world-of-lies&quot;&gt;Spotting the Truth in a World of Lies&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><category term="mature" /><summary type="html">Liars can wrap you and your worldview to get what they want. They often go unnoticed. They are like successful social black-hat hackers. You need good security to protect yourself.</summary></entry><entry><title type="html">Productive use of time</title><link href="https://www.ankushchoubey.com/v1/productive" rel="alternate" type="text/html" title="Productive use of time" /><published>2022-12-25T00:00:00-06:00</published><updated>2022-12-22T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-productive</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/productive">&lt;p&gt;There are a few rules I discovered that helps.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.merits.com/blog/spotting-the-truth-in-a-world-of-lies&quot;&gt;Spotting the Truth in a World of Lies&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><category term="mature" /><summary type="html">Liars can wrap you and your worldview to get what they want. They often go unnoticed. They are like successful social black-hat hackers. You need good security to protect yourself.</summary></entry><entry><title type="html">Code Review Checklist</title><link href="https://www.ankushchoubey.com/v1/code-review-checklist" rel="alternate" type="text/html" title="Code Review Checklist" /><published>2022-12-31T00:00:00-06:00</published><updated>2022-12-31T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-code-review-checklist</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/code-review-checklist">&lt;h2 id=&quot;why-do-we-need-a-code-review-checklist&quot;&gt;Why do we need a code review checklist?&lt;/h2&gt;
+
+&lt;p&gt;We developers must know a little bit of everything from architecture to low-level code details like HTTP Statuses. Apart from that, we also have non-technical work that needs to be kept up to date.&lt;/p&gt;
+
+&lt;p&gt;For this reason, we need checklists.&lt;/p&gt;
+
+&lt;p&gt;Checklists are proven to increase quality and compliance. They are used heavily in the medical domain. Medical professionals who use checklists make fewer mistakes and are likelier to get through all the steps properly.&lt;/p&gt;
+
+&lt;p&gt;An important goal for us developers is Continous Delivery, where every commit we make reaches production and works properly. To avoid the cycle of making mistakes when we commit, we need accurate processes that help catch our bugs early on.&lt;/p&gt;
+
+&lt;p&gt;These processes can be in the automated form of linters, tests, etc. But still we need a human to verify what we have been doing.&lt;/p&gt;
+
+&lt;p&gt;We need a code review checklist to make the code review process streamlined and understood by the entire team.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-can-we-use-a-code-review-checklist&quot;&gt;How can we use a code review checklist?&lt;/h2&gt;
+
+&lt;p&gt;We can use code-review checklists like doctors do.&lt;/p&gt;
+
+&lt;p&gt;Before committing, we can walk through our code review checklist and tick off points. This will ensure we have a good first screening ourselves before submitting to code review.&lt;/p&gt;
+
+&lt;p&gt;The code review checklist is mostly a yes or no questionnaire. It need not be super complex. And would take a max of 5 minutes to go through.&lt;/p&gt;
+
+&lt;p&gt;If you aim to do 1 Small story in 1 day and 1 medium story in 2.5 days, 5 minutes is nothing to ensure the same story doesn’t produce a bug.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-items-can-we-add-to-a-code-review-checklist&quot;&gt;What items can we add to a code review checklist?&lt;/h2&gt;
+
+&lt;h3 id=&quot;api&quot;&gt;API&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Are you using the correct method?&lt;/li&gt;
+  &lt;li&gt;Are you using a suitable schema?&lt;/li&gt;
+  &lt;li&gt;Are you returning the proper error code?&lt;/li&gt;
+  &lt;li&gt;Does the return value need to be cached?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;logging&quot;&gt;Logging&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Are log comments proper?&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="engineering" /><summary type="html">Why do we need a code review checklist?</summary></entry><entry><title type="html">Productive use of time</title><link href="https://www.ankushchoubey.com/v1/productive" rel="alternate" type="text/html" title="Productive use of time" /><published>2022-12-25T00:00:00-06:00</published><updated>2022-12-22T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-productive</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/productive">&lt;p&gt;There are a few rules I discovered that helps.&lt;/p&gt;
 
 &lt;h2 id=&quot;see-the-reality-as-it-is&quot;&gt;See the reality as it is&lt;/h2&gt;
 
@@ -590,10 +629,4 @@ Then when should change path&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/images/v1-why-i-write.jpg&quot; alt=&quot;Why I write?&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@aaronburden?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Aaron Burden&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/writing?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="writing" /><category term="non-professional" /><summary type="html">Writing clarifies my thought more than anything. It converts chaos into an order of some kind.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-why-i-write.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-why-i-write.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep messages unread</title><link href="https://www.ankushchoubey.com/v1/messages-unread" rel="alternate" type="text/html" title="Keep messages unread" /><published>2022-12-15T00:00:00-06:00</published><updated>2022-12-15T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-unread</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/messages-unread">&lt;p&gt;You don’t need to read every message, every email, every notification and every new video you receive.&lt;/p&gt;
-
-&lt;p&gt;Life gets calmer once you relax and let some things be.&lt;/p&gt;
-
-&lt;p&gt;Why rush? When you can just wait for things to collect and then read all of them at once.&lt;/p&gt;
-
-&lt;p&gt;Try the switch and see within a month, how many unwanted things you were putting your attention to.&lt;/p&gt;</content><author><name></name></author><category term="peace" /><category term="non-professional" /><summary type="html">You don’t need to read every message, every email, every notification and every new video you receive.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-why-i-write.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-why-i-write.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@aaronburden?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Aaron Burden&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/writing?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="writing" /><category term="non-professional" /><summary type="html">Writing clarifies my thought more than anything. It converts chaos into an order of some kind.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-why-i-write.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-why-i-write.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
