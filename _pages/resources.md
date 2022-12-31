@@ -42,6 +42,10 @@ The resources are removed when associated blogposts are written.
       - [AirBnb 6 Golden Rules via Brian Chesky - YouTube](https://www.youtube.com/watch?v=jgPYSogOOTY)
     - Oct
       - [Amazon: The Leadership Principles Explained - YouTube](https://www.youtube.com/playlist?list=PL9JNmYfQa0bgT_eJKk2uflwtiBIpbImdB)
+- Work Ethics
+  - 2022
+    - Dec
+      - [Narendra Modi's working style - YouTube](https://www.youtube.com/watch?v=bcQG4QjK7EQ&list=WL&index=2)
 
 ### Frontend
 

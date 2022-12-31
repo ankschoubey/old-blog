@@ -8,7 +8,7 @@ permalink: /configuration-within-application/
 title: Keep most of your configuration within application not Jenkins
 ---
 
-If you haave a separate DevOps teams, Jenkins will usually be configured by them.
+If you have a separate DevOps teams, Jenkins will usually be configured by them.
 
 Developer will have an easier life if they have as less dependency on external team as possible.
 
