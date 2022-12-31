@@ -13,6 +13,8 @@ In a [previous blog post](/core-values), I tried to explain why defining your co
 
 I want things to be as "sorted" in the long term as possible without being super involved. I do not compromise on my values. They are my best bet. In this post, you'll find some ways to have things sorted.
 
+![My core values](/images/core-values.png)
+
 ***
 
 ## **Authenticity**: Being okay with not being perfect
