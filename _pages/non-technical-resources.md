@@ -160,6 +160,8 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 ## Psychology
 
 - 2022
+  - Dec
+    - [Tips for Regulating Dopamine with Andrew Huberman](https://www.youtube.com/watch?v=7OgmCikx754)
   - Sep
     - [HealthyGamerGG](https://www.youtube.com/c/HealthyGamerGG): ADHD Health
   - Oct
@@ -169,6 +171,8 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 ## Communication
 
 - 2022
+  - Dev
+    - [8 Communication Hacks I Use To Appear More Senior As a Young Employee | by Katrine Tjoelsen | Nov, 2022 | Better Humans](https://betterhumans.pub/8-communication-hacks-i-use-to-appear-more-senior-as-a-young-employee-9106468bf5aa)
   - Sep
     - YouTube Channel: [Communication Coach Alex Lyon](https://www.youtube.com/c/CommunicationSkillsCoachAlexLyon)
   - Oct
@@ -198,6 +202,9 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 
 - Responsibility
   - 2022
+    - Dec
+      - [WATCH THIS if you feel lost in life. - YouTube](https://www.youtube.com/shorts/AzBN48t2dfc)
+      - [Feeling lost in life? - YouTube](https://www.youtube.com/shorts/g_bcnNHkAok)
     - Oct
       - [If You Have Goals, You Have Responsibility - YouTube](https://www.youtube.com/watch?v=9pyeDvxeXkg)
 - Truth

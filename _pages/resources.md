@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Resources
 permalink: /resources/
 ---
 
@@ -94,6 +94,7 @@ The resources are removed when associated blogposts are written.
       7. DDoS 7:43
     - [How I got hacked... 7 times (security tips for web applications) - YouTube](https://www.youtube.com/watch?v=hFuGbFC_VHA)
     - [How the Best Hackers Learn Their Craft - YouTube](https://www.youtube.com/watch?v=6vj96QetfTg)
+    - [PhD Security - YouTube](https://www.youtube.com/@phdsecurity4081/videos)
   - Nov
     - [Keep all your packages up to date with Dependabot](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/)
     - [The GitHub Blog: Security News and Updates](https://github.blog/category/security/)
