@@ -262,6 +262,9 @@ The resources are removed when associated blogposts are written.
       - [How I would learn AWS Cloud (If I could start over) - YouTube](https://www.youtube.com/watch?v=Z0EtjKNRdR4)
 - Tools
   - 2022
+    - Dev
+      - Deploy automatically in parallel: https://stackoverflow.com/a/56841265
+        - Make sure to use full name:  full project name is `folder1/folder2/MyJob`.
     - Nov
       - [Conductor Documentation](https://conductor.netflix.com/)
     - Sep
