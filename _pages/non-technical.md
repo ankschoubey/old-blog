@@ -34,6 +34,19 @@ graph TD
 
 ## Core Values
 
+**Introduction**
+{% include postsOfTag.html tag='matured' %}
+
+**My 7 Core Values**:
+
+1. [Truth](#truth)
+1. [Responsibility](#responsibility)
+1. [Inputs](#inputs)
+1. [Systems](#systems)
+1. [Time](#time)
+1. [Peace](#peace)
+1. [Team Work](#team work)
+
 ## Truth
 
 {% include postsOfTag.html tag='truth' %}
