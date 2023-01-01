@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [philosophical, non-professional]
+categories: [philosophical, non-professional, responsibility]
 last_modified_at: 2022-05-02T20:52:08.052481
 last-modified-purpose:
 permalink: /good-at-one-thing/

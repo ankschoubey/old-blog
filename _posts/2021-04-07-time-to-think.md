@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, decision-making]
+categories: [philosophical, decision-making, truth, peace]
 title: You need time to think
 last_modified_at: 2021-08-14T20:42:15.596505
 permalink: /think/

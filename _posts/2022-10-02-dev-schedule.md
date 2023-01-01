@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [dev-productivity]
+categories: [dev-productivity, systems]
 last_modified_at: 2022-09-25T20:52:08.052481
 last-modified-purpose:
 permalink: /dev-schedule/

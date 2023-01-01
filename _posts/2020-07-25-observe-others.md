@@ -2,7 +2,7 @@
 description: Learning faster
 title: Observe other people in action
 comments: true
-categories: []
+categories: [truth]
 layout: post
 last_modified_at: 2021-08-01T20:42:15.319898
 use_math: true

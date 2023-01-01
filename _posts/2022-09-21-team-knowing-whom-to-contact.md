@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [agile, collaboration]
+categories: [agile, collaboration, team-work]
 last_modified_at: 2022-09-21T20:52:08.052481
 last-modified-purpose:
 permalink: /team-knowing-whom-to-contact/

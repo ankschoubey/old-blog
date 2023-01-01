@@ -2,7 +2,7 @@
 toc: false
 layout: post
 comments: true
-categories: [philosophical, for-future-me, personal]
+categories: [philosophical, for-future-me, personal, responsibility, systems]
 title: Compare yourself with who you were yesterday
 last_modified_at: 2021-05-04T20:42:15.654723
 permalink: /compare/

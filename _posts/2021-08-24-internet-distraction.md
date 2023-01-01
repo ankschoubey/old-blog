@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: Dodge Recommender Systems
-categories: [recommender-systems]
+categories: [non-professional, inputs]
 last_modified_at: 2021-09-06T20:52:08.052481
 permalink: /internet-distractions/
 title: Making Internet Less Distracting

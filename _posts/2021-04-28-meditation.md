@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, collection-of-thoughts]
+categories: [philosophical, collection-of-thoughts, peace]
 title: Meditation is how you become peaceful all the time
 permalink: /meditation/
 last_modified_at: 2021-04-28T20:42:15.624828

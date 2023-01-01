@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [business, leadership]
+categories: [business, leadership, team-work]
 title: Who is a leader?
 last_modified_at: 2021-08-01T20:42:15.419969
 permalink: /leader/

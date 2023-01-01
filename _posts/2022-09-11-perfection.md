@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Why failing forward is the only way?
-categories: [non-professional]
+categories: [non-professional, systems]
 last_modified_at: 2022-09-08T20:52:08.052481
 last-modified-purpose:
 permalink: /perfection/
@@ -20,18 +20,21 @@ Only by doing do we learn. Only by failing do we recognize and avoid situations 
 
 Things, if they are progressing well, will always be an upwards spiral. As long as they is an upwards spiral, it doesn't matter that we currently failed. Eventually, we'll succeed, and that's enough.
 
-Failure is a sign we are doing 
+Failure is a sign we are doing
+
 1. Something out of our comfort zone. -> This is good because it means we are doing something.
 2. Something we are doing wrong -> means we can fix it, and then we won't have a problem.
 
 Having a good perspective on failure is highly underestimated.
 
 If we are failing all the time, however, it could mean a few things. All of these things provide an opportunity for us to improve.
+
 1. Maybe we don't know something -> in which case we need to find an answer.
 2. Maybe we are trying to solve the wrong problem or from a bad angle-> we need good root cause analysis both post-mortem and pre-mortem.
 3. Maybe we are asking the wrong question -> find the right question to ask then.
 
 Often the best approach to move towards perfection is:
+
 1. Do something.
 2. Fail
 3. Learn

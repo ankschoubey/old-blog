@@ -2,7 +2,7 @@
 description: 
 title: Collection of Thoughts on Writing
 comments: true
-categories: [collection-of-thoughts, non-professional]
+categories: [collection-of-thoughts, non-professional, truth]
 layout: post
 use_math: true
 last_modified_at: 2022-10-08T20:42:15.226335

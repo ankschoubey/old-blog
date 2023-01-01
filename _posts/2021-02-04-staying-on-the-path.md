@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical, for-future-me]
+categories: [philosophical, for-future-me, responsibility]
 title: The Path / Ethics
 permalink: /path/
 last_modified_at: 2021-08-01T20:42:15.552524

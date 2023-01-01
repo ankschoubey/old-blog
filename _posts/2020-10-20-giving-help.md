@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [leadership, philosophical, business]
+categories: [leadership, philosophical, business, team-work]
 last_modified_at: 2021-08-01T20:42:15.468577
 title: Empowerment/Enabling
 permalink: /giving_help/

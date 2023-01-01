@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description:
-categories: [philosophical, decision-making]
+categories: [philosophical, decision-making, peace]
 last_modified_at: 2021-08-16T20:52:08.052481
 permalink: /questions-false/
 title: "All Questions are False"

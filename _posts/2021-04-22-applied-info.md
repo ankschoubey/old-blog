@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: 
-categories: [decision-making,collection-of-thoughts, non-professional]
+categories: [decision-making,collection-of-thoughts, non-professional, truth]
 title: Research Fast, Understand the Gist, Apply, Iterate, and Move Forward
 last_modified_at: 2022-10-14T20:42:15.598510
 permalink: /applied-info/
@@ -18,6 +18,7 @@ Information is clutter. Applying information is power.
 The more applicable information you can find, the more you can apply them and make better decisions.
 
 ## Why information should be applied?
+
 Information if not applied is meaningless unless it is your profession to find and document new information.
 
 By applying information faster, you will solve your problems faster or at-least move towards solving your problems faster.
@@ -47,6 +48,7 @@ Rather than consuming breaking news every few minutes, it's better to let things
 There are many ways to find applicable information, these are a few that come to mind.
 
 ### Planning
+
 A plan may or may not be used, but planning is useful because it uncovers many aspects of the problem. Also, it is easier to discovers paths to avoid.
 
 ### Questions
@@ -61,7 +63,7 @@ Googling the right way is also a key skill.
 
 ### Reading Books
 
-Some non-fiction books are made in a way where you can skip chapters liberally. Do so, close the book and live your life. 
+Some non-fiction books are made in a way where you can skip chapters liberally. Do so, close the book and live your life.
 
 For other non-fiction books, you can do the same if you understand the topic enough. If you don't, don't skip because you'll risk learning false information.
 
@@ -71,11 +73,12 @@ Aspects from one discipline apply to other. Learn something random and you'll fi
 
 It see,s better to learn by categorizing. Like: A music instrument, a physical activity, a social activity, etc.
 
-### Mental Models and Heuristics.
+### Mental Models and Heuristics
 
 These can help you find out more information about a topic faster by making good guesses.
 
 Some of my favorite mental models are:
+
 - Inversion (Most Useful)
 - Occam's razor
 - Map is not a territory
@@ -85,7 +88,7 @@ Some of my favorite mental models are:
 
 ### [Make Time and Think](/think/)
 
-Thinking means you’ll question things from the first principles. To see if they are valid or not. 
+Thinking means you’ll question things from the first principles. To see if they are valid or not.
 
 Then you scrutinize it. By thinking you find the solutions yourself and rely less on other sources.
 

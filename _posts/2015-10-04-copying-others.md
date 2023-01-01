@@ -2,7 +2,7 @@
 description: 
 title: Copying Others vs Being Yourself
 comments: true
-categories: []
+categories: [truth]
 layout: post
 last_modified_at: 2015-10-04T20:42:15.058326
 use_math: true

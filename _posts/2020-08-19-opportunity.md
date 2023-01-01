@@ -3,7 +3,7 @@ toc: true
 layout: post
 comments: true
 description: 
-categories: []
+categories: [time]
 last_modified_at: 2021-08-01T20:42:15.377623
 title: Opportunity Cost
 permalink: /opportunity/

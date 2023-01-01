@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: My experience implementing Kanban Principles.
-categories: [lean, agile]
+categories: [lean, agile, systems]
 last_modified_at: 2022-08-20T20:52:08.052481
 last-modified-purpose:
 permalink: /implementing-kanban/

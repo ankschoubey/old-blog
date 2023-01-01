@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [decision-making]
+categories: [decision-making, truth, observability]
 last_modified_at: 2022-08-13T20:52:08.052481
 last-modified-purpose:
 permalink: /data-driven-decisions/

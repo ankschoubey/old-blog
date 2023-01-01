@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical]
+categories: [philosophical, responsibility, team-work]
 title: Cases To Be Humble
 permalink: /humble/
 last_modified_at: 2021-08-01T20:42:15.643388

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [non-professional, health]
+categories: [non-professional, health, systems]
 last_modified_at: 2022-10-25T20:52:08.052481
 last-modified-purpose:
 permalink: /dealing-with-health-problems/

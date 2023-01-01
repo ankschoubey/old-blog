@@ -3,11 +3,12 @@ toc: true
 layout: post
 comments: true
 description: Probably the most powerful mental model
-categories: [decision-making]
+categories: [decision-making, truth]
 last_modified_at: 2021-08-14T20:52:08.052481
 permalink: /inversion/
 title: Inversion
 ---
+
 Mental models are heuristics that help in conceptualizing common occurring themes and help in better decision making.
 
 Clarity is power. If you know something well enough, the decisions you make around that information will have a higher chance of being accurate.

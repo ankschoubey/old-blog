@@ -32,9 +32,35 @@ graph TD
 
 {% include postsOfTag.html tag='matured' %}
 
-**Essays on Truth**
+## Core Values
+
+## Truth
 
 {% include postsOfTag.html tag='truth' %}
+
+## Responsibility
+
+{% include postsOfTag.html tag='responsibility' %}
+
+## Inputs
+
+{% include postsOfTag.html tag='inputs' %}
+
+## Systems
+
+{% include postsOfTag.html tag='systems' %}
+
+## Time
+
+{% include postsOfTag.html tag='time' %}
+
+## Peace
+
+{% include postsOfTag.html tag='peace' %}
+
+## Team Work
+
+{% include postsOfTag.html tag='team-work' %}
 
 **Incubating Essays**
 

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [non-professional, truth-seeking]
+categories: [non-professional, truth]
 last_modified_at: 2022-09-24T20:52:08.052481
 last-modified-purpose:
 permalink: /advice-that-suggest-being-fake/

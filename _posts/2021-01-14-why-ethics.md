@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: A under-utilized leverage
-categories: [philosophical, collection-of-thoughts, decision-making]
+categories: [philosophical, collection-of-thoughts, decision-making, mature]
 title: Why Ethics? 
 permalink: /why_ethics/
 last_modified_at: 2021-08-01T20:42:15.540962

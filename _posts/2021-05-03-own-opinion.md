@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description:
-categories: [philosophical]
+categories: [philosophical, truth]
 title: Develop your own opinions and reasonings
 last_modified_at: 2021-05-03T20:42:15.650028
 permalink: /original-opinion/

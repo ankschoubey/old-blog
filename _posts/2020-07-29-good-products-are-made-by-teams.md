@@ -2,7 +2,7 @@
 description: Usually
 title: Good products are built by teams not individuals
 comments: true
-categories: [ business]
+categories: [business, team-work]
 layout: post
 use_math: true
 last_modified_at: 2021-08-01T20:42:15.327198
