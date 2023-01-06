@@ -9,6 +9,8 @@ permalink: /v1/template-for-gherkin-specs
 title: A Template for Gherkin Specs
 ---‌
 
+This template is inspired by: 
+
 ```feature
 @tagPlaceholder1 @tagPlaceholder2
 Feature: A new feature
@@ -44,3 +46,8 @@ Feature: A new feature
      When {present tense}
      Then {future tense}
 ```
+
+
+# More Resources to check out to update this article:
+
+[A practical guide to writing technical specs - Stack Overflow Blog](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/)
