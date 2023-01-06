@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-06T15:06:59-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">V1 Template For Gherkin Specs</title><link href="https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs.html" rel="alternate" type="text/html" title="V1 Template For Gherkin Specs" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-06T15:05:25-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-06T15:10:27-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">V1 Template For Gherkin Specs</title><link href="https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs.html" rel="alternate" type="text/html" title="V1 Template For Gherkin Specs" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-06T15:08:45-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 comments: true
 description: 
@@ -48,7 +48,152 @@ Feature: A new feature
 
 &lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post comments: true description: categories: [bdd] last_modified_at: 2023-01-07T20:52:08.052481 last-modified-purpose: permalink: /v1/template-for-gherkin-specs title: A Template for Gherkin Specs —‌</summary></entry><entry><title type="html">V1 Observability For Developers</title><link href="https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers.html" rel="alternate" type="text/html" title="V1 Observability For Developers" /><published>2023-01-01T00:00:00-06:00</published><updated>2023-01-06T15:05:25-06:00</updated><id>https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers.html">&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post comments: true description: categories: [bdd] last_modified_at: 2023-01-07T20:52:08.052481 last-modified-purpose: permalink: /v1/template-for-gherkin-specs title: A Template for Gherkin Specs —‌</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-06T15:10:09-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.&lt;/p&gt;
+
+&lt;p&gt;In a typical web application, we perform CRUD operations on entities.&lt;/p&gt;
+
+&lt;p&gt;It’s quite common to have the same entity object be requested, saving to DB and response.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are the roles of classes mentioned above,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;API endpoints: deals with input objects. In this case, a single one entity.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Service and Repository: deal with manipulating and saving entities to the database. And sending the same entity as response.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Entity: Has 3 roles. Input Object, Output Object and being object stored in database.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Code Sample:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Entity&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Repository&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controller&lt;/strong&gt;:&lt;br /&gt;
+&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This way is problematic since it,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Many fields used for one role (like input) won’t be used for other role (like storing to DB)&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Internal details are exposed in output&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Validations are harder for inputs&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many linters recommend having a separate DTO object for this task. This is a step up over the usual entity but isn’t sufficient as most of the time the entity and DTO are exact replicas of each other.&lt;/p&gt;
+
+&lt;p&gt;There is a better alternative to this, which is to separate inputs, output and entity classes entirely..&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Code Sample:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Request Object:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Empty Body Response:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Response With Body:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Response Assembler:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controller:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image10.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+As you can see from the example above, there are many request objects and a single response object. Each of these requests and responses can have different fields.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;API endpoint&lt;/strong&gt;: deals with getting different formats.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Service &amp;amp; Repository&lt;/strong&gt;: only deal with manipulating entity files based on the type of request. It then either sends a response directly if there is no body or offloads it’s work to a response assembler.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Response Assembler&lt;/strong&gt;: job is to create a response. There may be multiple types of responses which response assembler may assemble&lt;/p&gt;
+
+&lt;p&gt;There can also be requests and responses that have no body at all.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Request params maybe enough for GET and DELETE request&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Similarly, HTTP status code and response header maybe enough for responses&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;If an object is created, then 201 CREATED with response headers like location without a body may be enough.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;HTTP suggests but does not enforce any kind of rules over requests and responses. But by following them as closely as possible, we can ensure communicating intent without transfer of bulky.&lt;/p&gt;
+
+&lt;p&gt;The benefits of this approach is:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Request, Response and Entity classes have a clear separation of concern. Each deal with their own specific usage.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Therefore, no extra fields are added to each. If new fields are to be added to one part, they may or may not concern other parts.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Securing the application becomes easier as less internal details are leaked.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;PS: Tip: In most cases, the response object requires some fields from the entity. Commonly DTOs are created and data from entities is copied to response using some sort of mapper. There is a better alternative which is to use the Delegate pattern. The getters of response class can delegate to getters of entity class. In Java specifically, this can be made easier by using Lombok’s @Delegate annotation.&lt;/p&gt;</content><author><name></name></author><summary type="html">https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing</summary></entry><entry><title type="html">V1 Observability For Developers</title><link href="https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers.html" rel="alternate" type="text/html" title="V1 Observability For Developers" /><published>2023-01-01T00:00:00-06:00</published><updated>2023-01-06T15:08:45-06:00</updated><id>https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 comments: true
 description: Fix bugs before your user reports
@@ -690,43 +835,4 @@ Next Step: What to do next?&lt;/p&gt;
   &lt;li&gt;Embrace of 8 hours of sleep. :)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Remember this, morning, sleep and nights are sacred and they need to be protected, prioritized and planned well. The result is a 20x increase in effectiveness and consistency towards optimal performance. So, this time isn’t wasted, it’s invested with a much higher return on investment than anything that happens mid-day.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="time" /><summary type="html">Designing a Morning and Night Ritual for optimal life</summary></entry><entry><title type="html">My experience working with MongoDB</title><link href="https://www.ankushchoubey.com/v1/sql-and-no-sql" rel="alternate" type="text/html" title="My experience working with MongoDB" /><published>2022-12-16T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-sql-no-sql</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/sql-and-no-sql">&lt;p&gt;&lt;img src=&quot;/images/v1-sql-and-no-sql/header.png&quot; alt=&quot;Header&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I used to work with SQL in the past. Nowadays I have been working with MongoDB. Here has been my experience.&lt;/p&gt;
-
-&lt;h2 id=&quot;nosql-is-simple&quot;&gt;NoSQL is simple&lt;/h2&gt;
-
-&lt;p&gt;NoSQL is much much more simpler than SQL. There are no need for multiple table. You can just nexts documents into one.&lt;/p&gt;
-
-&lt;p&gt;Unless something is an actual needs to be treated like Entity, you don’t need a separate table/collection.&lt;/p&gt;
-
-&lt;p&gt;There is no need to go write a separate create query. Just push something to the DB and it gets saved.&lt;/p&gt;
-
-&lt;p&gt;The difference here is:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SQL works on concept of schema on write. The data needs to have a particular schema.&lt;/li&gt;
-  &lt;li&gt;NoSQL works on Schema on read. The data can be with any format, but it’s job of reader to intepret it the way it wants.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It’s like working with file.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-about-integrities-and-foreign-keys&quot;&gt;What about integrities and foreign keys?&lt;/h2&gt;
-
-&lt;p&gt;These maybe important for certain applications. But for most the simplicity of NoSQL is worth it.&lt;/p&gt;
-
-&lt;p&gt;For NoSQL, the backend-application which is responsible doing operations on the DB is the one than maintains the DB state. If you really need foreign key like constraint, you can just code it up.&lt;/p&gt;
-
-&lt;h2 id=&quot;browsing-data&quot;&gt;Browsing Data&lt;/h2&gt;
-
-&lt;p&gt;Browing a JSON document store is painful in tree view. This is because you have to expand out each row to see what’s in it. If you are using a NoSQL database, still use the table view.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The painful tree view&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-sql-and-no-sql/tree-view.png&quot; alt=&quot;Tree View&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Table view&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-sql-and-no-sql/table-view.gif&quot; alt=&quot;Table View&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://studio3t.com/knowledge-base/articles/table-view/#restore-default-view&quot;&gt;Image source&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="database" /><category term="no-sql" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-sql-and-no-sql/header.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-sql-and-no-sql/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Remember this, morning, sleep and nights are sacred and they need to be protected, prioritized and planned well. The result is a 20x increase in effectiveness and consistency towards optimal performance. So, this time isn’t wasted, it’s invested with a much higher return on investment than anything that happens mid-day.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="time" /><summary type="html">Designing a Morning and Night Ritual for optimal life</summary></entry></feed>
