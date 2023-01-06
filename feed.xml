@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-06T15:05:10-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">V1 Template For Gherkin Specs</title><link href="https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs.html" rel="alternate" type="text/html" title="V1 Template For Gherkin Specs" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-06T15:03:17-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-06T15:06:59-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">V1 Template For Gherkin Specs</title><link href="https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs.html" rel="alternate" type="text/html" title="V1 Template For Gherkin Specs" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-06T15:05:25-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/v1-template-for-gherkin-specs.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 comments: true
 description: 
@@ -8,6 +8,8 @@ last-modified-purpose:
 permalink: /v1/template-for-gherkin-specs
 title: A Template for Gherkin Specs
 —‌&lt;/p&gt;
+
+&lt;p&gt;This template is inspired by:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-feature&quot;&gt;@tagPlaceholder1 @tagPlaceholder2
 Feature: A new feature
@@ -42,7 +44,11 @@ Feature: A new feature
     Given {past tense}
      When {present tense}
      Then {future tense}
-&lt;/code&gt;&lt;/pre&gt;</content><author><name></name></author><summary type="html">layout: post comments: true description: categories: [bdd] last_modified_at: 2023-01-07T20:52:08.052481 last-modified-purpose: permalink: /v1/template-for-gherkin-specs title: A Template for Gherkin Specs —‌</summary></entry><entry><title type="html">V1 Observability For Developers</title><link href="https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers.html" rel="alternate" type="text/html" title="V1 Observability For Developers" /><published>2023-01-01T00:00:00-06:00</published><updated>2023-01-06T15:03:17-06:00</updated><id>https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers.html">&lt;hr /&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post comments: true description: categories: [bdd] last_modified_at: 2023-01-07T20:52:08.052481 last-modified-purpose: permalink: /v1/template-for-gherkin-specs title: A Template for Gherkin Specs —‌</summary></entry><entry><title type="html">V1 Observability For Developers</title><link href="https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers.html" rel="alternate" type="text/html" title="V1 Observability For Developers" /><published>2023-01-01T00:00:00-06:00</published><updated>2023-01-06T15:05:25-06:00</updated><id>https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/01/v1-observability-for-developers.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 comments: true
 description: Fix bugs before your user reports
