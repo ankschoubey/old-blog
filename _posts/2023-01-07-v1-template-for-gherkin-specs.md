@@ -2,12 +2,13 @@
 layout: post
 comments: true
 description: 
-categories: [bdd]
-last_modified_at: 2023-01-07T20:52:08.052481
+categories: [security, compliance, system-design]
+last_modified_at: 2022-12-08T20:52:08.052481
 last-modified-purpose:
-permalink: /v1/template-for-gherkin-specs
-title: A Template for Gherkin Specs
----‌
+permalink: /v1/gdpr
+title: Implementation GDPR - Download and Delete A Users Data in Microservice World
+image: /images/v1-gdpr.png
+---
 
 This template is inspired by: 
 
