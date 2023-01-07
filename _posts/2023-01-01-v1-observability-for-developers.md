@@ -7,7 +7,7 @@ last_modified_at: 2023-01-01T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/observability-for-developers
 title: Observability For Developers
----‌
+---
 
 # What is observability, and why is it needed?
 

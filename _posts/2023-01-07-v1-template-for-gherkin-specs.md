@@ -2,15 +2,13 @@
 layout: post
 comments: true
 description: 
-categories: [security, compliance, system-design]
-last_modified_at: 2022-12-08T20:52:08.052481
+categories: [bdd]
+last_modified_at: 2023-01-07T20:52:08.052481
 last-modified-purpose:
-permalink: /v1/gdpr
+permalink: /v1/template-for-gherkin-specs
 title: Implementation GDPR - Download and Delete A Users Data in Microservice World
-image: /images/v1-gdpr.png
 ---
 
-This template is inspired by: 
 
 ```feature
 @tagPlaceholder1 @tagPlaceholder2
