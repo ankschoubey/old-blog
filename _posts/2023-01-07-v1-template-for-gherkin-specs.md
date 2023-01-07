@@ -6,7 +6,7 @@ categories: [bdd]
 last_modified_at: 2023-01-07T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/template-for-gherkin-specs
-title: Implementation GDPR - Download and Delete A Users Data in Microservice World
+title: Template for Gherkin Specs
 ---
 
 
