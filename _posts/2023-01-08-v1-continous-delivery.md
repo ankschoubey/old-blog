@@ -1,15 +1,16 @@
 ---
 layout: post
 comments: true
-description: 
+description: How Zero-To-One is relevant in software development and why you should make Deployment&Delivery Pipeline first.
 categories: [devops, continuous-delivery]
 last_modified_at: 2023-01-08T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/continuous-delivery
-title: Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&Delivery Pipeline first.
+title: Start your project with Continuous Delivery
 image: /images/continuous-delivery.png
 toc: true
 ---
+
 ![Continuous Delivery](/images/continuous-delivery.png)
 
 Original Photo by <a href="https://unsplash.com/@ilumire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jelleke Vanooteghem</a> on <a href="https://unsplash.com/photos/chuzevDl4qM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -24,7 +25,7 @@ This gist is one of the core principles of The Agile Manifesto:
 
 We often wait a long time before delivering a software. This include making sure all the features are developed and test. But the only step we actually need to deliver something is to put it on PROD. Most features aren't related to deployment.
 
-## Zero-To-One and One-To-N of Software
+## **Phases of Software Developement**: Zero-To-One and One-To-N phase
 
 Software development can be divided into to phrases:
 
@@ -132,23 +133,17 @@ If time is in a crunch, make simple bash scripts.
 
 For example, this was the sort of script I created because I didn’t understand how to do something in Jenkins. The files below are not real, they are illustrations of what I made.
 
-script-create-env.sh
+**script-create-env.sh**
 
 ```bash
-
 echo “Enter ENV name”
-
 read end
-
 {destinationTool} init “APPNAME-$ENV”
-
 // other commands on {destinationTool}
-
 npm run build
-
 ```
 
-script-deploy.sh
+**script-deploy.sh**
 
 ```bash
 echo “Enecho “Enter ENV name”
