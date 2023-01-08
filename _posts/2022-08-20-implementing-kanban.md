@@ -60,6 +60,10 @@ In practice,
 - Look at the board, look at the right most items and start working on them first.
 - If you have a new task, add a card to the start of the board (the backlog) but don't start working on it just yet. Come back to your current card and finish it.
 
+
+
+[Agile Daily Standup - How To Walk the Board (aka Walk the Wall) - YouTube](https://www.youtube.com/watch?v=316qdj10j9M)
+
 ## Friday Cleanup
 
 [^1]: [Development That Pays](https://www.youtube.com/c/Developmentthatpays)
