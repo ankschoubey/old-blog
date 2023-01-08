@@ -11,15 +11,16 @@
 <meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;Delivery Pipeline first.">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Software Delivery: Early vs Late">
-<meta property="og:description" content="Software Delivery: Early vs Late">
+<meta name="description" content="Full Stack Developer - Cloud/Microservices">
+<meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
 <link rel="canonical" href="https://www.ankushchoubey.com/v1/continuous-delivery">
 <meta property="og:url" content="https://www.ankushchoubey.com/v1/continuous-delivery">
 <meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/continuous-delivery.png">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2023-01-08T00:00:00-06:00">
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/continuous-delivery"},"url":"https://www.ankushchoubey.com/v1/continuous-delivery","@type":"BlogPosting","headline":"Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;Delivery Pipeline first.","dateModified":"2023-01-08T14:52:08-06:00","datePublished":"2023-01-08T00:00:00-06:00","description":"Software Delivery: Early vs Late","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/continuous-delivery"},"url":"https://www.ankushchoubey.com/v1/continuous-delivery","@type":"BlogPosting","headline":"Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;Delivery Pipeline first.","dateModified":"2023-01-08T14:52:08-06:00","datePublished":"2023-01-08T00:00:00-06:00","image":"https://www.ankushchoubey.com/images/continuous-delivery.png","description":"Full Stack Developer - Cloud/Microservices","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -134,7 +135,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      7 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -203,8 +204,24 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="software-delivery-early-vs-late">
-<strong>Software Delivery</strong>: Early vs Late</h2>
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#software-delivery-early-vs-late">Software Delivery: Early vs Late</a></li>
+<li class="toc-entry toc-h2"><a href="#zero-to-one-and-one-to-n-of-software">Zero-To-One and One-To-N of Software</a></li>
+<li class="toc-entry toc-h2"><a href="#why-you-should-build-a-deployment-pipeline-first">Why you should build a deployment pipeline first?</a></li>
+<li class="toc-entry toc-h2"><a href="#addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality">Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”.</a></li>
+<li class="toc-entry toc-h2"><a href="#optional--why-not-having-a-delivery-pipeline-is-risky">Optional:  Why not-having a delivery pipeline is risky?</a></li>
+<li class="toc-entry toc-h2"><a href="#still-not-convinced-here-are-the-stats">Still not convinced? Here are the stats</a></li>
+<li class="toc-entry toc-h2"><a href="#optional-how-to-spot-fake-continuous-delivery">Optional: How to spot fake continuous delivery?</a></li>
+<li class="toc-entry toc-h2"><a href="#what-your-first-delivery-would-be">What your first delivery would be?</a></li>
+<li class="toc-entry toc-h2"><a href="#optional-what-should-you-learn-to-make-a-delivery-pipeline">Optional: What should you learn to make a delivery pipeline?</a></li>
+<li class="toc-entry toc-h2"><a href="#conclusion">Conclusion</a></li>
+</ul>
+<p><img src="/images/continuous-delivery.png" alt="Continuous Delivery"></p>
+
+<p>Original Photo by <a href="https://unsplash.com/@ilumire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jelleke Vanooteghem</a> on <a href="https://unsplash.com/photos/chuzevDl4qM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
+<h2 id="software-delivery-early-vs-late">
+<a class="anchor" href="#software-delivery-early-vs-late" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Software Delivery</strong>: Early vs Late</h2>
 
 <p>The most important thing for a project is delivery. Delivering a software early means it’s impact is early. Money now is better than money tomorrow.</p>
 
@@ -216,7 +233,8 @@ window.onload = wrap_img;
 
 <p>We often wait a long time before delivering a software. This include making sure all the features are developed and test. But the only step we actually need to deliver something is to put it on PROD. Most features aren’t related to deployment.</p>
 
-<h2 id="zero-to-one-and-one-to-n-of-software">Zero-To-One and One-To-N of Software</h2>
+<h2 id="zero-to-one-and-one-to-n-of-software">
+<a class="anchor" href="#zero-to-one-and-one-to-n-of-software" aria-hidden="true"><span class="octicon octicon-link"></span></a>Zero-To-One and One-To-N of Software</h2>
 
 <p>Software development can be divided into to phrases:</p>
 <ol>
@@ -232,7 +250,8 @@ window.onload = wrap_img;
 
 <p>The One-to-N part is easier. You have something that works and you want to add a bunch of additional enhancements to it. If you had a good Zero-To-One phase, you have a stable base to build on. So for team allocation, you can have many begineer developers paired with a experienced developer.</p>
 
-<h2 id="why-you-should-build-a-deployment-pipeline-first">Why you should build a deployment pipeline first?</h2>
+<h2 id="why-you-should-build-a-deployment-pipeline-first">
+<a class="anchor" href="#why-you-should-build-a-deployment-pipeline-first" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why you should build a deployment pipeline first?</h2>
 
 <p>Delivering a working software that solves customers problem is the most important task. You have to have infrastructure (server, DB, configuration, etc) ready and perfectly aligned. And there should be no issues between them. Many times this involves making code changes to adapt to the infrastructure.</p>
 
@@ -248,7 +267,8 @@ window.onload = wrap_img;
 
 <p>Therefore, develop your delivery pipeline as soon as you scafforld (create the base) of your project. Step 2. Start using it. In most cases, once you only create this pipeline once and then update the pipeline as time goes on.</p>
 
-<h2 id="addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality">Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”.</h2>
+<h2 id="addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality">
+<a class="anchor" href="#addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality" aria-hidden="true"><span class="octicon octicon-link"></span></a>Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”.</h2>
 
 <p>A common misnomer is that deploying to prod early will lead to low quality.</p>
 
@@ -288,7 +308,7 @@ window.onload = wrap_img;
 </ul>
 
 <h2 id="optional--why-not-having-a-delivery-pipeline-is-risky">
-<strong>Optional</strong>:  Why not-having a delivery pipeline is risky?</h2>
+<a class="anchor" href="#optional--why-not-having-a-delivery-pipeline-is-risky" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Optional</strong>:  Why not-having a delivery pipeline is risky?</h2>
 
 <p>In previous section we covered how quality improves with a continous delivery pipeline. Here are reason why the amount of risk of not having a continuous delivery pipeline is higher.</p>
 
@@ -300,10 +320,12 @@ window.onload = wrap_img;
 
 <p>And lastly for the joy of coding &amp; committing something is only complete when having it reach prod as fast as possible.</p>
 
-<h2 id="still-not-convinced-here-are-the-stats">Still not convinced? Here are the stats</h2>
+<h2 id="still-not-convinced-here-are-the-stats">
+<a class="anchor" href="#still-not-convinced-here-are-the-stats" aria-hidden="true"><span class="octicon octicon-link"></span></a>Still not convinced? Here are the stats</h2>
 
 <p>Teams that follow continuous delivery have</p>
-<h2 id="optional-how-to-spot-fake-continuous-delivery">Optional: How to spot fake continuous delivery?</h2>
+<h2 id="optional-how-to-spot-fake-continuous-delivery">
+<a class="anchor" href="#optional-how-to-spot-fake-continuous-delivery" aria-hidden="true"><span class="octicon octicon-link"></span></a>Optional: How to spot fake continuous delivery?</h2>
 
 <p>Continous Delivery means software is always in a releasable state to PROD.
 This mean a each new commit is of highest quality and is releasable.</p>
@@ -312,7 +334,8 @@ This mean a each new commit is of highest quality and is releasable.</p>
 
 <p>Dev is not prod. #PRODisPROD Prod is where real users are. Prod is where value is.</p>
 
-<h2 id="what-your-first-delivery-would-be">What your first delivery would be?</h2>
+<h2 id="what-your-first-delivery-would-be">
+<a class="anchor" href="#what-your-first-delivery-would-be" aria-hidden="true"><span class="octicon octicon-link"></span></a>What your first delivery would be?</h2>
 <p>Your first delivery would be likely something very small and unusable. <a href="/atomic-commits">An atomic commit</a>. A un-responsive login page perhaps.</p>
 
 <p>Having something delivered to PROD, doesn’t mean it has to be available to general public to use. At this stage, you need <a href="/feature-flagging">feature flagging</a></p>
@@ -320,7 +343,7 @@ This mean a each new commit is of highest quality and is releasable.</p>
 <p>One your software crosses the MVP mark, you can release the flag.</p>
 
 <h2 id="optional-what-should-you-learn-to-make-a-delivery-pipeline">
-<strong>Optional</strong>: What should you learn to make a delivery pipeline?</h2>
+<a class="anchor" href="#optional-what-should-you-learn-to-make-a-delivery-pipeline" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Optional</strong>: What should you learn to make a delivery pipeline?</h2>
 
 <p>Connect with a DevOps person and collaborate to build the CI/CD pipeline. Try to learn from them how to make one.</p>
 
@@ -351,7 +374,8 @@ npm run build
 <span class="nb">read </span>end
 npm run push <span class="nv">$ENV</span>
 </code></pre></div></div>
-<h2 id="conclusion">Conclusion</h2>
+<h2 id="conclusion">
+<a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h2>
 
 <p>A continuous deployment pipeline helps improve value delivery and deployment frequency without reducing quality, rather it enforces quality. The team following continuous delivery is forced to be intentional.</p>
 
