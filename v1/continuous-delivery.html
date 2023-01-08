@@ -208,7 +208,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#software-delivery-early-vs-late">Software Delivery: Early vs Late</a></li>
 <li class="toc-entry toc-h2"><a href="#zero-to-one-and-one-to-n-of-software">Zero-To-One and One-To-N of Software</a></li>
 <li class="toc-entry toc-h2"><a href="#why-you-should-build-a-deployment-pipeline-first">Why you should build a deployment pipeline first?</a></li>
-<li class="toc-entry toc-h2"><a href="#addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality">Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”.</a></li>
+<li class="toc-entry toc-h2"><a href="#addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality">Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”</a></li>
 <li class="toc-entry toc-h2"><a href="#optional--why-not-having-a-delivery-pipeline-is-risky">Optional:  Why not-having a delivery pipeline is risky?</a></li>
 <li class="toc-entry toc-h2"><a href="#still-not-convinced-here-are-the-stats">Still not convinced? Here are the stats</a></li>
 <li class="toc-entry toc-h2"><a href="#optional-how-to-spot-fake-continuous-delivery">Optional: How to spot fake continuous delivery?</a></li>
@@ -237,6 +237,7 @@ window.onload = wrap_img;
 <a class="anchor" href="#zero-to-one-and-one-to-n-of-software" aria-hidden="true"><span class="octicon octicon-link"></span></a>Zero-To-One and One-To-N of Software</h2>
 
 <p>Software development can be divided into to phrases:</p>
+
 <ol>
   <li>
 <strong>Zero-To-One Phase</strong>: This is where you create something new.</li>
@@ -263,12 +264,12 @@ window.onload = wrap_img;
 
 <p>By having deployment solved. Whatever you code &amp; commit next, can reach in the hands of customers the fastest.</p>
 
-<p>#eatThatFrog</p>
+<p><strong>#eatThatFrog</strong></p>
 
 <p>Therefore, develop your delivery pipeline as soon as you scafforld (create the base) of your project. Step 2. Start using it. In most cases, once you only create this pipeline once and then update the pipeline as time goes on.</p>
 
 <h2 id="addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality">
-<a class="anchor" href="#addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality" aria-hidden="true"><span class="octicon octicon-link"></span></a>Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”.</h2>
+<a class="anchor" href="#addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality" aria-hidden="true"><span class="octicon octicon-link"></span></a>Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”</h2>
 
 <p>A common misnomer is that deploying to prod early will lead to low quality.</p>
 
@@ -281,12 +282,13 @@ window.onload = wrap_img;
 <p>Continous delivery pipeline is comparable to TPS: Toyota Production System. Any mistake that is made is rectified by improving the pipeline.</p>
 
 <p>For example, let’s say a team adopts continous delivery.</p>
+
 <ol>
   <li>On their first day, a developer commits and his code reaches from dev, qa, uat to PROD and users start using it. It so happened that their was a logical bug in the code deployed.</li>
   <li>Rather than scraping the continous delivery pipeline, the team decides to find why the problem was caused and improve the pipeline. They find that the code quality itself was low and their were logical bugs.</li>
-  <li>To fix this issue from happening in the future, the team adopted better engineering practices. 
- a. They add Sonar lint, a popular linter to quicky check and ensure code meets standard. 
- b. They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%. 
+  <li>To fix this issue from happening in the future, the team adopted better engineering practices.
+ a. They add Sonar lint, a popular linter to quicky check and ensure code meets standard.
+ b. They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%.
  c. Now, the problem for fixed for life.</li>
   <li>Sonar Lint became a step in the delivery pipeline. And TDD became a habit.</li>
 </ol>
@@ -298,6 +300,7 @@ window.onload = wrap_img;
 <p>There are many things that can be the part of delivery pipeline. I’ll be adding more posts on this soon.</p>
 
 <p>There are several practices that support a continuous delivery. Some include,</p>
+
 <ul>
   <li><a href="/atomic-commits">atomic commits</a></li>
   <li><a href="/tdd">TDD</a></li>
@@ -324,6 +327,7 @@ window.onload = wrap_img;
 <a class="anchor" href="#still-not-convinced-here-are-the-stats" aria-hidden="true"><span class="octicon octicon-link"></span></a>Still not convinced? Here are the stats</h2>
 
 <p>Teams that follow continuous delivery have</p>
+
 <h2 id="optional-how-to-spot-fake-continuous-delivery">
 <a class="anchor" href="#optional-how-to-spot-fake-continuous-delivery" aria-hidden="true"><span class="octicon octicon-link"></span></a>Optional: How to spot fake continuous delivery?</h2>
 
@@ -336,6 +340,7 @@ This mean a each new commit is of highest quality and is releasable.</p>
 
 <h2 id="what-your-first-delivery-would-be">
 <a class="anchor" href="#what-your-first-delivery-would-be" aria-hidden="true"><span class="octicon octicon-link"></span></a>What your first delivery would be?</h2>
+
 <p>Your first delivery would be likely something very small and unusable. <a href="/atomic-commits">An atomic commit</a>. A un-responsive login page perhaps.</p>
 
 <p>Having something delivered to PROD, doesn’t mean it has to be available to general public to use. At this stage, you need <a href="/feature-flagging">feature flagging</a></p>
@@ -374,6 +379,7 @@ npm run build
 <span class="nb">read </span>end
 npm run push <span class="nv">$ENV</span>
 </code></pre></div></div>
+
 <h2 id="conclusion">
 <a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h2>
 
@@ -382,6 +388,7 @@ npm run push <span class="nv">$ENV</span>
 <p>The real continuous delivery is delivery to PROD. All else is fake.</p>
 
 <p>Practices like the following support continuous delivery:</p>
+
 <ul>
   <li><a href="/atomic-commits">atomic commits</a></li>
   <li><a href="/tdd">TDD</a></li>

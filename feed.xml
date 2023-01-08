@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-08T01:54:59-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;amp;Delivery Pipeline first.</title><link href="https://www.ankushchoubey.com/v1/continuous-delivery" rel="alternate" type="text/html" title="Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;amp;Delivery Pipeline first." /><published>2023-01-08T00:00:00-06:00</published><updated>2023-01-08T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-continous-delivery</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/continuous-delivery">&lt;p&gt;&lt;img src=&quot;/images/continuous-delivery.png&quot; alt=&quot;Continuous Delivery&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-08T01:55:31-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;amp;Delivery Pipeline first.</title><link href="https://www.ankushchoubey.com/v1/continuous-delivery" rel="alternate" type="text/html" title="Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;amp;Delivery Pipeline first." /><published>2023-01-08T00:00:00-06:00</published><updated>2023-01-08T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-continous-delivery</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/continuous-delivery">&lt;p&gt;&lt;img src=&quot;/images/continuous-delivery.png&quot; alt=&quot;Continuous Delivery&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Original Photo by &lt;a href=&quot;https://unsplash.com/@ilumire?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Jelleke Vanooteghem&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/chuzevDl4qM?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -17,6 +17,7 @@
 &lt;h2 id=&quot;zero-to-one-and-one-to-n-of-software&quot;&gt;Zero-To-One and One-To-N of Software&lt;/h2&gt;
 
 &lt;p&gt;Software development can be divided into to phrases:&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;Zero-To-One Phase&lt;/strong&gt;: This is where you create something new.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;One-To-N Phase&lt;/strong&gt;: This is where you work on top of what you created to enhance it.&lt;/li&gt;
@@ -40,11 +41,11 @@
 
 &lt;p&gt;By having deployment solved. Whatever you code &amp;amp; commit next, can reach in the hands of customers the fastest.&lt;/p&gt;
 
-&lt;p&gt;#eatThatFrog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;#eatThatFrog&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Therefore, develop your delivery pipeline as soon as you scafforld (create the base) of your project. Step 2. Start using it. In most cases, once you only create this pipeline once and then update the pipeline as time goes on.&lt;/p&gt;
 
-&lt;h2 id=&quot;addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality&quot;&gt;Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”.&lt;/h2&gt;
+&lt;h2 id=&quot;addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality&quot;&gt;Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”&lt;/h2&gt;
 
 &lt;p&gt;A common misnomer is that deploying to prod early will lead to low quality.&lt;/p&gt;
 
@@ -57,12 +58,13 @@
 &lt;p&gt;Continous delivery pipeline is comparable to TPS: Toyota Production System. Any mistake that is made is rectified by improving the pipeline.&lt;/p&gt;
 
 &lt;p&gt;For example, let’s say a team adopts continous delivery.&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;On their first day, a developer commits and his code reaches from dev, qa, uat to PROD and users start using it. It so happened that their was a logical bug in the code deployed.&lt;/li&gt;
   &lt;li&gt;Rather than scraping the continous delivery pipeline, the team decides to find why the problem was caused and improve the pipeline. They find that the code quality itself was low and their were logical bugs.&lt;/li&gt;
-  &lt;li&gt;To fix this issue from happening in the future, the team adopted better engineering practices. 
- a. They add Sonar lint, a popular linter to quicky check and ensure code meets standard. 
- b. They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%. 
+  &lt;li&gt;To fix this issue from happening in the future, the team adopted better engineering practices.
+ a. They add Sonar lint, a popular linter to quicky check and ensure code meets standard.
+ b. They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%.
  c. Now, the problem for fixed for life.&lt;/li&gt;
   &lt;li&gt;Sonar Lint became a step in the delivery pipeline. And TDD became a habit.&lt;/li&gt;
 &lt;/ol&gt;
@@ -74,6 +76,7 @@
 &lt;p&gt;There are many things that can be the part of delivery pipeline. I’ll be adding more posts on this soon.&lt;/p&gt;
 
 &lt;p&gt;There are several practices that support a continuous delivery. Some include,&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/atomic-commits&quot;&gt;atomic commits&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/tdd&quot;&gt;TDD&lt;/a&gt;&lt;/li&gt;
@@ -97,6 +100,7 @@
 &lt;h2 id=&quot;still-not-convinced-here-are-the-stats&quot;&gt;Still not convinced? Here are the stats&lt;/h2&gt;
 
 &lt;p&gt;Teams that follow continuous delivery have&lt;/p&gt;
+
 &lt;h2 id=&quot;optional-how-to-spot-fake-continuous-delivery&quot;&gt;Optional: How to spot fake continuous delivery?&lt;/h2&gt;
 
 &lt;p&gt;Continous Delivery means software is always in a releasable state to PROD.
@@ -107,6 +111,7 @@ This mean a each new commit is of highest quality and is releasable.&lt;/p&gt;
 &lt;p&gt;Dev is not prod. #PRODisPROD Prod is where real users are. Prod is where value is.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-your-first-delivery-would-be&quot;&gt;What your first delivery would be?&lt;/h2&gt;
+
 &lt;p&gt;Your first delivery would be likely something very small and unusable. &lt;a href=&quot;/atomic-commits&quot;&gt;An atomic commit&lt;/a&gt;. A un-responsive login page perhaps.&lt;/p&gt;
 
 &lt;p&gt;Having something delivered to PROD, doesn’t mean it has to be available to general public to use. At this stage, you need &lt;a href=&quot;/feature-flagging&quot;&gt;feature flagging&lt;/a&gt;&lt;/p&gt;
@@ -144,6 +149,7 @@ npm run build
 &lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;end
 npm run push &lt;span class=&quot;nv&quot;&gt;$ENV&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;A continuous deployment pipeline helps improve value delivery and deployment frequency without reducing quality, rather it enforces quality. The team following continuous delivery is forced to be intentional.&lt;/p&gt;
@@ -151,6 +157,7 @@ npm run push &lt;span class=&quot;nv&quot;&gt;$ENV&lt;/span&gt;
 &lt;p&gt;The real continuous delivery is delivery to PROD. All else is fake.&lt;/p&gt;
 
 &lt;p&gt;Practices like the following support continuous delivery:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/atomic-commits&quot;&gt;atomic commits&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/tdd&quot;&gt;TDD&lt;/a&gt;&lt;/li&gt;
@@ -193,7 +200,7 @@ Feature: A new feature
 
 &lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-08T01:54:45-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-08T01:55:18-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.&lt;/p&gt;
 
