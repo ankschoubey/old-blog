@@ -219,6 +219,8 @@ In these resources, try to only consume the parts you need. Let go or parts you 
       - [The Status Game: On Human Life and How to Play It: On Social Position and How We Use it eBook : Storr, Will: Amazon.in: Books](https://www.amazon.in/Status-Game-Position-Governs-Everything-ebook/dp/B08H7Y414K)
 - Productive
   - 2022
+    - Dec
+      - [Work On One Thing At A Time. Here's Why. - YouTube](https://www.youtube.com/watch?v=CgbM4c8GJa8&list=WL&index=2)
     - Oct
       - [Priyanka Chopra's best piece of advice - YouTube](https://www.youtube.com/watch?v=1GLEkAkve1E) : Respect peoples time if you want your time to be respected
 
