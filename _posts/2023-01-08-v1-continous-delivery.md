@@ -7,8 +7,12 @@ last_modified_at: 2023-01-08T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/continuous-delivery
 title: Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&Delivery Pipeline first.
+image: /images/continuous-delivery.png
+toc: true
 ---
+![Continuous Delivery](/images/continuous-delivery.png)
 
+Original Photo by <a href="https://unsplash.com/@ilumire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jelleke Vanooteghem</a> on <a href="https://unsplash.com/photos/chuzevDl4qM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ## **Software Delivery**: Early vs Late
 
