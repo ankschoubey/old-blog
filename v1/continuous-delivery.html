@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;Delivery Pipeline first. | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;Delivery Pipeline first.">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Software Delivery: Early vs Late">
+<meta property="og:description" content="Software Delivery: Early vs Late">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/continuous-delivery">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/continuous-delivery">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-01-08T00:00:00-06:00">
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/continuous-delivery"},"url":"https://www.ankushchoubey.com/v1/continuous-delivery","@type":"BlogPosting","headline":"Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;Delivery Pipeline first.","dateModified":"2023-01-08T14:52:08-06:00","datePublished":"2023-01-08T00:00:00-06:00","description":"Software Delivery: Early vs Late","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35993343-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-35993343-1');
+</script>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous">
+<link rel="stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body>
+<header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/">Ankush Choubey</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/philosophy/">Philosophy</a><a class="page-link" href="/resources/">Resources</a><a class="page-link" href="/resume/">Hire me!</a><a class="page-link" href="/search/">Search</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- <script>
+  for (const iterator of document.getElementsByClassName('page-link')) {
+      if (iterator.innerHTML === 'Search'){ iterator.classList.add('search-button'); iterator.title = 'Search';}
+      if (iterator.innerHTML === 'Tags'){ iterator.classList.add('tags-button'); iterator.title = 'Tags';}
+      if (iterator.innerHTML === 'Side Projects'){ iterator.classList.add('side-project-button'); iterator.title = 'Side Projects';}
+  }
+</script> -->
+
+
+<script type="text/javascript" src="/assets/accordian.js"></script>
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;Delivery Pipeline first.</h1>
+
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-01-08T00:00:00-06:00" itemprop="datePublished">
+        Written: Jan 8, 2023
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-01-08T14:52:08-06:00" itemprop="dateModified">
+          Updated: Jan 8, 2023
+        </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>    <style>
+        .post-tool-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px 10px 0px;
+            /* border: 1px solid #e8e8e8; */
+            border-width: 0px 0px 1px 0px;
+        }
+        .left-section , .right-section{
+            display: flex;
+            gap: 8px;
+        }
+
+    </style>
+    
+    <div class="post-tool-bar">
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+        AOS.init();
+</script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag devops" href="/categories/#devops">devops</a>
+    
+    <a class="tag fa fa-hashtag continuous-delivery" href="/categories/#continuous-delivery">continuous-delivery</a>
+    
+</div>
+<div class="right-section">
+<a id="translate-btn" href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
+    <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
+</a>
+
+
+<script>
+    a = document.getElementById('translate-btn');
+    a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=" + window.location.href);
+</script><a id="speech-btn">
+    <img src="/images/icons/ear.svg" alt="listen" style="width:35px; cursor: pointer;">
+</a>
+
+<script>
+    speakPost = () => {
+        var msg = new SpeechSynthesisUtterance();
+        const title = document.querySelector("h1.post-title.p-name").innerText;
+        const post = document.querySelector("div.post-content.e-content").innerText
+        msg.text = title + '.' + post;
+        window.speechSynthesis.speak(msg);
+    }
+    if ('speechSynthesis' in window) {
+        document.getElementById("speech-btn").addEventListener("click", speakPost);
+    } else {
+        document.getElementById('speech-btn').style.display = 'none';
+    }
+</script>
+
+<!-- https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html -->
+</div>
+      
+          
+    </div>
+    
+</header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="software-delivery-early-vs-late">
+<strong>Software Delivery</strong>: Early vs Late</h2>
+
+<p>The most important thing for a project is delivery. Delivering a software early means it’s impact is early. Money now is better than money tomorrow.</p>
+
+<p>This gist is one of the core principles of The Agile Manifesto:</p>
+
+<blockquote>
+  <p>Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.”</p>
+</blockquote>
+
+<p>We often wait a long time before delivering a software. This include making sure all the features are developed and test. But the only step we actually need to deliver something is to put it on PROD. Most features aren’t related to deployment.</p>
+
+<h2 id="zero-to-one-and-one-to-n-of-software">Zero-To-One and One-To-N of Software</h2>
+
+<p>Software development can be divided into to phrases:</p>
+<ol>
+  <li>
+<strong>Zero-To-One Phase</strong>: This is where you create something new.</li>
+  <li>
+<strong>One-To-N Phase</strong>: This is where you work on top of what you created to enhance it.</li>
+</ol>
+
+<p>Zero-To-One phase is the delivers the gist of the project: The MVP. It solves the core problem customer faces.</p>
+
+<p>Zero-To-One is the start of the project. It’s important to create a stable foundation here to ensure a high quality base. In terms of team allocation, you want to have your best developers working during this phase. (I’ll be writing more on team allocation later)</p>
+
+<p>The One-to-N part is easier. You have something that works and you want to add a bunch of additional enhancements to it. If you had a good Zero-To-One phase, you have a stable base to build on. So for team allocation, you can have many begineer developers paired with a experienced developer.</p>
+
+<h2 id="why-you-should-build-a-deployment-pipeline-first">Why you should build a deployment pipeline first?</h2>
+
+<p>Delivering a working software that solves customers problem is the most important task. You have to have infrastructure (server, DB, configuration, etc) ready and perfectly aligned. And there should be no issues between them. Many times this involves making code changes to adapt to the infrastructure.</p>
+
+<p>Why not solve the most important task early?</p>
+
+<p>Early on, during the zero-to-one phase, the amount of code to manage is less. Therefore, you can make code adjust easily compared to later.</p>
+
+<p>The nature of early project phase is largely learning and research. Therefore, there is enough time at hand.</p>
+
+<p>By having deployment solved. Whatever you code &amp; commit next, can reach in the hands of customers the fastest.</p>
+
+<p>#eatThatFrog</p>
+
+<p>Therefore, develop your delivery pipeline as soon as you scafforld (create the base) of your project. Step 2. Start using it. In most cases, once you only create this pipeline once and then update the pipeline as time goes on.</p>
+
+<h2 id="addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality">Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”.</h2>
+
+<p>A common misnomer is that deploying to prod early will lead to low quality.</p>
+
+<p>The result is the opposite: Having to deploy early and often means you are forced to improve your engineering process.</p>
+
+<p>This means, developers are forced to be more intentional about what they work on, in what order and ensure highest quality.</p>
+
+<p>There is a learning period in everything new we do. We can’t expect us or others to do something perfectly on the first try. But as we make mistakes, we create systems and processes that ensure the mistakes doesn’t happen again.</p>
+
+<p>Continous delivery pipeline is comparable to TPS: Toyota Production System. Any mistake that is made is rectified by improving the pipeline.</p>
+
+<p>For example, let’s say a team adopts continous delivery.</p>
+<ol>
+  <li>On their first day, a developer commits and his code reaches from dev, qa, uat to PROD and users start using it. It so happened that their was a logical bug in the code deployed.</li>
+  <li>Rather than scraping the continous delivery pipeline, the team decides to find why the problem was caused and improve the pipeline. They find that the code quality itself was low and their were logical bugs.</li>
+  <li>To fix this issue from happening in the future, the team adopted better engineering practices. 
+ a. They add Sonar lint, a popular linter to quicky check and ensure code meets standard. 
+ b. They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%. 
+ c. Now, the problem for fixed for life.</li>
+  <li>Sonar Lint became a step in the delivery pipeline. And TDD became a habit.</li>
+</ol>
+
+<p>The next time a developer comes and commits something, the stages in the delivery pipeline ensures that the code is deliverable.</p>
+
+<p>Any problem we face should be solved via the delivery pipeline. Ideally, without any human intervention.</p>
+
+<p>There are many things that can be the part of delivery pipeline. I’ll be adding more posts on this soon.</p>
+
+<p>There are several practices that support a continuous delivery. Some include,</p>
+<ul>
+  <li><a href="/atomic-commits">atomic commits</a></li>
+  <li><a href="/tdd">TDD</a></li>
+  <li>
+<a href="/implementing-kanban">the kanban</a> pull system and walk-the-board-from-right strategy,</li>
+  <li><a href="/feature-flagging">feature-flagging</a></li>
+  <li>#morePostsSoon</li>
+</ul>
+
+<h2 id="optional--why-not-having-a-delivery-pipeline-is-risky">
+<strong>Optional</strong>:  Why not-having a delivery pipeline is risky?</h2>
+
+<p>In previous section we covered how quality improves with a continous delivery pipeline. Here are reason why the amount of risk of not having a continuous delivery pipeline is higher.</p>
+
+<p>Only PROD is the place where we can deliver and know what the real status of the deliver is. Not having something used by the users means you don’t know what the real impact of your software is.</p>
+
+<p>Making enhancements on something that is not-delivered is largely futile. Discussion over thing that hasn’t been made isn’t the same as having discussion over something that is made.</p>
+
+<p>If the project is de-prioritized, then all work is lost.</p>
+
+<p>And lastly for the joy of coding &amp; committing something is only complete when having it reach prod as fast as possible.</p>
+
+<h2 id="still-not-convinced-here-are-the-stats">Still not convinced? Here are the stats</h2>
+
+<p>Teams that follow continuous delivery have</p>
+<h2 id="optional-how-to-spot-fake-continuous-delivery">Optional: How to spot fake continuous delivery?</h2>
+
+<p>Continous Delivery means software is always in a releasable state to PROD.
+This mean a each new commit is of highest quality and is releasable.</p>
+
+<p>Many companies and teams I have talked to say they do continuous delivery but they don’t. Their defination is this: We deploy to our dev environment.</p>
+
+<p>Dev is not prod. #PRODisPROD Prod is where real users are. Prod is where value is.</p>
+
+<h2 id="what-your-first-delivery-would-be">What your first delivery would be?</h2>
+<p>Your first delivery would be likely something very small and unusable. <a href="/atomic-commits">An atomic commit</a>. A un-responsive login page perhaps.</p>
+
+<p>Having something delivered to PROD, doesn’t mean it has to be available to general public to use. At this stage, you need <a href="/feature-flagging">feature flagging</a></p>
+
+<p>One your software crosses the MVP mark, you can release the flag.</p>
+
+<h2 id="optional-what-should-you-learn-to-make-a-delivery-pipeline">
+<strong>Optional</strong>: What should you learn to make a delivery pipeline?</h2>
+
+<p>Connect with a DevOps person and collaborate to build the CI/CD pipeline. Try to learn from them how to make one.</p>
+
+<p>If that’s not possible, learn a CI/CD tool. Jenkins is a common one. Other popular ones include Gitlab CI and GitHub Actions.</p>
+
+<p>If time is in a crunch, make simple bash scripts.</p>
+
+<p>For example, this was the sort of script I created because I didn’t understand how to do something in Jenkins. The files below are not real, they are illustrations of what I made.</p>
+
+<p>script-create-env.sh</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nb">echo</span> “Enter ENV name”
+
+<span class="nb">read </span>end
+
+<span class="o">{</span>destinationTool<span class="o">}</span> init “APPNAME-<span class="nv">$ENV</span>”
+
+// other commands on <span class="o">{</span>destinationTool<span class="o">}</span>
+
+npm run build
+
+</code></pre></div></div>
+
+<p>script-deploy.sh</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> “Enecho “Enter ENV name”
+<span class="nb">read </span>end
+npm run push <span class="nv">$ENV</span>
+</code></pre></div></div>
+<h2 id="conclusion">Conclusion</h2>
+
+<p>A continuous deployment pipeline helps improve value delivery and deployment frequency without reducing quality, rather it enforces quality. The team following continuous delivery is forced to be intentional.</p>
+
+<p>The real continuous delivery is delivery to PROD. All else is fake.</p>
+
+<p>Practices like the following support continuous delivery:</p>
+<ul>
+  <li><a href="/atomic-commits">atomic commits</a></li>
+  <li><a href="/tdd">TDD</a></li>
+  <li>
+<a href="/implementing-kanban">the kanban</a> pull system and walk-the-board-from-right strategy,</li>
+  <li><a href="/feature-flagging">feature-flagging</a></li>
+</ul>
+
+  </div>
+  <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
+
+<div class="PageNavigation">
+    
+      <a class="prev" href="/v1/template-for-gherkin-specs">« Template for Gherkin Specs</a>
+    
+    
+  </div>
+
+<style>
+    .PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+</style>
+<!-- from https://github.com/utterance/utterances -->
+<!-- <script src="https://utteranc.es/client.js"
+        repo="ankschoubey/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script> -->
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://www.ankushchoubey.com/v1/continuous-delivery';
+      this.page.identifier = 'https://www.ankushchoubey.com/v1/continuous-delivery';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://ankushchoubey.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+<a class="u-url" href="/v1/continuous-delivery" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://www.ankushchoubey.com/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Full Stack Developer - Cloud/Microservices</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list">
+<li>
+  <a rel="me" href="https://github.com/ankschoubey" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://twitter.com/ankschoubey" target="_blank" title="twitter">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#twitter"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

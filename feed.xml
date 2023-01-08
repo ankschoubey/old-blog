@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-07T01:42:18-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Template for Gherkin Specs</title><link href="https://www.ankushchoubey.com/v1/template-for-gherkin-specs" rel="alternate" type="text/html" title="Template for Gherkin Specs" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-07T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-template-for-gherkin-specs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/template-for-gherkin-specs">&lt;pre&gt;&lt;code class=&quot;language-feature&quot;&gt;@tagPlaceholder1 @tagPlaceholder2
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-08T01:35:10-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;amp;Delivery Pipeline first.</title><link href="https://www.ankushchoubey.com/v1/continuous-delivery" rel="alternate" type="text/html" title="Continuous Delivery - How Zero-To-One is relevant in software development and why you should make Deployment&amp;amp;Delivery Pipeline first." /><published>2023-01-08T00:00:00-06:00</published><updated>2023-01-08T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-continous-delivery</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/continuous-delivery">&lt;h2 id=&quot;software-delivery-early-vs-late&quot;&gt;&lt;strong&gt;Software Delivery&lt;/strong&gt;: Early vs Late&lt;/h2&gt;
+
+&lt;p&gt;The most important thing for a project is delivery. Delivering a software early means it’s impact is early. Money now is better than money tomorrow.&lt;/p&gt;
+
+&lt;p&gt;This gist is one of the core principles of The Agile Manifesto:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We often wait a long time before delivering a software. This include making sure all the features are developed and test. But the only step we actually need to deliver something is to put it on PROD. Most features aren’t related to deployment.&lt;/p&gt;
+
+&lt;h2 id=&quot;zero-to-one-and-one-to-n-of-software&quot;&gt;Zero-To-One and One-To-N of Software&lt;/h2&gt;
+
+&lt;p&gt;Software development can be divided into to phrases:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Zero-To-One Phase&lt;/strong&gt;: This is where you create something new.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;One-To-N Phase&lt;/strong&gt;: This is where you work on top of what you created to enhance it.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Zero-To-One phase is the delivers the gist of the project: The MVP. It solves the core problem customer faces.&lt;/p&gt;
+
+&lt;p&gt;Zero-To-One is the start of the project. It’s important to create a stable foundation here to ensure a high quality base. In terms of team allocation, you want to have your best developers working during this phase. (I’ll be writing more on team allocation later)&lt;/p&gt;
+
+&lt;p&gt;The One-to-N part is easier. You have something that works and you want to add a bunch of additional enhancements to it. If you had a good Zero-To-One phase, you have a stable base to build on. So for team allocation, you can have many begineer developers paired with a experienced developer.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-you-should-build-a-deployment-pipeline-first&quot;&gt;Why you should build a deployment pipeline first?&lt;/h2&gt;
+
+&lt;p&gt;Delivering a working software that solves customers problem is the most important task. You have to have infrastructure (server, DB, configuration, etc) ready and perfectly aligned. And there should be no issues between them. Many times this involves making code changes to adapt to the infrastructure.&lt;/p&gt;
+
+&lt;p&gt;Why not solve the most important task early?&lt;/p&gt;
+
+&lt;p&gt;Early on, during the zero-to-one phase, the amount of code to manage is less. Therefore, you can make code adjust easily compared to later.&lt;/p&gt;
+
+&lt;p&gt;The nature of early project phase is largely learning and research. Therefore, there is enough time at hand.&lt;/p&gt;
+
+&lt;p&gt;By having deployment solved. Whatever you code &amp;amp; commit next, can reach in the hands of customers the fastest.&lt;/p&gt;
+
+&lt;p&gt;#eatThatFrog&lt;/p&gt;
+
+&lt;p&gt;Therefore, develop your delivery pipeline as soon as you scafforld (create the base) of your project. Step 2. Start using it. In most cases, once you only create this pipeline once and then update the pipeline as time goes on.&lt;/p&gt;
+
+&lt;h2 id=&quot;addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality&quot;&gt;Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”.&lt;/h2&gt;
+
+&lt;p&gt;A common misnomer is that deploying to prod early will lead to low quality.&lt;/p&gt;
+
+&lt;p&gt;The result is the opposite: Having to deploy early and often means you are forced to improve your engineering process.&lt;/p&gt;
+
+&lt;p&gt;This means, developers are forced to be more intentional about what they work on, in what order and ensure highest quality.&lt;/p&gt;
+
+&lt;p&gt;There is a learning period in everything new we do. We can’t expect us or others to do something perfectly on the first try. But as we make mistakes, we create systems and processes that ensure the mistakes doesn’t happen again.&lt;/p&gt;
+
+&lt;p&gt;Continous delivery pipeline is comparable to TPS: Toyota Production System. Any mistake that is made is rectified by improving the pipeline.&lt;/p&gt;
+
+&lt;p&gt;For example, let’s say a team adopts continous delivery.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;On their first day, a developer commits and his code reaches from dev, qa, uat to PROD and users start using it. It so happened that their was a logical bug in the code deployed.&lt;/li&gt;
+  &lt;li&gt;Rather than scraping the continous delivery pipeline, the team decides to find why the problem was caused and improve the pipeline. They find that the code quality itself was low and their were logical bugs.&lt;/li&gt;
+  &lt;li&gt;To fix this issue from happening in the future, the team adopted better engineering practices. 
+ a. They add Sonar lint, a popular linter to quicky check and ensure code meets standard. 
+ b. They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%. 
+ c. Now, the problem for fixed for life.&lt;/li&gt;
+  &lt;li&gt;Sonar Lint became a step in the delivery pipeline. And TDD became a habit.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The next time a developer comes and commits something, the stages in the delivery pipeline ensures that the code is deliverable.&lt;/p&gt;
+
+&lt;p&gt;Any problem we face should be solved via the delivery pipeline. Ideally, without any human intervention.&lt;/p&gt;
+
+&lt;p&gt;There are many things that can be the part of delivery pipeline. I’ll be adding more posts on this soon.&lt;/p&gt;
+
+&lt;p&gt;There are several practices that support a continuous delivery. Some include,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/atomic-commits&quot;&gt;atomic commits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/tdd&quot;&gt;TDD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/implementing-kanban&quot;&gt;the kanban&lt;/a&gt; pull system and walk-the-board-from-right strategy,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/feature-flagging&quot;&gt;feature-flagging&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;#morePostsSoon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;optional--why-not-having-a-delivery-pipeline-is-risky&quot;&gt;&lt;strong&gt;Optional&lt;/strong&gt;:  Why not-having a delivery pipeline is risky?&lt;/h2&gt;
+
+&lt;p&gt;In previous section we covered how quality improves with a continous delivery pipeline. Here are reason why the amount of risk of not having a continuous delivery pipeline is higher.&lt;/p&gt;
+
+&lt;p&gt;Only PROD is the place where we can deliver and know what the real status of the deliver is. Not having something used by the users means you don’t know what the real impact of your software is.&lt;/p&gt;
+
+&lt;p&gt;Making enhancements on something that is not-delivered is largely futile. Discussion over thing that hasn’t been made isn’t the same as having discussion over something that is made.&lt;/p&gt;
+
+&lt;p&gt;If the project is de-prioritized, then all work is lost.&lt;/p&gt;
+
+&lt;p&gt;And lastly for the joy of coding &amp;amp; committing something is only complete when having it reach prod as fast as possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;still-not-convinced-here-are-the-stats&quot;&gt;Still not convinced? Here are the stats&lt;/h2&gt;
+
+&lt;p&gt;Teams that follow continuous delivery have&lt;/p&gt;
+&lt;h2 id=&quot;optional-how-to-spot-fake-continuous-delivery&quot;&gt;Optional: How to spot fake continuous delivery?&lt;/h2&gt;
+
+&lt;p&gt;Continous Delivery means software is always in a releasable state to PROD.
+This mean a each new commit is of highest quality and is releasable.&lt;/p&gt;
+
+&lt;p&gt;Many companies and teams I have talked to say they do continuous delivery but they don’t. Their defination is this: We deploy to our dev environment.&lt;/p&gt;
+
+&lt;p&gt;Dev is not prod. #PRODisPROD Prod is where real users are. Prod is where value is.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-your-first-delivery-would-be&quot;&gt;What your first delivery would be?&lt;/h2&gt;
+&lt;p&gt;Your first delivery would be likely something very small and unusable. &lt;a href=&quot;/atomic-commits&quot;&gt;An atomic commit&lt;/a&gt;. A un-responsive login page perhaps.&lt;/p&gt;
+
+&lt;p&gt;Having something delivered to PROD, doesn’t mean it has to be available to general public to use. At this stage, you need &lt;a href=&quot;/feature-flagging&quot;&gt;feature flagging&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;One your software crosses the MVP mark, you can release the flag.&lt;/p&gt;
+
+&lt;h2 id=&quot;optional-what-should-you-learn-to-make-a-delivery-pipeline&quot;&gt;&lt;strong&gt;Optional&lt;/strong&gt;: What should you learn to make a delivery pipeline?&lt;/h2&gt;
+
+&lt;p&gt;Connect with a DevOps person and collaborate to build the CI/CD pipeline. Try to learn from them how to make one.&lt;/p&gt;
+
+&lt;p&gt;If that’s not possible, learn a CI/CD tool. Jenkins is a common one. Other popular ones include Gitlab CI and GitHub Actions.&lt;/p&gt;
+
+&lt;p&gt;If time is in a crunch, make simple bash scripts.&lt;/p&gt;
+
+&lt;p&gt;For example, this was the sort of script I created because I didn’t understand how to do something in Jenkins. The files below are not real, they are illustrations of what I made.&lt;/p&gt;
+
+&lt;p&gt;script-create-env.sh&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; “Enter ENV name”
+
+&lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;end
+
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;destinationTool&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; init “APPNAME-&lt;span class=&quot;nv&quot;&gt;$ENV&lt;/span&gt;”
+
+// other commands on &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;destinationTool&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+npm run build
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;script-deploy.sh&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; “Enecho “Enter ENV name”
+&lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;end
+npm run push &lt;span class=&quot;nv&quot;&gt;$ENV&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;A continuous deployment pipeline helps improve value delivery and deployment frequency without reducing quality, rather it enforces quality. The team following continuous delivery is forced to be intentional.&lt;/p&gt;
+
+&lt;p&gt;The real continuous delivery is delivery to PROD. All else is fake.&lt;/p&gt;
+
+&lt;p&gt;Practices like the following support continuous delivery:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/atomic-commits&quot;&gt;atomic commits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/tdd&quot;&gt;TDD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/implementing-kanban&quot;&gt;the kanban&lt;/a&gt; pull system and walk-the-board-from-right strategy,&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/feature-flagging&quot;&gt;feature-flagging&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="devops" /><category term="continuous-delivery" /><summary type="html">Software Delivery: Early vs Late</summary></entry><entry><title type="html">Template for Gherkin Specs</title><link href="https://www.ankushchoubey.com/v1/template-for-gherkin-specs" rel="alternate" type="text/html" title="Template for Gherkin Specs" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-07T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-template-for-gherkin-specs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/template-for-gherkin-specs">&lt;pre&gt;&lt;code class=&quot;language-feature&quot;&gt;@tagPlaceholder1 @tagPlaceholder2
 Feature: A new feature
   Author - Ankush #this is the main person who write is specs
   Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.
@@ -35,7 +189,7 @@ Feature: A new feature
 
 &lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-07T01:42:03-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-08T01:34:49-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.&lt;/p&gt;
 
@@ -743,72 +897,4 @@ Next Step: What to do next?&lt;/p&gt;
 
 &lt;h2 id=&quot;optional-resources&quot;&gt;Optional: Resources&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EfEK-Pmi7v0&quot;&gt;Jordan Peterson - First stop lying, then speak your truth - YouTube&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><summary type="html">Treat this article as a buffet. Start with the introduction and then read the sections until you feel you get the gist. Then jump to the next.</summary></entry><entry><title type="html">Designing and implementing a Morning and Night Rituals for optimal life</title><link href="https://www.ankushchoubey.com/v1/morning-night-ritual" rel="alternate" type="text/html" title="Designing and implementing a Morning and Night Rituals for optimal life" /><published>2022-12-19T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-morning-night-ritual</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/morning-night-ritual">&lt;h1 id=&quot;designing-a-morning-and-night-ritual-for-optimal-life&quot;&gt;Designing a Morning and Night Ritual for optimal life&lt;/h1&gt;
-
-&lt;h2 id=&quot;why-morning-and-night-rituals-are-essential-why-they-arent-replaceable-by-mid-day-activity&quot;&gt;Why morning and night rituals are essential? Why they aren’t replaceable by mid-day activity?&lt;/h2&gt;
-
-&lt;p&gt;Morning and Night are essential time because they provide the start and end to the day.&lt;/p&gt;
-
-&lt;p&gt;By starting the day of right, we can increase the probability of having a good day. By ending the day right, we can increase the probability of having a good next day.&lt;/p&gt;
-
-&lt;p&gt;The morning and the nights can be well planned and be more structured than  mid days where plans have to adopt day to day.&lt;/p&gt;
-
-&lt;p&gt;Because of this stability provided by a stable structure, they can become essential tools to take care of our needs, reset and work on long-term goals which we miss in daily mid-day planning.&lt;/p&gt;
-
-&lt;p&gt;The morning and nights are more personal and handled individually than mid days.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to-plan-your-morning-and-night-ritual&quot;&gt;How to plan your morning and night ritual?&lt;/h2&gt;
-
-&lt;p&gt;Here are the 3 parts we need to plan:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Morning should provide a jump start to the day.&lt;/li&gt;
-  &lt;li&gt;A good night sleep should be in adequote amount  and provide essential rest and relaxation&lt;/li&gt;
-  &lt;li&gt;Night ritual: Should prepare us to have a good next day and ease in the process towards relaxation.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Here my take on how to plan:&lt;/p&gt;
-
-&lt;h3 id=&quot;morning&quot;&gt;Morning&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Wake up at least 1.5 hours before&lt;/strong&gt; you have to be out or before a computer screen. This will give you an ample time to start day off right and not rush. In case you woke up late or have less time on hand, you can do as many things as time allows. No need to rush.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make bed&lt;/strong&gt;. Make sure it’s reset so that when you come back it’s perfect. This carries our organization that you did last night. Remember, bed is only for sleeping and fucking.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Take care of Hygiene&lt;/strong&gt;. Drink Water. Poop. Brush. Wash Face. Sit for 20 minutes. You want to sit only once in a day right? Don’t bring your phone. You likely have unprocessed thoughts from the good night sleep you had. And you have a good space to pause and reflect. :)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Go out in the sun&lt;/strong&gt;. Sun is vital for our body. It improves your mood, produces more testosterone, manages circadian rhythm and helps you sleep better at night. Therefore, get as much sunlight as possible. It’s better to the rest of the activities in sun. Expose as much of your skin to the sun as possible.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Exercise&lt;/strong&gt;. It can be little. 5-6 minutes. Or the 7-minute workout. Just get yourself moving.&lt;/li&gt;
-  &lt;li&gt;Now you can &lt;strong&gt;g&lt;/strong&gt;o have a shower**. hot+cold bath. Relax your body. And get dressed and sharp.&lt;/li&gt;
-  &lt;li&gt;Post-exercise your mind is likely active and with bath and being properly dressed, it’s ready to be sharpened.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Read and reflect&lt;/strong&gt;. Read about 10-20 minutes of something that you are reading. This is non-fiction.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Meditate&lt;/strong&gt;. This can be guided. Make yourself calmer.&lt;/li&gt;
-  &lt;li&gt;Now you can take 2 minutes of break like you do at the gym and look at the well planned day you set last night.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;sleep&quot;&gt;Sleep&lt;/h2&gt;
-
-&lt;p&gt;Aim to have 8 hour of bed time. So, it you are going to start your work at 9, you wake up 1.5 hours before at 7:30. And you have your sleep for around 8 hours so 11:30 bed time.&lt;/p&gt;
-
-&lt;p&gt;The goal is to have a relaxing sleep to start next day right.&lt;/p&gt;
-
-&lt;h2 id=&quot;night&quot;&gt;Night&lt;/h2&gt;
-
-&lt;p&gt;Like morning, start your night ritual at 1.5 hours before bed minimum.&lt;/p&gt;
-
-&lt;p&gt;The activities we have at night are all of relaxing nature.  It also serves as a place to handle small things that we won’t have to think about in the morning.&lt;/p&gt;
-
-&lt;p&gt;If dinner at your home is prepared by someone else, you can adjust activities in this list. Just make sure it’s consistent and stable.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Clean up your room&lt;/strong&gt;. So that it’s organized. You want to have your environment reset.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Have dinner with family&lt;/strong&gt;. This is the place you can put your phone is airplane mode or turn off internet on a minimum. This time is a good time to bond with family and catchup over the day.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Take a walk outside alone&lt;/strong&gt;. You can spend around 20-30 minutes. It’s a great place to rewind and reflect and walking would also help your with digestion post dinner.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Plan your 3 MITs&lt;/strong&gt; Most Important Things for the next day.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Layout clothes and pack your bags&lt;/strong&gt; for tomorrow. This will help you be sharper. Looking and feeling sharp increases your performance. You can also get a shave if you need to.&lt;/li&gt;
-  &lt;li&gt;Now that it’s the end of the day, you might wanna &lt;strong&gt;clear out all your thoughts&lt;/strong&gt;. Nights are a great place for writing. Mornings are great for editing.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Fill in 5-minute journal&lt;/strong&gt;. This should serve as a reset to end your day.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Dim your lights&lt;/strong&gt;. Make sure the room is cold.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Sleep&lt;/strong&gt;. You can use deep breathing to help ease into sleeping. While trying to sleep, along with deep breaths you might reflect on your day. Think about next or talk. It’s your space.&lt;/li&gt;
-  &lt;li&gt;Embrace of 8 hours of sleep. :)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Remember this, morning, sleep and nights are sacred and they need to be protected, prioritized and planned well. The result is a 20x increase in effectiveness and consistency towards optimal performance. So, this time isn’t wasted, it’s invested with a much higher return on investment than anything that happens mid-day.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="time" /><summary type="html">Designing a Morning and Night Ritual for optimal life</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EfEK-Pmi7v0&quot;&gt;Jordan Peterson - First stop lying, then speak your truth - YouTube&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><summary type="html">Treat this article as a buffet. Start with the introduction and then read the sections until you feel you get the gist. Then jump to the next.</summary></entry></feed>
