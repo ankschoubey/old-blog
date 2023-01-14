@@ -6,14 +6,7 @@ permalink: /philosophy/
 
 {% include replace_nav_with_icons.html %}
 
-**TLDR**:
-
-- Be healthy. Health is most important.
-- Develop and rely on your core values & good habits.
-
-[Philosophical Resources](/non-technical-resources)
-
-These are some things that drive human behavior. I intend to cover these areas in my writing.
+Welcome to the philosophy section. Here I dive deep into topics that affect us directly. The aim is to discover and develop practical tools to live a better life. This exploration ranges from human needs, habits, core values to communication, negotiation, and more.
 
 ```mermaid!
 graph TD
@@ -27,6 +20,13 @@ graph TD
     P --> PPF[Past/Present/Future]
     P --> B[Biases/Fallacies]
 ```
+
+The TLDR of all these articles is this:
+
+- Be healthy. Health is most important.
+- Develop and rely on good habits and core values. They provide good default fallbacks.
+
+You can also find [Philosophical Resources](/non-technical-resources) that I hav
 
 **Matured Essays**
 

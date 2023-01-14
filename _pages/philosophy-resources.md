@@ -1,12 +1,12 @@
 ---
 layout: page
 title: 
-permalink: /non-technical-resources/
+permalink: /philosphy-resources/
 ---
 
 {% include replace_nav_with_icons.html %}
 
-## Non Technical Resources
+## Philosophical Resources
 
 I read/consume many resources and I thought this would be a good way to link to up and thus avoid  writing blogposts on these topics.
 
