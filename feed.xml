@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-14T00:15:53-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Start your project with Continuous Delivery till “PROD”</title><link href="https://www.ankushchoubey.com/v1/continuous-delivery" rel="alternate" type="text/html" title="Start your project with Continuous Delivery till “PROD”" /><published>2023-01-08T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-continuous-delivery</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/continuous-delivery">&lt;p&gt;&lt;img src=&quot;/images/continuous-delivery.png&quot; alt=&quot;Continuous Delivery&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-14T03:07:51-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Introduction to Optimized Inputs</title><link href="https://www.ankushchoubey.com/v1/inputs" rel="alternate" type="text/html" title="Introduction to Optimized Inputs" /><published>2023-01-14T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-inputs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/inputs">&lt;p&gt;Human beings and all other animals have needs. And these needs are what drives us to move. Needs display pain of some sort. And fulling that need reduces or mitigates that pain. We can call it pleasure.&lt;/p&gt;
+
+&lt;p&gt;Pleasure can be big or small. But the main thing here is: Needs drive us to pursue a solution that would reduce pain and move us towards pleasure.&lt;/p&gt;
+
+&lt;p&gt;Like everything there are multiple solutions to a problem. Some solutions are better than others. Some solutions are readily available. Some solutions require effort.&lt;/p&gt;
+
+&lt;p&gt;Our body, over a million years, has been adapted to respond to our environment and needs. A part of it is also repeated exposure and training. If the environment requires us to be stronger, like in instance where we are picking up a lot of weights. We become stronger.&lt;/p&gt;
+
+&lt;p&gt;If the environment no-longer requires us to be stronger, the body will adapt and put its resources where it can be used.&lt;/p&gt;
+
+&lt;p&gt;The change our body &amp;amp; mind goes through is proportional to the problem we are trying to solve. If we are trying to solve a harder problem, our body and mind will adapt more to solve the harder problem and vice a versa.&lt;/p&gt;
+
+&lt;p&gt;In the past, there were many problems we faced that are solved now with advances by human civilisation.&lt;/p&gt;
+
+&lt;p&gt;For instance, we were required to be strong and develop the skill of hunting, that got replaced when agriculture came along.&lt;/p&gt;
+
+&lt;p&gt;So, apart from feeling up time, the second-order consequence of this was, we aren’t as strong as our ancestors.&lt;/p&gt;
+
+&lt;p&gt;Think of this phenomena in everything we input in our lives.&lt;/p&gt;
+
+&lt;p&gt;If the input in our life requires or pushes us towards becoming better, we’ll respond to the environment by becoming better. Similarly, if input pushes us towards becoming worse, we become worse.&lt;/p&gt;
+
+&lt;p&gt;Like the example of hunting, inputs can sometimes be eliminate or replaced by other inputs.&lt;/p&gt;
+
+&lt;p&gt;We face inputs all the time and more in the modern world. We can optimise our inputs so that they best ones stay and keep making us better.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="inputs" /><category term="mature" /><summary type="html">Human beings and all other animals have needs. And these needs are what drives us to move. Needs display pain of some sort. And fulling that need reduces or mitigates that pain. We can call it pleasure.</summary></entry><entry><title type="html">Start your project with Continuous Delivery till “PROD”</title><link href="https://www.ankushchoubey.com/v1/continuous-delivery" rel="alternate" type="text/html" title="Start your project with Continuous Delivery till “PROD”" /><published>2023-01-08T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-continuous-delivery%20copy</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/continuous-delivery">&lt;p&gt;&lt;img src=&quot;/images/continuous-delivery.png&quot; alt=&quot;Continuous Delivery&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Original Photo by &lt;a href=&quot;https://unsplash.com/@ilumire?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Jelleke Vanooteghem&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/chuzevDl4qM?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -279,7 +303,7 @@ Feature: A new feature
 
 &lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-14T00:15:40-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-14T03:07:37-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.&lt;/p&gt;
 
@@ -819,172 +843,4 @@ Next Step: What to do next?&lt;/p&gt;
 
 &lt;h2 id=&quot;nuances&quot;&gt;Nuances&lt;/h2&gt;
 
-&lt;p&gt;Trust the system you have set.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="systems" /><summary type="html">The only way to become a high performer and fulfil your full potential is to create, iterate and rely on your systems.</summary></entry><entry><title type="html">Living a truthful life</title><link href="https://www.ankushchoubey.com/v1/truth" rel="alternate" type="text/html" title="Living a truthful life" /><published>2022-12-20T00:00:00-06:00</published><updated>2022-12-16T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-truth</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth">&lt;p&gt;Treat this article as a buffet. Start with the introduction and then read the sections until you feel you get the gist. Then jump to the next.&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;There are two parts to truth:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Seeing the truth&lt;/li&gt;
-  &lt;li&gt;Speaking the truth&lt;/li&gt;
-  &lt;li&gt;Acting the truth&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;seeing-the-truth&quot;&gt;Seeing the truth&lt;/h2&gt;
-
-&lt;p&gt;On truth, we want to be able to see truth as clearly as we can always. How to achieve this.&lt;/p&gt;
-
-&lt;p&gt;Part of it can be automated. Part of it can’t be automated.&lt;/p&gt;
-
-&lt;h3 id=&quot;observability&quot;&gt;Observability&lt;/h3&gt;
-
-&lt;p&gt;Data collection on computers/mobile devices can be automated. For example, you can keep track of all the tasks you need to do. All of them.&lt;/p&gt;
-
-&lt;p&gt;Many people don’t write todolist. They think that tasks accomplish automatically. But most time they don’t. I decided to make change to my passport address an year ago and it’s still not done. Similarly I had decided to get a complete health checkup an year ago. That hasn’t happened yet.&lt;/p&gt;
-
-&lt;p&gt;The goal with todo list is clarity. If we are failing towards our goal, we should know. If we are not failing towarding our goal we should know.&lt;/p&gt;
-
-&lt;p&gt;Similarly, all the quantified self automated systems are also truths.&lt;/p&gt;
-
-&lt;h3 id=&quot;rational-pre-decisions&quot;&gt;Rational Pre-decisions&lt;/h3&gt;
-
-&lt;p&gt;There are other ways to see truth aswell. For example, you predecide that the person who loves you would make time for you. Now, if they don’t make time for you, you know they don’t love you or at least that they might be busy. #loveLanguages&lt;/p&gt;
-
-&lt;p&gt;It’s important to not move your goal posts too much here. A little nuance adjustment is okay. But rationalization is not.&lt;/p&gt;
-
-&lt;h3 id=&quot;hold-opinions-lightly&quot;&gt;Hold opinions lightly&lt;/h3&gt;
-
-&lt;p&gt;To see truth clearly, you have to hold you opinions lightly. Because when you start saying and speaking the truth, you’ll start seeing everything in absolute clarity and that clarity means most times you realize you were either wrong and not perfect.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-mountain-of-perspectives-what-is-true&quot;&gt;&lt;strong&gt;The Mountain of Perspectives&lt;/strong&gt;: What is true?&lt;/h2&gt;
-
-&lt;p&gt;We are in a 3 dimensional landscape. There are multiple people in it. And their are multiple mountains.&lt;/p&gt;
-
-&lt;p&gt;These mountains are truths. Some mountain are tall. Some are short.&lt;/p&gt;
-
-&lt;p&gt;People are distributed accross the terrain. Some can see one mountain clearly. Some can’t. Some can see some part of the mountain.&lt;/p&gt;
-
-&lt;p&gt;On this terrain, if someone is tied, fog appears and they can’t see the mountain clearly at that moment.&lt;/p&gt;
-
-&lt;p&gt;Therefore ultimately, we find that there’s no one mountain. What’s truth for one person may not be true for other. And the interpretation of what’s true may change as more information is gathered.&lt;/p&gt;
-
-&lt;p&gt;This can be tricky when you first start with telling the truth. But you’ll get the hang of it.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7007720744847585280?compact=1&quot; height=&quot;399&quot; width=&quot;710&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; title=&quot;Embedded post&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;what-should-you-do-to-seek-truth&quot;&gt;What should you do to seek truth?&lt;/h2&gt;
-
-&lt;p&gt;We can control a few variables.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Hold your opinions lightly and examine them regularly.&lt;/li&gt;
-  &lt;li&gt;Filter out Logical Fallacies. Fallacies are very easier to spot and you’ll sharpen your arguments.&lt;/li&gt;
-  &lt;li&gt;Ask good questions that aren’t biased.&lt;/li&gt;
-  &lt;li&gt;Ask other’s for advice.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;how-we-usually-avoid-telling-the-truth-and-what-we-can-do-about-it&quot;&gt;How we usually avoid telling the truth and what we can do about it?&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;White Lies&lt;/strong&gt;: We should instead be as kind as possible but not lie. It’s important to recognize that white lies backfire bigger than just speaking the truth.&lt;/p&gt;
-
-&lt;h2 id=&quot;optional-psychological-safety-helping-others-tell-you-truth&quot;&gt;&lt;strong&gt;Optional&lt;/strong&gt;: Psychological Safety: Helping others tell you truth&lt;/h2&gt;
-
-&lt;p&gt;Psychological safety allows people to be themselves around you because they feel safe.&lt;/p&gt;
-
-&lt;p&gt;Offer guidelines and offer support.&lt;/p&gt;
-
-&lt;p&gt;Be consistent.&lt;/p&gt;
-
-&lt;p&gt;Tell your people you can handle the truth. Say it out loud. Over and over again. And mean it.&lt;/p&gt;
-
-&lt;p&gt;People who seek feedback more often feel psychologically safer.&lt;/p&gt;
-
-&lt;p&gt;Critize yourself publically.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://www.linkedin.com/embed/feed/update/urn:li:share:7010661770486808576&quot; height=&quot;473&quot; width=&quot;504&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; title=&quot;Embedded post&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PYZIvlf5ROw&quot;&gt;Achieving psychological safety - YouTube&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Y6ig4iWeYqk&quot;&gt;How to Build Psychological Safety at Work - YouTube&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;implementing-truth&quot;&gt;Implementing Truth&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;It’s easier to stop lying than it is to tell the truth&lt;/strong&gt;: Because most times you don’t know what truth is. So, if you stop lying, you eliminate almost everything. What remains is as true as things can be.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Practicing speaking the truth as clearly as you can&lt;/strong&gt;: Take a step back and think through if what you are saying is truth. Truth is clear and precise.&lt;/p&gt;
-
-&lt;p&gt;In order to be able to search for the truth, you have to think. To think, &lt;strong&gt;you have to risk being offensive&lt;/strong&gt; sometimes.&lt;/p&gt;
-
-&lt;p&gt;In order to speak the truth, &lt;strong&gt;you have to give up on what you want&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tell the truth + be useful&lt;/strong&gt;: You can always laugh. Panic is no good. Seeking truth is difficult when you are in panic.&lt;/p&gt;
-
-&lt;h2 id=&quot;optional-flavours-of-truth-that-we-fail-to-accept&quot;&gt;Optional: Flavours of Truth That We Fail to Accept&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Data&lt;/strong&gt;: Data can be in many forms. It can be text/numbers from a system or it can be observation from a real event. If you can’t see someone is continously treating you badly, you should accept that they treat you improperly. :)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rejection&lt;/strong&gt;: Rejection is a truth. No matter at what stage it is. This could be failure in an exam or a failure of relationship. The most rational thing to do here is to accept the rejection and move on. This acceptance is the acceptance of truth. Once we do accept it, we’ll be able to rethink things though and move forward.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Our Desires&lt;/strong&gt;: We try not to accept our desires. Maybe you wanna have sex badly but you force yourself not to think about it. Thus this thought becomes your new prison. Instead, you can accept this fact and find a healthier alternative than to watch porn :).&lt;/p&gt;
-
-&lt;h2 id=&quot;speaking-your-truth&quot;&gt;Speaking Your Truth&lt;/h2&gt;
-
-&lt;p&gt;Use simpler straight forward words.&lt;/p&gt;
-
-&lt;p&gt;You can’t make others see the truth easily. Saying, “You don’t want to look at truth” might be helpful sometimes but not often. This is because truth is filtered by many personal biases and personal knowledge.&lt;/p&gt;
-
-&lt;p&gt;For example, if someone has not experience pain of a loss, they won’t realize what you are going through. They won’t be able to empathize. And similarly, in such situations, you won’t be able to empathize with them.&lt;/p&gt;
-
-&lt;h2 id=&quot;optional-nuances-about-truth&quot;&gt;Optional: Nuances about Truth&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Don’t be idealistic be realist&lt;/strong&gt;. Being ideastic is great for personal discipline. Bt specially with others it becomes too much.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Truth is good. But Panic is No Good&lt;/strong&gt;: You have to learn to be calm. And specially making someone else panic is no good. We are more likely to create something outof nothing when we panic. In that sense, we are creating truth from a lie.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Belief presupposes truth&lt;/strong&gt;: Knock on the door and the door shall open. If you knock the right doo&lt;/p&gt;
-
-&lt;h2 id=&quot;optional-truth-and-other-concepts&quot;&gt;Optional: Truth and Other Concepts&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Ego&lt;/strong&gt;: Ego stops us from getting to the truth. To avoid ego, hold your opinions lightly.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Biases&lt;/strong&gt;: Biases are blindspots we have.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Truth and Good are tied&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;If you are asked if you should lie for the greater good? And you say yes.&lt;/p&gt;
-
-&lt;p&gt;Maybe, you are on the extreme.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Truth and Peace are tied&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;The closer you are the truth. The more peaceful you are inside.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;We should tell the truth because:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Staying connected with reality is the best place to make wise decisions.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Truth is:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Based on reality and true events.&lt;/li&gt;
-  &lt;li&gt;Based on the recognition of personal biases and fallacies.&lt;/li&gt;
-  &lt;li&gt;Based on the recognition that we are more likely wrong given the amount of info in the world.&lt;/li&gt;
-  &lt;li&gt;Empirical, i.e. verifiable in the real world.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Truth is not based on the following:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Self-affirmations and beliefs&lt;/li&gt;
-  &lt;li&gt;Motivated reasoning.&lt;/li&gt;
-  &lt;li&gt;Commenting without doing.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;optional-resources&quot;&gt;Optional: Resources&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EfEK-Pmi7v0&quot;&gt;Jordan Peterson - First stop lying, then speak your truth - YouTube&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><summary type="html">Treat this article as a buffet. Start with the introduction and then read the sections until you feel you get the gist. Then jump to the next.</summary></entry></feed>
+&lt;p&gt;Trust the system you have set.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="systems" /><summary type="html">The only way to become a high performer and fulfil your full potential is to create, iterate and rely on your systems.</summary></entry></feed>
