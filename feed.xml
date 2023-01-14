@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-13T22:39:52-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Start your project with Continuous Delivery till “PROD”</title><link href="https://www.ankushchoubey.com/v1/continuous-delivery" rel="alternate" type="text/html" title="Start your project with Continuous Delivery till “PROD”" /><published>2023-01-08T00:00:00-06:00</published><updated>2023-01-08T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-continous-delivery</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/continuous-delivery">&lt;p&gt;&lt;img src=&quot;/images/continuous-delivery.png&quot; alt=&quot;Continuous Delivery&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-13T23:43:59-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Start your project with Continuous Delivery till “PROD”</title><link href="https://www.ankushchoubey.com/v1/continuous-delivery" rel="alternate" type="text/html" title="Start your project with Continuous Delivery till “PROD”" /><published>2023-01-08T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-continuous-delivery</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/continuous-delivery">&lt;p&gt;&lt;img src=&quot;/images/continuous-delivery.png&quot; alt=&quot;Continuous Delivery&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Original Photo by &lt;a href=&quot;https://unsplash.com/@ilumire?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Jelleke Vanooteghem&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/chuzevDl4qM?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 
@@ -97,10 +97,6 @@
 
 &lt;p&gt;And lastly for the joy of coding &amp;amp; committing something is only complete when having it reach prod as fast as possible.&lt;/p&gt;
 
-&lt;h2 id=&quot;still-not-convinced-here-are-the-stats&quot;&gt;Still not convinced? Here are the stats&lt;/h2&gt;
-
-&lt;p&gt;Teams that follow continuous delivery have&lt;/p&gt;
-
 &lt;h2 id=&quot;optional-how-to-spot-fake-continuous-delivery&quot;&gt;Optional: How to spot fake continuous delivery?&lt;/h2&gt;
 
 &lt;p&gt;Continous Delivery means software is always in a releasable state to PROD.
@@ -159,9 +155,79 @@ npm run push &lt;span class=&quot;nv&quot;&gt;$ENV&lt;/span&gt;
   &lt;li&gt;&lt;a href=&quot;/feature-flagging&quot;&gt;feature-flagging&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
+&lt;h2 id=&quot;notes-from-other-articles&quot;&gt;Notes from other articles&lt;/h2&gt;
 
-&lt;p&gt;I like things uncoolness of technology: Neural Networks are uncool too. Look at &lt;a href=&quot;https://www.fast.ai/&quot;&gt;FastAI&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="devops" /><category term="continuous-delivery" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/continuous-delivery.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/continuous-delivery.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Template for Gherkin Specs</title><link href="https://www.ankushchoubey.com/v1/template-for-gherkin-specs" rel="alternate" type="text/html" title="Template for Gherkin Specs" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-07T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-template-for-gherkin-specs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/template-for-gherkin-specs">&lt;pre&gt;&lt;code class=&quot;language-feature&quot;&gt;@tagPlaceholder1 @tagPlaceholder2
+&lt;h3 id=&quot;the-case-for-continuous-delivery&quot;&gt;&lt;a href=&quot;https://www.thoughtworks.com/en-in/insights/blog/case-continuous-delivery&quot;&gt;The Case for Continuous Delivery&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Highlights Advantages of Continuous Delivery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One of the main uses of continuous delivery is to ensure we are building functionality that really delivers the expected customer value&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Second, continuous delivery reduces the risk of release and leads to more reliable and resilient systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Implementing CD has second-order effects that reduce the costs of software development&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When HP Laserjet Team Implemented CD they found:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Overall development costs reduced by ~40%
+Programs under development increased by ~140%
+Development costs per program reduced by 78%
+Resources driving innovation increased by 5x&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;continuous-delivery-pipeline-101&quot;&gt;&lt;a href=&quot;https://www.atlassian.com/continuous-delivery/principles/pipeline&quot;&gt;Continuous delivery pipeline 101&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Describes different continuous delivery pipelines.&lt;/p&gt;
+
+&lt;p&gt;CD needs a Repeatable reliable process&lt;/p&gt;
+
+&lt;h3 id=&quot;must-read-continuous-delivery-business-value-benefits-challenges--metrics&quot;&gt;&lt;strong&gt;MUST READ&lt;/strong&gt;: &lt;a href=&quot;https://www.atlassian.com/continuous-delivery/principles/business-value&quot;&gt;Continuous Delivery: Business Value, Benefits, Challenges &amp;amp; Metrics&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Explains the business benifits of continuous delivery. They are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Increased Velocity&lt;/li&gt;
+  &lt;li&gt;Increased Productivity&lt;/li&gt;
+  &lt;li&gt;Increased Sustainability&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Teams should fearlessly automate themselves out of their jobs, and move on to new projects.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In case you feel stalled, shift gears. &lt;strong&gt;Know how to give your team a car when all they have asked for is a faster horse&lt;/strong&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jumpstart with the help of experienced champions who will see you through this initial hump. &lt;strong&gt;People, after all, are your greatest assets&lt;/strong&gt; and train them to do the right thing. &lt;strong&gt;Make it easy to do the right thing, and hard to do the wrong thing&lt;/strong&gt;, and you will be pleasantly surprised at the outcome.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The article is worth sharing with your business team.&lt;/p&gt;
+
+&lt;h3 id=&quot;continuousdelivery&quot;&gt;&lt;a href=&quot;https://martinfowler.com/bliki/ContinuousDelivery.html&quot;&gt;ContinuousDelivery&lt;/a&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You’re doing continuous delivery when:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Your software is deployable throughout its lifecycle&lt;/li&gt;
+    &lt;li&gt;Your team prioritizes keeping the software deployable over working on new features&lt;/li&gt;
+    &lt;li&gt;Anybody can get fast, automated feedback on the production readiness of their systems any time somebody makes a change to them&lt;/li&gt;
+    &lt;li&gt;You can perform push-button deployments of any version of the software to any environment on demand&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="devops" /><category term="continuous-delivery" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/continuous-delivery.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/continuous-delivery.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Template for Gherkin Specs</title><link href="https://www.ankushchoubey.com/v1/template-for-gherkin-specs" rel="alternate" type="text/html" title="Template for Gherkin Specs" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-07T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-template-for-gherkin-specs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/template-for-gherkin-specs">&lt;pre&gt;&lt;code class=&quot;language-feature&quot;&gt;@tagPlaceholder1 @tagPlaceholder2
 Feature: A new feature
   Author - Ankush #this is the main person who write is specs
   Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.
@@ -198,7 +264,7 @@ Feature: A new feature
 
 &lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-13T22:39:37-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-13T23:43:43-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.&lt;/p&gt;
 

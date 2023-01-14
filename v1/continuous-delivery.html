@@ -20,7 +20,7 @@
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2023-01-08T00:00:00-06:00">
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/continuous-delivery"},"url":"https://www.ankushchoubey.com/v1/continuous-delivery","@type":"BlogPosting","headline":"Start your project with Continuous Delivery till “PROD”","dateModified":"2023-01-08T14:52:08-06:00","datePublished":"2023-01-08T00:00:00-06:00","image":"https://www.ankushchoubey.com/images/continuous-delivery.png","description":"How Zero-To-One is relevant in software development, why you should make Deployment&amp;Delivery Pipeline first and how to make releases un-cool.","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/continuous-delivery"},"url":"https://www.ankushchoubey.com/v1/continuous-delivery","@type":"BlogPosting","headline":"Start your project with Continuous Delivery till “PROD”","dateModified":"2023-01-14T14:52:08-06:00","datePublished":"2023-01-08T00:00:00-06:00","image":"https://www.ankushchoubey.com/images/continuous-delivery.png","description":"How Zero-To-One is relevant in software development, why you should make Deployment&amp;Delivery Pipeline first and how to make releases un-cool.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -130,13 +130,13 @@ window.onload = wrap_img;
     <p class="page-description">How Zero-To-One is relevant in software development, why you should make Deployment&amp;Delivery Pipeline first and how to make releases un-cool.</p>
 <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-01-08T00:00:00-06:00" itemprop="datePublished">
         Written: Jan 8, 2023
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-01-08T14:52:08-06:00" itemprop="dateModified">
-          Updated: Jan 8, 2023
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-01-14T14:52:08-06:00" itemprop="dateModified">
+          Updated: Jan 14, 2023
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      7 min read
+      8 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -211,12 +211,19 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#why-you-should-build-a-deployment-pipeline-first">Why you should build a deployment pipeline first?</a></li>
 <li class="toc-entry toc-h2"><a href="#addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality">Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”</a></li>
 <li class="toc-entry toc-h2"><a href="#optional--why-not-having-a-delivery-pipeline-is-risky">Optional:  Why not-having a delivery pipeline is risky?</a></li>
-<li class="toc-entry toc-h2"><a href="#still-not-convinced-here-are-the-stats">Still not convinced? Here are the stats</a></li>
 <li class="toc-entry toc-h2"><a href="#optional-how-to-spot-fake-continuous-delivery">Optional: How to spot fake continuous delivery?</a></li>
 <li class="toc-entry toc-h2"><a href="#what-your-first-delivery-would-be">What your first delivery would be?</a></li>
 <li class="toc-entry toc-h2"><a href="#optional-what-should-you-learn-to-make-a-delivery-pipeline">Optional: What should you learn to make a delivery pipeline?</a></li>
 <li class="toc-entry toc-h2"><a href="#conclusion">Conclusion</a></li>
-<li class="toc-entry toc-h2"><a href="#footnotes">Footnotes</a></li>
+<li class="toc-entry toc-h2">
+<a href="#notes-from-other-articles">Notes from other articles</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#the-case-for-continuous-delivery">The Case for Continuous Delivery</a></li>
+<li class="toc-entry toc-h3"><a href="#continuous-delivery-pipeline-101">Continuous delivery pipeline 101</a></li>
+<li class="toc-entry toc-h3"><a href="#must-read-continuous-delivery-business-value-benefits-challenges--metrics">MUST READ: Continuous Delivery: Business Value, Benefits, Challenges &amp; Metrics</a></li>
+<li class="toc-entry toc-h3"><a href="#continuousdelivery">ContinuousDelivery</a></li>
+</ul>
+</li>
 </ul>
 <p><img src="/images/continuous-delivery.png" alt="Continuous Delivery"></p>
 
@@ -325,11 +332,6 @@ window.onload = wrap_img;
 
 <p>And lastly for the joy of coding &amp; committing something is only complete when having it reach prod as fast as possible.</p>
 
-<h2 id="still-not-convinced-here-are-the-stats">
-<a class="anchor" href="#still-not-convinced-here-are-the-stats" aria-hidden="true"><span class="octicon octicon-link"></span></a>Still not convinced? Here are the stats</h2>
-
-<p>Teams that follow continuous delivery have</p>
-
 <h2 id="optional-how-to-spot-fake-continuous-delivery">
 <a class="anchor" href="#optional-how-to-spot-fake-continuous-delivery" aria-hidden="true"><span class="octicon octicon-link"></span></a>Optional: How to spot fake continuous delivery?</h2>
 
@@ -393,10 +395,88 @@ npm run push <span class="nv">$ENV</span>
   <li><a href="/feature-flagging">feature-flagging</a></li>
 </ul>
 
-<h2 id="footnotes">
-<a class="anchor" href="#footnotes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Footnotes</h2>
+<h2 id="notes-from-other-articles">
+<a class="anchor" href="#notes-from-other-articles" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes from other articles</h2>
 
-<p>I like things uncoolness of technology: Neural Networks are uncool too. Look at <a href="https://www.fast.ai/">FastAI</a></p>
+<h3 id="the-case-for-continuous-delivery">
+<a class="anchor" href="#the-case-for-continuous-delivery" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.thoughtworks.com/en-in/insights/blog/case-continuous-delivery">The Case for Continuous Delivery</a>
+</h3>
+
+<ul>
+  <li>Highlights Advantages of Continuous Delivery</li>
+</ul>
+
+<blockquote>
+  <p>One of the main uses of continuous delivery is to ensure we are building functionality that really delivers the expected customer value</p>
+</blockquote>
+
+<blockquote>
+  <p>Second, continuous delivery reduces the risk of release and leads to more reliable and resilient systems.</p>
+</blockquote>
+
+<blockquote>
+  <p>Implementing CD has second-order effects that reduce the costs of software development</p>
+</blockquote>
+
+<p>When HP Laserjet Team Implemented CD they found:</p>
+
+<blockquote>
+  <p>Overall development costs reduced by ~40%
+Programs under development increased by ~140%
+Development costs per program reduced by 78%
+Resources driving innovation increased by 5x</p>
+</blockquote>
+
+<h3 id="continuous-delivery-pipeline-101">
+<a class="anchor" href="#continuous-delivery-pipeline-101" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.atlassian.com/continuous-delivery/principles/pipeline">Continuous delivery pipeline 101</a>
+</h3>
+
+<p>Describes different continuous delivery pipelines.</p>
+
+<p>CD needs a Repeatable reliable process</p>
+
+<h3 id="must-read-continuous-delivery-business-value-benefits-challenges--metrics">
+<a class="anchor" href="#must-read-continuous-delivery-business-value-benefits-challenges--metrics" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>MUST READ</strong>: <a href="https://www.atlassian.com/continuous-delivery/principles/business-value">Continuous Delivery: Business Value, Benefits, Challenges &amp; Metrics</a>
+</h3>
+
+<p>Explains the business benifits of continuous delivery. They are:</p>
+
+<ol>
+  <li>Increased Velocity</li>
+  <li>Increased Productivity</li>
+  <li>Increased Sustainability</li>
+</ol>
+
+<blockquote>
+  <p><strong>Teams should fearlessly automate themselves out of their jobs, and move on to new projects.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p>In case you feel stalled, shift gears. <strong>Know how to give your team a car when all they have asked for is a faster horse</strong>!</p>
+</blockquote>
+
+<blockquote>
+  <p>Jumpstart with the help of experienced champions who will see you through this initial hump. <strong>People, after all, are your greatest assets</strong> and train them to do the right thing. <strong>Make it easy to do the right thing, and hard to do the wrong thing</strong>, and you will be pleasantly surprised at the outcome.</p>
+</blockquote>
+
+<p>The article is worth sharing with your business team.</p>
+
+<h3 id="continuousdelivery">
+<a class="anchor" href="#continuousdelivery" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://martinfowler.com/bliki/ContinuousDelivery.html">ContinuousDelivery</a>
+</h3>
+
+<blockquote>
+  <p>You’re doing continuous delivery when:</p>
+</blockquote>
+
+<blockquote>
+  <ol>
+    <li>Your software is deployable throughout its lifecycle</li>
+    <li>Your team prioritizes keeping the software deployable over working on new features</li>
+    <li>Anybody can get fast, automated feedback on the production readiness of their systems any time somebody makes a change to them</li>
+    <li>You can perform push-button deployments of any version of the software to any environment on demand</li>
+  </ol>
+</blockquote>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
