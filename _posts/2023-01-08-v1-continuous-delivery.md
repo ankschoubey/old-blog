@@ -3,8 +3,8 @@ layout: post
 comments: true
 description: How Zero-To-One is relevant in software development, why you should make Deployment&Delivery Pipeline first and how to make releases un-cool.
 categories: [devops, continuous-delivery]
-last_modified_at: 2023-01-08T20:52:08.052481
-last-modified-purpose:
+last_modified_at: 2023-01-14T20:52:08.052481
+last-modified-purpose: Added notes from other blogs
 permalink: /v1/continuous-delivery
 title: Start your project with Continuous Delivery till "PROD"
 image: /images/continuous-delivery.png
@@ -102,10 +102,6 @@ If the project is de-prioritized, then all work is lost.
 
 And lastly for the joy of coding & committing something is only complete when having it reach prod as fast as possible.
 
-## Still not convinced? Here are the stats
-
-Teams that follow continuous delivery have
-
 ## Optional: How to spot fake continuous delivery?
 
 Continous Delivery means software is always in a releasable state to PROD.
@@ -164,6 +160,52 @@ Practices like the following support continuous delivery:
 - [the kanban](/implementing-kanban) pull system and walk-the-board-from-right strategy,
 - [feature-flagging](/feature-flagging)
 
-## Footnotes
+## Notes from other articles
 
-I like things uncoolness of technology: Neural Networks are uncool too. Look at [FastAI](https://www.fast.ai/)
+### [The Case for Continuous Delivery](https://www.thoughtworks.com/en-in/insights/blog/case-continuous-delivery)
+
+- Highlights Advantages of Continuous Delivery
+
+> One of the main uses of continuous delivery is to ensure we are building functionality that really delivers the expected customer value
+
+> Second, continuous delivery reduces the risk of release and leads to more reliable and resilient systems.
+
+> Implementing CD has second-order effects that reduce the costs of software development
+
+When HP Laserjet Team Implemented CD they found:
+
+> Overall development costs reduced by ~40%
+> Programs under development increased by ~140%
+> Development costs per program reduced by 78%
+> Resources driving innovation increased by 5x
+
+### [Continuous delivery pipeline 101](https://www.atlassian.com/continuous-delivery/principles/pipeline)
+
+Describes different continuous delivery pipelines.
+
+CD needs a Repeatable reliable process
+
+### **MUST READ**: [Continuous Delivery: Business Value, Benefits, Challenges & Metrics](https://www.atlassian.com/continuous-delivery/principles/business-value)
+
+Explains the business benifits of continuous delivery. They are:
+
+1. Increased Velocity
+2. Increased Productivity
+3. Increased Sustainability
+
+> **Teams should fearlessly automate themselves out of their jobs, and move on to new projects.**
+
+> In case you feel stalled, shift gears. **Know how to give your team a car when all they have asked for is a faster horse**!
+
+> Jumpstart with the help of experienced champions who will see you through this initial hump. **People, after all, are your greatest assets** and train them to do the right thing. **Make it easy to do the right thing, and hard to do the wrong thing**, and you will be pleasantly surprised at the outcome.
+
+The article is worth sharing with your business team.
+
+### [ContinuousDelivery](https://martinfowler.com/bliki/ContinuousDelivery.html)
+
+> You’re doing continuous delivery when:
+
+> 1. Your software is deployable throughout its lifecycle
+> 2. Your team prioritizes keeping the software deployable over working on new features
+> 3. Anybody can get fast, automated feedback on the production readiness of their systems any time somebody makes a change to them
+> 4. You can perform push-button deployments of any version of the software to any environment on demand
