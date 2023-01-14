@@ -214,7 +214,6 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#optional-how-to-spot-fake-continuous-delivery">Optional: How to spot fake continuous delivery?</a></li>
 <li class="toc-entry toc-h2"><a href="#what-your-first-delivery-would-be">What your first delivery would be?</a></li>
 <li class="toc-entry toc-h2"><a href="#optional-what-should-you-learn-to-make-a-delivery-pipeline">Optional: What should you learn to make a delivery pipeline?</a></li>
-<li class="toc-entry toc-h2"><a href="#conclusion">Conclusion</a></li>
 <li class="toc-entry toc-h2">
 <a href="#notes-from-other-articles">Notes from other articles</a>
 <ul>
@@ -224,7 +223,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#continuousdelivery">ContinuousDelivery</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#conclusion-1">Conclusion</a></li>
+<li class="toc-entry toc-h2"><a href="#conclusion">Conclusion</a></li>
 </ul>
 <p><img src="/images/continuous-delivery.png" alt="Continuous Delivery"></p>
 
@@ -311,9 +310,12 @@ window.onload = wrap_img;
   <li>On their first day, a developer commits and his code reaches from dev, qa, uat to PROD and users start using it. It so happened that their was a logical bug in the code deployed.</li>
   <li>Rather than scraping the continous delivery pipeline, the team decides to find why the problem was caused and improve the pipeline. They find that the code quality itself was low and their were logical bugs.</li>
   <li>To fix this issue from happening in the future, the team adopted better engineering practices.
- a. They add Sonar lint, a popular linter to quicky check and ensure code meets standard.
- b. They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%.
- c. Now, the problem for fixed for life.</li>
+    <ul>
+      <li>They add Sonar lint, a popular linter to quicky check and ensure code meets standard.</li>
+      <li>They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%.</li>
+      <li>Now, the problem for fixed for life.</li>
+    </ul>
+  </li>
   <li>Sonar Lint became a step in the delivery pipeline. And TDD became a habit.</li>
 </ol>
 
@@ -393,23 +395,6 @@ npm run build
 npm run push <span class="nv">$ENV</span>
 </code></pre></div></div>
 
-<h2 id="conclusion">
-<a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h2>
-
-<p>A continuous deployment pipeline helps improve value delivery and deployment frequency without reducing quality, rather it enforces quality. The team following continuous delivery is forced to be intentional.</p>
-
-<p>The real continuous delivery is delivery to PROD. All else is fake.</p>
-
-<p>Practices like the following support continuous delivery:</p>
-
-<ul>
-  <li><a href="/atomic-commits">atomic commits</a></li>
-  <li><a href="/tdd">TDD</a></li>
-  <li>
-<a href="/implementing-kanban">the kanban</a> pull system and walk-the-board-from-right strategy,</li>
-  <li><a href="/feature-flagging">feature-flagging</a></li>
-</ul>
-
 <h2 id="notes-from-other-articles">
 <a class="anchor" href="#notes-from-other-articles" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes from other articles</h2>
 
@@ -417,38 +402,32 @@ npm run push <span class="nv">$ENV</span>
 <a class="anchor" href="#the-case-for-continuous-delivery" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.thoughtworks.com/en-in/insights/blog/case-continuous-delivery">The Case for Continuous Delivery</a>
 </h3>
 
-<ul>
-  <li>Highlights Advantages of Continuous Delivery</li>
-</ul>
-
 <blockquote>
-  <p>One of the main uses of continuous delivery is to ensure we are building functionality that really delivers the expected customer value</p>
+  <p>One of the main uses of continuous delivery is to <strong>ensure we are building functionality that really delivers the expected customer value</strong></p>
 </blockquote>
 
 <blockquote>
-  <p>Second, continuous delivery reduces the risk of release and leads to more reliable and resilient systems.</p>
+  <p>Second, continuous delivery <strong>reduces the risk of release and leads to more reliable and resilient systems</strong>.</p>
 </blockquote>
 
 <blockquote>
-  <p>Implementing CD has second-order effects that reduce the costs of software development</p>
+  <p>Implementing CD has second-order effects that <strong>reduce the costs of software development</strong></p>
 </blockquote>
 
 <p>When HP Laserjet Team Implemented CD they found:</p>
 
-<blockquote>
-  <p>Overall development costs reduced by ~40%
-Programs under development increased by ~140%
-Development costs per program reduced by 78%
-Resources driving innovation increased by 5x</p>
-</blockquote>
+<ul>
+  <li>Overall development costs reduced by ~40%</li>
+  <li>Programs under development increased by ~140%</li>
+  <li>Development costs per program reduced by 78%</li>
+  <li>Resources driving innovation increased by 5x</li>
+</ul>
 
 <h3 id="continuous-delivery-pipeline-101">
 <a class="anchor" href="#continuous-delivery-pipeline-101" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.atlassian.com/continuous-delivery/principles/pipeline">Continuous delivery pipeline 101</a>
 </h3>
 
-<p>Describes different continuous delivery pipelines.</p>
-
-<p>CD needs a Repeatable reliable process</p>
+<p>Describes different continuous delivery pipelines. CD needs a Repeatable reliable process</p>
 
 <h3 id="must-read-continuous-delivery-business-value-benefits-challenges--metrics">
 <a class="anchor" href="#must-read-continuous-delivery-business-value-benefits-challenges--metrics" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>MUST READ</strong>: <a href="https://www.atlassian.com/continuous-delivery/principles/business-value">Continuous Delivery: Business Value, Benefits, Challenges &amp; Metrics</a>
@@ -459,10 +438,10 @@ Resources driving innovation increased by 5x</p>
 <ol>
   <li>Increased Velocity</li>
   <li>Increased Productivity</li>
-  <li>Increased Sustainability
-cd
-“Done” means released</li>
+  <li>Increased Sustainability</li>
 </ol>
+
+<p>“Done” means released</p>
 
 <blockquote>
   <p><strong>Teams should fearlessly automate themselves out of their jobs, and move on to new projects.</strong></p>
@@ -495,12 +474,24 @@ cd
   </ol>
 </blockquote>
 
-<h2 id="conclusion-1">
-<a class="anchor" href="#conclusion-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h2>
+<h2 id="conclusion">
+<a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h2>
 
-<p>Continous Delivery allows you to ship software faster and forces developers and business to be more deligent and set good processes for releases.</p>
+<p>A continuous deployment pipeline helps improve value delivery and deployment frequency without reducing quality, rather it enforces quality. The team following continuous delivery is forced to be intentional.</p>
 
-<p>The teams that follow CD see a 5 to 10 times increase deployments, resulting in faster value to the customer, faster and higher quality software shipping and therefore leads the way for more #money!</p>
+<p>The real continuous delivery is delivery to PROD. All else is fake.</p>
+
+<p>Continuous Delivery is a combination of development improvements and business improvements, forcing both to be more deligent and set good processes for release. The teams that follow CD see a 5 to 10 times increase deployments.</p>
+
+<p>Practices like the following support continuous delivery:</p>
+
+<ul>
+  <li><a href="/atomic-commits">atomic commits</a></li>
+  <li><a href="/tdd">TDD</a></li>
+  <li>
+<a href="/implementing-kanban">the kanban</a> pull system and walk-the-board-from-right strategy,</li>
+  <li><a href="/feature-flagging">feature-flagging</a></li>
+</ul>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
