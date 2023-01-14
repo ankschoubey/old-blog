@@ -132,6 +132,9 @@ In these resources, try to only consume the parts you need. Let go or parts you 
       - The more personal responsibility you take on and fullfil. The more incontrol you’ll feel. This will give you strength and power.
       - [The 3 Stages of Failure in Life and Work (And How to Fix Them)](https://jamesclear.com/3-stages-of-failure)
 - Cognitive Biases
+  - 2023
+    - Jan
+      - [Failing Repeatedly at Life? Avoid this Cognitive Trap.](https://www.youtube.com/watch?v=0JqH1_l0b9M) Move the goal post fallacy.
   - 2022
     - Dec
       - [Why Smart People Think They're Stupid [The Dunning-Kruger Effect] - YouTube](https://www.youtube.com/watch?v=TT81fe2IobI&list=WL)
