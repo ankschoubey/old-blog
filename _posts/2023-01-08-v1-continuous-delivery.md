@@ -85,9 +85,9 @@ For example, let's say a team adopts continous delivery.
 1. On their first day, a developer commits and his code reaches from dev, qa, uat to PROD and users start using it. It so happened that their was a logical bug in the code deployed.
 2. Rather than scraping the continous delivery pipeline, the team decides to find why the problem was caused and improve the pipeline. They find that the code quality itself was low and their were logical bugs.
 3. To fix this issue from happening in the future, the team adopted better engineering practices.
- a. They add Sonar lint, a popular linter to quicky check and ensure code meets standard.
- b. They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%.
- c. Now, the problem for fixed for life.
+    - They add Sonar lint, a popular linter to quicky check and ensure code meets standard.
+    - They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%.
+    - Now, the problem for fixed for life.
 4. Sonar Lint became a step in the delivery pipeline. And TDD became a habit.
 
 The next time a developer comes and commits something, the stages in the delivery pipeline ensures that the code is deliverable.
@@ -165,26 +165,22 @@ npm run push $ENV
 
 ### [The Case for Continuous Delivery](https://www.thoughtworks.com/en-in/insights/blog/case-continuous-delivery)
 
-- Highlights Advantages of Continuous Delivery
+> One of the main uses of continuous delivery is to **ensure we are building functionality that really delivers the expected customer value**
 
-> One of the main uses of continuous delivery is to ensure we are building functionality that really delivers the expected customer value
+> Second, continuous delivery **reduces the risk of release and leads to more reliable and resilient systems**.
 
-> Second, continuous delivery reduces the risk of release and leads to more reliable and resilient systems.
-
-> Implementing CD has second-order effects that reduce the costs of software development
+> Implementing CD has second-order effects that **reduce the costs of software development**
 
 When HP Laserjet Team Implemented CD they found:
 
-> Overall development costs reduced by ~40%
-> Programs under development increased by ~140%
-> Development costs per program reduced by 78%
-> Resources driving innovation increased by 5x
+- Overall development costs reduced by ~40%
+- Programs under development increased by ~140%
+- Development costs per program reduced by 78%
+- Resources driving innovation increased by 5x
 
 ### [Continuous delivery pipeline 101](https://www.atlassian.com/continuous-delivery/principles/pipeline)
 
-Describes different continuous delivery pipelines.
-
-CD needs a Repeatable reliable process
+Describes different continuous delivery pipelines. CD needs a Repeatable reliable process
 
 ### **MUST READ**: [Continuous Delivery: Business Value, Benefits, Challenges & Metrics](https://www.atlassian.com/continuous-delivery/principles/business-value)
 
@@ -193,7 +189,7 @@ Explains the business benifits of continuous delivery. They are:
 1. Increased Velocity
 2. Increased Productivity
 3. Increased Sustainability
-cd
+
 “Done” means released
 
 > **Teams should fearlessly automate themselves out of their jobs, and move on to new projects.**
