@@ -6,9 +6,7 @@ permalink: /resources/
 
 {% include replace_nav_with_icons.html %}
 
-I read/consume many resources and I thought this would be a good way to link to up and thus avoid  writing blogposts on these topics.
-
-The resources are removed when associated blogposts are written.
+I share a collection of valuable resources I come across on my field, which I update regularly. As I explore these resources more, I may also write blog posts on them. The resources will be removed once a related blog post is written.
 
 ## Resources and Some Notes
 

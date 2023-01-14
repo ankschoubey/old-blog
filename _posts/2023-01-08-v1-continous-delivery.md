@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-description: How Zero-To-One is relevant in software development and why you should make Deployment&Delivery Pipeline first.
+description: How Zero-To-One is relevant in software development, why you should make Deployment&Delivery Pipeline first and how to make releases un-cool.
 categories: [devops, continuous-delivery]
 last_modified_at: 2023-01-08T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/continuous-delivery
-title: Start your project with Continuous Delivery
+title: Start your project with Continuous Delivery till "PROD"
 image: /images/continuous-delivery.png
 toc: true
 ---
@@ -163,3 +163,7 @@ Practices like the following support continuous delivery:
 - [TDD](/tdd)
 - [the kanban](/implementing-kanban) pull system and walk-the-board-from-right strategy,
 - [feature-flagging](/feature-flagging)
+
+## Footnotes
+
+I like things uncoolness of technology: Neural Networks are uncool too. Look at [FastAI](https://www.fast.ai/)

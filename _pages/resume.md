@@ -6,11 +6,11 @@ search_exclude: false
 ---
 {% include replace_nav_with_icons.html %}
 
-Hi! I am developer with 4+ experience in Spring Boot Microservices and I am looking for an onsite role in Europe, Dubai, Canada and Australia.
+Hi. I am developer with 4+ experience in Spring Boot Microservices. I am actively seeking an onsite role in Europe, Dubai, Canada, or Australia.
 
-If you want to hire me, just email at ankushchoubey@outlook.com.
+I am committed to delivering high-quality, customer-focused solutions and have a proven track record of success in my previous roles. You can find my **resume** and a **list of recommendations** and appreciations from colleagues below.
 
-Below you'll find my resume and a list of recommendation and appreciations from collegues.
+If you are interested in hiring me, please feel free to contact me at **ankushchoubey@outlook.com** to discuss further. I'll be excited about the opportunity to bring my skills and experience to your organization and contribute to its success.
 
 ## Resume
 
