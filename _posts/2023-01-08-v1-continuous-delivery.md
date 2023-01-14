@@ -15,6 +15,20 @@ toc: true
 
 Original Photo by <a href="https://unsplash.com/@ilumire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jelleke Vanooteghem</a> on <a href="https://unsplash.com/photos/chuzevDl4qM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+Software developers and businesses all around the world nag release. There is an emotional low and high point associate with it.
+
+Because till something is released, we developers secretly know the work we did isn't bug free. We cut shortcuts to complete feature after feature and when it comes time to release, the emotional down starts.
+
+This routine is a cycle of Manual Deployment.
+
+![](/images/v1-continuous-delivery/emotional cycle of manual delivery_.png)
+
+Source: Atlassian (Linked below.).
+
+Manual Deployment is a big deal for both developer and business. But there is a better alternative that forces developers and business to get more intentional and produce high quality work faster.
+
+This post talks about that process and why it's needed. At the end of the post, you'll find links to other blogs that can be useful read along with this one.
+
 ## **Software Delivery**: Early vs Late
 
 The most important thing for a project is delivery. Delivering a software early means it's impact is early. Money now is better than money tomorrow.
@@ -192,7 +206,7 @@ Explains the business benifits of continuous delivery. They are:
 1. Increased Velocity
 2. Increased Productivity
 3. Increased Sustainability
-
+cd
 “Done” means released
 
 > **Teams should fearlessly automate themselves out of their jobs, and move on to new projects.**
@@ -211,3 +225,9 @@ The article is worth sharing with your business team.
 > 2. Your team prioritizes keeping the software deployable over working on new features
 > 3. Anybody can get fast, automated feedback on the production readiness of their systems any time somebody makes a change to them
 > 4. You can perform push-button deployments of any version of the software to any environment on demand
+
+## Conclusion
+
+Continous Delivery allows you to ship software faster and forces developers and business to be more deligent and set good processes for releases.
+
+The teams that follow CD see a 5 to 10 times increase deployments, resulting in faster value to the customer, faster and higher quality software shipping and therefore leads the way for more #money!
