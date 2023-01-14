@@ -193,6 +193,8 @@ Explains the business benifits of continuous delivery. They are:
 2. Increased Productivity
 3. Increased Sustainability
 
+“Done” means released
+
 > **Teams should fearlessly automate themselves out of their jobs, and move on to new projects.**
 
 > In case you feel stalled, shift gears. **Know how to give your team a car when all they have asked for is a faster horse**!
