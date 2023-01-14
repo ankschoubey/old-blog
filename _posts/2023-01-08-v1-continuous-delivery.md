@@ -161,19 +161,6 @@ read end
 npm run push $ENV
 ```
 
-## Conclusion
-
-A continuous deployment pipeline helps improve value delivery and deployment frequency without reducing quality, rather it enforces quality. The team following continuous delivery is forced to be intentional.
-
-The real continuous delivery is delivery to PROD. All else is fake.
-
-Practices like the following support continuous delivery:
-
-- [atomic commits](/atomic-commits)
-- [TDD](/tdd)
-- [the kanban](/implementing-kanban) pull system and walk-the-board-from-right strategy,
-- [feature-flagging](/feature-flagging)
-
 ## Notes from other articles
 
 ### [The Case for Continuous Delivery](https://www.thoughtworks.com/en-in/insights/blog/case-continuous-delivery)
@@ -228,6 +215,15 @@ The article is worth sharing with your business team.
 
 ## Conclusion
 
-Continous Delivery allows you to ship software faster and forces developers and business to be more deligent and set good processes for releases.
+A continuous deployment pipeline helps improve value delivery and deployment frequency without reducing quality, rather it enforces quality. The team following continuous delivery is forced to be intentional.
 
-The teams that follow CD see a 5 to 10 times increase deployments, resulting in faster value to the customer, faster and higher quality software shipping and therefore leads the way for more #money!
+The real continuous delivery is delivery to PROD. All else is fake.
+
+Continuous Delivery is a combination of development improvements and business improvements, forcing both to be more deligent and set good processes for release. The teams that follow CD see a 5 to 10 times increase deployments.
+
+Practices like the following support continuous delivery:
+
+- [atomic commits](/atomic-commits)
+- [TDD](/tdd)
+- [the kanban](/implementing-kanban) pull system and walk-the-board-from-right strategy,
+- [feature-flagging](/feature-flagging)
