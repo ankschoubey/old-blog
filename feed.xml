@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-15T01:19:17-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Introduction to Optimized Inputs</title><link href="https://www.ankushchoubey.com/v1/inputs" rel="alternate" type="text/html" title="Introduction to Optimized Inputs" /><published>2023-01-14T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-inputs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/inputs">&lt;p&gt;Human beings and all other animals have needs. And these needs are what drives us to move. Needs display pain of some sort. And fulling that need reduces or mitigates that pain. We can call it pleasure.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-19T10:41:01-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">My Blindspots</title><link href="https://www.ankushchoubey.com/v1/my-blindspots" rel="alternate" type="text/html" title="My Blindspots" /><published>2023-01-19T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-my-blindspots</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/my-blindspots">&lt;h2 id=&quot;anxious-attachment&quot;&gt;Anxious Attachment&lt;/h2&gt;
+
+&lt;p&gt;Be very objective of what is actually happening if it is actually mutual.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.youtube.com/watch?v=3wc87y6an_g&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><summary type="html">Anxious Attachment</summary></entry><entry><title type="html">Introduction to Optimized Inputs</title><link href="https://www.ankushchoubey.com/v1/inputs" rel="alternate" type="text/html" title="Introduction to Optimized Inputs" /><published>2023-01-14T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-inputs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/inputs">&lt;p&gt;Human beings and all other animals have needs. And these needs are what drives us to move. Needs display pain of some sort. And fulling that need reduces or mitigates that pain. We can call it pleasure.&lt;/p&gt;
 
 &lt;p&gt;Pleasure can be big or small. But the main thing here is: Needs drive us to pursue a solution that would reduce pain and move us towards pleasure.&lt;/p&gt;
 
@@ -303,7 +307,7 @@ Feature: A new feature
 
 &lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-15T01:18:57-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-19T10:40:46-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.&lt;/p&gt;
 
@@ -752,95 +756,4 @@ Next Step: What to do next?&lt;/p&gt;
 
 &lt;p&gt;Remember, you only have 35 hours per week. or 7 hour per day or work time.&lt;/p&gt;
 
-&lt;p&gt;For personal you have 7 hours per weekend combined assuming you also want to live your life well. Use them wisely.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="time" /><summary type="html">There are a few rules I discovered that helps.</summary></entry><entry><title type="html">Creating Systems To Automate Goal Achievement</title><link href="https://www.ankushchoubey.com/v1/systems" rel="alternate" type="text/html" title="Creating Systems To Automate Goal Achievement" /><published>2022-12-22T00:00:00-06:00</published><updated>2022-12-22T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-systems</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/systems">&lt;p&gt;The only way to become a high performer and fulfil your full potential is to create, iterate and rely on your systems.&lt;/p&gt;
-
-&lt;p&gt;In programming terms, systems are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(log n)&lt;/code&gt;, and No-Systems are like brute force &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(n^3)&lt;/code&gt;. Systems allow us to focus on the task and not reply to other things.&lt;/p&gt;
-
-&lt;p&gt;Suppose you want study for IELTS exam and it’s been your goal for 3-4 months. When you look at what you did in these past months, you can see you wasted a lot of time. Re-iterating, you create a system for yourself. You setup flash cards that you practice daily for 5 minutes once you reach home. In a less than a month, you were able to cover up more than you did in last several months combined.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-are-the-benefits-of-creating-a-system&quot;&gt;What are the benefits of creating a system?&lt;/h2&gt;
-
-&lt;p&gt;Systems allow you to free up your mental load. Allowing you to perform at your best, be decisive, and be confident that everything will work properly.&lt;/p&gt;
-
-&lt;p&gt;Systems allow you to fall back and know everything is okay and taken care of. They are comparable to taking breaks and letting go. We take breaks and let go knowing we are stronger and in control.&lt;/p&gt;
-
-&lt;p&gt;Systems allow us to be happy at the moment and know that the path we are on is the best path there is.&lt;/p&gt;
-
-&lt;p&gt;If you want to have a 360 life, a life where you are covered all areas of life pretty well, you need systems. This is because you have limited time, and limited cognitive ability to re-thing something again and again. You need a set process.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-are-the-different-kinds-of-systems&quot;&gt;What are the different kinds of systems?&lt;/h2&gt;
-
-&lt;p&gt;Different kinds of systems are:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Targeted Training and Testing - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(n)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Assistance via Environment - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(log n)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Automation - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(1)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Habits - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O(1)&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Each system has its pros and cons, and when to use each depends on what you are trying to accomplish.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Targeted Training and Testing&lt;/strong&gt;: Learning and deliberately practising each and every step of something. This includes re-training to keep yourself sharp and eliminate flaws.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Assistance via Environment&lt;/strong&gt;: Setting your environment in a way that makes it easy to accomplish your tasks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Automation&lt;/strong&gt;: Using Technology to its full advantage as a modern human. This would take our output from 1 to 20x.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Habits&lt;/strong&gt;: Creating healthier habits that are in our best interest.&lt;/p&gt;
-
-&lt;h2 id=&quot;targeted-training-and-testing&quot;&gt;Targeted Training and Testing&lt;/h2&gt;
-
-&lt;p&gt;Training is the same as putting your reps in the gym. Initially you are fat or skinny, but as you keep training and working out, muscles develop and this development gives you new abilities that allow you do new things.&lt;/p&gt;
-
-&lt;p&gt;Training allows you to not be effected by change in environment or mood. Since you have practices your kick 10,000 time, there is little error that you’ll make a mistake.&lt;/p&gt;
-
-&lt;p&gt;You rely on training and testing to get better at a skill. Suppose you want to give a public speech, create a script, practice it a few times, maybe record yourself, iterate and then give the speech.&lt;/p&gt;
-
-&lt;p&gt;The stages of progression in training and testing are following:&lt;/p&gt;
-
-&lt;p&gt;Level &lt;strong&gt;1: Learn&lt;/strong&gt;: You are learning about the topic and actually practising the things you learn. There is no learning about actually doing. You need #skinInTheGame as early as possible.&lt;/p&gt;
-
-&lt;p&gt;Level &lt;strong&gt;2: Cover the flow&lt;/strong&gt;: You take things slow and try to cover the flow a few times. i.e. you practice something end to end but slowly.&lt;/p&gt;
-
-&lt;p&gt;Level &lt;strong&gt;3: Rectification&lt;/strong&gt;: You rectify everything starting from your weakest point because that’s where you’ll get the most growth.&lt;/p&gt;
-
-&lt;p&gt;Level &lt;strong&gt;4: Iterate and practice&lt;/strong&gt;: You continuously iterate and practice.&lt;/p&gt;
-
-&lt;p&gt;Level &lt;strong&gt;5: Mimic the real world&lt;/strong&gt; until you feel confident to go out into a real situation&lt;/p&gt;
-
-&lt;p&gt;Level &lt;strong&gt;6: Graduate&lt;/strong&gt; but sometimes return to one of the previous steps to iterate.&lt;/p&gt;
-
-&lt;p&gt;// REFLECT and improve&lt;/p&gt;
-
-&lt;p&gt;Remember, your training needs to be targetted and focused. Only by removing redistractions and targetting you’ll have enough myelination in your brain to truly focus and grasp what you are learning.&lt;/p&gt;
-
-&lt;p&gt;Exposure therapy is also a good example of training. You are scared of something and it terrifies you. Now you take steps to learn it, expose yourself to it again and get better at it.&lt;/p&gt;
-
-&lt;h3 id=&quot;find-places-where-you-can-include-training&quot;&gt;Find places where you can include training.&lt;/h3&gt;
-
-&lt;p&gt;Make a list of all the things that you do. Find places that can be trained.&lt;/p&gt;
-
-&lt;p&gt;For example; Gymn&lt;/p&gt;
-
-&lt;h3 id=&quot;nuances-about-training-and-testing&quot;&gt;Nuances about training and testing&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;You need to do your reps.&lt;/strong&gt;: You need to do your reps when it is needed. And take breaks when you are not doing your reps. Work hard. Play hard.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;You’ll face resistance&lt;/strong&gt; You need to train to get stronger in whatever you are doing. :) You’ll face resistance from your own self. Trust the training process and the system you have set. Part of your training is facing and overcoming these resistance.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Don’t expect you’ll special&lt;/strong&gt;: Perhaps there are people out there that don’t need to practice piano on a weekly basis. Assume you are not one of those people.&lt;/p&gt;
-
-&lt;h2 id=&quot;here-are-some-examples-of-trainings-and-testing&quot;&gt;Here are some examples of trainings and testing&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Pomodoro&lt;/strong&gt;: Trains your attention and focus by focusing on something for 25 minutes and then taking a break for 5. The timing and Pomodoro principles need to be strictly followed for good training.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Meditation&lt;/strong&gt;: Meditating for a fixed amount, like 10 minutes/20 minutes, would train your brain to focus your attention on what you truly want and trains you to not be swayed by your emotions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Sessions&lt;/strong&gt;: Whether it is Piano or learning a language. You need proper regular practice sessions. These can in be pomodoro style.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tests&lt;/strong&gt;: Tests are a good way to assert if you actually know something. This can be Dry Runs of Demo or an actual test where you sit down for the exam time and give the test. Tests can also be in form ask letting someone else ask a question and you answering it. Tests are something we did commonly as kids.&lt;/p&gt;
-
-&lt;h2 id=&quot;nuances&quot;&gt;Nuances&lt;/h2&gt;
-
-&lt;p&gt;Trust the system you have set.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="systems" /><summary type="html">The only way to become a high performer and fulfil your full potential is to create, iterate and rely on your systems.</summary></entry></feed>
+&lt;p&gt;For personal you have 7 hours per weekend combined assuming you also want to live your life well. Use them wisely.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="time" /><summary type="html">There are a few rules I discovered that helps.</summary></entry></feed>
