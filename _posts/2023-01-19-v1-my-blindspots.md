@@ -10,7 +10,6 @@ title: My Blindspots
 toc: true
 ---
 
-
 ## Anxious Attachment
 
 Be very objective of what is actually happening if it is actually mutual.
