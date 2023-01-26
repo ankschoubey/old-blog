@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-26T01:19:41-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Desk Setup</title><link href="https://www.ankushchoubey.com/v1/desk-setup" rel="alternate" type="text/html" title="Desk Setup" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-desk-setup</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/desk-setup">&lt;p&gt;This is how it should like like.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-26T01:22:55-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">How to plan mid-day?</title><link href="https://www.ankushchoubey.com/v1/plan-mid-day" rel="alternate" type="text/html" title="How to plan mid-day?" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-plan-mid-day</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/plan-mid-day">&lt;p&gt;The mid day is the time where you can be the most active. This is ideally, 1.5 hours after waking up.&lt;/p&gt;
+
+&lt;p&gt;To make mid day a success, it’s best to have completed the morning ritual. If the morning ritual is not complete find the best parts of the morning ritual to complete. The morning ritual can provide you with great focus.&lt;/p&gt;
+
+&lt;p&gt;Also, as part of night ritual, your room and setup might already be clean and ready to work.&lt;/p&gt;
+
+&lt;p&gt;Now, you can divide the mid-day into two parts—first half and second half.&lt;/p&gt;
+
+&lt;p&gt;The first half is pre-lunch. This is where you’ll likely be the most active. Fix your lunch time to around 1:30.&lt;/p&gt;
+
+&lt;p&gt;My daily standup starts at 9. And I pay attention to it. It’s a great time for me to learn what’s happening in the team and note down concepts that I don’t know.&lt;/p&gt;
+
+&lt;p&gt;I also spend time learning a few minutes glancing at things I don’t know. And discussing any impediments I have.&lt;/p&gt;
+
+&lt;p&gt;You can work between 10 to 1. 3 hours. This would include a 2 hours pomodoro sprint. This activity is chosen carefully and is a part where no learning is required.&lt;/p&gt;
+
+&lt;p&gt;If I need to learn something, I can watch youtube videos or open up documentation. But remember this time is protected. No one should distract me between 10 to 1.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="time" /><category term="planning" /><summary type="html">The mid day is the time where you can be the most active. This is ideally, 1.5 hours after waking up.</summary></entry><entry><title type="html">Desk Setup</title><link href="https://www.ankushchoubey.com/v1/desk-setup" rel="alternate" type="text/html" title="Desk Setup" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-desk-setup</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/desk-setup">&lt;p&gt;This is how it should like like.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/v1-desk-setup/1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -322,7 +338,7 @@ Feature: A new feature
 
 &lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-26T01:19:27-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-26T01:22:42-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.&lt;/p&gt;
 
@@ -668,43 +684,4 @@ Next Step: What to do next?&lt;/p&gt;
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.merits.com/blog/spotting-the-truth-in-a-world-of-lies&quot;&gt;Spotting the Truth in a World of Lies&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><category term="mature" /><summary type="html">Liars can wrap you and your worldview to get what they want. They often go unnoticed. They are like successful social black-hat hackers. You need good security to protect yourself.</summary></entry><entry><title type="html">Code Review Checklist</title><link href="https://www.ankushchoubey.com/v1/code-review-checklist" rel="alternate" type="text/html" title="Code Review Checklist" /><published>2022-12-31T00:00:00-06:00</published><updated>2022-12-31T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-code-review-checklist</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/code-review-checklist">&lt;h2 id=&quot;why-do-we-need-a-code-review-checklist&quot;&gt;Why do we need a code review checklist?&lt;/h2&gt;
-
-&lt;p&gt;We developers must know a little bit of everything from architecture to low-level code details like HTTP Statuses. Apart from that, we also have non-technical work that needs to be kept up to date.&lt;/p&gt;
-
-&lt;p&gt;For this reason, we need checklists.&lt;/p&gt;
-
-&lt;p&gt;Checklists are proven to increase quality and compliance. They are used heavily in the medical domain. Medical professionals who use checklists make fewer mistakes and are likelier to get through all the steps properly.&lt;/p&gt;
-
-&lt;p&gt;An important goal for us developers is Continous Delivery, where every commit we make reaches production and works properly. To avoid the cycle of making mistakes when we commit, we need accurate processes that help catch our bugs early on.&lt;/p&gt;
-
-&lt;p&gt;These processes can be in the automated form of linters, tests, etc. But still we need a human to verify what we have been doing.&lt;/p&gt;
-
-&lt;p&gt;We need a code review checklist to make the code review process streamlined and understood by the entire team.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-can-we-use-a-code-review-checklist&quot;&gt;How can we use a code review checklist?&lt;/h2&gt;
-
-&lt;p&gt;We can use code-review checklists like doctors do.&lt;/p&gt;
-
-&lt;p&gt;Before committing, we can walk through our code review checklist and tick off points. This will ensure we have a good first screening ourselves before submitting to code review.&lt;/p&gt;
-
-&lt;p&gt;The code review checklist is mostly a yes or no questionnaire. It need not be super complex. And would take a max of 5 minutes to go through.&lt;/p&gt;
-
-&lt;p&gt;If you aim to do 1 Small story in 1 day and 1 medium story in 2.5 days, 5 minutes is nothing to ensure the same story doesn’t produce a bug.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-items-can-we-add-to-a-code-review-checklist&quot;&gt;What items can we add to a code review checklist?&lt;/h2&gt;
-
-&lt;h3 id=&quot;api&quot;&gt;API&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Are you using the correct method?&lt;/li&gt;
-  &lt;li&gt;Are you using a suitable schema?&lt;/li&gt;
-  &lt;li&gt;Are you returning the proper error code?&lt;/li&gt;
-  &lt;li&gt;Does the return value need to be cached?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;logging&quot;&gt;Logging&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Are log comments proper?&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="engineering" /><summary type="html">Why do we need a code review checklist?</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.merits.com/blog/spotting-the-truth-in-a-world-of-lies&quot;&gt;Spotting the Truth in a World of Lies&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><category term="mature" /><summary type="html">Liars can wrap you and your worldview to get what they want. They often go unnoticed. They are like successful social black-hat hackers. You need good security to protect yourself.</summary></entry></feed>
