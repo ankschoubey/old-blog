@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-26T01:22:55-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">How to plan mid-day?</title><link href="https://www.ankushchoubey.com/v1/plan-mid-day" rel="alternate" type="text/html" title="How to plan mid-day?" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-plan-mid-day</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/plan-mid-day">&lt;p&gt;The mid day is the time where you can be the most active. This is ideally, 1.5 hours after waking up.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-26T01:26:55-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">How to plan mid-day?</title><link href="https://www.ankushchoubey.com/v1/plan-mid-day" rel="alternate" type="text/html" title="How to plan mid-day?" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-plan-mid-day</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/plan-mid-day">&lt;p&gt;The mid day is the time where you can be the most active. This is ideally, 1.5 hours after waking up.&lt;/p&gt;
 
 &lt;p&gt;To make mid day a success, it’s best to have completed the morning ritual. If the morning ritual is not complete find the best parts of the morning ritual to complete. The morning ritual can provide you with great focus.&lt;/p&gt;
 
@@ -14,7 +14,40 @@
 
 &lt;p&gt;You can work between 10 to 1. 3 hours. This would include a 2 hours pomodoro sprint. This activity is chosen carefully and is a part where no learning is required.&lt;/p&gt;
 
-&lt;p&gt;If I need to learn something, I can watch youtube videos or open up documentation. But remember this time is protected. No one should distract me between 10 to 1.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="time" /><category term="planning" /><summary type="html">The mid day is the time where you can be the most active. This is ideally, 1.5 hours after waking up.</summary></entry><entry><title type="html">Desk Setup</title><link href="https://www.ankushchoubey.com/v1/desk-setup" rel="alternate" type="text/html" title="Desk Setup" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-desk-setup</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/desk-setup">&lt;p&gt;This is how it should like like.&lt;/p&gt;
+&lt;p&gt;If I need to learn something, I can watch youtube videos or open up documentation. But remember this time is protected. No one should distract me between 10 to 1.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="time" /><category term="planning" /><summary type="html">The mid day is the time where you can be the most active. This is ideally, 1.5 hours after waking up.</summary></entry><entry><title type="html">How I use ChatGPT as an AI Assist?</title><link href="https://www.ankushchoubey.com/v1/chatgpt-assist" rel="alternate" type="text/html" title="How I use ChatGPT as an AI Assist?" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-how-i-use-chatgpt</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/chatgpt-assist">&lt;p&gt;I have also been thinking about AI Assist. ChatGPT is too good and it can help me with a lot of things. For instance,&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finding improvements to my blog. “How can I improve: {text}”. I might also add in more context: “Make this more professional: {text}”.&lt;/li&gt;
+  &lt;li&gt;This is what I used yesterday to improve my LinkedIn bio and description. It was too baby like.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This would be an excellent first, reviewer. And reduce feedback time by a lot.&lt;/p&gt;
+
+&lt;p&gt;The main way I want to use it is to teach me rather than do it itself. So, I would prefer the asking “How can I improve this text: {text}” over “Improve this: {text}?”&lt;/p&gt;
+
+&lt;p&gt;This is because I want to be better myself. And not rely on an automated tool all the time. So, ChatGPT becomes a self improvement and clarity improvement and learning tool.&lt;/p&gt;
+
+&lt;h2 id=&quot;summarisation&quot;&gt;Summarisation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ChatGPT can also summarise really well, and since I have really long blogposts and really long morning pages, I think that summarisation would make things really nice.&lt;/li&gt;
+  &lt;li&gt;Maybe I can also have my week summarised by passing it my weekly journaling. The problem here is that I can’t pass private data, rather I should not pass.&lt;/li&gt;
+  &lt;li&gt;The summary feature is also available in Google Chat, where it summarizes the most useful points.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;explanation&quot;&gt;Explanation&lt;/h2&gt;
+
+&lt;p&gt;I can ask ChatGPT for explanation of things or for debugging. Finally, it is a corpus of entire human insights.&lt;/p&gt;
+
+&lt;p&gt;Explain me like I am 5 or comparing one thing to another on a particular aspect are excellent questions to ask.&lt;/p&gt;
+
+&lt;p&gt;I think AI is revolutionising us. This is really really huge. And I really love being a part of this. I totally understand, the disruption this is causing and going to cause is much much more than we anticipated, and it’s only going to get started. Jobs would evolve and have to evolve because that’s the only way to stay relevant.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This is just 2023, what would happen in upcoming years? Damn. It’s a fun time to be alive.—So that was all about ChatGPT, I have asked it many personal questions that I wouldn’t have asked to anyone. And it has helped me a lot. Thank you OpenAI. I hope I can contribute to the world in as useful way and you do.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="inputs" /><summary type="html">I have also been thinking about AI Assist. ChatGPT is too good and it can help me with a lot of things. For instance,</summary></entry><entry><title type="html">Desk Setup</title><link href="https://www.ankushchoubey.com/v1/desk-setup" rel="alternate" type="text/html" title="Desk Setup" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-desk-setup</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/desk-setup">&lt;p&gt;This is how it should like like.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/v1-desk-setup/1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -338,7 +371,7 @@ Feature: A new feature
 
 &lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-26T01:22:42-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-26T01:26:41-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.&lt;/p&gt;
 
@@ -622,66 +655,4 @@ Next Step: What to do next?&lt;/p&gt;
 
 &lt;p&gt;That protects you against lies of any kind.&lt;/p&gt;
 
-&lt;p&gt;Truth and peace are directly correlated. One increases or decreases another.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><category term="mature" /><summary type="html">Living and speaking your truth makes you free:</summary></entry><entry><title type="html">Implement Zero Trust in Real Life</title><link href="https://www.ankushchoubey.com/v1/truth/liars" rel="alternate" type="text/html" title="Implement Zero Trust in Real Life" /><published>2022-12-31T00:00:00-06:00</published><updated>2022-12-31T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-liars</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/liars">&lt;p&gt;Liars can wrap you and your worldview to get what they want. They often go unnoticed. They are like successful social black-hat hackers. You need good security to protect yourself.&lt;/p&gt;
-
-&lt;div class=&quot;flash&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-    &lt;strong&gt;Note: &lt;/strong&gt;There is a difference between not knowing the truth (being naive) and lying. Here we are talking about deception.
-&lt;/div&gt;
-
-&lt;p&gt;You need zero trust. Zero trust has three ideas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-truth/zero-trust.png&quot; alt=&quot;Zero Trust&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;Toast&quot;&gt;
-   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
-   &lt;span class=&quot;Toast-content&quot;&gt;Zero Trust is a concept in computer security used to protect distributed systems in cloud infrastructure. We can apply the same concepts to regular life.&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Verify Explicitly&lt;/strong&gt;: Have explicit systems to examine if what is spoken is true. Pull out your logical fallacies and cognitive bias lists.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Least Privilage&lt;/strong&gt;: You don’t have to say everything to everyone. Only give people as much access as they need. They don’t need everything. They don’t need your whole self. Your family needs your whole self, not others. You need to be assertive.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Assume Breach&lt;/strong&gt;: Assume the person you are talking to tends to lie. Or does not speak truthfully as diligently as you do.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Catching a liar&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Lies are oversimplistic and tend to change over time.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The liar has to keep a narrative of many things that aren’t true.&lt;/li&gt;
-  &lt;li&gt;When pressed, they may try to blame something else or bring up an irrelevant topic to distract us or place a straw man.&lt;/li&gt;
-  &lt;li&gt;They won’t be specific.&lt;/li&gt;
-  &lt;li&gt;They may twist their words slightly to fit their lie into truth. At such moments, note if they have motivated reasoning.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Should you confront a liar? Depends on how serious the lie was?&lt;/p&gt;
-
-&lt;div class=&quot;flash flash-success&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-checklist octicon octicon-checklist octicon octicon-checklist&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-    &lt;strong&gt;Tip: &lt;/strong&gt;Stay away from people who explicitly lie or have manipulative behavior.
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Gain perspectives&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;If you have good social connections and a broader worldview, you’ll eventually know many common lies that others face.&lt;/p&gt;
-
-&lt;p&gt;Books like 48 Laws of Power and The Law of Human Nature are also helpful here.&lt;/p&gt;
-
-&lt;p&gt;Consider both sides of the coin. And recognize that if something is too good to be true. It probably is.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Know the common areas where you can easily be lied&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Recognize the common areas in which you are suggestible. These likely include things you are insecure about.&lt;/p&gt;
-
-&lt;p&gt;One who is fat and wants to lose weight is more likely to believe in an ad about a magic pill or device.&lt;/p&gt;
-
-&lt;p&gt;If you are desperate about something, it’s easier to believe a lie in that domain.&lt;/p&gt;
-
-&lt;p&gt;Most things on social media are also lying. Why would you wanna stay on a platform that’s fake?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.merits.com/hs-fs/hubfs/Imported_Blog_Media/how-many-people-are-lying-Feb-26-2022-05-34-55-04-PM.png?width=1520&amp;amp;name=how-many-people-are-lying-Feb-26-2022-05-34-55-04-PM.png&quot; alt=&quot;Common Lies&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.merits.com/blog/spotting-the-truth-in-a-world-of-lies&quot;&gt;Spotting the Truth in a World of Lies&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><category term="mature" /><summary type="html">Liars can wrap you and your worldview to get what they want. They often go unnoticed. They are like successful social black-hat hackers. You need good security to protect yourself.</summary></entry></feed>
+&lt;p&gt;Truth and peace are directly correlated. One increases or decreases another.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><category term="mature" /><summary type="html">Living and speaking your truth makes you free:</summary></entry></feed>
