@@ -39,41 +39,202 @@ You can also find [Philosophical Resources](/non-technical-resources) that I hav
 
 **My 7 Core Values**:
 
-1. [Truth](#truth)
+1. [Clarity](#clarity)
 1. [Responsibility](#responsibility)
 1. [Inputs](#inputs)
 1. [Systems](#systems)
 1. [Time](#time)
 1. [Peace](#peace)
-1. [Team Work](#team work)
+1. [Team Work](#teamwork)
 
-## Truth
+## Clarity
 
-{% include postsOfTag.html tag='truth' %}
+**Part 1: Foundations**
+
+1. What does clarity mean? And why is it the first core-value?
+2. Why is clarity relevant?
+3. Why and how clarity coincides with truth and vision?
+4. What is truth? What is perspective? How multiple truths can co-exist?
+
+**Part 2: Principles**
+
+1. Truth and good are tied.
+2. You are likely wrong.
+3. The more you can look at the past and your current map. The more you'll be able to see the future.
+
+**Part 3: Practices**
+
+1. How to implement Zero Trust in real life?
+2. Spotting and navigating cognitive biases.
+3. Spotting and navigating logical fallacies.
+4. Structuring your thoughts. Using mental models for truth and core values for vision.
+5. Tell the truth. Or at-least not lie.
+4. Learning to share your thoughts with others. (Intimate conversations) Why communication leads to better thinking.
+5. Developing Self Awareness
+
+**Part 4: Nuances**
+
+1. Is it truth? Or is it panic?
+
 
 ## Responsibility
 
-{% include postsOfTag.html tag='responsibility' %}
+**Part 1: Foundations**
+
+1. 
+2. 
+3. With More Responsibility Comes More Power. And with more power comes more responsibility
+
+
+**Part 2: Principles**
+
+1. Fullfill potential: The positive effect of doing hard things
+2. No one gets away with anything. So actually solve the problem
+3. Start now! Don't wait.(You can't wait until forever to get started. Only by starting now you'll make it easier for your future self. The problems with perfection)
+
+Facing obstacles. And becoming antifragile.
+
+Fuck feelings. Be disciplined.
+
+**Part 3: Practices**
+
+1. Start with local problems. (Clean your room)
+2. Focus on needs and need to do (duties) rather than wants.
+3. Stop taking on other people's responsibilities
+4. Be useful and pick the heaviest load you can find.
+
+10. Conclusion
+
+Facing the dragon
 
 ## Inputs
 
-{% include postsOfTag.html tag='inputs' %}
+**Part 1: Foundations**
+
+1. The modern struggle
+2. Hinderance to everythings. The hidden cost of distraction.
+2. Addition by substraction
+
+**Part 2: Principles**
+
+1. Traction: With right inputs you get right outputs. Automate push towards your goals.
+2. Vitamin N: Say No! And accept hearing no!
+3. 
+
+
+**Part 3: Practices**
+
+1. Quit: Social Media
+2. Quit: Pornography
+3. Quit: Sugar and Bread
+4. Add: Exercise
+5. Add: Meditation
+6. Quit: Addictions
+
+10. Conclusion
 
 ## Systems
 
-{% include postsOfTag.html tag='systems' %}
+**Part 1: Foundations**
+
+1. 
+2. Systems O(log n) over Bruteforce O(n^2)
+3. Compounding effect of 1% better
+
+Machine that makes improvements.
+
+**Part 2: Principles**
+
+1. Be methodical in everything.
+2. Automation in the modern world
+3. Be consistent.
+4. Take data-driven decisions
+
+**Part 3: Practices**
+
+1. Post operation debrif
+2. 
+
+10. Conclusion
 
 ## Time
 
-{% include postsOfTag.html tag='time' %}
 
-## Peace
+**Part 1: Foundations**
 
-{% include postsOfTag.html tag='peace' %}
+1. 
+2. Finiteness of Time
+3. 
+
+
+**Part 2: Principles**
+
+1. 
+2. 
+3. 
+
+**Part 3: Practices**
+
+1. 
+2. 
+3. 
+4. 
+
+10. Conclusion
+
+
+**Part 1: Foundations**
+
+1. 
+2. 
+3. Why we only see what's bad or what we did bad. Hedonic adaptation.
+
+Time Assets Vs Liabilities
+
+**Part 2: Principles**
+
+1. Pleasure leads to unhappiness
+2. Truth leads to peace. 
+3. ROI of Fun!
+4. Nature is efficient.
+
+**Part 3: Practices**
+
+1. Fullfilling your body. Sleep.
+2. The subtle art of not giving a fuck about stupid things.
+3. Learning to breathe. The art of developing detachment.
+4. Let things be. The art of never hurrying.
+
+10. Conclusion
+
 
 ## Team Work
 
-{% include postsOfTag.html tag='team-work' %}
+**Part 1: Foundations**
+
+1. 
+2. 
+3. Personalities
+
+
+**Part 2: Principles**
+
+1. We are all narcissists.
+4. Learning to care
+5. Random acts of kindness
+6. Quit Sugar and Bread
+
+Keep your weapons sheeth
+
+**Part 3: Practices**
+
+4. Learning to care. Guide rather than taunt
+5. Random acts of kindness
+9. Be the person everyone calls. Be useful.
+10. Ask for help. People ae more caring that you realize.
+11. Implement Zero Trust
+
+10. Conclusion
 
 **Incubating Essays**
 
