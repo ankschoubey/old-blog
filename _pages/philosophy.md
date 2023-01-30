@@ -64,11 +64,14 @@ You can also find [Philosophical Resources](/non-technical-resources) that I hav
 
 **Part 3: Practices**
 
-1. How to implement Zero Trust in real life?
+1. Structuring your thoughts. Using mental models for truth and core values for vision.
+
 2. Spotting and navigating cognitive biases.
 3. Spotting and navigating logical fallacies.
-4. Structuring your thoughts. Using mental models for truth and core values for vision.
-5. Tell the truth. Or at-least not lie.
+
+4. How to catch lies and liars? Implement Zero-Trust in real life.
+
+5. Tell the truth. Or atleast not lie.
 4. Learning to share your thoughts with others. (Intimate conversations) Why communication leads to better thinking.
 5. Developing Self Awareness
 
@@ -90,7 +93,13 @@ You can also find [Philosophical Resources](/non-technical-resources) that I hav
 
 1. Fullfill potential: The positive effect of doing hard things
 2. No one gets away with anything. So actually solve the problem
-3. Start now! Don't wait.(You can't wait until forever to get started. Only by starting now you'll make it easier for your future self. The problems with perfection)
+3. Start now! Don't wait.(You can't wait until forever to get started. Only by starting now you'll make it easier for your future self. The problems with perfection) 
+
+Needs vs Wants.
+
+Nihilism of modern age. And Traditional Roles to the rescue.
+
+#makeMistakes
 
 Facing obstacles. And becoming antifragile.
 
@@ -131,6 +140,8 @@ Facing the dragon
 5. Add: Meditation
 6. Quit: Addictions
 
+Embrace Boredom.
+
 10. Conclusion
 
 ## Systems
@@ -142,6 +153,14 @@ Facing the dragon
 3. Compounding effect of 1% better
 
 Machine that makes improvements.
+
+Knowledge repository.
+
+Lean methodology. Kanban.
+
+How to organize anything. (turn chaos into order)
+
+System of people.
 
 **Part 2: Principles**
 
@@ -158,6 +177,13 @@ Machine that makes improvements.
 10. Conclusion
 
 ## Time
+
+
+Avoiding procrastination
+
+Opportunity Cost
+
+
 
 
 **Part 1: Foundations**
@@ -182,6 +208,16 @@ Machine that makes improvements.
 
 10. Conclusion
 
+
+## Peace
+
+Identifying emotions.
+
+Pet a cat when you encounter one on the street.
+
+Be grateful inspite your suffering.
+
+#gratitude 5 minute journal.
 
 **Part 1: Foundations**
 
@@ -226,10 +262,16 @@ Time Assets Vs Liabilities
 
 Keep your weapons sheeth
 
+Boundaries
+
+Gift of attention.
+Gift of empathy.
+Gift of truth.
+
 **Part 3: Practices**
 
 4. Learning to care. Guide rather than taunt
-5. Random acts of kindness
+5. Being kind and random acts of kindness.
 9. Be the person everyone calls. Be useful.
 10. Ask for help. People ae more caring that you realize.
 11. Implement Zero Trust
