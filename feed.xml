@@ -1,4 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-01-26T01:26:55-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">How to plan mid-day?</title><link href="https://www.ankushchoubey.com/v1/plan-mid-day" rel="alternate" type="text/html" title="How to plan mid-day?" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-plan-mid-day</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/plan-mid-day">&lt;p&gt;The mid day is the time where you can be the most active. This is ideally, 1.5 hours after waking up.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-02-11T00:55:16-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">RSA Algorithm</title><link href="https://www.ankushchoubey.com/v1/rsa" rel="alternate" type="text/html" title="RSA Algorithm" /><published>2023-02-01T00:00:00-06:00</published><updated>2023-02-01T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-rsa</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/rsa">&lt;p&gt;RSA is an asymmetric key encryption algorithm and was first published in 1977.&lt;/p&gt;
+
+&lt;p&gt;RSA was created by Ron Rivest, Adi Shamir and Leonard Adleman.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/v1-rsa/rsa-creators.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Adding their photo for inspiration.&lt;/p&gt;
+
+&lt;p&gt;RSA works on the concept of modular arithmetic.&lt;/p&gt;
+
+&lt;p&gt;In RSA, we have a public and a private key. We use the private key to decrypt and the public key to encrypt.&lt;/p&gt;
+
+&lt;p&gt;This means that the private key should not be shared. But the public key can be shared with anyone.&lt;/p&gt;
+
+&lt;p&gt;Private Key = Key
+Public Key = Lock&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;There are 5 steps in RSA.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Take two prime numbers p and q. (Eg: p=2, q=7)&lt;/li&gt;
+  &lt;li&gt;Calculate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; . &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; is the product of p and q. (N = p*q = 2*7 = 14)&lt;/li&gt;
+  &lt;li&gt;Calculate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(N)&lt;/code&gt; .&lt;/li&gt;
+  &lt;li&gt;This is the number of co-primes less than N. (Eg. 1, 2, 5, 7 and 11 are co-primes to 14; therefore &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(n)&lt;/code&gt;  is the count = 6)&lt;/li&gt;
+  &lt;li&gt;This can also be calculated with a formula &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(p-1)(q-1)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Eg; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(N)&lt;/code&gt;  = (2-1)(7-1) = 6&lt;/li&gt;
+  &lt;li&gt;Create the public key (e) such that&lt;/li&gt;
+  &lt;li&gt;1 &amp;lt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;e&lt;/code&gt;  &amp;lt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(N)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;E should be co-prime with Phi(N)&lt;/li&gt;
+  &lt;li&gt;Eg. e = 5&lt;/li&gt;
+  &lt;li&gt;Find the private key (d) such that&lt;/li&gt;
+  &lt;li&gt;(e*d) mod &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(n)&lt;/code&gt; = 1&lt;/li&gt;
+  &lt;li&gt;Eg: (5*d) mod (14) = 1&lt;/li&gt;
+  &lt;li&gt;When you calculate this you’ll see a pattern.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;5*1 = 5; mod 6 =  5&lt;/li&gt;
+  &lt;li&gt;5*2 = 10; mod 6 = 4&lt;/li&gt;
+  &lt;li&gt;15 mod 6 = 3&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+  &lt;li&gt;25 mod 6 = 1&lt;/li&gt;
+  &lt;li&gt;30 mod 6 = 0
+This pattern is expected since (5*6)%6 will be 0.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s pick a large &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;d&lt;/code&gt; .&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D = 11&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Not to encrypt you’ll do the following,&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(value^e) mod N
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To decrypt, you’ll do the following,&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(encryptedValue ^d) mod N
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4zahvcJ9glg&quot;&gt;Eddie Woo: The RSA Encryption Algorithm (1 of 2: Computing an Example)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oOcTVTpUsPQ&quot;&gt;The RSA Encryption Algorithm (2 of 2: Generating the Keys)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html&quot;&gt;RSA Calculator&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="security" /><summary type="html">RSA is an asymmetric key encryption algorithm and was first published in 1977.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-rsa/rsa-creators.jpeg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-rsa/rsa-creators.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What are the traditional roles of a man and women? And why they are relevant?</title><link href="https://www.ankushchoubey.com/v1/traditional-roles" rel="alternate" type="text/html" title="What are the traditional roles of a man and women? And why they are relevant?" /><published>2023-01-31T00:00:00-06:00</published><updated>2023-01-31T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-traditional-roles</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/traditional-roles">&lt;p&gt;What are the traditional roles of a man and women? And why they are relevant?
+In a world of narcissist, nihilism, pleasure, many are tempted to believe that this is all life has to offer. That’s until they decide to take responsibility. They stop being all talk, and convert their potential to actuality.&lt;/p&gt;
+
+&lt;p&gt;Along that path comes a point. What to do?&lt;/p&gt;
+
+&lt;p&gt;We have already covered needs. One of two types of responsibility a human should adopt.&lt;/p&gt;
+
+&lt;p&gt;This post will provide a guide to need to do i.e. duties. Duties are traditional synonym for responsibility.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-we-should-look-at-traditional-roles&quot;&gt;Why we should look at traditional roles?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The more you look at the history and the past, the more you can see the future.
+~ Winston Churchil.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Things that have worked for a numbers of years have value in them. It’s not always the case that what’s new has value.&lt;/p&gt;
+
+&lt;p&gt;In our case, around 100 years ago, most of humanity lived under extreme poverty. So, before 100 years ago, most humans were adapted to a world where they had to work on their duties.&lt;/p&gt;
+
+&lt;p&gt;In these times, each person tried to adapt to their best skill. And similarly, men and women adapted to the skill that suited them the best.&lt;/p&gt;
+
+&lt;p&gt;Men are usually stronger physically. This made them good at jobs like being a soldier and building buildings.&lt;/p&gt;
+
+&lt;p&gt;Women are usually physically less strong and have a kind nature. This made them good at caring, managing households.&lt;/p&gt;
+
+&lt;p&gt;Both men and women worked together to build our modern world today.&lt;/p&gt;
+
+&lt;p&gt;The most important thing was that they “had” to do their duties and as well as possible. In the modern world, most duties have become optional or are at least perceived to be optional. This optionality results in a lack of purpose for most people. People don’t know what to do. So they opt for what’s available, momentary pleasure and are in a pit of nihilism.&lt;/p&gt;
+
+&lt;p&gt;The pre-modern world provides a much much better alternative. Traditional roles provides the purpose of life that modern alternatives do not. Even if you are modern, if you feel lost then start here with the traditional. Then adapt your plans overtime.&lt;/p&gt;
+
+&lt;h2 id=&quot;implementing-the-traditional-roles&quot;&gt;Implementing The Traditional Roles&lt;/h2&gt;
+
+&lt;p&gt;Before jumping further, here is the mindset you should develop.&lt;/p&gt;
+
+&lt;p&gt;Start with at least what’s your strength, if you are masculine, pick traditional masculine duties first. If you are feminine, pick traditionally feminine duties first.&lt;/p&gt;
+
+&lt;p&gt;Once you are set in one role, start picking up things from the other role.&lt;/p&gt;
+
+&lt;p&gt;There is no-problem in picking being caring as a man or being a provider as a women. But try starting with your duties first as these may come much more naturally to you.&lt;/p&gt;
+
+&lt;h2 id=&quot;duties-of-a-man&quot;&gt;Duties of a man&lt;/h2&gt;
+
+&lt;p&gt;A man has three duties:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Provide&lt;/li&gt;
+  &lt;li&gt;Protect&lt;/li&gt;
+  &lt;li&gt;Problem Solve&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Suppose you were living in a jungle in 1600s, what would you do.&lt;/p&gt;
+
+&lt;p&gt;You would provide for your family, protect them from dangerous and solve problems like shelter by building a house.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To provide&lt;/strong&gt;, a man must be useful enough. In the modern world being useful enough means providing the world what it wants. #capatalism (I love capitalism).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To protect&lt;/strong&gt;, a man must be strong physically and must be strong mentally to face the problems that come up.&lt;/p&gt;
+
+&lt;p&gt;In the modern world, there seems to be no-need for such strength, but it seems useless not to have such physical and mental strength. This conclusion is because we still have protection duties. Going down an alley and a thief with a knife shows up. What would you do? Would you panic or would you handle the situation calmly. Therefore, a man must develop his physical body well to be useful in any situation and his mental strength as well so that he can face obstacles that come.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To problem solve&lt;/strong&gt;, a man must be learn, not give up and be-humble enough to adapt to the situations. Many times this means facing the void of not knowing anything, but trying anyways.&lt;/p&gt;
+
+&lt;h2 id=&quot;duties-of-a-women&quot;&gt;Duties of a women&lt;/h2&gt;
+&lt;p&gt;A women has three duties.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Nurture&lt;/li&gt;
+  &lt;li&gt;Feed&lt;/li&gt;
+  &lt;li&gt;Care&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="non-professional" /><category term="responsibility" /><summary type="html">What are the traditional roles of a man and women? And why they are relevant? In a world of narcissist, nihilism, pleasure, many are tempted to believe that this is all life has to offer. That’s until they decide to take responsibility. They stop being all talk, and convert their potential to actuality.</summary></entry><entry><title type="html">How to plan mid-day?</title><link href="https://www.ankushchoubey.com/v1/plan-mid-day" rel="alternate" type="text/html" title="How to plan mid-day?" /><published>2023-01-26T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-plan-mid-day</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/plan-mid-day">&lt;p&gt;The mid day is the time where you can be the most active. This is ideally, 1.5 hours after waking up.&lt;/p&gt;
 
 &lt;p&gt;To make mid day a success, it’s best to have completed the morning ritual. If the morning ritual is not complete find the best parts of the morning ritual to complete. The morning ritual can provide you with great focus.&lt;/p&gt;
 
@@ -371,7 +510,7 @@ Feature: A new feature
 
 &lt;h1 id=&quot;more-resources-to-check-out-to-update-this-article&quot;&gt;More Resources to check out to update this article:&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-01-26T01:26:41-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/&quot;&gt;A practical guide to writing technical specs - Stack Overflow Blog&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">```feature @tagPlaceholder1 @tagPlaceholder2 Feature: A new feature Author - Ankush #this is the main person who write is specs Dislaimer - This spec is complete, to the best of my knowledge, but if I forgot something, please tell me.</summary></entry><entry><title type="html">Separating_request,_entity_and_response</title><link href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" rel="alternate" type="text/html" title="Separating_request,_entity_and_response" /><published>2023-01-07T00:00:00-06:00</published><updated>2023-02-11T00:55:03-06:00</updated><id>https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response</id><content type="html" xml:base="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">&lt;p&gt;&lt;a href=&quot;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.&lt;/p&gt;
 
@@ -516,143 +655,4 @@ As you can see from the example above, there are many request objects and a sing
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;PS: Tip: In most cases, the response object requires some fields from the entity. Commonly DTOs are created and data from entities is copied to response using some sort of mapper. There is a better alternative which is to use the Delegate pattern. The getters of response class can delegate to getters of entity class. In Java specifically, this can be made easier by using Lombok’s @Delegate annotation.&lt;/p&gt;</content><author><name></name></author><summary type="html">https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing</summary></entry><entry><title type="html">Observability For Developers</title><link href="https://www.ankushchoubey.com/v1/observability-for-developers" rel="alternate" type="text/html" title="Observability For Developers" /><published>2023-01-01T00:00:00-06:00</published><updated>2023-01-01T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-observability-for-developers</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/observability-for-developers">&lt;h1 id=&quot;what-is-observability-and-why-is-it-needed&quot;&gt;What is observability, and why is it needed?&lt;/h1&gt;
-
-&lt;p&gt;Observability are tools that help understand how an application is running.&lt;/p&gt;
-
-&lt;p&gt;Typically, one an application is deployed, it is treated like a black box. We don’t know what is happening inside the application except logs.&lt;/p&gt;
-
-&lt;p&gt;These logs aren’t good enough specially when considering the complex distributed applications we have.&lt;/p&gt;
-
-&lt;p&gt;The solution is to implement good observability.&lt;/p&gt;
-
-&lt;p&gt;Observability is also sometimes called testing-in-production. It allows for clearer insight into the application.&lt;/p&gt;
-
-&lt;p&gt;For example, let’s say you operate an e-commerce store and allow for multiple payment vendors like Google Pay, Amazon Pay, Apple Pay, etc. The code has been tested and working properly. Now, after an year, you went to buy something yourself. And you decided to use Apple Pay, but the payment fail. You debug and you find a critical configuration property was not added. Now you went ahead and fixed it. But when you check the database logs you realize, there wasn’t a single payment via Apple Pay for the last 1 year. You missed a lot of potential business there.&lt;/p&gt;
-
-&lt;p&gt;With observability, your flow to catch the bug would have looked something like this. You get alerts that the number of payment request failing is too high. You want into you dashboard and checked what is happening. It indeed seems too high. You check the logs and find the issue and fix it. You just saved yourself half and year.&lt;/p&gt;
-
-&lt;p&gt;With observability, you can be proactive about the bugs and about the optimizations you can make to your application before your customer reports it. This makes you a continuous improvement machine.&lt;/p&gt;
-
-&lt;p&gt;For a real life example, you can see Slack’s status which shows if slack is up or down. This provides an easy way for customers to know what is happening.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://status.slack.com/&quot;&gt;https://status.slack.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;what-are-the-pillars-of-observability-and-why-do-they-make-sense&quot;&gt;What are the pillars of observability, and why do they make sense?&lt;/h1&gt;
-
-&lt;p&gt;There are three main pillars of observability.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Metrics&lt;/li&gt;
-  &lt;li&gt;Logs&lt;/li&gt;
-  &lt;li&gt;Traces&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Metrics are numerical values related to the application in a moment. Like, CPU utilization, Number of HTTP Requests success or failures, and RAM Utilization.&lt;/p&gt;
-
-&lt;p&gt;Logs are the application logs. One must ensure that logs are properly added to the right log level. I wrote an article about the topic here: [Link to logs post]&lt;/p&gt;
-
-&lt;p&gt;Traces are the visualization of request flows between multiple microservices (MS). For example, MS1 triggered MS2, MS2 triggered MS3 and MS4.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-are-the-different-observability-tools&quot;&gt;What are the different observability tools?&lt;/h1&gt;
-
-&lt;p&gt;There are different pieces involved in observability.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prometheus&lt;/strong&gt;: [Link to Prometheus Article]&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tool for metrics.&lt;/li&gt;
-  &lt;li&gt;Application release logs in prometheus format.&lt;/li&gt;
-  &lt;li&gt;Prometheus will poll data every 15 minutes.&lt;/li&gt;
-  &lt;li&gt;It also allows to run queries against the data with use of PromQL language.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;It’s important for developers to learn PromQL Language for debugging.&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Developers can also add custom metrics via Prometheus.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;OpenTelemetry&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A tool that adds traceId to requests and helps to track it across microservices.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Jaegar&lt;/strong&gt;: A wrapper for open telemetry.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Graphana&lt;/strong&gt;: An active-development open-source tool for visualizing logs, metrics, traces and more.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kibana&lt;/strong&gt;: Another popular tool for visualization. It’s part of a popular ELK stack.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;DataDog&lt;/strong&gt;: A paid tool similar to Graphana.&lt;/p&gt;
-
-&lt;h1 id=&quot;whats-the-architecture-of-graphana&quot;&gt;What’s the architecture of Graphana?&lt;/h1&gt;
-
-&lt;h1 id=&quot;what-are-the-basic-graphana-features-one-should-utilise&quot;&gt;What are the basic Graphana features one should utilise?&lt;/h1&gt;
-
-&lt;p&gt;At the basic, one should be able to read logs. This is where most developers stop.&lt;/p&gt;
-
-&lt;p&gt;[Graphana Logs]&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-set-up-dashboards-in-the-best-way&quot;&gt;How to set up dashboards in the best way?&lt;/h1&gt;
-
-&lt;p&gt;The dashboard is where you’ll see all your metrics visualized.
-You want to visualize it in such a way that you can get to the problems faster.&lt;/p&gt;
-
-&lt;p&gt;Make sure you segregate the most important metrics dashboard has only useful information&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-set-up-alerts-in-the-best-way&quot;&gt;How to set up alerts in the best way?&lt;/h1&gt;
-
-&lt;p&gt;Assume that most people don’t know what to do.&lt;/p&gt;
-
-&lt;p&gt;Your alert should provide:
-Context: What happened exactly?
-Next Step: What to do next?&lt;/p&gt;
-
-&lt;h1 id=&quot;how-to-use-graphana-to-debug-a-scenario&quot;&gt;How to use Graphana to debug a scenario?&lt;/h1&gt;
-
-&lt;p&gt;Here is what’s a typical flow:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;You’ll get an alert&lt;/li&gt;
-  &lt;li&gt;You go to the dashboard and check it out.&lt;/li&gt;
-  &lt;li&gt;You try to explore more, you write custom queries to find more details.&lt;/li&gt;
-  &lt;li&gt;You combine the metrics with logs and traces.&lt;/li&gt;
-  &lt;li&gt;You find the problem and you take steps to fix it.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Learn PromQL.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-can-chaos-engineering-help&quot;&gt;How can Chaos Engineering help&lt;/h1&gt;</content><author><name></name></author><category term="observability" /><summary type="html">What is observability, and why is it needed?</summary></entry><entry><title type="html">Why we should strive to tell the truth always?</title><link href="https://www.ankushchoubey.com/v1/truth/why-tell-the-truth" rel="alternate" type="text/html" title="Why we should strive to tell the truth always?" /><published>2022-12-31T00:00:00-06:00</published><updated>2022-12-31T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-why-tell-the-truth</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/why-tell-the-truth">&lt;p&gt;&lt;strong&gt;Living and speaking your truth makes you free&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Why lie when you can tell the truth and be free? And will it make things better? That’s a double bonus.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Telling the truth is acceptance of how things really are&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;We are always asked to accept reality as it is. Acceptance helps us get clearer, helping us make better decisions and avoid traps.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Truth always comes in the long run.&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;No matter what you do, the truth will eventually come out.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Your body can feel when you are lying&lt;/strong&gt;.:&lt;/p&gt;
-
-&lt;p&gt;When you lie or do something untruthful, your body reacts. Let’s say you hate something, and you are not saying it. You’ll develop resentment and stress.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;If we are not truthful, someone else will suffer&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;The cost of lying isn’t something we always bear in the short term. Sometimes it’s others. Suppose you go to a doctor, and he doesn’t tell you that you might be at risk of a deadly disease and that now is a good time to avoid drinking. What impact would it have on you?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Living and speaking truthfully orients you properly&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;If you can’t lie, you’ll be hesitant to slack off at work if you want to face daily standup the next day. Thus, orienting you to become a better person and get the work done. Or it’ll help you solve the problem that makes you avoid your work.&lt;/p&gt;
-
-&lt;p&gt;If you can’t live a lie, you won’t cheat on exams, orienting you properly to become the kind of person that will pass the exam.&lt;/p&gt;
-
-&lt;div class=&quot;flash&quot;&gt;
-    &lt;svg class=&quot;octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-    &lt;strong&gt;Note: &lt;/strong&gt;Remember this always, if you speak the truth and act in truthful ways, the world will arrange itself in the best possible manner to you.&lt;br /&gt;If you lie or don’t live truthfully, the world will arrange in the worst possible manager.
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Truth is a shield. That survives scrutiny&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;That protects you against lies of any kind.&lt;/p&gt;
-
-&lt;p&gt;Truth and peace are directly correlated. One increases or decreases another.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><category term="mature" /><summary type="html">Living and speaking your truth makes you free:</summary></entry></feed>
+&lt;p&gt;PS: Tip: In most cases, the response object requires some fields from the entity. Commonly DTOs are created and data from entities is copied to response using some sort of mapper. There is a better alternative which is to use the Delegate pattern. The getters of response class can delegate to getters of entity class. In Java specifically, this can be made easier by using Lombok’s @Delegate annotation.&lt;/p&gt;</content><author><name></name></author><summary type="html">https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing</summary></entry></feed>

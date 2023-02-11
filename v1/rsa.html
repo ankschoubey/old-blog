@@ -7,19 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image">
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Separating_request,_entity_and_response | Ankush Choubey</title>
+<title>RSA Algorithm | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Separating_request,_entity_and_response">
+<meta property="og:title" content="RSA Algorithm">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing">
-<meta property="og:description" content="https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing">
-<link rel="canonical" href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">
-<meta property="og:url" content="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html">
+<meta name="description" content="RSA is an asymmetric key encryption algorithm and was first published in 1977.">
+<meta property="og:description" content="RSA is an asymmetric key encryption algorithm and was first published in 1977.">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/rsa">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/rsa">
 <meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/v1-rsa/rsa-creators.jpeg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2023-01-07T00:00:00-06:00">
+<meta property="article:published_time" content="2023-02-01T00:00:00-06:00">
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html"},"url":"https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html","@type":"BlogPosting","headline":"Separating_request,_entity_and_response","dateModified":"2023-02-11T00:55:03-06:00","datePublished":"2023-01-07T00:00:00-06:00","description":"https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/rsa"},"url":"https://www.ankushchoubey.com/v1/rsa","@type":"BlogPosting","headline":"RSA Algorithm","dateModified":"2023-02-01T14:52:08-06:00","datePublished":"2023-02-01T00:00:00-06:00","image":"https://www.ankushchoubey.com/images/v1-rsa/rsa-creators.jpeg","description":"RSA is an asymmetric key encryption algorithm and was first published in 1977.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -124,17 +125,17 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Separating_request,_entity_and_response</h1>
+    <h1 class="post-title p-name" itemprop="name headline">RSA Algorithm</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-01-07T00:00:00-06:00" itemprop="datePublished">
-        Written: Jan 7, 2023
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-02-11T00:55:03-06:00" itemprop="dateModified">
-          Updated: Feb 11, 2023
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-02-01T00:00:00-06:00" itemprop="datePublished">
+        Written: Feb 1, 2023
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-02-01T14:52:08-06:00" itemprop="dateModified">
+          Updated: Feb 1, 2023
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -158,6 +159,12 @@ window.onload = wrap_img;
 <script>
         AOS.init();
 </script> -->
+
+<div class="tag-list">
+    
+    <a class="tag fa fa-hashtag security" href="/categories/#security">security</a>
+    
+</div>
 <div class="right-section">
 <a id="translate-btn" href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
     <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
@@ -195,162 +202,91 @@ window.onload = wrap_img;
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><a href="https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing"><span class="underline">https://drive.google.com/drive/folders/1tsu2S_EnDds8oIRiiip4rwl2qhXEq-Se?usp=sharing</span></a></p>
-
-<p>Security is a major concern for web applications. One of the ways to achieve this is by using the least access principle. This means only exposing things that are necessary and hiding the rest.</p>
-
-<p>In a typical web application, we perform CRUD operations on entities.</p>
-
-<p>It’s quite common to have the same entity object be requested, saving to DB and response.</p>
-
-<p><img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image2.png" alt=""></p>
-
-<p>Here are the roles of classes mentioned above,</p>
-
-<ul>
-  <li>
-    <blockquote>
-      <p>API endpoints: deals with input objects. In this case, a single one entity.</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p>Service and Repository: deal with manipulating and saving entities to the database. And sending the same entity as response.</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p>Entity: Has 3 roles. Input Object, Output Object and being object stored in database.</p>
-    </blockquote>
-  </li>
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#resources">Resources</a></li>
 </ul>
+<p>RSA is an asymmetric key encryption algorithm and was first published in 1977.</p>
 
-<p><em>Code Sample:</em></p>
+<p>RSA was created by Ron Rivest, Adi Shamir and Leonard Adleman.</p>
 
-<p><strong><em>Entity</em></strong></p>
+<p><img src="/images/v1-rsa/rsa-creators.jpeg" alt=""></p>
 
-<p><img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image5.png" alt=""></p>
+<p>Adding their photo for inspiration.</p>
 
-<p><strong>Repository</strong>:</p>
+<p>RSA works on the concept of modular arithmetic.</p>
 
-<p><img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image4.png" alt=""></p>
+<p>In RSA, we have a public and a private key. We use the private key to decrypt and the public key to encrypt.</p>
 
-<p><strong>Controller</strong>:<br>
-<img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image7.png" alt=""></p>
+<p>This means that the private key should not be shared. But the public key can be shared with anyone.</p>
 
-<p>This way is problematic since it,</p>
+<p>Private Key = Key
+Public Key = Lock</p>
 
-<ul>
-  <li>
-    <blockquote>
-      <p>Many fields used for one role (like input) won’t be used for other role (like storing to DB)</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p>Internal details are exposed in output</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p>Validations are harder for inputs</p>
-    </blockquote>
-  </li>
-</ul>
+<hr>
 
-<p>Many linters recommend having a separate DTO object for this task. This is a step up over the usual entity but isn’t sufficient as most of the time the entity and DTO are exact replicas of each other.</p>
-
-<p>There is a better alternative to this, which is to separate inputs, output and entity classes entirely..</p>
-
-<p><img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image3.png" alt=""></p>
-
-<p><em>Code Sample:</em></p>
-
-<p><strong><em>Request Object:</em></strong></p>
-
-<p><img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image6.png" alt=""></p>
-
-<p><strong>Empty Body Response:</strong></p>
-
-<p><img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image8.png" alt=""></p>
-
-<p><strong>Response With Body:</strong></p>
-
-<p><img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image1.png" alt=""></p>
-
-<p><strong>Response Assembler:</strong></p>
-
-<p><img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image9.png" alt=""></p>
-
-<p><strong>Controller:</strong></p>
-
-<p><img src="https://www.ankushchoubey.com/assets/img/2023-01-07-Separating_Request,_Entity_and_Response/media/image10.png" alt=""><br>
-As you can see from the example above, there are many request objects and a single response object. Each of these requests and responses can have different fields.</p>
-
-<p><strong>API endpoint</strong>: deals with getting different formats.</p>
-
-<p><strong>Service &amp; Repository</strong>: only deal with manipulating entity files based on the type of request. It then either sends a response directly if there is no body or offloads it’s work to a response assembler.</p>
-
-<p><strong>Response Assembler</strong>: job is to create a response. There may be multiple types of responses which response assembler may assemble</p>
-
-<p>There can also be requests and responses that have no body at all.</p>
-
-<p>For example:</p>
-
-<ul>
-  <li>
-    <blockquote>
-      <p>Request params maybe enough for GET and DELETE request</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p>Similarly, HTTP status code and response header maybe enough for responses</p>
-    </blockquote>
-
-    <ul>
-      <li>
-        <blockquote>
-          <p>If an object is created, then 201 CREATED with response headers like location without a body may be enough.</p>
-        </blockquote>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<p>HTTP suggests but does not enforce any kind of rules over requests and responses. But by following them as closely as possible, we can ensure communicating intent without transfer of bulky.</p>
-
-<p>The benefits of this approach is:</p>
+<p>There are 5 steps in RSA.</p>
 
 <ol>
-  <li>
-    <blockquote>
-      <p>Request, Response and Entity classes have a clear separation of concern. Each deal with their own specific usage.</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p>Therefore, no extra fields are added to each. If new fields are to be added to one part, they may or may not concern other parts.</p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p>Securing the application becomes easier as less internal details are leaked.</p>
-    </blockquote>
-  </li>
+  <li>Take two prime numbers p and q. (Eg: p=2, q=7)</li>
+  <li>Calculate <code class="language-plaintext highlighter-rouge">N</code> . <code class="language-plaintext highlighter-rouge">N</code> is the product of p and q. (N = p*q = 2*7 = 14)</li>
+  <li>Calculate <code class="language-plaintext highlighter-rouge">Phi(N)</code> .</li>
+  <li>This is the number of co-primes less than N. (Eg. 1, 2, 5, 7 and 11 are co-primes to 14; therefore <code class="language-plaintext highlighter-rouge">Phi(n)</code>  is the count = 6)</li>
+  <li>This can also be calculated with a formula <code class="language-plaintext highlighter-rouge">(p-1)(q-1)</code>
+</li>
+  <li>Eg; <code class="language-plaintext highlighter-rouge">Phi(N)</code>  = (2-1)(7-1) = 6</li>
+  <li>Create the public key (e) such that</li>
+  <li>1 &lt; <code class="language-plaintext highlighter-rouge">e</code>  &lt; <code class="language-plaintext highlighter-rouge">Phi(N)</code>
+</li>
+  <li>E should be co-prime with Phi(N)</li>
+  <li>Eg. e = 5</li>
+  <li>Find the private key (d) such that</li>
+  <li>(e*d) mod <code class="language-plaintext highlighter-rouge">Phi(n)</code> = 1</li>
+  <li>Eg: (5*d) mod (14) = 1</li>
+  <li>When you calculate this you’ll see a pattern.</li>
 </ol>
 
-<p>PS: Tip: In most cases, the response object requires some fields from the entity. Commonly DTOs are created and data from entities is copied to response using some sort of mapper. There is a better alternative which is to use the Delegate pattern. The getters of response class can delegate to getters of entity class. In Java specifically, this can be made easier by using Lombok’s @Delegate annotation.</p>
+<ul>
+  <li>5*1 = 5; mod 6 =  5</li>
+  <li>5*2 = 10; mod 6 = 4</li>
+  <li>15 mod 6 = 3</li>
+  <li>…</li>
+  <li>25 mod 6 = 1</li>
+  <li>30 mod 6 = 0
+This pattern is expected since (5*6)%6 will be 0.</li>
+</ul>
+
+<p>Let’s pick a large <code class="language-plaintext highlighter-rouge">d</code> .</p>
+
+<p><code class="language-plaintext highlighter-rouge">D = 11</code></p>
+
+<p>Not to encrypt you’ll do the following,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(value^e) mod N
+</code></pre></div></div>
+
+<p>To decrypt, you’ll do the following,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(encryptedValue ^d) mod N
+</code></pre></div></div>
+
+<hr>
+
+<h2 id="resources">
+<a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources</h2>
+
+<p><a href="https://www.youtube.com/watch?v=4zahvcJ9glg">Eddie Woo: The RSA Encryption Algorithm (1 of 2: Computing an Example)</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=oOcTVTpUsPQ">The RSA Encryption Algorithm (2 of 2: Generating the Keys)</a></p>
+
+<p><a href="https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html">RSA Calculator</a></p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/v1/observability-for-developers">« Observability For Developers</a>
+      <a class="prev" href="/v1/traditional-roles">« What are the traditional roles of a man and women? And why they are relevant?</a>
     
-    
-      <a class="next" href="/v1/template-for-gherkin-specs">Template for Gherkin Specs »</a>
     
   </div>
 
@@ -373,12 +309,21 @@ As you can see from the example above, there are many request objects and a sing
   text-align: right;
 }
 </style>
+<!-- from https://github.com/utterance/utterances -->
+<!-- <script src="https://utteranc.es/client.js"
+        repo="ankschoubey/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script> -->
 
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html';
-      this.page.identifier = 'https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html';
+      this.page.url = 'https://www.ankushchoubey.com/v1/rsa';
+      this.page.identifier = 'https://www.ankushchoubey.com/v1/rsa';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -389,7 +334,7 @@ As you can see from the example above, there are many request objects and a sing
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/2023/01/07/Separating_Request,_Entity_and_Response.html" hidden></a>
+<a class="u-url" href="/v1/rsa" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
