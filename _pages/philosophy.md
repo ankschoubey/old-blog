@@ -75,6 +75,10 @@ You can also find [Philosophical Resources](/non-technical-resources) that I hav
 4. Learning to share your thoughts with others. (Intimate conversations) Why communication leads to better thinking.
 5. Developing Self Awareness
 
+Developing Vision
+
+1. A man who thinks in decades is dangerous
+
 **Part 4: Nuances**
 
 1. Is it truth? Or is it panic?
@@ -277,6 +281,8 @@ Gift of truth.
 11. Implement Zero Trust
 
 10. Conclusion
+
+space out so that people have time to adjust #changeManagement
 
 **Incubating Essays**
 
