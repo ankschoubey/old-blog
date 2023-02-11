@@ -55,6 +55,7 @@ You can also find [Philosophical Resources](/non-technical-resources) that I hav
 2. Why is clarity relevant?
 3. Why and how clarity coincides with truth and vision?
 4. What is truth? What is perspective? How multiple truths can co-exist?
+5. [Why we should strive to tell the truth always?](https://www.ankushchoubey.com/v1/truth/why-tell-the-truth)
 
 **Part 2: Principles**
 
@@ -69,7 +70,7 @@ You can also find [Philosophical Resources](/non-technical-resources) that I hav
 2. Spotting and navigating cognitive biases.
 3. Spotting and navigating logical fallacies.
 
-4. How to catch lies and liars? Implement Zero-Trust in real life.
+4. [Implement Zero Trust in Real Life](https://www.ankushchoubey.com/v1/truth/liars): Catching lies, liars and protecting yourself
 
 5. Tell the truth. Or atleast not lie.
 4. Learning to share your thoughts with others. (Intimate conversations) Why communication leads to better thinking.
@@ -96,8 +97,9 @@ Developing Vision
 **Part 2: Principles**
 
 1. Fullfill potential: The positive effect of doing hard things
-2. No one gets away with anything. So actually solve the problem
-3. Start now! Don't wait.(You can't wait until forever to get started. Only by starting now you'll make it easier for your future self. The problems with perfection) 
+2. No one gets away with anything.
+3. [To escape the problem, actually solve the problem](/v1/actually-solve-the-problem) 
+4. Start now! Don't wait.(You can't wait until forever to get started. Only by starting now you'll make it easier for your future self. The problems with perfection) 
 
 Needs vs Wants.
 
@@ -245,6 +247,7 @@ Time Assets Vs Liabilities
 2. The subtle art of not giving a fuck about stupid things.
 3. Learning to breathe. The art of developing detachment.
 4. Let things be. The art of never hurrying.
+5. [Keep messages unread](/v1/messages-unread): The subtle art of not giving a fuck about stupid things.
 
 10. Conclusion
 
