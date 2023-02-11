@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 
-permalink: /philosophy/core-values/systems
+permalink: /philosophy/core-values/team-work
 ---
 
 ## Team Work
@@ -14,7 +14,7 @@ permalink: /philosophy/core-values/systems
 
 **Part 2: Principles**
 
-1. We are all narcissists.
+1. [We are all narcissists.](/narcissism)
 4. Learning to care
 5. Random acts of kindness
 6. Quit Sugar and Bread
