@@ -124,9 +124,10 @@ Facing the dragon
 
 **Part 1: Foundations**
 
-1. The modern struggle
-2. Hinderance to everythings. The hidden cost of distraction.
-2. Addition by substraction
+1. [Need for Optimizing Inputs in the Modern World](/v1/inputs)
+2. The modern struggle
+3. Hinderance to everythings. The hidden cost of distraction.
+4. Addition by substraction
 
 **Part 2: Principles**
 
