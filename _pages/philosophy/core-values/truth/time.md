@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 
-permalink: /philosophy/core-values/systems
+permalink: /philosophy/core-values/time
 ---
 
 ## Time
