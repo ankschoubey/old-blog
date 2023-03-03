@@ -5,15 +5,33 @@ description:
 categories: [architecture, plugin]
 last_modified_at: 2023-03-03T20:52:08.052481
 last-modified-purpose:
-permalink: /v1/plugin-architecture
-title: The only difference between external_apps and internal_features in plugin architecture
+permalink: /v1/internal-vs-external-plugin
+title: The only differences between external_apps and internal_features in a plugin architecture
 ---
 
-In terms of usage, not much.
+## From A User’s Perspective
+
+First Party **Default** Apps are just product features.
+
+First Party **Installable** Apps are apps that can be installed by the user.
+
+- These apps are not enabled by default
+- These are provided by default.
+- A user won’t even know that these are treated as an app by the platform company.
+
+**Third-party** apps are created by third-party developers and can extend the core functionality of the first-party app.
+
+- These apps are not enabled by default.
+
+---
+
+## Code Perspective
+
+**These two types of apps are the same**, except the first-party app doesn’t need Authentication to access Platform data, while the third-party app does.
 
 In the previous post, I explained how we could define scopes for our resource would work.
 
-I took the example of movies where an app is using 2 scopes: "read:movies" and "read:userinfo"
+I took the example of movies where an app is using 2 scopes: "**read:movies**" and "**read:userinfo**"
 
 Let’s call this app, an external_app.
 
@@ -25,5 +43,8 @@ This means, once you create a scope, it’s fixed.
 
 And this simplifies your development a lot.
 
+---
+
 So, therefore, we need not treat internal features and external apps very differently.
-At the platform level both internal_feature and the external_app.
+
+At the platform level, both internal_feature and the external_app are just apps.
