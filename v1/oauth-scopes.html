@@ -12,12 +12,12 @@
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Defining Scopes for your OAuth Service</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        Written: May 26, 2021
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-03-03T09:54:55-06:00" itemprop="dateModified">
-          Updated: Mar 3, 2023
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-03-03T00:00:00-06:00" itemprop="datePublished">
+        Written: Mar 3, 2023
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-02-01T14:52:08-06:00" itemprop="dateModified">
+          Updated: Feb 1, 2023
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -49,9 +49,9 @@
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag personal" href="/categories/#personal">personal</a>
+    <a class="tag fa fa-hashtag security" href="/categories/#security">security</a>
     
-    <a class="tag fa fa-hashtag responsibility" href="/categories/#responsibility">responsibility</a>
+    <a class="tag fa fa-hashtag oauth" href="/categories/#oauth">oauth</a>
     
 </div>
 <div class="right-section">
@@ -91,49 +91,61 @@
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt=""></p>
+    <ul class="section-nav">
+</ul>
+<p>Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.</p>
 
-<h2 id="capitalism">Capitalism</h2>
+<hr>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>In a rest API, we have resources. Our resources are usually accessed with just a noun.</p>
 
-<p>The more you earn, the better it is for everyone.</p>
+<p>so,</p>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<p><code class="language-plaintext highlighter-rouge">GET</code> <code class="language-plaintext highlighter-rouge">/movies</code> to get all movies</p>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+<p><code class="language-plaintext highlighter-rouge">GET</code> <code class="language-plaintext highlighter-rouge">/movies/{movieId}</code> to get a specific movie</p>
 
-<p>New environments and people give you new perspectives.</p>
+<p><code class="language-plaintext highlighter-rouge">PUT</code> <code class="language-plaintext highlighter-rouge">/movies</code> to modify a movie</p>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<p><code class="language-plaintext highlighter-rouge">POST</code> <code class="language-plaintext highlighter-rouge">/movies</code> to add a new movie</p>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
+<p><code class="language-plaintext highlighter-rouge">DELETE</code> <code class="language-plaintext highlighter-rouge">/movies/{movieID}</code> to delete a movie</p>
 
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
+<hr>
 
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
+<p>Our Outh scopes are a restriction on resources</p>
 
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
+<p>so, we would have scopes for <code class="language-plaintext highlighter-rouge">movies</code> resource.</p>
 
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
+<p>We can append this with the kind of method that can be run on the resource.</p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
-    </li>
-  </ol>
-</div>
+<hr>
+
+<p>For example:</p>
+
+<p><code class="language-plaintext highlighter-rouge">read:movies</code> -&gt; allows <code class="language-plaintext highlighter-rouge">GET</code> calls on <code class="language-plaintext highlighter-rouge">/movies</code> REST API resource</p>
+
+<p><code class="language-plaintext highlighter-rouge">write:movies</code> → allows <code class="language-plaintext highlighter-rouge">POST</code> calls on the <code class="language-plaintext highlighter-rouge">/movies</code> resource.</p>
+
+<p><code class="language-plaintext highlighter-rouge">read:userinfo</code> → allows <code class="language-plaintext highlighter-rouge">GET</code> calls on the <code class="language-plaintext highlighter-rouge">/userinfo</code> resource</p>
+
+<hr>
+
+<p>When the app is submitted to our “App Store“, the app developer declares an app, they are using a particular scope.</p>
+
+<p>For example, let’s say an App that shows user recommendations has asked for <code class="language-plaintext highlighter-rouge">read:movies</code>, <code class="language-plaintext highlighter-rouge">write:movies and</code> read:userinfo<code class="language-plaintext highlighter-rouge"> </code>.</p>
+
+<p>The app developer has declared why they use each of the scopes. While declaring, they decide they aren’t using the <code class="language-plaintext highlighter-rouge">write:movies</code> scope.</p>
+
+<p>So, they remove it. Or while reviewing the app submission application, the App Store platform rejects the request for accepting <code class="language-plaintext highlighter-rouge">write:movies</code> and asks for more clarifications.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/devops/">« Gist of DevOps</a>
+      <a class="prev" href="/db-migration-script/">« Migrating DB smoothly with a migration script</a>
     
-    
-      <a class="next" href="/v1/simple-db">Keeping database simple »</a>
     
   </div>
 
@@ -169,8 +181,8 @@
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'https://www.ankushchoubey.com/switch-jobs/';
-      this.page.identifier = 'https://www.ankushchoubey.com/switch-jobs/';
+      this.page.url = 'https://www.ankushchoubey.com/v1/oauth-scopes';
+      this.page.identifier = 'https://www.ankushchoubey.com/v1/oauth-scopes';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -181,6 +193,6 @@
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/switch-jobs/" hidden></a>
+<a class="u-url" href="/v1/oauth-scopes" hidden></a>
 </article>
 </head></html>

@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-03T09:52:26-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Migrating DB smoothly with a migration script</title><link href="https://www.ankushchoubey.com/db-migration-script/" rel="alternate" type="text/html" title="Migrating DB smoothly with a migration script" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/db-migration-script</id><content type="html" xml:base="https://www.ankushchoubey.com/db-migration-script/">&lt;p&gt;If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-03T09:56:25-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Defining Scopes for your OAuth Service</title><link href="https://www.ankushchoubey.com/v1/oauth-scopes" rel="alternate" type="text/html" title="Defining Scopes for your OAuth Service" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-02-01T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-oauth-scopes</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/oauth-scopes">&lt;p&gt;Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;In a rest API, we have resources. Our resources are usually accessed with just a noun.&lt;/p&gt;
+
+&lt;p&gt;so,&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; to get all movies&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies/{movieId}&lt;/code&gt; to get a specific movie&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PUT&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; to modify a movie&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;POST&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; to add a new movie&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DELETE&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies/{movieID}&lt;/code&gt; to delete a movie&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Our Outh scopes are a restriction on resources&lt;/p&gt;
+
+&lt;p&gt;so, we would have scopes for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;movies&lt;/code&gt; resource.&lt;/p&gt;
+
+&lt;p&gt;We can append this with the kind of method that can be run on the resource.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read:movies&lt;/code&gt; -&amp;gt; allows &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; calls on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; REST API resource&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:movies&lt;/code&gt; → allows &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;POST&lt;/code&gt; calls on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; resource.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read:userinfo&lt;/code&gt; → allows &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; calls on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/userinfo&lt;/code&gt; resource&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;When the app is submitted to our “App Store“, the app developer declares an app, they are using a particular scope.&lt;/p&gt;
+
+&lt;p&gt;For example, let’s say an App that shows user recommendations has asked for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read:movies&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:movies and&lt;/code&gt; read:userinfo&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; &lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The app developer has declared why they use each of the scopes. While declaring, they decide they aren’t using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:movies&lt;/code&gt; scope.&lt;/p&gt;
+
+&lt;p&gt;So, they remove it. Or while reviewing the app submission application, the App Store platform rejects the request for accepting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:movies&lt;/code&gt; and asks for more clarifications.&lt;/p&gt;</content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html">Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.</summary></entry><entry><title type="html">Migrating DB smoothly with a migration script</title><link href="https://www.ankushchoubey.com/db-migration-script/" rel="alternate" type="text/html" title="Migrating DB smoothly with a migration script" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/db-migration-script</id><content type="html" xml:base="https://www.ankushchoubey.com/db-migration-script/">&lt;p&gt;If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.&lt;/p&gt;
 
 &lt;p&gt;The same mechanism could be used to migrate multiple tables. And can be implemented in SQL stored procedure or stored procedure equivalent in the DB of your choice.&lt;/p&gt;
 
@@ -302,38 +346,4 @@ In a world of narcissist, nihilism, pleasure, many are tempted to believe that t
 
 &lt;p&gt;Be very objective of what is actually happening if it is actually mutual.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.youtube.com/watch?v=3wc87y6an_g&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><summary type="html">Anxious Attachment</summary></entry><entry><title type="html">Need for Optimizing Inputs in the Modern World</title><link href="https://www.ankushchoubey.com/v1/inputs" rel="alternate" type="text/html" title="Need for Optimizing Inputs in the Modern World" /><published>2023-01-14T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-inputs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/inputs">&lt;h2 id=&quot;human-needs&quot;&gt;Human Needs&lt;/h2&gt;
-
-&lt;p&gt;Human beings and all other animals have needs. And these needs are what drive us to move. Unfulfilled needs lead to pain. And fulfilling that need reduces or mitigates that pain. We can call it pleasure.&lt;/p&gt;
-
-&lt;p&gt;Pleasure can be big or small. But the main thing here is: Needs drive us to pursue a solution that would reduce pain and move us toward pleasure.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-tradeoffs-between-different-solutions&quot;&gt;The tradeoffs between different solutions&lt;/h2&gt;
-
-&lt;p&gt;Like everything, there are multiple solutions to a problem. Some solutions are better than others. Some solutions are readily available. Some solutions require effort.&lt;/p&gt;
-
-&lt;p&gt;Our body, over a million years, has been adapted to respond to our environment and needs. A part of it is also repeated exposure and training. If the environment requires us to be stronger, like an instance where we are picking up a lot of weight. We become stronger.&lt;/p&gt;
-
-&lt;p&gt;If the environment no longer requires us to be stronger, the body will adapt and put its resources where they can be used.&lt;/p&gt;
-
-&lt;p&gt;The change our body &amp;amp; mind goes through is proportional to the problem we are trying to solve. If we are trying to solve a harder problem, our body and mind will adapt more to solve the harder problem and vice versa.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-modern-world&quot;&gt;The Modern World&lt;/h2&gt;
-
-&lt;p&gt;In the past, there were many problems we faced that are solved now with advances by human civilization.&lt;/p&gt;
-
-&lt;p&gt;For instance, we were required to be strong and develop the skill of hunting, that got replaced when agriculture came along.&lt;/p&gt;
-
-&lt;p&gt;So, apart from feeling up time that was used during hunting, the second-order consequence of this is that we aren’t as strong as our ancestors.&lt;/p&gt;
-
-&lt;p&gt;Think of this phenomenon in everything we input in our lives.&lt;/p&gt;
-
-&lt;p&gt;If the input in our life requires or pushes us towards becoming better, we’ll respond to the environment by becoming better. Similarly, if input pushes us towards becoming worse, we become worse.&lt;/p&gt;
-
-&lt;p&gt;Like the model of hunting, inputs can sometimes be eliminated or replaced by other inputs.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;We face inputs all the time and more in the modern world. We can optimize our inputs so that the best ones stay and keep making us better. Over some time, we’ll find ourselves getting better and better.&lt;/p&gt;
-
-&lt;p&gt;In the upcoming series of posts, I’ll highlight how we can identify and eliminate negative inputs and find and incorporate positive ones. Doing so would make us smarter, faster, better, and more resilient.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="inputs" /><category term="mature" /><summary type="html">Human Needs</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://www.youtube.com/watch?v=3wc87y6an_g&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="truth" /><summary type="html">Anxious Attachment</summary></entry></feed>
