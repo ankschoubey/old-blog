@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [architecture]
+categories: [architecture, plugin]
 last_modified_at: 2022-11-13T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/plugin-architecture
