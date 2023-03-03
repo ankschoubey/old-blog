@@ -1,8 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-03T09:59:10-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">The only difference between external_apps and internal_features in plugin architecture</title><link href="https://www.ankushchoubey.com/v1/plugin-architecture" rel="alternate" type="text/html" title="The only difference between external_apps and internal_features in plugin architecture" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-difference-between-third-party-and-first-party</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/plugin-architecture">&lt;p&gt;In terms of usage, not much.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-03T10:10:19-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">The only differences between external_apps and internal_features in a plugin architecture</title><link href="https://www.ankushchoubey.com/v1/internal-vs-external-plugin" rel="alternate" type="text/html" title="The only differences between external_apps and internal_features in a plugin architecture" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-difference-between-third-party-and-first-party</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/internal-vs-external-plugin">&lt;h2 id=&quot;from-a-users-perspective&quot;&gt;From A User’s Perspective&lt;/h2&gt;
+
+&lt;p&gt;First Party &lt;strong&gt;Default&lt;/strong&gt; Apps are just product features.&lt;/p&gt;
+
+&lt;p&gt;First Party &lt;strong&gt;Installable&lt;/strong&gt; Apps are apps that can be installed by the user.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;These apps are not enabled by default&lt;/li&gt;
+  &lt;li&gt;These are provided by default.&lt;/li&gt;
+  &lt;li&gt;A user won’t even know that these are treated as an app by the platform company.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Third-party&lt;/strong&gt; apps are created by third-party developers and can extend the core functionality of the first-party app.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;These apps are not enabled by default.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;code-perspective&quot;&gt;Code Perspective&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;These two types of apps are the same&lt;/strong&gt;, except the first-party app doesn’t need Authentication to access Platform data, while the third-party app does.&lt;/p&gt;
 
 &lt;p&gt;In the previous post, I explained how we could define scopes for our resource would work.&lt;/p&gt;
 
-&lt;p&gt;I took the example of movies where an app is using 2 scopes: “read:movies” and “read:userinfo”&lt;/p&gt;
+&lt;p&gt;I took the example of movies where an app is using 2 scopes: “&lt;strong&gt;read:movies&lt;/strong&gt;” and “&lt;strong&gt;read:userinfo&lt;/strong&gt;”&lt;/p&gt;
 
 &lt;p&gt;Let’s call this app, an external_app.&lt;/p&gt;
 
@@ -14,8 +36,11 @@
 
 &lt;p&gt;And this simplifies your development a lot.&lt;/p&gt;
 
-&lt;p&gt;So, therefore, we need not treat internal features and external apps very differently.
-At the platform level both internal_feature and the external_app.&lt;/p&gt;</content><author><name></name></author><category term="architecture" /><category term="plugin" /><summary type="html">In terms of usage, not much.</summary></entry><entry><title type="html">Defining Scopes for your OAuth Service</title><link href="https://www.ankushchoubey.com/v1/oauth-scopes" rel="alternate" type="text/html" title="Defining Scopes for your OAuth Service" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-02-01T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-oauth-scopes</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/oauth-scopes">&lt;p&gt;Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;So, therefore, we need not treat internal features and external apps very differently.&lt;/p&gt;
+
+&lt;p&gt;At the platform level, both internal_feature and the external_app are just apps.&lt;/p&gt;</content><author><name></name></author><category term="architecture" /><category term="plugin" /><summary type="html">From A User’s Perspective</summary></entry><entry><title type="html">Defining Scopes for your OAuth Service</title><link href="https://www.ankushchoubey.com/v1/oauth-scopes" rel="alternate" type="text/html" title="Defining Scopes for your OAuth Service" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-02-01T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-oauth-scopes</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/oauth-scopes">&lt;p&gt;Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.&lt;/p&gt;
 
 &lt;hr /&gt;
 
