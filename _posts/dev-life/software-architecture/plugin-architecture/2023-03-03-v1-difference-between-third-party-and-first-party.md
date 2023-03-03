@@ -29,6 +29,8 @@ First Party **Installable** Apps are apps that can be installed by the user.
 
 **These two types of apps are the same**, except the first-party app doesn’t need Authentication to access Platform data, while the third-party app does.
 
+A third-party app may utilize all capabilities that the plugin platform provides unless some capabilities are reserved for first-party apps.
+
 In the previous post, I explained how we could define scopes for our resource would work.
 
 I took the example of movies where an app is using 2 scopes: "**read:movies**" and "**read:userinfo**"
@@ -42,6 +44,8 @@ The only difference between external_app and the internal feature would be that 
 This means, once you create a scope, it’s fixed.
 
 And this simplifies your development a lot.
+
+
 
 ---
 
