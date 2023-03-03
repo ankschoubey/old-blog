@@ -12,18 +12,17 @@
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">My Core Beliefs from Feb 2023</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Migrating DB smoothly with a migration script</h1>
 
-    <p class="page-description">The fundamental operating system</p>
-<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-02-26T00:00:00-06:00" itemprop="datePublished">
-        Written: Feb 26, 2023
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-02-12T14:52:08-06:00" itemprop="dateModified">
-          Updated: Feb 12, 2023
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-03-03T00:00:00-06:00" itemprop="datePublished">
+        Written: Mar 3, 2023
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-03-03T14:52:08-06:00" itemprop="dateModified">
+          Updated: Mar 3, 2023
         </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>    <style>
         .post-tool-bar{
@@ -50,15 +49,7 @@
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag philosophical" href="/categories/#philosophical">philosophical</a>
-    
-    <a class="tag fa fa-hashtag for-future-me" href="/categories/#for-future-me">for-future-me</a>
-    
-    <a class="tag fa fa-hashtag decision-making" href="/categories/#decision-making">decision-making</a>
-    
-    <a class="tag fa fa-hashtag non-professional" href="/categories/#non-professional">non-professional</a>
-    
-    <a class="tag fa fa-hashtag matured" href="/categories/#matured">matured</a>
+    <a class="tag fa fa-hashtag database" href="/categories/#database">database</a>
     
 </div>
 <div class="right-section">
@@ -98,49 +89,49 @@
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>I choose my core-beliefs very carefully.</p>
+    <p>If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.</p>
 
-<h1 id="i-dont-and-wont-do-things-that-i-want">I don’t and won’t do things that I want.</h1>
+<p>The same mechanism could be used to migrate multiple tables. And can be implemented in SQL stored procedure or stored procedure equivalent in the DB of your choice.</p>
 
-<p>I will do and do do things that I need or things that need to be done.</p>
-
-<p>Both are a form of responsibility. Need being respo to self. Need to be done means respo to others. Because my wants can always be something that’s not good for me. But my needs are always good for me because they are essential.</p>
-
-<h1 id="i-wont-lie-i-wont-utter-a-word-that-i-know-is-a-lie">I won’t lie. I won’t utter a word that I know is a lie.</h1>
-
-<p>And I won’t manipulate to get what I want. But I can state it simply.</p>
-
-<p>Because I don’t know what the truth is. But atleast when I’m speaking I’ll stop and reformularw when i’m about to utter a lie so that i’ll be as truthful as possible.</p>
-
-<p>On the same line. I won’t ever manipulate or lie to get what I want. But I’ll state them clearly as I can. And see if I can hget it. If I do get it via an ethical parh good. Or else I’ll try another day.</p>
-
-<h1 id="i-dont-attack-the-person-i-attack-the-action">I don’t attack the person. I attack the action.</h1>
-
-<p>I want toxicity and/or problem to end. It doesn’t help to attack the person because person gets defensive.</p>
-
-<p>I need a better way to explain this. I can say I want toxicity to end or problem to end. But I need something more definitive.</p>
-
-<h1 id="there-are-no-shortcuts-there-are-no-hacks">There are no shortcuts. There are no hacks.</h1>
-
-<p>Shortcut is a lie. The hack does not get you anywhere.
-I am not afraid to voice my opinion where it’s needed and necessary.
-I am speak the truth. And I understand there are no shortcuts. And no hacks!</p>
-
-<h1 id="i-dont-revolve-my-life-around-women">I don’t revolve my life around women.</h1>
-<p>As a man, it’s tempting. And sometimes I feel insecure FOMO. But there are more important things to do in my life. I have responsibilities and I need to fulfil them!</p>
-
-<p>Plus, it’s not like it helps. Having someone that you trust solves that area only. Not other areas! And if I try to burden someone, it’s not god for them, it’s not good for me. I do my part. And them do theres.</p>
-
+<ol>
+  <li>Add these additional columns to your source table
+    <ol>
+      <li>
+<strong>is_migrated</strong>: default false</li>
+      <li><strong>migrated_date</strong></li>
+      <li><strong>is_error</strong></li>
+      <li><strong>error_description</strong></li>
+    </ol>
+  </li>
+  <li>Create a DB migration script which
+    <ol>
+      <li>Copies a batch of data from one table in source DB to one table in dB.</li>
+      <li>The batch size could be 1000. You don’t want the batch size to be too small because it could be slow. You don’t want it too high to be able to recover better.</li>
+      <li>Whenever a batch is a complete update the is_migrated and migrated_date in the source DB. Then pick up the next batch where is_migrated is false.</li>
+      <li>If there is an error, set <strong>is_error</strong> to_ true _and add <strong>error_description</strong>.</li>
+      <li>The <strong>error_description</strong> could be an exception that is thrown.</li>
+      <li>Once the script is done, check for <strong>is_error: true</strong> and fix those errors in the script itself.</li>
+    </ol>
+  </li>
+  <li>Running
+    <ol>
+      <li>Run the script by copying the data from PROD to your testing environment.</li>
+      <li>Fix your scripts if you find <strong>is_error: true</strong>
+</li>
+      <li>Once all is fixed, re-copy data from PROD to your testing environment and run again.</li>
+      <li>You want to make sure everything works perfectly so that you won’t have to do much during the PROD run.</li>
+      <li>Once you find all bugs are fixed, run the migration script in <strong>PROD</strong>.</li>
+    </ol>
+  </li>
+</ol>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/v3/my-core-values/">« My Core Values Summary from Feb 2023</a>
+      <a class="prev" href="/v1/my-core-beliefs/">« My Core Beliefs from Feb 2023</a>
     
-    
-      <a class="next" href="/db-migration-script/">Migrating DB smoothly with a migration script »</a>
     
   </div>
 
@@ -176,8 +167,8 @@ I am speak the truth. And I understand there are no shortcuts. And no hacks!</p>
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'https://www.ankushchoubey.com/v1/my-core-beliefs/';
-      this.page.identifier = 'https://www.ankushchoubey.com/v1/my-core-beliefs/';
+      this.page.url = 'https://www.ankushchoubey.com/db-migration-script/';
+      this.page.identifier = 'https://www.ankushchoubey.com/db-migration-script/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -188,6 +179,6 @@ I am speak the truth. And I understand there are no shortcuts. And no hacks!</p>
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/v1/my-core-beliefs/" hidden></a>
+<a class="u-url" href="/db-migration-script/" hidden></a>
 </article>
 </head></html>

@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-02-28T10:56:51-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">My Core Beliefs from Feb 2023</title><link href="https://www.ankushchoubey.com/v1/my-core-beliefs/" rel="alternate" type="text/html" title="My Core Beliefs from Feb 2023" /><published>2023-02-26T00:00:00-06:00</published><updated>2023-02-12T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-core-beliefs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/my-core-beliefs/">&lt;p&gt;I choose my core-beliefs very carefully.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-03T09:52:26-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Migrating DB smoothly with a migration script</title><link href="https://www.ankushchoubey.com/db-migration-script/" rel="alternate" type="text/html" title="Migrating DB smoothly with a migration script" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/db-migration-script</id><content type="html" xml:base="https://www.ankushchoubey.com/db-migration-script/">&lt;p&gt;If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.&lt;/p&gt;
+
+&lt;p&gt;The same mechanism could be used to migrate multiple tables. And can be implemented in SQL stored procedure or stored procedure equivalent in the DB of your choice.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Add these additional columns to your source table
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;is_migrated&lt;/strong&gt;: default false&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;migrated_date&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;is_error&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;error_description&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create a DB migration script which
+    &lt;ol&gt;
+      &lt;li&gt;Copies a batch of data from one table in source DB to one table in dB.&lt;/li&gt;
+      &lt;li&gt;The batch size could be 1000. You don’t want the batch size to be too small because it could be slow. You don’t want it too high to be able to recover better.&lt;/li&gt;
+      &lt;li&gt;Whenever a batch is a complete update the is_migrated and migrated_date in the source DB. Then pick up the next batch where is_migrated is false.&lt;/li&gt;
+      &lt;li&gt;If there is an error, set &lt;strong&gt;is_error&lt;/strong&gt; to_ true _and add &lt;strong&gt;error_description&lt;/strong&gt;.&lt;/li&gt;
+      &lt;li&gt;The &lt;strong&gt;error_description&lt;/strong&gt; could be an exception that is thrown.&lt;/li&gt;
+      &lt;li&gt;Once the script is done, check for &lt;strong&gt;is_error: true&lt;/strong&gt; and fix those errors in the script itself.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Running
+    &lt;ol&gt;
+      &lt;li&gt;Run the script by copying the data from PROD to your testing environment.&lt;/li&gt;
+      &lt;li&gt;Fix your scripts if you find &lt;strong&gt;is_error: true&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;Once all is fixed, re-copy data from PROD to your testing environment and run again.&lt;/li&gt;
+      &lt;li&gt;You want to make sure everything works perfectly so that you won’t have to do much during the PROD run.&lt;/li&gt;
+      &lt;li&gt;Once you find all bugs are fixed, run the migration script in &lt;strong&gt;PROD&lt;/strong&gt;.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="database" /><summary type="html">If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.</summary></entry><entry><title type="html">My Core Beliefs from Feb 2023</title><link href="https://www.ankushchoubey.com/v1/my-core-beliefs/" rel="alternate" type="text/html" title="My Core Beliefs from Feb 2023" /><published>2023-02-26T00:00:00-06:00</published><updated>2023-02-12T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-core-beliefs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/my-core-beliefs/">&lt;p&gt;I choose my core-beliefs very carefully.&lt;/p&gt;
 
 &lt;h1 id=&quot;i-dont-and-wont-do-things-that-i-want&quot;&gt;I don’t and won’t do things that I want.&lt;/h1&gt;
 
@@ -304,248 +336,4 @@ In a world of narcissist, nihilism, pleasure, many are tempted to believe that t
 
 &lt;p&gt;We face inputs all the time and more in the modern world. We can optimize our inputs so that the best ones stay and keep making us better. Over some time, we’ll find ourselves getting better and better.&lt;/p&gt;
 
-&lt;p&gt;In the upcoming series of posts, I’ll highlight how we can identify and eliminate negative inputs and find and incorporate positive ones. Doing so would make us smarter, faster, better, and more resilient.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="inputs" /><category term="mature" /><summary type="html">Human Needs</summary></entry><entry><title type="html">Start your project with Continuous Delivery till “PROD”</title><link href="https://www.ankushchoubey.com/v1/continuous-delivery" rel="alternate" type="text/html" title="Start your project with Continuous Delivery till “PROD”" /><published>2023-01-08T00:00:00-06:00</published><updated>2023-01-14T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-continuous-delivery%20copy</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/continuous-delivery">&lt;p&gt;&lt;img src=&quot;/images/continuous-delivery.png&quot; alt=&quot;Continuous Delivery&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Original Photo by &lt;a href=&quot;https://unsplash.com/@ilumire?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Jelleke Vanooteghem&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/chuzevDl4qM?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Software developers and businesses all around the world nag release. There is an emotional low and high point associate with it.&lt;/p&gt;
-
-&lt;p&gt;Because till something is released, we developers secretly know the work we did isn’t bug free. We cut shortcuts to complete feature after feature and when it comes time to release, the emotional down starts.&lt;/p&gt;
-
-&lt;p&gt;This routine is a cycle of Manual Deployment.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-continuous-delivery/emotional cycle of manual delivery_.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Source: Atlassian (Linked below.).&lt;/p&gt;
-
-&lt;p&gt;Manual Deployment is a big deal for both developer and business. But there is a better alternative that forces developers and business to get more intentional and produce high quality work faster.&lt;/p&gt;
-
-&lt;p&gt;This post talks about that process and why it’s needed. At the end of the post, you’ll find links to other blogs that can be useful read along with this one.&lt;/p&gt;
-
-&lt;h2 id=&quot;software-delivery-early-vs-late&quot;&gt;&lt;strong&gt;Software Delivery&lt;/strong&gt;: Early vs Late&lt;/h2&gt;
-
-&lt;p&gt;The most important thing for a project is delivery. Delivering a software early means it’s impact is early. Money now is better than money tomorrow.&lt;/p&gt;
-
-&lt;p&gt;This gist is one of the core principles of The Agile Manifesto:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We often wait a long time before delivering a software. This include making sure all the features are developed and test. But the only step we actually need to deliver something is to put it on PROD. Most features aren’t related to deployment.&lt;/p&gt;
-
-&lt;h2 id=&quot;phases-of-software-developement-zero-to-one-and-one-to-n-phase&quot;&gt;&lt;strong&gt;Phases of Software Developement&lt;/strong&gt;: Zero-To-One and One-To-N phase&lt;/h2&gt;
-
-&lt;p&gt;Software development can be divided into to phrases:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Zero-To-One Phase&lt;/strong&gt;: This is where you create something new.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;One-To-N Phase&lt;/strong&gt;: This is where you work on top of what you created to enhance it.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Zero-To-One phase is the delivers the gist of the project: The MVP. It solves the core problem customer faces.&lt;/p&gt;
-
-&lt;p&gt;Zero-To-One is the start of the project. It’s important to create a stable foundation here to ensure a high quality base. In terms of team allocation, you want to have your best developers working during this phase. (I’ll be writing more on team allocation later)&lt;/p&gt;
-
-&lt;p&gt;The One-to-N part is easier. You have something that works and you want to add a bunch of additional enhancements to it. If you had a good Zero-To-One phase, you have a stable base to build on. So for team allocation, you can have many begineer developers paired with a experienced developer.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-you-should-build-a-deployment-pipeline-first&quot;&gt;Why you should build a deployment pipeline first?&lt;/h2&gt;
-
-&lt;p&gt;Delivering a working software that solves customers problem is the most important task. You have to have infrastructure (server, DB, configuration, etc) ready and perfectly aligned. And there should be no issues between them. Many times this involves making code changes to adapt to the infrastructure.&lt;/p&gt;
-
-&lt;p&gt;Why not solve the most important task early?&lt;/p&gt;
-
-&lt;p&gt;Early on, during the zero-to-one phase, the amount of code to manage is less. Therefore, you can make code adjust easily compared to later.&lt;/p&gt;
-
-&lt;p&gt;The nature of early project phase is largely learning and research. Therefore, there is enough time at hand.&lt;/p&gt;
-
-&lt;p&gt;By having deployment solved. Whatever you code &amp;amp; commit next, can reach in the hands of customers the fastest.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#eatThatFrog&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Therefore, develop your delivery pipeline as soon as you scafforld (create the base) of your project. Step 2. Start using it. In most cases, once you only create this pipeline once and then update the pipeline as time goes on.&lt;/p&gt;
-
-&lt;h2 id=&quot;addressing-the-misnomer-of-deploying-this-early-to-prod-without-proper-testing-will-lead-to-low-quality&quot;&gt;Addressing the misnomer of “deploying this early to prod without ‘proper’ testing will lead to low quality”&lt;/h2&gt;
-
-&lt;p&gt;A common misnomer is that deploying to prod early will lead to low quality.&lt;/p&gt;
-
-&lt;p&gt;The result is the opposite: Having to deploy early and often means you are forced to improve your engineering process.&lt;/p&gt;
-
-&lt;p&gt;This means, developers are forced to be more intentional about what they work on, in what order and ensure highest quality.&lt;/p&gt;
-
-&lt;p&gt;There is a learning period in everything new we do. We can’t expect us or others to do something perfectly on the first try. But as we make mistakes, we create systems and processes that ensure the mistakes doesn’t happen again.&lt;/p&gt;
-
-&lt;p&gt;Continous delivery pipeline is comparable to TPS: Toyota Production System. Any mistake that is made is rectified by improving the pipeline.&lt;/p&gt;
-
-&lt;p&gt;For example, let’s say a team adopts continous delivery.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;On their first day, a developer commits and his code reaches from dev, qa, uat to PROD and users start using it. It so happened that their was a logical bug in the code deployed.&lt;/li&gt;
-  &lt;li&gt;Rather than scraping the continous delivery pipeline, the team decides to find why the problem was caused and improve the pipeline. They find that the code quality itself was low and their were logical bugs.&lt;/li&gt;
-  &lt;li&gt;To fix this issue from happening in the future, the team adopted better engineering practices.
-    &lt;ul&gt;
-      &lt;li&gt;They add Sonar lint, a popular linter to quicky check and ensure code meets standard.&lt;/li&gt;
-      &lt;li&gt;They also adopt TDD and enforced a rule that build passes only when the test coverage is 80%.&lt;/li&gt;
-      &lt;li&gt;Now, the problem for fixed for life.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Sonar Lint became a step in the delivery pipeline. And TDD became a habit.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The next time a developer comes and commits something, the stages in the delivery pipeline ensures that the code is deliverable.&lt;/p&gt;
-
-&lt;p&gt;Any problem we face should be solved via the delivery pipeline. Ideally, without any human intervention.&lt;/p&gt;
-
-&lt;p&gt;There are many things that can be the part of delivery pipeline. I’ll be adding more posts on this soon.&lt;/p&gt;
-
-&lt;p&gt;There are several practices that support a continuous delivery. Some include,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/atomic-commits&quot;&gt;atomic commits&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/tdd&quot;&gt;TDD&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/implementing-kanban&quot;&gt;the kanban&lt;/a&gt; pull system and walk-the-board-from-right strategy,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/feature-flagging&quot;&gt;feature-flagging&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;#morePostsSoon&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;optional--why-not-having-a-delivery-pipeline-is-risky&quot;&gt;&lt;strong&gt;Optional&lt;/strong&gt;:  Why not-having a delivery pipeline is risky?&lt;/h2&gt;
-
-&lt;p&gt;In previous section we covered how quality improves with a continous delivery pipeline. Here are reason why the amount of risk of not having a continuous delivery pipeline is higher.&lt;/p&gt;
-
-&lt;p&gt;Only PROD is the place where we can deliver and know what the real status of the deliver is. Not having something used by the users means you don’t know what the real impact of your software is.&lt;/p&gt;
-
-&lt;p&gt;Making enhancements on something that is not-delivered is largely futile. Discussion over thing that hasn’t been made isn’t the same as having discussion over something that is made.&lt;/p&gt;
-
-&lt;p&gt;If the project is de-prioritized, then all work is lost.&lt;/p&gt;
-
-&lt;p&gt;And lastly for the joy of coding &amp;amp; committing something is only complete when having it reach prod as fast as possible.&lt;/p&gt;
-
-&lt;h2 id=&quot;optional-how-to-spot-fake-continuous-delivery&quot;&gt;Optional: How to spot fake continuous delivery?&lt;/h2&gt;
-
-&lt;p&gt;Continous Delivery means software is always in a releasable state to PROD.
-This mean a each new commit is of highest quality and is releasable.&lt;/p&gt;
-
-&lt;p&gt;Many companies and teams I have talked to say they do continuous delivery but they don’t. Their defination is this: We deploy to our dev environment.&lt;/p&gt;
-
-&lt;p&gt;Dev is not prod. #PRODisPROD Prod is where real users are. Prod is where value is.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-your-first-delivery-would-be&quot;&gt;What your first delivery would be?&lt;/h2&gt;
-
-&lt;p&gt;Your first delivery would be likely something very small and unusable. &lt;a href=&quot;/atomic-commits&quot;&gt;An atomic commit&lt;/a&gt;. A un-responsive login page perhaps.&lt;/p&gt;
-
-&lt;p&gt;Having something delivered to PROD, doesn’t mean it has to be available to general public to use. At this stage, you need &lt;a href=&quot;/feature-flagging&quot;&gt;feature flagging&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;One your software crosses the MVP mark, you can release the flag.&lt;/p&gt;
-
-&lt;h2 id=&quot;optional-what-should-you-learn-to-make-a-delivery-pipeline&quot;&gt;&lt;strong&gt;Optional&lt;/strong&gt;: What should you learn to make a delivery pipeline?&lt;/h2&gt;
-
-&lt;p&gt;Connect with a DevOps person and collaborate to build the CI/CD pipeline. Try to learn from them how to make one.&lt;/p&gt;
-
-&lt;p&gt;If that’s not possible, learn a CI/CD tool. Jenkins is a common one. Other popular ones include Gitlab CI and GitHub Actions.&lt;/p&gt;
-
-&lt;p&gt;If time is in a crunch, make simple bash scripts.&lt;/p&gt;
-
-&lt;p&gt;For example, this was the sort of script I created because I didn’t understand how to do something in Jenkins. The files below are not real, they are illustrations of what I made.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;script-create-env.sh&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; “Enter ENV name”
-&lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;end
-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;destinationTool&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; init “APPNAME-&lt;span class=&quot;nv&quot;&gt;$ENV&lt;/span&gt;”
-// other commands on &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;destinationTool&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-npm run build
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;script-deploy.sh&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; “Enecho “Enter ENV name”
-&lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;end
-npm run push &lt;span class=&quot;nv&quot;&gt;$ENV&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;notes-from-other-articles&quot;&gt;Notes from other articles&lt;/h2&gt;
-
-&lt;h3 id=&quot;the-case-for-continuous-delivery&quot;&gt;&lt;a href=&quot;https://www.thoughtworks.com/en-in/insights/blog/case-continuous-delivery&quot;&gt;The Case for Continuous Delivery&lt;/a&gt;&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;One of the main uses of continuous delivery is to &lt;strong&gt;ensure we are building functionality that really delivers the expected customer value&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Second, continuous delivery &lt;strong&gt;reduces the risk of release and leads to more reliable and resilient systems&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Implementing CD has second-order effects that &lt;strong&gt;reduce the costs of software development&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;When HP Laserjet Team Implemented CD they found:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Overall development costs reduced by ~40%&lt;/li&gt;
-  &lt;li&gt;Programs under development increased by ~140%&lt;/li&gt;
-  &lt;li&gt;Development costs per program reduced by 78%&lt;/li&gt;
-  &lt;li&gt;Resources driving innovation increased by 5x&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;continuous-delivery-pipeline-101&quot;&gt;&lt;a href=&quot;https://www.atlassian.com/continuous-delivery/principles/pipeline&quot;&gt;Continuous delivery pipeline 101&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Describes different continuous delivery pipelines. CD needs a Repeatable reliable process&lt;/p&gt;
-
-&lt;h3 id=&quot;must-read-continuous-delivery-business-value-benefits-challenges--metrics&quot;&gt;&lt;strong&gt;MUST READ&lt;/strong&gt;: &lt;a href=&quot;https://www.atlassian.com/continuous-delivery/principles/business-value&quot;&gt;Continuous Delivery: Business Value, Benefits, Challenges &amp;amp; Metrics&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Explains the business benifits of continuous delivery. They are:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Increased Velocity&lt;/li&gt;
-  &lt;li&gt;Increased Productivity&lt;/li&gt;
-  &lt;li&gt;Increased Sustainability&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;“Done” means released&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Teams should fearlessly automate themselves out of their jobs, and move on to new projects.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In case you feel stalled, shift gears. &lt;strong&gt;Know how to give your team a car when all they have asked for is a faster horse&lt;/strong&gt;!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jumpstart with the help of experienced champions who will see you through this initial hump. &lt;strong&gt;People, after all, are your greatest assets&lt;/strong&gt; and train them to do the right thing. &lt;strong&gt;Make it easy to do the right thing, and hard to do the wrong thing&lt;/strong&gt;, and you will be pleasantly surprised at the outcome.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The article is worth sharing with your business team.&lt;/p&gt;
-
-&lt;h3 id=&quot;continuousdelivery&quot;&gt;&lt;a href=&quot;https://martinfowler.com/bliki/ContinuousDelivery.html&quot;&gt;ContinuousDelivery&lt;/a&gt;&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You’re doing continuous delivery when:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;Your software is deployable throughout its lifecycle&lt;/li&gt;
-    &lt;li&gt;Your team prioritizes keeping the software deployable over working on new features&lt;/li&gt;
-    &lt;li&gt;Anybody can get fast, automated feedback on the production readiness of their systems any time somebody makes a change to them&lt;/li&gt;
-    &lt;li&gt;You can perform push-button deployments of any version of the software to any environment on demand&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;A continuous deployment pipeline helps improve value delivery and deployment frequency without reducing quality, rather it enforces quality. The team following continuous delivery is forced to be intentional.&lt;/p&gt;
-
-&lt;p&gt;The real continuous delivery is delivery to PROD. All else is fake.&lt;/p&gt;
-
-&lt;p&gt;Continuous Delivery is a combination of development improvements and business improvements, forcing both to be more deligent and set good processes for release. The teams that follow CD see a 5 to 10 times increase deployments.&lt;/p&gt;
-
-&lt;p&gt;Practices like the following support continuous delivery:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/atomic-commits&quot;&gt;atomic commits&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/tdd&quot;&gt;TDD&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/implementing-kanban&quot;&gt;the kanban&lt;/a&gt; pull system and walk-the-board-from-right strategy,&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/feature-flagging&quot;&gt;feature-flagging&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="devops" /><category term="continuous-delivery" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/continuous-delivery.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/continuous-delivery.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;In the upcoming series of posts, I’ll highlight how we can identify and eliminate negative inputs and find and incorporate positive ones. Doing so would make us smarter, faster, better, and more resilient.&lt;/p&gt;</content><author><name></name></author><category term="non-professional" /><category term="inputs" /><category term="mature" /><summary type="html">Human Needs</summary></entry></feed>
