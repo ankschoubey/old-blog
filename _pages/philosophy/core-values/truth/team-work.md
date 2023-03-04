@@ -38,3 +38,17 @@ Gift of truth.
 10. Conclusion
 
 space out so that people have time to adjust #changeManagement
+
+# Love
+
+Team Work -> Love
+
+Choose love over attachment. What’s the difference between love and attachment.
+
+Love people and use things. Because the opposite never works.
+
+Love is non-transactional.
+
+Love is not special.
+
+7 Tools for Dealing And Making Better Love Decisions

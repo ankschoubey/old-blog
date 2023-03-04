@@ -65,6 +65,9 @@ In these resources, try to only consume the parts you need. Let go or parts you 
 
 ## Relationship
 
+Healthy Games
+Courtney Ryan
+
 - 2022
   - Oct
     - [These 4 Factors Can Predict Long-Term Romantic Compatibility - Brit + Co](https://www.brit.co/these-factors-affect-long-term-romantic-compatibility/)
@@ -202,6 +205,13 @@ In these resources, try to only consume the parts you need. Let go or parts you 
       - गीता में कुल सात सौ श्लोक हैं। गीता में ज्ञान को सर्वोच्च स्थान दिया गया है। ज्ञान की प्राप्ति से ही मनुष्य की सभी जिज्ञासाओं का समाधान होता है, इसीलिए गीता को सर्वशास्त्रमयी भी कहा गया है।
 
 ## Core Values
+
+
+Core Values in Teams:
+
+[Shared Values are Overrated](https://medium.com/@jessitron/shared-values-are-overrated-7a194462aa33)
+
+[Mutual Purpose and Agreed-Upon Methods](https://medium.com/@jessitron/mutual-purpose-and-agreed-upon-methods-deff5ccd9e88)
 
 - Responsibility
   - 2022
