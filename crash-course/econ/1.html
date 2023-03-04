@@ -12,12 +12,12 @@
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">The only differences between external_apps and internal_features in a plugin architecture</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Intro to Economics - Crash Course Econ 1</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-03-03T00:00:00-06:00" itemprop="datePublished">
-        Written: Mar 3, 2023
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-03-03T14:52:08-06:00" itemprop="dateModified">
-          Updated: Mar 3, 2023
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-03-04T00:00:00-06:00" itemprop="datePublished">
+        Written: Mar 4, 2023
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-03-04T14:42:15-06:00" itemprop="dateModified">
+          Updated: Mar 4, 2023
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -49,9 +49,11 @@
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag architecture" href="/categories/#architecture">architecture</a>
+    <a class="tag fa fa-hashtag crash-course" href="/categories/#crash-course">crash-course</a>
     
-    <a class="tag fa fa-hashtag plugin" href="/categories/#plugin">plugin</a>
+    <a class="tag fa fa-hashtag econ" href="/categories/#econ">econ</a>
+    
+    <a class="tag fa fa-hashtag summary" href="/categories/#summary">summary</a>
     
 </div>
 <div class="right-section">
@@ -91,61 +93,58 @@
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="from-a-users-perspective">From A User’s Perspective</h2>
+    <p><iframe id="media-3ez10ADR_gM" class="media" src="https://www.youtube.com/embed/3ez10ADR_gM" title="" width="100%" height="350" style="max-width: 600px;outline: none" allow="encrypted-media; picture-in-picture" frameborder="0" allowfullscreen></iframe></p>
 
-<p>First Party <strong>Default</strong> Apps are just product features.</p>
+<p>Economics is not just a study of money or the stock exchange.</p>
 
-<p>First Party <strong>Installable</strong> Apps are apps that can be installed by the user.</p>
+<p>Economics is the study of people and their choices.</p>
 
-<ul>
-  <li>These apps are not enabled by default</li>
-  <li>These are provided by default.</li>
-  <li>A user won’t even know that these are treated as an app by the platform company.</li>
-</ul>
-
-<p><strong>Third-party</strong> apps are created by third-party developers and can extend the core functionality of the first-party app.</p>
+<p>And this is based on two fundamental assumptions of Economics.</p>
 
 <ul>
-  <li>These apps are not enabled by default.</li>
+  <li>Scarcity</li>
+  <li>Opportunity Cost</li>
 </ul>
+
+<p>You could be doing one thing but you are choosing to do something else. In that sense, you believe that doing one is a better use of your time than another. Therefore, your opportunity cost of one is greater than another.</p>
+
+<p>Scarcity means there is a limited supply of resources.</p>
 
 <hr>
 
-<h2 id="code-perspective">Code Perspective</h2>
-
-<p><strong>These two types of apps are the same</strong>, except the first-party app doesn’t need Authentication to access Platform data, while the third-party app does.</p>
-
-<p>A third-party app may utilize all capabilities that the plugin platform provides unless some capabilities are reserved for first-party apps.</p>
-
-<p>In the previous post, I explained how we could define scopes for our resource would work.</p>
-
-<p>I took the example of movies where an app is using 2 scopes: “<strong>read:movies</strong>” and “<strong>read:userinfo</strong>”</p>
-
-<p>Let’s call this app, an external_app.</p>
-
-<p>Now suppose we have an internal feature, which uses the same endpoints that “read:movies” and “read:userinfo” uses.</p>
-
-<p>The only difference between external_app and the internal feature would be that the external_app will use OAuth and scopes to get access to the resource. While the internal_feature would not have to ask for permission to access the resource.</p>
-
-<p>This means, once you create a scope, it’s fixed.</p>
-
-<p>And this simplifies your development a lot.</p>
+<p>Economics is when people make choices. When a college student decides to pick major A over Major B.</p>
 
 <hr>
 
-<p>So, therefore, we need not treat internal features and external apps very differently.</p>
+<p>Many people believe that if you just put more money into healthcare, it would improve. But in many cases what we need is the right incentive. So, economics is also a study of incentives.</p>
 
-<p>At the platform level, both internal_feature and the external_app are just apps.</p>
+<p>For example, you could provide the college with an incentive on the number of enrollments. But then college would play it to just enroll.</p>
+
+<p>Then you modify it to incentivize the number of graduates, then you suddenly have colleges just passing people or lowering difficulty or only admitting smart kids.</p>
+
+<p>So, it’s very important to get incentives right. Because wrong incentives can backfire.</p>
+
+<hr>
+
+<p>Most economists are in Microeconomics. Whether to launch the business snow or later? What to do when a competitor does x?</p>
+
+<p>Macro is the study of a Nation and its decisions like inflation, unemployment, etc.</p>
+
+<hr>
+
+<p>Both Governments and the Free Market support each other. One can’t function without the other.</p>
+
+<hr>
+
+<p>There is always an opportunity cost. If you don’t want road accidents, you could remove all cards from the road. But you understand the opportunity cost and decide one is better than the other.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/v1/oauth-scopes">« Defining Scopes for your OAuth Service</a>
+      <a class="prev" href="/v1/internal-vs-external-plugin">« The only differences between external_apps and internal_features in a plugin architecture</a>
     
-    
-      <a class="next" href="/crash-course/econ/1">Intro to Economics - Crash Course Econ 1 »</a>
     
   </div>
 
@@ -181,8 +180,8 @@
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'https://www.ankushchoubey.com/v1/internal-vs-external-plugin';
-      this.page.identifier = 'https://www.ankushchoubey.com/v1/internal-vs-external-plugin';
+      this.page.url = 'https://www.ankushchoubey.com/crash-course/econ/1';
+      this.page.identifier = 'https://www.ankushchoubey.com/crash-course/econ/1';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -193,6 +192,6 @@
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/v1/internal-vs-external-plugin" hidden></a>
+<a class="u-url" href="/crash-course/econ/1" hidden></a>
 </article>
 </head></html>
