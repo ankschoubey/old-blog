@@ -12,12 +12,13 @@
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Specialization and Trade - Crash Course Economics - 2</h1>
+    <h1 class="post-title p-name" itemprop="name headline">One service should serve multiple mediums (REST, Kafka, gRPC, etc)</h1>
 
-    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-03-04T00:00:00-06:00" itemprop="datePublished">
-        Written: Mar 4, 2023
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-03-04T14:42:15-06:00" itemprop="dateModified">
-          Updated: Mar 4, 2023
+    <p class="page-description">Your main business logic resides in your service. All other things are connectors</p>
+<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-03-10T00:00:00-06:00" itemprop="datePublished">
+        Written: Mar 10, 2023
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-03-10T14:52:08-06:00" itemprop="dateModified">
+          Updated: Mar 10, 2023
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -49,11 +50,11 @@
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag crash-course" href="/categories/#crash-course">crash-course</a>
+    <a class="tag fa fa-hashtag web-development" href="/categories/#web-development">web-development</a>
     
-    <a class="tag fa fa-hashtag econ" href="/categories/#econ">econ</a>
+    <a class="tag fa fa-hashtag ddd" href="/categories/#ddd">ddd</a>
     
-    <a class="tag fa fa-hashtag summary" href="/categories/#summary">summary</a>
+    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
     
 </div>
 <div class="right-section">
@@ -93,55 +94,37 @@
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><iframe id="media-NI9TLDIPVcs" class="media" src="https://www.youtube.com/embed/NI9TLDIPVcs" title="" width="100%" height="350" style="max-width: 600px;outline: none" allow="encrypted-media; picture-in-picture" frameborder="0" allowfullscreen></iframe></p>
+    <p>In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.</p>
 
-<p>Adam Grant was the person who created the wealth of nations. He concluded that specialization and trading are better for everyone involved.</p>
+<p>A Service that handles tasks of a RestController isn’t very different from a rest controller.</p>
 
-<p>If you don’t specialize and trade, you’ll have to do everything yourself.</p>
+<p>We should separate out the Service from the Rest Controllers because we want to be able to re-use the service.</p>
 
-<p>For example in the case of pizza, you’ll have to farm wheat, they make an oven and then even cook.</p>
+<p>But if Service handles rest rest controller responses, it isn’t very different.</p>
 
-<p>Instead, by specializing everyone’s opportunity cost improves.</p>
+<h2 id="an-ideal-service">An ideal service</h2>
 
-<p>The PPF profit possibility frontier helps understand the relationship between producing two products,</p>
+<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740" alt="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740"></p>
 
-<p>For example, if the us is producing 500 planes and it could use the same effort to produce 2000 shoes,
-For every 1 plane they produce, they leave our 4 shoes.</p>
+<p>Here’s how you separate out connectors from the business logic.</p>
 
-<p>If China can produce 100 planes or 800 shoes with the same effort, china for every 1 plane produced, leaves out 800 shoes.</p>
+<p>Connector are mediums we use to communicate with the the outside world. Examples of connectors are Rest API connector (like RestController or RouterFunction+it’s Handler), Kafka Connector.</p>
 
-<p>It may seem that the US is better off here and should not trade, but if the US trades planes for shoes, they’ll be better off (need to learn here)</p>
+<p>Services are code that implement the business logic.</p>
 
-<hr>
+<p>All conversion from Entity to DTO or DTO to entity (i.e handle the request event and provide response in format needed by the client) should be handles at Rest API Connector.</p>
 
-<p>Point outside the PPF curve is an impossibility
-The point inside the PPF curve is inefficiency.
-How do you maximize efficiency?
-By specializing and trading.</p>
+<p>The Rest API Connector is responsible for calling the service method between the request and the response.</p>
 
-<hr>
-
-<p>Self-sufficiency is inefficiency</p>
-
-<hr>
-
-<p>Wellness can be predicted by a variety of many economic predictors like GDP per capita, employee, and ent rate, by this we see statistically, most improvements came after Industrial Revolution.</p>
-
-<p>We also see that countries that are voluntarily or involuntarily cut off from trading with other countries. like Iran Zimbabwe %</p>
-
-<p>And countries like India and China that opened up the economy and started trading have been experiencing significant growth in %</p>
-
-<p>Individuals and countries should specialize and do things that they have a competitive advantage in and then trade with others in what they have a competitive advantage in. This trade is mutually beneficial</p>
+<p>For the service method, REST API connector is a downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever is it’s format.</p>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/crash-course/econ/1">« Intro to Economics - Crash Course Econ 1</a>
+      <a class="prev" href="/crash-course/econ/2">« Specialization and Trade - Crash Course Economics - 2</a>
     
-    
-      <a class="next" href="/v1/separate-service/">One service should serve multiple mediums (REST, Kafka, gRPC, etc) »</a>
     
   </div>
 
@@ -177,8 +160,8 @@ By specializing and trading.</p>
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'https://www.ankushchoubey.com/crash-course/econ/2';
-      this.page.identifier = 'https://www.ankushchoubey.com/crash-course/econ/2';
+      this.page.url = 'https://www.ankushchoubey.com/v1/separate-service/';
+      this.page.identifier = 'https://www.ankushchoubey.com/v1/separate-service/';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -189,6 +172,6 @@ By specializing and trading.</p>
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/crash-course/econ/2" hidden></a>
+<a class="u-url" href="/v1/separate-service/" hidden></a>
 </article>
 </head></html>
