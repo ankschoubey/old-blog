@@ -12,13 +12,12 @@
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">One service should serve multiple mediums (REST, Kafka, gRPC, etc)</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Template for Gherkin Specs</h1>
 
-    <p class="page-description">Your main business logic resides in your service. All other things are connectors</p>
-<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-03-10T00:00:00-06:00" itemprop="datePublished">
-        Written: Mar 10, 2023
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-03-10T14:52:08-06:00" itemprop="dateModified">
-          Updated: Mar 10, 2023
+    <p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-03-23T00:00:00-05:00" itemprop="datePublished">
+        Written: Mar 23, 2023
+      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-03-23T15:52:08-05:00" itemprop="dateModified">
+          Updated: Mar 23, 2023
         </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -50,11 +49,7 @@
 
 <div class="tag-list">
     
-    <a class="tag fa fa-hashtag web-development" href="/categories/#web-development">web-development</a>
-    
-    <a class="tag fa fa-hashtag ddd" href="/categories/#ddd">ddd</a>
-    
-    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
+    <a class="tag fa fa-hashtag bdd" href="/categories/#bdd">bdd</a>
     
 </div>
 <div class="right-section">
@@ -94,39 +89,39 @@
 </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.</p>
+    <p>You are really doing BDD if you answer yes to these questions:</p>
 
-<p>A Service that handles tasks of a RestController isn’t very different from a rest controller.</p>
-
-<p>We should separate out the Service from the Rest Controllers because we want to be able to re-use the service.</p>
-
-<p>But if Service handles rest rest controller responses, it isn’t very different.</p>
-
-<h2 id="an-ideal-service">An ideal service</h2>
-
-<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740" alt="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740"></p>
-
-<p>Here’s how you separate out connectors from the business logic.</p>
-
-<p>Connector are mediums we use to communicate with the the outside world. Examples of connectors are Rest API connector (like RestController or RouterFunction+it’s Handler), Kafka Connector.</p>
-
-<p>Services are code that implement the business logic.</p>
-
-<p>All conversion from Entity to DTO or DTO to entity (i.e handle the request event and provide response in format needed by the client) should be handles at Rest API Connector.</p>
-
-<p>The Rest API Connector is responsible for calling the service method between the request and the response.</p>
-
-<p>For the service method, REST API connector is a downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever is it’s format.</p>
+<ul>
+  <li>BDD specifications drive the design of VDIs, prioritization and development.
+    <ul>
+      <li>Specs first VDIs later.</li>
+      <li>Specs first Development later.</li>
+    </ul>
+  </li>
+  <li>Any new decision made about the product functionality leads to an updated spec file.
+    <ul>
+      <li>Therefore the spec file is an integral part of every meeting.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Any dispute or confusion about what was decided is resolved by reviewing the spec file.</p>
+  </li>
+  <li>
+    <p>You remember the specification files because you have read, modified and used them so much.</p>
+  </li>
+  <li>
+    <p>Everyone involved in the product life cycle (including non-technical people) knows what BDD is and has access to spec file.</p>
+  </li>
+  <li>When any new person who wants to understand the product is given the BDD file to understand it.</li>
+</ul>
 
   </div>
   <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
 
 <div class="PageNavigation">
     
-      <a class="prev" href="/crash-course/econ/2">« Specialization and Trade - Crash Course Economics - 2</a>
+      <a class="prev" href="/v1/separate-service/">« One service should serve multiple mediums (REST, Kafka, gRPC, etc)</a>
     
-    
-      <a class="next" href="/v1/you-are-following-good-bdd-when">Template for Gherkin Specs »</a>
     
   </div>
 
@@ -162,8 +157,8 @@
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'https://www.ankushchoubey.com/v1/separate-service/';
-      this.page.identifier = 'https://www.ankushchoubey.com/v1/separate-service/';
+      this.page.url = 'https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when';
+      this.page.identifier = 'https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when';
     };
     (function() {
       var d = document, s = d.createElement('script');
@@ -174,6 +169,6 @@
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/v1/separate-service/" hidden></a>
+<a class="u-url" href="/v1/you-are-following-good-bdd-when" hidden></a>
 </article>
 </head></html>
