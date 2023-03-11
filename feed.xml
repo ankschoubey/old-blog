@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-11T03:15:10-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">You are really doing BDD when</title><link href="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when" rel="alternate" type="text/html" title="You are really doing BDD when" /><published>2023-03-23T00:00:00-05:00</published><updated>2023-03-23T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-you-are-following-good-bdd-when</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when">&lt;p&gt;You are really doing BDD if you answer yes to these questions:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-11T06:48:06-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">You are really doing BDD when</title><link href="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when" rel="alternate" type="text/html" title="You are really doing BDD when" /><published>2023-03-23T00:00:00-05:00</published><updated>2023-03-23T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-you-are-following-good-bdd-when</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when">&lt;p&gt;You are really doing BDD if you answer yes to these questions:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;BDD specifications drive the design of VDIs, prioritization and development.
@@ -22,7 +22,102 @@
     &lt;p&gt;Everyone involved in the product life cycle (including non-technical people) knows what BDD is and has access to spec file.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;When any new person who wants to understand the product is given the BDD file to understand it.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">You are really doing BDD if you answer yes to these questions:</summary></entry><entry><title type="html">One service should serve multiple mediums (REST, Kafka, gRPC, etc)</title><link href="https://www.ankushchoubey.com/v1/separate-service/" rel="alternate" type="text/html" title="One service should serve multiple mediums (REST, Kafka, gRPC, etc)" /><published>2023-03-10T00:00:00-06:00</published><updated>2023-03-10T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-separate-domain-and-connector</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/separate-service/">&lt;p&gt;In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">You are really doing BDD if you answer yes to these questions:</summary></entry><entry><title type="html">Economic Systems and Macroeconomics - Crash Course Economics - 3</title><link href="https://www.ankushchoubey.com/crash-course/econ/3" rel="alternate" type="text/html" title="Economic Systems and Macroeconomics - Crash Course Economics - 3" /><published>2023-03-11T00:00:00-06:00</published><updated>2023-03-11T14:42:15-06:00</updated><id>https://www.ankushchoubey.com/crash-course/econ/crash-course-econ-3</id><content type="html" xml:base="https://www.ankushchoubey.com/crash-course/econ/3">&lt;p&gt;&lt;img src=&quot;https://www.youtube.com/watch?v=B43YEW2FvDs&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Like rolling stones tell us, we can’t get all that we want. because there are limited resources so we have to make choices.
+***&lt;/p&gt;
+
+&lt;p&gt;There are 3 types of resource according to Karl Marx.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Land&lt;/li&gt;
+  &lt;li&gt;Labor&lt;/li&gt;
+  &lt;li&gt;Capital&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And economic system allows for&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What we produce?&lt;/li&gt;
+  &lt;li&gt;How we produce it?&lt;/li&gt;
+  &lt;li&gt;Who gets it?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are two types of Economy based on who controls the resources and what the system allows.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Command Economy&lt;/li&gt;
+  &lt;li&gt;Free Market Economy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Adam Smith said&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s not from the benevolance of the butcher, the brewer or the baker that we expect our dinner, but from their regard to their own self interest.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Command Economy is controlled by the government. It decides what to do.&lt;/p&gt;
+
+&lt;p&gt;Free Market Economy is where a companies decides what they can produce based on the profits they receive.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Invisible Hand&lt;/strong&gt;: The unintended social benefit resulting from individual actions.&lt;/p&gt;
+
+&lt;p&gt;Free Market Economy leads to “invisible hand” where you as a result of paying for something that leads to profit good things happen.&lt;/p&gt;
+
+&lt;p&gt;For example, if 1 of 2 competing car brands make better products, they’ll have all the capital and incentives of the free market i.e. more profits. Thus to compete the other brand has to innovate. #invisibleHand&lt;/p&gt;
+
+&lt;p&gt;Similar is not the case with command economy. Government can make a car and have no competition but it doesn’t have any special need to innovate.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Planned/Command Economy is not all bad. Because there are many things Free Market economy can’t handle.&lt;/p&gt;
+
+&lt;p&gt;Things like Security, Roads, Education, etc are all things needed for a good functioning free market economy but can only be provided via Government i.e. Command Economy.&lt;/p&gt;
+
+&lt;p&gt;Also, government intervine where Free Markets are failing. For example, it can provide regulation on car safety standards or how much pollution is allowed or how should the workers be paid. All of these, saves more money in the long run.&lt;/p&gt;
+
+&lt;p&gt;North Korea is a command economy. New Zealand is a free market economy with very few taxes. Most economies of the world are mixed.&lt;/p&gt;
+
+&lt;p&gt;And many economies are and have been changing. For example, Canada 🇨🇦 went from mostly free market to providing Universal Healthcare.&lt;/p&gt;
+
+&lt;p&gt;While, China 🇨🇳 went from mostly socialist economy to free market.&lt;/p&gt;
+
+&lt;p&gt;Modern economies are neither completely free or planned, there’s a spectrum of government involvement.&lt;/p&gt;
+
+&lt;p&gt;We should not fix ourselves to one ideology or another and rather focus on what get’s the job done at the time.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It doesn’t matter if a cat is black or white, if it caches mice, it is a good cat.
+~ Deng Xiaoping&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;While we could absolutely abolish many things like poverty with a command economy, remember that in economic terms we always have trade-offs because we always have scares limited resources.&lt;/p&gt;
+
+&lt;p&gt;So, spending money to abolish poverty could lead to less money spend on health care or less money on security so a war that leads to more poverty!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;circular-flow-model&quot;&gt;Circular Flow Model&lt;/h2&gt;
+
+&lt;p&gt;There is also a circle ⭕️ where&lt;/p&gt;
+
+&lt;p&gt;Indivuals Purchase from Businesses. This way business get’s money.&lt;/p&gt;
+
+&lt;p&gt;To purchase from business, individual need money.&lt;/p&gt;
+
+&lt;p&gt;so individually provide their labor to the business. So individuals now have money.&lt;/p&gt;
+
+&lt;p&gt;Government steps in between to provide facilities to both businesses and individuals. And to get their money they tax both individuals and businesses.&lt;/p&gt;
+
+&lt;p&gt;wealthIsAlwaysTransfered because only government can generate more money. - Andrew Tate&lt;/p&gt;</content><author><name></name></author><category term="crash-course" /><category term="econ" /><category term="summary" /><summary type="html"></summary></entry><entry><title type="html">One service should serve multiple mediums (REST, Kafka, gRPC, etc)</title><link href="https://www.ankushchoubey.com/v1/separate-service/" rel="alternate" type="text/html" title="One service should serve multiple mediums (REST, Kafka, gRPC, etc)" /><published>2023-03-10T00:00:00-06:00</published><updated>2023-03-10T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-separate-domain-and-connector</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/separate-service/">&lt;p&gt;In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.&lt;/p&gt;
 
 &lt;p&gt;A Service that handles tasks of a RestController isn’t very different from a rest controller.&lt;/p&gt;
 
@@ -310,74 +405,4 @@ I am speak the truth. And I understand there are no shortcuts. And no hacks!&lt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;My first 2 core values give me the right direction. The next 3 values accelerate the progress towards them. And the final 2, bring the greatest the world has to offer. Overall, these 7 makes me healthier, wealthier, wiser and the best version of myself for the world and therefore they are best bet is very situations.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><category term="non-professional" /><category term="matured" /><summary type="html">I have 7 core values and these help me live authentically, get the most out of life and be a peaceful cheerful and charming person in the process.</summary></entry><entry><title type="html">RSA Algorithm</title><link href="https://www.ankushchoubey.com/v1/rsa" rel="alternate" type="text/html" title="RSA Algorithm" /><published>2023-02-01T00:00:00-06:00</published><updated>2023-02-01T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-rsa</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/rsa">&lt;p&gt;RSA is an asymmetric key encryption algorithm and was first published in 1977.&lt;/p&gt;
-
-&lt;p&gt;RSA was created by Ron Rivest, Adi Shamir and Leonard Adleman.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/v1-rsa/rsa-creators.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Adding their photo for inspiration.&lt;/p&gt;
-
-&lt;p&gt;RSA works on the concept of modular arithmetic.&lt;/p&gt;
-
-&lt;p&gt;In RSA, we have a public and a private key. We use the private key to decrypt and the public key to encrypt.&lt;/p&gt;
-
-&lt;p&gt;This means that the private key should not be shared. But the public key can be shared with anyone.&lt;/p&gt;
-
-&lt;p&gt;Private Key = Key
-Public Key = Lock&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;There are 5 steps in RSA.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Take two prime numbers p and q. (Eg: p=2, q=7)&lt;/li&gt;
-  &lt;li&gt;Calculate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; . &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; is the product of p and q. (N = p*q = 2*7 = 14)&lt;/li&gt;
-  &lt;li&gt;Calculate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(N)&lt;/code&gt; .&lt;/li&gt;
-  &lt;li&gt;This is the number of co-primes less than N. (Eg. 1, 2, 5, 7 and 11 are co-primes to 14; therefore &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(n)&lt;/code&gt;  is the count = 6)&lt;/li&gt;
-  &lt;li&gt;This can also be calculated with a formula &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(p-1)(q-1)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Eg; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(N)&lt;/code&gt;  = (2-1)(7-1) = 6&lt;/li&gt;
-  &lt;li&gt;Create the public key (e) such that&lt;/li&gt;
-  &lt;li&gt;1 &amp;lt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;e&lt;/code&gt;  &amp;lt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(N)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;E should be co-prime with Phi(N)&lt;/li&gt;
-  &lt;li&gt;Eg. e = 5&lt;/li&gt;
-  &lt;li&gt;Find the private key (d) such that&lt;/li&gt;
-  &lt;li&gt;(e*d) mod &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Phi(n)&lt;/code&gt; = 1&lt;/li&gt;
-  &lt;li&gt;Eg: (5*d) mod (14) = 1&lt;/li&gt;
-  &lt;li&gt;When you calculate this you’ll see a pattern.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;5*1 = 5; mod 6 =  5&lt;/li&gt;
-  &lt;li&gt;5*2 = 10; mod 6 = 4&lt;/li&gt;
-  &lt;li&gt;15 mod 6 = 3&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-  &lt;li&gt;25 mod 6 = 1&lt;/li&gt;
-  &lt;li&gt;30 mod 6 = 0
-This pattern is expected since (5*6)%6 will be 0.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Let’s pick a large &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;d&lt;/code&gt; .&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D = 11&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Not to encrypt you’ll do the following,&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(value^e) mod N
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To decrypt, you’ll do the following,&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(encryptedValue ^d) mod N
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4zahvcJ9glg&quot;&gt;Eddie Woo: The RSA Encryption Algorithm (1 of 2: Computing an Example)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oOcTVTpUsPQ&quot;&gt;The RSA Encryption Algorithm (2 of 2: Generating the Keys)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html&quot;&gt;RSA Calculator&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="security" /><summary type="html">RSA is an asymmetric key encryption algorithm and was first published in 1977.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-rsa/rsa-creators.jpeg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-rsa/rsa-creators.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;My first 2 core values give me the right direction. The next 3 values accelerate the progress towards them. And the final 2, bring the greatest the world has to offer. Overall, these 7 makes me healthier, wealthier, wiser and the best version of myself for the world and therefore they are best bet is very situations.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><category term="non-professional" /><category term="matured" /><summary type="html">I have 7 core values and these help me live authentically, get the most out of life and be a peaceful cheerful and charming person in the process.</summary></entry></feed>
