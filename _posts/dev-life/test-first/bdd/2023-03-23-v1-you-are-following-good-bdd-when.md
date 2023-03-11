@@ -6,7 +6,7 @@ categories: [bdd]
 last_modified_at: 2023-03-23T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/you-are-following-good-bdd-when
-title: Template for Gherkin Specs
+title: You are really doing BDD when
 ---
 
 You are really doing BDD if you answer yes to these questions:
