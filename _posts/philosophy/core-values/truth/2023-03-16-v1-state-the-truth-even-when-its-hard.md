@@ -5,7 +5,7 @@ description: Why we should use the vocabulary 'stating'. And how can we state th
 categories: [non-technical, truth, mature]
 last_modified_at: 2023-13-16T20:52:08.052481
 last-modified-purpose:
-permalink: /v1/truth/why-tell-the-truth
+permalink: /v1/truth/state-truth-when-it-hurts
 title: Stating the Truth When It Could Hurt
 toc: true
 ---
