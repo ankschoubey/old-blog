@@ -87,3 +87,5 @@ If the driver had been truthful, he wouldn’t have had to face this situation. 
 If I had been truthful, both we and the driver wouldn’t have faced the situation.
 
 Because truth passes through without hurting us.
+
+Truth passes through can be imagined and us just standing and truth passing across us. If we are lying, we engage against truth, and it hurts us. If we don't engage against the truth and let is pass, it doesn't hurt us.
