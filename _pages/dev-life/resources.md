@@ -4,7 +4,6 @@ title: Resources
 permalink: /resources/
 ---
 
-{% include replace_nav_with_icons.html %}
 
 I share a collection of valuable resources I come across on my field, which I update regularly. As I explore these resources more, I may also write blog posts on them. The resources will be removed once a related blog post is written.
 

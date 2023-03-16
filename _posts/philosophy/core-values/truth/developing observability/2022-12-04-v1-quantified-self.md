@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Why do you need to have personal metrics? And how can they help you make informed decisions and stay on the path?
-categories: [non-professional, systems]
+categories: [non-technical, systems]
 last_modified_at: 2022-12-04T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/quantified-self

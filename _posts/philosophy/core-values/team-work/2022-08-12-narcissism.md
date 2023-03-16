@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [psychology, philosophy, non-professional, team-work]
+categories: [psychology, philosophy, non-technical, team-work]
 last_modified_at: 2022-08-18T20:52:08.052481
 last-modified-purpose: added points on controlling aggression
 permalink: /narcissism/

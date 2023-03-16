@@ -6,7 +6,7 @@ categories: [devops, continuous-delivery]
 last_modified_at: 2023-01-14T20:52:08.052481
 last-modified-purpose: Added notes from other blogs
 permalink: /v1/continuous-delivery
-title: Start your project with Continuous Delivery till "PROD"
+title: Start your project with Continuous Delivery till 'PROD'
 image: /images/continuous-delivery.png
 toc: true
 ---

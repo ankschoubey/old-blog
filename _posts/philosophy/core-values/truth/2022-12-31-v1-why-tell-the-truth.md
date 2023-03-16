@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [non-professional, truth, mature]
+categories: [non-technical, truth, mature]
 last_modified_at: 2022-12-31T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/truth/why-tell-the-truth

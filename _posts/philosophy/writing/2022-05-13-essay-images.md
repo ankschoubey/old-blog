@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [writing, non-professional, truth]
+categories: [writing, non-technical, truth]
 last_modified_at: 2022-05-13T20:52:08.052481
 last-modified-purpose:
 permalink: /essay-images/

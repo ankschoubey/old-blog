@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [productive, non-professional, time]
+categories: [productive, non-technical, time]
 last_modified_at: 2022-06-19T20:52:08.052481
 last-modified-purpose: added principles from Kanban and other tips
 permalink: /saving-time/

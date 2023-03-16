@@ -9,7 +9,7 @@
             "title": "{{ post.title | replace: '&amp;', '&' }}",
             "content": "{{ post.content | markdownify | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '</ul', ' . </ul' | replace: '</tr', ' . </tr' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | strip_html | escape_once | remove: 'Table of contents' | remove: '```'  | remove: '---' | replace: '\', ' ' | replace: ' .  .  . ', ' . ' | replace: ' .  . ', ' . ' | normalize_whitespace }}",
             "url": "{{ post.url | absolute_url }}",
-            "relUrl": "https://{{ post.url }}",
+            "relUrl": "{{ post.url }}",
             "date": " • {{ post.date | date: date_format }}"
         }
         {% assign comma = true %}
@@ -22,7 +22,7 @@
       {% if comma == true%},{% endif %}"page{{ forloop.index0 }}": {
           "title": "{{ page.title | replace: '&amp;', '&' }}",
           "content": "{{ page.content | markdownify | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '</ul', ' . </ul' | replace: '</tr', ' . </tr' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | strip_html | escape_once | remove: 'Table of contents' | remove: '```'  | remove: '---' | replace: '\', ' ' | replace: ' .  .  . ', ' . ' | replace: ' .  . ', ' . ' | normalize_whitespace }}",
-          "url": "https://{{ page.url | absolute_url }}",
+          "url": "{{ page.url | absolute_url }}",
           "relUrl": "{{ page.url }}",
           "date": ""
       }

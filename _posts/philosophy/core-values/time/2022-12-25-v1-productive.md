@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [non-professional, time]
+categories: [non-technical, time]
 last_modified_at: 2022-12-22T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/productive

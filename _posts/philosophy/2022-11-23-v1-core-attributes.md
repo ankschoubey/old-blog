@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Developing better instinctive reactions to unknown situations
-categories: [non-professional]
+categories: [non-technical]
 last_modified_at: 2022-11-23T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/core-attributes

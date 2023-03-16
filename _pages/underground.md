@@ -4,8 +4,6 @@ title:
 permalink: /underground/
 ---
 
-{% include replace_nav_with_icons.html %}
-
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -24,7 +22,7 @@ permalink: /underground/
   {% assign posts = ''|split:'' %}
   {% for post in rawposts %}
     {% if post.hide != true %}
-      {% if post.categories contains "non-professional"  %}
+      {% if post.categories contains "non-technical"  %}
         {% assign posts = posts|push:post%}
       {% elsif post.categories contains "algorithm-problems" %}
       {% else %}

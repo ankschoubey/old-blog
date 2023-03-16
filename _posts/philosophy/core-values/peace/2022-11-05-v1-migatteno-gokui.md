@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [non-professional, health]
+categories: [non-technical, health]
 last_modified_at: 2022-11-05T20:52:08.052481
 last-modified-purpose:
 permalink: /v2/migatteno-gokui

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [philosophical, non-professional, truth]
+categories: [philosophical, non-technical, truth]
 last_modified_at: 2022-06-05T20:52:08.052481
 last-modified-purpose:
 permalink: /truth-fidility/

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [1-1-communication, team-work, non-professional]
+categories: [1-1-communication, team-work, non-technical]
 last_modified_at: 2022-06-14T20:52:08.052481
 last-modified-purpose:
 permalink: /be-more-inviting/

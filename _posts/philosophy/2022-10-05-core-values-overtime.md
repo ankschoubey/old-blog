@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [non-professional, mature]
+categories: [non-technical, mature]
 last_modified_at: 2022-10-05T20:52:08.052481
 last-modified-purpose:
 permalink: /core-values-overtime/

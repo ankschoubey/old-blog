@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [non-professional, rant, responsibility]
+categories: [non-technical, rant, responsibility]
 last_modified_at: 2022-11-05T20:52:08.052481
 last-modified-purpose:
 permalink: /v2/good-intentions-good-action

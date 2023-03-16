@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Why failing forward is the only way?
-categories: [non-professional, systems]
+categories: [non-technical, systems]
 last_modified_at: 2022-09-08T20:52:08.052481
 last-modified-purpose:
 permalink: /perfection/

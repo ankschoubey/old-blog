@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Why morning and night rituals are essential? Why they aren’t replaceable by mid-day activity? And how to plan them optimally for 500x return on investment?
-categories: [non-professional, time]
+categories: [non-technical, time]
 last_modified_at: 2022-12-16T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/morning-night-ritual

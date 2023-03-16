@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [non-professional, systems, setup]
+categories: [non-technical, systems, setup]
 last_modified_at: 2023-01-14T20:52:08.052481
 last-modified-purpose: 
 permalink: /v1/desk-setup

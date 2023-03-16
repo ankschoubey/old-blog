@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [personal, non-professional]
+categories: [personal, non-technical]
 last_modified_at: 2022-06-12T20:52:08.052481
 last-modified-purpose:
 permalink: /paper-work-devops/

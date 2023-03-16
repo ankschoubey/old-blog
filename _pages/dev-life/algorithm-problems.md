@@ -12,6 +12,5 @@ Currently practicing: [NeetCode Blind 75](https://neetcode.io/practice)
 
 **Problems Solved**
 
-{% include replace_nav_with_icons.html %}
 
 {% include postsOfTag.html tag='algorithm-problems' %}

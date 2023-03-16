@@ -4,7 +4,6 @@ title: Philosophy
 permalink: /philosophy/
 ---
 
-{% include replace_nav_with_icons.html %}
 
 Welcome to the philosophy section. Here I dive deep into topics that affect us directly. The aim is to discover and develop practical tools to live a better life. This exploration ranges from human needs, habits, core values to communication, negotiation, and more.
 
@@ -48,4 +47,4 @@ My current project is working on my core values.
 
 **Incubating Essays**
 
-{% include postsOfTag.html tag='non-professional' %}
+{% include postsOfTag.html tag='non-technical' %}

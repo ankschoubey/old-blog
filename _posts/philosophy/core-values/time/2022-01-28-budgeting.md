@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [core-values, time-matters, non-professional, systems]
+categories: [core-values, time-matters, non-technical, systems]
 last_modified_at: 2022-01-28T20:52:08.052481
 last-modified-purpose:
 permalink: /personal-budgeting/

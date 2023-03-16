@@ -1,10 +1,9 @@
 ---
-layout: default
-permalink: /resume/
+layout: page
+permalink: /resume
 title: Hire me!
 search_exclude: false
 ---
-{% include replace_nav_with_icons.html %}
 
 Hi. I am developer with 4+ experience in Spring Boot Microservices. I am actively seeking an onsite role in Europe, Dubai, Canada, or Australia.
 

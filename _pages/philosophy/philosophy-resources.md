@@ -4,7 +4,6 @@ title:
 permalink: /philosphy-resources/
 ---
 
-{% include replace_nav_with_icons.html %}
 
 ## Philosophical Resources
 

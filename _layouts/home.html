@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: base
 ---
-{% include replace_nav_with_icons.html %}
 
 <div class="home">
   {%- if page.title -%}
@@ -20,32 +19,19 @@ layout: default
   <!-- Hide posts if front matter flag hide:true -->
   {% assign posts = ''|split:'' %}
   {% for post in rawposts %}
-    {% if post.hide != true %}
-      {% if post.categories contains "non-professional"  %}
-      {% elsif post.categories contains "algorithm-problems" %}
-      {% else %}
-        {% assign posts = posts|push:post%}
-      {% endif %}
+    {% if post.hide == true %}
+      {% continue %}
     {% endif %}
+    {% if post.categories contains "non-technical" %}
+      {% continue %}
+    {% endif %}
+    {% if post.categories contains "summary" %}
+      {% continue %}
+    {% endif %}
+    {% assign posts = posts|push:post%}
   {% endfor %}
 
-  <!-- Sort posts by rank, then date -->
-  {% assign grouped_posts = posts | group_by: "sticky_rank" | sort: "name", "last" %}
-  {% assign sticky_posts = ''|split:'' %}
-  {% assign non_sticky_posts = '' | split:'' %}
-
- 
-  {% for gp in grouped_posts %}
-    {%- if gp.name == "" -%}
-      {% assign non_sticky_posts = gp.items | sort: "last_modified_at" | reverse %}
-    {%- else %}
-      {% assign sticky_posts = sticky_posts | concat: gp.items %}
-    {%- endif -%}
-  {% endfor %}
-
-   <!-- Assemble final sorted posts array -->
-  {% assign sticky_posts = sticky_posts | sort: "sticky_rank", "last" %}
-  {% assign posts = sticky_posts | concat: non_sticky_posts %}
+  {% assign posts = posts | sort: "sticky_rank", "last" %}
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
@@ -56,7 +42,7 @@ layout: default
       {%- for post in posts -%}
       <li>
         {%- if site.show_image -%}
-            {%- include custom_post_list_image_card.html -%}
+            {%- include post_list_image_card.html -%}
         {% else %}
             {%- include post_list.html -%}
         {%- endif -%}

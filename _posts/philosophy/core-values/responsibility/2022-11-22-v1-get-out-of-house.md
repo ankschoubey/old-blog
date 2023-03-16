@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [non-professional, responsibility, needs]
+categories: [non-technical, responsibility, needs]
 last_modified_at: 2022-11-22T20:52:08.052481
 last-modified-purpose: 
 permalink: /v1/get-out-of-house

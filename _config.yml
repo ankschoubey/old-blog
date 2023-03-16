@@ -119,3 +119,5 @@ disqus:
 
 mermaid:
   src: 'path/to/mermaid.js'
+
+strict_front_matter: true
