@@ -1,408 +1,408 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-11T06:48:06-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">You are really doing BDD when</title><link href="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when" rel="alternate" type="text/html" title="You are really doing BDD when" /><published>2023-03-23T00:00:00-05:00</published><updated>2023-03-23T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-you-are-following-good-bdd-when</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when">&lt;p&gt;You are really doing BDD if you answer yes to these questions:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-16T02:20:40-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">You are really doing BDD when</title><link href="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when" rel="alternate" type="text/html" title="You are really doing BDD when" /><published>2023-03-23T00:00:00-05:00</published><updated>2023-03-23T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-you-are-following-good-bdd-when</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when"><![CDATA[<p>You are really doing BDD if you answer yes to these questions:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;BDD specifications drive the design of VDIs, prioritization and development.
-    &lt;ul&gt;
-      &lt;li&gt;Specs first VDIs later.&lt;/li&gt;
-      &lt;li&gt;Specs first Development later.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Any new decision made about the product functionality leads to an updated spec file.
-    &lt;ul&gt;
-      &lt;li&gt;Therefore the spec file is an integral part of every meeting.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Any dispute or confusion about what was decided is resolved by reviewing the spec file.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You remember the specification files because you have read, modified and used them so much.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Everyone involved in the product life cycle (including non-technical people) knows what BDD is and has access to spec file.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;When any new person who wants to understand the product is given the BDD file to understand it.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="bdd" /><summary type="html">You are really doing BDD if you answer yes to these questions:</summary></entry><entry><title type="html">Economic Systems and Macroeconomics - Crash Course Economics - 3</title><link href="https://www.ankushchoubey.com/crash-course/econ/3" rel="alternate" type="text/html" title="Economic Systems and Macroeconomics - Crash Course Economics - 3" /><published>2023-03-11T00:00:00-06:00</published><updated>2023-03-11T14:42:15-06:00</updated><id>https://www.ankushchoubey.com/crash-course/econ/crash-course-econ-3</id><content type="html" xml:base="https://www.ankushchoubey.com/crash-course/econ/3">&lt;p&gt;&lt;img src=&quot;https://www.youtube.com/watch?v=B43YEW2FvDs&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<ul>
+  <li>BDD specifications drive the design of VDIs, prioritization and development.
+    <ul>
+      <li>Specs first VDIs later.</li>
+      <li>Specs first Development later.</li>
+    </ul>
+  </li>
+  <li>Any new decision made about the product functionality leads to an updated spec file.
+    <ul>
+      <li>Therefore the spec file is an integral part of every meeting.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Any dispute or confusion about what was decided is resolved by reviewing the spec file.</p>
+  </li>
+  <li>
+    <p>You remember the specification files because you have read, modified and used them so much.</p>
+  </li>
+  <li>
+    <p>Everyone involved in the product life cycle (including non-technical people) knows what BDD is and has access to spec file.</p>
+  </li>
+  <li>When any new person who wants to understand the product is given the BDD file to understand it.</li>
+</ul>]]></content><author><name></name></author><category term="bdd" /><summary type="html"><![CDATA[You are really doing BDD if you answer yes to these questions:]]></summary></entry><entry><title type="html">Economic Systems and Macroeconomics - Crash Course Economics - 3</title><link href="https://www.ankushchoubey.com/crash-course/econ/3" rel="alternate" type="text/html" title="Economic Systems and Macroeconomics - Crash Course Economics - 3" /><published>2023-03-11T00:00:00-06:00</published><updated>2023-03-11T14:42:15-06:00</updated><id>https://www.ankushchoubey.com/crash-course/econ/crash-course-econ-3</id><content type="html" xml:base="https://www.ankushchoubey.com/crash-course/econ/3"><![CDATA[<p><img src="https://www.youtube.com/watch?v=B43YEW2FvDs" alt="" /></p>
 
-&lt;p&gt;Like rolling stones tell us, we can’t get all that we want. because there are limited resources so we have to make choices.
-***&lt;/p&gt;
+<p>Like rolling stones tell us, we can’t get all that we want. because there are limited resources so we have to make choices.
+***</p>
 
-&lt;p&gt;There are 3 types of resource according to Karl Marx.&lt;/p&gt;
+<p>There are 3 types of resource according to Karl Marx.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Land&lt;/li&gt;
-  &lt;li&gt;Labor&lt;/li&gt;
-  &lt;li&gt;Capital&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Land</li>
+  <li>Labor</li>
+  <li>Capital</li>
+</ul>
 
-&lt;p&gt;And economic system allows for&lt;/p&gt;
+<p>And economic system allows for</p>
 
-&lt;ul&gt;
-  &lt;li&gt;What we produce?&lt;/li&gt;
-  &lt;li&gt;How we produce it?&lt;/li&gt;
-  &lt;li&gt;Who gets it?&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>What we produce?</li>
+  <li>How we produce it?</li>
+  <li>Who gets it?</li>
+</ul>
 
-&lt;p&gt;There are two types of Economy based on who controls the resources and what the system allows.&lt;/p&gt;
+<p>There are two types of Economy based on who controls the resources and what the system allows.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Command Economy&lt;/li&gt;
-  &lt;li&gt;Free Market Economy&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Command Economy</li>
+  <li>Free Market Economy</li>
+</ul>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Adam Smith said&lt;/p&gt;
+<p>Adam Smith said</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;It’s not from the benevolance of the butcher, the brewer or the baker that we expect our dinner, but from their regard to their own self interest.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>It’s not from the benevolance of the butcher, the brewer or the baker that we expect our dinner, but from their regard to their own self interest.</p>
+</blockquote>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Command Economy is controlled by the government. It decides what to do.&lt;/p&gt;
+<p>Command Economy is controlled by the government. It decides what to do.</p>
 
-&lt;p&gt;Free Market Economy is where a companies decides what they can produce based on the profits they receive.&lt;/p&gt;
+<p>Free Market Economy is where a companies decides what they can produce based on the profits they receive.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;&lt;strong&gt;Invisible Hand&lt;/strong&gt;: The unintended social benefit resulting from individual actions.&lt;/p&gt;
+<p><strong>Invisible Hand</strong>: The unintended social benefit resulting from individual actions.</p>
 
-&lt;p&gt;Free Market Economy leads to “invisible hand” where you as a result of paying for something that leads to profit good things happen.&lt;/p&gt;
+<p>Free Market Economy leads to “invisible hand” where you as a result of paying for something that leads to profit good things happen.</p>
 
-&lt;p&gt;For example, if 1 of 2 competing car brands make better products, they’ll have all the capital and incentives of the free market i.e. more profits. Thus to compete the other brand has to innovate. #invisibleHand&lt;/p&gt;
+<p>For example, if 1 of 2 competing car brands make better products, they’ll have all the capital and incentives of the free market i.e. more profits. Thus to compete the other brand has to innovate. #invisibleHand</p>
 
-&lt;p&gt;Similar is not the case with command economy. Government can make a car and have no competition but it doesn’t have any special need to innovate.&lt;/p&gt;
+<p>Similar is not the case with command economy. Government can make a car and have no competition but it doesn’t have any special need to innovate.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Planned/Command Economy is not all bad. Because there are many things Free Market economy can’t handle.&lt;/p&gt;
+<p>Planned/Command Economy is not all bad. Because there are many things Free Market economy can’t handle.</p>
 
-&lt;p&gt;Things like Security, Roads, Education, etc are all things needed for a good functioning free market economy but can only be provided via Government i.e. Command Economy.&lt;/p&gt;
+<p>Things like Security, Roads, Education, etc are all things needed for a good functioning free market economy but can only be provided via Government i.e. Command Economy.</p>
 
-&lt;p&gt;Also, government intervine where Free Markets are failing. For example, it can provide regulation on car safety standards or how much pollution is allowed or how should the workers be paid. All of these, saves more money in the long run.&lt;/p&gt;
+<p>Also, government intervine where Free Markets are failing. For example, it can provide regulation on car safety standards or how much pollution is allowed or how should the workers be paid. All of these, saves more money in the long run.</p>
 
-&lt;p&gt;North Korea is a command economy. New Zealand is a free market economy with very few taxes. Most economies of the world are mixed.&lt;/p&gt;
+<p>North Korea is a command economy. New Zealand is a free market economy with very few taxes. Most economies of the world are mixed.</p>
 
-&lt;p&gt;And many economies are and have been changing. For example, Canada 🇨🇦 went from mostly free market to providing Universal Healthcare.&lt;/p&gt;
+<p>And many economies are and have been changing. For example, Canada 🇨🇦 went from mostly free market to providing Universal Healthcare.</p>
 
-&lt;p&gt;While, China 🇨🇳 went from mostly socialist economy to free market.&lt;/p&gt;
+<p>While, China 🇨🇳 went from mostly socialist economy to free market.</p>
 
-&lt;p&gt;Modern economies are neither completely free or planned, there’s a spectrum of government involvement.&lt;/p&gt;
+<p>Modern economies are neither completely free or planned, there’s a spectrum of government involvement.</p>
 
-&lt;p&gt;We should not fix ourselves to one ideology or another and rather focus on what get’s the job done at the time.&lt;/p&gt;
+<p>We should not fix ourselves to one ideology or another and rather focus on what get’s the job done at the time.</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;It doesn’t matter if a cat is black or white, if it caches mice, it is a good cat.
-~ Deng Xiaoping&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>It doesn’t matter if a cat is black or white, if it caches mice, it is a good cat.
+~ Deng Xiaoping</p>
+</blockquote>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;While we could absolutely abolish many things like poverty with a command economy, remember that in economic terms we always have trade-offs because we always have scares limited resources.&lt;/p&gt;
+<p>While we could absolutely abolish many things like poverty with a command economy, remember that in economic terms we always have trade-offs because we always have scares limited resources.</p>
 
-&lt;p&gt;So, spending money to abolish poverty could lead to less money spend on health care or less money on security so a war that leads to more poverty!&lt;/p&gt;
+<p>So, spending money to abolish poverty could lead to less money spend on health care or less money on security so a war that leads to more poverty!</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h2 id=&quot;circular-flow-model&quot;&gt;Circular Flow Model&lt;/h2&gt;
+<h2 id="circular-flow-model">Circular Flow Model</h2>
 
-&lt;p&gt;There is also a circle ⭕️ where&lt;/p&gt;
+<p>There is also a circle ⭕️ where</p>
 
-&lt;p&gt;Indivuals Purchase from Businesses. This way business get’s money.&lt;/p&gt;
+<p>Indivuals Purchase from Businesses. This way business get’s money.</p>
 
-&lt;p&gt;To purchase from business, individual need money.&lt;/p&gt;
+<p>To purchase from business, individual need money.</p>
 
-&lt;p&gt;so individually provide their labor to the business. So individuals now have money.&lt;/p&gt;
+<p>so individually provide their labor to the business. So individuals now have money.</p>
 
-&lt;p&gt;Government steps in between to provide facilities to both businesses and individuals. And to get their money they tax both individuals and businesses.&lt;/p&gt;
+<p>Government steps in between to provide facilities to both businesses and individuals. And to get their money they tax both individuals and businesses.</p>
 
-&lt;p&gt;wealthIsAlwaysTransfered because only government can generate more money. - Andrew Tate&lt;/p&gt;</content><author><name></name></author><category term="crash-course" /><category term="econ" /><category term="summary" /><summary type="html"></summary></entry><entry><title type="html">One service should serve multiple mediums (REST, Kafka, gRPC, etc)</title><link href="https://www.ankushchoubey.com/v1/separate-service/" rel="alternate" type="text/html" title="One service should serve multiple mediums (REST, Kafka, gRPC, etc)" /><published>2023-03-10T00:00:00-06:00</published><updated>2023-03-10T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-separate-domain-and-connector</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/separate-service/">&lt;p&gt;In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.&lt;/p&gt;
+<p>wealthIsAlwaysTransfered because only government can generate more money. - Andrew Tate</p>]]></content><author><name></name></author><category term="crash-course" /><category term="econ" /><category term="summary" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">One service should serve multiple mediums (REST, Kafka, gRPC, etc)</title><link href="https://www.ankushchoubey.com/v1/separate-service/" rel="alternate" type="text/html" title="One service should serve multiple mediums (REST, Kafka, gRPC, etc)" /><published>2023-03-10T00:00:00-06:00</published><updated>2023-03-10T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-separate-domain-and-connector</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/separate-service/"><![CDATA[<p>In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.</p>
 
-&lt;p&gt;A Service that handles tasks of a RestController isn’t very different from a rest controller.&lt;/p&gt;
+<p>A Service that handles tasks of a RestController isn’t very different from a rest controller.</p>
 
-&lt;p&gt;We should separate out the Service from the Rest Controllers because we want to be able to re-use the service.&lt;/p&gt;
+<p>We should separate out the Service from the Rest Controllers because we want to be able to re-use the service.</p>
 
-&lt;p&gt;But if Service handles rest rest controller responses, it isn’t very different.&lt;/p&gt;
+<p>But if Service handles rest rest controller responses, it isn’t very different.</p>
 
-&lt;h2 id=&quot;an-ideal-service&quot;&gt;An ideal service&lt;/h2&gt;
+<h2 id="an-ideal-service">An ideal service</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;amp;h=740&quot; alt=&quot;https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;amp;h=740&quot; /&gt;&lt;/p&gt;
+<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;h=740" alt="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;h=740" /></p>
 
-&lt;p&gt;Here’s how you separate out connectors from the business logic.&lt;/p&gt;
+<p>Here’s how you separate out connectors from the business logic.</p>
 
-&lt;p&gt;Connector are mediums we use to communicate with the the outside world. Examples of connectors are Rest API connector (like RestController or RouterFunction+it’s Handler), Kafka Connector.&lt;/p&gt;
+<p>Connector are mediums we use to communicate with the the outside world. Examples of connectors are Rest API connector (like RestController or RouterFunction+it’s Handler), Kafka Connector.</p>
 
-&lt;p&gt;Services are code that implement the business logic.&lt;/p&gt;
+<p>Services are code that implement the business logic.</p>
 
-&lt;p&gt;All conversion from Entity to DTO or DTO to entity (i.e handle the request event and provide response in format needed by the client) should be handles at Rest API Connector.&lt;/p&gt;
+<p>All conversion from Entity to DTO or DTO to entity (i.e handle the request event and provide response in format needed by the client) should be handles at Rest API Connector.</p>
 
-&lt;p&gt;The Rest API Connector is responsible for calling the service method between the request and the response.&lt;/p&gt;
+<p>The Rest API Connector is responsible for calling the service method between the request and the response.</p>
 
-&lt;p&gt;For the service method, REST API connector is a downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever is it’s format.&lt;/p&gt;</content><author><name></name></author><category term="web-development" /><category term="ddd" /><category term="clean-code" /><summary type="html">In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;amp;h=740" /><media:content medium="image" url="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;amp;h=740" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Specialization and Trade - Crash Course Economics - 2</title><link href="https://www.ankushchoubey.com/crash-course/econ/2" rel="alternate" type="text/html" title="Specialization and Trade - Crash Course Economics - 2" /><published>2023-03-04T00:00:00-06:00</published><updated>2023-03-04T14:42:15-06:00</updated><id>https://www.ankushchoubey.com/crash-course/econ/crash-course-econ-2</id><content type="html" xml:base="https://www.ankushchoubey.com/crash-course/econ/2">&lt;p&gt;&lt;img src=&quot;https://www.youtube.com/watch?v=NI9TLDIPVcs&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>For the service method, REST API connector is a downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever is it’s format.</p>]]></content><author><name></name></author><category term="web-development" /><category term="ddd" /><category term="clean-code" /><summary type="html"><![CDATA[Your main business logic resides in your service. All other things are connectors]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;amp;h=740" /><media:content medium="image" url="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;amp;h=740" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Specialization and Trade - Crash Course Economics - 2</title><link href="https://www.ankushchoubey.com/crash-course/econ/2" rel="alternate" type="text/html" title="Specialization and Trade - Crash Course Economics - 2" /><published>2023-03-04T00:00:00-06:00</published><updated>2023-03-04T14:42:15-06:00</updated><id>https://www.ankushchoubey.com/crash-course/econ/crash-course-econ-2</id><content type="html" xml:base="https://www.ankushchoubey.com/crash-course/econ/2"><![CDATA[<p><img src="https://www.youtube.com/watch?v=NI9TLDIPVcs" alt="" /></p>
 
-&lt;p&gt;Adam Grant was the person who created the wealth of nations. He concluded that specialization and trading are better for everyone involved.&lt;/p&gt;
+<p>Adam Grant was the person who created the wealth of nations. He concluded that specialization and trading are better for everyone involved.</p>
 
-&lt;p&gt;If you don’t specialize and trade, you’ll have to do everything yourself.&lt;/p&gt;
+<p>If you don’t specialize and trade, you’ll have to do everything yourself.</p>
 
-&lt;p&gt;For example in the case of pizza, you’ll have to farm wheat, they make an oven and then even cook.&lt;/p&gt;
+<p>For example in the case of pizza, you’ll have to farm wheat, they make an oven and then even cook.</p>
 
-&lt;p&gt;Instead, by specializing everyone’s opportunity cost improves.&lt;/p&gt;
+<p>Instead, by specializing everyone’s opportunity cost improves.</p>
 
-&lt;p&gt;The PPF profit possibility frontier helps understand the relationship between producing two products,&lt;/p&gt;
+<p>The PPF profit possibility frontier helps understand the relationship between producing two products,</p>
 
-&lt;p&gt;For example, if the us is producing 500 planes and it could use the same effort to produce 2000 shoes,
-For every 1 plane they produce, they leave our 4 shoes.&lt;/p&gt;
+<p>For example, if the us is producing 500 planes and it could use the same effort to produce 2000 shoes,
+For every 1 plane they produce, they leave our 4 shoes.</p>
 
-&lt;p&gt;If China can produce 100 planes or 800 shoes with the same effort, china for every 1 plane produced, leaves out 800 shoes.&lt;/p&gt;
+<p>If China can produce 100 planes or 800 shoes with the same effort, china for every 1 plane produced, leaves out 800 shoes.</p>
 
-&lt;p&gt;It may seem that the US is better off here and should not trade, but if the US trades planes for shoes, they’ll be better off (need to learn here)&lt;/p&gt;
+<p>It may seem that the US is better off here and should not trade, but if the US trades planes for shoes, they’ll be better off (need to learn here)</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Point outside the PPF curve is an impossibility
+<p>Point outside the PPF curve is an impossibility
 The point inside the PPF curve is inefficiency.
 How do you maximize efficiency?
-By specializing and trading.&lt;/p&gt;
+By specializing and trading.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Self-sufficiency is inefficiency&lt;/p&gt;
+<p>Self-sufficiency is inefficiency</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Wellness can be predicted by a variety of many economic predictors like GDP per capita, employee, and ent rate, by this we see statistically, most improvements came after Industrial Revolution.&lt;/p&gt;
+<p>Wellness can be predicted by a variety of many economic predictors like GDP per capita, employee, and ent rate, by this we see statistically, most improvements came after Industrial Revolution.</p>
 
-&lt;p&gt;We also see that countries that are voluntarily or involuntarily cut off from trading with other countries. like Iran Zimbabwe %&lt;/p&gt;
+<p>We also see that countries that are voluntarily or involuntarily cut off from trading with other countries. like Iran Zimbabwe %</p>
 
-&lt;p&gt;And countries like India and China that opened up the economy and started trading have been experiencing significant growth in %&lt;/p&gt;
+<p>And countries like India and China that opened up the economy and started trading have been experiencing significant growth in %</p>
 
-&lt;p&gt;Individuals and countries should specialize and do things that they have a competitive advantage in and then trade with others in what they have a competitive advantage in. This trade is mutually beneficial&lt;/p&gt;</content><author><name></name></author><category term="crash-course" /><category term="econ" /><category term="summary" /><summary type="html"></summary></entry><entry><title type="html">Intro to Economics - Crash Course Econ 1</title><link href="https://www.ankushchoubey.com/crash-course/econ/1" rel="alternate" type="text/html" title="Intro to Economics - Crash Course Econ 1" /><published>2023-03-04T00:00:00-06:00</published><updated>2023-03-04T14:42:15-06:00</updated><id>https://www.ankushchoubey.com/crash-course/econ/crash-course-econ-1</id><content type="html" xml:base="https://www.ankushchoubey.com/crash-course/econ/1">&lt;p&gt;&lt;img src=&quot;https://www.youtube.com/watch?v=3ez10ADR_gM&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>Individuals and countries should specialize and do things that they have a competitive advantage in and then trade with others in what they have a competitive advantage in. This trade is mutually beneficial</p>]]></content><author><name></name></author><category term="crash-course" /><category term="econ" /><category term="summary" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Intro to Economics - Crash Course Econ 1</title><link href="https://www.ankushchoubey.com/crash-course/econ/1" rel="alternate" type="text/html" title="Intro to Economics - Crash Course Econ 1" /><published>2023-03-04T00:00:00-06:00</published><updated>2023-03-04T14:42:15-06:00</updated><id>https://www.ankushchoubey.com/crash-course/econ/crash-course-econ-1</id><content type="html" xml:base="https://www.ankushchoubey.com/crash-course/econ/1"><![CDATA[<p><img src="https://www.youtube.com/watch?v=3ez10ADR_gM" alt="" /></p>
 
-&lt;p&gt;Economics is not just a study of money or the stock exchange.&lt;/p&gt;
+<p>Economics is not just a study of money or the stock exchange.</p>
 
-&lt;p&gt;Economics is the study of people and their choices.&lt;/p&gt;
+<p>Economics is the study of people and their choices.</p>
 
-&lt;p&gt;And this is based on two fundamental assumptions of Economics.&lt;/p&gt;
+<p>And this is based on two fundamental assumptions of Economics.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Scarcity&lt;/li&gt;
-  &lt;li&gt;Opportunity Cost&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Scarcity</li>
+  <li>Opportunity Cost</li>
+</ul>
 
-&lt;p&gt;You could be doing one thing but you are choosing to do something else. In that sense, you believe that doing one is a better use of your time than another. Therefore, your opportunity cost of one is greater than another.&lt;/p&gt;
+<p>You could be doing one thing but you are choosing to do something else. In that sense, you believe that doing one is a better use of your time than another. Therefore, your opportunity cost of one is greater than another.</p>
 
-&lt;p&gt;Scarcity means there is a limited supply of resources.&lt;/p&gt;
+<p>Scarcity means there is a limited supply of resources.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Economics is when people make choices. When a college student decides to pick major A over Major B.&lt;/p&gt;
+<p>Economics is when people make choices. When a college student decides to pick major A over Major B.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Many people believe that if you just put more money into healthcare, it would improve. But in many cases what we need is the right incentive. So, economics is also a study of incentives.&lt;/p&gt;
+<p>Many people believe that if you just put more money into healthcare, it would improve. But in many cases what we need is the right incentive. So, economics is also a study of incentives.</p>
 
-&lt;p&gt;For example, you could provide the college with an incentive on the number of enrollments. But then college would play it to just enroll.&lt;/p&gt;
+<p>For example, you could provide the college with an incentive on the number of enrollments. But then college would play it to just enroll.</p>
 
-&lt;p&gt;Then you modify it to incentivize the number of graduates, then you suddenly have colleges just passing people or lowering difficulty or only admitting smart kids.&lt;/p&gt;
+<p>Then you modify it to incentivize the number of graduates, then you suddenly have colleges just passing people or lowering difficulty or only admitting smart kids.</p>
 
-&lt;p&gt;So, it’s very important to get incentives right. Because wrong incentives can backfire.&lt;/p&gt;
+<p>So, it’s very important to get incentives right. Because wrong incentives can backfire.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Most economists are in Microeconomics. Whether to launch the business snow or later? What to do when a competitor does x?&lt;/p&gt;
+<p>Most economists are in Microeconomics. Whether to launch the business snow or later? What to do when a competitor does x?</p>
 
-&lt;p&gt;Macro is the study of a Nation and its decisions like inflation, unemployment, etc.&lt;/p&gt;
+<p>Macro is the study of a Nation and its decisions like inflation, unemployment, etc.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Both Governments and the Free Market support each other. One can’t function without the other.&lt;/p&gt;
+<p>Both Governments and the Free Market support each other. One can’t function without the other.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;There is always an opportunity cost. If you don’t want road accidents, you could remove all cards from the road. But you understand the opportunity cost and decide one is better than the other.&lt;/p&gt;</content><author><name></name></author><category term="crash-course" /><category term="econ" /><category term="summary" /><summary type="html"></summary></entry><entry><title type="html">The only differences between external_apps and internal_features in a plugin architecture</title><link href="https://www.ankushchoubey.com/v1/internal-vs-external-plugin" rel="alternate" type="text/html" title="The only differences between external_apps and internal_features in a plugin architecture" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-difference-between-third-party-and-first-party</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/internal-vs-external-plugin">&lt;h2 id=&quot;from-a-users-perspective&quot;&gt;From A User’s Perspective&lt;/h2&gt;
+<p>There is always an opportunity cost. If you don’t want road accidents, you could remove all cards from the road. But you understand the opportunity cost and decide one is better than the other.</p>]]></content><author><name></name></author><category term="crash-course" /><category term="econ" /><category term="summary" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">The only differences between external_apps and internal_features in a plugin architecture</title><link href="https://www.ankushchoubey.com/v1/internal-vs-external-plugin" rel="alternate" type="text/html" title="The only differences between external_apps and internal_features in a plugin architecture" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-difference-between-third-party-and-first-party</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/internal-vs-external-plugin"><![CDATA[<h2 id="from-a-users-perspective">From A User’s Perspective</h2>
 
-&lt;p&gt;First Party &lt;strong&gt;Default&lt;/strong&gt; Apps are just product features.&lt;/p&gt;
+<p>First Party <strong>Default</strong> Apps are just product features.</p>
 
-&lt;p&gt;First Party &lt;strong&gt;Installable&lt;/strong&gt; Apps are apps that can be installed by the user.&lt;/p&gt;
+<p>First Party <strong>Installable</strong> Apps are apps that can be installed by the user.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;These apps are not enabled by default&lt;/li&gt;
-  &lt;li&gt;These are provided by default.&lt;/li&gt;
-  &lt;li&gt;A user won’t even know that these are treated as an app by the platform company.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>These apps are not enabled by default</li>
+  <li>These are provided by default.</li>
+  <li>A user won’t even know that these are treated as an app by the platform company.</li>
+</ul>
 
-&lt;p&gt;&lt;strong&gt;Third-party&lt;/strong&gt; apps are created by third-party developers and can extend the core functionality of the first-party app.&lt;/p&gt;
+<p><strong>Third-party</strong> apps are created by third-party developers and can extend the core functionality of the first-party app.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;These apps are not enabled by default.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>These apps are not enabled by default.</li>
+</ul>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;h2 id=&quot;code-perspective&quot;&gt;Code Perspective&lt;/h2&gt;
+<h2 id="code-perspective">Code Perspective</h2>
 
-&lt;p&gt;&lt;strong&gt;These two types of apps are the same&lt;/strong&gt;, except the first-party app doesn’t need Authentication to access Platform data, while the third-party app does.&lt;/p&gt;
+<p><strong>These two types of apps are the same</strong>, except the first-party app doesn’t need Authentication to access Platform data, while the third-party app does.</p>
 
-&lt;p&gt;A third-party app may utilize all capabilities that the plugin platform provides unless some capabilities are reserved for first-party apps.&lt;/p&gt;
+<p>A third-party app may utilize all capabilities that the plugin platform provides unless some capabilities are reserved for first-party apps.</p>
 
-&lt;p&gt;In the previous post, I explained how we could define scopes for our resource would work.&lt;/p&gt;
+<p>In the previous post, I explained how we could define scopes for our resource would work.</p>
 
-&lt;p&gt;I took the example of movies where an app is using 2 scopes: “&lt;strong&gt;read:movies&lt;/strong&gt;” and “&lt;strong&gt;read:userinfo&lt;/strong&gt;”&lt;/p&gt;
+<p>I took the example of movies where an app is using 2 scopes: “<strong>read:movies</strong>” and “<strong>read:userinfo</strong>”</p>
 
-&lt;p&gt;Let’s call this app, an external_app.&lt;/p&gt;
+<p>Let’s call this app, an external_app.</p>
 
-&lt;p&gt;Now suppose we have an internal feature, which uses the same endpoints that “read:movies” and “read:userinfo” uses.&lt;/p&gt;
+<p>Now suppose we have an internal feature, which uses the same endpoints that “read:movies” and “read:userinfo” uses.</p>
 
-&lt;p&gt;The only difference between external_app and the internal feature would be that the external_app will use OAuth and scopes to get access to the resource. While the internal_feature would not have to ask for permission to access the resource.&lt;/p&gt;
+<p>The only difference between external_app and the internal feature would be that the external_app will use OAuth and scopes to get access to the resource. While the internal_feature would not have to ask for permission to access the resource.</p>
 
-&lt;p&gt;This means, once you create a scope, it’s fixed.&lt;/p&gt;
+<p>This means, once you create a scope, it’s fixed.</p>
 
-&lt;p&gt;And this simplifies your development a lot.&lt;/p&gt;
+<p>And this simplifies your development a lot.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;So, therefore, we need not treat internal features and external apps very differently.&lt;/p&gt;
+<p>So, therefore, we need not treat internal features and external apps very differently.</p>
 
-&lt;p&gt;At the platform level, both internal_feature and the external_app are just apps.&lt;/p&gt;</content><author><name></name></author><category term="architecture" /><category term="plugin" /><summary type="html">From A User’s Perspective</summary></entry><entry><title type="html">Defining Scopes for your OAuth Service</title><link href="https://www.ankushchoubey.com/v1/oauth-scopes" rel="alternate" type="text/html" title="Defining Scopes for your OAuth Service" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-02-01T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-oauth-scopes</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/oauth-scopes">&lt;p&gt;Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.&lt;/p&gt;
+<p>At the platform level, both internal_feature and the external_app are just apps.</p>]]></content><author><name></name></author><category term="architecture" /><category term="plugin" /><summary type="html"><![CDATA[From A User’s Perspective]]></summary></entry><entry><title type="html">Defining Scopes for your OAuth Service</title><link href="https://www.ankushchoubey.com/v1/oauth-scopes" rel="alternate" type="text/html" title="Defining Scopes for your OAuth Service" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-02-01T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-oauth-scopes</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/oauth-scopes"><![CDATA[<p>Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;In a rest API, we have resources. Our resources are usually accessed with just a noun.&lt;/p&gt;
+<p>In a rest API, we have resources. Our resources are usually accessed with just a noun.</p>
 
-&lt;p&gt;so,&lt;/p&gt;
+<p>so,</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; to get all movies&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">GET</code> <code class="language-plaintext highlighter-rouge">/movies</code> to get all movies</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies/{movieId}&lt;/code&gt; to get a specific movie&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">GET</code> <code class="language-plaintext highlighter-rouge">/movies/{movieId}</code> to get a specific movie</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PUT&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; to modify a movie&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">PUT</code> <code class="language-plaintext highlighter-rouge">/movies</code> to modify a movie</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;POST&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; to add a new movie&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">POST</code> <code class="language-plaintext highlighter-rouge">/movies</code> to add a new movie</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DELETE&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies/{movieID}&lt;/code&gt; to delete a movie&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">DELETE</code> <code class="language-plaintext highlighter-rouge">/movies/{movieID}</code> to delete a movie</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Our Outh scopes are a restriction on resources&lt;/p&gt;
+<p>Our Outh scopes are a restriction on resources</p>
 
-&lt;p&gt;so, we would have scopes for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;movies&lt;/code&gt; resource.&lt;/p&gt;
+<p>so, we would have scopes for <code class="language-plaintext highlighter-rouge">movies</code> resource.</p>
 
-&lt;p&gt;We can append this with the kind of method that can be run on the resource.&lt;/p&gt;
+<p>We can append this with the kind of method that can be run on the resource.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;For example:&lt;/p&gt;
+<p>For example:</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read:movies&lt;/code&gt; -&amp;gt; allows &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; calls on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; REST API resource&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">read:movies</code> -&gt; allows <code class="language-plaintext highlighter-rouge">GET</code> calls on <code class="language-plaintext highlighter-rouge">/movies</code> REST API resource</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:movies&lt;/code&gt; → allows &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;POST&lt;/code&gt; calls on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/movies&lt;/code&gt; resource.&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">write:movies</code> → allows <code class="language-plaintext highlighter-rouge">POST</code> calls on the <code class="language-plaintext highlighter-rouge">/movies</code> resource.</p>
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read:userinfo&lt;/code&gt; → allows &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GET&lt;/code&gt; calls on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/userinfo&lt;/code&gt; resource&lt;/p&gt;
+<p><code class="language-plaintext highlighter-rouge">read:userinfo</code> → allows <code class="language-plaintext highlighter-rouge">GET</code> calls on the <code class="language-plaintext highlighter-rouge">/userinfo</code> resource</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;When the app is submitted to our “App Store“, the app developer declares an app, they are using a particular scope.&lt;/p&gt;
+<p>When the app is submitted to our “App Store“, the app developer declares an app, they are using a particular scope.</p>
 
-&lt;p&gt;For example, let’s say an App that shows user recommendations has asked for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read:movies&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:movies and&lt;/code&gt; read:userinfo&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; &lt;/code&gt;.&lt;/p&gt;
+<p>For example, let’s say an App that shows user recommendations has asked for <code class="language-plaintext highlighter-rouge">read:movies</code>, <code class="language-plaintext highlighter-rouge">write:movies and</code> read:userinfo<code class="language-plaintext highlighter-rouge"> </code>.</p>
 
-&lt;p&gt;The app developer has declared why they use each of the scopes. While declaring, they decide they aren’t using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:movies&lt;/code&gt; scope.&lt;/p&gt;
+<p>The app developer has declared why they use each of the scopes. While declaring, they decide they aren’t using the <code class="language-plaintext highlighter-rouge">write:movies</code> scope.</p>
 
-&lt;p&gt;So, they remove it. Or while reviewing the app submission application, the App Store platform rejects the request for accepting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write:movies&lt;/code&gt; and asks for more clarifications.&lt;/p&gt;</content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html">Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.</summary></entry><entry><title type="html">Migrating DB smoothly with a migration script</title><link href="https://www.ankushchoubey.com/db-migration-script/" rel="alternate" type="text/html" title="Migrating DB smoothly with a migration script" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/db-migration-script</id><content type="html" xml:base="https://www.ankushchoubey.com/db-migration-script/">&lt;p&gt;If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.&lt;/p&gt;
+<p>So, they remove it. Or while reviewing the app submission application, the App Store platform rejects the request for accepting <code class="language-plaintext highlighter-rouge">write:movies</code> and asks for more clarifications.</p>]]></content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html"><![CDATA[Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.]]></summary></entry><entry><title type="html">Migrating DB smoothly with a migration script</title><link href="https://www.ankushchoubey.com/db-migration-script/" rel="alternate" type="text/html" title="Migrating DB smoothly with a migration script" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/db-migration-script</id><content type="html" xml:base="https://www.ankushchoubey.com/db-migration-script/"><![CDATA[<p>If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.</p>
 
-&lt;p&gt;The same mechanism could be used to migrate multiple tables. And can be implemented in SQL stored procedure or stored procedure equivalent in the DB of your choice.&lt;/p&gt;
+<p>The same mechanism could be used to migrate multiple tables. And can be implemented in SQL stored procedure or stored procedure equivalent in the DB of your choice.</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Add these additional columns to your source table
-    &lt;ol&gt;
-      &lt;li&gt;&lt;strong&gt;is_migrated&lt;/strong&gt;: default false&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;migrated_date&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;is_error&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;error_description&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Create a DB migration script which
-    &lt;ol&gt;
-      &lt;li&gt;Copies a batch of data from one table in source DB to one table in dB.&lt;/li&gt;
-      &lt;li&gt;The batch size could be 1000. You don’t want the batch size to be too small because it could be slow. You don’t want it too high to be able to recover better.&lt;/li&gt;
-      &lt;li&gt;Whenever a batch is a complete update the is_migrated and migrated_date in the source DB. Then pick up the next batch where is_migrated is false.&lt;/li&gt;
-      &lt;li&gt;If there is an error, set &lt;strong&gt;is_error&lt;/strong&gt; to_ true _and add &lt;strong&gt;error_description&lt;/strong&gt;.&lt;/li&gt;
-      &lt;li&gt;The &lt;strong&gt;error_description&lt;/strong&gt; could be an exception that is thrown.&lt;/li&gt;
-      &lt;li&gt;Once the script is done, check for &lt;strong&gt;is_error: true&lt;/strong&gt; and fix those errors in the script itself.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Running
-    &lt;ol&gt;
-      &lt;li&gt;Run the script by copying the data from PROD to your testing environment.&lt;/li&gt;
-      &lt;li&gt;Fix your scripts if you find &lt;strong&gt;is_error: true&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;Once all is fixed, re-copy data from PROD to your testing environment and run again.&lt;/li&gt;
-      &lt;li&gt;You want to make sure everything works perfectly so that you won’t have to do much during the PROD run.&lt;/li&gt;
-      &lt;li&gt;Once you find all bugs are fixed, run the migration script in &lt;strong&gt;PROD&lt;/strong&gt;.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="database" /><summary type="html">If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.</summary></entry><entry><title type="html">My Core Beliefs from Feb 2023</title><link href="https://www.ankushchoubey.com/v1/my-core-beliefs/" rel="alternate" type="text/html" title="My Core Beliefs from Feb 2023" /><published>2023-02-26T00:00:00-06:00</published><updated>2023-02-12T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-core-beliefs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/my-core-beliefs/">&lt;p&gt;I choose my core-beliefs very carefully.&lt;/p&gt;
+<ol>
+  <li>Add these additional columns to your source table
+    <ol>
+      <li><strong>is_migrated</strong>: default false</li>
+      <li><strong>migrated_date</strong></li>
+      <li><strong>is_error</strong></li>
+      <li><strong>error_description</strong></li>
+    </ol>
+  </li>
+  <li>Create a DB migration script which
+    <ol>
+      <li>Copies a batch of data from one table in source DB to one table in dB.</li>
+      <li>The batch size could be 1000. You don’t want the batch size to be too small because it could be slow. You don’t want it too high to be able to recover better.</li>
+      <li>Whenever a batch is a complete update the is_migrated and migrated_date in the source DB. Then pick up the next batch where is_migrated is false.</li>
+      <li>If there is an error, set <strong>is_error</strong> to_ true _and add <strong>error_description</strong>.</li>
+      <li>The <strong>error_description</strong> could be an exception that is thrown.</li>
+      <li>Once the script is done, check for <strong>is_error: true</strong> and fix those errors in the script itself.</li>
+    </ol>
+  </li>
+  <li>Running
+    <ol>
+      <li>Run the script by copying the data from PROD to your testing environment.</li>
+      <li>Fix your scripts if you find <strong>is_error: true</strong></li>
+      <li>Once all is fixed, re-copy data from PROD to your testing environment and run again.</li>
+      <li>You want to make sure everything works perfectly so that you won’t have to do much during the PROD run.</li>
+      <li>Once you find all bugs are fixed, run the migration script in <strong>PROD</strong>.</li>
+    </ol>
+  </li>
+</ol>]]></content><author><name></name></author><category term="database" /><summary type="html"><![CDATA[If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.]]></summary></entry><entry><title type="html">My Core Beliefs from Feb 2023</title><link href="https://www.ankushchoubey.com/v1/my-core-beliefs/" rel="alternate" type="text/html" title="My Core Beliefs from Feb 2023" /><published>2023-02-26T00:00:00-06:00</published><updated>2023-02-12T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-core-beliefs</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/my-core-beliefs/"><![CDATA[<p>I choose my core-beliefs very carefully.</p>
 
-&lt;h1 id=&quot;i-dont-and-wont-do-things-that-i-want&quot;&gt;I don’t and won’t do things that I want.&lt;/h1&gt;
+<h1 id="i-dont-and-wont-do-things-that-i-want">I don’t and won’t do things that I want.</h1>
 
-&lt;p&gt;I will do and do do things that I need or things that need to be done.&lt;/p&gt;
+<p>I will do and do do things that I need or things that need to be done.</p>
 
-&lt;p&gt;Both are a form of responsibility. Need being respo to self. Need to be done means respo to others. Because my wants can always be something that’s not good for me. But my needs are always good for me because they are essential.&lt;/p&gt;
+<p>Both are a form of responsibility. Need being respo to self. Need to be done means respo to others. Because my wants can always be something that’s not good for me. But my needs are always good for me because they are essential.</p>
 
-&lt;h1 id=&quot;i-wont-lie-i-wont-utter-a-word-that-i-know-is-a-lie&quot;&gt;I won’t lie. I won’t utter a word that I know is a lie.&lt;/h1&gt;
+<h1 id="i-wont-lie-i-wont-utter-a-word-that-i-know-is-a-lie">I won’t lie. I won’t utter a word that I know is a lie.</h1>
 
-&lt;p&gt;And I won’t manipulate to get what I want. But I can state it simply.&lt;/p&gt;
+<p>And I won’t manipulate to get what I want. But I can state it simply.</p>
 
-&lt;p&gt;Because I don’t know what the truth is. But atleast when I’m speaking I’ll stop and reformularw when i’m about to utter a lie so that i’ll be as truthful as possible.&lt;/p&gt;
+<p>Because I don’t know what the truth is. But atleast when I’m speaking I’ll stop and reformularw when i’m about to utter a lie so that i’ll be as truthful as possible.</p>
 
-&lt;p&gt;On the same line. I won’t ever manipulate or lie to get what I want. But I’ll state them clearly as I can. And see if I can hget it. If I do get it via an ethical parh good. Or else I’ll try another day.&lt;/p&gt;
+<p>On the same line. I won’t ever manipulate or lie to get what I want. But I’ll state them clearly as I can. And see if I can hget it. If I do get it via an ethical parh good. Or else I’ll try another day.</p>
 
-&lt;h1 id=&quot;i-dont-attack-the-person-i-attack-the-action&quot;&gt;I don’t attack the person. I attack the action.&lt;/h1&gt;
+<h1 id="i-dont-attack-the-person-i-attack-the-action">I don’t attack the person. I attack the action.</h1>
 
-&lt;p&gt;I want toxicity and/or problem to end. It doesn’t help to attack the person because person gets defensive.&lt;/p&gt;
+<p>I want toxicity and/or problem to end. It doesn’t help to attack the person because person gets defensive.</p>
 
-&lt;p&gt;I need a better way to explain this. I can say I want toxicity to end or problem to end. But I need something more definitive.&lt;/p&gt;
+<p>I need a better way to explain this. I can say I want toxicity to end or problem to end. But I need something more definitive.</p>
 
-&lt;h1 id=&quot;there-are-no-shortcuts-there-are-no-hacks&quot;&gt;There are no shortcuts. There are no hacks.&lt;/h1&gt;
+<h1 id="there-are-no-shortcuts-there-are-no-hacks">There are no shortcuts. There are no hacks.</h1>
 
-&lt;p&gt;Shortcut is a lie. The hack does not get you anywhere.
+<p>Shortcut is a lie. The hack does not get you anywhere.
 I am not afraid to voice my opinion where it’s needed and necessary.
-I am speak the truth. And I understand there are no shortcuts. And no hacks!&lt;/p&gt;
+I am speak the truth. And I understand there are no shortcuts. And no hacks!</p>
 
-&lt;h1 id=&quot;i-dont-revolve-my-life-around-women&quot;&gt;I don’t revolve my life around women.&lt;/h1&gt;
-&lt;p&gt;As a man, it’s tempting. And sometimes I feel insecure FOMO. But there are more important things to do in my life. I have responsibilities and I need to fulfil them!&lt;/p&gt;
+<h1 id="i-dont-revolve-my-life-around-women">I don’t revolve my life around women.</h1>
+<p>As a man, it’s tempting. And sometimes I feel insecure FOMO. But there are more important things to do in my life. I have responsibilities and I need to fulfil them!</p>
 
-&lt;p&gt;Plus, it’s not like it helps. Having someone that you trust solves that area only. Not other areas! And if I try to burden someone, it’s not god for them, it’s not good for me. I do my part. And them do theres.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><category term="non-professional" /><category term="matured" /><summary type="html">I choose my core-beliefs very carefully.</summary></entry><entry><title type="html">My Core Values Summary from Feb 2023</title><link href="https://www.ankushchoubey.com/v3/my-core-values/" rel="alternate" type="text/html" title="My Core Values Summary from Feb 2023" /><published>2023-02-12T00:00:00-06:00</published><updated>2023-02-12T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v3/v3-core-values-summary</id><content type="html" xml:base="https://www.ankushchoubey.com/v3/my-core-values/">&lt;p&gt;I have 7 core values and these help me live authentically, get the most out of life and be a peaceful cheerful and charming person in the process.&lt;/p&gt;
+<p>Plus, it’s not like it helps. Having someone that you trust solves that area only. Not other areas! And if I try to burden someone, it’s not god for them, it’s not good for me. I do my part. And them do theres.</p>]]></content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><category term="non-technical" /><category term="matured" /><summary type="html"><![CDATA[The fundamental operating system]]></summary></entry><entry><title type="html">My Core Values Summary from Feb 2023</title><link href="https://www.ankushchoubey.com/v3/my-core-values/" rel="alternate" type="text/html" title="My Core Values Summary from Feb 2023" /><published>2023-02-12T00:00:00-06:00</published><updated>2023-02-12T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v3/v3-core-values-summary</id><content type="html" xml:base="https://www.ankushchoubey.com/v3/my-core-values/"><![CDATA[<p>I have 7 core values and these help me live authentically, get the most out of life and be a peaceful cheerful and charming person in the process.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;The core of my core values in &lt;strong&gt;Clarity&lt;/strong&gt;. Clarity refers to clarity of thought. I aim to have clear thinking in every moments. Towards this aim, I adopt habits and patterns that help such as being truthful, developing observability via Data Collection and Meditation and seeking truth by understanding biases, fallacies and loaded language. My core values also help me with clarity and setting a proper realistic vision for myself. Overall, clarity is about truth and a proper vision.&lt;/p&gt;
+<p>The core of my core values in <strong>Clarity</strong>. Clarity refers to clarity of thought. I aim to have clear thinking in every moments. Towards this aim, I adopt habits and patterns that help such as being truthful, developing observability via Data Collection and Meditation and seeking truth by understanding biases, fallacies and loaded language. My core values also help me with clarity and setting a proper realistic vision for myself. Overall, clarity is about truth and a proper vision.</p>
 
-&lt;p&gt;My second core value is &lt;strong&gt;Responsibility&lt;/strong&gt;. Responsibility helps me be stronger instead of weaker. I believe weakness leads to problems and this includes any and all times of weakness. Responsibility like clarity is a continuous process. We choose to act strongly in face of difficulty is a plus plus towards responsibility. We should start with taking responsibility of ourself completely (which includes taking care of our physical/mental heath/ our finances) and then responsibility of things around us (empowering others, helping family, the baton), in this order. We often act in ways that make us move towards a downward path. But we always have the choice.&lt;/p&gt;
+<p>My second core value is <strong>Responsibility</strong>. Responsibility helps me be stronger instead of weaker. I believe weakness leads to problems and this includes any and all times of weakness. Responsibility like clarity is a continuous process. We choose to act strongly in face of difficulty is a plus plus towards responsibility. We should start with taking responsibility of ourself completely (which includes taking care of our physical/mental heath/ our finances) and then responsibility of things around us (empowering others, helping family, the baton), in this order. We often act in ways that make us move towards a downward path. But we always have the choice.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Clarity and Responsibility are my fundamental values. These values form the basis of the next 3 values that are very implementation focused and can be easily measured. The last 2 values, fulfill the larger purpose and the missing peace of living a great life.&lt;/p&gt;
+<p>Clarity and Responsibility are my fundamental values. These values form the basis of the next 3 values that are very implementation focused and can be easily measured. The last 2 values, fulfill the larger purpose and the missing peace of living a great life.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;My third value is &lt;strong&gt;Inputs&lt;/strong&gt;. Inputs refer to optimizing all the inputs we face in day to day life, the things that capture our attention. We often act in ways that make us move towards a downward path. A lot of times this is because we get inputs from our environment that push us. In the modern world, we have a lot of abundance. This abundance brings us problems because they try to replace many natural things. Social media trying to replace social life makes us feel lonely. Processed food makes us unhealthy. Porn makes us depressed, lonely and hedonistic. News makes us think what “recent” and whats “someone’s opinion” is more important than “tried-and-true“ and what’s “fact“. We keep using our willpower against these modern inputs, we need strong boundaries. Doing so would eliminate things that makes us worse and as a result we get a little stronger. To become even stronger, we can incorporate ancient weapons: fasting, meditation and exercise, all of which are aimed to voluntarily experience short term pain but have maximal long term benefits.&lt;/p&gt;
+<p>My third value is <strong>Inputs</strong>. Inputs refer to optimizing all the inputs we face in day to day life, the things that capture our attention. We often act in ways that make us move towards a downward path. A lot of times this is because we get inputs from our environment that push us. In the modern world, we have a lot of abundance. This abundance brings us problems because they try to replace many natural things. Social media trying to replace social life makes us feel lonely. Processed food makes us unhealthy. Porn makes us depressed, lonely and hedonistic. News makes us think what “recent” and whats “someone’s opinion” is more important than “tried-and-true“ and what’s “fact“. We keep using our willpower against these modern inputs, we need strong boundaries. Doing so would eliminate things that makes us worse and as a result we get a little stronger. To become even stronger, we can incorporate ancient weapons: fasting, meditation and exercise, all of which are aimed to voluntarily experience short term pain but have maximal long term benefits.</p>
 
-&lt;p&gt;Now that we have eliminated stupid things and added good things, we can move towards automation and goal achievement via &lt;strong&gt;Systems&lt;/strong&gt;. The core value 4. Systems accelerate progress towards our goals. By being methodical, we can achieve anything with much more clarity and ease. By creating habits, routines, taking on training (and sometimes retraining), semi-automated systems (like kanban) and automated systems of the modern world, we optimize what’s left from inputs and makes sure everything runs smoothly. This provides logarithmic big O in terms of effort put in compared to exponential positive results.&lt;/p&gt;
+<p>Now that we have eliminated stupid things and added good things, we can move towards automation and goal achievement via <strong>Systems</strong>. The core value 4. Systems accelerate progress towards our goals. By being methodical, we can achieve anything with much more clarity and ease. By creating habits, routines, taking on training (and sometimes retraining), semi-automated systems (like kanban) and automated systems of the modern world, we optimize what’s left from inputs and makes sure everything runs smoothly. This provides logarithmic big O in terms of effort put in compared to exponential positive results.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;My fifth core value is &lt;strong&gt;Time&lt;/strong&gt;. Time and attention are our non-renewable resources. Clarity, inputs and systems regain our attention. Our attention saves us time and we need time because we have a finite life. Our lives are average 80 years. The way we can make the most of this life is by spending it properly on the things that make the most impact and not wasting it. By being mindful about our mortality, we get clarity, we remove things that aren’t useful and we optimize and nurture things that are important to us. At the same time, we can also increase our time, taking steps towards our longevity. Time allows us to do more of what we want to do.&lt;/p&gt;
+<p>My fifth core value is <strong>Time</strong>. Time and attention are our non-renewable resources. Clarity, inputs and systems regain our attention. Our attention saves us time and we need time because we have a finite life. Our lives are average 80 years. The way we can make the most of this life is by spending it properly on the things that make the most impact and not wasting it. By being mindful about our mortality, we get clarity, we remove things that aren’t useful and we optimize and nurture things that are important to us. At the same time, we can also increase our time, taking steps towards our longevity. Time allows us to do more of what we want to do.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;With all the above, we achieve a greater level of peace. And now, we aim to accelerate that peace further with last two core values: team and adventure.&lt;/p&gt;
+<p>With all the above, we achieve a greater level of peace. And now, we aim to accelerate that peace further with last two core values: team and adventure.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;The 6th core value is &lt;strong&gt;Team&lt;/strong&gt;. “Team” is about understanding the dynamics between yourself and people around you. This dynamic is sometimes a dichotomy. You want to help others yet not so much that they keep relying on you. You want to do things yourself yet you something should rely on others. “Team” makes us let of over reliance on ourselves and trust the knowledge of instincts of others. (Though we should always verify. #dichotomy). A large part of life would be with people. We are social animals to the core and we love to live in tribes. And we love to “Love” too. Being around people make us happy, people make us (or demand from us) the best version of ourself and in-turn this leads to best version of themselves. If you didn’t get any of what was written here, start here relationships with people around you make you more cheerful  happy person. #Win-Win&lt;/p&gt;
+<p>The 6th core value is <strong>Team</strong>. “Team” is about understanding the dynamics between yourself and people around you. This dynamic is sometimes a dichotomy. You want to help others yet not so much that they keep relying on you. You want to do things yourself yet you something should rely on others. “Team” makes us let of over reliance on ourselves and trust the knowledge of instincts of others. (Though we should always verify. #dichotomy). A large part of life would be with people. We are social animals to the core and we love to live in tribes. And we love to “Love” too. Being around people make us happy, people make us (or demand from us) the best version of ourself and in-turn this leads to best version of themselves. If you didn’t get any of what was written here, start here relationships with people around you make you more cheerful  happy person. #Win-Win</p>
 
-&lt;p&gt;The last core value is &lt;strong&gt;Adventure&lt;/strong&gt;. Adventure is about the heroes journey. We get excited by video games, by movies and by books. We love listening to stories (especially real life ones) where people who faced challenges were able to overcome it. That’s adventure. Adventure gives us calling to something that is bigger than we are. And ideally, if one has clarity, takes care of responsibility, is focused, organized, fast and has a team, that’s perfect addition to well formed adventure cuz all of them are tools and weapons in terms of facing the BOSS. The unknown. Our adventure starts when we decide to face the dragon of unknown. And this leads us to courage. So, if you are facing a problem that seems large or you are seeing something that frightened you, take your weapons, do you pushups, face that monster with all the knowledge under your belt. Only you can do it! So be your hero!&lt;/p&gt;
+<p>The last core value is <strong>Adventure</strong>. Adventure is about the heroes journey. We get excited by video games, by movies and by books. We love listening to stories (especially real life ones) where people who faced challenges were able to overcome it. That’s adventure. Adventure gives us calling to something that is bigger than we are. And ideally, if one has clarity, takes care of responsibility, is focused, organized, fast and has a team, that’s perfect addition to well formed adventure cuz all of them are tools and weapons in terms of facing the BOSS. The unknown. Our adventure starts when we decide to face the dragon of unknown. And this leads us to courage. So, if you are facing a problem that seems large or you are seeing something that frightened you, take your weapons, do you pushups, face that monster with all the knowledge under your belt. Only you can do it! So be your hero!</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;My first 2 core values give me the right direction. The next 3 values accelerate the progress towards them. And the final 2, bring the greatest the world has to offer. Overall, these 7 makes me healthier, wealthier, wiser and the best version of myself for the world and therefore they are best bet is very situations.&lt;/p&gt;</content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><category term="non-professional" /><category term="matured" /><summary type="html">I have 7 core values and these help me live authentically, get the most out of life and be a peaceful cheerful and charming person in the process.</summary></entry></feed>
+<p>My first 2 core values give me the right direction. The next 3 values accelerate the progress towards them. And the final 2, bring the greatest the world has to offer. Overall, these 7 makes me healthier, wealthier, wiser and the best version of myself for the world and therefore they are best bet is very situations.</p>]]></content><author><name></name></author><category term="philosophical" /><category term="for-future-me" /><category term="decision-making" /><category term="non-technical" /><category term="matured" /><summary type="html"><![CDATA[The fundamental operating system]]></summary></entry></feed>

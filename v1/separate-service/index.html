@@ -1,97 +1,168 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-<!-- <script>
-  for (const iterator of document.getElementsByClassName('page-link')) {
-      if (iterator.innerHTML === 'Search'){ iterator.classList.add('search-button'); iterator.title = 'Search';}
-      if (iterator.innerHTML === 'Tags'){ iterator.classList.add('tags-button'); iterator.title = 'Tags';}
-      if (iterator.innerHTML === 'Side Projects'){ iterator.classList.add('side-project-button'); iterator.title = 'Side Projects';}
-  }
-</script> --><html><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script type="text/javascript" src="/assets/accordian.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>One service should serve multiple mediums (REST, Kafka, gRPC, etc) | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="One service should serve multiple mediums (REST, Kafka, gRPC, etc)">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Your main business logic resides in your service. All other things are connectors">
+<meta property="og:description" content="Your main business logic resides in your service. All other things are connectors">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/separate-service/">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/separate-service/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-03-10T00:00:00-06:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740">
+<meta property="twitter:title" content="One service should serve multiple mediums (REST, Kafka, gRPC, etc)">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-10T14:52:08-06:00","datePublished":"2023-03-10T00:00:00-06:00","description":"Your main business logic resides in your service. All other things are connectors","headline":"One service should serve multiple mediums (REST, Kafka, gRPC, etc)","image":"https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/separate-service/"},"url":"https://www.ankushchoubey.com/v1/separate-service/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>One service should serve multiple mediums (REST, Kafka, gRPC, etc) | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="One service should serve multiple mediums (REST, Kafka, gRPC, etc)">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Your main business logic resides in your service. All other things are connectors">
+<meta property="og:description" content="Your main business logic resides in your service. All other things are connectors">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/separate-service/">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/separate-service/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-03-10T00:00:00-06:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740">
+<meta property="twitter:title" content="One service should serve multiple mediums (REST, Kafka, gRPC, etc)">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-10T14:52:08-06:00","datePublished":"2023-03-10T00:00:00-06:00","description":"Your main business logic resides in your service. All other things are connectors","headline":"One service should serve multiple mediums (REST, Kafka, gRPC, etc)","image":"https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/separate-service/"},"url":"https://www.ankushchoubey.com/v1/separate-service/"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body>
+<header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/">Ankush Choubey</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/philosophy/">Philosophy</a><a class="page-link" href="/resources/">Resources</a><a class="page-link" href="/resume">Hire me!</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/summaries/">Summaries</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">One service should serve multiple mediums (REST, Kafka, gRPC, etc)</h1>
-
-    <p class="page-description">Your main business logic resides in your service. All other things are connectors</p>
-<p class="post-meta post-meta-title"><time class="dt-published post-meta-created-date" datetime="2023-03-10T00:00:00-06:00" itemprop="datePublished">
-        Written: Mar 10, 2023
-      </time>~<time class="dt-modified post-meta-last-modified-date" datetime="2023-03-10T14:52:08-06:00" itemprop="dateModified">
-          Updated: Mar 10, 2023
-        </time>
+<p class="page-description">Your main business logic resides in your service. All other things are connectors</p>
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-10T00:00:00-06:00" itemprop="datePublished">
+        Mar 10, 2023
+      </time>
        • <span class="read-time" title="Estimated read time">
     
     
       1 min read
     
-</span></p>    <style>
-        .post-tool-bar{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 0px 10px 0px;
-            /* border: 1px solid #e8e8e8; */
-            border-width: 0px 0px 1px 0px;
-        }
-        .left-section , .right-section{
-            display: flex;
-            gap: 8px;
-        }
+</span></p>
 
-    </style>
     
-    <div class="post-tool-bar">
-<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-        AOS.init();
-</script> -->
-
-<div class="tag-list">
-    
-    <a class="tag fa fa-hashtag web-development" href="/categories/#web-development">web-development</a>
-    
-    <a class="tag fa fa-hashtag ddd" href="/categories/#ddd">ddd</a>
-    
-    <a class="tag fa fa-hashtag clean-code" href="/categories/#clean-code">clean-code</a>
-    
-</div>
-<div class="right-section">
-<a id="translate-btn" href="https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=https%3A%2F%2Fwww.ankushchoubey.com%2F">
-    <img src="/images/icons/translate.svg" alt="Translate" style="width:35px">
-</a>
-
-
-<script>
-    a = document.getElementById('translate-btn');
-    a.setAttribute("href", "https://www.translatetheweb.com/?ref=TAns&from=&to=hi&a=" + window.location.href);
-</script><a id="speech-btn">
-    <img src="/images/icons/ear.svg" alt="listen" style="width:35px; cursor: pointer;">
-</a>
-
-<script>
-    speakPost = () => {
-        var msg = new SpeechSynthesisUtterance();
-        const title = document.querySelector("h1.post-title.p-name").innerText;
-        const post = document.querySelector("div.post-content.e-content").innerText
-        msg.text = title + '.' + post;
-        window.speechSynthesis.speak(msg);
-    }
-    if ('speechSynthesis' in window) {
-        document.getElementById("speech-btn").addEventListener("click", speakPost);
-    } else {
-        document.getElementById('speech-btn').style.display = 'none';
-    }
-</script>
-
-<!-- https://www.alebalweb-blog.com/85-text-to-speech-player-with-buttons-play-pause-stop-and-voice-choice.html -->
-</div>
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
       
-          
-    </div>
+        <a class="category-tags-link" href="/categories/#web-development">web-development</a>
+         
+      
+        <a class="category-tags-link" href="/categories/#ddd">ddd</a>
+         
+      
+        <a class="category-tags-link" href="/categories/#clean-code">clean-code</a>
+        
+      
+      </p>
     
-</header>
+
+    </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     <p>In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.</p>
@@ -119,55 +190,20 @@
 <p>For the service method, REST API connector is a downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever is it’s format.</p>
 
   </div>
-  <!-- https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html -->
-
-<div class="PageNavigation">
-    
-      <a class="prev" href="/crash-course/econ/2">« Specialization and Trade - Crash Course Economics - 2</a>
-    
-    
-      <a class="next" href="/crash-course/econ/3">Economic Systems and Macroeconomics - Crash Course Economics - 3 »</a>
-    
-  </div>
-
-<style>
-    .PageNavigation {
-  font-size: 14px;
-  display: block;
-  width: auto;
-  overflow: hidden;
-}
-
-.PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
-}
-
-.PageNavigation .next {
-  text-align: right;
-}
-</style>
 <!-- from https://github.com/utterance/utterances -->
-<!-- <script src="https://utteranc.es/client.js"
-        repo="ankschoubey/blog"
-        issue-term="title"
-        label="blogpost-comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script> -->
-
-  <div id="disqus_thread"></div>
+<script src="https://utteranc.es/client.js" repo="ankschoubey/blog" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
+</script><div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
       this.page.url = 'https://www.ankushchoubey.com/v1/separate-service/';
       this.page.identifier = 'https://www.ankushchoubey.com/v1/separate-service/';
     };
+
     (function() {
       var d = document, s = d.createElement('script');
+
       s.src = 'https://ankushchoubey.disqus.com/embed.js';
+
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
@@ -176,4 +212,50 @@
 </noscript>
 <a class="u-url" href="/v1/separate-service/" hidden></a>
 </article>
-</head></html>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://www.ankushchoubey.com/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Full Stack Developer - Cloud/Microservices</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list">
+<li>
+  <a rel="me" href="https://github.com/ankschoubey" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://twitter.com/ankschoubey" target="_blank" title="twitter">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#twitter"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
