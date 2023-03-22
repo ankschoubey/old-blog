@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T11:04:30-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">What separates BDD from TDD, VDIs, etc.</title><link href="https://www.ankushchoubey.com/v1/bdd-vs-tdd" rel="alternate" type="text/html" title="What separates BDD from TDD, VDIs, etc." /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-what-should-go-into-bdd</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/bdd-vs-tdd"><![CDATA[<p>We are often confused about what constitutes BDD.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T11:14:05-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">What separates BDD from TDD, VDIs, etc.</title><link href="https://www.ankushchoubey.com/v1/bdd-vs-tdd" rel="alternate" type="text/html" title="What separates BDD from TDD, VDIs, etc." /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-what-should-go-into-bdd</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/bdd-vs-tdd"><![CDATA[<p>We are often confused about what constitutes BDD.</p>
 
 <p>This makes us add un-necessarily details to BDD spec file.</p>
 
@@ -13,6 +13,8 @@
 </blockquote>
 
 <p>If yes, find the best way to implement and represent those behaviours. This means UI design in wireframes and UI functionality covered by UI TDD and backend implementation covered by BackendTDD are not relevant here.</p>
+
+<p>Therefore, <strong>BDD drives your UI/UX and TDD</strong>.</p>
 
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vRONWHyF6MDLxwYnnUeZHvg9jPjWjKoxTOfaJdu_roqlYPvS2LA3FLhGp-h2xM2iUAF3I76yylz4pFd/pub?w=1232&amp;h=875" alt="" /></p>
 
