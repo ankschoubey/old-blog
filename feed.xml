@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T01:51:21-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Implementing an OAuth Server Manually</title><link href="https://www.ankushchoubey.com/v1/implementing-oauth" rel="alternate" type="text/html" title="Implementing an OAuth Server Manually" /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-implementing-oauth-server</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/implementing-oauth"><![CDATA[<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T01:59:06-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Implementing an OAuth Server Manually</title><link href="https://www.ankushchoubey.com/v1/implementing-oauth" rel="alternate" type="text/html" title="Implementing an OAuth Server Manually" /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-implementing-oauth-server</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/implementing-oauth"><![CDATA[<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
 
 <p>When you read a question, you can search for it yourself. I have provided all the resources that I used along the way below too.</p>
 
@@ -218,7 +218,7 @@
 
 <p><a href="https://pytorch.org/">Pytorch</a></p>
 
-<p>[Tensorflow](https://www.tensorflow.org/ “)</p>
+<p><a href="https://www.tensorflow.org/">Tensorflow</a></p>
 
 <p>Spring Boot</p>
 
