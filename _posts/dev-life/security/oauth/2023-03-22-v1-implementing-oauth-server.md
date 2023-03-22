@@ -8,6 +8,7 @@ last-modified-purpose:
 permalink: /v1/implementing-oauth
 title: Implementing an OAuth Server Manually
 toc: true
+image: /images/implementing-oauth.png
 ---
 
 This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.
@@ -26,7 +27,7 @@ OAuth is not login. OAuth expects the user is logged in and has allowed the acce
 
 You may have seen screen pages like these where you allow one application to access data from your Google account. This is done via OAuth.
 
-![image.png](https://trello.com/1/cards/641a934e7bf5374c12d084d9/attachments/641a941e253d190f586013b0/download/image.png)
+![image.png](/images/implementing-oauth.png)
 
 The above image is from redirecting to "authorize“ url.
 
@@ -81,7 +82,7 @@ To implement it, I started reading up on Google, but I found it very challenging
       3. How to I validate a JWT Token?
       4. What is RSA algorithm?
          1. I further jumped into learning about RSA via YouTube.
-         2. Here’s my post on RSA: [https://www.ankushchoubey.com/v1/rsa](https://www.ankushchoubey.com/v1/rsa "smartCard-inline")
+         2. Here’s my post on RSA: [RSA Algorithm](https://www.ankushchoubey.com/v1/rsa)
       5. What’s JWK?
       6. What’s the difference between JWE and JWS?
       7. How to define different scopes?
@@ -129,14 +130,13 @@ For generating JWTs I had to learn what `PEM` file is.
 
 I also had to create a public `JWK endpoint` which my api gateway would access to validate the token. `JWK` is a standard way of sharing public keys for JWT token.
 
-‌
 
 I also added a record for scopes. Which was something like
 
 - `scope` → unique name of the scope
 - `description` → unique description of the scope used to show user what to do in the permissions page.
 
-Here’s my post on how I choose to define scopes: [https://www.ankushchoubey.com/v1/oauth-scopes](https://www.ankushchoubey.com/v1/oauth-scopes "smartCard-inline")
+Here’s my post on how I choose to define scopes: [Defining Scopes for your OAuth Service](https://www.ankushchoubey.com/v1/oauth-scopes)
 
 # Nuances
 
@@ -168,18 +168,20 @@ Implementing OAuth helped me understand and get better at computer security. And
 
 ## Resources
 
-[https://www.youtube.com/watch?v=t18YB3xDfXI](https://www.youtube.com/watch?v=t18YB3xDfXI "smartCard-inline")
+Jump around these
 
-[https://www.youtube.com/watch?v=996OiexHze0](https://www.youtube.com/watch?v=996OiexHze0 "smartCard-inline")
+[An Illustrated Guide to OAuth and OpenID Connect](https://www.youtube.com/watch?v=t18YB3xDfXI)
 
-[https://www.youtube.com/playlist?list=PL1Nml43UBm6dOj4UuH-7a9e3wO6eL2SCi](https://www.youtube.com/playlist?list=PL1Nml43UBm6dOj4UuH-7a9e3wO6eL2SCi "smartCard-inline")
+[OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0)
+
+[OAuth 2.0 tutorial Playlist ](https://www.youtube.com/playlist?list=PL1Nml43UBm6dOj4UuH-7a9e3wO6eL2SCi)
 
 ChatGPT
 
-[https://www.rfc-editor.org/rfc/rfc6749](https://www.rfc-editor.org/rfc/rfc6749 "smartCard-inline")
+[Main Spec: The OAuth 2.0 Authorization Framework](https://www.rfc-editor.org/rfc/rfc6749)
 
 ### My Blogposts
 
-[https://www.ankushchoubey.com/v1/oauth-scopes](https://www.ankushchoubey.com/v1/oauth-scopes "smartCard-inline")
+[Defining Scopes for your OAuth Service](https://www.ankushchoubey.com/v1/oauth-scopes)
 
-[https://www.ankushchoubey.com/v1/rsa](https://www.ankushchoubey.com/v1/rsa "smartCard-inline")
+[RSA Algorithm](https://www.ankushchoubey.com/v1/rsa)
