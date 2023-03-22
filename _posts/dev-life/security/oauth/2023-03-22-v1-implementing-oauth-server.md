@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description: 
+description: Implementing OAuth server is easier than it looks and it saves money in the long run.
 categories: [security, oauth]
 last_modified_at: 2023-03-22T20:52:08.052481
 last-modified-purpose: 
