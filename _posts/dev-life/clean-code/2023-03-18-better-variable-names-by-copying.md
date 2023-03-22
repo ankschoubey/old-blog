@@ -37,7 +37,7 @@ If you are writing a custom library or working in a language that doesn’t have
 
 [Pytorch](https://pytorch.org/)
 
-[Tensorflow](https://www.tensorflow.org/ ")
+[Tensorflow](https://www.tensorflow.org/)
 
 Spring Boot
 
