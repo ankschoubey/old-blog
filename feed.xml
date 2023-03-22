@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T01:39:45-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">You are really doing BDD when</title><link href="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when" rel="alternate" type="text/html" title="You are really doing BDD when" /><published>2023-03-23T00:00:00-05:00</published><updated>2023-03-23T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-you-are-following-good-bdd-when</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when"><![CDATA[<p>You are really doing BDD if you answer yes to these questions:</p>
-
-<ul>
-  <li>BDD specifications drive the design of VDIs, prioritization and development.
-    <ul>
-      <li>Specs first VDIs later.</li>
-      <li>Specs first Development later.</li>
-    </ul>
-  </li>
-  <li>Any new decision made about the product functionality leads to an updated spec file.
-    <ul>
-      <li>Therefore the spec file is an integral part of every meeting.</li>
-    </ul>
-  </li>
-  <li>
-    <p>Any dispute or confusion about what was decided is resolved by reviewing the spec file.</p>
-  </li>
-  <li>
-    <p>You remember the specification files because you have read, modified and used them so much.</p>
-  </li>
-  <li>
-    <p>Everyone involved in the product life cycle (including non-technical people) knows what BDD is and has access to spec file.</p>
-  </li>
-  <li>When any new person who wants to understand the product is given the BDD file to understand it.</li>
-</ul>]]></content><author><name></name></author><category term="bdd" /><summary type="html"><![CDATA[You are really doing BDD if you answer yes to these questions:]]></summary></entry><entry><title type="html">Implementing an OAuth Server Manually</title><link href="https://www.ankushchoubey.com/v1/implementing-oauth" rel="alternate" type="text/html" title="Implementing an OAuth Server Manually" /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-implementing-oauth-server</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/implementing-oauth"><![CDATA[<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T01:41:52-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Implementing an OAuth Server Manually</title><link href="https://www.ankushchoubey.com/v1/implementing-oauth" rel="alternate" type="text/html" title="Implementing an OAuth Server Manually" /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-implementing-oauth-server</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/implementing-oauth"><![CDATA[<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
 
 <p>When you read a question, you can search for it yourself. I have provided all the resources that I used along the way below too.</p>
 
@@ -294,7 +270,31 @@
 
 <p>Because truth passes through without hurting us.</p>
 
-<p>Truth passes through can be imagined and us just standing and truth passing across us. If we are lying, we engage against truth, and it hurts us. If we don’t engage against the truth and let is pass, it doesn’t hurt us.</p>]]></content><author><name></name></author><category term="non-technical" /><category term="truth" /><category term="mature" /><summary type="html"><![CDATA[Why we should use the vocabulary 'stating'. And how can we state the truth.]]></summary></entry><entry><title type="html">Economic Systems and Macroeconomics - Crash Course Economics - 3</title><link href="https://www.ankushchoubey.com/crash-course/econ/3" rel="alternate" type="text/html" title="Economic Systems and Macroeconomics - Crash Course Economics - 3" /><published>2023-03-11T00:00:00-06:00</published><updated>2023-03-11T14:42:15-06:00</updated><id>https://www.ankushchoubey.com/crash-course/econ/crash-course-econ-3</id><content type="html" xml:base="https://www.ankushchoubey.com/crash-course/econ/3"><![CDATA[<p><img src="https://www.youtube.com/watch?v=B43YEW2FvDs" alt="" /></p>
+<p>Truth passes through can be imagined and us just standing and truth passing across us. If we are lying, we engage against truth, and it hurts us. If we don’t engage against the truth and let is pass, it doesn’t hurt us.</p>]]></content><author><name></name></author><category term="non-technical" /><category term="truth" /><category term="mature" /><summary type="html"><![CDATA[Why we should use the vocabulary 'stating'. And how can we state the truth.]]></summary></entry><entry><title type="html">You are really doing BDD when</title><link href="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when" rel="alternate" type="text/html" title="You are really doing BDD when" /><published>2023-03-11T00:00:00-06:00</published><updated>2023-03-11T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-you-are-following-good-bdd-when</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when"><![CDATA[<p>You are really doing BDD if you answer yes to these questions:</p>
+
+<ul>
+  <li>BDD specifications drive the design of VDIs, prioritization and development.
+    <ul>
+      <li>Specs first VDIs later.</li>
+      <li>Specs first Development later.</li>
+    </ul>
+  </li>
+  <li>Any new decision made about the product functionality leads to an updated spec file.
+    <ul>
+      <li>Therefore the spec file is an integral part of every meeting.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Any dispute or confusion about what was decided is resolved by reviewing the spec file.</p>
+  </li>
+  <li>
+    <p>You remember the specification files because you have read, modified and used them so much.</p>
+  </li>
+  <li>
+    <p>Everyone involved in the product life cycle (including non-technical people) knows what BDD is and has access to spec file.</p>
+  </li>
+  <li>When any new person who wants to understand the product is given the BDD file to understand it.</li>
+</ul>]]></content><author><name></name></author><category term="bdd" /><summary type="html"><![CDATA[You are really doing BDD if you answer yes to these questions:]]></summary></entry><entry><title type="html">Economic Systems and Macroeconomics - Crash Course Economics - 3</title><link href="https://www.ankushchoubey.com/crash-course/econ/3" rel="alternate" type="text/html" title="Economic Systems and Macroeconomics - Crash Course Economics - 3" /><published>2023-03-11T00:00:00-06:00</published><updated>2023-03-11T14:42:15-06:00</updated><id>https://www.ankushchoubey.com/crash-course/econ/crash-course-econ-3</id><content type="html" xml:base="https://www.ankushchoubey.com/crash-course/econ/3"><![CDATA[<p><img src="https://www.youtube.com/watch?v=B43YEW2FvDs" alt="" /></p>
 
 <p>Like rolling stones tell us, we can’t get all that we want. because there are limited resources so we have to make choices.
 ***</p>
