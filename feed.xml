@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T01:30:15-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">You are really doing BDD when</title><link href="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when" rel="alternate" type="text/html" title="You are really doing BDD when" /><published>2023-03-23T00:00:00-05:00</published><updated>2023-03-23T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-you-are-following-good-bdd-when</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when"><![CDATA[<p>You are really doing BDD if you answer yes to these questions:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T01:39:45-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">You are really doing BDD when</title><link href="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when" rel="alternate" type="text/html" title="You are really doing BDD when" /><published>2023-03-23T00:00:00-05:00</published><updated>2023-03-23T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-you-are-following-good-bdd-when</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when"><![CDATA[<p>You are really doing BDD if you answer yes to these questions:</p>
 
 <ul>
   <li>BDD specifications drive the design of VDIs, prioritization and development.
@@ -38,7 +38,7 @@
 
 <p>You may have seen screen pages like these where you allow one application to access data from your Google account. This is done via OAuth.</p>
 
-<p><img src="https://trello.com/1/cards/641a934e7bf5374c12d084d9/attachments/641a941e253d190f586013b0/download/image.png" alt="image.png" /></p>
+<p><img src="/images/implementing-oauth.png" alt="image.png" /></p>
 
 <p>The above image is from redirecting to “authorize“ url.</p>
 
@@ -101,7 +101,7 @@
           <li>What is RSA algorithm?
             <ol>
               <li>I further jumped into learning about RSA via YouTube.</li>
-              <li>Here’s my post on RSA: <a href="https://www.ankushchoubey.com/v1/rsa" title="smartCard-inline">https://www.ankushchoubey.com/v1/rsa</a></li>
+              <li>Here’s my post on RSA: <a href="https://www.ankushchoubey.com/v1/rsa">RSA Algorithm</a></li>
             </ol>
           </li>
           <li>What’s JWK?</li>
@@ -160,8 +160,6 @@
 
 <p>I also had to create a public <code class="language-plaintext highlighter-rouge">JWK endpoint</code> which my api gateway would access to validate the token. <code class="language-plaintext highlighter-rouge">JWK</code> is a standard way of sharing public keys for JWT token.</p>
 
-<p>‌</p>
-
 <p>I also added a record for scopes. Which was something like</p>
 
 <ul>
@@ -169,7 +167,7 @@
   <li><code class="language-plaintext highlighter-rouge">description</code> → unique description of the scope used to show user what to do in the permissions page.</li>
 </ul>
 
-<p>Here’s my post on how I choose to define scopes: <a href="https://www.ankushchoubey.com/v1/oauth-scopes" title="smartCard-inline">https://www.ankushchoubey.com/v1/oauth-scopes</a></p>
+<p>Here’s my post on how I choose to define scopes: <a href="https://www.ankushchoubey.com/v1/oauth-scopes">Defining Scopes for your OAuth Service</a></p>
 
 <h1 id="nuances">Nuances</h1>
 
@@ -200,21 +198,23 @@
 
 <h2 id="resources">Resources</h2>
 
-<p><a href="https://www.youtube.com/watch?v=t18YB3xDfXI" title="smartCard-inline">https://www.youtube.com/watch?v=t18YB3xDfXI</a></p>
+<p>Jump around these</p>
 
-<p><a href="https://www.youtube.com/watch?v=996OiexHze0" title="smartCard-inline">https://www.youtube.com/watch?v=996OiexHze0</a></p>
+<p><a href="https://www.youtube.com/watch?v=t18YB3xDfXI">An Illustrated Guide to OAuth and OpenID Connect</a></p>
 
-<p><a href="https://www.youtube.com/playlist?list=PL1Nml43UBm6dOj4UuH-7a9e3wO6eL2SCi" title="smartCard-inline">https://www.youtube.com/playlist?list=PL1Nml43UBm6dOj4UuH-7a9e3wO6eL2SCi</a></p>
+<p><a href="https://www.youtube.com/watch?v=996OiexHze0">OAuth 2.0 and OpenID Connect (in plain English)</a></p>
+
+<p><a href="https://www.youtube.com/playlist?list=PL1Nml43UBm6dOj4UuH-7a9e3wO6eL2SCi">OAuth 2.0 tutorial Playlist </a></p>
 
 <p>ChatGPT</p>
 
-<p><a href="https://www.rfc-editor.org/rfc/rfc6749" title="smartCard-inline">https://www.rfc-editor.org/rfc/rfc6749</a></p>
+<p><a href="https://www.rfc-editor.org/rfc/rfc6749">Main Spec: The OAuth 2.0 Authorization Framework</a></p>
 
 <h3 id="my-blogposts">My Blogposts</h3>
 
-<p><a href="https://www.ankushchoubey.com/v1/oauth-scopes" title="smartCard-inline">https://www.ankushchoubey.com/v1/oauth-scopes</a></p>
+<p><a href="https://www.ankushchoubey.com/v1/oauth-scopes">Defining Scopes for your OAuth Service</a></p>
 
-<p><a href="https://www.ankushchoubey.com/v1/rsa" title="smartCard-inline">https://www.ankushchoubey.com/v1/rsa</a></p>]]></content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html"><![CDATA[This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.]]></summary></entry><entry><title type="html">Stating the Truth When It Could Hurt</title><link href="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts" rel="alternate" type="text/html" title="Stating the Truth When It Could Hurt" /><published>2023-03-16T00:00:00-05:00</published><updated>2023-03-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-state-the-truth-even-when-its-hard</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts"><![CDATA[<p>I often talk about truth and telling the truth all time time.</p>
+<p><a href="https://www.ankushchoubey.com/v1/rsa">RSA Algorithm</a></p>]]></content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html"><![CDATA[This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/implementing-oauth.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/implementing-oauth.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stating the Truth When It Could Hurt</title><link href="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts" rel="alternate" type="text/html" title="Stating the Truth When It Could Hurt" /><published>2023-03-16T00:00:00-05:00</published><updated>2023-03-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-state-the-truth-even-when-its-hard</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts"><![CDATA[<p>I often talk about truth and telling the truth all time time.</p>
 
 <p>Many people agree with me that it’s a good thing to tell the truth.</p>
 
