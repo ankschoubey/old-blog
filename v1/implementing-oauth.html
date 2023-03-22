@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Implementing an OAuth Server Manually | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="Implementing an OAuth Server Manually">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.">
+<meta property="og:description" content="This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/implementing-oauth">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/implementing-oauth">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-03-22T00:00:00-05:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Implementing an OAuth Server Manually">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-22T15:52:08-05:00","datePublished":"2023-03-22T00:00:00-05:00","description":"This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.","headline":"Implementing an OAuth Server Manually","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/implementing-oauth"},"url":"https://www.ankushchoubey.com/v1/implementing-oauth"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Implementing an OAuth Server Manually | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="Implementing an OAuth Server Manually">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.">
+<meta property="og:description" content="This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/implementing-oauth">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/implementing-oauth">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-03-22T00:00:00-05:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Implementing an OAuth Server Manually">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-22T15:52:08-05:00","datePublished":"2023-03-22T00:00:00-05:00","description":"This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.","headline":"Implementing an OAuth Server Manually","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/implementing-oauth"},"url":"https://www.ankushchoubey.com/v1/implementing-oauth"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body>
+<header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/">Ankush Choubey</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/philosophy/">Philosophy</a><a class="page-link" href="/resources/">Resources</a><a class="page-link" href="/resume">Hire me!</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/summaries/">Summaries</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Implementing an OAuth Server Manually</h1>
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-22T00:00:00-05:00" itemprop="datePublished">
+        Mar 22, 2023
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
+      
+        <a class="category-tags-link" href="/categories/#security">security</a>
+         
+      
+        <a class="category-tags-link" href="/categories/#oauth">oauth</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#what-is-oauth-and-where-it-is-used">What is OAuth? And where it is used?</a></li>
+<li class="toc-entry toc-h1"><a href="#how-is-oauth-different-from-login-and-how-does-it-work">How is OAuth different from Login? And how does it work</a></li>
+<li class="toc-entry toc-h1">
+<a href="#how-i-implemented-the-oauth-server-myself">How I implemented the OAuth Server myself</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#learning-phrase">Learning Phrase</a></li>
+<li class="toc-entry toc-h2"><a href="#implementation-phase">Implementation Phase</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1">
+<a href="#nuances">Nuances</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#oauth-works-protocol-is-snake-cased">OAuth works protocol is snake cased</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1">
+<a href="#oauth-formats">OAuth formats</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#my-thoughts">My thoughts</a></li>
+<li class="toc-entry toc-h2">
+<a href="#resources">Resources</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#my-blogposts">My Blogposts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
+
+<p>When you read a question, you can search for it yourself. I have provided all the resources that I used along the way below too.</p>
+
+<p>I’ll explain OAuth in layman’s terms in the beginning and then go on to explain it in more technical terms.</p>
+
+<p>OAuth is easier to implement than developers think. There are a lot of jargons involved. But you’ll find at its core it’s very easy and cost-effective.</p>
+
+<h1 id="what-is-oauth-and-where-it-is-used">
+<a class="anchor" href="#what-is-oauth-and-where-it-is-used" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is OAuth? And where it is used?</h1>
+
+<p>OAuth is a protocol for allowing access to a user’s data to a third party app.</p>
+
+<p>OAuth is not login. OAuth expects the user is logged in and has allowed the access.</p>
+
+<p>You may have seen screen pages like these where you allow one application to access data from your Google account. This is done via OAuth.</p>
+
+<p><img src="https://trello.com/1/cards/641a934e7bf5374c12d084d9/attachments/641a941e253d190f586013b0/download/image.png" alt="image.png"></p>
+
+<p>The above image is from redirecting to “authorize“ url.</p>
+
+<h1 id="how-is-oauth-different-from-login-and-how-does-it-work">
+<a class="anchor" href="#how-is-oauth-different-from-login-and-how-does-it-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>How is OAuth different from Login? And how does it work</h1>
+
+<p>A normal login just requires username and password.</p>
+
+<p>OAuth is a step that happens after login. If the user is not logged in OAuth step won’t happen.</p>
+
+<p>For example, suppose you create an app called “Chain Mailer“ and you want access to the user’s Gmail data.</p>
+
+<p>You initiate the OAuth flow, this means you redirect the user to Gmail with some special parameters. If the user is not logged in, he is asked to log in into Gmail but Gmail itself. Our “Chain Mailer” app has no control over what Gmail does or what the user does. We have just redirected to Gmail.</p>
+
+<p>If the user logs in they’ll see the permissions page. And if they accept, the <code class="language-plaintext highlighter-rouge">3-Legged OAuth flow</code> would happen between Gmail and our Application.</p>
+
+<p>Note: How OAuth Flow only happened after user logged in into the service.</p>
+
+<p>After the <code class="language-plaintext highlighter-rouge">3-Legged OAuth Flow</code> our application would receive a special token called <code class="language-plaintext highlighter-rouge">Authorization Token</code>. We can use this token while accessing data from Gmail.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">Authorization Token</code> would include information that we have the permission to access the data.</p>
+
+<p>Note: From here on things would get technical</p>
+
+<h1 id="how-i-implemented-the-oauth-server-myself">
+<a class="anchor" href="#how-i-implemented-the-oauth-server-myself" aria-hidden="true"><span class="octicon octicon-link"></span></a>How I implemented the OAuth Server myself</h1>
+
+<p>I’ll split the next parts into:</p>
+
+<ol>
+  <li>Learning Phrase</li>
+  <li>Coding Phrase</li>
+  <li>Nuances</li>
+</ol>
+
+<h2 id="learning-phrase">
+<a class="anchor" href="#learning-phrase" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learning Phrase</h2>
+
+<p>Before implementing OAuth Server, I had done the <code class="language-plaintext highlighter-rouge">3-Legged OAuth Flow</code> with another service myself. So, I knew what the <code class="language-plaintext highlighter-rouge">3-Legged</code> flow is.</p>
+
+<p>This is the first place to start learning about OAuth.</p>
+
+<p>The questions you may ask here is:</p>
+
+<ol>
+  <li>What is OAuth?</li>
+  <li>What is the three legged OAuth flow.</li>
+  <li>How to use the access token. → Using the access token by adding a “Authorization“ Header with value “bearer {authorizationToken}“</li>
+</ol>
+
+<p>To implement it, I started reading up on Google, but I found it very challenging. Here’s how I learn’t OAuth and all the security concepts I needed to learn.</p>
+
+<ol>
+  <li>I started watching a YouTube playlist this gave me a broad idea about the implementation.</li>
+  <li>I asked ChatGPT how to implement an OAuth server.
+    <ol>
+      <li>ChatGPT gave me useful responses that I was able to ask followup questions to.</li>
+      <li>My questions included:
+        <ol>
+          <li>How to implement an OAuth server.</li>
+          <li>What is JWT token?</li>
+          <li>How to I validate a JWT Token?</li>
+          <li>What is RSA algorithm?
+            <ol>
+              <li>I further jumped into learning about RSA via YouTube.</li>
+              <li>Here’s my post on RSA: <a href="https://www.ankushchoubey.com/v1/rsa" title="smartCard-inline">https://www.ankushchoubey.com/v1/rsa</a>
+</li>
+            </ol>
+          </li>
+          <li>What’s JWK?</li>
+          <li>What’s the difference between JWE and JWS?</li>
+          <li>How to define different scopes?</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<p>These gave me a basic idea of what to do.</p>
+
+<p>I realized that I just need to create a 3-endpoints and one permissions page.</p>
+
+<p>The Authentication (Login) is already handled. The permissions page comes one later after the Login one.</p>
+
+<h2 id="implementation-phase">
+<a class="anchor" href="#implementation-phase" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implementation Phase</h2>
+
+<p>With OAuth multiple third party application can register and access our service.</p>
+
+<p>This means I needed to store information about multiple applications.</p>
+
+<p>I created a DB record called OAuthClient where I stored</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">clientId</code> - A unique id given to the external application</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">hashedClientSecret</code> (a hashed version of client secret. Similar to how password is hashed and saved.)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">scopes</code> (permissions that are to be provided to application)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">redirectUri</code> (uri where I would have to redirect).</li>
+</ul>
+
+<p>I would generate a clientId, clientSecret and add in scopes and provide these data to third party app.</p>
+
+<hr>
+
+<p>I created another DB record where I store information about the token given. I called it <code class="language-plaintext highlighter-rouge">OAuthToken</code>. This would include the following.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">clientId</code></li>
+  <li>
+<code class="language-plaintext highlighter-rouge">code</code> → this is a temporary code that would be resent from the external app to my oauth server during stage 3 of 3-legged Oauth Flow.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">accessTokenGiven</code> → A boolean value representing if the OAuth token was already granted for the particular code.</li>
+</ul>
+
+<p>Using these, I was able to issue OAuth tokens.</p>
+
+<hr>
+
+<p>I also needed JWT token generation.</p>
+
+<p>I used a library to create JWTs and included all the information related to the user application and scope.</p>
+
+<p>For generating JWTs I had to learn what <code class="language-plaintext highlighter-rouge">PEM</code> file is.</p>
+
+<hr>
+
+<p>I also had to create a public <code class="language-plaintext highlighter-rouge">JWK endpoint</code> which my api gateway would access to validate the token. <code class="language-plaintext highlighter-rouge">JWK</code> is a standard way of sharing public keys for JWT token.</p>
+
+<p>‌</p>
+
+<p>I also added a record for scopes. Which was something like</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">scope</code> → unique name of the scope</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">description</code> → unique description of the scope used to show user what to do in the permissions page.</li>
+</ul>
+
+<p>Here’s my post on how I choose to define scopes: <a href="https://www.ankushchoubey.com/v1/oauth-scopes" title="smartCard-inline">https://www.ankushchoubey.com/v1/oauth-scopes</a></p>
+
+<h1 id="nuances">
+<a class="anchor" href="#nuances" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nuances</h1>
+
+<h2 id="oauth-works-protocol-is-snake-cased">
+<a class="anchor" href="#oauth-works-protocol-is-snake-cased" aria-hidden="true"><span class="octicon octicon-link"></span></a>OAuth works protocol is snake cased</h2>
+
+<p>I initially implemented all endpoints as camel case. But it did not work. Then I had to modify it to snake case.</p>
+
+<h1 id="oauth-formats">
+<a class="anchor" href="#oauth-formats" aria-hidden="true"><span class="octicon octicon-link"></span></a>OAuth formats</h1>
+
+<p>Formats within OAuth protocol are very fixed. Certain endpoints accept and return data in a particular format only and they don’t have randomness.</p>
+
+<p>For example, the <code class="language-plaintext highlighter-rouge">token</code> endpoint would always be in the following format.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"authorize_token"</span><span class="p">:</span><span class="w"> </span><span class="s2">"{jwtToken}"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"refrest_token"</span><span class="p">:</span><span class="w"> </span><span class="s2">"{token}"</span><span class="p">,</span><span class="w">
+  </span><span class="err">...</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>We can’t extend the format by adding our own stuff. But mandatory things would be preserved as it is. For that I had to read up the main OAuth specs a few times.</p>
+
+<h2 id="my-thoughts">
+<a class="anchor" href="#my-thoughts" aria-hidden="true"><span class="octicon octicon-link"></span></a>My thoughts</h2>
+
+<p>After implementing OAuth server myself, I feel confident about other protocols. Protocols may seem too technical but at their core they are really easy.</p>
+
+<p>Implementing OAuth helped me understand and get better at computer security. And also, helped me step into a much better principle developer role.</p>
+
+<h2 id="resources">
+<a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources</h2>
+
+<p><a href="https://www.youtube.com/watch?v=t18YB3xDfXI" title="smartCard-inline">https://www.youtube.com/watch?v=t18YB3xDfXI</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=996OiexHze0" title="smartCard-inline">https://www.youtube.com/watch?v=996OiexHze0</a></p>
+
+<p><a href="https://www.youtube.com/playlist?list=PL1Nml43UBm6dOj4UuH-7a9e3wO6eL2SCi" title="smartCard-inline">https://www.youtube.com/playlist?list=PL1Nml43UBm6dOj4UuH-7a9e3wO6eL2SCi</a></p>
+
+<p>ChatGPT</p>
+
+<p><a href="https://www.rfc-editor.org/rfc/rfc6749" title="smartCard-inline">https://www.rfc-editor.org/rfc/rfc6749</a></p>
+
+<h3 id="my-blogposts">
+<a class="anchor" href="#my-blogposts" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Blogposts</h3>
+
+<p><a href="https://www.ankushchoubey.com/v1/oauth-scopes" title="smartCard-inline">https://www.ankushchoubey.com/v1/oauth-scopes</a></p>
+
+<p><a href="https://www.ankushchoubey.com/v1/rsa" title="smartCard-inline">https://www.ankushchoubey.com/v1/rsa</a></p>
+
+  </div>
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js" repo="ankschoubey/blog" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
+</script><div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://www.ankushchoubey.com/v1/implementing-oauth';
+      this.page.identifier = 'https://www.ankushchoubey.com/v1/implementing-oauth';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      s.src = 'https://ankushchoubey.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+<a class="u-url" href="/v1/implementing-oauth" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://www.ankushchoubey.com/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Full Stack Developer - Cloud/Microservices</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list">
+<li>
+  <a rel="me" href="https://github.com/ankschoubey" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://twitter.com/ankschoubey" target="_blank" title="twitter">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#twitter"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
