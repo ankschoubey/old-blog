@@ -22,6 +22,8 @@ Here’s how one should think about this
 
 If yes, find the best way to implement and represent those behaviours. This means UI design in wireframes and UI functionality covered by UI TDD and backend implementation covered by BackendTDD are not relevant here.
 
+Therefore, **BDD drives your UI/UX and TDD**.
+
 ![](https://docs.google.com/drawings/d/e/2PACX-1vRONWHyF6MDLxwYnnUeZHvg9jPjWjKoxTOfaJdu_roqlYPvS2LA3FLhGp-h2xM2iUAF3I76yylz4pFd/pub?w=1232&amp;h=875)
 
 ## Example
