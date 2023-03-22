@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T01:59:06-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Implementing an OAuth Server Manually</title><link href="https://www.ankushchoubey.com/v1/implementing-oauth" rel="alternate" type="text/html" title="Implementing an OAuth Server Manually" /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-implementing-oauth-server</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/implementing-oauth"><![CDATA[<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T11:04:30-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">What separates BDD from TDD, VDIs, etc.</title><link href="https://www.ankushchoubey.com/v1/bdd-vs-tdd" rel="alternate" type="text/html" title="What separates BDD from TDD, VDIs, etc." /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-what-should-go-into-bdd</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/bdd-vs-tdd"><![CDATA[<p>We are often confused about what constitutes BDD.</p>
+
+<p>This makes us add un-necessarily details to BDD spec file.</p>
+
+<p>Here’s how one should think about this</p>
+
+<blockquote>
+  <p>Stop thinking about how the product would look or feel. And focus on the customer’s interaction with the product.</p>
+</blockquote>
+
+<blockquote>
+  <p>Does your product behaviors actually solve the customer’s problem.</p>
+</blockquote>
+
+<p>If yes, find the best way to implement and represent those behaviours. This means UI design in wireframes and UI functionality covered by UI TDD and backend implementation covered by BackendTDD are not relevant here.</p>
+
+<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vRONWHyF6MDLxwYnnUeZHvg9jPjWjKoxTOfaJdu_roqlYPvS2LA3FLhGp-h2xM2iUAF3I76yylz4pFd/pub?w=1232&amp;h=875" alt="" /></p>
+
+<h2 id="example">Example</h2>
+
+<p>You believe the customer would often forget his/her password. So, how should you solve this problem.
+Doing some brainstorming you come up with an example map.</p>
+
+<p>User comes and logges in. He leaves the tab and comes back. He is shown an prompt to enter his 4 digit pin.</p>
+
+<p>This leads to another example where he sets his 4 digit ping.</p>
+
+<p>When user selects a password, he is allowed to set a shorter 4 digit pin.</p>
+
+<p>Now you convert this into Gherkin.</p>
+
+<blockquote>
+  <p>Given a user has logged in
+When they leave the tab untouched for 10 minutes
+Then they should be prompted to enter their 4 digit pin.</p>
+</blockquote>
+
+<blockquote>
+  <p>Given user is prompted 4 digit pin
+When pin is valid
+Then user’s session should resume</p>
+</blockquote>
+
+<blockquote>
+  <p>Given user is prompted to enter 4 digit pin
+When pin in invalid for 4 times
+Then user should be logged out</p>
+</blockquote>
+
+<p>Now for each of the steps, you can decide the best wireframe, frontend, and backend implementation strategies.</p>
+
+<p>Note: The above gherkins don’t define how something should look. They just define behavior that would solve the user’s problem.</p>]]></content><author><name></name></author><category term="bdd" /><summary type="html"><![CDATA[BDD Deals with Solving Customer's Problems. It does not consider UI or any other implementation details. Implementation details are part of UI Wireframing, TDD and other activities.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://docs.google.com/drawings/d/e/2PACX-1vRONWHyF6MDLxwYnnUeZHvg9jPjWjKoxTOfaJdu_roqlYPvS2LA3FLhGp-h2xM2iUAF3I76yylz4pFd/pub?w=1232&amp;amp;h=875" /><media:content medium="image" url="https://docs.google.com/drawings/d/e/2PACX-1vRONWHyF6MDLxwYnnUeZHvg9jPjWjKoxTOfaJdu_roqlYPvS2LA3FLhGp-h2xM2iUAF3I76yylz4pFd/pub?w=1232&amp;amp;h=875" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Implementing an OAuth Server Manually</title><link href="https://www.ankushchoubey.com/v1/implementing-oauth" rel="alternate" type="text/html" title="Implementing an OAuth Server Manually" /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-implementing-oauth-server</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/implementing-oauth"><![CDATA[<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
 
 <p>When you read a question, you can search for it yourself. I have provided all the resources that I used along the way below too.</p>
 
@@ -568,48 +619,4 @@ By specializing and trading.</p>
 
 <p>So, therefore, we need not treat internal features and external apps very differently.</p>
 
-<p>At the platform level, both internal_feature and the external_app are just apps.</p>]]></content><author><name></name></author><category term="architecture" /><category term="plugin" /><summary type="html"><![CDATA[From A User’s Perspective]]></summary></entry><entry><title type="html">Defining Scopes for your OAuth Service</title><link href="https://www.ankushchoubey.com/v1/oauth-scopes" rel="alternate" type="text/html" title="Defining Scopes for your OAuth Service" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-02-01T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-oauth-scopes</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/oauth-scopes"><![CDATA[<p>Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.</p>
-
-<hr />
-
-<p>In a rest API, we have resources. Our resources are usually accessed with just a noun.</p>
-
-<p>so,</p>
-
-<p><code class="language-plaintext highlighter-rouge">GET</code> <code class="language-plaintext highlighter-rouge">/movies</code> to get all movies</p>
-
-<p><code class="language-plaintext highlighter-rouge">GET</code> <code class="language-plaintext highlighter-rouge">/movies/{movieId}</code> to get a specific movie</p>
-
-<p><code class="language-plaintext highlighter-rouge">PUT</code> <code class="language-plaintext highlighter-rouge">/movies</code> to modify a movie</p>
-
-<p><code class="language-plaintext highlighter-rouge">POST</code> <code class="language-plaintext highlighter-rouge">/movies</code> to add a new movie</p>
-
-<p><code class="language-plaintext highlighter-rouge">DELETE</code> <code class="language-plaintext highlighter-rouge">/movies/{movieID}</code> to delete a movie</p>
-
-<hr />
-
-<p>Our Outh scopes are a restriction on resources</p>
-
-<p>so, we would have scopes for <code class="language-plaintext highlighter-rouge">movies</code> resource.</p>
-
-<p>We can append this with the kind of method that can be run on the resource.</p>
-
-<hr />
-
-<p>For example:</p>
-
-<p><code class="language-plaintext highlighter-rouge">read:movies</code> -&gt; allows <code class="language-plaintext highlighter-rouge">GET</code> calls on <code class="language-plaintext highlighter-rouge">/movies</code> REST API resource</p>
-
-<p><code class="language-plaintext highlighter-rouge">write:movies</code> → allows <code class="language-plaintext highlighter-rouge">POST</code> calls on the <code class="language-plaintext highlighter-rouge">/movies</code> resource.</p>
-
-<p><code class="language-plaintext highlighter-rouge">read:userinfo</code> → allows <code class="language-plaintext highlighter-rouge">GET</code> calls on the <code class="language-plaintext highlighter-rouge">/userinfo</code> resource</p>
-
-<hr />
-
-<p>When the app is submitted to our “App Store“, the app developer declares an app, they are using a particular scope.</p>
-
-<p>For example, let’s say an App that shows user recommendations has asked for <code class="language-plaintext highlighter-rouge">read:movies</code>, <code class="language-plaintext highlighter-rouge">write:movies and</code> read:userinfo<code class="language-plaintext highlighter-rouge"> </code>.</p>
-
-<p>The app developer has declared why they use each of the scopes. While declaring, they decide they aren’t using the <code class="language-plaintext highlighter-rouge">write:movies</code> scope.</p>
-
-<p>So, they remove it. Or while reviewing the app submission application, the App Store platform rejects the request for accepting <code class="language-plaintext highlighter-rouge">write:movies</code> and asks for more clarifications.</p>]]></content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html"><![CDATA[Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.]]></summary></entry></feed>
+<p>At the platform level, both internal_feature and the external_app are just apps.</p>]]></content><author><name></name></author><category term="architecture" /><category term="plugin" /><summary type="html"><![CDATA[From A User’s Perspective]]></summary></entry></feed>
