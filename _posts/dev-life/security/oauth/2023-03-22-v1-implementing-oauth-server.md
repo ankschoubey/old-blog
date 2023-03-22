@@ -144,7 +144,7 @@ Here’s my post on how I choose to define scopes: [Defining Scopes for your OAu
 
 I initially implemented all endpoints as camel case. But it did not work. Then I had to modify it to snake case.
 
-# OAuth formats
+## OAuth formats
 
 Formats within OAuth protocol are very fixed. Certain endpoints accept and return data in a particular format only and they don’t have randomness.
 
@@ -160,13 +160,13 @@ For example, the `token` endpoint would always be in the following format.
 
 We can’t extend the format by adding our own stuff. But mandatory things would be preserved as it is. For that I had to read up the main OAuth specs a few times.
 
-## My thoughts
+# My thoughts
 
 After implementing OAuth server myself, I feel confident about other protocols. Protocols may seem too technical but at their core they are really easy.
 
 Implementing OAuth helped me understand and get better at computer security. And also, helped me step into a much better principle developer role.
 
-## Resources
+# Resources
 
 Jump around these
 
