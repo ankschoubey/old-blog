@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T01:46:56-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Implementing an OAuth Server Manually</title><link href="https://www.ankushchoubey.com/v1/implementing-oauth" rel="alternate" type="text/html" title="Implementing an OAuth Server Manually" /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-implementing-oauth-server</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/implementing-oauth"><![CDATA[<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-22T01:51:21-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Implementing an OAuth Server Manually</title><link href="https://www.ankushchoubey.com/v1/implementing-oauth" rel="alternate" type="text/html" title="Implementing an OAuth Server Manually" /><published>2023-03-22T00:00:00-05:00</published><updated>2023-03-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-implementing-oauth-server</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/implementing-oauth"><![CDATA[<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
 
 <p>When you read a question, you can search for it yourself. I have provided all the resources that I used along the way below too.</p>
 
@@ -190,7 +190,39 @@
 
 <p><a href="https://www.ankushchoubey.com/v1/oauth-scopes">Defining Scopes for your OAuth Service</a></p>
 
-<p><a href="https://www.ankushchoubey.com/v1/rsa">RSA Algorithm</a></p>]]></content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html"><![CDATA[Implementing OAuth server is easier than it looks and it saves money in the long run.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/implementing-oauth.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/implementing-oauth.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stating the Truth When It Could Hurt</title><link href="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts" rel="alternate" type="text/html" title="Stating the Truth When It Could Hurt" /><published>2023-03-16T00:00:00-05:00</published><updated>2023-03-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-state-the-truth-even-when-its-hard</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts"><![CDATA[<p>I often talk about truth and telling the truth all time time.</p>
+<p><a href="https://www.ankushchoubey.com/v1/rsa">RSA Algorithm</a></p>]]></content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html"><![CDATA[Implementing OAuth server is easier than it looks and it saves money in the long run.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/implementing-oauth.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/implementing-oauth.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Have better variable and method names for technical layer by copying others</title><link href="https://www.ankushchoubey.com/v1/better-var-name-by-copying/" rel="alternate" type="text/html" title="Have better variable and method names for technical layer by copying others" /><published>2023-03-18T00:00:00-05:00</published><updated>2023-03-18T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/better-variable-names-by-copying</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/better-var-name-by-copying/"><![CDATA[<p>Writing good variable names clarifies your thinking. But it can be really really hard coming up with your own variable names.</p>
+
+<p>If you are in a domain, you could pick up domain specific names.</p>
+
+<p>For example, a common school software may have Students, Teacher, etc.</p>
+
+<p>This maybe classic domain driven designs.</p>
+
+<p>But in technical layers it can be harder to come up with variable names.</p>
+
+<p>I started working with NodeJs Mongoose framework. I created my Model and was thinking of what method names should I use for common operations like <code class="language-plaintext highlighter-rouge">save</code> and <code class="language-plaintext highlighter-rouge">find</code> . There were multiple <code class="language-plaintext highlighter-rouge">find</code> operations and they were getting messy because it was hard to understand what is what.</p>
+
+<p>In javascript, we don’t get an error if we are passing less number of parameters. For each <code class="language-plaintext highlighter-rouge">find</code> I made it was hard to understand what to pass.</p>
+
+<p>Then I remembered how <code class="language-plaintext highlighter-rouge">Spring Data</code></p>
+
+<p>handles the same problem.</p>
+
+<p>They use <code class="language-plaintext highlighter-rouge">findBy{Attribute}And{AnotherAttribute}</code>.</p>
+
+<p>Now my code became much much better. And I followed <code class="language-plaintext highlighter-rouge">Spring Data</code> ‘s entire method naming style.</p>
+
+<hr />
+
+<p>If you are writing a custom library or working in a language that doesn’t have good variable/method names. You can adopt naming conventions of other projects.</p>
+
+<p><a href="https://pytorch.org/">Pytorch</a></p>
+
+<p>[Tensorflow](https://www.tensorflow.org/ “)</p>
+
+<p>Spring Boot</p>
+
+<p>UI: DevExpress Extreme</p>]]></content><author><name></name></author><category term="clean-code" /><summary type="html"><![CDATA[Writing good variable names clarifies your thinking. But it can be really really hard coming up with your own variable names.]]></summary></entry><entry><title type="html">Stating the Truth When It Could Hurt</title><link href="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts" rel="alternate" type="text/html" title="Stating the Truth When It Could Hurt" /><published>2023-03-16T00:00:00-05:00</published><updated>2023-03-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-state-the-truth-even-when-its-hard</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts"><![CDATA[<p>I often talk about truth and telling the truth all time time.</p>
 
 <p>Many people agree with me that it’s a good thing to tell the truth.</p>
 
@@ -580,36 +612,4 @@ By specializing and trading.</p>
 
 <p>The app developer has declared why they use each of the scopes. While declaring, they decide they aren’t using the <code class="language-plaintext highlighter-rouge">write:movies</code> scope.</p>
 
-<p>So, they remove it. Or while reviewing the app submission application, the App Store platform rejects the request for accepting <code class="language-plaintext highlighter-rouge">write:movies</code> and asks for more clarifications.</p>]]></content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html"><![CDATA[Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.]]></summary></entry><entry><title type="html">Migrating DB smoothly with a migration script</title><link href="https://www.ankushchoubey.com/db-migration-script/" rel="alternate" type="text/html" title="Migrating DB smoothly with a migration script" /><published>2023-03-03T00:00:00-06:00</published><updated>2023-03-03T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/db-migration-script</id><content type="html" xml:base="https://www.ankushchoubey.com/db-migration-script/"><![CDATA[<p>If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.</p>
-
-<p>The same mechanism could be used to migrate multiple tables. And can be implemented in SQL stored procedure or stored procedure equivalent in the DB of your choice.</p>
-
-<ol>
-  <li>Add these additional columns to your source table
-    <ol>
-      <li><strong>is_migrated</strong>: default false</li>
-      <li><strong>migrated_date</strong></li>
-      <li><strong>is_error</strong></li>
-      <li><strong>error_description</strong></li>
-    </ol>
-  </li>
-  <li>Create a DB migration script which
-    <ol>
-      <li>Copies a batch of data from one table in source DB to one table in dB.</li>
-      <li>The batch size could be 1000. You don’t want the batch size to be too small because it could be slow. You don’t want it too high to be able to recover better.</li>
-      <li>Whenever a batch is a complete update the is_migrated and migrated_date in the source DB. Then pick up the next batch where is_migrated is false.</li>
-      <li>If there is an error, set <strong>is_error</strong> to_ true _and add <strong>error_description</strong>.</li>
-      <li>The <strong>error_description</strong> could be an exception that is thrown.</li>
-      <li>Once the script is done, check for <strong>is_error: true</strong> and fix those errors in the script itself.</li>
-    </ol>
-  </li>
-  <li>Running
-    <ol>
-      <li>Run the script by copying the data from PROD to your testing environment.</li>
-      <li>Fix your scripts if you find <strong>is_error: true</strong></li>
-      <li>Once all is fixed, re-copy data from PROD to your testing environment and run again.</li>
-      <li>You want to make sure everything works perfectly so that you won’t have to do much during the PROD run.</li>
-      <li>Once you find all bugs are fixed, run the migration script in <strong>PROD</strong>.</li>
-    </ol>
-  </li>
-</ol>]]></content><author><name></name></author><category term="database" /><summary type="html"><![CDATA[If you are transferring from one DB to another and want to make sure it happens properly, this is the mechanism you can use.]]></summary></entry></feed>
+<p>So, they remove it. Or while reviewing the app submission application, the App Store platform rejects the request for accepting <code class="language-plaintext highlighter-rouge">write:movies</code> and asks for more clarifications.</p>]]></content><author><name></name></author><category term="security" /><category term="oauth" /><summary type="html"><![CDATA[Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.]]></summary></entry></feed>
