@@ -685,4 +685,8 @@ a.page-link[href="/resume/"] { background: #be232f; padding: 10px; color: white;
 
 img { background: white; }
 
+a.site-title { text-decoration: none; padding: 0px 5px; margin: 5px 0px; border-radius: 41px; line-height: 43px; }
+
+a.site-title:hover { background: #3a4d78; }
+
 /*# sourceMappingURL=style.css.map */
