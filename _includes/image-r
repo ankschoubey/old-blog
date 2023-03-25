@@ -1,5 +1,5 @@
 <figure style="float: right;">
-  <img class="image" width="{{ include.w }}" src="/images/{{ include.url }}"
+  <img loading="lazy" class="image" width="{{ include.w }}" src="/images/{{ include.url }}"
     {% if include.caption %}
     alt="{{ include.caption }}"
     {% endif %}
