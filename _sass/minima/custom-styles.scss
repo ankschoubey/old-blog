@@ -370,9 +370,6 @@ a.page-link[href="/resume/"] {
 
 // Front Page Columns
 
-.post-meta-description{
-    display: none;
-}
 @media screen and (min-width: 800px) {
     .post-list{
         display: flex;
@@ -393,6 +390,7 @@ a.page-link[href="/resume/"] {
             div {
                 width: 100%;
                 display: flex !important;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
             }
