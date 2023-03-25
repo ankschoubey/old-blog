@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Summaries
+title: 
 permalink: /summaries/
 ---
 
