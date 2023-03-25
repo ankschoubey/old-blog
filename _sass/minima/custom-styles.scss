@@ -399,7 +399,6 @@ a.page-link[href="/resume/"] {
 
             img{
                 max-height: 300px;
-                background: white;
             }
         }
         .post-meta{
@@ -427,4 +426,7 @@ a.page-link[href="/resume/"] {
     font-weight: 500;
     /* color: #adc9e1 !important; */
     text-decoration: none !important;
+}
+img{
+    background: white;
 }
