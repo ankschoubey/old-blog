@@ -675,7 +675,7 @@ a.page-link[href="/resume/"] { background: #be232f; padding: 10px; color: white;
 
 .post-meta-description { display: none; }
 
-@media screen and (min-width: 800px) { .post-list { display: flex; flex-direction: row; flex-wrap: wrap; gap: 4%; } .post-list > li { border-radius: 0px !important; width: 48%; } .post-list > li .Box { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; } .post-list > li .Box div { width: 100%; display: flex !important; align-items: center; justify-content: center; } .post-list > li .Box img { max-height: 300px; } .post-list > li .post-meta { position: absolute; bottom: -7px; right: 0px; background: grey; z-index: 10000; color: white; padding: 2px; } }
+@media screen and (min-width: 800px) { .post-list { display: flex; flex-direction: row; flex-wrap: wrap; gap: 4%; } .post-list > li { border-radius: 0px !important; width: 48%; } .post-list > li .Box { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; } .post-list > li .Box div { width: 100%; display: flex !important; align-items: center; justify-content: center; } .post-list > li .Box img { max-height: 300px; } .post-list > li .post-meta { position: absolute; bottom: -7px; right: 0px; background: grey; z-index: 10000; color: white; padding: 2px; font-size: 1rem; } }
 
 .page-link { padding: 5px !important; border-radius: 5px; text-decoration: none !important; }
 
@@ -685,8 +685,16 @@ a.page-link[href="/resume/"] { background: #be232f; padding: 10px; color: white;
 
 img { background: white; }
 
-a.site-title { text-decoration: none; padding: 0px 5px; margin: 5px 0px; border-radius: 41px; line-height: 43px; }
+a.site-title { text-decoration: none !important; padding: 0px 5px; margin: 5px 0px; border-radius: 41px; line-height: 43px; }
 
 a.site-title:hover { background: #3a4d78; }
+
+h1 { font-weight: 800 !important; }
+
+h2 { font-weight: 700 !important; }
+
+h3 { font-weight: 600 !important; }
+
+h4 { font-weight: 500 !important; }
 
 /*# sourceMappingURL=style.css.map */
