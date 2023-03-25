@@ -2,7 +2,7 @@
 toc: false
 layout: post
 comments: true
-description: 
+description: कर्म करो और फल की चिंता मत करो
 categories: [love, team-work, non-technical]
 title: The 7 Tools To Make Good Love Choices
 last_modified_at: 2023-03-25T20:42:15.419969
@@ -11,15 +11,18 @@ image: /images/tommy-love.jpeg
 ---
 
 
-I wrote these 7 tools as a way to advise one of my friends. These give an overview of the struggle and learning I had over the months.
+I wrote these 7 tools as a way to advise a friend. These came from the struggle and learning I had over the months.
 
 These tools are arranged in order or 3-3-1.
 
-The first three would help you calm down and understand what to do.
+1. The first three would help you calm down and understand what to do.
+2. The next three would help you think long-term.
+3. The last one is a human mistake we all make.
 
-The next three would help you think long-term.
+![Thomas Shelby Love](/images/tommy-love.jpeg)
 
-The last one is a human mistake we all make.
+<sub>Even Thomas Shelby has his moments</sub>
+
 
 ---
 
@@ -27,9 +30,7 @@ The last one is a human mistake we all make.
 
 ### Tool 1: Process your emotions
 
-No one understands you as well as you understand yourself. It’s no one else’s responsibility to process your emotions. Even Thomas Selby has his moments.
-
-![Thomas Shelby Love](/images/tommy-love.jpeg)
+No one understands you as well as you understand yourself. It’s no one else’s responsibility to process your emotions.
 
 Suppose you expect someone else to solve emotional problems for you. It’s too much for them.
 
@@ -88,7 +89,7 @@ While expressing yourself, and while deciding what you want, make sure to focus 
 
 We all should hope to not get what we want but to get what we need.
 
-### Tool 6: Rely on Your Core Values
+### Tool 6: Know your core values. And never compromise. Try to make decisions using them.
 
 When in doubt consult your core values. Your core values are who you are.
 
