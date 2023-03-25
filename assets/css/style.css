@@ -181,9 +181,9 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .highlighter-rouge .highlight { background: #eeeeff; }
 
 /** Wrapper */
-.wrapper { max-width: calc(800px - (30px)); margin-right: auto; margin-left: auto; padding-right: 15px; padding-left: 15px; }
+.wrapper { max-width: calc(1000px - (30px)); margin-right: auto; margin-left: auto; padding-right: 15px; padding-left: 15px; }
 
-@media screen and (min-width: 1000px) { .wrapper { max-width: calc(800px - (30px * 2)); padding-right: 30px; padding-left: 30px; } }
+@media screen and (min-width: 1000px) { .wrapper { max-width: calc(1000px - (30px * 2)); padding-right: 30px; padding-left: 30px; } }
 
 /** Clearfix */
 .wrapper:after { content: ""; display: table; clear: both; }
@@ -424,6 +424,42 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
+html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #0f172a !important; }
+
+a { color: #4bbaff !important; }
+
+a:hover { color: rgba(255, 255, 255, 0.87) !important; }
+
+.site-title, .site-title:visited, .site-nav, .page-link { color: rgba(255, 255, 255, 0.87) !important; }
+
+.site-nav { background-color: #0f172a; border-color: #313748; }
+
+* { scrollbar-color: #0f172a #313748; }
+
+pre, code { border-color: #313748; background-color: #1b2335; }
+
+.page-description { color: rgba(255, 255, 255, 0.69); }
+
+.post-meta { color: rgba(255, 255, 255, 0.38); }
+
+.post-content p, .post-content li { color: rgba(255, 255, 255, 0.69); }
+
+.btn { background-color: #1b2335 !important; color: rgba(255, 255, 255, 0.87) !important; border-color: #313748 !important; }
+
+.btn:hover { background-color: #0f172a !important; }
+
+table th { background-color: #1b2335; border-color: #313748; color: rgba(255, 255, 255, 0.87); }
+
+table td { background-color: #0f172a; border-color: #313748; color: rgba(255, 255, 255, 0.69); }
+
+.flash { color: #0f172a !important; filter: brightness(80%); }
+
+canvas { filter: invert(100%); }
+
+.post-list > li > div { box-shadow: none !important; background-color: #1b2335; border: none !important; }
+
+li .post-meta-description { color: rgba(255, 255, 255, 0.69) !important; }
+
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
@@ -493,7 +529,9 @@ p code { font-size: 19px; }
 
 .active:after { content: "\2796"; /* Unicode character for "minus" sign (-) */ }
 
-.site-header { position: sticky; top: 0px; background: white; z-index: 1 !important; }
+.site-header { position: sticky; top: 0px; background: white; background: #0f172a; z-index: 1 !important; border-bottom: none; border-top: none; }
+
+.site-header .site-nav { background: #0f172a; }
 
 .site-title:before { content: "aaa"; text-decoration: none !important; color: transparent !important; background: url(/images/profile.png); background-size: 2rem 2rem; background-repeat: no-repeat; background-position: center; }
 
@@ -629,10 +667,20 @@ img.image-preview:hover { transform: scale(1.05); }
 
 a.page-link[href="/resume/"] { background: #be232f; padding: 10px; color: white; }
 
-.post-list > li { border-radius: 0px !important; }
-
 .Toast { width: 100% !important; max-width: none !important; }
 
 .post p img { border: 5px solid #555; /* add css border */ }
+
+* { font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important; }
+
+.post-meta-description { display: none; }
+
+@media screen and (min-width: 800px) { .post-list { display: flex; flex-direction: row; flex-wrap: wrap; gap: 4%; } .post-list > li { border-radius: 0px !important; width: 48%; } .post-list > li .Box { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; } .post-list > li .Box div { width: 100%; display: flex !important; align-items: center; justify-content: center; } .post-list > li .Box img { max-height: 300px; background: white; } .post-list > li .post-meta { position: absolute; bottom: -7px; right: 0px; background: grey; z-index: 10000; color: white; padding: 2px; } }
+
+.page-link { padding: 5px !important; border-radius: 5px; text-decoration: none !important; }
+
+.page-link:hover { background: #3a4d78; }
+
+.post-link { font-weight: 500; /* color: #adc9e1 !important; */ text-decoration: none !important; }
 
 /*# sourceMappingURL=style.css.map */
