@@ -28,7 +28,7 @@ These tools are arranged in order or 3-3-1.
 
 ## Set 1: To help you calm down and to understand what to do
 
-### Tool 1: Process your emotions
+### Tool 1: Process your feelings
 
 No one understands you as well as you understand yourself. It’s no one else’s responsibility to process your emotions.
 
@@ -83,7 +83,7 @@ Similarly, some things that are "needed“ for a good relationship.
 - Willingness to solve problems
 - etc
 
-Without these "needs" how can we even have a good relationship.
+Without these "needs" how can't we even have a good relationship. Therefore, things "needed" to make a relationship work are also non-negotiable.
 
 While expressing yourself, and while deciding what you want, make sure to focus highly on things "needed“ for a good relationship.
 
@@ -110,7 +110,7 @@ If I have a problem, which is an emotional problem, I’ll rely on these core va
 
 ## Set 3: A mistake we all make
 
-### Tool 7: Don’t Manipulate
+### Tool 7: Never try to manipulate
 
 We try to manipulate the person or the situation to get what we want.
 
@@ -120,7 +120,7 @@ Remember, having a partner or even marriage is just one stage of a relationship,
 
 Some things are outside our control, and it’s best if they are outside our control. They are not meant to be in our control. Nature is efficient. And by trying to control it, we make things worse.
 
-So let certain things be.
+So let certain things be and never try to manipulate.
 
 > Do good and let go of the outcome.
 
