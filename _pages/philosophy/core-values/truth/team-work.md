@@ -39,16 +39,14 @@ Gift of truth.
 
 space out so that people have time to adjust #changeManagement
 
-# Love
+## Love
 
-Team Work -> Love
+1. [The 7 Tools To Making Better Love Decisions](/v1/7-tools-for-making-good-love-choices/)
 
-Choose love over attachment. What’s the difference between love and attachment.
+2. Choose love over Attachment. What’s the difference between love and attachment?
 
 Love people and use things. Because the opposite never works.
 
 Love is non-transactional.
 
 Love is not special.
-
-7 Tools for Dealing And Making Better Love Decisions
