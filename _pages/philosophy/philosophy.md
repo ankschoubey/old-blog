@@ -4,47 +4,64 @@ title: Philosophy
 permalink: /philosophy/
 ---
 
-
-Welcome to the philosophy section. Here I dive deep into topics that affect us directly. The aim is to discover and develop practical tools to live a better life. This exploration ranges from human needs, habits, core values to communication, negotiation, and more.
-
-```mermaid!
-graph TD
-    H[fa:fa-person Human] --> P[Personality]
-    H --> N[Needs]
-    H --> V[Core Values]
-    V --> Cutural
-    V --> Choosen
-    N --> S[fa:fa-people-line Social]
-    N --> G[Goals]
-    P --> PPF[Past/Present/Future]
-    P --> B[Biases/Fallacies]
-```
-
 The TLDR of all these articles is this:
 
 - Be healthy. Health is most important.
 - Develop and rely on good habits and core values. They provide good default fallbacks.
 
-You can also find [Philosophical Resources](/non-technical-resources) that I found useful.
+## All Articles 
 
-My current project is working on my core values.
+<div class="home">
+    {% assign rawposts = site.posts %}
 
-## Core Values
+  <!-- Hide posts if front matter flag hide:true -->
+  {% assign posts = ''|split:'' %}
+  {% for post in rawposts %}
+    {% if post.hide == true %}
+      {% continue %}
+    {% endif %}
+    {% if post.categories contains "non-technical" %}
+        {% assign posts = posts|push:post%}
+    {% endif %}
+  {% endfor %}
 
-**Introduction**
-{% include postsOfTag.html tag='matured' %}
+  {% assign posts = posts | sort: "sticky_rank", "last" %}
 
-**My 7 Core Values**:
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+      <li>
+        {%- if site.show_image -%}
+            {%- include post_list_image_card.html -%}
+        {% else %}
+            {%- include post_list.html -%}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
 
-1. [Clarity](/philosophy/core-values/truth)
-1. [Responsibility](/philosophy/core-values/responsibility)
-1. [Inputs](/philosophy/core-values/inputs)
-1. [Systems](/philosophy/core-values/systems)
-1. [Time](/philosophy/core-values/time)
-1. [Peace](/philosophy/core-values/peace)
-1. [Team Work](/philosophy/core-values/teamwork)
-1. [Adventure](/philosophy/core-values/adventure)
+    {% if site.paginate and site.posts.size > site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
 
-**Incubating Essays**
+  {%- endif -%}
 
-{% include postsOfTag.html tag='non-technical' %}
+</div>

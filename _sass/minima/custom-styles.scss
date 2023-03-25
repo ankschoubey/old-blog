@@ -409,6 +409,7 @@ a.page-link[href="/resume/"] {
             z-index: 10000;
             color: white;
             padding: 2px;
+            font-size: 1rem;
         }
     }
 
@@ -431,7 +432,7 @@ img{
     background: white;
 }
 a.site-title{
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 0px 5px;
     margin: 5px 0px;
     border-radius: 41px;
@@ -439,4 +440,17 @@ a.site-title{
 }
 a.site-title:hover {
     background: #3a4d78;
+}
+
+h1 {
+    font-weight: 800 !important;
+}
+h2 {
+    font-weight: 700 !important;
+}
+h3 {
+    font-weight: 600 !important;
+}
+h4 {
+    font-weight: 500 !important;
 }
