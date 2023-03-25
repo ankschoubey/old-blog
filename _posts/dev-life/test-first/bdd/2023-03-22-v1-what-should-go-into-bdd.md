@@ -6,7 +6,7 @@ categories: [bdd]
 last_modified_at: 2023-03-22T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/bdd-vs-tdd
-title: What separates BDD from TDD, VDIs, etc.
+title: BDD vs UI/UX/TDD - Understanding the Key Differences for Customer-Centric Problem Solving
 image: https://docs.google.com/drawings/d/e/2PACX-1vRONWHyF6MDLxwYnnUeZHvg9jPjWjKoxTOfaJdu_roqlYPvS2LA3FLhGp-h2xM2iUAF3I76yylz4pFd/pub?w=1232&amp;h=875
 ---
 
