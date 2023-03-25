@@ -8,7 +8,7 @@
 /*----- ADD YOUR STYLES BELOW -------*/
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
-// @import "minima/dark-mode";
+@import "minima/dark-mode";
 
 @import "minima/fastpages-dracula-highlight"; 
 
@@ -18,7 +18,13 @@
     position: sticky;
     top: 0px;
     background: white;
+    background: #0f172a;
     z-index: 1 !important;
+    .site-nav{
+        background: #0f172a;
+    }
+    border-bottom: none;
+    border-top: none;
 }
 .site-title:before {
     content: "aaa";
@@ -346,9 +352,7 @@ a.page-link[href="/resume/"] {
     padding: 10px;
     color: white;
 }
-.post-list > li {
-    border-radius: 0px !important;
-}
+
 .Toast{
     width: 100% !important;
     max-width: none !important;
@@ -359,4 +363,68 @@ a.page-link[href="/resume/"] {
     /*
     * add css border
     */
+}
+* {
+    font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
+// Front Page Columns
+
+.post-meta-description{
+    display: none;
+}
+@media screen and (min-width: 800px) {
+    .post-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4%;
+    }
+
+    .post-list > li {
+        border-radius: 0px !important;
+        width: 48%;
+        .Box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            div {
+                width: 100%;
+                display: flex !important;
+                align-items: center;
+                justify-content: center;
+            }
+
+            img{
+                max-height: 300px;
+                background: white;
+            }
+        }
+        .post-meta{
+            position: absolute;
+            bottom: -7px;
+            right: 0px;
+            background: grey;
+            z-index: 10000;
+            color: white;
+            padding: 2px;
+        }
+    }
+
+  }
+
+.page-link{
+    padding: 5px !important;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+.page-link:hover{
+    background: #3a4d78;
+}
+.post-link{
+    font-weight: 500;
+    /* color: #adc9e1 !important; */
+    text-decoration: none !important;
 }
