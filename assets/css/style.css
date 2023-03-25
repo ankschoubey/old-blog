@@ -673,9 +673,7 @@ a.page-link[href="/resume/"] { background: #be232f; padding: 10px; color: white;
 
 * { font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important; }
 
-.post-meta-description { display: none; }
-
-@media screen and (min-width: 800px) { .post-list { display: flex; flex-direction: row; flex-wrap: wrap; gap: 4%; } .post-list > li { border-radius: 0px !important; width: 48%; } .post-list > li .Box { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; } .post-list > li .Box div { width: 100%; display: flex !important; align-items: center; justify-content: center; } .post-list > li .Box img { max-height: 300px; } .post-list > li .post-meta { position: absolute; bottom: -7px; right: 0px; background: grey; z-index: 10000; color: white; padding: 2px; font-size: 1rem; } }
+@media screen and (min-width: 800px) { .post-list { display: flex; flex-direction: row; flex-wrap: wrap; gap: 4%; } .post-list > li { border-radius: 0px !important; width: 48%; } .post-list > li .Box { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; } .post-list > li .Box div { width: 100%; display: flex !important; flex-direction: column; align-items: center; justify-content: center; } .post-list > li .Box img { max-height: 300px; } .post-list > li .post-meta { position: absolute; bottom: -7px; right: 0px; background: grey; z-index: 10000; color: white; padding: 2px; font-size: 1rem; } }
 
 .page-link { padding: 5px !important; border-radius: 5px; text-decoration: none !important; }
 
