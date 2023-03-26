@@ -3,10 +3,10 @@ layout: post
 comments: true
 description: 
 categories: [configuration-management]
-last_modified_at: 2022-03-26T20:52:08.052481
+last_modified_at: 2023-03-26T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/avoid-or-mitigate-deleting
-title: Easing the process of DB versioning & migration tool adoption
+title: Manage Configuration Better By Avoiding Deleting or Making it Last Step
 ---
 
 I have tried this in the past.
