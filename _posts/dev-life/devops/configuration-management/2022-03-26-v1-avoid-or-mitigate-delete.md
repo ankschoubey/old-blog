@@ -30,7 +30,7 @@ kubectl get pods| awk '{print $1}` | kubectl delete pod -n {namespace}
 
 The **right script** would have been to grep first:
 
-```
+```bash
 kubectl apply -f config.yaml
 kubectl get pods| awk '{print $1} | grep {searchTerm} | kubectl delete pod -n {namespace}`
 ```
