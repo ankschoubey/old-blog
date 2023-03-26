@@ -169,14 +169,14 @@ window.onload = wrap_img;
 <p>My <strong>wrong script</strong>:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl apply <span class="nt">-f</span> config.yaml
-kubectl get pods| <span class="nb">awk</span> <span class="s1">'{print $1}` | kubectl delete pod -n {namespace}
-</span></code></pre></div></div>
+kubectl get pods| <span class="nb">awk</span> <span class="s1">'{print $1}'</span> | kubectl delete pod <span class="nt">-n</span> <span class="o">{</span>namespace<span class="o">}</span>
+</code></pre></div></div>
 
 <p>The <strong>right script</strong> would have been to grep first:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl apply <span class="nt">-f</span> config.yaml
-kubectl get pods| <span class="nb">awk</span> <span class="s1">'{print $1} | grep {searchTerm} | kubectl delete pod -n {namespace}`
-</span></code></pre></div></div>
+kubectl get pods| <span class="nb">awk</span> <span class="s1">'{print $1}'</span> | <span class="nb">grep</span> <span class="o">{</span>searchTerm<span class="o">}</span> | kubectl delete pod <span class="nt">-n</span> <span class="o">{</span>namespace<span class="o">}</span>
+</code></pre></div></div>
 
 <p>There was a <strong>better solution</strong>:</p>
 
