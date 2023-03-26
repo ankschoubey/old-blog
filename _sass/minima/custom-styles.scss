@@ -379,9 +379,13 @@ a.page-link[href="/resume/"] {
     }
 
     .post-list > li {
+        
         border-radius: 0px !important;
         width: 48%;
         .Box{
+            a{
+                text-decoration: none !important;
+            }
             display: flex;
             flex-direction: column;
             align-items: center;
