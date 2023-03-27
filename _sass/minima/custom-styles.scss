@@ -368,6 +368,10 @@ a.page-link[href="/resume/"] {
     font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
 }
 
+p {
+    font-size: 1.125rem;
+}
+
 // Front Page Columns
 
 @media screen and (min-width: 800px) {
@@ -376,6 +380,9 @@ a.page-link[href="/resume/"] {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 4%;
+        p {
+            font-size: 1.125rem !important;
+        }
     }
 
     .post-list > li {
@@ -426,7 +433,7 @@ a.page-link[href="/resume/"] {
     background: #3a4d78;
 }
 .post-link{
-    font-weight: 500;
+    font-weight: 600;
     /* color: #adc9e1 !important; */
     text-decoration: none !important;
 }
