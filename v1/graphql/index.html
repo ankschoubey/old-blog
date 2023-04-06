@@ -167,21 +167,17 @@ window.onload = wrap_img;
 <a href="#advantages-of-graphql-for-consumerclient">Advantages of GraphQL for Consumer/Client</a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#the-client-gets-only-the-fields-it-wants">The client gets only the fields it wants</a></li>
+<li class="toc-entry toc-h3"><a href="#the-client-can-ask-for-different-types-of-data-within-the-same-request">The client can ask for different types of data within the same request</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h1">
-<a href="#the-client-can-ask-for-different-types-of-data-within-the-same-request">The client can ask for different types of data within the same request</a>
-<ul>
 <li class="toc-entry toc-h2">
 <a href="#types-of-graphql-queries">Types of GraphQL queries</a>
 <ul>
-<li class="toc-entry toc-h4"><a href="#the-mutation-query">The mutation query</a></li>
-<li class="toc-entry toc-h4"><a href="#variables">Variables</a></li>
+<li class="toc-entry toc-h3"><a href="#the-mutation-query">The mutation query</a></li>
+<li class="toc-entry toc-h3"><a href="#variables">Variables</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2"><a href="#how-does-a-graph-ql-work-technically">How does a Graph QL work technically?</a></li>
-</ul>
-</li>
 </ul>
 <p><img src="/images/v1-graphql.png" alt="GraphQL Logo"></p>
 
@@ -258,8 +254,8 @@ window.onload = wrap_img;
 }
 </code></pre></div></div>
 
-<h1 id="the-client-can-ask-for-different-types-of-data-within-the-same-request">
-<a class="anchor" href="#the-client-can-ask-for-different-types-of-data-within-the-same-request" aria-hidden="true"><span class="octicon octicon-link"></span></a>The client can ask for different types of data within the same request</h1>
+<h3 id="the-client-can-ask-for-different-types-of-data-within-the-same-request">
+<a class="anchor" href="#the-client-can-ask-for-different-types-of-data-within-the-same-request" aria-hidden="true"><span class="octicon octicon-link"></span></a>The client can ask for different types of data within the same request</h3>
 
 <p>GraphQL allows for fetching multiple requests at once. For example, you can have a query like below where both User data and Jobs data are being fetched</p>
 
@@ -311,8 +307,8 @@ window.onload = wrap_img;
   <li>Variables</li>
 </ol>
 
-<h4 id="the-mutation-query">
-<a class="anchor" href="#the-mutation-query" aria-hidden="true"><span class="octicon octicon-link"></span></a>The mutation query</h4>
+<h3 id="the-mutation-query">
+<a class="anchor" href="#the-mutation-query" aria-hidden="true"><span class="octicon octicon-link"></span></a>The mutation query</h3>
 
 <div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">mutate</span><span class="p">{</span><span class="w">
   </span><span class="n">createUser</span><span class="p">(</span><span class="err">$</span><span class="n">username</span><span class="p">){</span><span class="w">
@@ -321,8 +317,8 @@ window.onload = wrap_img;
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<h4 id="variables">
-<a class="anchor" href="#variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variables</h4>
+<h3 id="variables">
+<a class="anchor" href="#variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variables</h3>
 
 <div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="n">username</span><span class="p">:</span><span class="w"> </span><span class="err">"</span><span class="n">Tony</span><span class="w"> </span><span class="n">Stark</span><span class="err">"</span><span class="w">
