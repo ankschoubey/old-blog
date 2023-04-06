@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-04-06T10:47:19-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">GraphQL</title><link href="https://www.ankushchoubey.com/v1/graphql/" rel="alternate" type="text/html" title="GraphQL" /><published>2023-04-06T00:00:00-05:00</published><updated>2023-04-06T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-graphql</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/graphql/"><![CDATA[<p><img src="/images/v1-graphql.png" alt="GraphQL Logo" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-04-06T10:58:37-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">GraphQL - Understanding its Advantages, Query Types, and Technical Functioning</title><link href="https://www.ankushchoubey.com/v1/graphql/" rel="alternate" type="text/html" title="GraphQL - Understanding its Advantages, Query Types, and Technical Functioning" /><published>2023-04-06T00:00:00-05:00</published><updated>2023-04-06T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-graphql</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/graphql/"><![CDATA[<p><img src="/images/v1-graphql.png" alt="GraphQL Logo" /></p>
 
 <p>I recently consume GraphQL queries. Here’s what I learned:</p>
 
@@ -94,11 +94,11 @@
 
 <h2 id="types-of-graphql-queries">Types of GraphQL queries</h2>
 
-<p>There are two main types of GraphQL Queries</p>
+<p>There are two main types of GraphQL Queries:</p>
 
 <ol>
-  <li>Query → Get data</li>
-  <li>Mutation → Modify Data</li>
+  <li><strong>Query</strong>: retrieves data from the server.</li>
+  <li><strong>Mutation</strong>: modifies data on the server.</li>
 </ol>
 
 <p>I have explained the query above. So here I’ll explain Mutation.</p>
@@ -141,7 +141,7 @@
 
 <h2 id="how-does-a-graph-ql-work-technically">How does a Graph QL work technically?</h2>
 
-<p>You have a single <strong>POST</strong> endpoint (not multiple endpoints like rest) to which you send request data in this format:</p>
+<p>GraphQL operates on a single endpoint, typically <code class="language-plaintext highlighter-rouge">/graphql</code>, that receives <code class="language-plaintext highlighter-rouge">POST</code> requests with a <code class="language-plaintext highlighter-rouge">JSON</code> body containing a <code class="language-plaintext highlighter-rouge">query</code> field, which specifies the data to be retrieved or modified, and an optional <code class="language-plaintext highlighter-rouge">variables</code> field for passing in arguments.</p>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"schema which the client wants"</span><span class="p">,</span><span class="w">
@@ -151,7 +151,7 @@
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<p>And you’ll receive the response is this format</p>
+<p>The server then returns a JSON response with a data field containing the requested data.</p>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -160,7 +160,9 @@
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<p>Ideally, you would have very limited headers like <code class="language-plaintext highlighter-rouge">authorization</code>.</p>]]></content><author><name></name></author><category term="web-development" /><category term="graphql" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-graphql.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-graphql.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Release and Development Snapshot Version Semantic Versioning with Maven</title><link href="https://www.ankushchoubey.com/v1/release-semantic-versioning" rel="alternate" type="text/html" title="Release and Development Snapshot Version Semantic Versioning with Maven" /><published>2023-03-30T00:00:00-05:00</published><updated>2023-03-30T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-release-semantic-versioning</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/release-semantic-versioning"><![CDATA[<p>Semantic Versioning allows us to understand the nature of a release by comparing the newly released version with the previous version.</p>
+<p>Ideally, you would have very limited headers like <code class="language-plaintext highlighter-rouge">authorization</code>.</p>
+
+<p>Overall, GraphQL provides a more efficient and flexible way to query and modify data, making it a popular choice for modern API development.</p>]]></content><author><name></name></author><category term="web-development" /><category term="graphql" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-graphql.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-graphql.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Release and Development Snapshot Version Semantic Versioning with Maven</title><link href="https://www.ankushchoubey.com/v1/release-semantic-versioning" rel="alternate" type="text/html" title="Release and Development Snapshot Version Semantic Versioning with Maven" /><published>2023-03-30T00:00:00-05:00</published><updated>2023-03-30T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-release-semantic-versioning</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/release-semantic-versioning"><![CDATA[<p>Semantic Versioning allows us to understand the nature of a release by comparing the newly released version with the previous version.</p>
 
 <p>Each version number would comprise of 3 numbers. <code class="language-plaintext highlighter-rouge">major.minor.patch</code></p>
 
