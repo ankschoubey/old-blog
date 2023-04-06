@@ -1,4 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-03-31T23:23:43-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Release and Development Snapshot Version Semantic Versioning with Maven</title><link href="https://www.ankushchoubey.com/v1/release-semantic-versioning" rel="alternate" type="text/html" title="Release and Development Snapshot Version Semantic Versioning with Maven" /><published>2023-03-30T00:00:00-05:00</published><updated>2023-03-30T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-release-semantic-versioning</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/release-semantic-versioning"><![CDATA[<p>Semantic Versioning allows us to understand the nature of a release by comparing the newly released version with the previous version.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-04-06T10:39:30-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">GraphQL</title><link href="https://www.ankushchoubey.com/v1/graphql/" rel="alternate" type="text/html" title="GraphQL" /><published>2023-04-06T00:00:00-05:00</published><updated>2023-04-06T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-graphql</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/graphql/"><![CDATA[<p><img src="/images/v1-graphql.png" alt="GraphQL Logo" /></p>
+
+<p>I recently consume GraphQL queries. Here’s what I learned:</p>
+
+<h2 id="what-is-graphql">What is GraphQL?</h2>
+
+<p>GraphQL is a way of getting data over HTTP in the form of JSON where the client has control over what data it receives.</p>
+
+<p>While there are other JSON + HTTP standards, like Rest (for resources), OData (especially for higher complexity), etc.</p>
+
+<p>GraphQL is what I believe is easier to implement for both client and server.</p>
+
+<h2 id="advantages-of-graphql-for-consumerclient">Advantages of GraphQL for Consumer/Client</h2>
+
+<h3 id="the-client-gets-only-the-fields-it-wants">The client gets only the fields it wants</h3>
+
+<p>Suppose you have a <code class="language-plaintext highlighter-rouge">User</code> record with the following schema,</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">User</span><span class="o">{</span>
+  <span class="nc">String</span> <span class="n">userId</span><span class="o">;</span>
+  <span class="nc">String</span> <span class="n">name</span><span class="o">;</span>
+  <span class="nc">String</span> <span class="n">address</span><span class="o">;</span>
+  <span class="nc">String</span> <span class="n">education</span><span class="o">;</span>
+  <span class="o">...</span><span class="na">thousand</span> <span class="n">other</span> <span class="n">fields</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>You can define a GraphQL schema like this. This is the format the server can give data in:</p>
+
+<div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">type</span><span class="w"> </span><span class="n">query</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">user</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="n">User</span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="k">type</span><span class="w"> </span><span class="n">User</span><span class="p">{</span><span class="w">
+  </span><span class="n">userId</span><span class="p">,</span><span class="w">
+  </span><span class="n">name</span><span class="p">,</span><span class="w">
+  </span><span class="n">address</span><span class="p">,</span><span class="w">
+  </span><span class="n">education</span><span class="p">,</span><span class="w">
+  </span><span class="err">...</span><span class="n">thousand</span><span class="w"> </span><span class="n">other</span><span class="w"> </span><span class="n">fields</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Now the client can decide what data it actually needs.</p>
+
+<p>The client will write the query as follows</p>
+
+<div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">query</span><span class="p">{</span><span class="w">
+  </span><span class="n">user</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">id</span><span class="p">,</span><span class="w">
+    </span><span class="n">name</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Here the client will receive only the list of <code class="language-plaintext highlighter-rouge">{id, name}</code> and not other fields like <code class="language-plaintext highlighter-rouge">{address, education}</code>. Therefore, ideally,</p>
+
+<ul>
+  <li>The payload size is less. So network transmission is ideally fast.</li>
+  <li>Processing of data is fast, as certain fields that are not to be fetched can be ignored. For example, suppose some field like <code class="language-plaintext highlighter-rouge">image</code> takes a lot of processing to generate. If the client isn’t asking for <code class="language-plaintext highlighter-rouge">image</code>, we don’t need to process that field.</li>
+</ul>
+
+<p>This also includes nested items</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>query{
+  user{
+    name: {
+      firstName
+    }
+  }
+}
+</code></pre></div></div>
+
+<h1 id="the-client-can-ask-for-different-types-of-data-within-the-same-request">The client can ask for different types of data within the same request</h1>
+
+<p>GraphQL allows for fetching multiple requests at once. For example, you can have a query like below where both User data and Jobs data are being fetched</p>
+
+<div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">query</span><span class="p">{</span><span class="w">
+  </span><span class="n">users</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">id</span><span class="p">,</span><span class="w">
+    </span><span class="n">name</span><span class="p">,</span><span class="w">
+    </span><span class="n">education</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+  </span><span class="n">jobs</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">name</span><span class="p">,</span><span class="w">
+    </span><span class="n">publishedDate</span><span class="p">,</span><span class="w">
+    </span><span class="n">educationQualificationRequired</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>‌</p>
+
+<p>This would mean multiple records would be fetched in a single request.</p>
+
+<h2 id="types-of-graphql-queries">Types of GraphQL queries</h2>
+
+<p>There are two main types of GraphQL Queries</p>
+
+<ol>
+  <li>Query → Get data</li>
+  <li>Mutation → Modify Data</li>
+</ol>
+
+<p>I have explained the query above. So here I’ll explain Mutation.</p>
+
+<p>Suppose you want to add a new user</p>
+
+<p>You can create a GraphQL schema like this</p>
+
+<div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">type</span><span class="w"> </span><span class="n">mutation</span><span class="p">{</span><span class="w">
+  </span><span class="n">createUser</span><span class="p">(</span><span class="nv">$username</span><span class="p">):</span><span class="w"> </span><span class="n">User</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>The above schema means that <code class="language-plaintext highlighter-rouge">createUser</code> when called with a username will return the <code class="language-plaintext highlighter-rouge">User</code> object.</p>
+
+<p>The client mutation query would involve two parts.</p>
+
+<ol>
+  <li>The query</li>
+  <li>Variables</li>
+</ol>
+
+<h4 id="the-mutation-query">The mutation query</h4>
+
+<div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">mutate</span><span class="p">{</span><span class="w">
+  </span><span class="n">createUser</span><span class="p">(</span><span class="err">$</span><span class="n">username</span><span class="p">){</span><span class="w">
+    </span><span class="n">id</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="variables">Variables</h4>
+
+<div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="n">username</span><span class="p">:</span><span class="w"> </span><span class="err">"</span><span class="n">Tony</span><span class="w"> </span><span class="n">Stark</span><span class="err">"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Here, <code class="language-plaintext highlighter-rouge">createUser</code> would be called with the <code class="language-plaintext highlighter-rouge">username</code> as “Tony Stark” and only the <code class="language-plaintext highlighter-rouge">id</code> would be returned. The client can choose to return other values like <code class="language-plaintext highlighter-rouge">name</code> as <code class="language-plaintext highlighter-rouge">createUser</code> supports them too.</p>
+
+<h2 id="how-does-a-graph-ql-work-technically">How does a Graph QL work technically?</h2>
+
+<p>You have a single <strong>POST</strong> endpoint (not multiple endpoints like rest) to which you send request data in this format:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"schema which the client wants"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"variables"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"in case your GraphQL"</span><span class="p">:</span><span class="w"> </span><span class="s2">"has multiple queries"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>And you’ll receive the response is this format</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"whatever"</span><span class="p">:</span><span class="w"> </span><span class="s2">"was defined in your schema"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Ideally, you would have very limited headers like <code class="language-plaintext highlighter-rouge">authorization</code>.</p>]]></content><author><name></name></author><category term="web-development" /><category term="graphql" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-graphql.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-graphql.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Release and Development Snapshot Version Semantic Versioning with Maven</title><link href="https://www.ankushchoubey.com/v1/release-semantic-versioning" rel="alternate" type="text/html" title="Release and Development Snapshot Version Semantic Versioning with Maven" /><published>2023-03-30T00:00:00-05:00</published><updated>2023-03-30T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-release-semantic-versioning</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/release-semantic-versioning"><![CDATA[<p>Semantic Versioning allows us to understand the nature of a release by comparing the newly released version with the previous version.</p>
 
 <p>Each version number would comprise of 3 numbers. <code class="language-plaintext highlighter-rouge">major.minor.patch</code></p>
 
@@ -694,26 +856,4 @@ Then user should be logged out</p>
 
 <p>Government steps in between to provide facilities to both businesses and individuals. And to get their money they tax both individuals and businesses.</p>
 
-<p>wealthIsAlwaysTransfered because only government can generate more money. - Andrew Tate</p>]]></content><author><name></name></author><category term="crash-course" /><category term="econ" /><category term="summary" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">One service should serve multiple mediums (REST, Kafka, gRPC, etc)</title><link href="https://www.ankushchoubey.com/v1/separate-service/" rel="alternate" type="text/html" title="One service should serve multiple mediums (REST, Kafka, gRPC, etc)" /><published>2023-03-10T00:00:00-06:00</published><updated>2023-03-10T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/v1-separate-domain-and-connector</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/separate-service/"><![CDATA[<p>In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.</p>
-
-<p>A Service that handles tasks of a RestController isn’t very different from a rest controller.</p>
-
-<p>We should separate out the Service from the Rest Controllers because we want to be able to re-use the service.</p>
-
-<p>But if Service handles rest rest controller responses, it isn’t very different.</p>
-
-<h2 id="an-ideal-service">An ideal service</h2>
-
-<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;h=740" alt="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;h=740" /></p>
-
-<p>Here’s how you separate out connectors from the business logic.</p>
-
-<p>Connector are mediums we use to communicate with the the outside world. Examples of connectors are Rest API connector (like RestController or RouterFunction+it’s Handler), Kafka Connector.</p>
-
-<p>Services are code that implement the business logic.</p>
-
-<p>All conversion from Entity to DTO or DTO to entity (i.e handle the request event and provide response in format needed by the client) should be handles at Rest API Connector.</p>
-
-<p>The Rest API Connector is responsible for calling the service method between the request and the response.</p>
-
-<p>For the service method, REST API connector is a downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever is it’s format.</p>]]></content><author><name></name></author><category term="web-development" /><category term="ddd" /><category term="clean-code" /><summary type="html"><![CDATA[Your main business logic resides in your service. All other things are connectors]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;amp;h=740" /><media:content medium="image" url="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;amp;h=740" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>wealthIsAlwaysTransfered because only government can generate more money. - Andrew Tate</p>]]></content><author><name></name></author><category term="crash-course" /><category term="econ" /><category term="summary" /><summary type="html"><![CDATA[]]></summary></entry></feed>
