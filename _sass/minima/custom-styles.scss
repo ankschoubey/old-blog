@@ -271,6 +271,9 @@
 }
 .post-list > li:hover{
     border-color: #0074d9;
+    .img-div{
+        border-color: #0074d9 !important;
+    }
 }
 a.page-link[href="/resume/"] {
     background: #be232f;
@@ -357,11 +360,15 @@ a{
             width: 100%;
             font-size: 1rem !important;
         }
+        .img-div{
+            padding: 0px !important;
+            border-bottom: 1px solid #cdcdcd;
+        }
     }
 
-    .img-div{
-        padding: 0px !important;
-    }
+    
+
+    
 
   }
 
