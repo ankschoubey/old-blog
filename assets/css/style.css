@@ -601,7 +601,7 @@ p code { font-size: 19px; }
 
 .bdd { background-color: #66aa3b; }
 
-.post-list > li { border: 1px solid #00000029; border-radius: 10px; }
+.post-list > li { border: 1px solid #00000029; border-radius: 10px; overflow: auto; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important; }
 
 .post-list > li:hover { border-color: #0074d9; }
 
