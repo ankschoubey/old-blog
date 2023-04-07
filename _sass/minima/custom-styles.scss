@@ -18,11 +18,7 @@
     position: sticky;
     top: 0px;
     background: white;
-    background: #0f172a;
     z-index: 1 !important;
-    .site-nav{
-        background: #0f172a;
-    }
     border-bottom: none;
     border-top: none;
 }
@@ -326,27 +322,6 @@ img.image-preview:hover {
     border: 1px solid #00000029;
     border-radius: 10px;
 }
-
-.custom-post-card-toc{
-    background: #00000014;
-    font-size: medium;
-    display: none;
-}
-.custom-post-card-toc > ul:before {
-    content: "Table of Contents";
-    font-family: cursive;
-    font-style: italic;
-    padding: 0px;
-    position: relative;
-    left: -21px;
-}
-
-.custom-post-card-toc a {
-    color: grey !important;
-}
-.custom-post-card-toc strong {
-    color: black !important;
-}
 a.page-link[href="/resume/"] {
     background: #be232f;
     padding: 10px;
@@ -398,6 +373,8 @@ p {
             align-items: center;
             justify-content: center;
             height: 100%;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05) !important;
+            border-radius: 10px !important;
             div {
                 width: 100%;
                 display: flex !important;
@@ -431,9 +408,10 @@ p {
 }
 .page-link:hover{
     background: #3a4d78;
+    color: white;
 }
 .post-link{
-    font-weight: 600;
+    font-weight: 500;
     /* color: #adc9e1 !important; */
     text-decoration: none !important;
 }
