@@ -493,9 +493,7 @@ p code { font-size: 19px; }
 
 .active:after { content: "\2796"; /* Unicode character for "minus" sign (-) */ }
 
-.site-header { position: sticky; top: 0px; background: white; background: #0f172a; z-index: 1 !important; border-bottom: none; border-top: none; }
-
-.site-header .site-nav { background: #0f172a; }
+.site-header { position: sticky; top: 0px; background: white; z-index: 1 !important; border-bottom: none; border-top: none; }
 
 .site-title:before { content: "aaa"; text-decoration: none !important; color: transparent !important; background: url(/images/profile.png); background-size: 2rem 2rem; background-repeat: no-repeat; background-position: center; }
 
@@ -621,14 +619,6 @@ img.image-preview:hover { transform: scale(1.05); }
 
 .post-list > li { content-visibility: auto; contain-intrinsic-size: 0 200px; border: 1px solid #00000029; border-radius: 10px; }
 
-.custom-post-card-toc { background: #00000014; font-size: medium; display: none; }
-
-.custom-post-card-toc > ul:before { content: "Table of Contents"; font-family: cursive; font-style: italic; padding: 0px; position: relative; left: -21px; }
-
-.custom-post-card-toc a { color: grey !important; }
-
-.custom-post-card-toc strong { color: black !important; }
-
 a.page-link[href="/resume/"] { background: #be232f; padding: 10px; color: white; }
 
 .Toast { width: 100% !important; max-width: none !important; }
@@ -639,13 +629,13 @@ a.page-link[href="/resume/"] { background: #be232f; padding: 10px; color: white;
 
 p { font-size: 1.125rem; }
 
-@media screen and (min-width: 800px) { .post-list { display: flex; flex-direction: row; flex-wrap: wrap; gap: 4%; } .post-list p { font-size: 1.125rem !important; } .post-list > li { border-radius: 0px !important; width: 48%; } .post-list > li .Box { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; } .post-list > li .Box a { text-decoration: none !important; } .post-list > li .Box div { width: 100%; display: flex !important; flex-direction: column; align-items: center; justify-content: center; } .post-list > li .Box img { max-height: 300px; } .post-list > li .post-meta { position: absolute; bottom: -7px; right: 0px; background: grey; z-index: 10000; color: white; padding: 2px; font-size: 1rem; } }
+@media screen and (min-width: 800px) { .post-list { display: flex; flex-direction: row; flex-wrap: wrap; gap: 4%; } .post-list p { font-size: 1.125rem !important; } .post-list > li { border-radius: 0px !important; width: 48%; } .post-list > li .Box { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important; border-radius: 10px !important; } .post-list > li .Box a { text-decoration: none !important; } .post-list > li .Box div { width: 100%; display: flex !important; flex-direction: column; align-items: center; justify-content: center; } .post-list > li .Box img { max-height: 300px; } .post-list > li .post-meta { position: absolute; bottom: -7px; right: 0px; background: grey; z-index: 10000; color: white; padding: 2px; font-size: 1rem; } }
 
 .page-link { padding: 5px !important; border-radius: 5px; text-decoration: none !important; }
 
-.page-link:hover { background: #3a4d78; }
+.page-link:hover { background: #3a4d78; color: white; }
 
-.post-link { font-weight: 600; /* color: #adc9e1 !important; */ text-decoration: none !important; }
+.post-link { font-weight: 500; /* color: #adc9e1 !important; */ text-decoration: none !important; }
 
 img { background: white; }
 
