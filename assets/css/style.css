@@ -639,7 +639,7 @@ p { font-size: 1.125rem; }
 
 img { background: white; }
 
-a.site-title { text-decoration: none !important; padding: 0px 5px; margin: 5px 0px; border-radius: 41px; line-height: 43px; }
+a.site-title { text-decoration: none !important; padding: 0px 5px; margin: 5px 0px; border-radius: 6px; line-height: 43px; }
 
 a.site-title:hover { background: #3a4d78; color: white; }
 
