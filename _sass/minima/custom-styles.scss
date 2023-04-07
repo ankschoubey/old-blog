@@ -79,15 +79,6 @@
     box-shadow: none !important;
     border: none !important;
 }
-img.image-preview{
-    // transition-delay: 1s;
-    transition: width 0.3s, height 0.3s, transform 0.3s;
-}
-img.image-preview:hover {
-    transform: scale(1.05);
-    // transition: width 2s, height 2s;
-    // transition-timing-function: ease;
-}
 .site-footer{
     border: none;
 }
@@ -275,10 +266,11 @@ img.image-preview:hover {
     }
 
 .post-list > li  {
-    content-visibility: auto;
-    contain-intrinsic-size: 0 200px;
     border: 1px solid #00000029;
     border-radius: 10px;
+}
+.post-list > li:hover{
+    border-color: #0074d9;
 }
 a.page-link[href="/resume/"] {
     background: #be232f;
@@ -299,6 +291,8 @@ a.page-link[href="/resume/"] {
 }
 * {
     font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    transform-origin: center 201px;
+    transition: all .4s cubic-bezier(.19,1,.22,1);
 }
 
 p {
