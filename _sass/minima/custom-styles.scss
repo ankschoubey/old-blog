@@ -388,14 +388,17 @@ p {
             }
         }
         .post-meta{
-            position: absolute;
-            bottom: -7px;
-            right: 0px;
-            background: grey;
-            z-index: 10000;
-            color: white;
-            padding: 2px;
-            font-size: 1rem;
+            // position: absolute;
+            // bottom: -7px;
+            // right: 0px;
+            // background: grey;
+            // z-index: 10000;
+            // color: white;
+            // padding: 2px;
+            // font-size: 1rem;
+            float: left;
+            width: 100%;
+            font-size: 1rem !important;
         }
     }
 
@@ -414,6 +417,7 @@ p {
     font-weight: 500;
     /* color: #adc9e1 !important; */
     text-decoration: none !important;
+    font-size: 1.3rem !important;
 }
 img{
     background: white;
