@@ -87,6 +87,10 @@ These 4 vehicles help me prioritize, accelerate, minimize and push through my co
     .core-values-box.col-md-6 {
         padding: 22px;
         border: 1px solid #00000029;
+        border-radius: 10px;
         /*background-color: #1b2335;*/
+    }
+    .core-values-box:hover{
+        border-color: #0074d9;
     }
 </style>
