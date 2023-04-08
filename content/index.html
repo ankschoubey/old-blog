@@ -132,14 +132,22 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
+        <header class="post-header" style="
+    background: url(/images/content.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 40px;
+">
+  <div style="backdrop-filter: blur(200px);">
     <h1 class="post-title p-name" itemprop="name headline">The lifetime of 'Content' is getting smaller</h1>
 <p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-09-10T00:00:00-05:00" itemprop="datePublished">
         Sep 10, 2020
       </time>
-       • <span class="read-time" title="Estimated read time">
+      • <span class="read-time" title="Estimated read time">
     
     
       2 min read
@@ -147,19 +155,21 @@ window.onload = wrap_img;
 </span></p>
 
     
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
       
-        <a class="category-tags-link" href="/categories/#business">business</a>
-         
+      <a class="category-tags-link" href="/categories/#business">business</a>
+       
       
-        <a class="category-tags-link" href="/categories/#marketing">marketing</a>
-        
+      <a class="category-tags-link" href="/categories/#marketing">marketing</a>
       
-      </p>
+      
+    </p>
     
 
-    </header>
+    </div>
 
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h2"><a href="#competition-and-similar-content">Competition and Similar Content</a></li>
@@ -250,7 +260,6 @@ window.onload = wrap_img;
 </noscript>
 <a class="u-url" href="/content/" hidden></a>
 </article>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

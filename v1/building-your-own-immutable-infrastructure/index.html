@@ -128,14 +128,22 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
+        <header class="post-header" style="
+    background: url();
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 40px;
+">
+  <div style="backdrop-filter: blur(200px);">
     <h1 class="post-title p-name" itemprop="name headline">Immutable Configuration and Infrastructure - What they are and Where Can You Build Your Own</h1>
 <p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-04-07T00:00:00-05:00" itemprop="datePublished">
         Apr 7, 2023
       </time>
-       • <span class="read-time" title="Estimated read time">
+      • <span class="read-time" title="Estimated read time">
     
     
       2 min read
@@ -143,19 +151,21 @@ window.onload = wrap_img;
 </span></p>
 
     
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
       
-        <a class="category-tags-link" href="/categories/#web-development">web-development</a>
-         
+      <a class="category-tags-link" href="/categories/#web-development">web-development</a>
+       
       
-        <a class="category-tags-link" href="/categories/#software-architecture">software-architecture</a>
-        
+      <a class="category-tags-link" href="/categories/#software-architecture">software-architecture</a>
       
-      </p>
+      
+    </p>
     
 
-    </header>
+    </div>
 
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
     <p>In a previous post, I talked about why <a href="https://www.ankushchoubey.com/immutable-objects/" title="‌">immutability is so important</a>. After writing that post, I came to see immutability in different forms at many places. One such place is Configuration and Immutable Infrastructure.</p>
 
@@ -238,7 +248,6 @@ window.onload = wrap_img;
 </noscript>
 <a class="u-url" href="/v1/building-your-own-immutable-infrastructure/" hidden></a>
 </article>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

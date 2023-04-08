@@ -132,15 +132,23 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
+        <header class="post-header" style="
+    background: url(/images/v1-prometheus.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 40px;
+">
+  <div style="backdrop-filter: blur(200px);">
     <h1 class="post-title p-name" itemprop="name headline">The Prometheus Cheatsheet</h1>
 <p class="page-description">The monitoring and time series database</p>
 <p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-11-23T00:00:00-06:00" itemprop="datePublished">
         Nov 23, 2022
       </time>
-       • <span class="read-time" title="Estimated read time">
+      • <span class="read-time" title="Estimated read time">
     
     
       1 min read
@@ -148,19 +156,21 @@ window.onload = wrap_img;
 </span></p>
 
     
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
       
-        <a class="category-tags-link" href="/categories/#observability">observability</a>
-         
+      <a class="category-tags-link" href="/categories/#observability">observability</a>
+       
       
-        <a class="category-tags-link" href="/categories/#prometheus">prometheus</a>
-        
+      <a class="category-tags-link" href="/categories/#prometheus">prometheus</a>
       
-      </p>
+      
+    </p>
     
 
-    </header>
+    </div>
 
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
     <h2 id="what-is-prometheus">What is Prometheus?</h2>
 
@@ -235,7 +245,6 @@ For example:</p>
 </noscript>
 <a class="u-url" href="/v1/prometheus" hidden></a>
 </article>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

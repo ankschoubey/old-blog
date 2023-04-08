@@ -132,15 +132,23 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
+        <header class="post-header" style="
+    background: url(/images/v1-why-i-write.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 40px;
+">
+  <div style="backdrop-filter: blur(200px);">
     <h1 class="post-title p-name" itemprop="name headline">Keep messages unread</h1>
 <p class="page-description">Subtle art of not giving a fuck about stupid things</p>
 <p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-12-15T00:00:00-06:00" itemprop="datePublished">
         Dec 15, 2022
       </time>
-       • <span class="read-time" title="Estimated read time">
+      • <span class="read-time" title="Estimated read time">
     
     
       1 min read
@@ -148,19 +156,21 @@ window.onload = wrap_img;
 </span></p>
 
     
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
       
-        <a class="category-tags-link" href="/categories/#peace">peace</a>
-         
+      <a class="category-tags-link" href="/categories/#peace">peace</a>
+       
       
-        <a class="category-tags-link" href="/categories/#non-technical">non-technical</a>
-        
+      <a class="category-tags-link" href="/categories/#non-technical">non-technical</a>
       
-      </p>
+      
+    </p>
     
 
-    </header>
+    </div>
 
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
     <p>You don’t need to read every message, every email, every notification and every new video you receive.</p>
 
@@ -193,7 +203,6 @@ window.onload = wrap_img;
 </noscript>
 <a class="u-url" href="/v1/messages-unread" hidden></a>
 </article>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

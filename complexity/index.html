@@ -128,15 +128,23 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
+        <header class="post-header" style="
+    background: url();
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 40px;
+">
+  <div style="backdrop-filter: blur(200px);">
     <h1 class="post-title p-name" itemprop="name headline">Avoid inventing algorithms and data structures</h1>
 <p class="page-description">especially for maths</p>
 <p class="post-meta post-meta-title"><time class="dt-published" datetime="2019-12-25T00:00:00-06:00" itemprop="datePublished">
         Dec 25, 2019
       </time>
-       • <span class="read-time" title="Estimated read time">
+      • <span class="read-time" title="Estimated read time">
     
     
       2 min read
@@ -144,16 +152,18 @@ window.onload = wrap_img;
 </span></p>
 
     
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
       
-        <a class="category-tags-link" href="/categories/#clean-code">clean-code</a>
-        
+      <a class="category-tags-link" href="/categories/#clean-code">clean-code</a>
       
-      </p>
+      
+    </p>
     
 
-    </header>
+    </div>
 
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
     <ul id="toc" class="section-nav">
 <li class="toc-entry toc-h2"><a href="#keep-your-implementation-as-simple-as-possible">Keep your implementation as simple as possible</a></li>
@@ -285,7 +295,6 @@ If the implementation is easy to explain, it may be a good idea.</p>
 </noscript>
 <a class="u-url" href="/complexity/" hidden></a>
 </article>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

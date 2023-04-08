@@ -128,15 +128,23 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
+        <header class="post-header" style="
+    background: url();
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 40px;
+">
+  <div style="backdrop-filter: blur(200px);">
     <h1 class="post-title p-name" itemprop="name headline">Blind 75 Two Sums</h1>
 <p class="page-description">Make a map of item and index. Check if target - currentItem exists.</p>
 <p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-10-29T00:00:00-05:00" itemprop="datePublished">
         Oct 29, 2022
       </time>
-       • <span class="read-time" title="Estimated read time">
+      • <span class="read-time" title="Estimated read time">
     
     
       1 min read
@@ -144,19 +152,21 @@ window.onload = wrap_img;
 </span></p>
 
     
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
       
-        <a class="category-tags-link" href="/categories/#algorithm-problems">algorithm-problems</a>
-         
+      <a class="category-tags-link" href="/categories/#algorithm-problems">algorithm-problems</a>
+       
       
-        <a class="category-tags-link" href="/categories/#arrays">arrays</a>
-        
+      <a class="category-tags-link" href="/categories/#arrays">arrays</a>
       
-      </p>
+      
+    </p>
     
 
-    </header>
+    </div>
 
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
     <p><a href="https://leetcode.com/problems/two-sum/">Link</a></p>
 
@@ -260,7 +270,6 @@ One at the first element. Others will check other elements to the right of the f
 </noscript>
 <a class="u-url" href="/v1/two-sums" hidden></a>
 </article>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
