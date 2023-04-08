@@ -13,7 +13,7 @@ layout: base
   <img src="{{page.image}}" style="position: absolute; left:0px;height: 300px;object-fit: cover;">
   {%- endif -%}
 
-  <div style="backdrop-filter: blur(200px); position: absolute; left:0px;">
+  <div style="backdrop-filter: blur(200px); position: absolute; left:0px; padding: 0px 20px;">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     {%- if page.description -%}
     <p class="page-description">{{ page.description | escape }}</p>
