@@ -17,7 +17,7 @@ Be grateful inspite your suffering.
 **Part 1: Foundations**
 
 1.
-2.
+2. [Meditation is how you become peaceful all the time](/meditation)
 3. Why we only see what's bad or what we did bad. Hedonic adaptation.
 
 Time Assets Vs Liabilities
@@ -38,3 +38,5 @@ Time Assets Vs Liabilities
 5. [Keep messages unread](/v1/messages-unread): The subtle art of not giving a fuck about stupid things.
 
 10. Conclusion
+
+Photo by <a href="https://unsplash.com/@s1awek?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Slawek K</a> on <a href="https://unsplash.com/s/photos/sun-rise?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

@@ -14,6 +14,10 @@ permalink: /philosophy/core-values/truth
 4. What is truth? What is perspective? How multiple truths can co-exist?
 5. [Why we should strive to tell the truth always?](https://www.ankushchoubey.com/v1/truth/why-tell-the-truth)
 
+### Mental Models and Framework Thinking
+
+1. [Ethos Pathos Logos](/v1/truth/ethos-pathos-logos)
+
 ### **Part 2: Principles**
 
 1. Truth and good are tied.
@@ -40,3 +44,4 @@ Developing Vision
 **Part 4: Nuances**
 
 1. Is it truth? Or is it panic?
+
