@@ -5,13 +5,15 @@ layout: base
     display: flex;
     flex-direction: column;
     justify-content: end;
-    /* padding-left: 40px; */
+  {%- if page.image -%}
+    height: 300px;
+  {%- endif -%}
 ">
   {%- if page.image -%}
-  <img src="{{page.image}}" style="position: relative;max-height: 300px;object-fit: cover;">
+  <img src="{{page.image}}" style="position: absolute; left:0px;height: 300px;object-fit: cover;">
   {%- endif -%}
 
-  <div style="backdrop-filter: blur(200px);">
+  <div style="backdrop-filter: blur(200px); position: absolute; left:0px;">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     {%- if page.description -%}
     <p class="page-description">{{ page.description | escape }}</p>
