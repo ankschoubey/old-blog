@@ -2,15 +2,15 @@
 layout: base
 ---
 <header class="post-header" style="
-    background: url({{page.image}});
-    background-position: center;
-    background-size: cover;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding-left: 40px;
+    /* padding-left: 40px; */
 ">
+  {%- if page.image -%}
+  <img src="{{page.image}}" style="position: relative;max-height: 300px;object-fit: cover;">
+  {%- endif -%}
+
   <div style="backdrop-filter: blur(200px);">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     {%- if page.description -%}
@@ -58,8 +58,8 @@ layout: base
       endunless %}
     </div>
     {% endif -%}
-    {% endif -%}  </div>
-
+    {% endif -%}
+  </div>
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
