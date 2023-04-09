@@ -80,6 +80,13 @@ These 4 vehicles help me prioritize, accelerate, minimize and push through my co
             max-height: 300px !important;
         }
     }
+      @media screen and (max-width: 500px) {
+        .core-values-row{
+            flex-direction: row;
+        }
+      }
+
+    
     .core-values-row {
         display: flex;
         gap: 25px;
