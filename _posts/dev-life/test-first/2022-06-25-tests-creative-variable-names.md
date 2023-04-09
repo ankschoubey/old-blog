@@ -8,7 +8,7 @@ last-modified-purpose:
 permalink: /creative-variable-names/
 title: Writing cleaner tests with creative variable names
 image: /images/creative-variable-names.png
-toc: true
+toc: false
 ---
 
 Variable and method names provide a context that makes it easy to understand a piece of code. 

@@ -7,7 +7,7 @@ last_modified_at: 2022-07-24T20:52:08.052481
 last-modified-purpose:
 permalink: /reactive-streaming/
 title: When doing reactive programming, 'aim' to have streaming end-to-end
-toc: true
+toc: false
 ---
 
 A streaming microservice works on streams of data rather than waiting for entire data to load before performing operations.

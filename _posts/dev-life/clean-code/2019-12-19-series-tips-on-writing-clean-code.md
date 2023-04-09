@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 comments: true
 description: constructing the simplest possible code that would solve your problem resulting in an increase in productivity by producing higher quality in less time.

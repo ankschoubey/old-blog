@@ -7,7 +7,7 @@ last_modified_at: 2022-12-27T20:52:08.052481
 last-modified-purpose: added "Validate on the database"
 permalink: /pre-save-data-validation/
 title: Pre-save Data Validation
-toc: true
+toc: false
 ---
 
 It's imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.

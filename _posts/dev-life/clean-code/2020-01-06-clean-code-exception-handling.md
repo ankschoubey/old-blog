@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 comments: true
 description: and Logging with style

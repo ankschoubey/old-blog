@@ -7,7 +7,7 @@ last_modified_at: 2022-09-21T20:52:08.052481
 last-modified-purpose:
 permalink: /team-knowing-whom-to-contact/
 title: Increase collaboration by knowing whom to contact
-toc: true
+toc: false
 image: /images/team-knowing-whom-to-contact.jpg
 ---
 ![](/images/team-knowing-whom-to-contact.jpg)

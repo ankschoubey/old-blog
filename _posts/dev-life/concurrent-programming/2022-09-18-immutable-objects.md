@@ -7,7 +7,7 @@ last_modified_at: 2022-09-18T20:52:08.052481
 last-modified-purpose:
 permalink: /immutable-objects/
 title: Making Object Immutable for Concurrency
-toc: true
+toc: false
 image: /images/immutable-objects.jpg
 ---
 ![](/images/immutable-objects.jpg)

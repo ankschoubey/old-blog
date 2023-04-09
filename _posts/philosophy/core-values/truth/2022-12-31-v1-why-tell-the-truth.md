@@ -7,7 +7,7 @@ last_modified_at: 2022-12-31T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/truth/why-tell-the-truth
 title: Why we should strive to tell the truth always?
-toc: true
+toc: false
 ---
 
 ## **Living and speaking your truth makes you free**

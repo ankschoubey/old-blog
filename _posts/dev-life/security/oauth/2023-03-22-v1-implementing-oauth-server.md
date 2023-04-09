@@ -7,7 +7,7 @@ last_modified_at: 2023-03-22T20:52:08.052481
 last-modified-purpose: 
 permalink: /v1/implementing-oauth
 title: Implementing an OAuth Server Manually
-toc: true
+toc: false
 image: /images/implementing-oauth.png
 ---
 

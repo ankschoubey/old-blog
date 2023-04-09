@@ -7,7 +7,7 @@ last_modified_at: 2022-06-19T20:52:08.052481
 last-modified-purpose: added section "Be prepared early by maintaining notes"
 permalink: /effective-meetings/
 title: Running and Being Effective during Meetings
-toc: true
+toc: false
 ---
 
 A meeting is a place that can bring in new ideas and insights and save everyone's time and effort.

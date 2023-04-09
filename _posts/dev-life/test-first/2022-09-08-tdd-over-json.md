@@ -7,7 +7,7 @@ last_modified_at: 2022-09-08T20:52:08.052481
 last-modified-purpose:
 permalink: /tdd-over-json/
 title: TDD over JSON
-toc: true
+toc: false
 image: /images/tdd-over-json.jpg
 ---
 ![](/images/tdd-over-json.jpg)

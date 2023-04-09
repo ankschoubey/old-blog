@@ -7,7 +7,7 @@ last_modified_at: 2022-09-08T20:52:08.052481
 last-modified-purpose:
 permalink: /perfection/
 title: Perfection isn't an attainable goal. We are always a step closer to it.
-toc: true
+toc: false
 image: /images/perfection.svg
 ---
 ![](/images/perfection.svg)

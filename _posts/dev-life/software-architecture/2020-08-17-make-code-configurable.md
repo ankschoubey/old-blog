@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 comments: true
 description: Things that should take 0 coding effort

@@ -7,7 +7,7 @@ last_modified_at: 2022-11-22T20:52:08.052481
 last-modified-purpose: 
 permalink: /v1/get-out-of-house
 title: Getting out of the house is the way you become a responsible ball of energy.
-toc: true
+toc: false
 ---
 
 Our body has certain non-negotiable needs. Fulfilling these needs satisfies us and let's us perform at our best. Not fulfilling those needs makes us fail at areas that we are "supposed" to be good at. For instance, 

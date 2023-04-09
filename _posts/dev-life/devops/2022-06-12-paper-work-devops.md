@@ -8,7 +8,7 @@ last-modified-purpose:
 permalink: /paper-work-devops/
 title: Paper work is like DevOps
 hide: true
-toc: true
+toc: false
 ---
 
 I have never been fully able to get into the flow of DevOps. I always kept wondering why that is.

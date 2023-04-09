@@ -4,7 +4,7 @@ title: Deciding to learn a {programming} topic
 comments: true
 categories: [ for-future-me, learning]
 layout: post
-toc: true
+toc: false
 use_math: true
 last_modified_at: 2020-05-25T20:42:15.220865
 permalink: /new_tech/

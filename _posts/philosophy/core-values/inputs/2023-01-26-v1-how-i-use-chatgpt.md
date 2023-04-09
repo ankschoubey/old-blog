@@ -7,7 +7,7 @@ last_modified_at: 2023-01-14T20:52:08.052481
 last-modified-purpose: 
 permalink: /v1/chatgpt-assist
 title: How I use ChatGPT as an AI Assist?
-toc: true
+toc: false
 ---
 
 I have also been thinking about AI Assist. ChatGPT is too good and it can help me with a lot of things. For instance,

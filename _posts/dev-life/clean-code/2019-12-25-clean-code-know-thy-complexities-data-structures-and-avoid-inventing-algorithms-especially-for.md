@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 description: especially for maths
 categories: [clean-code]

@@ -7,7 +7,7 @@ last_modified_at: 2022-09-11T20:52:08.052481
 last-modified-purpose:
 permalink: /autoconfiguration/
 title: How AutoConfiguration works in Spring Boot
-toc: true
+toc: false
 image: /images/autoconfiguration.svg
 ---
 ![](/images/autoconfiguration.svg)

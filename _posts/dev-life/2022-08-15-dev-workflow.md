@@ -7,7 +7,7 @@ last_modified_at: 2022-09-08T20:52:08.052481
 last-modified-purpose: added collaboration points
 permalink: /dev-workflow/
 title: Ideal Development Workflow
-toc: true
+toc: false
 image: /images/dev-workflow.jpg
 ---
 

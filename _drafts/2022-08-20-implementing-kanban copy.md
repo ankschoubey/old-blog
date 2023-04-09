@@ -7,7 +7,7 @@ last_modified_at: 2022-08-20T20:52:08.052481
 last-modified-purpose:
 permalink: /implementing-kanban/
 title: Developing Healthy Habits Around Kanban Board
-toc: true
+toc: false
 image: /images/implementing-kanban.svg
 ---
 

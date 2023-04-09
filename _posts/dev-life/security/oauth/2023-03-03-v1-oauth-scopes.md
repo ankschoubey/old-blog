@@ -7,7 +7,7 @@ last_modified_at: 2023-02-01T20:52:08.052481
 last-modified-purpose: 
 permalink: /v1/oauth-scopes
 title: Defining Scopes for your OAuth Service
-toc: true
+toc: false
 ---
 
 Here’s my thinking on how we should design scopes for OAuth. And how many a proper REST API could simplify the process.

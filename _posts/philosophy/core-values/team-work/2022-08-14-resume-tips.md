@@ -7,7 +7,7 @@ last_modified_at: 2022-08-1tT20:52:08.052481
 last-modified-purpose:
 permalink: /resume-tips/
 title: Resume and Linkedin Tips
-toc: true
+toc: false
 hide: true
 ---
 Here are some resume tips. Most apply to software engineering roles.

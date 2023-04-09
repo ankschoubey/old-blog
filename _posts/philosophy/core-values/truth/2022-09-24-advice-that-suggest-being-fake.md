@@ -7,7 +7,7 @@ last_modified_at: 2022-09-24T20:52:08.052481
 last-modified-purpose:
 permalink: /advice-that-suggest-being-fake/
 title: How to take advice that suggests being fake?
-toc: true
+toc: false
 ---
 
 You have to always be truthful.

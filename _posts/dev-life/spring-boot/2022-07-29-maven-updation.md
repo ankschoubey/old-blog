@@ -8,7 +8,7 @@ last-modified-purpose:
 permalink: /maven-dependency-upgrade/
 title: Tips on fixing and upgrading Maven Dependencies
 image: /images/maven-dependency-upgrade/header.svg
-toc: true
+toc: false
 ---
 ![Maven Logo From Wikipedia](/images/maven-dependency-upgrade/header.svg)
 

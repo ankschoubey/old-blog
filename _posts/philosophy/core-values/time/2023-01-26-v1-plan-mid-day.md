@@ -7,7 +7,7 @@ last_modified_at: 2023-01-14T20:52:08.052481
 last-modified-purpose: 
 permalink: /v1/plan-mid-day
 title: How to plan mid-day?
-toc: true
+toc: false
 ---
 
 The mid day is the time where you can be the most active. This is ideally, 1.5 hours after waking up.

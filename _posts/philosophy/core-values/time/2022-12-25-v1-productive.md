@@ -7,7 +7,7 @@ last_modified_at: 2022-12-22T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/productive
 title: Productive use of time
-toc: true
+toc: false
 ---
 
 There are a few rules I discovered that helps.

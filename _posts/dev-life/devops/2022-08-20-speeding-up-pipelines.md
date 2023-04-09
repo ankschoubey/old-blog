@@ -7,7 +7,7 @@ last_modified_at: 2022-08-20T20:52:08.052481
 last-modified-purpose:
 permalink: /speeding-up-pipelines/
 title: Speed up Pipelines
-toc: true
+toc: false
 image: /images/speeding-up-pipelines.svg
 ---
 ![](/images/speeding-up-pipelines.svg)

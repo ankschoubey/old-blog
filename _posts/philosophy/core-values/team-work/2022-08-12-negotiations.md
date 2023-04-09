@@ -7,7 +7,7 @@ last_modified_at: 2022-08-12T20:52:08.052481
 last-modified-purpose:
 permalink: /negotiations/
 title: Negotiations
-toc: true
+toc: false
 ---
 
 ## What is Negotiation?

@@ -7,7 +7,7 @@ last_modified_at: 2023-03-16T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/truth/state-truth-when-it-hurts
 title: Stating the Truth When It Could Hurt
-toc: true
+toc: false
 ---
 
 I often talk about truth and telling the truth all time time.

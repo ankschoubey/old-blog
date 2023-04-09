@@ -7,7 +7,7 @@ last_modified_at: 2022-09-24T20:52:08.052481
 last-modified-purpose:
 permalink: /empathic-developer/
 title: Be a more empathic developer
-toc: true
+toc: false
 image: /images/empathic-developer.jpg
 ---
 ![](/images/empathic-developer.jpg)

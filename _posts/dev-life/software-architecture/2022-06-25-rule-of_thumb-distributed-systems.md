@@ -7,7 +7,7 @@ last_modified_at: 2022-06-25T20:52:08.052481
 last-modified-purpose:
 permalink: /rule-of_thumb-distributed-systems/
 title: Rules of thumbs for Distributed System
-toc: true
+toc: false
 ---
 
 # Don't distribute. Or atleast don't distribute early.

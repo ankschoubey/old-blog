@@ -7,7 +7,7 @@ last_modified_at: 2022-09-08T20:52:08.052481
 last-modified-purpose:
 permalink: /response-type-field/
 title:  A responseType field for all response classes
-toc: true
+toc: false
 image: /images/response-type-field.png
 ---
 

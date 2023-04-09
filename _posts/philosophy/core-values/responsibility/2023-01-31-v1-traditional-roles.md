@@ -7,7 +7,7 @@ last_modified_at: 2023-01-31T20:52:08.052481
 last-modified-purpose: 
 permalink: /v1/traditional-roles
 title: What are the traditional roles of a man and women? And why they are relevant?
-toc: true
+toc: false
 ---
 
 What are the traditional roles of a man and women? And why they are relevant?

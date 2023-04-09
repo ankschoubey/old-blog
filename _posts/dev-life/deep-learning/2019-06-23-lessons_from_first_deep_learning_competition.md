@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 comments: true
 description: Game of Deep Learning was an image recognition challenge on AnalyticsVidya. The task was to classify 5 different types of Ships (Cargo, Military, Carrier, Cruise, and Tankers)

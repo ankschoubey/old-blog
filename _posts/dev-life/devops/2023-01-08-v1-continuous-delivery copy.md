@@ -8,7 +8,7 @@ last-modified-purpose: Added notes from other blogs
 permalink: /v1/continuous-delivery
 title: Start your project with Continuous Delivery till 'PROD'
 image: /images/continuous-delivery.png
-toc: true
+toc: false
 ---
 
 ![Continuous Delivery](/images/continuous-delivery.png)

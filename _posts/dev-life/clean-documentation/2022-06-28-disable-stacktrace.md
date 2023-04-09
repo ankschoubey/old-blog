@@ -7,7 +7,7 @@ last_modified_at: 2022-06-28T20:52:08.052481
 last-modified-purpose:
 permalink: /disable-stacktrace/
 title: Writing cleaner logs by Disabling Stack Trace for Expected Response Exceptions
-toc: true
+toc: false
 ---
 
 In spring boot, you can add @ResponseStatus annotation to an exception. By adding it, whenever the exception is thrown, the response will be according to the annotation properties.
