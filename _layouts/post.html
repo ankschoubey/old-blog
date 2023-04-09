@@ -1,19 +1,54 @@
 ---
 layout: base
 ---
-<header class="post-header" style="
+
+<style>
+  .page-content{
+    padding-top: 0px;
+  }
+  .post-header{
     display: flex;
     flex-direction: column;
     justify-content: end;
-  {%- if page.image -%}
+    {%- if page.image -%}
+      height: 300px;
+    {%- endif -%}
+    -webkit-text-stroke: .15px white;
+  }
+  .cover-image{
+    position: absolute;
+    left:0px;
     height: 300px;
-  {%- endif -%}
-">
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .post-header{
+      {%- if page.image -%}
+        height: 550px;
+      {%- endif -%}
+    }
+    .cover-image{
+      height: 550px;
+    }
+  }
+  .post-header-content{
+    backdrop-filter: blur(200px); 
+    position: absolute; 
+    left:0px; 
+    padding: 0px 20px;
+    -webkit-backdrop-filter: blur(200px);
+    -webkit-text-stroke: .15px black;
+  }
+</style>
+
+<header class="post-header">
   {%- if page.image -%}
-  <img src="{{page.image}}" style="position: absolute; left:0px;height: 300px;object-fit: cover;">
+    <img src="{{page.image}}" class="cover-image">
   {%- endif -%}
 
-  <div style="backdrop-filter: blur(200px); position: absolute; left:0px; padding: 0px 20px;">
+  <div class="post-header-content">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     {%- if page.description -%}
     <p class="page-description">{{ page.description | escape }}</p>
