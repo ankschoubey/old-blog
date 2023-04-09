@@ -180,26 +180,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h2"><a href="#keep-your-implementation-as-simple-as-possible">Keep your implementation as simple as possible</a></li>
-<li class="toc-entry toc-h2"><a href="#knowing-the-basics-of-time-and-space-complexity-goes-a-long-way">Knowing the basics of time and space complexity goes a long way.</a></li>
-<li class="toc-entry toc-h2"><a href="#additional-tip-always-use-parent-interface-for-the-type">Additional Tip: Always use parent interface for the type</a></li>
-<li class="toc-entry toc-h2">
-<a href="#when-trying-to-find-duplicates">When trying to find duplicates</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#use-set-instead-of-lists">Use Set instead of Lists</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h2"><a href="#java-if-you-know-the-size-of-the-list">Java: If you know the size of the list</a></li>
-<li class="toc-entry toc-h2"><a href="#always-have-your-algorithmic-logic-in-a-separate-function">Always have your algorithmic logic in a separate function</a></li>
-<li class="toc-entry toc-h2">
-<a href="#rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation">Rather than implementing own logic, take 5 minutes to see if your modules already provide the implementation</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#example-sorting-in-javascripttypescript">Example: Sorting in Javascript/Typescript</a></li>
-</ul>
-</li>
-</ul>
-<blockquote>
+    <blockquote>
   <p><strong>If</strong> you are <strong>inventing new algorithms</strong>, you either <strong>don’t know</strong> the right algorithm <strong>or</strong> are working on your <strong>PhD</strong> thesis.</p>
 </blockquote>
 
@@ -209,8 +190,7 @@ window.onload = wrap_img;
 
 <p>Source: <a href="https://www.codeproject.com/Articles/838973/Why-Your-Code-Is-So-Hard-to-Understand">Why Your Code Is So Hard to Understand</a></p>
 
-<h2 id="keep-your-implementation-as-simple-as-possible">
-<a class="anchor" href="#keep-your-implementation-as-simple-as-possible" aria-hidden="true"><span class="octicon octicon-link"></span></a>Keep your implementation as simple as possible</h2>
+<h2 id="keep-your-implementation-as-simple-as-possible">Keep your implementation as simple as possible</h2>
 
 <blockquote>
   <p>If the implementation is hard to explain, it’s a bad idea.
@@ -219,15 +199,13 @@ If the implementation is easy to explain, it may be a good idea.</p>
 
 <p>~ The Zen of Python, by Tim Peters</p>
 
-<h2 id="knowing-the-basics-of-time-and-space-complexity-goes-a-long-way">
-<a class="anchor" href="#knowing-the-basics-of-time-and-space-complexity-goes-a-long-way" aria-hidden="true"><span class="octicon octicon-link"></span></a>Knowing the basics of time and space complexity goes a long way.</h2>
+<h2 id="knowing-the-basics-of-time-and-space-complexity-goes-a-long-way">Knowing the basics of time and space complexity goes a long way.</h2>
 
 <p>Going through each is beyond the scope of this. Here is a link if you want to go in-depth: <a href="https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt">Cracking the Coding Interview YouTube</a></p>
 
 <p><strong>The concept of List, Sets, and Maps is universal though this particular post is going to look at it through the lens of Java</strong>. In the case of Python map is called a dictionary.</p>
 
-<h2 id="additional-tip-always-use-parent-interface-for-the-type">
-<a class="anchor" href="#additional-tip-always-use-parent-interface-for-the-type" aria-hidden="true"><span class="octicon octicon-link"></span></a>Additional Tip: Always use parent interface for the type</h2>
+<h2 id="additional-tip-always-use-parent-interface-for-the-type">Additional Tip: Always use parent interface for the type</h2>
 
 <p>Be as general as you can be.</p>
 
@@ -235,11 +213,9 @@ If the implementation is easy to explain, it may be a good idea.</p>
 
 <p><img src="https://cdn-images-1.medium.com/max/2808/1*M2J_YiubLnrId8k23GiNyA.png" alt="[Collections in Java](https://www.javatpoint.com/collections-in-java)"></p>
 
-<h2 id="when-trying-to-find-duplicates">
-<a class="anchor" href="#when-trying-to-find-duplicates" aria-hidden="true"><span class="octicon octicon-link"></span></a>When trying to find duplicates</h2>
+<h2 id="when-trying-to-find-duplicates">When trying to find duplicates</h2>
 
-<h3 id="use-set-instead-of-lists">
-<a class="anchor" href="#use-set-instead-of-lists" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use Set instead of Lists</h3>
+<h3 id="use-set-instead-of-lists">Use Set instead of Lists</h3>
 
 <p>Set always contain unique values.</p>
 
@@ -247,8 +223,7 @@ If the implementation is easy to explain, it may be a good idea.</p>
 
 <p><img src="https://cdn-images-1.medium.com/max/2880/1*HVkmS59kcy7lkvkWSoZNhg.png" alt=""></p>
 
-<h2 id="java-if-you-know-the-size-of-the-list">
-<a class="anchor" href="#java-if-you-know-the-size-of-the-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java: If you know the size of the list</h2>
+<h2 id="java-if-you-know-the-size-of-the-list">Java: If you know the size of the list</h2>
 
 <blockquote>
   <p>… if the required maximum capacity of the ArrayList is known, we can get the optimal performance (both average latency and throughput) by specifying the initial capacity to the required capacity.</p>
@@ -260,8 +235,7 @@ If the implementation is easy to explain, it may be a good idea.</p>
 
 <p>Source: <a href="https://dzone.com/articles/performance-evaluation-of-java-arraylist">Performance Evaluation of Java ArrayLists</a></p>
 
-<h2 id="always-have-your-algorithmic-logic-in-a-separate-function">
-<a class="anchor" href="#always-have-your-algorithmic-logic-in-a-separate-function" aria-hidden="true"><span class="octicon octicon-link"></span></a>Always have your algorithmic logic in a separate function</h2>
+<h2 id="always-have-your-algorithmic-logic-in-a-separate-function">Always have your algorithmic logic in a separate function</h2>
 
 <p>This just makes it much easier to debug. Your function will be doing just one this.</p>
 
@@ -269,11 +243,9 @@ If the implementation is easy to explain, it may be a good idea.</p>
 
 <p><strong>Example:</strong> <a href="/clean%20code/2019/12/20/clean-code-1-flat-is-better-than-nested-leave-when-not-okay.html"><em>Separate loop and operation section: Clean Code #1</em></a></p>
 
-<h2 id="rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation">
-<a class="anchor" href="#rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather than implementing own logic, take 5 minutes to see if your modules already provide the implementation</h2>
+<h2 id="rather-than-implementing-own-logic-take-5-minutes-to-see-if-your-modules-already-provide-the-implementation">Rather than implementing own logic, take 5 minutes to see if your modules already provide the implementation</h2>
 
-<h3 id="example-sorting-in-javascripttypescript">
-<a class="anchor" href="#example-sorting-in-javascripttypescript" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example: Sorting in Javascript/Typescript</h3>
+<h3 id="example-sorting-in-javascripttypescript">Example: Sorting in Javascript/Typescript</h3>
 
 <p><img src="https://cdn-images-1.medium.com/max/2668/1*UoB_nYYPlLWGY14bNEs2IQ.png" alt=""></p>
 

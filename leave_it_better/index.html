@@ -183,49 +183,13 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1">
-<a href="#incremental-improvements">Incremental Improvements</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#tip-leave-todo-as-comments-for-your-future-self-these-could-include-how-you-want-to-improve-the-code-but-dont-have-time-right-now-to-do-it-hopefully-your-future-self-will-handle-it">Tip: Leave TODO as comments for your future self. These could include how you want to improve the code but don’t have time right now to do it. Hopefully your future self will handle it.</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1">
-<a href="#upgrading-fast-get-rid-of-legacy">Upgrading Fast (get rid of Legacy)</a>
-<ul>
-<li class="toc-entry toc-h2">
-<a href="#do-it-one-step-at-a-time">Do it one step at a time.</a>
-<ul>
-<li class="toc-entry toc-h3">
-<a href="#making-a-big-bang-change-is-never-feasible">Making a big bang change is never feasible.</a>
-<ul>
-<li class="toc-entry toc-h4"><a href="#simple-upgrades-such-as--custom-sql-executors-in-code-to-using-an-orm">Simple upgrades such as — Custom SQL executors in code to using an ORM.</a></li>
-<li class="toc-entry toc-h4"><a href="#or-they-can-be-a-little-bigger-such-as--going-from-angularjs-to-angular">Or they can be a little bigger such as — Going from AngularJs to Angular.</a></li>
-<li class="toc-entry toc-h4"><a href="#or-a-much-bigger-one-like--going-from-java-to-kotlin">Or a much bigger one like — Going from Java to Kotlin.</a></li>
-<li class="toc-entry toc-h4"><a href="#java-to-kotlin">Java to Kotlin</a></li>
-<li class="toc-entry toc-h4"><a href="#python-2-to-python-3">Python 2 to Python 3</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toc-entry toc-h1">
-<a href="#code-reviews">Code Reviews</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#benefits-of-code-review">Benefits of Code Review</a></li>
-<li class="toc-entry toc-h2"><a href="#when-done-right-code-reviews-actually-save-time-in-the-long-run">When done right, code reviews actually save time in the long run.</a></li>
-</ul>
-</li>
-</ul>
-<p>Code is much more like a work of art/craft that people consider it.</p>
+    <p>Code is much more like a work of art/craft that people consider it.</p>
 
 <p>Knowing the benefits and tips for writing good code will take you only so far. It requires a mindset shift. Looking at the code through an artist’s eye.</p>
 
 <p><img src="/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/1.png" alt="The clean version of the image from the source: Leave it a little better than you found it"></p>
 
-<h1 id="incremental-improvements">
-<a class="anchor" href="#incremental-improvements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Incremental Improvements</h1>
+<h1 id="incremental-improvements">Incremental Improvements</h1>
 
 <blockquote>
   <p>If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot. The <strong>cleanup doesn’t have to be something big</strong>. Change <strong>one variable name</strong> for the <strong>better</strong>, <strong>break up one function</strong> that’s a little too large, <strong>eliminate one small bit of duplication</strong>, <strong>clean up one composite if statement</strong>.</p>
@@ -241,33 +205,27 @@ window.onload = wrap_img;
   <li>Maybe, improve one microservice.</li>
 </ul>
 
-<h2 id="tip-leave-todo-as-comments-for-your-future-self-these-could-include-how-you-want-to-improve-the-code-but-dont-have-time-right-now-to-do-it-hopefully-your-future-self-will-handle-it">
-<a class="anchor" href="#tip-leave-todo-as-comments-for-your-future-self-these-could-include-how-you-want-to-improve-the-code-but-dont-have-time-right-now-to-do-it-hopefully-your-future-self-will-handle-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tip: Leave TODO as comments for your future self. These could include how you want to improve the code but don’t have time right now to do it. Hopefully your future self will handle it.</h2>
+<h2 id="tip-leave-todo-as-comments-for-your-future-self-these-could-include-how-you-want-to-improve-the-code-but-dont-have-time-right-now-to-do-it-hopefully-your-future-self-will-handle-it">Tip: Leave TODO as comments for your future self. These could include how you want to improve the code but don’t have time right now to do it. Hopefully your future self will handle it.</h2>
 
-<h1 id="upgrading-fast-get-rid-of-legacy">
-<a class="anchor" href="#upgrading-fast-get-rid-of-legacy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Upgrading Fast (get rid of Legacy)</h1>
+<h1 id="upgrading-fast-get-rid-of-legacy">Upgrading Fast (get rid of Legacy)</h1>
 
 <p>Newer languages and frameworks provide many more features, provide security upgrades and are easier to use. The longer you wait to upgrade, the harder the upgrading becomes.</p>
 
 <p>You will also find that <strong>clean code is much easier to upgrade</strong>.</p>
 
-<h2 id="do-it-one-step-at-a-time">
-<a class="anchor" href="#do-it-one-step-at-a-time" aria-hidden="true"><span class="octicon octicon-link"></span></a>Do it one step at a time.</h2>
+<h2 id="do-it-one-step-at-a-time">Do it one step at a time.</h2>
 
-<h3 id="making-a-big-bang-change-is-never-feasible">
-<a class="anchor" href="#making-a-big-bang-change-is-never-feasible" aria-hidden="true"><span class="octicon octicon-link"></span></a>Making a big bang change is never feasible.</h3>
+<h3 id="making-a-big-bang-change-is-never-feasible">Making a big bang change is never feasible.</h3>
 
 <p>Upgrading can come in a variety of sizes.</p>
 
-<h4 id="simple-upgrades-such-as--custom-sql-executors-in-code-to-using-an-orm">
-<a class="anchor" href="#simple-upgrades-such-as--custom-sql-executors-in-code-to-using-an-orm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Simple upgrades such as — Custom SQL executors in code to using an ORM.</h4>
+<h4 id="simple-upgrades-such-as--custom-sql-executors-in-code-to-using-an-orm">Simple upgrades such as — Custom SQL executors in code to using an ORM.</h4>
 
 <ul>
   <li>Get rid of prepared statements and replace them with Spring Data JPA</li>
 </ul>
 
-<h4 id="or-they-can-be-a-little-bigger-such-as--going-from-angularjs-to-angular">
-<a class="anchor" href="#or-they-can-be-a-little-bigger-such-as--going-from-angularjs-to-angular" aria-hidden="true"><span class="octicon octicon-link"></span></a>Or they can be a little bigger such as — Going from AngularJs to Angular.</h4>
+<h4 id="or-they-can-be-a-little-bigger-such-as--going-from-angularjs-to-angular">Or they can be a little bigger such as — Going from AngularJs to Angular.</h4>
 
 <p>Developers of the code to provide guides and tools to make upgrading frameworks easier</p>
 
@@ -279,8 +237,7 @@ window.onload = wrap_img;
   <p><strong>Some</strong> applications will be <strong>easier to upgrade</strong> than others, and there are many <strong>ways to make it easier for yourself</strong>. It is possible to <strong>prepare</strong> and <strong>align</strong> AngularJS <strong>applications</strong> with Angular <strong>even before beginning the upgrade</strong> <strong>process</strong>. These preparation steps are all about <strong>making the code more decoupled</strong>, more <strong>maintainable</strong>, and <strong>better aligned with modern development tools</strong>. That means in addition to making the upgrade easier, you <strong>will also improve the existing AngularJS applications</strong>.</p>
 </blockquote>
 
-<h4 id="or-a-much-bigger-one-like--going-from-java-to-kotlin">
-<a class="anchor" href="#or-a-much-bigger-one-like--going-from-java-to-kotlin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Or a much bigger one like — Going from Java to Kotlin.</h4>
+<h4 id="or-a-much-bigger-one-like--going-from-java-to-kotlin">Or a much bigger one like — Going from Java to Kotlin.</h4>
 
 <p>Choosing a programming language is a hard process.</p>
 
@@ -301,8 +258,7 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<h4 id="java-to-kotlin">
-<a class="anchor" href="#java-to-kotlin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java to Kotlin</h4>
+<h4 id="java-to-kotlin">Java to Kotlin</h4>
 
 <p>Enterprises seem to have got stuck with Java 8 (released in 2017) because it is free. The newer versions of Java offer much better and easy to use features but enterprises won’t upgrade.</p>
 
@@ -322,18 +278,15 @@ window.onload = wrap_img;
 
 <p>A smaller way to check if Kotlin might be right for you is to migrate or create one microservice in/to Kotlin.</p>
 
-<h4 id="python-2-to-python-3">
-<a class="anchor" href="#python-2-to-python-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Python 2 to Python 3</h4>
+<h4 id="python-2-to-python-3">Python 2 to Python 3</h4>
 
 <p>The support for Python 2 ended (2019) after 20 years of development. Its code is frozen and won’t even receive security upgrades. Time to upgrade to Python 3.</p>
 
-<h1 id="code-reviews">
-<a class="anchor" href="#code-reviews" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code Reviews</h1>
+<h1 id="code-reviews">Code Reviews</h1>
 
 <p><img src="/images/2020-01-06-clean-code-leave-it-better-than-you-found-it/2.png" alt="No code review discussion is relevant without mentioning this."></p>
 
-<h2 id="benefits-of-code-review">
-<a class="anchor" href="#benefits-of-code-review" aria-hidden="true"><span class="octicon octicon-link"></span></a>Benefits of Code Review</h2>
+<h2 id="benefits-of-code-review">Benefits of Code Review</h2>
 
 <blockquote>
   <p><strong>Code reviews share knowledge</strong></p>
@@ -363,8 +316,7 @@ window.onload = wrap_img;
 
 <p>The article also mentions ways to make code reviews much more productive.</p>
 
-<h2 id="when-done-right-code-reviews-actually-save-time-in-the-long-run">
-<a class="anchor" href="#when-done-right-code-reviews-actually-save-time-in-the-long-run" aria-hidden="true"><span class="octicon octicon-link"></span></a>When done right, code reviews actually save time in the long run.</h2>
+<h2 id="when-done-right-code-reviews-actually-save-time-in-the-long-run">When done right, code reviews actually save time in the long run.</h2>
 
 <ul>
   <li>

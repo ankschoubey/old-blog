@@ -190,32 +190,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#what-is-oauth-and-where-it-is-used">What is OAuth? And where it is used?</a></li>
-<li class="toc-entry toc-h1"><a href="#how-is-oauth-different-from-login-and-how-does-it-work">How is OAuth different from Login? And how does it work</a></li>
-<li class="toc-entry toc-h1">
-<a href="#how-i-implemented-the-oauth-server-myself">How I implemented the OAuth Server myself</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#learning-phrase">Learning Phrase</a></li>
-<li class="toc-entry toc-h2"><a href="#implementation-phase">Implementation Phase</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1">
-<a href="#nuances">Nuances</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#oauth-works-protocol-is-snake-cased">OAuth works protocol is snake cased</a></li>
-<li class="toc-entry toc-h2"><a href="#oauth-formats">OAuth formats</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#my-thoughts">My thoughts</a></li>
-<li class="toc-entry toc-h1">
-<a href="#resources">Resources</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#my-blogposts">My Blogposts</a></li>
-</ul>
-</li>
-</ul>
-<p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
+    <p>This blogpost will cover what OAuth is and how I went about implementing OAuth. It does not include theorotical details. It includes practical questions that lead me to the implementation.</p>
 
 <p>When you read a question, you can search for it yourself. I have provided all the resources that I used along the way below too.</p>
 
@@ -223,8 +198,7 @@ window.onload = wrap_img;
 
 <p>OAuth is easier to implement than developers think. There are a lot of jargons involved. But you’ll find at its core it’s very easy and cost-effective.</p>
 
-<h1 id="what-is-oauth-and-where-it-is-used">
-<a class="anchor" href="#what-is-oauth-and-where-it-is-used" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is OAuth? And where it is used?</h1>
+<h1 id="what-is-oauth-and-where-it-is-used">What is OAuth? And where it is used?</h1>
 
 <p>OAuth is a protocol for allowing access to a user’s data to a third party app.</p>
 
@@ -236,8 +210,7 @@ window.onload = wrap_img;
 
 <p>The above image is from redirecting to “authorize“ url.</p>
 
-<h1 id="how-is-oauth-different-from-login-and-how-does-it-work">
-<a class="anchor" href="#how-is-oauth-different-from-login-and-how-does-it-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>How is OAuth different from Login? And how does it work</h1>
+<h1 id="how-is-oauth-different-from-login-and-how-does-it-work">How is OAuth different from Login? And how does it work</h1>
 
 <p>A normal login just requires username and password.</p>
 
@@ -257,8 +230,7 @@ window.onload = wrap_img;
 
 <p>Note: From here on things would get technical</p>
 
-<h1 id="how-i-implemented-the-oauth-server-myself">
-<a class="anchor" href="#how-i-implemented-the-oauth-server-myself" aria-hidden="true"><span class="octicon octicon-link"></span></a>How I implemented the OAuth Server myself</h1>
+<h1 id="how-i-implemented-the-oauth-server-myself">How I implemented the OAuth Server myself</h1>
 
 <p>I’ll split the next parts into:</p>
 
@@ -268,8 +240,7 @@ window.onload = wrap_img;
   <li>Nuances</li>
 </ol>
 
-<h2 id="learning-phrase">
-<a class="anchor" href="#learning-phrase" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learning Phrase</h2>
+<h2 id="learning-phrase">Learning Phrase</h2>
 
 <p>Before implementing OAuth Server, I had done the <code class="language-plaintext highlighter-rouge">3-Legged OAuth Flow</code> with another service myself. So, I knew what the <code class="language-plaintext highlighter-rouge">3-Legged</code> flow is.</p>
 
@@ -317,8 +288,7 @@ window.onload = wrap_img;
 
 <p>The Authentication (Login) is already handled. The permissions page comes one later after the Login one.</p>
 
-<h2 id="implementation-phase">
-<a class="anchor" href="#implementation-phase" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implementation Phase</h2>
+<h2 id="implementation-phase">Implementation Phase</h2>
 
 <p>With OAuth multiple third party application can register and access our service.</p>
 
@@ -376,16 +346,13 @@ window.onload = wrap_img;
 
 <p>Here’s my post on how I choose to define scopes: <a href="https://www.ankushchoubey.com/v1/oauth-scopes">Defining Scopes for your OAuth Service</a></p>
 
-<h1 id="nuances">
-<a class="anchor" href="#nuances" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nuances</h1>
+<h1 id="nuances">Nuances</h1>
 
-<h2 id="oauth-works-protocol-is-snake-cased">
-<a class="anchor" href="#oauth-works-protocol-is-snake-cased" aria-hidden="true"><span class="octicon octicon-link"></span></a>OAuth works protocol is snake cased</h2>
+<h2 id="oauth-works-protocol-is-snake-cased">OAuth works protocol is snake cased</h2>
 
 <p>I initially implemented all endpoints as camel case. But it did not work. Then I had to modify it to snake case.</p>
 
-<h2 id="oauth-formats">
-<a class="anchor" href="#oauth-formats" aria-hidden="true"><span class="octicon octicon-link"></span></a>OAuth formats</h2>
+<h2 id="oauth-formats">OAuth formats</h2>
 
 <p>Formats within OAuth protocol are very fixed. Certain endpoints accept and return data in a particular format only and they don’t have randomness.</p>
 
@@ -400,15 +367,13 @@ window.onload = wrap_img;
 
 <p>We can’t extend the format by adding our own stuff. But mandatory things would be preserved as it is. For that I had to read up the main OAuth specs a few times.</p>
 
-<h1 id="my-thoughts">
-<a class="anchor" href="#my-thoughts" aria-hidden="true"><span class="octicon octicon-link"></span></a>My thoughts</h1>
+<h1 id="my-thoughts">My thoughts</h1>
 
 <p>After implementing OAuth server myself, I feel confident about other protocols. Protocols may seem too technical but at their core they are really easy.</p>
 
 <p>Implementing OAuth helped me understand and get better at computer security. And also, helped me step into a much better principle developer role.</p>
 
-<h1 id="resources">
-<a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources</h1>
+<h1 id="resources">Resources</h1>
 
 <p>Jump around these</p>
 
@@ -422,8 +387,7 @@ window.onload = wrap_img;
 
 <p><a href="https://www.rfc-editor.org/rfc/rfc6749">Main Spec: The OAuth 2.0 Authorization Framework</a></p>
 
-<h3 id="my-blogposts">
-<a class="anchor" href="#my-blogposts" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Blogposts</h3>
+<h3 id="my-blogposts">My Blogposts</h3>
 
 <p><a href="https://www.ankushchoubey.com/v1/oauth-scopes">Defining Scopes for your OAuth Service</a></p>
 

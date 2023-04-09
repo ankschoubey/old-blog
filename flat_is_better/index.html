@@ -180,47 +180,19 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h2">
-<a href="#nesting-clutters-your-code">Nesting clutters your code.</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#where-does-the-block-end">Where does the block end</a></li>
-<li class="toc-entry toc-h3"><a href="#unnecessary-horizontal-scrolling">Unnecessary horizontal scrolling</a></li>
-<li class="toc-entry toc-h3"><a href="#nesting-makes-your-code-hard-to-understand">Nesting makes your code hard to understand.</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h2">
-<a href="#avoid-the-use-of-else">Avoid the use of else.</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#returnthrow-when-not-okay">Return/throw when not okay</a></li>
-<li class="toc-entry toc-h3"><a href="#bubble-vs-gateway">Bubble vs Gateway</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h2">
-<a href="#if-deep-nests-exist-separate-loop-and-operation">If deep nests exist? Separate loop and operation</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#simplified-example-link-to-code">Simplified Example: Link to Code</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#resource">Resource:</a></li>
-</ul>
-<p>This might be the most important tip of all the tips covered which applies mainly to if-else statements.</p>
+    <p>This might be the most important tip of all the tips covered which applies mainly to if-else statements.</p>
 
-<h2 id="nesting-clutters-your-code">
-<a class="anchor" href="#nesting-clutters-your-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nesting clutters your code.</h2>
+<h2 id="nesting-clutters-your-code">Nesting clutters your code.</h2>
 
-<h3 id="where-does-the-block-end">
-<a class="anchor" href="#where-does-the-block-end" aria-hidden="true"><span class="octicon octicon-link"></span></a>Where does the block end</h3>
+<h3 id="where-does-the-block-end">Where does the block end</h3>
 
 <p>It becomes hard to find where a particular block ends easily (especially if someone writes 8 or more nests 😖)</p>
 
-<h3 id="unnecessary-horizontal-scrolling">
-<a class="anchor" href="#unnecessary-horizontal-scrolling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Unnecessary horizontal scrolling</h3>
+<h3 id="unnecessary-horizontal-scrolling">Unnecessary horizontal scrolling</h3>
 
 <p>Also, you might have to scroll horizontally to see what the complete code is since it does not fit your screen.</p>
 
-<h3 id="nesting-makes-your-code-hard-to-understand">
-<a class="anchor" href="#nesting-makes-your-code-hard-to-understand" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nesting makes your code hard to understand.</h3>
+<h3 id="nesting-makes-your-code-hard-to-understand">Nesting makes your code hard to understand.</h3>
 
 <p>While you are reading your nested block, you have to remember what all conditions preceded it.</p>
 
@@ -230,11 +202,9 @@ window.onload = wrap_img;
   <p>Max indent should be 2, in case of exceptions 3</p>
 </blockquote>
 
-<h2 id="avoid-the-use-of-else">
-<a class="anchor" href="#avoid-the-use-of-else" aria-hidden="true"><span class="octicon octicon-link"></span></a>Avoid the use of else.</h2>
+<h2 id="avoid-the-use-of-else">Avoid the use of else.</h2>
 
-<h3 id="returnthrow-when-not-okay">
-<a class="anchor" href="#returnthrow-when-not-okay" aria-hidden="true"><span class="octicon octicon-link"></span></a>Return/throw when not okay</h3>
+<h3 id="returnthrow-when-not-okay">Return/throw when not okay</h3>
 
 <ul>
   <li>
@@ -247,15 +217,13 @@ window.onload = wrap_img;
 
 <p><img src="/images/2019-12-20-clean-code-1-flat-is-better-than-nested-leave-when-not-okay/1.png" alt=""></p>
 
-<h3 id="bubble-vs-gateway">
-<a class="anchor" href="#bubble-vs-gateway" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bubble vs Gateway</h3>
+<h3 id="bubble-vs-gateway">Bubble vs Gateway</h3>
 
 <p>Bad (left): Bubble-Style</p>
 
 <p>Good (right): Gateway-Style</p>
 
-<h2 id="if-deep-nests-exist-separate-loop-and-operation">
-<a class="anchor" href="#if-deep-nests-exist-separate-loop-and-operation" aria-hidden="true"><span class="octicon octicon-link"></span></a>If deep nests exist? Separate loop and operation</h2>
+<h2 id="if-deep-nests-exist-separate-loop-and-operation">If deep nests exist? Separate loop and operation</h2>
 
 <p>Extract the logic to other readable methods or use streams (Java)/lambda or something equivalent in your programming language of choice.</p>
 
@@ -274,8 +242,7 @@ window.onload = wrap_img;
 
 <p>In case if something goes wrong, it is easier to debug it since I know what function has what responsibility.</p>
 
-<h3 id="simplified-example-link-to-code">
-<a class="anchor" href="#simplified-example-link-to-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Simplified Example: <a href="https://gist.github.com/ankschoubey/c9785400ce2c1aee8271485b15dafd6d">Link to Code</a>
+<h3 id="simplified-example-link-to-code">Simplified Example: <a href="https://gist.github.com/ankschoubey/c9785400ce2c1aee8271485b15dafd6d">Link to Code</a>
 </h3>
 
 <p><img src="/images/2019-12-20-clean-code-1-flat-is-better-than-nested-leave-when-not-okay/2.png" alt=""></p>
@@ -300,8 +267,7 @@ window.onload = wrap_img;
 
 <p><strong>Index</strong>: <a href="/software%20development/clean%20code/2019/12/19/series-tips-on-writing-clean-code.html">Tips on writing Clean Code</a></p>
 
-<h1 id="resource">
-<a class="anchor" href="#resource" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resource:</h1>
+<h1 id="resource">Resource:</h1>
 
 <ul>
   <li><a href="https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html">Replace Nested Conditional with Guard Clauses</a></li>

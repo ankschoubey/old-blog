@@ -187,26 +187,14 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#bean-s">@Bean s</a></li>
-<li class="toc-entry toc-h1"><a href="#conditional-s">@Conditional s</a></li>
-<li class="toc-entry toc-h1"><a href="#everything-would-finally-plugin-to-some-lifecycle">Everything would finally plugin to some lifecycle</a></li>
-<li class="toc-entry toc-h1">
-<a href="#extending-spring-boot">Extending spring boot</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#find-all-beans-bean-autoconfiguration-configurationproperties-andor-value">Find all beans @Bean AutoConfiguration, @ConfigurationProperties and/or @Value</a></li>
-<li class="toc-entry toc-h2"><a href="#read-the-documentation">Read the documentation.</a></li>
-</ul>
-</li>
-</ul>
-<p><img src="/images/autoconfiguration.svg" alt=""></p>
+    <p><img src="/images/autoconfiguration.svg" alt=""></p>
 
 <p>Everything in Spring Boot is configurable. This was very hard to understand, but here are some pointers that could help.</p>
 
 <p>It was hard for me to extend and/or customize the core functionalities of Spring Boot. These are a few pointers that could help.</p>
 
 <h1 id="bean-s">
-<a class="anchor" href="#bean-s" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">@Bean</code> s</h1>
+<code class="language-plaintext highlighter-rouge">@Bean</code> s</h1>
 
 <p>Beans can be thought of as singleton classes. i.e. classes where only one instance can exist.</p>
 
@@ -221,7 +209,7 @@ window.onload = wrap_img;
 <p>All @Component, @Service and <code class="language-plaintext highlighter-rouge">@Repository</code> are of type bean.</p>
 
 <h1 id="conditional-s">
-<a class="anchor" href="#conditional-s" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">@Conditional</code> s</h1>
+<code class="language-plaintext highlighter-rouge">@Conditional</code> s</h1>
 
 <p>Beans can be generated on conditions.</p>
 
@@ -229,20 +217,17 @@ window.onload = wrap_img;
 
 <p>For example, in <code class="language-plaintext highlighter-rouge">spring-cloud</code> stream, Kafka beans would be generated if there is Kafka set.</p>
 
-<h1 id="everything-would-finally-plugin-to-some-lifecycle">
-<a class="anchor" href="#everything-would-finally-plugin-to-some-lifecycle" aria-hidden="true"><span class="octicon octicon-link"></span></a>Everything would finally plugin to some lifecycle</h1>
+<h1 id="everything-would-finally-plugin-to-some-lifecycle">Everything would finally plugin to some lifecycle</h1>
 
 <p>All of spring, is a plugin architecture. The core of spring boot exists and everything else is a plugin that plugs into a spring boot lifecycle extending its core functionality.</p>
 
 <p>Everything plugs into some spring boot lifecycle.</p>
 
-<h1 id="extending-spring-boot">
-<a class="anchor" href="#extending-spring-boot" aria-hidden="true"><span class="octicon octicon-link"></span></a>Extending spring boot</h1>
+<h1 id="extending-spring-boot">Extending spring boot</h1>
 
 <p>Suppose you want to extend spring boots to your liking here is how you’d do it.</p>
 
-<h2 id="find-all-beans-bean-autoconfiguration-configurationproperties-andor-value">
-<a class="anchor" href="#find-all-beans-bean-autoconfiguration-configurationproperties-andor-value" aria-hidden="true"><span class="octicon octicon-link"></span></a>Find all beans <code class="language-plaintext highlighter-rouge">@Bean</code> <code class="language-plaintext highlighter-rouge">AutoConfiguration</code>, <code class="language-plaintext highlighter-rouge">@ConfigurationProperties</code> and/or <code class="language-plaintext highlighter-rouge">@Value</code>
+<h2 id="find-all-beans-bean-autoconfiguration-configurationproperties-andor-value">Find all beans <code class="language-plaintext highlighter-rouge">@Bean</code> <code class="language-plaintext highlighter-rouge">AutoConfiguration</code>, <code class="language-plaintext highlighter-rouge">@ConfigurationProperties</code> and/or <code class="language-plaintext highlighter-rouge">@Value</code>
 </h2>
 
 <p>In IntelliJ, you can search usage for all Beans easily. These are the beans you can override.</p>
@@ -255,8 +240,7 @@ window.onload = wrap_img;
 
 <p>Configuration Properties and @Value are what is set by the properties file.</p>
 
-<h2 id="read-the-documentation">
-<a class="anchor" href="#read-the-documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Read the documentation.</h2>
+<h2 id="read-the-documentation">Read the documentation.</h2>
 
 <p>In the documentation, you will likely find info on some beans you could modify or extend.</p>
 

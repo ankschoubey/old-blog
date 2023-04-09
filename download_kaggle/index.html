@@ -180,22 +180,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h3"><a href="#2-sentence-pre-requisite">2 Sentence Pre-requisite:</a></li>
-<li class="toc-entry toc-h2"><a href="#the-setup-one-time-activity">The Setup (One-time activity)</a></li>
-<li class="toc-entry toc-h2"><a href="#1--install-kaggle-cli">1 — Install Kaggle CLI</a></li>
-<li class="toc-entry toc-h2"><a href="#2--api-credentials">2 — API credentials</a></li>
-<li class="toc-entry toc-h2">
-<a href="#downloading-dataset-via-cli">Downloading Dataset via CLI</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#find-data">Find Data</a></li>
-<li class="toc-entry toc-h3"><a href="#download-entire-dataset">Download Entire Dataset</a></li>
-<li class="toc-entry toc-h3"><a href="#download-particular-file-from-dataset">Download Particular File From Dataset</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="2-sentence-pre-requisite">
-<a class="anchor" href="#2-sentence-pre-requisite" aria-hidden="true"><span class="octicon octicon-link"></span></a>2 Sentence Pre-requisite:</h3>
+    <h3 id="2-sentence-pre-requisite">2 Sentence Pre-requisite:</h3>
 
 <ol>
   <li>
@@ -206,17 +191,14 @@ window.onload = wrap_img;
   </li>
 </ol>
 
-<h2 id="the-setup-one-time-activity">
-<a class="anchor" href="#the-setup-one-time-activity" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Setup (One-time activity)</h2>
+<h2 id="the-setup-one-time-activity">The Setup (One-time activity)</h2>
 
-<h2 id="1--install-kaggle-cli">
-<a class="anchor" href="#1--install-kaggle-cli" aria-hidden="true"><span class="octicon octicon-link"></span></a>1 — Install Kaggle CLI</h2>
+<h2 id="1--install-kaggle-cli">1 — Install Kaggle CLI</h2>
 
 <p>To get started to Kaggle CLI you will need Python, open terminal and write</p>
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pip <span class="nb">install </span>kaggle
 </code></pre></div></div>
-<h2 id="2--api-credentials">
-<a class="anchor" href="#2--api-credentials" aria-hidden="true"><span class="octicon octicon-link"></span></a>2 — API credentials</h2>
+<h2 id="2--api-credentials">2 — API credentials</h2>
 
 <p>Once you have Kaggle installed, type <strong>kaggle</strong> to check it is installed and you will get an output similar to this</p>
 
@@ -237,8 +219,7 @@ window.onload = wrap_img;
 
 <p>In my case, even after copying it was not working. I had the file in place but it did not have the right permissions so I had to type the exact command they gave me. And it started working.</p>
 
-<h2 id="downloading-dataset-via-cli">
-<a class="anchor" href="#downloading-dataset-via-cli" aria-hidden="true"><span class="octicon octicon-link"></span></a>Downloading Dataset via CLI</h2>
+<h2 id="downloading-dataset-via-cli">Downloading Dataset via CLI</h2>
 
 <p>You can open <strong>kaggle help</strong> via</p>
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kaggle <span class="nt">-h</span>
@@ -248,15 +229,13 @@ window.onload = wrap_img;
 </code></pre></div></div>
 <p>whatever the Kaggle CLI command is, add -h to get help.</p>
 
-<h3 id="find-data">
-<a class="anchor" href="#find-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Find Data</h3>
+<h3 id="find-data">Find Data</h3>
 
 <p>while you can explore Competitions, Datasets, and kernels via Kaggle, here I am going to only focus on downloading of datasets.</p>
 
 <p>What I do is I explore competitions or datasets via Kaggle website.</p>
 
-<h3 id="download-entire-dataset">
-<a class="anchor" href="#download-entire-dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download Entire Dataset</h3>
+<h3 id="download-entire-dataset">Download Entire Dataset</h3>
 
 <p>To download the dataset, go to <strong>Data</strong> *subtab. *In API section you will find the exact command that you can copy to the terminal to download the entire dataset.</p>
 
@@ -267,8 +246,7 @@ window.onload = wrap_img;
 <p>The syntax is like</p>
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kaggle competitions download &lt;competition name&gt;
 </code></pre></div></div>
-<h3 id="download-particular-file-from-dataset">
-<a class="anchor" href="#download-particular-file-from-dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download Particular File From Dataset</h3>
+<h3 id="download-particular-file-from-dataset">Download Particular File From Dataset</h3>
 
 <p>As you can see, the size of the data is 34 GB which is huge.</p>
 

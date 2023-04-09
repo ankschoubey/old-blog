@@ -180,54 +180,11 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1">
-<a href="#declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once">Declare the local variable as close to where it is used and remove un-necessary once</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#example">Example:</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#just-return-it-dont-store">Just return it. Don’t store</a></li>
-<li class="toc-entry toc-h1"><a href="#remove-commented-code">Remove commented code</a></li>
-<li class="toc-entry toc-h1"><a href="#remove-functions-and-variables-which-you-do-not-use">Remove functions and variables which you do not use.</a></li>
-<li class="toc-entry toc-h1">
-<a href="#variable-argument-lengths">Variable argument lengths</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#python-args-kwargs-more-than-just-variable-length-argument">Python: *args, **kwargs (more than just variable-length argument)</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#default-arguments">Default Arguments</a></li>
-<li class="toc-entry toc-h1">
-<a href="#use-annotationsdecorators">Use annotations/decorators</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#python-decorators">Python: Decorators</a></li>
-<li class="toc-entry toc-h2">
-<a href="#spring-boot-java">Spring Boot (Java)</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#java-for-jpa">Java: For JPA</a></li>
-<li class="toc-entry toc-h3"><a href="#java-map-using-mapper-dont-create-your-own-logic">Java: Map using Mapper. Don’t create your own logic.</a></li>
-<li class="toc-entry toc-h3"><a href="#java-project-lombok-to-avoid-boilerplate">Java: Project Lombok to avoid boilerplate</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toc-entry toc-h1">
-<a href="#remove-duplicates">Remove duplicates</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#use-existinginbuilt-methods-rather-than-new-once">Use existing/inbuilt methods rather than new once</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#single-line-boolean-evaluation">Single line boolean evaluation</a></li>
-<li class="toc-entry toc-h1"><a href="#think-in-terms-of-streams">Think in terms of Streams</a></li>
-<li class="toc-entry toc-h1"><a href="#create-and-use-base-classes">Create and use base classes</a></li>
-</ul>
-<h1 id="declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once">
-<a class="anchor" href="#declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once" aria-hidden="true"><span class="octicon octicon-link"></span></a>Declare the local variable as close to where it is used and remove un-necessary once</h1>
+    <h1 id="declare-the-local-variable-as-close-to-where-it-is-used-and-remove-un-necessary-once">Declare the local variable as close to where it is used and remove un-necessary once</h1>
 
 <p>Local variables declared at some different place makes it harder to read the code.</p>
 
-<h2 id="example">
-<a class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example:</h2>
+<h2 id="example">Example:</h2>
 
 <p>Below are the variations of aRandomFunction which does a bunch of operations (skipped by dots) and on completion returns “Hello” along with the date.</p>
 
@@ -247,8 +204,7 @@ window.onload = wrap_img;
 
 <p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/3.png" alt="Even Better"></p>
 
-<h1 id="just-return-it-dont-store">
-<a class="anchor" href="#just-return-it-dont-store" aria-hidden="true"><span class="octicon octicon-link"></span></a>Just return it. Don’t store</h1>
+<h1 id="just-return-it-dont-store">Just return it. Don’t store</h1>
 
 <p>Continuing from the previous example:</p>
 
@@ -258,19 +214,15 @@ window.onload = wrap_img;
 
 <p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/4.png" alt=""></p>
 
-<h1 id="remove-commented-code">
-<a class="anchor" href="#remove-commented-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remove commented code</h1>
+<h1 id="remove-commented-code">Remove commented code</h1>
 
 <p>In case you do need to refer to the exact code you can always check it in your version control.</p>
 
-<h1 id="remove-functions-and-variables-which-you-do-not-use">
-<a class="anchor" href="#remove-functions-and-variables-which-you-do-not-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remove functions and variables which you do not use.</h1>
+<h1 id="remove-functions-and-variables-which-you-do-not-use">Remove functions and variables which you do not use.</h1>
 
-<h1 id="variable-argument-lengths">
-<a class="anchor" href="#variable-argument-lengths" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variable argument lengths</h1>
+<h1 id="variable-argument-lengths">Variable argument lengths</h1>
 
-<h2 id="python-args-kwargs-more-than-just-variable-length-argument">
-<a class="anchor" href="#python-args-kwargs-more-than-just-variable-length-argument" aria-hidden="true"><span class="octicon octicon-link"></span></a>Python: *args, **kwargs (more than just variable-length argument)</h2>
+<h2 id="python-args-kwargs-more-than-just-variable-length-argument">Python: *args, **kwargs (more than just variable-length argument)</h2>
 
 <p>Java also has an implementation for <a href="https://www.youtube.com/watch?v=BFL1oWnEO2k">variable length arguments</a> but they are not as elegant as Python implementation. Therefore, a list as an argument might be better suited.</p>
 
@@ -278,8 +230,7 @@ window.onload = wrap_img;
 
 <hr>
 
-<h1 id="default-arguments">
-<a class="anchor" href="#default-arguments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Default Arguments</h1>
+<h1 id="default-arguments">Default Arguments</h1>
 
 <p>Python and Typescript both support default function arguments.</p>
 
@@ -289,13 +240,11 @@ window.onload = wrap_img;
 
 <hr>
 
-<h1 id="use-annotationsdecorators">
-<a class="anchor" href="#use-annotationsdecorators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use annotations/decorators</h1>
+<h1 id="use-annotationsdecorators">Use annotations/decorators</h1>
 
 <p>Annotations extend the functionality of your function dynamically and reduce the size of the code dramatically.</p>
 
-<h2 id="python-decorators">
-<a class="anchor" href="#python-decorators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Python: Decorators</h2>
+<h2 id="python-decorators">Python: Decorators</h2>
 
 <p>In python, these are called decorators.</p>
 
@@ -318,13 +267,11 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<h2 id="spring-boot-java">
-<a class="anchor" href="#spring-boot-java" aria-hidden="true"><span class="octicon octicon-link"></span></a>Spring Boot (Java)</h2>
+<h2 id="spring-boot-java">Spring Boot (Java)</h2>
 
 <p>![Source: <a href="/images/2020-01-04-clean-code-remove-un-necessary-code/6.png">Spring Annotations Cheat Sheet</a></p>
 
-<h3 id="java-for-jpa">
-<a class="anchor" href="#java-for-jpa" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java: For JPA</h3>
+<h3 id="java-for-jpa">Java: For JPA</h3>
 
 <p>No need to write @Column over your entity’s variables. By default, camelCase is substituted with snake_case.</p>
 
@@ -332,13 +279,11 @@ window.onload = wrap_img;
 
 <p>You can change these using <a href="https://www.baeldung.com/hibernate-naming-strategy">naming strategies</a>.</p>
 
-<h3 id="java-map-using-mapper-dont-create-your-own-logic">
-<a class="anchor" href="#java-map-using-mapper-dont-create-your-own-logic" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java: Map using Mapper. Don’t create your own logic.</h3>
+<h3 id="java-map-using-mapper-dont-create-your-own-logic">Java: Map using Mapper. Don’t create your own logic.</h3>
 
 <p>There are many <a href="https://www.baeldung.com/java-performance-mapping-frameworks">mapping frameworks in Java</a> that can make the task of converting one object to another much much easier. This can be especially helpful when you want to convert your @Entity to a DTO object.</p>
 
-<h3 id="java-project-lombok-to-avoid-boilerplate">
-<a class="anchor" href="#java-project-lombok-to-avoid-boilerplate" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java: Project Lombok to avoid boilerplate</h3>
+<h3 id="java-project-lombok-to-avoid-boilerplate">Java: Project Lombok to avoid boilerplate</h3>
 
 <blockquote>
   <p>Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.</p>
@@ -379,13 +324,11 @@ window.onload = wrap_img;
 
 <p>With this, the size of your java code will reduce dramatically.</p>
 
-<h1 id="remove-duplicates">
-<a class="anchor" href="#remove-duplicates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Remove duplicates</h1>
+<h1 id="remove-duplicates">Remove duplicates</h1>
 
 <p>Linters will provide you a list of duplicate codes. Shove it into a function/method.</p>
 
-<h2 id="use-existinginbuilt-methods-rather-than-new-once">
-<a class="anchor" href="#use-existinginbuilt-methods-rather-than-new-once" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use existing/inbuilt methods rather than new once</h2>
+<h2 id="use-existinginbuilt-methods-rather-than-new-once">Use existing/inbuilt methods rather than new once</h2>
 
 <p>This goes back to not inventing new algorithms. If something is already made, don’t make it again. Reuse it. <em>(Link — Clean Code: <a href="https://medium.com/@ankushchoubey/clean-code-know-thy-complexities-data-structures-and-avoid-inventing-algorithms-especially-for-43dfcff10bcd">Know thy complexities</a>)</em></p>
 
@@ -413,13 +356,11 @@ window.onload = wrap_img;
 
 <p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/10.png" alt=""></p>
 
-<h1 id="single-line-boolean-evaluation">
-<a class="anchor" href="#single-line-boolean-evaluation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Single line boolean evaluation</h1>
+<h1 id="single-line-boolean-evaluation">Single line boolean evaluation</h1>
 
 <p><img src="/images/2020-01-04-clean-code-remove-un-necessary-code/11.png" alt=""></p>
 
-<h1 id="think-in-terms-of-streams">
-<a class="anchor" href="#think-in-terms-of-streams" aria-hidden="true"><span class="octicon octicon-link"></span></a>Think in terms of Streams</h1>
+<h1 id="think-in-terms-of-streams">Think in terms of Streams</h1>
 
 <p>Streams make your code really really tiny and give much better performance. Streams do have a learning curve but are worth it.</p>
 
@@ -431,8 +372,7 @@ window.onload = wrap_img;
 
 <iframe width="854" height="480" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FAhSvKGTh28Q%3Ffeature%3Doembed&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAhSvKGTh28Q&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FAhSvKGTh28Q%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-<h1 id="create-and-use-base-classes">
-<a class="anchor" href="#create-and-use-base-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create and use base classes</h1>
+<h1 id="create-and-use-base-classes">Create and use base classes</h1>
 
 <p>Base classes are an excellent way to avoid duplications. Make them as generic as possible.</p>
 

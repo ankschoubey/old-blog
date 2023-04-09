@@ -187,42 +187,8 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h3"><a href="#how-to-read-this">How to read this?</a></li>
-<li class="toc-entry toc-h3">
-<a href="#commit-version-2-getting-input-and-generating-submission-file">Commit Version 2: Getting Input and Generating Submission File</a>
-<ul>
-<li class="toc-entry toc-h4"><a href="#read-the-data">Read the data</a></li>
-<li class="toc-entry toc-h4"><a href="#trainingtesting">Training/testing</a></li>
-<li class="toc-entry toc-h4"><a href="#dataset">Dataset</a></li>
-<li class="toc-entry toc-h4"><a href="#creating-dataloader">Creating DataLoader</a></li>
-<li class="toc-entry toc-h4"><a href="#checking-if-dataloader-returns-the-right-output">Checking if DataLoader returns the right output</a></li>
-<li class="toc-entry toc-h4"><a href="#creating-a-vanilla-neural-network">Creating a vanilla Neural Network</a></li>
-<li class="toc-entry toc-h4"><a href="#preparing-the-training-loop">Preparing the training loop</a></li>
-<li class="toc-entry toc-h4"><a href="#creating-the-training-loop">Creating the training loop</a></li>
-<li class="toc-entry toc-h4"><a href="#generating-output">Generating output</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h3">
-<a href="#commit-version-3-improvements">Commit Version 3: Improvements</a>
-<ul>
-<li class="toc-entry toc-h4"><a href="#proper-accuracy">Proper Accuracy</a></li>
-<li class="toc-entry toc-h4"><a href="#graph">Graph</a></li>
-<li class="toc-entry toc-h4"><a href="#data-normalization">Data Normalization</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h3">
-<a href="#commit-6-convnet-and-gpu">Commit 6: ConvNet, and GPU</a>
-<ul>
-<li class="toc-entry toc-h4"><a href="#convnet">ConvNet</a></li>
-<li class="toc-entry toc-h4"><a href="#gpu">GPU</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h3"><a href="#commit-7-improvement">Commit 7: Improvement</a></li>
-</ul>
-<hr>
-<h3 id="how-to-read-this">
-<a class="anchor" href="#how-to-read-this" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to read this?</h3>
+    <hr>
+<h3 id="how-to-read-this">How to read this?</h3>
 <ol>
   <li>
     <p>Skim through the <a href="https://medium.com/p/c06251780b">Pre-requisites</a></p>
@@ -247,7 +213,7 @@ window.onload = wrap_img;
 <hr>
 
 <h3 id="commit-version-2-getting-input-and-generating-submission-file">
-<a class="anchor" href="#commit-version-2-getting-input-and-generating-submission-file" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30660257">Commit Version 2</a>: Getting Input and Generating Submission File</h3>
+<a href="https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30660257">Commit Version 2</a>: Getting Input and Generating Submission File</h3>
 
 <ul>
   <li>
@@ -263,14 +229,12 @@ window.onload = wrap_img;
 
 <p>My goal for any first commit is always to get input, pass it through a NN and generate a submittable output.</p>
 
-<h4 id="read-the-data">
-<a class="anchor" href="#read-the-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Read the data</h4>
+<h4 id="read-the-data">Read the data</h4>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">train_df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'/kaggle/input/digit-recognizer/train.csv'</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h4 id="trainingtesting">
-<a class="anchor" href="#trainingtesting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Training/testing</h4>
+<h4 id="trainingtesting">Training/testing</h4>
 
 <p>I needed a way to separate features and labels.</p>
 
@@ -283,8 +247,7 @@ window.onload = wrap_img;
 <span class="c1">#false
 </span></code></pre></div></div>
 
-<h4 id="dataset">
-<a class="anchor" href="#dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dataset</h4>
+<h4 id="dataset">Dataset</h4>
 
 <p>Returns features and labels if ‘train=True’. else it returns just features</p>
 
@@ -302,30 +265,26 @@ window.onload = wrap_img;
 
 <p>Observation: Even if I don’t explicitly mention Tensor, NumPy is converted to tensor.</p>
 
-<h4 id="creating-dataloader">
-<a class="anchor" href="#creating-dataloader" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating DataLoader</h4>
+<h4 id="creating-dataloader">Creating DataLoader</h4>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bs</span> <span class="o">=</span> <span class="mi">64</span>
 <span class="n">ds</span> <span class="o">=</span> <span class="n">MnistDataset</span><span class="p">(</span><span class="n">train_df</span><span class="p">)</span>
 <span class="n">dl</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">ds</span><span class="p">,</span> <span class="n">bs</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h4 id="checking-if-dataloader-returns-the-right-output">
-<a class="anchor" href="#checking-if-dataloader-returns-the-right-output" aria-hidden="true"><span class="octicon octicon-link"></span></a>Checking if DataLoader returns the right output</h4>
+<h4 id="checking-if-dataloader-returns-the-right-output">Checking if DataLoader returns the right output</h4>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">images</span><span class="p">,</span> <span class="n">labels</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">dl</span><span class="p">))</span>
 <span class="n">images</span><span class="p">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">labels</span><span class="p">.</span><span class="n">shape</span>
 </code></pre></div></div>
 
-<h4 id="creating-a-vanilla-neural-network">
-<a class="anchor" href="#creating-a-vanilla-neural-network" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating a vanilla Neural Network</h4>
+<h4 id="creating-a-vanilla-neural-network">Creating a vanilla Neural Network</h4>
 
 <p>I created a dumb NN just so that I can pass data through it and get output in the desired shape.</p>
 
 <p>The details don’t matter much. This will be replaced by a CNN later.</p>
 
-<h4 id="preparing-the-training-loop">
-<a class="anchor" href="#preparing-the-training-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>Preparing the training loop</h4>
+<h4 id="preparing-the-training-loop">Preparing the training loop</h4>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">epochs</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="n">loss_fn</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">CrossEntropyLoss</span><span class="p">()</span>
@@ -334,8 +293,7 @@ window.onload = wrap_img;
 <span class="n">o</span> <span class="o">=</span> <span class="n">optim</span><span class="p">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">net</span><span class="p">.</span><span class="n">parameters</span><span class="p">())</span>
 </code></pre></div></div>
 
-<h4 id="creating-the-training-loop">
-<a class="anchor" href="#creating-the-training-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating the training loop</h4>
+<h4 id="creating-the-training-loop">Creating the training loop</h4>
 
 <p>Here are the 4 steps to create a basic training loop</p>
 
@@ -383,8 +341,7 @@ window.onload = wrap_img;
 <span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
 </code></pre></div></div>
 
-<h4 id="generating-output">
-<a class="anchor" href="#generating-output" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generating output</h4>
+<h4 id="generating-output">Generating output</h4>
 
 <p>A similar step as above has been taken to generate test_dl and the testing loop.</p>
 
@@ -440,7 +397,7 @@ window.onload = wrap_img;
 <p><strong>index=False</strong> removed the default pandas index when saving</p>
 
 <h3 id="commit-version-3-improvements">
-<a class="anchor" href="#commit-version-3-improvements" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30753580">Commit Version 3</a>: Improvements</h3>
+<a href="https://www.kaggle.com/ankschoubey/20200324-pytorch-mnist?scriptVersionId=30753580">Commit Version 3</a>: Improvements</h3>
 
 <p><em>Changes</em>: Proper Accuracy, Graph, and Data Normalization</p>
 
@@ -456,8 +413,7 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<h4 id="proper-accuracy">
-<a class="anchor" href="#proper-accuracy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Proper Accuracy</h4>
+<h4 id="proper-accuracy">Proper Accuracy</h4>
 
 <p>Accuracy should always be calculated on the validation set.</p>
 
@@ -491,8 +447,7 @@ window.onload = wrap_img;
         <span class="n">accuracies</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">accuracy</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">val_ds</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h4 id="graph">
-<a class="anchor" href="#graph" aria-hidden="true"><span class="octicon octicon-link"></span></a>Graph</h4>
+<h4 id="graph">Graph</h4>
 
 <p>Since the accuracy of each epoch was stored in a separate accuracies list, creating a graph was easy.</p>
 
@@ -501,8 +456,7 @@ window.onload = wrap_img;
 <span class="n">plt</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">epochs</span><span class="p">),</span> <span class="n">accuracies</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h4 id="data-normalization">
-<a class="anchor" href="#data-normalization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Normalization</h4>
+<h4 id="data-normalization">Data Normalization</h4>
 
 <p>After plotting the graph, I realized accuracy was 43% which is the same as the score of commit 2.</p>
 
@@ -520,7 +474,7 @@ window.onload = wrap_img;
 <p>Later we would use <code class="language-plaintext highlighter-rouge">torchvision.transforms.Normalize</code>(<em>mean</em>, <em>std</em>, <em>inplace=False</em>) which generates unique normalization value for each dataset</p>
 
 <h3 id="commit-6-convnet-and-gpu">
-<a class="anchor" href="#commit-6-convnet-and-gpu" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist?scriptVersionId=30896320">Commit 6</a>: ConvNet, and GPU</h3>
+<a href="https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist?scriptVersionId=30896320">Commit 6</a>: ConvNet, and GPU</h3>
 
 <ul>
   <li>
@@ -534,8 +488,7 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<h4 id="convnet">
-<a class="anchor" href="#convnet" aria-hidden="true"><span class="octicon octicon-link"></span></a>ConvNet</h4>
+<h4 id="convnet">ConvNet</h4>
 
 <p>Convolutional Neural Networks are ideal images.</p>
 
@@ -582,8 +535,7 @@ window.onload = wrap_img;
 
 <p>Modifications have also been made to test_ds.</p>
 
-<h4 id="gpu">
-<a class="anchor" href="#gpu" aria-hidden="true"><span class="octicon octicon-link"></span></a>GPU</h4>
+<h4 id="gpu">GPU</h4>
 
 <p>One I started the training loop, I realized it suddenly became too slow.</p>
 
@@ -623,7 +575,7 @@ window.onload = wrap_img;
 <p>For testing, the batch_size can be much higher since we don’t have to back prop.</p>
 
 <h3 id="commit-7-improvement">
-<a class="anchor" href="#commit-7-improvement" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist/output?scriptVersionId=31120757">Commit 7</a>: Improvement</h3>
+<a href="https://www.kaggle.com/ankschoubey/20200326-pytorch-mnist/output?scriptVersionId=31120757">Commit 7</a>: Improvement</h3>
 
 <ul>
   <li>

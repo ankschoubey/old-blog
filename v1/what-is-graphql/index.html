@@ -189,30 +189,11 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h2"><a href="#what-is-graphql">What is GraphQL?</a></li>
-<li class="toc-entry toc-h2">
-<a href="#advantages-of-graphql-for-consumerclient">Advantages of GraphQL for Consumer/Client</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#the-client-gets-only-the-fields-it-wants">The client gets only the fields it wants</a></li>
-<li class="toc-entry toc-h3"><a href="#the-client-can-ask-for-different-types-of-data-within-the-same-request">The client can ask for different types of data within the same request</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h2">
-<a href="#types-of-graphql-queries">Types of GraphQL queries</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#the-mutation-query">The mutation query</a></li>
-<li class="toc-entry toc-h3"><a href="#variables">Variables</a></li>
-</ul>
-</li>
-<li class="toc-entry toc-h2"><a href="#how-does-a-graph-ql-work-technically">How does a Graph QL work technically?</a></li>
-</ul>
-<p><img src="/images/v1-graphql.png" alt="GraphQL Logo"></p>
+    <p><img src="/images/v1-graphql.png" alt="GraphQL Logo"></p>
 
 <p>I recently consume GraphQL queries. Here’s what I learned:</p>
 
-<h2 id="what-is-graphql">
-<a class="anchor" href="#what-is-graphql" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is GraphQL?</h2>
+<h2 id="what-is-graphql">What is GraphQL?</h2>
 
 <p>GraphQL is a way of getting data over HTTP in the form of JSON where the client has control over what data it receives.</p>
 
@@ -220,11 +201,9 @@ window.onload = wrap_img;
 
 <p>GraphQL is what I believe is easier to implement for both client and server.</p>
 
-<h2 id="advantages-of-graphql-for-consumerclient">
-<a class="anchor" href="#advantages-of-graphql-for-consumerclient" aria-hidden="true"><span class="octicon octicon-link"></span></a>Advantages of GraphQL for Consumer/Client</h2>
+<h2 id="advantages-of-graphql-for-consumerclient">Advantages of GraphQL for Consumer/Client</h2>
 
-<h3 id="the-client-gets-only-the-fields-it-wants">
-<a class="anchor" href="#the-client-gets-only-the-fields-it-wants" aria-hidden="true"><span class="octicon octicon-link"></span></a>The client gets only the fields it wants</h3>
+<h3 id="the-client-gets-only-the-fields-it-wants">The client gets only the fields it wants</h3>
 
 <p>Suppose you have a <code class="language-plaintext highlighter-rouge">User</code> record with the following schema,</p>
 
@@ -282,8 +261,7 @@ window.onload = wrap_img;
 }
 </code></pre></div></div>
 
-<h3 id="the-client-can-ask-for-different-types-of-data-within-the-same-request">
-<a class="anchor" href="#the-client-can-ask-for-different-types-of-data-within-the-same-request" aria-hidden="true"><span class="octicon octicon-link"></span></a>The client can ask for different types of data within the same request</h3>
+<h3 id="the-client-can-ask-for-different-types-of-data-within-the-same-request">The client can ask for different types of data within the same request</h3>
 
 <p>GraphQL allows for fetching multiple requests at once. For example, you can have a query like below where both User data and Jobs data are being fetched</p>
 
@@ -305,8 +283,7 @@ window.onload = wrap_img;
 
 <p>This would mean multiple records would be fetched in a single request.</p>
 
-<h2 id="types-of-graphql-queries">
-<a class="anchor" href="#types-of-graphql-queries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Types of GraphQL queries</h2>
+<h2 id="types-of-graphql-queries">Types of GraphQL queries</h2>
 
 <p>There are two main types of GraphQL Queries:</p>
 
@@ -337,8 +314,7 @@ window.onload = wrap_img;
   <li>Variables</li>
 </ol>
 
-<h3 id="the-mutation-query">
-<a class="anchor" href="#the-mutation-query" aria-hidden="true"><span class="octicon octicon-link"></span></a>The mutation query</h3>
+<h3 id="the-mutation-query">The mutation query</h3>
 
 <div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">mutate</span><span class="p">{</span><span class="w">
   </span><span class="n">createUser</span><span class="p">(</span><span class="err">$</span><span class="n">username</span><span class="p">){</span><span class="w">
@@ -347,8 +323,7 @@ window.onload = wrap_img;
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<h3 id="variables">
-<a class="anchor" href="#variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variables</h3>
+<h3 id="variables">Variables</h3>
 
 <div class="language-graphql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="n">username</span><span class="p">:</span><span class="w"> </span><span class="err">"</span><span class="n">Tony</span><span class="w"> </span><span class="n">Stark</span><span class="err">"</span><span class="w">
@@ -357,8 +332,7 @@ window.onload = wrap_img;
 
 <p>Here, <code class="language-plaintext highlighter-rouge">createUser</code> would be called with the <code class="language-plaintext highlighter-rouge">username</code> as “Tony Stark” and only the <code class="language-plaintext highlighter-rouge">id</code> would be returned. The client can choose to return other values like <code class="language-plaintext highlighter-rouge">name</code> as <code class="language-plaintext highlighter-rouge">createUser</code> supports them too.</p>
 
-<h2 id="how-does-a-graph-ql-work-technically">
-<a class="anchor" href="#how-does-a-graph-ql-work-technically" aria-hidden="true"><span class="octicon octicon-link"></span></a>How does a Graph QL work technically?</h2>
+<h2 id="how-does-a-graph-ql-work-technically">How does a Graph QL work technically?</h2>
 
 <p>GraphQL operates on a single endpoint, typically <code class="language-plaintext highlighter-rouge">/graphql</code>, that receives <code class="language-plaintext highlighter-rouge">POST</code> requests with a <code class="language-plaintext highlighter-rouge">JSON</code> body containing a <code class="language-plaintext highlighter-rouge">query</code> field, which specifies the data to be retrieved or modified, and an optional <code class="language-plaintext highlighter-rouge">variables</code> field for passing in arguments.</p>
 

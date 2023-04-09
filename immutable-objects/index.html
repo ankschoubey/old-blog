@@ -190,14 +190,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#where-immutability-is-needed">Where Immutability is needed?</a></li>
-<li class="toc-entry toc-h1"><a href="#creating-an-immutable-object">Creating an immutable object</a></li>
-<li class="toc-entry toc-h1"><a href="#java-libraries">Java Libraries</a></li>
-<li class="toc-entry toc-h1"><a href="#automating-verification-via-unit-tests">Automating Verification via Unit Tests</a></li>
-<li class="toc-entry toc-h1"><a href="#resources">Resources</a></li>
-</ul>
-<p><img src="/images/immutable-objects.jpg" alt=""></p>
+    <p><img src="/images/immutable-objects.jpg" alt=""></p>
 
 <p><sup>Photo by <a href="https://unsplash.com/@davehoefler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dave Hoefler</a> on <a href="https://unsplash.com/s/photos/stone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></sup></p>
 
@@ -206,9 +199,7 @@ window.onload = wrap_img;
     <strong>Note: </strong>For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability.
 </div>
 
-<h1 id="where-immutability-is-needed">
-<a class="anchor" href="#where-immutability-is-needed" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Where Immutability is needed?</strong>
-</h1>
+<h1 id="where-immutability-is-needed"><strong>Where Immutability is needed?</strong></h1>
 
 <p>When sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren’t discovered.</p>
 
@@ -239,9 +230,7 @@ window.onload = wrap_img;
 
 <p>Ideally, the solution would be, in this case, to declare the variable within the method it is used.</p>
 
-<h1 id="creating-an-immutable-object">
-<a class="anchor" href="#creating-an-immutable-object" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Creating an immutable object</strong>
-</h1>
+<h1 id="creating-an-immutable-object"><strong>Creating an immutable object</strong></h1>
 
 <p>The creation of immutable objects is relatively simple.</p>
 <ol>
@@ -254,9 +243,7 @@ No method should modify the contents of the private final method.</li>
 
 <p>There are some more rules, but these are the minimum requirements. The following section will explain how you automate the checking of immutable classes would also check for more conditions.</p>
 
-<h1 id="java-libraries">
-<a class="anchor" href="#java-libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Java Libraries</strong>
-</h1>
+<h1 id="java-libraries"><strong>Java Libraries</strong></h1>
 
 <p>Some libraries help create immutable objects, such as <a href="https://immutables.github.io/">Immutables for Java</a>.</p>
 
@@ -268,7 +255,7 @@ No method should modify the contents of the private final method.</li>
 </div>
 
 <h1 id="automating-verification-via-unit-tests">
-<a class="anchor" href="#automating-verification-via-unit-tests" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Automating Verification</strong> via Unit Tests</h1>
+<strong>Automating Verification</strong> via Unit Tests</h1>
 
 <p>But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:</p>
 
@@ -292,9 +279,7 @@ No method should modify the contents of the private final method.</li>
 
 <p>In practice, I couldn’t fully make <code class="language-plaintext highlighter-rouge">assertImmutable</code> work with abstract classes.</p>
 
-<h1 id="resources">
-<a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Resources</strong>
-</h1>
+<h1 id="resources"><strong>Resources</strong></h1>
 
 <ul>
   <li><a href="https://www.youtube.com/watch?v=VO4IGFayJWo">Immutable Data Structures are Thread Safe</a></li>

@@ -180,18 +180,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h2"><a href="#rule-of-thumb-avoid-filtering-loops">Rule of thumb: Avoid filtering loops</a></li>
-<li class="toc-entry toc-h2"><a href="#use-orm">Use ORM</a></li>
-<li class="toc-entry toc-h2">
-<a href="#complex-queries">Complex queries</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#break-down-big-bang-complex-queries-into-multiple-simpler-queries">Break down big-bang (complex) queries into multiple simpler queries</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="rule-of-thumb-avoid-filtering-loops">
-<a class="anchor" href="#rule-of-thumb-avoid-filtering-loops" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rule of thumb: Avoid filtering loops</h2>
+    <h2 id="rule-of-thumb-avoid-filtering-loops">Rule of thumb: Avoid filtering loops</h2>
 
 <p>SQL/Databases are good at 2 jobs: storing data. filtering data as fast as possible. <strong>You’re for loop cannot compete with SQL.</strong></p>
 
@@ -199,9 +188,7 @@ window.onload = wrap_img;
 
 <p>Try to filter with smaller queries with a smaller number of columns before fetching all the columns. Smaller the data, the faster will be the data transfer. You will find a better example of this in the section of Complex Queries bellow.</p>
 
-<h2 id="use-orm">
-<a class="anchor" href="#use-orm" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Use ORM</strong>
-</h2>
+<h2 id="use-orm"><strong>Use ORM</strong></h2>
 
 <p>For Spring (Java), ideally, use JPA method query things.<strong>***</strong></p>
 
@@ -215,8 +202,7 @@ window.onload = wrap_img;
 
 <p>For Python, SQLAlchemy is popular and preferred or Django ORM for Django. (I have less experience with this)</p>
 
-<h2 id="complex-queries">
-<a class="anchor" href="#complex-queries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Complex queries</h2>
+<h2 id="complex-queries">Complex queries</h2>
 
 <p>Native queries are faster than usual ones but use the sparingly.</p>
 
@@ -226,8 +212,7 @@ window.onload = wrap_img;
 
 <p>I do find Django ORM to be easier than Spring JPA (you can pass arguments rather than always create a separate function).</p>
 
-<h3 id="break-down-big-bang-complex-queries-into-multiple-simpler-queries">
-<a class="anchor" href="#break-down-big-bang-complex-queries-into-multiple-simpler-queries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Break down big-bang (complex) queries into multiple simpler queries</h3>
+<h3 id="break-down-big-bang-complex-queries-into-multiple-simpler-queries">Break down big-bang (complex) queries into multiple simpler queries</h3>
 
 <blockquote>
   <p>note: This might be very controversial and I have not seen this talked about anywhere or used in other people’s code. <strong>You are not likely to use this unless you are like me (bad at ORMs)</strong>.</p>

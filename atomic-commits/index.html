@@ -196,13 +196,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#what-is-the-problem-with-larger-commits">What is the problem with larger commits?</a></li>
-<li class="toc-entry toc-h1"><a href="#why-we-should-do-atomic-commits">Why we should do atomic commits?</a></li>
-<li class="toc-entry toc-h1"><a href="#how-to-implement-atomic-commits-in-practice">How to implement atomic commits in practice?</a></li>
-</ul>
-<h1 id="what-is-the-problem-with-larger-commits">
-<a class="anchor" href="#what-is-the-problem-with-larger-commits" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is the problem with larger commits?</h1>
+    <h1 id="what-is-the-problem-with-larger-commits">What is the problem with larger commits?</h1>
 
 <p>Many developers complete all their features before committing and merging. When they commit and merge,</p>
 <ul>
@@ -215,8 +209,7 @@ window.onload = wrap_img;
 
 <p>Often the reason is, that we are afraid to merge and want to get everything perfect the first time. But this is counterintuitive.</p>
 
-<h1 id="why-we-should-do-atomic-commits">
-<a class="anchor" href="#why-we-should-do-atomic-commits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why we should do atomic commits?</h1>
+<h1 id="why-we-should-do-atomic-commits">Why we should do atomic commits?</h1>
 
 <p>Atomic commits are frequent commits.</p>
 
@@ -245,8 +238,7 @@ feat(53-service): streaming download from s3
 feat(api): add endpoint for streaming download /downloads
 </code></pre>
 
-<h1 id="how-to-implement-atomic-commits-in-practice">
-<a class="anchor" href="#how-to-implement-atomic-commits-in-practice" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to implement atomic commits in practice?</h1>
+<h1 id="how-to-implement-atomic-commits-in-practice">How to implement atomic commits in practice?</h1>
 
 <ol>
   <li>Commit and push to <code class="language-plaintext highlighter-rouge">dev</code> after every completing method/feature.</li>

@@ -182,13 +182,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#only-allows-certain-data">Only allows certain data</a></li>
-<li class="toc-entry toc-h1"><a href="#validate-on-frontend">Validate on frontend</a></li>
-<li class="toc-entry toc-h1"><a href="#validate-on-the-backend">Validate on the backend</a></li>
-<li class="toc-entry toc-h1"><a href="#validate-on-the-database">Validate on the database</a></li>
-</ul>
-<p>It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.</p>
+    <p>It’s imperative to have good data validations in place. Because often, data leads to more bugs even when logic works correctly.</p>
 
 <p>Data errors can be:</p>
 <ol>
@@ -201,22 +195,19 @@ window.onload = wrap_img;
 
 <p>Therefore, we should ensure that data is validated before it reaches DB.</p>
 
-<h1 id="only-allows-certain-data">
-<a class="anchor" href="#only-allows-certain-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Only allows certain data</h1>
+<h1 id="only-allows-certain-data">Only allows certain data</h1>
 
 <p>You minimize data problems by only allowing it for specific fields.</p>
 
 <p>On a UI, it could be dropdowns, date fields with range, and auto-completion options.</p>
 
-<h1 id="validate-on-frontend">
-<a class="anchor" href="#validate-on-frontend" aria-hidden="true"><span class="octicon octicon-link"></span></a>Validate on frontend</h1>
+<h1 id="validate-on-frontend">Validate on frontend</h1>
 
 <p>Libraries like <a href="https://formik.org/">formik</a> and <a href="https://github.com/jquense/yup">yup</a> can help perform object and user input validation.</p>
 
 <p>Typescript is only helpful in knowing the exact names of the variable, its type or keys within an object. Since it gets converted to javascript, typescript can’t be used to validate data types.</p>
 
-<h1 id="validate-on-the-backend">
-<a class="anchor" href="#validate-on-the-backend" aria-hidden="true"><span class="octicon octicon-link"></span></a>Validate on the backend</h1>
+<h1 id="validate-on-the-backend">Validate on the backend</h1>
 
 <p>In Java specifically, you have JSR Validators.</p>
 
@@ -226,8 +217,7 @@ window.onload = wrap_img;
 
 <p>Using enums is also an option.</p>
 
-<h1 id="validate-on-the-database">
-<a class="anchor" href="#validate-on-the-database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Validate on the database</h1>
+<h1 id="validate-on-the-database">Validate on the database</h1>
 
 <p>This is as important as validating on backend.</p>
 

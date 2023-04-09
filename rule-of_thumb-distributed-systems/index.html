@@ -182,14 +182,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#dont-distribute-or-atleast-dont-distribute-early">Don’t distribute. Or atleast don’t distribute early.</a></li>
-<li class="toc-entry toc-h1"><a href="#separate-database">Separate database</a></li>
-<li class="toc-entry toc-h1"><a href="#prefer-event-driven-services">Prefer Event Driven Services</a></li>
-<li class="toc-entry toc-h1"><a href="#keep-code-and-interface-quality-damn-high">Keep code and interface quality damn high.</a></li>
-</ul>
-<h1 id="dont-distribute-or-atleast-dont-distribute-early">
-<a class="anchor" href="#dont-distribute-or-atleast-dont-distribute-early" aria-hidden="true"><span class="octicon octicon-link"></span></a>Don’t distribute. Or atleast don’t distribute early.</h1>
+    <h1 id="dont-distribute-or-atleast-dont-distribute-early">Don’t distribute. Or atleast don’t distribute early.</h1>
 
 <p>We have a tendancy to over engineer.</p>
 
@@ -199,8 +192,7 @@ window.onload = wrap_img;
 
 <p>It’s easier to have everything very decoupled and in separate packages and then distribute things later if need arises.</p>
 
-<h1 id="separate-database">
-<a class="anchor" href="#separate-database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Separate database</h1>
+<h1 id="separate-database">Separate database</h1>
 
 <p>Database for each service should be separate. Data can be shared either by having API call or by using message queue.</p>
 
@@ -208,8 +200,7 @@ window.onload = wrap_img;
 
 <p>A potential exception to this is CQRS style services where one service writes the data and the other service reads the data. In this case, both services are highly coupled to each other.</p>
 
-<h1 id="prefer-event-driven-services">
-<a class="anchor" href="#prefer-event-driven-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prefer Event Driven Services</h1>
+<h1 id="prefer-event-driven-services">Prefer Event Driven Services</h1>
 
 <p>Message queues are highly decoupled and can scale very efficiently. Prefer having all internal sharing of data using message queue.</p>
 
@@ -219,8 +210,7 @@ window.onload = wrap_img;
 
 <p>Replication is okay in event driven microservices.</p>
 
-<h1 id="keep-code-and-interface-quality-damn-high">
-<a class="anchor" href="#keep-code-and-interface-quality-damn-high" aria-hidden="true"><span class="octicon octicon-link"></span></a>Keep code and interface quality damn high.</h1>
+<h1 id="keep-code-and-interface-quality-damn-high">Keep code and interface quality damn high.</h1>
 
 <p>In micro-services, you have to have a very high quality interface. This means Rest APIs, Kafka messages, etc. If quality/standards are not followed, then it effects every other service.</p>
 

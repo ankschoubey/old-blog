@@ -180,27 +180,14 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h2"><a href="#create-custom-exception-classes">Create custom exception classes</a></li>
-<li class="toc-entry toc-h2"><a href="#always-know-why-you-are-catching-an-exception">Always know why you are catching an exception…</a></li>
-<li class="toc-entry toc-h2"><a href="#-or-just-dont-catch-it-throws-to-the-caller">… or just don’t catch it (throws to the caller)</a></li>
-<li class="toc-entry toc-h2"><a href="#for-unsupported-operations">For Unsupported Operations</a></li>
-<li class="toc-entry toc-h2">
-<a href="#global-exception-handling">Global exception handling</a>
-<ul>
-<li class="toc-entry toc-h3"><a href="#spring-java-controlleradvice">Spring (Java): @ControllerAdvice</a></li>
-</ul>
-</li>
-</ul>
-<blockquote>
+    <blockquote>
   <p>Errors should never pass silently.
 Unless explicitly silenced.</p>
 </blockquote>
 
 <p>~The Zen of Python, by Tim Peters</p>
 
-<h2 id="create-custom-exception-classes">
-<a class="anchor" href="#create-custom-exception-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create custom exception classes</h2>
+<h2 id="create-custom-exception-classes">Create custom exception classes</h2>
 
 <p>Your exceptions should say exactly what went wrong. While those provided by programming languages are good, they are too general and are not specific to your codebase.</p>
 
@@ -221,20 +208,17 @@ Unless explicitly silenced.</p>
 
 <p>Custom Exception class also makes your logs easier to read.</p>
 
-<h2 id="always-know-why-you-are-catching-an-exception">
-<a class="anchor" href="#always-know-why-you-are-catching-an-exception" aria-hidden="true"><span class="octicon octicon-link"></span></a>Always know why you are catching an exception…</h2>
+<h2 id="always-know-why-you-are-catching-an-exception">Always know why you are catching an exception…</h2>
 
 <p><img src="/images/2020-01-06-clean-code-exception-handling/1.png" alt="TODO: Find and Add YouTube video attribution"></p>
 
-<h2 id="-or-just-dont-catch-it-throws-to-the-caller">
-<a class="anchor" href="#-or-just-dont-catch-it-throws-to-the-caller" aria-hidden="true"><span class="octicon octicon-link"></span></a>… or just don’t catch it (throws to the caller)</h2>
+<h2 id="-or-just-dont-catch-it-throws-to-the-caller">… or just don’t catch it (throws to the caller)</h2>
 
 <p>if you are not going to do anything with the exception don’t catch it just throw it.</p>
 
 <p>Don’t add throw exception in the catch block. Use <strong>throws while declaring the function instead</strong>.</p>
 
-<h2 id="for-unsupported-operations">
-<a class="anchor" href="#for-unsupported-operations" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Unsupported Operations</h2>
+<h2 id="for-unsupported-operations">For Unsupported Operations</h2>
 
 <p>In if-else statements or switch cases, it is always good to have a default case which will execute if no other condition is true.</p>
 
@@ -251,15 +235,13 @@ Unless explicitly silenced.</p>
 
 <p><img src="/images/2020-01-06-clean-code-exception-handling/2.png" alt=""></p>
 
-<h2 id="global-exception-handling">
-<a class="anchor" href="#global-exception-handling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Global exception handling</h2>
+<h2 id="global-exception-handling">Global exception handling</h2>
 
 <p>These allow you to have the same exception handling mechanism in case you have not explicitly handled the exception.</p>
 
 <p>The most basic thing to do here is logging the exception.</p>
 
-<h3 id="spring-java-controlleradvice">
-<a class="anchor" href="#spring-java-controlleradvice" aria-hidden="true"><span class="octicon octicon-link"></span></a>Spring (Java): @ControllerAdvice</h3>
+<h3 id="spring-java-controlleradvice">Spring (Java): @ControllerAdvice</h3>
 
 <iframe width="854" height="480" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyIr5iNIXJjo%3Ffeature%3Doembed&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyIr5iNIXJjo&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyIr5iNIXJjo%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 

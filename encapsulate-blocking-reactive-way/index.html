@@ -183,18 +183,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h2"><a href="#use-blockhound-to-find-blocking-calls-during-testing">Use BlockHound to find blocking calls during testing</a></li>
-<li class="toc-entry toc-h1"><a href="#avoid-significant-work-before-subscribe">Avoid Significant Work Before Subscribe</a></li>
-<li class="toc-entry toc-h1">
-<a href="#always-look-for-async-implementations">Always look for async implementations</a>
-<ul>
-<li class="toc-entry toc-h2"><a href="#encapsulate-blocking-calls">Encapsulate blocking calls</a></li>
-<li class="toc-entry toc-h2"><a href="#find-if-a-method-is-reactive">Find if a method is reactive</a></li>
-</ul>
-</li>
-</ul>
-<p>The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!</p>
+    <p>The one rule you aren’t allowed to break with project reactor is this: Don’t Block over Event Loop!</p>
 
 <p>Event loops are main threads that shouldn’t be blocked.</p>
 
@@ -202,8 +191,7 @@ window.onload = wrap_img;
 
 <p>Here are some ways to fix these issues that I have noted down while watching Avoiding Reactor Meldown video. I have added an additional tip at the end.</p>
 
-<h2 id="use-blockhound-to-find-blocking-calls-during-testing">
-<a class="anchor" href="#use-blockhound-to-find-blocking-calls-during-testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use BlockHound to find blocking calls during testing</h2>
+<h2 id="use-blockhound-to-find-blocking-calls-during-testing">Use BlockHound to find blocking calls during testing</h2>
 
 <p>BlockHound is a plugin provided by Project Reactor that helps find blocking calls.</p>
 
@@ -215,23 +203,19 @@ window.onload = wrap_img;
 
 <p>Remember that blockhound will only detect blocks on main thread. This means that if you are writing junit tests, if blocking call is not made on event loop, then it won’t be detected.</p>
 
-<h1 id="avoid-significant-work-before-subscribe">
-<a class="anchor" href="#avoid-significant-work-before-subscribe" aria-hidden="true"><span class="octicon octicon-link"></span></a>Avoid Significant Work Before Subscribe</h1>
+<h1 id="avoid-significant-work-before-subscribe">Avoid Significant Work Before Subscribe</h1>
 
-<h1 id="always-look-for-async-implementations">
-<a class="anchor" href="#always-look-for-async-implementations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Always look for async implementations</h1>
+<h1 id="always-look-for-async-implementations">Always look for async implementations</h1>
 
 <p>Completable futures can be converted to mono. Many java libraries have completable future implementations.</p>
 
-<h2 id="encapsulate-blocking-calls">
-<a class="anchor" href="#encapsulate-blocking-calls" aria-hidden="true"><span class="octicon octicon-link"></span></a>Encapsulate blocking calls</h2>
+<h2 id="encapsulate-blocking-calls">Encapsulate blocking calls</h2>
 
 <p><img src="https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b52e381a43331ded5a/download/Screenshot_2022-07-17_at_12.23.22_PM.png" alt="Screenshot_2022-07-17_at_12.23.22_PM.png"></p>
 
 <p><img src="https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d585b266fbbc5ae9751808/download/Screenshot_2022-07-17_at_12.22.57_PM.png" alt="Screenshot_2022-07-17_at_12.22.57_PM.png"></p>
 
-<h2 id="find-if-a-method-is-reactive">
-<a class="anchor" href="#find-if-a-method-is-reactive" aria-hidden="true"><span class="octicon octicon-link"></span></a>Find if a method is reactive</h2>
+<h2 id="find-if-a-method-is-reactive">Find if a method is reactive</h2>
 
 <p><img src="https://trello.com/1/cards/62d3b3432dae600b8db5d7f4/attachments/62d5826d1010e7165d435b8c/download/Screenshot_2022-07-17_at_12.24.19_PM.png" alt="Screenshot_2022-07-17_at_12.24.19_PM.png"></p>
 

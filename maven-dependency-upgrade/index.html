@@ -192,14 +192,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-<li class="toc-entry toc-h1"><a href="#update-dependencies-in-parent">Update dependencies in parent</a></li>
-<li class="toc-entry toc-h1"><a href="#find-child-dependies-easier-with-maven-helper-plugin-for-intellij">Find child dependies easier with Maven Helper plugin for IntelliJ</a></li>
-<li class="toc-entry toc-h1"><a href="#run-automated-tests-after-updation">Run automated tests after updation</a></li>
-<li class="toc-entry toc-h1"><a href="#automate-updation">Automate updation</a></li>
-<li class="toc-entry toc-h1"><a href="#resources">Resources</a></li>
-</ul>
-<p><img src="/images/maven-dependency-upgrade/header.svg" alt="Maven Logo From Wikipedia"></p>
+    <p><img src="/images/maven-dependency-upgrade/header.svg" alt="Maven Logo From Wikipedia"></p>
 
 <div class="flash">
     <svg class="octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
@@ -214,8 +207,7 @@ window.onload = wrap_img;
 
 <p>Here are few things that could make the process easier.</p>
 
-<h1 id="update-dependencies-in-parent">
-<a class="anchor" href="#update-dependencies-in-parent" aria-hidden="true"><span class="octicon octicon-link"></span></a>Update dependencies in parent</h1>
+<h1 id="update-dependencies-in-parent">Update dependencies in parent</h1>
 
 <p>If dependencies in the parent can’t be updated exclude and update the child.</p>
 
@@ -223,8 +215,7 @@ window.onload = wrap_img;
 
 <p>If dependency cannot be upgraded, find a different package specially if it’s a security problem.</p>
 
-<h1 id="find-child-dependies-easier-with-maven-helper-plugin-for-intellij">
-<a class="anchor" href="#find-child-dependies-easier-with-maven-helper-plugin-for-intellij" aria-hidden="true"><span class="octicon octicon-link"></span></a>Find child dependies easier with Maven Helper plugin for IntelliJ</h1>
+<h1 id="find-child-dependies-easier-with-maven-helper-plugin-for-intellij">Find child dependies easier with Maven Helper plugin for IntelliJ</h1>
 
 <p>It can be hard to know the subdependiencies of a dependency. <a href="https://plugins.jetbrains.com/plugin/7179-maven-helper">Maven Helper</a> plugin creates a tree that can help.</p>
 
@@ -232,22 +223,19 @@ window.onload = wrap_img;
 
 <p><img src="/images/maven-dependency-upgrade/maven_helper.png" alt="Maven Helper IntelliJ Plugin"></p>
 
-<h1 id="run-automated-tests-after-updation">
-<a class="anchor" href="#run-automated-tests-after-updation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run automated tests after updation</h1>
+<h1 id="run-automated-tests-after-updation">Run automated tests after updation</h1>
 
 <p>Having a good automated test suit helps elevate the risks involves with updation of any kind.</p>
 
 <p>Run all your automated tests to verify if change to dependies is making the code break.</p>
 
-<h1 id="automate-updation">
-<a class="anchor" href="#automate-updation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Automate updation</h1>
+<h1 id="automate-updation">Automate updation</h1>
 
 <p>This can be automated by using a maven plugin like <a href="https://www.baeldung.com/maven-dependency-latest-version">Versions Maven Plugin</a></p>
 
 <p>A pipeline job can be run where version is auto-updated and merged to <code class="language-plaintext highlighter-rouge">dev</code> branch if tests are passed. :)</p>
 
-<h1 id="resources">
-<a class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources</h1>
+<h1 id="resources">Resources</h1>
 
 <p><a href="https://www.baeldung.com/maven-unused-dependencies">Find unused dependency</a></p>
 
