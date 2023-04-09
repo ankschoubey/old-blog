@@ -14,9 +14,7 @@ layout: base
       height: 300px;
     {%- endif -%}
   }
-  .post-title{
-    -webkit-text-stroke: .15px white;
-  }
+
   .cover-image{
     position: absolute;
     left:0px;
@@ -36,12 +34,14 @@ layout: base
     }
   }
   .post-header-content{
+    {%- if page.image -%}
     backdrop-filter: blur(200px); 
     position: absolute; 
     left:0px; 
     padding: 0px 20px;
     -webkit-backdrop-filter: blur(200px);
-    -webkit-text-stroke: .15px black;
+        background: #ffffff80;
+    {%- endif -%}
   }
 </style>
 
