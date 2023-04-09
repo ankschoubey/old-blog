@@ -128,10 +128,40 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <header class="post-header" style="
+        <style>
+  .page-content{
+    padding-top: 0px;
+  }
+  .post-header{
     display: flex;
     flex-direction: column;
-    justify-content: end;"><div style="backdrop-filter: blur(200px); position: absolute; left:0px; padding: 0px 20px;">
+    justify-content: end;-webkit-text-stroke: .15px white;
+  }
+  .cover-image{
+    position: absolute;
+    left:0px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .post-header{}
+    .cover-image{
+      height: 550px;
+    }
+  }
+  .post-header-content{
+    backdrop-filter: blur(200px); 
+    position: absolute; 
+    left:0px; 
+    padding: 0px 20px;
+    -webkit-backdrop-filter: blur(200px);
+    -webkit-text-stroke: .15px black;
+  }
+</style>
+
+<header class="post-header"><div class="post-header-content">
     <h1 class="post-title p-name" itemprop="name headline">Observability For Developers</h1>
 <p class="page-description">Fix bugs before your user reports</p>
 <p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-01-01T00:00:00-06:00" itemprop="datePublished">
