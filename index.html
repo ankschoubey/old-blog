@@ -39,12 +39,34 @@ search_exclude: true
         color: white;
         padding: 5px;
     }
+
+    .ankush-header{
+        height: 500px;
+        display: flex;
+        justify-content: flex-end;
+        img{
+            z-index: -2;
+            position: absolute;
+            width: 100%;
+        }
+        div{
+            backdrop-filter: blur(200px); 
+            padding: 0px 20px;
+            -webkit-backdrop-filter: blur(200px);
+                background: #ffffffcf;
+        }
+    }
 </style>
 
-I have four years of experience as a **full-stack developer**, with a focus on developing microservices, implementing test-first development practices, writing clean code, and delivering customer and business-oriented solutions.
+<div class="ankush-header">
+    <img src="/images/header.png">
 
-Through this blog, I share my insights and ideas on software development [philosophy](/philosophy) and best practices to help fellow developers create high-quality software products.
+    <div>
+        I have four years of experience as a <b>full-stack developer</b>, with a focus on developing microservices, implementing test-first development practices, writing clean code, and delivering customer and business-oriented solutions.
 
+        Through this blog, I share my insights and ideas on software development <a href="/philosophy">philosophy</a> and best practices to help fellow developers create high-quality software products.
+    </div>
+</div>
 <!-- My current focus is: **[Algorithms for Coding Problems](/algorithm-problem)** -->
 
 <div style='display: none; align-items: center; gap: 10px; flex-wrap: wrap;'>
@@ -52,7 +74,6 @@ Through this blog, I share my insights and ideas on software development [philos
     {% include btn.html href='mailto:ankushchoubey@outlook.com' icon='fa fa-envelope' text='Email' download='n' %}
     {% include btn.html href='https://www.linkedin.com/in/ankushchoubey/' icon='fa fa-linkedin' text='LinkedIn' download='n' %}
     {% include btn.html href='https://www.youtube.com/channel/UCsLuPmg-NgqXMM6qkdwFbyQ' icon='fa fa-youtube' text='YouTube' download='n' %}
-
 </div>
 
 ## Posts (sorted by last updated)
