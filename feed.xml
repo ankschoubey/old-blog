@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-04-09T01:42:57-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">The many ways of using Ethos Pathos Logos</title><link href="https://www.ankushchoubey.com/v1/truth/ethos-pathos-logos" rel="alternate" type="text/html" title="The many ways of using Ethos Pathos Logos" /><published>2023-04-08T00:00:00-05:00</published><updated>2023-04-07T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-ethos-pathos-logis</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/ethos-pathos-logos"><![CDATA[<h2 id="introduction">Introduction</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-04-11T11:20:58-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Making Object Immutable for Concurrency</title><link href="https://www.ankushchoubey.com/immutable-objects/" rel="alternate" type="text/html" title="Making Object Immutable for Concurrency" /><published>2023-04-11T00:00:00-05:00</published><updated>2022-09-18T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1-backend-performance</id><content type="html" xml:base="https://www.ankushchoubey.com/immutable-objects/"><![CDATA[<p><img src="/images/immutable-objects.jpg" alt="" /></p>
+
+<p><sup>Photo by <a href="https://unsplash.com/@davehoefler?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Dave Hoefler</a> on <a href="https://unsplash.com/s/photos/stone?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sup></p>
+
+<div class="flash">
+    <svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+    <strong>Note: </strong>For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability.
+</div>
+
+<h1 id="where-immutability-is-needed"><strong>Where Immutability is needed?</strong></h1>
+
+<p>When sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren’t discovered.</p>
+
+<p>There are two ways to avoid this: thread-safe data structures or immutable objects.</p>
+
+<p>This particular post will explain where immutable objects are necessary.</p>
+
+<p>Suppose you have 2 Rest Endpoints. <code class="language-plaintext highlighter-rouge">/someEndpoint</code> and <code class="language-plaintext highlighter-rouge">/anotherEndpoint</code> both set a particular value to the variable <code class="language-plaintext highlighter-rouge">sharedMemory</code>.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">private</span> <span class="nc">String</span> <span class="n">sharedMemory</span><span class="o">;</span>
+
+<span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/someEndpoint"</span><span class="o">)</span>
+<span class="kt">void</span> <span class="nf">postSomething</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="nc">String</span> <span class="n">value</span><span class="o">){</span>
+    <span class="n">sharedMemory</span> <span class="o">=</span> <span class="n">value</span><span class="o">;</span>
+    <span class="o">....</span>
+   <span class="c1">//some code that uses sharedMemory</span>
+<span class="o">}</span>
+
+<span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/anotherEndpoint"</span><span class="o">)</span>
+<span class="kt">void</span> <span class="nf">postSomethingElse</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="nc">String</span> <span class="n">value</span><span class="o">){</span>
+    <span class="n">sharedMemory</span> <span class="o">=</span> <span class="n">value</span><span class="o">;</span>
+    <span class="o">....</span>
+   <span class="c1">//some code that uses sharedMemory</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>It can happen that this shared memory is not inconsistent.</p>
+
+<p>Ideally, the solution would be, in this case, to declare the variable within the method it is used.</p>
+
+<h1 id="creating-an-immutable-object"><strong>Creating an immutable object</strong></h1>
+
+<p>The creation of immutable objects is relatively simple.</p>
+<ol>
+  <li>Make sure all instance variables are <code class="language-plaintext highlighter-rouge">private final</code>.</li>
+  <li>make sure all interactions with the method happens only via the constructor or the public method.
+No method should modify the contents of the private final method.</li>
+  <li>Make sure all instance variables are immutable.</li>
+  <li>Make sure the class is <code class="language-plaintext highlighter-rouge">final</code> so that there is no inheriting and subclasses can’t override something.</li>
+</ol>
+
+<p>There are some more rules, but these are the minimum requirements. The following section will explain how you automate the checking of immutable classes would also check for more conditions.</p>
+
+<h1 id="java-libraries"><strong>Java Libraries</strong></h1>
+
+<p>Some libraries help create immutable objects, such as <a href="https://immutables.github.io/">Immutables for Java</a>.</p>
+
+<p><a href="https://github.com/google/guava/wiki/ImmutableCollectionsExplained">Google Guava Library</a> provides many immutable data structure alternatives. The benefit of using these is that they have the same interface as regular java collections.</p>
+
+<div class="flash">
+    <svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+    <strong>Note: </strong>It's best to start with immutable objects and then modify them if needed.
+</div>
+
+<h1 id="automating-verification-via-unit-tests"><strong>Automating Verification</strong> via Unit Tests</h1>
+
+<p>But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:</p>
+
+<p><strong>#1 Mutability Detector</strong></p>
+
+<p>Mutability Detector is a package that provides the following assertion that can be used within unit tests.</p>
+
+<p>Mutability Detector has many more conditions to detect mutability.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    assertImmutable(MyClass.class); 
+</code></pre></div></div>
+
+<p><a href="https://github.com/MutabilityDetector/MutabilityDetector">Github Source</a></p>
+
+<p><strong>#2 Automate further with ArchUnit tests</strong></p>
+
+<p>ArchUnit tests allow for writing architecture-level tests. We can write a test such as asserting that a class is immutable if a class is annotated with @component.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+<p>In practice, I couldn’t fully make <code class="language-plaintext highlighter-rouge">assertImmutable</code> work with abstract classes.</p>
+
+<h1 id="resources"><strong>Resources</strong></h1>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=VO4IGFayJWo">Immutable Data Structures are Thread Safe</a></li>
+  <li><a href="https://www.youtube.com/watch?v=uFxWg3cVMRs">How to Make an Object Immutable in Java</a></li>
+  <li><a href="https://immutables.github.io/">Immutability Library Java</a></li>
+  <li><a href="https://github.com/google/guava/wiki/ImmutableCollectionsExplained">Google Guava Immutable Data Structures</a></li>
+  <li><a href="https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html">A Strategy for Defining Immutable Objects</a></li>
+  <li><a href="https://www.youtube.com/watch?v=ST3wU79nwS8">Mutability Detector In Action</a></li>
+</ul>]]></content><author><name></name></author><category term="concurrent-programming" /><category term="reactive-programming" /><summary type="html"><![CDATA[It's best to start with immutable objects and then modify them if needed.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/immutable-objects.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/immutable-objects.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The many ways of using Ethos Pathos Logos</title><link href="https://www.ankushchoubey.com/v1/truth/ethos-pathos-logos" rel="alternate" type="text/html" title="The many ways of using Ethos Pathos Logos" /><published>2023-04-08T00:00:00-05:00</published><updated>2023-04-07T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-ethos-pathos-logis</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/ethos-pathos-logos"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>2000 years ago Socrates came up with his 3 Rehetorics. Ethos, Pathos, and Logos.</p>
 
@@ -789,84 +886,4 @@ Then user should be logged out</p>
 
 <p>Spring Boot</p>
 
-<p>UI: DevExpress Extreme</p>]]></content><author><name></name></author><category term="clean-code" /><summary type="html"><![CDATA[Writing good variable names clarifies your thinking. But it can be really really hard coming up with your own variable names.]]></summary></entry><entry><title type="html">Stating the Truth When It Could Hurt</title><link href="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts" rel="alternate" type="text/html" title="Stating the Truth When It Could Hurt" /><published>2023-03-16T00:00:00-05:00</published><updated>2023-03-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-state-the-truth-even-when-its-hard</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/state-truth-when-it-hurts"><![CDATA[<p>I often talk about truth and telling the truth all time time.</p>
-
-<p>Many people agree with me that it’s a good thing to tell the truth.</p>
-
-<p>But then comes parts where they start compromising telling the truth.</p>
-
-<p>For example, they say I don’t want to hurt them so I won’t tell the truth there.</p>
-
-<p>Or that “hinting” is same as telling the truth.</p>
-
-<p>But truth isn’t something that you hide. Truth is actually not even something that you “say”.</p>
-
-<p>It’s better to use a different vocabulary. State the truth.</p>
-
-<p>We know that we don’t tell the facts. We state the facts.</p>
-
-<p>Similarly, we state the truth. Meaning the truth passes through as it is.</p>
-
-<p>For example, someone asks how we are doing?</p>
-
-<p>Instead of saying I am doing really good. We say, I am better. If they drill down, I share what is really going on.</p>
-
-<p>If someone asks why wasn’t this software delivery on time, I say, I haven’t been doing so well lately. Or that I haven’t been focused lately.</p>
-
-<p>This is combined with honest action, to finish the work on time.</p>
-
-<h2 id="a-recent-situation">A recent situation</h2>
-
-<p>There is another situation I encountered. And it’s likely where many people are likely to lie.</p>
-
-<p>I was in an Uber a few days ago. And the driver asked if he could take us offline. Offline means without the app. The driver would cancel the booking. And take us to the same destination without Uber. And I would have to pay him the same money. This way, the driver would not have his pay cut to Uber.</p>
-
-<p>At the time, I did think Uber is a big company. But is it right to cheat against the big company. I thought let’s lie to Uber. I agreed to go offline. He canceled the booking and I snuck a deal to get 50 Rs. off the ride.</p>
-
-<p>Pretty sweet. Now, the person who had booked the ride started getting calls from Uber. In the Uber app it showed that their is a cancelling fee of 38.10 Rs.</p>
-
-<p>I thought Hmm. So, even after snugging a deal with the driver.</p>
-
-<p>I got 11.90 Rs off if I add up the cancelling fee. That’s pretty bad.</p>
-
-<p>The person who booked kept getting multiple calls from Uber to pay up.</p>
-
-<p>Hmm. Uber help allowed selecting “My driver asked me to book without Uber”. I thought for a minute, what I should do. The person who had booked the Uber said that the Driver might lose his Job. I thought for a minute. And then decided I should side with the truth. I explained to the person that we should go with the truth and click the “My driver asked me to book without Uber” option. We did get out money back. 38Rs isn’t a big number. It’s about half a dollar.</p>
-
-<p>Here why I choose “My driver asked me to book without Uber”.</p>
-
-<p>The driver who did asked us for going offline, might also be convincing the same to other riders. And they maybe getting cancelling fees too.</p>
-
-<p>Uber is a business built by hard working people. If they are providing a platform to earn, they should get the reward. The driver wouldn’t even have a job if Uber didn’t provide for it.</p>
-
-<p>So, it didn’t make long term sense for the driver to try to betray his parent company.</p>
-
-<p>If I side with the truth, the possibility that the driver no longer repeats the mistakes is created. It maybe possible that the driver chooses to still repeat the same mistakes. But at a minimum, he has an opportunity to choose a truthful path. And everything he does is truthful.</p>
-
-<p>I also thought about how do court judges and people in administration do justice. Even though they know what is truth, they still may have humanly feeling to the person that may not have things in their favor. What should a judge do.</p>
-
-<p>“We side with the truth”</p>
-
-<p>Always. In every situation. No matter how big or small.</p>
-
-<p>If I had told the truth with the intent of doing good. I would have explained the driver that the consequence of his actions. I should have denied his proposal. And that way, I would have given him a perspective that would have led him to a truthful path.</p>
-
-<p>Since, customer is the king. Uber didn’t charge me anything. But it’s still weird to think that I was involved too.</p>
-
-<p>For Uber the company, it costed 750 Rs. The money adds up to what they pay their employees. And everyone’s home runs.</p>
-
-<ul>
-  <li>To me it costed 700Rs. That’s fine.</li>
-  <li>To the person who booked the uber. It costed multiple phone calls.</li>
-  <li>To the driver may costed his and his family’s earning.</li>
-</ul>
-
-<h2 id="truth-with-truthful-action-passes-through-without-hurting-us">Truth with truthful action passes through without hurting us.</h2>
-
-<p>If the driver had been truthful, he wouldn’t have had to face this situation. And neither would we.</p>
-
-<p>If I had been truthful, both we and the driver wouldn’t have faced the situation.</p>
-
-<p>Because truth passes through without hurting us.</p>
-
-<p>Truth passes through can be imagined and us just standing and truth passing across us. If we are lying, we engage against truth, and it hurts us. If we don’t engage against the truth and let is pass, it doesn’t hurt us.</p>]]></content><author><name></name></author><category term="non-technical" /><category term="truth" /><category term="mature" /><summary type="html"><![CDATA[Why we should use the vocabulary 'stating'. And how can we state the truth.]]></summary></entry></feed>
+<p>UI: DevExpress Extreme</p>]]></content><author><name></name></author><category term="clean-code" /><summary type="html"><![CDATA[Writing good variable names clarifies your thinking. But it can be really really hard coming up with your own variable names.]]></summary></entry></feed>
