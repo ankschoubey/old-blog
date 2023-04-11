@@ -17,12 +17,12 @@
 <meta property="og:site_name" content="Ankush Choubey">
 <meta property="og:image" content="https://www.ankushchoubey.com/images/immutable-objects.jpg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2023-04-11T00:00:00-05:00">
+<meta property="article:published_time" content="2022-09-18T00:00:00-05:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="https://www.ankushchoubey.com/images/immutable-objects.jpg">
 <meta property="twitter:title" content="Making Object Immutable for Concurrency">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-18T15:52:08-05:00","datePublished":"2023-04-11T00:00:00-05:00","description":"It’s best to start with immutable objects and then modify them if needed.","headline":"Making Object Immutable for Concurrency","image":"https://www.ankushchoubey.com/images/immutable-objects.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/immutable-objects/"},"url":"https://www.ankushchoubey.com/immutable-objects/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-18T15:52:08-05:00","datePublished":"2022-09-18T00:00:00-05:00","description":"It’s best to start with immutable objects and then modify them if needed.","headline":"Making Object Immutable for Concurrency","image":"https://www.ankushchoubey.com/images/immutable-objects.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/immutable-objects/"},"url":"https://www.ankushchoubey.com/immutable-objects/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -45,12 +45,12 @@
 <meta property="og:site_name" content="Ankush Choubey">
 <meta property="og:image" content="https://www.ankushchoubey.com/images/immutable-objects.jpg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2023-04-11T00:00:00-05:00">
+<meta property="article:published_time" content="2022-09-18T00:00:00-05:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="https://www.ankushchoubey.com/images/immutable-objects.jpg">
 <meta property="twitter:title" content="Making Object Immutable for Concurrency">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-18T15:52:08-05:00","datePublished":"2023-04-11T00:00:00-05:00","description":"It’s best to start with immutable objects and then modify them if needed.","headline":"Making Object Immutable for Concurrency","image":"https://www.ankushchoubey.com/images/immutable-objects.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/immutable-objects/"},"url":"https://www.ankushchoubey.com/immutable-objects/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-18T15:52:08-05:00","datePublished":"2022-09-18T00:00:00-05:00","description":"It’s best to start with immutable objects and then modify them if needed.","headline":"Making Object Immutable for Concurrency","image":"https://www.ankushchoubey.com/images/immutable-objects.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/immutable-objects/"},"url":"https://www.ankushchoubey.com/immutable-objects/"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
@@ -164,8 +164,8 @@ window.onload = wrap_img;
 <header class="post-header"><img src="/images/immutable-objects.jpg" class="cover-image"><div class="post-header-content">
     <h1 class="post-title p-name" itemprop="name headline">Making Object Immutable for Concurrency</h1>
 <p class="page-description">It's best to start with immutable objects and then modify them if needed.</p>
-<p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-04-11T00:00:00-05:00" itemprop="datePublished">
-        Apr 11, 2023
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-18T00:00:00-05:00" itemprop="datePublished">
+        Sep 18, 2022
       </time>
       • <span class="read-time" title="Estimated read time">
     
@@ -199,7 +199,7 @@ window.onload = wrap_img;
     <strong>Note: </strong>For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability.
 </div>
 
-<h1 id="where-immutability-is-needed"><strong>Where Immutability is needed?</strong></h1>
+<h2 id="where-immutability-is-needed"><strong>Where Immutability is needed?</strong></h2>
 
 <p>When sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren’t discovered.</p>
 
@@ -230,9 +230,10 @@ window.onload = wrap_img;
 
 <p>Ideally, the solution would be, in this case, to declare the variable within the method it is used.</p>
 
-<h1 id="creating-an-immutable-object"><strong>Creating an immutable object</strong></h1>
+<h2 id="creating-an-immutable-object"><strong>Creating an immutable object</strong></h2>
 
 <p>The creation of immutable objects is relatively simple.</p>
+
 <ol>
   <li>Make sure all instance variables are <code class="language-plaintext highlighter-rouge">private final</code>.</li>
   <li>make sure all interactions with the method happens only via the constructor or the public method.
@@ -243,7 +244,7 @@ No method should modify the contents of the private final method.</li>
 
 <p>There are some more rules, but these are the minimum requirements. The following section will explain how you automate the checking of immutable classes would also check for more conditions.</p>
 
-<h1 id="java-libraries"><strong>Java Libraries</strong></h1>
+<h2 id="java-libraries"><strong>Java Libraries</strong></h2>
 
 <p>Some libraries help create immutable objects, such as <a href="https://immutables.github.io/">Immutables for Java</a>.</p>
 
@@ -254,8 +255,8 @@ No method should modify the contents of the private final method.</li>
     <strong>Note: </strong>It's best to start with immutable objects and then modify them if needed.
 </div>
 
-<h1 id="automating-verification-via-unit-tests">
-<strong>Automating Verification</strong> via Unit Tests</h1>
+<h2 id="automating-verification-via-unit-tests">
+<strong>Automating Verification</strong> via Unit Tests</h2>
 
 <p>But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:</p>
 
@@ -279,7 +280,7 @@ No method should modify the contents of the private final method.</li>
 
 <p>In practice, I couldn’t fully make <code class="language-plaintext highlighter-rouge">assertImmutable</code> work with abstract classes.</p>
 
-<h1 id="resources"><strong>Resources</strong></h1>
+<h2 id="resources"><strong>Resources</strong></h2>
 
 <ul>
   <li><a href="https://www.youtube.com/watch?v=VO4IGFayJWo">Immutable Data Structures are Thread Safe</a></li>
@@ -289,7 +290,6 @@ No method should modify the contents of the private final method.</li>
   <li><a href="https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html">A Strategy for Defining Immutable Objects</a></li>
   <li><a href="https://www.youtube.com/watch?v=ST3wU79nwS8">Mutability Detector In Action</a></li>
 </ul>
-
 
   </div>
 <!-- from https://github.com/utterance/utterances -->
