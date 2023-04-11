@@ -1,84 +1,104 @@
 ---
 layout: post
 comments: true
-description: 
-categories: [backend]
+description: It's best to start with immutable objects and then modify them if needed.
+categories: [concurrent-programming, reactive-programming]
 last_modified_at: 2022-09-18T20:52:08.052481
 last-modified-purpose:
 permalink: /immutable-objects/
-title: Simple Things to Improve Backend and Frontend Performance
+title: Making Object Immutable for Concurrency
 toc: false
+image: /images/immutable-objects.jpg
 ---
+![](/images/immutable-objects.jpg)
 
-## Return early. Don’t create objects that are not in use
+<sup>Photo by <a href="https://unsplash.com/@davehoefler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dave Hoefler</a> on <a href="https://unsplash.com/s/photos/stone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></sup>
 
-**Bad**
+{% include note.html content="For beginners: Immutable object means objects whose value can't change. Immutability is the intent of the creator of the object/class, i.e. when coding something up, we need to decide if a particular class should be immutable. Also, immutability is as important in the front end as in the back end. While the below posts explain it in Java, other programming languages have their way of implementing immutability." %}
 
-```java
-//bad
+## **Where Immutability is needed?**
 
-User user = dbCallToCallUsers(); //DB Call Count 1
-UserHomepageSettings userhomePageSettings = dbcalltoCalluserSettings(); //DB Call Count 2
+When sharing data between threads, there is a high chance that one memory gets replaced by another. This would lead to inconsistency, and often these bugs aren't discovered.
 
-if(validate(users) && validate(userSettings)){
-  // business logic
-}
-```
+There are two ways to avoid this: thread-safe data structures or immutable objects.
 
-**Good**:
+This particular post will explain where immutable objects are necessary.
 
-```
-User user = dbCallToCallUsers(); //DB Call Count 1
-if(!validate(users)){
-  return or throw Exception();
-}
-UserHomepageSettings userhomePageSettings = dbcalltoCalluserSettings(); //DB Call Count 2
-if(!validate(userhomePageSettings)){
-  return or throw Exception();
-}
-```
-
-## Count the number of network calls in a flow and keep it at minimum
-
-This is similar to previous point. I try to make sure I have max 3 DB calls per operation. 1 is ideal.
-
-## Use Maps and Sets
-
-Instead of using List prefer Sets and Maps. Searching a list of map is almost instant.
-
-## Reduce copying of objects from one form to another
-
-Instead of converting from one object to another, to another, to another. Try to make sure you don’t have to convert the same object from one form to another multiple times.
-
-## For response classes reduce copying by using a delegate class
-
-We often use “mapper” classes and methods to convert from one object to another. For example, from entity to DTO.
-
-These usually copy the data from one object to another.
-
-This has problems because suppose your original object is 10Mb in memory, when you copy it, you have to copy 10Mb object. Your RAM get’s filled and copying is generally slow.
-
-Here’s a better way to do it with Delegate.
+Suppose you have 2 Rest Endpoints. `/someEndpoint` and `/anotherEndpoint` both set a particular value to the variable `sharedMemory`.
 
 ```java
-class UserResponse{
+private String sharedMemory;
 
-  @JsonIgnore //We want to ignore the source class
-  private UserEntity user;
+@PostMapping("/someEndpoint")
+void postSomething(@RequestBody String value){
+    sharedMemory = value;
+    ....
+   //some code that uses sharedMemory
+}
 
-  public String getId(){
-    return user.getId();
-  }
-
-  ... other getters that are similar
-
-  public String getName(){
-    return user.getFirstName() + " " + user.getLastName();
-    // Here we are converting from one form to another without copying.
-  }
+@PostMapping("/anotherEndpoint")
+void postSomethingElse(@RequestBody String value){
+    sharedMemory = value;
+    ....
+   //some code that uses sharedMemory
 }
 ```
 
-Using delegate we reduce the amount of copying needed in the application.
+It can happen that this shared memory is not inconsistent.
 
-If you are using `java` you can use `Lombok` library which provide a `@Delegate` to do the same task as above without even writing your own getters. This will make your code very precise and fast.
+Ideally, the solution would be, in this case, to declare the variable within the method it is used.
+
+## **Creating an immutable object**
+
+The creation of immutable objects is relatively simple.
+
+1. Make sure all instance variables are `private final`.
+2. make sure all interactions with the method happens only via the constructor or the public method.
+No method should modify the contents of the private final method.
+3. Make sure all instance variables are immutable.
+4. Make sure the class is `final` so that there is no inheriting and subclasses can't override something.
+
+There are some more rules, but these are the minimum requirements. The following section will explain how you automate the checking of immutable classes would also check for more conditions.
+
+## **Java Libraries**
+
+Some libraries help create immutable objects, such as [Immutables for Java](https://immutables.github.io/).
+
+[Google Guava Library](https://github.com/google/guava/wiki/ImmutableCollectionsExplained) provides many immutable data structure alternatives. The benefit of using these is that they have the same interface as regular java collections.
+
+{% include note.html content="It's best to start with immutable objects and then modify them if needed." %}
+
+## **Automating Verification** via Unit Tests
+
+But when developing within a team and given the cognitive overload we developers face, we need some way to automate the creation of immutable objects. This can be done as a combo of 2 methods:
+
+**#1 Mutability Detector**
+
+Mutability Detector is a package that provides the following assertion that can be used within unit tests.
+
+Mutability Detector has many more conditions to detect mutability.
+
+```
+    assertImmutable(MyClass.class); 
+```
+
+[Github Source](https://github.com/MutabilityDetector/MutabilityDetector)
+
+**#2 Automate further with ArchUnit tests**
+
+ArchUnit tests allow for writing architecture-level tests. We can write a test such as asserting that a class is immutable if a class is annotated with @component.
+
+```java
+
+```
+
+In practice, I couldn't fully make `assertImmutable` work with abstract classes.
+
+## **Resources**
+
+- [Immutable Data Structures are Thread Safe](https://www.youtube.com/watch?v=VO4IGFayJWo)
+- [How to Make an Object Immutable in Java](https://www.youtube.com/watch?v=uFxWg3cVMRs)
+- [Immutability Library Java](https://immutables.github.io/)
+- [Google Guava Immutable Data Structures](https://github.com/google/guava/wiki/ImmutableCollectionsExplained)
+- [A Strategy for Defining Immutable Objects](https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html)
+- [Mutability Detector In Action](https://www.youtube.com/watch?v=ST3wU79nwS8)
