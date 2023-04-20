@@ -39,3 +39,9 @@ We should abandon the idea of controlling the outcome. We can control the input,
 This also keeps you free. When you are not attached to the outcome means that you are not terrified by it. For example, if you like someone, and they are doing something stupid if you are attached to how they may feel, you may never tell them how you feel. And they may continue to do something stupid. When you are not attached to the outcome, you can tell them how you feel (maybe you can learn to be kind), and your input may help them. To take action according to your input is their lookout and their action. It’s not something in your control, but you have influenced it and given them the tools and your thoughts to help them make a better choice.
 
 We control how we play. We don’t control if it rains or not, we control if we go for a run. We don’t control if we get 1000 views, we control how well we present our ideas.
+
+***
+
+## Further Reading
+
+[Daily Stoic: You Control How You Play](https://dailystoic.com/all-you-control-is-how-you-play/)
