@@ -1,8 +1,8 @@
 ---
-description: How humanity progresses.
+description: Karma is the action we take, while Karmafal is the result of our actions, and by detaching ourselves from the outcome, we can focus on doing our best and live a more empowered life.
 title: Karma and Karmafal - An Introduction
 comments: true
-categories: [responsibility]
+categories: [responsibility, non-technical]
 layout: post
 use_math: true
 last_modified_at: 2023-04-20T20:42:15.242622
