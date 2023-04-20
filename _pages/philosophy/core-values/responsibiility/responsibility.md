@@ -31,7 +31,7 @@ Fuck feelings. Be disciplined.
 
 ## **Part 3: Practices**
 
-1. Start with local problems. (Clean your room)
+1. Start with local problems. (Clean your room: If your room is filthy, your mind is fifthy)
 2. Focus on needs and need to do (duties) rather than wants.
 3. Stop taking on other people's responsibilities
 4. Be useful and pick the heaviest load you can find.
