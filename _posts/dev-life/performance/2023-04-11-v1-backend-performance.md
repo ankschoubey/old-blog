@@ -27,7 +27,7 @@ if(validate(users) && validate(userSettings)){
 
 **Good**:
 
-```
+```java
 User user = dbCallToCallUsers(); //DB Call Count 1
 if(!validate(users)){
   return or throw Exception();
