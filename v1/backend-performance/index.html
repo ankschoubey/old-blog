@@ -195,14 +195,14 @@ window.onload = wrap_img;
 
 <p><strong>Good</strong>:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>User user = dbCallToCallUsers(); //DB Call Count 1
-if(!validate(users)){
-  return or throw Exception();
-}
-UserHomepageSettings userhomePageSettings = dbcalltoCalluserSettings(); //DB Call Count 2
-if(!validate(userhomePageSettings)){
-  return or throw Exception();
-}
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user</span> <span class="o">=</span> <span class="n">dbCallToCallUsers</span><span class="o">();</span> <span class="c1">//DB Call Count 1</span>
+<span class="k">if</span><span class="o">(!</span><span class="n">validate</span><span class="o">(</span><span class="n">users</span><span class="o">)){</span>
+  <span class="k">return</span> <span class="n">or</span> <span class="k">throw</span> <span class="nf">Exception</span><span class="o">();</span>
+<span class="o">}</span>
+<span class="nc">UserHomepageSettings</span> <span class="n">userhomePageSettings</span> <span class="o">=</span> <span class="n">dbcalltoCalluserSettings</span><span class="o">();</span> <span class="c1">//DB Call Count 2</span>
+<span class="k">if</span><span class="o">(!</span><span class="n">validate</span><span class="o">(</span><span class="n">userhomePageSettings</span><span class="o">)){</span>
+  <span class="k">return</span> <span class="n">or</span> <span class="k">throw</span> <span class="nf">Exception</span><span class="o">();</span>
+<span class="o">}</span>
 </code></pre></div></div>
 
 <h2 id="count-the-number-of-network-calls-in-a-flow-and-keep-it-at-minimum">Count the number of network calls in a flow and keep it at minimum</h2>

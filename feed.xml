@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-04-22T02:49:33-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Why should you be internally disciplined?</title><link href="https://www.ankushchoubey.com/v1/internal-discipline/" rel="alternate" type="text/html" title="Why should you be internally disciplined?" /><published>2023-05-22T00:00:00-05:00</published><updated>2023-05-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-why-internal-discipline</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/internal-discipline/"><![CDATA[<p><img src="/images/v1-internal-discipline.jpg" alt="" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-04-22T02:52:40-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Why should you be internally disciplined?</title><link href="https://www.ankushchoubey.com/v1/internal-discipline/" rel="alternate" type="text/html" title="Why should you be internally disciplined?" /><published>2023-05-22T00:00:00-05:00</published><updated>2023-05-22T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-why-internal-discipline</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/internal-discipline/"><![CDATA[<p><img src="/images/v1-internal-discipline.jpg" alt="" /></p>
 
 <p>Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/hard-work?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 
@@ -92,14 +92,14 @@
 
 <p><strong>Good</strong>:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>User user = dbCallToCallUsers(); //DB Call Count 1
-if(!validate(users)){
-  return or throw Exception();
-}
-UserHomepageSettings userhomePageSettings = dbcalltoCalluserSettings(); //DB Call Count 2
-if(!validate(userhomePageSettings)){
-  return or throw Exception();
-}
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user</span> <span class="o">=</span> <span class="n">dbCallToCallUsers</span><span class="o">();</span> <span class="c1">//DB Call Count 1</span>
+<span class="k">if</span><span class="o">(!</span><span class="n">validate</span><span class="o">(</span><span class="n">users</span><span class="o">)){</span>
+  <span class="k">return</span> <span class="n">or</span> <span class="k">throw</span> <span class="nf">Exception</span><span class="o">();</span>
+<span class="o">}</span>
+<span class="nc">UserHomepageSettings</span> <span class="n">userhomePageSettings</span> <span class="o">=</span> <span class="n">dbcalltoCalluserSettings</span><span class="o">();</span> <span class="c1">//DB Call Count 2</span>
+<span class="k">if</span><span class="o">(!</span><span class="n">validate</span><span class="o">(</span><span class="n">userhomePageSettings</span><span class="o">)){</span>
+  <span class="k">return</span> <span class="n">or</span> <span class="k">throw</span> <span class="nf">Exception</span><span class="o">();</span>
+<span class="o">}</span>
 </code></pre></div></div>
 
 <h2 id="count-the-number-of-network-calls-in-a-flow-and-keep-it-at-minimum">Count the number of network calls in a flow and keep it at minimum</h2>
