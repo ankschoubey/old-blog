@@ -82,6 +82,4 @@ Or they do enough to get investors and job candidates. Most don't ship anything.
 
 ## <input type="checkbox"> Finding something difficult??
 
-Shoot me an email at [ankushchoubey@outlook.com](mailto:ankushchoubey@outlook.com) 😁
-
 For questions or counter related to this post, write them in the comments below.

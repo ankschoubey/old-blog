@@ -9,7 +9,7 @@ Hi. I am developer with 4+ experience in Spring Boot Microservices. I am activel
 
 I am committed to delivering high-quality, customer-focused solutions and have a proven track record of success in my previous roles. You can find my **resume** and a **list of recommendations** and appreciations from colleagues below.
 
-If you are interested in hiring me, please feel free to contact me at **ankushchoubey@outlook.com** to discuss further. I'll be excited about the opportunity to bring my skills and experience to your organization and contribute to its success.
+If you are interested in hiring me, please feel free to contact me at [**LinkedIn**](https://www.linkedin.com/in/ankushchoubey/) to discuss further. I'll be excited about the opportunity to bring my skills and experience to your organization and contribute to its success.
 
 ## Resume
 
@@ -17,7 +17,6 @@ If you are interested in hiring me, please feel free to contact me at **ankushch
 
 <div style='display: flex; justify-content:center; align-items: center; gap: 10px; flex-wrap: wrap;'>
     {% include btn.html href='/assets/Ankush - Full Stack Developer.pdf' icon='fa fa-envelope' text='Download Resume' download='t' download_name='Ankush - Full Stack Developer.pdf' %}
-    {% include btn.html href='mailto:ankushchoubey@outlook.com' icon='fa fa-envelope' text='ankushchoubey@outlook' download='n' %}
     {% include btn.html href='https://www.linkedin.com/in/ankushchoubey/' icon='fa fa-linkedin' text='linkedin/in/ankushchoubey' download='n' %}
 </div>
 
