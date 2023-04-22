@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description:
+description: Internal discipline is an antifragile source of motivation that gets the job done, eliminates the need for "how" questions, makes you stronger, and allows you to focus on achieving your goals without relying on external systems or motivators.
 categories: [philosophical, non-technical, discipline]
 last_modified_at: 2023-05-22T20:52:08.052481
 permalink: /v1/internal-discipline/
