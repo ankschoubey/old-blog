@@ -1,110 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-01T10:45:38-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Stepping aside from the game of “success” and comparison</title><link href="https://www.ankushchoubey.com/v1/step-aside-success/" rel="alternate" type="text/html" title="Stepping aside from the game of “success” and comparison" /><published>2023-05-01T00:00:00-05:00</published><updated>2023-05-01T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-step-aside-success</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/step-aside-success/"><![CDATA[<p><img src="/images/v1-step-aside-success.jpg" alt="" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-01T10:53:32-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Stepping aside from the game of “success” and comparison</title><link href="https://www.ankushchoubey.com/v1/step-aside-success/" rel="alternate" type="text/html" title="Stepping aside from the game of “success” and comparison" /><published>2023-05-01T00:00:00-05:00</published><updated>2023-05-01T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-step-aside-success</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/step-aside-success/"><![CDATA[<p>According to be Big 5 scale. I am high in conscientiousness and high in openness. Meaning I am hard-working and open to ideas. And this is a usual trait for societal success.</p>
 
-<p>Photo by <a href="https://unsplash.com/@jasongoodman_youxventures?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jason Goodman</a> on <a href="https://unsplash.com/s/photos/team?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<p>At about 16 years old, I came across self-help. And I was hooked. Exercising, Meditating, Morning Rituals, Reading Books, Quitting Social Media, etc. I have done and restarted these multiple times.</p>
 
-<h1 id="silos">Silos</h1>
+<p>At the same time, I am someone who during his teen years was very jealous of other teens. If I see someone doing something better or I hear a young genius of the same age getting an offer from Google or making apps, I would be very very jealous and critical of myself.</p>
 
-<p>We developers love working in silos. We love our technical challenges.</p>
+<p>As I have gotten older, I have resolved my jealousy of other people of similar age but also my jealousy of others in general. This article is a description of my current thought process.</p>
 
-<p>Our effort is proportional to how complex the challenge is.</p>
+<p><img src="/images/v1-step-aside-success.jpg" alt="" /></p>
 
-<p>But for business and true Agility, it’s more important to always focus on end users. And to focus on what’s truly important from a business POV.</p>
+<p>Photo by <a href="https://unsplash.com/@dietmarbecker?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Dietmar Becker</a> on <a href="https://unsplash.com/s/photos/comparison?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Unsplash</a></p>
 
-<p>Similarly, there are moments when one needs to collaborate with other teams, and having different teams in the loop is truly useful.</p>
+<h2 id="comparison-with-others-is-a-stupid-game">Comparison with others is a stupid game</h2>
 
-<p>The higher the quality of collaboration, the less rework a developer has to do.</p>
+<p>In a previous blog post, I talked about Ethos, Pathos, and Logos, and how these persuasion techniques can be used beyond persuasion. One of them is we can identify what sort of game we are playing and choose what game we want to play.</p>
 
-<h1 id="knowing-who-to-contact">Knowing who to contact</h1>
+<p>For example, comparison with others is an ethos game. Ethos is character. You are more likely to listen to a doctor, who is well-dressed and from a prestigious college than to a random doctor who is not.</p>
 
-<p>On this path, the important thing is to remember whom to connect to and when. Knowing organizational structure is helpful. If there is no organizational structure available. Create one.</p>
+<p>Ethos as a game means you are comparing yourself to others and trying to one-up yourself. “He earns less than me”. “I have a good-looking girlfriend, he does not”. Ethos game is a popular cultural name: Status Games.</p>
 
-<p>Go through and list out all the stakeholders and different teams. Who is the decision maker there?</p>
+<p>Status games are externally driven. And what’s externally driven is almost always fragile.</p>
 
-<p>Ideally, everyone should be pouring in a semi-bureaucratic way.</p>
+<p>Therefore, ethos/status games are fragile.</p>
 
-<p>The development team must connect to other groups to get work done.</p>
+<p>Today you are “more successful” than someone. Yesterday someone else was. Tomorrow someone else will be.</p>
 
-<p>These teams might be specific to your organization. So wherever you work, figure out what all the departments and teams are. Who are the key stakeholders to contact, and when?</p>
+<p>Start to learn to play piano and after a year you’ll find a child prodigy beating you at every note. Become a senior programmer with 10 years of experience and find out some random college kid understands concepts much more deeply.</p>
 
-<p>And make sure you loop them in when taking a decision.</p>
+<p>Maybe you got lucky. Or maybe someone else got lucky. Good for you and good for them.</p>
 
-<p>And, of course, you can use Gherkin BDD files to ensure everyone is in sync.</p>
+<p>Most comparison/Ethos Games/Status Games are stupid. It’s a win-lose game. You should choose a win-win game. Make yourself better and make someone else also better.</p>
 
-<p>So here are a few teams and stakeholders that are common and imp:</p>
+<h2 id="achievementsuccess-is-never-stable-its-in-constant-flux">“Achievement/Success” is never stable. It’s in constant flux.</h2>
 
-<h1 id="teams">Teams</h1>
+<p>Simon Sinek has a wonderful video, we’ll see. Once upon a time, there was a guy who broke his legs. Everyone pities and the guys were sad. The monk said we’ll see. Then a few months later a war happened, and every man had to go to war. Guess who didn’t go to war? The guy who broke his leg. The guy is now happy. The monk says we’ll see. And the story goes on and on.</p>
 
-<p>Development Team:</p>
+<p>An achievement is a one-time event. It’s not an everyday event. And once you have success doesn’t mean you will stay “successful”. You or someone may lose their success and then have to start from scratch again. That’s life.</p>
+
+<p>Maybe you have some opportunities that others didn’t have. Or maybe you earned your success. Now, you see someone else who has been way faster in his, should that matter? I would so no. Good for him. Good for you.</p>
+
+<h2 id="stupidest-game-respect">Stupidest game: RESPECT.</h2>
+
+<p>Earning respect externally is the stupidest game I can think of. It’s fragile.</p>
+
+<p>People spend time crafting a perfect social media profile. Everyone trying to treat themselves like a celebrity. Hoping they get likes. Today everyone likes them. And they have made it part of their identity. Now, become too afraid to show the real them. They can speak freely because they are too concerned with pleasing people.</p>
+
+<p>Then there are these stupid games,</p>
+
 <ul>
-  <li>Responsible for developing the application.</li>
-  <li>Ensuring the highest product quality.</li>
-  <li>Responsible for building the thing right.</li>
+  <li>“oh, he has 10 servants we have none.”.</li>
+  <li>“They threw a lavish party where Narendra Modi came, look at you.” (the problem with this statement is “look at you” not the event itself.</li>
 </ul>
 
-<p>QA Team:</p>
-<ul>
-  <li>Ensures application lives up to standard.</li>
-  <li>Signs of if the feature is ready to be released.</li>
-  <li>Responsible for ensuring the thing is built right.</li>
-</ul>
+<p>There are also “Attitude status YouTube Shorts” which are on the same level as stupid.</p>
 
-<p>Product Team:</p>
-<ul>
-  <li>Decides what to put in the product.</li>
-  <li>Ensures the right thing is being built.</li>
-</ul>
+<p>You should avoid the game of external respect. External respect is just a fragile ethos/status game. Instead, earn internal respect. How do you earn internal respect? By doing hard things, being ethical, and following logos (logic). The rest, how others think, and what they’ll say doesn’t and should not matter.</p>
 
-<p>Doc Team:</p>
-<ul>
-  <li>Ensures all public-facing documentation is professional.</li>
-  <li>Their responsibilities include everything from images to messages shown to the user to public-facing API responses.</li>
-</ul>
+<p>By stepping outside this “respect”, game and free yourself from others’ judgment.</p>
 
-<p>Marketing Team:</p>
-<ul>
-  <li>Markets the newly released features.</li>
-</ul>
+<h2 id="good-enough">Good enough.</h2>
 
-<p>DevOps Team:</p>
-<ul>
-  <li>Is a platform team that ensures Devs can work fine.</li>
-</ul>
+<p>After one point it doesn’t matter.</p>
 
-<p>Security Team:</p>
-<ul>
-  <li>Ensures security provisions are in place.</li>
-</ul>
+<p>Suppose you are earning 5 lakh rs per month. After this does it matter if you earn more? You can travel the world well. Your “lifestyle” does not change all that much.</p>
 
-<p>*Old Way: Database Team</p>
-<ul>
-  <li>Ensures DB is up and running fine.</li>
-  <li>This role is replaced by DevOps automation in most organizations.</li>
-</ul>
+<p>The same is true with everything. Once you are fit enough, that’s good enough. You don’t need to try to get a bigger bicep for comparison with others.</p>
 
-<p>Data science team:</p>
-<ul>
-  <li>Builts applications that help show insight with the help of data.</li>
-  <li>Their work isn’t always real-time insights.</li>
-</ul>
+<p>Everything reaches a good enough point. If someone else reaches a good enough point good for them, if you reach, good for you.</p>
 
-<h1 id="key-stakeholders">Key Stakeholders:</h1>
+<h2 id="get-inspired-and-learn-from-others-but-remember-the-competition-is-you-vs-you">Get inspired and learn from others but remember, the competition is you vs you.</h2>
 
-<ul>
-  <li>Developers</li>
-  <li>Testers</li>
-  <li>Scrum Master</li>
-  <li>Product Designer</li>
-  <li>Product Owner</li>
-  <li>Engineering Manager</li>
-  <li>Product Manager</li>
-  <li>Head of Engineering</li>
-  <li>Head of Product</li>
-  <li>Head of Finance</li>
-  <li>CTO</li>
-  <li>CIO</li>
-  <li>COO</li>
-  <li>CEO</li>
-</ul>]]></content><author><name></name></author><category term="team-work" /><summary type="html"><![CDATA[Why comparison with others is stupid and why the only person you should compare to is who you were yesterday]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love.</title><link href="https://www.ankushchoubey.com/v1/love-attachment/" rel="alternate" type="text/html" title="Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love." /><published>2023-04-28T00:00:00-05:00</published><updated>2023-04-28T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-love-attachment</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/love-attachment/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@cbeloch?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Christopher Beloch</a> on <a href="https://unsplash.com/images/feelings/love?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Unsplash</a></p>
+<p>Comparison for being jealous is stupid. Compare to become inspired but recognize that your goals may be different from theirs.</p>
+
+<p>For your company to be successful, it doesn’t mean someone else company needs to be unsuccessful.</p>
+
+<p>Restating the same premise: If I achieve something, good for me. If someone else achieves something, good for them. Aim for a Win-win.</p>
+
+<p>At the same time, it’s unfair for you to compare yourself to others. You and they have different lives with different strengths, weaknesses, and challenges. Compare to who you were yesterday, not with who someone else is today <a href="Jordan Peterson">1</a>.</p>
+
+<p>Comparing with your previous self gives you the best understanding of your progress and makes personalized decisions.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>You’ll always find someone better than yourself and at the same time “success” is in constant flux i.e. it can change with time. Therefore, you should enter the game of becoming jealous of other people’s success.</p>
+
+<p>Avoid status games. It leads to pretending. They are win-lose. Play win-win games.</p>
+
+<p>Recognize once you achieve a certain level of “output success”, it doesn’t matter what happens after it.</p>
+
+<p>Get inspired and learn from others. But don’t compare yourself to others. The only perfect person you can compare yourself to is who you were yesterday.</p>]]></content><author><name></name></author><category term="team-work" /><category term="non-technical" /><summary type="html"><![CDATA[Why comparison with others is stupid and why the only person you should compare to is who you were yesterday]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love.</title><link href="https://www.ankushchoubey.com/v1/love-attachment/" rel="alternate" type="text/html" title="Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love." /><published>2023-04-28T00:00:00-05:00</published><updated>2023-04-28T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-love-attachment</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/love-attachment/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@cbeloch?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Christopher Beloch</a> on <a href="https://unsplash.com/images/feelings/love?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Unsplash</a></p>
 
 <h2 id="why-is-it-important-to-differentiate-between-love-and-attachment">Why is it important to differentiate between love and attachment?</h2>
 
