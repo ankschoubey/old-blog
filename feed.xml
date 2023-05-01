@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-04-28T12:02:52-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love.</title><link href="https://www.ankushchoubey.com/v1/love-attachment/" rel="alternate" type="text/html" title="Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love." /><published>2023-04-28T00:00:00-05:00</published><updated>2023-04-28T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-love-attachment</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/love-attachment/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@cbeloch?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Christopher Beloch</a> on <a href="https://unsplash.com/images/feelings/love?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Unsplash</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-01T10:45:38-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Stepping aside from the game of “success” and comparison</title><link href="https://www.ankushchoubey.com/v1/step-aside-success/" rel="alternate" type="text/html" title="Stepping aside from the game of “success” and comparison" /><published>2023-05-01T00:00:00-05:00</published><updated>2023-05-01T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-step-aside-success</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/step-aside-success/"><![CDATA[<p><img src="/images/v1-step-aside-success.jpg" alt="" /></p>
+
+<p>Photo by <a href="https://unsplash.com/@jasongoodman_youxventures?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jason Goodman</a> on <a href="https://unsplash.com/s/photos/team?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+
+<h1 id="silos">Silos</h1>
+
+<p>We developers love working in silos. We love our technical challenges.</p>
+
+<p>Our effort is proportional to how complex the challenge is.</p>
+
+<p>But for business and true Agility, it’s more important to always focus on end users. And to focus on what’s truly important from a business POV.</p>
+
+<p>Similarly, there are moments when one needs to collaborate with other teams, and having different teams in the loop is truly useful.</p>
+
+<p>The higher the quality of collaboration, the less rework a developer has to do.</p>
+
+<h1 id="knowing-who-to-contact">Knowing who to contact</h1>
+
+<p>On this path, the important thing is to remember whom to connect to and when. Knowing organizational structure is helpful. If there is no organizational structure available. Create one.</p>
+
+<p>Go through and list out all the stakeholders and different teams. Who is the decision maker there?</p>
+
+<p>Ideally, everyone should be pouring in a semi-bureaucratic way.</p>
+
+<p>The development team must connect to other groups to get work done.</p>
+
+<p>These teams might be specific to your organization. So wherever you work, figure out what all the departments and teams are. Who are the key stakeholders to contact, and when?</p>
+
+<p>And make sure you loop them in when taking a decision.</p>
+
+<p>And, of course, you can use Gherkin BDD files to ensure everyone is in sync.</p>
+
+<p>So here are a few teams and stakeholders that are common and imp:</p>
+
+<h1 id="teams">Teams</h1>
+
+<p>Development Team:</p>
+<ul>
+  <li>Responsible for developing the application.</li>
+  <li>Ensuring the highest product quality.</li>
+  <li>Responsible for building the thing right.</li>
+</ul>
+
+<p>QA Team:</p>
+<ul>
+  <li>Ensures application lives up to standard.</li>
+  <li>Signs of if the feature is ready to be released.</li>
+  <li>Responsible for ensuring the thing is built right.</li>
+</ul>
+
+<p>Product Team:</p>
+<ul>
+  <li>Decides what to put in the product.</li>
+  <li>Ensures the right thing is being built.</li>
+</ul>
+
+<p>Doc Team:</p>
+<ul>
+  <li>Ensures all public-facing documentation is professional.</li>
+  <li>Their responsibilities include everything from images to messages shown to the user to public-facing API responses.</li>
+</ul>
+
+<p>Marketing Team:</p>
+<ul>
+  <li>Markets the newly released features.</li>
+</ul>
+
+<p>DevOps Team:</p>
+<ul>
+  <li>Is a platform team that ensures Devs can work fine.</li>
+</ul>
+
+<p>Security Team:</p>
+<ul>
+  <li>Ensures security provisions are in place.</li>
+</ul>
+
+<p>*Old Way: Database Team</p>
+<ul>
+  <li>Ensures DB is up and running fine.</li>
+  <li>This role is replaced by DevOps automation in most organizations.</li>
+</ul>
+
+<p>Data science team:</p>
+<ul>
+  <li>Builts applications that help show insight with the help of data.</li>
+  <li>Their work isn’t always real-time insights.</li>
+</ul>
+
+<h1 id="key-stakeholders">Key Stakeholders:</h1>
+
+<ul>
+  <li>Developers</li>
+  <li>Testers</li>
+  <li>Scrum Master</li>
+  <li>Product Designer</li>
+  <li>Product Owner</li>
+  <li>Engineering Manager</li>
+  <li>Product Manager</li>
+  <li>Head of Engineering</li>
+  <li>Head of Product</li>
+  <li>Head of Finance</li>
+  <li>CTO</li>
+  <li>CIO</li>
+  <li>COO</li>
+  <li>CEO</li>
+</ul>]]></content><author><name></name></author><category term="team-work" /><summary type="html"><![CDATA[Why comparison with others is stupid and why the only person you should compare to is who you were yesterday]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love.</title><link href="https://www.ankushchoubey.com/v1/love-attachment/" rel="alternate" type="text/html" title="Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love." /><published>2023-04-28T00:00:00-05:00</published><updated>2023-04-28T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-love-attachment</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/love-attachment/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@cbeloch?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Christopher Beloch</a> on <a href="https://unsplash.com/images/feelings/love?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Unsplash</a></p>
 
 <h2 id="why-is-it-important-to-differentiate-between-love-and-attachment">Why is it important to differentiate between love and attachment?</h2>
 
@@ -669,126 +775,4 @@ kubectl get pods| <span class="nb">awk</span> <span class="s1">'{print $1}'</spa
 
 <p>This is what I would try to follow.</p>
 
-<p>Avoid deleting. Or if deleting can’t be avoided. Create a backup and move deleting to an end state after testing everything.</p>]]></content><author><name></name></author><category term="configuration-management" /><summary type="html"><![CDATA[I have tried this in the past.]]></summary></entry><entry><title type="html">7 Tools To Make Good Love Choices</title><link href="https://www.ankushchoubey.com/v1/7-tools-for-making-good-love-choices/" rel="alternate" type="text/html" title="7 Tools To Make Good Love Choices" /><published>2023-03-25T00:00:00-05:00</published><updated>2023-03-25T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/7-tools-for-making-good-love-choices</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/7-tools-for-making-good-love-choices/"><![CDATA[<p>I wrote these 7 tools as a way to advise a friend. These came from the struggle and learning I had over the months.</p>
-
-<p>These tools are arranged in order or 3-3-1.</p>
-
-<ol>
-  <li>The first three would help you calm down and understand what to do.</li>
-  <li>The next three would help you think long-term.</li>
-  <li>The last one is a human mistake we all make.</li>
-</ol>
-
-<p><img src="/images/tommy-love.jpeg" alt="Thomas Shelby Love" /></p>
-
-<p><sub>Even Thomas Shelby has his moments</sub></p>
-
-<hr />
-
-<h2 id="set-1-to-help-you-calm-down-and-to-understand-what-to-do">Set 1: To help you calm down and to understand what to do</h2>
-
-<h3 id="tool-1-process-your-feelings">Tool 1: Process your feelings</h3>
-
-<p>No one understands you as well as you understand yourself. It’s no one else’s responsibility to process your emotions.</p>
-
-<p>Suppose you expect someone else to solve emotional problems for you. It’s too much for them.</p>
-
-<p>Ever had someone cry in front of you? Because of you?? How did you react? We all have different levels of emotional capabilities. And it’s not always right or fair to put something that we understand and we can deal with on someone else.</p>
-
-<p>We can take guidance from others. But we shouldn’t give up our own sense of rationality to others.</p>
-
-<p>All of our major problems in life are emotional problems. We solve logical problems super quickly but have a hard time solving emotional problems.</p>
-
-<p>The way to solve emotional problems is to learn to sit. Sit down for a long period and ask yourself questions when emotions pop up.</p>
-
-<p>Don’t dwell on the emotions. Just try to logically break them down.</p>
-
-<p>If you are facing something bad, remember it’ll be better in a few days and better in a few months. <strong>Give yourself space</strong>.</p>
-
-<h3 id="tool-2-know-what-you-want">Tool 2: Know what you want</h3>
-
-<p>We often don’t know what we want. We have a vague sense of it. But we don’t really know.</p>
-
-<p>When we don’t know what they want clearly, we have a hard time having conversations or negotiating with others.</p>
-
-<p>What do you want? Why do you want them? Articulate it fully for yourself and then to others.</p>
-
-<h3 id="tool-3-have-clear-communication">Tool 3: Have clear communication</h3>
-
-<p>You can’t have what you want if you can’t communicate properly. Remember, displaying anger and annoyance won’t help you persuade. The way to persuade is to be assertive and yet be kind. To know what their problem is and to know yours. And to balance out both your interests and theirs.</p>
-
-<hr />
-
-<h2 id="set-2-to-help-you-think-long-term">Set 2: To help you think long term</h2>
-
-<h3 id="tools-4-needs-over-wants">Tools 4: Needs over Wants</h3>
-
-<p>What we want is not always good for us. We may want to do drugs, but that doesn’t mean it is good for us.</p>
-
-<p>We should do what we “need”. With this, we can ask “Do I really need drugs?“. Obviously “No“. We don’t need it.</p>
-
-<p>Needs are always good for us. So, focus on needs over wants.</p>
-
-<p>At the same time, we cannot sustain without “needs“. Therefore <strong>needs are non-negotiable.</strong></p>
-
-<h3 id="tool-5-things-needed-for-a-healthy-relationship-are-non-negotiable">Tool 5: Things “needed“ for a healthy relationship are non-negotiable</h3>
-
-<p>Like the previous tool. Some things are “needed“ and without those needs, we won’t have a base.</p>
-
-<p>Similarly, some things that are “needed“ for a good relationship.</p>
-
-<ul>
-  <li>Mutual Respect</li>
-  <li>Good Communication</li>
-  <li>Willingness to solve problems</li>
-  <li>etc</li>
-</ul>
-
-<p>Without these “needs” how can’t we even have a good relationship. Therefore, things “needed” to make a relationship work are also non-negotiable.</p>
-
-<p>While expressing yourself, and while deciding what you want, make sure to focus highly on things “needed“ for a good relationship.</p>
-
-<p>We all should hope to not get what we want but to get what we need.</p>
-
-<h3 id="tool-6-know-your-core-values-and-never-compromise-try-to-make-decisions-using-them">Tool 6: Know your core values. And never compromise. Try to make decisions using them.</h3>
-
-<p>When in doubt consult your core values. Your core values are who you are.</p>
-
-<p>For example, my ideal core values are:</p>
-
-<ol>
-  <li>Clarity</li>
-  <li>Responsibility</li>
-  <li>Inputs</li>
-  <li>Systems</li>
-  <li>Time</li>
-  <li>Optimism</li>
-  <li>Team Work</li>
-  <li>Adventure</li>
-</ol>
-
-<p>If I have a problem, which is an emotional problem, I’ll rely on these core values to solve them.</p>
-
-<hr />
-
-<h2 id="set-3-a-mistake-we-all-make">Set 3: A mistake we all make</h2>
-
-<h3 id="tool-7-never-try-to-manipulate">Tool 7: Never try to manipulate</h3>
-
-<p>We try to manipulate the person or the situation to get what we want.</p>
-
-<p>We try to think in terms of if I do X, they’ll think Y. “Mai aasa karungi to vo aasa soch lenge“. This all is manipulation.</p>
-
-<p>Remember, having a partner or even marriage is just one stage of a relationship, there are stages after it too.</p>
-
-<p>Some things are outside our control, and it’s best if they are outside our control. They are not meant to be in our control. Nature is efficient. And by trying to control it, we make things worse.</p>
-
-<p>So let certain things be and never try to manipulate.</p>
-
-<blockquote>
-  <p>Do good and let go of the outcome.</p>
-</blockquote>
-
-<blockquote>
-  <p>कर्म करो और फल की चिंता मत करो</p>
-</blockquote>]]></content><author><name></name></author><category term="love" /><category term="team-work" /><category term="non-technical" /><summary type="html"><![CDATA[कर्म करो और फल की चिंता मत करो]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/tommy-love.jpeg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/tommy-love.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Avoid deleting. Or if deleting can’t be avoided. Create a backup and move deleting to an end state after testing everything.</p>]]></content><author><name></name></author><category term="configuration-management" /><summary type="html"><![CDATA[I have tried this in the past.]]></summary></entry></feed>
