@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description: Subtle art of not giving a fuck about stupid things
+description: Instead of seeing failure as a personal flaw or a permanent setback, see it as an opportunity for growth and improvement. Focus on learning from your mistakes and using them to become better in the future.
 categories: [peace, non-technical]
 last_modified_at: 2023-05-06T20:52:08.052481
 last-modified-purpose:
@@ -37,25 +37,23 @@ Understand and internalize these truths.
 
 ## Settling the past
 
-### Karmafal is not in your hands. Only karma is
+### Truth #1: Karmafal is not in your hands. Only karma is
 
-We don’t control the outcome of our actions. We only control how we act.
+We don’t control the outcome of our actions. We only control how we act. There are many factors outside of our control. We can influence them with our decisions. But we can’t control them directly.
 
-There are many factors outside of our control. We can influence them with our decisions. But we can’t control them directly.
-
-### It doesn’t matter if you win or lose, it matters how? you play
+### Truth #2: It doesn’t matter if you win or lose, it matters how? you play
 
 Life is a series of games. If you cheat and win one game, it doesn’t mean you can cheat and win another. But if you lost the first game and didn’t cheat but kept improving and playing, you’ll eventually win a lot of upcoming games that come.
 
 Therefore, it doesn’t matter if you win or lose. What matters is how you played.
 
-### You can only do your best
+### Truth #3: You can only do your best
 
-Here’s a hypothesis: Can you do more than your best **at a moment**? For example, in a certain moment, you learned a certain knowledge, you don’t know what’s beyond that knowledge. Therefore, you could only do your best.
+Here’s a hypothesis: Can you do more than your best **at a moment**? For example, at a certain moment, you learned a certain knowledge and hold certain resources, but you don’t know what’s beyond that knowledge. Therefore, you could only do your best.
 
 That does bet the question of did you give your best. But as long as you did give your best, it doesn’t matter. Cuz you couldn’t have done more than your best.
 
-### You can’t win all the time. It’s a simple probability
+### Truth #4: You can’t win all the time. It’s a simple probability
 
 What were your chances of scoring 99th percentile?? 1/99 assuming you have studied hard and studied better than all the people who also studied.
 
@@ -63,22 +61,18 @@ We always have wins and losses. These are mixed across time.
 
 ## Looking at the future
 
-### Will this matter in 3-5 years
+### Truth #5: Will this matter in 3-5 years
 
-Almost all loss or win doesn’t matter in 3-5 years. We change our trajectory so much that we don’t care.
+Almost all loss or win doesn’t matter in 3-5 years. We change our trajectory so much that we don’t care in the long term.
 
-### Past is gone
+### Truth #6: The past is gone
 
-The change to fix the problem is gone. No matter how much we may want to change it, it’s gone.
+No matter how much we may want to change the past, it's impossible. The only thing we can do is learn from it and use those lessons to shape our future. Accepting this truth can be freeing and allow us to focus on the present and future.
 
-This is freeing.
+## Truth #7: The next chance is still here
 
-## The next chance is still here
+There is always another chance. Life is long enough to get important things done, and even if we fail at something today, we can try again tomorrow or pursue a different path.
 
-Life is long enough to get important things done. If you are 25 you still have 70 years.
-
-If you are 35+ you still have 60 years.
-
-### Losing means learning
+### Truth #8: Losing means learning
 
 We have time, and now we also have experience. This means the next time we are less likely to make the same mistake if we learn it.
