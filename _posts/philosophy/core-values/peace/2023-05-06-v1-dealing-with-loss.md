@@ -69,7 +69,7 @@ Almost all loss or win doesn’t matter in 3-5 years. We change our trajectory s
 
 No matter how much we may want to change the past, it's impossible. The only thing we can do is learn from it and use those lessons to shape our future. Accepting this truth can be freeing and allow us to focus on the present and future.
 
-## Truth #7: The next chance is still here
+### Truth #7: The next chance is still here
 
 There is always another chance. Life is long enough to get important things done, and even if we fail at something today, we can try again tomorrow or pursue a different path.
 
