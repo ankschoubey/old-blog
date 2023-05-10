@@ -15,7 +15,7 @@ These 4 core values are my best bet in achieving my purpose.
 <div class="core-values-container">
     <div class="core-values-row">
         <a class="post-link core-values-box col-md-6 col-sm-12" href="/philosophy/core-values/truth">
-            <img src="/images/clarity.jpeg">
+            <img src="/images/core-values/clarity.jpeg">
             <h3> Clarity 🔭<h4>in thinking</h4></h3>
             <p class="post-meta-description">Seek, understand, accept and articulate truth. And create a proper vision for yourself.</p>
             <h4>स्पष्टता</h4>
