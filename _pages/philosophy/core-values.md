@@ -15,7 +15,7 @@ These 4 core values are my best bet in achieving my purpose.
 <div class="core-values-container">
     <div class="core-values-row">
         <a class="post-link core-values-box col-md-6 col-sm-12" href="/philosophy/core-values/truth">
-            <img src="/images/truth-fidility.jpg">
+            <img src="/images/clarity.jpeg">
             <h3> Clarity 🔭<h4>in thinking</h4></h3>
             <p class="post-meta-description">Seek, understand, accept and articulate truth. And create a proper vision for yourself.</p>
             <h4>स्पष्टता</h4>
@@ -29,7 +29,7 @@ These 4 core values are my best bet in achieving my purpose.
     </div>
     <div class="core-values-row">
         <a class="post-link core-values-box col-md-6 col-sm-12" href="/philosophy/core-values/peace">
-            <img src="/images/truth-fidility.jpg">
+            <img src="/images/optimism.jpeg">
             <h3>Optimism 🔭 <h4>in approach</h4><br>स्पष्टता</h3>
             <p class="post-meta-description">Being the ball of optimistic rationality that drives the world and sets hope for everyone.</p>
         </a>
