@@ -21,13 +21,17 @@ permalink: /philosophy/core-values/responsibility
 
 Needs vs Wants.
 
-Nihilism of modern age. And Traditional Roles to the rescue.
+[Nihilism of The Modern Age. And Traditional Roles to the rescue.](/v1/traditional-roles)
 
 # makeMistakes
 
 Facing obstacles. And becoming antifragile.
 
+## Discipline
+
 Fuck feelings. Be disciplined.
+
+[The Do Something Principle (external link)](https://markmanson.net/how-to-get-motivated)
 
 ## **Part 3: Practices**
 

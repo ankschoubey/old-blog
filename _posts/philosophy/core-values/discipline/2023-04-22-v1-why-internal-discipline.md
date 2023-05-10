@@ -16,6 +16,20 @@ Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=
   
 I realized the root cause of why even when I created a had so many systems. I was failing. Because their systems were all external. I needed something internal that drives me. I needed Discipline.
 
+## What is Discipline?
+
+Discipline is having a plan about doing or not doing something and then sticking to the plan regardless of how we feel.
+
+We may feel good today and we do the tasks. We may feel bad today and we still do the tasks. And we do the task both on good days and bad days as if nothing happened. i.e. there is no performance degradation.
+
+## Much of life's success is not in the intellect. It's in execution
+
+We pedastalize genius, insights and new. We think it'll solve everything or the person who has these features will solve everything.
+
+More often goes the uncool "actually doing the work". It's easy to come up with ideas. But only when an idea is implemented it becomes useful.
+
+If you look at good leaders, even prime ministers like Narendra Modi, he may not be the best at foreign policy, but that's not his job, his job is to decide to have the best foreign minister, and then remove any impediments or inefficencies. i.e. this does not require a 200 EQ, this requires an organized disciplined process. At the same time, you'll find that the PM is disciplined and organized in all aspects of his life.
+
 ## Internal Discipline is the source of truth and it gets the job done
 
 You cannot rely on motivation. Motivation is fickle and fragile.
@@ -53,3 +67,5 @@ The problem is your systems will also fail if you are lethargic and lazy. Intern
 You will be better at managing that and updating your systems if you are disciplined! Therefore, by being disciplined your systems would also not fail.
 
 When you have internal discipline, you may not need external discipline or external systems. You are internally driven.
+
+## Commitment leads to Discipline
