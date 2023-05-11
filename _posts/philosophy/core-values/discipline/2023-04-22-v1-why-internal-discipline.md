@@ -22,7 +22,7 @@ Discipline is having a plan about doing or not doing something and then sticking
 
 We may feel good today and we do the tasks. We may feel bad today and we still do the tasks. And we do the task both on good days and bad days as if nothing happened. i.e. there is no performance degradation.
 
-## Much of life's success is not in the intellect. It's in execution
+## Much of life's success is not in the intellect. It's a repeated process / execution
 
 We pedastalize genius, insights and new. We think it'll solve everything or the person who has these features will solve everything.
 
