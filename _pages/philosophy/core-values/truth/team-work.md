@@ -50,3 +50,5 @@ Love people and use things. Because the opposite never works.
 Love is non-transactional.
 
 Love is not special.
+
+Listen: A lot of your life is not just fixing problems. It's being there with other people.

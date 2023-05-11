@@ -6,6 +6,8 @@ permalink: /philosophy/core-values/peace
 
 ## Peace
 
+**Enjoy life.**
+
 Identifying emotions.
 
 Pet a cat when you encounter one on the street.
