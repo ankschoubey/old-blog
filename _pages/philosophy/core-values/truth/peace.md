@@ -4,7 +4,13 @@ title:
 permalink: /philosophy/core-values/peace
 ---
 
-## Peace
+## Optimism
+
+**Create Happiness**
+
+[Smile - Muskurao](https://www.linkedin.com/feed/update/urn:li:activity:7062043426589974528?utm_source=share&utm_medium=member_desktop)
+
+**Share Happiness**
 
 **Enjoy life.**
 
