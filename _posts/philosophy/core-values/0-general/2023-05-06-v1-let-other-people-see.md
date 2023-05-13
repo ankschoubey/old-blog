@@ -13,6 +13,6 @@ Your core values are who you are to the core. People around you should be able t
 
 If they aren’t able to guess with a good degree of accuracy, you may have a branding issue or more likely you aren’t living to your core values fully.
 
-At the same time, discussing your core values with others especially giving reasoning when you take certain decisions that other’s find weird is a good way to deepen your understanding and let other’s find hole in your values.
+At the same time, discussing your core values with others especially giving reasoning when you take certain decisions that others find weird is a good way to deepen your understanding and let others find holes in your values.
 
-Explaining my core values with my friends and family has helped them understand me. And it has helped me be more genuine version of myself.
+Explaining my core values to my friends and family has helped them understand me. And it has helped me be a more genuine version of myself.
