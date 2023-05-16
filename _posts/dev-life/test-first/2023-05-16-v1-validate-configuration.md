@@ -11,7 +11,7 @@ title: Automate Validation of Your Configuration
 
 After doing TDD well, you almost don’t get any logical bugs. Now the bugs you do get are all data bugs. Or configuration bugs.
 
-Data Bugs can be solved with TDD, just validate all the data that comes in the system. I have an article about it.](https://www.ankushchoubey.com/pre-save-data-validation/ "‌")
+Data Bugs can be solved with TDD, just validate all the data that comes in the system. I have an article about it.](<https://www.ankushchoubey.com/pre-save-data-validation/> "‌")
 
 The other type of bug is a **configuration bug**.
 
@@ -38,14 +38,14 @@ To make a validation, this of all the ways validation can fail. Then add custom 
 
 ### Validating with custom scripts (use this for multiple applications)
 
-Here are some ideas that can be easily implemented with some python scripts:
+Here are some ideas that can be easily implemented with some Python scripts:
 
-1. If you are deploying to Kubernetes, before your merge, validate if the image actually exist.
-2. If you have URLs in your properties files, make sure those urls are active.
+1. If you are deploying to Kubernetes, before your merge, validate if the image actually exists.
+2. If you have URLs in your properties files, make sure those URLs are active.
 3. If a certain field needs to be base64. verify that it is actually base64 or not.
 
-### Validating within the application (for app specific validations)
+### Validating within the application (for app-specific validations)
 
-If you have an Spring Boot, you can use `@ConfigurationProperties` with `@Validated` and `javax` validations.
+If you have a Spring Boot, you can use `@ConfigurationProperties` with `@Validated` and `javax` validations.
 
-If you are using ENV files in a NodeJs application, you can manually add in a code to validate the config and throw error if error exists.
+If you are using ENV files in a NodeJs application, you can manually add in a code to validate the config and throw an error if it exists.
