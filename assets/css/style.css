@@ -659,4 +659,6 @@ h3 { font-weight: 600 !important; }
 
 h4 { font-weight: 500 !important; }
 
+.post-read-this-when:before { content: "Read this when: "; font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
