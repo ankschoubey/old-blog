@@ -11,19 +11,19 @@ title: Automate Validation of Your Configuration
 
 After doing TDD well, you almost don’t get any logical bugs. Now the bugs you do get are all data bugs. Or configuration bugs.
 
-Data Bugs can be solved with TDD, just validate all the data that comes in the system. I have an article about it.](<https://www.ankushchoubey.com/pre-save-data-validation/> "‌")
+Data Bugs can be solved with TDD, just validate all the data that comes into the system. I have an article about it.](https://www.ankushchoubey.com/pre-save-data-validation)
 
 The other type of bug is a **configuration bug**.
 
 **Example**: You have connected to a service that does not exist yet.
 
-You can run the below types of analyzers in your continuous integration **before merge**. You can combine this with validation when the app starts. The app should fail to start if the validation fails.
+You can run the below types of analyzers in your continuous integration **before merging**. You can combine this with validation when the app starts. The app should fail to start if the validation fails.
 
 ## Static analysers
 
 You can find many linters and resources that can help validate static files.
 
-You can also use static analysis tools to validate if your yaml or properties is structured properly.
+You can also use static analysis tools to validate if your `yaml` or `properties` is structured properly.
 
 Static analysers like Sonar can also be useful.
 
