@@ -11,7 +11,7 @@ title: Automate Validation of Your Configuration
 
 After doing TDD well, you almost don’t get any logical bugs. Now the bugs you do get are all data bugs. Or configuration bugs.
 
-Data Bugs can be solved with TDD, just validate all the data that comes into the system. I have an article about it.](https://www.ankushchoubey.com/pre-save-data-validation)
+Data Bugs can be solved with TDD, just validate all the data that comes into the system. [I have an article about it.](/pre-save-data-validation)
 
 The other type of bug is a **configuration bug**.
 
