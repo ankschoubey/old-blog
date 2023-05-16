@@ -8,6 +8,7 @@ title: Decoding the difference between healthy love and unhealthy attachment, an
 last_modified_at: 2023-04-28T20:42:15.419969
 permalink: /v1/love-attachment/
 image: /images/v1-love-attachment.jpg
+read-this-when: You feel and are not sure about what to do.
 ---
 
 Photo by [Christopher Beloch](https://unsplash.com/@cbeloch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "‌") on [Unsplash](https://unsplash.com/images/feelings/love?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "‌")
