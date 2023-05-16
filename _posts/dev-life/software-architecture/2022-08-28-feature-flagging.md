@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: For Chaos Engineering and Continuous Delivery
-categories: [feature-flagging]
+categories: [feature-flagging,configuration-management]
 last_modified_at: 2022-08-28T20:52:08.052481
 last-modified-purpose:
 permalink: /feature-flagging/

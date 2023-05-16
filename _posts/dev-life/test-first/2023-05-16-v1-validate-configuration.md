@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Fix configuration bugs
-categories: [testing, devops]
+categories: [testing, devops,configuration-management]
 last_modified_at: 2023-05-16T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/validate-configuration

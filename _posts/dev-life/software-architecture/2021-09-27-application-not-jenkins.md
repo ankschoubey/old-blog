@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [devops]
+categories: [devops, configuration-management]
 last_modified_at: 2021-09-23T20:52:08.052481
 permalink: /configuration-within-application/
 title: Keep most of your configuration within application not Jenkins

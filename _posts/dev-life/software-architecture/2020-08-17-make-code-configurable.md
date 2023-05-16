@@ -3,7 +3,7 @@ toc: false
 layout: post
 comments: true
 description: Things that should take 0 coding effort
-categories: [clean-code, spring-boot]
+categories: [clean-code, spring-boot, configuration-management]
 last_modified_at: 2022-04-27T20:42:15.360789
 title: Make your code configurable.
 permalink: /code_configurable/
