@@ -8,6 +8,7 @@ title: 7 Tools To Make Good Love Choices
 last_modified_at: 2023-03-25T20:42:15.419969
 permalink: /v1/7-tools-for-making-good-love-choices/
 image: /images/tommy-love.jpeg
+read-this-when: you want to neutralize your thoughts and make good long term decisions.
 ---
 
 
