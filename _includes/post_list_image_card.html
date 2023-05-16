@@ -12,6 +12,9 @@
           </span>
         </h3>
         <p class="post-meta-description">{{ post.description }}</p>
+          {%- if post.read-this-when -%}
+          <p class="post-meta-description post-read-this-when">{{ post.read-this-when }}</p>
+          {%- endif -%}
           <p class="post-meta">{{ post.date | date: date_format }}</p>
       </div>
   </div>

@@ -414,3 +414,8 @@ h3 {
 h4 {
     font-weight: 500 !important;
 }
+
+.post-read-this-when:before{
+    content: "Read this when: ";
+    font-weight: bold;
+}
