@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-16T12:09:01-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Automate Validation of Your Configuration</title><link href="https://www.ankushchoubey.com/v1/validate-configuration" rel="alternate" type="text/html" title="Automate Validation of Your Configuration" /><published>2023-05-16T00:00:00-05:00</published><updated>2023-05-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-validate-configuration</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/validate-configuration"><![CDATA[<p>After doing TDD well, you almost don’t get any logical bugs. Now the bugs you do get are all data bugs. Or configuration bugs.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-16T12:11:39-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Automate Validation of Your Configuration</title><link href="https://www.ankushchoubey.com/v1/validate-configuration" rel="alternate" type="text/html" title="Automate Validation of Your Configuration" /><published>2023-05-16T00:00:00-05:00</published><updated>2023-05-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-validate-configuration</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/validate-configuration"><![CDATA[<p>After doing TDD well, you almost don’t get any logical bugs. Now the bugs you do get are all data bugs. Or configuration bugs.</p>
 
-<p>Data Bugs can be solved with TDD, just validate all the data that comes in the system. I have an article about it.](https://www.ankushchoubey.com/pre-save-data-validation/ “‌”)</p>
+<p>Data Bugs can be solved with TDD, just validate all the data that comes in the system. I have an article about it.](<a href="https://www.ankushchoubey.com/pre-save-data-validation/">https://www.ankushchoubey.com/pre-save-data-validation/</a> “‌”)</p>
 
 <p>The other type of bug is a <strong>configuration bug</strong>.</p>
 
@@ -29,19 +29,19 @@
 
 <h3 id="validating-with-custom-scripts-use-this-for-multiple-applications">Validating with custom scripts (use this for multiple applications)</h3>
 
-<p>Here are some ideas that can be easily implemented with some python scripts:</p>
+<p>Here are some ideas that can be easily implemented with some Python scripts:</p>
 
 <ol>
-  <li>If you are deploying to Kubernetes, before your merge, validate if the image actually exist.</li>
-  <li>If you have URLs in your properties files, make sure those urls are active.</li>
+  <li>If you are deploying to Kubernetes, before your merge, validate if the image actually exists.</li>
+  <li>If you have URLs in your properties files, make sure those URLs are active.</li>
   <li>If a certain field needs to be base64. verify that it is actually base64 or not.</li>
 </ol>
 
-<h3 id="validating-within-the-application-for-app-specific-validations">Validating within the application (for app specific validations)</h3>
+<h3 id="validating-within-the-application-for-app-specific-validations">Validating within the application (for app-specific validations)</h3>
 
-<p>If you have an Spring Boot, you can use <code class="language-plaintext highlighter-rouge">@ConfigurationProperties</code> with <code class="language-plaintext highlighter-rouge">@Validated</code> and <code class="language-plaintext highlighter-rouge">javax</code> validations.</p>
+<p>If you have a Spring Boot, you can use <code class="language-plaintext highlighter-rouge">@ConfigurationProperties</code> with <code class="language-plaintext highlighter-rouge">@Validated</code> and <code class="language-plaintext highlighter-rouge">javax</code> validations.</p>
 
-<p>If you are using ENV files in a NodeJs application, you can manually add in a code to validate the config and throw error if error exists.</p>]]></content><author><name></name></author><category term="testing" /><category term="devops" /><summary type="html"><![CDATA[Fix configuration bugs]]></summary></entry><entry><title type="html">Truthful Optimistic approach to bouncing back from major loss</title><link href="https://www.ankushchoubey.com/v1/dealing-with-loss" rel="alternate" type="text/html" title="Truthful Optimistic approach to bouncing back from major loss" /><published>2023-05-06T00:00:00-05:00</published><updated>2023-05-06T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-dealing-with-loss</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/dealing-with-loss"><![CDATA[<p><img src="/images/v1-dealing-with-loss.jpg" alt="" /></p>
+<p>If you are using ENV files in a NodeJs application, you can manually add in a code to validate the config and throw an error if it exists.</p>]]></content><author><name></name></author><category term="testing" /><category term="devops" /><summary type="html"><![CDATA[Fix configuration bugs]]></summary></entry><entry><title type="html">Truthful Optimistic approach to bouncing back from major loss</title><link href="https://www.ankushchoubey.com/v1/dealing-with-loss" rel="alternate" type="text/html" title="Truthful Optimistic approach to bouncing back from major loss" /><published>2023-05-06T00:00:00-05:00</published><updated>2023-05-06T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-dealing-with-loss</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/dealing-with-loss"><![CDATA[<p><img src="/images/v1-dealing-with-loss.jpg" alt="" /></p>
 
 <p>Photo by <a href="https://unsplash.com/@spaablauw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Joppe Spaa</a> on <a href="https://unsplash.com/s/photos/losing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 
