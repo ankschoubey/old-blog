@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-16T12:13:26-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Automate Validation of Your Configuration</title><link href="https://www.ankushchoubey.com/v1/validate-configuration" rel="alternate" type="text/html" title="Automate Validation of Your Configuration" /><published>2023-05-16T00:00:00-05:00</published><updated>2023-05-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-validate-configuration</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/validate-configuration"><![CDATA[<p>After doing TDD well, you almost don’t get any logical bugs. Now the bugs you do get are all data bugs. Or configuration bugs.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-16T12:15:20-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Automate Validation of Your Configuration</title><link href="https://www.ankushchoubey.com/v1/validate-configuration" rel="alternate" type="text/html" title="Automate Validation of Your Configuration" /><published>2023-05-16T00:00:00-05:00</published><updated>2023-05-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-validate-configuration</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/validate-configuration"><![CDATA[<p>After doing TDD well, you almost don’t get any logical bugs. Now the bugs you do get are all data bugs. Or configuration bugs.</p>
 
-<p>Data Bugs can be solved with TDD, just validate all the data that comes in the system. I have an article about it.](<a href="https://www.ankushchoubey.com/pre-save-data-validation/">https://www.ankushchoubey.com/pre-save-data-validation/</a> “‌”)</p>
+<p>Data Bugs can be solved with TDD, just validate all the data that comes into the system. I have an article about it.](https://www.ankushchoubey.com/pre-save-data-validation)</p>
 
 <p>The other type of bug is a <strong>configuration bug</strong>.</p>
 
 <p><strong>Example</strong>: You have connected to a service that does not exist yet.</p>
 
-<p>You can run the below types of analyzers in your continuous integration <strong>before merge</strong>. You can combine this with validation when the app starts. The app should fail to start if the validation fails.</p>
+<p>You can run the below types of analyzers in your continuous integration <strong>before merging</strong>. You can combine this with validation when the app starts. The app should fail to start if the validation fails.</p>
 
 <h2 id="static-analysers">Static analysers</h2>
 
 <p>You can find many linters and resources that can help validate static files.</p>
 
-<p>You can also use static analysis tools to validate if your yaml or properties is structured properly.</p>
+<p>You can also use static analysis tools to validate if your <code class="language-plaintext highlighter-rouge">yaml</code> or <code class="language-plaintext highlighter-rouge">properties</code> is structured properly.</p>
 
 <p>Static analysers like Sonar can also be useful.</p>
 
