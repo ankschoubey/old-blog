@@ -4,11 +4,11 @@ title:
 permalink: /philosophy/core-values/peace
 ---
 
+## Optimism
+
 ![](/images/core-values/optimism.jpeg)
 
 This image is from Boku No Hero Academia, where the world's most powerful super-hero All-Might faces all of his opponents and challenges voluntarily which a true wide smile that gives hope to everyone around him.
-
-## Optimism
 
 **Create Happiness**
 

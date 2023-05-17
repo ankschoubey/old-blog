@@ -11,7 +11,7 @@ image: /images/v1-love-attachment.jpg
 read-this-when: You feel and are not sure about what to do.
 ---
 
-Photo by [Christopher Beloch](https://unsplash.com/@cbeloch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "‌") on [Unsplash](https://unsplash.com/images/feelings/love?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "‌")
+Photo by [Christopher Beloch](https://unsplash.com/@cbeloch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/images/feelings/love?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 ## Why is it important to differentiate between love and attachment?
 

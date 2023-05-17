@@ -4,6 +4,7 @@ title:
 permalink: /philosophy/core-values/responsibility
 ---
 
+
 ## Responsibility
 
 Synonyms: { Karma , Ethos, Ownership, Accountability, Engagement }
