@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-16T12:30:43-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Automate Validation of Your Configuration</title><link href="https://www.ankushchoubey.com/v1/validate-configuration" rel="alternate" type="text/html" title="Automate Validation of Your Configuration" /><published>2023-05-16T00:00:00-05:00</published><updated>2023-05-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-validate-configuration</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/validate-configuration"><![CDATA[<p>After doing TDD well, you almost don’t get any logical bugs. Now the bugs you do get are all data bugs. Or configuration bugs.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-17T10:08:47-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Remind yourself of your core values at all times.</title><link href="https://www.ankushchoubey.com/v1/core-values-are-not-optional/" rel="alternate" type="text/html" title="Remind yourself of your core values at all times." /><published>2023-05-17T00:00:00-05:00</published><updated>2023-05-17T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-core-values-are-not-optional</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/core-values-are-not-optional/"><![CDATA[<p>We start as protected children. We are protected again from the ups and downs of life. As we grow old, this protection is lifted.</p>
+
+<p>For some people this protection continues, therefore we see 40 y.o who have not grown up. But most grow up in maturity sooner.</p>
+
+<p>There are many tragedies, nature (like death) and unnatural (like malevolence, betrayal, etc.) that are in our path. All these demands from us to be better than we are.</p>
+
+<p>We need something to offset the tragedies of life. We need to live by a set of principles and actions that can help us mitigate most of these tragedies and manage what remains to the best of our ability. And then we also need to enjoy what remains and this must be prioritized.</p>
+
+<p>And here’s the optimistic part, the principles we set up and the core values we choose and act on do set many things that couldn’t have been set in order otherwise. i.e. you reap the benefits of setting those core values in the long term.</p>
+
+<p>In the short term, it may be tempting to take a shortcut. In the long term, however, you’ll be the strongest version of yourself.</p>
+
+<p>The honest action you did today, however small, is towards that path. The room you cleaned voluntarily, you voted towards becoming responsible, again setting you on the same path.</p>
+
+<p>Don’t deviate from the path. Walk. One foot after the other. Act. One action after the other and you’ll set yourself to be <strong>freer</strong>.</p>
+
+<p><img src="/images/v1-core-values-are-not-optional.jpg" alt="" /></p>
+
+<p>Photo by <a href="https://unsplash.com/es/@aweilguny?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andreas Weilguny</a> on <a href="https://unsplash.com/s/photos/core-hard?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>]]></content><author><name></name></author><category term="philosophical" /><category term="non-technical" /><category term="implementing-core-values" /><summary type="html"><![CDATA[We start as protected children. We are protected again from the ups and downs of life. As we grow old, this protection is lifted.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-core-values-are-not-optional.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-core-values-are-not-optional.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Automate Validation of Your Configuration</title><link href="https://www.ankushchoubey.com/v1/validate-configuration" rel="alternate" type="text/html" title="Automate Validation of Your Configuration" /><published>2023-05-16T00:00:00-05:00</published><updated>2023-05-16T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-validate-configuration</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/validate-configuration"><![CDATA[<p>After doing TDD well, you almost don’t get any logical bugs. Now the bugs you do get are all data bugs. Or configuration bugs.</p>
 
 <p>Data Bugs can be solved with TDD, just validate all the data that comes into the system. <a href="/pre-save-data-validation">I have an article about it.</a></p>
 
@@ -456,72 +474,4 @@
 
 <h2 id="further-reading">Further Reading</h2>
 
-<p><a href="https://dailystoic.com/all-you-control-is-how-you-play/">Daily Stoic: You Control How You Play</a></p>]]></content><author><name></name></author><category term="responsibility" /><category term="non-technical" /><summary type="html"><![CDATA[Karma is the action we take, while Karmafal is the result of our actions, and by detaching ourselves from the outcome, we can focus on doing our best and live a more empowered life.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-karma-karmafal.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-karma-karmafal.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">5 Simple Things to Improve Backend and Frontend Performance</title><link href="https://www.ankushchoubey.com/v1/backend-performance/" rel="alternate" type="text/html" title="5 Simple Things to Improve Backend and Frontend Performance" /><published>2023-04-11T00:00:00-05:00</published><updated>2022-09-18T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-backend-performance</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/backend-performance/"><![CDATA[<h2 id="return-early-dont-create-objects-that-are-not-in-use">Return early. Don’t create objects that are not in use</h2>
-
-<p><strong>Bad</strong></p>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//bad</span>
-
-<span class="nc">User</span> <span class="n">user</span> <span class="o">=</span> <span class="n">dbCallToCallUsers</span><span class="o">();</span> <span class="c1">//DB Call Count 1</span>
-<span class="nc">UserHomepageSettings</span> <span class="n">userhomePageSettings</span> <span class="o">=</span> <span class="n">dbcalltoCalluserSettings</span><span class="o">();</span> <span class="c1">//DB Call Count 2</span>
-
-<span class="k">if</span><span class="o">(</span><span class="n">validate</span><span class="o">(</span><span class="n">users</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">validate</span><span class="o">(</span><span class="n">userSettings</span><span class="o">)){</span>
-  <span class="c1">// business logic</span>
-<span class="o">}</span>
-</code></pre></div></div>
-
-<p><strong>Good</strong>:</p>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">User</span> <span class="n">user</span> <span class="o">=</span> <span class="n">dbCallToCallUsers</span><span class="o">();</span> <span class="c1">//DB Call Count 1</span>
-<span class="k">if</span><span class="o">(!</span><span class="n">validate</span><span class="o">(</span><span class="n">users</span><span class="o">)){</span>
-  <span class="k">return</span> <span class="n">or</span> <span class="k">throw</span> <span class="nf">Exception</span><span class="o">();</span>
-<span class="o">}</span>
-<span class="nc">UserHomepageSettings</span> <span class="n">userhomePageSettings</span> <span class="o">=</span> <span class="n">dbcalltoCalluserSettings</span><span class="o">();</span> <span class="c1">//DB Call Count 2</span>
-<span class="k">if</span><span class="o">(!</span><span class="n">validate</span><span class="o">(</span><span class="n">userhomePageSettings</span><span class="o">)){</span>
-  <span class="k">return</span> <span class="n">or</span> <span class="k">throw</span> <span class="nf">Exception</span><span class="o">();</span>
-<span class="o">}</span>
-</code></pre></div></div>
-
-<h2 id="count-the-number-of-network-calls-in-a-flow-and-keep-it-at-minimum">Count the number of network calls in a flow and keep it at minimum</h2>
-
-<p>This is similar to previous point. I try to make sure I have max 3 DB calls per operation. 1 is ideal.</p>
-
-<h2 id="use-maps-and-sets">Use Maps and Sets</h2>
-
-<p>Instead of using List prefer Sets and Maps. Searching a list of map is almost instant.</p>
-
-<h2 id="reduce-copying-of-objects-from-one-form-to-another">Reduce copying of objects from one form to another</h2>
-
-<p>Instead of converting from one object to another, to another, to another. Try to make sure you don’t have to convert the same object from one form to another multiple times.</p>
-
-<h2 id="for-response-classes-reduce-copying-by-using-a-delegate-class">For response classes reduce copying by using a delegate class</h2>
-
-<p>We often use “mapper” classes and methods to convert from one object to another. For example, from entity to DTO.</p>
-
-<p>These usually copy the data from one object to another.</p>
-
-<p>This has problems because suppose your original object is 10Mb in memory, when you copy it, you have to copy 10Mb object. Your RAM get’s filled and copying is generally slow.</p>
-
-<p>Here’s a better way to do it with Delegate.</p>
-
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">UserResponse</span><span class="o">{</span>
-
-  <span class="nd">@JsonIgnore</span> <span class="c1">//We want to ignore the source class</span>
-  <span class="kd">private</span> <span class="nc">UserEntity</span> <span class="n">user</span><span class="o">;</span>
-
-  <span class="kd">public</span> <span class="nc">String</span> <span class="nf">getId</span><span class="o">(){</span>
-    <span class="k">return</span> <span class="n">user</span><span class="o">.</span><span class="na">getId</span><span class="o">();</span>
-  <span class="o">}</span>
-
-  <span class="o">...</span> <span class="n">other</span> <span class="n">getters</span> <span class="n">that</span> <span class="n">are</span> <span class="n">similar</span>
-
-  <span class="kd">public</span> <span class="nc">String</span> <span class="nf">getName</span><span class="o">(){</span>
-    <span class="k">return</span> <span class="n">user</span><span class="o">.</span><span class="na">getFirstName</span><span class="o">()</span> <span class="o">+</span> <span class="s">" "</span> <span class="o">+</span> <span class="n">user</span><span class="o">.</span><span class="na">getLastName</span><span class="o">();</span>
-    <span class="c1">// Here we are converting from one form to another without copying.</span>
-  <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div></div>
-
-<p>Using delegate we reduce the amount of copying needed in the application.</p>
-
-<p>If you are using <code class="language-plaintext highlighter-rouge">java</code> you can use <code class="language-plaintext highlighter-rouge">Lombok</code> library which provide a <code class="language-plaintext highlighter-rouge">@Delegate</code> to do the same task as above without even writing your own getters. This will make your code very precise and fast.</p>]]></content><author><name></name></author><category term="backend" /><summary type="html"><![CDATA[Return early. Don’t create objects that are not in use]]></summary></entry></feed>
+<p><a href="https://dailystoic.com/all-you-control-is-how-you-play/">Daily Stoic: You Control How You Play</a></p>]]></content><author><name></name></author><category term="responsibility" /><category term="non-technical" /><summary type="html"><![CDATA[Karma is the action we take, while Karmafal is the result of our actions, and by detaching ourselves from the outcome, we can focus on doing our best and live a more empowered life.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-karma-karmafal.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-karma-karmafal.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
