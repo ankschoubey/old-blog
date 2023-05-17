@@ -4,6 +4,10 @@ title:
 permalink: /philosophy/core-values/peace
 ---
 
+![](/images/core-values/optimism.jpeg)
+
+This image is from Boku No Hero Academia, where the world's most powerful super-hero All-Might faces all of his opponents and challenges voluntarily which a true wide smile that gives hope to everyone around him.
+
 ## Optimism
 
 **Create Happiness**
@@ -18,7 +22,7 @@ Identifying emotions.
 
 Pet a cat when you encounter one on the street.
 
-Be grateful inspite your suffering.
+Be grateful in spite of your suffering.
 
 # gratitude 5 minute journal.
 

@@ -4,6 +4,10 @@ title:
 permalink: /philosophy/core-values/truth
 ---
 
+![](/images/core-values/clarity.jpeg)
+
+This image is from the show Dr. Stone. Here the young protaganist is confused and pondering on why moon is following it. By allowing himself to stay confused and ask that question, he eventually figures it out. Later in the show, you'll find Senku applying this concept to all that he does, making him intellectually unreachable.
+
 ## Clarity 🔭
 
 Synonyms: { Truth , Logos }
