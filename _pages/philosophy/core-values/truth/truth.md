@@ -6,6 +6,8 @@ permalink: /philosophy/core-values/truth
 
 ## Clarity 🔭
 
+Synonyms: { Truth , Logos }
+
 ### **Part 1: Foundations**
 
 1. What does clarity mean? And why is it the first core-value?
