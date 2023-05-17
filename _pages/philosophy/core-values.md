@@ -29,7 +29,7 @@ These 4 core values are my best bet in achieving my purpose.
     </div>
     <div class="core-values-row">
         <a class="post-link core-values-box col-md-6 col-sm-12" href="/philosophy/core-values/peace">
-            <img src="/images/optimism.jpeg">
+            <img src="/images/core-values/optimism.jpeg">
             <h3>Optimism 🔭 <h4>in approach</h4><br>स्पष्टता</h3>
             <p class="post-meta-description">Being the ball of optimistic rationality that drives the world and sets hope for everyone.</p>
         </a>
@@ -82,7 +82,7 @@ These 4 vehicles help me prioritize, accelerate, minimize and push through my co
     }
       @media screen and (max-width: 500px) {
         .core-values-row{
-            flex-direction: row;
+            flex-direction: column;
         }
       }
 
