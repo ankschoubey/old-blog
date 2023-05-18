@@ -5,7 +5,7 @@ description:
 categories: [philosophical, non-technical, implementing-core-values]
 last_modified_at: 2023-05-17T20:52:08.052481
 permalink: /v1/core-values-are-not-optional/
-title: Remind yourself of your core values at all times.
+title: Core Values are Not Optional
 last-modified-purpose:
 read-this-when: you feel it's okay to not follow your core values just this once.
 image: /images/v1-core-values-are-not-optional.jpg
