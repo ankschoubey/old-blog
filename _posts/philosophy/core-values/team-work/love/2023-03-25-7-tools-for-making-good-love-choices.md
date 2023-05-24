@@ -24,7 +24,6 @@ These tools are arranged in order or 3-3-1.
 
 <sub>Even Thomas Shelby has his moments</sub>
 
-
 ---
 
 ## Set 1: To help you calm down and to understand what to do
