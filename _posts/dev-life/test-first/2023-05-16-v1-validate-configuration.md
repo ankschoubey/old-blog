@@ -27,10 +27,18 @@ You can also use static analysis tools to validate if your `yaml` or `properties
 
 Static analysers like Sonar can also be useful.
 
+For example: Helm has a linter which can be used by the command `helm lint`
+
 Here are some more:
 
 - [Validating Kubernetes YAML for best practice and policies](https://learnk8s.io/validating-kubernetes-yaml "‌")
 - [Dockerfile Linter](https://github.com/hadolint/hadolint "‌")
+
+## Dry run
+
+Many systems allow for doing a dry run. A dry run is where you list down everything that would happen during deployment. This would also show any errors that can come up during deployment.
+
+For example: You can use `helm install <chart> --dry-run` to simulate how the execution would happen. If there are any perceived failures, it would be reported.
 
 ## Making custom analysers
 
