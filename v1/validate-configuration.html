@@ -163,7 +163,7 @@ window.onload = wrap_img;
       • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -204,12 +204,20 @@ window.onload = wrap_img;
 
 <p>Static analysers like Sonar can also be useful.</p>
 
+<p>For example: Helm has a linter which can be used by the command <code class="language-plaintext highlighter-rouge">helm lint</code></p>
+
 <p>Here are some more:</p>
 
 <ul>
   <li><a href="https://learnk8s.io/validating-kubernetes-yaml" title="‌">Validating Kubernetes YAML for best practice and policies</a></li>
   <li><a href="https://github.com/hadolint/hadolint" title="‌">Dockerfile Linter</a></li>
 </ul>
+
+<h2 id="dry-run">Dry run</h2>
+
+<p>Many systems allow for doing a dry run. A dry run is where you list down everything that would happen during deployment. This would also show any errors that can come up during deployment.</p>
+
+<p>For example: You can use <code class="language-plaintext highlighter-rouge">helm install &lt;chart&gt; --dry-run</code> to simulate how the execution would happen. If there are any perceived failures, it would be reported.</p>
 
 <h2 id="making-custom-analysers">Making custom analysers</h2>
 

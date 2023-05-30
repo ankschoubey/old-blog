@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-24T11:23:39-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Keep your Karma Ledger clean</title><link href="https://www.ankushchoubey.com/v1/karma-ledger/" rel="alternate" type="text/html" title="Keep your Karma Ledger clean" /><published>2023-05-24T00:00:00-05:00</published><updated>2023-05-24T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-keep-karma-ledger-clean</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/karma-ledger/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/photos/CKlHKtCJZKk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-30T11:02:46-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Keep your Karma Ledger clean</title><link href="https://www.ankushchoubey.com/v1/karma-ledger/" rel="alternate" type="text/html" title="Keep your Karma Ledger clean" /><published>2023-05-24T00:00:00-05:00</published><updated>2023-05-24T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-keep-karma-ledger-clean</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/karma-ledger/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/photos/CKlHKtCJZKk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 
 <blockquote>
   <p>Karma karo fall ki chinta maat karo</p>
@@ -115,12 +115,20 @@
 
 <p>Static analysers like Sonar can also be useful.</p>
 
+<p>For example: Helm has a linter which can be used by the command <code class="language-plaintext highlighter-rouge">helm lint</code></p>
+
 <p>Here are some more:</p>
 
 <ul>
   <li><a href="https://learnk8s.io/validating-kubernetes-yaml" title="‌">Validating Kubernetes YAML for best practice and policies</a></li>
   <li><a href="https://github.com/hadolint/hadolint" title="‌">Dockerfile Linter</a></li>
 </ul>
+
+<h2 id="dry-run">Dry run</h2>
+
+<p>Many systems allow for doing a dry run. A dry run is where you list down everything that would happen during deployment. This would also show any errors that can come up during deployment.</p>
+
+<p>For example: You can use <code class="language-plaintext highlighter-rouge">helm install &lt;chart&gt; --dry-run</code> to simulate how the execution would happen. If there are any perceived failures, it would be reported.</p>
 
 <h2 id="making-custom-analysers">Making custom analysers</h2>
 
