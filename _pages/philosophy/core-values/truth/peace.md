@@ -40,7 +40,7 @@ Be grateful in spite of your suffering.
 
 **Part 1: Foundations**
 
-1.
+1. [You can't logic your way out of depression](/v1/can-not-logic-your-way-out-of-depression)
 2. [Meditation is how you become peaceful all the time](/meditation)
 3. Why we only see what's bad or what we did bad. Hedonic adaptation.
 
