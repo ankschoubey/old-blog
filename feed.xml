@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-31T10:21:51-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">You can’t logic your way out of depression.</title><link href="https://www.ankushchoubey.com/v1/can-not-logic-your-way-out-of-depression" rel="alternate" type="text/html" title="You can’t logic your way out of depression." /><published>2023-05-31T00:00:00-05:00</published><updated>2023-05-06T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-cannot-logic-your-way-out-of-depression</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/can-not-logic-your-way-out-of-depression"><![CDATA[<p><img src="/images/v1-can-not-logic-your-way-out-of-depression.jpg" alt="" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-05-31T10:35:45-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">You can’t logic your way out of depression.</title><link href="https://www.ankushchoubey.com/v1/can-not-logic-your-way-out-of-depression" rel="alternate" type="text/html" title="You can’t logic your way out of depression." /><published>2023-05-31T00:00:00-05:00</published><updated>2023-05-06T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-cannot-logic-your-way-out-of-depression</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/can-not-logic-your-way-out-of-depression"><![CDATA[<p><img src="/images/v1-can-not-logic-your-way-out-of-depression.jpg" alt="" /></p>
 
 <p>Photo by <a href="https://unsplash.com/@yosipri?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yosi Prihantoro</a> on <a href="https://unsplash.com/s/photos/depression?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 
@@ -36,7 +36,25 @@
 
 <hr />
 
-<p>This problem is also something I learned about people with high conscientiousness.  They tend to tear themselves apart psychologically trying to find what caused the problem so that it won’t repeat. And it’s hard on them</p>]]></content><author><name></name></author><category term="peace" /><category term="non-technical" /><summary type="html"><![CDATA[Notes from HealthyGamerGG podcast. Use emotions to solve emotional problems first only then apply logic. (Pathos first; Logos later).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-can-not-logic-your-way-out-of-depression.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-can-not-logic-your-way-out-of-depression.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep your Karma Ledger clean</title><link href="https://www.ankushchoubey.com/v1/karma-ledger/" rel="alternate" type="text/html" title="Keep your Karma Ledger clean" /><published>2023-05-24T00:00:00-05:00</published><updated>2023-05-24T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-keep-karma-ledger-clean</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/karma-ledger/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/photos/CKlHKtCJZKk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<p>This problem is also something I learned about people with high conscientiousness.  They tend to tear themselves apart psychologically trying to find what caused the problem so that it won’t repeat. And it’s hard on them</p>]]></content><author><name></name></author><category term="peace" /><category term="non-technical" /><summary type="html"><![CDATA[Notes from HealthyGamerGG podcast. Use emotions to solve emotional problems first only then apply logic. (Pathos first; Logos later).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-can-not-logic-your-way-out-of-depression.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-can-not-logic-your-way-out-of-depression.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fix your security bugs even if it doesn’t affect you</title><link href="https://www.ankushchoubey.com/v1/v1-fix-security-bugs-anyways" rel="alternate" type="text/html" title="Fix your security bugs even if it doesn’t affect you" /><published>2023-05-31T00:00:00-05:00</published><updated>2023-05-31T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-fix-security-bugs-anyways</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/v1-fix-security-bugs-anyways"><![CDATA[<p>In a previous blog post, I talked about how to upgrade Maven dependencies. It specifically mentioned security vulnerabilities in these dependencies to be an important reason to upgrade.</p>
+
+<p>Many times these security bugs do not affect us. For example, suppose a dependency is vulnerable to authentication jacking, and you have set up your system such that only trusted systems can talk to your internal server.</p>
+
+<p>You may skip fixing this issue because it does not affect you. My rationale is to think in terms of: This does not affect you ‘yet’.</p>
+
+<ol>
+  <li>If a dependency is vulnerable upgrade it anyway.</li>
+  <li>It’s faster to upgrade a dependency than rationalize if we need to upgrade or not.</li>
+  <li>It’s easier to manage too. There are no vulnerable dependencies. Regardless of if they affect us or not.</li>
+</ol>
+
+<p>The most important rationale I have is we don’t know how the system will evolve. Maybe currently we are deploying in a secure zone but in the future, we may change it and that change could open us up to bugs we haven’t fixed yet.</p>
+
+<p>Therefore, just fix it. It takes 10 minutes to upgrade to a minor patch.</p>
+
+<p>Check if the upgrade is available, and upgrade it.</p>
+
+<p>Photo by <a href="https://unsplash.com/@growtika?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Growtika</a> on <a href="https://unsplash.com/s/photos/security-bug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>]]></content><author><name></name></author><category term="security" /><summary type="html"><![CDATA[In a previous blog post, I talked about how to upgrade Maven dependencies. It specifically mentioned security vulnerabilities in these dependencies to be an important reason to upgrade.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-fix-security-bugs-anyways.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-fix-security-bugs-anyways.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep your Karma Ledger clean</title><link href="https://www.ankushchoubey.com/v1/karma-ledger/" rel="alternate" type="text/html" title="Keep your Karma Ledger clean" /><published>2023-05-24T00:00:00-05:00</published><updated>2023-05-24T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-keep-karma-ledger-clean</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/karma-ledger/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/photos/CKlHKtCJZKk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 
 <blockquote>
   <p>Karma karo fall ki chinta maat karo</p>
@@ -378,137 +396,4 @@
 
 <p>Recognize once you achieve a certain level of “output success”, it doesn’t matter what happens after it.</p>
 
-<p>Get inspired and learn from others. But don’t compare yourself to others. The only perfect person you can compare yourself to is who you were yesterday.</p>]]></content><author><name></name></author><category term="team-work" /><category term="non-technical" /><summary type="html"><![CDATA[Why comparison with others is stupid and why the only person you should compare to is who you were yesterday]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love.</title><link href="https://www.ankushchoubey.com/v1/love-attachment/" rel="alternate" type="text/html" title="Decoding the difference between healthy love and unhealthy attachment, and choosing healthy love." /><published>2023-04-28T00:00:00-05:00</published><updated>2023-04-28T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-love-attachment</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/love-attachment/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@cbeloch?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christopher Beloch</a> on <a href="https://unsplash.com/images/feelings/love?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-
-<h2 id="why-is-it-important-to-differentiate-between-love-and-attachment">Why is it important to differentiate between love and attachment?</h2>
-
-<p>We pedestalize love. We feel it’s a cure-all for all problems. Maybe it is. But are we actually in love? or is it just an attachment?</p>
-
-<p>Understanding the difference between love and attachment will help us make better decisions.</p>
-
-<ol>
-  <li>It’ll make us not do things out of attachment. Attachment leads to stupidity.</li>
-  <li>It’ll help us understand and grow love. :)</li>
-</ol>
-
-<p>So once we understand our thought is based on attachment, we can break out of it.</p>
-
-<p>Attachment is called Moh in Hindi. And it’s one of the great sins.</p>
-
-<h2 id="what-is-the-difference-between-love-and-attachment">What is the difference between love and attachment?</h2>
-
-<p>We often confuse love and attachment. Here is what the difference is.</p>
-
-<p>If we are doing something or thinking something for the benefit of others, we are in love. If we are doing something or thinking of something for the benefit of ourselves and wrapping someone else in it to act a certain way it’s attachment.</p>
-
-<p>The central focus of love is the well-being of the other. You may argue that healthy love is the well-being of both others and ourselves. Attachment on the other hand is just our well-being of ourselves.</p>
-
-<h2 id="how-should-we-catch-ourselves-and-act-in-love-and-attachment">How should we catch ourselves and act in love and attachment?</h2>
-
-<p>Below are three paths that can help you understand if you are in love or attachment.</p>
-
-<h3 id="understanding-it-logically-can-be-used-day-to-day">Understanding it logically [Can be used day to day]</h3>
-
-<p>Understanding your logical reasonings can give you a feel for if you are in love or just acting out of attachment.</p>
-
-<p>The principle remains the same: if the focus is us, it’s attachment. If the focus is the well-being of another person, it’s love.</p>
-
-<h4 id="example-1">Example 1</h4>
-
-<ul>
-  <li>I want someone to stay in my life, is attachment.</li>
-  <li>I wish someone the best life he or she can have with or without me, is love.</li>
-</ul>
-
-<h4 id="example-2">Example 2</h4>
-
-<ul>
-  <li>I want my kid to do what I want him to do, is attachment.</li>
-  <li>I want my kid to do his best, is love.</li>
-</ul>
-
-<p><strong>Exercise</strong>:</p>
-
-<ol>
-  <li>You can also exercise this by listening to different songs and identify parts that are out of love and ones that are out of attachment.</li>
-  <li>Think about how you acted the last time, were you doing something for yourself or the benefit of other.</li>
-</ol>
-
-<p>There is also a sacrificial element in love. We sacrifice our own desires for others.</p>
-
-<h4 id="example-1-1">Example 1</h4>
-
-<ul>
-  <li>We don’t like walking. But the other person likes walking. They find it meaningful and a bonding time. We sometimes, maybe not often, go for a walk because the other person likes it.</li>
-</ul>
-
-<p>This can well be expanded into giving up our own comfort for the other person. Like, moving to a new city <strong>for them</strong>, because it makes them happy.</p>
-
-<h4 id="example-2-1">Example 2</h4>
-
-<ul>
-  <li>The other person is facing a problem. And we give up doing what we most enjoy to solve their problem.</li>
-</ul>
-
-<h3 id="understanding-via-attachment-styles">Understanding via Attachment Styles</h3>
-
-<p>Attachment styles are how we relate to other people. For example, you may be <strong>avoidant</strong> of your sibling but <strong>anxious</strong> to your parents but <strong>assertively secure</strong> with your colleagues.</p>
-
-<p>There are 4 attachment styles:</p>
-
-<ol>
-  <li><strong>Secure</strong> → This should be our aim</li>
-  <li><strong>Anxious</strong> → This makes you worried and overdo.</li>
-  <li><strong>Avoidant</strong> → This is where you avoid your own partner</li>
-  <li><strong>Anxious</strong> Avoidant → This is a mix of anxious and avoidant.</li>
-</ol>
-
-<p>You can have different attachment styles to different people. But in love, we usually have the same attachment style as we had with our parents in early childhood.</p>
-
-<p>Anxious, avoidant and anxious avoidant are all unhealthy attachments.</p>
-
-<p>By learning about your attachment style, you can identify behaviors that are common in that style. For example, I am becoming secure but anxious. Here are some common things I did.</p>
-
-<ul>
-  <li>Write a message and then delete it.</li>
-  <li>Ping them constantly</li>
-  <li>Fear something is going wrong and constantly seek validation.</li>
-  <li>Think about them all day instead of working.</li>
-  <li>Give up my own dreams to accommodate there’s.</li>
-  <li>Watch the same shows as they watched and stopped watching what I liked.</li>
-  <li>Not sharing how I really feel because it may lead to rejection.</li>
-</ul>
-
-<p>The list goes on and on.</p>
-
-<p>For someone avoidant, they prefer independence. And have behaviors such as:</p>
-
-<ul>
-  <li>Not opening up.</li>
-</ul>
-
-<p>There are more but these are some I know but learning can help you understand yourself and the other person better.</p>
-
-<p>If you are anxious or avoidant, you should aim toward becoming <strong>secure</strong>. I’ll write a post about it some other day.</p>
-
-<h3 id="are-you-pedestalizing-love">Are you pedestalizing love?</h3>
-
-<p>Attachment makes us control the outcome. It makes us irrational.</p>
-
-<p>Do you feel only think about love? Or see it as a cure-all? If yes, you are attached.</p>
-
-<h2 id="how-love-relates-to-giving-up-control">How love relates to giving up control?</h2>
-
-<p>Attachment makes us control the outcome. It makes us irrational. We can’t control the outcome.</p>
-
-<p>Love makes us give up on the outcome. Healthy love gives both yourself and the other person some control.</p>
-
-<h2 id="we-cant-be-100-in-love-but-we-can-always-do-better-than-we-are"><strong>We can’t be 100% in love. But we can always do better than we are.</strong></h2>
-
-<p>We can’t always be in love. We are selfish by nature and that isn’t a bad thing in moderation. We need to manage our self-interest and the self-interest of others.</p>
-
-<p>We don’t want to be a giver (anxious) or just a taker (avoidant), we want a balance of both.</p>
-
-<p>The best way to go about it is to identify your attachment style, understand when you acting out of love or attachment, act more in love and give up control. :)</p>
-
-<p><img src="/images/v1-love-attachment.jpg" alt="" /></p>]]></content><author><name></name></author><category term="love" /><category term="team-work" /><category term="non-technical" /><summary type="html"><![CDATA[Love is a selfless emotion that focuses on the well-being of the other person, while attachment is a selfish emotion that centers on our own well-being. It's essential to catch ourselves when we act out of attachment and try to shift our focus to acting out of love]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-love-attachment.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-love-attachment.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Get inspired and learn from others. But don’t compare yourself to others. The only perfect person you can compare yourself to is who you were yesterday.</p>]]></content><author><name></name></author><category term="team-work" /><category term="non-technical" /><summary type="html"><![CDATA[Why comparison with others is stupid and why the only person you should compare to is who you were yesterday]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-step-aside-success.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
