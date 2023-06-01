@@ -193,29 +193,29 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <p>In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same with respect to service.</p>
+    <p>In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same concerning service.</p>
 
-<p>A Service that handles tasks of a RestController isn’t very different from a rest controller.</p>
+<p>A Service that handles the tasks of a RestController isn’t very different from a rest controller.</p>
 
-<p>We should separate out the Service from the Rest Controllers because we want to be able to re-use the service.</p>
+<p>We should separate the Service from the Rest Controllers because we want to be able to re-use the service.</p>
 
-<p>But if Service handles rest rest controller responses, it isn’t very different.</p>
+<p>But if Service handles rest controller responses, it isn’t very different.</p>
 
 <h2 id="an-ideal-service">An ideal service</h2>
 
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740" alt="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740"></p>
 
-<p>Here’s how you separate out connectors from the business logic.</p>
+<p>Here’s how you separate connectors from the business logic.</p>
 
-<p>Connector are mediums we use to communicate with the the outside world. Examples of connectors are Rest API connector (like RestController or RouterFunction+it’s Handler), Kafka Connector.</p>
+<p><strong>Connectors</strong> are mediums we use to communicate with the outside world. Examples of connectors are Rest API connector (like RestController or RouterFunction+it’s Handler), and Kafka Connector.</p>
 
-<p>Services are code that implement the business logic.</p>
+<p><strong>Services</strong> are codes that implement business logic.</p>
 
-<p>All conversion from Entity to DTO or DTO to entity (i.e handle the request event and provide response in format needed by the client) should be handles at Rest API Connector.</p>
+<p>All conversions from Entity to DTO or DTO to an entity (i.e. handle the request event and provide a response in the format needed by the client) should be handled at Rest API Connector.</p>
 
 <p>The Rest API Connector is responsible for calling the service method between the request and the response.</p>
 
-<p>For the service method, REST API connector is a downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever is it’s format.</p>
+<p>For the service method, the REST API connector is downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever its format.</p>
 
   </div>
 <!-- from https://github.com/utterance/utterances -->
