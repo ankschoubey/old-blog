@@ -6,7 +6,7 @@ permalink: /philosophy/core-values/truth
 
 ## Clarity 🔭
 
-Synonyms: { Truth , Logos }
+Synonyms: { Truth , Logos, Structure }
 
 ![](/images/core-values/clarity.jpeg)
 

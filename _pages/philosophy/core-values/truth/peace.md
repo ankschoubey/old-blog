@@ -6,13 +6,19 @@ permalink: /philosophy/core-values/peace
 
 ## Optimism
 
-Synonyms: {Peace, Stoicism, Antifragility}
+Synonyms: {Peace, Mental Toughness, Stoicism, Antifragility}
 
 Optimism over pessimism.
 
 ![](/images/core-values/optimism.jpeg)
 
 This image is from Boku No Hero Academia, where the world's most powerful super-hero All-Might faces all of his opponents and challenges voluntarily which a true wide smile that gives hope to everyone around him.
+
+**Let go**
+
+**Find happiness**
+
+- Gratitude
 
 **Create Happiness**
 
@@ -21,6 +27,8 @@ This image is from Boku No Hero Academia, where the world's most powerful super-
 **Share Happiness**
 
 **Enjoy life.**
+
+**Healthy environment**
 
 ## Free yourself with truths
 
