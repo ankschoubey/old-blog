@@ -58,6 +58,10 @@ You won’t have anything hanging over your head.
 
 ### If you can’t fit an image of a brighter future, imagine exercising your discipline
 
+## Conclusion
+
+Humans are stronger than we things. We need to exercise our wills. The most useful advice I have found is just make yourself do it. Eventually, the reward is so large and obvious that you'll do it anyways.
+
 ![](/images/v1-make-yourself-do-it.jpg)
 
 Photo by <a href="https://unsplash.com/@thelowedown?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dave Lowe</a> on <a href="https://unsplash.com/s/photos/discipline?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
