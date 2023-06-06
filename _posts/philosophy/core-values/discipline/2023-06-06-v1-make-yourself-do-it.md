@@ -1,20 +1,21 @@
 ---
 layout: post
 comments: true
-description: 
+description: How do you exercise discipline? What stops it? It's emotions. How do you overcome your emotions and short-term impulses?
 categories: [philosophical, non-technical, discipline]
 last_modified_at: 2023-06-06T20:52:08.052481
 permalink: /v1/make-yourself-do-it/
 title: Make yourself do it
 last-modified-purpose: 
 image: /images/v1-make-yourself-do-it.jpg
+read-this-when: When you just want to get work done without anything stopping you.
 ---
 
 
   
 All of our problems are emotional problems. Logical problems are solved easily. The emotional problem is how we feel.
 
-We seek books that tell us the exact same thing in a different way that eases how we feel. i.e. how we feel impacts us.
+We seek books that tell us the same thing in a different way that eases how we feel. i.e. how we feel impacts us.
 
 **We need a strong why to do things**. And here may be some ways to ease your emotions to do it.
 
