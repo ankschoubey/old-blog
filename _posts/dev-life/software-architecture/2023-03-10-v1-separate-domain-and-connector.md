@@ -1,14 +1,16 @@
 ---
 layout: post
 comments: true
-description: Your main business logic resides in your service. All other things are connectors
+description: Separating connectors from business logic in a service-oriented architecture promotes reusability and single responsibility.
 categories: [web-development, ddd, clean-code]
 last_modified_at: 2023-03-10T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/separate-service/
-title: One service should serve multiple mediums (REST, Kafka, gRPC, etc)
+title: Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability
 image: https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&amp;h=740
 ---
+
+## Introduction
 
 In a previous post, I talked about [why and how we should separate Domain Layer from Technical code](/separate-technical-code). Here's another version of the same concerning service.
 
@@ -34,11 +36,11 @@ The Rest API Connector is responsible for calling the service method between the
 
 For the service method, the REST API connector is downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever its format.
 
-## Example
+## Example - Identifying Bad and Good Practices
 
-Below are two examples one of bad and one good. While the examples are in Spring Boot, they apply to any project.
+Let's examine two examples to illustrate the difference between poorly designed and well-structured code. Although the examples are based on Spring Boot, the principles apply to any project.
 
-### **Bad**: Single Responsibility Voilated
+### Bad Practice: Violation of Single Responsibility
 
 ```java
 // @Controller Code
@@ -68,7 +70,7 @@ Here is why the above code is bad:
   - While the name of the method is `saveUser`, it is also handling the conversion of request to entity and entity to the response.
   - **`@Service` isn't just handling business logic**.
 
-### **Good**: Single Responsibility Preserved
+### Good Practice: Preserving Single Responsibility
 
 ```java
 // @Controller Code
