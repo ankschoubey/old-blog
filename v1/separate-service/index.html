@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>One service should serve multiple mediums (REST, Kafka, gRPC, etc) | Ankush Choubey</title>
+<title>Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="One service should serve multiple mediums (REST, Kafka, gRPC, etc)">
+<meta property="og:title" content="Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Your main business logic resides in your service. All other things are connectors">
-<meta property="og:description" content="Your main business logic resides in your service. All other things are connectors">
+<meta name="description" content="Separating connectors from business logic in a service-oriented architecture promotes reusability and single responsibility.">
+<meta property="og:description" content="Separating connectors from business logic in a service-oriented architecture promotes reusability and single responsibility.">
 <link rel="canonical" href="https://www.ankushchoubey.com/v1/separate-service/">
 <meta property="og:url" content="https://www.ankushchoubey.com/v1/separate-service/">
 <meta property="og:site_name" content="Ankush Choubey">
@@ -20,9 +20,9 @@
 <meta property="article:published_time" content="2023-03-10T00:00:00-06:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740">
-<meta property="twitter:title" content="One service should serve multiple mediums (REST, Kafka, gRPC, etc)">
+<meta property="twitter:title" content="Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-10T14:52:08-06:00","datePublished":"2023-03-10T00:00:00-06:00","description":"Your main business logic resides in your service. All other things are connectors","headline":"One service should serve multiple mediums (REST, Kafka, gRPC, etc)","image":"https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/separate-service/"},"url":"https://www.ankushchoubey.com/v1/separate-service/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-10T14:52:08-06:00","datePublished":"2023-03-10T00:00:00-06:00","description":"Separating connectors from business logic in a service-oriented architecture promotes reusability and single responsibility.","headline":"Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability","image":"https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/separate-service/"},"url":"https://www.ankushchoubey.com/v1/separate-service/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -34,12 +34,12 @@
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>One service should serve multiple mediums (REST, Kafka, gRPC, etc) | Ankush Choubey</title>
+<title>Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="One service should serve multiple mediums (REST, Kafka, gRPC, etc)">
+<meta property="og:title" content="Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Your main business logic resides in your service. All other things are connectors">
-<meta property="og:description" content="Your main business logic resides in your service. All other things are connectors">
+<meta name="description" content="Separating connectors from business logic in a service-oriented architecture promotes reusability and single responsibility.">
+<meta property="og:description" content="Separating connectors from business logic in a service-oriented architecture promotes reusability and single responsibility.">
 <link rel="canonical" href="https://www.ankushchoubey.com/v1/separate-service/">
 <meta property="og:url" content="https://www.ankushchoubey.com/v1/separate-service/">
 <meta property="og:site_name" content="Ankush Choubey">
@@ -48,9 +48,9 @@
 <meta property="article:published_time" content="2023-03-10T00:00:00-06:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740">
-<meta property="twitter:title" content="One service should serve multiple mediums (REST, Kafka, gRPC, etc)">
+<meta property="twitter:title" content="Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-10T14:52:08-06:00","datePublished":"2023-03-10T00:00:00-06:00","description":"Your main business logic resides in your service. All other things are connectors","headline":"One service should serve multiple mediums (REST, Kafka, gRPC, etc)","image":"https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/separate-service/"},"url":"https://www.ankushchoubey.com/v1/separate-service/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-10T14:52:08-06:00","datePublished":"2023-03-10T00:00:00-06:00","description":"Separating connectors from business logic in a service-oriented architecture promotes reusability and single responsibility.","headline":"Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability","image":"https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/separate-service/"},"url":"https://www.ankushchoubey.com/v1/separate-service/"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
@@ -162,8 +162,8 @@ window.onload = wrap_img;
 </style>
 
 <header class="post-header"><img src="https://docs.google.com/drawings/d/e/2PACX-1vT3KH3qfLmMQ0DDGtQL8uyol8YhCWqBEc1DJxuGJ5vS9gdNxYKf7vkIgb2ETVHrZOocCTJv4kAFDUtU/pub?w=1300&h=740" class="cover-image"><div class="post-header-content">
-    <h1 class="post-title p-name" itemprop="name headline">One service should serve multiple mediums (REST, Kafka, gRPC, etc)</h1>
-<p class="page-description">Your main business logic resides in your service. All other things are connectors</p>
+    <h1 class="post-title p-name" itemprop="name headline">Separating Connectors and Service (Business Logic) - A Key Principle for Service Reusability</h1>
+<p class="page-description">Separating connectors from business logic in a service-oriented architecture promotes reusability and single responsibility.</p>
 <p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-10T00:00:00-06:00" itemprop="datePublished">
         Mar 10, 2023
       </time>
@@ -193,7 +193,9 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <p>In a previous post, I talked about <a href="/separate-technical-code">why and how we should separate Domain Layer from Technical code</a>. Here’s another version of the same concerning service.</p>
+    <h2 id="introduction">Introduction</h2>
+
+<p>In a previous post, I talked about <a href="/separate-technical-code">why and how we should separate Domain Layer from Technical code</a>. Here’s another version of the same concerning service.</p>
 
 <p>A Service that handles the tasks of a RestController isn’t very different from a rest controller.</p>
 
@@ -222,12 +224,11 @@ window.onload = wrap_img;
 
 <p>For the service method, the REST API connector is downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever its format.</p>
 
-<h2 id="example">Example</h2>
+<h2 id="example---identifying-bad-and-good-practices">Example - Identifying Bad and Good Practices</h2>
 
-<p>Below are two examples one of bad and one good. While the examples are in Spring Boot, they apply to any project.</p>
+<p>Let’s examine two examples to illustrate the difference between poorly designed and well-structured code. Although the examples are based on Spring Boot, the principles apply to any project.</p>
 
-<h3 id="bad-single-responsibility-voilated">
-<strong>Bad</strong>: Single Responsibility Voilated</h3>
+<h3 id="bad-practice-violation-of-single-responsibility">Bad Practice: Violation of Single Responsibility</h3>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// @Controller Code</span>
 <span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/users"</span><span class="o">)</span>
@@ -268,8 +269,7 @@ window.onload = wrap_img;
   </li>
 </ul>
 
-<h3 id="good-single-responsibility-preserved">
-<strong>Good</strong>: Single Responsibility Preserved</h3>
+<h3 id="good-practice-preserving-single-responsibility">Good Practice: Preserving Single Responsibility</h3>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// @Controller Code</span>
 <span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/users"</span><span class="o">)</span>
