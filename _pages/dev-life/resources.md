@@ -379,6 +379,12 @@ I share a collection of valuable resources I come across on my field, which I up
 - Nov
   - [automatisch/automatisch: The open source Zapier alternative. Build workflow automation without spending time and money.](https://github.com/automatisch/automatisch)
 
+## UX
+
+- 2023
+  - June
+    - [When life gives you lemons, write better error messages](https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f)
+
 ## More Lists
 
 [sindresorhus/awesome: 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome)
