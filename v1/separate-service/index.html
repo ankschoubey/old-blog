@@ -170,7 +170,7 @@ window.onload = wrap_img;
       • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      3 min read
     
 </span></p>
 
@@ -193,7 +193,7 @@ window.onload = wrap_img;
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-content e-content" itemprop="articleBody">
-    <p>In a previous post, I talked about how we should separate Domain Layer from Technical code. Here’s another version of the same concerning service.</p>
+    <p>In a previous post, I talked about <a href="/separate-technical-code">why and how we should separate Domain Layer from Technical code</a>. Here’s another version of the same concerning service.</p>
 
 <p>A Service that handles the tasks of a RestController isn’t very different from a rest controller.</p>
 
@@ -207,15 +207,101 @@ window.onload = wrap_img;
 
 <p>Here’s how you separate connectors from the business logic.</p>
 
-<p><strong>Connectors</strong> are mediums we use to communicate with the outside world. Examples of connectors are Rest API connector (like RestController or RouterFunction+it’s Handler), and Kafka Connector.</p>
-
-<p><strong>Services</strong> are codes that implement business logic.</p>
+<ul>
+  <li>
+    <p><strong>Connectors</strong> are mediums we use to communicate with the outside world. Examples of connectors are Rest API connector (like RestController or RouterFunction+it’s Handler), and Kafka Connector.</p>
+  </li>
+  <li>
+    <p><strong>Services</strong> are codes that implement business logic.</p>
+  </li>
+</ul>
 
 <p>All conversions from Entity to DTO or DTO to an entity (i.e. handle the request event and provide a response in the format needed by the client) should be handled at Rest API Connector.</p>
 
 <p>The Rest API Connector is responsible for calling the service method between the request and the response.</p>
 
 <p>For the service method, the REST API connector is downstream. So, it does not care about what format of data it sends. It’s just responsible for executing the business logic and sending the data in whatever its format.</p>
+
+<h2 id="example">Example</h2>
+
+<p>Below are two examples one of bad and one good. While the examples are in Spring Boot, they apply to any project.</p>
+
+<h3 id="bad-single-responsibility-voilated">
+<strong>Bad</strong>: Single Responsibility Voilated</h3>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// @Controller Code</span>
+<span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/users"</span><span class="o">)</span>
+<span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">UserResponse</span><span class="o">&gt;</span> <span class="nf">postUsers</span><span class="o">(</span><span class="nc">UserRequest</span> <span class="n">userRequest</span><span class="o">){</span>
+    <span class="k">return</span> <span class="n">userService</span><span class="o">.</span><span class="na">saveUser</span><span class="o">(</span><span class="n">userRequest</span><span class="o">);</span> <span class="c1">// 1</span>
+<span class="o">}</span>
+
+<span class="c1">// @Service Code</span>
+<span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">UserResponse</span><span class="o">&gt;</span> <span class="nf">saveUser</span><span class="o">(</span><span class="nc">UserRequest</span> <span class="n">userRequest</span><span class="o">){</span> <span class="c1">// 2</span>
+    <span class="nc">UserEntity</span> <span class="n">unsaved</span> <span class="o">=</span> <span class="n">objectMapper</span><span class="o">.</span><span class="na">convertValue</span><span class="o">(</span><span class="n">userRequest</span><span class="o">,</span> <span class="nc">UserEntity</span><span class="o">.</span><span class="na">class</span><span class="o">);</span> <span class="c1">// 3</span>
+    <span class="n">unsavedUser</span><span class="o">.</span><span class="na">setUserId</span><span class="o">(</span><span class="n">sequenceService</span><span class="o">.</span><span class="na">getNextId</span><span class="o">());</span> <span class="c1">// 4</span>
+    <span class="nc">UserEntity</span> <span class="n">savedUser</span> <span class="o">=</span> <span class="n">userRepo</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="n">unsaved</span><span class="o">);</span> <span class="c1">// 5</span>
+    <span class="nc">UserResponse</span> <span class="n">userResponse</span> <span class="o">=</span> <span class="n">objectMapper</span><span class="o">.</span><span class="na">convertValue</span><span class="o">(</span><span class="n">savedUser</span><span class="o">,</span> <span class="nc">UserResponse</span><span class="o">.</span><span class="na">class</span><span class="o">);</span> <span class="c1">// 6</span>
+    <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">body</span><span class="o">(</span><span class="n">userResponse</span><span class="o">);</span> <span class="c1">// 7</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Here is why the above code is bad:</p>
+
+<ul>
+  <li>
+<strong>1</strong>: <code class="language-plaintext highlighter-rouge">@Controller</code> is just calling the <code class="language-plaintext highlighter-rouge">@Service</code> and returning its value. It isn’t doing anything except <code class="language-plaintext highlighter-rouge">@PostMapping</code>. If that’s the case what’s the purpose of a <code class="language-plaintext highlighter-rouge">@Controller</code>, just mapping?</li>
+  <li>
+<strong>2</strong>: The <code class="language-plaintext highlighter-rouge">@Service</code> is handling receiving the <code class="language-plaintext highlighter-rouge">UserRequest</code> and returns a <code class="language-plaintext highlighter-rouge">ResponseEntity</code> of <code class="language-plaintext highlighter-rouge">UserResponse</code>.
+    <ul>
+      <li>The problem both <code class="language-plaintext highlighter-rouge">UserRequest</code> and <code class="language-plaintext highlighter-rouge">ResponseEntity&lt;UserResponse&gt;</code> are mapped to REST API. I can’t reuse the method save mechanism for other connections or from within other services.</li>
+      <li>For example, let’s say I have to save a user from another <code class="language-plaintext highlighter-rouge">@Service</code>. To use the same <code class="language-plaintext highlighter-rouge">saveUser</code> method, I’ll have to create a <code class="language-plaintext highlighter-rouge">UserRequest</code> object and the parse the <code class="language-plaintext highlighter-rouge">ResponseEntity&lt;UserResponse&gt;</code>.</li>
+      <li>This is a highly inconvenient conversion.</li>
+    </ul>
+  </li>
+  <li>
+<strong>3 to 7</strong>: Here the <code class="language-plaintext highlighter-rouge">@Service</code> isn’t singularly responsibly.
+    <ul>
+      <li>While the name of the method is <code class="language-plaintext highlighter-rouge">saveUser</code>, it is also handling the conversion of request to entity and entity to the response.</li>
+      <li>
+<strong><code class="language-plaintext highlighter-rouge">@Service</code> isn’t just handling business logic</strong>.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="good-single-responsibility-preserved">
+<strong>Good</strong>: Single Responsibility Preserved</h3>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// @Controller Code</span>
+<span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/users"</span><span class="o">)</span>
+<span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">UserResponse</span><span class="o">&gt;</span> <span class="nf">postUsers</span><span class="o">(</span><span class="nc">UserRequest</span> <span class="n">userRequest</span><span class="o">){</span>
+    <span class="nc">UserEntity</span> <span class="n">unsavedUser</span> <span class="o">=</span> <span class="n">objectMapper</span><span class="o">.</span><span class="na">convertValue</span><span class="o">(</span><span class="n">userRequest</span><span class="o">,</span> <span class="nc">UserEntity</span><span class="o">.</span><span class="na">class</span><span class="o">);</span> <span class="c1">// 1</span>
+    <span class="nc">UserEntity</span> <span class="n">savedUser</span> <span class="o">=</span> <span class="n">userService</span><span class="o">.</span><span class="na">saveUser</span><span class="o">(</span><span class="n">unsavedUser</span><span class="o">);</span> <span class="c1">// 2</span>
+    <span class="nc">UserResponse</span> <span class="n">userResponse</span> <span class="o">=</span> <span class="n">objectMapper</span><span class="o">.</span><span class="na">convertValue</span><span class="o">(</span><span class="n">savedUser</span><span class="o">,</span> <span class="nc">UserResponse</span><span class="o">.</span><span class="na">class</span><span class="o">);</span> <span class="c1">// 3</span>
+    <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">body</span><span class="o">(</span><span class="n">userResponse</span><span class="o">);</span> <span class="c1">// 4</span>
+<span class="o">}</span>
+
+<span class="c1">// @Service Code</span>
+<span class="nc">UserEntity</span> <span class="nf">saveUser</span><span class="o">(</span><span class="nc">UserEntity</span> <span class="n">unsavedUser</span><span class="o">){</span> <span class="c1">// 5</span>
+    <span class="n">unsavedUser</span><span class="o">.</span><span class="na">setUserId</span><span class="o">(</span><span class="n">sequenceService</span><span class="o">.</span><span class="na">getNextId</span><span class="o">());</span> <span class="c1">// 6</span>
+    <span class="k">return</span> <span class="n">userRepo</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="n">unsaved</span><span class="o">);</span> <span class="c1">// 7</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>The above code is good because:</p>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">@Controller</code> handles the conversion from Request object to Entity and Entity to Response.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">@Service</code> handles the business logic</li>
+  <li>The <code class="language-plaintext highlighter-rouge">@Service</code> only deals with entities and not request, response objects and therefore can be used at many places easily.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<ul>
+  <li>A service method should only deal with business logical.</li>
+  <li>The connectors like <code class="language-plaintext highlighter-rouge">@Controller</code> or other channels should deal with conversion from request object to response object.</li>
+  <li>This way the service remains open to be used in mutiple channels or in multiple other services.</li>
+</ul>
 
   </div>
 <!-- from https://github.com/utterance/utterances -->
