@@ -1,4 +1,175 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-07-01T12:15:43-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">My Journey through the 75 Hard Challenge</title><link href="https://www.ankushchoubey.com/v1/75-hard" rel="alternate" type="text/html" title="My Journey through the 75 Hard Challenge" /><published>2023-07-01T00:00:00-05:00</published><updated>2023-07-01T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-75-hard</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/75-hard"><![CDATA[<p>I have attached my progress pdf at the end of the post.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-07-02T11:14:56-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Efficient Standups - Achieving Clarity through Walk-The-Board Standups</title><link href="https://www.ankushchoubey.com/v1/walk-the-board/" rel="alternate" type="text/html" title="Efficient Standups - Achieving Clarity through Walk-The-Board Standups" /><published>2023-07-02T00:00:00-05:00</published><updated>2023-07-02T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-walk-the-board</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/walk-the-board/"><![CDATA[<p><img src="/images/v1-walk-the-board.jpg" alt="" /></p>
+
+<p>Photo by <a href="https://unsplash.com/@sebastien_bonneval?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sebastien Bonneval</a> on <a href="https://unsplash.com/s/photos/kanban?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+
+<p>I believe walking the board is an important step towards facilitating Continuous Delivery. The standup format facilitates perfection in updates, focused on one card at a time which is closer to completion and takes less time to complete.</p>
+
+<p>I first learned about Walk-The-Board from a <a href="https://www.youtube.com/watch?v=316qdj10j9M">video posted by Development that Pays</a>.</p>
+
+<p>In this blog post, I talk about the Walk-The-Board approach and what we learned from it.</p>
+
+<h2 id="importance-of-daily-stand-up">Importance of Daily Stand up</h2>
+
+<p>Daily Standup (also called Daily Scrum) is a 15-minute event with the Scrum framework where the team meets at the same time and place to discuss the progress of work.</p>
+
+<p>Scrum events are for inspecting and adapting, and the daily standup is a chance to do that every day.</p>
+
+<p>It keeps team members in sync and increases focus toward the sprint goal. Any impediments are discussed and resolved post the scrum.</p>
+
+<h2 id="how-typically-daily-stand-up-is">How typically Daily Stand up is?</h2>
+
+<p>A typical Daily Stand up involves each team member taking turns and answering 3 questions.</p>
+
+<ol>
+  <li>What did I do yesterday?</li>
+  <li>What did I do today?</li>
+  <li>Do I have any impediments or blockers?</li>
+</ol>
+
+<h3 id="problem-1-individual-update-rather-than-work-progress">Problem 1: Individual update rather than work progress.</h3>
+
+<p>While good in its intent, typically, Daily Standup becomes an update on the person rather than the progress of the work that was decided.</p>
+
+<p>For example, a team member may answer it like this;</p>
+
+<ol>
+  <li>Yesterday, I had a call with.. blah blah blah. And then I connected with blah blah blah. No impediments.</li>
+  <li>Yesterday, I was on leave. Today, I’ll connect with the team to pick up a card.</li>
+</ol>
+
+<p>The Daily Stand-up update becomes an individual update rather than a work-related update.</p>
+
+<p>It doesn’t matter if you were on leave yesterday. Or that you had the call with someone. If the work that we decided on was X, the progress should be about the work, not the individual.</p>
+
+<p>While we can try to focus the team on focusing on work updates instead of individual updates, it’s really hard to do as the format of the daily standup requires everyone to speak something.</p>
+
+<h3 id="problem-2-repeatation-the-same-things-over-and-over-again">Problem 2: Repeatation the same things over and over again.</h3>
+
+<p>In Problem 1, we saw how the 3 questions led to individual updates rather than a team update.</p>
+
+<p>When multiple people are working on the same card, you’ll hear the same people speaking the same things over and over again.
+For example, Thor, Tony, and Steve worked on the same card, Defeating Thanos. All of them say the same updates.</p>
+
+<ol>
+  <li><strong>Thor</strong>: Yesterday, I worked on defeating Thanos. Today I’ll work on defeating Thanos. No impediments.</li>
+  <li><strong>Tony</strong>: Yesterday, I worked on defeating Thanos. Today I’ll work on defeating Thanos. No impediments.</li>
+  <li><strong>Steve</strong>: Yesterday, I worked on defeating Thanos. Today I’ll work on defeating Thanos. No impediments.</li>
+</ol>
+
+<p>Tony and Steve can also shorten their updates.
+If <strong>Thor</strong> says,  yesterday, I worked on defeating Thanos. Today I’ll work on defeating Thanos. No impediments.</p>
+
+<p>Tony and Steve could say, I have the same updates as Thor.</p>
+
+<p>But still, this is a repetition. Ideally, one update by Thor would have been enough to judge the progress of work. Tony and Steve have nothing new to offer.</p>
+
+<h3 id="problem-3-remembering-and-prepping-and-then-relaxing">Problem 3: Remembering. And prepping, and then relaxing.</h3>
+
+<p>The 3 questions format is such that it requires extensive preparation and makes people relax after they have said their points.</p>
+
+<h4 id="preparatory-thought-process">Preparatory Thought Process.</h4>
+
+<blockquote>
+  <p>What did I do yesterday? Hmm. I did some things… I remember a few points. Okay, it’s my turn next.</p>
+</blockquote>
+
+<p>(I say my script. Did this. Will do this. No impediments.)</p>
+
+<h4 id="relaxation">Relaxation</h4>
+
+<blockquote>
+  <p>Now it’s someone else’s turn; I can relax since the boss knows what I did. I don’t have to listen to someone else.</p>
+</blockquote>
+
+<p>This is school. People are only attentive when they have to answer. After they have answered, they stop paying attention. Social slacking takes over.</p>
+
+<h2 id="how-walk-the-board-approach-is-different-from-daily-stand-up">How Walk-The-Board approach is different from Daily Stand-up?</h2>
+
+<p>The 3 problems described before are because of the design of the 3 questions approach to the daily standup.</p>
+
+<p>The best way to do the standup is not to get better at an inefficient 3 questions approach but to adopt an alternative approach that’s efficient by design.
+The walk-the-board approach of daily standup fixes all three problems that come with 3 questions approach.</p>
+
+<ol>
+  <li>It fixed problem 1 by turning individual updates into work update</li>
+  <li>It does not repeat what has already been said</li>
+  <li>It does not require any preparation or extensive remembering. And people keep people attentive throughout the standup.</li>
+</ol>
+
+<h3 id="whats-the-walk-the-board-approach">What’s the walk-the-board approach?</h3>
+
+<p>In Walk the Board, instead of going through one person at a time, you start with the board and talk about the items on the board.</p>
+
+<p>To discuss, you start with the rightmost card; the person who has an update about the rightmost card gives updates about that card and <strong>that card only</strong>.</p>
+
+<p>Then the focus is on the next card, which is rightmost. And this way, you talk about all the items on the board.</p>
+
+<p>This solves the following problems:</p>
+
+<h4 id="solving-problem-1-individual-updates-get-replaced-by-work-updates">Solving Problem 1: Individual updates get replaced by work updates.</h4>
+
+<p>Instead of talking about what the person did yesterday that may or may not be related to the work at all, in walk-the-board, you are focused on the work only.</p>
+
+<h4 id="solving-problem-2-repetition-gets-removed-and-you-talk-about-the-update-only-once">Solving Problem 2: Repetition gets removed, and you talk about the update only once.</h4>
+
+<p>The updates in Walk the Board are not jumbled; you only talk about and hear about one card at a time. Once that card has been discussed, someone else won’t likely come up and talk about the same card.</p>
+
+<h4 id="solving-problem-3-remove-remembering-prepping-and-keeping-everyone-attentive">Solving Problem 3: Remove Remembering, prepping, and keeping everyone attentive.</h4>
+
+<p>The order in which the work updates happen is not fixed since one day; you can have someone’s cards on the right. The other day you might have someone else’s card on the right.</p>
+
+<p>Since it’s not a fixed order, everyone stays attentive!</p>
+
+<h3 id="extra-benefits-of-walking-the-board">Extra benefits of walking the board</h3>
+
+<h4 id="focusing-on-the-card-closest-to-done">Focusing on the card closest to done.</h4>
+
+<p>If you deliver the task, your users will get to use the implemented feature faster.</p>
+
+<p>If your users get value faster, they’ll give more money.</p>
+
+<p>The card closest to done can be delivered faster since it’s close to do.</p>
+
+<p>Walk the Board starts with the rightmost card. Therefore, the right-most case becomes. And if the card is not moved, it’ll be talked about every day first!</p>
+
+<p>Tip: It’s helpful to enforce picking just one card and pulling it to completion.</p>
+
+<h2 id="how-we-adopted-the-walk-the-board-approach">How we adopted the Walk-The-Board Approach?</h2>
+
+<p>Walk the Board took a few weeks for us to adopt. We started by practicing Walk the Board one day before the standup.</p>
+
+<p>We polished each update to be in the following format,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Regarding, {cardname}, {update}
+</code></pre></div></div>
+
+<p>This way, our updates were much sharper.</p>
+
+<p>We restricted telling about our days and focused on talking about the work itself.</p>
+
+<p>It took us around 4 weeks to perfect walk the board.</p>
+
+<h2 id="what-was-the-impact-of-the-walk-the-board-approach">What was the impact of the Walk-The-Board approach?</h2>
+
+<p>When I first saw the video of the Walk the Board method. I was instantly in love with it because it addressed the problem I always faced. Preparing to talk about what I am going to say next is overhead. I have to remember everything that I did yesterday, and there are fewer props.</p>
+
+<p>Here are some other effects I observed:</p>
+
+<h3 id="consolidated-updates">Consolidated Updates</h3>
+<ul>
+  <li>Each person might be working on different swim lanes (i.e., Different Parts of the value stream), and by default, we hear updates about all of them. While doing walk the board, we went swim-line by swim-lane.</li>
+  <li>This meant all topics were discussed together in a swim lane regardless of how many different teams the members belonged to.</li>
+</ul>
+
+<h3 id="team-update">Team Update</h3>
+
+<p>It felt like a team update rather than a status update. It doesn’t matter what you did the day before. What matters is how much progress you have made.</p>
+
+<h3 id="shorter-time-for-updates">Shorter time for updates</h3>
+<p>Updates with walk-the-board are much shorter than the traditional 3 question update. These updates were must shorter and on point.</p>
+
+<h3 id="finishing-a-card">Finishing a card.</h3>
+<p>We started focusing on getting cards done over picking up new cards. Though this also involved a lot of deliberate effort.</p>]]></content><author><name></name></author><category term="business" /><category term="agile" /><summary type="html"><![CDATA[I believe walking the board is an important step towards facilitating Continuous Delivery. The standup format facilitates perfection in updates, focused on one card at a time which is closer to completion and takes less time to complete.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-walk-the-board.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-walk-the-board.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Journey through the 75 Hard Challenge</title><link href="https://www.ankushchoubey.com/v1/75-hard" rel="alternate" type="text/html" title="My Journey through the 75 Hard Challenge" /><published>2023-07-01T00:00:00-05:00</published><updated>2023-07-01T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-75-hard</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/75-hard"><![CDATA[<p>I have attached my progress pdf at the end of the post.</p>
 
 <h2 id="what-is-the-75-hard-challenge">What is the 75 Hard Challenge?</h2>
 
@@ -930,12 +1101,4 @@ String visitValue(Expression.ValueContext ctx){
 
 <h3 id="truth-8-losing-means-learning">Truth #8: Losing means learning</h3>
 
-<p>We have time, and now we also have experience. This means the next time we are less likely to make the same mistake if we learn it.</p>]]></content><author><name></name></author><category term="peace" /><category term="non-technical" /><summary type="html"><![CDATA[Instead of seeing failure as a personal flaw or a permanent setback, see it as an opportunity for growth and improvement. Focus on learning from your mistakes and using them to become better in the future.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-dealing-with-loss.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-dealing-with-loss.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Remind yourself of your core values at all times.</title><link href="https://www.ankushchoubey.com/v1/remind-yourself-of-your-core-values/" rel="alternate" type="text/html" title="Remind yourself of your core values at all times." /><published>2023-05-06T00:00:00-05:00</published><updated>2023-05-06T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-remind-yourself-of-your-core-values</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/remind-yourself-of-your-core-values/"><![CDATA[<p>Humans are forgetful. We have infinite (useless things) to attend to.</p>
-
-<p>Keep your core values front and center. Base your life around them. Not anything or anyone else.</p>
-
-<p>Wake up each day choosing to live your core values better.</p>
-
-<p>Sleep each day reflecting on them. Choosing how you could improve you could improve your practices or how you could improve your values.</p>
-
-<p>Keep a place where it’s visible at all times.</p>]]></content><author><name></name></author><category term="philosophical" /><category term="non-technical" /><category term="implementing-core-values" /><summary type="html"><![CDATA[Humans are forgetful. We have infinite (useless things) to attend to.]]></summary></entry></feed>
+<p>We have time, and now we also have experience. This means the next time we are less likely to make the same mistake if we learn it.</p>]]></content><author><name></name></author><category term="peace" /><category term="non-technical" /><summary type="html"><![CDATA[Instead of seeing failure as a personal flaw or a permanent setback, see it as an opportunity for growth and improvement. Focus on learning from your mistakes and using them to become better in the future.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-dealing-with-loss.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-dealing-with-loss.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
