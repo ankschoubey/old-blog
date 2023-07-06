@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-07-02T11:14:56-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Efficient Standups - Achieving Clarity through Walk-The-Board Standups</title><link href="https://www.ankushchoubey.com/v1/walk-the-board/" rel="alternate" type="text/html" title="Efficient Standups - Achieving Clarity through Walk-The-Board Standups" /><published>2023-07-02T00:00:00-05:00</published><updated>2023-07-02T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-walk-the-board</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/walk-the-board/"><![CDATA[<p><img src="/images/v1-walk-the-board.jpg" alt="" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-07-06T11:42:45-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Keep all your business logic in the backend. Not frontend.</title><link href="https://www.ankushchoubey.com/v1/business-logic-backend/" rel="alternate" type="text/html" title="Keep all your business logic in the backend. Not frontend." /><published>2023-07-06T00:00:00-05:00</published><updated>2023-07-06T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-business-logic-backend</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/business-logic-backend/"><![CDATA[<p>Your business logic should be at the backend, not the front end.</p>
+
+<p>Here are some of the reasons why having business logic in the frontend is bad:</p>
+
+<ol>
+  <li><strong>Security</strong>: It exposes your business logic. It is making your application vulnerable.</li>
+  <li><strong>Performance</strong>: It makes the front end heavy. It is making your front end slower.</li>
+  <li><strong>Single Responsibility</strong>: It’s a violation of the single responsibility principle. It is making your code unmaintainable.</li>
+</ol>
+
+<h2 id="security-it-exposes-your-business-logic-making-your-application-vulnerable"><strong>Security</strong>: It exposes your business logic. Making your application vulnerable</h2>
+
+<p>Having your business logic in the front end is bad for security since anyone can view javascript and change it.</p>
+
+<p>Your backend is secure; no one can look into your backend (ideally).</p>
+
+<p>This is especially important for applications exposed on the internet.</p>
+
+<p>Your backend is more secure than your front end, and you don’t want to expose your business logic to the front end. It should reside at the backend only.</p>
+
+<h3 id="example-1-exposing-a-paid-service">Example 1: Exposing a paid service</h3>
+
+<p>For example, you connect to a paid service to fetch images. Fetching each image costs you $.001. You have decided to limit fetching them to 10 at a time. This would cost $0.01. This way, you keep the cost low.</p>
+
+<p>The developer who coded the feature decided that maybe I should add a parameter in the front end. If I want to fetch more images, I’ll just modify the front end and be able to fetch more. He/She adds the code in the frontend that specifies the number of images to be fetched.</p>
+
+<p>Since the code was in javascript, any hacker could easily change the value of the parameter and fetch more images. Suppose a hacker opened the javascript and changed the value from 10 to 100,000. The cost changes from $0.001 to $100.</p>
+
+<p>The solution would be for the developer to keep the code in the backend so that no one can change it.</p>
+
+<h3 id="example-2-exposing-user-details">Example 2: Exposing user details</h3>
+
+<p>Suppose you need data for the logged-in user instead of creating an API that just gets data of the logged-in user from the backend. Your backend API exposes a query param allowing the frontend to pass any userId.</p>
+
+<p>For example,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/users?userId=123
+</code></pre></div></div>
+
+<p>This makes your application very vulnerable. First of all, you shouldn’t have exposed <code class="language-plaintext highlighter-rouge">/users</code> endpoint because this is highly sensitive data.</p>
+
+<p>Second of all, being able to change the query param <code class="language-plaintext highlighter-rouge">userId</code> of a non-logged-in user would return the data of a non-logged-in user.</p>
+
+<p>Again, the solution is to keep the logic in your backend. Check which user is logged in and return only its data.</p>
+
+<h2 id="performance-it-makes-the-frontend-heavy-making-your-frontend-slower"><strong>Performance</strong>: It makes the frontend heavy. Making your frontend slower</h2>
+
+<p>People leave a website if it doesn’t provide a response time of about 200ms. This is why your frontend should be as small as possible so that it loads faster and is extremely interactive. Therefore, your frontend should be as dumb as possible.</p>
+
+<p>The more code your write to your frontend, the slower your frontend becomes.</p>
+
+<p>The frontend should just get data from the backend and display it. Get inputs from the user and set it to the backend.</p>
+
+<p>No fancy algorithms should be required at the frontend. Apart from input validation and a bit of list sorting, unless you are building a pure frontend application that doesn’t have a backend, you don’t need any fancy algorithm.</p>
+
+<h2 id="single-responsibility-its-a-violation-of-the-single-responsibility-principle-making-your-code-unmaintainable"><strong>Single Responsibility</strong>: It’s a violation of the single responsibility principle. Making your code unmaintainable</h2>
+
+<p>Having your business logic distributed half at frontend and half at the backend means that you don’t have a single place to manage your business logic. You can’t independently think about frontend and backend without thinking of others.</p>
+
+<p>As discussed in the previous point on performance, for better use of interaction and UX, validations on frontend should be introduced. But they should replicate validations on the backend exactly.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>By having your business logic in your backend, you ensure your application is secure, that your frontend is faster, and that backend is the only place where you have the business logic, making it more maintainable.</p>
+
+<p>Make your frontend as dumb as possible, and keep all your business logic in the backend.</p>]]></content><author><name></name></author><category term="web-development" /><category term="software-architecture" /><summary type="html"><![CDATA[Making your application secure, high performance and maintanable.]]></summary></entry><entry><title type="html">Efficient Standups - Achieving Clarity through Walk-The-Board Standups</title><link href="https://www.ankushchoubey.com/v1/walk-the-board/" rel="alternate" type="text/html" title="Efficient Standups - Achieving Clarity through Walk-The-Board Standups" /><published>2023-07-02T00:00:00-05:00</published><updated>2023-07-02T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-walk-the-board</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/walk-the-board/"><![CDATA[<p><img src="/images/v1-walk-the-board.jpg" alt="" /></p>
 
 <p>Photo by <a href="https://unsplash.com/@sebastien_bonneval?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sebastien Bonneval</a> on <a href="https://unsplash.com/s/photos/kanban?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 
@@ -1034,71 +1099,4 @@ String visitValue(Expression.ValueContext ctx){
 
 <p>If you have a Spring Boot, you can use <code class="language-plaintext highlighter-rouge">@ConfigurationProperties</code> with <code class="language-plaintext highlighter-rouge">@Validated</code> and <code class="language-plaintext highlighter-rouge">javax</code> validations.</p>
 
-<p>If you are using ENV files in a NodeJs application, you can manually add in a code to validate the config and throw an error if it exists.</p>]]></content><author><name></name></author><category term="testing" /><category term="devops" /><category term="configuration-management" /><summary type="html"><![CDATA[With TDD, you don't find any logical bugs. The remaining types of bugs are data bugs and configuration bugs. This article discusses configuration validations to find and fix config bugs.]]></summary></entry><entry><title type="html">Truthful Optimistic approach to bouncing back from major loss</title><link href="https://www.ankushchoubey.com/v1/dealing-with-loss" rel="alternate" type="text/html" title="Truthful Optimistic approach to bouncing back from major loss" /><published>2023-05-06T00:00:00-05:00</published><updated>2023-05-06T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-dealing-with-loss</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/dealing-with-loss"><![CDATA[<p><img src="/images/v1-dealing-with-loss.jpg" alt="" /></p>
-
-<p>Photo by <a href="https://unsplash.com/@spaablauw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Joppe Spaa</a> on <a href="https://unsplash.com/s/photos/losing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-
-<h2 id="introduction">Introduction</h2>
-
-<p>The blog post may seem trivial to many readers. This could be because they haven’t faced a big loss in their life. The kind of loss this post talks about is achievement related. It’s not related to the loss of human life.</p>
-
-<p>Many of us have experienced loss, this could be a loss of job or a sudden end of a relationship. And these can devastate us in the short term. This can be especially true if we work really really hard. We put in all our efforts and still, we lost.</p>
-
-<p>There are a few approaches we take when facing a major loss.</p>
-
-<ol>
-  <li>Conjure up a story that keeps us away from reality.</li>
-  <li>Examine, experience and accept reality as it is.</li>
-</ol>
-
-<p>In Julia Galef’s Scott Mindset, a book about clear thinking, she describes these approaches in a chapter on Coping Mechanisms. This article is an expansion to the original ideas of the book for experiences and accepting reality as it is.</p>
-
-<p>The premise of this post is this: <strong>You can deal with failure better when you understand certain truths. <em>Understand, not just know.</em></strong> And by better I mean you can bounce back faster.</p>
-
-<p>There is also the topic of how you not repeat the same mistake gain. But that’s for another time.</p>
-
-<h2 id="dealing-with-loss-truthfully">Dealing with loss truthfully</h2>
-
-<p>Understand and internalize these truths.</p>
-
-<h2 id="settling-the-past">Settling the past</h2>
-
-<h3 id="truth-1-karmafal-is-not-in-your-hands-only-karma-is">Truth #1: Karmafal is not in your hands. Only karma is</h3>
-
-<p>We don’t control the outcome of our actions. We only control how we act. There are many factors outside of our control. We can influence them with our decisions. But we can’t control them directly.</p>
-
-<h3 id="truth-2-it-doesnt-matter-if-you-win-or-lose-it-matters-how-you-play">Truth #2: It doesn’t matter if you win or lose, it matters how? you play</h3>
-
-<p>Life is a series of games. If you cheat and win one game, it doesn’t mean you can cheat and win another. But if you lost the first game and didn’t cheat but kept improving and playing, you’ll eventually win a lot of upcoming games that come.</p>
-
-<p>Therefore, it doesn’t matter if you win or lose. What matters is how you played.</p>
-
-<h3 id="truth-3-you-can-only-do-your-best">Truth #3: You can only do your best</h3>
-
-<p>Here’s a hypothesis: Can you do more than your best <strong>at a moment</strong>? For example, at a certain moment, you learned a certain knowledge and hold certain resources, but you don’t know what’s beyond that knowledge. Therefore, you could only do your best.</p>
-
-<p>That does bet the question of did you give your best. But as long as you did give your best, it doesn’t matter. Cuz you couldn’t have done more than your best.</p>
-
-<h3 id="truth-4-you-cant-win-all-the-time-its-a-simple-probability">Truth #4: You can’t win all the time. It’s a simple probability</h3>
-
-<p>What were your chances of scoring 99th percentile?? 1/99 assuming you have studied hard and studied better than all the people who also studied.</p>
-
-<p>We always have wins and losses. These are mixed across time.</p>
-
-<h2 id="looking-at-the-future">Looking at the future</h2>
-
-<h3 id="truth-5-will-this-matter-in-3-5-years">Truth #5: Will this matter in 3-5 years</h3>
-
-<p>Almost all loss or win doesn’t matter in 3-5 years. We change our trajectory so much that we don’t care in the long term.</p>
-
-<h3 id="truth-6-the-past-is-gone">Truth #6: The past is gone</h3>
-
-<p>No matter how much we may want to change the past, it’s impossible. The only thing we can do is learn from it and use those lessons to shape our future. Accepting this truth can be freeing and allow us to focus on the present and future.</p>
-
-<h3 id="truth-7-the-next-chance-is-still-here">Truth #7: The next chance is still here</h3>
-
-<p>There is always another chance. Life is long enough to get important things done, and even if we fail at something today, we can try again tomorrow or pursue a different path.</p>
-
-<h3 id="truth-8-losing-means-learning">Truth #8: Losing means learning</h3>
-
-<p>We have time, and now we also have experience. This means the next time we are less likely to make the same mistake if we learn it.</p>]]></content><author><name></name></author><category term="peace" /><category term="non-technical" /><summary type="html"><![CDATA[Instead of seeing failure as a personal flaw or a permanent setback, see it as an opportunity for growth and improvement. Focus on learning from your mistakes and using them to become better in the future.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-dealing-with-loss.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-dealing-with-loss.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>If you are using ENV files in a NodeJs application, you can manually add in a code to validate the config and throw an error if it exists.</p>]]></content><author><name></name></author><category term="testing" /><category term="devops" /><category term="configuration-management" /><summary type="html"><![CDATA[With TDD, you don't find any logical bugs. The remaining types of bugs are data bugs and configuration bugs. This article discusses configuration validations to find and fix config bugs.]]></summary></entry></feed>

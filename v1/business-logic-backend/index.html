@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Keep all your business logic in the backend. Not frontend. | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="Keep all your business logic in the backend. Not frontend.">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Making your application secure, high performance and maintanable.">
+<meta property="og:description" content="Making your application secure, high performance and maintanable.">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/business-logic-backend/">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/business-logic-backend/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-07-06T00:00:00-05:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Keep all your business logic in the backend. Not frontend.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-07-06T15:52:08-05:00","datePublished":"2023-07-06T00:00:00-05:00","description":"Making your application secure, high performance and maintanable.","headline":"Keep all your business logic in the backend. Not frontend.","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/business-logic-backend/"},"url":"https://www.ankushchoubey.com/v1/business-logic-backend/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Keep all your business logic in the backend. Not frontend. | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="Keep all your business logic in the backend. Not frontend.">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Making your application secure, high performance and maintanable.">
+<meta property="og:description" content="Making your application secure, high performance and maintanable.">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/business-logic-backend/">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/business-logic-backend/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-07-06T00:00:00-05:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Keep all your business logic in the backend. Not frontend.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-07-06T15:52:08-05:00","datePublished":"2023-07-06T00:00:00-05:00","description":"Making your application secure, high performance and maintanable.","headline":"Keep all your business logic in the backend. Not frontend.","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/business-logic-backend/"},"url":"https://www.ankushchoubey.com/v1/business-logic-backend/"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/">Ankush Choubey</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/core-values-page/">Core Values</a><a class="page-link" href="/philosophy/">Philosophy</a><a class="page-link" href="/resume">Hire me!</a><a class="page-link" href="/search/">Search</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style>
+  .page-content{
+    padding-top: 0px;
+  }
+  .post-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;}
+
+  .cover-image{
+    position: absolute;
+    left:0px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .post-header{}
+    .cover-image{
+      height: 550px;
+    }
+  }
+  .post-header-content{}
+</style>
+
+<header class="post-header"><div class="post-header-content">
+    <h1 class="post-title p-name" itemprop="name headline">Keep all your business logic in the backend. Not frontend.</h1>
+<p class="page-description">Making your application secure, high performance and maintanable.</p>
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-07-06T00:00:00-05:00" itemprop="datePublished">
+        Jul 6, 2023
+      </time>
+      • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
+      
+      <a class="category-tags-link" href="/categories/#web-development">web-development</a>
+       
+      
+      <a class="category-tags-link" href="/categories/#software-architecture">software-architecture</a>
+      
+      
+    </p>
+    
+
+    </div>
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Your business logic should be at the backend, not the front end.</p>
+
+<p>Here are some of the reasons why having business logic in the frontend is bad:</p>
+
+<ol>
+  <li>
+<strong>Security</strong>: It exposes your business logic. It is making your application vulnerable.</li>
+  <li>
+<strong>Performance</strong>: It makes the front end heavy. It is making your front end slower.</li>
+  <li>
+<strong>Single Responsibility</strong>: It’s a violation of the single responsibility principle. It is making your code unmaintainable.</li>
+</ol>
+
+<h2 id="security-it-exposes-your-business-logic-making-your-application-vulnerable">
+<strong>Security</strong>: It exposes your business logic. Making your application vulnerable</h2>
+
+<p>Having your business logic in the front end is bad for security since anyone can view javascript and change it.</p>
+
+<p>Your backend is secure; no one can look into your backend (ideally).</p>
+
+<p>This is especially important for applications exposed on the internet.</p>
+
+<p>Your backend is more secure than your front end, and you don’t want to expose your business logic to the front end. It should reside at the backend only.</p>
+
+<h3 id="example-1-exposing-a-paid-service">Example 1: Exposing a paid service</h3>
+
+<p>For example, you connect to a paid service to fetch images. Fetching each image costs you $.001. You have decided to limit fetching them to 10 at a time. This would cost $0.01. This way, you keep the cost low.</p>
+
+<p>The developer who coded the feature decided that maybe I should add a parameter in the front end. If I want to fetch more images, I’ll just modify the front end and be able to fetch more. He/She adds the code in the frontend that specifies the number of images to be fetched.</p>
+
+<p>Since the code was in javascript, any hacker could easily change the value of the parameter and fetch more images. Suppose a hacker opened the javascript and changed the value from 10 to 100,000. The cost changes from $0.001 to $100.</p>
+
+<p>The solution would be for the developer to keep the code in the backend so that no one can change it.</p>
+
+<h3 id="example-2-exposing-user-details">Example 2: Exposing user details</h3>
+
+<p>Suppose you need data for the logged-in user instead of creating an API that just gets data of the logged-in user from the backend. Your backend API exposes a query param allowing the frontend to pass any userId.</p>
+
+<p>For example,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/users?userId=123
+</code></pre></div></div>
+
+<p>This makes your application very vulnerable. First of all, you shouldn’t have exposed <code class="language-plaintext highlighter-rouge">/users</code> endpoint because this is highly sensitive data.</p>
+
+<p>Second of all, being able to change the query param <code class="language-plaintext highlighter-rouge">userId</code> of a non-logged-in user would return the data of a non-logged-in user.</p>
+
+<p>Again, the solution is to keep the logic in your backend. Check which user is logged in and return only its data.</p>
+
+<h2 id="performance-it-makes-the-frontend-heavy-making-your-frontend-slower">
+<strong>Performance</strong>: It makes the frontend heavy. Making your frontend slower</h2>
+
+<p>People leave a website if it doesn’t provide a response time of about 200ms. This is why your frontend should be as small as possible so that it loads faster and is extremely interactive. Therefore, your frontend should be as dumb as possible.</p>
+
+<p>The more code your write to your frontend, the slower your frontend becomes.</p>
+
+<p>The frontend should just get data from the backend and display it. Get inputs from the user and set it to the backend.</p>
+
+<p>No fancy algorithms should be required at the frontend. Apart from input validation and a bit of list sorting, unless you are building a pure frontend application that doesn’t have a backend, you don’t need any fancy algorithm.</p>
+
+<h2 id="single-responsibility-its-a-violation-of-the-single-responsibility-principle-making-your-code-unmaintainable">
+<strong>Single Responsibility</strong>: It’s a violation of the single responsibility principle. Making your code unmaintainable</h2>
+
+<p>Having your business logic distributed half at frontend and half at the backend means that you don’t have a single place to manage your business logic. You can’t independently think about frontend and backend without thinking of others.</p>
+
+<p>As discussed in the previous point on performance, for better use of interaction and UX, validations on frontend should be introduced. But they should replicate validations on the backend exactly.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>By having your business logic in your backend, you ensure your application is secure, that your frontend is faster, and that backend is the only place where you have the business logic, making it more maintainable.</p>
+
+<p>Make your frontend as dumb as possible, and keep all your business logic in the backend.</p>
+
+  </div>
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js" repo="ankschoubey/blog" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
+</script><div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://www.ankushchoubey.com/v1/business-logic-backend/';
+      this.page.identifier = 'https://www.ankushchoubey.com/v1/business-logic-backend/';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      s.src = 'https://ankushchoubey.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+<a class="u-url" href="/v1/business-logic-backend/" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://www.ankushchoubey.com/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Full Stack Developer - Cloud/Microservices</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list">
+<li>
+  <a rel="me" href="https://github.com/ankschoubey" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://twitter.com/ankschoubey" target="_blank" title="twitter">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#twitter"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
