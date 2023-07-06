@@ -29,7 +29,7 @@ Your backend is more secure than your front end, and you don't want to expose yo
 
 ### Example 1: Exposing a paid service
 
-For example, you connect to a paid service to fetch images. Fetching each image costs you $.001. You have decided to limit fetching them to 10 at a time. This would cost $0.01. This way, you keep the cost low.
+For example, you connect to a paid service to fetch images. Fetching each image costs you $ 0.001. You have decided to limit fetching them to 10 at a time. This would cost $ 0.01. This way, you keep the cost low.
 
 The developer who coded the feature decided that maybe I should add a parameter in the front end. If I want to fetch more images, I’ll just modify the front end and be able to fetch more. He/She adds the code in the frontend that specifies the number of images to be fetched.
 
