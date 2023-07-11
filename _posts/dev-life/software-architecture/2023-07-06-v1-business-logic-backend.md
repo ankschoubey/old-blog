@@ -6,7 +6,7 @@ categories: [web-development, software-architecture]
 last_modified_at: 2023-07-06T20:52:08.052481
 last-modified-purpose:
 permalink: /v1/business-logic-backend/
-title: Keep all your business logic in the backend. Not frontend.
+title: Keep your business logic in the backend. Not frontend.
 ---
 
 Your business logic should be at the backend, not the front end.

@@ -1,5 +1,5 @@
 ---
-description: 
+description:  Implementing OData, Utilizing Specifications, and Enhancing API Flexibility.
 title: How we implemented OData for MongoDB and use it in OpenAPI
 comments: true
 categories: [clean-code, dsl, developer-diary]
@@ -11,9 +11,11 @@ permalink: /odata-mongo-transpiler/
 image: /images/odata-mongo-transpiler.png
 ---
 
-A lot of what I am going to say here is a repetition of my previous article on how we made our custom language that transpiles to MongoDB.
+I have written about how we created a MongoDB transpiler in the following article: [how we made our custom language that transpiles to MongoDB](/creating-an-excel-like-language). The same technique was used for OData. This article includes what's different.
 
-OData is used a lot in PowerBI, Tableau, and other reporting applications.
+OData is used a lot in PowerBI, Tableau, and other reporting applications. Microsoft's Graph API might be the biggest implementation of OData.
+
+![](/images/odata-mongo-transpiler.png)
 
 ## Understanding OData?
 
@@ -142,10 +144,10 @@ While implementing OData, we came across a few critiques, and it's mainly from t
 - OData has too many things open by default.
 - You need to restrict it. There are security problems, especially with OData being able to run functions. And operations like Sorting on a non-indexed field can bring down the whole system's DoS.
 - OData makes many endpoints harder for Backwards compatibility. And Microsoft tried to pump OData into all its APIs.
-- GraphQL is good for sitting between RestAPIs and UI. It complements REST and doesn’t remove the need for it. In GraphQL, when API changes, there are changes to GraphQL Resolvers but rarely to UI, which is calling the graphql.
+- GraphQL is good for sitting between RestAPIs and UI. It complements REST and doesn’t remove the need for it. In GraphQL, when API changes, there are changes to GraphQL Resolvers but rarely to UI, which is calling the GraphQL.
 
 ## Resources
 
-- [How we created a query and evaluation language similar to Google Sheets and Excel formulas](https://www.ankushchoubey.com/creating-an-excel-like-language/ "‌")
-- [OData Specification](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html "‌")
-- [GraphQL is not OData](https://jeffhandley.com/2018-09-13/graphql-is-not-odata "‌")
+- [How we created a query and evaluation language similar to Google Sheets and Excel formulas](https://www.ankushchoubey.com/creating-an-excel-like-language/)
+- [OData Specification](https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html)
+- [GraphQL is not OData](https://jeffhandley.com/2018-09-13/graphql-is-not-odata)
