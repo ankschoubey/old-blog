@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-07-11T12:13:31-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">How we implemented OData for MongoDB and use it in OpenAPI</title><link href="https://www.ankushchoubey.com/odata-mongo-transpiler/" rel="alternate" type="text/html" title="How we implemented OData for MongoDB and use it in OpenAPI" /><published>2023-07-11T00:00:00-05:00</published><updated>2023-07-11T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/odata-mongo-transpiler</id><content type="html" xml:base="https://www.ankushchoubey.com/odata-mongo-transpiler/"><![CDATA[<p>I have written about how we created a MongoDB transpiler in the following article: <a href="/creating-an-excel-like-language">how we made our custom language that transpiles to MongoDB</a>. The same technique was used for OData. This article includes what’s different.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-07-20T12:45:44-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Thinking in terms of exponential grow over linear growth</title><link href="https://www.ankushchoubey.com/exponential-growth/" rel="alternate" type="text/html" title="Thinking in terms of exponential grow over linear growth" /><published>2023-07-20T00:00:00-05:00</published><updated>2023-07-20T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/exponential-growth</id><content type="html" xml:base="https://www.ankushchoubey.com/exponential-growth/"><![CDATA[<p><img src="/images/exponential-growth.jpg" alt="" /></p>
+
+<p>Photo by <a href="https://unsplash.com/@scw1217?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Suzanne D. Williams</a> on <a href="https://unsplash.com/photos/VMKBFR6r_jg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Unsplash</a></p>
+
+<h2 id="thinking-exponentially">Thinking Exponentially</h2>
+
+<p>The lessons in this blog post apply to work, business, and personal life. This blog post is relatable to empiricism which is one of the pillars of Scrum.</p>
+
+<p>For business, it explains how to think of exponential growth and how short-term planning is better long-term than a perfect road map.</p>
+
+<p>Linear thinking is when software companies plan an elaborate road map, of all the stories and break them down into one story or another until you have 100 story cards created.</p>
+
+<p>Linear story is a personal life, is the goal of watching one movie every day. If 1 movie gives you 100 happiness points, 100 movies will you 100 happiness points per day. Not all movies are equal and this doesn’t even consider that you have changed during the process.</p>
+
+<p>Rather than look for incremental improvements, what we should look for is exponential growth, the kind of growth that give 10x ever-growing result.</p>
+
+<p>The exponential growth is kind of the upper quadrants of Eisenhower’s matrix.</p>
+
+<h2 id="lesson-1-not-all-tasks-are-equal-some-tasks-are-more-important-than-other-tasks">Lesson 1: Not all tasks are equal. Some tasks are more important than other tasks.</h2>
+
+<p>We, humans, are very linear thinkers. We think that if we do X things, its output will be X*constant.</p>
+
+<p>For example, if we do X tasks, we’ll have X*constant = Y value.</p>
+
+<p>This is why we have 20 things on our bucket list, we feel all of them are equally important. And just doing them is enough.</p>
+
+<p>For example, you may have:</p>
+
+<ol>
+  <li>Learn Piano</li>
+  <li>Learn Boxing</li>
+  <li>Travel to Japan</li>
+  <li>Complete College</li>
+  <li>Get A Job</li>
+</ol>
+
+<p>And you think all of them have equal value.</p>
+
+<p>But here’s the thing, some of these items are enablers. They are enablers of more things and more opportunities. For example, if you complete college, you are more likely to get a job and more likely to have enough money and maybe freedom to pursue other tasks.</p>
+
+<p>So, the exponential growth path if you are younger and in college is that you should focus on completing college first.</p>
+
+<p>This is the first lesson, not all tasks are equal. Some tasks are more important than other tasks.</p>
+
+<p>Pick the most important task. If you are unable to decide what’s the best, pick either what’s the hardest or pick your best guess. You can always re-iterate your plan later.</p>
+
+<h2 id="second-lesson-doing-one-thing-well-eliminated-20-other-things">Second Lesson: Doing one thing well eliminated 20 other things.</h2>
+
+<p>Now, towards the second lesson. Given our premise of assuming 1 task is equal to X points, if we do N tasks it’ll be X*N points. A linear growth. We learned that certain tasks are more important than other tasks.</p>
+
+<p>Now, here’s something interesting. You might know many people who just get certifications. For example, they may have one certification in AWS Cloud Practitioner, then they get a Certificate related to AWS Solution Architect. And so on and so on. They continue to acquire certificates. Why?</p>
+
+<p>Doesn’t one certificate be enough? You learned something in that one certification <strong>that you can apply</strong> and then you won’t have to learn for another certification.</p>
+
+<p>Okay, some people just want to get certificates and flaunt. But my point here is more general.</p>
+
+<p>If you do something well, it’s less likely you will have to face the same problems again.</p>
+
+<p>If you do something well, it’s more likely that you’ll eliminate a bunch of tasks.</p>
+
+<p>Do the tasks you are doing to their best. Best means you are learning, putting your best, and growing to be better next time. <put link="" here=""></put></p>
+
+<h2 id="lesson-3-perfect-plan-only-works-when-you-are-ineffective">Lesson 3: Perfect plan only works when you are ineffective</h2>
+
+<p>A perfect plan only works when the implementation has been ineffective. You can only plan when you know exactly what is going to happen.</p>
+
+<p>But when you choose to focus on the best thing you can focus on and do it the best way you can do it, you have progress that’s far more than you can imagine and you eliminate a bunch of minimal tasks.</p>
+
+<p>You only know what to do next when you have done the current task. So don’t plan everything, have a rough plan for the long term, but do your best in the current moment.</p>
+
+<p>In software companies, if you can estimate and it went perfectly, you didn’t have exponential growth.</p>
+
+<h2 id="lesson-4-therefore-you-cant-plan-exponential-growth-if-you-have-a-perfect-plan-its-linear-growth">Lesson 4: Therefore, you can’t plan exponential growth. If you have a perfect plan, it’s linear growth.</h2>
+
+<p>If you plot the line of exponential vs linear, you’ll always find the exponential path to be higher ROI.</p>
+
+<p>You can’t plan it perfectly. You know you’ll have a better growth trajectory. So, therefore, <strong>you can relax yourself and your mind</strong>. Focus on your best plan and do your best.</p>
+
+<p>But you can assume your path, it’s better than linear.</p>
+
+<h2 id="lesson-4-exponential-growth-comes-from-dealing-with-areas-you-havent-dealt-with">Lesson 4: Exponential growth comes from dealing with areas you haven’t dealt with.</h2>
+
+<p>In the story of Knights going into the forest, everyone enters the point that seems scariest to them.</p>
+
+<p>Why? Because if you haven’t visited an area, that’s where most of your growth is.</p>
+
+<p>What’s most neglected is where the most growth is.</p>
+
+<p>In software companies, it’s often engineering practices.</p>
+
+<p>Maybe this section is another blog post that I’ll write soon.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>We should chase exponential growth.</p>
+
+<p>You can’t plan exponential growth. You can only plan linear growth.</p>
+
+<p>The way to get exponential growth is by picking the most important thing you can pick at the moment and doing them to their best.</p>
+
+<p>When you do this, you eliminate a bunch of tasks and get the most growth.</p>
+
+<p>Then you can pick other sets of tasks and so on.</p>
+
+<hr />
+
+<p>Thoughts: Compounding also leads to exponential growth in money, career and relationships.</p>]]></content><author><name></name></author><category term="planning" /><category term="systems" /><category term="clarity" /><summary type="html"><![CDATA[Mindsets and statergies to apply exponential progress to life, business and beyond.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/exponential-growth.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/exponential-growth.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How we implemented OData for MongoDB and use it in OpenAPI</title><link href="https://www.ankushchoubey.com/odata-mongo-transpiler/" rel="alternate" type="text/html" title="How we implemented OData for MongoDB and use it in OpenAPI" /><published>2023-07-11T00:00:00-05:00</published><updated>2023-07-11T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/odata-mongo-transpiler</id><content type="html" xml:base="https://www.ankushchoubey.com/odata-mongo-transpiler/"><![CDATA[<p>I have written about how we created a MongoDB transpiler in the following article: <a href="/creating-an-excel-like-language">how we made our custom language that transpiles to MongoDB</a>. The same technique was used for OData. This article includes what’s different.</p>
 
 <p>OData is used a lot in PowerBI, Tableau, and other reporting applications. Microsoft’s Graph API might be the biggest implementation of OData.</p>
 
@@ -1180,22 +1286,4 @@ String visitValue(Expression.ValueContext ctx){
   <li>You have no karma debt. No getting your ass bitten.</li>
 </ol>
 
-<p>Keeping your karma ledger clean should be enough to do good actions.</p>]]></content><author><name></name></author><category term="responsibility" /><category term="non-technical" /><summary type="html"><![CDATA[We should not avoid good action. Good action has good results in the long term. It may seem easy to avoid good action in the short term. But good action is the only path to the best outcome.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-karma-ledger.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-karma-ledger.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Core Values are Not Optional</title><link href="https://www.ankushchoubey.com/v1/core-values-are-not-optional/" rel="alternate" type="text/html" title="Core Values are Not Optional" /><published>2023-05-17T00:00:00-05:00</published><updated>2023-05-17T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-core-values-are-not-optional</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/core-values-are-not-optional/"><![CDATA[<p>We start as protected children. We are protected again from the ups and downs of life. As we grow old, this protection is lifted.</p>
-
-<p>For some people this protection continues, therefore we see 40 y.o who have not grown up. But most grow up in maturity sooner.</p>
-
-<p>There are many tragedies, nature (like death) and unnatural (like malevolence, betrayal, etc.) that are in our path. All these demands from us to be better than we are.</p>
-
-<p>We need something to offset the tragedies of life. We need to live by a set of principles and actions that can help us mitigate most of these tragedies and manage what remains to the best of our ability. And then we also need to enjoy what remains and this must be prioritized.</p>
-
-<p>And here’s the optimistic part, the principles we set up and the core values we choose and act on do set many things that couldn’t have been set in order otherwise. i.e. you reap the benefits of setting those core values in the long term.</p>
-
-<p>In the short term, it may be tempting to take a shortcut. In the long term, however, you’ll be the strongest version of yourself.</p>
-
-<p>The honest action you did today, however small, is towards that path. The room you cleaned voluntarily, you voted towards becoming responsible, again setting you on the same path.</p>
-
-<p>Don’t deviate from the path. Walk. One foot after the other. Act. One action after the other and you’ll set yourself to be <strong>freer</strong>.</p>
-
-<p><img src="/images/v1-core-values-are-not-optional.jpg" alt="" /></p>
-
-<p>Photo by <a href="https://unsplash.com/es/@aweilguny?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andreas Weilguny</a> on <a href="https://unsplash.com/s/photos/core-hard?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>]]></content><author><name></name></author><category term="philosophical" /><category term="non-technical" /><category term="implementing-core-values" /><summary type="html"><![CDATA[We start as protected children. We are protected again from the ups and downs of life. As we grow old, this protection is lifted.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-core-values-are-not-optional.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-core-values-are-not-optional.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Keeping your karma ledger clean should be enough to do good actions.</p>]]></content><author><name></name></author><category term="responsibility" /><category term="non-technical" /><summary type="html"><![CDATA[We should not avoid good action. Good action has good results in the long term. It may seem easy to avoid good action in the short term. But good action is the only path to the best outcome.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-karma-ledger.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-karma-ledger.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
