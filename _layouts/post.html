@@ -102,6 +102,9 @@ layout: base
   <div class="post-content e-content" itemprop="articleBody">
     {{ content | toc }}
   </div>
+
+  {%- include email_signup.html -%}
+
   {%- if page.comments -%}
   {%- include utterances.html -%}
   {%- endif -%}
