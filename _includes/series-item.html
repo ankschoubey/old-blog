@@ -1,0 +1,48 @@
+{%- if include.disabled == "false" -%}
+<li class="series-item">
+{%- else -%}
+<li class="series-item series-item-disabled">
+<h4 style="position: absolute;">Coming Soon!</h4>
+{%- endif -%}
+
+<a href="{{ include.url | relative_url }}">
+    <div class="Box box-shadow-medium rounded-1 col-12">
+        {%- if include.image -%}
+        <div class="col-4 d-table-cell v-align-middle img-div">
+            <img class="image-preview " src="{{ include.image | relative_url }}" loading="lazy" />
+        </div>
+        {%- endif -%}
+        <div class="col-8 d-table-cell p-3">
+            <h3>
+                <span class="post-link">
+                    {{ include.title | escape }}
+                </span>
+            </h3>
+            <p class="post-meta-description">{{ include.description }}</p>
+        </div>
+    </div>
+</a>
+</li>
+<style>
+    .post-list > li.series-item {
+        width: 30% !important;
+    }
+    .series-item-disabled{
+        filter: grayscale(1);
+        pointer-events: none;
+    }
+    .series-item-disabled h4{
+        position: absolute;
+        background: #ffffffb8;
+        left: 5px;
+        top: 5px;
+    }
+    @media screen and (max-width: 500px) {
+        .post-list {
+            flex-direction: column !important;
+        }
+        .post-list > li.series-item {
+        width: 100% !important;
+        }
+    }
+</style>

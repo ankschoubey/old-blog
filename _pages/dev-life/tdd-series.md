@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Test First Series
+title: Testing First Test Everything
 permalink: /test-first-development-series/
 ---
 
-## **Testing First Test Everything**: Approaching TDD To Become a 5x developer
+## Approaching TDD To Become a 5x developer
 
 Hi. Welcome to **Testing First Test Everything** series. In this series of articles, you'll learn how you can increase your development skill by 5 times by learning something that ensures:
 
