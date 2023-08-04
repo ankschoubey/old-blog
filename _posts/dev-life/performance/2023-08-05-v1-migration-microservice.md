@@ -3,14 +3,13 @@ layout: post
 comments: true
 description: 
 categories: [backend]
-last_modified_at: 2022-09-18T20:52:08.052481
+last_modified_at: 2023-08-05T20:52:08.052481
 last-modified-purpose:
 permalink: /data-migration-microservice/
 title: 7 Tips to Optimize a Microservice for Data Migration Job
 toc: false
+image: /images/data-migration-microservice.png
 ---
-
-Photo by [Mika Baumeister](https://unsplash.com/pt-br/@mbaumi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "‌") on [Unsplash](https://unsplash.com/s/photos/big-data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "‌")
 
 I published a post in [March 2023 about how typically DB migrations]([https://www.ankushchoubey.com/db-migration-script/](https://www.ankushchoubey.com/db-migration-script/ "smartCard-inline")  ) take place. The post is considered a direct migration from one DB to the other.
 

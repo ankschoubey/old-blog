@@ -2,9 +2,11 @@
 <li class="series-item">
 {%- else -%}
 <li class="series-item series-item-disabled">
-<h4 style="position: absolute;">Coming Soon!</h4>
 {%- endif -%}
-
+{% assign message = include.head-message %}
+{% if message %}
+  <h4>{{ message }}</h4>
+{% endif %}
 <a href="{{ include.url | relative_url }}">
     <div class="Box box-shadow-medium rounded-1 col-12">
         {%- if include.image -%}
@@ -31,7 +33,7 @@
         filter: grayscale(1);
         pointer-events: none;
     }
-    .series-item-disabled h4{
+    .series-item h4{
         position: absolute;
         background: #ffffffb8;
         left: 5px;

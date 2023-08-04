@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Testing First Test Everything
+title: 
 permalink: /test-first-development-series/
 ---
 
-## Approaching TDD To Become a 5x developer
+## Approaching TDD To Become a 5x Developer
 
 Hi. Welcome to **Testing First Test Everything** series. In this series of articles, you'll learn how you can increase your development skill by 5 times by learning something that ensures:
 
@@ -13,7 +13,7 @@ Hi. Welcome to **Testing First Test Everything** series. In this series of artic
 3. You code at a fast speed.
 4. You produce automatic documentation for anyone else to read.
 
-I was a pretty good developer when I learned TDD, but after I spend around 2-3 months learning TDD, I saw that my coding skills became way to sharp. This series covers the philosophy of TDD along with practical examples.
+I was a pretty good developer when I learned TDD, but after I spend around 2-3 months learning TDD, I saw that my coding skills became way too sharp. This series covers the philosophy of TDD along with practical examples.
 
 Try to practice the exercises in the language of your choice and upload them to GitHub 🙂. And if you want just share the link of your repo. I'd love to see it.
 
@@ -57,7 +57,7 @@ Here's the index
 
 #1 - Prefering guard Clause when doing TDD, focus on unhealthy paths first.
 
-#2 - How TDD related to BDD?
+#2 - How is TDD related to BDD?
 
 #3 - Special Focus on designing with TDD
 
