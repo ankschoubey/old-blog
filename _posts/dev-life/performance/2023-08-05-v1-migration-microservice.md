@@ -49,12 +49,14 @@ sequenceDiagram
 
 Even multiple single requests are passed in parallel, they won't be as fast as bulk because of the number of connections that are needed to manage.
 
+**Diagram of Bulk Request with batch of 1000**
+
 ```mermaid
 sequenceDiagram
-    Original System->>+Server: Bulk Request (Eg: 1000 Records)
-    Server->>+Database: Bulk Request (Eg:  1000 Records)
-    Database-->>-Server: Reply of Bulk Request (Eg:  1000 Records)
-    Server-->>-Original System: Reply of Bulk Request (Eg:  1000 Records)
+    Original System->>+Server: Bulk Request<br>(Eg: 1000 Records)
+    Server->>+Database: Bulk Request<br>(Eg:  1000 Records)
+    Database-->>-Server: Reply of Bulk Request <br>(Eg:  1000 Records)
+    Server-->>-Original System: Reply of Bulk Request<br>(Eg: 1000 Records)
 ```
 
 Apart from this, databases are optimized for bulk operations, and therefore bulk operations are faster.
@@ -139,7 +141,7 @@ So, if you had a movies microservice deployment, you’ll create something like 
 
 The new movies-migration all the migration-specific configurations in it.
 
-## Final Tip 7: Monitor your application to find bottlenecks. And do experiments to mitigate them.
+## Final Tip 7 and conclusion: Monitor your application to find bottlenecks. And do experiments to mitigate them
 
 All the strategies above shouldn’t be used blindly, they should be used with experimentation.
 
