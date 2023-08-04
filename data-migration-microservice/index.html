@@ -171,7 +171,7 @@ window.onload = wrap_img;
       • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      5 min read
     
 </span></p>
 
@@ -207,31 +207,14 @@ window.onload = wrap_img;
 <p>This increases performance for two reasons a large part of communication is establishing a connection, sending similar metadata, and waiting for a response on a thread. When you do bulk save, you establish 1 connection instead of multiple, you send similar metadata only once instead of individually and you have only one thread waiting for a response instead of everything waiting for a response.</p>
 
 <p><strong>Diagram of Single Request at a time</strong></p>
-<pre><code class="language-mermaid">sequenceDiagram
-    Original System-&gt;&gt;+Server: Request 1
-    Server-&gt;&gt;+Database: Request 1
-    Database--&gt;&gt;-Server: Reply of Request 1
-    Server--&gt;&gt;-Original System: Reply of Request 1
-        Original System-&gt;&gt;+Server: Request 2
-    Server-&gt;&gt;+Database: Request 2
-    Database--&gt;&gt;-Server: Reply of Request 2
-    Server--&gt;&gt;-Original System: Reply of Request 2
-    Original System-&gt;&gt;+Server: Request n
-    Server-&gt;&gt;+Database: Request n
-    Database--&gt;&gt;-Server: Reply of Request n
-    Server--&gt;&gt;-Original System: Reply of Request n
-</code></pre>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5PcmlnaW5hbCBTeXN0ZW0tPj4rU2VydmVyOiBSZXF1ZXN0IDFcblNlcnZlci0-PitEYXRhYmFzZTogUmVxdWVzdCAxXG5EYXRhYmFzZS0tPj4tU2VydmVyOiBSZXBseSBvZiBSZXF1ZXN0IDFcblNlcnZlci0tPj4tT3JpZ2luYWwgU3lzdGVtOiBSZXBseSBvZiBSZXF1ZXN0IDFcbk9yaWdpbmFsIFN5c3RlbS0-PitTZXJ2ZXI6IFJlcXVlc3QgMlxuU2VydmVyLT4-K0RhdGFiYXNlOiBSZXF1ZXN0IDJcbkRhdGFiYXNlLS0-Pi1TZXJ2ZXI6IFJlcGx5IG9mIFJlcXVlc3QgMlxuU2VydmVyLS0-Pi1PcmlnaW5hbCBTeXN0ZW06IFJlcGx5IG9mIFJlcXVlc3QgMlxuT3JpZ2luYWwgU3lzdGVtLT4-K1NlcnZlcjogUmVxdWVzdCBuXG5TZXJ2ZXItPj4rRGF0YWJhc2U6IFJlcXVlc3QgblxuRGF0YWJhc2UtLT4-LVNlcnZlcjogUmVwbHkgb2YgUmVxdWVzdCBuXG5TZXJ2ZXItLT4-LU9yaWdpbmFsIFN5c3RlbTogUmVwbHkgb2YgUmVxdWVzdCBuIiwibWVybWFpZCI6bnVsbH0"></p>
 
 <p>Even multiple single requests are passed in parallel, they won’t be as fast as bulk because of the number of connections that are needed to manage.</p>
 
 <p><strong>Diagram of Bulk Request with batch of 1000</strong></p>
 
-<pre><code class="language-mermaid">sequenceDiagram
-    Original System-&gt;&gt;+Server: Bulk Request&lt;br&gt;(Eg: 1000 Records)
-    Server-&gt;&gt;+Database: Bulk Request&lt;br&gt;(Eg:  1000 Records)
-    Database--&gt;&gt;-Server: Reply of Bulk Request &lt;br&gt;(Eg:  1000 Records)
-    Server--&gt;&gt;-Original System: Reply of Bulk Request&lt;br&gt;(Eg: 1000 Records)
-</code></pre>
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5PcmlnaW5hbCBTeXN0ZW0tPj4rU2VydmVyOiBCdWxrIFJlcXVlc3Q8YnI-KEVnOiAxMDAwIFJlY29yZHMpXG5TZXJ2ZXItPj4rRGF0YWJhc2U6IEJ1bGsgUmVxdWVzdDxicj4oRWc6ICAxMDAwIFJlY29yZHMpXG5EYXRhYmFzZS0tPj4tU2VydmVyOiBSZXBseSBvZiBCdWxrIFJlcXVlc3QgPGJyPihFZzogIDEwMDAgUmVjb3JkcylcblNlcnZlci0tPj4tT3JpZ2luYWwgU3lzdGVtOiBSZXBseSBvZiBCdWxrIFJlcXVlc3Q8YnI-KEVnOiAxMDAwIFJlY29yZHMpIiwibWVybWFpZCI6bnVsbH0"></p>
 
 <p>Apart from this, databases are optimized for bulk operations, and therefore bulk operations are faster.</p>
 
@@ -241,94 +224,77 @@ window.onload = wrap_img;
 
 <p>If you have twenty steps in your pipeline and 19 of them are bulk and one is sequential, then the sequential step would be a bottleneck to the whole system.</p>
 
-<todo add="" a="" slowness="" text="" there="">
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5CdWxrIC0-PisgQnVsayBSZWNlaXZlcjogQnVsayBvZiAxMDAgUmVjb3Jkc1xuQnVsayBSZWNlaXZlciAtPj4rIFNlcXVlbmNpYWwgU3lzdGVtOiBGaXJzdCBSZWNvcmRcblNlcXVlbmNpYWwgU3lzdGVtLS0-Pi1CdWxrIFJlY2VpdmVyOiBGaXJzdCBSZWNvcmQgUmVwbHlcbkJ1bGsgUmVjZWl2ZXIgLT4-KyBTZXF1ZW5jaWFsIFN5c3RlbTogU2Vjb25kIFJlY29yZFxuU2VxdWVuY2lhbCBTeXN0ZW0tLT4-LUJ1bGsgUmVjZWl2ZXI6IFNlY29uZCBSZWNvcmQgUmVwbHlcbkJ1bGsgUmVjZWl2ZXIgLT4-KyBTZXF1ZW5jaWFsIFN5c3RlbTogbnRoIFJlY29yZFxuU2VxdWVuY2lhbCBTeXN0ZW0tLT4-LUJ1bGsgUmVjZWl2ZXI6IG50aCBSZWNvcmQgUmVwbHlcbkJ1bGsgUmVjZWl2ZXItLT4-LUJ1bGs6IFJlc3BvbnNlIHRvIEJ1bGsgb2YgMTAwIFJlY29yZHMiLCJtZXJtYWlkIjpudWxsfQ"></p>
 
-```mermaid
-sequenceDiagram
-    Bulk -&gt;&gt;+ Bulk Receiver: Bulk of 100 Records
-    Bulk Receiver -&gt;&gt;+ Sequencial System: First Record
-    Sequencial System--&gt;&gt;-Bulk Receiver: First Record Reply
-    Bulk Receiver -&gt;&gt;+ Sequencial System: Second Record
-    Sequencial System--&gt;&gt;-Bulk Receiver: Second Record Reply
-    Bulk Receiver -&gt;&gt;+ Sequencial System: nth Record
-    Sequencial System--&gt;&gt;-Bulk Receiver: nth Record Reply
-    Bulk Receiver--&gt;&gt;-Bulk: Response to Bulk of 100 Records
-```
+<p>So, try to make sure every step is bulk, if you need to fetch data from the database, fetch them all at once.</p>
 
-So, try to make sure every step is bulk, if you need to fetch data from the database, fetch them all at once.
+<p>If you need to save them to the database save them all at once.</p>
 
-If you need to save them to the database save them all at once.
+<p>Make sure all IO operations are in bulk.</p>
 
-Make sure all IO operations are in bulk.
+<h2 id="tip-3-make-use-of-message-queuesbuffers-like-kafka-and-leverage-autoscaling-of-instances">Tip 3: Make use of message queues/buffers like Kafka and leverage autoscaling of instances</h2>
 
-## Tip 3: Make use of message queues/buffers like Kafka and leverage autoscaling of instances
+<p>If you have a large number of things to transfer, rather than migrating synchronously, you can bring a message queue in between.</p>
 
-If you have a large number of things to transfer, rather than migrating synchronously, you can bring a message queue in between.
+<p>The message queue will sit between the source system and the destination system. The data from the source system would be migrated to the buffer. The destination system can independently pick up resources from the buffer when it’s ready and can process them.</p>
 
-The message queue will sit between the source system and the destination system. The data from the source system would be migrated to the buffer. The destination system can independently pick up resources from the buffer when it's ready and can process them.
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5Tb3VyY2VTeXN0ZW1bZmE6ZmEtc2VydmVyIFNvdXJjZSBTeXN0ZW1dIC0tPnxmYTpmYS1wbGF5IFB1c2h8IE1lc3NhZ2VRdWV1ZVtmYTpmYS1kYXRhYmFzZSBNZXNzYWdlIFF1ZXVlIFxcbiBcXG4gQWN0cyBhcyBhIGJ1ZmZlciB0aGF0IFxcbnN0b3JlcyBtdWx0aXBsZSBtZXNzYWdlc10gLS0-IHxmYTpmYS1wbGF5IGZhOmZhLXBhdXNlIFBvbGwgd2hlbiByZWFkeXwgUmVjZWl2aW5nW2ZhOmZhLWNvZGUgUmVjZWl2aW5nIFN5c3RlbSBJbnN0YW5jZSAxXVxuTWVzc2FnZVF1ZXVlIC0tPiB8ZmE6ZmEtcGxheSBmYTpmYS1wYXVzZSBQb2xsIHdoZW4gcmVhZHl8IFJlY2VpdmluZzJbZmE6ZmEtY29kZSBSZWNlaXZpbmcgU3lzdGVtIEluc3RhbmNlIDJdXG5NZXNzYWdlUXVldWUgLS0-fGZhOmZhLXBsYXkgZmE6ZmEtcGF1c2UgUG9sbCB3aGVuIHJlYWR5fCBSZWNlaXZpbmczW2ZhOmZhLWNvZGUgUmVjZWl2aW5nIFN5c3RlbSBJbnN0YW5jZSAzXVxuTWVzc2FnZVF1ZXVlIC0tPiB8ZmE6ZmEtcGxheSBmYTpmYS1wYXVzZSBQb2xsIHdoZW4gcmVhZHl8IFJlY2VpdmluZzRbZmE6ZmEtY29kZSBSZWNlaXZpbmcgU3lzdGVtIEluc3RhbmNlIG5dIiwibWVybWFpZCI6bnVsbH0"></p>
 
-```mermaid
-flowchart LR
-    SourceSystem[fa:fa-server Source System] --&gt;|fa:fa-play Push| MessageQueue[fa:fa-database Message Queue \n \n Acts as a buffer that \nstores multiple messages] --&gt; |fa:fa-play fa:fa-pause Poll when ready| Receiving[fa:fa-code Receiving System Instance 1]
-    MessageQueue --&gt; |fa:fa-play fa:fa-pause Poll when ready| Receiving2[fa:fa-code Receiving System Instance 2]
-    MessageQueue --&gt;|fa:fa-play fa:fa-pause Poll when ready| Receiving3[fa:fa-code Receiving System Instance 3]
-    MessageQueue --&gt; |fa:fa-play fa:fa-pause Poll when ready| Receiving4[fa:fa-code Receiving System Instance n]
-```
+<p>This has the following advantage: The receiving system can autoscale.</p>
 
-This has the following advantage: The receiving system can autoscale.
+<p>If there are too many items in the buffer remaining to be processed, you can increase the number of instances to accommodate. Similarly, when the number of items in the buffer is less, you can scale down to a fewer number of instances.</p>
 
-If there are too many items in the buffer remaining to be processed, you can increase the number of instances to accommodate. Similarly, when the number of items in the buffer is less, you can scale down to a fewer number of instances.
+<p>This way multiple instances can work in parallel and only process messages when they are ready.</p>
 
-This way multiple instances can work in parallel and only process messages when they are ready.
+<h2 id="tip-4-use-feature-flagging-to-disable-features-that-are-not-needed">Tip 4: Use feature flagging to disable features that are not needed</h2>
 
-## Tip 4: Use feature flagging to disable features that are not needed
+<p>Hotstar is an Indian OTT platform that streams IPL, the country’s most-watched sporting event. They get peak traffic of around 2.2Cr. What do they do when they are suddenly hit with all this traffic?</p>
 
-Hotstar is an Indian OTT platform that streams IPL, the country's most-watched sporting event. They get peak traffic of around 2.2Cr. What do they do when they are suddenly hit with all this traffic?
+<p>They do two things:</p>
 
-They do two things:
+<p>One, they increase the number of instances.</p>
 
-One, they increase the number of instances.
+<p>Two, they temporarily disable the number of features on the website to a minimum necessary. They call it “Panic mode”.</p>
 
-Two, they temporarily disable the number of features on the website to a minimum necessary. They call it "Panic mode".
+<p>While migrating, we can use the same principle, only enable features that are needed for the migration and disable everything else.</p>
 
-While migrating, we can use the same principle, only enable features that are needed for the migration and disable everything else.
+<ol>
+  <li>List down all the features your microservice provides</li>
+  <li>Go through the list and check the essential features needed.</li>
+  <li>Add a feature flag to disable the features.</li>
+</ol>
 
-1. List down all the features your microservice provides
-2. Go through the list and check the essential features needed.
-3. Add a feature flag to disable the features.
+<p>In Spring Boot, you could use \@‌ConditionalOnProperty to declare beans when the system is not in migration.mode=true.</p>
 
-In Spring Boot, you could use \@‌ConditionalOnProperty to declare beans when the system is not in migration.mode=true.
+<p>You may need to pair this tip up with the last tip in this post.</p>
 
-You may need to pair this tip up with the last tip in this post.
+<h2 id="tip-5-increase-resources-temporarily">Tip 5: Increase resources temporarily</h2>
 
-## Tip 5: Increase resources temporarily
+<p>Increasing the number of instances is called horizontal scaling. Increasing number the of CPU, RAM, and other resources is called vertical scaling.</p>
 
-Increasing the number of instances is called horizontal scaling. Increasing number the of CPU, RAM, and other resources is called vertical scaling.
+<p>In most cases, horizontal scaling would be good. But in case you need, go for vertical scaling. This would require a certain level of experimentation monitoring to decide. Monitor your microservice while performing the actions in a lower environment (dev/qa/uat).</p>
 
-In most cases, horizontal scaling would be good. But in case you need, go for vertical scaling. This would require a certain level of experimentation monitoring to decide. Monitor your microservice while performing the actions in a lower environment (dev/qa/uat).
+<h2 id="tip-6-create-a-temporary-separate-deployment-of-your-microservice">Tip 6: Create a temporary separate deployment of your microservice</h2>
 
-## Tip 6: Create a temporary separate deployment of your microservice
+<p>Since you are doing feature flagging, increasing resources, having extra replicas, etc. it’s easier to manage this all by creating a separate deployment.</p>
 
-Since you are doing feature flagging, increasing resources, having extra replicas, etc. it’s easier to manage this all by creating a separate deployment.
+<p>So, if you had a movies microservice deployment, you’ll create something like a movies-migration deployment.</p>
 
-So, if you had a movies microservice deployment, you’ll create something like a movies-migration deployment.
+<p>The new movies-migration all the migration-specific configurations in it.</p>
 
-The new movies-migration all the migration-specific configurations in it.
+<h2 id="final-tip-7-and-conclusion-monitor-your-application-to-find-bottlenecks-and-do-experiments-to-mitigate-them">Final Tip 7 and conclusion: Monitor your application to find bottlenecks. And do experiments to mitigate them</h2>
 
-## Final Tip 7 and conclusion: Monitor your application to find bottlenecks. And do experiments to mitigate them
+<p>All the strategies above shouldn’t be used blindly, they should be used with experimentation.</p>
 
-All the strategies above shouldn’t be used blindly, they should be used with experimentation.
+<p>Monitor your microservice while performing the migration and see, what’s the bottleneck. And try to resolve it.</p>
 
-Monitor your microservice while performing the migration and see, what’s the bottleneck. And try to resolve it.
+<p>If the bottleneck is the database, optimize query performance or use bulk like Tip 1.</p>
 
-If the bottleneck is the database, optimize query performance or use bulk like Tip 1.
+<p>If it’s because the service is doing extra things, feature flag it.</p>
 
-If it’s because the service is doing extra things, feature flag it.
+<p>If it’s because there is heavy processing, increase resources.</p>
 
-If it’s because there is heavy processing, increase resources.
-
-Having an observability platform can be very useful for this sort of experimentation as you can find the bottlenecks really fast through graphs and visualizations.
-</todo>
+<p>Having an observability platform can be very useful for this sort of experimentation as you can find the bottlenecks really fast through graphs and visualizations.</p>
 
   </div>
 <div id="mc_embed_shell">
