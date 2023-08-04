@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-07-29T15:33:29-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Thinking in terms of exponential grow over linear growth</title><link href="https://www.ankushchoubey.com/exponential-growth/" rel="alternate" type="text/html" title="Thinking in terms of exponential grow over linear growth" /><published>2023-07-20T00:00:00-05:00</published><updated>2023-07-20T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/exponential-growth</id><content type="html" xml:base="https://www.ankushchoubey.com/exponential-growth/"><![CDATA[<p><img src="/images/exponential-growth.jpg" alt="" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-08-04T15:41:55-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">7 Tips to Optimize a Microservice for Data Migration Job</title><link href="https://www.ankushchoubey.com/data-migration-microservice/" rel="alternate" type="text/html" title="7 Tips to Optimize a Microservice for Data Migration Job" /><published>2023-08-05T00:00:00-05:00</published><updated>2023-08-05T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1-migration-microservice</id><content type="html" xml:base="https://www.ankushchoubey.com/data-migration-microservice/"><![CDATA[<p>I published a post in <a href="[https://www.ankushchoubey.com/db-migration-script/](https://www.ankushchoubey.com/db-migration-script/" title="smartCard-inline">March 2023 about how typically DB migrations</a>  ) take place. The post is considered a direct migration from one DB to the other.</p>
+
+<p>But sometimes, you need to do a lot of things that can only be done by the microservice that would use this data.</p>
+
+<p>For example, you need to structure data in a very particular format which would be a very heavy code to remake as DB Scripts.</p>
+
+<p>Or you also need to communicate with special third parties like saving data to a storage bucket which might be something microservice does already.</p>
+
+<p>In such cases, you need to use your existing microservice for the migration.</p>
+
+<p>This post highlights some techniques I thought of when performing such a migration. The data had lakhs of records.</p>
+
+<h2 id="tip-1-create-a-separate-endpoint-for-bulk">Tip 1: Create a separate endpoint for bulk</h2>
+
+<p>Instead of saving one record at a time, save a bunch of records at once.</p>
+
+<p>This increases performance for two reasons a large part of communication is establishing a connection, sending similar metadata, and waiting for a response on a thread. When you do bulk save, you establish 1 connection instead of multiple, you send similar metadata only once instead of individually and you have only one thread waiting for a response instead of everything waiting for a response.</p>
+
+<p><strong>Diagram of Single Request at a time</strong></p>
+<pre><code class="language-mermaid">sequenceDiagram
+    Original System-&gt;&gt;+Server: Request 1
+    Server-&gt;&gt;+Database: Request 1
+    Database--&gt;&gt;-Server: Reply of Request 1
+    Server--&gt;&gt;-Original System: Reply of Request 1
+        Original System-&gt;&gt;+Server: Request 2
+    Server-&gt;&gt;+Database: Request 2
+    Database--&gt;&gt;-Server: Reply of Request 2
+    Server--&gt;&gt;-Original System: Reply of Request 2
+    Original System-&gt;&gt;+Server: Request n
+    Server-&gt;&gt;+Database: Request n
+    Database--&gt;&gt;-Server: Reply of Request n
+    Server--&gt;&gt;-Original System: Reply of Request n
+</code></pre>
+
+<p>Even multiple single requests are passed in parallel, they won’t be as fast as bulk because of the number of connections that are needed to manage.</p>
+
+<p><strong>Diagram of Bulk Request with batch of 1000</strong></p>
+
+<pre><code class="language-mermaid">sequenceDiagram
+    Original System-&gt;&gt;+Server: Bulk Request&lt;br&gt;(Eg: 1000 Records)
+    Server-&gt;&gt;+Database: Bulk Request&lt;br&gt;(Eg:  1000 Records)
+    Database--&gt;&gt;-Server: Reply of Bulk Request &lt;br&gt;(Eg:  1000 Records)
+    Server--&gt;&gt;-Original System: Reply of Bulk Request&lt;br&gt;(Eg: 1000 Records)
+</code></pre>
+
+<p>Apart from this, databases are optimized for bulk operations, and therefore bulk operations are faster.</p>
+
+<h2 id="tip-2-in-terms-of-io-make-sure-everything-is-in-bulk-all-processes">Tip 2: In terms of IO, make sure everything is in bulk all processes</h2>
+
+<p>When doing bulk operations, you need to ensure everything in the pipeline is in bulk.</p>
+
+<p>If you have twenty steps in your pipeline and 19 of them are bulk and one is sequential, then the sequential step would be a bottleneck to the whole system.</p>
+
+<todo add="" a="" slowness="" text="" there="">
+
+```mermaid
+sequenceDiagram
+    Bulk -&gt;&gt;+ Bulk Receiver: Bulk of 100 Records
+    Bulk Receiver -&gt;&gt;+ Sequencial System: First Record
+    Sequencial System--&gt;&gt;-Bulk Receiver: First Record Reply
+    Bulk Receiver -&gt;&gt;+ Sequencial System: Second Record
+    Sequencial System--&gt;&gt;-Bulk Receiver: Second Record Reply
+    Bulk Receiver -&gt;&gt;+ Sequencial System: nth Record
+    Sequencial System--&gt;&gt;-Bulk Receiver: nth Record Reply
+    Bulk Receiver--&gt;&gt;-Bulk: Response to Bulk of 100 Records
+```
+
+So, try to make sure every step is bulk, if you need to fetch data from the database, fetch them all at once.
+
+If you need to save them to the database save them all at once.
+
+Make sure all IO operations are in bulk.
+
+## Tip 3: Make use of message queues/buffers like Kafka and leverage autoscaling of instances
+
+If you have a large number of things to transfer, rather than migrating synchronously, you can bring a message queue in between.
+
+The message queue will sit between the source system and the destination system. The data from the source system would be migrated to the buffer. The destination system can independently pick up resources from the buffer when it's ready and can process them.
+
+```mermaid
+flowchart LR
+    SourceSystem[fa:fa-server Source System] --&gt;|fa:fa-play Push| MessageQueue[fa:fa-database Message Queue \n \n Acts as a buffer that \nstores multiple messages] --&gt; |fa:fa-play fa:fa-pause Poll when ready| Receiving[fa:fa-code Receiving System Instance 1]
+    MessageQueue --&gt; |fa:fa-play fa:fa-pause Poll when ready| Receiving2[fa:fa-code Receiving System Instance 2]
+    MessageQueue --&gt;|fa:fa-play fa:fa-pause Poll when ready| Receiving3[fa:fa-code Receiving System Instance 3]
+    MessageQueue --&gt; |fa:fa-play fa:fa-pause Poll when ready| Receiving4[fa:fa-code Receiving System Instance n]
+```
+
+This has the following advantage: The receiving system can autoscale.
+
+If there are too many items in the buffer remaining to be processed, you can increase the number of instances to accommodate. Similarly, when the number of items in the buffer is less, you can scale down to a fewer number of instances.
+
+This way multiple instances can work in parallel and only process messages when they are ready.
+
+## Tip 4: Use feature flagging to disable features that are not needed
+
+Hotstar is an Indian OTT platform that streams IPL, the country's most-watched sporting event. They get peak traffic of around 2.2Cr. What do they do when they are suddenly hit with all this traffic?
+
+They do two things:
+
+One, they increase the number of instances.
+
+Two, they temporarily disable the number of features on the website to a minimum necessary. They call it "Panic mode".
+
+While migrating, we can use the same principle, only enable features that are needed for the migration and disable everything else.
+
+1. List down all the features your microservice provides
+2. Go through the list and check the essential features needed.
+3. Add a feature flag to disable the features.
+
+In Spring Boot, you could use \@‌ConditionalOnProperty to declare beans when the system is not in migration.mode=true.
+
+You may need to pair this tip up with the last tip in this post.
+
+## Tip 5: Increase resources temporarily
+
+Increasing the number of instances is called horizontal scaling. Increasing number the of CPU, RAM, and other resources is called vertical scaling.
+
+In most cases, horizontal scaling would be good. But in case you need, go for vertical scaling. This would require a certain level of experimentation monitoring to decide. Monitor your microservice while performing the actions in a lower environment (dev/qa/uat).
+
+## Tip 6: Create a temporary separate deployment of your microservice
+
+Since you are doing feature flagging, increasing resources, having extra replicas, etc. it’s easier to manage this all by creating a separate deployment.
+
+So, if you had a movies microservice deployment, you’ll create something like a movies-migration deployment.
+
+The new movies-migration all the migration-specific configurations in it.
+
+## Final Tip 7 and conclusion: Monitor your application to find bottlenecks. And do experiments to mitigate them
+
+All the strategies above shouldn’t be used blindly, they should be used with experimentation.
+
+Monitor your microservice while performing the migration and see, what’s the bottleneck. And try to resolve it.
+
+If the bottleneck is the database, optimize query performance or use bulk like Tip 1.
+
+If it’s because the service is doing extra things, feature flag it.
+
+If it’s because there is heavy processing, increase resources.
+
+Having an observability platform can be very useful for this sort of experimentation as you can find the bottlenecks really fast through graphs and visualizations.
+</todo>]]></content><author><name></name></author><category term="backend" /><summary type="html"><![CDATA[I published a post in March 2023 about how typically DB migrations  ) take place. The post is considered a direct migration from one DB to the other.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/data-migration-microservice.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/data-migration-microservice.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Thinking in terms of exponential grow over linear growth</title><link href="https://www.ankushchoubey.com/exponential-growth/" rel="alternate" type="text/html" title="Thinking in terms of exponential grow over linear growth" /><published>2023-07-20T00:00:00-05:00</published><updated>2023-07-20T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/exponential-growth</id><content type="html" xml:base="https://www.ankushchoubey.com/exponential-growth/"><![CDATA[<p><img src="/images/exponential-growth.jpg" alt="" /></p>
 
 <p>Photo by <a href="https://unsplash.com/@scw1217?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Suzanne D. Williams</a> on <a href="https://unsplash.com/photos/VMKBFR6r_jg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" title="‌">Unsplash</a></p>
 
@@ -1205,85 +1345,4 @@ String visitValue(Expression.ValueContext ctx){
 
 <p>Check if the upgrade is available, and upgrade it.</p>
 
-<p>Photo by <a href="https://unsplash.com/@growtika?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Growtika</a> on <a href="https://unsplash.com/s/photos/security-bug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>]]></content><author><name></name></author><category term="security" /><summary type="html"><![CDATA[In a previous blog post, I talked about how to upgrade Maven dependencies. It specifically mentioned security vulnerabilities in these dependencies to be an important reason to upgrade.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-fix-security-bugs-anyways.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-fix-security-bugs-anyways.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep your Karma Ledger clean</title><link href="https://www.ankushchoubey.com/v1/karma-ledger/" rel="alternate" type="text/html" title="Keep your Karma Ledger clean" /><published>2023-05-24T00:00:00-05:00</published><updated>2023-05-24T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-keep-karma-ledger-clean</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/karma-ledger/"><![CDATA[<p>Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/photos/CKlHKtCJZKk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-
-<blockquote>
-  <p>Karma karo fall ki chinta maat karo</p>
-</blockquote>
-
-<p>In a previous post, I talked about <a href="https://www.ankushchoubey.com/v1/karma-karmafal/" title="‌">Karma and Karmafal</a>. Here is why you should always keep your karma ledger clean despite to inability to control Karmafal.</p>
-
-<h2 id="two-outcomes-of-karma">Two Outcomes of Karma</h2>
-
-<p>There are two outcomes of karma</p>
-
-<ol>
-  <li>Karma bites us in our ass.</li>
-  <li>Karma “may” supports us when we least expect it.</li>
-</ol>
-
-<h2 id="karma-debt-bites-us-in-our-ass-always">Karma Debt bites us in our ass always</h2>
-
-<p>We think we can get away with things. This could be bigger things like cheating in an exam, corruption, or lying. Or this could be something small and trivial like, procrastinating, not helping someone in need, etc. We may miss something important like forgetting to set an alarm in the morning.</p>
-
-<p>Karma Debt bites our ass always.</p>
-
-<h3 id="loud-bite">Loud Bite</h3>
-
-<p>Suppose we treat our friends badly. They initially try to understand us. But then they realize we are just bullies. Eventually, either we get into a fight or our friends leave us and we are left lonely. This is karma in full action. Loud, seen, and understood.</p>
-
-<h3 id="silent-toll">Silent Toll</h3>
-
-<p>The bite of Karma need not be loud. It can be a silent toll.</p>
-
-<p>‌</p>
-
-<p>Since childhood, I neglected learning maths. Sometimes I was overconfident in my ability. But overall because I didn’t practice, I couldn’t get to good college. Not only that I’m still weak at most maths places. I didn’t learn and overcome it. Math is a very important skill. And I predict I could have earned twice as much by being in a better college if I had spent my years learning. It’s a silent toll.</p>
-
-<h2 id="karma-may-supports-us-when-we-least-expect-it">Karma “may” supports us when we least expect it</h2>
-
-<h3 id="direct-support">Direct Support</h3>
-
-<p>We may believe we don’t know enough. But if we trained ourselves (karma), when it comes time to perform, our bodies and mind act automatically. This is karma is action.</p>
-
-<p>If you didn’t perform a crime, you are free from it.</p>
-
-<h3 id="silent-and-slow-support">Silent and Slow Support</h3>
-
-<p>Similarly, let’s say you showed told the truth at every moment. Now, you have built trust with the people around you. You have developed trustworthy friends slowly. That trust is because of your Karma.</p>
-
-<h2 id="how-and-why-do-we-the-people-give-up-karma">How and why do we (the people) give up Karma?</h2>
-
-<h3 id="believing-you-can-get-away">Believing you can get away</h3>
-
-<p>You can’t get away with anything. Our world is a reality. Do you really think you could get away with one exam cheating? Try it. And then you’ll realize that you don’t know the concepts. And it compounds everything you do.</p>
-
-<h3 id="avoiding-responsibility">Avoiding responsibility</h3>
-
-<p>People try to find flaws around them to latch on to so that they can justify what they will be doing and what they did. It’s like taking revenge on the environment.</p>
-
-<p>We argue for your rights. People are saying “We want a job”, What’s their qualification? They may have barely passed high school.</p>
-
-<h2 id="karma-ledge-why-you-should-always-keep-it-clean">Karma Ledge: Why you should always keep it clean</h2>
-
-<p>The Karma Ledger never lies. Karma Ledger keeps track of your inputs and your efforts. It’s the source of truth that no one can deny.</p>
-
-<p>I am usually not someone who gives Ethos examples. But I have found a few people who keep their ledger so clean that it’s really hard to argue or find flaws in them.</p>
-
-<p>These people are honest and forthright, say what they think, and get work done. From these people, I learned that no matter what, don’t make a single known mistake i.e. no mistake made from negligence.</p>
-
-<ul>
-  <li>Jordan Peterson</li>
-  <li>Narendra Modi</li>
-  <li>Yogi Adityanath</li>
-</ul>
-
-<p>There are several benefits this offers:</p>
-
-<ol>
-  <li>When you look back you have a stack of karma you see progress. This motivated you further.</li>
-  <li>Every item is hopefully done to its best. You know you couldn’t have done more than your best. Meaning this moment is the best it can be.</li>
-  <li>You have no karma debt. No getting your ass bitten.</li>
-</ol>
-
-<p>Keeping your karma ledger clean should be enough to do good actions.</p>]]></content><author><name></name></author><category term="responsibility" /><category term="non-technical" /><summary type="html"><![CDATA[We should not avoid good action. Good action has good results in the long term. It may seem easy to avoid good action in the short term. But good action is the only path to the best outcome.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-karma-ledger.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-karma-ledger.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Photo by <a href="https://unsplash.com/@growtika?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Growtika</a> on <a href="https://unsplash.com/s/photos/security-bug?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>]]></content><author><name></name></author><category term="security" /><summary type="html"><![CDATA[In a previous blog post, I talked about how to upgrade Maven dependencies. It specifically mentioned security vulnerabilities in these dependencies to be an important reason to upgrade.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-fix-security-bugs-anyways.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-fix-security-bugs-anyways.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

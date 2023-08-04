@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>7 Tips to Optimize a Microservice for Data Migration Job | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="7 Tips to Optimize a Microservice for Data Migration Job">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="I published a post in March 2023 about how typically DB migrations  ) take place. The post is considered a direct migration from one DB to the other.">
+<meta property="og:description" content="I published a post in March 2023 about how typically DB migrations  ) take place. The post is considered a direct migration from one DB to the other.">
+<link rel="canonical" href="https://www.ankushchoubey.com/data-migration-microservice/">
+<meta property="og:url" content="https://www.ankushchoubey.com/data-migration-microservice/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/data-migration-microservice.png">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-08-05T00:00:00-05:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://www.ankushchoubey.com/images/data-migration-microservice.png">
+<meta property="twitter:title" content="7 Tips to Optimize a Microservice for Data Migration Job">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-08-05T15:52:08-05:00","datePublished":"2023-08-05T00:00:00-05:00","description":"I published a post in March 2023 about how typically DB migrations  ) take place. The post is considered a direct migration from one DB to the other.","headline":"7 Tips to Optimize a Microservice for Data Migration Job","image":"https://www.ankushchoubey.com/images/data-migration-microservice.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/data-migration-microservice/"},"url":"https://www.ankushchoubey.com/data-migration-microservice/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/787ccdfb3a0c625c1830ac78a/859c6d3b694fad02c3eff1603.js");</script><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>7 Tips to Optimize a Microservice for Data Migration Job | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="7 Tips to Optimize a Microservice for Data Migration Job">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="I published a post in March 2023 about how typically DB migrations  ) take place. The post is considered a direct migration from one DB to the other.">
+<meta property="og:description" content="I published a post in March 2023 about how typically DB migrations  ) take place. The post is considered a direct migration from one DB to the other.">
+<link rel="canonical" href="https://www.ankushchoubey.com/data-migration-microservice/">
+<meta property="og:url" content="https://www.ankushchoubey.com/data-migration-microservice/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/data-migration-microservice.png">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-08-05T00:00:00-05:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://www.ankushchoubey.com/images/data-migration-microservice.png">
+<meta property="twitter:title" content="7 Tips to Optimize a Microservice for Data Migration Job">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-08-05T15:52:08-05:00","datePublished":"2023-08-05T00:00:00-05:00","description":"I published a post in March 2023 about how typically DB migrations  ) take place. The post is considered a direct migration from one DB to the other.","headline":"7 Tips to Optimize a Microservice for Data Migration Job","image":"https://www.ankushchoubey.com/images/data-migration-microservice.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/data-migration-microservice/"},"url":"https://www.ankushchoubey.com/data-migration-microservice/"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body>
+<header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/">Ankush Choubey</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/core-values-page/">Core Values</a><a class="page-link" href="/philosophy/">Philosophy</a><a class="page-link" href="/resume">Hire me!</a><a class="page-link" href="/search/">Search</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style>
+  .page-content{
+    padding-top: 0px;
+  }
+  .post-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;height: 300px;}
+
+  .cover-image{
+    position: absolute;
+    left:0px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .post-header{height: 550px;}
+    .cover-image{
+      height: 550px;
+    }
+  }
+  .post-header-content{backdrop-filter: blur(200px); 
+    padding: 0px 20px;
+    -webkit-backdrop-filter: blur(200px);
+        background: #ffffffcf;}
+</style>
+
+<header class="post-header"><img src="/images/data-migration-microservice.png" class="cover-image"><div class="post-header-content">
+    <h1 class="post-title p-name" itemprop="name headline">7 Tips to Optimize a Microservice for Data Migration Job</h1>
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-08-05T00:00:00-05:00" itemprop="datePublished">
+        Aug 5, 2023
+      </time>
+      • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
+      
+      <a class="category-tags-link" href="/categories/#backend">backend</a>
+      
+      
+    </p>
+    
+
+    </div>
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I published a post in <a href="%5Bhttps://www.ankushchoubey.com/db-migration-script/%5D(https://www.ankushchoubey.com/db-migration-script/" title="smartCard-inline">March 2023 about how typically DB migrations</a>  ) take place. The post is considered a direct migration from one DB to the other.</p>
+
+<p>But sometimes, you need to do a lot of things that can only be done by the microservice that would use this data.</p>
+
+<p>For example, you need to structure data in a very particular format which would be a very heavy code to remake as DB Scripts.</p>
+
+<p>Or you also need to communicate with special third parties like saving data to a storage bucket which might be something microservice does already.</p>
+
+<p>In such cases, you need to use your existing microservice for the migration.</p>
+
+<p>This post highlights some techniques I thought of when performing such a migration. The data had lakhs of records.</p>
+
+<h2 id="tip-1-create-a-separate-endpoint-for-bulk">Tip 1: Create a separate endpoint for bulk</h2>
+
+<p>Instead of saving one record at a time, save a bunch of records at once.</p>
+
+<p>This increases performance for two reasons a large part of communication is establishing a connection, sending similar metadata, and waiting for a response on a thread. When you do bulk save, you establish 1 connection instead of multiple, you send similar metadata only once instead of individually and you have only one thread waiting for a response instead of everything waiting for a response.</p>
+
+<p><strong>Diagram of Single Request at a time</strong></p>
+<pre><code class="language-mermaid">sequenceDiagram
+    Original System-&gt;&gt;+Server: Request 1
+    Server-&gt;&gt;+Database: Request 1
+    Database--&gt;&gt;-Server: Reply of Request 1
+    Server--&gt;&gt;-Original System: Reply of Request 1
+        Original System-&gt;&gt;+Server: Request 2
+    Server-&gt;&gt;+Database: Request 2
+    Database--&gt;&gt;-Server: Reply of Request 2
+    Server--&gt;&gt;-Original System: Reply of Request 2
+    Original System-&gt;&gt;+Server: Request n
+    Server-&gt;&gt;+Database: Request n
+    Database--&gt;&gt;-Server: Reply of Request n
+    Server--&gt;&gt;-Original System: Reply of Request n
+</code></pre>
+
+<p>Even multiple single requests are passed in parallel, they won’t be as fast as bulk because of the number of connections that are needed to manage.</p>
+
+<p><strong>Diagram of Bulk Request with batch of 1000</strong></p>
+
+<pre><code class="language-mermaid">sequenceDiagram
+    Original System-&gt;&gt;+Server: Bulk Request&lt;br&gt;(Eg: 1000 Records)
+    Server-&gt;&gt;+Database: Bulk Request&lt;br&gt;(Eg:  1000 Records)
+    Database--&gt;&gt;-Server: Reply of Bulk Request &lt;br&gt;(Eg:  1000 Records)
+    Server--&gt;&gt;-Original System: Reply of Bulk Request&lt;br&gt;(Eg: 1000 Records)
+</code></pre>
+
+<p>Apart from this, databases are optimized for bulk operations, and therefore bulk operations are faster.</p>
+
+<h2 id="tip-2-in-terms-of-io-make-sure-everything-is-in-bulk-all-processes">Tip 2: In terms of IO, make sure everything is in bulk all processes</h2>
+
+<p>When doing bulk operations, you need to ensure everything in the pipeline is in bulk.</p>
+
+<p>If you have twenty steps in your pipeline and 19 of them are bulk and one is sequential, then the sequential step would be a bottleneck to the whole system.</p>
+
+<todo add="" a="" slowness="" text="" there="">
+
+```mermaid
+sequenceDiagram
+    Bulk -&gt;&gt;+ Bulk Receiver: Bulk of 100 Records
+    Bulk Receiver -&gt;&gt;+ Sequencial System: First Record
+    Sequencial System--&gt;&gt;-Bulk Receiver: First Record Reply
+    Bulk Receiver -&gt;&gt;+ Sequencial System: Second Record
+    Sequencial System--&gt;&gt;-Bulk Receiver: Second Record Reply
+    Bulk Receiver -&gt;&gt;+ Sequencial System: nth Record
+    Sequencial System--&gt;&gt;-Bulk Receiver: nth Record Reply
+    Bulk Receiver--&gt;&gt;-Bulk: Response to Bulk of 100 Records
+```
+
+So, try to make sure every step is bulk, if you need to fetch data from the database, fetch them all at once.
+
+If you need to save them to the database save them all at once.
+
+Make sure all IO operations are in bulk.
+
+## Tip 3: Make use of message queues/buffers like Kafka and leverage autoscaling of instances
+
+If you have a large number of things to transfer, rather than migrating synchronously, you can bring a message queue in between.
+
+The message queue will sit between the source system and the destination system. The data from the source system would be migrated to the buffer. The destination system can independently pick up resources from the buffer when it's ready and can process them.
+
+```mermaid
+flowchart LR
+    SourceSystem[fa:fa-server Source System] --&gt;|fa:fa-play Push| MessageQueue[fa:fa-database Message Queue \n \n Acts as a buffer that \nstores multiple messages] --&gt; |fa:fa-play fa:fa-pause Poll when ready| Receiving[fa:fa-code Receiving System Instance 1]
+    MessageQueue --&gt; |fa:fa-play fa:fa-pause Poll when ready| Receiving2[fa:fa-code Receiving System Instance 2]
+    MessageQueue --&gt;|fa:fa-play fa:fa-pause Poll when ready| Receiving3[fa:fa-code Receiving System Instance 3]
+    MessageQueue --&gt; |fa:fa-play fa:fa-pause Poll when ready| Receiving4[fa:fa-code Receiving System Instance n]
+```
+
+This has the following advantage: The receiving system can autoscale.
+
+If there are too many items in the buffer remaining to be processed, you can increase the number of instances to accommodate. Similarly, when the number of items in the buffer is less, you can scale down to a fewer number of instances.
+
+This way multiple instances can work in parallel and only process messages when they are ready.
+
+## Tip 4: Use feature flagging to disable features that are not needed
+
+Hotstar is an Indian OTT platform that streams IPL, the country's most-watched sporting event. They get peak traffic of around 2.2Cr. What do they do when they are suddenly hit with all this traffic?
+
+They do two things:
+
+One, they increase the number of instances.
+
+Two, they temporarily disable the number of features on the website to a minimum necessary. They call it "Panic mode".
+
+While migrating, we can use the same principle, only enable features that are needed for the migration and disable everything else.
+
+1. List down all the features your microservice provides
+2. Go through the list and check the essential features needed.
+3. Add a feature flag to disable the features.
+
+In Spring Boot, you could use \@‌ConditionalOnProperty to declare beans when the system is not in migration.mode=true.
+
+You may need to pair this tip up with the last tip in this post.
+
+## Tip 5: Increase resources temporarily
+
+Increasing the number of instances is called horizontal scaling. Increasing number the of CPU, RAM, and other resources is called vertical scaling.
+
+In most cases, horizontal scaling would be good. But in case you need, go for vertical scaling. This would require a certain level of experimentation monitoring to decide. Monitor your microservice while performing the actions in a lower environment (dev/qa/uat).
+
+## Tip 6: Create a temporary separate deployment of your microservice
+
+Since you are doing feature flagging, increasing resources, having extra replicas, etc. it’s easier to manage this all by creating a separate deployment.
+
+So, if you had a movies microservice deployment, you’ll create something like a movies-migration deployment.
+
+The new movies-migration all the migration-specific configurations in it.
+
+## Final Tip 7 and conclusion: Monitor your application to find bottlenecks. And do experiments to mitigate them
+
+All the strategies above shouldn’t be used blindly, they should be used with experimentation.
+
+Monitor your microservice while performing the migration and see, what’s the bottleneck. And try to resolve it.
+
+If the bottleneck is the database, optimize query performance or use bulk like Tip 1.
+
+If it’s because the service is doing extra things, feature flag it.
+
+If it’s because there is heavy processing, increase resources.
+
+Having an observability platform can be very useful for this sort of experimentation as you can find the bottlenecks really fast through graphs and visualizations.
+</todo>
+
+  </div>
+<div id="mc_embed_shell">
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+          #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+          /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  </style>
+  <div id="mc_embed_signup">
+      <form action="https://ankushchoubey.us21.list-manage.com/subscribe/post?u=787ccdfb3a0c625c1830ac78a&id=51f57ce68a&f_id=002959e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+          <div id="mc_embed_signup_scroll">
+<h2>Join me for captivating articles at the crossroads of Software Engineering and Philosophy.</h2>
+              <div class="indicates-required">
+<span class="asterisk">*</span> indicates required</div>
+              <div class="mc-field-group">
+<label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+</div>
+          <div id="mce-responses" class="clear foot">
+              <div class="response" id="mce-error-response" style="display: none;"></div>
+              <div class="response" id="mce-success-response" style="display: none;"></div>
+          </div>
+      <div aria-hidden="true" style="position: absolute; left: -5000px;">
+          /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+          <input type="text" name="b_787ccdfb3a0c625c1830ac78a_51f57ce68a" tabindex="-1" value="">
+      </div>
+          <div class="optionalParent">
+              <div class="clear foot">
+                  <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                  <p class="brandingLogo" style="margin: 0px auto;"><a href="http://eepurl.com/iwHRjY" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg" alt="referral badge"></a></p>
+              </div>
+          </div>
+      </div>
+  </form>
+  </div>
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+</div>
+
+<style>
+    div#mc_embed_signup{
+        width: auto !important;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    form#mc_embed_signup{
+        max-width: 800px !important;
+    }
+    #mc_embed_signup{
+        background-color: #fff0 !important;
+    }
+    #mc_embed_signup .mc-field-group{
+        padding-bottom: 0% !important;
+    }
+
+    #mc_embed_signup h2{
+        margin: 0px !important;
+    }
+    #mc_embed_signup .brandingLogo{
+        display: none !important;
+    }
+</style>
+<div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://www.ankushchoubey.com/data-migration-microservice/';
+      this.page.identifier = 'https://www.ankushchoubey.com/data-migration-microservice/';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      s.src = 'https://ankushchoubey.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+<a class="u-url" href="/data-migration-microservice/" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://www.ankushchoubey.com/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Full Stack Developer - Cloud/Microservices</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list">
+<li>
+  <a rel="me" href="https://github.com/ankschoubey" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://twitter.com/ankschoubey" target="_blank" title="twitter">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#twitter"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
