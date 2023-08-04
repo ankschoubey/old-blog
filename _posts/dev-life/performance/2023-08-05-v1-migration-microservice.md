@@ -30,7 +30,8 @@ Instead of saving one record at a time, save a bunch of records at once.
 This increases performance for two reasons a large part of communication is establishing a connection, sending similar metadata, and waiting for a response on a thread. When you do bulk save, you establish 1 connection instead of multiple, you send similar metadata only once instead of individually and you have only one thread waiting for a response instead of everything waiting for a response.
 
 **Diagram of Single Request at a time**
-```mermaid
+
+```mermaid!
 sequenceDiagram
     Original System->>+Server: Request 1
     Server->>+Database: Request 1
@@ -50,7 +51,7 @@ Even multiple single requests are passed in parallel, they won't be as fast as b
 
 **Diagram of Bulk Request with batch of 1000**
 
-```mermaid
+```mermaid!
 sequenceDiagram
     Original System->>+Server: Bulk Request<br>(Eg: 1000 Records)
     Server->>+Database: Bulk Request<br>(Eg:  1000 Records)
@@ -66,9 +67,7 @@ When doing bulk operations, you need to ensure everything in the pipeline is in 
 
 If you have twenty steps in your pipeline and 19 of them are bulk and one is sequential, then the sequential step would be a bottleneck to the whole system.
 
-<todo add a slowness text there>
-
-```mermaid
+```mermaid!
 sequenceDiagram
     Bulk ->>+ Bulk Receiver: Bulk of 100 Records
     Bulk Receiver ->>+ Sequencial System: First Record
@@ -92,7 +91,7 @@ If you have a large number of things to transfer, rather than migrating synchron
 
 The message queue will sit between the source system and the destination system. The data from the source system would be migrated to the buffer. The destination system can independently pick up resources from the buffer when it's ready and can process them.
 
-```mermaid
+```mermaid!
 flowchart LR
     SourceSystem[fa:fa-server Source System] -->|fa:fa-play Push| MessageQueue[fa:fa-database Message Queue \n \n Acts as a buffer that \nstores multiple messages] --> |fa:fa-play fa:fa-pause Poll when ready| Receiving[fa:fa-code Receiving System Instance 1]
     MessageQueue --> |fa:fa-play fa:fa-pause Poll when ready| Receiving2[fa:fa-code Receiving System Instance 2]
