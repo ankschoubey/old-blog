@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to promote the habit of TDD within a Team | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="How to promote the habit of TDD within a Team">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.">
+<meta property="og:description" content="Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.">
+<link rel="canonical" href="https://www.ankushchoubey.com/promote-tdd-in-a-team/">
+<meta property="og:url" content="https://www.ankushchoubey.com/promote-tdd-in-a-team/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/promote-tdd-in-a-team.jpg">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-08-09T00:00:00-05:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://www.ankushchoubey.com/images/promote-tdd-in-a-team.jpg">
+<meta property="twitter:title" content="How to promote the habit of TDD within a Team">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-08-09T15:52:08-05:00","datePublished":"2023-08-09T00:00:00-05:00","description":"Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.","headline":"How to promote the habit of TDD within a Team","image":"https://www.ankushchoubey.com/images/promote-tdd-in-a-team.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/promote-tdd-in-a-team/"},"url":"https://www.ankushchoubey.com/promote-tdd-in-a-team/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/787ccdfb3a0c625c1830ac78a/859c6d3b694fad02c3eff1603.js");</script><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to promote the habit of TDD within a Team | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="How to promote the habit of TDD within a Team">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.">
+<meta property="og:description" content="Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.">
+<link rel="canonical" href="https://www.ankushchoubey.com/promote-tdd-in-a-team/">
+<meta property="og:url" content="https://www.ankushchoubey.com/promote-tdd-in-a-team/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/promote-tdd-in-a-team.jpg">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-08-09T00:00:00-05:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://www.ankushchoubey.com/images/promote-tdd-in-a-team.jpg">
+<meta property="twitter:title" content="How to promote the habit of TDD within a Team">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-08-09T15:52:08-05:00","datePublished":"2023-08-09T00:00:00-05:00","description":"Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.","headline":"How to promote the habit of TDD within a Team","image":"https://www.ankushchoubey.com/images/promote-tdd-in-a-team.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/promote-tdd-in-a-team/"},"url":"https://www.ankushchoubey.com/promote-tdd-in-a-team/"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body>
+<header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/">Ankush Choubey</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/core-values-page/">Core Values</a><a class="page-link" href="/philosophy/">Philosophy</a><a class="page-link" href="/resume">Hire me!</a><a class="page-link" href="/search/">Search</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style>
+  .page-content{
+    padding-top: 0px;
+  }
+  .post-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;height: 300px;}
+
+  .cover-image{
+    position: absolute;
+    left:0px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .post-header{height: 550px;}
+    .cover-image{
+      height: 550px;
+    }
+  }
+  .post-header-content{backdrop-filter: blur(200px); 
+    padding: 0px 20px;
+    -webkit-backdrop-filter: blur(200px);
+        background: #ffffffcf;}
+</style>
+
+<header class="post-header"><img src="/images/promote-tdd-in-a-team.jpg" class="cover-image"><div class="post-header-content">
+    <h1 class="post-title p-name" itemprop="name headline">How to promote the habit of TDD within a Team</h1>
+<p class="page-description">Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.</p>
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-08-09T00:00:00-05:00" itemprop="datePublished">
+        Aug 9, 2023
+      </time>
+      • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
+      
+      <a class="category-tags-link" href="/categories/#testing">testing</a>
+       
+      
+      <a class="category-tags-link" href="/categories/#tdd">tdd</a>
+      
+      
+    </p>
+    
+
+    </div>
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post-content e-content" itemprop="articleBody">
+    <div class="flash announce-block">
+    <svg class="octicon octicon-megaphone" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><g fill-rule="evenodd"><path d="M3.25 9a.75.75 0 01.75.75c0 2.142.456 3.828.733 4.653a.121.121 0 00.05.064.207.207 0 00.117.033h1.31c.085 0 .18-.042.258-.152a.448.448 0 00.075-.366A16.74 16.74 0 016 9.75a.75.75 0 011.5 0c0 1.588.25 2.926.494 3.85.293 1.113-.504 2.4-1.783 2.4H4.9c-.686 0-1.35-.41-1.589-1.12A16.42 16.42 0 012.5 9.75.75.75 0 013.25 9z"></path><path d="M0 6a4 4 0 014-4h2.75a.75.75 0 01.75.75v6.5a.75.75 0 01-.75.75H4a4 4 0 01-4-4zm4-2.5a2.5 2.5 0 000 5h2v-5H4z"></path><path d="M15.59.082A.75.75 0 0116 .75v10.5a.75.75 0 01-1.189.608l-.002-.001h.001l-.014-.01a5.829 5.829 0 00-.422-.25 10.58 10.58 0 00-1.469-.64C11.576 10.484 9.536 10 6.75 10a.75.75 0 110-1.5c2.964 0 5.174.516 6.658 1.043.423.151.787.302 1.092.443V2.014c-.305.14-.669.292-1.092.443C11.924 2.984 9.713 3.5 6.75 3.5a.75.75 0 110-1.5c2.786 0 4.826-.484 6.155-.957.665-.236 1.154-.47 1.47-.64a5.82 5.82 0 00.421-.25l.014-.01a.75.75 0 01.78-.061zm-.78.06zm.44 11.108l-.44.607.44-.607z"></path></g></svg>
+    <strong>Announcement: </strong> <a href="">This blog post part of my free 'Test First Test Everything' series. Explore the complete series for comprehensive insights and guidance.</a>
+</div>
+
+<p>When you do TDD yourself, you’d have improved your code quality, reduced the number of bugs you produce, and become faster at development.</p>
+
+<p>At the same time, it’s likely that developers that don’t code with TDD, are doing less than they could.</p>
+
+<p>(And finally, what’s good for all is good for us) So #weShouldShare our knowledge!</p>
+
+<p>Doing things alone is nice. But having the whole team do TDD is something else. You can pick anyone’s code and any piece of code and know that it was done to the best.</p>
+
+<p>Promoting TDD within the team takes time. And your patience and consistent effort is needed.</p>
+
+<p><img src="/images/promote-tdd-in-a-team.jpg" alt=""></p>
+
+<h2 id="tdd-is-a-skill-that-you-develop-and-a-choice-that-you-make-">TDD is a skill that you develop and a choice that you make <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
+</h2>
+
+<p>We’ll explore TDD through the lens of habit change. The Atomic Habits is the best book on habit change. Below are the 4 Laws of Behavior Change as outlined in the book The Atomic Habits.</p>
+
+<ol>
+  <li>Make it obvious.</li>
+  <li>Make it attractive.</li>
+  <li>Make it easy.</li>
+  <li>Make it satisfying.</li>
+</ol>
+
+<p>We’ll explore the 4 Laws in a different order, starting with <strong>Make it Attractive</strong>.</p>
+
+<h2 id="making-it-attractive">Making it Attractive</h2>
+
+<h3 id="lead-by-example">Lead by Example</h3>
+
+<p>I have found that no matter how much I try to motivate others, they only get motivated when they see an example. When I tried to tell people to do X, they didn’t believe me that it works. And then I did X and did so publically, and they brought questions for people. What was your thought process? How did you do? Didn’t you think? Etc etc.</p>
+
+<p>So start by being someone who does TDD, and does it well. This series of posts may have taught you valuable insights into TDD.</p>
+
+<p>Practice them to their best.</p>
+
+<ul>
+  <li>Produce good and clean tests</li>
+  <li>Product good and clean code</li>
+  <li>Be able to demonstrate that you can code easily.</li>
+</ul>
+
+<p>When they see you do TDD and see the quality of your code and tests and your change in productivity, They’ll find it inspiring to adopt.</p>
+
+<h3 id="start-using-tests-and-explaining-what-the-code-does">Start using tests and explaining what the Code Does</h3>
+
+<p>When you show your code, start with the tests. Collapse all the code blocks so that developers can only see the test names.</p>
+
+<p>For example, collapsing the upsert method tests would look something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>upsert method
+ - WHEN data is present
+  - SHOULD update values
+ - WHEN data is not present
+  - SHOULD insert new values
+</code></pre></div></div>
+
+<p>Now you can speak the tests easily.</p>
+
+<h2 id="make-it-satisfying">Make it satisfying</h2>
+
+<h3 id="find-the-early-adopters-and-help-them-through-the-journey">Find the early adopters and help them through the journey</h3>
+
+<p>Some people are more open to trying new ideas than others. This group also includes those developers who are new and those developers who want to improve their coding skills.</p>
+
+<p>Start with them. Teach them TDD. You could always refer to this series.</p>
+
+<p>When one person becomes an evangelist of the process, more people will start adopting.</p>
+
+<p><img src="https://omniplexlearning.com/wp-content/uploads/Highres-scaled.jpg.webp" alt="Highres"></p>
+
+<p>Source: <a href="https://omniplexlearning.com/blog/technology-adoption-curve-stages/">https://omniplexlearning.com/blog/technology-adoption-curve-stages/</a></p>
+
+<h3 id="take-sessions-on-tdd-and-continuously-coach">Take sessions on TDD and continuously coach</h3>
+
+<p>The first reaction of people who hear TDD is that they think they know what TDD is or that they say they have practiced it but it didn’t work.</p>
+
+<p>This is why, try to start by teaching developers and the organization what TDD is and how it can benefit everyone.</p>
+
+<p>Explain the 3 benefits highlighted in this TDD series:</p>
+
+<ol>
+  <li>TDD leads to fewer bugs.</li>
+  <li>TDD increases code quality.</li>
+  <li>TDD is faster overall.</li>
+</ol>
+
+<p>TDD has subtle nuances which is why most developers don’t learn it well. Use the git repo and the cheatsheet mentioned in the series to help them.</p>
+
+<p>After the session and as time goes on keep coaching the team on improving their TDD practice. Find impediments and solve them. Identify the signals that you need better tests and continue refining.</p>
+
+<h3 id="provide-time-and-support-to-developers-while-they-learn">Provide time and support to developers while they learn</h3>
+
+<p>TDD requires a mind shift and isn’t as easy to grasp. Give your developers time. Initially, they may take time to ship the feature.</p>
+
+<p>It’s important to help the developers focus on delivering with quality - with tests rather than forcing them to deliver something that’s not finished.</p>
+
+<p>Expect some slowness when the team adopts TDD. But remember to continuously inspect and adapt so that you can solve their impediments. At the same time, don’t let developers drag on their “learning” phase, TDD takes some iterations to learn but overall it will reduce time. If developer productivity doesn’t improve after 20-30 days of iterating, there are problems with the way TDD is practiced.</p>
+
+<h2 id="make-it-easy">Make it easy</h2>
+
+<h3 id="provide-templates">Provide templates</h3>
+
+<p>Many developers won’t know where to start. Therefore, they can start with a template. This would make it easy for them to think in terms of TDD.</p>
+
+<p>The method/when/then style of writing is fantastic by default. You can modify and generate your templates.</p>
+
+<p>You can refer to and use the following template for Java and Javascript and Typescript.</p>
+
+<p>For react, you can use the following template which was first mentioned in <todo-react-post-link></todo-react-post-link></p>
+
+<p><img src="/images/method-when-should.png" alt=""></p>
+
+<h2 id="make-it-obvious">Make it obvious</h2>
+
+<h3 id="anytime-a-developer-comes-to-you-ask-them-to-show-the-test">Anytime a developer comes to you, ask them to show the test</h3>
+
+<p>This is the simplest thing you can do. When someone comes to you with a doubt, ask them to show it in a test.</p>
+
+<p>If they haven’t written a test, you can walk them through the TDD process.</p>
+
+<h3 id="automate-checking">Automate Checking</h3>
+
+<p>Before and while adding the automation, explain to the team the benefits of adding these checks.</p>
+
+<p>There are two automations that you can do:</p>
+
+<ol>
+  <li>Code Coverage</li>
+  <li>Test Format</li>
+</ol>
+
+<p>For Code Coverage, keep your minimum code coverage for your build pipeline to 85%. When you do TDD, your code coverage would be as close to 90-95%. If it’s less, maybe you or your team haven’t done good TDD.</p>
+
+<p>Test Format verification would help generate cleaner and more consistent tests. Add the equivalent of the ArchUnit test in your Java code. When someone doesn’t follow the test format, this test should fail.</p>
+
+<p>You can find the ArchTest for verifying the given/when/then pattern in the blog post on <a href="https://www.ankushchoubey.com/method-when-should/">method/when/then style</a>.</p>
+
+<div class="flash announce-block">
+    <svg class="octicon octicon-megaphone" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><g fill-rule="evenodd"><path d="M3.25 9a.75.75 0 01.75.75c0 2.142.456 3.828.733 4.653a.121.121 0 00.05.064.207.207 0 00.117.033h1.31c.085 0 .18-.042.258-.152a.448.448 0 00.075-.366A16.74 16.74 0 016 9.75a.75.75 0 011.5 0c0 1.588.25 2.926.494 3.85.293 1.113-.504 2.4-1.783 2.4H4.9c-.686 0-1.35-.41-1.589-1.12A16.42 16.42 0 012.5 9.75.75.75 0 013.25 9z"></path><path d="M0 6a4 4 0 014-4h2.75a.75.75 0 01.75.75v6.5a.75.75 0 01-.75.75H4a4 4 0 01-4-4zm4-2.5a2.5 2.5 0 000 5h2v-5H4z"></path><path d="M15.59.082A.75.75 0 0116 .75v10.5a.75.75 0 01-1.189.608l-.002-.001h.001l-.014-.01a5.829 5.829 0 00-.422-.25 10.58 10.58 0 00-1.469-.64C11.576 10.484 9.536 10 6.75 10a.75.75 0 110-1.5c2.964 0 5.174.516 6.658 1.043.423.151.787.302 1.092.443V2.014c-.305.14-.669.292-1.092.443C11.924 2.984 9.713 3.5 6.75 3.5a.75.75 0 110-1.5c2.786 0 4.826-.484 6.155-.957.665-.236 1.154-.47 1.47-.64a5.82 5.82 0 00.421-.25l.014-.01a.75.75 0 01.78-.061zm-.78.06zm.44 11.108l-.44.607.44-.607z"></path></g></svg>
+    <strong>Announcement: </strong> <a href="">This blog post part of my free 'Test First Test Everything' series. Explore the complete series for comprehensive insights and guidance.</a>
+</div>
+
+<p>Photo by <a href="https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Distel</a> on <a href="https://unsplash.com/photos/wD1LRb9OeEo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Rewording Naval Ravikant “Happiness is the skill that you develop and the choice that you make” <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+<div id="mc_embed_shell">
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+          #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+          /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  </style>
+  <div id="mc_embed_signup">
+      <form action="https://ankushchoubey.us21.list-manage.com/subscribe/post?u=787ccdfb3a0c625c1830ac78a&id=51f57ce68a&f_id=002959e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+          <div id="mc_embed_signup_scroll">
+<h2>Join me for captivating articles at the crossroads of Software Engineering and Philosophy.</h2>
+              <div class="indicates-required">
+<span class="asterisk">*</span> indicates required</div>
+              <div class="mc-field-group">
+<label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+</div>
+          <div id="mce-responses" class="clear foot">
+              <div class="response" id="mce-error-response" style="display: none;"></div>
+              <div class="response" id="mce-success-response" style="display: none;"></div>
+          </div>
+      <div aria-hidden="true" style="position: absolute; left: -5000px;">
+          /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+          <input type="text" name="b_787ccdfb3a0c625c1830ac78a_51f57ce68a" tabindex="-1" value="">
+      </div>
+          <div class="optionalParent">
+              <div class="clear foot">
+                  <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                  <p class="brandingLogo" style="margin: 0px auto;"><a href="http://eepurl.com/iwHRjY" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg" alt="referral badge"></a></p>
+              </div>
+          </div>
+      </div>
+  </form>
+  </div>
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+</div>
+
+<style>
+    div#mc_embed_signup{
+        width: auto !important;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    form#mc_embed_signup{
+        max-width: 800px !important;
+    }
+    #mc_embed_signup{
+        background-color: #fff0 !important;
+    }
+    #mc_embed_signup .mc-field-group{
+        padding-bottom: 0% !important;
+    }
+
+    #mc_embed_signup h2{
+        margin: 0px !important;
+    }
+    #mc_embed_signup .brandingLogo{
+        display: none !important;
+    }
+</style>
+<div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://www.ankushchoubey.com/promote-tdd-in-a-team/';
+      this.page.identifier = 'https://www.ankushchoubey.com/promote-tdd-in-a-team/';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      s.src = 'https://ankushchoubey.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+<a class="u-url" href="/promote-tdd-in-a-team/" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://www.ankushchoubey.com/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Full Stack Developer - Cloud/Microservices</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list">
+<li>
+  <a rel="me" href="https://github.com/ankschoubey" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://twitter.com/ankschoubey" target="_blank" title="twitter">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#twitter"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
