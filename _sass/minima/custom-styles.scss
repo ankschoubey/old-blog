@@ -289,7 +289,7 @@ a.page-link[href="/resume/"] {
 }
 
 .post p img{
-    border: 5px solid #555;
+    max-height: 650px;
     /*
     * add css border
     */
@@ -418,4 +418,7 @@ h4 {
 .post-read-this-when:before{
     content: "Read this when: ";
     font-weight: bold;
+}
+.announce-block{
+    font-size: large;
 }

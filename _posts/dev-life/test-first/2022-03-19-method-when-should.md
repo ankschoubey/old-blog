@@ -7,6 +7,7 @@ last_modified_at: 2022-03-19T20:52:08.052481
 last-modified-purpose:
 permalink: /method-when-should/
 title: Writing cleaner tests with method/when/should blocks
+image: /images/method-when-should.png
 ---
 
 # Problem Description
