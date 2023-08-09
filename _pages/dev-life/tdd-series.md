@@ -95,6 +95,6 @@ Here's the index
 
 #1 - My journey before and after
 
-#2 - Promoting TDD within a Team
+#2 - [**Promoting TDD within a Team**](/promote-tdd-in-a-team): Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.
 
 #3 - Going forward; Testing Everything
