@@ -663,4 +663,6 @@ h4 { font-weight: 500 !important; }
 
 .announce-block { font-size: large; }
 
+a.page-link[href="/resume"] { background: #d6205c; color: white; }
+
 /*# sourceMappingURL=style.css.map */
