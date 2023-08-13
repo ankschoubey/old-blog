@@ -1,8 +1,10 @@
 ---
 layout: page
 title: 
-permalink: /test-first-development-series/
+permalink: /tdd/
 ---
+
+# Note: **The series is presently being developed, and you can follow along with the planned chapters as they become available.**
 
 ## Approaching TDD To Become a 5x Developer
 
@@ -10,7 +12,7 @@ Hi. Welcome to **Testing First Test Everything** series. In this series of artic
 
 1. You always produce logical bug-free code.
 2. You produce extremely maintainable code.
-3. You code at a fast speed.
+3. You will code at a fast speed.
 4. You produce automatic documentation for anyone else to read.
 
 I was a pretty good developer when I learned TDD, but after I spend around 2-3 months learning TDD, I saw that my coding skills became way too sharp. This series covers the philosophy of TDD along with practical examples.
@@ -43,7 +45,7 @@ Here's the index
 
 #2 - Role of Language and Clear Thinking in Software Development and Tests
 
-#3 - Backend Handson: Case of Upsert
+#3 - ***[Backend Hands-on: Case of Upsert](/tdd-example-on backend)**: Learn the foundation of TDD with a simple example explained in depth.
 
 #4 - How to make TDD natural?
 

@@ -8,6 +8,7 @@ last-modified-purpose:
 permalink: /testing-design-patterns/
 title: How to test interfaces, abstract classes and design patterns?
 image: /images/testing-design-patterns.jpg
+image-fit: contain
 ---
 ![](/images/testing-design-patterns.jpg)
 

@@ -9,6 +9,7 @@ use_math: true
 last_modified_at: 2020-05-25T20:42:15.220865
 permalink: /creating-an-excel-like-language/
 image: https://upload.wikimedia.org/wikipedia/commons/e/e2/Spreadsheet.png
+image-fit: contain
 ---
 
 I had the opportunity to be part of a team that created a programming language. Building a programming language includes too many steps and it’ll be unfair of me to say I know all of it. Therefore, I have added many resources that I used at the end of this article.

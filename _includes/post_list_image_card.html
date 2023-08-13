@@ -2,7 +2,9 @@
 <div class="Box box-shadow-medium rounded-1 col-12">
     {%- if post.image -%}
     <div class="col-4 d-table-cell v-align-middle img-div">
-        <img class="image-preview " src="{{ post.image | relative_url }}" loading="lazy" />
+        <img class="image-preview" 
+        style="object-fit: {{ post.image-fit ? post.image-fit : 'cover' }}" 
+        src="{{ post.image | relative_url }}" loading="lazy" />
       </div>
     {%- endif -%}
     <div class="col-8 d-table-cell p-3">
@@ -11,7 +13,7 @@
             {{ post.title | escape }}
           </span>
         </h3>
-        <p class="post-meta-description">{{ post.description }}</p>
+      <p class="post-meta-description">{{ post.description }}</p>
           {%- if post.read-this-when -%}
           <p class="post-meta-description post-read-this-when">{{ post.read-this-when }}</p>
           {%- endif -%}
