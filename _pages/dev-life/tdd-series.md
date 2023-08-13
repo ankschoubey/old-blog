@@ -4,9 +4,12 @@ title:
 permalink: /tdd/
 ---
 
-# Note: **The series is presently being developed, and you can follow along with the planned chapters as they become available.**
+# Test First Test Everything
 
 ## Approaching TDD To Become a 5x Developer
+
+### Note: **The series is presently being developed, and you can follow along with the planned chapters as they become available.**
+
 
 Hi. Welcome to **Testing First Test Everything** series. In this series of articles, you'll learn how you can increase your development skill by 5 times by learning something that ensures:
 
