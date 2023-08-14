@@ -185,6 +185,8 @@ Now that our code is written. As you can see, it didn't take a lot to pass our f
 
 Sometimes, it may seem trivial to write a test for a one-liner. But stick with TDD. The goal here isn't the present. It's future maintainability as multiple developers work on the same codebase and modify behavior. Our tests ensure that our expected behavior is preserved. Later in this blog post, I'll introduce a scenario where we have to modify the test, and you'll see how the test helps.
 
+{% include email_signup_midpost.html title="TDD example on a backend - Upsert Method" %}
+
 ## Step 4: Run the test
 
 Now that the code is written, run the test and you'll hopefully see the scenario pass.

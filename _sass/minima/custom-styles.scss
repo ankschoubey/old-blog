@@ -426,3 +426,37 @@ a.page-link[href="/resume"] {
     background: #d6205c;
     color: white;
 }
+div#mc_embed_signup{
+    width: auto !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+form#mc_embed_signup{
+    max-width: 800px !important;
+}
+#mc_embed_signup{
+    background-color: #fff0 !important;
+}
+#mc_embed_signup .mc-field-group{
+    padding-bottom: 0% !important;
+}
+
+#mc_embed_signup h2{
+    margin: 0px !important;
+}
+#mc_embed_signup .brandingLogo{
+    display: none !important;
+}
+#mc_embed_signup .mc-field-group.input-group ul li {
+    display: flex !important;
+    gap: 9px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    #mc_embed_signup{
+        flex-direction: column;
+    }
+}
