@@ -10,7 +10,6 @@ permalink: /tdd/
 
 ### Note: **The series is presently being developed, and you can follow along with the planned chapters as they become available.**
 
-
 Hi. Welcome to **Testing First Test Everything** series. In this series of articles, you'll learn how you can increase your development skill by 5 times by learning something that ensures:
 
 1. You always produce logical bug-free code.
@@ -48,7 +47,7 @@ Here's the index
 
 #2 - Role of Language and Clear Thinking in Software Development and Tests
 
-#3 - [Thinking and writing cleaner tests with method/when/should blocks](https://www.ankushchoubey.com/method-when-should/): A template for thinking and creating understandable uniform tests
+#3 - **[Thinking and writing cleaner tests with method/when/should blocks](https://www.ankushchoubey.com/method-when-should/)**: A template for thinking and creating understandable uniform tests
 
 #4 - **[Backend Hands-on: Case of Upsert](/tdd-backend-example)**: Learn the foundation of TDD with a simple example explained in depth.
 
@@ -92,7 +91,7 @@ Here's the index
 
 #5 - TDD Tools: Spring Boot
 
-#6 - [Speeding Up Spring Boot/JUnit tests](https://www.ankushchoubey.com/spring-boot-junit-faster/): From 8 minutes to less than 3 minutes.
+#6 - **[Speeding Up Spring Boot/JUnit tests](https://www.ankushchoubey.com/spring-boot-junit-faster/)**: From 8 minutes to less than 3 minutes.
 
 ## TDD Level 4: Testing Everything++
 
