@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description: 
+description: Data validation at various stages minimizes bugs and unnecessary overhead, ensuring consistent and accurate information flow.
 categories: [data, clean-code]
 last_modified_at: 2022-12-27T20:52:08.052481
 last-modified-purpose: added "Validate on the database"

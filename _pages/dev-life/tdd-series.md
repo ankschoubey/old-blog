@@ -48,9 +48,11 @@ Here's the index
 
 #2 - Role of Language and Clear Thinking in Software Development and Tests
 
-#3 - **[Backend Hands-on: Case of Upsert](/tdd-backend-example)**: Learn the foundation of TDD with a simple example explained in depth.
+#3 - [Thinking and writing cleaner tests with method/when/should blocks](https://www.ankushchoubey.com/method-when-should/): A template for thinking and creating understandable uniform tests
 
-#4 - How to make TDD natural?
+#4 - **[Backend Hands-on: Case of Upsert](/tdd-backend-example)**: Learn the foundation of TDD with a simple example explained in depth.
+
+#5 - How to make TDD natural?
 
 #5 - Should you care about test coverage when doing TDD?
 
@@ -66,17 +68,17 @@ Here's the index
 
 #3 - Special Focus on designing with TDD
 
-#4 - Pre-save Data Validations
+#4 - **[Pre-save Data Validation](https://www.ankushchoubey.com/pre-save-data-validation/)**: Data validation at various stages minimizes bugs and unnecessary overhead, ensuring consistent and accurate information flow.
 
 #5 - Avoid Mocks
 
-#6 - Write cleaner tests with Test Data Factories
+#6 - **[Writing cleaner tests with Test Data Factories](https://www.ankushchoubey.com/test-data-factories/)**: Consolidating object creation, mock of methods and more.
 
-#7 - Using creative variable names for descriptive tests
+#7 - **[Writing cleaner tests with creative variable names](https://www.ankushchoubey.com/creative-variable-names/)**: Creative variable names in tests can make them fun and interesting to read.
 
-#8 - Tooling TDD with Jest
+#8 - **[Writing Cleaner tests with Fluent Assertions](https://www.ankushchoubey.com/fluent-assertions/)**: Fluent Assertions make tests highly readable and English-like, presenting a concise structure that simplifies comprehension
 
-#9 - TDD of frontend in React
+#10 **[TDD over JSON](https://www.ankushchoubey.com/tdd-over-json/)**: TDD Example that saved around 2 hours
 
 ## TDD Level 3: Red Flags and Tools 🚩
 
@@ -90,11 +92,15 @@ Here's the index
 
 #5 - TDD Tools: Spring Boot
 
+#6 - [Speeding Up Spring Boot/JUnit tests](https://www.ankushchoubey.com/spring-boot-junit-faster/): From 8 minutes to less than 3 minutes.
+
 ## TDD Level 4: Testing Everything++
 
-#1 - Testing Configurations
+#1 - **[How to test interfaces, abstract classes and design patterns?](https://www.ankushchoubey.com/testing-design-patterns/)**: Testing interfaces, abstract classes, and design patterns efficiently can be tricky since parents and children depend on each other. We can write tests to eliminate these dependencies during the test time, making our tests very short and decoupled.
 
-#2 - Increasing Maintainability within a team by Testing Architecture with Arch Test.
+#2 - **[Automate Validation of Your Configurations](https://www.ankushchoubey.com/v1/validate-configuration)**: With TDD, you don't find any logical bugs. The remaining types of bugs are data bugs and configuration bugs. This article discusses configuration validations to find and fix config bugs.
+
+#3 - **[Increasing Maintainability within a team by enforcing Architecture with Architecture Testing](https://www.ankushchoubey.com/architecture-testing/)**: Architecture is a crucial pillar of accelerating product delivery. It's hard to keep a team in sync with architecture over time. Architectural testing can enforce architectural decisions as simple tests, dramatically reducing code review effort and extending code maintainability.
 
 ## Beyond TDD
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description:
+description: Creative variable names in tests can make them fun and interesting to read.
 categories: [testing, clean-code]
 last_modified_at: 2022-06-25T20:52:08.052481
 last-modified-purpose:
