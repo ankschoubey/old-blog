@@ -172,7 +172,7 @@ window.onload = wrap_img;
       • <span class="read-time" title="Estimated read time">
     
     
-      11 min read
+      12 min read
     
 </span></p>
 
@@ -379,6 +379,61 @@ window.onload = wrap_img;
 <p>Now that our code is written. As you can see, it didn’t take a lot to pass our failing test. We just needed one line. But writing the test ensures that it always passes.</p>
 
 <p>Sometimes, it may seem trivial to write a test for a one-liner. But stick with TDD. The goal here isn’t the present. It’s future maintainability as multiple developers work on the same codebase and modify behavior. Our tests ensure that our expected behavior is preserved. Later in this blog post, I’ll introduce a scenario where we have to modify the test, and you’ll see how the test helps.</p>
+
+<div id="mc_embed_shell" style="border: 10px solid; margin: 100px 0px; padding: 20px;">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+      #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+    <img src="/images/signup.jpg" style="width: 50%;object-fit: contain;"> 
+    <a style="display: none;" href="https://www.freepik.com/free-vector/email-campaign-concept-illustration_7367537.htm#query=sign%20up%20email&amp;position=1&amp;from_view=search&amp;track=ais">Image by storyset on Freepik</a>
+  <form action="https://ankushchoubey.us21.list-manage.com/subscribe/post?u=787ccdfb3a0c625c1830ac78a&id=51f57ce68a&f_id=002959e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+      <div id="mc_embed_signup_scroll">
+        <h2>If you liked this blogpost on "TDD example on a backend - Upsert Method" you'll also like my other blogposts.</h2>
+        <h3>Keep the exploration alive – subscribe to my mailing list and receive more articles like this one</h3>
+          <div class="indicates-required">
+<span class="asterisk">*</span> indicates required</div>
+          <div class="mc-field-group">
+            <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text">Your email ids will not be shared with anyone.</span>
+</div>
+<div class="mc-field-group input-group">
+<strong>Type of content you are interested in? <span class="asterisk">*</span></strong>
+                <ul>
+<li>
+<input type="radio" name="MMERGE6" id="mce-MMERGE60" value="Programming"><label for="mce-MMERGE60">Programming</label>
+</li>
+<li>
+<input type="radio" name="MMERGE6" id="mce-MMERGE61" value="Philosophy"><label for="mce-MMERGE61">Philosophy</label>
+</li>
+<li>
+<input type="radio" name="MMERGE6" id="mce-MMERGE62" value="Both"><label for="mce-MMERGE62">Both</label>
+</li>
+</ul>
+<span id="mce-MMERGE6-HELPERTEXT" class="helper_text">I'll send only those blogposts that are interesting to you.</span>
+</div>
+      <div id="mce-responses" class="clear foot">
+          <div class="response" id="mce-error-response" style="display: none;"></div>
+          <div class="response" id="mce-success-response" style="display: none;"></div>
+      </div>
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+      /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+      <input type="text" name="b_787ccdfb3a0c625c1830ac78a_51f57ce68a" tabindex="-1" value="">
+  </div>
+      <div class="optionalParent">
+          <div class="clear foot">
+              <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+              <p style="margin: 0px auto; display: none;"><a href="http://eepurl.com/iwHRjY" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
+          </div>
+      </div>
+  </div>
+</form>
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[6]='MMERGE6';ftypes[6]='radio';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+</div>
 
 <h2 id="step-4-run-the-test">Step 4: Run the test</h2>
 
