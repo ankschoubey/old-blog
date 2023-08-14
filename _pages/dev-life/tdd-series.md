@@ -48,7 +48,7 @@ Here's the index
 
 #2 - Role of Language and Clear Thinking in Software Development and Tests
 
-#3 - ***[Backend Hands-on: Case of Upsert](/tdd-example-on backend)**: Learn the foundation of TDD with a simple example explained in depth.
+#3 - **[Backend Hands-on: Case of Upsert](/tdd-backend-example)**: Learn the foundation of TDD with a simple example explained in depth.
 
 #4 - How to make TDD natural?
 
