@@ -460,3 +460,34 @@ form#mc_embed_signup{
         flex-direction: column;
     }
 }
+a.page-link[href='/tdd/']:before {
+    content: "aaaa";
+    text-decoration: none;
+    color: transparent;
+    background: url(https://docs.google.com/drawings/d/e/2PACX-1vSGO5rFL3qYcv9A3MqPmQugwSe8Uq_G-x61Vbl4WahP3XIuaSSC44WhgilrlL-seXBtNvefWG-DZZCA/pub?w=1455&h=1097);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 2ch;
+}
+a.page-link[href='/tdd/']:hover{
+    animation-name: tddColorPalette;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+@keyframes tddColorPalette {
+	0% {
+		background: hsl(270, 82%, 63%);
+	}
+	33% {
+		background: red;
+	}
+	66% {
+		background: green;
+	}
+	100% {
+		background: blue;
+	}
+}

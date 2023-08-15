@@ -1,4 +1,8 @@
 <div class="flash announce-block" >
     {% octicon megaphone %}
-    <strong>Announcement: </strong> <a href="{{include.href}}">{{ include.content }}</a>
+    <strong>Announcement: </strong> <a href="{{include.href}}">{{ include.content }}     {% if include.image%}
+        <img style="
+        background: #f0f8ff00;
+        max-width: 300px;" src="{{include.image}}">
+    {% endif %}</a>
 </div>
