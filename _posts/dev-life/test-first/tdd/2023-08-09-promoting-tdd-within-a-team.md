@@ -10,8 +10,6 @@ image: /images/promote-tdd-in-a-team.jpg
 title: How to promote the habit of TDD within a Team
 ---
 
-{% include announcement-tdd.html %}
-
 When you do TDD yourself, you'd have improved your code quality, reduced the number of bugs you produce, and become faster at development.
 
 At the same time, it's likely that developers that don't code with TDD, are doing less than they could.
@@ -141,8 +139,6 @@ For Code Coverage, keep your minimum code coverage for your build pipeline to 85
 Test Format verification would help generate cleaner and more consistent tests. Add the equivalent of the ArchUnit test in your Java code. When someone doesn't follow the test format, this test should fail.
 
 You can find the ArchTest for verifying the given/when/then pattern in the blog post on [method/when/then style](https://www.ankushchoubey.com/method-when-should/).
-
-{% include announcement-tdd.html %}
 
 [^1]: Rewording Naval Ravikant "Happiness is the skill that you develop and the choice that you make"
 

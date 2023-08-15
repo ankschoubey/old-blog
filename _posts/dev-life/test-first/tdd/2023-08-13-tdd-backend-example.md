@@ -11,8 +11,6 @@ image-fit: contain
 title: TDD example on a backend - Upsert Method
 ---
 
-{% include announcement-tdd.html %}
-
 The upsert method is one of my favorite examples to teach when explaining TDD. It's simple easy and gets the point across.
 
 This article is about backend TDD testing. The same applied to the front end but we'll see it in a different post. The example presented is using Spring Boot, but you can do this in any language.
@@ -381,5 +379,3 @@ Later, we realized a new problem in our code, and replicated it,
 You have learned something that's truly the foundation of writing good code. In upcoming blog posts, we'll see how to test REST APIs, frontends, etc.
 
 If you have any questions, suggestions, or observations or just want to connect, feel free to use the comments box below! Your knowledge-sharing will be helpful to everyone.
-
-{% include announcement-tdd.html %}
