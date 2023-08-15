@@ -31,6 +31,8 @@ In MongoDB, terms this is called an "upsert" operation. So we'll try to write an
 
 ## Getting Started
 
+![TDD Flow](/images/tdd.png)
+
 //TODO explain the process we will follow
 
 ### Step 1: Skeletal

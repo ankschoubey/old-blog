@@ -1,14 +1,27 @@
 ---
 layout: page
-title: 
+title: Test First Test Everything
 permalink: /tdd/
 ---
-
-# Test First Test Everything
 
 ## Approaching TDD To Become a 5x Developer
 
 ### Note: **The series is presently being developed, and you can follow along with the planned chapters as they become available.**
+
+![TDD Flow](/images/tdd.png)
+
+<!-- 
+
+```mermaid!
+flowchart LR
+    Think[fa:fa-brain Think] --> Test[fa:fa-vial-circle-check Test] --> Code[fa:fa-code Code] --> Refactor[fa:fa-clone Refactor] --> Think
+    style Test fill:#EE4B2B,color:white;
+    style Code fill:green,color:white;
+    style Refactor fill:#007FFF,color:white;
+    style Think fill:purple,color:white;
+```
+
+ -->
 
 Hi. Welcome to **Testing First Test Everything** series. In this series of articles, you'll learn how you can increase your development skill by 5 times by learning something that ensures:
 
@@ -38,6 +51,9 @@ Here's the index
 #4 - TDD: The AHA Movement with TDD
 
 #5 - **[Philosophy Testing in Other Areas Beyond Software](https://www.ankushchoubey.com/testing/)**: Testing serves as essential insurance, safeguarding accuracy and progress by identifying issues efficiently through frequent, automated processes, much like double-entry bookkeeping.
+- **[Question Driven Writing](https://www.ankushchoubey.com/question-driven-writing/)**: Improving quality and speed of writing by transferring a well-known software development practice.
+
+#6 - This post will be re-written: **[Human Intuition while working in Technology](https://www.ankushchoubey.com/human-intuition/)**
 
 #6 - Developing a Testing Mindset
 
@@ -89,9 +105,9 @@ Here's the index
 
 ## TDD Level 3: Red Flags and Tools 🚩
 
-#1 - TDD Read Flag: Why you shouldn't even start your application during development?
+#1 - TDD Red Flag: Why you shouldn't even start your application during development?
 
-#2 - TDD Read Flag: I'll write the TDD later
+#2 - TDD Red Flag: I'll write the TDD later
 
 #3 - TDD Tools: Jest
 
@@ -119,7 +135,7 @@ Here's the index
 
 #4 - **[You are really doing BDD when](https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when)**
 
-#4 - [BDD vs UI/UX/TDD - Understanding the Key Differences for Customer-Centric Problem Solving](https://www.ankushchoubey.com/v1/bdd-vs-tdd)
+#4 - [**BDD vs UI/UX/TDD** - Understanding the Key Differences for Customer-Centric Problem Solving](https://www.ankushchoubey.com/v1/bdd-vs-tdd)
 
 ## Beyond TDD
 
@@ -127,4 +143,11 @@ Here's the index
 
 #2 - [**Promoting TDD within a Team**](/promote-tdd-in-a-team): Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.
 
-#3 - Going forward; Testing Everything
+#3 - To be refactored: **[Going forward; Testing Everything](/after-tdd)**
+
+#4 - **[Ideal Development Workflow](https://www.ankushchoubey.com/dev-workflow/)**: From card picking to release
+
+#5 - **[Mutation Testing](https://www.ankushchoubey.com/mutation-testing/)**
+
+#6 - **[Chaos Engineering](https://www.ankushchoubey.com/chaos-engineering/)**: A powerful way to increase resilence of a system
+

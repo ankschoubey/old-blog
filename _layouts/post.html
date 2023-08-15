@@ -99,12 +99,16 @@ layout: base
   </div>
 </header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  {% if page.categories contains "tdd" %}   
+    {% include announcement-tdd.html %}
+  {% endif %}
   <div class="post-content e-content" itemprop="articleBody">
     {{ content | toc }}
   </div>
-
+  {% if page.categories contains "tdd" %}   
+    {% include announcement-tdd.html %}
+  {% endif %}
   {%- include email_signup.html -%}
-  
   {%- if site.disqus.shortname -%}
   {%- include disqus_comments.html -%}
   {%- endif -%}

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [database, mongodb, spring-boot, tdd-example]
+categories: [database, mongodb, spring-boot, tdd, tdd-example]
 last_modified_at: 2022-04-16T20:52:08.052481
 last-modified-purpose:
 permalink: /optimistic-locking-exception-mongodb/

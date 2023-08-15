@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [testing]
+categories: [testing, tdd]
 last_modified_at: 2022-03-26T20:52:08.052481
 last-modified-purpose:
 permalink: /encounter-a-bug/

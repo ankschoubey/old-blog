@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: 
-categories: [testing, clean-code]
+categories: [testing, clean-code, tdd]
 last_modified_at: 2022-08-07T20:52:08.052481
 last-modified-purpose:
 permalink: /mutation-testing/

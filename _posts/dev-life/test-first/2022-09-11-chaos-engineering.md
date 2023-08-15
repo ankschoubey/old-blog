@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: A powerful way to increase resilence of a system
-categories: [chaos-engineering]
+categories: [chaos-engineering, tdd]
 last_modified_at: 2022-09-11T20:52:08.052481
 last-modified-purpose:
 permalink: /chaos-engineering/

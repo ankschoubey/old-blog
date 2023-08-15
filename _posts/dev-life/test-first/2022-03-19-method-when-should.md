@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: A template for thinking and creating understandable uniform tests
-categories: [testing, clean-code, favorite]
+categories: [testing, clean-code, favorite, tdd]
 last_modified_at: 2022-03-19T20:52:08.052481
 last-modified-purpose:
 permalink: /method-when-should/
