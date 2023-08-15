@@ -43,7 +43,7 @@ Here's the index
 
 ## TDD Level 1: Beginner
 
-#1 - Understanding the three laws of TDD in Depth
+#1 - This article will be refactored! **[Understanding the three laws of TDD in Depth](https://www.ankushchoubey.com/making-tdd-easy/)**
 
 #2 - Role of Language and Clear Thinking in Software Development and Tests
 
@@ -69,7 +69,7 @@ Here's the index
 
 #4 - **[Pre-save Data Validation](https://www.ankushchoubey.com/pre-save-data-validation/)**: Data validation at various stages minimizes bugs and unnecessary overhead, ensuring consistent and accurate information flow.
 
-#5 - Avoid Mocks
+#5 - **[Avoid Mocks and understand the blurry lines between Unit and Integration Tests](https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/)**: The distinction between unit and integration tests blurs with embedded implementations, combining accuracy from both while overcoming limitations of traditional mocks and infra-heavy integration tests.
 
 #6 - **[Writing cleaner tests with Test Data Factories](https://www.ankushchoubey.com/test-data-factories/)**: Consolidating object creation, mock of methods and more.
 
@@ -77,7 +77,15 @@ Here's the index
 
 #8 - **[Writing Cleaner tests with Fluent Assertions](https://www.ankushchoubey.com/fluent-assertions/)**: Fluent Assertions make tests highly readable and English-like, presenting a concise structure that simplifies comprehension
 
-#10 **[TDD over JSON](https://www.ankushchoubey.com/tdd-over-json/)**: TDD Example that saved around 2 hours
+#10 - **[TDD over JSON](https://www.ankushchoubey.com/tdd-over-json/)**: TDD Example that saved around 2 hours
+
+#11 - **[JUnit Template For Tracking Bugs in Unit Tests](https://www.ankushchoubey.com/v1/junit-bug-tracking)**
+
+## TDD Level 3: TDD With time
+
+#1 - **[Whenever you encounter a bug](https://www.ankushchoubey.com/encounter-a-bug/)**
+
+#2 - **[My current approach to TDD](https://www.ankushchoubey.com/current-tdd-approach/)**
 
 ## TDD Level 3: Red Flags and Tools 🚩
 
@@ -100,6 +108,18 @@ Here's the index
 #2 - **[Automate Validation of Your Configurations](https://www.ankushchoubey.com/v1/validate-configuration)**: With TDD, you don't find any logical bugs. The remaining types of bugs are data bugs and configuration bugs. This article discusses configuration validations to find and fix config bugs.
 
 #3 - **[Increasing Maintainability within a team by enforcing Architecture with Architecture Testing](https://www.ankushchoubey.com/architecture-testing/)**: Architecture is a crucial pillar of accelerating product delivery. It's hard to keep a team in sync with architecture over time. Architectural testing can enforce architectural decisions as simple tests, dramatically reducing code review effort and extending code maintainability.
+
+## TDD Level 5: BDD
+
+#1 - **[The Gist of Behavior Driven Development - BDD](https://www.ankushchoubey.com/bdd/)**: The process that keeps everyone in sync
+
+#2 - **[The need for executable specifications](https://www.ankushchoubey.com/need-for-executable-specification/)**: Ideas shape development; specs sync teams; Gherkin tests ensure precision.
+
+#3 - **[Writing better BDD specifications](https://www.ankushchoubey.com/writing-better-specs/)**
+
+#4 - **[You are really doing BDD when](https://www.ankushchoubey.com/v1/you-are-following-good-bdd-when)**
+
+#4 - [BDD vs UI/UX/TDD - Understanding the Key Differences for Customer-Centric Problem Solving](https://www.ankushchoubey.com/v1/bdd-vs-tdd)
 
 ## Beyond TDD
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description:
+description: Ideas shape development; specs sync teams; Gherkin tests ensure precision.
 categories: [bdd, product-development]
 last_modified_at: 2022-05-21T20:52:08.052481
 last-modified-purpose:
