@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Fluent Assertions make tests highly readable and English-like, presenting a concise structure that simplifies comprehension
-categories: [testing, clean-code]
+categories: [testing, tdd, clean-code]
 last_modified_at: 2022-05-03T20:52:08.052481
 last-modified-purpose:
 permalink: /fluent-assertions/

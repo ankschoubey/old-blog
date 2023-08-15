@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description:
-categories: [testing, software-engineering, product-development, bdd]
+categories: [testing, software-engineering, product-development, bdd, tdd]
 last_modified_at: 2022-08-14T20:52:08.052481
 last-modified-purpose:
 permalink: /writing-better-specs/

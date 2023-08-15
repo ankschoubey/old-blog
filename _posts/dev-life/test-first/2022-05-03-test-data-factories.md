@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: Consolidating object creation, mock of methods and more.
-categories: [testing, clean-code]
+categories: [testing, clean-code, tdd]
 last_modified_at: 2022-05-03T20:52:08.052481
 last-modified-purpose:
 permalink: /test-data-factories/

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 description: From 8 minutes to less than 3 minutes.
-categories: [spring-boot, testing]
+categories: [spring-boot, tdd, testing]
 last_modified_at: 2022-07-30T20:52:08.052481
 last-modified-purpose:
 permalink: /spring-boot-junit-faster/
