@@ -6,21 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Blurry lines between Unit and Integration Tests | Ankush Choubey</title>
+<title>Avoid Mocks and understand the blurry lines between Unit and Integration Tests | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Blurry lines between Unit and Integration Tests">
+<meta property="og:title" content="Avoid Mocks and understand the blurry lines between Unit and Integration Tests">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Problem with Mocks in Unit Testing">
-<meta property="og:description" content="Problem with Mocks in Unit Testing">
+<meta name="description" content="The distinction between unit and integration tests blurs with embedded implementations, combining accuracy from both while overcoming limitations of traditional mocks and infra-heavy integration tests.">
+<meta property="og:description" content="The distinction between unit and integration tests blurs with embedded implementations, combining accuracy from both while overcoming limitations of traditional mocks and infra-heavy integration tests.">
 <link rel="canonical" href="https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/">
 <meta property="og:url" content="https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/">
 <meta property="og:site_name" content="Ankush Choubey">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-04-03T00:00:00-05:00">
 <meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="Blurry lines between Unit and Integration Tests">
+<meta property="twitter:title" content="Avoid Mocks and understand the blurry lines between Unit and Integration Tests">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-03T15:52:08-05:00","datePublished":"2022-04-03T00:00:00-05:00","description":"Problem with Mocks in Unit Testing","headline":"Blurry lines between Unit and Integration Tests","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/"},"url":"https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-03T15:52:08-05:00","datePublished":"2022-04-03T00:00:00-05:00","description":"The distinction between unit and integration tests blurs with embedded implementations, combining accuracy from both while overcoming limitations of traditional mocks and infra-heavy integration tests.","headline":"Avoid Mocks and understand the blurry lines between Unit and Integration Tests","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/"},"url":"https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -34,21 +34,21 @@
 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/787ccdfb3a0c625c1830ac78a/859c6d3b694fad02c3eff1603.js");</script><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Blurry lines between Unit and Integration Tests | Ankush Choubey</title>
+<title>Avoid Mocks and understand the blurry lines between Unit and Integration Tests | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Blurry lines between Unit and Integration Tests">
+<meta property="og:title" content="Avoid Mocks and understand the blurry lines between Unit and Integration Tests">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Problem with Mocks in Unit Testing">
-<meta property="og:description" content="Problem with Mocks in Unit Testing">
+<meta name="description" content="The distinction between unit and integration tests blurs with embedded implementations, combining accuracy from both while overcoming limitations of traditional mocks and infra-heavy integration tests.">
+<meta property="og:description" content="The distinction between unit and integration tests blurs with embedded implementations, combining accuracy from both while overcoming limitations of traditional mocks and infra-heavy integration tests.">
 <link rel="canonical" href="https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/">
 <meta property="og:url" content="https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/">
 <meta property="og:site_name" content="Ankush Choubey">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-04-03T00:00:00-05:00">
 <meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="Blurry lines between Unit and Integration Tests">
+<meta property="twitter:title" content="Avoid Mocks and understand the blurry lines between Unit and Integration Tests">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-03T15:52:08-05:00","datePublished":"2022-04-03T00:00:00-05:00","description":"Problem with Mocks in Unit Testing","headline":"Blurry lines between Unit and Integration Tests","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/"},"url":"https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-03T15:52:08-05:00","datePublished":"2022-04-03T00:00:00-05:00","description":"The distinction between unit and integration tests blurs with embedded implementations, combining accuracy from both while overcoming limitations of traditional mocks and infra-heavy integration tests.","headline":"Avoid Mocks and understand the blurry lines between Unit and Integration Tests","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/"},"url":"https://www.ankushchoubey.com/bluring-line-between-unit-integration-test/"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
@@ -157,7 +157,8 @@ window.onload = wrap_img;
 </style>
 
 <header class="post-header"><div class="post-header-content">
-    <h1 class="post-title p-name" itemprop="name headline">Blurry lines between Unit and Integration Tests</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Avoid Mocks and understand the blurry lines between Unit and Integration Tests</h1>
+<p class="page-description">The distinction between unit and integration tests blurs with embedded implementations, combining accuracy from both while overcoming limitations of traditional mocks and infra-heavy integration tests.</p>
 <p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-04-03T00:00:00-05:00" itemprop="datePublished">
         Apr 3, 2022
       </time>
