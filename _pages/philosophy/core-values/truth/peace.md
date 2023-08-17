@@ -69,6 +69,10 @@ Time Assets Vs Liabilities
 4. Let things be. The art of never hurrying.
 5. [Keep messages unread](/v1/messages-unread): The subtle art of not giving a fuck about stupid things.
 
+## Proactive Coping
+
+Healthy coping mechanisms https://trello.com/c/A9qRkf0I
+
 10. Conclusion
 
 Photo by <a href="https://unsplash.com/@s1awek?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Slawek K</a> on <a href="https://unsplash.com/s/photos/sun-rise?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

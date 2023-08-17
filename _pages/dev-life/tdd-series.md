@@ -67,13 +67,15 @@ Here's the index
 
 #4 - **[Backend Hands-on: Case of Upsert](/tdd-backend-example)**: Learn the foundation of TDD with a simple example explained in depth.
 
-#5 - How to make TDD natural?
+#5 - **[Backend Hands-on: TDD on REST API - CRUD](/tdd/rest-api-example)**: Extending our Movie example creating a REST API with TDD. Scenarios covered are Create, Read, Update and Delete.
 
-#5 - Should you care about test coverage when doing TDD?
+#6 - How to make TDD natural?
 
-#6 - What to test exactly?
+#7 - Should you care about test coverage when doing TDD?
 
-#7 - Switching between test and code rapidly.
+#8 - What to test exactly?
+
+#9 - Switching between test and code rapidly.
 
 ## TDD Level 2: Intermediate
 
