@@ -1,4 +1,426 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-08-15T11:13:30-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">TDD example on a backend - Upsert Method</title><link href="https://www.ankushchoubey.com/tdd-backend-example" rel="alternate" type="text/html" title="TDD example on a backend - Upsert Method" /><published>2023-08-13T00:00:00-05:00</published><updated>2023-08-13T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/tdd-backend-example</id><content type="html" xml:base="https://www.ankushchoubey.com/tdd-backend-example"><![CDATA[<p>The upsert method is one of my favorite examples to teach when explaining TDD. It’s simple easy and gets the point across.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-08-17T10:50:07-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">TDD example for REST API - CRUD</title><link href="https://www.ankushchoubey.com/tdd/rest-api-example" rel="alternate" type="text/html" title="TDD example for REST API - CRUD" /><published>2023-08-17T00:00:00-05:00</published><updated>2023-08-17T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/tdd/tdd-rest-api-example</id><content type="html" xml:base="https://www.ankushchoubey.com/tdd/rest-api-example"><![CDATA[<p>Before reading the current blog post, make sure you have read the previous blog post on <a href="https://www.ankushchoubey.com/tdd-backend-example" title="‌">TDD example on a backend with Upsert Method</a> as it provides explains the thinking and the TDD stages in depth. The same thinking and stages would be used in this blog post but this post won’t explain those steps in depth. Rather the post will focus on providing new information specific to REST APIs.</p>
+
+<p>Like the last post, this post will only focus on the TDD aspect and therefore will be lost on other aspects. In particular, for this post, it’s API Security and how HTTP Status and Responses are used. Though I’ll mention what could have been done better when I come to the post.</p>
+
+<h2 id="continuing-with-the-movie-example">Continuing with the Movie example</h2>
+
+<p>In the previous post on <a href="https://www.ankushchoubey.com/tdd-backend-example" title="‌">TDD on Upsert Method</a> we created a simple method in <strong>MovieService.java</strong> that can <strong>upsert</strong> data in the DB.</p>
+
+<p>The signature of the methods is as follows:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nc">Movie</span> <span class="nf">upsert</span><span class="o">(</span><span class="nc">Movie</span> <span class="n">movieToUpsert</span><span class="o">);</span>
+</code></pre></div></div>
+
+<p>Now that we have a service method, we want to view our <code class="language-plaintext highlighter-rouge">Movie</code> in a browser. While we will cover the frontend portion of the Movies application, let’s first focus on the backend API.</p>
+
+<p>We decide to create a simple CRUD operation on Movie. Let’s start with CREATE.</p>
+
+<h2 id="step-1-planning">Step 1: Planning</h2>
+
+<p>Planning is the first stage for us. The better we plan the less we’ll have to pivot later. In the upsert example, we planned and created a skeleton. Here we’ll plan and create a structure for our  APIs. This would be a mini-version of the API First Approach.</p>
+
+<p>While, I am writing the CRUD API signatures below, in real life I can plan directly within the test file using <a href="https://www.ankushchoubey.com/method-when-should/" title="‌">api/when/should blocks</a>. You’ll see the usage of the format in the APIs below.</p>
+
+<p>We need to CRUD for movies via REST. Our resource is <code class="language-plaintext highlighter-rouge">Movie</code> therefore our endpoint would be <code class="language-plaintext highlighter-rouge">/movies</code>.</p>
+
+<p>CRUD has 4 parts that are captured nicely by HTTP Methods.</p>
+
+<p>We’ll use the following:</p>
+
+<h3 id="create">Create</h3>
+
+<h4 id="request-format">Request Format</h4>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">POST /movies
+body {
+ "movieId": String,
+ "movieName": String
+}
+</span></code></pre></div></div>
+
+<h4 id="response-format">Response Format</h4>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">200 OK if successful in saving the movie
+</span></code></pre></div></div>
+
+<h3 id="read">Read</h3>
+
+<p>For Read, we’ll have two endpoints;</p>
+
+<h4 id="first-get-all-movies">First, get all movies</h4>
+
+<h5 id="request-format-1">Request Format</h5>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">GET /movies
+</span></code></pre></div></div>
+
+<h5 id="response-format-1">Response Format</h5>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">200 OK
+body [{
+ {
+   "movieId": "movie1",
+   "movieName": "name of movie2"
+ },
+ {
+  "movieId": "movie2",
+  "movieName": "name of movie 2"
+ },
+ ...
+}]
+</span></code></pre></div></div>
+
+<h4 id="second-to-get-a-specific-movie">Second, to get a specific movie</h4>
+
+<h5 id="request-format-2">Request Format</h5>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">GET /movies/{movieId}
+</span></code></pre></div></div>
+
+<h5 id="response-format-2">Response Format</h5>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">200 OK
+body {
+  "movieId": String,
+  "movieName": String
+}
+</span></code></pre></div></div>
+
+<h3 id="update">Update</h3>
+
+<h4 id="request-format-3">Request Format</h4>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">PUT /movies/{movieId}
+body {
+ "movieName": String
+}
+</span></code></pre></div></div>
+
+<h4 id="response-format-3">Response Format</h4>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">200 OK if successful in updating the movie
+</span></code></pre></div></div>
+
+<h3 id="delete">Delete</h3>
+
+<h4 id="request-format-4">Request Format</h4>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">DELETE /movies/{movieId}
+</span></code></pre></div></div>
+
+<h4 id="response-format-4">Response Format</h4>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">200 OK if successful in deleting the movie
+</span></code></pre></div></div>
+
+<p>Now that we have a plan for API signatures, we can start with writing CREATE.</p>
+
+<h2 id="step-2-tdd-on-first-scenario-create">Step 2: TDD on First Scenario: Create</h2>
+
+<p>In TDD, we always start with failing tests, however, in upsert as well as this blog post, we did planning first. An explicit plan helps get into TDD initially and it can serve as a good training wheel. Once you have crossed the training wheel, you can however use your test as a plan. And if you think about it, your tests are just a plan for your code will be written.</p>
+
+<p>Some tests are easier to write without a skeleton, testing REST APIs is one of these tests.</p>
+
+<p>We’ll start by writing a test for an endpoint that doesn’t exist. Then we’ll write the code. And then move to the next scenario.</p>
+
+<p>As discussed before, this post will be faster-paced than the previous TDD example.</p>
+
+<h4 id="failing-test">Failing test</h4>
+
+<p>In Spring Boot, Controllers defined the REST APIs. We’ll start with a <strong>MovieControllerTest</strong> file.</p>
+
+<p><strong>MovieControllerTest.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@SpringBootTest</span>
+<span class="kd">class</span> <span class="nc">MovieControllerTest</span><span class="o">{</span>
+ <span class="nd">@Autowired</span>
+ <span class="nc">WebTestClient</span> <span class="n">webTestClient</span><span class="o">;</span>
+ 
+ <span class="nd">@Autowired</span>
+ <span class="nc">MovieRepository</span> <span class="n">movieRepository</span><span class="o">;</span>
+
+ <span class="nd">@Nested</span>
+    <span class="nd">@Displayname</span><span class="o">(</span><span class="s">"POST /movies"</span><span class="o">)</span>
+    <span class="kd">class</span> <span class="nc">UpsertMethod</span><span class="o">{</span>
+        <span class="nd">@test</span>
+        <span class="nd">@displayname</span><span class="o">(</span><span class="s">"SHOULD insert movie in the database"</span><span class="o">)</span>
+        <span class="kt">void</span> <span class="nf">shouldInsertMovieInTheDatabase</span><span class="o">(){</span>
+            <span class="c1">// given: a movie</span>
+            <span class="nc">Movie</span> <span class="n">unsavedMovie</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Movie</span><span class="o">(</span><span class="s">"M1"</span><span class="o">,</span> <span class="s">"Avengers"</span><span class="o">);</span>
+         <span class="c1">// when: POST /movies is called</span>
+          <span class="nc">WebTestClient</span><span class="o">.</span><span class="na">Response</span> <span class="n">responseSpec</span> <span class="o">=</span> <span class="n">webTestClient</span><span class="o">.</span><span class="na">post</span><span class="o">()</span>
+           <span class="o">.</span><span class="na">url</span><span class="o">(</span><span class="s">"/movies"</span><span class="o">)</span>
+           <span class="o">.</span><span class="na">bodyValue</span><span class="o">(</span><span class="n">unsavedMovie</span><span class="o">)</span>
+           <span class="o">.</span><span class="na">exchange</span><span class="o">();</span>
+      <span class="c1">// then: response should be 200 OK</span>
+       <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectResponse</span><span class="o">().</span><span class="na">isOk</span><span class="o">()</span>
+       <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectBody</span><span class="o">().</span><span class="na">isEmpty</span><span class="o">();</span>
+            <span class="c1">// then: movies should get saved in the database.</span>
+                <span class="nc">Movie</span> <span class="n">movieFromDatabase</span> <span class="o">=</span> <span class="n">movieRepository</span><span class="o">.</span><span class="na">findById</span><span class="o">(</span><span class="n">unsavedMovie</span><span class="o">.</span><span class="na">getMovieId</span><span class="o">());</span>
+                <span class="n">assertThat</span><span class="o">(</span><span class="n">movieFromDatabase</span><span class="o">)</span>
+                    <span class="o">.</span><span class="na">isNotNull</span><span class="o">()</span>
+                    <span class="o">.</span><span class="na">isEqualTo</span><span class="o">(</span><span class="n">unsavedMovie</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span> 
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>In this test, we called a REST API, and then,</p>
+
+<ol>
+  <li>we validated if the response is 200 OK</li>
+  <li>we validated if the body is not present. Because this request just adds everything to the database, it need not return anything.</li>
+  <li>we check the database to see if the movie is saved.</li>
+</ol>
+
+<p>Now that we have written the test, when we run it, we’ll get a 404 NOT FOUND error because we haven’t implemented our API.</p>
+
+<p>Let’s write the code,</p>
+
+<p><strong>MovieController.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nd">@RestController</span>
+ <span class="nd">@RequestMapping</span><span class="o">(</span><span class="s">"/movies"</span><span class="o">)</span>
+ <span class="kd">class</span> <span class="nc">MovieController</span><span class="o">{</span>
+  <span class="nd">@Autowired</span>
+  <span class="nc">MovieService</span> <span class="n">movieService</span><span class="o">;</span>
+
+  <span class="nd">@PostMapping</span>
+  <span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">Movie</span><span class="o">&gt;</span> <span class="nf">postMovie</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="nc">Movie</span> <span class="n">unsavedMovie</span><span class="o">){</span>
+   <span class="nc">Movie</span> <span class="n">savedMovie</span> <span class="o">=</span> <span class="n">movieService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="n">unsavedMovie</span><span class="o">);</span>
+   <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">body</span><span class="o">(</span><span class="n">savedMovie</span><span class="o">);</span>
+  <span class="o">}</span>
+ <span class="o">}</span>
+</code></pre></div></div>
+
+<p>We run the code and see that our test fails, this is because we passed the body and we were expecting no body.</p>
+
+<p>We go ahead and modify our code.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nd">@PostMapping</span>
+  <span class="nc">ResponseEntity</span> <span class="nf">postMovie</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="nc">Movie</span> <span class="n">unsavedMovie</span><span class="o">){</span>
+   <span class="n">movieService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="n">unsavedMovie</span><span class="o">);</span>
+   <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">build</span><span class="o">();</span>
+  <span class="o">}</span>
+</code></pre></div></div>
+
+<p>We run the code again, and our code passes! We switch back to code up our new scenario.</p>
+
+<p>But before that, we remember, that for creation the response status should not be 200. <a href="https://www.ankushchoubey.com/good-rest-api-design/" title="‌">It should be 201 CREATED with a location header.</a>. So, we aren’t done yet, let’s make the change, starting first in the code.</p>
+
+<p>PAUSE. TDD is test-first. Modifying in code isn’t test-first. So, let’s modify the #testFirst.</p>
+
+<p>In the test, we change expecting 200 OK to 201 created and validate the location header.</p>
+
+<p>When doing 201 CREATED, we send the location header which points to the URL to access the newly created resource. Since we will have a READ endpoint at <code class="language-plaintext highlighter-rouge">/movies/{movieId}</code>. I have pointed to this location.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c1">// then: response should be 200 OK</span>
+  <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectResponse</span><span class="o">().</span><span class="na">isCreated</span><span class="o">();</span>
+  <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectResponse</span><span class="o">().</span><span class="na">expectHeader</span><span class="o">(</span><span class="s">"location"</span><span class="o">,</span> <span class="s">"/movies/"</span><span class="o">+</span><span class="n">movie</span><span class="o">.</span><span class="na">getMovieId</span><span class="o">());</span>
+  <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectBody</span><span class="o">().</span><span class="na">isEmpty</span><span class="o">();</span>
+</code></pre></div></div>
+
+<p>The others are short.</p>
+
+<h3 id="read-1">Read</h3>
+
+<p>We have two scenarios, first to get all movies and second to get a particular movie.</p>
+
+<p>We’ll do TDD for one scenario at a time. Starting with getting all movies</p>
+
+<p><strong>MoviesControllerTest.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nd">@Autowired</span>
+ <span class="nc">MovieService</span> <span class="n">movieService</span><span class="o">;</span>
+ 
+ <span class="nd">@Nested</span>
+    <span class="nd">@Displayname</span><span class="o">(</span><span class="s">"GET /movies"</span><span class="o">)</span>
+    <span class="kd">class</span> <span class="nc">GetMoviesMethod</span><span class="o">{</span>
+        <span class="nd">@test</span>
+        <span class="nd">@displayname</span><span class="o">(</span><span class="s">"SHOULD return all movies"</span><span class="o">)</span>
+        <span class="kt">void</span> <span class="nf">shouldReturnAllMoviesThatAreInDB</span><span class="o">(){</span>
+            <span class="c1">// given: a few movies in the database</span>
+         <span class="nc">Movie</span> <span class="n">avengers</span> <span class="o">=</span> <span class="n">movieService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="k">new</span> <span class="nc">Movie</span><span class="o">(</span><span class="s">"M1"</span><span class="o">,</span> <span class="s">"Avengers"</span><span class="o">));</span>
+         <span class="nc">Movie</span> <span class="n">oppenheimer</span> <span class="o">=</span> <span class="n">movieService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="k">new</span> <span class="nc">Movie</span><span class="o">(</span><span class="s">"M2"</span><span class="o">,</span> <span class="s">"Oppenheimer"</span><span class="o">));</span>
+         <span class="c1">// when: GET /movies is called</span>
+          <span class="nc">WebTestClient</span><span class="o">.</span><span class="na">Response</span> <span class="n">responseSpec</span> <span class="o">=</span> <span class="n">webTestClient</span><span class="o">.</span><span class="na">get</span><span class="o">()</span>
+           <span class="o">.</span><span class="na">url</span><span class="o">(</span><span class="s">"/movies"</span><span class="o">)</span>
+           <span class="o">.</span><span class="na">exchange</span><span class="o">();</span>
+      <span class="c1">// then: response should be 200 OK</span>
+       <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectResponse</span><span class="o">().</span><span class="na">isOk</span><span class="o">()</span>
+       <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Movie</span><span class="o">&gt;</span> <span class="n">responseBody</span> <span class="o">=</span> <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectBody</span><span class="o">().</span><span class="na">ofType</span><span class="o">(</span><span class="k">new</span> <span class="nc">TypedReference</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Movie</span><span class="o">&gt;&gt;);</span>
+            <span class="c1">// then: movies should get saved in the database.</span>
+              <span class="n">assertThat</span><span class="o">(</span><span class="n">responseBody</span><span class="o">)</span>
+               <span class="o">.</span><span class="na">hasSize</span><span class="o">(</span><span class="mi">2</span><span class="o">)</span>
+               <span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="n">avengers</span><span class="o">,</span> <span class="n">oppenheimer</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span> 
+</code></pre></div></div>
+
+<p>You may have noticed I set the variables as <code class="language-plaintext highlighter-rouge">avengers</code> and <code class="language-plaintext highlighter-rouge">oppenheimer</code>. I find writing the variable names related to domain or movies <a href="https://www.ankushchoubey.com/creative-variable-names/" title="‌">keeps tests interesting and fun, and at the same time</a>, it’s closer to the actual movie domain.</p>
+
+<p>Let’s write the code,</p>
+
+<p><strong>MovieController.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nd">@RestController</span>
+ <span class="nd">@RequestMapping</span><span class="o">(</span><span class="s">"/movies"</span><span class="o">)</span>
+ <span class="kd">class</span> <span class="nc">MovieController</span><span class="o">{</span>
+  <span class="nd">@Autowired</span>
+  <span class="nc">MovieService</span> <span class="n">movieService</span><span class="o">;</span>
+  
+  <span class="c1">// POST /movies code is here</span>
+ 
+  <span class="nd">@GetMapping</span>
+  <span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Movie</span><span class="o">&gt;&gt;</span> <span class="nf">getMovies</span><span class="o">(){</span>
+   <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">body</span><span class="o">(</span><span class="n">movieService</span><span class="o">.</span><span class="na">getAll</span><span class="o">());</span>
+  <span class="o">}</span>
+ <span class="o">}</span>
+</code></pre></div></div>
+
+<p>Actually, we forgot to add <code class="language-plaintext highlighter-rouge">getAll</code> method in the movie service. At this point, we’ll go ahead and write a <code class="language-plaintext highlighter-rouge">MovieService::getAll</code> test and then the method while following TDD.  After that’s done we’ll come to the controller test again and run it and fix it until it passes.</p>
+
+<h2 id="lets-pause">Let’s pause</h2>
+
+<p>I guess you get the point.</p>
+
+<p>Every time we write the test first even if it’s a small change. And even when we need to add new methods to an existing class.</p>
+
+<p>There is a one-on-one mapping between the code and its test. So</p>
+
+<ul>
+  <li><strong>MovieController</strong> -&gt; <strong>MovieControllerTest</strong>.</li>
+  <li><strong>MovieService</strong> -&gt; <strong>MovieServiceTest</strong> (<a href="https://www.ankushchoubey.com/tdd-backend-example" title="‌">MovieService was covered in the previous post on Upsert</a>)
+//TODO</li>
+</ul>
+
+<p>In the rest of the blogpost I’ll just write test and code, just glance through it to understand it. It’s pretty simple. If you have doubts, you always write a comment and I’ll respond and update the post if needed.</p>
+
+<p>GET a single movie</p>
+
+<p><strong>MovieControllerTest.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nd">@Nested</span>
+    <span class="nd">@Displayname</span><span class="o">(</span><span class="s">"GET /movies/{movieId}"</span><span class="o">)</span>
+    <span class="kd">class</span> <span class="nc">GetMoviesMethod</span><span class="o">{</span>
+        <span class="nd">@test</span>
+        <span class="nd">@displayname</span><span class="o">(</span><span class="s">"SHOULD return a single movie"</span><span class="o">)</span>
+        <span class="kt">void</span> <span class="nf">shouldReturnAllMoviesThatAreInDB</span><span class="o">(){</span>
+            <span class="c1">// given: a few movies in the database</span>
+         <span class="nc">Movie</span> <span class="n">oppenheimer</span> <span class="o">=</span> <span class="n">movieService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="k">new</span> <span class="nc">Movie</span><span class="o">(</span><span class="s">"M2"</span><span class="o">,</span> <span class="s">"Oppenheimer"</span><span class="o">));</span>
+         <span class="c1">// when: GET /movies is called</span>
+          <span class="nc">WebTestClient</span><span class="o">.</span><span class="na">Response</span> <span class="n">responseSpec</span> <span class="o">=</span> <span class="n">webTestClient</span><span class="o">.</span><span class="na">get</span><span class="o">()</span>
+           <span class="o">.</span><span class="na">url</span><span class="o">(</span><span class="s">"/movies/"</span><span class="o">+</span><span class="n">oppenheimer</span><span class="o">.</span><span class="na">getMovieId</span><span class="o">())</span>
+           <span class="o">.</span><span class="na">exchange</span><span class="o">();</span>
+      <span class="c1">// then: response should be 200 OK</span>
+       <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectResponse</span><span class="o">().</span><span class="na">isOk</span><span class="o">()</span>
+       <span class="nc">Movie</span> <span class="n">responseMovie</span> <span class="o">=</span> <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectBody</span><span class="o">().</span><span class="na">ofType</span><span class="o">(</span><span class="nc">Movie</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
+            <span class="c1">// then: movies should get saved in the database.</span>
+              <span class="n">assertThat</span><span class="o">(</span><span class="n">responseMovie</span><span class="o">)</span>
+               <span class="o">.</span><span class="na">isEqualTo</span><span class="o">(</span><span class="n">oppenheimer</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span> 
+</code></pre></div></div>
+
+<p><strong>MovieController.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">"/{movieId}"</span><span class="o">)</span>
+  <span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Movie</span><span class="o">&gt;&gt;</span> <span class="nf">getMovies</span><span class="o">(</span><span class="nd">@PathVariable</span> <span class="nc">String</span> <span class="n">movieId</span><span class="o">){</span>
+   <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">body</span><span class="o">(</span><span class="n">movieService</span><span class="o">.</span><span class="na">getOne</span><span class="o">(</span><span class="n">movieId</span><span class="o">));</span>
+  <span class="o">}</span>
+</code></pre></div></div>
+
+<p>We’ll do TDD for creating the <code class="language-plaintext highlighter-rouge">MovieService::getOne</code> method with the repository.</p>
+
+<h3 id="update-1">Update</h3>
+
+<p><strong>MovieControllerTest.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nd">@Nested</span>
+    <span class="nd">@Displayname</span><span class="o">(</span><span class="s">"PUT /movies/{movieId}"</span><span class="o">)</span>
+    <span class="kd">class</span> <span class="nc">GetMoviesMethod</span><span class="o">{</span>
+        <span class="nd">@test</span>
+        <span class="nd">@displayname</span><span class="o">(</span><span class="s">"SHOULD update movie name"</span><span class="o">)</span>
+        <span class="kt">void</span> <span class="nf">shouldReturnAllMoviesThatAreInDB</span><span class="o">(){</span>
+            <span class="c1">// given: save a movie in db</span>
+         <span class="nc">Movie</span> <span class="n">inception</span> <span class="o">=</span> <span class="n">movieService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="k">new</span> <span class="nc">Movie</span><span class="o">(</span><span class="s">"M3"</span><span class="o">,</span> <span class="s">"Inception"</span><span class="o">));</span>
+      <span class="c1">// and: a new movie to save</span>
+         <span class="nc">Movie</span> <span class="n">inceptionUpdated</span> <span class="o">=</span> <span class="n">movieService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="k">new</span> <span class="nc">Movie</span><span class="o">(</span><span class="s">"M3"</span><span class="o">,</span> <span class="s">"Inception by Christopher Nolan"</span><span class="o">));</span>
+         <span class="c1">// when: GET /movies is called</span>
+          <span class="nc">WebTestClient</span><span class="o">.</span><span class="na">Response</span> <span class="n">responseSpec</span> <span class="o">=</span> <span class="n">webTestClient</span><span class="o">.</span><span class="na">put</span><span class="o">()</span>
+           <span class="o">.</span><span class="na">url</span><span class="o">(</span><span class="s">"/movies/"</span><span class="o">+</span><span class="n">inception</span><span class="o">.</span><span class="na">getMovieId</span><span class="o">())</span>
+           <span class="o">.</span><span class="na">body</span><span class="o">(</span><span class="n">inceptionUpdated</span><span class="o">)</span>
+           <span class="o">.</span><span class="na">exchange</span><span class="o">();</span>
+      <span class="c1">// then: response should be 200 OK</span>
+       <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectResponse</span><span class="o">().</span><span class="na">isOk</span><span class="o">()</span>
+       <span class="nc">Movie</span> <span class="n">responseMovie</span> <span class="o">=</span> <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectBody</span><span class="o">().</span><span class="na">ofType</span><span class="o">(</span><span class="nc">Movie</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
+       <span class="n">assertThat</span><span class="o">(</span><span class="n">responseMovie</span><span class="o">)</span>
+               <span class="o">.</span><span class="na">isEqualTo</span><span class="o">(</span><span class="n">inceptionUpdated</span><span class="o">);</span>
+            <span class="c1">// then: movies should get saved in the database.</span>
+            <span class="nc">Movie</span> <span class="n">inceptionFromDB</span> <span class="o">=</span> <span class="n">movieRepository</span><span class="o">.</span><span class="na">findById</span><span class="o">(</span><span class="n">inception</span><span class="o">.</span><span class="na">getMovieId</span><span class="o">());</span>
+                <span class="n">assertThat</span><span class="o">(</span><span class="n">inceptionFromDB</span><span class="o">.</span><span class="na">getMovieName</span><span class="o">())</span>
+                    <span class="o">.</span><span class="na">isEqualTo</span><span class="o">(</span><span class="n">inceptionUpdated</span><span class="o">.</span><span class="na">getMovieName</span><span class="o">());</span>
+        <span class="o">}</span>
+    <span class="o">}</span> 
+</code></pre></div></div>
+
+<p><strong>MovieController.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">"/{movieId}"</span><span class="o">)</span>
+  <span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Movie</span><span class="o">&gt;&gt;</span> <span class="nf">putMovies</span><span class="o">(</span><span class="nd">@PathVariable</span> <span class="nc">String</span> <span class="n">movieId</span><span class="o">,</span> <span class="nd">@ResponseBody</span> <span class="nc">Movie</span> <span class="n">movie</span><span class="o">){</span>
+   <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">body</span><span class="o">(</span><span class="n">movieService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="k">new</span> <span class="nc">Movie</span><span class="o">(</span><span class="n">movieId</span><span class="o">,</span> <span class="n">movie</span><span class="o">)));</span>
+  <span class="o">}</span>
+</code></pre></div></div>
+
+<p>You may have noticed I did some duplicate bad code. I usually <a href="https://www.ankushchoubey.com/2023/01/07/Separating_Request,_Entity_and_Response.html" title="‌">separate request, response, and entity objects</a>, but this isn’t a scope for that so skipping for now.</p>
+
+<h3 id="delete-1">Delete</h3>
+
+<p><strong>MovieControllerTest.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nd">@Nested</span>
+    <span class="nd">@Displayname</span><span class="o">(</span><span class="s">"DELETE /movies/{movieId}"</span><span class="o">)</span>
+    <span class="kd">class</span> <span class="nc">DeleteMoviesMethod</span><span class="o">{</span>
+        <span class="nd">@test</span>
+        <span class="nd">@displayname</span><span class="o">(</span><span class="s">"SHOULD remove the movie from DB"</span><span class="o">)</span>
+        <span class="kt">void</span> <span class="nf">shouldReturnAllMoviesThatAreInDB</span><span class="o">(){</span>
+            <span class="c1">// given: save a movie in db</span>
+         <span class="nc">Movie</span> <span class="n">inception</span> <span class="o">=</span> <span class="n">movieService</span><span class="o">.</span><span class="na">upsert</span><span class="o">(</span><span class="k">new</span> <span class="nc">Movie</span><span class="o">(</span><span class="s">"M3"</span><span class="o">,</span> <span class="s">"Inception"</span><span class="o">));</span>
+         <span class="c1">// when: DELETE /movies/{movieId} is called</span>
+          <span class="nc">WebTestClient</span><span class="o">.</span><span class="na">Response</span> <span class="n">responseSpec</span> <span class="o">=</span> <span class="n">webTestClient</span><span class="o">.</span><span class="na">delete</span><span class="o">()</span>
+           <span class="o">.</span><span class="na">url</span><span class="o">(</span><span class="s">"/movies/"</span><span class="o">+</span><span class="n">inception</span><span class="o">.</span><span class="na">getMovieId</span><span class="o">())</span>
+           <span class="o">.</span><span class="na">exchange</span><span class="o">();</span>
+      <span class="c1">// then: response should be 200 OK</span>
+       <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectResponse</span><span class="o">().</span><span class="na">isOk</span><span class="o">()</span>
+       <span class="n">responseSpec</span><span class="o">.</span><span class="na">expectBody</span><span class="o">().</span><span class="na">isEmpty</span><span class="o">();</span>
+            <span class="c1">// then: movies should get saved in the database.</span>
+            <span class="nc">Movie</span> <span class="n">inceptionFromDB</span> <span class="o">=</span> <span class="n">movieRepository</span><span class="o">.</span><span class="na">findById</span><span class="o">(</span><span class="n">inception</span><span class="o">.</span><span class="na">getMovieId</span><span class="o">());</span>
+                <span class="n">assertThat</span><span class="o">(</span><span class="n">inceptionFromDB</span><span class="o">)</span>
+           <span class="o">.</span><span class="na">isNull</span><span class="o">();</span>
+        <span class="o">}</span>
+    <span class="o">}</span> 
+</code></pre></div></div>
+
+<p><strong>MovieController.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nd">@GetMapping</span><span class="o">(</span><span class="s">"/{movieId}"</span><span class="o">)</span>
+  <span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Movie</span><span class="o">&gt;&gt;</span> <span class="nf">deleteMovies</span><span class="o">(</span><span class="nd">@PathVariable</span> <span class="nc">String</span> <span class="n">movieId</span><span class="o">){</span>
+   <span class="n">movieService</span><span class="o">.</span><span class="na">delete</span><span class="o">(</span><span class="n">movieId</span><span class="o">);</span>
+   <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">().</span><span class="na">build</span><span class="o">();</span>
+  <span class="o">}</span>
+</code></pre></div></div>
+
+<p>Again we do TDD, do build the code.</p>
+
+<p>I’ll be adding a GitHub link with the code as soon as I’m in the final stage of the series. It’s a #todo for me.</p>
+
+<h2 id="closing">Closing</h2>
+
+<p>What you may have noticed is, we never ran Postman or Swagger to test our REST APIs. We just ran the tests. And we didn’t even start the code. #todo: add a link here to the blog post on TDD RedFlags. When doing TDD we usually don’t need to start the application.</p>
+
+<p>All that debugging time that would have taken with Postman is now a documented-automated test. That we can run many times.</p>
+
+<p>There are a lot of things that can be done for REST API TDD. Request Validation, checking for user permissions, correct status response, etc and these things are quite standing. I’ll be writing a cheat sheet version for REST API TDD soon. #todo: link to Rest Api TDD Cheatsheet.</p>]]></content><author><name></name></author><category term="testing" /><category term="tdd" /><summary type="html"><![CDATA[Extending our Movie example creating a REST API with TDD. Scenarios covered are Create, Read, Update and Delete.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/tdd-rest-api-example.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/tdd-rest-api-example.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">TDD example on a backend - Upsert Method</title><link href="https://www.ankushchoubey.com/tdd-backend-example" rel="alternate" type="text/html" title="TDD example on a backend - Upsert Method" /><published>2023-08-13T00:00:00-05:00</published><updated>2023-08-13T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/tdd-backend-example</id><content type="html" xml:base="https://www.ankushchoubey.com/tdd-backend-example"><![CDATA[<p>The upsert method is one of my favorite examples to teach when explaining TDD. It’s simple easy and gets the point across.</p>
 
 <p>This article is about backend TDD testing. The same applied to the front end but we’ll see it in a different post. The example presented is using Spring Boot, but you can do this in any language.</p>
 
@@ -1756,60 +2178,4 @@ String visitValue(Expression.ValueContext ctx){
 
 <p><a href="https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/" title="‌">I wrote a programming language. Here’s how you can, too.</a></p>
 
-<p><a href="https://tomassetti.me/domain-specific-languages/" title="‌">Complete Guide to Domain-Specific Languages</a></p>]]></content><author><name></name></author><category term="clean-code" /><category term="dsl" /><category term="developer-diary" /><summary type="html"><![CDATA[Using the best current programming language creation-tool.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://upload.wikimedia.org/wikipedia/commons/e/e2/Spreadsheet.png" /><media:content medium="image" url="https://upload.wikimedia.org/wikipedia/commons/e/e2/Spreadsheet.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Make yourself do it</title><link href="https://www.ankushchoubey.com/v1/make-yourself-do-it/" rel="alternate" type="text/html" title="Make yourself do it" /><published>2023-06-06T00:00:00-05:00</published><updated>2023-06-06T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-make-yourself-do-it</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/make-yourself-do-it/"><![CDATA[<p>All of our problems are emotional problems. Logical problems are solved easily. The emotional problem is how we feel.</p>
-
-<p>We seek books that tell us the same thing in a different way that eases how we feel. i.e. how we feel impacts us.</p>
-
-<p><strong>We need a strong why to do things</strong>. And here may be some ways to ease your emotions to do it.</p>
-
-<p>Below are a few mental patterns that can be used to “Make yourself Do it”. Treat these as thought experiments.</p>
-
-<h2 id="thought-experiments">Thought Experiments</h2>
-
-<h3 id="turn-off-your-brain-and-do-it">Turn off your brain. And do it</h3>
-
-<p>Don’t think. Don’t rationalize. You know what the activity is, just do it.</p>
-
-<h3 id="imagine-how-youd-feel-once-you-have-accomplished-this-small-task">Imagine how you’d feel once you have accomplished this small task</h3>
-
-<ol>
-  <li>The feeling of accomplishment.</li>
-  <li>Not having anything over your head.</li>
-  <li>Free to do other things.</li>
-</ol>
-
-<h3 id="be-mindful-of-how-you-are-feeling-and-then-continue-feeling-it-while-you-do-the-item">Be mindful of how you are feeling and then continue feeling it while you do the item</h3>
-
-<h3 id="just-get-started-and-wait-for-20-min">Just get started and wait for 20 min</h3>
-
-<h3 id="if-you-get-this-task-done-you-dont-have-to-think-about-it-again">If you get this task done, you don’t have to think about it again</h3>
-
-<p>You won’t have anything hanging over your head.</p>
-
-<h3 id="how-will-you-reward-yourself-after-doing-this-task-or-what-will-you-do-during-the-break">How will you reward yourself after doing this task? Or what will you do during the break?</h3>
-
-<h3 id="what-would-this-look-like-if-this-were-easy">What would this look like if this were easy?</h3>
-
-<h3 id="winners-do-it-regardless-of-how-they-feel">Winners do it regardless of how they feel</h3>
-
-<h3 id="make-things-compelling">Make things compelling</h3>
-
-<ol>
-  <li>What you do</li>
-  <li>Why you do</li>
-  <li>How you do</li>
-  <li>Where you do</li>
-  <li>With whom you do</li>
-</ol>
-
-<h3 id="fit-that-image-of-a-brighter-future-in-your-mind">Fit that image of a brighter future in your mind</h3>
-
-<h3 id="if-you-cant-fit-an-image-of-a-brighter-future-imagine-exercising-your-discipline">If you can’t fit an image of a brighter future, imagine exercising your discipline</h3>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>Humans are stronger than we things. We need to exercise our wills. The most useful advice I have found is just make yourself do it. Eventually, the reward is so large and obvious that you’ll do it anyways.</p>
-
-<p><img src="/images/v1-make-yourself-do-it.jpg" alt="" /></p>
-
-<p>Photo by <a href="https://unsplash.com/@thelowedown?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Dave Lowe</a> on <a href="https://unsplash.com/s/photos/discipline?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>]]></content><author><name></name></author><category term="philosophical" /><category term="non-technical" /><category term="discipline" /><summary type="html"><![CDATA[How do you exercise discipline? What stops it? It's emotions. How do you overcome your emotions and short-term impulses?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-make-yourself-do-it.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-make-yourself-do-it.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><a href="https://tomassetti.me/domain-specific-languages/" title="‌">Complete Guide to Domain-Specific Languages</a></p>]]></content><author><name></name></author><category term="clean-code" /><category term="dsl" /><category term="developer-diary" /><summary type="html"><![CDATA[Using the best current programming language creation-tool.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://upload.wikimedia.org/wikipedia/commons/e/e2/Spreadsheet.png" /><media:content medium="image" url="https://upload.wikimedia.org/wikipedia/commons/e/e2/Spreadsheet.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
