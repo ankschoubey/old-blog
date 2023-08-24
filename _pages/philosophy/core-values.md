@@ -16,13 +16,13 @@ These 4 core values are my best bet in achieving my purpose.
     <div class="core-values-row">
         <a class="post-link core-values-box col-md-6 col-sm-12" href="/philosophy/core-values/truth">
             <img src="/images/core-values/clarity.jpeg">
-            <h3> Clarity 🔭<h4>in thinking</h4></h3>
+            <h3> Clarity/Truth 🔭<h4>in thinking</h4><h4>leading to  Reality</h4></h3>
             <p class="post-meta-description">Seek, understand, accept and articulate truth. And create a proper vision for yourself.</p>
             <h4>स्पष्टता</h4>
         </a>
         <a class="post-link core-values-box col-md-6 col-sm-12" href="/philosophy/core-values/responsibility">
             <img src="/images/core-values/cave-you-seek.jpg">
-            <h3> Responsibility<h4>in actions</h4></h3>
+            <h3> Responsibility/Discipline<h4>in actions</h4><h4>leading to  Meaning</h4></h3>
             <p class="post-meta-description">Living an honest, accountable and strong life ready to face and solve every and any problem.</p>
             <h4>कर्मयोग</h4>
         </a>
@@ -30,12 +30,12 @@ These 4 core values are my best bet in achieving my purpose.
     <div class="core-values-row">
         <a class="post-link core-values-box col-md-6 col-sm-12" href="/philosophy/core-values/peace">
             <img src="/images/core-values/optimism.jpeg">
-            <h3>Optimism 🔭 <h4>in approach</h4><br>स्पष्टता</h3>
+            <h3>Optimism/Tranquility 🔭 <h4>in approach</h4><h4>leading to  Strength</h4></h3>
             <p class="post-meta-description">Being the ball of optimistic rationality that drives the world and sets hope for everyone.</p>
         </a>
         <a class="post-link core-values-box col-md-6 col-sm-12" href="/philosophy/core-values/team-work">
             <img src="/images/team-work/team-work.webp">
-            <h3>Team Work<br>स्पष्टता</h3>
+            <h3>Team Work/Established Trust/Independence/Love<h4>in relationships</h4>><h4>leading to  Harmony</h4></h3>
             <p class="post-meta-description">Socializing, taking care, being there and living a life for others. (and maybe sometimes becoming humble when other people help us)</p>
         </a>
     </div>
