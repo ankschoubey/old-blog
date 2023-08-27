@@ -9,6 +9,7 @@ permalink: /tdd/rest-api-example
 image: /images/tdd-rest-api-example.png
 image-fit: contain
 title: TDD example for REST API - CRUD
+cover-img-style: "position: relative; height:100%"
 ---
 
 Before reading the current blog post, make sure you have read the previous blog post on [TDD example on a backend with Upsert Method](https://www.ankushchoubey.com/tdd-backend-example "‌") as it provides explains the thinking and the TDD stages in depth. The same thinking and stages would be used in this blog post but this post won't explain those steps in depth. Rather the post will focus on providing new information specific to REST APIs.

@@ -11,7 +11,10 @@ layout: base
     flex-direction: column;
     justify-content: end;
     {%- if page.image -%}
-      height: 300px;
+        {%- if page.cover-img-style -%}
+        {% else %}
+          height: 300px;
+        {%- endif -%}
     {%- endif -%}
   }
 
@@ -45,7 +48,13 @@ layout: base
 
 <header class="post-header">
   {%- if page.image -%}
+    {%- if page.cover-img-style -%}
+    <img src="{{page.image}}" class="cover-image" style="{{page.cover-img-style}}">
+    {%- else -%}
     <img src="{{page.image}}" class="cover-image">
+
+    {%- endif -%}
+
   {%- endif -%}
 
   <div class="post-header-content">
