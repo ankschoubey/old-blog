@@ -690,4 +690,6 @@ a.page-link[href='/tdd/']:hover { animation-name: tddColorPalette; animation-dur
   66% { background: green; }
   100% { background: blue; } }
 
+iframe { width: 100% !important; aspect-ratio: 16/10 !important; height: auto !important; }
+
 /*# sourceMappingURL=style.css.map */
