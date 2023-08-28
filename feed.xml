@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-08-27T00:30:49-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Journey Through Phase 1 Challenge of the Live Hard Program</title><link href="https://www.ankushchoubey.com/v1/phase-1" rel="alternate" type="text/html" title="Journey Through Phase 1 Challenge of the Live Hard Program" /><published>2023-08-27T00:00:00-05:00</published><updated>2023-08-27T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-phase-1</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/phase-1"><![CDATA[<h3 id="why-did-i-do-the-phase-1-challenge">Why did I do the phase 1 challenge?</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-08-28T11:38:05-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Write Cleaner UI Tests with Page Object Model Pattern</title><link href="https://www.ankushchoubey.com/tdd/page-object-model" rel="alternate" type="text/html" title="Write Cleaner UI Tests with Page Object Model Pattern" /><published>2023-08-28T00:00:00-05:00</published><updated>2023-08-28T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/tdd/v1-page-object-model</id><content type="html" xml:base="https://www.ankushchoubey.com/tdd/page-object-model"><![CDATA[<p>I have covered many testing patterns. Some of them are <a href="https://www.ankushchoubey.com/test-data-factories/">Test Data Factories</a>, <a href="https://www.ankushchoubey.com/method-when-should/">the when/should way</a> and more. The Page Object Model complements all those patterns.</p>
+
+<p>The Page Object Model is a great way to write clean tests for UI-related code. The POM Pattern is usable with any UI testing, selenium, react tests with enzyme or react testing library, TestCafe, Cypress or other test framework.</p>
+
+<h2 id="a-test-without-page-object-model">A test without Page Object Model</h2>
+
+<p>To write UI tests without a Page Object Model, follow these steps. The below example assumes React with Enzyme but can apply to any framework.</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// given:</span>
+ <span class="kd">const</span> <span class="p">{</span><span class="nx">columns</span><span class="p">,</span> <span class="nx">data</span><span class="p">}</span> <span class="o">=</span> <span class="nx">getSomeProps</span><span class="p">();</span>
+ <span class="kd">const</span> <span class="nx">wrapper</span> <span class="o">=</span> <span class="nx">mount</span><span class="p">(</span><span class="o">&lt;</span><span class="nx">MovieListComponent</span> <span class="nx">columns</span><span class="o">=</span><span class="p">{</span><span class="nx">columns</span><span class="p">}</span> <span class="nx">data</span><span class="o">=</span><span class="p">{</span><span class="nx">data</span><span class="p">}</span> <span class="sr">/&gt;</span><span class="err">)
+</span><span class="c1">// when:</span>
+ <span class="nx">wrapper</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="dl">"</span><span class="s2">div .random-css-selector:first tr th span[data-value='some data value']</span><span class="dl">"</span><span class="p">).</span><span class="nx">click</span><span class="p">();</span>
+<span class="c1">// then:</span>
+ <span class="nx">expect</span><span class="p">(</span><span class="nx">wrapper</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="dl">"</span><span class="s2">div .random-css-selector:first tr th span[data-value='some data value']</span><span class="dl">"</span><span class="p">).</span><span class="nx">prop</span><span class="p">(</span><span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">)).</span><span class="nx">toEqual</span><span class="p">(</span><span class="dl">"</span><span class="s2">someValue</span><span class="dl">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The above test is miswritten on purpose to illustrate some important points.</p>
+
+<p>The CSS selectors like <code class="language-plaintext highlighter-rouge">div .random-css-selector:first td tr span[data-value='some data value']</code> make it hard to understand what the test is for.</p>
+
+<p>Suppose you have five things to check, meaning you’ll write five different such CSS selectors.</p>
+
+<p>Tests repeat, resulting in encountering multiple repetitions of these similar blocks. If there are widespread changes in the UI DOM, you will need to modify them.</p>
+
+<p>In addition, the above test could be more fluent. Fluent tests are English-like, and they make it very easy to read the test.</p>
+
+<h2 id="a-test-with-page-object-model">A test with Page Object Model</h2>
+
+<p>Here’s how the Page Object Model can avoid all these things.</p>
+
+<p>The Page Object Model encapsulated everything related to a component or a page in a specific class.</p>
+
+<p>To illustrate the POM, we can create a separate <code class="language-plaintext highlighter-rouge">MovieListPageObject</code>.</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">MovieListPageObject</span><span class="p">{</span>
+ <span class="kd">constructor</span><span class="p">(</span><span class="nx">wrapper</span><span class="p">){</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">wrapper</span> <span class="o">=</span> <span class="nx">wrapper</span><span class="p">;</span>
+ <span class="p">}</span>
+ <span class="nx">getColumnHeader</span><span class="p">(</span><span class="nx">index</span><span class="p">:</span> <span class="kr">number</span><span class="p">){</span>
+  <span class="kd">const</span> <span class="nx">selector</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">wrapper</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="dl">"</span><span class="s2">div .random-css-selector</span><span class="dl">"</span><span class="p">)</span>
+       <span class="p">.</span><span class="nx">at</span><span class="p">(</span><span class="nx">index</span><span class="p">);</span>
+  <span class="k">return</span> <span class="nx">selector</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="dl">"</span><span class="s2">tr th span[data-value='some data value']</span><span class="dl">"</span><span class="p">);</span>
+ <span class="p">}</span>
+ <span class="nx">clickColumnHeader</span><span class="p">(</span><span class="nx">index</span><span class="p">:</span> <span class="kr">number</span><span class="p">){</span>
+  <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">getColumnHeader</span><span class="p">(</span><span class="nx">index</span><span class="p">).</span><span class="nx">click</span><span class="p">();</span>
+ <span class="p">}</span>
+ <span class="nx">expectColumnHeaderName</span><span class="p">(</span><span class="nx">index</span><span class="p">:</span> <span class="kr">number</span><span class="p">,</span> <span class="nx">expectedValue</span><span class="p">:</span> <span class="kr">string</span><span class="p">){</span>
+  <span class="nx">expect</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">getColumnHeader</span><span class="p">().</span><span class="nx">text</span><span class="p">()).</span><span class="nx">toEqual</span><span class="p">(</span><span class="nx">value</span><span class="p">);</span>
+ <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>In the test, we can write:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// given:</span>
+ <span class="kd">const</span> <span class="p">{</span><span class="nx">columns</span><span class="p">,</span> <span class="nx">data</span><span class="p">}</span> <span class="o">=</span> <span class="nx">getSomeProps</span><span class="p">();</span>
+ <span class="kd">const</span> <span class="nx">wrapper</span> <span class="o">=</span> <span class="nx">mount</span><span class="p">(</span><span class="o">&lt;</span><span class="nx">MovieListComponent</span> <span class="nx">columns</span><span class="o">=</span><span class="p">{</span><span class="nx">columns</span><span class="p">}</span> <span class="nx">data</span><span class="o">=</span><span class="p">{</span><span class="nx">data</span><span class="p">}</span> <span class="sr">/&gt;</span><span class="err">)
+</span> <span class="kd">const</span> <span class="nx">movieListPO</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MovieListPageObject</span><span class="p">(</span><span class="nx">wrapper</span><span class="p">);</span>
+<span class="c1">// when:</span>
+ <span class="kd">const</span> <span class="nx">firstColumn</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+ <span class="nx">movieListPO</span><span class="p">.</span><span class="nx">clickColumnHeader</span><span class="p">(</span><span class="nx">firstColumn</span><span class="p">);</span>
+<span class="c1">// then:</span>
+ <span class="nx">movieListPO</span><span class="p">.</span><span class="nx">expectColumnHeaderName</span><span class="p">(</span><span class="nx">firstColumn</span><span class="p">,</span> <span class="dl">"</span><span class="s2">someValue</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Here are the benefits seen with the above PageObjectModel.</p>
+
+<ol>
+  <li>The above test is much more English-like</li>
+  <li>The POM encapsulates all the hard-to-read CSS selectors. Therefore, in case of modification, we can modify it in one place.</li>
+  <li>POM can be reused in multiple tests.</li>
+  <li>The POM makes tests shorter.</li>
+</ol>
+
+<h2 id="a-small-optimization">A small optimization</h2>
+
+<p>In the above test, I’d also create a <code class="language-plaintext highlighter-rouge">mount{Component}</code> method to return the Page Object.</p>
+
+<p><strong>Before</strong>:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kd">const</span> <span class="nx">wrapper</span> <span class="o">=</span> <span class="nx">mount</span><span class="p">(</span><span class="o">&lt;</span><span class="nx">MovieListComponent</span> <span class="nx">columns</span><span class="o">=</span><span class="p">{</span><span class="nx">columns</span><span class="p">}</span> <span class="nx">data</span><span class="o">=</span><span class="p">{</span><span class="nx">data</span><span class="p">}</span> <span class="sr">/&gt;</span><span class="err">)
+</span> <span class="kd">const</span> <span class="nx">movieListPO</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MovieListPageObject</span><span class="p">(</span><span class="nx">wrapper</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p><strong>Before</strong>:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kd">const</span> <span class="nx">movieListPO</span> <span class="o">=</span> <span class="nx">mountMovieList</span><span class="p">(</span><span class="o">&lt;</span><span class="nx">MovieListComponent</span> <span class="nx">columns</span><span class="o">=</span><span class="p">{</span><span class="nx">columns</span><span class="p">}</span> <span class="nx">data</span><span class="o">=</span><span class="p">{</span><span class="nx">data</span><span class="p">}</span> <span class="sr">/&gt;</span><span class="err">)
+</span></code></pre></div></div>
+
+<p>Declare the <code class="language-plaintext highlighter-rouge">mountMovieList</code> somewhere.</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">mountMovieList</span> <span class="o">=</span> <span class="p">(</span><span class="nx">reactElement</span><span class="p">:</span><span class="nx">ReactElement</span><span class="p">)</span><span class="o">=&gt;</span> <span class="p">{</span>
+ <span class="kd">const</span> <span class="nx">wrapper</span> <span class="o">=</span> <span class="nx">mount</span><span class="p">(</span><span class="nx">reactElement</span><span class="p">)</span>
+ <span class="k">return</span> <span class="k">new</span> <span class="nx">MovieListPageObject</span><span class="p">(</span><span class="nx">wrapper</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="testing" /><category term="tdd" /><summary type="html"><![CDATA[Page Object Model can be used with any testing framework to write cleaner and simpler tests that are fast to write.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/tdd/page-object-model.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/tdd/page-object-model.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Journey Through Phase 1 Challenge of the Live Hard Program</title><link href="https://www.ankushchoubey.com/v1/phase-1" rel="alternate" type="text/html" title="Journey Through Phase 1 Challenge of the Live Hard Program" /><published>2023-08-27T00:00:00-05:00</published><updated>2023-08-27T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-phase-1</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/phase-1"><![CDATA[<h3 id="why-did-i-do-the-phase-1-challenge">Why did I do the phase 1 challenge?</h3>
 
 <p>After 75 Hard, I was in really good shape. It might have been the best shape of my life.</p>
 
@@ -1836,175 +1932,4 @@ The above OData Url is for the resource <code class="language-plaintext highligh
 
 <p>By having your business logic in your backend, you ensure your application is secure, that your frontend is faster, and that backend is the only place where you have the business logic, making it more maintainable.</p>
 
-<p>Make your frontend as dumb as possible, and keep all your business logic in the backend.</p>]]></content><author><name></name></author><category term="web-development" /><category term="software-architecture" /><summary type="html"><![CDATA[Making your application secure, high performance and maintanable.]]></summary></entry><entry><title type="html">Efficient Standups - Achieving Clarity through Walk-The-Board Standups</title><link href="https://www.ankushchoubey.com/v1/walk-the-board/" rel="alternate" type="text/html" title="Efficient Standups - Achieving Clarity through Walk-The-Board Standups" /><published>2023-07-02T00:00:00-05:00</published><updated>2023-07-02T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-walk-the-board</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/walk-the-board/"><![CDATA[<p><img src="/images/v1-walk-the-board.jpg" alt="" /></p>
-
-<p>Photo by <a href="https://unsplash.com/@sebastien_bonneval?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sebastien Bonneval</a> on <a href="https://unsplash.com/s/photos/kanban?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-
-<p>I believe walking the board is an important step towards facilitating Continuous Delivery. The standup format facilitates perfection in updates, focused on one card at a time which is closer to completion and takes less time to complete.</p>
-
-<p>I first learned about Walk-The-Board from a <a href="https://www.youtube.com/watch?v=316qdj10j9M">video posted by Development that Pays</a>.</p>
-
-<p>In this blog post, I talk about the Walk-The-Board approach and what we learned from it.</p>
-
-<h2 id="importance-of-daily-stand-up">Importance of Daily Stand up</h2>
-
-<p>Daily Standup (also called Daily Scrum) is a 15-minute event with the Scrum framework where the team meets at the same time and place to discuss the progress of work.</p>
-
-<p>Scrum events are for inspecting and adapting, and the daily standup is a chance to do that every day.</p>
-
-<p>It keeps team members in sync and increases focus toward the sprint goal. Any impediments are discussed and resolved post the scrum.</p>
-
-<h2 id="how-typically-daily-stand-up-is">How typically Daily Stand up is?</h2>
-
-<p>A typical Daily Stand up involves each team member taking turns and answering 3 questions.</p>
-
-<ol>
-  <li>What did I do yesterday?</li>
-  <li>What did I do today?</li>
-  <li>Do I have any impediments or blockers?</li>
-</ol>
-
-<h3 id="problem-1-individual-update-rather-than-work-progress">Problem 1: Individual update rather than work progress.</h3>
-
-<p>While good in its intent, typically, Daily Standup becomes an update on the person rather than the progress of the work that was decided.</p>
-
-<p>For example, a team member may answer it like this;</p>
-
-<ol>
-  <li>Yesterday, I had a call with.. blah blah blah. And then I connected with blah blah blah. No impediments.</li>
-  <li>Yesterday, I was on leave. Today, I’ll connect with the team to pick up a card.</li>
-</ol>
-
-<p>The Daily Stand-up update becomes an individual update rather than a work-related update.</p>
-
-<p>It doesn’t matter if you were on leave yesterday. Or that you had the call with someone. If the work that we decided on was X, the progress should be about the work, not the individual.</p>
-
-<p>While we can try to focus the team on focusing on work updates instead of individual updates, it’s really hard to do as the format of the daily standup requires everyone to speak something.</p>
-
-<h3 id="problem-2-repeatation-the-same-things-over-and-over-again">Problem 2: Repeatation the same things over and over again.</h3>
-
-<p>In Problem 1, we saw how the 3 questions led to individual updates rather than a team update.</p>
-
-<p>When multiple people are working on the same card, you’ll hear the same people speaking the same things over and over again.
-For example, Thor, Tony, and Steve worked on the same card, Defeating Thanos. All of them say the same updates.</p>
-
-<ol>
-  <li><strong>Thor</strong>: Yesterday, I worked on defeating Thanos. Today I’ll work on defeating Thanos. No impediments.</li>
-  <li><strong>Tony</strong>: Yesterday, I worked on defeating Thanos. Today I’ll work on defeating Thanos. No impediments.</li>
-  <li><strong>Steve</strong>: Yesterday, I worked on defeating Thanos. Today I’ll work on defeating Thanos. No impediments.</li>
-</ol>
-
-<p>Tony and Steve can also shorten their updates.
-If <strong>Thor</strong> says,  yesterday, I worked on defeating Thanos. Today I’ll work on defeating Thanos. No impediments.</p>
-
-<p>Tony and Steve could say, I have the same updates as Thor.</p>
-
-<p>But still, this is a repetition. Ideally, one update by Thor would have been enough to judge the progress of work. Tony and Steve have nothing new to offer.</p>
-
-<h3 id="problem-3-remembering-and-prepping-and-then-relaxing">Problem 3: Remembering. And prepping, and then relaxing.</h3>
-
-<p>The 3 questions format is such that it requires extensive preparation and makes people relax after they have said their points.</p>
-
-<h4 id="preparatory-thought-process">Preparatory Thought Process.</h4>
-
-<blockquote>
-  <p>What did I do yesterday? Hmm. I did some things… I remember a few points. Okay, it’s my turn next.</p>
-</blockquote>
-
-<p>(I say my script. Did this. Will do this. No impediments.)</p>
-
-<h4 id="relaxation">Relaxation</h4>
-
-<blockquote>
-  <p>Now it’s someone else’s turn; I can relax since the boss knows what I did. I don’t have to listen to someone else.</p>
-</blockquote>
-
-<p>This is school. People are only attentive when they have to answer. After they have answered, they stop paying attention. Social slacking takes over.</p>
-
-<h2 id="how-walk-the-board-approach-is-different-from-daily-stand-up">How Walk-The-Board approach is different from Daily Stand-up?</h2>
-
-<p>The 3 problems described before are because of the design of the 3 questions approach to the daily standup.</p>
-
-<p>The best way to do the standup is not to get better at an inefficient 3 questions approach but to adopt an alternative approach that’s efficient by design.
-The walk-the-board approach of daily standup fixes all three problems that come with 3 questions approach.</p>
-
-<ol>
-  <li>It fixed problem 1 by turning individual updates into work update</li>
-  <li>It does not repeat what has already been said</li>
-  <li>It does not require any preparation or extensive remembering. And people keep people attentive throughout the standup.</li>
-</ol>
-
-<h3 id="whats-the-walk-the-board-approach">What’s the walk-the-board approach?</h3>
-
-<p>In Walk the Board, instead of going through one person at a time, you start with the board and talk about the items on the board.</p>
-
-<p>To discuss, you start with the rightmost card; the person who has an update about the rightmost card gives updates about that card and <strong>that card only</strong>.</p>
-
-<p>Then the focus is on the next card, which is rightmost. And this way, you talk about all the items on the board.</p>
-
-<p>This solves the following problems:</p>
-
-<h4 id="solving-problem-1-individual-updates-get-replaced-by-work-updates">Solving Problem 1: Individual updates get replaced by work updates.</h4>
-
-<p>Instead of talking about what the person did yesterday that may or may not be related to the work at all, in walk-the-board, you are focused on the work only.</p>
-
-<h4 id="solving-problem-2-repetition-gets-removed-and-you-talk-about-the-update-only-once">Solving Problem 2: Repetition gets removed, and you talk about the update only once.</h4>
-
-<p>The updates in Walk the Board are not jumbled; you only talk about and hear about one card at a time. Once that card has been discussed, someone else won’t likely come up and talk about the same card.</p>
-
-<h4 id="solving-problem-3-remove-remembering-prepping-and-keeping-everyone-attentive">Solving Problem 3: Remove Remembering, prepping, and keeping everyone attentive.</h4>
-
-<p>The order in which the work updates happen is not fixed since one day; you can have someone’s cards on the right. The other day you might have someone else’s card on the right.</p>
-
-<p>Since it’s not a fixed order, everyone stays attentive!</p>
-
-<h3 id="extra-benefits-of-walking-the-board">Extra benefits of walking the board</h3>
-
-<h4 id="focusing-on-the-card-closest-to-done">Focusing on the card closest to done.</h4>
-
-<p>If you deliver the task, your users will get to use the implemented feature faster.</p>
-
-<p>If your users get value faster, they’ll give more money.</p>
-
-<p>The card closest to done can be delivered faster since it’s close to do.</p>
-
-<p>Walk the Board starts with the rightmost card. Therefore, the right-most case becomes. And if the card is not moved, it’ll be talked about every day first!</p>
-
-<p>Tip: It’s helpful to enforce picking just one card and pulling it to completion.</p>
-
-<h2 id="how-we-adopted-the-walk-the-board-approach">How we adopted the Walk-The-Board Approach?</h2>
-
-<p>Walk the Board took a few weeks for us to adopt. We started by practicing Walk the Board one day before the standup.</p>
-
-<p>We polished each update to be in the following format,</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Regarding, {cardname}, {update}
-</code></pre></div></div>
-
-<p>This way, our updates were much sharper.</p>
-
-<p>We restricted telling about our days and focused on talking about the work itself.</p>
-
-<p>It took us around 4 weeks to perfect walk the board.</p>
-
-<h2 id="what-was-the-impact-of-the-walk-the-board-approach">What was the impact of the Walk-The-Board approach?</h2>
-
-<p>When I first saw the video of the Walk the Board method. I was instantly in love with it because it addressed the problem I always faced. Preparing to talk about what I am going to say next is overhead. I have to remember everything that I did yesterday, and there are fewer props.</p>
-
-<p>Here are some other effects I observed:</p>
-
-<h3 id="consolidated-updates">Consolidated Updates</h3>
-<ul>
-  <li>Each person might be working on different swim lanes (i.e., Different Parts of the value stream), and by default, we hear updates about all of them. While doing walk the board, we went swim-line by swim-lane.</li>
-  <li>This meant all topics were discussed together in a swim lane regardless of how many different teams the members belonged to.</li>
-</ul>
-
-<h3 id="team-update">Team Update</h3>
-
-<p>It felt like a team update rather than a status update. It doesn’t matter what you did the day before. What matters is how much progress you have made.</p>
-
-<h3 id="shorter-time-for-updates">Shorter time for updates</h3>
-<p>Updates with walk-the-board are much shorter than the traditional 3 question update. These updates were must shorter and on point.</p>
-
-<h3 id="finishing-a-card">Finishing a card.</h3>
-<p>We started focusing on getting cards done over picking up new cards. Though this also involved a lot of deliberate effort.</p>]]></content><author><name></name></author><category term="business" /><category term="agile" /><summary type="html"><![CDATA[I believe walking the board is an important step towards facilitating Continuous Delivery. The standup format facilitates perfection in updates, focused on one card at a time which is closer to completion and takes less time to complete.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/v1-walk-the-board.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/v1-walk-the-board.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Make your frontend as dumb as possible, and keep all your business logic in the backend.</p>]]></content><author><name></name></author><category term="web-development" /><category term="software-architecture" /><summary type="html"><![CDATA[Making your application secure, high performance and maintanable.]]></summary></entry></feed>
