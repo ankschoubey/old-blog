@@ -99,6 +99,8 @@ Here's the index
 
 #11 - **[JUnit Template For Tracking Bugs in Unit Tests](https://www.ankushchoubey.com/v1/junit-bug-tracking)**
 
+#12 - **[Write Cleaner UI Tests with Page Object Model Pattern](/tdd/page-object-model)**: Page Object Model can be used with any testing framework to write cleaner and simpler tests that are fast to write.
+
 ## TDD Level 3: TDD With time
 
 #1 - **[Whenever you encounter a bug](https://www.ankushchoubey.com/encounter-a-bug/)**
