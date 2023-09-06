@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-08-28T11:38:05-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Write Cleaner UI Tests with Page Object Model Pattern</title><link href="https://www.ankushchoubey.com/tdd/page-object-model" rel="alternate" type="text/html" title="Write Cleaner UI Tests with Page Object Model Pattern" /><published>2023-08-28T00:00:00-05:00</published><updated>2023-08-28T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/tdd/v1-page-object-model</id><content type="html" xml:base="https://www.ankushchoubey.com/tdd/page-object-model"><![CDATA[<p>I have covered many testing patterns. Some of them are <a href="https://www.ankushchoubey.com/test-data-factories/">Test Data Factories</a>, <a href="https://www.ankushchoubey.com/method-when-should/">the when/should way</a> and more. The Page Object Model complements all those patterns.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-09-06T14:22:11-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Synchronous Request-Response over Kafka with Redis</title><link href="https://www.ankushchoubey.com/v1/kafka-request-response-redis/" rel="alternate" type="text/html" title="Synchronous Request-Response over Kafka with Redis" /><published>2023-09-07T00:00:00-05:00</published><updated>2023-09-07T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-kafka-request-response-redis</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/kafka-request-response-redis/"><![CDATA[<h2 id="kafka-is-async">Kafka is async</h2>
+
+<p>Kafka is made for asynchronous communication. It’s fire and forget. Once a message is published by a producer, the producer doesn’t expect a response and will move to doing some other task.</p>
+
+<p>The consumer consumes the message at its will and doesn’t respond back to the producer.</p>
+
+<p>Ideally, this should be the case. Synchronous communication requires synchronous mediums and Kafka is not one.</p>
+
+<p><img src="https://cdn.sanity.io/images/sczeoy4w/production/c0db44fb8695a8b3d3d0c32abcdeda887d121a57-1600x602.png?w=1000&amp;q=80&amp;fit=min&amp;auto=format&amp;dpr=1.5" alt="" /></p>
+
+<p><a href="https://aiven.io/blog/kafka-simply-explained">Image Source</a></p>
+
+<p>However, due to some reasons that I can’t explain, I had to develop a request-response scenario with Kafka. Here’s how I did it.</p>
+
+<h2 id="correlating-request-and-response">Correlating request and response</h2>
+
+<p>Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.</p>
+
+<p>This way the producer can correlate request and response.</p>
+
+<h2 id="implementation-details">Implementation details</h2>
+
+<p>Suppose we have two microservices, <code class="language-plaintext highlighter-rouge">Service A</code> and <code class="language-plaintext highlighter-rouge">Service A</code>. <code class="language-plaintext highlighter-rouge">Service A</code> is accessible via REST API. Whenever a request is made on <code class="language-plaintext highlighter-rouge">Service A</code> via REST, the service publishes a message on Kafka. The <code class="language-plaintext highlighter-rouge">Service A</code> is another microservice that processes the request and its own time. <code class="language-plaintext highlighter-rouge">Service A</code> is not aware of whether <code class="language-plaintext highlighter-rouge">Service A</code> has processed the request or not.</p>
+
+<p>Note: <code class="language-plaintext highlighter-rouge">Service A</code> is the producer and <code class="language-plaintext highlighter-rouge">Service A</code> is the consumer.</p>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZmxvd2NoYXJ0ICBURFxuUkVTVF9BUEkgIC0tPiAgQVxuc3ViZ3JhcGggIHlvdXIgIG5ldHdvcmtcbkFbU2VydmljZSBBOiBwcm9kdWNlcl0gIC0tS2Fma2EgTWVzc2FnZS0tPiAgS2Fma2FcbkJbU2VydmljZSBCOiBDb25zdW1lcl0gIC0tIFBvbGwgS2Fma2EgZm9yIG1lc3NhZ2UtLT4gIEthZmthXG5lbmQiLCJtZXJtYWlkIjpudWxsfQ" /></p>
+
+<p>Now, we receive a requirement that <code class="language-plaintext highlighter-rouge">Service A</code> should also respond with status of what happened on <code class="language-plaintext highlighter-rouge">Service A</code></p>
+
+<p>To make it request a response, <code class="language-plaintext highlighter-rouge">Service A</code> will also publish a message back to a Kafka, and <code class="language-plaintext highlighter-rouge">Service A</code> will consume it. In the meantime, <code class="language-plaintext highlighter-rouge">Service A</code> should wait for <code class="language-plaintext highlighter-rouge">Service A</code> to publish the message. Once <code class="language-plaintext highlighter-rouge">Service A</code> receives the message from B, it can respond back to the rest request.</p>
+
+<p>The problem here is there can be many replicas of <code class="language-plaintext highlighter-rouge">Service A</code> and with Kafka, we can’t predict which consumer.</p>
+
+<p><em><strong>Here are the details</strong></em>: Suppose <code class="language-plaintext highlighter-rouge">Service A</code>: Node 1 publishes a message in Kafka. Now <code class="language-plaintext highlighter-rouge">Service A: Node 1</code>. <code class="language-plaintext highlighter-rouge">Service A</code> puts the response back into Kafka. But instead of <code class="language-plaintext highlighter-rouge">Service A: Node 1</code> receiving the Kafka message, Service A: Node 2 receives the Kafka message. So, <code class="language-plaintext highlighter-rouge">Service A: Node 1</code> will never receive the Kafka message.</p>
+
+<p>There are two ways to fix this:</p>
+
+<ol>
+  <li>Consumer Groups</li>
+  <li>Cache</li>
+</ol>
+
+<h2 id="consumer-group-approach">Consumer Group approach</h2>
+
+<p>Set a Kafka message key such that it’ll always be processed by one microservice. This approach is much harder.</p>
+
+<h2 id="cache-approach">Cache approach</h2>
+
+<p>When any node of <code class="language-plaintext highlighter-rouge">Service A</code> puts a Kafka message, it adds a correlation-id. The correlation-id is unique to the Kafka message that was put and the node that put it. i.e. no other node can generate the same correlation-id.</p>
+
+<p>Now the <code class="language-plaintext highlighter-rouge">Service A</code> node will keep polling the shared cache to see it’s there is any data against the correlationKey. If it finds any data, it’ll respond back to the rest API.</p>
+
+<p>When the <code class="language-plaintext highlighter-rouge">Service A</code> processes the Kafka message and puts its response back into Kafka, it’ll add the same correlation-id to the response.</p>
+
+<p>When any <code class="language-plaintext highlighter-rouge">Service A</code> node receives the Kafka message it’ll put the message into a shared cache against the distribution key.</p>
+
+<p>Here’s how the cache would be:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+ </span><span class="nl">"uniqueCorrelationKey"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="err">data</span><span class="w"> </span><span class="err">from</span><span class="w"> </span><span class="err">kafka</span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Since the <code class="language-plaintext highlighter-rouge">Service A</code> node is polling the shared cache it’ll find the data against its correlationKey and send that data to the client.</p>
+
+<p>While implementing this, there may be a failure of <code class="language-plaintext highlighter-rouge">Service A</code>. In this case, <code class="language-plaintext highlighter-rouge">Service A</code> will also publish an error status as a kafka message against correlationKey.</p>
+
+<p>Yet, it may happen that <code class="language-plaintext highlighter-rouge">Service A</code> is unable to publish the error status. In such a case, we should introduce a timeout. This could be a few seconds like 3 or 6 after which the waiting <code class="language-plaintext highlighter-rouge">Service A</code> will timeout and return a 503 Gateway Timeout. And since we are adding things to the cache and that record will not be used after the timeout, we should evict the cache after the timeout time.</p>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZmxvd2NoYXJ0IFREXG5SRVNUX0FQSSAtLVNUQVJUIEhFUkU6IFxcbjAuIENsaWVudCBtYWtlcyBhIFJFU1QgQVBJLS0-IEExXG5zdWJncmFwaCB5b3VyIG5ldHdvcmtcbmNhY2hlXG5BMVtTZXJ2aWNlIEE6IE5vZGUgMV0gLS0xLiBwdWJsaXNoZXMgYSBtZXNzYWdlIHdpdGggY29ycmVsYXRpb25LZXktLT4gS2Fma2FcbkEyW1NlcnZpY2UgQTogTm9kZSAyOiBDb25zdW1lcl0gLS01LiByZXNwb25zZSBhZ2FpbnN0IGNvcnJlbGF0aW9uS2V5IC0tPiBjYWNoZVtTaGFyZWQgQ2FjaGUgbGlrZSBSZWRpc11cbkExIC0tMi4gS2VlcHMgcG9vbGluZ1xcS2Fma2FcXG5hZ2FpbnN0XFxuY29ycmVsYXRpb25LZXktLT4gY2FjaGVcbkthZmthLS00LiBNZXNzYWdlIHJlY2VpdmVkIGJ5IHNvbWUgXFxuIG5vZGUgb2YgU2VydmljZSBBIC0tPiBBMlxuS2Fma2EgLS0yLiB0aGUgbWVzc2FnZSBpcyByZWNlaXZlZCBieSBTZXJ2aWNlIEItLT4gQltTZXJ2aWNlIEJdXG5CLS0zLiBwcm9kdWNlciBSZXNwb25zZSBtZXNzYWdlIC0tPiBLYWZrYVxuY2FjaGUgLS02LiBTZXJ2aWNlIEEgcmVjZWl2ZWQgdGhlIFxcbnJlc3BvbnNlIGluIGNhY2hlLS0-IEExXG5lbmQiLCJtZXJtYWlkIjpudWxsfQ" /></p>]]></content><author><name></name></author><category term="web-development" /><category term="software-architecture" /><summary type="html"><![CDATA[Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/kafka-request-response-redis.svg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/kafka-request-response-redis.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Write Cleaner UI Tests with Page Object Model Pattern</title><link href="https://www.ankushchoubey.com/tdd/page-object-model" rel="alternate" type="text/html" title="Write Cleaner UI Tests with Page Object Model Pattern" /><published>2023-08-28T00:00:00-05:00</published><updated>2023-08-28T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/tdd/v1-page-object-model</id><content type="html" xml:base="https://www.ankushchoubey.com/tdd/page-object-model"><![CDATA[<p>I have covered many testing patterns. Some of them are <a href="https://www.ankushchoubey.com/test-data-factories/">Test Data Factories</a>, <a href="https://www.ankushchoubey.com/method-when-should/">the when/should way</a> and more. The Page Object Model complements all those patterns.</p>
 
 <p>The Page Object Model is a great way to write clean tests for UI-related code. The POM Pattern is usable with any UI testing, selenium, react tests with enzyme or react testing library, TestCafe, Cypress or other test framework.</p>
 
@@ -1867,69 +1937,4 @@ The above OData Url is for the resource <code class="language-plaintext highligh
   <li><a href="https://www.ankushchoubey.com/creating-an-excel-like-language/">How we created a query and evaluation language similar to Google Sheets and Excel formulas</a></li>
   <li><a href="https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html">OData Specification</a></li>
   <li><a href="https://jeffhandley.com/2018-09-13/graphql-is-not-odata">GraphQL is not OData</a></li>
-</ul>]]></content><author><name></name></author><category term="clean-code" /><category term="dsl" /><category term="developer-diary" /><summary type="html"><![CDATA[Implementing OData, Utilizing Specifications, and Enhancing API Flexibility.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/odata-mongo-transpiler.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/odata-mongo-transpiler.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Keep your business logic in the backend. Not frontend.</title><link href="https://www.ankushchoubey.com/v1/business-logic-backend/" rel="alternate" type="text/html" title="Keep your business logic in the backend. Not frontend." /><published>2023-07-06T00:00:00-05:00</published><updated>2023-07-06T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-business-logic-backend</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/business-logic-backend/"><![CDATA[<p>Your business logic should be at the backend, not the front end.</p>
-
-<p>Here are some of the reasons why having business logic in the frontend is bad:</p>
-
-<ol>
-  <li><strong>Security</strong>: It exposes your business logic. It is making your application vulnerable.</li>
-  <li><strong>Performance</strong>: It makes the front end heavy. It is making your front end slower.</li>
-  <li><strong>Single Responsibility</strong>: It’s a violation of the single responsibility principle. It is making your code unmaintainable.</li>
-</ol>
-
-<h2 id="security-it-exposes-your-business-logic-making-your-application-vulnerable"><strong>Security</strong>: It exposes your business logic. Making your application vulnerable</h2>
-
-<p>Having your business logic in the front end is bad for security since anyone can view javascript and change it.</p>
-
-<p>Your backend is secure; no one can look into your backend (ideally).</p>
-
-<p>This is especially important for applications exposed on the internet.</p>
-
-<p>Your backend is more secure than your front end, and you don’t want to expose your business logic to the front end. It should reside at the backend only.</p>
-
-<h3 id="example-1-exposing-a-paid-service">Example 1: Exposing a paid service</h3>
-
-<p>For example, you connect to a paid service to fetch images. Fetching each image costs you $ 0.001. You have decided to limit fetching them to 10 at a time. This would cost $ 0.01. This way, you keep the cost low.</p>
-
-<p>The developer who coded the feature decided that maybe I should add a parameter in the front end. If I want to fetch more images, I’ll just modify the front end and be able to fetch more. He/She adds the code in the frontend that specifies the number of images to be fetched.</p>
-
-<p>Since the code was in javascript, any hacker could easily change the value of the parameter and fetch more images. Suppose a hacker opened the javascript and changed the value from 10 to 100,000. The cost changes from $0.001 to $100.</p>
-
-<p>The solution would be for the developer to keep the code in the backend so that no one can change it.</p>
-
-<h3 id="example-2-exposing-user-details">Example 2: Exposing user details</h3>
-
-<p>Suppose you need data for the logged-in user instead of creating an API that just gets data of the logged-in user from the backend. Your backend API exposes a query param allowing the frontend to pass any userId.</p>
-
-<p>For example,</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/users?userId=123
-</code></pre></div></div>
-
-<p>This makes your application very vulnerable. First of all, you shouldn’t have exposed <code class="language-plaintext highlighter-rouge">/users</code> endpoint because this is highly sensitive data.</p>
-
-<p>Second of all, being able to change the query param <code class="language-plaintext highlighter-rouge">userId</code> of a non-logged-in user would return the data of a non-logged-in user.</p>
-
-<p>Again, the solution is to keep the logic in your backend. Check which user is logged in and return only its data.</p>
-
-<h2 id="performance-it-makes-the-frontend-heavy-making-your-frontend-slower"><strong>Performance</strong>: It makes the frontend heavy. Making your frontend slower</h2>
-
-<p>People leave a website if it doesn’t provide a response time of about 200ms. This is why your frontend should be as small as possible so that it loads faster and is extremely interactive. Therefore, your frontend should be as dumb as possible.</p>
-
-<p>The more code your write to your frontend, the slower your frontend becomes.</p>
-
-<p>The frontend should just get data from the backend and display it. Get inputs from the user and set it to the backend.</p>
-
-<p>No fancy algorithms should be required at the frontend. Apart from input validation and a bit of list sorting, unless you are building a pure frontend application that doesn’t have a backend, you don’t need any fancy algorithm.</p>
-
-<h2 id="single-responsibility-its-a-violation-of-the-single-responsibility-principle-making-your-code-unmaintainable"><strong>Single Responsibility</strong>: It’s a violation of the single responsibility principle. Making your code unmaintainable</h2>
-
-<p>Having your business logic distributed half at frontend and half at the backend means that you don’t have a single place to manage your business logic. You can’t independently think about frontend and backend without thinking of others.</p>
-
-<p>As discussed in the previous point on performance, for better use of interaction and UX, validations on frontend should be introduced. But they should replicate validations on the backend exactly.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>By having your business logic in your backend, you ensure your application is secure, that your frontend is faster, and that backend is the only place where you have the business logic, making it more maintainable.</p>
-
-<p>Make your frontend as dumb as possible, and keep all your business logic in the backend.</p>]]></content><author><name></name></author><category term="web-development" /><category term="software-architecture" /><summary type="html"><![CDATA[Making your application secure, high performance and maintanable.]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="clean-code" /><category term="dsl" /><category term="developer-diary" /><summary type="html"><![CDATA[Implementing OData, Utilizing Specifications, and Enhancing API Flexibility.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/odata-mongo-transpiler.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/odata-mongo-transpiler.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

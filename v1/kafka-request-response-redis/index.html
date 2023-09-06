@@ -6,23 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Always keep yourself ready to switch companies | Ankush Choubey</title>
+<title>Synchronous Request-Response over Kafka with Redis | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Always keep yourself ready to switch companies">
+<meta property="og:title" content="Synchronous Request-Response over Kafka with Redis">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Full Stack Developer - Cloud/Microservices">
-<meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
-<link rel="canonical" href="https://www.ankushchoubey.com/switch-jobs/">
-<meta property="og:url" content="https://www.ankushchoubey.com/switch-jobs/">
+<meta name="description" content="Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.">
+<meta property="og:description" content="Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/kafka-request-response-redis/">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/kafka-request-response-redis/">
 <meta property="og:site_name" content="Ankush Choubey">
-<meta property="og:image" content="https://www.ankushchoubey.com/images/switch-jobs.jpg">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/kafka-request-response-redis.svg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00">
+<meta property="article:published_time" content="2023-09-07T00:00:00-05:00">
 <meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="https://www.ankushchoubey.com/images/switch-jobs.jpg">
-<meta property="twitter:title" content="Always keep yourself ready to switch companies">
+<meta property="twitter:image" content="https://www.ankushchoubey.com/images/kafka-request-response-redis.svg">
+<meta property="twitter:title" content="Synchronous Request-Response over Kafka with Redis">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-09-06T14:20:18-05:00","datePublished":"2021-05-26T00:00:00-05:00","description":"Full Stack Developer - Cloud/Microservices","headline":"Always keep yourself ready to switch companies","image":"https://www.ankushchoubey.com/images/switch-jobs.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/switch-jobs/"},"url":"https://www.ankushchoubey.com/switch-jobs/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-09-07T15:52:08-05:00","datePublished":"2023-09-07T00:00:00-05:00","description":"Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.","headline":"Synchronous Request-Response over Kafka with Redis","image":"https://www.ankushchoubey.com/images/kafka-request-response-redis.svg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/kafka-request-response-redis/"},"url":"https://www.ankushchoubey.com/v1/kafka-request-response-redis/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
 <link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
@@ -36,23 +36,23 @@
 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/787ccdfb3a0c625c1830ac78a/859c6d3b694fad02c3eff1603.js");</script><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Always keep yourself ready to switch companies | Ankush Choubey</title>
+<title>Synchronous Request-Response over Kafka with Redis | Ankush Choubey</title>
 <meta name="generator" content="Jekyll v4.1.1">
-<meta property="og:title" content="Always keep yourself ready to switch companies">
+<meta property="og:title" content="Synchronous Request-Response over Kafka with Redis">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Full Stack Developer - Cloud/Microservices">
-<meta property="og:description" content="Full Stack Developer - Cloud/Microservices">
-<link rel="canonical" href="https://www.ankushchoubey.com/switch-jobs/">
-<meta property="og:url" content="https://www.ankushchoubey.com/switch-jobs/">
+<meta name="description" content="Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.">
+<meta property="og:description" content="Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.">
+<link rel="canonical" href="https://www.ankushchoubey.com/v1/kafka-request-response-redis/">
+<meta property="og:url" content="https://www.ankushchoubey.com/v1/kafka-request-response-redis/">
 <meta property="og:site_name" content="Ankush Choubey">
-<meta property="og:image" content="https://www.ankushchoubey.com/images/switch-jobs.jpg">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/kafka-request-response-redis.svg">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2021-05-26T00:00:00-05:00">
+<meta property="article:published_time" content="2023-09-07T00:00:00-05:00">
 <meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="https://www.ankushchoubey.com/images/switch-jobs.jpg">
-<meta property="twitter:title" content="Always keep yourself ready to switch companies">
+<meta property="twitter:image" content="https://www.ankushchoubey.com/images/kafka-request-response-redis.svg">
+<meta property="twitter:title" content="Synchronous Request-Response over Kafka with Redis">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-09-06T14:20:18-05:00","datePublished":"2021-05-26T00:00:00-05:00","description":"Full Stack Developer - Cloud/Microservices","headline":"Always keep yourself ready to switch companies","image":"https://www.ankushchoubey.com/images/switch-jobs.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/switch-jobs/"},"url":"https://www.ankushchoubey.com/switch-jobs/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-09-07T15:52:08-05:00","datePublished":"2023-09-07T00:00:00-05:00","description":"Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.","headline":"Synchronous Request-Response over Kafka with Redis","image":"https://www.ankushchoubey.com/images/kafka-request-response-redis.svg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/v1/kafka-request-response-redis/"},"url":"https://www.ankushchoubey.com/v1/kafka-request-response-redis/"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
@@ -164,25 +164,26 @@ window.onload = wrap_img;
         background: #ffffffcf;}
 </style>
 
-<header class="post-header"><img src="/images/switch-jobs.jpg" class="cover-image"><div class="post-header-content">
-    <h1 class="post-title p-name" itemprop="name headline">Always keep yourself ready to switch companies</h1>
-<p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
-        May 26, 2021
+<header class="post-header"><img src="/images/kafka-request-response-redis.svg" class="cover-image"><div class="post-header-content">
+    <h1 class="post-title p-name" itemprop="name headline">Synchronous Request-Response over Kafka with Redis</h1>
+<p class="page-description">Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.</p>
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-09-07T00:00:00-05:00" itemprop="datePublished">
+        Sep 7, 2023
       </time>
       • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      3 min read
     
 </span></p>
 
     
     <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
       
-      <a class="category-tags-link" href="/categories/#personal">personal</a>
+      <a class="category-tags-link" href="/categories/#web-development">web-development</a>
        
       
-      <a class="category-tags-link" href="/categories/#responsibility">responsibility</a>
+      <a class="category-tags-link" href="/categories/#software-architecture">software-architecture</a>
       
       
     </p>
@@ -193,39 +194,77 @@ window.onload = wrap_img;
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/images/switch-jobs.jpg" alt=""></p>
+    <h2 id="kafka-is-async">Kafka is async</h2>
 
-<h2 id="capitalism">Capitalism</h2>
+<p>Kafka is made for asynchronous communication. It’s fire and forget. Once a message is published by a producer, the producer doesn’t expect a response and will move to doing some other task.</p>
 
-<p>Money is a proof that you’re adding value to the world. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>The consumer consumes the message at its will and doesn’t respond back to the producer.</p>
 
-<p>The more you earn, the better it is for everyone.</p>
+<p>Ideally, this should be the case. Synchronous communication requires synchronous mediums and Kafka is not one.</p>
 
-<p>Plus, you need money to provide for yourself and your family.</p>
+<p><img src="https://cdn.sanity.io/images/sczeoy4w/production/c0db44fb8695a8b3d3d0c32abcdeda887d121a57-1600x602.png?w=1000&q=80&fit=min&auto=format&dpr=1.5" alt=""></p>
 
-<h2 id="new-domains-people-and-environment">New domains, people and environment</h2>
+<p><a href="https://aiven.io/blog/kafka-simply-explained">Image Source</a></p>
 
-<p>New environments and people give you new perspectives.</p>
+<p>However, due to some reasons that I can’t explain, I had to develop a request-response scenario with Kafka. Here’s how I did it.</p>
 
-<p>As a programmer, we need can work in different business domains. If you are getting bored by your domain.</p>
+<h2 id="correlating-request-and-response">Correlating request and response</h2>
 
-<h2 id="interviews-keep-you-sharp-and-help-you-know-your-progress">Interviews keep you sharp and help you know your progress</h2>
+<p>Each message sent by a producer would include a unique correlation-id. Once the message is received and processed by the consumer, it will publish a response message back to Kafka with the same correlation-id.</p>
 
-<p>Even if you are not going to jump companies, interviews will keep you sharp.</p>
+<p>This way the producer can correlate request and response.</p>
 
-<p>In capitalism, free market decides your worth, interviewing is like calculating your credit score.</p>
+<h2 id="implementation-details">Implementation details</h2>
 
-<h2 id="you-dont-owe-people-anything">You don’t owe people anything</h2>
+<p>Suppose we have two microservices, <code class="language-plaintext highlighter-rouge">Service A</code> and <code class="language-plaintext highlighter-rouge">Service A</code>. <code class="language-plaintext highlighter-rouge">Service A</code> is accessible via REST API. Whenever a request is made on <code class="language-plaintext highlighter-rouge">Service A</code> via REST, the service publishes a message on Kafka. The <code class="language-plaintext highlighter-rouge">Service A</code> is another microservice that processes the request and its own time. <code class="language-plaintext highlighter-rouge">Service A</code> is not aware of whether <code class="language-plaintext highlighter-rouge">Service A</code> has processed the request or not.</p>
 
-<p>Move to place where you get better opportunities/resources. You don’t need to be at a single place.</p>
+<p>Note: <code class="language-plaintext highlighter-rouge">Service A</code> is the producer and <code class="language-plaintext highlighter-rouge">Service A</code> is the consumer.</p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Derek Sivers <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
-    </li>
-  </ol>
-</div>
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZmxvd2NoYXJ0ICBURFxuUkVTVF9BUEkgIC0tPiAgQVxuc3ViZ3JhcGggIHlvdXIgIG5ldHdvcmtcbkFbU2VydmljZSBBOiBwcm9kdWNlcl0gIC0tS2Fma2EgTWVzc2FnZS0tPiAgS2Fma2FcbkJbU2VydmljZSBCOiBDb25zdW1lcl0gIC0tIFBvbGwgS2Fma2EgZm9yIG1lc3NhZ2UtLT4gIEthZmthXG5lbmQiLCJtZXJtYWlkIjpudWxsfQ"></p>
+
+<p>Now, we receive a requirement that <code class="language-plaintext highlighter-rouge">Service A</code> should also respond with status of what happened on <code class="language-plaintext highlighter-rouge">Service A</code></p>
+
+<p>To make it request a response, <code class="language-plaintext highlighter-rouge">Service A</code> will also publish a message back to a Kafka, and <code class="language-plaintext highlighter-rouge">Service A</code> will consume it. In the meantime, <code class="language-plaintext highlighter-rouge">Service A</code> should wait for <code class="language-plaintext highlighter-rouge">Service A</code> to publish the message. Once <code class="language-plaintext highlighter-rouge">Service A</code> receives the message from B, it can respond back to the rest request.</p>
+
+<p>The problem here is there can be many replicas of <code class="language-plaintext highlighter-rouge">Service A</code> and with Kafka, we can’t predict which consumer.</p>
+
+<p><em><strong>Here are the details</strong></em>: Suppose <code class="language-plaintext highlighter-rouge">Service A</code>: Node 1 publishes a message in Kafka. Now <code class="language-plaintext highlighter-rouge">Service A: Node 1</code>. <code class="language-plaintext highlighter-rouge">Service A</code> puts the response back into Kafka. But instead of <code class="language-plaintext highlighter-rouge">Service A: Node 1</code> receiving the Kafka message, Service A: Node 2 receives the Kafka message. So, <code class="language-plaintext highlighter-rouge">Service A: Node 1</code> will never receive the Kafka message.</p>
+
+<p>There are two ways to fix this:</p>
+
+<ol>
+  <li>Consumer Groups</li>
+  <li>Cache</li>
+</ol>
+
+<h2 id="consumer-group-approach">Consumer Group approach</h2>
+
+<p>Set a Kafka message key such that it’ll always be processed by one microservice. This approach is much harder.</p>
+
+<h2 id="cache-approach">Cache approach</h2>
+
+<p>When any node of <code class="language-plaintext highlighter-rouge">Service A</code> puts a Kafka message, it adds a correlation-id. The correlation-id is unique to the Kafka message that was put and the node that put it. i.e. no other node can generate the same correlation-id.</p>
+
+<p>Now the <code class="language-plaintext highlighter-rouge">Service A</code> node will keep polling the shared cache to see it’s there is any data against the correlationKey. If it finds any data, it’ll respond back to the rest API.</p>
+
+<p>When the <code class="language-plaintext highlighter-rouge">Service A</code> processes the Kafka message and puts its response back into Kafka, it’ll add the same correlation-id to the response.</p>
+
+<p>When any <code class="language-plaintext highlighter-rouge">Service A</code> node receives the Kafka message it’ll put the message into a shared cache against the distribution key.</p>
+
+<p>Here’s how the cache would be:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+ </span><span class="nl">"uniqueCorrelationKey"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="err">data</span><span class="w"> </span><span class="err">from</span><span class="w"> </span><span class="err">kafka</span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Since the <code class="language-plaintext highlighter-rouge">Service A</code> node is polling the shared cache it’ll find the data against its correlationKey and send that data to the client.</p>
+
+<p>While implementing this, there may be a failure of <code class="language-plaintext highlighter-rouge">Service A</code>. In this case, <code class="language-plaintext highlighter-rouge">Service A</code> will also publish an error status as a kafka message against correlationKey.</p>
+
+<p>Yet, it may happen that <code class="language-plaintext highlighter-rouge">Service A</code> is unable to publish the error status. In such a case, we should introduce a timeout. This could be a few seconds like 3 or 6 after which the waiting <code class="language-plaintext highlighter-rouge">Service A</code> will timeout and return a 503 Gateway Timeout. And since we are adding things to the cache and that record will not be used after the timeout, we should evict the cache after the timeout time.</p>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZmxvd2NoYXJ0IFREXG5SRVNUX0FQSSAtLVNUQVJUIEhFUkU6IFxcbjAuIENsaWVudCBtYWtlcyBhIFJFU1QgQVBJLS0-IEExXG5zdWJncmFwaCB5b3VyIG5ldHdvcmtcbmNhY2hlXG5BMVtTZXJ2aWNlIEE6IE5vZGUgMV0gLS0xLiBwdWJsaXNoZXMgYSBtZXNzYWdlIHdpdGggY29ycmVsYXRpb25LZXktLT4gS2Fma2FcbkEyW1NlcnZpY2UgQTogTm9kZSAyOiBDb25zdW1lcl0gLS01LiByZXNwb25zZSBhZ2FpbnN0IGNvcnJlbGF0aW9uS2V5IC0tPiBjYWNoZVtTaGFyZWQgQ2FjaGUgbGlrZSBSZWRpc11cbkExIC0tMi4gS2VlcHMgcG9vbGluZ1xcS2Fma2FcXG5hZ2FpbnN0XFxuY29ycmVsYXRpb25LZXktLT4gY2FjaGVcbkthZmthLS00LiBNZXNzYWdlIHJlY2VpdmVkIGJ5IHNvbWUgXFxuIG5vZGUgb2YgU2VydmljZSBBIC0tPiBBMlxuS2Fma2EgLS0yLiB0aGUgbWVzc2FnZSBpcyByZWNlaXZlZCBieSBTZXJ2aWNlIEItLT4gQltTZXJ2aWNlIEJdXG5CLS0zLiBwcm9kdWNlciBSZXNwb25zZSBtZXNzYWdlIC0tPiBLYWZrYVxuY2FjaGUgLS02LiBTZXJ2aWNlIEEgcmVjZWl2ZWQgdGhlIFxcbnJlc3BvbnNlIGluIGNhY2hlLS0-IEExXG5lbmQiLCJtZXJtYWlkIjpudWxsfQ"></p>
 
   </div>
   <div id="mc_embed_shell">
@@ -296,8 +335,8 @@ form#mc_embed_signup{
 <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'https://www.ankushchoubey.com/switch-jobs/';
-      this.page.identifier = 'https://www.ankushchoubey.com/switch-jobs/';
+      this.page.url = 'https://www.ankushchoubey.com/v1/kafka-request-response-redis/';
+      this.page.identifier = 'https://www.ankushchoubey.com/v1/kafka-request-response-redis/';
     };
 
     (function() {
@@ -311,7 +350,7 @@ form#mc_embed_signup{
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
 </noscript>
-<a class="u-url" href="/switch-jobs/" hidden></a>
+<a class="u-url" href="/v1/kafka-request-response-redis/" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
