@@ -84,7 +84,9 @@ Since the `Service A` node is polling the shared cache it'll find the data again
 
 While implementing this, there may be a failure of `Service A`. In this case, `Service A` will also publish an error status as a kafka message against correlationKey.
 
-Yet, it may happen that `Service A` is unable to publish the error status. In such a case, we should introduce a timeout. This could be a few seconds like 3 or 6 after which the waiting `Service A` will timeout and return a 503 Gateway Timeout. And since we are adding things to the cache and that record will not be used after the timeout, we should evict the cache after the timeout time.
+Yet, it may happen that `Service A` is unable to publish the error status. In such a case, we should introduce a timeout. This could be a few seconds like 3 or 6 after which the waiting `Service A` will timeout and return a `503 Gateway Timeout`.
+
+And since we are adding things to the cache and that record will not be used after the timeout, we should evict the cache after the timeout time.
 
 ```mermaid!
 flowchart TD
