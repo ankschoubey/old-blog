@@ -5,11 +5,16 @@ permalink: /philosophy/core-values/responsibility
 ---
 
 
-## Responsibility
+## 💎 Responsibility / Discipline
 
 Synonyms: { Karma , Ethos, Ownership, Accountable, Engagement }
 
 Responsibility over Blame, Laziness and Lethargy.
+
+💎
+• Diamond is extremely valuable.
+• It’s made by beating up charcoal which is fragile initially, the more it’s beaten up, it becomes sharper. I.e. it’s antifragile
+
 
 ## **Part 1: Foundations**
 

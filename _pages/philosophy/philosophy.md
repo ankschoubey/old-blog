@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Philosophy
+title: Life & Self Improvement
 permalink: /philosophy/
 ---
 
