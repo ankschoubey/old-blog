@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-09-09T14:11:37-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Synchronous Request-Response over Kafka with Redis</title><link href="https://www.ankushchoubey.com/v1/kafka-request-response-redis/" rel="alternate" type="text/html" title="Synchronous Request-Response over Kafka with Redis" /><published>2023-09-07T00:00:00-05:00</published><updated>2023-09-07T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-kafka-request-response-redis</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/kafka-request-response-redis/"><![CDATA[<h2 id="kafka-is-async">Kafka is async</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-09-10T03:33:37-05:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Why psychological work and/or therapy are important and shouldn’t be ignored?</title><link href="https://www.ankushchoubey.com/optimism/why-therapy" rel="alternate" type="text/html" title="Why psychological work and/or therapy are important and shouldn’t be ignored?" /><published>2023-09-10T00:00:00-05:00</published><updated>2023-09-10T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/optimism/v1-why-theraphy</id><content type="html" xml:base="https://www.ankushchoubey.com/optimism/why-therapy"><![CDATA[<p>Photo by <a href="https://unsplash.com/@ashlynciara?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ashlyn Ciara</a> on <a href="https://unsplash.com/photos/WA_O4UAUfxc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+
+<p><strong>I am not a therapist or a medical professional</strong>. I didn’t go to therapy for a long time and didn’t understand when to go for it. The reasoning was likely that I didn’t understand what psychology is and what psychological work means.</p>
+
+<p>In the following blog post, I’ll lay out some reasons I found why therapy is helpful. I have a very logical mind, so the below will be from a logical point of view. Towards the end, I’ll share what I am going through and what I would have done differently.</p>
+
+<h2 id="what-is-psychology-and-therapy">What is Psychology and Therapy?</h2>
+
+<p>Psychology is the study of human behaviour. And therapy is just an appointment with an expert who has studied psychology.</p>
+
+<p>We humans adapt to our environments. And we are a creature of habit. When we create habits, it physically changes our brains. We are also a creature of thoughts and emotions, and these affect how we feel and can control our actions. There is always a possibility that we learn habits that are not good for us. And similarly, we might learn thought and emotional habits that aren’t good for us.</p>
+
+<p>And these unhealthy habits (physical, emotional, thought or behaviour) can cause psychological trouble.</p>
+
+<h2 id="medical-vs-psychological-problem">Medical vs Psychological problem</h2>
+
+<p>We can only fix a problem by fixing the root cause of it.</p>
+
+<p>Here’s an example I’ll refer to often that illustrates the importance of fixing a problem at the root: <strong>The broken car example</strong>.</p>
+
+<p><strong>The problem</strong>: We have a car with a broken window. When it rains, the driver and the passengers get wet. The driver and passengers open umbrellas within the vehicle to avoid getting wet. They get wet less, but they have a new problem. They can’t see outside the broken window. This covering keeps them vulnerable to more significant problems like accidents.</p>
+
+<p><strong>The solution</strong>: A broken window is the root cause of the problem. Avoiding fixing the problem using an umbrella within the card only leads to more problems. To restore the problem, one needs to fix the root cause. So, mending or repairing the window will fix the problem. Once the window is replaced or repaired, all issues are solved.</p>
+
+<p>Something similar happens to psychological issues.</p>
+
+<p>A psychological issue is when you are troubled by a thought pattern or behaviour. The thought pattern or behaviour could be something you got from the external world or yourself.</p>
+
+<p>If you have a physical/medical illness, go to a doctor and get diagnosed; they’ll give you medicines. If the treatment works, it means you have a physical condition.</p>
+
+<p>Similarly, one medicine cannot fix the problem with another treatment. You can’t heal a physical injury with cold-related medication. It would be best to have painkillers and other drugs for treating physical injury.</p>
+
+<p>Now, let’s look at the parallel with psych issues.</p>
+
+<p>Sometimes, psychological issues such as high stress can manifest as physical issues, for example, Irritable Bowel Syndrome (IBS), where you can have stomach issues due to stress. If you go to a doctor, he might give you pills that can help relieve the symptoms. But, like me, you’ll be referred to meet a psychiatrist. This is because the cause of IBS most often is high stress, which is a psych issue. And unless it’s not addressed in psychological terms, it’ll continue to affect us. Medicines can relieve the symptoms, but they can’t fix it.</p>
+
+<p>Solutions to fixing medical problems do not fix psychological issues. Solutions that improve psychological problems do not fix physical problems.</p>
+
+<p>Medical treatment might work mildly, like medicines that suppress thoughts. But they can’t fix them permanently.</p>
+
+<p><strong>You need to work on the psychological problem similar to how you work on medical problems.</strong></p>
+
+<p>Psychological issues are a bit different as they often don’t require medication. And they are counter-intuitive and can take time to understand, which is why most people skip it.</p>
+
+<h2 id="anxietydepression-doesnt-mean-pagal">Anxiety/Depression doesn’t mean pagal</h2>
+
+<p>A common thing which people think is that anxiety and depression mean pagal! This may be the most common reason why therapy and psychology are often stigmatized. But that’s not the case. Even brilliant and intense people can get into thought or behavioural patterns that can keep them stuck or in fear. <a href="https://www.ankushchoubey.com/v1/can-not-logic-your-way-out-of-depression">On the contrary, the more intelligent you are, the more likely you are to get depressed</a>.</p>
+
+<p>And usually, pagal means something that generally happens to someone else. And that people want to avoid becoming pagal. They also think of particular people as pagal.</p>
+
+<p>Pagal is a very loaded term and something that people fear because they don’t understand it.</p>
+<ul>
+  <li>Does being angry make you pagal?</li>
+  <li>Does being scared and worried make you pagal?</li>
+</ul>
+
+<p>If you study psychological issues, you realize most are simple. You could say schizophrenia is pagal where people see abnormality in reality. But that’s an extreme case.</p>
+
+<p>Most people who avoid therapy or psychological work avoid it for more superficial reasons like trauma trying to justify saying their condition is not that bad that it can’t be handled themselves.</p>
+
+<p>That may be true. But if you go to a therapist and do psychological work, you could have half the time to go through a solution yourself. And you know you’ll be given proper treatment given their scientific problem.</p>
+
+<p>The below point explains things better.</p>
+
+<h2 id="people-think-that-the-person-who-is-anxious-or-depressed-is-lazy-and-they-need-to-do-it">People think that the person who is anxious or depressed is lazy. And they need to do it.</h2>
+
+<p>But that’s not the case; the person’s mind is in full force, running in survival mode.</p>
+
+<p>Suppose you are frightened by something; your heart rate will go up, and blood will flow to your body, legs and hands so that you can run. The blood flows away from your brain and your stomach. And towards hands and arms.</p>
+
+<p>If you run, you’ll get away from danger. And your heart rate will come down. And other functions will get normal. So the body is in high stress for a short time. Suppose you are in the same state when you are merely sitting still or walking. You can’t run. Nor does the situation demand running.</p>
+
+<p>But the body is accustomed to the exact survival mechanisms as in the past. So your body is in high stress but for a long time.</p>
+
+<p>Since blood is not flowing to your brain, your brain can’t function properly. And since it’s not rushing to your stomach, you get things like IBS.</p>
+
+<h2 id="gym-is-not-enough">Gym is not enough</h2>
+
+<p>We all know that drinking when stressed is bad for you.</p>
+
+<p>Similarly, exercising when stressed is good for you. Some people may say travelling is what helps me burst stress. Or some “status signalling” people may say I meditate (when all day do it a fake meditation)</p>
+
+<p>Suppose, What should you do when you are in a situation where you can’t exercise? Is there any other way out?</p>
+
+<p>Also, how much can you exercise? Yes, exercise does make you stronger in the short term. But does it solve the problem? Like the broken window example from above, does it solve the root cause?</p>
+
+<p>You can sort out and solve the root cause of your psychological troubles with some psychological effort. Simple things that you may have ignored, like your needs, your desires to connect with other people, the way you grew up, the healthy or unhealthy coping mechanisms you learn, and what you do when you are threatened, i.e. defence mechanisms, can go a long way to understanding the root cause and fixing it so that you won’t have 20 other symptoms caused by the exact root cause.</p>
+
+<h3 id="but-i-cant-spend-money-or-they-cant-solve-my-problem">“But I can’t spend money” or “They can’t solve my problem.”</h3>
+
+<p>Psychological treatments aren’t quick fixes, and they require work. Most psych treatment doesn’t involve medication, so people don’t believe it.</p>
+
+<p>You get good grades if you have studied hard for an exam. For this, you may have paid extra tuition, and you trust that the tuition teacher can teach you something or help you in a way that would lead to faster progress. The tutor does not give you brain pills to make you smarter. Neither tutor goes and gives the exam on your behalf.</p>
+
+<p>The tutor’s role is to help you form your thoughts through understanding so that you can pass the exam yourself. Once the exam ends, the tutor is no longer needed, and you can do something else.</p>
+
+<p>Similarly, if you go to therapy to learn how to do psychological work so that you don’t need to go to the therapist again and again, once the problem is fixed, it’s fixed.</p>
+
+<p>The therapist won’t solve the problems for you. But they’ll help you form your thoughts and make them more scientific.</p>
+
+<h2 id="ending-get-it-over-with-and-go-do-something-else">Ending: Get it over with and go do something else.</h2>
+
+<p>I started the blog post by explaining why I didn’t go to therapy. It was because I didn’t know it. I over-relied on philosophy and self-improvement and overestimated my abilities, which are less scientific than the field of psychology.</p>
+
+<p>Therapists spend six years learning Psychology. They study human behaviours and how one can turn their day-to-day anxiety towards something a happier life. You can trust the collective knowledge of the scientists who created the field of psychology.</p>
+
+<p>And the trust need not be naive. Work along with them. Study the concepts of psychology. Become a partner to your therapist in understanding your thoughts and behaviours and set yourself free from common psychological issues that manifest as multiple problems.</p>
+
+<p>Then go do something else. There are more exciting things to do than remain stuck on one problem. So fix it at the source and set yourself free.</p>
+
+<p><img src="/images/why-therapy.jpg" alt="" /></p>]]></content><author><name></name></author><category term="peace" /><category term="non-technical" /><category term="psychology" /><summary type="html"><![CDATA[Psychological and therapy are scientific and can reduce the time it takes for you to fix your problems. There are common misunderstandings with psych work including you don't need it and that therapists fix your problem. Understanding these mis-understanding can help you decide if you or someone close to you needs therapy.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/why-therapy.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/why-therapy.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Synchronous Request-Response over Kafka with Redis</title><link href="https://www.ankushchoubey.com/v1/kafka-request-response-redis/" rel="alternate" type="text/html" title="Synchronous Request-Response over Kafka with Redis" /><published>2023-09-07T00:00:00-05:00</published><updated>2023-09-07T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/v1/v1-kafka-request-response-redis</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/kafka-request-response-redis/"><![CDATA[<h2 id="kafka-is-async">Kafka is async</h2>
 
 <p>Kafka is made for asynchronous communication. It’s fire and forget. Once a message is published by a producer, the producer doesn’t expect a response and will move to doing some other task.</p>
 
@@ -1789,154 +1899,4 @@ If one of them is saved, then the version field is incremented and the other one
 
 <hr />
 
-<p>Thoughts: Compounding also leads to exponential growth in money, career and relationships.</p>]]></content><author><name></name></author><category term="planning" /><category term="systems" /><category term="clarity" /><category term="non-technical" /><summary type="html"><![CDATA[Mindsets and statergies to apply exponential progress to life, business and beyond.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/exponential-growth.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/exponential-growth.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How we implemented OData for MongoDB and use it in OpenAPI</title><link href="https://www.ankushchoubey.com/odata-mongo-transpiler/" rel="alternate" type="text/html" title="How we implemented OData for MongoDB and use it in OpenAPI" /><published>2023-07-11T00:00:00-05:00</published><updated>2023-07-11T15:42:15-05:00</updated><id>https://www.ankushchoubey.com/odata-mongo-transpiler</id><content type="html" xml:base="https://www.ankushchoubey.com/odata-mongo-transpiler/"><![CDATA[<p>I have written about how we created a MongoDB transpiler in the following article: <a href="/creating-an-excel-like-language">how we made our custom language that transpiles to MongoDB</a>. The same technique was used for OData. This article includes what’s different.</p>
-
-<p>OData is used a lot in PowerBI, Tableau, and other reporting applications. Microsoft’s Graph API might be the biggest implementation of OData.</p>
-
-<p><img src="/images/odata-mongo-transpiler.png" alt="" /></p>
-
-<h2 id="understanding-odata">Understanding OData?</h2>
-
-<p>For APIs, the most important thing is to be flexible enough to cater to clients’ needs. If the APIs are flexible, you’ll need less number of APIs in total. If APIs are not flexible, you need more numbers or APIs.</p>
-
-<p>For example, suppose an API doesn’t allow the ability to get only a certain item. In this case, you’ll have to call the API and fetch 100s of items to just find one or two that you need. This increases the load on your API and also increases the load on the client.</p>
-
-<p>But if we add the ability to filter in the same API, the client specifies what data it needs and will only receive that data. This would reduce the load on the client as well as the server.</p>
-
-<p>To address this, we have REST expression languages. There are many expression languages. Microsoft made one called OData.</p>
-
-<p>OData allows a client to filter, sort, compute fields, fetch linked resources, select specific fields, get the count of records, etc, all from one single URL.</p>
-
-<p>For example, here is an OData URL:</p>
-
-<p><code class="language-plaintext highlighter-rouge">/theater.svc/Movies?$filter=Name eq 'Iron Man' and Year gt 2010 and IsBlockbuster&amp;$compute=Revenue gt 1000000 as IsBlockbuster&amp;$expand=Actors($filter=Gender eq 'Male')</code></p>
-
-<p>Translated to English, the URL means.</p>
-
-<ol>
-  <li>Get all Movies with the Name <code class="language-plaintext highlighter-rouge">Iron Man</code> and Year after <code class="language-plaintext highlighter-rouge">2010</code> that are Blockbusters.</li>
-  <li>Blockbusters are movies that have Revenue of more than <code class="language-plaintext highlighter-rouge">1000000</code></li>
-  <li>Also, bring the related <code class="language-plaintext highlighter-rouge">Male</code> Actors</li>
-</ol>
-
-<p>I’ll explain this particular URL later.</p>
-
-<p>OData has different system parameters. Here are a few you should know.</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">$filter</code>: filter data</li>
-  <li><code class="language-plaintext highlighter-rouge">$orderby</code>: sorting fields</li>
-  <li><code class="language-plaintext highlighter-rouge">$select</code>: select specific fields</li>
-  <li><code class="language-plaintext highlighter-rouge">$expand</code>: bring linked resources</li>
-  <li><code class="language-plaintext highlighter-rouge">$compute</code>: add new fields to the response</li>
-  <li><code class="language-plaintext highlighter-rouge">$count</code>: return just a count</li>
-  <li><code class="language-plaintext highlighter-rouge">$top</code>: return top n values only</li>
-  <li><code class="language-plaintext highlighter-rouge">$skip</code>: skip top n values return the rest</li>
-  <li>More is mentioned in <a href="https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html" title="‌">OData specifications</a></li>
-</ul>
-
-<p>These allow the client to specify what kind of data it should return.</p>
-
-<h2 id="why-did-we-choose-to-implement-odata">Why did we choose to implement OData?</h2>
-
-<p>We had built our own custom expression language, and it worked perfectly. It had all the features we needed.</p>
-
-<p>The problem was how do we encourage other developers to use it. We realized OData is something Microsoft folks would understand. And having a specification to point to would be easy for documentation.</p>
-
-<h2 id="how-implementing-odata-was-different">How implementing OData was different?</h2>
-
-<h3 id="odata-is-different-from-openapi">OData is different from OpenAPI</h3>
-
-<p>Our previous language and grammar included only <code class="language-plaintext highlighter-rouge">filtering</code>.</p>
-
-<p>For example, suppose you wanted to search a list of movies and get movies that have the name “Iron”. You would write a filter like: <code class="language-plaintext highlighter-rouge">contains($name, 'Iron')</code>. The OpenAPI URL would be like this.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/movies?filter="contains($name, 'Iron')"
-</code></pre></div></div>
-
-<p>This could also include multiple and <code class="language-plaintext highlighter-rouge">&amp;</code> and or <code class="language-plaintext highlighter-rouge">|</code> conditions.</p>
-
-<p>We would extract out the <code class="language-plaintext highlighter-rouge">filter</code> query param manually and only pass the value to the grammar. So, in the above case, only <code class="language-plaintext highlighter-rouge">contains($name, 'Iron')</code> would be passed.</p>
-
-<p>OData was different. OData has a different URL Entirely. Here’s a sample OData URL from above.</p>
-
-<p><code class="language-plaintext highlighter-rouge">/theater.svc/Movies?$filter=Name eq 'Iron Man' and Year gt 2010 and IsBlockbuster&amp;$compute=Revenue gt 1000000 as IsBlockbuster&amp;$expand=Actors($filter=Gender eq 'Male')</code></p>
-
-<p>The technical description is as follows:
-The above OData Url is for the resource <code class="language-plaintext highlighter-rouge">Movie</code>. It has 3 parameters: <code class="language-plaintext highlighter-rouge">$filter</code> and <code class="language-plaintext highlighter-rouge">$compute</code>.</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">$filter</code> is used to filter out data that match a specific condition.</li>
-  <li><code class="language-plaintext highlighter-rouge">$compute</code> is used to add an extra field, <code class="language-plaintext highlighter-rouge">IsBlockbuster</code>. The same field is also used in <code class="language-plaintext highlighter-rouge">$filter</code>.</li>
-  <li><code class="language-plaintext highlighter-rouge">$expand</code> is used to get foreign keyed data. In the above example, <code class="language-plaintext highlighter-rouge">Movies</code> resource includes a foreign key for <code class="language-plaintext highlighter-rouge">Actors</code>.</li>
-</ul>
-
-<p>Along with <code class="language-plaintext highlighter-rouge">$expand,</code> you can also see <code class="language-plaintext highlighter-rouge">$filter</code> within it.</p>
-
-<p>To handle these use cases of embedded params (one param within another). We had to build our grammar in such a way that it took the entire URL rather than just one <code class="language-plaintext highlighter-rouge">filter</code> query param.</p>
-
-<p>Luckily, we were able to find OData grammar on GitHub. We were able to modify it to implement only the cases we wanted to implement.</p>
-
-<p><a href="https://github.com/luca-vercelli/odata-jpa-mini/blob/master/odata-jpa-mini/src/main/antlr4/odata/antlr/ODataLexer.g4" title="‌">OData Grammar Github</a></p>
-
-<h3 id="odata-specifications">OData Specifications</h3>
-
-<p>In our previous expression language, the syntax was similar to Excel and Google Sheets, but we didn’t have a specification. So, we almost built things on the fly.</p>
-
-<p>With OData, we had a well-documented specification which we knew was perfected over time. We had to worry less about the design of the grammar.</p>
-
-<p><a href="https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html" title="‌">Link to OData Documentation</a></p>
-
-<h2 id="not-implementing-the-complete-spec">Not implementing the complete spec</h2>
-
-<p>OData is vast, and we decided not to implement the complete spec. A complete implementation would take 2+ years, given a team of 5 devs.</p>
-
-<p>Here are some features we chose to ignore because <strong>they didn’t fit our usage patterns</strong>:</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">$expand</code></li>
-  <li><code class="language-plaintext highlighter-rouge">$format</code></li>
-  <li>Datatype checking. We have dynamic fields.</li>
-  <li>parameters within parameters like <code class="language-plaintext highlighter-rouge">Movies/$expand=Actors($filter=Gender eq 'Male')</code></li>
-</ul>
-
-<h2 id="implementing-the-same-query-params-in-openapi">Implementing the same query params in OpenAPI</h2>
-
-<p>We started building the OData transpiler with the hopes of using it in OpenAPI, which is the majority of our use case. To implement this, we did the following cheat.</p>
-
-<p>Our open API endpoints looked like this.</p>
-
-<p><code class="language-plaintext highlighter-rouge">/{resource}?filter={filter}</code></p>
-
-<p>We decided to add all OData params but without <code class="language-plaintext highlighter-rouge">$</code></p>
-
-<p>Here is the syntactic way of looking at the OpenAPI version: <code class="language-plaintext highlighter-rouge">/{resource}?filter={filter}&amp;compute={}&amp;top={}&amp;orderby={}</code></p>
-
-<p>Our Grammar strictly worked with OData and <code class="language-plaintext highlighter-rouge">$</code>. We couldn’t just put the OpenAPI query in, as it would break the grammar.</p>
-
-<p>To solve this problem, we used a cheat.</p>
-
-<p>We got out all the query parameters from OpenAPI and constructed a fake OData url to pass the grammar.</p>
-
-<p><code class="language-plaintext highlighter-rouge">/fakeResource?$filter={fitler}&amp;$compute={}&amp;$top={}&amp;$orderby={}</code></p>
-
-<p>This way, we were able to use the same grammar and cater to OData and OpenAPI.</p>
-
-<h2 id="critiques-of-odata">Critiques of OData</h2>
-
-<p>While implementing OData, we came across a few critiques, and it’s mainly from this article. <a href="https://jeffhandley.com/2018-09-13/graphql-is-not-odata" title="‌">GraphQL is not OData</a></p>
-
-<ul>
-  <li>OData has too many things open by default.</li>
-  <li>You need to restrict it. There are security problems, especially with OData being able to run functions. And operations like Sorting on a non-indexed field can bring down the whole system’s DoS.</li>
-  <li>OData makes many endpoints harder for Backwards compatibility. And Microsoft tried to pump OData into all its APIs.</li>
-  <li>GraphQL is good for sitting between RestAPIs and UI. It complements REST and doesn’t remove the need for it. In GraphQL, when API changes, there are changes to GraphQL Resolvers but rarely to UI, which is calling the GraphQL.</li>
-</ul>
-
-<h2 id="resources">Resources</h2>
-
-<ul>
-  <li><a href="https://www.ankushchoubey.com/creating-an-excel-like-language/">How we created a query and evaluation language similar to Google Sheets and Excel formulas</a></li>
-  <li><a href="https://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part2-url-conventions.html">OData Specification</a></li>
-  <li><a href="https://jeffhandley.com/2018-09-13/graphql-is-not-odata">GraphQL is not OData</a></li>
-</ul>]]></content><author><name></name></author><category term="clean-code" /><category term="dsl" /><category term="developer-diary" /><summary type="html"><![CDATA[Implementing OData, Utilizing Specifications, and Enhancing API Flexibility.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/odata-mongo-transpiler.png" /><media:content medium="image" url="https://www.ankushchoubey.com/images/odata-mongo-transpiler.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Thoughts: Compounding also leads to exponential growth in money, career and relationships.</p>]]></content><author><name></name></author><category term="planning" /><category term="systems" /><category term="clarity" /><category term="non-technical" /><summary type="html"><![CDATA[Mindsets and statergies to apply exponential progress to life, business and beyond.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/exponential-growth.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/exponential-growth.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
