@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-description: 
+description: Psychological and therapy are scientific and can reduce the time it takes for you to fix your problems. There are common misunderstandings with psych work including you don't need it and that therapists fix your problem. Understanding these mis-understanding can help you decide if you or someone close to you needs therapy.
 categories: [peace, non-technical, psychology]
 last_modified_at: 2023-09-10T20:52:08.052481
 last-modified-purpose:
 read-this-when: 
 permalink: /optimism/why-therapy
 title: Why psychological work and/or therapy are important and shouldn't be ignored?
-image: why-therapy.jpg
+image: /images/why-therapy.jpg
 ---
 
 Photo by <a href="https://unsplash.com/@ashlynciara?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ashlyn Ciara</a> on <a href="https://unsplash.com/photos/WA_O4UAUfxc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -119,3 +119,5 @@ Therapists spend six years learning Psychology. They study human behaviours and 
 And the trust need not be naive. Work along with them. Study the concepts of psychology. Become a partner to your therapist in understanding your thoughts and behaviours and set yourself free from common psychological issues that manifest as multiple problems.
 
 Then go do something else. There are more exciting things to do than remain stuck on one problem. So fix it at the source and set yourself free.
+
+![](/images/why-therapy.jpg)
