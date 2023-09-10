@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-description: Psychological and therapy are scientific and can reduce the time it takes for you to fix your problems. There are common misunderstandings with psych work including you don't need it and that therapists fix your problem. Understanding these mis-understanding can help you decide if you or someone close to you needs therapy.
+description: Psychology and therapy are evidence-based approaches that can expedite problem-solving. Common misconceptions include the belief that therapy is unnecessary and that therapists solely resolve issues. Addressing these misconceptions aids in determining the need for therapy, either for yourself or someone you know.
 categories: [peace, non-technical, psychology]
 last_modified_at: 2023-09-10T20:52:08.052481
 last-modified-purpose:
