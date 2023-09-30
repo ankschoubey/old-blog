@@ -50,7 +50,7 @@ We may believe we don’t know enough. But if we trained ourselves (karma), when
 
 If you didn’t perform a crime, you are free from it.
 
-### Silent and Slow Support
+### Silent and Slow Support 
 
 Similarly, let's say you showed told the truth at every moment. Now, you have built trust with the people around you. You have developed trustworthy friends slowly. That trust is because of your Karma.
 
@@ -66,7 +66,7 @@ People try to find flaws around them to latch on to so that they can justify wha
 
 We argue for your rights. People are saying “We want a job”, What’s their qualification? They may have barely passed high school.
 
-## Karma Ledge: Why you should always keep it clean
+## Karma Adds Up
 
 The Karma Ledger never lies. Karma Ledger keeps track of your inputs and your efforts. It’s the source of truth that no one can deny.
 
