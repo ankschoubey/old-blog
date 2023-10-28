@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="BEM, TDD, and thoughtful design supercharge web development by streamlining UI DOM planning for maximum efficiency.">
+<meta property="og:description" content="BEM, TDD, and thoughtful design supercharge web development by streamlining UI DOM planning for maximum efficiency.">
+<link rel="canonical" href="https://www.ankushchoubey.com/tdd/planning-dom/">
+<meta property="og:url" content="https://www.ankushchoubey.com/tdd/planning-dom/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/planning-dom/step-3-css-naming.png">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-10-28T00:00:00-05:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://www.ankushchoubey.com/images/planning-dom/step-3-css-naming.png">
+<meta property="twitter:title" content="5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-10-28T15:52:08-05:00","datePublished":"2023-10-28T00:00:00-05:00","description":"BEM, TDD, and thoughtful design supercharge web development by streamlining UI DOM planning for maximum efficiency.","headline":"5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD","image":"https://www.ankushchoubey.com/images/planning-dom/step-3-css-naming.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/tdd/planning-dom/"},"url":"https://www.ankushchoubey.com/tdd/planning-dom/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/787ccdfb3a0c625c1830ac78a/859c6d3b694fad02c3eff1603.js");</script><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD | Ankush Choubey</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="BEM, TDD, and thoughtful design supercharge web development by streamlining UI DOM planning for maximum efficiency.">
+<meta property="og:description" content="BEM, TDD, and thoughtful design supercharge web development by streamlining UI DOM planning for maximum efficiency.">
+<link rel="canonical" href="https://www.ankushchoubey.com/tdd/planning-dom/">
+<meta property="og:url" content="https://www.ankushchoubey.com/tdd/planning-dom/">
+<meta property="og:site_name" content="Ankush Choubey">
+<meta property="og:image" content="https://www.ankushchoubey.com/images/planning-dom/step-3-css-naming.png">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2023-10-28T00:00:00-05:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://www.ankushchoubey.com/images/planning-dom/step-3-css-naming.png">
+<meta property="twitter:title" content="5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-10-28T15:52:08-05:00","datePublished":"2023-10-28T00:00:00-05:00","description":"BEM, TDD, and thoughtful design supercharge web development by streamlining UI DOM planning for maximum efficiency.","headline":"5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD","image":"https://www.ankushchoubey.com/images/planning-dom/step-3-css-naming.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ankushchoubey.com/tdd/planning-dom/"},"url":"https://www.ankushchoubey.com/tdd/planning-dom/"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link type="application/atom+xml" rel="alternate" href="https://www.ankushchoubey.com/feed.xml" title="Ankush Choubey">
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-35993343-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body>
+<header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/">Ankush Choubey</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/core-values-page/">Core Values</a><a class="page-link" href="/philosophy/">Life &amp; Self Improvement</a><a class="page-link" href="/resume">Hire me!</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/tdd/">Test First Test Everything</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style>
+  .page-content{
+    padding-top: 0px;
+  }
+  .post-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;}
+
+  .cover-image{
+    position: absolute;
+    left:0px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .post-header{height: 550px;}
+    .cover-image{
+      height: 550px;
+    }
+  }
+  .post-header-content{backdrop-filter: blur(200px); 
+    padding: 0px 20px;
+    -webkit-backdrop-filter: blur(200px);
+        background: #ffffffcf;}
+</style>
+
+<header class="post-header"><img src="/images/planning-dom/step-3-css-naming.png" class="cover-image" style="position: relative; height:100%"><div class="post-header-content">
+    <h1 class="post-title p-name" itemprop="name headline">5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD</h1>
+<p class="page-description">BEM, TDD, and thoughtful design supercharge web development by streamlining UI DOM planning for maximum efficiency.</p>
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-10-28T00:00:00-05:00" itemprop="datePublished">
+        Oct 28, 2023
+      </time>
+      • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+    <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i>
+      
+      <a class="category-tags-link" href="/categories/#web-development">web-development</a>
+       
+      
+      <a class="category-tags-link" href="/categories/#tdd">tdd</a>
+      
+      
+    </p>
+    
+
+    </div>
+</header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+     
+    <div class="flash announce-block">
+    <svg class="octicon octicon-megaphone" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><g fill-rule="evenodd"><path d="M3.25 9a.75.75 0 01.75.75c0 2.142.456 3.828.733 4.653a.121.121 0 00.05.064.207.207 0 00.117.033h1.31c.085 0 .18-.042.258-.152a.448.448 0 00.075-.366A16.74 16.74 0 016 9.75a.75.75 0 011.5 0c0 1.588.25 2.926.494 3.85.293 1.113-.504 2.4-1.783 2.4H4.9c-.686 0-1.35-.41-1.589-1.12A16.42 16.42 0 012.5 9.75.75.75 0 013.25 9z"></path><path d="M0 6a4 4 0 014-4h2.75a.75.75 0 01.75.75v6.5a.75.75 0 01-.75.75H4a4 4 0 01-4-4zm4-2.5a2.5 2.5 0 000 5h2v-5H4z"></path><path d="M15.59.082A.75.75 0 0116 .75v10.5a.75.75 0 01-1.189.608l-.002-.001h.001l-.014-.01a5.829 5.829 0 00-.422-.25 10.58 10.58 0 00-1.469-.64C11.576 10.484 9.536 10 6.75 10a.75.75 0 110-1.5c2.964 0 5.174.516 6.658 1.043.423.151.787.302 1.092.443V2.014c-.305.14-.669.292-1.092.443C11.924 2.984 9.713 3.5 6.75 3.5a.75.75 0 110-1.5c2.786 0 4.826-.484 6.155-.957.665-.236 1.154-.47 1.47-.64a5.82 5.82 0 00.421-.25l.014-.01a.75.75 0 01.78-.061zm-.78.06zm.44 11.108l-.44.607.44-.607z"></path></g></svg>
+    <strong>Announcement: </strong> <a href="https://www.ankushchoubey.com/tdd">This blog post part of my free 'Test First Test Everything' series. Explore the complete series for comprehensive insights and guidance.     
+        <img style="
+        background: #f0f8ff00;
+        max-width: 300px;" src="/images/tdd.png">
+    </a>
+</div>
+
+
+  
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I recently had to develop a complex table layout. I had coded it directly without planning, and later, I found a lot of stuff that needed to be included.</p>
+
+<p>For the last two years, I have been working on the backend, so my frontend skills were soft. Then I realized what I used to do. Here is the process I have consistently used to design complex UI with ease.</p>
+
+<p>I later used the process to rebuild my UI from scratch completely. In a very efficient way!</p>
+
+<p>The process involves five steps:</p>
+
+<ol>
+  <li>
+<strong>Copy the Visual Design into drawing software</strong>. I prefer presentation software like Google Slides. 🛝</li>
+  <li>
+<strong>Draw boxes</strong> around all UI components you would like to make.</li>
+  <li>While drawing the <strong>name the UI component’s CSS</strong> using BEM!</li>
+  <li>Create a basic component with <strong>just HTML DOM! No logic</strong>! This should be the look and feel!</li>
+  <li>
+<strong>Start doing TDD</strong>! This is where logic is written!</li>
+</ol>
+
+<p>BEM and TDD are new additions to my toolkit! That has significantly improved my productivity with UI!</p>
+
+<p>As you’ll see, the goal here is #fastFeedback! If you can re-arrange your approach and thinking before development, you’ll save much time later.</p>
+
+<p>Here are the details, along with examples of how you might think about developing the UI of the Google Home Page.</p>
+
+<h2 id="1-copy-the-vdi-into-a-drawing-tool-like-google-slides">1. Copy the VDI into a drawing tool like Google Slides</h2>
+
+<p>Instead of creating a UI directly on HTML, it’s much better to map out all the UI on paper, wireframe or complete VDI tools like Figma. You want to get early feedback on your UI before you start coding it up so that you won’t have to go back and forth on changes. The later the change is introduced, the costlier it is.</p>
+
+<p>It’s much easier to redraw a box than to rewrite a code.</p>
+
+<p>So, assuming you have a nice UI VDI, which you have validated #earlyFeedback and have confirmed, start by copying it into a tool like Google Slides. You can also use Figma, of course.</p>
+
+<p>Since we are taking an example of building the Google Homepage, below, I have copied a screenshot of the Google Homepage in Webview and Mobile view into Google Sheets.s</p>
+
+<p><img src="/images/planning-dom/step-1-copying-ui-into-slides.png" alt=""></p>
+
+<p><a href="https://docs.google.com/presentation/d/1MS5YxpJEKsgWrRnx0iZEgMwFLaPTMQtzroofcs3wTvc/edit?usp=sharing">Google Slides Link</a></p>
+
+<h2 id="2-draw-boxes-around-all-ui-components">2. Draw boxes around all UI components</h2>
+
+<p>I’ll start by drawing boxes around all UI components; this will help give a good idea of what and how things should be in the dom.</p>
+
+<p><img src="/images/planning-dom/step-2.1-drawing-boxes-around-components.png" alt=""></p>
+
+<p>Once I have drawn all the boxes, since both mobile and UI views are open, I’ll colour code the box making it easier to identify their positions in different layouts.</p>
+
+<p><img src="/images/planning-dom/step-2.2-color-coding-boxes.png" alt=""></p>
+
+<h2 id="3-naming-each-box-using-bem">3. Naming each box using BEM</h2>
+
+<p>BEM allows us to name out components and use them as CSS. I have used BEM, and it works great. There is a common issue, though, that it can sometimes be too lengthy to name things, but I can live with it happily.</p>
+
+<p>BEM involves a maximum of three parts in naming a CSS class selector.</p>
+
+<ul>
+  <li>Block</li>
+  <li>Element</li>
+  <li>Modifier</li>
+</ul>
+
+<p>The syntax is like this <code class="language-plaintext highlighter-rouge">.{block}__{element}--{modifier}</code></p>
+
+<p>If {block}, {element} or {modifier} is multiply words, then it can be split by hyphens <code class="language-plaintext highlighter-rouge">-</code>.</p>
+
+<p>Block is the main functionality; for example, since we are building a homepage, we could name our  <code class="language-plaintext highlighter-rouge">{block}</code> <code class="language-plaintext highlighter-rouge">home.</code></p>
+
+<p>Elements are parts of the Block. For our <code class="language-plaintext highlighter-rouge">home</code> block, we could have <code class="language-plaintext highlighter-rouge">{element} 's could be</code>logo<code class="language-plaintext highlighter-rouge">,</code>search-box<code class="language-plaintext highlighter-rouge">,</code>footer`, etc.</p>
+
+<p>Modifiers are different states of elements. For example, when we clicked on the <code class="language-plaintext highlighter-rouge">search-box</code> element, it could show an effect. This can be <code class="language-plaintext highlighter-rouge">--clicked</code> modifier.</p>
+
+<p>So, combining all 3, we get the following CSS classes for each component.</p>
+
+<p><code class="language-plaintext highlighter-rouge">.home</code> - main box
+<code class="language-plaintext highlighter-rouge">home__logo</code>
+<code class="language-plaintext highlighter-rouge">.home__search-box</code>
+<code class="language-plaintext highlighter-rouge">.home__search-box--clicked</code>
+<code class="language-plaintext highlighter-rouge">home__footer</code></p>
+
+<p>I’ll go ahead and name each component in Google Sheets.</p>
+
+<p><img src="/images/planning-dom/step-3-css-naming.png" alt=""></p>
+
+<p>Tip: You can also add the name of the HTML element you will use. For example, I prefer <code class="language-plaintext highlighter-rouge">Box</code> in the MUI React Library. So I’d often write <code class="language-plaintext highlighter-rouge">Box .home.</code></p>
+
+<h2 id="4-create-a-simple-static-html-dom">4. Create a simple static HTML DOM</h2>
+
+<p>Now, I’d create a simple React Project with Static DOM. The structure would proceed from plain to complex, and by the end, you’d see a page that’s closer to what we wanted.</p>
+
+<p>This is a tutorial, so don’t focus, so don’t judge my CSS skills here. 😛. I would spend longer when working on a prod-grade application.</p>
+
+<p>Here’s a video of it. You can freely jump around or follow the guide below.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/58UCMdK33_k?si=y-WnccOE-GdVQ65-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p>I created a simple dom with the header, body and footer. I usually like to display the component names as they go.
+<img src="/images/planning-dom/step-4.1-simple-dom.png" alt=""></p>
+
+<p>Now, iteration two.</p>
+
+<p><img src="/images/planning-dom/step-4.2-dom-takes-shape.png" alt=""></p>
+
+<p>Now that the DOM has taken shape, I’d have to plan more components. So, I returned to the board, drew boxes and wrote CSS classes for the header and footer.
+<img src="/images/planning-dom/step-4.2.1-header.png" alt="">
+<img src="/images/planning-dom/step-4.2.2-footer.png" alt=""></p>
+
+<p>Now that this is done, I added them to the HTML. And whoah. We have our DOM!</p>
+
+<p><img src="/images/planning-dom/step-4.3-final-dom.png" alt=""></p>
+
+<p><img src="/images/planning-dom/step-4.4-complete%20website.png" alt=""></p>
+
+<p>You can see the final code on <a href="https://stackblitz.com/edit/stackblitz-starters-f7clcp?file=src%2Fhome%2Fhome.css">StackBlitz</a></p>
+
+<h2 id="next-step--tdd">Next Step? 👉🏽 TDD</h2>
+
+<p>TDD for the front end is a big topic in itself. I’ll cover it in a different blog post.</p>
+
+<h2 id="wrapping-it-up">Wrapping it up</h2>
+
+<p>Planning your DOM before coding is essential as it can significantly make the mental model of what to develop easier. Use simple tools to draw boxes and name CSS classes using a system like BEM.</p>
+
+<p>Once that’s done, create a simple DOM structure without logic. Make sure your UI looks as it is in your design software.</p>
+
+<p>The next step is to build a bug-free UI. We’ll use TDD for it.</p>
+
+<h2 id="heres-the-final-ui">Here’s The Final UI</h2>
+
+<iframe src="https://stackblitz.com/edit/stackblitz-starters-f7clcp?embed=1&file=src%2Fhome%2Fhome.css&view=preview">
+</iframe>
+
+  </div>
+     
+    <div class="flash announce-block">
+    <svg class="octicon octicon-megaphone" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><g fill-rule="evenodd"><path d="M3.25 9a.75.75 0 01.75.75c0 2.142.456 3.828.733 4.653a.121.121 0 00.05.064.207.207 0 00.117.033h1.31c.085 0 .18-.042.258-.152a.448.448 0 00.075-.366A16.74 16.74 0 016 9.75a.75.75 0 011.5 0c0 1.588.25 2.926.494 3.85.293 1.113-.504 2.4-1.783 2.4H4.9c-.686 0-1.35-.41-1.589-1.12A16.42 16.42 0 012.5 9.75.75.75 0 013.25 9z"></path><path d="M0 6a4 4 0 014-4h2.75a.75.75 0 01.75.75v6.5a.75.75 0 01-.75.75H4a4 4 0 01-4-4zm4-2.5a2.5 2.5 0 000 5h2v-5H4z"></path><path d="M15.59.082A.75.75 0 0116 .75v10.5a.75.75 0 01-1.189.608l-.002-.001h.001l-.014-.01a5.829 5.829 0 00-.422-.25 10.58 10.58 0 00-1.469-.64C11.576 10.484 9.536 10 6.75 10a.75.75 0 110-1.5c2.964 0 5.174.516 6.658 1.043.423.151.787.302 1.092.443V2.014c-.305.14-.669.292-1.092.443C11.924 2.984 9.713 3.5 6.75 3.5a.75.75 0 110-1.5c2.786 0 4.826-.484 6.155-.957.665-.236 1.154-.47 1.47-.64a5.82 5.82 0 00.421-.25l.014-.01a.75.75 0 01.78-.061zm-.78.06zm.44 11.108l-.44.607.44-.607z"></path></g></svg>
+    <strong>Announcement: </strong> <a href="https://www.ankushchoubey.com/tdd">This blog post part of my free 'Test First Test Everything' series. Explore the complete series for comprehensive insights and guidance.     
+        <img style="
+        background: #f0f8ff00;
+        max-width: 300px;" src="/images/tdd.png">
+    </a>
+</div>
+
+
+  <div id="mc_embed_shell">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+      #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+    <img src="/images/signup-homescreen.png" style="background: #0000ff00;max-height: 150px;">
+    <a style="font-size: 1px;" href="https://www.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_11602236.htm#query=programmer&amp;position=1&amp;from_view=search&amp;track=sph">Image by catalyststuff  on Freepik</a>
+  <form action="https://ankushchoubey.us21.list-manage.com/subscribe/post?u=787ccdfb3a0c625c1830ac78a&id=51f57ce68a&f_id=002959e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+    <p style="display: flex;margin: 0px !important;gap: 10px;">
+        Hire me for consulting, speaking and developer roles by contacting me on <a href="https://www.linkedin.com/in/ankushchoubey/"><img src="/images/LI-Logo.png" style="height: 2ch;    background: #f0f8ff00;" alt="LinkedIn logo"></a>.
+    </p>  
+    <div id="mc_embed_signup_scroll">
+<p>For more articles like this one, subcribe to my email newsletter for captivating articles at the crossroads of Software Engineering and Philosophy.</p>
+          <div class="indicates-required" style="display: none;">
+<span class="asterisk">*</span> indicates required</div>
+          <div class="mc-field-group">
+<label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+</div>
+      <div id="mce-responses" class="clear foot">
+          <div class="response" id="mce-error-response" style="display: none;"></div>
+          <div class="response" id="mce-success-response" style="display: none;"></div>
+      </div>
+  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+      /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+      <input type="text" name="b_787ccdfb3a0c625c1830ac78a_51f57ce68a" tabindex="-1" value="">
+  </div>
+      <div class="optionalParent">
+          <div class="clear foot">
+              <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+              <p class="brandingLogo" style="margin: 0px auto;"><a href="http://eepurl.com/iwHRjY" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg" alt="referral badge"></a></p>
+          </div>
+      </div>
+  </div>
+</form>
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+</div>
+
+<style>
+div#mc_embed_signup{
+    width: auto !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+form#mc_embed_signup{
+    max-width: 800px !important;
+}
+#mc_embed_signup{
+    background-color: #fff0 !important;
+}
+#mc_embed_signup .mc-field-group{
+    padding-bottom: 0% !important;
+}
+
+#mc_embed_signup h2{
+    margin: 0px !important;
+}
+#mc_embed_signup .brandingLogo{
+    display: none !important;
+}
+</style>
+<div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https://www.ankushchoubey.com/tdd/planning-dom/';
+      this.page.identifier = 'https://www.ankushchoubey.com/tdd/planning-dom/';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      s.src = 'https://ankushchoubey.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+<a class="u-url" href="/tdd/planning-dom/" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://www.ankushchoubey.com/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Full Stack Developer - Cloud/Microservices</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list">
+<li>
+  <a rel="me" href="https://github.com/ankschoubey" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+<li>
+  <a rel="me" href="https://twitter.com/ankschoubey" target="_blank" title="twitter">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#twitter"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
