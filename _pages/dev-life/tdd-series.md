@@ -101,6 +101,11 @@ Here's the index
 
 #12 - **[Write Cleaner UI Tests with Page Object Model Pattern](/tdd/page-object-model)**: Page Object Model can be used with any testing framework to write cleaner and simpler tests that are fast to write.
 
+## TDD Level 2.5: UI
+
+#1 - **[5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD](/tdd/planning-dom/)**: BEM, TDD, and thoughtful design supercharge web development by streamlining UI DOM planning for maximum efficiency.
+
+
 ## TDD Level 3: TDD With time
 
 #1 - **[Whenever you encounter a bug](https://www.ankushchoubey.com/encounter-a-bug/)**
