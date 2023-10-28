@@ -6,7 +6,7 @@ categories: [web-development, tdd]
 last_modified_at: 2023-10-28T20:52:08.052481
 last-modified-purpose:
 permalink: /tdd/planning-dom/
-title: My 5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD
+title: 5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD
 image: /images/planning-dom/step-3-css-naming.png
 cover-img-style: "position: relative; height:100%"
 ---
