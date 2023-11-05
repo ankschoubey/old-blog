@@ -1,6 +1,6 @@
 ---
 description: Give up on thinking about the outcome. Do what needs to be done. Following your values is complete in itself. The outcome is a bonus.
-title: Values are "now". Act!
+title: Values are 'now'. Act!
 comments: true
 categories: [responsibility, non-technical]
 layout: post
