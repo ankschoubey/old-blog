@@ -128,4 +128,6 @@ So let certain things be and never try to manipulate.
 
 ## From the original conversation
 
+Feb 2nd, 2023
+
 ![](/images/7-tools-for-making-good-love-choices.jpeg)
