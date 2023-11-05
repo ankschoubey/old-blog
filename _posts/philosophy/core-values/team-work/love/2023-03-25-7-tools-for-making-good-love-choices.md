@@ -125,3 +125,7 @@ So let certain things be and never try to manipulate.
 > Do good and let go of the outcome.
 
 > कर्म करो और फल की चिंता मत करो
+
+## From the original conversation
+
+![](/images/7-tools-for-making-good-love-choices.jpeg)
