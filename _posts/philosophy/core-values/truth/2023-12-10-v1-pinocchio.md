@@ -37,11 +37,11 @@ Fairy wishes the best of luck to both Pinnocheo and the conscience.
 
 {%- include lesson.html content="Both a person and conscience take a journey together. i.e. they both learn and grow with time and experience." -%}
 
-When temptation is strong, give a wish to your conscience. Always let your conscience be your guide.
+When temptation is strong, whistle to your conscience. Always let your conscience be your guide.
 
 When you are slipping, call your conscience. Let your conscience be your guide. :)
 
-When you feel you are not being brave, give a little while and let your conscience guide you.
+When you feel you are not being brave, give a little whistle and let your conscience guide you.
 
 ## First Thing: Going to Education
 
@@ -67,7 +67,7 @@ He traps Pinocchio and eats the apple that was given to him by his father. Pinoc
 
 Then Honest John entices him to become an actor. He says he'll be world famous. Pinocchio has the awareness that he needs to go to school, but eventually, after Honest Johns's persistence, he gets enticed. And goes along with Honest John. Happily, 
 
-{%- include lesson.html content="We are happy even if we don't realize we are going to love. And sometimes we are too satisfied. Maybe if it sounds too good to be true, it is." -%}
+{%- include lesson.html content="We are happy even if we don't realize we are going to lose. And sometimes we are too satisfied. Maybe if it sounds too good to be true, it is." -%}
 
 His conscience suddenly sees Pinocchio and Honest John walking and singing happily. He slowly goes to Pinocchio while avoiding honest John, trying to hint at him. You had to go to the school.
 
@@ -85,19 +85,19 @@ Gemini Cricket manages to get rid of Honest John and talks of Pinocchio when he 
 
 Someone has evil intent for the entire group, and you are a part of it. Just being part of the group.
 
-The steps to get out are still the same.
+The steps to get out are still the same. Listen to your conscience and act.
 
 {%- include lesson.html content="Be careful who your company is." -%}
 
-{%- include lesson.html content="When you are doing something with yourself, it can affect people around you." -%}
-
 Pinnocheo's father went out on a journey to bring Pinnocheo back. But he got swallowed by a whale and reached the depth of the sea. This is also a thing that Pinnocheo's father may not have gone out to protect his son. At the same time, when you go out to do important things, even if your intention is pure, you may get swollen by the whale.
+
+{%- include lesson.html content="When you are doing something with yourself, it can affect people around you." -%}
 
 For Pinnocheo, this is a shock, And he goes to get his father out of the belly of the whale.
 
 His conscience is in disagreement, and he is scared. It wants to avoid getting to the bottom of the ocean to get the father. Pinocchio is disintegrated. i.e. he wants something, but his conscience wants something else.
 
-Pinocchio has to convince his conscience, and the way he convinces them is to talk to him. It takes a moment to speak with his conscience. The conscience and Pinnocheo align, and the conscience can give tips for things further.
+Pinocchio has to convince his conscience, and the way he convinces them is to talk to him. He takes a moment to speak with his conscience. The conscience and Pinnocheo align, and the conscience can give tips for things further.
 
 {%- include lesson.html content="We often take journeys with our conscience. It's only sometimes that the conscience is correct. We learn together with our conscience. When we are aligned, i.e. we and the conscience think in the same direction, we can move much faster in that direction. 🙂 You have to love yourself and talk to yourself enough to get yourself aligned. 🙂 We have a little ourselves inside of us." -%}
 
