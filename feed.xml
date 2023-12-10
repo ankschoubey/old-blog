@@ -1,4 +1,150 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-11-05T03:59:39-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD</title><link href="https://www.ankushchoubey.com/tdd/planning-dom/" rel="alternate" type="text/html" title="5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD" /><published>2023-10-28T00:00:00-05:00</published><updated>2023-10-28T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/tdd/planning-dom</id><content type="html" xml:base="https://www.ankushchoubey.com/tdd/planning-dom/"><![CDATA[<p>I recently had to develop a complex table layout. I had coded it directly without planning, and later, I found a lot of stuff that needed to be included.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://www.ankushchoubey.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ankushchoubey.com/" rel="alternate" type="text/html" /><updated>2023-12-10T07:36:53-06:00</updated><id>https://www.ankushchoubey.com/feed.xml</id><title type="html">Ankush Choubey</title><subtitle>Full Stack Developer - Cloud/Microservices</subtitle><entry><title type="html">Lessons Learned From The Movie Pinocchio</title><link href="https://www.ankushchoubey.com/v1/truth/pinocchio" rel="alternate" type="text/html" title="Lessons Learned From The Movie Pinocchio" /><published>2023-12-10T00:00:00-06:00</published><updated>2023-12-10T14:52:08-06:00</updated><id>https://www.ankushchoubey.com/v1/truth/v1-pinocchio</id><content type="html" xml:base="https://www.ankushchoubey.com/v1/truth/pinocchio"><![CDATA[<p>I watched Pinocchio recently, and I loved the movie. It’s philosophical and in the purest sense.</p>
+
+<p>Here’s my description of the movie, along with the lesson learned.</p>
+
+<h2 id="pinnocheos-dad-created-him">Pinnocheo’s Dad Created Him</h2>
+
+<p>Pinnocheo’s father is an old guy who lives and enjoys his life. He seems to be single. He does have the company of his cat and fish, and he enjoys his life a lot.</p>
+
+<p>He makes Pinocchio, a wooden puppet. And wishes him for a dying star for a wish that may the boy come true.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>The guy already enjoyed his life.
+</div>
+<p>When he wished from the dying star, the fairy didn’t just give him a complete boy. She made the wooden puppet alive.</p>
+
+<p>When the puppet came, he was given a chance to become alive. And it was up to him to become alive. No one else could do it. But he could do it himself.</p>
+
+<p>And to help him along the path, he was gifted a conscience. Gemini The Cricket. Who can guide him to choose right over wrong?</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Jiminy_Cricket.png" alt="" /></p>
+
+<p>To become a complete boy, Pinnocheo would have to listen to his conscience and choose the path of being selfless, honest and courageous. If he does all these, he’ll become a complete boy one day.</p>
+
+<p>Fairy wishes the best of luck to both Pinnocheo and the conscience.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>Both a person and conscience take a journey together. i.e. they both learn and grow with time and experience.
+</div>
+<p>When temptation is strong, give a wish to your conscience. Always let your conscience be your guide.</p>
+
+<p>When you are slipping, call your conscience. Let your conscience be your guide. :)</p>
+
+<p>When you feel you are not being brave, give a little while and let your conscience guide you.</p>
+
+<h2 id="first-thing-going-to-education">First Thing: Going to Education</h2>
+
+<p>The first thing Pinnocheo has to do the next day is get out of his house and go to school to meet other kids.</p>
+
+<p>Pinocchio goes happily, carrying an apple given to him by his father.</p>
+
+<p>Since Pinocchio and his conscience are separate, the conscience does not travel with him always. So, while Pinnocheo is going, the conscience is late running, though he is sure what bad can happen on the first day.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Pinochio2_1940.jpg" alt="" /></p>
+
+<h2 id="personal-evil">Personal Evil</h2>
+
+<p>Pinocchio meets a Fox, Honest John. Honest John is anything but honest.</p>
+
+<p>Honest John sees Pinocchio as a gold mine and takes advantage of him. #goldDigger.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>sometimes people see you as a gold mine, so they decide to take advantage of you.
+</div>
+<p>He traps Pinocchio and eats the apple that was given to him by his father. Pinocchio doesn’t even get concerned with his apple being eaten away. Honest John is acting too well. Pinocchio thinks he is a good man.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>People with Malavelant intent work Charmly. No one acts dishonestly in front of you. Until you are away from all drama and can exclude a person's charm to look at their action, you will stay trapped.
+</div>
+<p>Then Honest John entices him to become an actor. He says he’ll be world famous. Pinocchio has the awareness that he needs to go to school, but eventually, after Honest Johns’s persistence, he gets enticed. And goes along with Honest John. Happily,<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>We are happy even if we don't realize we are going to love. And sometimes we are too satisfied. Maybe if it sounds too good to be true, it is.
+</div>
+<p>His conscience suddenly sees Pinocchio and Honest John walking and singing happily. He slowly goes to Pinocchio while avoiding honest John, trying to hint at him. You had to go to the school.</p>
+
+<p>Pinocchio sees Gemini (conscience) and reveals to Honest John that he is there. The first thing honest John tries to do is get rid of Gemini.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>People who are evil start first by taking away your autonomy. Avoid that.
+</div>
+<p>Gemini Cricket manages to get rid of Honest John and talks of Pinocchio when he is alone. Gemini rarely talks in front of other people except the fairy. In front of others, especially people he thinks are doing wrong. Here, the sprite could be equated to god.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>Your conscience talks to you when you allow for some silence.
+</div>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Stromboli_in_Walt_Disney%27s_Pinocchio.png" alt="" /></p>
+
+<h2 id="group-evil">Group Evil</h2>
+
+<p>Someone has evil intent for the entire group, and you are a part of it. Just being part of the group.</p>
+
+<p>The steps to get out are still the same.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>Be careful who your company is.
+</div>
+<p><br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>When you are doing something with yourself, it can affect people around you.
+</div>
+<p>Pinnocheo’s father went out on a journey to bring Pinnocheo back. But he got swallowed by a whale and reached the depth of the sea. This is also a thing that Pinnocheo’s father may not have gone out to protect his son. At the same time, when you go out to do important things, even if your intention is pure, you may get swollen by the whale.</p>
+
+<p>For Pinnocheo, this is a shock, And he goes to get his father out of the belly of the whale.</p>
+
+<p>His conscience is in disagreement, and he is scared. It wants to avoid getting to the bottom of the ocean to get the father. Pinocchio is disintegrated. i.e. he wants something, but his conscience wants something else.</p>
+
+<p>Pinocchio has to convince his conscience, and the way he convinces them is to talk to him. It takes a moment to speak with his conscience. The conscience and Pinnocheo align, and the conscience can give tips for things further.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>We often take journeys with our conscience. It's only sometimes that the conscience is correct. We learn together with our conscience. When we are aligned, i.e. we and the conscience think in the same direction, we can move much faster in that direction. 🙂 You have to love yourself and talk to yourself enough to get yourself aligned. 🙂 We have a little ourselves inside of us.
+</div>
+<p>Pinocchio also aligns himself with facing a challenge. i.e. to protect his father from the belly of the whale.</p>
+
+<p>Often, tragedy befalls us. It takes us, or it brings our family members or community. Not always, but sometimes, we must face the whale voluntarily at the bottom of the ocean. This journey to the bottom of the sea is feared by everyone, as described by all the fishes. It’s an abyss.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>JP says: If you stare into the abyss long enough and voluntarily, you'll not only find the abyss staring back at you, you'll find the light.
+</div>
+<p>Important things need to be faced. It’s luck to meet essential stuff with all your strength and knowledge. That certainly helps. But sometimes you don’t have all the power or all the ability, yet you have to face the whale at the bottom of the ocean voluntarily and to your best capacity for yourself and the people around you.</p>
+
+<h2 id="pinocchio-meets-his-dad-inside-the-belly-of-the-whale">Pinocchio meets his Dad inside the belly of the whale.</h2>
+
+<p>This can also be thought of as a revelation met inside darkness. Darkness, once understood and voluntarily accepted, can reveal important things.</p>
+
+<p>To get out of darkness, Pinnocheo did not use brute force. He doesn’t have the strength. He uses his intellect. he isn’t the smartest. Yet he tries what he knows.</p>
+
+<p>We should, too. We often can’t attack the whale directly; we must be smart about it. Look around us. Be humble to use things that we didn’t use before and ask for help about things from people we have never asked before. And do our best even if we don’t know enough.</p>
+
+<p>Finally, Pinocchio and his father get out of the whale’s belly. The whale chases them even after for some time. But they can protect themselves enough so they don’t get eaten again.<br /></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Lesson: </strong>Once you get out of darkness, it's not like it's all bright instantly. You must solidify the light so that darkness doesn't get over you. The best way to do this is to understand it fully and transcend it 🙂.
+</div>
+<h2 id="pinocchio-becomes-a-real-boy">Pinocchio becomes a real boy.</h2>
+
+<p>Pinocchio finally becomes a real boy after all the ups and downs and the adventures.</p>
+
+<p>He tried out stupid things and found out he didn’t want to go in that direction.</p>
+
+<p>He saved his father from the belly of the whale. He exercised courage despite malevolence and goodness towards his family members. He integrated with his conscience. i.e. he let his conscience be his guide. And he developed a better, more aligned relationship with his concise.</p>
+
+<p>Eventually, he becomes a real boy. This can be thought of as he entirely fulfilled his potential.</p>
+
+<hr />
+
+<p>By following some of his examples, we can fulfill our potential too. 💎🙂</p>
+
+<p>If you haven’t watched Pinocchio. I recommend you do, and if you have watched it yet, let me know what you think. ❤️</p>
+
+<p>Is there any other movie you know that’s similar and philosophical?</p>
+
+<hr />
+
+<p>More lessons:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8fXwOAeDKdo?si=SEtuvjQsyv4hnufZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>]]></content><author><name></name></author><category term="non-technical" /><category term="truth" /><summary type="html"><![CDATA[A cartoon can teach you about importance of self-discovery, aligning with one's conscience, and facing challenges voluntarily.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://upload.wikimedia.org/wikipedia/commons/9/94/Pinocchio_1940.jpg" /><media:content medium="image" url="https://upload.wikimedia.org/wikipedia/commons/9/94/Pinocchio_1940.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD</title><link href="https://www.ankushchoubey.com/tdd/planning-dom/" rel="alternate" type="text/html" title="5 Step Process to Planning and Building a UI DOM Efficiently with Boxes, BEM and TDD" /><published>2023-10-28T00:00:00-05:00</published><updated>2023-10-28T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/tdd/planning-dom</id><content type="html" xml:base="https://www.ankushchoubey.com/tdd/planning-dom/"><![CDATA[<p>I recently had to develop a complex table layout. I had coded it directly without planning, and later, I found a lot of stuff that needed to be included.</p>
 
 <p>For the last two years, I have been working on the backend, so my frontend skills were soft. Then I realized what I used to do. Here is the process I have consistently used to design complex UI with ease.</p>
 
@@ -1694,149 +1840,4 @@ If one of them is saved, then the version field is incremented and the other one
 
 <p>You have learned something that’s truly the foundation of writing good code. In upcoming blog posts, we’ll see how to test REST APIs, frontends, etc.</p>
 
-<p>If you have any questions, suggestions, or observations or just want to connect, feel free to use the comments box below! Your knowledge-sharing will be helpful to everyone.</p>]]></content><author><name></name></author><category term="testing" /><category term="tdd" /><summary type="html"><![CDATA[Learn the foundation of TDD with a simple example explained in depth.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/tdd-backend-example.svg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/tdd-backend-example.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to promote the habit of TDD within a Team</title><link href="https://www.ankushchoubey.com/promote-tdd-in-a-team/" rel="alternate" type="text/html" title="How to promote the habit of TDD within a Team" /><published>2023-08-09T00:00:00-05:00</published><updated>2023-08-09T15:52:08-05:00</updated><id>https://www.ankushchoubey.com/promoting-tdd-within-a-team</id><content type="html" xml:base="https://www.ankushchoubey.com/promote-tdd-in-a-team/"><![CDATA[<p>When you do TDD yourself, you’d have improved your code quality, reduced the number of bugs you produce, and become faster at development.</p>
-
-<p>At the same time, it’s likely that developers that don’t code with TDD, are doing less than they could.</p>
-
-<p>(And finally, what’s good for all is good for us) So #weShouldShare our knowledge!</p>
-
-<p>Doing things alone is nice. But having the whole team do TDD is something else. You can pick anyone’s code and any piece of code and know that it was done to the best.</p>
-
-<p>Promoting TDD within the team takes time. And your patience and consistent effort is needed.</p>
-
-<p><img src="/images/promote-tdd-in-a-team.jpg" alt="" /></p>
-
-<h2 id="tdd-is-a-skill-that-you-develop-and-a-choice-that-you-make-">TDD is a skill that you develop and a choice that you make <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
-
-<p>We’ll explore TDD through the lens of habit change. The Atomic Habits is the best book on habit change. Below are the 4 Laws of Behavior Change as outlined in the book The Atomic Habits.</p>
-
-<ol>
-  <li>Make it obvious.</li>
-  <li>Make it attractive.</li>
-  <li>Make it easy.</li>
-  <li>Make it satisfying.</li>
-</ol>
-
-<p>We’ll explore the 4 Laws in a different order, starting with <strong>Make it Attractive</strong>.</p>
-
-<h2 id="making-it-attractive">Making it Attractive</h2>
-
-<h3 id="lead-by-example">Lead by Example</h3>
-
-<p>I have found that no matter how much I try to motivate others, they only get motivated when they see an example. When I tried to tell people to do X, they didn’t believe me that it works. And then I did X and did so publically, and they brought questions for people. What was your thought process? How did you do? Didn’t you think? Etc etc.</p>
-
-<p>So start by being someone who does TDD, and does it well. This series of posts may have taught you valuable insights into TDD.</p>
-
-<p>Practice them to their best.</p>
-
-<ul>
-  <li>Produce good and clean tests</li>
-  <li>Product good and clean code</li>
-  <li>Be able to demonstrate that you can code easily.</li>
-</ul>
-
-<p>When they see you do TDD and see the quality of your code and tests and your change in productivity, They’ll find it inspiring to adopt.</p>
-
-<h3 id="start-using-tests-and-explaining-what-the-code-does">Start using tests and explaining what the Code Does</h3>
-
-<p>When you show your code, start with the tests. Collapse all the code blocks so that developers can only see the test names.</p>
-
-<p>For example, collapsing the upsert method tests would look something like this:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>upsert method
- - WHEN data is present
-  - SHOULD update values
- - WHEN data is not present
-  - SHOULD insert new values
-</code></pre></div></div>
-
-<p>Now you can speak the tests easily.</p>
-
-<h2 id="make-it-satisfying">Make it satisfying</h2>
-
-<h3 id="find-the-early-adopters-and-help-them-through-the-journey">Find the early adopters and help them through the journey</h3>
-
-<p>Some people are more open to trying new ideas than others. This group also includes those developers who are new and those developers who want to improve their coding skills.</p>
-
-<p>Start with them. Teach them TDD. You could always refer to this series.</p>
-
-<p>When one person becomes an evangelist of the process, more people will start adopting.</p>
-
-<p><img src="https://omniplexlearning.com/wp-content/uploads/Highres-scaled.jpg.webp" alt="Highres" /></p>
-
-<p>Source: <a href="https://omniplexlearning.com/blog/technology-adoption-curve-stages/">https://omniplexlearning.com/blog/technology-adoption-curve-stages/</a></p>
-
-<h3 id="take-sessions-on-tdd-and-continuously-coach">Take sessions on TDD and continuously coach</h3>
-
-<p>The first reaction of people who hear TDD is that they think they know what TDD is or that they say they have practiced it but it didn’t work.</p>
-
-<p>This is why, try to start by teaching developers and the organization what TDD is and how it can benefit everyone.</p>
-
-<p>Explain the 3 benefits highlighted in this TDD series:</p>
-
-<ol>
-  <li>TDD leads to fewer bugs.</li>
-  <li>TDD increases code quality.</li>
-  <li>TDD is faster overall.</li>
-</ol>
-
-<p>TDD has subtle nuances which is why most developers don’t learn it well. Use the git repo and the cheatsheet mentioned in the series to help them.</p>
-
-<p>After the session and as time goes on keep coaching the team on improving their TDD practice. Find impediments and solve them. Identify the signals that you need better tests and continue refining.</p>
-
-<h3 id="provide-time-and-support-to-developers-while-they-learn">Provide time and support to developers while they learn</h3>
-
-<p>TDD requires a mind shift and isn’t as easy to grasp. Give your developers time. Initially, they may take time to ship the feature.</p>
-
-<p>It’s important to help the developers focus on delivering with quality - with tests rather than forcing them to deliver something that’s not finished.</p>
-
-<p>Expect some slowness when the team adopts TDD. But remember to continuously inspect and adapt so that you can solve their impediments. At the same time, don’t let developers drag on their “learning” phase, TDD takes some iterations to learn but overall it will reduce time. If developer productivity doesn’t improve after 20-30 days of iterating, there are problems with the way TDD is practiced.</p>
-
-<h2 id="make-it-easy">Make it easy</h2>
-
-<h3 id="provide-templates">Provide templates</h3>
-
-<p>Many developers won’t know where to start. Therefore, they can start with a template. This would make it easy for them to think in terms of TDD.</p>
-
-<p>The method/when/then style of writing is fantastic by default. You can modify and generate your templates.</p>
-
-<p>You can refer to and use the following template for Java and Javascript and Typescript.</p>
-
-<p>For react, you can use the following template which was first mentioned in <todo-react-post-link></todo-react-post-link></p>
-
-<p><img src="/images/method-when-should.png" alt="" /></p>
-
-<h2 id="make-it-obvious">Make it obvious</h2>
-
-<h3 id="anytime-a-developer-comes-to-you-ask-them-to-show-the-test">Anytime a developer comes to you, ask them to show the test</h3>
-
-<p>This is the simplest thing you can do. When someone comes to you with a doubt, ask them to show it in a test.</p>
-
-<p>If they haven’t written a test, you can walk them through the TDD process.</p>
-
-<h3 id="automate-checking">Automate Checking</h3>
-
-<p>Before and while adding the automation, explain to the team the benefits of adding these checks.</p>
-
-<p>There are two automations that you can do:</p>
-
-<ol>
-  <li>Code Coverage</li>
-  <li>Test Format</li>
-</ol>
-
-<p>For Code Coverage, keep your minimum code coverage for your build pipeline to 85%. When you do TDD, your code coverage would be as close to 90-95%. If it’s less, maybe you or your team haven’t done good TDD.</p>
-
-<p>Test Format verification would help generate cleaner and more consistent tests. Add the equivalent of the ArchUnit test in your Java code. When someone doesn’t follow the test format, this test should fail.</p>
-
-<p>You can find the ArchTest for verifying the given/when/then pattern in the blog post on <a href="https://www.ankushchoubey.com/method-when-should/">method/when/then style</a>.</p>
-
-<p>Photo by <a href="https://unsplash.com/@austindistel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Austin Distel</a> on <a href="https://unsplash.com/photos/wD1LRb9OeEo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Rewording Naval Ravikant “Happiness is the skill that you develop and the choice that you make” <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name></name></author><category term="testing" /><category term="tdd" /><summary type="html"><![CDATA[Promoting TDD within a team requires patience, consistent effort, and a focus on creating a positive and supportive environment for learning and improvement.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/promote-tdd-in-a-team.jpg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/promote-tdd-in-a-team.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>If you have any questions, suggestions, or observations or just want to connect, feel free to use the comments box below! Your knowledge-sharing will be helpful to everyone.</p>]]></content><author><name></name></author><category term="testing" /><category term="tdd" /><summary type="html"><![CDATA[Learn the foundation of TDD with a simple example explained in depth.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.ankushchoubey.com/images/tdd-backend-example.svg" /><media:content medium="image" url="https://www.ankushchoubey.com/images/tdd-backend-example.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
