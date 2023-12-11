@@ -112,3 +112,5 @@ const mountMovieList = (reactElement:ReactElement)=> {
  return new MovieListPageObject(wrapper);
 }
 ```
+
+{%- include tip.html content="A good rule of thumb is to make sure tests do not contain any CSS DOM Element Selectors. All selectors should be within the page object." -%}
